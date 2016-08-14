@@ -1,2 +1,11 @@
 # openbve-routes
-Collection of OpenBVE routes
+Collection and archive of OpenBVE .
+
+# More Information
+Information for each route can be found at https://mbblp.github.io/openbve/extensions.
+
+# Missing routes?
+If your route is missing or you have an old route archived, please make a pull request or write an email containing the zip to openbve-extensions@proxy-service.de!
+
+# License Problems
+You see your work licensed wrong in the README? Write an email to openbve-extensions@proxy-service.de.
