@@ -1,0 +1,399 @@
+;Moszkva tér állomás, bal 1
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;peron 1
+[MeshBuilder]
+Vertex -5.35,1.1,0
+Vertex -5.35,1.1,25
+Vertex -2.35,1.1,25
+Vertex -2.35,1.1,0
+Face 0,1,2,3
+[Texture]
+Load moszkva_peron_1.bmp
+Coordinates 0,1.24,25
+Coordinates 1,1.24,0
+Coordinates 2,0,0
+Coordinates 3,0,25
+
+;peron 2
+[MeshBuilder]
+Vertex -6.05,1.1,0
+Vertex -6.05,1.1,25
+Vertex -5.35,1.1,25
+Vertex -5.35,1.1,0
+Face 0,1,2,3
+[Texture]
+Load moszkva_peron_2.bmp
+Coordinates 0,1,25
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,25
+
+;sáv
+[MeshBuilder]
+Vertex -1.45,1.1,0
+Vertex -1.45,1.1,25
+Vertex -2.25,1.1,25
+Vertex -2.25,1.1,0
+Face 3,2,1,0
+[Texture]
+Load moszkva_peron_sav.bmp
+Coordinates 0,0,600
+Coordinates 1,0,0
+Coordinates 2,24,0
+Coordinates 3,24,600
+[MeshBuilder]
+Vertex -2.245,1.1,0
+Vertex -2.245,1.1,25
+Vertex -2.355,1.1,25
+Vertex -2.355,1.1,0
+Face 3,2,1,0
+color 160,160,160
+
+;peron eleje fent
+[MeshBuilder]
+Vertex -5.15,0.9,0
+Vertex -5.15,1.1,0
+Vertex -1.45,1.1,0
+Vertex -1.45,0.9,0
+Face 0,1,2,3
+color 64,64,64
+
+;peron eleje lent
+[MeshBuilder]
+Vertex -1.7,-0.3,0
+Vertex -1.7,.9,0
+Vertex -5.15,.9,0
+Vertex -5.15,-0.3,0
+Face 3,2,1,0
+color 50,50,50
+
+;--------------------------------------------------
+
+;Falak
+
+;Jobb oldali fal
+[MeshBuilder]
+Vertex  01.826, -00.20,  00.00
+Vertex  02.000, -00.05,  00.00
+Vertex  02.000,  01.50,  00.00
+Vertex  02.000,  01.50,  25.00
+Vertex  02.000, -00.05,  25.00
+Vertex  01.826, -00.20,  25.00
+Face 5,4,1,0
+Face 4,3,2,1
+[Texture]
+Load moszkva_fal_J_01.bmp
+Coordinates 0, 37.00, 01.00
+Coordinates 1, 37.00, 00.96
+Coordinates 2, 37.00, 00.00
+Coordinates 3, 00.00, 00.00
+Coordinates 4, 00.00, 00.96
+Coordinates 5, 00.00, 01.00
+
+[MeshBuilder]
+Vertex  02.000,  01.500,  00.00
+Vertex  02.000,  03.783,  00.00
+Vertex  02.000,  03.783,  25.00
+Vertex  02.000,  01.500,  25.00
+Face 3,2,1,0
+[Texture]
+Load moszkva_fal_J_02.bmp
+Coordinates 0, 39.00, 01.00
+Coordinates 1, 39.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+
+;jobb irány
+[MeshBuilder]
+vertex 1.721,4.083,12.6
+vertex 2.000,3.783,12.6
+vertex 1.721,4.083,0
+vertex 2.000,3.783,0
+face 3,1,0,2
+color 255,0,0
+
+;------------------------------
+
+;Bal fal
+
+[MeshBuilder]
+vertex -4.650,4.0,00
+vertex -4.650,4.0,09.01
+vertex -4.950,3.7,09.01
+vertex -4.950,3.7,00
+vertex -4.650,4.0,09.50
+vertex -4.650,4.0,17.26
+vertex -4.950,3.7,17.26
+vertex -4.950,3.7,09.50
+vertex -4.650,4.0,19.25
+vertex -4.650,4.0,25
+vertex -4.950,3.7,25
+vertex -4.950,3.7,19.25
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+color 255,0,0
+
+[MeshBuilder]
+Vertex -04.95,  01.10,  00.00
+Vertex -04.95,  03.70,  00.00
+Vertex -04.95,  03.70,  07.75
+Vertex -04.95,  01.10,  07.75
+Vertex -04.95,  01.10,  08.95
+Vertex -04.95,  03.70,  08.95
+Vertex -04.95,  03.70,  14.45
+Vertex -04.95,  01.10,  14.45
+Vertex -04.95,  01.10,  15.65
+Vertex -04.95,  03.70,  15.65
+Vertex -04.95,  03.70,  21.15
+Vertex -04.95,  01.10,  21.15
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+[Texture]
+Load moszkva_fal_B_01_a.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 12.00, 00.00
+Coordinates  3, 12.00, 01.00
+Coordinates  4, 00.00, 01.00
+Coordinates  5, 00.00, 00.00
+Coordinates  6, 09.00, 00.00
+Coordinates  7, 09.00, 01.00
+Coordinates  8, 00.00, 01.00
+Coordinates  9, 00.00, 00.00
+Coordinates 10, 09.00, 00.00
+Coordinates 11, 09.00, 01.00
+
+[MeshBuilder]
+Vertex -04.95,  01.10,  07.75
+Vertex -04.95,  03.70,  07.75
+Vertex -04.95,  03.70,  07.85
+Vertex -04.95,  01.10,  07.85
+Vertex -04.95,  01.10,  08.85
+Vertex -04.95,  03.70,  08.85
+Vertex -04.95,  03.70,  08.95
+Vertex -04.95,  01.10,  08.95
+Vertex -04.95,  01.10,  14.45
+Vertex -04.95,  03.70,  14.45
+Vertex -04.95,  03.70,  14.55
+Vertex -04.95,  01.10,  14.55
+Vertex -04.95,  01.10,  15.55
+Vertex -04.95,  03.70,  15.55
+Vertex -04.95,  03.70,  15.65
+Vertex -04.95,  01.10,  15.65
+Vertex -04.95,  01.10,  21.15
+Vertex -04.95,  03.70,  21.15
+Vertex -04.95,  03.70,  21.25
+Vertex -04.95,  01.10,  21.25
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Face 12,13,14,15
+Face 16,17,18,19
+[Texture]
+Load moszkva_fal_B_02.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 00.25, 00.00
+Coordinates  3, 00.25, 01.00
+Coordinates  4, 00.00, 01.00
+Coordinates  5, 00.00, 00.00
+Coordinates  6, 00.25, 00.00
+Coordinates  7, 00.25, 01.00
+Coordinates  8, 00.00, 01.00
+Coordinates  9, 00.00, 00.00
+Coordinates 10, 00.25, 00.00
+Coordinates 11, 00.25, 01.00
+Coordinates 12, 00.00, 01.00
+Coordinates 13, 00.00, 00.00
+Coordinates 14, 00.25, 00.00
+Coordinates 15, 00.25, 01.00
+Coordinates 16, 00.00, 01.00
+Coordinates 17, 00.00, 00.00
+Coordinates 18, 00.25, 00.00
+Coordinates 19, 00.25, 01.00
+
+[MeshBuilder]
+Vertex -5.45,1.10,21.25
+Vertex -5.45,3.70,21.25
+Vertex -5.45,3.70,23.05
+Vertex -5.45,1.10,23.05
+Face 00,01,02,03
+[Texture]
+Load moszkva_fal_B_03.bmp
+Coordinates 00, 00.0, 01.0
+Coordinates 01, 00.0, 00.0
+Coordinates 02, 03.0, 00.0
+Coordinates 03, 03.0, 01.0
+
+[MeshBuilder]
+Vertex -04.95,  01.10,  07.85
+Vertex -04.95,  03.40,  07.85
+Vertex -04.95,  03.40,  08.85
+Vertex -04.95,  01.10,  08.85
+Vertex -04.95,  01.10,  14.55
+Vertex -04.95,  03.40,  14.55
+Vertex -04.95,  03.40,  15.55
+Vertex -04.95,  01.10,  15.55
+Face 00,01,02,03
+Face 04,05,06,07
+[Texture]
+Load moszkva_ajto_01.bmp
+Coordinates  0, 01.00, 01.00
+Coordinates  1, 01.00, 00.00
+Coordinates  2, 00.00, 00.00
+Coordinates  3, 00.00, 01.00
+Coordinates  4, 01.00, 01.00
+Coordinates  5, 01.00, 00.00
+Coordinates  6, 00.00, 00.00
+Coordinates  7, 00.00, 01.00
+
+[MeshBuilder]
+Vertex -04.95,  03.40,  07.85
+Vertex -04.95,  03.70,  07.85
+Vertex -04.95,  03.70,  08.85
+Vertex -04.95,  03.40,  08.85
+Vertex -04.95,  03.40,  14.55
+Vertex -04.95,  03.70,  14.55
+Vertex -04.95,  03.70,  15.55
+Vertex -04.95,  03.40,  15.55
+Face 00,01,02,03
+Face 04,05,06,07
+[Texture]
+Load moszkva_fal_B_03.bmp
+Coordinates  0, 00.00, 00.19
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 00.19
+Coordinates  4, 00.00, 00.19
+Coordinates  5, 00.00, 00.00
+Coordinates  6, 01.00, 00.00
+Coordinates  7, 01.00, 00.19
+
+;--------------------------------------------------
+
+;Födém
+
+[MeshBuilder]
+vertex -4.95,3.70,00
+vertex -4.95,3.70,25
+vertex -6.05,3.70,25
+vertex -6.05,3.70,00
+face 0,1,2,3
+Color 138,138,138
+
+;--------------------------------------------------
+
+;Világítás
+
+[MeshBuilder]
+vertex -2.45,4.00,0
+vertex -2.45,4.00,25
+vertex -3.65,4.00,25
+vertex -3.65,4.00,0
+face 0,1,2,3
+Load moszkva_vilagitas_01.bmp
+coordinates 0,0,0
+coordinates 1,12,0
+coordinates 2,12,1
+coordinates 3,0,1
+
+;--------------------------------------------------
+
+;alagút pótlék elöl
+[MeshBuilder]
+Vertex 2,-0.17,0
+Vertex 2,4.0,0
+Vertex 2.5,4.0,0
+Vertex 2.5,-0.17,0
+face 0,1,2,3
+color 60,60,60
+
+;--------------------------------------------------
+
+;Belépni tilos tábla
+
+[meshbuilder]
+cylinder 8, 0.04, 0.04, 01.00
+color 112,97,80
+;color 145,130,91
+translate  -02.90, 01.60, 00.20
+
+[meshbuilder]
+cylinder 8, 0.02, 0.02, 00.60
+color 112,97,80
+rotate 0,0,1,90
+translate  -02.60, 02.04, 00.20
+
+[meshbuilder]
+cylinder 8, 0.02, 0.02, 00.60
+color 112,97,80
+rotate 0,0,1,90
+translate  -02.60, 01.96, 00.20
+
+[MeshBuilder]
+Vertex -2.42,1.70,00.20
+Vertex -2.42,2.30,00.20
+Vertex -1.82,2.30,00.20
+Vertex -1.82,1.70,00.20
+Face 0,1,2,3
+[Texture]
+Load ..\Tabla\tilos1b.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 51,51,51
+color 100,100,100
+
+;--------------------------------------------------
+
+;szöveg
+[MeshBuilder]
+Vertex -4.950,3.7,17.25
+Vertex -4.650,4.0,17.25
+Vertex -4.650,4.0,18.86
+Vertex -4.950,3.7,18.86
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FMoszkva.bmp
+Coordinates 0,0.24,1
+Coordinates 1,0.24,0
+Coordinates 2,0.76,0
+Coordinates 3,0.76,1
+
+;nyíl
+[MeshBuilder]
+Vertex -4.950,3.7,18.85
+Vertex -4.650,4.0,18.85
+Vertex -4.650,4.0,19.25
+Vertex -4.950,3.7,19.25
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil22.bmp
+Coordinates 0,0.15,1
+Coordinates 1,0.15,0
+Coordinates 2,0.85,0
+Coordinates 3,0.85,1
+
+;--------------------------------------------------
+
+;Exit felirat
+[MeshBuilder]
+Vertex -4.950,3.7,9
+Vertex -4.650,4.0,9
+Vertex -4.650,4.0,9.5
+Vertex -4.950,3.7,9.5
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Exit2.bmp
+Coordinates 0,0,0.8
+Coordinates 1,0,0.2
+Coordinates 2,1,0.2
+Coordinates 3,1,0.8

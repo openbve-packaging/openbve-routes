@@ -1,0 +1,57 @@
+CreateMeshBuilder,
+AddVertex,0.4, 6.0, 0.235
+AddVertex,0.6, 6.0, 0.235
+AddVertex,0.6,-0.0, 0.235
+AddVertex,0.4,-0.0, 0.235
+AddFace,0,1,2,3
+LoadTexture,../../EDtozai/pole/Tpole.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+Translate,-0.5
+
+CreateMeshBuilder,
+AddVertex,0.0, 5.35, 0.235
+AddVertex,1.2, 5.35, 0.235
+AddVertex,1.2, 5.25, 0.235
+AddVertex,0.0, 5.25, 0.235
+AddVertex,0.00, 4.70, 0.235
+AddVertex,0.00, 4.60, 0.235
+AddVertex,1.22, 5.15, 0.235
+AddVertex,1.22, 5.25, 0.235
+AddFace,0,1,2,3
+AddFace,7,6,5,4
+SetColor,126,126,126
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 1.72, 5.5, 0.23
+AddVertex, 2.98, 5.5, 0.23
+AddVertex, 2.98, 5.1, 0.23
+AddVertex, 1.72, 5.1, 0.23
+AddFace,0,1,2,3
+LoadTexture,(R)sig.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255
+Translate,-0.6,-0.05,0
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.59, 2.5, 0.23
+AddVertex,-0.09, 2.5, 0.23
+AddVertex,-0.09, 1.8, 0.23
+AddVertex,-0.59, 1.8, 0.23
+AddFace,0,1,2,3,
+LoadTexture,sigcross.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,253,253,253
+Translate,0,1,0

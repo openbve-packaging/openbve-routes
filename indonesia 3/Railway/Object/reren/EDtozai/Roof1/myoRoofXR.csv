@@ -1,0 +1,637 @@
+;âÆç™
+CreateMeshBuilder,
+AddVertex,-9.4, 4.73, -25.1,
+AddVertex,-8.2, 4.73, 0,
+AddVertex,-2.7, 4.73,-25.1,
+AddVertex,-2.7, 4.73, 0,
+AddFace,0,2,3,1,
+LoadTexture,myoroof1.bmp,
+SetTextureCoordinates,0, 6, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+Translate,1.3,1.5
+CreateMeshBuilder,
+AddVertex,-10.6, 4.73, -50.1,
+AddVertex,-9.4, 4.73, -25.1,
+AddVertex,-2.7, 4.73, -50.1,
+AddVertex,-2.7, 4.73, -25.1,
+AddFace,0,2,3,1,
+LoadTexture,myoroof1.bmp,
+SetTextureCoordinates,0, 6, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+Translate,1.3,1.5
+
+;âÆç™
+CreateMeshBuilder
+AddVertex,8.0, 4.73, -25.1
+AddVertex,6.2, 4.73, 0
+AddVertex,1.7, 4.73,-25.1
+AddVertex,1.7, 4.73, 0
+AddFace,1,3,2,0
+LoadTexture,myoroof1.bmp
+SetTextureCoordinates,0, 6, 0
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 6, 1
+SetTextureCoordinates,3, 0, 1
+GenerateNormals
+Translate,2.7,1.5
+CreateMeshBuilder
+AddVertex,9.2, 4.73, -50.1
+AddVertex,8.0, 4.73, -25.1
+AddVertex,1.7, 4.73, -50.1
+AddVertex,1.7, 4.73, -25.1
+AddFace,1,3,2,0
+LoadTexture,myoroof1.bmp
+SetTextureCoordinates,0, 6, 0
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 6, 1
+SetTextureCoordinates,3, 0, 1
+GenerateNormals
+Translate,2.7,1.5
+
+;âe
+CreateMeshBuilder,
+AddVertex,-9.55, 4.73, -0.02
+Addvertex,-5.10, 4.73, -0.25
+Addvertex,-5.18, 4.51, -0.25
+Addvertex,-9.35, 4.51, -0.02
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,3.7,1.5,-8.4
+CreateMeshBuilder,
+AddVertex,-9.80, 4.73, -0.02
+Addvertex,-4.50, 4.73, -0.29
+Addvertex,-4.58, 4.51, -0.29
+Addvertex,-9.65, 4.51, -0.02
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,3.1,1.5,-16.8
+CreateMeshBuilder,
+AddVertex,-10.00, 4.73, -0.02
+Addvertex,-3.90, 4.73, -0.27
+Addvertex,-3.98, 4.51, -0.27
+Addvertex,-9.85, 4.51, -0.02
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,2.5,1.5,-25.2
+CreateMeshBuilder,
+AddVertex,-10.20, 4.73, -0.02
+Addvertex,-3.45, 4.73, -0.27
+Addvertex,-3.53, 4.51, -0.27
+Addvertex,-10.05, 4.51, -0.02
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,2.05,1.5,-33.3
+CreateMeshBuilder,
+AddVertex,-10.35, 4.73, -0.02
+Addvertex,-3.00, 4.73, -0.27
+Addvertex,-3.08, 4.51, -0.27
+Addvertex,-10.20, 4.51, -0.02
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,1.6,1.5,-41.7
+CreateMeshBuilder,
+AddVertex,-10.60, 4.73, -0.02
+Addvertex,-2.70, 4.73, -0.27
+Addvertex,-2.78, 4.51, -0.27
+Addvertex,-10.45, 4.51, -0.02
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,1.3,1.5,-50.1
+
+CreateMeshBuilder,
+Addvertex,8.5, 0.12, -25
+AddVertex,8.5, 0.12, 25
+AddVertex,10.9, 0.12, 23
+Addvertex,10.9, 0.12, -27
+AddFace,0,1,2,3,
+Setcolor,40,40,42,150
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,0
+Translate,-5,-0.1,-25
+GenerateNormals,
+
+;äW
+CreateMeshBuilder,
+AddVertex,-9.6, 4.73, -50.1,
+AddVertex,-8.4, 4.73, -25.1,
+AddVertex,-7.2, 4.73, 0,
+AddVertex,-7.0, 4.43, 0,
+AddVertex,-8.2, 4.43, -25.1,
+AddVertex,-9.4, 4.43, -50.1,
+AddFace2,0,1,4,5
+AddFace2,1,2,3,4
+LoadTexture,kasai_R.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,9,0,
+SetTextureCoordinates,2,18,0,
+SetTextureCoordinates,3,18,1,
+SetTextureCoordinates,4,9,1,
+SetTextureCoordinates,5,0,1,
+GenerateNormals,
+Setcolor,150,150,150
+Translate,0.3,1.5
+CreateMeshBuilder,
+AddVertex,-2.7, 4.73, -50.1,
+AddVertex,-2.7, 4.73, 0,
+AddVertex,-2.8, 4.43, 0,
+AddVertex,-2.8, 4.43, -50.1,
+AddFace2,0,1,2,3
+LoadTexture,kasai_R.bmp
+SetTextureCoordinates,0, 18, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 18, 1,
+GenerateNormals,
+Translate,1.3,1.5
+Setcolor,120,170,250
+
+;äW
+CreateMeshBuilder,
+AddVertex,9.2, 4.73, -50.1,
+AddVertex,8.0, 4.73, -25.1,
+AddVertex,6.2, 4.73, 0,
+AddVertex,6.0, 4.43, 0,
+AddVertex,7.8, 4.43, -25.1,
+AddVertex,9.0, 4.43, -50.1,
+AddFace2,0,1,4,5
+AddFace2,1,2,3,4
+LoadTexture,kasai_R.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,9,0,
+SetTextureCoordinates,2,18,0,
+SetTextureCoordinates,3,18,1,
+SetTextureCoordinates,4,9,1,
+SetTextureCoordinates,5,0,1,
+GenerateNormals,
+Translate,2.7,1.5
+
+CreateMeshBuilder,
+AddVertex,1.7, 4.73, -50.1,
+AddVertex,1.7, 4.73, 0,
+AddVertex,1.9, 4.43, 0,
+AddVertex,1.9, 4.43, -50.1,
+AddFace2,0,1,2,3
+LoadTexture,kasai_R.bmp
+SetTextureCoordinates,0, 18, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 18, 1,
+GenerateNormals,
+Translate,2.7,1.5
+Setcolor,120,170,250
+
+;âe
+CreateMeshBuilder,
+AddVertex,-9.20, 4.73, -0.22
+Addvertex,-4.10, 4.73, -0.02
+Addvertex,-4.22, 4.51, -0.02
+Addvertex,-9.10, 4.51, -0.22
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,13.6,1.5,-8.4
+CreateMeshBuilder,
+AddVertex,-9.20, 4.73, -0.22
+Addvertex,-3.50, 4.73, -0.02
+Addvertex,-3.62, 4.51, -0.02
+Addvertex,-9.10, 4.51, -0.22
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,13.6,1.5,-16.8
+CreateMeshBuilder,
+AddVertex,-9.20, 4.73, -0.22
+Addvertex,-2.90, 4.73, -0.02
+Addvertex,-3.10, 4.51, -0.02
+Addvertex,-9.10, 4.51, -0.22
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,13.6,1.5,-25.2
+CreateMeshBuilder,
+AddVertex,-9.20, 4.73, -0.22
+Addvertex,-2.50, 4.73, -0.02
+Addvertex,-2.65, 4.51, -0.02
+Addvertex,-9.10, 4.51, -0.22
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,13.6,1.5,-33.3
+CreateMeshBuilder,
+AddVertex,-9.20, 4.73, -0.22
+Addvertex,-2.10, 4.73, -0.02
+Addvertex,-2.23, 4.51, -0.02
+Addvertex,-9.10, 4.51, -0.22
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,13.6,1.5,-41.7
+CreateMeshBuilder,
+AddVertex,-9.20, 4.73, -0.22
+Addvertex,-1.70, 4.73, -0.02
+Addvertex,-1.75, 4.51, -0.02
+Addvertex,-9.10, 4.51, -0.22
+AddFace,0,1,2,3
+Setcolor,40,40,40,150
+GenerateNormals,
+Translate,13.6,1.5,-50.1]
+
+;íå
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,1.25,-0.25,-4
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,1.25,-0.25,-12
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,1.25,-0.25,-20
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,1.25,-0.25,-28
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,1.25,-0.25,-36
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,1.25,-0.25,-42
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,1.25,-0.25,-50
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,-2.39,-0.25,-50
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,-2.19,-0.25,-42
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,-2.09,-0.25,-36
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,-1.90,-0.25,-28
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,-1.75,-0.25,-20
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,-1.50,-0.25,-12
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,-4.7, 6.43, 0,
+AddVertex,-4.3, 6.43, 0,
+AddVertex,-4.3, 1.10, 0,
+AddVertex,-4.7, 1.10, 0,
+AddFace2,0,1,2,3
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+Translate,-1.30,-0.25,-4
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+ADdVertex,-2.5, 4.0, -50
+AddVertex,-2.3, 4.1, -50
+AddVertex,-2.3, 4.1, 0
+AddVertex,-2.5, 4.0, 0
+ADdFace,0,1,2,3
+LoadTexture,../Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,6,0
+SetTextureCoordinates,3  ,6,1
+GenerateNormals,
+Translate,,1.5
+
+CreateMeshBuilder,
+ADdVertex,-2.3, 4.0, -50
+AddVertex,-2.5, 4.1, -50
+AddVertex,-2.5, 4.1, 0
+AddVertex,-2.3, 4.0, 0
+ADdFace,3,2,1,0
+LoadTexture,../Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,6,0
+SetTextureCoordinates,3  ,6,1
+GenerateNormals,
+Translate,8.2,1.5
+
+;íåâE
+CreateMeshBuilder
+AddVertex,4.7, 6.23, 0
+AddVertex,4.3, 6.23, 0
+AddVertex,4.3, 1.10, 0
+AddVertex,4.7, 1.10, 0
+AddFace2,3,2,1,0
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 1, 0
+GenerateNormals
+Translate,3.75,0,-50
+SetDecalTransparentColor,0,0,255
+CreateMeshBuilder
+AddVertex,4.7, 6.23, 0
+AddVertex,4.3, 6.23, 0
+AddVertex,4.3, 1.10, 0
+AddVertex,4.7, 1.10, 0
+AddFace2,3,2,1,0
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 1, 0
+GenerateNormals
+Translate,3.63,0,-42
+SetDecalTransparentColor,0,0,255
+CreateMeshBuilder
+AddVertex,4.7, 6.23, 0
+AddVertex,4.3, 6.23, 0
+AddVertex,4.3, 1.10, 0
+AddVertex,4.7, 1.10, 0
+AddFace2,3,2,1,0
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 1, 0
+GenerateNormals
+Translate,3.51,0,-36
+SetDecalTransparentColor,0,0,255
+CreateMeshBuilder
+AddVertex,4.7, 6.23, 0
+AddVertex,4.3, 6.23, 0
+AddVertex,4.3, 1.10, 0
+AddVertex,4.7, 1.10, 0
+AddFace2,3,2,1,0
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 1, 0
+GenerateNormals
+Translate,3.39,0,-28
+SetDecalTransparentColor,0,0,255
+CreateMeshBuilder
+AddVertex,4.7, 6.23, 0
+AddVertex,4.3, 6.23, 0
+AddVertex,4.3, 1.10, 0
+AddVertex,4.7, 1.10, 0
+AddFace2,3,2,1,0
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 1, 0
+GenerateNormals
+Translate,3.27,0,-20
+SetDecalTransparentColor,0,0,255
+CreateMeshBuilder
+AddVertex,4.7, 6.23, 0
+AddVertex,4.3, 6.23, 0
+AddVertex,4.3, 1.10, 0
+AddVertex,4.7, 1.10, 0
+AddFace2,3,2,1,0
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 1, 0
+GenerateNormals
+Translate,3.05,0,-12
+SetDecalTransparentColor,0,0,255
+CreateMeshBuilder
+AddVertex,4.7, 6.23, 0
+AddVertex,4.3, 6.23, 0
+AddVertex,4.3, 1.10, 0
+AddVertex,4.7, 1.10, 0
+AddFace2,3,2,1,0
+LoadTexture,myoroof_a1.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 1, 0
+GenerateNormals
+Translate,2.8,0,-4
+SetDecalTransparentColor,0,0,255
+
+
+CreateMeshBuilder,
+AddVertex, 2.90, 5.80, -0.05
+AddVertex, 2.90, 8.2, -0.05
+AddVertex, 0.05, 8.2, -0.05
+AddVertex, 0.05, 5.80, -0.05
+AddFace,3,2,1,0
+LoadTexture,../pole/poleB1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+SetDecalTransparentColor,0,0,255,
+Translate,0,0,-25
+CreateMeshBuilder
+AddVertex, 3.90, 4.75, -0.05
+AddVertex, 3.90, 5.75, -0.05
+AddVertex,-1.05, 5.75, -0.05
+AddVertex,-1.05, 4.75, -0.05
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../pole/poleA3.bmp
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0.3
+SetTextureCoordinates,2,0,0.3
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor, 255, 0, 0
+Translate,0,0,-25
+
+CreateMeshBuilder,
+AddVertex, 2.90, 5.80, -0.05
+AddVertex, 2.90, 8.2, -0.05
+AddVertex, 0.05, 8.2, -0.05
+AddVertex, 0.05, 5.80, -0.05
+AddFace,3,2,1,0
+LoadTexture,../pole/poleB1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+GenerateNormals,
+SetDecalTransparentColor,0,0,255,
+Translate,0,0,-50
+CreateMeshBuilder
+AddVertex, 3.90, 4.75, -0.05
+AddVertex, 3.90, 5.75, -0.05
+AddVertex,-1.05, 5.75, -0.05
+AddVertex,-1.05, 4.75, -0.05
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../pole/poleA3.bmp
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0.3
+SetTextureCoordinates,2,0,0.3
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor, 255, 0, 0
+Translate,0,0,-50

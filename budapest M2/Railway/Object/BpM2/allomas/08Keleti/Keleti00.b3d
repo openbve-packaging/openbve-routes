@@ -1,0 +1,258 @@
+;Keleti pályaudvar állomás, peron
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;peron sáv
+[MeshBuilder]
+Vertex -1.45,1.1,0
+Vertex -1.45,1.1,25
+Vertex -2.25,1.1,25
+Vertex -2.25,1.1,0
+Face 3,2,1,0
+[Texture]
+Load Keleti_peron_sav.bmp
+Coordinates 0,0,600
+Coordinates 1,0,0
+Coordinates 2,24,0
+Coordinates 3,24,600
+
+[MeshBuilder]
+Vertex -1.7,-0.3,0
+Vertex -1.7,-0.3,25
+Vertex -1.7,1.09,25
+Vertex -1.7,1.09,0
+Face 3,2,1,0
+[Texture]
+Load Keleti_peron_oldal.bmp
+Coordinates 0,12,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,12,0
+
+;oldalszéle
+[MeshBuilder]
+Vertex -1.45,1.1,0
+Vertex -1.45,1.1,25
+Vertex -1.45,.9,25
+Vertex -1.45,.9,0
+Face 0,1,2,3
+color 96,96,96
+
+;--------------------------------------------------
+
+;Világítás
+
+;oldala
+[MeshBuilder]
+vertex -2.15,4.4,0
+vertex -2.15,4.4,25
+vertex -2.15,4.082,25
+vertex -2.15,4.082,0
+face 0,1,2,3
+color 128,128,128
+
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,1.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,3.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,6.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,8.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,11.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,13.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,16.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,18.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,21.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -2.45,4.782,23.75
+color 96,96,96
+
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,1.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,3.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,6.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,8.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,11.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,13.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,16.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,18.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,21.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.65,0.02
+translate -3.05,4.782,23.75
+color 96,96,96
+
+;--------------------------------------------------
+
+;Tetõ
+
+;tetõ_1
+[MeshBuilder]
+vertex -1.350,5.600,0
+vertex -0.898,5.571,0
+vertex -0.453,5.485,0
+vertex -0.022,5.342,0
+vertex  0.387,5.146,0
+vertex  0.767,4.900,0
+vertex  1.113,4.607,0
+vertex  1.419,4.272,0
+vertex  1.679,3.901,0
+vertex  1.888,3.500,0
+vertex -1.350,5.600,25
+vertex -0.898,5.571,25
+vertex -0.453,5.485,25
+vertex -0.022,5.342,25
+vertex  0.387,5.146,25
+vertex  0.767,4.900,25
+vertex  1.113,4.607,25
+vertex  1.419,4.272,25
+vertex  1.679,3.901,25
+vertex  1.888,3.500,25
+Face 01,11,10,00
+Face 02,12,11,01
+Face 03,13,12,02
+Face 04,14,13,03
+Face 05,15,14,04
+Face 06,16,15,05
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,19,18,08
+Load Keleti_teto_01.bmp
+coordinates 00,00,0.00
+coordinates 01,00,0.11
+coordinates 02,00,0.22
+coordinates 03,00,0.33
+coordinates 04,00,0.44
+coordinates 05,00,0.56
+coordinates 06,00,0.67
+coordinates 07,00,0.78
+coordinates 08,00,0.89
+coordinates 09,00,1.00
+coordinates 10,60,0.00
+coordinates 11,60,0.11
+coordinates 12,60,0.22
+coordinates 13,60,0.33
+coordinates 14,60,0.44
+coordinates 15,60,0.56
+coordinates 16,60,0.67
+coordinates 17,60,0.78
+coordinates 18,60,0.89
+coordinates 19,60,1.00
+
+;tetõ_2
+[MeshBuilder]
+vertex -1.35,5.388,00
+vertex -1.35,5.600,00
+vertex -1.35,5.600,25
+vertex -1.35,5.388,25
+face 0,1,2,3
+Color 90,90,80
+
+;tetõ_3
+[MeshBuilder]
+vertex -4.252,3.700,0
+vertex -4.039,4.028,0
+vertex -3.790,4.328,0
+vertex -3.507,4.598,0
+vertex -3.194,4.832,0
+vertex -2.857,5.029,0
+vertex -2.499,5.184,0
+vertex -2.125,5.297,0
+vertex -1.740,5.365,0
+vertex -1.350,5.388,0
+vertex -4.252,3.700,25
+vertex -4.039,4.028,25
+vertex -3.790,4.328,25
+vertex -3.507,4.598,25
+vertex -3.194,4.832,25
+vertex -2.857,5.029,25
+vertex -2.499,5.184,25
+vertex -2.125,5.297,25
+vertex -1.740,5.365,25
+vertex -1.350,5.388,25
+;Face 01,11,10,00
+Face 02,12,11,01
+Face 03,13,12,02
+Face 04,14,13,03
+Face 05,15,14,04
+Face 06,16,15,05
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,19,18,08
+Load Keleti_teto_02.bmp
+coordinates 00,00,0.00
+coordinates 01,00,0.11
+coordinates 02,00,0.22
+coordinates 03,00,0.33
+coordinates 04,00,0.44
+coordinates 05,00,0.56
+coordinates 06,00,0.67
+coordinates 07,00,0.78
+coordinates 08,00,0.89
+coordinates 09,00,1.00
+coordinates 10,12,0.00
+coordinates 11,12,0.11
+coordinates 12,12,0.22
+coordinates 13,12,0.33
+coordinates 14,12,0.44
+coordinates 15,12,0.56
+coordinates 16,12,0.67
+coordinates 17,12,0.78
+coordinates 18,12,0.89
+coordinates 19,12,1.00
+
+;--------------------------------------------------

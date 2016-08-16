@@ -1,0 +1,49 @@
+[Meshbuilder]
+Vertex 0.0, -0.4, 0.30
+Vertex 0.0, 1.6, 0.30
+Vertex 0.0, 1.6, 0
+Vertex 0.0, -0.4, 0
+Face 0,1,2,3
+[Texture]
+Load ajtobal1.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+Emissivecolor 60,60,60
+
+[Meshbuilder]
+Vertex 0.002, -0.4, 0.30
+Vertex 0.002, 1.6, 0.30
+Vertex 0.002, 1.6, 0
+Vertex 0.002, -0.4, 0
+Face 3,2,1,0
+[Texture]
+Load ajtobalbel1.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+Emissivecolor 60,60,60
+
+[Meshbuilder];----------------ajto csík jobb
+Cylinder 3,0.0275,0.0275,2
+Color 128,128,128
+Emissivecolor 20,20,20
+Rotate 0,1,0,0
+Translate 0.015,0.6, 0.28
+
+
+[Meshbuilder]
+Vertex 0.001, -0.35, 0.30
+Vertex 0.001, 1.5, 0.30
+Vertex 0.001, 1.5, 0
+Vertex 0.001, -0.35, 0
+Face2 3,2,1,0
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Color 92,92,92,80

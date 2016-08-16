@@ -1,0 +1,123 @@
+;Készítette: mamutsegg
+
+
+[Meshbuilder]
+Cube 1, 0.03, 0.04
+Translate 0, 0.170, 0.04
+[texture]
+load sin3.bmp
+coordinates 0, 0, 0
+coordinates 1, 0, 1
+coordinates 2, 1, 1
+coordinates 3, 1, 0
+coordinates 4, 0, 0
+coordinates 5, 0, 1
+coordinates 6, 1, 1
+coordinates 7, 1, 0
+
+[meshbuilder]
+vertex -1, 0.01, 0.04
+vertex 1, 0.01, 0.04
+vertex 1, 0.170, 0.04
+vertex -1, 0.170, 0.04
+face2 3,2,1,0
+[texture]
+load sin3.bmp
+coordinates 0, 0, 0
+coordinates 1, 0, 1
+coordinates 2, 1, 1
+coordinates 3, 1, 0
+
+[meshbuilder]
+vertex -1, 0.01, 0
+vertex -1, 0.01, 0.08
+vertex 1, 0.01, 0.08
+vertex 1, 0.01, 0
+face 0,1,2,3
+[texture]
+load sin3.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[Meshbuilder]
+Cube 1, 0.03, 0.04
+Translate 0, 0.170, 0.18
+load sin3.bmp
+coordinates 0, 0, 0
+coordinates 1, 0, 1
+coordinates 2, 1, 1
+coordinates 3, 1, 0
+coordinates 4, 0, 0
+coordinates 5, 0, 1
+coordinates 6, 1, 1
+coordinates 7, 1, 0
+
+[meshbuilder]
+vertex -1, 0.01, 0.18
+vertex 1, 0.01, 0.18
+vertex 1, 0.170, 0.18
+vertex -1, 0.170, 0.18
+face2 3,2,1,0
+[texture]
+load sin3.bmp
+coordinates 0, 0, 0
+coordinates 1, 0, 1
+coordinates 2, 1, 1
+coordinates 3, 1, 0
+
+[meshbuilder]
+vertex -1, 0.01, 0.14
+vertex -1, 0.01, 0.22
+vertex 1, 0.01, 0.22
+vertex 1, 0.01, 0.14
+face 0,1,2,3
+[texture]
+load sin3.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex -0.25, 1.25, 0.675
+Vertex 0.25, 1.25, 0.675
+Vertex 0.25, 0.75, 0.675
+Vertex -0.25, 0.75, 0.675
+Face 0, 1, 2, 3
+[Texture]
+Load allj.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 64, 64, 64
+
+[Meshbuilder]
+Vertex 0.25, 1.25, 0.675
+Vertex -0.25, 1.25, 0.675
+Vertex -0.25, 0.75, 0.675
+Vertex 0.25, 0.75, 0.675
+Face 0, 1, 2, 3
+[Texture]
+Load alljhat.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Cylinder 12, 0.075, 0.075, 0.1
+Color 208, 208, 208
+Translate 0, 1, 0.75
+
+[Meshbuilder]
+Cylinder 12, 0.05, 0.05, 1
+Color 128, 128, 128
+Translate 0, 0.65, 0.75
+
+[Meshbuilder]
+Cube 0.26, 0.2, 0.26
+Color 128, 128, 128
+Translate 0, 0, 0.75

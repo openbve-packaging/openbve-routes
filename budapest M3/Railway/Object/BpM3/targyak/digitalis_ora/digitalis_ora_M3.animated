@@ -1,0 +1,21 @@
+﻿[Object]
+States = Ora_Alap.b3d
+
+[Object]
+States = Ido_Masodperc.b3d
+TextureShiftYFunction = floor[time] / 60
+
+[Object]
+States = Ido_Perc.b3d
+Position = 0,0,-0.002
+TextureShiftYFunction = floor[time / 60] / 60
+
+[Object]
+States = Ido_Ora.b3d
+Position = 0,0,-0.002
+TextureShiftYFunction = floor[time / 3600] / 24
+
+[Object]
+States = Ido_Elvalaszto.b3d
+Position = 0,0,-0.002
+TextureShiftYFunction = floor[time * 2] / 2

@@ -1,0 +1,61 @@
+[MeshBuilder]
+Vertex -30,-10, 50
+Vertex 30, -10, 50
+Vertex 30, -10, 0
+Vertex -30,-10, 0
+Face 0, 1, 2, 3
+[Texture]
+Load verde.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 15, 0
+Coordinates 2, 15, 15
+Coordinates 3, 0, 15
+
+
+
+
+
+[Meshbuilder] 
+Vertex 33,   18,5
+Vertex  6,   18,5
+Vertex  6,-10,6
+Vertex 33,-10,6
+Face 3,2,1,0
+[Texture]
+Load albero1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+[Meshbuilder] 
+Vertex 32,   18,15
+Vertex  5,   18,15
+Vertex  5,-10,16
+Vertex 32,-10,16
+Face 3,2,1,0
+[Texture]
+Load albero2.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,0
+
+[Meshbuilder] 
+Vertex 35,   18,25
+Vertex 11,   18,25
+Vertex 11,-10,25
+Vertex 35,-10,25
+Face 3,2,1,0
+[Texture]
+Load albero3.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+
+

@@ -1,0 +1,31 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green & Keith Hazelton
+;Sign Texture by (C) Richard Gellman (ELL) with Permission
+
+CreateMeshBuilder,
+AddVertex,2.5, 1.6, 0,
+AddVertex,1.2, 1.6, 0,
+AddVertex,1.2, 0.5, 0,
+AddVertex,2.5, 0.5, 0,
+AddFace2,3,2,1,0,
+GenerateNormals,
+LoadTexture,sign_endguard2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+CreateMeshBuilder,
+AddVertex,2.31, 1.54, 0,
+AddVertex,1.82, 1.54, -0,
+AddVertex,1.82, 0.57, -00
+AddVertex,2.31, 0.57, -00
+AddFace2,3,2,1,0,
+GenerateNormals,
+LoadTexture,lu-gate.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+

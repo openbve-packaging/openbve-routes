@@ -1,0 +1,174 @@
+;Converted from CSV by BVE FILE CONVERTER
+
+;Converted from B3D by BVE FILE CONVERTER
+ 
+
+[MeshBuilder]
+Vertex   3.65 , -0.17 , -75 
+Vertex   3.65 , -0.175 ,  25.5 
+Vertex   6.35 , -0.175 ,  25.5 
+Vertex   6.35 , -0.17 , -75
+Face   0, 1, 2, 3
+[Texture]
+Load   schwellen4.bmp
+Coordinates   0, -0.02, 40
+Coordinates   1, -0.02, 0
+Coordinates   2, 1.02, 0
+Coordinates   3, 1.02, 40
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex   2.2 , -0.4 , -75 
+Vertex   2.2 , -0.405 ,  25.5 
+Vertex   3.65 , -0.175 ,  25.5 
+Vertex   3.65 , -0.17 , -75
+Face   0, 1, 2, 3
+[Texture]
+Load   schotter4.bmp
+Coordinates   0, 0, 40
+Coordinates   1, 0, 0
+Coordinates   2, 1, 0
+Coordinates   3, 1, 40
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex   6.35 , -0.175 ,  25.5 
+Vertex   7.8 , -0.405 ,  25.5 
+Vertex   7.8 , -0.4 , -75 
+Vertex   6.35 , -0.17 , -75 
+Face   0,1,2,3
+[Texture]
+Load   schotter4.bmp
+Coordinates   0, 0, 0
+Coordinates   1, 1, 0
+Coordinates   2, 1,40
+Coordinates   3, 0,40
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex   4.2 ,  0 , -75
+Vertex   4.2 ,  0 ,  25.4 
+Vertex   4.28 ,  0 ,  25.4 
+Vertex   4.28 ,  0 , -75
+Face   0, 1, 2, 3
+Color 50,50,45
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex   5.72 ,  0 , -75
+Vertex   5.72 ,  0 ,  25.3 
+Vertex   5.8 ,  0 ,  25.3 
+Vertex   5.8 ,  0 , -75
+Face   0, 1, 2, 3
+Color 50,50,45
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex   5.76 ,  0 ,  25.3 
+Vertex   5.76 ,  0 , -75
+Vertex   5.76 , -0.17 , -75
+Vertex   5.76 , -0.17 ,  25.3 
+Face   0,1,2,3
+Face   1,0,3,2
+Color   60,40,30
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex   4.24 ,  0 , -75 
+Vertex   4.24 ,  0 ,  25.3 
+Vertex   4.24 , -0.17 ,  25.3 
+Vertex   4.24 , -0.17 , -75 
+Face   0,1,2,3
+Face   1,0,3,2
+Color   60,40,30
+Translate 0,0,-50
+
+
+
+ 
+
+[MeshBuilder]
+Vertex  8.65 , -0.17 , -75 
+Vertex  8.65 , -0.175 ,  25.5 
+Vertex  11.35 , -0.175 ,  25.5 
+Vertex  11.35 , -0.17 , -75 
+Face   0, 1, 2, 3
+[Texture]
+Load   schwellen4.bmp
+Coordinates   0, -0.02, 60
+Coordinates   1, -0.02, 0
+Coordinates   2, 1.02, 0
+Coordinates   3, 1.02, 60
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex  7.2 , -0.4 , -75 
+Vertex  7.2 , -0.405 ,  25.5 
+Vertex  8.65 , -0.175 ,  25.5 
+Vertex  8.65 , -0.17 , -75 
+Face   0, 1, 2, 3
+[Texture]
+Load   schotter4.bmp
+Coordinates   0, 0, 60
+Coordinates   1, 0, 0
+Coordinates   2, 1, 0
+Coordinates   3, 1, 60
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex  11.35 , -0.175 ,  25.5 
+Vertex  12.8 , -0.405 ,  25.5 
+Vertex  12.8 , -0.4 , -75 
+Vertex  11.35 , -0.17 , -75 
+Face   0,1,2,3
+[Texture]
+Load   schotter4.bmp
+Coordinates   0, 0, 0
+Coordinates   1, 1, 0
+Coordinates   2, 1,60
+Coordinates   3, 0,60
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex  9.2 ,  0 , -75 
+Vertex  9.2 ,  0 ,  25.4 
+Vertex  9.28 ,  0 ,  25.4 
+Vertex  9.28 ,  0 , -75 
+Face   0, 1, 2, 3
+Color 50,50,45
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex  10.72 ,  0 , -75 
+Vertex  10.72 ,  0 ,  25.3 
+Vertex  10.8 ,  0 ,  25.3 
+Vertex  10.8 ,  0 , -75 
+Face   0, 1, 2, 3
+Color 50,50,45
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex  10.76 ,  0 ,  25.3 
+Vertex  10.76 ,  0 , -75 
+Vertex  10.76 , -0.17 , -75 
+Vertex  10.76 , -0.17 ,  25.3 
+Face   0,1,2,3
+Face   1,0,3,2
+Color   60,40,30
+Translate 0,0,-50
+
+[MeshBuilder]
+Vertex  9.24 ,  0 , -75 
+Vertex  9.24 ,  0 ,  25.3 
+Vertex  9.24 , -0.17 ,  25.3 
+Vertex  9.24 , -0.17 , -75 
+Face   0,1,2,3
+Face   1,0,3,2
+Color   60,40,30
+Translate 0,0,-50
+
+
+
+
+
+

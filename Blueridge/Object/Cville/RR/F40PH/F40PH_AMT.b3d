@@ -1,0 +1,520 @@
+;EMD F40PH Amtrak livery. Object v1.1
+;Object and textures Copyright 2002-2004 Oskari Saarekas
+;(lopomo@mbnet.fi)
+
+;This object for Michael Goetz, only he is allowed to
+;modify and distribute this object and the related bitmaps
+;in his routes. Others must ask permission from the author
+;first (for any kind of distribution).
+
+
+;left wall
+[MeshBuilder]
+Vertex -1.5, 4, 7.2
+Vertex -1.5, 4, -6.5
+Vertex -1.5, 3.1, -6.7
+Vertex -1.5, 1.3, -6.7
+Vertex -1.5, 1.3, 7.2
+Face 0,1,2,4
+Face 4,2,3
+[Texture]
+Load f40side_amt.bmp
+Coordinates 0, 0, 0.003
+Coordinates 1, 0.985, 0.003
+Coordinates 2, 0.999, 0.167
+Coordinates 3, 0.999, 0.497
+Coordinates 4, 0, 0.497
+
+
+;right wall
+[MeshBuilder]
+Vertex 1.5, 4, 7.2
+Vertex 1.5, 4, -6.5
+Vertex 1.5, 3.1, -6.7
+Vertex 1.5, 1.3, -6.7
+Vertex 1.5, 1.3, 7.2
+Face 4,2,1,0
+Face 3,2,4
+[Texture]
+Load f40side_amt.bmp
+Coordinates 0, 1, 0.503
+Coordinates 1, 0.015, 0.503
+Coordinates 2, 0.001, 0.667
+Coordinates 3, 0.001, 0.997
+Coordinates 4, 1, 0.997
+
+
+;front windows
+[MeshBuilder]
+Vertex -1.5, 3.1, -6.7
+Vertex -1.5, 4, -6.5
+Vertex -0.9, 4.6, -6.6
+Vertex 0, 4.6, -6.9
+Vertex 0.9, 4.6, -6.6
+Vertex 1.5, 4, -6.5
+Vertex 1.5, 3.1, -6.7
+Vertex 0, 3.3, -7.1
+Vertex 0, 4, -6.9
+
+Face 0,1,8,7
+Face 1,2,3,8
+Face 8,3,4,5
+Face 7,8,5,6
+
+[Texture]
+Load F40frontup_amt.bmp
+Coordinates 0, 0, 0.5
+Coordinates 1, 0, 0.2188
+Coordinates 2, 0.2, 0
+Coordinates 3, 0.5, 0
+Coordinates 4, 0.8, 0
+Coordinates 5, 1, 0.2188
+Coordinates 6, 1, 0.5
+Coordinates 7, 0.5, 0.4335
+Coordinates 8, 0.5, 0.2188
+
+
+;nose top
+[MeshBuilder]
+Vertex -1.5, 3.1, -6.7
+Vertex 0, 3.3, -7.1
+Vertex 1.5, 3.1, -6.7
+Vertex 1.5, 3, -7.8
+Vertex 0, 3.2, -8.2
+Vertex -1.5, 3, -7.8
+;Vexi
+
+Face 0,1,4,5
+Face 1,2,3,4
+
+[Texture]
+Load F40frontup_amt.bmp
+Coordinates 0, 0, 0.5
+Coordinates 1, 0.5, 0.5
+Coordinates 2, 1, 0.5
+Coordinates 3, 1, 1
+Coordinates 4, 0.5, 1
+Coordinates 5, 0, 1
+
+
+;nose
+[MeshBuilder]
+Vertex -1.5, 1.3, -6.7
+Vertex -1.5, 3.1, -6.7
+Vertex 1.5, 3.1, -6.7
+Vertex 1.5, 1.3, -6.7
+
+Vertex -1.5, 1.3, -8
+Vertex -1.5, 3, -7.8
+Vertex 0, 3.2, -8.2
+Vertex 1.5, 3, -7.8
+Vertex 1.5, 1.3, -8
+Vertex 0, 1.3, -8.4
+
+Face 0,1,5,4
+Face 4,5,6,9
+Face 9,6,7,8
+Face 8,7,2,3
+
+[Texture]
+Load f40front_amt.bmp
+Coordinates 0, 0, 0.995
+Coordinates 1, 0, 0.333
+Coordinates 2, 1, 0.333
+Coordinates 3, 1, 0.995
+Coordinates 4, 0.25, 0.995
+Coordinates 5, 0.25, 0.36
+Coordinates 6, 0.5, 0.3
+Coordinates 7, 0.749, 0.36
+Coordinates 8, 0.749, 0.995
+Coordinates 9, 0.5, 0.995
+
+
+;plow
+[MeshBuilder]
+Vertex -1.2, 0.2, -8.1
+Vertex -1.5, 0.5, -7.9
+Vertex -1.4, 1.2, -8.1
+Vertex 0, 1.1, -8.3
+Vertex 1.4, 1.2, -8.1
+Vertex 1.5, 0.5, -7.9
+Vertex 1.2, 0.2, -8.1
+Vertex 0, 0.2, -8.3
+
+Face2 0,1,2,3
+Face2 3,4,5,6
+Face2 0,3,7
+Face2 3,6,7
+;Feissi
+
+[Texture]
+Load F40plows_amt.bmp
+Coordinates 0, 0.1, 0.5
+Coordinates 1, 0, 0.35
+Coordinates 2, 0.0333, 0
+Coordinates 3, 0.5, 0.05
+Coordinates 4, 0.9667, 0
+Coordinates 5, 1, 0.35
+Coordinates 6, 0.9, 0.5
+Coordinates 7, 0.5, 0.5
+
+
+;rear wall
+[MeshBuilder]
+Vertex -1.5, 1.3, 7.2
+Vertex -1.5, 4, 7.2
+Vertex -0.9, 4.6, 7.36
+Vertex 0, 4.6, 7.6
+Vertex 0.9, 4.6, 7.36
+Vertex 1.5, 4, 7.2
+Vertex 1.5, 1.3, 7.2
+Vertex 0, 1.3, 7.6
+
+Face 7,2,1,0
+Face 7,3,2
+Face 7,4,3
+Face 7,6,5,4
+
+[Texture]
+Load f40rear_amt.bmp
+Coordinates 0, 1, 0.995
+Coordinates 1, 1, 0.185
+Coordinates 2, 0.8, 0.005
+Coordinates 3, 0.5, 0.005
+Coordinates 4, 0.2, 0.005
+Coordinates 5, 0, 0.185
+Coordinates 6, 0, 0.995
+Coordinates 7, 0.5, 0.995
+
+
+;rear porch
+[MeshBuilder]
+Vertex -1.5, 1.3, 8.3
+Vertex -1.5, 1.4, 8.3
+Vertex 1.5, 1.4, 8.3
+Vertex 1.5, 1.3, 8.3
+
+Vertex -1.5, 1.3, 7.2
+Vertex -1.5, 1.4, 7.2
+Vertex 1.5, 1.4, 7.2
+Vertex 1.5, 1.3, 7.2
+
+Face 0,1,5,4
+Face 1,2,6,5
+Face 7,6,2,3
+Face 3,2,1,0
+
+[Texture]
+Load f40grapling_amt.bmp
+Coordinates 0, 16, 6
+Coordinates 1, 15, 6
+Coordinates 2, 0, 6
+Coordinates 3, -1, 6
+Coordinates 4, 16, 0
+Coordinates 5, 15, 0
+Coordinates 6, 0, 0
+Coordinates 7, -1, 0
+
+
+;railing
+[MeshBuilder]
+Vertex -1.5, 1.4, 7.8
+Vertex -1.5, 1.4, 8.3
+Vertex 1.5, 1.4, 8.3
+Vertex 1.5, 1.4, 7.8
+
+Vertex -1.5, 2.4, 7.8
+Vertex -1.5, 2.4, 8.3
+Vertex 1.5, 2.4, 8.3
+Vertex 1.5, 2.4, 7.8
+
+Face2 1,0,4,5
+Face2 2,1,5,6
+Face2 3,2,6,7
+
+[Texture]
+Load f40railing_amt.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 0.875, 1
+Coordinates 2, 0.125, 1
+Coordinates 3, 0, 1
+;Koordi
+
+Coordinates 4, 1, 0
+Coordinates 5, 0.875, 0
+Coordinates 6, 0.125, 0
+Coordinates 7, 0, 0
+Transparent 0,0,0
+
+
+;bottom
+[MeshBuilder]
+Vertex -1.5, 1.3, 8.3
+Vertex -1.5, 1.3, -8
+Vertex 0, 1.3, -8.4
+Vertex 1.5, 1.3, -8
+Vertex 1.5, 1.3, 8.3
+
+Vertex 0, 1, 7.6
+Vertex 0, 1, -7.8
+
+Face 0,1,6,5
+Face 1,2,3,6
+Face 3,4,5,6
+Face 0,5,4
+Color 0,0,0
+
+
+;roof
+[MeshBuilder]
+Vertex -1.5, 4, 7.2
+Vertex -0.9, 4.6, 7.36
+Vertex 0, 4.6, 7.6
+Vertex 0.9, 4.6, 7.36
+Vertex 1.5, 4, 7.2
+
+Vertex -1.5, 4, -6.5
+Vertex -0.9, 4.6, -6.6
+Vertex 0, 4.6, -6.9
+Vertex 0.9, 4.6, -6.6
+Vertex 1.5, 4, -6.5
+
+Face 0,1,6,5
+Face 1,2,7,6
+Face 2,3,8,7
+Face 3,4,9,8
+
+[Texture]
+Load f40roof_amt.bmp
+Coordinates 0, 1, 0.005
+Coordinates 1, 1.011, 0.2
+Coordinates 2, 1.029, 0.5
+Coordinates 3, 1.011, 0.8
+Coordinates 4, 1, 0.995
+
+Coordinates 5, 0.015, 0.005
+Coordinates 6, 0.008, 0.2
+Coordinates 7, -0.014, 0.5
+Coordinates 8, 0.008, 0.8
+Coordinates 9, 0.015, 0.995
+
+
+;front bogie
+;right
+[MeshBuilder]
+Vertex 1, 1.1, -7
+Vertex 1, 1.1, -2.5
+Vertex 0.9, 0, -2.5
+Vertex 0.9, 0, -7
+Face2 0,1,2,3
+[Texture]
+Load F40bogie_amt.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;left
+[MeshBuilder]
+Vertex -1, 1.1, -7
+Vertex -1, 1.1, -2.5
+Vertex -0.9, 0, -2.5
+Vertex -0.9, 0, -7
+Face2 3,2,1,0
+;Pexa
+[Texture]
+Load F40bogie_amt.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+
+;fuel tank
+;sides
+[MeshBuilder]
+Vertex -1.2, 0.2, -2.2
+Vertex -1.45, 0.8, -2.2
+Vertex -1.5, 1.3, -2.2
+Vertex 1.5, 1.3, -2.2
+Vertex 1.45, 0.8, -2.2
+Vertex 1.2, 0.2, -2.2
+
+Vertex -1.2, 0.2, -0.2
+Vertex -1.45, 0.8, -0.2
+Vertex -1.5, 1.3, -0.2
+Vertex 1.5, 1.3, -0.2
+Vertex 1.45, 0.8, -0.2
+Vertex 1.2, 0.2, -0.2
+
+Face 6,7,1,0
+Face 7,8,2,1
+Face 4,3,9,10
+Face 5,4,10,11
+
+Face 0,1,4,5
+Face 1,2,3,4
+Face 11,10,7,6
+Face 10,9,8,7
+
+[Texture]
+Load f40fuel_amt.bmp
+Coordinates 0, 0.5, 1
+Coordinates 1, 0.5, 0.45
+Coordinates 2, 0.5, 0
+Coordinates 3, 0.5, 0
+Coordinates 4, 0.5, 0.45
+Coordinates 5, 0.5, 1
+
+Coordinates 6, 1, 1
+Coordinates 7, 1, 0.45
+Coordinates 8, 1, 0
+Coordinates 9, 1, 0
+Coordinates 10, 1, 0.45
+Coordinates 11, 1, 1
+
+
+;rear underframe box
+;left
+[MeshBuilder]
+Vertex -1.3, 1.3, 2.2
+Vertex -1.3, 1.3, 0.2
+Vertex -1.3, 0.2, 0.2
+Vertex -1.3, 0.2, 2.2
+Vertex 1.3, 1.3, 2.2
+Vertex 1.3, 1.3, 0.2
+Vertex 1.3, 0.2, 0.2
+Vertex 1.3, 0.2, 2.2
+
+Vertex -1.3, 1.3, 2.2
+Vertex -1.3, 0.2, 2.2
+
+Face 0,1,2,3
+Face 2,1,5,6
+Face 7,6,5,4
+Face 7,4,8,9
+
+[Texture]
+Load f40box_amt.bmp
+Coordinates 0, 0.5, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0.5, 1
+Coordinates 4, 2, 0
+Coordinates 5, 1.5, 0
+Coordinates 6, 1.5, 1
+Coordinates 7, 2, 1
+Coordinates 8, 2.5, 0
+Coordinates 9, 2.5, 1
+
+
+;rear bogie 
+;right
+[MeshBuilder]
+Vertex 1, 1.1, 2.6
+Vertex 1, 1.1, 7.1
+Vertex 0.9, 0, 7.1
+Vertex 0.9, 0, 2.6
+Face2 0,1,2,3
+[Texture]
+Load F40bogie_amt.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;left
+[MeshBuilder]
+Vertex -1, 1.1, 2.6
+Vertex -1, 1.1, 7.1
+Vertex -0.9, 0, 7.1
+Vertex -0.9, 0, 2.6
+Face2 3,2,1,0
+[Texture]
+Load F40bogie_amt.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+
+;front stairs
+[MeshBuilder]
+Vertex -1.5, 0.4, -7.1
+Vertex -1.5, 1.3, -7.1
+Vertex -1.5, 1.3, -7.8
+Vertex -1.5, 0.4, -7.8
+
+Vertex 1.5, 0.4, -7.8
+Vertex 1.5, 1.3, -7.8
+Vertex 1.5, 1.3, -7.1
+Vertex 1.5, 0.4, -7.1
+
+Vertex -1.5, 0.4, -7.1
+Vertex -1.5, 1.3, -7.1
+
+Face 0,1,2,3
+Face 4,5,6,7
+Face 3,2,5,4
+Face 7,6,9,8
+
+[Texture]
+Load f40stairs_amt.bmp
+Coordinates 0, 0.5, 1
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1.5, 1
+Coordinates 5, 1.5, 0
+Coordinates 6, 2, 0
+Coordinates 7, 2, 1
+Coordinates 8, 2.5, 0
+Coordinates 9, 2.5, 1
+
+
+;rear stairs
+[MeshBuilder]
+Vertex -1.5, 0.4, 7.9
+Vertex -1.5, 1.3, 7.9
+Vertex -1.5, 1.3, 7.2
+Vertex -1.5, 0.4, 7.2
+
+Vertex 1.5, 0.4, 7.2
+Vertex 1.5, 1.3, 7.2
+Vertex 1.5, 1.3, 7.9
+Vertex 1.5, 0.4, 7.9
+
+Face 0,1,2,3
+Face 4,5,6,7
+Face 3,2,5,4
+
+[Texture]
+Load f40stairs_amt.bmp
+Coordinates 0, 0.5, 1
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1.5, 1
+Coordinates 5, 1.5, 0
+Coordinates 6, 2, 0
+Coordinates 7, 2, 1
+
+
+;rear plow
+[MeshBuilder]
+Vertex -1.5, 0.4, 7.9
+Vertex -1.5, 1.3, 7.9
+Vertex 1.5, 1.3, 7.9
+Vertex 1.5, 0.4, 7.9
+Face 3,2,1,0
+;Face off
+[Texture]
+Load F40plows_amt.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0.5
+Coordinates 2, 0, 0.5
+Coordinates 3, 0, 1

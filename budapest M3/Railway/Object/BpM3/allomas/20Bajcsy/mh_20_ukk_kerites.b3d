@@ -1,0 +1,33 @@
+;Bajcsy kihúzó, kerítés
+;Készítette: http://www.bvemetro.hu/
+
+[MeshBuilder]
+vertex 0,-0.2,00
+vertex 0,-0.2,12.5
+vertex 0,-0.2,25
+vertex 0, 1.5,00
+vertex 0, 1.5,12.5
+vertex 0, 1.5,25
+face2 1,4,3,0
+face2 2,5,4,1
+Load mh_20_ukk_kerites.bmp
+coordinates 0,0,0
+coordinates 1,0,2
+coordinates 2,0,4
+coordinates 3,1,0
+coordinates 4,1,2
+coordinates 5,1,4
+transparent 0,0,255
+
+[MeshBuilder]
+cylinder 16,0.05,0.05,1.8
+translate 0,0.6,0
+color 72,72,72
+[MeshBuilder]
+cylinder 16,0.05,0.05,1.8
+translate 0,0.6,12.5
+color 72,72,72
+[MeshBuilder]
+cylinder 16,0.05,0.05,1.8
+translate 0,0.6,25
+color 72,72,72

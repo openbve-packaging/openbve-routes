@@ -1,0 +1,34 @@
+(c) pre-zli
+
+[Meshbuilder]
+Vertex -0.32, 3.45, -0.042
+Vertex 0.32, 3.45, -0.042
+Vertex 0.32, 2.45, -0.042
+Vertex -0.32, 2.45, -0.042
+Face 0, 1, 2, 3
+[Texture]
+Load kereszt_eleje.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex 0.32, 3.45, -0.042
+Vertex -0.32, 3.45, -0.042
+Vertex -0.32, 2.45, -0.042
+Vertex 0.32, 2.45, -0.042
+Face 0, 1, 2, 3
+[Texture]
+Load kereszt_hata.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Cylinder 8, 0.04, 0.04, 3.05
+Color 128, 128, 128
+Translate 0, 1.45, 0

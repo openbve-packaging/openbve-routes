@@ -1,0 +1,44 @@
+
+
+
+[MeshBuilder]
+Vertex 24,22.25,0
+Vertex 24,0,0
+Vertex 40,0,0
+Vertex 40,22.25,0
+Face 0,1,2,3
+[Texture]
+Load Andrassy_ut_47-49_01.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 24,25,0
+Vertex 24,0,0
+Vertex 0,0,-24
+Vertex 0,25,-24
+Face 3,2,1,0
+[Texture]
+Load Andrassy_ut_47-49_02.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 0,22.25,-40
+Vertex 0,0,-40
+Vertex 0,0,-24
+Vertex 0,22.25,-24
+Face 0,1,2,3
+[Texture]
+Load Andrassy_ut_47-49_03.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+

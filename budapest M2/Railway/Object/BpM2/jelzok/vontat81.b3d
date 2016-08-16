@@ -1,0 +1,17 @@
+;villamosvontatás jelzõ, kikapcsolás, 81-es típusra
+;Készítette: http://www.bvemetro.hu/
+
+[MeshBuilder]
+Vertex 0,0.25,0
+Vertex 0.25,0.5,0
+Vertex 0.5,0.25,0
+Vertex 0.25,0,0
+Face 0,1,2,3
+
+[Texture]
+Load vontat81.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+

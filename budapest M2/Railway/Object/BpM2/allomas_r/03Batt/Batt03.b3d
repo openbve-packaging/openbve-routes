@@ -1,0 +1,197 @@
+;Batthyány tér állomás, bal 3
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;Jobb oldali fal
+[MeshBuilder]
+Vertex 01.606,-00.17,00.00
+Vertex 01.982, 00.26,00.00
+Vertex 01.982, 00.90,00.00
+Vertex 01.982, 00.90,25.00
+Vertex 01.982, 00.26,25.00
+Vertex 01.606,-00.17,25.00
+Face 5,4,1,0
+Face 4,3,2,1
+[Texture]
+Load batt_fal_J_01.bmp
+Coordinates 0, 24.00, 01.00
+Coordinates 1, 24.00, 00.55
+Coordinates 2, 24.00, 00.00
+Coordinates 3, 00.00, 00.00
+Coordinates 4, 00.00, 00.55
+Coordinates 5, 00.00, 01.00
+
+[MeshBuilder]
+Vertex 01.982,00.90,08.000
+Vertex 01.982,03.14,08.000
+Vertex 01.982,03.14,14.000
+Vertex 01.982,00.90,14.000
+Face 3,2,1,0
+[Texture]
+Load batt_fal_J_02ib.bmp
+Coordinates 0,01.00,01.00
+Coordinates 1,01.00,00.00
+Coordinates 2,00.00,00.00
+Coordinates 3,00.00,01.00
+
+[MeshBuilder]
+Vertex 01.982,00.90,00.000
+Vertex 01.982,03.14,00.000
+Vertex 01.982,03.14,08.000
+Vertex 01.982,00.90,08.000
+Vertex 01.982,00.90,14.000
+Vertex 01.982,03.14,14.000
+Vertex 01.982,03.14,25.000
+Vertex 01.982,00.90,25.000
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load batt_fal_J_02.bmp
+Coordinates 0,08.00,01.00
+Coordinates 1,08.00,00.00
+Coordinates 2,00.00,00.00
+Coordinates 3,00.00,01.00
+Coordinates 4,11.00,01.00
+Coordinates 5,11.00,00.00
+Coordinates 6,00.00,00.00
+Coordinates 7,00.00,01.00
+
+;------------------------------
+
+;bal fal
+[MeshBuilder]
+vertex -5.6,1.10,20
+vertex -5.6,3.682,20
+vertex -5.6,3.682,25
+vertex -5.6,1.10,25
+face 0,1,2,3
+Load batt_fal_B_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,5,0
+coordinates 3,5,1
+
+;áttörésfal feliratos
+[MeshBuilder]
+vertex -15.10,1.1,20
+vertex -15.10,3.682,20
+vertex -05.60,3.682,20
+vertex -05.60,1.1,20
+face 0,1,2,3
+Load batt_fal_B_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,9,0
+coordinates 3,9,1
+
+[MeshBuilder]
+vertex -16.8,3.682,20
+vertex -16.8,4.1,20
+vertex -3.9,4.1,20
+vertex -3.9,3.682,20
+face 0,1,2,3
+color 144,144,144
+
+;-------
+
+;táblák
+
+;Kijárat
+
+;tartók
+[MeshBuilder]
+cube 0.025,0.4,0.025
+color 176,176,176
+translate -5.00,4.0,5
+[MeshBuilder]
+cube 0.025,0.4,0.025
+color 176,176,176
+translate -5.70,4.0,5
+
+;szöveg
+[MeshBuilder]
+Vertex -0.60,0.2,0.0
+Vertex  0.60,0.2,0.0
+Vertex  0.60,0.0,0.0
+Vertex -0.60,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_bal.bmp
+Coordinates 0,0.00,0
+Coordinates 1,1.00,0
+Coordinates 2,1.00,1
+Coordinates 3,0.00,1
+translate -5.35,3.482,4.9
+
+;szélek
+[MeshBuilder]
+Vertex  0.6,0.0,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.2,0.2
+Vertex  0.6,0.0,0.2
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.0,0.2
+face 0,1,2,3
+face 5,4,0,3
+color 32,32,32
+translate -5.35,3.482,4.9
+
+;----
+
+;Irány Déli
+
+;tartók
+[MeshBuilder]
+cube 0.025,0.4,0.025
+color 176,176,176
+translate -5.00,4.0,15
+[MeshBuilder]
+cube 0.025,0.4,0.025
+color 176,176,176
+translate -5.70,4.0,15
+
+;szöveg
+[MeshBuilder]
+Vertex -0.60,0.2,0.0
+Vertex  0.25,0.2,0.0
+Vertex  0.25,0.0,0.0
+Vertex -0.60,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\IDeli4.bmp
+Coordinates 0,0.2,0
+Coordinates 1,0.8,0
+Coordinates 2,0.8,1
+Coordinates 3,0.2,1
+translate -5.35,3.482,14.9
+
+;nyíl
+[MeshBuilder]
+Vertex 0.25,0.2,0.0
+Vertex 0.60,0.2,0.0
+Vertex 0.60,0.0,0.0
+Vertex 0.25,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil41.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+translate -5.35,3.482,14.9
+
+;szélek
+[MeshBuilder]
+Vertex  0.6,0.0,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.2,0.2
+Vertex  0.6,0.0,0.2
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.0,0.2
+face 0,1,2,3
+face 5,4,0,3
+color 32,32,32
+translate -5.35,3.482,14.9

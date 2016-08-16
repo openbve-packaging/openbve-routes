@@ -1,0 +1,43 @@
+﻿With Route
+	.Comment Szklarska Poreba Gorna-Harrachov$Chr(13)v1.1 [25/10/14]$Chr(13)by Rave$Chr(13)http://bve.e6.pl
+	.DeveloperID Rave
+	.Signal(0).Set (0)
+	.Signal(3).Set (100)
+	.Elevation 708
+	.Gauge 1435
+	.Image image.png
+	.Runinterval 230
+	.Change 1
+
+	.lightdirection 90;270
+	.DirectionalLight 60;60;60
+	.AmbientLight 180;180;180
+	
+With Train
+	.File SA134-003
+	.Timetable(0).Day (Szklarska Poreba-Harrachov\timetable.png)
+	.Timetable(0).Night (Szklarska Poreba-Harrachov\timetable_night.png)
+	
+With Options
+	.ObjectVisibility (1)
+	.SectionBehavior (1)
+	.FogBehavior (1)
+
+With Signal(3)
+	.Load (Szklarska Poreba-Harrachov\Signals\sem4\semafor_red-mirror.animated)
+
+With Texture.Background(0)
+	.Load (Szklarska Poreba-Harrachov\oropa.png)
+	.Aspect (0)
+
+With Structure
+	$include (structure.txt)
+	
+With Track
+	$include (SzklarskaPorebaGorna.txt)
+	$include (1stSection.txt)
+	$include (SzklarskaPorebaHuta.txt)
+	$include (2ndSection.txt)
+	$include (SzklarskaPorebaJakuszyce.txt)
+	$include (3rdSection.txt)
+	$include (Harrachov.txt)

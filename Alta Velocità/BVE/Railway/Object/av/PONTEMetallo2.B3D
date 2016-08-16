@@ -1,0 +1,22 @@
+
+[Meshbuilder] 
+Vertex -80,17,0
+Vertex  80,17,0
+Vertex  80,10,0
+Vertex -80,10,0
+Face 0,1,2,3
+[Texture]
+Load pontemetallo2.bmp
+Coordinates 0,8,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,8,1
+Transparent 0,0,255
+;---------------- soffitto
+[Meshbuilder] 
+Vertex -40,10.2,0
+Vertex -40,10.2,25
+Vertex  44,10.2,25
+Vertex  44,10.2,0
+Face 3,2,1,0
+color 50,50,50

@@ -1,0 +1,112 @@
+[MeshBuilder]
+Vertex -0.95, -0.144, 0
+Vertex -0.95, -0.144, 25.2
+Vertex 0.95, -0.144, 25.2
+Vertex 0.95, -0.144, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load Tie2.bmp
+Coordinates 0, 0, 9
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 9
+
+[MeshBuilder]
+Vertex -1.9, -0.3, 0
+Vertex -1.9, -0.3, 25.2
+Vertex -0.95, -0.144, 25.2
+Vertex -0.95, -0.144, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[MeshBuilder]
+Vertex 0.95, -0.144, 0
+Vertex 0.95, -0.144, 25.2
+Vertex 1.9, -0.3, 25.2
+Vertex 1.9, -0.3, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -0.602, 0, 0
+Vertex -0.602, 0, 25.5
+Vertex -0.534, 0, 25.5
+Vertex -0.534, 0, 0
+Vertex -0.534, -0.144, 25.5
+Vertex -0.534, -0.144, 0
+Vertex -0.602, -0.144, 0
+Vertex -0.602, -0.144, 25.5
+Face 0, 1, 2, 3
+Face 3,2,4,5
+Face 1,0,6,7
+Color 102,66,36
+
+[MeshBuilder]
+Vertex 0.534, 0, 0
+Vertex 0.534, 0, 25.5
+Vertex 0.602, 0, 25.5
+Vertex 0.602, 0, 0
+Vertex 0.602, -0.144, 25.5
+Vertex 0.602, -0.144, 0
+Vertex 0.534, -0.144, 0
+Vertex 0.534, -0.144, 25.5
+Face 0, 1, 2, 3
+Face 3,2,4,5
+Face 1,0,6,7
+Color 102,66,36
+
+[MeshBuilder]
+Vertex -2.2, -0.3, 25.2
+Vertex -1.9, -0.3, 25.2
+Vertex -1.9, -0.3, 0
+Vertex -2.2, -0.3, 0
+Face 0,1,2,3
+color 100,100,100
+
+[MeshBuilder]
+Vertex 2.2, -0.3, 25.2
+Vertex 1.9, -0.3, 25.2
+Vertex 1.9, -0.3, 0
+Vertex 2.2, -0.3, 0
+Face 1,0,3,2
+color 100,100,100
+
+[MeshBuilder]
+Vertex -2.2, -0.3, 0
+Vertex 2.2, -0.3, 0
+Vertex 2.2, -5, 0
+Vertex -2.2, -5, 0
+Vertex 2.2, -0.3, 25.2
+Vertex 2.2, -5, 25.2
+Vertex -2.2, -0.3, 25.2
+Vertex -2.2, -5, 25.2
+Face 0,1,2,3
+Face 1,4,5,2
+Face 6,0,3,7
+
+[Texture]
+Load ..\kyoukyaku.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Coordinates 4, 4, 0
+coordinates 5,4,1
+Coordinates 6, -3, 0
+coordinates 7,-3,1
+
+
+

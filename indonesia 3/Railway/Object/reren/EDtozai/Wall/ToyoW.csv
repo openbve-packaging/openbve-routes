@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex, -2.0, 1.1, 0.0
+AddVertex,-18.0, 1.1, 0.0
+AddVertex,-18.0, 4.7, 0.0
+AddVertex, -2.0, 4.7, 0.0
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,toyoW.bmp
+Setcolor,240,220,220
+SetTextureCoordinates,0,0,-0.44
+SetTextureCoordinates,1,7.68,-0.44
+SetTextureCoordinates,2,7.68,1
+SetTextureCoordinates,3,0,1

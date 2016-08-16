@@ -1,0 +1,17 @@
+[MeshBuilder]
+Vertex     0,5,0.01    ;4     ; Left facing track
+Vertex     0,0,0.01    ;5
+Vertex  -0.15,0,0.01  ;6
+Vertex  -0.15,5,0.01    ;7
+
+Vertex   0,5,0     ;0  
+Vertex   0,5,0.16   ;1
+Vertex   0,0,0.16   ;2  
+Vertex   0,0,0     ;3 
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Right
+;Color 255,0,0
+Color 192,192,192  ;  Light Grey
+;Color 255,0,0
+

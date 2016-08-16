@@ -1,0 +1,130 @@
+﻿[Meshbuilder]
+Cylinder 50,0.05,0.1,7
+Color 50,50,50
+Rotate 0,0,0
+Translate 0,3.5,0
+
+[Meshbuilder]
+Cylinder 50,0.025,0.05,1.5
+Color 50,50,50
+Rotate 0,0,90,75
+Translate -0.75,7,0
+;-------KLOSZ---------
+[Meshbuilder]
+Vertex -1.95,	7.4,-0.1
+Vertex -1.45,	7.3,-0.1
+Vertex -1.45,	7.1,-0.1
+Vertex -1.95,	7.2,-0.1
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Load lampa1.png
+Transparent 0,0,0
+[Meshbuilder]
+Vertex -1.95,	7.4,0.1
+Vertex -1.45,	7.3,0.1
+Vertex -1.45,	7.1,0.1
+Vertex -1.95,	7.2,0.1
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Load lampa1.png
+Transparent 0,0,0
+[Meshbuilder]
+Vertex -1.45,	7.3,-0.1
+Vertex -1.45,	7.3,0.1
+Vertex -1.45,	7.1,0.1
+Vertex -1.45,	7.1,-0.1
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Load lampa1.png
+Transparent 0,0,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Load lampa1.png
+Transparent 0,0,0
+[Meshbuilder]
+Vertex -1.95,	7.4,-0.1
+Vertex -1.95,	7.4,0.1
+Vertex -1.95,	7.2,0.1
+Vertex -1.95,	7.2,-0.1
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Load lampa1.png
+Transparent 0,0,0
+;-
+[Meshbuilder]
+Vertex -1.95,	7.4,-0.1
+Vertex -1.95,	7.4,0.1
+Vertex -1.45,	7.3,0.1
+Vertex -1.45,	7.3,-0.1
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Load lampa1.png
+Transparent 0,0,0
+[Meshbuilder]
+Vertex -1.95,	7.2,-0.1
+Vertex -1.95,	7.2,0.1
+Vertex -1.45,	7.1,0.1
+Vertex -1.45,	7.1,-0.1
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Load klosz.png,klosz.png
+Transparent 0,0,0
+[Meshbuilder]
+Vertex -2.05,	7.19,-0.2
+Vertex -2.05,	7.19,0.2
+Vertex -1.35,	7.09,0.2
+Vertex -1.35,	7.09,-0.2
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Load light_white.png
+Emissivecolor 255,255,255
+BlendMode Additive, 10, DivideExponent2
+Transparent 0,0,0
+
+;-----LIGHT------
+[Meshbuilder]
+Vertex -10,0.301,-10.5
+Vertex 0.5,0.301,-10.5
+Vertex 0.5,0.301,10.5
+Vertex -10,0.301,10.5
+Face 3,2,1,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Load transparent.png,glow_platformlight.png
+Emissivecolor 80,80,80
+BlendMode Additive
+Transparent 0,0,0

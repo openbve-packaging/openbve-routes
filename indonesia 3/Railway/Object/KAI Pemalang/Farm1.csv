@@ -1,0 +1,12 @@
+CreateMeshBuilder,,,,
+AddVertex,-25.3,0,-25,
+AddVertex,-25.3,0,25.5,
+AddVertex,25.3,0,25.5,
+AddVertex,25.3,0,-25,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,Farm1.bmp,,,
+SetTextureCoordinates,0,0,2,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,2,

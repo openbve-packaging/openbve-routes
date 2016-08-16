@@ -1,0 +1,146 @@
+;Part of the BVE 'UK Lineside Objects series' by Anthony Bowden
+;This object is provided as freeware - feel free to modify it
+
+[MeshBuilder]
+;Back of cabinet
+Vertex -2.9, 1.425, 0
+Vertex -2.9, -0.3, 0
+Vertex -2.9, -0.3, 2
+Vertex -2.9, 1.425, 2
+Face 0,1,2,3
+Face 1,0,3,2
+Color 204, 204, 204
+
+[MeshBuilder]
+;Front of cabinet
+Vertex -2.4, 1.425, 0
+Vertex -2.4, -0.3, 0
+Vertex -2.4, -0.3, 2
+Vertex -2.4, 1.425, 2
+Face 0,1,2,3
+Face 1,0,3,2
+Color 204, 204, 204
+
+[Texture]
+Load RelayCab1Frnt.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+
+[MeshBuilder]
+;Front side
+Vertex -2.4, 1.425, 0
+Vertex -2.65, 1.53, 0
+Vertex -2.9, 1.425, 0
+Vertex -2.9, -0.3, 0
+Vertex -2.4, -0.3, 0
+Face 0,1,2,3,4
+Face 1,0,4,3,2
+Color 204, 204, 204
+
+[MeshBuilder]
+;rear side
+Vertex -2.4, 1.425, 2
+Vertex -2.65, 1.53, 2
+Vertex -2.9, 1.425, 2
+Vertex -2.9, -0.3, 2
+Vertex -2.4, -0.3, 2
+Face 0,1,2,3,4
+Face 1,0,4,3,2
+Color 204, 204, 204
+
+[MeshBuilder]
+;left top
+Vertex -2.4, 1.425, 0
+Vertex -2.4, 1.425, 2
+Vertex -2.65, 1.53, 2
+Vertex -2.65, 1.53, 0
+Face 0,1,2,3
+Face 1,0,3,2
+Color 204, 204, 204
+
+[MeshBuilder]
+;right top
+Vertex -2.65, 1.53, 0
+Vertex -2.65, 1.53, 2
+Vertex -2.9, 1.425, 2
+Vertex -2.9, 1.425, 0
+Face 0,1,2,3
+Face 1,0,3,2
+Color 204, 204, 204
+
+
+;****Cabinet 2*****
+
+
+[MeshBuilder]
+;Back of cabinet
+Vertex -2.9, 1.425, 2.2
+Vertex -2.9, -0.3, 2.2
+Vertex -2.9, -0.3, 3.2
+Vertex -2.9, 1.425, 3.2
+Face 0,1,2,3
+Face 1,0,3,2
+Color 204, 204, 204
+
+[MeshBuilder]
+;Front of cabinet
+Vertex -2.4, 1.425, 2.2
+Vertex -2.4, -0.3, 2.2
+Vertex -2.4, -0.3, 3.2
+Vertex -2.4, 1.425, 3.2
+Face 0,1,2,3
+Face 1,0,3,2
+Color 204, 204, 204
+
+[Texture]
+Load RelayCab1aFrnt.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+
+[MeshBuilder]
+;Front side
+Vertex -2.4, 1.425, 2.2
+Vertex -2.65, 1.53, 2.2
+Vertex -2.9, 1.425, 2.2
+Vertex -2.9, -0.3, 2.2
+Vertex -2.4, -0.3, 2.2
+Face 0,1,2,3,4
+Face 1,0,4,3,2
+Color 204, 204, 204
+
+[MeshBuilder]
+;rear side
+Vertex -2.4, 1.425, 3.2
+Vertex -2.65, 1.53, 3.2
+Vertex -2.9, 1.425, 3.2
+Vertex -2.9, -0.3, 3.2
+Vertex -2.4, -0.3, 3.2
+Face 0,1,2,3,4
+Face 1,0,4,3,2
+Color 204, 204, 204
+
+[MeshBuilder]
+;left top
+Vertex -2.4, 1.425, 2.2
+Vertex -2.4, 1.425, 3.2
+Vertex -2.65, 1.53, 3.2
+Vertex -2.65, 1.53, 2.2
+Face 0,1,2,3
+Face 1,0,3,2
+Color 204, 204, 204
+
+[MeshBuilder]
+;right top
+Vertex -2.65, 1.53, 2.2
+Vertex -2.65, 1.53, 3.2
+Vertex -2.9, 1.425, 3.2
+Vertex -2.9, 1.425, 2.2
+Face 0,1,2,3
+Face 1,0,3,2
+Color 204, 204, 204
+
+

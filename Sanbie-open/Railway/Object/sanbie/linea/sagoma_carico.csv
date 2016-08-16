@@ -1,0 +1,115 @@
+;; Sagoma di carico
+;; Mikros 2003
+
+;; Palo
+CreateMeshBuilder
+Cylinder, 6, 0.06, 0.06, 5.1,
+Translate, 3, 2.0, 0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+
+;; Mensola
+CreateMeshBuilder
+Cylinder, 6, 0.05, 0.05, 4.2,
+Rotate, 0, 0, 1, 90,
+Translate, 0.83,4.30,0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Tirante
+CreateMeshBuilder
+Cylinder, 6, 0.05, 0.05, 2.20,
+Rotate, 0, 0, 1, 215,
+Translate, 2.4, 3.4, 0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Mollone sostegno sagoma interno
+CreateMeshBuilder
+Cylinder, 6, 0.02, 0.02, 0.25,
+Translate, 1.0,4.15,0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Mollone sostegno sagoma centrale
+CreateMeshBuilder
+Cylinder, 6, 0.02, 0.02, 0.25,
+Translate, 0,4.15,0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Mollone sostegno sagoma esterno
+CreateMeshBuilder
+Cylinder, 6, 0.02, 0.02, 0.25,
+Translate, -1,4.15,0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Sagoma: staffa superiore
+CreateMeshBuilder
+Cylinder, 6, 0.04, 0.04, 3,
+Rotate, 0,0,1,90,
+Translate, 0,4.0,0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Sagoma: ala interna
+CreateMeshBuilder
+Cylinder, 6, 0.04, 0.04, 1.5,
+Rotate, 0, 0, 1, 200,
+Translate, 1.73, 3.31, 0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Sagoma: ala esterna
+CreateMeshBuilder
+Cylinder, 6, 0.04, 0.04, 1.5,
+Rotate, 0, 0, 1, 160,
+Translate, -1.7, 3.31, 0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Sagoma: tirantino interno
+CreateMeshBuilder
+Cylinder, 6, 0.03, 0.03, 1.0,
+Rotate, 0,0,1,55,
+Translate, 1.3,3.7,0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Sagoma: tirantino esterno
+CreateMeshBuilder
+Cylinder, 6, 0.03, 0.03, 1.0,
+Rotate, 0,0,1,125,
+Translate, -1.28,3.7,0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Sagoma: appendice dritta interna
+CreateMeshBuilder
+Cylinder, 6, 0.04, 0.04, 0.3,
+Translate, 2.0,2.47,0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Sagoma: appendice dritta esterna
+CreateMeshBuilder
+Cylinder, 6, 0.04, 0.04, 0.3,
+Translate, -1.95,2.47,0,
+;SetColor, 192, 192, 192,
+SetColor, 0, 0, 0,
+
+;; Perno girevole superiore
+CreateMeshBuilder
+Cylinder, 6, 0.04,0.04, 0.2,
+Translate, 2.9,4.2,0,
+;SetColor, 150,150,150,
+SetColor, 0, 0, 0,
+
+CreateMeshBuilder
+Cylinder, 6, 0.04, 0.04, 0.1,
+Rotate, 0,0,1,90,
+Translate,2.82,4.21,0,
+;SetColor, 150,150,150,
+SetColor, 0, 0, 0,

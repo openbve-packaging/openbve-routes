@@ -1,0 +1,40 @@
+; 1 - Palo
+CreateMeshBuilder
+Cylinder, 3, 0.03, 0.03, 1.8
+Translate, -2, 0.2, 0
+SetColor, 176, 176, 192
+
+CreateMeshBuilder,
+AddVertex,-2.35, 1.05, -0.027,
+AddVertex, -1.65, 1.05, -0.027,
+AddVertex, -1.65, 0.65, -0.027,
+AddVertex, -2.35,0.65, -0.027,
+AddFace2 , 0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture, binarioI.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+
+; 2 - Palo
+CreateMeshBuilder
+Cylinder, 3, 0.03, 0.03, 1.8
+Translate, 2.55, 0.2, 0
+SetColor, 176, 176, 192
+
+CreateMeshBuilder,
+AddVertex,2.2, 1.05, -0.027,
+AddVertex,2.9, 1.05, -0.027,
+AddVertex, 2.9, 0.65, -0.027,
+AddVertex, 2.2,0.65, -0.027,
+AddFace2 , 0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture, binarioII.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

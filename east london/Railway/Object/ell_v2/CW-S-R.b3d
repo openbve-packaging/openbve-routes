@@ -1,0 +1,121 @@
+; Canada water enter-right/leave-left platform
+; Length is 15m
+; Tile wall extends from 2m in to 4m in over 15m
+; 0.1 m higher than other platforms
+
+[MeshBuilder] ; side of platform down to track
+Vertex 2,1.2,25
+Vertex 2,-0.3,25
+Vertex 2,-0.3,0
+Vertex 2,1.2,0
+Face 3,2,1,0
+[Texture]
+load concrete.bmp
+Coordinates 0,16,0
+Coordinates 1,16,1.5
+Coordinates 2,0,1.5
+Coordinates 3,0,0
+
+[MeshBuilder] ; Platform Edge
+Vertex 2,1.2,25
+Vertex 2,1.2,0
+Vertex 3.2,1.2,0
+Vertex 3.2,1.2,25
+Face 3,2,1,0
+[Texture]
+Load FormL-CW.bmp
+Coordinates 0,1,0
+Coordinates 1,1,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+
+[Meshbuilder] ; Platform Centre
+Vertex 3.2,1.2,25
+Vertex 3.2,1.2,0
+Vertex 19,1.2,0
+Vertex 19,1.2,25
+Face 3,2,1,0
+[Texture]
+load FormC-CW.bmp
+Coordinates 0,10,0
+Coordinates 1,10,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+
+[Meshbuilder] ; seal off the end
+Vertex 2,1.2,0
+Vertex 2,-0.3,0
+Vertex 19,-0.3,0
+Vertex 19,1.2,0
+Face 3,2,1,0
+[Texture]
+load concrete.bmp
+Coordinates 0,4,0
+Coordinates 1,4,2
+Coordinates 2,0,2
+Coordinates 3,0,0
+
+[Meshbuilder] ; Far right wall
+Vertex 19,16,0
+Vertex 19,1.2,0
+Vertex 19,1.2,25
+Vertex 19,16,25
+Face 0,1,2,3
+[Texture]
+load cw-tile.bmp
+Coordinates 0,25,0
+Coordinates 1,25,15
+Coordinates 2,0,15
+Coordinates 3,0,0
+
+[Meshbuilder] ; Escalator tiled wall
+Vertex 9,3,9
+Vertex 9,1.2,9
+Vertex 9,1.2,25
+Vertex 9,11,25
+
+Vertex 9,3,6
+Vertex 9,1.2,6
+Face 0,1,2,3
+Face 4,5,1,0
+
+[Texture]
+load cw-tile.bmp
+Coordinates 0,16,8
+Coordinates 1,16,10
+Coordinates 2,0,10
+Coordinates 3,0,0
+Coordinates 4,19,8
+Coordinates 5,19,10
+
+[Meshbuilder] 
+Vertex 10,11,25
+Vertex 10,3,9
+Vertex 10,3,6
+Vertex 9,3,6
+Vertex 9,3,9
+Vertex 9,11,25
+Face 0,1,4,5
+Face 1,2,3,4
+
+[Texture]
+load cw-tile.bmp
+Coordinates 0,1,0
+Coordinates 1,1,16
+Coordinates 2,1,19
+Coordinates 3,0,19
+Coordinates 4,0,16
+Coordinates 5,0,0
+
+[Meshbuilder]
+Vertex 10,3,6
+Vertex 10,1.2,6
+Vertex 9,1.2,6
+Vertex 9,3,6
+Face 0,1,2,3
+[Texture]
+load cw-tile.bmp
+Coordinates 0,1,0
+Coordinates 1,1,2
+Coordinates 2,0,2
+Coordinates 3,0,0

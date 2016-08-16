@@ -1,0 +1,68 @@
+[MeshBuilder]
+Vertex 6,7,-18
+Vertex 6,0,-18
+Vertex 6,0,25
+Vertex 6,7,25
+Face 0,1,2,3
+[Texture]
+load stone.bmp
+Coordinates 0,43,0
+Coordinates 1,43,7
+Coordinates 2,0,7
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 6,7,-50
+Vertex 6,0,-50
+Vertex 6,0,-22
+Vertex 6,7,-22
+Face 0,1,2,3
+[Texture]
+load stone.bmp
+Coordinates 0,43,0
+Coordinates 1,43,7
+Coordinates 2,0,7
+Coordinates 3,0,0
+
+[Meshbuilder] ; now for the yellow box at the bottom of the stairs
+Vertex 10,5,-18
+Vertex 10,1.1,-18
+Vertex 6,1.1,-18
+Vertex 6,5,-18
+
+Vertex 10,5,-22
+Vertex 10,1.1,-22
+
+Vertex 6,5,-22
+
+Face 0,1,2,3
+Face 4,5,1,0
+Face 3,6,4,0
+
+Color 180,160,20
+
+[Meshbuilder]
+Vertex 6,7,-22
+Vertex 6,5,-22
+Vertex 6,5,-18
+Vertex 6,7,-18
+Face 0,1,2,3
+[Texture]
+load stone.bmp
+Coordinates 0,4,0
+Coordinates 1,4,2
+Coordinates 2,0,2
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 10,1.1,-18
+Vertex 10,1.1,-22
+Vertex  6,1.1,-22
+Vertex  6,1.1,-18
+Face 0,1,2,3
+[Texture]
+load FormC.bmp
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0

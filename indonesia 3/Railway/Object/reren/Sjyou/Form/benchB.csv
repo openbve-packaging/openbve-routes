@@ -1,0 +1,91 @@
+CreateMeshBuilder,
+AddVertex,-0.50, 1.61, 4
+ADdVertex,-0.15, 1.61, 4
+AddVertex, 0.00, 2.2, 4
+AddVertex, 0.15, 1.61, 4
+AddVertex, 0.50, 1.61, 4
+AddVertex, 0.50, 1.61, 0
+AddVertex, 0.15, 1.61, 0
+AddVertex, 0.00, 2.2, 0
+ADdVertex,-0.15, 1.61, 0
+AddVertex,-0.50, 1.61, 0
+AddFace,0,1,8,9,
+AddFace2,1,2,7,8,
+AddFace2,2,3,6,7,
+AddFace,3,4,5,6,
+LoadTexture,benchB.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 6.2, 0,
+SetTextureCoordinates,3, 9, 0,
+SetTextureCoordinates,4, 11, 0,
+SetTextureCoordinates,5, 11, 1,
+SetTextureCoordinates,6, 9, 1,
+SetTextureCoordinates,7, 6.2, 1,
+SetTextureCoordinates,8, 2, 1,
+SetTextureCoordinates,9, 0, 1,
+GenerateNormals,
+Setcolor,100,100,120
+SetDecalTransparentColor,255,58,61
+
+CreateMeshBuilder,
+AddVertex,-0.5, 1.6, 0
+AddVertex,-0.05, 1.55, 0
+AddVertex,-0.05, 1.15, 0
+AddVertex,-0.3, 1.1, 0
+AddVertex, 0.3, 1.1, 0
+ADdVertex, 0.05, 1.15, 0
+AddVertex, 0.05, 1.55, 0
+AddVertex, 0.5, 1.6, 0  ;;;;;;7
+AddVertex, 0.5, 1.6, 0.2
+AddVertex, 0.05, 1.55, 0.2
+ADdVertex, 0.05, 1.15, 0.2
+AddVertex, 0.3, 1.1, 0.2
+AddVertex,-0.3, 1.1, 0.2
+AddVertex,-0.05, 1.15, 0.2
+AddVertex,-0.05, 1.55, 0.2
+AddVertex,-0.5, 1.6, 0.2
+AddFace2,0,1,6,7,
+AddFace2,1,2,5,6,
+AddFace2,2,3,4,5,
+AddFace,4,5,10,11
+AddFace,5,6,9,10
+AddFace,6,7,8,9
+AddFace,0,15,8,7
+AddFace,0,1,14,15
+AddFace,1,2,13,14
+AddFace,2,3,12,13,
+Setcolor,181,180,167,
+GenerateNormals,
+Translate,0.033
+
+CreateMeshBuilder,
+AddVertex,-0.5, 1.6, 0
+AddVertex,-0.05, 1.55, 0
+AddVertex,-0.05, 1.15, 0
+AddVertex,-0.3, 1.1, 0
+AddVertex, 0.3, 1.1, 0
+ADdVertex, 0.05, 1.15, 0
+AddVertex, 0.05, 1.55, 0
+AddVertex, 0.5, 1.6, 0  ;;;;;;7
+AddVertex, 0.5, 1.6, 0.2
+AddVertex, 0.05, 1.55, 0.2
+ADdVertex, 0.05, 1.15, 0.2
+AddVertex, 0.3, 1.1, 0.2
+AddVertex,-0.3, 1.1, 0.2
+AddVertex,-0.05, 1.15, 0.2
+AddVertex,-0.05, 1.55, 0.2
+AddVertex,-0.5, 1.6, 0.2
+AddFace2,0,1,6,7,
+AddFace2,1,2,5,6,
+AddFace2,2,3,4,5,
+AddFace,4,5,10,11
+AddFace,5,6,9,10
+AddFace,6,7,8,9
+AddFace,0,15,8,7
+AddFace,0,1,14,15
+AddFace,1,2,13,14
+AddFace,2,3,12,13,
+Setcolor,181,180,167,
+GenerateNormals,
+Translate,0.033,0,3.8

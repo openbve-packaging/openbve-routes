@@ -1,0 +1,1843 @@
+;Örs vezér tere állomás 15
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;oldal alul1
+[MeshBuilder]
+Vertex -07.959, -0.30,-00.633
+Vertex -07.959,  0.90,-00.633
+Vertex -09.585, -0.30, 24.314
+Vertex -09.585,  0.90, 24.314
+Vertex  07.959, -0.30,-00.633
+Vertex  07.959,  0.90,-00.633
+Vertex  09.585, -0.30, 24.314
+Vertex  09.585,  0.90, 24.314
+Face 00,02,03,01
+Face 05,07,06,04
+[Texture]
+Load ors_peron_oldal_a1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 00.00, 0.00
+Coordinates 2, 08.00, 1.00
+Coordinates 3, 08.00, 0.00
+Coordinates 4, 00.00, 1.00
+Coordinates 5, 00.00, 0.00
+Coordinates 6, 08.00, 1.00
+Coordinates 7, 08.00, 0.00
+
+;oldal alul2
+[MeshBuilder]
+Vertex  15.344, -0.30,-00.633
+Vertex  16.971, -0.30, 24.314
+Vertex  15.344,  0.90,-00.633
+Vertex  16.971,  0.90, 24.314
+Face 00,01,03,02
+[Texture]
+Load ors_peron_oldal_a2.bmp
+Coordinates 00, 00.00, 1.00
+Coordinates 01, 25.00, 1.00
+Coordinates 02, 00.00, 0.00
+Coordinates 03, 25.00, 0.00
+
+;oldal felül1
+[MeshBuilder]
+Vertex -08.259,  0.90,-00.633
+Vertex -08.259,  1.10,-00.633
+Vertex -09.886,  0.90, 24.314
+Vertex -09.886,  1.10, 24.314
+Vertex  08.259,  0.90,-00.633
+Vertex  08.259,  1.10,-00.633
+Vertex  09.886,  0.90, 24.314
+Vertex  09.886,  1.10, 24.314
+Face 00,02,03,01
+Face 05,07,06,04
+[Texture]
+Load ors_peron_oldal_f1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 00.00, 0.00
+Coordinates 2, 08.00, 1.00
+Coordinates 3, 08.00, 0.00
+Coordinates 4, 00.00, 1.00
+Coordinates 5, 00.00, 0.00
+Coordinates 6, 08.00, 1.00
+Coordinates 7, 08.00, 0.00
+
+;oldal felül2
+[MeshBuilder]
+Vertex  15.044,  0.90,-00.633
+Vertex  16.670,  0.90, 24.314
+Vertex  15.044,  1.10,-00.633
+Vertex  16.670,  1.10, 24.314
+Face 00,01,03,02
+[Texture]
+Load ors_peron_oldal_f2.bmp
+Coordinates 00, 00.00, 1.00
+Coordinates 01, 08.00, 1.00
+Coordinates 02, 00.00, 0.00
+Coordinates 03, 08.00, 0.00
+
+;járófelület bizt. sáv sötét
+[MeshBuilder]
+Vertex -08.259, 1.10,-00.633
+Vertex -07.458, 1.10,-00.633
+Vertex -09.886, 1.10, 24.314
+Vertex -09.084, 1.10, 24.314
+Vertex  07.458, 1.10,-00.633
+Vertex  08.259, 1.10,-00.633
+Vertex  09.084, 1.10, 24.314
+Vertex  09.886, 1.10, 24.314
+Face 00,02,03,01
+Face 04,06,07,05
+[Texture]
+Load ors_peronteto_1.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 01.00, 00.00
+Coordinates 2, 00.00, 25.00
+Coordinates 3, 01.00, 25.00
+Coordinates 4, 00.00, 00.00
+Coordinates 5, 01.00, 25.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 01.00, 25.00
+
+;járófelület bizt. sáv fehér
+[MeshBuilder]
+Vertex -07.458, 1.10,-00.633
+Vertex -07.338, 1.10,-00.633
+Vertex -09.084, 1.10, 24.314
+Vertex -08.964, 1.10, 24.314
+Vertex  07.338, 1.10,-00.633
+Vertex  07.458, 1.10,-00.633
+Vertex  08.964, 1.10, 24.314
+Vertex  09.084, 1.10, 24.314
+Face 00,02,03,01
+Face 04,06,07,05
+Color 200,200,200
+
+;járófelület belül
+[MeshBuilder]
+Vertex -07.338, 1.10,-00.633
+Vertex  07.338, 1.10,-00.633
+Vertex -08.964, 1.10, 24.314
+Vertex  08.964, 1.10, 24.314
+Vertex  15.044, 1.10,-00.633
+Vertex  18.050, 1.10,-00.633
+Vertex  16.670, 1.10, 24.314
+Vertex  19.677, 1.10, 24.314
+Face 00,02,03,01
+Face 04,06,07,05
+[Texture]
+Load ors_peronteto_2.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 04.81, 00.00
+Coordinates 2, 00.00, 25.00
+Coordinates 3, 07.58, 25.00
+Coordinates 4, 00.00, 00.00
+Coordinates 5, 03.00, 00.00
+Coordinates 6, 00.00, 25.00
+Coordinates 7, 03.00, 25.00
+
+;--------------------------------------------------
+
+;Oszlopok
+
+;8
+[MeshBuilder]
+;szemben
+Vertex -00.575, 1.100, 05.714
+Vertex  00.575, 1.100, 05.714
+Vertex -00.925, 3.700, 05.714
+Vertex  00.925, 3.700, 05.714
+Vertex -09.245, 6.035, 05.714
+Vertex  09.245, 6.035, 05.714
+Vertex -00.350, 4.300, 05.714
+Vertex  00.350, 4.300, 05.714
+Vertex -09.215, 6.179, 05.714
+Vertex  09.215, 6.179, 05.714
+;oldal
+Vertex -00.575, 1.100, 05.714
+Vertex  00.575, 1.100, 05.714
+Vertex -00.925, 3.700, 05.714
+Vertex  00.925, 3.700, 05.714
+Vertex -09.245, 6.035, 05.714
+Vertex  09.245, 6.035, 05.714
+Vertex -09.215, 6.179, 05.714
+Vertex  09.215, 6.179, 05.714
+Vertex -00.575, 1.100, 06.114
+Vertex  00.575, 1.100, 06.114
+Vertex -00.925, 3.700, 06.114
+Vertex  00.925, 3.700, 06.114
+Vertex -09.245, 6.035, 06.114
+Vertex  09.245, 6.035, 06.114
+Vertex -09.215, 6.179, 06.114
+Vertex  09.215, 6.179, 06.114
+;szemben
+Face 00,02,03,01
+Face 02,06,07,03
+Face 02,04,08,06
+Face 03,07,09,05
+;oldal
+Face 10,18,20,12
+Face 13,21,19,11
+Face 12,20,22,14
+Face 15,23,21,13
+Face 14,22,24,16
+Face 17,25,23,15
+[Texture]
+Load ors_oszlop_oldal_1.bmp
+;szemben
+Coordinates 00,-03.833, 07.333
+Coordinates 01, 03.833, 07.333
+Coordinates 02,-06.167, 24.667
+Coordinates 03, 06.167, 24.667
+Coordinates 04,-61.633, 40.233
+Coordinates 05, 61.633, 40.233
+Coordinates 06,-02.333, 28.667
+Coordinates 07, 02.333, 28.667
+Coordinates 08,-61.433, 41.193
+Coordinates 09, 61.433, 41.193
+;oldal
+Coordinates 10, 00.500, 00.000
+Coordinates 11, 00.500, 00.000
+Coordinates 12, 00.500, 01.000
+Coordinates 13, 00.500, 01.000
+Coordinates 14, 00.500, 02.000
+Coordinates 15, 00.500, 02.000
+Coordinates 16, 00.500, 03.000
+Coordinates 17, 00.500, 03.000
+Coordinates 18, 03.500, 00.000
+Coordinates 19, 03.500, 00.000
+Coordinates 20, 03.500, 01.000
+Coordinates 21, 03.500, 01.000
+Coordinates 22, 03.500, 02.000
+Coordinates 23, 03.500, 02.000
+Coordinates 24, 03.500, 03.000
+Coordinates 25, 03.500, 03.000
+Color 200,200,200
+
+;9
+[MeshBuilder]
+;szemben
+Vertex -00.600, 1.100, 14.714
+Vertex  00.600, 1.100, 14.714
+Vertex -00.950, 3.700, 14.714
+Vertex  00.950, 3.700, 14.714
+Vertex -09.832, 6.153, 14.714
+Vertex  09.832, 6.153, 14.714
+Vertex -00.350, 4.300, 14.714
+Vertex  00.350, 4.300, 14.714
+Vertex -09.802, 6.297, 14.714
+Vertex  09.802, 6.297, 14.714
+;oldal
+Vertex -00.600, 1.100, 14.714
+Vertex  00.600, 1.100, 14.714
+Vertex -00.950, 3.700, 14.714
+Vertex  00.950, 3.700, 14.714
+Vertex -09.832, 6.153, 14.714
+Vertex  09.832, 6.153, 14.714
+Vertex -09.802, 6.297, 14.714
+Vertex  09.802, 6.297, 14.714
+Vertex -00.600, 1.100, 15.114
+Vertex  00.600, 1.100, 15.114
+Vertex -00.950, 3.700, 15.114
+Vertex  00.950, 3.700, 15.114
+Vertex -09.832, 6.153, 15.114
+Vertex  09.832, 6.153, 15.114
+Vertex -09.802, 6.297, 15.114
+Vertex  09.802, 6.297, 15.114
+;szemben
+Face 00,02,03,01
+Face 02,06,07,03
+Face 02,04,08,06
+Face 03,07,09,05
+;oldal
+Face 10,18,20,12
+Face 13,21,19,11
+Face 12,20,22,14
+Face 15,23,21,13
+Face 14,22,24,16
+Face 17,25,23,15
+[Texture]
+Load ors_oszlop_oldal_1.bmp
+;szemben
+Coordinates 00,-04.000, 07.333
+Coordinates 01, 04.000, 07.333
+Coordinates 02,-06.333, 24.667
+Coordinates 03, 06.333, 24.667
+Coordinates 04,-65.516, 41.020
+Coordinates 05, 65.516, 41.020
+Coordinates 06,-02.333, 28.667
+Coordinates 07, 02.333, 28.667
+Coordinates 08,-65.317, 41.980
+Coordinates 09, 65.317, 41.980
+;oldal
+Coordinates 10, 00.500, 00.000
+Coordinates 11, 00.500, 00.000
+Coordinates 12, 00.500, 01.000
+Coordinates 13, 00.500, 01.000
+Coordinates 14, 00.500, 02.000
+Coordinates 15, 00.500, 02.000
+Coordinates 16, 00.500, 03.000
+Coordinates 17, 00.500, 03.000
+Coordinates 18, 03.500, 00.000
+Coordinates 19, 03.500, 00.000
+Coordinates 20, 03.500, 01.000
+Coordinates 21, 03.500, 01.000
+Coordinates 22, 03.500, 02.000
+Coordinates 23, 03.500, 02.000
+Coordinates 24, 03.500, 03.000
+Coordinates 25, 03.500, 03.000
+Color 200,200,200
+
+;--------------------------------------------------
+
+;Tetõ
+
+;alsó sík
+[MeshBuilder]
+Vertex -09.409, 6.226,-00.633
+Vertex -00.350, 4.300,-00.633
+Vertex -09.409, 6.220, 03.750
+Vertex -00.350, 4.300, 03.750
+Vertex  00.350, 4.300,-00.633
+Vertex  09.409, 6.226,-00.633
+Vertex  00.350, 4.300, 03.750
+Vertex  09.409, 6.220, 03.750
+;
+Vertex -09.995, 6.344, 03.714
+Vertex -00.350, 4.300, 03.714
+Vertex -09.995, 6.337, 12.750
+Vertex -00.350, 4.300, 12.750
+Vertex  00.350, 4.300, 03.714
+Vertex  09.995, 6.344, 03.714
+Vertex  00.350, 4.300, 12.750
+Vertex  09.995, 6.337, 12.750
+;
+Vertex -10.583, 6.462, 12.714
+Vertex -00.350, 4.300, 12.714
+Vertex -10.583, 6.462, 24.314
+Vertex -00.350, 4.300, 24.314
+Vertex  00.350, 4.300, 12.714
+Vertex  10.583, 6.462, 12.714
+Vertex  00.350, 4.300, 24.314
+Vertex  10.583, 6.462, 24.314
+;
+Face 00,01,03,02
+Face 04,05,07,06
+;
+Face 08,09,11,10
+Face 12,13,15,14
+;
+Face 16,17,19,18
+Face 20,21,23,22
+;
+[Texture]
+Load ors_teto_alul_1.bmp
+Coordinates 00, 00.00, 00.00
+Coordinates 01, 01.00, 00.00
+Coordinates 02, 00.00, 20.00
+Coordinates 03, 01.00, 20.00
+Coordinates 04, 00.00, 00.00
+Coordinates 05, 01.00, 00.00
+Coordinates 06, 00.00, 20.00
+Coordinates 07, 01.00, 20.00
+Coordinates 08, 00.00, 00.00
+Coordinates 09, 01.00, 00.00
+Coordinates 10, 00.00, 36.00
+Coordinates 11, 01.00, 36.00
+Coordinates 12, 00.00, 00.00
+Coordinates 13, 01.00, 00.00
+Coordinates 14, 00.00, 36.00
+Coordinates 15, 01.00, 36.00
+Coordinates 16, 00.00, 00.00
+Coordinates 17, 01.00, 00.00
+Coordinates 18, 00.00, 44.00
+Coordinates 19, 01.00, 44.00
+Coordinates 20, 00.00, 00.00
+Coordinates 21, 01.00, 00.00
+Coordinates 22, 00.00, 44.00
+Coordinates 23, 01.00, 44.00
+
+;oldal
+[MeshBuilder]
+;szemben 8
+Vertex -09.995, 6.344, 03.714
+Vertex -09.409, 6.220, 03.714
+Vertex -09.912, 6.735, 03.714
+Vertex -09.326, 6.611, 03.714
+Vertex  09.995, 6.344, 03.714
+Vertex  09.409, 6.220, 03.714
+Vertex  09.912, 6.735, 03.714
+Vertex  09.326, 6.611, 03.714
+;szemben 9
+Vertex -10.583, 6.462, 12.714
+Vertex -09.995, 6.337, 12.714
+Vertex -10.500, 6.853, 12.714
+Vertex -09.912, 6.729, 12.714
+Vertex  10.583, 6.462, 12.714
+Vertex  09.995, 6.337, 12.714
+Vertex  10.500, 6.853, 12.714
+Vertex  09.912, 6.729, 12.714
+;szemben 8
+Face 00,02,03,01
+Face 05,07,06,04
+;szemben 9
+Face 08,10,11,09
+Face 13,15,14,12
+[Texture]
+Load ors_teto_oldal_1.bmp
+;szemben 8
+Coordinates 00, 00.00, 01.00
+Coordinates 01, 00.50, 01.00
+Coordinates 02, 00.00, 00.00
+Coordinates 03, 00.50, 00.00
+Coordinates 04, 00.00, 01.00
+Coordinates 05, 00.50, 01.00
+Coordinates 06, 00.00, 00.00
+Coordinates 07, 00.50, 00.00
+;szemben 9
+Coordinates 08, 00.00, 01.00
+Coordinates 09, 00.50, 01.00
+Coordinates 10, 00.00, 00.00
+Coordinates 11, 00.50, 00.00
+Coordinates 12, 00.00, 01.00
+Coordinates 13, 00.50, 01.00
+Coordinates 14, 00.00, 00.00
+Coordinates 15, 00.50, 00.00
+
+;csatorna
+[MeshBuilder]
+Vertex -00.350, 4.100,-00.700
+Vertex  00.350, 4.100,-00.700
+Vertex -00.350, 4.300,-00.700
+Vertex  00.350, 4.300,-00.700
+Vertex -00.350, 4.100, 24.000
+Vertex  00.350, 4.100, 24.000
+Vertex -00.350, 4.300, 24.000
+Vertex  00.350, 4.300, 24.000
+Face 00,04,06,02
+Face 03,07,05,01
+Face 00,01,05,04
+Color 60,60,60
+
+;--------------------------------------------------
+
+;Világítás
+
+;alsó sík
+[MeshBuilder]
+Vertex -09.409, 6.196,-00.633
+Vertex -00.350, 4.270,-00.633
+Vertex -09.409, 6.190, 03.750
+Vertex -00.350, 4.270, 03.750
+Vertex  00.350, 4.270,-00.633
+Vertex  09.409, 6.196,-00.633
+Vertex  00.350, 4.270, 03.750
+Vertex  09.409, 6.190, 03.750
+;
+Vertex -09.995, 6.314, 03.714
+Vertex -00.350, 4.270, 03.714
+Vertex -09.995, 6.307, 12.750
+Vertex -00.350, 4.270, 12.750
+Vertex  00.350, 4.270, 03.714
+Vertex  09.995, 6.314, 03.714
+Vertex  00.350, 4.270, 12.750
+Vertex  09.995, 6.307, 12.750
+;
+Vertex -10.583, 6.432, 12.714
+Vertex -00.350, 4.270, 12.714
+Vertex -10.583, 6.432, 24.314
+Vertex -00.350, 4.270, 24.314
+Vertex  00.350, 4.270, 12.714
+Vertex  10.583, 6.432, 12.714
+Vertex  00.350, 4.270, 24.314
+Vertex  10.583, 6.432, 24.314
+;
+Face 00,01,03,02
+Face 04,05,07,06
+;
+Face 08,09,11,10
+Face 12,13,15,14
+;
+Face 16,17,19,18
+Face 20,21,23,22
+;
+[Texture]
+Load ors_vilagitas.bmp
+Coordinates 00, 00.00, 00.50
+Coordinates 01, 03.00, 00.50
+Coordinates 02, 00.00, 03.00
+Coordinates 03, 03.00, 03.00
+Coordinates 04, 03.00, 00.50
+Coordinates 05, 00.00, 00.50
+Coordinates 06, 03.00, 03.00
+Coordinates 07, 00.00, 03.00
+Coordinates 08, 00.00, 00.00
+Coordinates 09, 03.00, 00.00
+Coordinates 10, 00.00, 05.00
+Coordinates 11, 03.00, 05.00
+Coordinates 12, 03.00, 00.00
+Coordinates 13, 00.00, 00.00
+Coordinates 14, 03.00, 05.00
+Coordinates 15, 00.00, 05.00
+Coordinates 16, 00.00, 00.10
+Coordinates 17, 03.00, 00.10
+Coordinates 18, 00.00, 06.20
+Coordinates 19, 03.00, 06.20
+Coordinates 20, 03.00, 00.10
+Coordinates 21, 00.00, 00.10
+Coordinates 22, 03.00, 06.20
+Coordinates 23, 00.00, 06.20
+Transparent 0,0,255
+
+;--------------------------------------------------
+
+;Kerítés és korlát
+
+;3. vágány peron korlát
+[MeshBuilder]
+Vertex  17.950, 1.10,-00.633
+Vertex  19.576, 1.10, 24.314
+Vertex  17.950, 2.10,-00.633
+Vertex  19.576, 2.10, 24.314
+Face 00,01,03,02
+[Texture]
+Load ors_korlat_01.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 08.00, 01.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 08.00, 00.00
+Transparent 0,0,255
+
+;középsõ peron korlát
+;jobb oldal
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 9.585,1.50,24.314
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 9.455,1.50,22.318
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 9.325,1.50,20.322
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 9.195,1.50,18.327
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 9.065,1.50,16.331
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 8.935,1.50,14.335
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 8.805,1.50,12.339
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 8.674,1.50,10.343
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 8.544,1.50,08.348
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 8.414,1.50,06.352
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 8.284,1.50,04.356
+[MeshBuilder]
+cube 0.025,0.025,10.00
+color 136,21,27
+rotate 0,1,0,3.73
+translate 8.935,1.35,14.335
+[MeshBuilder]
+cube 0.025,0.05,10.10
+color 128,82,23
+rotate 0,1,0,3.73
+translate 8.935,2.00,14.335
+;
+;bal oldal
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate -9.022,1.50,15.667
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate -8.899,1.50,13.782
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate -8.776,1.50,11.897
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate -8.653,1.50,10.012
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate -8.530,1.50,08.127
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate -8.407,1.50,06.241
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate -8.284,1.50,04.356
+[MeshBuilder]
+cube 0.025,0.025,05.67
+color 136,21,27
+rotate 0,1,0,-3.73
+translate -8.653,1.35,10.012
+[MeshBuilder]
+cube 0.025,0.05,05.77
+color 128,82,23
+rotate 0,1,0,-3.73
+translate -8.653,2.00,10.012
+
+;jobb peron korlát
+[MeshBuilder]
+cube 0.025,0.45,0.025
+color 136,21,27
+translate 15.673,1.50,04.399
+
+[MeshBuilder]
+cube 0.025,0.05,00.10
+color 128,96,00
+rotate 0,1,0,3.73
+translate 15.673,2.00,04.399
+
+
+
+;jegykezelõ korlátok
+;jobb1
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,-0.600
+translate 3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,0.600
+translate 3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,-0.600
+translate 3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,0.600
+translate 3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,22.5
+translate 0.00,0.903,-0.575
+translate 3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,67.5
+translate 0.00,0.975,-0.500
+translate 3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-22.5
+translate 0.00,0.903,0.575
+translate 3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-67.5
+translate 0.00,0.975,0.500
+translate 3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.900
+color 136,21,27
+rotate 1,0,0,90
+translate 0.00,1.00,0.00
+translate 3.524,1.1,8.234
+
+;jobb2
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,-0.600
+translate 4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,0.600
+translate 4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,-0.600
+translate 4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,0.600
+translate 4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,22.5
+translate 0.00,0.903,-0.575
+translate 4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,67.5
+translate 0.00,0.975,-0.500
+translate 4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-22.5
+translate 0.00,0.903,0.575
+translate 4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-67.5
+translate 0.00,0.975,0.500
+translate 4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.900
+color 136,21,27
+rotate 1,0,0,90
+translate 0.00,1.00,0.00
+translate 4.981,1.1,8.139
+
+;jobb3
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,-0.600
+translate 6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,0.600
+translate 6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,-0.600
+translate 6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,0.600
+translate 6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,22.5
+translate 0.00,0.903,-0.575
+translate 6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,67.5
+translate 0.00,0.975,-0.500
+translate 6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-22.5
+translate 0.00,0.903,0.575
+translate 6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-67.5
+translate 0.00,0.975,0.500
+translate 6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.900
+color 136,21,27
+rotate 1,0,0,90
+translate 0.00,1.00,0.00
+translate 6.439,1.1,8.044
+
+;bal1
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,-0.600
+translate -3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,0.600
+translate -3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,-0.600
+translate -3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,0.600
+translate -3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,22.5
+translate 0.00,0.903,-0.575
+translate -3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,67.5
+translate 0.00,0.975,-0.500
+translate -3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-22.5
+translate 0.00,0.903,0.575
+translate -3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-67.5
+translate 0.00,0.975,0.500
+translate -3.524,1.1,8.234
+[meshbuilder]
+cylinder 8,0.025,0.025,00.900
+color 136,21,27
+rotate 1,0,0,90
+translate 0.00,1.00,0.00
+translate -3.524,1.1,8.234
+
+;bal2
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,-0.600
+translate -4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,0.600
+translate -4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,-0.600
+translate -4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,0.600
+translate -4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,22.5
+translate 0.00,0.903,-0.575
+translate -4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,67.5
+translate 0.00,0.975,-0.500
+translate -4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-22.5
+translate 0.00,0.903,0.575
+translate -4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-67.5
+translate 0.00,0.975,0.500
+translate -4.981,1.1,8.139
+[meshbuilder]
+cylinder 8,0.025,0.025,00.900
+color 136,21,27
+rotate 1,0,0,90
+translate 0.00,1.00,0.00
+translate -4.981,1.1,8.139
+
+;bal3
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,-0.600
+translate -6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.06,0.06,00.02
+color 136,21,27
+translate 0.00,0.01,0.600
+translate -6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,-0.600
+translate -6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.850
+color 136,21,27
+translate 0.00,0.425,0.600
+translate -6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,22.5
+translate 0.00,0.903,-0.575
+translate -6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,67.5
+translate 0.00,0.975,-0.500
+translate -6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-22.5
+translate 0.00,0.903,0.575
+translate -6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.135
+color 136,21,27
+rotate 1,0,0,-67.5
+translate 0.00,0.975,0.500
+translate -6.439,1.1,8.044
+[meshbuilder]
+cylinder 8,0.025,0.025,00.900
+color 136,21,27
+rotate 1,0,0,90
+translate 0.00,1.00,0.00
+translate -6.439,1.1,8.044
+
+;bal kerítés
+[MeshBuilder]
+Vertex -12.519,-0.30,-00.633
+Vertex -14.145,-0.30, 24.314
+Vertex -12.519, 0.70,-00.633
+Vertex -14.145, 0.70, 24.314
+Vertex -12.919, 0.70,-00.633
+Vertex -14.546, 0.70, 24.314
+Face 00,02,03,01
+Face 03,02,04,05
+[Texture]
+Load ors_kerites_02.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 25.00, 01.00
+Coordinates 2, 00.00, 00.22
+Coordinates 3, 25.00, 00.22
+Coordinates 4, 00.00, 00.00
+Coordinates 5, 25.00, 00.00
+
+[MeshBuilder]
+Vertex -12.719, 0.70,-00.633
+Vertex -14.345, 0.70, 24.314
+Vertex -12.719, 2.20,-00.633
+Vertex -14.345, 2.20, 24.314
+Face 00,02,03,01
+[Texture]
+Load ors_kerites_01.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 16.00, 01.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 16.00, 00.00
+Transparent 0,0,255
+
+;--------------------------------------------------
+
+;Jegykezelõk
+
+;Jobb1
+[MeshBuilder]
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09,-0.025,-00.11
+Face 00,01,02,03
+[Texture]
+Load ..\jegykez_e.bmp
+Coordinates 0, 00.00,01.00
+Coordinates 1, 00.00,00.00
+Coordinates 2, 01.00,00.00
+Coordinates 3, 01.00,01.00
+Rotate 0,1,0,-90
+Translate 2.066,2.13,8.34
+[MeshBuilder]
+Vertex  00.09,-0.025,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09, 0.300, 00.11
+Vertex  00.09,-0.025, 00.11
+Vertex -00.09,-0.025, 00.11
+Vertex -00.09, 0.300, 00.11
+Vertex -00.09, 0.300,-00.11
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex -00.09, 0.300, 00.11
+Vertex  00.09, 0.300, 00.11
+Vertex  00.09, 0.300,-00.11
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Color 162,43,18
+Rotate 0,1,0,-90
+Translate 2.066,2.13,8.34
+
+;Jobb2
+[MeshBuilder]
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09,-0.025,-00.11
+Face 00,01,02,03
+[Texture]
+Load ..\jegykez_h.bmp
+Coordinates 0, 00.00,01.00
+Coordinates 1, 00.00,00.00
+Coordinates 2, 01.00,00.00
+Coordinates 3, 01.00,01.00
+Translate 3.524,2.13,8.23
+Transparent 0,0,255
+[MeshBuilder]
+Vertex  00.09,0.00,-00.11
+Vertex  00.09,0.30,-00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.00, 00.11
+Vertex -00.09,0.00, 00.11
+Vertex -00.09,0.30, 00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.00,-00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.30, 00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.30,-00.11
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Color 162,43,18
+Translate 3.524,2.13,8.23
+
+;Jobb3
+[MeshBuilder]
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09,-0.025,-00.11
+Face 00,01,02,03
+[Texture]
+Load ..\jegykez_h.bmp
+Coordinates 0, 00.00,01.00
+Coordinates 1, 00.00,00.00
+Coordinates 2, 01.00,00.00
+Coordinates 3, 01.00,01.00
+Translate 4.981,2.13,8.14
+Transparent 0,0,255
+[MeshBuilder]
+Vertex  00.09,0.00,-00.11
+Vertex  00.09,0.30,-00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.00, 00.11
+Vertex -00.09,0.00, 00.11
+Vertex -00.09,0.30, 00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.00,-00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.30, 00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.30,-00.11
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Color 162,43,18
+Translate 4.981,2.13,8.14
+
+;Jobb4
+[MeshBuilder]
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09,-0.025,-00.11
+Face 00,01,02,03
+[Texture]
+Load ..\jegykez_h.bmp
+Coordinates 0, 00.00,01.00
+Coordinates 1, 00.00,00.00
+Coordinates 2, 01.00,00.00
+Coordinates 3, 01.00,01.00
+Translate 6.439,2.13,8.044
+Transparent 0,0,255
+[MeshBuilder]
+Vertex  00.09,0.00,-00.11
+Vertex  00.09,0.30,-00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.00, 00.11
+Vertex -00.09,0.00, 00.11
+Vertex -00.09,0.30, 00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.00,-00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.30, 00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.30,-00.11
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Color 162,43,18
+Translate 6.439,2.13,8.044
+
+;Bal1
+[MeshBuilder]
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09,-0.025,-00.11
+Face 00,01,02,03
+[Texture]
+Load ..\jegykez_e.bmp
+Coordinates 0, 00.00,01.00
+Coordinates 1, 00.00,00.00
+Coordinates 2, 01.00,00.00
+Coordinates 3, 01.00,01.00
+Rotate 0,1,0,90
+Translate -2.066,2.13,8.34
+[MeshBuilder]
+Vertex  00.09,-0.025,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09, 0.300, 00.11
+Vertex  00.09,-0.025, 00.11
+Vertex -00.09,-0.025, 00.11
+Vertex -00.09, 0.300, 00.11
+Vertex -00.09, 0.300,-00.11
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex -00.09, 0.300, 00.11
+Vertex  00.09, 0.300, 00.11
+Vertex  00.09, 0.300,-00.11
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Color 162,43,18
+Rotate 0,1,0,90
+Translate -2.066,2.13,8.34
+
+;Bal2
+[MeshBuilder]
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09,-0.025,-00.11
+Face 00,01,02,03
+[Texture]
+Load ..\jegykez_h.bmp
+Coordinates 0, 00.00,01.00
+Coordinates 1, 00.00,00.00
+Coordinates 2, 01.00,00.00
+Coordinates 3, 01.00,01.00
+Translate -3.524,2.13,8.23
+Transparent 0,0,255
+[MeshBuilder]
+Vertex  00.09,0.00,-00.11
+Vertex  00.09,0.30,-00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.00, 00.11
+Vertex -00.09,0.00, 00.11
+Vertex -00.09,0.30, 00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.00,-00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.30, 00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.30,-00.11
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Color 162,43,18
+Translate -3.524,2.13,8.23
+
+;Bal3
+[MeshBuilder]
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09,-0.025,-00.11
+Face 00,01,02,03
+[Texture]
+Load ..\jegykez_h.bmp
+Coordinates 0, 00.00,01.00
+Coordinates 1, 00.00,00.00
+Coordinates 2, 01.00,00.00
+Coordinates 3, 01.00,01.00
+Translate -4.981,2.13,8.14
+Transparent 0,0,255
+[MeshBuilder]
+Vertex  00.09,0.00,-00.11
+Vertex  00.09,0.30,-00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.00, 00.11
+Vertex -00.09,0.00, 00.11
+Vertex -00.09,0.30, 00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.00,-00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.30, 00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.30,-00.11
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Color 162,43,18
+Translate -4.981,2.13,8.14
+
+;Bal4
+[MeshBuilder]
+Vertex -00.09,-0.025,-00.11
+Vertex -00.09, 0.300,-00.11
+Vertex  00.09, 0.300,-00.11
+Vertex  00.09,-0.025,-00.11
+Face 00,01,02,03
+[Texture]
+Load ..\jegykez_h.bmp
+Coordinates 0, 00.00,01.00
+Coordinates 1, 00.00,00.00
+Coordinates 2, 01.00,00.00
+Coordinates 3, 01.00,01.00
+Translate -6.439,2.13,8.044
+Transparent 0,0,255
+[MeshBuilder]
+Vertex  00.09,0.00,-00.11
+Vertex  00.09,0.30,-00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.00, 00.11
+Vertex -00.09,0.00, 00.11
+Vertex -00.09,0.30, 00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.00,-00.11
+Vertex -00.09,0.30,-00.11
+Vertex -00.09,0.30, 00.11
+Vertex  00.09,0.30, 00.11
+Vertex  00.09,0.30,-00.11
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Color 162,43,18
+Translate -6.439,2.13,8.044
+
+;--------------------------------------------------
+
+;Üzlethelyiség
+[MeshBuilder]
+Vertex -05.000, 1.10, 18.314
+Vertex -05.000, 4.10, 18.314
+Vertex -05.000, 1.10, 24.314
+Vertex -05.000, 4.10, 24.314
+Face 00,01,03,02
+[Texture]
+Load ors_oldalfal_11.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 01.00
+Coordinates 3, 01.00, 00.00
+
+[MeshBuilder]
+Vertex -07.522, 1.10, 15.667
+Vertex -07.522, 4.10, 15.667
+Vertex -05.000, 1.10, 18.314
+Vertex -05.000, 4.10, 18.314
+Face 00,01,03,02
+[Texture]
+Load ors_oldalfal_12.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 01.00
+Coordinates 3, 01.00, 00.00
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex -09.022, 1.10, 15.667
+Vertex -08.378, 4.10, 15.667
+Vertex -07.522, 1.10, 15.667
+Vertex -07.522, 4.10, 15.667
+Vertex -08.378, 3.25, 15.667
+Face 02,00,04
+Face 02,04,01,03
+[Texture]
+Load ors_oldalfal_13.bmp
+Coordinates 0, 00.01, 01.00
+Coordinates 1, 00.40, 00.00
+Coordinates 2, 01.00, 01.00
+Coordinates 3, 01.00, 00.00
+Coordinates 4, 00.40, 00.283
+Transparent 255,255,255
+
+[MeshBuilder]
+Vertex -09.022, 1.10, 15.667
+Vertex -08.378, 3.25, 15.667
+Vertex -09.459, 1.10, 22.373
+Vertex -08.815, 3.25, 22.373
+Face 00,02,03,01
+[Texture]
+Load ors_oldalfal_14.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 07.00, 01.00
+Coordinates 3, 07.00, 00.00
+
+[MeshBuilder]
+Vertex -09.459, 1.10, 22.373
+Vertex -08.815, 3.25, 22.373
+Vertex -09.585, 1.10, 24.314
+Vertex -08.941, 3.25, 24.314
+Face 00,02,03,01
+[Texture]
+Load ors_oldalfal_15.bmp
+Coordinates 0, 01.00, 01.00
+Coordinates 1, 01.00, 00.00
+Coordinates 2, 00.00, 01.00
+Coordinates 3, 00.00, 00.00
+
+[MeshBuilder]
+Vertex -08.378, 3.25, 15.667
+Vertex -08.378, 4.10, 15.667
+Vertex -08.504, 3.25, 17.608
+Vertex -08.504, 4.10, 17.608
+Vertex -08.596, 3.25, 19.020
+Vertex -08.596, 4.10, 19.020
+Vertex -08.723, 3.25, 20.961
+Vertex -08.723, 4.10, 20.961
+Vertex -08.815, 3.25, 22.373
+Vertex -08.815, 4.10, 22.373
+Vertex -08.941, 3.25, 24.314
+Vertex -08.941, 4.10, 24.314
+Face 00,02,03,01
+Face 04,06,07,05
+Face 08,10,11,09
+[Texture]
+Load ors_oldalfal_16.bmp
+Coordinates 00, 01.00, 01.00
+Coordinates 01, 01.00, 00.00
+Coordinates 02, 00.00, 01.00
+Coordinates 03, 00.00, 00.00
+Coordinates 04, 01.00, 01.00
+Coordinates 05, 01.00, 00.00
+Coordinates 06, 00.00, 01.00
+Coordinates 07, 00.00, 00.00
+Coordinates 08, 01.00, 01.00
+Coordinates 09, 01.00, 00.00
+Coordinates 10, 00.00, 01.00
+Coordinates 11, 00.00, 00.00
+
+[MeshBuilder]
+Vertex -08.504, 3.25, 17.608
+Vertex -08.504, 4.10, 17.608
+Vertex -08.596, 3.25, 19.020
+Vertex -08.596, 4.10, 19.020
+Vertex -08.723, 3.25, 20.961
+Vertex -08.723, 4.10, 20.961
+Vertex -08.815, 3.25, 22.373
+Vertex -08.815, 4.10, 22.373
+Face 00,02,03,01
+Face 04,06,07,05
+[Texture]
+Load ors_oldalfal_17.bmp
+Coordinates 00, 01.00, 01.00
+Coordinates 01, 01.00, 00.00
+Coordinates 02, 00.00, 01.00
+Coordinates 03, 00.00, 00.00
+Coordinates 04, 01.00, 01.00
+Coordinates 05, 01.00, 00.00
+Coordinates 06, 00.00, 01.00
+Coordinates 07, 00.00, 00.00
+
+;--------------------------------------------------
+
+;Helyiség
+
+[MeshBuilder]
+Vertex -02.066,1.10, 01.848
+Vertex -02.066,1.10,-00.352
+Vertex -01.500,1.10,-00.918
+Vertex  01.500,1.10,-00.918
+Vertex  02.066,1.10,-00.352
+Vertex  02.066,1.10, 01.848
+Vertex -02.066,3.70, 01.848
+Vertex -02.066,3.70,-00.352
+Vertex -01.500,3.70,-00.918
+Vertex  01.500,3.70,-00.918
+Vertex  02.066,3.70,-00.352
+Vertex  02.066,3.70, 01.848
+;
+Vertex -02.066,1.10,06.679
+Vertex -01.500,1.10,06.114
+Vertex  01.500,1.10,06.114
+Vertex  02.066,1.10,06.679
+Vertex -02.066,3.70,06.679
+Vertex -01.500,3.70,06.114
+Vertex  01.500,3.70,06.114
+Vertex  02.066,3.70,06.679
+Face 01,00,06,07
+Face 02,01,07,08
+Face 03,02,08,09
+Face 04,03,09,10
+Face 05,04,10,11
+;
+Face 13,12,16,17
+Face 15,14,18,19
+[Texture]
+Load ors_oldalfal_33.bmp
+Coordinates 00, 00.00, 01.00
+Coordinates 01, 02.00, 01.00
+Coordinates 02, 03.00, 01.00
+Coordinates 03, 05.00, 01.00
+Coordinates 04, 06.00, 01.00
+Coordinates 05, 08.00, 01.00
+Coordinates 06, 00.00, 00.00
+Coordinates 07, 02.00, 00.00
+Coordinates 08, 03.00, 00.00
+Coordinates 09, 05.00, 00.00
+Coordinates 10, 06.00, 00.00
+Coordinates 11, 08.00, 00.00
+;
+Coordinates 12, 00.00, 01.00
+Coordinates 13, 01.00, 01.00
+Coordinates 14, 00.00, 01.00
+Coordinates 15, 01.00, 01.00
+Coordinates 16, 00.00, 00.00
+Coordinates 17, 01.00, 00.00
+Coordinates 18, 00.00, 00.00
+Coordinates 19, 01.00, 00.00
+
+[MeshBuilder]
+Vertex -02.066,1.10,04.048
+Vertex -02.066,1.10,01.848
+Vertex  02.066,1.10,04.048
+Vertex  02.066,1.10,01.848
+Vertex -02.066,3.70,04.048
+Vertex -02.066,3.70,01.848
+Vertex  02.066,3.70,04.048
+Vertex  02.066,3.70,01.848
+
+Vertex -02.066,1.10,08.979
+Vertex -02.066,1.10,07.879
+Vertex  02.066,1.10,08.979
+Vertex  02.066,1.10,07.879
+Vertex -02.066,3.70,08.979
+Vertex -02.066,3.70,07.879
+Vertex  02.066,3.70,08.979
+Vertex  02.066,3.70,07.879
+Face 01,00,04,05
+Face 07,06,02,03
+Face 09,08,12,13
+Face 15,14,10,11
+[Texture]
+Load ors_oldalfal_31.bmp
+Coordinates 00, 00.00, 01.00
+Coordinates 01, 02.00, 01.00
+Coordinates 02, 00.00, 01.00
+Coordinates 03, 02.00, 01.00
+Coordinates 04, 00.00, 00.00
+Coordinates 05, 02.00, 00.00
+Coordinates 06, 00.00, 00.00
+Coordinates 07, 02.00, 00.00
+Coordinates 08, 00.00, 01.00
+Coordinates 09, 01.00, 01.00
+Coordinates 10, 00.00, 01.00
+Coordinates 11, 01.00, 01.00
+Coordinates 12, 00.00, 00.00
+Coordinates 13, 01.00, 00.00
+Coordinates 14, 00.00, 00.00
+Coordinates 15, 01.00, 00.00
+
+[MeshBuilder]
+Vertex -02.066,1.10,05.148
+Vertex -02.066,1.10,04.048
+Vertex  02.066,1.10,05.148
+Vertex  02.066,1.10,04.048
+Vertex -02.066,3.70,05.148
+Vertex -02.066,3.70,04.048
+Vertex  02.066,3.70,05.148
+Vertex  02.066,3.70,04.048
+Face 01,00,04,05
+Face 07,06,02,03
+[Texture]
+Load ors_oldalfal_35.bmp
+Coordinates 00, 00.00, 01.00
+Coordinates 01, 01.00, 01.00
+Coordinates 02, 01.00, 01.00
+Coordinates 03, 00.00, 01.00
+Coordinates 04, 00.00, 00.00
+Coordinates 05, 01.00, 00.00
+Coordinates 06, 01.00, 00.00
+Coordinates 07, 00.00, 00.00
+
+[MeshBuilder]
+Vertex -02.066,1.10,07.879
+Vertex -02.066,1.10,06.679
+Vertex  02.066,1.10,07.879
+Vertex  02.066,1.10,06.679
+Vertex -02.066,3.70,07.879
+Vertex -02.066,3.70,06.679
+Vertex  02.066,3.70,07.879
+Vertex  02.066,3.70,06.679
+Face 01,00,04,05
+Face 07,06,02,03
+[Texture]
+Load ors_oldalfal_36.bmp
+Coordinates 00, 00.00, 01.00
+Coordinates 01, 01.00, 01.00
+Coordinates 02, 01.00, 01.00
+Coordinates 03, 00.00, 01.00
+Coordinates 04, 00.00, 00.00
+Coordinates 05, 01.00, 00.00
+Coordinates 06, 01.00, 00.00
+Coordinates 07, 00.00, 00.00
+
+[MeshBuilder]
+Vertex -02.066,1.10,10.079
+Vertex -02.066,1.10,08.979
+Vertex  02.066,1.10,10.079
+Vertex  02.066,1.10,08.979
+Vertex -02.066,3.70,10.079
+Vertex -02.066,3.70,08.979
+Vertex  02.066,3.70,10.079
+Vertex  02.066,3.70,08.979
+Face 01,00,04,05
+Face 07,06,02,03
+[Texture]
+Load ors_oldalfal_32.bmp
+Coordinates 00, 00.00, 01.00
+Coordinates 01, 01.00, 01.00
+Coordinates 02, 01.00, 01.00
+Coordinates 03, 00.00, 01.00
+Coordinates 04, 00.00, 00.00
+Coordinates 05, 01.00, 00.00
+Coordinates 06, 01.00, 00.00
+Coordinates 07, 00.00, 00.00
+
+;--------------------------------------------------
+
+;Lámpák
+
+;jobb
+[meshbuilder]
+cube 00.03, 02.27, 00.03
+color 0,0,0
+translate 0.00,  3.35, 0.00
+translate 18.156,0.00, 2.531
+[meshbuilder]
+cube 00.03, 00.51, 00.03
+color 0,0,0
+rotate 0,0,1,60
+translate -0.433, 05.85, 00.00
+translate 18.156,0.00, 2.531
+[meshbuilder]
+cube 00.03, 00.150, 00.03
+color 0,0,0
+rotate 0,0,1,90
+translate -1.016, 06.10, 00.00
+translate 18.156,0.00, 2.531
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 180,180,180
+translate -1.266, 06.10, 00.00
+translate 18.156,0.00, 2.531
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 225,255,200,100
+translate -1.266, 06.00, 00.00
+translate 18.156,0.00, 2.531
+
+[meshbuilder]
+cube 00.03, 02.27, 00.03
+color 0,0,0
+translate 0.00,  3.35, 0.00
+translate 18.968,0.00, 14.979
+[meshbuilder]
+cube 00.03, 00.51, 00.03
+color 0,0,0
+rotate 0,0,1,60
+translate -0.433, 05.85, 00.00
+translate 18.968,0.00, 14.979
+[meshbuilder]
+cube 00.03, 00.150, 00.03
+color 0,0,0
+rotate 0,0,1,90
+translate -1.016, 06.10, 00.00
+translate 18.968,0.00, 14.979
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 180,180,180
+translate -1.266, 06.10, 00.00
+translate 18.968,0.00, 14.979
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 225,255,200,100
+translate -1.266, 06.00, 00.00
+translate 18.968,0.00, 14.979
+
+;--------------------------------------------------
+
+;Táblák
+
+;----------------------------
+;Örs vezér tere
+[MeshBuilder]
+cube 0.02, 0.60, 0.02
+color 0,0,0
+translate -0.55, 00.80, 00.00
+translate 5.55,3.80,05.914
+[MeshBuilder]
+cube 0.02, 0.75, 0.02
+color 0,0,0
+translate 0.55, 01.00, 00.00
+translate 6.60,3.70,05.914
+[MeshBuilder]
+cube 1.25, 0.02, 0.02
+color 0,0,0
+translate 6.10,4.02,05.914
+
+[MeshBuilder]
+Vertex -00.75, 00.00, -00.05
+Vertex -00.75, 00.00,  00.05
+Vertex  00.75, 00.00,  00.05
+Vertex  00.75, 00.00, -00.05
+Vertex -00.75, 00.25, -00.05
+Vertex -00.75, 00.25,  00.05
+Vertex  00.75, 00.25,  00.05
+Vertex  00.75, 00.25, -00.05
+Face 0,1,5,4
+Face 2,3,7,6
+Face 1,0,3,2
+Face 4,5,6,7
+color 192,192,192
+translate  6.60,3.75,05.914
+
+[MeshBuilder]
+Vertex -00.75, 00.00, -00.050
+Vertex -00.75, 00.25, -00.054
+Vertex  00.75, 00.25, -00.057
+Vertex  00.75, 00.00, -00.053
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FOrs.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate  6.60,3.75,05.914
+Color 180,180,180
+
+;---
+
+[MeshBuilder]
+cube 0.02, 0.60, 0.02
+color 0,0,0
+translate  0.55, 00.80, 00.00
+translate -5.55,3.80,05.914
+[MeshBuilder]
+cube 0.02, 0.75, 0.02
+color 0,0,0
+translate -0.55, 01.00, 00.00
+translate -6.60,3.70,05.914
+[MeshBuilder]
+cube 1.25, 0.02, 0.02
+color 0,0,0
+translate -6.10,4.02,05.914
+
+[MeshBuilder]
+Vertex -00.75, 00.00, -00.05
+Vertex -00.75, 00.00,  00.05
+Vertex  00.75, 00.00,  00.05
+Vertex  00.75, 00.00, -00.05
+Vertex -00.75, 00.25, -00.05
+Vertex -00.75, 00.25,  00.05
+Vertex  00.75, 00.25,  00.05
+Vertex  00.75, 00.25, -00.05
+Face 0,1,5,4
+Face 2,3,7,6
+Face 1,0,3,2
+Face 4,5,6,7
+color 192,192,192
+translate -6.60,3.75,05.914
+
+[MeshBuilder]
+Vertex -00.75, 00.00, -00.050
+Vertex -00.75, 00.25, -00.054
+Vertex  00.75, 00.25, -00.057
+Vertex  00.75, 00.00, -00.053
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FOrs.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate -6.60,3.75,05.914
+Color 180,180,180
+
+;--------------------------------------------------
+
+;menetrend
+[MeshBuilder]
+Vertex -00.5, 00.00, -00.05
+Vertex -00.5, 00.00,  00.05
+Vertex  00.5, 00.00,  00.05
+Vertex  00.5, 00.00, -00.05
+Vertex -00.5, 00.25, -00.05
+Vertex -00.5, 00.25,  00.05
+Vertex  00.5, 00.25,  00.05
+Vertex  00.5, 00.25, -00.05
+Face 0,1,5,4
+Face 2,3,7,6
+Face 1,0,3,2
+Face 4,5,6,7
+color 32,32,32
+translate -5.35,3.75,05.914
+
+[MeshBuilder]
+Vertex -00.5, 00.00, -00.050
+Vertex -00.5, 00.25, -00.054
+Vertex  00.5, 00.25, -00.057
+Vertex  00.5, 00.00, -00.053
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\mrend2.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate -5.35,3.75,05.914
+Color 180,180,180
+
+;menetrend
+[MeshBuilder]
+Vertex -00.5, 00.00, -00.05
+Vertex -00.5, 00.00,  00.05
+Vertex  00.5, 00.00,  00.05
+Vertex  00.5, 00.00, -00.05
+Vertex -00.5, 00.25, -00.05
+Vertex -00.5, 00.25,  00.05
+Vertex  00.5, 00.25,  00.05
+Vertex  00.5, 00.25, -00.05
+Face 0,1,5,4
+Face 2,3,7,6
+Face 1,0,3,2
+Face 4,5,6,7
+color 32,32,32
+translate 5.35,3.75,05.914
+
+[MeshBuilder]
+Vertex -00.5, 00.00, -00.050
+Vertex -00.5, 00.25, -00.054
+Vertex  00.5, 00.25, -00.057
+Vertex  00.5, 00.00, -00.053
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\mrend2.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate 5.35,3.75,05.914
+Color 180,180,180
+
+;---------
+
+;kijárat
+
+[MeshBuilder]
+cube 0.02, 0.60, 0.02
+color 0,0,0
+translate -4.20,4.50,15
+[MeshBuilder]
+cube 0.02, 0.30, 0.02
+color 0,0,0
+translate -3.40,4.20,15
+
+[MeshBuilder]
+Vertex -0.6,0.2,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.0,0.0
+Vertex -0.6,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate -3.80,3.75,14.9
+
+;szélek
+[MeshBuilder]
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.2,0.0
+Vertex -0.6,0.2,0.2
+Vertex -0.6,0.0,0.2
+Vertex  0.6,0.0,0.0
+Vertex  0.6,0.0,0.2
+face 3,2,1,0
+face 3,0,4,5
+color 128,128,128
+translate -3.80,3.75,14.9
+
+;kijárat
+
+[MeshBuilder]
+cube 0.02, 0.60, 0.02
+color 0,0,0
+translate 4.20,4.50,15
+[MeshBuilder]
+cube 0.02, 0.30, 0.02
+color 0,0,0
+translate 3.40,4.20,15
+
+[MeshBuilder]
+Vertex -0.6,0.2,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.0,0.0
+Vertex -0.6,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate 3.80,3.75,14.9
+
+;szélek
+[MeshBuilder]
+Vertex 0.6,0.0,0.0
+Vertex 0.6,0.2,0.0
+Vertex 0.6,0.2,0.2
+Vertex 0.6,0.0,0.2
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.0,0.2
+face 0,1,2,3
+face 5,4,0,3
+color 128,128,128
+translate 3.80,3.75,14.9

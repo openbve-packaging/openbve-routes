@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex, 5.5, 5.05,0,
+AddVertex,-0.9, 5.05,0,
+AddVertex,-0.9, 3.80,0,
+Addvertex, 5.5, 3.80,0,
+AddFace2,0,1,2,3,
+LoadTexture,../../mark\SD_sueshita.bmp
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetEmissiveColor,115,115,115,
+GenerateNormals,
+Translate,-0.4,1.69

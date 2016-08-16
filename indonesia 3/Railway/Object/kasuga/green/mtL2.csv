@@ -1,0 +1,33 @@
+CreateMeshBuilder
+AddVertex,-23,20,-2
+AddVertex,-10,12,-2
+AddVertex,-1,-8,-2
+AddVertex,-25,22,11
+AddVertex,-8,13,8
+AddVertex,1,-8,15
+AddVertex,-23,20,25
+AddVertex,-7,11,20
+AddVertex,-10,12,25
+AddVertex,-1,-8,25
+AddFace2,0,1,4,3
+AddFace2,3,4,7,6
+AddFace2,4,1,2,5,
+AddFace2,4,5,7
+AddFace2,7,5,9
+AddFace2,6,7,9,8
+Translate, ,,,
+GenerateNormals
+LoadTexture, Grass.bmp
+SetTextureCoordinates, 0, 0, 6
+SetTextureCoordinates, 1, 0, 3
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 4, 6
+SetTextureCoordinates, 4, 3, 6
+SetTextureCoordinates, 5, 4, 0
+SetTextureCoordinates, 6, 8, 3
+SetTextureCoordinates, 7, 5, 3
+SetTextureCoordinates, 8, 8, 3
+SetTextureCoordinates, 9, 8, 0
+
+
+

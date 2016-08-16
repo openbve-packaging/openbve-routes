@@ -1,0 +1,103 @@
+CreateMeshBuilder,
+AddVertex,2.6,-0.40, +0
+AddVertex,2.6,+5.62, +0
+AddVertex,2.6,+5.62, +26.12
+AddVertex,2.6,-0.40, +26.12
+AddFace,3,2,1,0
+LoadTexture,Wall7A.bmp
+;SetColor,255,255,245
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,2.6,-0.29,+0.0
+AddVertex,-4.5,-0.3,+0.0
+AddVertex,-4.5,-0.3,+26.12
+AddVertex,2.6,-0.29,+26.12
+AddFace,0,1,2,3
+LoadTexture,Wall7A.bmp
+SetColor,138,138,128
+SetTextureCoordinates,0, 0, 0.2
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 1, 0.2
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,2.6,+5.62,+ 0.0
+AddVertex,-9.9,+5.64,+ 0.0
+AddVertex,-9.9,+5.64,+26.12
+AddVertex,2.6,+5.62,+26.12
+AddFace,3,2,1,0
+Loadtexture,Wall5.Bmp
+SetColor,50,50,40
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,2.58, 4.4,  11.8
+AddVertex,2.58, 4.4,  13.8
+AddVertex,2.53, 4.4,  11.8
+AddVertex,2.53, 4.4,  13.8
+AddVertex,2.58, 4.35, 11.8
+AddVertex,2.58, 4.35, 13.8
+AddVertex,2.53, 4.35, 11.8
+AddVertex,2.53, 4.35, 13.8
+AddFace,4,6,2,0
+AddFace,6,7,3,2
+AddFace,2,3,1,0
+AddFace,4,5,7,6
+SetColor,254,254,254
+GenerateNormals,
+
+CreateMeshBuilder
+AddVertex,2.6, 2.8, 0
+AddVertex,2.6, 2.8, 25.12
+AddVertex,2.5, 2.8, 25.12
+AddVertex,2.5, 2.0, 25.12
+AddVertex,2.5, 2.0, 0
+AddVertex,2.5, 2.8, 0
+AddFace,5,2,1,0
+AddFace,4,3,2,5
+Loadtexture,Wall8.bmp
+SetTextureCoordinates,0,  0,0,
+SetTextureCoordinates,1,  0,1,
+SetTextureCoordinates,2,  0.1,1,
+SetTextureCoordinates,3,  1.14,1,
+SetTextureCoordinates,4,  1.14,0,
+SetTextureCoordinates,5,  0.1,0,
+Translate,0,-1,0
+
+CreateMeshBuilder
+AddVertex,2.6, 1.4, 0
+AddVertex,2.6, 1.4, 25.12
+AddVertex,2.4, 1.4, 25.12
+AddVertex,2.4, 1.0, 25.12
+AddVertex,1.9, 1.0, 25.12
+AddVertex,1.9, 0.6, 25.12
+AddVertex,1.9, 0.6, 0
+AddVertex,1.9, 1.0, 0
+AddVertex,2.4, 1.0, 0
+AddVertex,2.4, 1.4, 0
+AddFace,9,2,1,0
+AddFace,8,3,2,9
+AddFace,7,4,3,8
+AddFace,6,5,4,7
+Loadtexture,Wall91.bmp
+SetTextureCoordinates,0,  0   ,0.2,
+SetTextureCoordinates,1,  0   ,0.8,
+SetTextureCoordinates,2,  0.15,0.8,
+SetTextureCoordinates,3,  0.35,0.8,
+SetTextureCoordinates,4,  0.65,0.8,
+SetTextureCoordinates,5,  1   ,0.8, 
+SetTextureCoordinates,6,  1   ,0.2, 
+SetTextureCoordinates,7,  0.65,0.2,
+SetTextureCoordinates,8,  0.35,0.2,
+SetTextureCoordinates,9,  0.15,0.2,
+Translate,0,-1,0

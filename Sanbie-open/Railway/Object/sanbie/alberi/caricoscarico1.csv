@@ -1,0 +1,266 @@
+;marciapiede
+
+CreateMeshBuilder,
+AddVertex,-18.0, -0.4, 0,
+AddVertex,-18.0, -0.4, 18,
+AddVertex,-3.8, -0.4, 18,
+AddVertex,-3.8, -0.4, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,grass3a.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,-18.0, 0.5, 20,
+AddVertex,-18.0, 0.5, 25,
+AddVertex,-3.8, 0.5, 25,
+AddVertex,-3.8, 0.5, 20,
+AddFace,1, 2, 3, 0,
+GenerateNormals,
+
+LoadTexture,grass3.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-18.0, -0.4, 18,
+AddVertex,-18.0, 0.5, 20,
+AddVertex,-3.8, 0.5, 20,
+AddVertex,-3.8, -0.4, 18,
+AddFace,1, 2, 3, 0,
+GenerateNormals,
+
+LoadTexture,grass3.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+
+
+
+;; alberi
+
+CreateMeshBuilder,; albero sx
+AddVertex,-19.0, 9.4, 22,
+AddVertex,-12, 9.4, 22,
+AddVertex,-12, 0.5, 22,
+AddVertex,-19.0, 0.5, 22,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,t2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,; albero sx
+AddVertex,-16.5, 9.4, 24,
+AddVertex,-9.5, 9.4, 24,
+AddVertex,-9.5, 0.5, 24,
+AddVertex,-16.5, 0.5, 24,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,t2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+
+CreateMeshBuilder,; albero dx
+AddVertex,-8, 5.4, 23,
+AddVertex,-3, 5.4, 23,
+AddVertex,-3, -2.5, 23,
+AddVertex,-8, -2.5, 23,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,t2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+
+;; rete
+
+
+CreateMeshBuilder,
+AddVertex,-3.8, 2.4,    20,
+AddVertex,-18.0, 2.4, 20,
+AddVertex,-18.0, 0.5, 20,
+AddVertex,-3.8, 0.5,    20,
+AddFace,0,1,2,3,
+AddFace,1,0,3,2,
+
+GenerateNormals,
+
+LoadTexture,fence2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-3.8, 2.4, 20,
+AddVertex,-3.8, 2.4, 25,
+AddVertex,-3.8, 0.5, 25,
+AddVertex,-3.8, 0.5, 20,
+AddFace,0,1,2,3,
+AddFace,1,0,3,2,
+
+GenerateNormals,
+
+LoadTexture,fence2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, -3.8, 2.4, 18,
+AddVertex, -3.8, 2.4, 0,
+AddVertex, -3.8, -0.4, 18,
+AddVertex, -3.8, -0.4, 0,
+AddFace2, 2,3,1,0
+
+
+GenerateNormals,
+
+LoadTexture,..\Oggetti\staccionata1.bmp,
+SetTextureCoordinates, 0, 7, 0,
+SetTextureCoordinates, 1, 0, 0,
+SetTextureCoordinates, 2, 7, 0.93,
+SetTextureCoordinates, 3, 0, 0.93,
+SetDecalTransparentColor,255,255,255,
+
+
+;; marciapiede stazione
+
+CreateMeshBuilder,
+AddVertex,-1.5, 0, -5,
+AddVertex,-1.5, 0, 18,
+AddVertex,-2.5, 0, 18,
+AddVertex,-2.5, 0, -5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\linea\marcstaz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,-2.5, 0, -5,
+AddVertex,-2.5, 0, 18,
+AddVertex,-3.7, 0, 18,
+AddVertex,-3.7, 0, -5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\Linea\marcstaz2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,-1.5, 0, 18,
+AddVertex,-1.5, 0.5, 20.21,
+AddVertex,-2.5, 0.5, 20.21,
+AddVertex,-2.5, 0, 18,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\linea\marcstaz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,-2.5, 0, 18,
+AddVertex,-2.5, 0.5, 20.21,
+AddVertex,-3.9, 0.5, 20.3,
+AddVertex,-3.7, 0, 18,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\Linea\marcstaz2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+
+
+
+CreateMeshBuilder,
+AddVertex,-1.5, -0.5, -5,
+AddVertex,-1.5, -0.5, 25.3,
+AddVertex,-1.5, 0, 25.3,
+AddVertex,-1.5, 0, -5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\linea\altmarciap.bmp,
+SetTextureCoordinates,0, 12, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 12, 0,
+
+CreateMeshBuilder,
+AddVertex,-1.5, -0.5, 18,
+AddVertex,-1.5, -0.5, 20,
+AddVertex,-1.5, 0.5, 20.2,
+AddVertex,-1.5, 0, 18,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\linea\altmarciap.bmp,
+SetTextureCoordinates,0, 12, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 12, 0,
+
+
+
+CreateMeshBuilder,
+AddVertex,-1.5, -0.5, -5,
+AddVertex,-1.5, 0, -5,
+AddVertex,-3.8, 0, -5,
+AddVertex,-3.8, -0.5, -5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\linea\altmarciap.bmp,,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+

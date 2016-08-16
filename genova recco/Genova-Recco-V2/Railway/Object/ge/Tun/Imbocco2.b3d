@@ -1,0 +1,47 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+[MeshBuilder]
+Vertex -3.7, -0.5, 0
+Vertex -3.7, 9.4, 0
+Vertex 7.5, 9.4, 0
+Vertex 7.5, -0.5, 0
+Face 0, 1, 2, 3
+[Texture]
+Load imbocco2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 0
+
+[MeshBuilder]
+Vertex -5, -0.5, 0
+Vertex -5, 9.4, 0
+Vertex -3.7, 9.4, 0
+Vertex -3.7, -0.5, 0
+Face 0, 1, 2, 3
+[Texture]
+Load muro.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2,1,0
+Coordinates 3, 1, 1
+Transparent 0, 0, 0
+
+[MeshBuilder]
+Vertex 7.5, -0.5, 0
+Vertex 7.5, 9.4, 0
+Vertex 8.8, 9.4, 0
+Vertex 8.8, -0.5, 0
+Face 0, 1, 2, 3
+[Texture]
+Load muro.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2,1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 0
+
+

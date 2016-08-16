@@ -1,0 +1,32 @@
+;KLAXON PREDEK
+CreateMeshBuilder,; tronco
+Cylinder, 8, -0.02, -0.02, 0.2;
+Rotate, -11.2,0,-0.7,90;
+Translate, 1.0385, 3.78, 0.55;
+SetColor, 10,10,10;
+;SetColor, 151,141,106
+CreateMeshBuilder,; cono
+Cylinder, 12, -0.02, -0.045, 0.1;
+Rotate, 11.2,0,0.7,90;
+Translate, 1.045, 3.78, 0.45;
+SetColor, 10,10,10;
+CreateMeshBuilder,;
+Cube, 0.08,0.07,0.05;
+;Translate, 0.975,3.78,0.7
+Translate, 1.02,3.78,0.7;
+SetColor, 80,80,80;
+;
+;CreateMeshBuilder;
+;AddVertex, 0.988,3.72,0.17;
+;AddVertex, 0.988,3.84,0.17;
+;AddVertex, 1.112,3.84,0.172;
+;AddVertex, 1.112,3.72,0.172;
+;Translate,0,0,0.2;
+;AddFace, 0,1,2,3;
+;LoadTexture, tromba.bmp
+;SetTextureCoordinates, 0, 0, 1
+;SetTextureCoordinates, 1, 0, 0
+;SetTextureCoordinates, 2, 1, 0
+;SetTextureCoordinates, 3, 1, 1
+;SetdecalTransparentColor, 255,0,0
+;SetColor, 80,80,80;

@@ -1,0 +1,19 @@
+CreateMeshBuilder,
+AddVertex,-0.0, 12.0, 0,
+AddVertex, 3.0, 12.0, 5,
+AddVertex, 3.0, 12.0, 10,
+AddVertex, 3.0, 0.0,  10,
+AddVertex, 3.0, 0.0,  5,
+Addvertex,-0.0, 0.0,  0
+AddFace,0,1,4,5,
+AddFace,1,2,3,4,
+LoadTexture,../PicBill_c.png
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.7, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetTextureCoordinates,4, 0.7, 1,
+SetTextureCoordinates,5, 0, 1,
+SetEmissiveColor,90,90,90,
+SetDecalTransparentColor,0,0,0
+GenerateNormals,

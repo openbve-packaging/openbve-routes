@@ -1,0 +1,18 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+;Cespuglio ginestre lungo 4 metri
+[MeshBuilder]
+Vertex 0.5, 1.5, -3
+Vertex 0.5, 1.5,  3
+Vertex 0, 0  ,  3
+Vertex 0, 0  , -3
+Face2 0,1,2,3
+[texture]
+load ..\Paesaggio\Ginestre1.bmp
+Coordinates 0, 0.02, 0
+Coordinates 1, 0.98, 0
+Coordinates 2, 0.98, 1
+Coordinates 3, 0.02, 1
+transparent 255,255,255

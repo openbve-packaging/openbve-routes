@@ -1,0 +1,109 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+CreateMeshBuilder,
+Addvertex,-0.800, 0, -0.100,
+Addvertex,-0.720, 0, -0.100,
+Addvertex,-0.800, 0, 25.100,
+Addvertex,-0.720, 0, 25.100,
+Addface,2, 3, 1, 0,
+LoadTexture,sopra.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0.0, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0.0, 0,
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,0.720, 0, -0.100,
+Addvertex,0.800, 0, -0.100,
+Addvertex,0.720, 0, 25.100,
+Addvertex,0.800, 0, 25.100,
+Addface,2, 3, 1, 0,
+LoadTexture,sopra.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0.0, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0.0, 0,
+
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-0.760, 0, -0.100,
+Addvertex,-0.760, -0.170, -0.100,
+Addvertex,-0.760, 0, 25.100,
+Addvertex,-0.760, -0.170, 25.100,
+Addface2,2, 3, 1, 0,
+LoadTexture,gambo.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0.0, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0.0, 0,
+
+
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,0.760, 0, -0.100,
+Addvertex,0.760, -0.170, -0.100,
+Addvertex,0.760, 0, 25.100,
+Addvertex,0.760, -0.170, 25.100,
+Addface2,2, 3, 1, 0,
+
+LoadTexture,gambo.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0.0, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0.0, 0,
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-1.350, -0.170, -0.100,
+Addvertex,1.350, -0.170, -0.100,
+Addvertex,-1.350, -0.171, 25.100,
+Addvertex,1.350, -0.171, 25.100,
+Addface,2, 3, 1, 0,
+GenerateNormals,
+
+LoadTexture,ballast.bmp,
+SetTextureCoordinates,0, 1, 10.08,
+SetTextureCoordinates,1, 0., 10.08,
+SetTextureCoordinates,2, 1, 00,
+SetTextureCoordinates,3, , 0,
+
+CreateMeshBuilder,
+Addvertex,-2.800, -0.400, -0.100,
+Addvertex,-1.350, -0.170, -0.100,
+Addvertex,-2.800, -0.400, 25.100,
+Addvertex,-1.350, -0.170, 25.100,
+Addface,2, 3, 1, 0,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder,
+Addvertex,1.350, -0.170, -0.100,
+Addvertex,2.800, -0.400, -0.100,
+Addvertex,1.350, -0.170, 25.100,
+Addvertex,2.800, -0.400, 25.100,
+Addface,2, 3, 1, 0,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, -1, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, -1, 0,

@@ -1,0 +1,52 @@
+[MeshBuilder]
+Vertex -0.2, -0.15, -0.4
+Vertex  0.2, -0.15, -0.4
+Vertex  0.2, -1.1, -0.4
+Vertex -0.2, -1.1, -0.4
+Face 0, 1, 2, 3
+color 4,4,4
+
+[meshbuilder]
+
+vertex -0.2,-0.15,-0.1
+vertex -0.2,-0.15,-0.4
+vertex -0.2,-1.10,-0.4
+vertex -0.2,-1.10,-0.1
+face2 0,1,2,3
+color 4,4,4
+
+[meshbuilder]
+
+vertex 0.2,-0.15,-0.4
+vertex 0.2,-0.15,-0.1
+vertex 0.2,-1.10,-0.1
+vertex 0.2,-1.10,-0.4
+face2 0,1,2,3
+color 4,4,4
+
+[meshbuilder]
+
+vertex -0.2,-0.15,-0.1
+vertex  0.2,-0.15,-0.1
+vertex  0.2,-1.10,-0.1
+vertex -0.2,-1.10,-0.1
+face2 0,1,2,3
+color 4,4,4
+
+[meshbuilder]
+
+vertex -0.2,-0.15,-0.1
+vertex  0.2,-0.15,-0.1
+vertex  0.2,-0.15,-0.4
+vertex -0.2,-0.15,-0.4
+face2 0,1,2,3
+color 4,4,4
+
+[meshbuilder]
+
+vertex -0.2,-1.10,-0.1
+vertex  0.2,-1.10,-0.1
+vertex  0.2,-1.10,-0.4
+vertex -0.2,-1.10,-0.4
+face2 0,1,2,3
+color 4,4,4

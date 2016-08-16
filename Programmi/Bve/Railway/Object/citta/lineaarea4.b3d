@@ -1,0 +1,20 @@
+[MeshBuilder]
+cylinder 6, 0.10 , 0.10 , 8
+translate 14.3, 4, 0
+color 192,192,192
+
+[MeshBuilder]
+Vertex -4.5, 10, 0
+Vertex 14.5, 10, 0
+Vertex 14.5,4.2,0
+vertex -4.5,4.2,0
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load mast4ita.BMP
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+

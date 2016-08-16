@@ -1,0 +1,43 @@
+CreateMeshBuilder,
+AddVertex,-20, 0.003, -5,
+AddVertex,20, 0.003, -5,
+AddVertex,20, 0.003, 0,
+AddVertex,-25, 0.003, 0
+AddFace2,0,1,2,3
+Setcolor,60,60,60,10,
+SetEmissiveColor,80,80,80,
+CreateMeshBuilder,
+AddVertex,-20, 0.003, -10,
+AddVertex,20, 0.003, -10,
+AddVertex,20, 0.003, -5,
+AddVertex,-25, 0.003, -5
+AddFace2,0,1,2,3
+Setcolor,40,40,40,30,
+SetEmissiveColor,40,40,40,
+CreateMeshBuilder,
+AddVertex,-20, 0.003, -15,
+AddVertex,20, 0.003, -15,
+AddVertex,20, 0.003, -10,
+AddVertex,-25, 0.003, -10
+AddFace2,0,1,2,3
+Setcolor,20,20,20,50,
+SetEmissiveColor,20,20,20,
+CreateMeshBuilder,
+AddVertex,-20, 0.003, -20,
+AddVertex,20, 0.003, -20,
+AddVertex,20, 0.003, -15,
+AddVertex,-25, 0.003, -15
+AddFace2,0,1,2,3
+Setcolor,20,20,20,80,
+SetEmissiveColor,10,10,10,
+CreateMeshBuilder,
+AddVertex,-20, -0.403, -25,
+AddVertex,-20, 0.003, -25,
+AddVertex,-20, 0.003, -20
+AddVertex,20, 0.003, -20,
+AddVertex,20, 0.003, -25,
+AddVertex,20, -0.403, -25,
+AddFace2,0,1,4,5
+AddFace2,1,2,3,4
+Setcolor,0,0,0,90,
+SetEmissiveColor,0,0,0,

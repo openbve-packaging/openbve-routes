@@ -1,0 +1,33 @@
+CreateMeshBuilder 
+AddVertex, 0, 8, 0 
+AddVertex, 0, -1.5 ,0 
+AddVertex, 4,  -1.5,0
+AddVertex, 4, 8 ,0
+AddFace ,3,2,1,0
+Generatenormals 
+LoadTexture, tree3.bmp 
+SetTextureCoordinates, 2, 0, .8
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, -1, 0
+SetTextureCoordinates, 1, -1, .8 
+SetDecalTransparentColor, 0,0,255
+
+
+
+CreateMeshBuilder 
+AddVertex, 0, 8, 0 
+AddVertex, 0, -1.5 ,0 
+AddVertex, 4,  -1.5,0
+AddVertex, 4, 8 ,0
+AddFace ,3,2,1,0
+Generatenormals 
+LoadTexture, tree3.bmp 
+SetTextureCoordinates, 2, 0, .8
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, -1, 0
+SetTextureCoordinates, 1, -1, .8 
+SetDecalTransparentColor, 0,0,255
+Translate,,,12
+
+
+

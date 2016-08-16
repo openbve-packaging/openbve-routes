@@ -1,0 +1,46 @@
+;lato sinistro
+[MeshBuilder]
+Vertex -10,0,24,7
+Vertex -10,20,24.7
+Vertex -10,20,-25
+Vertex -10,0,-25
+Face 0,1,2,3
+[Texture]
+Load fabbrica2.bmp
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,15,0
+Coordinates 3,15,2
+
+
+;lato destro 
+[MeshBuilder]
+Vertex 10,0,24.7
+Vertex 10,20,24.7
+Vertex 10,20,-25
+Vertex 10,0,-25
+Face 3,2,1,0
+[Texture]
+Load fabbrica2.bmp
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,15,0
+Coordinates 3,15,2
+
+
+;fronte
+[MeshBuilder]
+Vertex -10,0,-25
+Vertex -10,20,-25
+Vertex  10,20,-25
+Vertex  10,0,-25
+Face 0,1,2,3
+[Texture]
+Load fabbrica2.bmp
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,15,0
+Coordinates 3,15,2
+
+
+

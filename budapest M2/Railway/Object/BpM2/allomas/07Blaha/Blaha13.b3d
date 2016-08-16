@@ -1,0 +1,427 @@
+;Blaha Lujza tér állomás, jobb 3
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+[MeshBuilder]
+Vertex -11,1.1,0
+Vertex -11,1.1,25
+Vertex -2.34,1.1,25
+Vertex -2.34,1.1,0
+Face 0,1,2,3
+[Texture]
+Load Blaha_peron.bmp
+Coordinates 0,0,0
+Coordinates 1,0,40
+Coordinates 2,24,40
+Coordinates 3,24,0
+[MeshBuilder]
+Vertex -2.245,1.1,0
+Vertex -2.245,1.1,25
+Vertex -2.345,1.1,25
+Vertex -2.345,1.1,0
+Face 3,2,1,0
+color 48,48,48
+
+;--------------------------------------------------
+
+;Falak
+
+;Jobb oldal
+
+[MeshBuilder]
+Vertex 1.54,-0.20,0
+Vertex 1.70, 0.06,0
+Vertex 1.80, 0.06,0
+Vertex 1.80, 1.10,0
+Vertex 1.54,-0.20,25
+Vertex 1.70, 0.06,25
+Vertex 1.80, 0.06,25
+Vertex 1.80, 1.10,25
+Face 4,5,1,0
+Face 5,6,2,1
+Face 6,7,3,2
+[Texture]
+Load Blaha_fal_J_01.bmp
+Coordinates 0,00,1
+Coordinates 1,00,0.79
+Coordinates 2,00,0.72
+Coordinates 3,00,0
+Coordinates 4,22,1
+Coordinates 5,22,0.79
+Coordinates 6,22,0.72
+Coordinates 7,22,0
+
+[MeshBuilder]
+Vertex 1.8,1.1,5.114
+Vertex 1.8,3.5,5.114
+Vertex 1.8,3.5,11.364
+Vertex 1.8,1.1,11.364
+Vertex 1.8,1.1,13.068
+Vertex 1.8,3.5,13.068
+Vertex 1.8,3.5,19.318
+Vertex 1.8,1.1,19.318
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load Blaha_fal_J_02.bmp
+Coordinates 0,11,1
+Coordinates 1,11,0
+Coordinates 2,00,0
+Coordinates 3,00,1
+Coordinates 4,11,1
+Coordinates 5,11,0
+Coordinates 6,00,0
+Coordinates 7,00,1
+
+[MeshBuilder]
+Vertex 1.8,1.1,-7.954
+Vertex 1.8,3.5,-7.954
+Vertex 1.8,3.5,5.114
+Vertex 1.8,1.1,5.114
+Face 3,2,1,0
+[Texture]
+Load Blaha_kep_J_05.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 1.8,1.1,11.364
+Vertex 1.8,3.5,11.364
+Vertex 1.8,3.5,13.068
+Vertex 1.8,1.1,13.068
+Face 3,2,1,0
+[Texture]
+Load Blaha_kep_J_04.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;jobb irány
+[MeshBuilder]
+vertex 1.65,3.8,25
+vertex 1.80,3.5,25
+vertex 1.65,3.8,0
+vertex 1.80,3.5,0
+face 3,1,0,2
+color 255,0,0
+
+;----------------------
+
+;Bal oldal
+
+[MeshBuilder]
+vertex -4.538,1.1,0
+vertex -4.538,3.4,0
+vertex -4.538,1.1,15.9
+vertex -4.538,3.4,15.9
+vertex -4.538,1.1,17.9
+vertex -4.538,3.4,17.9
+vertex -4.538,1.1,18.9
+vertex -4.538,3.4,18.9
+;
+vertex -5.538,1.1,17.9
+vertex -5.538,3.4,17.9
+vertex -4.538,1.1,17.9
+vertex -4.538,3.4,17.9
+;
+vertex -4.538,1.1,18.9
+vertex -4.538,1.2,18.9
+vertex -4.538,1.1,19.55
+vertex -4.538,1.2,19.55
+;
+vertex -4.829,1.100,15.9
+vertex -4.891,1.354,15.9
+vertex -4.934,1.611,15.9
+vertex -4.957,1.871,15.9
+vertex -4.961,2.132,15.9
+vertex -4.945,2.392,15.9
+vertex -4.909,2.651,15.9
+vertex -4.854,2.906,15.9
+vertex -4.780,3.156,15.9
+vertex -4.688,3.400,15.9
+vertex -4.829,1.100,17.9
+vertex -4.891,1.354,17.9
+vertex -4.934,1.611,17.9
+vertex -4.957,1.871,17.9
+vertex -4.961,2.132,17.9
+vertex -4.945,2.392,17.9
+vertex -4.909,2.651,17.9
+vertex -4.854,2.906,17.9
+vertex -4.780,3.156,17.9
+vertex -4.688,3.400,17.9
+;
+face 0,1,3,2
+face 4,5,7,6
+face 8,9,11,10
+face 12,13,15,14
+;
+Face 17,27,26,16
+Face 18,28,27,17
+Face 19,29,28,18
+Face 20,30,29,19
+Face 21,31,30,20
+Face 22,32,31,21
+Face 23,33,32,22
+Face 24,34,33,23
+Face 25,35,34,24
+;
+Load Blaha_fal_B_01.bmp
+coordinates 0,00,1
+coordinates 1,00,0
+coordinates 2,26,1
+coordinates 3,26,0
+coordinates 4,00,1
+coordinates 5,00,0
+coordinates 6,01,1
+coordinates 7,01,0
+coordinates 8,00,1
+coordinates 9,00,0
+coordinates 10,01,1
+coordinates 11,01,0
+coordinates 12,00,1
+coordinates 13,00,0.96
+coordinates 14,01,1
+coordinates 15,01,0.96
+;
+coordinates 16,0,1.00
+coordinates 17,0,0.89
+coordinates 18,0,0.78
+coordinates 19,0,0.67
+coordinates 20,0,0.56
+coordinates 21,0,0.44
+coordinates 22,0,0.33
+coordinates 23,0,0.22
+coordinates 24,0,0.11
+coordinates 25,0,0.00
+coordinates 26,3,1.00
+coordinates 27,3,0.89
+coordinates 28,3,0.78
+coordinates 29,3,0.67
+coordinates 30,3,0.56
+coordinates 31,3,0.44
+coordinates 32,3,0.33
+coordinates 33,3,0.22
+coordinates 34,3,0.11
+coordinates 35,3,0.00
+
+;piros sáv
+[MeshBuilder]
+vertex -4.538,3.4,0
+vertex -4.393,3.7,0
+vertex -4.393,3.7,4.5
+vertex -4.538,3.4,4.5
+vertex -4.538,3.4,5
+vertex -4.393,3.7,5
+vertex -4.393,3.7,16
+vertex -4.538,3.4,16
+vertex -4.538,3.4,18
+vertex -4.393,3.7,18
+vertex -4.393,3.7,24.5
+vertex -4.538,3.4,24.5
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+color 255,0,0
+
+;segélykérõ
+[MeshBuilder]
+Vertex 0.0,1.20,0.00
+Vertex 0.0,3.40,0.00
+Vertex 0.0,3.40,0.65
+Vertex 0.0,1.20,0.65
+Vertex 0.1,1.20,0.10
+Vertex 0.1,3.24,0.10
+Vertex 0.1,3.24,0.55
+Vertex 0.1,1.20,0.55
+Vertex 0.0,3.40,0.10
+Vertex 0.0,3.40,0.55
+Face 0,1,5,4
+Face 4,5,6,7
+Face 2,3,7,6
+Face 8,9,6,5
+Face 1,8,5
+Face 2,6,9
+[Texture]
+Load ..\skero_02.bmp
+Coordinates 0,0.00,1.00
+Coordinates 1,0.00,0.00
+Coordinates 2,1.00,0.00
+Coordinates 3,1.00,1.00
+Coordinates 4,0.21,1.00
+Coordinates 5,0.21,0.05
+Coordinates 6,0.79,0.05
+Coordinates 7,0.79,1.00
+Coordinates 8,0.21,0.00
+Coordinates 9,0.79,0.00
+Translate -4.538,0,18.9
+
+;tetõ
+[MeshBuilder]
+Vertex -4.688,3.4,15.9
+Vertex -4.688,3.4,17.9
+Vertex -4.538,3.4,17.9
+Vertex -4.538,3.4,15.9
+Face 3,2,1,0
+color 240,240,240
+
+;----------------------
+
+;kép
+
+[MeshBuilder]
+cube 0.04,1.00,0.04
+color 192,36,14
+translate 0.04,2.30,0.00
+translate -4.538,0.05,23.5
+[MeshBuilder]
+cube 0.04,1.00,0.04
+color 192,36,14
+translate 0.04,2.30,1.42
+translate -4.538,0.05,23.5
+[MeshBuilder]
+cube 0.04,0.04,0.67
+color 192,36,14
+translate 0.04,3.26,0.71
+translate -4.538,0.05,23.5
+[MeshBuilder]
+cube 0.04,0.04,0.67
+color 192,36,14
+translate 0.04,1.34,0.71
+translate -4.538,0.05,23.5
+[MeshBuilder]
+Vertex 0.04,01.38,0.04
+Vertex 0.04,03.22,0.04
+Vertex 0.04,03.22,1.38
+Vertex 0.04,01.38,1.38
+Face 00,01,02,03
+[Texture]
+Load Blaha_kep_B_02.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 01.00
+translate -4.538,0.05,23.5
+
+;--------------------------------------------------
+
+;Világítás
+[MeshBuilder]
+vertex -2.15,4.082,-1.5
+vertex -2.15,4.082,24.5
+vertex -3.35,4.082,24.5
+vertex -3.35,4.082,-1.5
+face 0,1,2,3
+Load Blaha_vilagitas.bmp
+coordinates 0,00,0
+coordinates 1,13,0
+coordinates 2,13,1
+coordinates 3,00,1
+
+;--------------------------------------------------
+
+;irány Örs
+
+[MeshBuilder]
+Vertex -0.60,0.2,0.0
+Vertex  0.25,0.2,0.0
+Vertex  0.25,0.0,0.0
+Vertex -0.60,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\IOrs1.bmp
+Coordinates 0,0.10,0
+Coordinates 1,0.90,0
+Coordinates 2,0.90,1
+Coordinates 3,0.10,1
+translate -2.75,3.882,6.4
+
+;nyíl
+[MeshBuilder]
+Vertex 0.25,0.2,0.0
+Vertex 0.60,0.2,0.0
+Vertex 0.60,0.0,0.0
+Vertex 0.25,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil12b.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate -2.75,3.882,6.4
+
+;szélek
+[MeshBuilder]
+Vertex  0.6,0.0,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.2,0.2
+Vertex  0.6,0.0,0.2
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.0,0.2
+face 0,1,2,3
+face 5,4,0,3
+color 128,128,128
+translate -2.75,3.882,6.4
+
+;Blaha felirat
+;szöveg
+[MeshBuilder]
+vertex -4.538,3.4,16.5
+vertex -4.393,3.7,16.5
+vertex -4.393,3.7,18
+vertex -4.538,3.4,18
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FBlaha.bmp
+Coordinates 0,0.17,1
+Coordinates 1,0.17,0
+Coordinates 2,0.83,0
+Coordinates 3,0.83,1
+
+;nyíl
+[MeshBuilder]
+vertex -4.538,3.4,16
+vertex -4.393,3.7,16
+vertex -4.393,3.7,16.5
+vertex -4.538,3.4,16.5
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil22.bmp
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+
+;Exit felirat
+[MeshBuilder]
+Vertex -4.538,3.4,24.5
+Vertex -4.393,3.7,24.5
+Vertex -4.393,3.7,25
+Vertex -4.538,3.4,25
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Exit1.bmp
+Coordinates 0,0,0.8
+Coordinates 1,0,0.2
+Coordinates 2,1,0.2
+Coordinates 3,1,0.8
+
+;Exit felirat
+[MeshBuilder]
+Vertex -4.538,3.4,4.5
+Vertex -4.393,3.7,4.5
+Vertex -4.393,3.7,5
+Vertex -4.538,3.4,5
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Exit1.bmp
+Coordinates 0,0,0.8
+Coordinates 1,0,0.2
+Coordinates 2,1,0.2
+Coordinates 3,1,0.8

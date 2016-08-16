@@ -1,0 +1,161 @@
+CreateMeshBuilder,
+AddVertex,-3.2, 4, -8,
+AddVertex,-3.2, 1.1, -8,
+AddVertex,-3.2, 3, -4,
+AddVertex,-3.2, 5.9, -4,
+AddVertex,-3.2, 3, -2,
+AddVertex,-3.2, 5.9, -2,
+AddVertex,-3.2, 4.5, 1,
+AddVertex,-3.2, 7.4, 1,
+
+
+AddVertex,-6.5, 4, -8,
+AddVertex,-6.5, 1.1, -8,
+AddVertex,-6.5, 3, -4,
+AddVertex,-6.5, 5.9, -4,
+AddVertex,-6.5, 3, -2,
+AddVertex,-6.5, 5.9, -2,
+AddVertex,-6.5, 4.5, 1,
+AddVertex,-6.5, 7.4, 1,
+
+AddVertex,-3.2, 5.8, 11,
+AddVertex,-3.2, 7.7, 11,
+AddVertex,8.2, 5.8, 11,
+AddVertex,8.2, 7.7, 11,
+AddVertex,8.2, 4.5, 1,
+AddVertex,8.2, 7.4, 1,
+
+AddFace,3,2,1,0
+AddFace,5,4,2,3
+AddFace,7,6,4,5
+AddFace,17,16,6,7
+AddFace,19,18,16,17
+AddFace,21,20,18,19
+
+AddFace,11,10,9,8
+AddFace,13,12,10,11
+AddFace,15,14,12,13
+
+GenerateNormals,
+LoadTexture,ekisya_wall.bmp,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,4, 2, 1,
+SetTextureCoordinates,5, 2, 0,
+SetTextureCoordinates,6, 3, 1,
+SetTextureCoordinates,7, 3, 0,
+SetTextureCoordinates,16, 4, 1,
+SetTextureCoordinates,17, 4, 0,
+SetTextureCoordinates,18, 12, 1,
+SetTextureCoordinates,19, 12, 0,
+SetTextureCoordinates,20, 14, 1,
+SetTextureCoordinates,21, 14, 0,
+
+SetTextureCoordinates,9, 0, 1,
+SetTextureCoordinates,10, 1, 1,
+SetTextureCoordinates,11, 1, 0,
+SetTextureCoordinates,8, 0, 0,
+SetTextureCoordinates,12, 2, 1,
+SetTextureCoordinates,13, 2, 0,
+SetTextureCoordinates,14, 3, 1,
+SetTextureCoordinates,15, 3, 0,
+
+CreateMeshBuilder,
+AddVertex,-6.5, 3, -4,
+AddVertex,-6.5, 1.1, -8,
+AddVertex,-3.2, 1.1, -8,
+AddVertex,-3.2, 3, -4,
+
+AddVertex,-6.5, 4.5, 1,
+AddVertex,-6.5,3, -2,
+AddVertex,-3.2, 3, -2,
+AddVertex,-3.2, 4.5, 1,
+AddFace,3,2,1,0
+Addface,7,6,5,4
+GenerateNormals,
+LoadTexture,kaidan.bmp,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+SetTextureCoordinates,0, 0, 0,
+
+SetTextureCoordinates,5, 0, 1,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 1, 0,
+SetTextureCoordinates,4, 0, 0,
+
+
+CreateMeshBuilder,
+AddVertex,-6.5, 5.8, 15,
+AddVertex,-6.5, 5.8, 11,
+AddVertex,10.2, 5.8, 11,
+AddVertex,10.2, 5.8, 15,
+
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,kaidan.bmp,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+Setcolor,200,200,200
+
+CreateMeshBuilder,
+AddVertex,-2.5, .1, 15,
+AddVertex,-2.5, .1, 11,
+AddVertex,10.2, .1, 11,
+AddVertex,10.2, .1, 15,
+AddFace,3,2,1,0
+GenerateNormals,
+Setcolor,10,10,10[,100]
+
+CreateMeshBuilder,
+AddVertex,5.6, 1.15, 15,
+AddVertex,5.6, 1.15, 11,
+AddVertex,9.2, 1.15, 11,
+AddVertex,9.2, 1.15, 15,
+
+AddVertex,-5.6, 1.15, 15,
+AddVertex,-5.6, 1.15, 11,
+AddVertex,-1.45, 1.15, 11,
+AddVertex,-1.45, 1.15, 15,
+
+AddFace,3,2,1,0
+AddFace,7,6,5,4
+GenerateNormals,
+Setcolor,10,10,10[,100]
+
+CreateMeshBuilder,
+AddVertex,-6.5, 9, 13,
+AddVertex,-3.2, 8, 11,
+AddVertex,10.2, 8, 11,
+AddVertex,10.2, 9, 13,
+
+AddVertex,10.2, 6, 15,
+AddVertex,-6.5, 6, 15,
+
+AddVertex,-6.5, 8, 1,
+AddVertex,-3.2, 8, 1,
+AddVertex,-6.5, 6, -2,
+AddVertex,-3.2, 6, -2,
+
+AddFace2,0,1,2,3
+AddFace,0,3,4,5
+Addface,6,7,1,0
+AddFace,6,7,9,8
+GenerateNormals,
+LoadTexture,kaidan.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+SetTextureCoordinates,4, 1, -1,
+SetTextureCoordinates,5, 0, -1,
+SetTextureCoordinates,6, 2, 0,
+SetTextureCoordinates,7, 2, 1,
+SetTextureCoordinates,8, 3, 0,
+SetTextureCoordinates,9, 3, 1,
+
+Setcolor,200,200,200

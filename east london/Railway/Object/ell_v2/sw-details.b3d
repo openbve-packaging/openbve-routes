@@ -1,0 +1,142 @@
+[MeshBuilder] ; cables
+Vertex -5.9,5,13
+Vertex -5.9,4,13
+Vertex -5.9,4,0
+Vertex -5.9,5,0
+Face 0,1,2,3
+
+[Texture]
+load side-cables.bmp
+Coordinates 0,5,0
+Coordinates 1,5,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; cables move to in front of tunnel wall
+Vertex -5.4,5,15
+Vertex -5.9,4,15
+Vertex -5.9,4,13
+Vertex -5.9,5,13
+Face 0,1,2,3
+[Texture]
+load side-cables.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; cables along inside of tunnel in station
+Vertex -5.4,5,25.5
+Vertex -5.9,4,25.5
+Vertex -5.9,4,15
+Vertex -5.4,5,15
+Face 0,1,2,3
+[texture]
+load side-cables.bmp
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; overbrace 1 of 4
+Vertex 10,6,3
+Vertex 10,5,3
+Vertex -6,5,3
+Vertex -6,6,3
+Face 0,1,2,3
+[Texture]
+load swr-overbrace.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; overbrace 2 of 4
+Vertex 10,6,6
+Vertex 10,5,6
+Vertex -6,5,6
+Vertex -6,6,6
+Face 0,1,2,3
+[Texture]
+load swr-overbrace.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; overbrace 3 of 4
+Vertex 10,6,9
+Vertex 10,5,9
+Vertex -6,5,9
+Vertex -6,6,9
+Face 0,1,2,3
+[Texture]
+load swr-overbrace.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; overbrace 4 of 4
+Vertex 10,6,12
+Vertex 10,5,12
+Vertex -6,5,12
+Vertex -6,6,12
+Face 0,1,2,3
+[Texture]
+load swr-overbrace.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[MeshBuilder] ; cables
+Vertex 9.9,5,13
+Vertex 9.9,4,13
+Vertex 9.9,4,0
+Vertex 9.9,5,0
+Face 3,2,1,0
+
+[Texture]
+load side-cables.bmp
+Coordinates 0,5,0
+Coordinates 1,5,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; cables move to in front of tunnel wall
+Vertex 9.4,5,15
+Vertex 9.9,4,15
+Vertex 9.9,4,13
+Vertex 9.9,5,13
+Face 3,2,1,0
+[Texture]
+load side-cables.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; cables along inside of tunnel in station
+Vertex 9.4,5,25.5
+Vertex 9.9,4,25.5
+Vertex 9.9,4,15
+Vertex 9.4,5,15
+Face 3,2,1,0
+[texture]
+load side-cables.bmp
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+

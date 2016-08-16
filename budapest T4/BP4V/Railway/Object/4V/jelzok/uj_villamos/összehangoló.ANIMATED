@@ -1,0 +1,36 @@
+﻿;villamos lámpa
+;leírás:
+;floor[time] után lévő 40 a lámpa ciklusidejét mutatja; azaz 40 másodpercenként ismétlődik.
+;az egyes lámpafázisokban a
+;>= a
+;<  b
+;azt az időtartományt jelenti, amikor az adott jelzés látható.
+;azaz ebben a példában
+;00-14 másodperc között tilos
+;15-19 másodperc között tilos-sárga
+;20-34 másodperc között szabad
+;35-39 másodperc között sárga
+;majd ezt követően ismétlődik
+;
+;arra ügyelni kell hogy a ciklusidő teljesen ki legyen töltve
+;azaz ha a ciklusidőt 40-ről 120 másodpercre állítjuk akkor a jelzések idejét is át kell állítani
+;különben egy adott időben az objektum nem lesz látható.
+;
+;ha a ciklusidő 120 mp-re állításán kívül nem állítunk semmit
+;akkor 40-120 másodperc között nem látszódik az objektum
+
+[Object]
+States = összehngolónemeg.b3d
+StateFunction = If[And[mod[floor[time],40] >= 0,mod[floor[time],40] <15],0,1]
+
+[Object]
+States = összehngolóeg.b3d
+StateFunction = If[And[mod[floor[time],40] >=15,mod[floor[time],40] <25],0,1]
+
+[Object]
+States = összehngolónemeg.b3d
+StateFunction = If[And[mod[floor[time],40] >=25,mod[floor[time],40] <35],0,1]
+
+[Object]
+States = összehngolóeg.b3d
+StateFunction = If[And[mod[floor[time],40] >=35,mod[floor[time],40] <40],0,1]

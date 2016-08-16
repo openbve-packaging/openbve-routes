@@ -1,0 +1,1564 @@
+;Készítette: mamutsegg
+;----------------------------------------------------------------------------
+
+;--------------------------------------------------------------------kerekek1
+
+[Meshbuilder];								a1 jobb
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate 0.768, 0.345, -21.35
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0.697, 0.345, -21.35
+
+[Meshbuilder];								a1 bal
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate -0.768, 0.345, -21.35
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate -0.697, 0.345, -21.35
+
+[Meshbuilder];								a1 tengely
+Cylinder 6, 0.108, 0.108, 1.74
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0, 0.345, -21.35
+
+[Meshbuilder];								a2 jobb
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate 0.768, 0.345, -19.45
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0.697, 0.345, -19.45
+
+[Meshbuilder];								a2 bal
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate -0.768, 0.345, -19.45
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate -0.697, 0.345, -19.45
+
+[Meshbuilder];								a2 tengely
+Cylinder 6, 0.108, 0.108, 1.74
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0, 0.345, -19.45
+
+;------------------------------------------------------------------------forgóváz1
+
+[Meshbuilder]
+Cube 0.66, 0.30, 1
+color 0,0,0
+Translate 0, 0.30, -20.40
+
+[Meshbuilder]							
+Cube 0.81, 0.30, 0.57
+Color 90, 75, 50
+Translate 0, 0.35, -20.40
+
+;------------------------------------------------------------------------kerekek2
+
+[Meshbuilder];								a1 jobb
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate 0.768, 0.345, -15.3
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0.697, 0.345, -15.3
+
+[Meshbuilder];								a1 bal
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate -0.768, 0.345, -15.3
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate -0.697, 0.345, -15.3
+
+[Meshbuilder];								a1 tengely
+Cylinder 6, 0.108, 0.108, 1.74
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0, 0.345, -15.3
+
+[Meshbuilder];								a2 jobb
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate 0.768, 0.345, -13.4
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0.697, 0.345, -13.4
+
+[Meshbuilder];								a2 bal
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate -0.768, 0.345, -13.4
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate -0.697, 0.345, -13.4
+
+[Meshbuilder];								a2 tengely
+Cylinder 6, 0.108, 0.108, 1.74
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0, 0.345, -13.4
+
+;------------------------------------------------------------------------forgóváz2
+
+[Meshbuilder]
+Cube 0.66, 0.30, 1
+color 0,0,0
+Translate 0, 0.30, -14.35
+
+[Meshbuilder]							
+Cube 0.81, 0.30, 0.57
+Color 90, 75, 50
+Translate 0, 0.35, -14.35
+
+;------------------------------------------------------------------------kerekek3
+
+[Meshbuilder];								a1 jobb
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate 0.768, 0.345, -9.45
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0.697, 0.345, -9.45
+
+[Meshbuilder];								a1 bal
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate -0.768, 0.345, -9.45
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate -0.697, 0.345, -9.45
+
+[Meshbuilder];								a1 tengely
+Cylinder 6, 0.108, 0.108, 1.74
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0, 0.345, -9.45
+
+[Meshbuilder];								a2 jobb
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate 0.768, 0.345, -7.55
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0.697, 0.345, -7.55
+
+[Meshbuilder];								a2 bal
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate -0.768, 0.345, -7.55
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate -0.697, 0.345, -7.55
+
+[Meshbuilder];								a2 tengely
+Cylinder 6, 0.108, 0.108, 1.74
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0, 0.345, -7.55
+
+;------------------------------------------------------------------------forgóváz3
+
+[Meshbuilder]
+Cube 0.66, 0.30, 1
+color 0,0,0
+Translate 0, 0.30, -8.5
+
+[Meshbuilder]							
+Cube 0.81, 0.30, 0.57
+Color 90, 75, 50
+Translate 0, 0.35, -8.5
+
+;------------------------------------------------------------------------kerekek4
+
+[Meshbuilder];								a1 jobb
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate 0.768, 0.345, -3.4
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0.697, 0.345, -3.4
+
+[Meshbuilder];								a1 bal
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate -0.768, 0.345, -3.4
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate -0.697, 0.345, -3.4
+
+[Meshbuilder];								a1 tengely
+Cylinder 6, 0.108, 0.108, 1.74
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0, 0.345, -3.4
+
+[Meshbuilder];								a2 jobb
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate 0.768, 0.345, -1.5
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0.697, 0.345, -1.5
+
+[Meshbuilder];								a2 bal
+Cylinder 32, 0.345, 0.345, 0.1
+Color 90, 75, 50
+Rotate 0, 0, 1, 90
+Translate -0.768, 0.345, -1.5
+[Meshbuilder]
+Cylinder 32, 0.395, 0.395, 0.04
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate -0.697, 0.345, -1.5
+
+[Meshbuilder];								a2 tengely
+Cylinder 6, 0.108, 0.108, 1.74
+Color 119, 100, 67
+Rotate 0, 0, 1, 90
+Translate 0, 0.345, -1.5
+
+;------------------------------------------------------------------------forgóváz4
+
+[Meshbuilder]
+Cube 0.66, 0.30, 1
+color 0,0,0
+Translate 0, 0.30, -2.45
+
+[Meshbuilder]							
+Cube 0.81, 0.30, 0.57
+Color 90, 75, 50
+Translate 0, 0.35, -2.45
+
+;-----------------------------------------------------------------------aljzat
+
+[Meshbuilder]
+vertex 0.600, 0.66, -24.65
+vertex 1.11, 0.66, -22.1
+vertex 1.11, 0.66, -0.75
+vertex 0.600, 0.66, 1.55
+vertex -0.600, 0.66, 1.55
+vertex -1.11, 0.66, -0.75
+vertex -1.11, 0.66, -22.1
+vertex -0.600, 0.66, -24.65
+face2 0,1,2,3,4,5,6,7
+color 0,0,0
+
+;-----------------------------------------------------------------------szekrény1
+
+[Meshbuilder];                                                          fülke1
+vertex 0.600, 0.65, -24.65
+vertex 0.600, 1.7, -24.65
+vertex -0.600, 1.7, -24.65
+vertex -0.600, 0.65, -24.65
+vertex 0.600, 3.1, -24.5
+vertex -0.600, 3.1, -24.5
+face2 3,2,1,0
+face2 1,2,5,4
+[Texture]
+Load ICSelol.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0.56640625
+Coordinates 2, 0, 0.56640625
+Coordinates 3, 0, 1
+Coordinates 4, 1, 0.05078125
+Coordinates 5, 0, 0.05078125
+
+[Meshbuilder];                                                          fülke1jobb
+vertex 0.600, 0.65, -24.65
+vertex 0.600, 1.7, -24.65
+vertex 0.600, 3.1, -24.5
+vertex 1.15, 0.65, -22.1
+vertex 1.15, 3.1, -22.1
+vertex 0.6755, 0.65, -24.3
+vertex 0.6655, 0.4, -24.3
+vertex 1.14, 0.4, -22.1
+face2 1,2,4,3,0
+face2 3,7,6,5
+[Texture]
+Load ICSeloljobb.bmp
+Coordinates 0, 0, 0.9140625
+Coordinates 1, 0, 0.515625
+Coordinates 2, 0.06640625, 0.03125
+Coordinates 3, 1, 0.9140625
+Coordinates 4, 1, 0.03125
+Coordinates 5, 0.140625, 0.9140625
+Coordinates 6, 0.140625, 1
+Coordinates 7, 1, 1
+
+[Meshbuilder];                                                          fülke1bal
+vertex -0.600, 1.7, -24.65
+vertex -0.600, 0.65, -24.65
+vertex -0.600, 3.1, -24.5
+vertex -1.15, 0.65, -22.1
+vertex -1.15, 3.1, -22.1
+vertex -0.6755, 0.65, -24.3
+vertex -0.6655, 0.4, -24.3
+vertex -1.14, 0.4, -22.1
+face2 1,3,4,2,0
+face2 5,6,7,3
+[Texture]
+Load ICSelolbal.bmp
+Coordinates 0, 1, 0.515625
+Coordinates 1, 1, 0.9140625
+Coordinates 2, 0.93359375, 0.03125
+Coordinates 3, 0, 0.9140625
+Coordinates 4, 0, 0.03125
+Coordinates 5, 0.859375, 0.9140625
+Coordinates 6, 0.859375, 1
+Coordinates 7, 0, 1
+
+[Meshbuilder];                                                         csatlakozó1
+Cylinder 8, 0.04, 0.04, 3.7
+Color 90, 75, 50
+Rotate 1, 0, 0, 90
+Translate 0, 0.5, -23.25
+[Meshbuilder]
+Cylinder 16, 0.155, 0.155, 0.05
+Color 90, 75, 50
+Rotate 1, 0, 0, 90
+Translate 0, 0.5, -25.3
+[Meshbuilder]
+Cylinder 8, 0.077, 0.04, 0.23
+Color 90, 75, 50
+Rotate 1, 0, 0, -90
+Translate 0, 0.5, -25.2
+
+[Meshbuilder];                                                          váz1
+vertex 0.6655, 0.4, -24.3
+vertex 0.686, 0.4, -24.2
+vertex -0.686, 0.4, -24.2
+vertex -0.6655, 0.4, -24.3
+vertex 0.5555, 0.4, -24.3
+vertex 0.4955, 0.4, -24.4
+vertex 0.3955, 0.4, -24.39
+vertex 0.2255, 0.4, -24.5
+vertex 0.1155, 0.4, -24.49
+vertex 0, 0.4, -24.58
+vertex 0, 0.4, -24.50
+vertex -0.1155, 0.4, -24.49
+vertex -0.2255, 0.4, -24.5
+vertex -0.3955, 0.4, -24.39
+vertex -0.4955, 0.4, -24.4
+vertex -0.5555, 0.4, -24.3
+vertex 0.1555, 0.4, -24.3
+vertex 0.2055, 0.4, -24.3
+vertex 0.1555, 0.4, -24.5
+vertex 0.2055, 0.4, -24.5
+vertex -0.1555, 0.4, -24.3
+vertex -0.2055, 0.4, -24.3
+vertex -0.1555, 0.4, -24.5
+vertex -0.2055, 0.4, -24.5
+face2 3,2,1,0
+face2 5,6,4,0
+face2 7,8,6,5
+face2 9,10,8,7
+face2 12,11,10,9
+face2 11,12,14,13
+face2 3,15,13,14
+face2 16,17,19,18
+face2 22,23,21,20
+Color 90, 75, 50
+
+[Meshbuilder];                                                          oldaljobb
+vertex 1.14, 0.4, -22.1
+vertex 1.14, 0.4, -14.65
+vertex 1.15, 0.65, -22.1
+vertex 1.15, 0.65, -14.65
+vertex 1.15, 3.1, -14.65
+vertex 1.15, 3.1, -22.1
+face2 2,3,1,0
+face2 5,4,3,2
+[Texture]
+Load ICSoldalbal.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 0, 0.90625
+Coordinates 3, 1, 0.90625
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                          oldalbal
+vertex -1.14, 0.4, -22.1
+vertex -1.14, 0.4, -14.65
+vertex -1.15, 0.65, -22.1
+vertex -1.15, 0.65, -14.65
+vertex -1.15, 3.1, -14.65
+vertex -1.15, 3.1, -22.1
+face2 0,1,3,2
+face2 2,3,4,5
+[Texture]
+Load ICSoldaljobb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, -1, 1
+Coordinates 2, 0, 0.90625
+Coordinates 3, -1, 0.90625
+Coordinates 4, -1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                         oldaljobb
+vertex 1, 0.4, -14.65
+vertex 1, 0.65, -14.65
+vertex 1, 3.1, -14.65
+vertex 1.15, 0.65, -14.65
+vertex 1.15, 3.1, -14.65
+vertex 1.14, 0.4, -14.65
+face2 0,5,3,1
+face2 1,3,4,2
+[Texture]
+Load ICScsuklojobb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.9296875
+Coordinates 2, 0, 0
+Coordinates 3, 0.25, 0.9296875
+Coordinates 4, 0.25, 0
+Coordinates 5, 0.25, 1
+
+[Meshbuilder];                                                         oldalbal
+vertex -1, 0.4, -14.65
+vertex -1, 0.65, -14.65
+vertex -1, 3.1, -14.65
+vertex -1.15, 0.65, -14.65
+vertex -1.15, 3.1, -14.65
+vertex -1.14, 0.4, -14.65
+face2 1,3,5,0
+face2 2,4,3,1
+[Texture]
+Load ICScsuklobal.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.9296875
+Coordinates 2, 0, 0
+Coordinates 3, -0.25, 0.9296875
+Coordinates 4, -0.25, 0
+Coordinates 5, -0.25, 1
+
+[Meshbuilder];                                                          tábla
+vertex -0.100, 3.1, -24.6
+vertex -0.100, 3.4, -24.6
+vertex -0.500, 3.4, -24.6
+vertex -0.500, 3.1, -24.6
+face 3,2,1,0
+[Texture]
+Load ICStabla.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[Meshbuilder];                                                          tábladoboz
+vertex -0.100, 3.1, -24.6
+vertex -0.100, 3.4, -24.6
+vertex -0.500, 3.4, -24.6
+vertex -0.500, 3.1, -24.6
+vertex -0.100, 3.1, -23.4
+vertex -0.100, 3.4, -23.4
+vertex -0.500, 3.4, -23.4
+vertex -0.500, 3.1, -23.4
+face 4,5,6,7
+face 0,1,5,4
+face 2,3,7,6
+face 4,7,3,0
+face 1,2,6,5
+Color 149, 157, 160
+
+[Meshbuilder];                                                          lökhárító
+vertex -0.550, 0.8, -24.7
+vertex -0.250, 0.8, -24.735
+vertex -0.050, 0.8, -24.75
+vertex 0.050, 0.8, -24.75
+vertex 0.250, 0.8, -24.735
+vertex 0.550, 0.8, -24.7
+vertex -0.550, 0.65, -24.7
+vertex -0.250, 0.65, -24.735
+vertex -0.050, 0.65, -24.75
+vertex 0.050, 0.65, -24.75
+vertex 0.250, 0.65, -24.735
+vertex 0.550, 0.65, -24.7
+vertex -0.550, 0.8, -24.6
+vertex -0.550, 0.65, -24.6
+vertex 0.550, 0.8, -24.6
+vertex 0.550, 0.65, -24.6
+face 0,1,7,6
+face 1,2,8,7
+face 2,3,9,8
+face 3,4,10,9
+face 4,5,11,10
+face 0,6,13,12
+face 14,15,11,5
+face 12,14,5,4,3,2,1,0
+face 6,7,8,9,10,11,15,13
+Color 196, 193, 212
+
+[Meshbuilder];                                                          tetõelöl
+vertex 0.600, 3.1, -24.5
+vertex 0.600, 3.2, -24.48
+vertex -0.600, 3.1, -24.5
+vertex -0.600, 3.2, -24.48
+face2 2,3,1,0
+[Texture]
+Load ICSelol.bmp
+Coordinates 0, 0, 0.05078125
+Coordinates 1, 0, 0
+Coordinates 2, -1, 0.05078125
+Coordinates 3, -1, 0
+
+[Meshbuilder];                                                          tetõ
+vertex 1.15, 3.1, -14.65
+vertex 1.15, 3.1, -22.1
+vertex 1.13, 3.2, -22.1
+vertex 1.13, 3.2, -14.65
+vertex 0.600, 3.25, -14.65
+vertex 0.600, 3.25, -22.1
+vertex -1.15, 3.1, -22.1
+vertex -1.15, 3.1, -14.65
+vertex -1.13, 3.2, -22.1
+vertex -1.13, 3.2, -14.65
+vertex -0.600, 3.25, -14.65
+vertex -0.600, 3.25, -22.1
+vertex 0.600, 3.1, -24.5
+vertex 0.600, 3.2, -24.48
+vertex -0.600, 3.1, -24.5
+vertex -0.600, 3.2, -24.48
+face2 0,1,2,3
+face2 5,4,3,2
+face2 6,7,9,8
+face2 8,9,10,11
+face2 5,11,10,4
+face2 1,2,13,12
+face2 13,5,2
+face2 14,15,8,6
+face2 8,11,15
+face2 13,15,11,5
+face2 0,3,4,10,9,7
+Color 149, 157, 160
+
+[Meshbuilder];                                                          tetõberendezésvédõjobb
+vertex 0.600, 3.4, -21.9
+vertex 0.600, 3.4, -14.7
+vertex 0.875, 3.4, -14.7
+vertex 0.875, 3.4, -21.7
+vertex 0.895, 3.2, -21.7
+vertex 0.895, 3.2, -14.7
+vertex 0.600, 3.2, -21.9
+vertex 0.600, 3.2, -14.7
+face2 5,4,3,2
+face2 0,3,4,6
+face2 7,5,2,1
+Color 149, 157, 160
+
+[Meshbuilder];                                                          tetõberendezésjobb
+vertex 0.600, 3.4, -21.7
+vertex 0.600, 3.4, -14.73
+vertex 0.850, 3.4, -14.73
+vertex 0.850, 3.4, -21.7
+vertex 0.600, 3.2, -21.7
+vertex 0.850, 3.2, -21.7
+face 0,1,2,3
+face 0,3,5,4
+[Texture]
+Load ICStetoberendezesszel.bmp
+Coordinates 0, 0, 0.921875
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.921875
+Coordinates 4, 0, 1
+Coordinates 5, 1, 1
+[Meshbuilder]
+vertex 0.600, 3.4, -21.7
+vertex 0.600, 3.4, -14.73
+vertex 0.600, 3.2, -21.7
+vertex 0.600, 3.2, -14.73
+face2 1,0,2,3
+[Texture]
+Load ICStetoberendezesszel.bmp
+Coordinates 0, 1, 0.953125
+Coordinates 1, 0, 0.953125
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder];                                                          tetõberendezésvédõbal
+vertex -0.600, 3.4, -21.9
+vertex -0.600, 3.4, -14.7
+vertex -0.875, 3.4, -14.7
+vertex -0.875, 3.4, -21.7
+vertex -0.895, 3.2, -21.7
+vertex -0.895, 3.2, -14.7
+vertex -0.600, 3.2, -21.9
+vertex -0.600, 3.2, -14.7
+face2 2,3,4,5
+face2 6,4,3,0
+face2 1,2,5,7
+Color 149, 157, 160
+
+[Meshbuilder];                                                          tetõberendezésbal
+vertex -0.600, 3.4, -21.7
+vertex -0.600, 3.4, -14.73
+vertex -0.850, 3.4, -14.73
+vertex -0.850, 3.4, -21.7
+vertex -0.600, 3.2, -21.7
+vertex -0.850, 3.2, -21.7
+face 3,2,1,0
+face 4,5,3,0
+[Texture]
+Load ICStetoberendezesszel.bmp
+Coordinates 0, 0, 0.921875
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.921875
+Coordinates 4, 0, 1
+Coordinates 5, 1, 1
+[Meshbuilder]
+vertex -0.600, 3.4, -21.7
+vertex -0.600, 3.4, -14.73
+vertex -0.600, 3.2, -21.7
+vertex -0.600, 3.2, -14.73
+face2 3,2,0,1
+[Texture]
+Load ICStetoberendezesszel.bmp
+Coordinates 0, 1, 0.953125
+Coordinates 1, 0, 0.953125
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder];                                                          tetõberendezés1
+vertex -0.550, 3.4, -21.7
+vertex 0.550, 3.4, -21.7
+vertex 0.580, 3.35, -21.7
+vertex -0.580, 3.35, -21.7
+vertex 0.580, 3.25, -21.7
+vertex -0.580, 3.25, -21.7
+face 0,1,2,3
+face 4,5,3,2
+[Texture]
+Load ICStetoberendezes.bmp
+Coordinates 0, 0.0625, 0
+Coordinates 1, 0.921875, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 0, 0.25
+Coordinates 4, 1, 1
+Coordinates 5, 0, 1
+
+[Meshbuilder];                                                          tetõberendezés2
+vertex -0.550, 3.4, -17
+vertex 0.550, 3.4, -17
+vertex 0.580, 3.35, -17
+vertex -0.580, 3.35, -17
+vertex 0.580, 3.2, -17
+vertex -0.580, 3.2, -17
+face 3,2,1,0
+face 2,3,5,4
+[Texture]
+Load ICStetoberendezes.bmp
+Coordinates 0, 0.0625, 0
+Coordinates 1, 0.921875, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 0, 0.25
+Coordinates 4, 1, 1
+Coordinates 5, 0, 1
+
+[Meshbuilder];                                                          tetõberendezésközép
+vertex -0.550, 3.4, -21.7
+vertex 0.550, 3.4, -21.7
+vertex 0.580, 3.35, -21.7
+vertex -0.580, 3.35, -21.7
+vertex -0.550, 3.4, -17
+vertex 0.550, 3.4, -17
+vertex 0.580, 3.35, -17
+vertex -0.580, 3.35, -17
+face 4,5,1,0
+face 0,3,7,4
+face 5,6,2,1
+[Texture]
+Load ICStetoberendezeskozep.bmp
+Coordinates 0, 0.078125, 1
+Coordinates 1, 0.921875, 1
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0.078125, 0
+Coordinates 5, 0.921875, 0
+Coordinates 6, 1, 0
+Coordinates 7, 0, 0
+
+;----------------------------------------------------------------------áramszedõ
+
+[Meshbuilder] ;				elso talp
+Cylinder 12, 0.06, 0.06, 1.2
+Color 135, 84, 84
+Rotate 0, 0, 1, 90
+Translate 0, 3.35, -16.3
+[Meshbuilder] ;				hatso talp
+Cylinder 12, 0.06, 0.06, 1.2
+Color 135, 84, 84
+Rotate 0, 0, 1, 90
+Translate 0, 3.35, -15.7
+[Meshbuilder] ;                         álvány
+Cube 0.6, 0.1, 0.41
+Color 49, 36, 30
+Translate 0, 3.25, -16
+[Meshbuilder] ;                         álványjobb
+Cube 0.07, 0.1, 0.4
+Color 135, 84, 84
+Translate 0.600, 3.33, -16
+[Meshbuilder] ;                         álványbal
+Cube 0.07, 0.1, 0.4
+Color 135, 84, 84
+Translate -0.600, 3.33, -16
+[Meshbuilder] ;				elso also bal rud
+Cylinder 12, 0.03, 0.06, 1.5
+Color 135, 84, 84
+Rotate 1, 0, 0, -30.964
+Translate -0.6, 4, -16.68
+[Meshbuilder] ;				elso also jobb rud
+Cylinder 12, 0.03, 0.06, 1.5
+Color 135, 84, 84
+Rotate 1, 0, 0, -30.964
+Translate 0.6, 4, -16.68
+[Meshbuilder] ;				hatso also bal rud
+Cylinder 12, 0.03, 0.06, 1.5
+Color 135, 84, 84
+Rotate 1, 0, 0, 30.964
+Translate -0.6, 4, -15.32
+[Meshbuilder] ;				hatso also jobb rud
+Cylinder 12, 0.03, 0.06, 1.5
+Color 135, 84, 84
+Rotate 1, 0, 0, 30.964
+Translate 0.6, 4, -15.32
+[Meshbuilder] ;				elso felso bal rud
+Cylinder 12, 0.03, 0.03, 1.7
+Color 135, 84, 84
+Rotate 1, 0, 0, 38.66
+Translate -0.6, 5.3, -16.54
+[Meshbuilder] ;				elso felso jobb rud
+Cylinder 12, 0.03, 0.03, 1.7
+Color 135, 84, 84
+Rotate 1, 0, 0, 38.66
+Translate 0.6, 5.3, -16.54
+[Meshbuilder] ;				hatso felso bal rud
+Cylinder 12, 0.03, 0.03, 1.7
+Color 135, 84, 84
+Rotate 1, 0, 0, -38.66
+Translate -0.6, 5.3, -15.46
+[Meshbuilder] ;				hatso felso jobb rud
+Cylinder 12, 0.03, 0.03, 1.7
+Color 135, 84, 84
+Rotate 1, 0, 0, -38.66
+Translate 0.6, 5.3, -15.46
+[Meshbuilder] ;				elso keresztrud
+Cylinder 12, 0.03, 0.03, 2.1
+Color 135, 84, 84
+Rotate 0, 0, 1, 35
+Rotate 1, 0, 0, 38.8
+Translate 0, 5.31, -16.53
+[Meshbuilder] ;				hatso keresztrud
+Cylinder 12, 0.03, 0.03, 2.1
+Color 135, 84, 84
+Rotate 0, 0, 1, -35
+Rotate 1, 0, 0, -38.8
+Translate 0, 5.31, -15.47
+[Meshbuilder] ;				lap
+Cylinder 6, 0.03, 0.03, 0.3
+Color 135, 84, 84
+Rotate 1, 0, 0, 90
+Translate -0.6, 5.98, -16
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.3
+Color 135, 84, 84
+Rotate 1, 0, 0, 90
+Translate 0.6, 5.98, -16
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.2
+Color 135, 84, 84
+Rotate 0, 0, 1, -45
+Translate -0.77, 5.91, -15.85
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 1.4
+Color 135, 84, 84
+Rotate 0, 0, 1, 90
+Translate 0, 5.98, -15.85
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.2
+Color 135, 84, 84
+Rotate 0, 0, 1, 45
+Translate 0.77, 5.91, -15.85
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.2
+Color 135, 84, 84
+Rotate 0, 0, 1, -45
+Translate -0.77, 5.91, -16.15
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 1.4
+Color 135, 84, 84
+Rotate 0, 0, 1, 90
+Translate 0, 5.98, -16.15
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.2
+Color 135, 84, 84
+Rotate 0, 0, 1, 45
+Translate 0.77, 5.91, -16.15
+
+;-----------------------------------------------------------------------csukló1
+
+[Meshbuilder];                                                         oldaljobb
+vertex 1.10, 0.4, -14.65
+vertex 1.10, 0.4, -14.05
+vertex 1.11, 0.65, -14.65
+vertex 1.11, 0.65, -14.05
+vertex 1.11, 3.1, -14.05
+vertex 1.11, 3.1, -14.65
+face2 2,3,1,0
+face2 5,4,3,2
+[Texture]
+Load ICScsuklojobb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 0, 0.9296875
+Coordinates 3, 1, 0.9296875
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                         oldalbal
+vertex -1.10, 0.4, -14.65
+vertex -1.10, 0.4, -14.05
+vertex -1.11, 0.65, -14.65
+vertex -1.11, 0.65, -14.05
+vertex -1.11, 3.1, -14.05
+vertex -1.11, 3.1, -14.65
+face2 0,1,3,2
+face2 2,3,4,5
+[Texture]
+Load ICScsuklobal.bmp
+Coordinates 0, 0, 1
+Coordinates 1, -1, 1
+Coordinates 2, 0, 0.9296875
+Coordinates 3, -1, 0.9296875
+Coordinates 4, -1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                          tetõ
+vertex 1.11, 3.1, -14.05
+vertex 1.11, 3.1, -14.65
+vertex 1.09, 3.16, -14.65
+vertex 1.09, 3.16, -14.05
+vertex 0.600, 3.21, -14.05
+vertex 0.600, 3.21, -14.65
+vertex -1.11, 3.1, -14.05
+vertex -1.11, 3.1, -14.65
+vertex -1.09, 3.16, -14.65
+vertex -1.09, 3.16, -14.05
+vertex -0.600, 3.21, -14.05
+vertex -0.600, 3.21, -14.65
+face2 0,1,2,3
+face2 5,4,3,2
+face2 9,8,7,6
+face2 8,9,10,11
+face2 5,11,10,4
+Color 149, 157, 160
+
+;-----------------------------------------------------------------------szekrény2
+
+[Meshbuilder];                                                          oldaljobb
+vertex 1.14, 0.4, -14.05
+vertex 1.14, 0.4, -8.85
+vertex 1.15, 0.65, -14.05
+vertex 1.15, 0.65, -8.85
+vertex 1.15, 3.1, -8.85
+vertex 1.15, 3.1, -14.05
+face2 2,3,1,0
+face2 5,4,3,2
+[Texture]
+Load ICSkozepjobb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 0, 0.90625
+Coordinates 3, 1, 0.90625
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                          oldalbal
+vertex -1.14, 0.4, -14.05
+vertex -1.14, 0.4, -8.85
+vertex -1.15, 0.65, -14.05
+vertex -1.15, 0.65, -8.85
+vertex -1.15, 3.1, -8.85
+vertex -1.15, 3.1, -14.05
+face2 0,1,3,2
+face2 2,3,4,5
+[Texture]
+Load ICSkozepjobb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, -1, 1
+Coordinates 2, 0, 0.90625
+Coordinates 3, -1, 0.90625
+Coordinates 4, -1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                         oldaljobb
+vertex 1, 0.4, -14.05
+vertex 1, 0.65, -14.05
+vertex 1, 3.1, -14.05
+vertex 1.15, 0.65, -14.05
+vertex 1.15, 3.1, -14.05
+vertex 1.14, 0.4, -14.05
+vertex 1, 0.4, -8.85
+vertex 1, 0.65, -8.85
+vertex 1, 3.1, -8.85
+vertex 1.15, 0.65, -8.85
+vertex 1.15, 3.1, -8.85
+vertex 1.14, 0.4, -8.85
+face2 1,3,5,0
+face2 2,4,3,1
+face2 6,11,9,7
+face2 7,9,10,8
+[Texture]
+Load ICScsuklojobb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.9296875
+Coordinates 2, 0, 0
+Coordinates 3, 0.25, 0.9296875
+Coordinates 4, 0.25, 0
+Coordinates 5, 0.25, 1
+Coordinates 6, 0, 1
+Coordinates 7, 0, 0.9296875
+Coordinates 8, 0, 0
+Coordinates 9, 0.25, 0.9296875
+Coordinates 10, 0.25, 0
+Coordinates 11, 0.25, 1
+
+[Meshbuilder];                                                         oldalbal
+vertex -1, 0.4, -14.05
+vertex -1, 0.65, -14.05
+vertex -1, 3.1, -14.05
+vertex -1.15, 0.65, -14.05
+vertex -1.15, 3.1, -14.05
+vertex -1.14, 0.4, -14.05
+vertex -1, 0.4, -8.85
+vertex -1, 0.65, -8.85
+vertex -1, 3.1, -8.85
+vertex -1.15, 0.65, -8.85
+vertex -1.15, 3.1, -8.85
+vertex -1.14, 0.4, -8.85
+face2 0,5,3,1
+face2 1,3,4,2
+face2 7,9,11,6
+face2 8,10,9,7
+[Texture]
+Load ICScsuklobal.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.9296875
+Coordinates 2, 0, 0
+Coordinates 3, -0.25, 0.9296875
+Coordinates 4, -0.25, 0
+Coordinates 5, -0.25, 1
+Coordinates 6, 0, 1
+Coordinates 7, 0, 0.9296875
+Coordinates 8, 0, 0
+Coordinates 9, -0.25, 0.9296875
+Coordinates 10, -0.25, 0
+Coordinates 11, -0.25, 1
+
+[Meshbuilder];                                                          tetõ
+vertex 1.15, 3.1, -8.85
+vertex 1.15, 3.1, -14.05
+vertex 1.13, 3.2, -14.05
+vertex 1.13, 3.2, -8.85
+vertex 0.600, 3.25, -8.85
+vertex 0.600, 3.25, -14.05
+vertex -1.15, 3.1, -14.05
+vertex -1.15, 3.1, -8.85
+vertex -1.13, 3.2, -14.05
+vertex -1.13, 3.2, -8.85
+vertex -0.600, 3.25, -8.85
+vertex -0.600, 3.25, -14.05
+face2 0,1,2,3
+face2 5,4,3,2
+face2 6,7,9,8
+face2 8,9,10,11
+face2 5,11,10,4
+face2 0,3,4,10,9,7
+face2 6,8,11,5,2,1
+Color 149, 157, 160
+
+[Meshbuilder];                                                          táblajobb
+Cube 0.02, 0.275, 1.75
+Translate 1.13, 3.55, -11.45
+Color 244, 237, 227
+[Meshbuilder];                                                          tartókjobb1
+Cube 0.02, 0.3, 0.02
+Translate 1.09, 3.5, -13
+Color 149, 157, 160
+[Meshbuilder];                                                          tartókjobb2
+Cube 0.02, 0.3, 0.02
+Translate 1.09, 3.5, -12
+Color 149, 157, 160
+[Meshbuilder];                                                          tartókjobb3
+Cube 0.02, 0.3, 0.02
+Translate 1.09, 3.5, -11
+Color 149, 157, 160
+[Meshbuilder];                                                          tartókjobb4
+Cube 0.02, 0.3, 0.02
+Translate 1.09, 3.5, -10
+Color 149, 157, 160
+[Meshbuilder];                                                          táblabal
+Cube 0.02, 0.275, 1.75
+Translate -1.13, 3.55, -11.45
+Color 244, 237, 227
+[Meshbuilder];                                                          tartókjobb1
+Cube 0.02, 0.3, 0.02
+Translate -1.09, 3.5, -13
+Color 149, 157, 160
+[Meshbuilder];                                                          tartókjobb2
+Cube 0.02, 0.3, 0.02
+Translate -1.09, 3.5, -12
+Color 149, 157, 160
+[Meshbuilder];                                                          tartókjobb3
+Cube 0.02, 0.3, 0.02
+Translate -1.09, 3.5, -11
+Color 149, 157, 160
+[Meshbuilder];                                                          tartókjobb4
+Cube 0.02, 0.3, 0.02
+Translate -1.09, 3.5, -10
+Color 149, 157, 160
+
+;-----------------------------------------------------------------------csukló2
+
+[Meshbuilder];                                                         oldaljobb
+vertex 1.10, 0.4, -8.85
+vertex 1.10, 0.4, -8.25
+vertex 1.11, 0.65, -8.85
+vertex 1.11, 0.65, -8.25
+vertex 1.11, 3.1, -8.25
+vertex 1.11, 3.1, -8.85
+face2 2,3,1,0
+face2 5,4,3,2
+[Texture]
+Load ICScsuklobal.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 0, 0.9296875
+Coordinates 3, 1, 0.9296875
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                         oldalbal
+vertex -1.10, 0.4, -8.85
+vertex -1.10, 0.4, -8.25
+vertex -1.11, 0.65, -8.85
+vertex -1.11, 0.65, -8.25
+vertex -1.11, 3.1, -8.25
+vertex -1.11, 3.1, -8.85
+face2 0,1,3,2
+face2 2,3,4,5
+[Texture]
+Load ICScsuklojobb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, -1, 1
+Coordinates 2, 0, 0.9296875
+Coordinates 3, -1, 0.9296875
+Coordinates 4, -1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                          tetõ
+vertex 1.11, 3.1, -8.25
+vertex 1.11, 3.1, -8.85
+vertex 1.09, 3.16, -8.85
+vertex 1.09, 3.16, -8.25
+vertex 0.600, 3.21, -8.25
+vertex 0.600, 3.21, -8.85
+vertex -1.11, 3.1, -8.25
+vertex -1.11, 3.1, -8.85
+vertex -1.09, 3.16, -8.85
+vertex -1.09, 3.16, -8.25
+vertex -0.600, 3.21, -8.25
+vertex -0.600, 3.21, -8.85
+face2 0,1,2,3
+face2 5,4,3,2
+face2 9,8,7,6
+face2 8,9,10,11
+face2 5,11,10,4
+Color 149, 157, 160
+
+;-----------------------------------------------------------------------szekrény3
+
+[Meshbuilder];                                                          oldaljobb
+vertex 1.14, 0.4, -8.25
+vertex 1.14, 0.4, -0.75
+vertex 1.15, 0.65, -8.25
+vertex 1.15, 0.65, -0.75
+vertex 1.15, 3.1, -0.75
+vertex 1.15, 3.1, -8.25
+face2 2,3,1,0
+face2 5,4,3,2
+[Texture]
+Load ICSoldaljobb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 0, 0.90625
+Coordinates 3, 1, 0.90625
+Coordinates 4, 1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                          oldalbal
+vertex -1.14, 0.4, -8.25
+vertex -1.14, 0.4, -0.75
+vertex -1.15, 0.65, -8.25
+vertex -1.15, 0.65, -0.75
+vertex -1.15, 3.1, -0.75
+vertex -1.15, 3.1, -8.25
+face2 0,1,3,2
+face2 2,3,4,5
+[Texture]
+Load ICSoldalbal.bmp
+Coordinates 0, 0, 1
+Coordinates 1, -1, 1
+Coordinates 2, 0, 0.90625
+Coordinates 3, -1, 0.90625
+Coordinates 4, -1, 0
+Coordinates 5, 0, 0
+
+[Meshbuilder];                                                         oldaljobb
+vertex 1, 0.4, -8.25
+vertex 1, 0.65, -8.25
+vertex 1, 3.1, -8.25
+vertex 1.15, 0.65, -8.25
+vertex 1.15, 3.1, -8.25
+vertex 1.14, 0.4, -8.25
+face2 1,3,5,0
+face2 2,4,3,1
+[Texture]
+Load ICScsuklojobb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.9296875
+Coordinates 2, 0, 0
+Coordinates 3, 0.25, 0.9296875
+Coordinates 4, 0.25, 0
+Coordinates 5, 0.25, 1
+
+[Meshbuilder];                                                         oldalbal
+vertex -1, 0.4, -8.25
+vertex -1, 0.65, -8.25
+vertex -1, 3.1, -8.25
+vertex -1.15, 0.65, -8.25
+vertex -1.15, 3.1, -8.25
+vertex -1.14, 0.4, -8.25
+face2 0,5,3,1
+face2 1,3,4,2
+[Texture]
+Load ICScsuklobal.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.9296875
+Coordinates 2, 0, 0
+Coordinates 3, -0.25, 0.9296875
+Coordinates 4, -0.25, 0
+Coordinates 5, -0.25, 1
+
+[Meshbuilder];                                                          fülke2
+vertex 0.600, 0.65, 1.8
+vertex 0.600, 1.7, 1.8
+vertex -0.600, 1.7, 1.8
+vertex -0.600, 0.65, 1.8
+vertex 0.600, 3.1, 1.65
+vertex -0.600, 3.1, 1.65
+face2 0,1,2,3
+face2 4,5,2,1
+[Texture]
+Load ICShatul.bmp
+Coordinates 0, -1, 1
+Coordinates 1, -1, 0.56640625
+Coordinates 2, 0, 0.56640625
+Coordinates 3, 0, 1
+Coordinates 4, -1, 0.05078125
+Coordinates 5, 0, 0.05078125
+
+[Meshbuilder];                                                          fülke2jobb
+vertex 0.600, 0.65, 1.8
+vertex 0.600, 1.7, 1.8
+vertex 0.600, 3.1, 1.65
+vertex 1.15, 0.65, -0.75
+vertex 1.15, 3.1, -0.75
+vertex 0.6755, 0.65, 1.45
+vertex 0.6655, 0.4, 1.45
+vertex 1.14, 0.4, -0.75
+face2 0,3,4,2,1
+face2 5,6,7,3
+[Texture]
+Load ICSelolbal.bmp
+Coordinates 0, 0, 0.9140625
+Coordinates 1, 0, 0.515625
+Coordinates 2, -0.06640625, 0.03125
+Coordinates 3, -1, 0.9140625
+Coordinates 4, -1, 0.03125
+Coordinates 5, -0.140625, 0.9140625
+Coordinates 6, -0.140625, 1
+Coordinates 7, -1, 1
+
+[Meshbuilder];                                                          fülke2bal
+vertex -0.600, 1.7, 1.8
+vertex -0.600, 0.65, 1.8
+vertex -0.600, 3.1, 1.65
+vertex -1.15, 0.65, -0.75
+vertex -1.15, 3.1, -0.75
+vertex -0.6755, 0.65, 1.45
+vertex -0.6655, 0.4, 1.45
+vertex -1.14, 0.4, -0.75
+face2 0,2,4,3,1
+face2 3,7,6,5
+[Texture]
+Load ICSeloljobb.bmp
+Coordinates 0, -1, 0.515625
+Coordinates 1, -1, 0.9140625
+Coordinates 2, -0.93359375, 0.03125
+Coordinates 3, 0, 0.9140625
+Coordinates 4, 0, 0.03125
+Coordinates 5, -0.859375, 0.9140625
+Coordinates 6, -0.859375, 1
+Coordinates 7, 0, 1
+
+[Meshbuilder];                                                         csatlakozó2
+Cylinder 8, 0.04, 0.04, 3.7
+Color 90, 75, 50
+Rotate 1, 0, 0, 90
+Translate 0, 0.5, 0.4
+[Meshbuilder]
+Cylinder 16, 0.155, 0.155, 0.05
+Color 90, 75, 50
+Rotate 1, 0, 0, 90
+Translate 0, 0.5, 2.45
+[Meshbuilder]
+Cylinder 8, 0.077, 0.04, 0.23
+Color 90, 75, 50
+Rotate 1, 0, 0, 90
+Translate 0, 0.5, 2.35
+
+[Meshbuilder];                                                          váz2
+vertex 0.6655, 0.4, 1.45
+vertex 0.686, 0.4, 1.35
+vertex -0.686, 0.4, 1.35
+vertex -0.6655, 0.4, 1.45
+vertex 0.5555, 0.4, 1.45
+vertex 0.4955, 0.4, 1.55
+vertex 0.3955, 0.4, 1.54
+vertex 0.2255, 0.4, 1.65
+vertex 0.1155, 0.4, 1.64
+vertex 0, 0.4, 1.73
+vertex 0, 0.4, 1.65
+vertex -0.1155, 0.4, 1.64
+vertex -0.2255, 0.4, 1.65
+vertex -0.3955, 0.4, 1.54
+vertex -0.4955, 0.4, 1.55
+vertex -0.5555, 0.4, 1.45
+vertex 0.1555, 0.4, 1.45
+vertex 0.2055, 0.4, 1.45
+vertex 0.1555, 0.4, 1.65
+vertex 0.2055, 0.4, 1.65
+vertex -0.1555, 0.4, 1.45
+vertex -0.2055, 0.4, 1.45
+vertex -0.1555, 0.4, 1.65
+vertex -0.2055, 0.4, 1.65
+face2 0,1,2,3
+face2 0,4,6,5
+face2 5,6,8,7
+face2 7,8,10,9
+face2 9,10,11,12
+face2 13,14,12,11
+face2 14,13,15,3
+face2 18,19,17,16
+face2 20,21,23,22
+Color 90, 75, 50
+
+[Meshbuilder];                                                          tábla
+vertex 0.100, 3.1, 1.75
+vertex 0.100, 3.4, 1.75
+vertex 0.500, 3.4, 1.75
+vertex 0.500, 3.1, 1.75
+face 3,2,1,0
+[Texture]
+Load ICStabla.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[Meshbuilder];                                                          tábladoboz
+vertex 0.100, 3.1, 0.55
+vertex 0.100, 3.4, 0.55
+vertex 0.500, 3.4, 0.55
+vertex 0.500, 3.1, 0.55
+vertex 0.100, 3.1, 1.75
+vertex 0.100, 3.4, 1.75
+vertex 0.500, 3.4, 1.75
+vertex 0.500, 3.1, 1.75
+face 0,1,2,3
+face 4,5,1,0
+face 6,7,3,2
+face 0,3,7,4
+face 5,6,2,1
+Color 149, 157, 160
+
+[Meshbuilder];                                                          lökhárító
+vertex -0.550, 0.8, 1.85
+vertex -0.250, 0.8, 1.885
+vertex -0.050, 0.8, 1.9
+vertex 0.050, 0.8, 1.9
+vertex 0.250, 0.8, 1.885
+vertex 0.550, 0.8, 1.85
+vertex -0.550, 0.65, 1.85
+vertex -0.250, 0.65, 1.885
+vertex -0.050, 0.65, 1.9
+vertex 0.050, 0.65, 1.9
+vertex 0.250, 0.65, 1.885
+vertex 0.550, 0.65, 1.85
+vertex -0.550, 0.8, 1.75
+vertex -0.550, 0.65, 1.75
+vertex 0.550, 0.8, 1.75
+vertex 0.550, 0.65, 1.75
+face 6,7,1,0
+face 7,8,2,1
+face 8,9,3,2
+face 9,10,4,3
+face 10,11,5,4
+face 12,13,6,0
+face 5,11,15,14
+face 0,1,2,3,4,5,14,12
+face 13,15,11,10,9,8,7,6
+Color 196, 193, 212
+
+[Meshbuilder];                                                          tetõhátul
+vertex 0.600, 3.1, 1.65
+vertex 0.600, 3.2, 1.63
+vertex -0.600, 3.1, 1.65
+vertex -0.600, 3.2, 1.63
+face2 0,1,3,2
+[Texture]
+Load ICSelol.bmp
+Coordinates 0, 0, 0.05078125
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0.05078125
+Coordinates 3, 1, 0
+
+[Meshbuilder];                                                          tetõ
+vertex 1.15, 3.1, -0.75
+vertex 1.15, 3.1, -8.25
+vertex 1.13, 3.2, -8.25
+vertex 1.13, 3.2, -0.75
+vertex 0.600, 3.25, -0.75
+vertex 0.600, 3.25, -8.25
+vertex -1.15, 3.1, -8.25
+vertex -1.15, 3.1, -0.75
+vertex -1.13, 3.2, -8.25
+vertex -1.13, 3.2, -0.75
+vertex -0.600, 3.25, -0.75
+vertex -0.600, 3.25, -8.25
+vertex 0.600, 3.1, 1.65
+vertex 0.600, 3.2, 1.63
+vertex -0.600, 3.1, 1.65
+vertex -0.600, 3.2, 1.63
+face2 0,1,2,3
+face2 5,4,3,2
+face2 6,7,9,8
+face2 8,9,10,11
+face2 5,11,10,4
+face2 0,3,13,12
+face2 3,4,13
+face2 14,15,9,7
+face2 15,10,9
+face2 4,10,15,13
+face2 6,8,11,5,2,1
+Color 149, 157, 160
+
+[Meshbuilder];                                                          tetõberendezésvédõjobb
+vertex 0.600, 3.4, -8.2
+vertex 0.600, 3.4, -0.95
+vertex 0.875, 3.4, -1.15
+vertex 0.875, 3.4, -8.2
+vertex 0.895, 3.2, -8.2
+vertex 0.895, 3.2, -1.15
+vertex 0.600, 3.2, -8.2
+vertex 0.600, 3.2, -0.95
+face2 5,4,3,2
+face2 0,3,4,6
+face2 7,5,2,1
+Color 149, 157, 160
+
+[Meshbuilder];                                                          tetõberendezésjobb
+vertex 0.600, 3.4, -1.15
+vertex 0.600, 3.4, -8.17
+vertex 0.850, 3.4, -8.17
+vertex 0.850, 3.4, -1.15
+vertex 0.600, 3.2, -1.15
+vertex 0.850, 3.2, -1.15
+face 3,2,1,0
+face 4,5,3,0
+[Texture]
+Load ICStetoberendezesszel.bmp
+Coordinates 0, 0, 0.921875
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.921875
+Coordinates 4, 0, 1
+Coordinates 5, 1, 1
+[Meshbuilder]
+vertex 0.600, 3.4, -1.15
+vertex 0.600, 3.4, -8.17
+vertex 0.600, 3.2, -1.15
+vertex 0.600, 3.2, -8.17
+face2 3,2,0,1
+[Texture]
+Load ICStetoberendezesszel.bmp
+Coordinates 0, 1, 0.953125
+Coordinates 1, 0, 0.953125
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder];                                                          tetõberendezésvédõbal
+vertex -0.600, 3.4, -8.2
+vertex -0.600, 3.4, -0.95
+vertex -0.875, 3.4, -1.15
+vertex -0.875, 3.4, -8.2
+vertex -0.895, 3.2, -8.2
+vertex -0.895, 3.2, -1.15
+vertex -0.600, 3.2, -8.2
+vertex -0.600, 3.2, -0.95
+face2 2,3,4,5
+face2 6,4,3,0
+face2 1,2,5,7
+Color 149, 157, 160
+
+[Meshbuilder];                                                          tetõberendezésbal
+vertex -0.600, 3.4, -1.15
+vertex -0.600, 3.4, -8.17
+vertex -0.850, 3.4, -8.17
+vertex -0.850, 3.4, -1.15
+vertex -0.600, 3.2, -1.15
+vertex -0.850, 3.2, -1.15
+face 0,1,2,3
+face 0,3,5,4
+[Texture]
+Load ICStetoberendezesszel.bmp
+Coordinates 0, 0, 0.921875
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.921875
+Coordinates 4, 0, 1
+Coordinates 5, 1, 1
+[Meshbuilder]
+vertex -0.600, 3.4, -1.15
+vertex -0.600, 3.4, -8.17
+vertex -0.600, 3.2, -1.15
+vertex -0.600, 3.2, -8.17
+face2 1,0,2,3
+[Texture]
+Load ICStetoberendezesszel.bmp
+Coordinates 0, 1, 0.953125
+Coordinates 1, 0, 0.953125
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder];                                                          tetõberendezés1
+vertex -0.550, 3.4, -5.85
+vertex 0.550, 3.4, -5.85
+vertex 0.580, 3.35, -5.85
+vertex -0.580, 3.35, -5.85
+vertex 0.580, 3.2, -5.85
+vertex -0.580, 3.2, -5.85
+face 0,1,2,3
+face 4,5,3,2
+[Texture]
+Load ICStetoberendezes.bmp
+Coordinates 0, 0.0625, 0
+Coordinates 1, 0.921875, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 0, 0.25
+Coordinates 4, 1, 1
+Coordinates 5, 0, 1
+
+[Meshbuilder];                                                          tetõberendezés2
+vertex -0.550, 3.4, -1.15
+vertex 0.550, 3.4, -1.15
+vertex 0.580, 3.35, -1.15
+vertex -0.580, 3.35, -1.15
+vertex 0.580, 3.2, -1.15
+vertex -0.580, 3.2, -1.15
+face 3,2,1,0
+face 2,3,5,4
+[Texture]
+Load ICStetoberendezes.bmp
+Coordinates 0, 0.0625, 0
+Coordinates 1, 0.921875, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 0, 0.25
+Coordinates 4, 1, 1
+Coordinates 5, 0, 1
+
+[Meshbuilder];                                                          tetõberendezésközép
+vertex -0.550, 3.4, -5.85
+vertex 0.550, 3.4, -5.85
+vertex 0.580, 3.35, -5.85
+vertex -0.580, 3.35, -5.85
+vertex -0.550, 3.4, -1.15
+vertex 0.550, 3.4, -1.15
+vertex 0.580, 3.35, -1.15
+vertex -0.580, 3.35, -1.15
+face 4,5,1,0
+face 0,3,7,4
+face 5,6,2,1
+[Texture]
+Load ICStetoberendezeskozep.bmp
+Coordinates 0, 0.078125, 1
+Coordinates 1, 0.921875, 1
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0.078125, 0
+Coordinates 5, 0.921875, 0
+Coordinates 6, 1, 0
+Coordinates 7, 0, 0

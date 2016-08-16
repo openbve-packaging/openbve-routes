@@ -1,0 +1,164 @@
+CreateMeshBuilder,
+AddVertex, 1.5, 5.05, 0,
+AddVertex, 4.0, 5.05, 0,
+AddVertex, 4.0, 5.05, 25.0,
+AddVertex, 1.5, 5.05, 25.0,
+AddFace,0,1,2,3
+LoadTexture,kibaR1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 10, 1,
+SetTextureCoordinates,3, 10, 0,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 4.0, 5.05, 0,
+AddVertex, 4.6, 4.90, 0,
+AddVertex, 5.2, 4.40, 0,
+AddVertex, 5.5, 3.80, 0,
+AddVertex, 5.5, 3.80, 25,
+AddVertex, 5.2, 4.40, 25
+AddVertex, 4.6, 4.90, 25,
+AddVertex, 4.0, 5.05, 25,
+AddFace,0,1,6,7,
+AddFace,1,2,5,6,
+AddFace,2,3,4,5,
+LoadTexture,KibaR2.bmp
+SetTextureCoordinates,0, 0.0,0
+SetTextureCoordinates,1, 0.33,0
+SetTextureCoordinates,2, 0.67,0
+SetTextureCoordinates,3, 1.00,0
+SetTextureCoordinates,4, 1.00,1
+SetTextureCoordinates,5, 0.67,1
+SetTextureCoordinates,6, 0.33,1
+SetTextureCoordinates,7, 0.0,0
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 1.5, 5.65, 25
+Addvertex, 1.5, 5.65, 0
+AddVertex, 4.0, 5.65, 0
+AddVertex, 4.0, 5.05, 0
+AddVertex, 1.5, 5.05, 0
+AddVertex, 1.5, 5.05, 25
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,boadwall1.bmp
+SetTextureCoordinates,0,  0, 0,
+SetTextureCoordinates,1,  0.5, 0,
+SetTextureCoordinates,2,  1, 0,
+SetTextureCoordinates,3,  1, 1,
+SetTextureCoordinates,4,  0.5, 1
+SetTextureCoordinates,5,  0, 1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 5.5, 3.80, 0,
+AddVertex, 5.5, 1.10, 0,
+AddVertex, 5.5, 1.10, 25
+AddVertex, 5.5, 3.80, 25
+AddFace,0,1,2,3
+LoadTexture,kibawall.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 10, 0,
+SetTextureCoordinates,3, 10, 1,
+GenerateNormals,
+
+
+CreateMeshBuilder
+AddVertex,-2.48, 2.47, 4
+AddVertex,-2.48, 2.81, 4
+AddVertex,-2.48, 2.81, 6
+AddVertex,-2.48, 2.47, 6
+AddFace,0,1,2,3
+LoadTexture,../sta\Kiba2.bmp
+GenerateNormals,
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+
+CreateMeshBuilder,
+AddVertex,-2.5, 3.2, 0
+AddVertex,-2.5, 1.2, 0
+AddVertex,-2.7, 1.2, 0
+AddVertex,-2.7, 0.8, 0
+AddVertex,-2.5, 0.8, 0
+AddVertex,-2.5, 0.4, 0
+AddVertex,-1.8, 0.1, 0
+AddVertex,-1.8, 0.1, 25
+AddVertex,-2.5, 0.4, 25
+AddVertex,-2.5, 0.8, 25
+AddVertex,-2.7, 0.8, 25
+AddVertex,-2.7, 1.2, 25
+AddVertex,-2.5, 1.2, 25
+AddVertex,-2.5, 3.2, 25 ;13
+AddFace,13,12,1,0,
+AddFace,12,11,2,1,
+AddFace,11,10,3,2,
+AddFace,10,9,4,3,
+AddFace,9,8,5,4,
+AddFace,8,7,6,5,
+LoadTexture,kibawallA.bmp
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.43, 0,
+SetTextureCoordinates,2, 0.45, 0,
+SetTextureCoordinates,3, 0.58, 0,
+SetTextureCoordinates,4, 0.6, 0,
+SetTextureCoordinates,5, 0.78, 0,
+SetTextureCoordinates,6, 1, 0,
+SetTextureCoordinates,7, 1, 2,
+SetTextureCoordinates,8, 0.78, 2,
+SetTextureCoordinates,9, 0.6, 2,
+SetTextureCoordinates,10, 0.58, 2,
+SetTextureCoordinates,11, 0.45, 2,
+SetTextureCoordinates,12, 0.43, 2,
+SetTextureCoordinates,13, 0, 2,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.58, 0.8, 0,
+AddVertex,-2.68, 1.02, 0,
+AddVertex,-2.68, 1.02, 25,
+AddVertex,-2.58, 0.8, 25,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,../Retu1.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 4, 0,
+SetTextureCoordinates,3, 4, 1,
+SetDecalTransparentColor,255,255,255
+
+
+CreateMeshBuilder,,,,
+AddVertex,-3.30 ,3.22 ,0,
+AddVertex,-2.17 ,5.47 ,0,
+AddVertex,-0.23 ,6.60 ,0,
+AddVertex, 1.50 ,6.60 ,0,
+AddVertex, 1.50 ,5.75 ,0,
+AddVertex, 1.50 ,5.75 ,25,
+AddVertex, 1.50 ,6.60 ,25,
+AddVertex,-0.23 ,6.60 ,25,
+AddVertex,-2.17 ,5.47 ,25,
+AddVertex,-3.30 ,3.22 ,25,
+AddFace,0,1,8,9
+AddFace,1,2,7,8
+AddFace,2,3,6,7
+AddFace,3,4,5,6
+GenerateNormals,,,,
+LoadTexture,kibashield.bmp
+SetTextureCoordinates,0, 3, 0,
+SetTextureCoordinates,1, 3, 1.5,
+SetTextureCoordinates,2, 3, 3,
+SetTextureCoordinates,3, 3, 4,
+SetTextureCoordinates,4, 3, 4.5,
+SetTextureCoordinates,5, 0, 4.5,
+SetTextureCoordinates,6, 0, 4,
+SetTextureCoordinates,7, 0, 3,
+SetTextureCoordinates,8, 0, 1.5,
+SetTextureCoordinates,9, 0, 0,
+Translate,0,-0.1,
+Setcolor,200,200,200

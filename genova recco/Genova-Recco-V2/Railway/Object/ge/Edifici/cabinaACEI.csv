@@ -1,0 +1,143 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com 
+
+
+
+;;;;cabinaACEI
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;parte bassa
+CreateMeshBuilder,
+AddVertex,0, 0, -38,
+AddVertex,0, 12, -38,
+AddVertex,5, 12, -38,
+AddVertex,5, 0, -38,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,cabinaacei4.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 0, 0,
+AddVertex,5, 12, 0,
+AddVertex,0, 12,0,
+AddVertex,0, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,cabinaacei4.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 0, -38,
+AddVertex,5, 12, -38,
+AddVertex,5, 12, 0,
+AddVertex,5, 0, 0,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,cabinaacei.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;parte alta 
+CreateMeshBuilder,
+AddVertex,-2, 12, -40,
+AddVertex,-2, 15, -40,
+AddVertex,7, 15, -40,
+AddVertex,7, 12, -40,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,cabinaacei2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 5, 1,
+CreateMeshBuilder,
+AddVertex,7, 12, 2,
+AddVertex,7, 15, 2,
+AddVertex,-2, 15,2,
+AddVertex,-2, 12, 2,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,cabinaacei2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 5, 1,
+
+CreateMeshBuilder,
+AddVertex,7, 12, -40,
+AddVertex,7,15, -40,
+AddVertex,7, 15, 2,
+AddVertex,7, 12, 2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,cabinaacei2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 20, 0,
+SetTextureCoordinates,3, 20, 1,
+
+
+
+;;;;copertura orizzontale bassa
+CreateMeshBuilder,
+AddVertex,7, 12, 2,
+AddVertex,-2, 12, 2,
+AddVertex,-2, 12, -40,
+AddVertex,7, 12, -40,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,155,155,145
+
+;;;;tetto
+;basso
+CreateMeshBuilder,
+AddVertex,9, 15, 4,
+AddVertex,-4, 15, 4,
+AddVertex,-4, 15, -42,
+AddVertex,9, 15, -42,
+AddFace,0, 1, 2, 3,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+setcolor,155,155,145
+
+
+;;laterali
+CreateMeshBuilder,
+AddVertex,-4, 15, -42,
+AddVertex,-4, 15.2, -42,
+AddVertex,9, 15.2, -42,
+AddVertex,9, 15, -42,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,155,155,145
+
+CreateMeshBuilder,
+AddVertex,9, 15, 4,
+AddVertex,9, 15.2, 4,
+AddVertex,-4, 15.2,4,
+AddVertex,-4, 15, 4,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,155,155,145
+
+CreateMeshBuilder,
+AddVertex,9, 15, -42,
+AddVertex,9, 15.2, -42,
+AddVertex,9, 15.2, 4,
+AddVertex,9, 15, 4,
+AddFace,0, 1, 2, 3,
+setcolor,155,155,145
+GenerateNormals,
+

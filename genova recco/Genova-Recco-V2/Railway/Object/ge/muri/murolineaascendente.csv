@@ -1,0 +1,60 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+CreateMeshBuilder,;;copertura
+AddVertex,-4, 0.98, 0,
+AddVertex,-4, 7,25.3,
+AddVertex,-4.5, 7, 25.3,
+AddVertex,-4.5, 0.98, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,murolinea.png,
+SetTextureCoordinates,0, 0, 0.1,
+SetTextureCoordinates,1, 2, 0.1,
+SetTextureCoordinates,2, 2, 0,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder,;;lato dx
+AddVertex,-4, -0.45, 0,
+AddVertex,-4, -0.45, 25.3,
+AddVertex,-4, 7, 25.3,
+AddVertex,-4, 0.98, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,murolinea.png,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0.8,
+SetDecaltransparentColor,0,0,0,
+
+
+CreateMeshBuilder,;;lato sx
+AddVertex,-4.5, -0.45, 0,
+AddVertex,-4.5, -0.45, 25.3,
+AddVertex,-4.5, 7, 25.3,
+AddVertex,-4.5, 0.98, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,murolinea.png,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0.8,
+SetDecaltransparentColor,0,0,0,
+
+
+CreateMeshBuilder,;;;fronte
+AddVertex,-4, -0.45, 0,
+AddVertex,-4, 0.98,0,
+AddVertex,-4.5, 0.98, 0,
+AddVertex,-4.5, -0.45, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,murolinea.png,
+SetTextureCoordinates,0, 0, 0.2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.1, 0,
+SetTextureCoordinates,3, 0.1, 0.2,

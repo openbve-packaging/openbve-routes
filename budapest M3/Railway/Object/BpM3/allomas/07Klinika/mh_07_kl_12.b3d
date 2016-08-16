@@ -1,0 +1,179 @@
+;Klinikák megállóhely É-D-2
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;bal oldali fal
+[MeshBuilder]
+Vertex -5.5,1.10,0
+Vertex -5.5,3.55,0
+Vertex -5.5,3.55,25
+Vertex -5.5,1.10,25
+Face 0,1,2,3
+[Texture]
+Load mh_07_kl_oldalfal_03.bmp
+Coordinates 0,25,1
+Coordinates 1,25,0
+Coordinates 2,00,0
+Coordinates 3,00,1
+
+;jobb oldali fal
+[MeshBuilder]
+Vertex 2.000,1.20,2
+Vertex 2.000,3.20,2
+Vertex 2.000,3.20,25
+Vertex 2.000,1.20,25
+Face 3,2,1,0
+[Texture]
+Load mh_07_kl_oldalfal_02.bmp
+Coordinates 0,23,1
+Coordinates 1,23,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 2.000,1.20,0
+Vertex 2.000,3.20,0
+Vertex 2.000,3.20,2
+Vertex 2.000,1.20,2
+Face 3,2,1,0
+[Texture]
+Load mh_07_kl_oldalfal_02ib.bmp
+Coordinates 0,0.166,1
+Coordinates 1,0.166,0
+Coordinates 2,0.000,0
+Coordinates 3,0.000,1
+
+;--------------------------------------------------
+
+;Klinikák tábla
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 32,32,32
+translate -5.45, 03.45, 2
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 32,32,32
+translate -5.45, 03.45, 3
+
+[MeshBuilder]
+Vertex -0.1,0.0,-0.75
+Vertex -0.1,0.3,-0.75
+Vertex -0.0,0.3,-0.75
+Vertex -0.0,0.0,-0.75
+Vertex -0.1,0.0, 0.75
+Vertex -0.0,0.0, 0.75
+Face 0,1,2,3
+Face 4,0,3,5
+translate -5.40,3.20,2.50
+color 0,0,204
+
+[MeshBuilder]
+Vertex 0,0.00,-0.75
+Vertex 0,0.30,-0.75
+Vertex 0,0.30, 0.41
+Vertex 0,0.00, 0.41
+Face 0,1,2,3
+translate -5.40,3.20,2.50
+[Texture]
+Load mh_tabla_klinikak.bmp
+Coordinates 0, 0.2, 1
+Coordinates 1, 0.2, 0
+Coordinates 2, 0.8, 0
+Coordinates 3, 0.8, 1
+
+[MeshBuilder]
+Vertex 0,0.00,0.40
+Vertex 0,0.30,0.40
+Vertex 0,0.30,0.75
+Vertex 0,0.00,0.75
+Face 0,1,2,3
+translate -5.40,3.20,2.50
+[Texture]
+Load ..\tabla\nyil13.bmp
+Coordinates 0, 0.8, 1
+Coordinates 1, 0.8, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 32,32,32
+translate -5.45, 03.45, 22
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 32,32,32
+translate -5.45, 03.45, 23
+
+[MeshBuilder]
+Vertex -0.1,0.0,-0.75
+Vertex -0.1,0.3,-0.75
+Vertex -0.0,0.3,-0.75
+Vertex -0.0,0.0,-0.75
+Vertex -0.1,0.0, 0.75
+Vertex -0.0,0.0, 0.75
+Face 0,1,2,3
+Face 4,0,3,5
+translate -5.40,3.20,22.50
+color 0,0,204
+
+[MeshBuilder]
+Vertex 0,0.0,-0.75
+Vertex 0,0.3,-0.75
+Vertex 0,0.3, 0.41
+Vertex 0,0.0, 0.41
+Face 0,1,2,3
+translate -5.40,3.20,22.50
+[Texture]
+Load mh_tabla_klinikak.bmp
+Coordinates 0,0.2,1
+Coordinates 1,0.2,0
+Coordinates 2,0.8,0
+Coordinates 3,0.8,1
+
+[MeshBuilder]
+Vertex 0,0.00,0.40
+Vertex 0,0.30,0.40
+Vertex 0,0.30,0.75
+Vertex 0,0.00,0.75
+Face 0,1,2,3
+translate -5.40,3.20,22.50
+[Texture]
+Load ..\tabla\nyil13.bmp
+Coordinates 0,0.8,1
+Coordinates 1,0.8,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;kis kijárat
+
+[MeshBuilder]
+Vertex -0.4,0.00,-0.1
+Vertex -0.4,0.30,-0.1
+Vertex  0.4,0.30,-0.1
+Vertex  0.4,0.00,-0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0,0.070,1
+Coordinates 1,0.070,0
+Coordinates 2,0.402,0
+Coordinates 3,0.402,1
+translate -4.60,3.25,0
+
+[MeshBuilder]
+Vertex -0.4,0.0,-0.1
+Vertex -0.4,0.0, 0.1
+Vertex 0.4, 0.0,-0.1
+Vertex 0.4, 0.3,-0.1
+Vertex 0.4, 0.3, 0.1
+Vertex 0.4, 0.0, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -4.60,3.25,0

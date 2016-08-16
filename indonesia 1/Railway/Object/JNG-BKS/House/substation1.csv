@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,-7.7,-0.5,12.5,
+AddVertex,-7.7,2.2,12.5,
+AddVertex,-3.7,2.2,19,
+AddVertex,-3.7,-0.5,19,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,substation1.bmp,,,
+SetTextureCoordinates,0,0,0.98,
+SetTextureCoordinates,1,0,0.02,
+SetTextureCoordinates,2,1,0.02,
+SetTextureCoordinates,3,1,0.98,
+SetDecalTransparentColor,0,0,255,

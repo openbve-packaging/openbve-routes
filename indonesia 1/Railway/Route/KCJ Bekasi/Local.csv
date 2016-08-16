@@ -1,0 +1,1619 @@
+;,,,
+Route.Comment Local Jatinegara - Bekasi. Berhenti di Klenderbaru dan Cakung.,,,
+Route.Timetable Commuter Local JNG - BKS,,,
+Route.Change 0,,;1でエンド交換,
+Route.Gauge 1067,,,
+Route.Signal(1) 25,,,
+Route.Signal(2) 55,,,
+Route.Signal(3) 75,,,
+Route.DeveloperID ym205,,,
+Route.LightDirection 70; 160,,,;光源設定
+Route.Image ../../Object/JNG-BKS/KCJ.jpg,,,
+
+$sub(0)=$rnd(30;40),,;江古田 先行列車,
+$sub(1)=$rnd(40;59),,;石神井 先行列車,
+$sub(2)=$rnd(4;5),,;池袋 信号切り替わり 10秒の位,
+
+Train.Folder ToyoRapid1000,,,,,
+
+
+
+
+
+
+Train.Run(0) 0,,Train.Flange(0) 0,,,;ロングレール
+Train.Run(2) 3,,Train.Flange(2) 0,,,;鉄橋
+Train.Run(32) 3,,Train.Flange(32) 0,,,;鉄橋
+Train.Run(35) 4,,Train.Flange(35) 0,,,;秋津スラブ
+Train.Run(36) 3,,Train.Flange(36) 0,,,;鉄橋
+Train.Run(50) 1,,Train.Flange(50) 0,,,;25mレール
+Train.Run(51) 1,,Train.Flange(51) 0,,,;25mレール
+Train.Run(52) 1,,Train.Flange(52) 0,,,;25mレール
+Train.Run(53) 1,,Train.Flange(53) 0,,,;25mレール
+Train.Run(54) 1,,Train.Flange(54) 0,,,;25mレール
+Train.Run(55) 1,,Train.Flange(55) 0,,,;25mレール
+Train.Run(56) 1,,Train.Flange(56) 0,,,;25mレール
+Train.Run(57) 1,,Train.Flange(57) 0,,,;25mレール
+Train.Run(58) 1,,Train.Flange(58) 0,,,;25mレール
+Train.Run(59) 1,,Train.Flange(59) 0,,,;25mレール
+Train.Run(60) 1,,Train.Flange(60) 0,,,;25mレール
+Train.Run(61) 1,,Train.Flange(61) 0,,,;25mレール
+Train.Run(62) 1,,Train.Flange(62) 0,,,;25mレール
+Train.Run(63) 1,,Train.Flange(63) 0,,,;25mレール
+Train.Run(64) 1,,Train.Flange(64) 0,,,;25mレール
+Train.Run(65) 1,,Train.Flange(65) 0,,,;25mレール
+
+With Structure,,,,,
+.Rail(0) JNG-BKS\Rail\BallastS.csv,,,,,;ロングレール
+.Rail(2) JNG-BKS\Rail\Bridge\Slab.csv,,,,,;鉄橋
+.Rail(4) JNG-BKS\Rail\Null2.csv,,,,,;線路撤去跡
+.Rail(5) Null.csv,,,,,
+.Rail(6) JNG-BKS\landL.csv,,,,,;複々線化用地
+.Rail(7) JNG-BKS\landR.csv,,,,,;複々線化用地
+.Rail(8) JNG-BKS\GreenL.csv,,,,,;切り通し
+.Rail(9) JNG-BKS\GreenR.csv,,,,,;切り通し
+
+.Rail(10) JNG-BKS\Rail\Ballast(-164).csv,,,,,;ロングレール
+.Rail(11) JNG-BKS\Rail\Ballast(164).csv,,,,,;ロングレール
+.Rail(12) JNG-BKS\Rail\Ballast(-329).csv,,,,,;ロングレール
+.Rail(13) JNG-BKS\Rail\Ballast(329).csv,,,,,;ロングレール
+.Rail(14) JNG-BKS\Rail\Ballast(200).csv,,,,,;ロングレール
+.Rail(15) JNG-BKS\Rail\Ballast(-400).csv,,,,,;ロングレール
+.Rail(16) JNG-BKS\Rail\Ballast(400).csv,,,,,;ロングレール
+.Rail(17) JNG-BKS\Rail\Ballast(-500).csv,,,,,;ロングレール
+.Rail(18) JNG-BKS\Rail\Ballast(500).csv,,,,,;ロングレール
+.Rail(19) JNG-BKS\Rail\Ballast(-600).csv,,,,,;ロングレール
+.Rail(20) JNG-BKS\Rail\Ballast(600).csv,,,,,;ロングレール
+.Rail(21) JNG-BKS\Rail\Ballast(-700).csv,,,,,;ロングレール
+.Rail(22) JNG-BKS\Rail\Ballast(-800).csv,,,,,;ロングレール
+.Rail(23) JNG-BKS\Rail\Ballast(800).csv,,,,,;ロングレール
+.Rail(24) JNG-BKS\Rail\Ballast(900).csv,,,,,;ロングレール
+.Rail(25) JNG-BKS\Rail\Ballast(-1000).csv,,,,,;ロングレール
+.Rail(26) JNG-BKS\Rail\Ballast(1000).csv,,,,,;ロングレール
+.Rail(27) JNG-BKS\Rail\Ballast(-1600).csv,,,,,;ロングレール
+.Rail(28) JNG-BKS\Rail\Ballast(1600).csv,,,,,;ロングレール
+.Rail(29) JNG-BKS\Rail\Ballast(-2000).csv,,,,,;ロングレール
+.Rail(30) JNG-BKS\Rail\Ballast(2000).csv,,,,,;ロングレール
+.Rail(31) JNG-BKS\Rail\hoshu.csv,,,,,
+.Rail(32) JNG-BKS\Rail\Bridge\Slab(200).csv,,,,,;鉄橋
+.Rail(33) JNG-BKS\Rail\hoshu2.csv,,,,,;左新、右旧
+.Rail(34) JNG-BKS\Rail\hoshu3.csv,,,,,;左右新
+.Rail(35) JNG-BKS\Rail\Slab\SlabS.csv,,,,,;秋津
+.Rail(36) JNG-BKS\Rail\Bridge\Slab(400).csv,,,,,;鉄橋
+
+.Rail(40) JNG-BKS\Rail\new\BallastS.csv,,,,,;ロングレール
+.Rail(41) JNG-BKS\Rail\new\Ballast(-1600).csv,,,,,;ロングレール
+.Rail(42) JNG-BKS\Rail\new\Ballast(-2000).csv,,,,,;ロングレール
+.Rail(43) JNG-BKS\Rail\new\Ballast(1600).csv,,,,,;ロングレール
+.Rail(44) JNG-BKS\Rail\new\Ballast(2000).csv,,,,,;ロングレール
+.Rail(45) JNG-BKS\Rail\new\Ballast(900).csv,,,,,;ロングレール
+.Rail(46) JNG-BKS\Rail\new\Ballast(800).csv,,,,,;ロングレール
+.Rail(47) JNG-BKS\Rail\new\Ballast(-3000).csv,,,,,;ロングレール
+
+.Rail(50) JNG-BKS\Rail\BallastS.csv,,,,,;25mレール
+.Rail(51) JNG-BKS\Rail\Ballast(-400).csv,,,,,;25mレール
+.Rail(52) JNG-BKS\Rail\Ballast(200).csv,,,,,;25mレール
+.Rail(53) JNG-BKS\Rail\Ballast(-800).csv,,,,,;25mレール
+.Rail(54) JNG-BKS\Rail\Ballast(-1000).csv,,,,,;25mレール
+.Rail(55) JNG-BKS\Rail\Ballast(-500).csv,,,,,;25mレール
+.Rail(56) JNG-BKS\Rail\Ballast(-700).csv,,,,,;25mレール
+.Rail(57) JNG-BKS\Rail\Ballast(400).csv,,,,,;25mレール
+.Rail(58) JNG-BKS\Rail\Ballast(-1600).csv,,,,,;25mレール
+.Rail(59) JNG-BKS\Rail\Ballast(1000).csv,,,,,;25mレール
+.Rail(60) JNG-BKS\Rail\Ballast(-2000).csv,,,,,;25mレール
+
+.Rail(61) JNG-BKS\Rail\Ballast(-1200)G.csv,,,,,;25mレール
+.Rail(62) JNG-BKS\Rail\Ballast(-600)G.csv,,,,,;25mレール
+.Rail(63) JNG-BKS\Rail\Ballast(-267)G.csv,,,,,;25mレール
+.Rail(64) JNG-BKS\Rail\Ballast(-200)G.csv,,,,,;25mレール
+.Rail(65) JNG-BKS\Rail\Ballast(-400)G.csv,,,,,;25mレール
+
+.Rail(80) JNG-BKS\Rail\new2\BallastS.csv,,,,,;ロングレール
+
+.Rail(101) JNG-BKS\Rail\BallastS-200m.csv
+.Rail(102) JNG-BKS\Rail\BallastS+600m.csv
+
+
+.WallL(0) JNG-BKS\Wall\WallL2.csv
+.WallR(0) JNG-BKS\Wall\WallR2.csv
+.WallL(1) JNG-BKS\StaObj\Wall\NerimaL.csv
+.WallR(1) JNG-BKS\StaObj\Wall\NerimaR.csv
+.WallL(2) JNG-BKS\Wall\FormWallHL.csv
+.WallR(2) JNG-BKS\Wall\FormWallHR.csv
+.WallL(3) JNG-BKS\Wall\FormWallL.csv
+.WallR(3) JNG-BKS\Wall\FormWallR.csv
+.WallL(4) JNG-BKS\StaObj\Wall\SakuradaiL.csv
+.WallR(4) JNG-BKS\StaObj\Wall\SakuradaiR.csv
+.WallL(5) JNG-BKS\Wall\WallL.csv
+.WallR(5) JNG-BKS\Wall\WallR.csv
+.WallL(6) JNG-BKS\Wall\WallHL.csv
+.WallR(6) JNG-BKS\Wall\WallHR.csv
+.WallL(7) JNG-BKS\StaObj\Wall\NakamurabashiL.csv
+.WallR(7) JNG-BKS\StaObj\Wall\NakamurabashiR.csv
+.WallL(8) JNG-BKS\StaObj\Wall\FujimidaiL.csv
+.WallR(8) JNG-BKS\StaObj\Wall\FujimidaiR.csv
+.WallL(9) JNG-BKS\StaObj\Wall\TakanodaiL.csv
+.WallR(9) JNG-BKS\StaObj\Wall\TakanodaiR.csv
+.WallL(10) JNG-BKS\StaObj\Wall\AkitsuL.csv
+.WallR(10) JNG-BKS\StaObj\Wall\AkitsuR.csv
+
+.DikeL(0) JNG-BKS\DikeHL.csv
+.DikeR(0) JNG-BKS\DikeHR.csv
+.DikeL(1) PierH.csv
+.DikeR(1) PierH.csv
+.DikeL(2) JNG-BKS\Dike_WallL.csv
+.DikeR(2) JNG-BKS\Dike_WallR.csv
+.DikeL(3) JNG-BKS\Dike_BallastL.csv
+.DikeR(3) JNG-BKS\Dike_BallastR.csv
+.DikeL(4) JNG-BKS\Dike_IkeL.csv
+.DikeR(4) JNG-BKS\Dike_IkeR.csv
+
+.Ground(0) JNG-BKS\GrassRise.csv
+.Ground(1) River.csv
+.Ground(2) Levee.csv
+.Ground(3) JNG-BKS\Ground_Concrete.csv
+
+.CrackR(0) JNG-BKS\CraBalR.csv
+.CrackL(0) JNG-BKS\CraBalL.csv
+.CrackR(1) CraSlbR.csv
+.CrackL(1) CraSlbL.csv
+.CrackR(2) CraGrsR.csv
+.CrackL(2) CraGrsL.csv,,,,,
+.CrackR(3) JNG-BKS\Crossing\normal\Cr_CrossingDR.csv,,,,,
+.CrackL(3) JNG-BKS\Crossing\normal\Cr_CrossingDL.csv,,,,,
+.CrackR(4) JNG-BKS\Crossing\at15m\Cr_CrossingDR.csv,,,,,
+.CrackL(4) JNG-BKS\Crossing\at15m\Cr_CrossingDL.csv,,,,,
+
+.FormR(0) JNG-BKS\StaObj\Form\normal\FormR.csv,,,,,
+.FormL(0) JNG-BKS\StaObj\Form\normal\FormL.csv,,,,,
+.FormR(1) JNG-BKS\StaObj\Form\normal\FormRS.csv,,,,,
+.FormL(1) JNG-BKS\StaObj\Form\normal\FormLS.csv,,,,,
+.FormR(2) JNG-BKS\StaObj\Form\new\FormR2.csv,,,,,
+.FormL(2) JNG-BKS\StaObj\Form\new\FormL2.csv,,,,,
+.FormR(3) JNG-BKS\StaObj\Form\10m\FormR2.csv,,,,,
+.FormL(3) JNG-BKS\StaObj\Form\10m\FormL2.csv,,,,,
+.FormR(4) JNG-BKS\StaObj\Form\new\FormR2D.csv,,,,,;桜台先端
+.FormL(4) JNG-BKS\StaObj\Form\new\FormL2D.csv,,,,,;桜台先端
+.FormR(5) JNG-BKS\StaObj\Form\normal2\FormRS.csv
+.FormL(5) JNG-BKS\StaObj\Form\normal2\FormLS.csv
+.FormR(6) JNG-BKS\StaObj\Form\normal2\FormR.csv
+.FormL(6) JNG-BKS\StaObj\Form\normal2\FormL.csv
+.FormR(7) JNG-BKS\StaObj\Form\normal3\FormRS.csv
+.FormL(7) JNG-BKS\StaObj\Form\normal3\FormLS.csv
+.FormR(8) JNG-BKS\StaObj\Form\normal3\FormR.csv
+.FormL(8) JNG-BKS\StaObj\Form\normal3\FormL.csv
+.FormCR(0) JNG-BKS\StaObj\Form\normal\FormCR.csv
+.FormCL(0) JNG-BKS\StaObj\Form\normal\FormCL.csv
+.FormCR(1) JNG-BKS\StaObj\Form\normal\FormCRS.csv
+.FormCL(1) JNG-BKS\StaObj\Form\normal\FormCLS.csv
+.FormCR(2) JNG-BKS\StaObj\Form\new\FormCR.csv
+.FormCL(2) JNG-BKS\StaObj\Form\new\FormCL.csv
+.FormCR(3) JNG-BKS\StaObj\Form\10m\FormCR.csv
+.FormCL(3) JNG-BKS\StaObj\Form\10m\FormCL.csv
+.FormCR(4) JNG-BKS\StaObj\Form\new\FormCRD.csv,,,,,;桜台先端
+.FormCL(4) JNG-BKS\StaObj\Form\new\FormCLD.csv,,,,,;桜台先端
+.FormCR(5) JNG-BKS\StaObj\Form\normal\FormCRS.csv,,,,,
+.FormCL(5) JNG-BKS\StaObj\Form\normal\FormCLS.csv,,,,,
+.FormCR(6) JNG-BKS\StaObj\Form\normal\FormCR.csv,,,,,
+.FormCL(6) JNG-BKS\StaObj\Form\normal\FormCL.csv,,,,,
+.FormCR(7) JNG-BKS\StaObj\Form\normal\FormCRS.csv,,,,,
+.FormCL(7) JNG-BKS\StaObj\Form\normal\FormCLS.csv,,,,,
+.FormCR(8) JNG-BKS\StaObj\Form\normal\FormCR.csv,,,,,
+.FormCL(8) JNG-BKS\StaObj\Form\normal\FormCL.csv,,,,,
+
+.RoofR(1) JNG-BKS\StaObj\Roof\RoofR.csv,,,,,
+.RoofL(1) JNG-BKS\StaObj\Roof\RoofL.csv,,,,,
+.RoofR(2) JNG-BKS\StaObj\Roof\NerimaR.csv,,,,,
+.RoofL(2) JNG-BKS\StaObj\Roof\NerimaL.csv,,,,,
+.RoofR(3) JNG-BKS\StaObj\Roof\SakuradaiR.csv,,,,,
+.RoofL(3) JNG-BKS\StaObj\Roof\SakuradaiL.csv
+.RoofR(4) JNG-BKS\StaObj\Roof\OizumiR.csv
+.RoofL(4) JNG-BKS\StaObj\Roof\OizumiL.csv
+.RoofR(5) JNG-BKS\StaObj\Roof\NakamurabashiR.csv
+.RoofL(5) JNG-BKS\StaObj\Roof\NakamurabashiL.csv
+.RoofR(6) JNG-BKS\StaObj\Roof\FujimidaiR.csv
+.RoofL(6) JNG-BKS\StaObj\Roof\FujimidaiL.csv
+.RoofR(7) JNG-BKS\StaObj\Roof\ShiinaR.csv
+.RoofL(7) JNG-BKS\StaObj\Roof\ShiinaL.csv
+.RoofR(8) JNG-BKS\StaObj\Roof\TakanodaiR.csv
+.RoofL(8) JNG-BKS\StaObj\Roof\TakanodaiL.csv
+.RoofR(9) JNG-BKS\StaObj\Roof\AkitsuR.csv
+.RoofL(9) JNG-BKS\StaObj\Roof\AkitsuL.csv
+.RoofR(10) JNG-BKS\StaObj\Roof\HibariR.csv
+.RoofL(10) JNG-BKS\StaObj\Roof\HibariL.csv
+.RoofCR(1) RoofCR.csv
+.RoofCL(1) RoofCL.csv
+.RoofCR(2) JNG-BKS\StaObj\Roof\NerimaCR.csv
+.RoofCL(2) JNG-BKS\StaObj\Roof\NerimaCL.csv
+.RoofCR(3) JNG-BKS\StaObj\Roof\NerimaCR.csv
+.RoofCL(3) JNG-BKS\StaObj\Roof\NerimaCL.csv
+.RoofCR(4) RoofCR.csv
+.RoofCL(4) RoofCL.csv
+.RoofCR(5) JNG-BKS\StaObj\Roof\NerimaCR.csv
+.RoofCL(5) JNG-BKS\StaObj\Roof\NerimaCL.csv
+.RoofCR(6) JNG-BKS\StaObj\Roof\NerimaCR.csv
+.RoofCL(6) JNG-BKS\StaObj\Roof\NerimaCL.csv
+.RoofCR(7) Null.csv
+.RoofCL(7) Null.csv
+.RoofCR(8) JNG-BKS\StaObj\Roof\NerimaCR.csv
+.RoofCL(8) JNG-BKS\StaObj\Roof\NerimaCL.csv
+.RoofCR(9) Null.csv
+.RoofCL(9) Null.csv
+.RoofCR(10) JNG-BKS\StaObj\Roof\NerimaCR.csv
+.RoofCL(10) JNG-BKS\StaObj\Roof\NerimaCL.csv
+
+.Pole(0; 0) JNG-BKS\Pole\Pole0-1.csv
+.Pole(0; 1) JNG-BKS\Pole\Pole_el1.csv
+.Pole(1; 0) JNG-BKS\Pole\Pole0-2.csv
+.Pole(1; 1) JNG-BKS\Pole\Pole_el.csv
+.Pole(1; 2) JNG-BKS\Pole\Pole2-2.csv
+.Pole(1; 3) JNG-BKS\Pole\Pole3-2.csv
+.Pole(1; 4) JNG-BKS\Pole\Pole4-2.csv
+.Pole(1; 5) JNG-BKS\Pole\PoleNarrow-2.csv
+.Pole(1; 6) JNG-BKS\Pole\Pole1-2.csv
+.Pole(2; 0) JNG-BKS\Pole\Pole0-3.csv
+.Pole(2; 2) JNG-BKS\Pole\Pole2-3.csv
+.Pole(2; 3) JNG-BKS\Pole\Pole3-3.csv
+.Pole(2; 4) JNG-BKS\Pole\Pole4-3.csv,,,,,
+.Pole(3; 0) JNG-BKS\Pole\Pole0-4.csv,,,,,
+.Pole(3; 2) JNG-BKS\Pole\Pole2-4.csv,,,,,
+.Pole(3; 3) JNG-BKS\Pole\Pole3-4.csv,,,,,
+.Pole(3; 4) JNG-BKS\Pole\Pole4-4.csv,,,,,
+.Pole(3; 101) JNG-BKS\Pole\Pole2-ekoda1.csv,,,,,;江古田池袋寄りホーム先端
+
+.FreeObj(0) JNG-BKS\Crossing\normal\CrossingD.csv,,,,,
+.FreeObj(1) TollBarDL.csv,,,,,
+.FreeObj(2) TollBarDR.csv,,,,,
+.FreeObj(3) JNG-BKS\Crossing\RoadDL.csv,,,,,
+.FreeObj(4) JNG-BKS\Crossing\RoadDR.csv,,,,,
+.FreeObj(5) JNG-BKS\Crossing\normal\CrossingS.csv,,,,,
+
+
+
+
+.FreeObj(11) JNG-BKS\Staobj\Stop\Stop8.csv,,,,,
+.FreeObj(12) JNG-BKS\signalstep\signalstep.csv,,,,,;信号機 階段
+.FreeObj(13) JNG-BKS\Staobj\Stop\Stop10.csv,,,,,
+.FreeObj(14) Null.csv,,,,,
+.FreeObj(15) JNG-BKS\Staobj\Stop\Stop4.csv,,,,,
+.FreeObj(16) JNG-BKS\Staobj\Stop\Stop_toku.csv,,,,,
+.FreeObj(17) JNG-BKS\Staobj\Stop\Stop.csv,,,,,
+.FreeObj(18) JNG-BKS\Staobj\Stop\Stop6.csv,,,,,
+.FreeObj(19) JNG-BKS\track_check.csv,,,,;「番線確認」,
+.FreeObj(21) JNG-BKS\SigPole.csv,,,,;信号機 柱,
+.FreeObj(22) JNG-BKS\Signal3.csv,,,,,
+.FreeObj(23) JNG-BKS\Signal5.csv,,,,,
+.FreeObj(24) JNG-BKS\Signal6.csv,,,,,
+.FreeObj(25) JNG-BKS\Signal9.csv,,,,,
+.FreeObj(26) JNG-BKS\Signal11.csv,,,,,
+.FreeObj(27) JNG-BKS\Signal12.csv,,,,
+.FreeObj(28) JNG-BKS\Signal13.csv,,,,
+.FreeObj(29) JNG-BKS\Signal14.csv,,,,
+.FreeObj(30) JNG-BKS\Signal4.csv,,,,
+.FreeObj(31) JNG-BKS\Relay0.csv,,,,
+.FreeObj(32) JNG-BKS\Relay1.csv,,,,
+.FreeObj(33) JNG-BKS\Relay2.csv,,,,
+.FreeObj(34) JNG-BKS\CallPole.csv,,,,;喚呼標 柱
+.FreeObj(35) JNG-BKS\NotchOffLoc.csv,,,,;惰行標普通
+.FreeObj(36) JNG-BKS\NotchOffExp.csv,,,,;惰行標優等
+.FreeObj(37) JNG-BKS\Call.csv,,,,;閉塞信号喚呼位置
+.FreeObj(38) JNG-BKS\Call2.csv,,,,;絶対信号喚呼位置
+.FreeObj(39) JNG-BKS\NotchOnLoc.csv,,,,;力行標普通
+.FreeObj(40) JNG-BKS\NotchOnExp.csv,,,,;力行標優等
+.FreeObj(41) JNG-BKS\Train_no.csv,,,,
+.FreeObj(42) JNG-BKS\Train_no2.csv,,,,
+.FreeObj(43) JNG-BKS\StaObj\Wall\FormWall2.csv,,,,,;2個分
+.FreeObj(44) JNG-BKS\StaObj\Wall\FormWall1.csv,,,,,;1個分
+.FreeObj(45) JNG-BKS\StaObj\Wall\FormWall3.csv,,,,,;1.5個分
+.FreeObj(46) JNG-BKS\StaObj\Wall\FormWall0.csv,,,,,;0.5個分
+.FreeObj(47) JNG-BKS\Brake.csv,,,,;ブレーキ操作位置,
+.FreeObj(48) JNG-BKS\Type_Check.csv,,,,;種別確認,
+.FreeObj(49) JNG-BKS\SigPlate.csv,,,,;「出発」「列情」,
+
+.FreeObj(50) JNG-BKS\Crossing_sig.csv,,,,;踏切動作反応灯,
+.FreeObj(51) JNG-BKS\Crossing_sig2.csv,,,,;踏切動作反応灯＋特殊信号発光機＋柱,
+.FreeObj(52) JNG-BKS\Crossing_sig3.csv,,,,;特殊信号発光機＋柱,
+
+.FreeObj(60) JNG-BKS\Rail\Yamanote.csv,,,,,
+.FreeObj(61) JNG-BKS\Rail\Yamashadow.csv,,,,,
+
+
+.FreeObj(64) JNG-BKS\saku3L.csv,,,,;水色
+.FreeObj(65) JNG-BKS\saku3R.csv,,,,;水色
+.FreeObj(66) JNG-BKS\saku3L_S.csv,,,,;水色
+.FreeObj(67) JNG-BKS\saku3R_S.csv,,,,;水色
+
+.FreeObj(70) JNG-BKS\Wood1.csv,,,,;木　1本
+.FreeObj(71) JNG-BKS\WoodL.csv,,,,
+.FreeObj(72) JNG-BKS\WoodR.csv,,,,
+.FreeObj(74) JNG-BKS\Saku.csv,,,,;柵
+.FreeObj(75) JNG-BKS\Saku2L.csv,,,,;ブロック塀
+.FreeObj(76) JNG-BKS\Saku2R.csv,,,,;ブロック塀
+.FreeObj(77) JNG-BKS\Saku_S.csv,,,,;踏切脇柵
+.FreeObj(78) JNG-BKS\Fence.csv,,,,
+.FreeObj(80) JNG-BKS\ForestL.csv,,,,;森
+.FreeObj(81) JNG-BKS\ForestR.csv,,,,;森
+
+.FreeObj(84) JNG-BKS\sakuL.csv
+.FreeObj(85) JNG-BKS\sakuR.csv
+.FreeObj(86) JNG-BKS\sakuL_S.csv
+.FreeObj(87) JNG-BKS\sakuR_S.csv
+
+.FreeObj(91) JNG-BKS\Staobj\Stop\Pstop8.csv
+.FreeObj(93) JNG-BKS\Staobj\Stop\Pstop10.csv
+.FreeObj(95) JNG-BKS\Staobj\Stop\Pstop4.csv
+.FreeObj(96) JNG-BKS\Staobj\Stop\Pstop_toku.csv
+.FreeObj(97) JNG-BKS\Staobj\Stop\Pstop.csv
+.FreeObj(98) JNG-BKS\Staobj\Stop\Pstop6.csv
+.FreeObj(99) JNG-BKS\Staobj\Stop\StopLine.csv
+
+.FreeObj(100) JNG-BKS\RailEnd.csv
+.FreeObj(101) JNG-BKS\RailStart.csv
+.FreeObj(104) PierH.csv
+.FreeObj(105) JNG-BKS\Wall\Wall_5950.csv,,,,,
+.FreeObj(106) JNG-BKS\Wall\Wall_6075.csv,,,,,
+
+.FreeObj(110) JNG-BKS\Alarm.csv,,,,,;接近警報装置 右側
+
+.FreeObj(120) JNG-BKS\Crossing\ike_No5.csv,,,,,;池袋5号踏切
+.FreeObj(121) JNG-BKS\overbridge.csv,,,,,;交差道路 灰色
+.FreeObj(122) JNG-BKS\overbridge_green.csv,,,,,;交差道路 緑色
+.FreeObj(130) JNG-BKS\StaObj\Roof\EkodaR.csv,,,,,
+.FreeObj(131) JNG-BKS\Ad01.csv,,,,,
+
+.FreeObj(132) JNG-BKS\StaObj\Shiina\track.csv,,,,,
+.FreeObj(133) JNG-BKS\StaObj\Shiina\timetable.csv,,,,,
+.FreeObj(134) JNG-BKS\StaObj\Shiina\stair.csv,,,,,
+.FreeObj(135) JNG-BKS\StaObj\Nagasaki\stair.csv,,,,,
+
+
+
+
+
+
+
+.FreeObj(150) JNG-BKS\StaObj\Ike\Form56.csv,,,,,
+.FreeObj(151) JNG-BKS\StaObj\Ike\Form2.csv,,,,,
+.FreeObj(152) JNG-BKS\StaObj\Ike\Form1.csv,,,,,
+.FreeObj(153) JNG-BKS\StaObj\Ike\Building1.csv,,,,,;光通信ビル
+.FreeObj(154) JNG-BKS\StaObj\Ike\Building2.csv,,,,,;西武メトロポリタン駐車場
+.FreeObj(155) JNG-BKS\House\shiina1.csv,,,,,;椎名町マンション
+.FreeObj(156) JNG-BKS\House\ekoda1.csv,,,,,;江古田北口商店街入口
+.FreeObj(157) JNG-BKS\House\fujimi1.csv,,,,,;富士見台プラザトキワ
+.FreeObj(158) JNG-BKS\House\agari1.csv,,,,,;上り屋敷 柵
+.FreeObj(159) JNG-BKS\House\nittsu.csv,,,,,;日本通運
+.FreeObj(160) JNG-BKS\House\ekoda2.csv,,,,,;日大芸術学部
+.FreeObj(161) JNG-BKS\House\ekoda3.csv,,,,,;江古田変電所
+.FreeObj(162) JNG-BKS\House\ekoda4.csv,,,,,;江古田変電所?
+.FreeObj(163) JNG-BKS\House\shiina2.csv,,,,,;椎名町 池袋方 板
+.FreeObj(164) JNG-BKS\House\summit.csv,,,,,;椎名町サミット
+.FreeObj(165) JNG-BKS\House\nagasaki1.csv,,,,,;東長崎 一本堂・城北信金
+.FreeObj(166) JNG-BKS\House\ekoda5.csv,,,,,;江古田
+.FreeObj(167) JNG-BKS\House\ekoda6.csv,,,,,;江古田 稲荷神社入口
+.FreeObj(168) JNG-BKS\House\ekoda7.csv,,,,,;江古田 みずほ銀行
+.FreeObj(169) JNG-BKS\House\yamanote.csv,,,,,;山手線周辺
+.FreeObj(170) JNG-BKS\House\substation1.csv,,,,,;変電設備
+
+
+
+.FreeObj(201) JNG-BKS\Call2Takanodai.csv,,,,;練馬高野台2番線 絶対喚呼標,
+.FreeObj(202) JNG-BKS\Limit35.csv,,,,;江古田 分岐制限35,
+.FreeObj(203) JNG-BKS\CallNakamurabashi.csv,,,,;中村橋2番線 喚呼標,
+
+.FreeObj(301) JNG-BKS\Pole\Pole2-shakujii1.csv,,,,,;石神井下り本線架線柱 中線基準
+.FreeObj(302) JNG-BKS\Pole\Pole2-3.csv,,,,,
+.FreeObj(303) JNG-BKS\Pole\Pole2-4.csv,,,,,
+.FreeObj(304) JNG-BKS\Pole\Pole1-4.csv,,,,,
+
+
+
+.FreeObj(501) JNG-BKS\House\double1L.csv,,,,,
+.FreeObj(502) JNG-BKS\House\double1R.csv,,,,,
+.FreeObj(503) JNG-BKS\House\double3L.csv,,,,,
+.FreeObj(504) JNG-BKS\House\double3R.csv,,,,,
+.FreeObj(505) JNG-BKS\House\double5L.csv,,,,,
+.FreeObj(506) JNG-BKS\House\double5R.csv,,,,,
+.FreeObj(507) JNG-BKS\House\double7L.csv,,,,,
+.FreeObj(508) JNG-BKS\House\double7R.csv
+
+
+
+.FreeObj(541) JNG-BKS\House\apart1L.csv
+.FreeObj(542) JNG-BKS\House\apart1R.csv
+.FreeObj(543) JNG-BKS\House\apart2L.csv
+.FreeObj(544) JNG-BKS\House\apart2R.csv
+
+
+
+.FreeObj(581) JNG-BKS\House\building1.csv
+.FreeObj(582) JNG-BKS\House\building2.csv
+.FreeObj(583) JNG-BKS\House\building3.csv
+.FreeObj(584) JNG-BKS\House\building4.csv
+.FreeObj(585) JNG-BKS\House\building5.csv
+
+
+
+
+.FreeObj(2002) JNG-BKS\Train\Rheostatik\Tc.csv
+.FreeObj(2101) JNG-BKS\Train\Rheostatik\M.csv
+.FreeObj(2102) JNG-BKS\Train\Rheostatik\Tc2.csv
+.FreeObj(2001) JNG-BKS\Train\6000\Tc.csv
+.FreeObj(2402) JNG-BKS\Train\6000\m.csv
+.FreeObj(2401) JNG-BKS\Train\6000\t.csv
+
+.FreeObj(2052) JNG-BKS\Train\6000\tc2.csv
+.FreeObj(2151) JNG-BKS\Train\8500\Tokyu8500Tc2.animated
+.FreeObj(2051) JNG-BKS\Train\8500\tokyu8500m.csv
+
+.FreeObj(2062) JNG-BKS\Train\8500\tokyu8500t.csv
+.FreeObj(2161) JNG-BKS\Train\8500\tokyu8500tc.animated
+.FreeObj(2061) JNG-BKS\Train\8000\tokyu8500tc2.animated
+
+.FreeObj(6050) JNG-BKS\Train\8000\tokyu8500m.csv
+.FreeObj(6950) JNG-BKS\Train\8000\tokyu8500t.csv
+.FreeObj(6850) JNG-BKS\Train\8000\tokyu8500tc.animated
+.FreeObj(6650) JNG-BKS\Train\1000\1000Tc.csv
+.FreeObj(6150) JNG-BKS\Train\1000\1000M.csv
+
+.FreeObj(7100) JNG-BKS\Train\1000\1000T.csv
+.FreeObj(7200) JNG-BKS\Train\1000\1000Tc2.csv
+.FreeObj(7300) JNG-BKS\Train\5000\5000Tc.csv
+.FreeObj(7400) JNG-BKS\Train\5000\5000M.csv
+.FreeObj(7700) JNG-BKS\Train\5000\5000T.csv
+.FreeObj(7000) JNG-BKS\Train\5000\5000Tc2.csv
+
+.FreeObj(20001) JNG-BKS\Train\e921\302Tc.csv,,,,,
+.FreeObj(20101) JNG-BKS\Train\e921\303m.csv,,,,,
+.FreeObj(20201) JNG-BKS\Train\e921\302-100m.csv,,,,,
+.FreeObj(20301) JNG-BKS\Train\e921\303tc.csv,,,,,
+
+;Texture.Background(0) Bg_fine.bmp,,,,,
+Texture.Background(0) JNG-BKS\Back.bmp,,,,,
+
+With Track,,,,,
+0,.height 0.5,.Accuracy 1,.Pattern 1; 115,;.Fog 0; 4800; 224; 224; 224,;.Brightness 224
+25,;.Adhesion 75,;.Fog -100; 600; 192; 192; 192,;←雨天,,
+50,.RailType 0; 50,,,,
+75,;.Sta Ikebukuro; 15.01$sub(2)9; 15.0300; 0; -1; 1; 0; ; 10; 100,,,,
+100,,,,,
+125,,,,,
+150,,,,,
+175,,,,,,,,,,,,,,,,,,,,,,
+200,,,,,,,,,,,,,,,,,,,,,,
+225,,,,,,,,,,,,,,,,,,,,,,
+250,,,,,,,,,,,,,,,,,,,,,,
+275,,,,,,,,,,,,,,,,,,,,,,
+300,,,,,,,,,,,,,,,,,,,,,,
+325,,,.Rail 1; -12.2,,.Rail 3; +8,,.Rail 6; +11.8,.Crack 0; 4,.Crack 0; 3,.Rail 4; -6.1; ; 0,;.Form 1; 4; 0; 2,,,,,,,.FreeObj 0; 150,.FreeObj 4; 151,,,
+334,;.Stop 0,.FreeObj 0; 13,;.announce JNG-BKS\1111\ikebukuro.wav,;停止位置,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,,,,,,,
+330,;車両オブジェクト,,,,,,,,,,,,,,,,.FreeObj 6; 6050,,,,,
+337,,,,;.marker JNG-BKS\Mark\ike35.gif; 25,,,,,,,,,,,,,,,,,,
+345,.Sig 3; 出$chr(13)$chr(10)発; +1.9; +4.5; 3,.FreeObj 0; 12; +1.9; -0.8,.FreeObj 0; 21; +1.9; -0.3,.FreeObj 0; 49; +1.9,,.FreeObj 4; 22; +1.8; +4.2,.FreeObj 4; 21; +1.8; -0.6,.FreeObj 4; 12; +1.8; -1.1,;信号,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,,,,,;.FreeObj 0; 42; +1.9; -0.7,;.FreeObj 4; 41; +1.8; -0.7,
+350,.RailType 0; 10,.Curve -200,.Rail 1; -10.3,;.announce JNG-BKS\1111\Announce1.wav,.Rail 3; +5.3; ; 10,.Rail 5; +5.3,.Rail 6; +9.1,.Crack 0; 4,.Crack 0; 3,.Rail 4; -4.6; ; 15,.limit 100,.Rail 7; 0; 0; 23,,,;.Form 1; 4; 0; 2,;.marker JNG-BKS\Mark\p35.gif; 75,.FreeObj 6; 6950,,.FreeObj 4; 151,.FreeObj 1; 152,,
+370,;車両オブジェクト,,,,,,,,,,,,,,,,.FreeObj 6; 6850,,,,,
+375,.RailType 0; 19,.Curve -600,.Rail 1; -7.6; ; 10,.PreTrain 15.02$sub(2)7,.Rail 3; +1.9; ; 13,.Rail 5; +3.8,.Rail 6; +7.6,.Crack 0; 1,.Crack 0; 3,.Rail 4; -2.9,,.Rail 7; +1.9; 0; 10,;.FreeObj 0; 304; -1.6,;.FreeObj 0; 301; -2.4; 0,.Relay 0; -1,,,,,,,
+390,;車両オブジェクト,,,,,,,,,,,,,,,,.FreeObj 6; 6950; ; ; -0.2,,.FreeObj 1; 21; -2.1; -0.6,.FreeObj 1; 22; -2.1; +4.2,.FreeObj 1; 12; -2.1; -1.1,;.FreeObj 1; 41; -2.1; -0.7
+400,.RailType 0; 50,.Curve 0,.Rail 1; -4.7; ; 13,.Rail 2; -4.7; ; 0,.RailEnd 3; 0; 0; 0,.Rail 5; +4.2,.Rail 6; +8,,,.Rail 4; -0.9; ; 0,,.RailEnd 7; +4.22; 0; 0,.Pole 2; 3; 0; 25,.Rail 8; -0.9; ; 12,;喚呼標,.FreeObj 2; 37; -3.2; 3.3,,,.FreeObj 2; 153,.FreeObj 5; 110,,
+410,;車両オブジェクト,,,,,,,,,,,,,,,,.FreeObj 6; 6650; ; ; 0.2,,,
+425,,,.Rail 1; -1.8; ; 0,.Rail 2; -2.8,,.Rail 5; +4.9,.Rail 6; +8.7,,.FreeObj 0; 74; -8.8; 0; 4,.Rail 4; +0.9,.Pitch +1.8,,.Pole 2; 3; 0; 25; 3,.RailEnd 8; 0; ; 0,,,,,,
+430,;車両オブジェクト,,,,,,,,,,,,,,,,.FreeObj 6; 6850,,,
+450,.RailType 0; 13,.Curve +329,.Rail 1; +1.8; ; 12,.Rail 2; -0.9,,.Rail 5; +5.6,.Rail 6; +9.4,,.FreeObj 0; 74; -7; ; 8,.Rail 4; +2.8,,,,,,,.FreeObj 6; 6950,,,.FreeObj 0; 154
+470,;車両オブジェクト,,,,,,,,,,,,,,,,.FreeObj 6; 6950,,,
+475,.RailType 0; 50,.Curve 0,.Rail 1; +3.8; ; 0,.RailEnd 2; 0,,.Rail 5; +5.4,.Rail 6; +9.2,,,.RailEnd 4; +3.8,.Limit 0,.PoleEnd 2,.Pole 0; 3; 0; 25; 2,,,,,,,
+490,;車両オブジェクト,,,,,,,,,,,,,,,,.FreeObj 6; 6850,,,
+500,,,.Dike 0; -1; 4,,,.Rail 5; +4.3; ; 18,.Rail 6; +8.1,,.FreeObj 6; 100,,.height 0.5,,.Pole 0; 2; 0; 25; 2,,,,,,,
+510,;車両オブジェクト,,,,,,,,,,,,,,,,.FreeObj 6; 6150; ; ; -0.7,,,
+525,.Curve +600; +20,.limit 100; 0,,.Dike 1; +1; 4,,.RailEnd 5; +3.8; ; 0,.RailEnd 6; +7.6,.RailType 0; 20,.RailType 1; 20,,,,.Pole 0; 1; 0; 25; 2,,,,,,,
+535,;■入力禁止,;信号,.Sig 3; ５; -2.7; -1; 1,.FreeObj 0; 12; -2.7; -0.5,,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,,,,,,,,,
+550,.Curve +202; +60,,;.marker JNG-BKS\Mark\45.gif; 75,,,,,.RailType 0; 52,.RailType 1; 52,,,,.Pole 0; 1; 0; 25; 3,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,,,,
+575,.Height 7,,,,,,,,,,,,,,,,,,,
+600,.Pitch +19.3,,.Relay -2.7; 4,.FreeObj 0; 12; -2.7; -1.1,.FreeObj 0; 21; -2.7; -0.6,,,,,,,,;喚呼標,.FreeObj 0; 37; -2.7; 2.4,,,,,,
+625,,,,,,,,,,,,,,,,,,,,
+650,;.Pitch +11.4,,;.announce JNG-BKS\1111\Announce1b.wav,,,,,,,,,,,,,,,,,
+675,,,,,,,,,,,,,,,,,,
+700,,,,,,,,,,,,,,,,,,
+725,.Sig 3; ７; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,;.Pitch 0,,,,,,,,,,,,,,
+750,,,,,,,,,,,,,,,,,,
+775,,.Ground 3,,.Pitch 0,.RailType 0; 32,.RailType 1; 32,.DikeEnd 0,.DikeEnd 1,,,,,,,,,,
+794,;■入力禁止,;山手線,.FreeObj 0; 60; 0; -6.9; -75,,,,,,,,,,,,,,,
+800,.Height 7,,.FreeObj 0; 61; 0; -6.9,.Pitch -20.1,.RailType 0; 52,.RailType 1; 14,.Dike 0; -1; 4,.Dike 1; +1; 4,,,.FreeObj -1; 169,,,,.Relay 0; -1,,,
+825,,.Ground 0,,,,,,.Rail 2; -3; -5; 5,,.FreeObj 2; 75; -1,,.FreeObj 2; 80; -5.8,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,,,
+850,.FreeObj 0; 50; -3.5; +3,,,,,,,.Rail 2; -2; -4.2; 5,,.FreeObj 2; 75; -1,,.FreeObj 2; 80; -5.8,,,,,,
+875,,,.Curve +600; +20,,.RailType 0; 20,.RailType 1; 20,,.Rail 2; -1; -3.4; 5,,.FreeObj 2; 75; -1,,.FreeObj 2; 80; -5.8,,,,,,
+900,.Limit 0; -1,,.Curve 0; 0,.Pole 0; 1; 0; 50; 4,.RailType 0; 0,.RailType 1; 0,,.Rail 2; -3.5; -2.4,.Rail 3; +4.8; -2.4; 5,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,.FreeObj 2; 80; -8; ; -3,,,,.FreeObj 2; 503; ; -0.5,,
+925,.Pitch -6.8,.Sig 3; ９; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,;.Pitch -13,,,,.Rail 2; -0.5; -1.3,.Rail 3; +4.3; -1.3,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,,.FreeObj 2; 505; ; -0.5,,
+950,.Pitch -10.1,.Height 1,.DikeEnd 0,.DikeEnd 1,.FreeObj 0; 50; -3.4; +4.1,.FreeObj 0; 0,.FreeObj 1; 0,.RailEnd 2; -0.1; 0,.RailEnd 3; +3.9; 0,.FreeObj 0; 77; -4,.Rail 5; +5.3; -0.1; 7,.FreeObj 5; 77; +2.5,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.Rail 4; -2; -0.1; 6,.FreeObj 0; 501,.FreeObj 1; 508
+975,,,,,,,,.Rail 4; -2.1,.Rail 14; -5.5; -0.5; 8,.FreeObj 14; 74; ; +0.5,;,.FreeObj 5; 74; +2.5,,,.Relay 0; -1,.FreeObj 14; 507; +4,,
+1000,.Pitch +1.3,,.Curve -1600; 30,,,.RailType 0; 27,.RailType 1; 27,.Rail 4; -2.6,.Rail 14; -8; 1.2; 8,.FreeObj 14; 74; ; +0.5,.Rail 5; +8.8,.FreeObj 5; 74; +2.5,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,.FreeObj 14; 503; +4,,
+1025,,,.Curve -800; 60,,,.RailType 0; 22,.RailType 1; 22,.Rail 4; -3,.Rail 14; -8; 1.2; 8,.FreeObj 14; 74; ; +0.5,;,.FreeObj 5; 74; +2.5,,,,.FreeObj 14; 505; +4,,
+1050,;.Pitch +1.6,.height 1,.Curve -1600; 30,,.FreeObj 0; 51; -4; +2,.RailType 0; 27,.RailType 1; 27,.Rail 4; -3.5,.Rail 14; -8; 0.9; 8,.FreeObj 14; 74; ; +0.5,;,.FreeObj 1; 158; +5,,,,.FreeObj 14; 501; +4,,
+1075,,.height 0.5,.Curve 0; 0,,,.RailType 0; 0,.RailType 1; 0,.Rail 4; -4,.Rail 14; -8; 0.2; 8,.FreeObj 14; 74; ; +0.5,.Rail 5; +7,.FreeObj 1; 158; +5,,,,.FreeObj 14; 507; +4,,
+1100,;.marker JNG-BKS\Mark\agari.gif; 125,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.RailEnd 4,.RailEnd 14; -7; -0.5; 8,.FreeObj 0; 86; -4,.RailEnd 5; +5.3,.FreeObj 1; 87; +4,.FreeObj 0; 39; -3.5; 3.3,.FreeObj 0; 40; -3.5; 4,,.FreeObj 0; 541,.FreeObj 1; 506,
+1125,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 585,.FreeObj 1; 504,
+1150,.Sig 3; １$chr(13)$chr(10)３; +6; +5.8; 1,.FreeObj 0; 12; +6; +0.5,.FreeObj 0; 21; +6; +0.5,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 501,.FreeObj 1; 508,
+1175,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,.Relay 0; -1,.FreeObj 0; 584,.FreeObj 1; 502,
+1200,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,.FreeObj 0; 503,.FreeObj 1; 506,
+1225,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 541,.FreeObj 1; 504,
+1250,;池袋5号踏切,,,,,,,,,,,,,,,.FreeObj 0; 501,.FreeObj 1; 508,
+1265,,,.FreeObj 0; 51; -3; +3,,,,,,,,,,,,,,,
+1275,;池袋5号踏切,,.FreeObj 0; 120,,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,,,,,,.FreeObj 0; 507,.FreeObj 1; 502,
+1300,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 503,.FreeObj 1; 506,
+1325,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 505,.FreeObj 1; 504,.FreeObj 1; 584; -2.8; ; 90
+1350,,,,,,.height 0.5,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 585,.FreeObj 1; 508,
+1375,.Pitch -10,.Curve -1600; -20,.RailType 0; 27,.RailType 1; 27,.Pole 0; 1; 0; 25,.height 0.7,.FreeObj 0; 51; -2.8; +3,,,.FreeObj 0; 84; -4,.FreeObj 1; 65; +4,,.FreeObj 0; 35; -3.5; 3.3,,,,.FreeObj 1; 502,
+1400,,.Curve -800; -45,.RailType 0; 22,.RailType 1; 22,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.FreeObj 0; 86; -4,.FreeObj 1; 67; +4,,,,,.FreeObj 0; 503,.FreeObj 1; 506,
+1425,.Sig 5; １$chr(13)$chr(10)５; +6; +5.8; 1,.Curve -400; -85,.RailType 0; 15,.RailType 1; 15,.FreeObj 0; 12; +6; 0,.FreeObj 0; 21; +6; +0.5,.limit 100,;.marker JNG-BKS\Mark\75.gif; 200,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 505,.FreeObj 1; 504,
+1450,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 501,.FreeObj 1; 544,
+1475,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 507,.FreeObj 1; 502,
+1500,,,,,,,.FreeObj 0; 52; -2.8; +3,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,.Relay 0; -1,.FreeObj 0; 503,.FreeObj 1; 506,
+1525,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,.FreeObj 0; 505,.FreeObj 1; 504,
+1550,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 501,.FreeObj 1; 508,
+1575,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 507,.FreeObj 1; 502,
+1600,,,,,,.FreeObj 0; 50; +7.2; +4.5,,.height 0.7,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 503,.FreeObj 1; 506,
+1625,.Pitch -3.3,.Sig 3; １$chr(13)$chr(10)７; +6; +5.8; 1,.Curve -600; -60,.RailType 0; 19,.RailType 1; 19,.FreeObj 0; 12; +6; +0.5,.FreeObj 0; 21; +6; +0.5,.Height 0.6,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 505,.FreeObj 1; 504,.FreeObj 1; 543; +2.5; ; 90
+1650,,,.Curve -1200; -30,.RailType 0; 25,.RailType 1; 25,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,.Pole 0; 1; 0; 50,,,,.FreeObj 0; 501,.FreeObj 1; 508,
+1675,,,.Curve 0; 0,.RailType 0; 0,.RailType 1; 0,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,.Relay 0; -1,.FreeObj 0; 507,.FreeObj 1; 502,
+1700,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,.FreeObj 0; 503,.FreeObj 1; 506,
+1725,,,,.FreeObj 0; 51; -2.8; +3,,.Curve +1200; +30,.RailType 0; 26,.RailType 1; 26,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 584,.FreeObj 1; 504,
+1750,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.Curve +600; +60,.RailType 0; 20,.RailType 1; 20,.Pitch -1.5,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,.Pole 0; 1; 0; 25,,,,.FreeObj 0; 501,.FreeObj 1; 508,
+1775,,,,,,.Curve +400; +85,.RailType 0; 16,.RailType 1; 16,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 507,.FreeObj 1; 502,
+1800,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 503,.FreeObj 1; 506,
+1825,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 505,.FreeObj 1; 504
+1850,,,,.FreeObj 0; 51; -3.1; +3.3,,.Accuracy 4,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 585,.FreeObj 1; 508
+1875,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,,.FreeObj 0; 507,.FreeObj 1; 502
+1885,.Sig 3; １$chr(13)$chr(10)９; -3.1; -1; 1,.FreeObj 0; 12; -3.1; -0.5,;■入力禁止,,,,,,,,,,,,,,
+1900,,,,,,.Accuracy 1,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,.FreeObj 0; 47; -3.5; 3.3,.Relay 0; -1,.FreeObj 0; 503,.FreeObj 1; 506
+1925,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3,,.FreeObj 0; 505,.FreeObj 1; 504
+1950,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 541,.FreeObj 1; 508
+1975,.Ground 3,,.Height 0.6,.FreeObj 0; 51; -3.1; +3,.FreeObj 1; 155,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,
+1977,;山手通り,;■入力禁止,,,,.FreeObj 0; 122,,,,,,,,,,,
+1989,;首都高,;■入力禁止,,,,.FreeObj 0; 122,,,,,,,,,,,
+2000,.Curve +800; +45,.Pitch 0,.Height 0.5,.Limit 0,,,,.RailType 0; 23,.RailType 1; 23,,.PoleEnd 0,,,,,,
+2001,;山手通り,;■入力禁止,,,,.FreeObj 0; 122,,,,,,,,,,,
+2018,,;■入力禁止,.FreeObj 0; 0; -1.9,.FreeObj 0; 0; +1.9,.FreeObj 0; 0; +5.7,,,,,,,,,,,,
+2025,;.Sta Shiinamachi; P; ; 0; -1; 0; 0; ; ; ; ,.Form 0; L; 7; 1,.Form 1; R; 7; 1,.Curve 0; 0,.Pole 0; 3; 1; 50; 3,.Wall 0; -1; 2,.Wall 1; +1; 2,.RailType 0; 0,.RailType 1; 0,,,.FreeObj 0; 581; -5,,.FreeObj 0; 45; -4.9,.FreeObj 1; 45; +4.9,,
+2050,,.Form 0; L; 7; 1,.Form 1; R; 7; 1,,,,,,,,,,,,,,
+2075,.Ground 0,.Form 0; L; 7; 1,.Form 1; R; 7; 1,,,.FreeObj 0; 133; 0; 0,,,,,,.FreeObj 0; 582; -8,,,,.FreeObj 0; 163,
+2100,,.Form 0; L; 7; 1,.Form 1; R; 7; 1,.PoleEnd 0,.FreeObj 0; 132; 0; 0,,,.FreeObj 0; 134; 0; 0,,,,,,,,,
+2125,,.Form 0; L; 7; 1,.Form 1; R; 7; 1,.Pole 0; 3; 1; 50; 3,,.FreeObj 0; 133; 0; 0,,,,,,.FreeObj 0; 583; -7,,,,,
+2150,,.Form 0; L; 7; 1,.Form 1; R; 7; 1,,.FreeObj 0; 132; 0; 0,,,,,,,,,,,,
+2175,,.Form 0; L; 0; 0,.Form 1; R; 7; 1,,,,.Wall 0; -1; 3,,,,,,,,,,
+2200,;.Stop 0,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.WallEnd 0,.WallEnd 1,.FreeObj 0; 17,.FreeObj 0; 97; +1.9,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,.FreeObj 0; 51; -2.8; +3,.FreeObj 0; 45; -4.9,.FreeObj 1; 45; +4.9,.FreeObj 0; 505,
+2225,,,,,,,,.Pole 0; 1; 0; 25; 3,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 501,.FreeObj 1; 164
+2230,.Sig 3; 出$chr(13)$chr(10)発; -2.2; -1; 3,.FreeObj 0; 12; -2.2; -0.5,;■入力禁止,,,,,,,,,,;喚呼標,.FreeObj 0; 37; -2.2; 3,,,
+2250,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,;.Doppler JNG-BKS\Crossing.wav; -3; +3,,.FreeObj 0; 51; -2.8; +2.5,.Pole 0; 1; 0; 50; 4,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,,.FreeObj 0; 507,
+2275,.Pitch +6.6,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 503,
+2300,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 505,
+2325,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 501,
+2350,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 65; +4,,,,,.FreeObj 0; 507,.FreeObj 1; 504; +4
+2375,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 65; +4,,,,,.FreeObj 0; 503,.FreeObj 1; 508; +4
+2400,.PreTrain 15.02$sub(2)7,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 65; +4,,,,,.FreeObj 0; 505,.FreeObj 1; 502; +4
+2425,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 65; +4,,,,,.FreeObj 0; 501,.FreeObj 1; 506; +4
+2450,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 65; +4,,,,,.FreeObj 0; 507,.FreeObj 1; 504; +4
+2475,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 65; +4,,,,,.FreeObj 0; 584,.FreeObj 1; 508; +4
+2500,.Sig 3; ２$chr(13)$chr(10)５; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,.FreeObj 0; 51; -3; +3,,,.FreeObj 0; 84; -4,.FreeObj 1; 65; +4,,,,,.FreeObj 0; 543,.FreeObj 1; 502; +4
+2525,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,.Relay 0; -1,.FreeObj 0; 501,.FreeObj 1; 506
+2550,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,.FreeObj 0; 35; -3.5; 2.9,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,.FreeObj 0; 507,.FreeObj 1; 504
+2575,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 503,.FreeObj 1; 544
+2600,,,,,,,.FreeObj 0; 51; -2.8; +3,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 505,.FreeObj 1; 502
+2625,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,,.FreeObj 0; 585; ; -3,.FreeObj 1; 506
+2650,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 507,.FreeObj 1; 504
+2675,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 503,.FreeObj 1; 508
+2700,.Sig -4; ２$chr(13)$chr(10)８; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.7,,,,,.FreeObj 0; 51; -3; +3,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 505,.FreeObj 1; 502
+2725,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,.Relay 0; -1,.FreeObj 0; 501,.FreeObj 1; 506
+2750,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3,,.FreeObj 0; 507,.FreeObj 1; 504
+2775,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 503,.FreeObj 1; 508
+2800,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 585,.FreeObj 1; 502
+2825,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.FreeObj 0; 51; -2.8; +3.3,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,,.FreeObj 0; 501,.FreeObj 1; 506
+2850,.Pitch +6.1,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 584; ; -3,.FreeObj 1; 504
+2875,.Curve +1000; +35,,,,,.RailType 0; 26,.RailType 1; 26,,.Pole 0; 1; 0; 25,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 503,.FreeObj 1; 508
+2900,.Curve +500; +70,,,,,.RailType 0; 18,.RailType 1; 18,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 505,.FreeObj 1; 502
+2925,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.FreeObj 0; 51; -3.1; +3.3,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,,.FreeObj 0; 501,.FreeObj 1; 506
+2940,;■入力禁止,,,,,,.FreeObj 0; 51; -3.4; +3.3,,,,,,,,,,
+2950,.Sig 3; 第$chr(13)$chr(10)１$chr(13)$chr(10)場$chr(13)$chr(10)内; -3.2; 5; 2,.limit 100; -1,.FreeObj 0; 12; -3.2; -0.2,.Freeobj 0;22;-3.5;3.9;0,.Freeobj 0;21;-3.2;0;0,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 507,.FreeObj 1; 504
+2975,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,;.Rail 2; +3.8; 0; 10,,.Curve +500; +50,.Pole 0; 1; 0; 25; 2,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,.FreeObj 0; 503,.FreeObj 1; 508
+3000,,,,,,;.Rail 2; +1.9; 0; 11,.FreeObj 0; 51; -2.6; +3.3,.Accuracy 4,.Pole 0; 1; 0; 25; 3,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 505,.FreeObj 1; 502
+3025,,,,,,;.RailEnd 2; 0; 0,,.Curve +500; +70,.Pole 0; 1; 0; 25; 2,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 0; 501,.FreeObj 1; 506
+3050,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,.Accuracy 2,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,,.FreeObj 0; 507,.FreeObj 1; 504
+3075,.Relay -2.2; -1,.FreeObj 0; 12; -2.2; -0.5,,,,,,.Rail 4; -6.6; ; 6,,.Pole 0; 1; 0; 25; 4,,.Rail 5; +7; ; 7,,,,.FreeObj 0; 503; -8,
+3100,.Curve +1000; +35,.Pitch 0,,.FreeObj 0; 51; -2.6; +3.3,,.RailType 0; 26,.RailType 1; 26,.Rail 4; -5.4,.Limit 0; 0,,,,;絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3,,,
+3118,;■入力禁止,,.FreeObj 0; 0; -2.5,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1; -2.5,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -7; +3,,,,,,,,,
+3125,.Curve 0; 0,,.Rail 2; 0; 0; 12,.Rail 3; +3.8; 0; 13,,.RailType 0; 0,.RailType 1; 0,.Rail 4; -5.1,,.PoleEnd 0,,.FreeObj 4; 74; -2.7,,,,.Pole 3; 2; 2; 25,.FreeObj 0; 165
+3150,,,.Rail 2; -1; 0; 0,.Rail 3; +4.8; ; 0,,,,.Rail 4; -4.8,,,,.FreeObj 4; 74; -2.7,.FreeObj 3; 85; +4,,,,
+3175,.Pitch -0.4,,.Rail 2; -3,.Rail 3; +6.8,,,,.Rail 4; -5.8,,.PoleEnd 0,.PoleEnd 3,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+3197,.Sig 4; 第$chr(13)$chr(10)２$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.2; -1; 2,.FreeObj 0; 12; -2.2; -0.75,;信号,;■入力禁止,,,,,,,,,,,,,
+3200,;.Sta Higashi-Nagasaki; P; ; 0; +1; 0; 0; ; ; ; ,.Form 0; 2; 10; 7,.Rail 2; -5,.Rail 3; +8.8,.RailType 0; 80,.RailType 1; 80,.RailEnd 4; -1.4; ; 0,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,;★絶対喚呼標,.FreeObj 0; 38; -3.2; 3.3,,
+3225,.PreTrain 15.0430,.Form 0; 2; 10; 7,.Rail 2; -7,.Rail 3; +10.8,,,,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,,
+3250,.PreTrain 15.0500,.Form 0; 2; 10; 7,.Rail 2; -8.7,.Rail 3; +12.5,,,,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,,
+3275,,.Form 0; 2; 10; 7,.Rail 2; -9.5,.Rail 3; +13.3,,.FreeObj 0; 135,,.Form 1; 3; 10; 7,,,,.FreeObj 2; 75; -1,.FreeObj 3; 85; +4,,,,,
+3300,,.Form 0; 2; 10; 7,,,,,,.Form 1; 3; 10; 7,,,,.FreeObj 2; 75; -1,.FreeObj 3; 85; +4,,,,,
+3325,,.Form 0; 2; 10; 7,,,,,,.Form 1; 3; 10; 7,,,,.FreeObj 2; 75; -1,.FreeObj 3; 85; +4,,,,,
+3350,,.Form 0; 2; 10; 7,,,,,,.Form 1; 3; 10; 7,,,,.FreeObj 2; 75; -1,.FreeObj 3; 85; +4,,,,,
+3370,;.Stop 0,.FreeObj 0; 17,.FreeObj 0; 97; +1.7,.FreeObj 0; 99,;■入力禁止,,,,,,,,,,,,,
+3375,,.Form 0; 2; 0; 8,.Rail 2; -8.8,.Rail 3; +12.6,,,,.Form 1; 3; 0; 8,,,.FreeObj 0; 99; ; ; 180,.FreeObj 2; 75; -1,.FreeObj 3; 85; +4,,,,.FreeObj 2; 505,
+3400,,.Form 0; 2; 0; 8,.Rail 2; -7.2,.Rail 3; +11,.Pole 0; 2; 0; 50; 0,,,.Form 1; 3; 0; 8,,,,.FreeObj 2; 75; -1,.FreeObj 3; 85; +4,,,,.FreeObj 2; 501,
+3425,.Sig 3; 出$chr(13)$chr(10)発; -2.8; -1; 3,.Crack 0; 1,.Rail 2; -5.6,.Rail 3; +9.4,.FreeObj 0; 12; -2.8; -0.5,.PoleEnd 3,.PoleEnd 1,.Crack 1; 3,,,,.FreeObj 2; 75; -1,.FreeObj 3; 85; +4,,.RailType 0; 0,.RailType 1; 0,.FreeObj 2; 507,
+3450,,.Crack 0; 1,.Rail 2; -4,.Rail 3; +7.8,.Pole 0; 3; 1; 50,,.FreeObj 2; 51; -2.4; +3,,,,,.FreeObj 2; 75; -1,.FreeObj 3; 85; +4,,,,.FreeObj 2; 503,
+3475,,.Crack 0; 1; 0,.Rail 2; -2.4,.Rail 3; +6.2,.FreeObj 0; 0; -3.8,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 1; 0; +3.8,.FreeObj 0; 1; -3.8,.FreeObj 1; 2; +3.8,.Doppler JNG-BKS\Crossing.wav; -3; +3,.FreeObj 2; 86; -4,.FreeObj 3; 87; +4,.RailEnd 5; ; ; 0,,.Relay 0; -1,.FreeObj 2; 505,.FreeObj 3; 502
+3500,,,.Rail 2; -0.8; ; 15,.Rail 3; +4.6; ; 16,.Pole 0; 2; 0; 50; 4,,,,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,;★喚呼標,.FreeObj 0; 37; -3.35; 3.3,,.FreeObj 2; 501,.FreeObj 3; 506
+3525,,.Pole 0; 1; 0; 25,.RailEnd 2; 0; ; 0,.RailEnd 3; +3.8; ; 0,,.Pole 0; 1; 0; 50,.Freeobj 2; 14; 0; 0; 0,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,.FreeObj 0; 507,.FreeObj 1; 504
+3550,,.Accuracy 3,,.Rail 4; +3.8; 0; 12,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,,.FreeObj 0; 503,.FreeObj 1; 508
+3575,.Pitch +2,,,.Rail 4; +2.8; 0; 0,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,,.FreeObj 0; 505,.FreeObj 1; 502,
+3600,,,,.Rail 4; +1; 0; 13,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,,.FreeObj 0; 501,.FreeObj 1; 506,
+3625,,.Accuracy 1,,.RailEnd 4; 0; 0; 0,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,,.FreeObj 0; 507,.FreeObj 1; 504,
+3650,,,,,,,,.FreeObj 0; 51; -2.8; +2.5,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,,.FreeObj 0; 503,.FreeObj 1; 508,
+3675,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,,.FreeObj 0; 505,.FreeObj 1; 502,
+3680,.Sig 3; ３$chr(13)$chr(10)５; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,;■入力禁止,,,,,,,,,,,,,,,,
+3700,,,,,,,.height 0.5,.FreeObj 0; 51; -2.7; +4,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,.FreeObj 0; 35; -3.5; 2.8,.FreeObj 0; 36; -3.5; 3.7,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,.FreeObj 0; 501,.FreeObj 1; 542,
+3725,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 3,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.Pitch -10,,.Dike 0; -1,.Dike 1; +1,.Rail 2; -9.1; 0; 6,.Rail 3; +3.9; 0; 5,.FreeObj 2; 74; -3; -0.2,.FreeObj 3; 87; +4,,,,,.FreeObj 3; 542; +2; -1,
+3750,,,,,,,.Height 3,,,.Rail 2; -9.2; -0.5,.Rail 3; +4; -0.5,.FreeObj 2; 75; ; -0.2,.FreeObj 3; 85; +4,,,,.FreeObj 2; 503; ; -0.5,.FreeObj 3; 508; +2; ; -2,
+3775,,,,,,,,,,.Rail 2; -9.6; -2.25,.Rail 3; +7.4; -2.25,.FreeObj 2; 75; ; -0.2,.FreeObj 3; 85; +4,,,,.FreeObj 2; 505; ; -0.5,.FreeObj 3; 502,
+3800,,,,,,,.Height 3,.FreeObj 0; 51; -2.8; +2.5,,,,.FreeObj 2; 75; ; -0.2,.FreeObj 3; 65; +4,,,,.FreeObj 2; 501; ; -0.5,.FreeObj 3; 506,
+3825,,,,,,,,,,.Rail 2; -9.3; -1.15,.Rail 3; +6.2; -1.15,.FreeObj 2; 75; ; -0.2,.FreeObj 3; 65; +4,,,,.FreeObj 2; 507; ; -0.5,.FreeObj 3; 504,.FreeObj 2; 162; +9
+3850,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 3,.FreeObj 1; 4,.Doppler JNG-BKS\Crossing.wav; -3; +3,.Pitch +3.6,.height 0.5,.DikeEnd 0,.DikeEnd 1,.RailEnd 2; -9.2; 0,.RailEnd 3; +5; 0,;.FreeObj 0; 86; -4; -0.1,.FreeObj 1; 87; +4,.FreeObj 0; 78; -4; -0.5,.Ground 3,,,.FreeObj 1; 544,
+3860,.Sig 3; ３$chr(13)$chr(10)９; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,;■入力禁止,,,,,,,,,,,,,,,,
+3875,,,,,,,,,,.FreeObj 0; 78; -4; -0.5,.FreeObj 1; 76; +1,,,,,,,.FreeObj 1; 508,
+3900,,,,,,,,,,.FreeObj 0; 78; -4; -0.5,.FreeObj 1; 76; +1,,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,,.FreeObj 1; 81; +5.5,
+3925,,,,,,,,.FreeObj 0; 52; -2.8; +3,,.FreeObj 0; 78; -4; -0.5,.FreeObj 1; 76; +1,,,,,,.FreeObj 0; 159,.FreeObj 1; 502,
+3950,,,,,,,,,,.FreeObj 0; 75; -8; -0.2,.FreeObj 1; 76; +1,,,,,,.FreeObj 0; 503; -8,.FreeObj 1; 81; +5.5,.FreeObj 0; 162; +1
+3975,;.marker JNG-BKS\Mark\nagae.gif; 150,,.Pole 0; 1; 0; 25; 6,,,,,,,.FreeObj 0; 75; -8; -0.2,.FreeObj 1; 76; +1,,,,,,.FreeObj 0; 505; -8,.FreeObj 1; 504,.FreeObj 0; 170
+4000,,,.Pole 0; 1; 0; 25; 2,,,,,,,.FreeObj 0; 75; -8; -0.2,.FreeObj 1; 85; +4,,,,,,.FreeObj 0; 501; -8,,
+4025,.Ground 0,,.Pole 0; 1; 0; 50; 4,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 76; +1,,,,,,.FreeObj 0; 80; -5.5,.FreeObj 1; 161,
+4050,.Sig 3; ４$chr(13)$chr(10)１; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,,.FreeObj 0; 51; -3; +2.8,,.FreeObj 0; 84; -4,.FreeObj 1; 76; +1,,,,,,.FreeObj 0; 505,.FreeObj 1; 502,
+4075,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 13; 77; ; +0.5,.FreeObj 1; 87; +4,,.Rail 13; -3.8; -0.9; 8,.Rail 12; -1.9; 0; 6,,.Relay 0; -1,.FreeObj 13; 501; +4,.FreeObj 1; 506,
+4100,,,,,,,,,,.FreeObj 13; 74; ; +0.5,.FreeObj 1; 85; +4,,.Rail 13; -5.9; +0.8; 8,,;絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3,.FreeObj 13; 507; +4,.FreeObj 1; 504,
+4125,,,,,,,,,,.FreeObj 13; 74; ; +0.5,.FreeObj 1; 85; +4,,,,,,.FreeObj 13; 503; +4,.FreeObj 1; 508,
+4150,,,,,,,,,,.FreeObj 13; 74; ; +0.5,.FreeObj 1; 85; +4,,,,,,.FreeObj 13; 505; +4,.FreeObj 1; 502,
+4175,,,,,,,,,,.FreeObj 13; 74; ; +0.5,.FreeObj 1; 85; +4,,,,,,.FreeObj 13; 501; +4,.FreeObj 1; 506,
+4200,,,,,,,,,,.FreeObj 13; 74; ; +0.5,.FreeObj 1; 85; +4,,,,,,.FreeObj 13; 507; +4,.FreeObj 1; 504,
+4225,,,,,,,,,,.FreeObj 13; 74; ; +0.5,.FreeObj 1; 85; +4,,,,,,.FreeObj 13; 503; +4,.FreeObj 1; 508,
+4250,,,,,,,,.FreeObj 0; 51; -2.8; +3.5,,.FreeObj 13; 74; ; +0.5,.FreeObj 1; 65; +4,,,,,,.FreeObj 13; 505; +4,.FreeObj 1; 502,
+4275,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.Ground 3,,,.FreeObj 14; 77; ; +0.5,.FreeObj 1; 67; +4,,.Rail 14; -4.5; -0.9; 8,.Rail 15; -2; 0; 6,.RailEnd 13; -4.6; -0.5; 8,.RailEnd 12,.FreeObj 14; 501; +4,,
+4300,.Sig 4; 場$chr(13)$chr(10)内; -2.2; 5.2; 2,.limit 100; -1,.Curve -800; -25,.FreeObj 0; 12; -2.2; -0.3,.RailType 0; 53,.RailType 1; 22,.FreeObj 0; 21; -2.2; 0,.FreeObj 0; 22; -2.5; 3.9,;.FreeObj 0; 12; -2.5; -1.4,.FreeObj 14; 74; ; +0.5,.FreeObj 1; 65; +4,,.Rail 14; -5.9; +1.3; 8,.Rail 15; -1.4; 0; 6,.FreeObj 0; 202; -2.2; +1.2,.Pole 0; 1; 0; 25; 2,.FreeObj 14; 507; +4,,
+4325,,.Accuracy 4,.Curve -400; -55,,.RailType 0; 51,.RailType 1; 15,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 1; 65; +4,,,,,,.FreeObj 14; 503; +4,.FreeObj 1; 160; ; ; 5,,,
+4350,.PreTrain 15.0620,,,.Rail 3; +3.8; 0; 0,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 3; 76; +1; ; 3,,,,,,.FreeObj 14; 505; +4,.FreeObj 3; 502; ; ; 3,,,
+4375,,,,.Rail 3; +4.5; 0; 15,,.Pole 0; 2; 0; 25; 2,,.FreeObj 4; 51; +2.8; +4; 5,,.FreeObj 14; 74; ; +0.5,.FreeObj 4; 76; +1,.Rail 4; +7.6; 0; 0,.FreeObj 4; 101,,,,.FreeObj 14; 501; +4,.FreeObj 4; 506,,,
+4400,,.Rail 2; 0; 0; 10,.Rail 3; +6; 0; 25,,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 4; 85; +4,.Rail 4; +7; 0; 0,,.FreeObj 0; 47; -3.35; 2.8,,,.FreeObj 14; 507; +4,,,,
+4425,.PreTrain 15.06$sub(0),.Rail 2; -1.13,.Rail 3; +8; 0; 15,.Crack 0; 2; 0,.Crack 1; 3; 0,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 0; -1.9,.FreeObj 0; 0; +8,.FreeObj 0; 1; -1.9,.FreeObj 0; 2; +8,.RailEnd 4; +8; 0; 0,.FreeObj 2; 86; -4,.FreeObj 3; 87; +4,.Doppler JNG-BKS\Crossing.wav; -5; +3,.FreeObj 0; 303; -3,.PoleEnd 0,.RailEnd 14; -5.4; -0.5; 8,.RailEnd 15; -2.53; 0; 6,.Crack 1; 3; 3,.FreeObj 2; 584; 0; -6
+4450,;.Sta Ekoda; P; ; 0; -1; 0; 0; ; ; ; ,.Rail 2; -4.51; 0; 26,.Rail 3; +10,.Form 0; 2; 0; 0,.Form 1; 3; 0; 0,.Accuracy 3,.Pole 0; 3; 0; 25; 101,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,.FreeObj 3; 168,,.Relay 0; -1,,,,
+4452,;特殊信号発光機,,,,,,,.FreeObj 0; 52; -2.3; +3,,,,,,,,,,,,,
+4470,;車両オブジェクト,,,,,,,.FreeObj 2; 2001; -0.05,,,,,,,,,,,,,
+4475,.Curve -800; -25,.Rail 2; -7.8; 0; 18,.Rail 3; +12; 0; 0,.Form 0; 2; 0; 1,.Form 1; 3; 0; 1,,.RailType 0; 53,.RailType 1; 22,.PoleEnd 0,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,.FreeObj 0; 130; -8.07; ; -1,.FreeObj 1; 130; -0.1,.FreeObj 0; 303,.FreeObj 0; 301; +0.1,;★絶対喚呼標,.FreeObj 0; 38; -3.2; 3.8,,,,
+4490,;車両オブジェクト,,,,,,,.FreeObj 2; 2402; -0.2; ; -1,,,,,,,,,,,,,
+4500,.Curve 0; 0,.Rail 2; -8.8; 0; 0,.Rail 3; +13,.Form 0; 2; 0; 1,.Form 1; 3; 0; 1,.Limit 0; 0,.RailType 0; 50,.RailType 1; 0,.Pole 0; 3; 0; 25; 101,.FreeObj 2; 84; -4,.FreeObj 3; 65; +4,.FreeObj 0; 130; -8.5,.FreeObj 1; 130; -0.1,,,,,,,,
+4510,;車両オブジェクト,,,,,,,.FreeObj 2; 2401; ; ; -0.2,,,,,,,,,,,,,
+4525,,,,.Form 0; 2; 0; 1,.Form 1; 3; 0; 1,,,,,.FreeObj 2; 84; -4,.FreeObj 3; 65; +4,.FreeObj 0; 130; -8.5,.FreeObj 1; 130; -0.1,,,,,,,,
+4530,;車両オブジェクト,,,,,,,.FreeObj 2; 2402,,,,,,,,,,,,,
+4550,,.Rail 2; -8.8; 0,.Rail 3; +12.5; 0; 0,.Form 0; 2; 0; 1,.Form 1; 3; 0; 1,,,.FreeObj 2; 2401; ; ; -1.8,,.FreeObj 2; 84; -4,.FreeObj 3; 65; +4,.FreeObj 0; 130; -8.5,.FreeObj 1; 130; -0.1,,,,,,,,
+4570,;車両オブジェクト,,,,,,,.FreeObj 2; 2401,,,,,,,,,,,,,
+4575,.Curve -1000; -30,.Rail 2; -8; 0,.Rail 3; +11.5,.Form 0; 2; 0; 1,.Form 1; 3; 0; 1,,.RailType 0; 54,.RailType 1; 25,,.FreeObj 2; 84; -4,.FreeObj 3; 65; +4,.FreeObj 0; 130; -8.5; ; 0.5,.FreeObj 1; 130; -0.1,,,.FreeObj 1; 166,
+4590,;車両オブジェクト,,,,,,,.FreeObj 2; 2402; -0.05; ; -0.37,,,,,,,,,
+4600,.Curve -500; -60,.Rail 2; -6.5,.Rail 3; +9.8; ; 12,.Form 0; 2; 0; 3,.Form 1; 3; 0; 3,.Accuracy 4,.RailType 0; 55,.RailType 1; 17,,.FreeObj 2; 84; -4,.FreeObj 3; 65; +4,,.Pole 0; 1; 0; 25; 1,.Pole 2; 0; -1; 25; 0,.Pole 3; 0; +1; 25; 0,.Crack 0; 2,.Crack 1; 3
+4610,;車両オブジェクト,;.Stop 0,.FreeObj 0; 17; +0.15,.FreeObj 0; 97; +1.9,,,,.FreeObj 2; 2052; ; ; +0.5,,,,,,,,,
+4615,.Sig 3; 出$chr(13)$chr(10)発; -2.2; -1; 3,.FreeObj 0; 12; -2.2; -0.5,.FreeObj 2; 21; -3; 0,.FreeObj 2; 22; -3; 4.8,.FreeObj 2; 12; -3; -0.75,.FreeObj 0; 52; -2.4; +2,,,,,,,,,,,
+4625,.Curve -1000; -30,.Rail 2; -4.5,.Rail 3; +7.3; ; 0,.Pole 0; 3; 1; 25; 2,,,.RailType 0; 54,.RailType 1; 25,.Rail 4; -4.5; 0; 10,.FreeObj 2; 84; -4,.FreeObj 3; 65; +4,.FreeObj 4; 100,.PoleEnd 2,.PoleEnd 3,,,
+4650,.Curve 0; 0,.Rail 2; -1.5; 0; 12,.Rail 3; +5; 0; 13,.Accuracy 1,.FreeObj 0; 52; -3.6; +3.8,.FreeObj 0; 50; +10.5; +4.8,.RailType 0; 50,.RailType 1; 0,.RailEnd 4; -4.2; 0; 0,.FreeObj 2; 84; -4,.FreeObj 3; 65; +4,,,;★喚呼標,.FreeObj 0; 37; -7; 3.3,,
+4675,.RailType 0; 0,.RailEnd 2; 0; 0; 0,.RailEnd 3; +3.8; 0; 0,,.Pole 0; 1; 0; 25; 2,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,.FreeObj 0; 40; -3.5; +3.5,,.FreeObj 1; 156,
+4700,,,,,.Pole 0; 1; 0; 50; 4,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.FreeObj 1; 542,
+4725,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,,,.FreeObj 0; 80; -5.5,.FreeObj 1; 506,
+4750,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,,.FreeObj 0; 167,.FreeObj 0; 80; -5.5,.FreeObj 1; 504,.FreeObj 1; 584; -2.8; +3; 90
+4775,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,,,.FreeObj 0; 80; -5.5,.FreeObj 1; 81; +4.5,
+4797,.Sig 3; ４$chr(13)$chr(10)９; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,;信号,;■入力禁止,,,,,,,,,,,,,
+4800,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,.FreeObj 0; 505,.FreeObj 1; 502,
+4825,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,,,.FreeObj 0; 501,.FreeObj 1; 506,
+4850,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,.FreeObj 0; 35; -3.5; 3.3,,.FreeObj 0; 507,.FreeObj 1; 504,
+4875,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,.FreeObj 0; 51; -2.8; +3.3,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,.FreeObj 0; 503,.FreeObj 1; 542
+4900,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,,,.FreeObj 0; 505,.FreeObj 1; 502
+4925,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,,,.FreeObj 0; 501,.FreeObj 1; 506
+4950,.PreTrain 15.06$sub(0),,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,,,.FreeObj 0; 507,.FreeObj 1; 504
+4975,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,,,.FreeObj 0; 503,.FreeObj 1; 508
+5000,,,,,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 85; +4,,.FreeObj 0; 35; -3.5; 3.3,,.FreeObj 0; 505,.FreeObj 1; 502
+5025,.Pitch +15,.Sig 3; ５$chr(13)$chr(10)１; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,.Pole 0; 1; 0; 50,.FreeObj 0; 121,.height 0.5,.RailType 0; 27,.RailType 1; 27,.Curve -1600; -40,.FreeObj -1; 75; -1; +0.5,.FreeObj -1; 76; +4.8; +0.5,,,,,
+5050,.Pitch +25,,,,.Wall 0; -1,.Wall 1; +1,.RailType 0; 21,.RailType 1; 21,.Curve -700; -80,.FreeObj -1; 75; -1; +0.5,.FreeObj -1; 76; +4.8; +0.5,,,,.FreeObj -1; 501; ; +0.5,.FreeObj -1; 506; +3.8; +0.5
+5075,.Ground 0,.Accuracy 1,.Rail 1; +4.1,,,,,,,,,,,,,.FreeObj -1; 504; +3.8; +0.5
+5100,,,.Rail 1; +4.4,,,,,,,,,,,,,.FreeObj -1; 508; +3.8; +0.5
+5125,,,.Rail 1; +4.7,,,,,,,.Dike 0; -1; 1,.Dike 1; +1; 1,,,,.Relay 0; -1,
+5150,,.Crack 0; 1,.Rail 1; +5.0,,,,.Pole 0; 0; -1; 50; 0,.Pole 1; 0; +1; 50; 0,,,,,;★喚呼標,.FreeObj 0; 37; -2.6; 3.3,,
+5175,,.Crack 0; 1,.Rail 1; +5.3,,,,,,,,,,,,,
+5200,.Relay -2.1; -1,.FreeObj 0; 12; -2.1; -0.5,.Rail 1; +5.7,,.Wall 0; 0,.Wall 1; 0,.Pole 0; 0; -1; 50; 1,.Pole 1; 0; +1; 50; 1,,,,,,,,
+5225,,,.Rail 1; +6,,,,,.RailType 1; 0,,,,,,,.Relay 0; -1,
+5250,,,.Rail 1; +7,,,,,,,,,,;★喚呼標,.FreeObj 0; 37; -2.6; 3.3,,
+5275,,,.Rail 1; +8,,,,,,,,,,,
+5300,,.Curve -1600; -40,.Rail 1; +9,,,,.RailType 0; 27,,,,.FreeObj 0; 36; -2.6; +3.5,,,
+5325,,.Curve 0; 0,.Rail 1; +10,,,,.RailType 0; 0,,,,,,,
+5347,.Sig 3; ５$chr(13)$chr(10)３; +2.2; +3.5; 1,.FreeObj 0; 12; +2.2; -1.8,.FreeObj 0; 21; +2.2; -1.3,;■入力禁止,,,,,,,,,,
+5350,,.Pitch +15,.Rail 1; +11,,,,;番線確認,.FreeObj 0; 19; -2.6; 4,;.marker JNG-BKS\track_check.bmp; 100,,,,,
+5375,,.Pitch +5,,,,,,,.Pole 0; 0; -1; 25,.Pole 1; 0; +1; 25,,,;★絶対喚呼標,.FreeObj 0; 38; -2.6; 3.8
+5400,;.Sta Sakuradai; P; ; 0; +1; 0; 0; ; ; ; ,.Form 0; 1; 3; 2,.FreeObj 0; 43; +5.5,.Curve +4000; +10,.Height 9,.Wall 0; -1; 4,.Wall 1; +1; 4,,.PoleEnd 0,.PoleEnd 1,,,,
+5425,,.Form 0; 1; 3; 2,,,,,,,,,,,,
+5450,,.Form 0; 1; 3; 2,,,,,,,,,,,,
+5475,,.Form 0; 1; 3; 2,,.Curve 0; 0,,,,,,,,,,
+5500,,.Form 0; 1; 3; 2,,,,,,,,,,,,
+5525,,.Form 0; 1; 3; 2,,,,,,,,,,,,
+5550,,.Form 0; 1; 3; 2,,,,,,,,,,,,
+5568,;.Stop 0,,.FreeObj 0; 17,.FreeObj 0; 97; -1.8,.Height 9.5,.FreeObj 0; 99; ; ; 180,,,,,,,,
+5575,,.Form 0; 1; 0; 4,,,,,,,,,,,,
+5600,,.Form 0; 1; 0; 4,,,,,,,,,,,,
+5625,,,.FreeObj 0; 43; +5.5,,,.Wall 0; 0; 0,.Wall 1; 0; 0,,,,,,,,
+5650,,,,,,,,,.Pole 0; 0; -1; 50; 0,.Pole 1; 0; +1; 50; 1,,,,,
+5675,,,.Pitch +15,,,,,,,,,,,,
+5700,,,.Pitch +25,,,,,,,,,,,,
+5725,,,,,,,,,,,,,,,
+5750,.Sig 5; 第$chr(13)$chr(10)１$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.45; 5.2; 2,.FreeObj 0; 12; -2.45; -0.55,.DikeEnd 0,,.FreeObj 0; 21; -2.2; 0,.FreeObj 0; 28; -1.9; 4,.FreeObj 0; 12; -1.9; -1.75,,,,,,,,
+5775,,,,,,,,,,,,,,,.Relay 0; -1
+5800,,,,,,,,,,,,,;★絶対喚呼標,.FreeObj 0; 38; -2.6; 3.3,
+5825,,.Curve -1600; -35,.RailType 0; 27,,,,,,,,,,,,
+5850,,,,,,,,,,,,,,,
+5875,,.Curve 0; 0,.RailType 0; 0,.Rail 1; +11.5,,,,,,,,,,,
+5900,.Pitch +10.5,,,.Rail 1; +12.2,,,,,,,,,,,
+5925,,.Rail 3; +13,,.Rail 1; +13,,,,,,.Wall 1; -1,,,.Wall 3; +1; 0,,
+5950,.limit 100; 0,.Rail 3; +13.9,.Rail 2; 0; 0; 13,.Rail 1; +13.5,;.marker JNG-BKS\Mark\p95.gif; 200,.Rail 4; +6.5,.Accuracy 3,.Wall 0; -1,.Crack 0; 1,.WallEnd 1,.Pole 3; 2; 2; 25; 4,.PoleEnd 1,,.FreeObj 0; 105; +2.5; 0; 90,
+5953,;■入力禁止,,,,,,,,,,,,,.FreeObj 0; 104; -2; 0; 90,
+5975,.Limit 0; 0,.Rail 3; +15.3,.Rail 2; +1; ; 0,.Rail 1; +13.5,,.Rail 4; +7.5,,,.Crack 0; 1,,,,.DikeEnd 0,,.FreeObj 4; 14; 0; 0; 180
+6000,,.Rail 3; +17,.Rail 2; +3,.Crack 3; 4,,.Rail 4; +8.6,.Accuracy 1,,.Crack 0; 4,,,,,,,,
+6025,,.Rail 3; +18.7,.Rail 2; +5,.Crack 3; 4,,.Rail 4; +9.6,,,.Crack 0; 4,,,.Pole 0; 1; 0; 25,.FreeObj 2; 21; +2.2; 0,.FreeObj 2; 24; +2.2; 4.8,.FreeObj 2; 12; +2.2; -0.75,,
+6050,.Pitch -10,.Rail 3; +20.5,.Rail 2; +7,.Crack 3; 4,.Rail 5; +10.7,.Rail 4; +10.7; 0; 12,.Sig 3; 第$chr(13)$chr(10)２$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.2; -1; 2,.FreeObj 0; 12; -2.2; -0.5,.Crack 0; 4,.Pole 3; 0; +1; 50; 0,.Pole 0; 0; -1; 50; 0,.Wall 6; 0; 5,.Wall 7; 0; 5,.PoleEnd 1,.Pole 2; 3; 0; 25; 4,,
+6075,.Height 11.5,.Rail 3; +22.2,.Rail 2; +8.7,,.Rail 5; +12.4,.Rail 4; +10.4; 0; 13,.FreeObj 0; 106; 0; 0,.FreeObj 1; 106; 0; 0,.Crack 2; 1,.Wall 1; +1; 5,.Wall 3; 0,.Wall 2; -1; 5,.Wall 0; 0,.Dike 2; +1; 1,.Pole 2; 2; 0; 25,.DikeEnd 1,
+6100,.Curve +2500; +30,.Rail 3; +24,.Rail 2; +10,.Rail 1; +14,.RailEnd 5; +14; ; 0,.RailEnd 4; +10; 0; 0,,,.Crack 2; 1,,,,,,,,
+6125,,.Rail 3; +25.6,.Rail 2; +10.8,.Rail 1; +14.8,,,.Rail 6; +4.9; -6,;.Rail 7; +24; -8,.Crack 2; 1,.Pole 2; 1; 0; 25,,.Pole 6; 0; +1; 25,,;.Dike 6; +1; 1,,.Wall 6; +1; 5,
+6150,.Pitch -5,.Curve 0; 0,.Rail 2; +11.4,.Rail 1; +15.4,,.Rail 3; +27,.Rail 6; ; -4,;.Rail 7; +25; -8,,.Pole 2; 1; 0; 50,,,,,,,
+6175,.Pitch -2,.Height 10,.Rail 2; +12,.Rail 1; +16,,.Rail 3; +28.2,.Rail 6; ; -2,;.Rail 7; ; -6,,,,.Wall 0; -1,,,.Dike 0; +1; 2,.Sig 4; ; 0; -1; 2,
+6200,,.PoleEnd 7,.Pole 3; 1; 1; 25; 4,.Rail 2; +12.6,.Rail 1; +16.6,.Rail 3; +29.4,.Rail 6; +4.7; -0.7,.Rail 7; +25.3; -0.7,.Wall 2; -1,.Wall 3; +1; 0,.Pole 0; 1; 0; 50,.PoleEnd 6,.Pole 2; 1; 0; 25,;★絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3,.Wall 7; -1; 5,
+6225,.Curve +2500; +30,.Crack 2; 6,.Crack 1; 7,.Rail 2; +13.2,.Rail 1; +17.2,.Rail 3; +30.4,.Rail 6; +4.3; 0,.Rail 7; +25.7; 0,.FreeObj 6; 106; +0.1; 0,.Pole 2; 1; 0; 25; 0,.WallEnd 2,.WallEnd 1,.FreeObj 2; 38; -3.5; 3.3,.FreeObj 2; 24; +1.9; 7,.WallEnd 6,.WallEnd 7,
+6228,;■入力禁止,,,,,,,,,,,,,.FreeObj 0; 104; +4; +1.2; 90,,,
+6250,;.Sta Nerima; P; ; 0; ; 0; 0; ; ; ; ,.Form 2; 6; 2; 2,.Form 1; 7; 2; 2,.Rail 2; +13.6,.Rail 1; +17.6,.Rail 3; +31.2,.Rail 6; +4.1,.Rail 7; +26.5,.Wall 0; -1; 1,.Wall 3; +1; 1,.PoleEnd 0,.PoleEnd 3,.PoleEnd 0,.PoleEnd 2,.DikeEnd 0,.FreeObj 6; 43; +4.75,.FreeObj 7; 43; -4.5
+6275,.Curve 0; 0,.Form 2; 6; 2; 2,.Form 1; 7; 2; 2,.Rail 2; +13.8,.Rail 1; +17.8,.Rail 3; +31.6,.Rail 6; +4,.Rail 7; +27.5,,,,,,,,,
+6300,,.Form 2; 6; 2; 2,.Form 1; 7; 2; 2,.Rail 2; +13.9,.Rail 1; +17.9,.Rail 3; +31.8,,.Rail 7; +28,,.DikeEnd 2,,,,,,,
+6325,,.Form 2; 6; 2; 2,.Form 1; 7; 2; 2,.Rail 2; +14,.Rail 1; +18,,,,,,,,,,,,
+6350,,.Form 2; 6; 2; 2,.Form 1; 7; 2; 2,,,,,,,,,,,,,,
+6375,,.Form 2; 6; 2; 2,.Form 1; 7; 2; 2,,,,,,,,,,,,,,
+6400,,.Form 2; 6; 2; 2,.Form 1; 7; 2; 2,.Curve +2000; +25,,,,,,.RailType 0; 30,,,,,.Rail 6; +4; ; 26,,
+6425,,.Form 2; 6; 2; 2,.Form 1; 7; 2; 2,.Curve +1000; +60,,,.Rail 1; +18,.Rail 7; +27.9,,.RailType 0; 26,,,,,.Rail 6; +4.2; ; ,,
+6450,.Crack 2; 1,.Form 2; 6; 2; 2,.Form 1; 7; 2; 2,.DikeEnd 7,,,.Rail 1; +18.1,.Rail 7; +27.5,.Rail 3; +31.5,,,,,.Rail 2; +13.6,.Rail 6; +4.55; ; 0,,
+6470,;.Stop 0,.FreeObj 6; 17,,.FreeObj 6; 97; -1.8,,,,,,,,,,,,,
+6475,.Crack 2; 1,.Crack 2; 6,.Crack 1; 7,.Curve +2000; +25,.Wall 0; -1; 0,.Wall 3; +1; 0,.Rail 1; +18.1,.Rail 7; +26.6,.Rail 3; +30.6,.RailType 0; 30,,.FreeObj 6; 44; +4.3,.FreeObj 7; 44; -4.3,.Rail 2; +12.6,.Rail 6; +4.68; ; 0,,
+6495,;■入力禁止,,.FreeObj 2; 12; -2.9; -0.55,.FreeObj 2; 21; -3.2; 0,.FreeObj 2; 22; -2.9; 4.8,.FreeObj 2; 12; -3.5; -1.35,.FreeObj 2; 21; -2; 0,.FreeObj 2; 22; -2; 4.8,.FreeObj 2; 12; -2; -0.55,.FreeObj 6; 21; 2.3; 0,.FreeObj 6; 22; 2; 4.8,.FreeObj 6; 12; 2; -0.55,.FreeObj 6; 22; 2.6; 4,.FreeObj 6; 12; 2.6; -1.35,.FreeObj 2; 41; -2.9,,
+,;■入力禁止,.FreeObj 2; 22; -3.5; 4,,.FreeObj 6; 41; 2,.FreeObj 6; 41; 2.6; -1,,,.FreeObj 1; 21; -2.2; 0,.FreeObj 1; 22; -2.2; 4.8,.FreeObj 1; 12; -2.2; -0.55,,,.FreeObj 2; 41; -3.5; -1,,,,
+6500,.Crack 2; 1,.Crack 2; 6,.Crack 1; 7,.Rail 8; +17.7; 0; 10,.Rail 1; +17.7,.Pole 0; 1; 0; 50,.Curve 0; 0,.Rail 5; +11.2; 0; 11,.Rail 2; +11.2,.Rail 7; +25.3,.Rail 3; +29.3,.Pole 3; 1; 1; 50,.Pole 2; 2; 0; 50; 4,.RailType 0; 0,.Rail 6; +4.4,,
+6520,;■入力禁止,.Sig 3; 出$chr(13)$chr(10)発; -2.2; -1; 3,.FreeObj 0; 12; -2.2; -0.55,,,,,,,,,,,,,,
+6525,,.Crack 2; 6,.Crack 1; 7,.Rail 8; +15.2; ; 11,.Rail 1; +17.2,.Rail 10; +3.97; 0; 15,,.Rail 5; +11.7; 0; 10,.Rail 2; +9.7,.Rail 7; +23.8,.Rail 3; +27.8,,.PoleEnd 2,.Pole 0; 3; 0; 50,.Rail 6; +3.97; ; 30,.Relay 0; -1,
+6550,,.Crack 2; 6,.Crack 1; 7,.RailEnd 8; +12.2; ; 0,.Rail 1; +16.7,.Rail 10; +3; 0; 0,,.Rail 5; +12.2; 0; 0,.Rail 2; +8.2,.Rail 7; +22.3,.Rail 3; +26.3,.Rail 12; +16.7; 0; 0,.Rail 13; +22.3; 0; 0,,.Rail 6; +3.8; ; 0,;喚呼標,.FreeObj 0; 37; -3.2; 3.3
+6575,.limit 100; 0,.Crack 2; 6,.Crack 1; 7,;.marker JNG-BKS\Mark\p95.gif; 200,.Rail 1; +16.2,.Rail 10; +1; 0; 13,.Pole 3; 2; 2; 50,.Rail 5; +11.5,.Rail 2; +6.8,.Rail 7; +20.8,.Rail 3; +24.8,.Rail 12; +17.2,.Rail 13; +19.8,.Dike 2; +1; 2,.Dike 1; -1; 2,.Accuracy 3,
+6600,,,.Crack 1; 7,,.Rail 1; +15.8; +0.3,.RailEnd 10; 0; 0; 0,,.Rail 5; +11; -1,.Rail 2; +5.6,.Rail 7; +19.5; +0.3,.Rail 3; +23.3; +0.3,.Rail 12; +18.5; +0.3,.Rail 13; +16.8; +0.3,.Wall 2; +1,.DikeEnd 2,.Pole 0; 1; 0; 50,
+6625,;.Curve +329,,.Crack 1; 7,,.Rail 1; +15.6; +1,,,.Rail 5; +10; -3,.Rail 2; +4.4; ; 18,.Rail 7; +19.1; +1,.Rail 3; +21.9; +1,.RailEnd 12; +19.1; +1,.RailEnd 13; +15.6; +1,,.Wall 1; -1,.Accuracy 1,
+6650,;.Curve 0; 0,,.Crack 1; 3,.Pole 5; 0; +1; 25,.Rail 1; +15.5; +1.8,,.RailEnd 6; +3.8,.Rail 5; ; -5,.Rail 2; +3.8; ; 0,.Rail 7; +19.6; +1.8,.Rail 3; +20.6; +1.8,.PoleEnd 1,,.FreeObj 2; 37; +3.5; 3.3,,,
+6675,.Pitch +4,.Crack 2; 1,.Crack 1; 3,.Pole 1; 1; 0; 50,.Rail 1; +15.3; +2.5,,.WallEnd 2,.RailEnd 5; ; -7,,.RailEnd 7; +19.5; +2.5,.Rail 3; +19.5; +2.5,.Rail 6; +3.8; 0; 12,.PoleEnd 3,,,
+6700,.Pole 1; 1; 0; 50; 3,.Crack 2; 1,,.Pole 0; 1; 0; 25; 3,.Rail 1; +14.5; +2.8,.Rail 3; +18.5; +2.8,,.PoleEnd 5,,,,.Rail 6; +2.8; ; 0,,,,
+6725,,.Crack 2; 1,,,.Rail 1; +13.5; +2.6,.Rail 3; +17.5; +2.6,,,,,,.Rail 6; +1; ; 13,,,,.Accuracy 3
+6750,.Limit 0; 0,.Crack 2; 1,,,.Rail 1; +12.5; +2.1,.Rail 3; +16.5; +2.1,,.WallEnd 2,,.FreeObj 0; 39; -3.5; 3.4,.FreeObj 0; 40; -3.5; 4,.RailEnd 6; 0; ; 0,,,.WallEnd 1,
+6772,,,.Sig 3; ６$chr(13)$chr(10)７$chr(13)$chr(10)Ｅ; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,;■入力禁止,,,,,,,,,,,
+6775,.DikeEnd 2,.Crack 2; 1,,,.Rail 1; +11.5; +1.4,.Rail 3; +15.5; +1.4,.FreeObj 2; 21; +2.4; 0,.FreeObj 2; 22; +2.4; 4.8,.FreeObj 2; 12; +2.4; -0.55,.Wall 0; -1; 0,.Pole 0; 1; 0; 25,,.DikeEnd 7,,,.Accuracy 0
+6800,.Pole 1; 1; 0; 50; 1,,,.Pole 0; 1; 0; 50; 1,.Rail 1; +10.5; +0.7,.Rail 3; +14.5; +0.7,,,.WallEnd 1,.Crack 2; 1,,,.FreeObj 0; 35; -3; 3.7,.FreeObj 0; 36; -3; 4.1,;★喚呼標,.FreeObj 0; 37; -3; 3.3
+6825,.Pitch -17,,.Rail 10; +6.9; -0.2; 33,,.Rail 1; +9.8; +0,.Rail 3; +13.8; +0,,.DikeEnd 1,,;.Crack 2; 1,,.RailType 0; 40,.RailType 2; 40,,.DikeEnd 1,
+6850,,,.Rail 10; +6.75; 0; 33,,,,,,,;.Crack 2; 1,,,,,,
+6875,,,,,,,,,,;.Crack 2; 1,,,,,,
+6900,,,,,,,,,,;.Crack 2; 1,,,.FreeObj 2; 37; +3; 3.3,,,
+6925,,,.Pitch -4,,,,,,,;.Crack 2; 1,,,,,,
+6950,,,.Pitch +10,,,,,,,;.Crack 2; 1,,,,,,
+6975,,,,,,,,,,;.Crack 2; 1,,,,,,
+6997,,.Relay -2.2; -1,.FreeObj 0; 12; -2.2; -0.5; 0,;■入力禁止,,,,,,,,,,,,
+7000,.Curve -1600; -40,,,.RailType 0; 41,.RailType 1; 27,.RailType 2; 41,.RailType 3; 27,,,;.Crack 2; 1,,,,;★喚呼標,.FreeObj 0; 37; -3; 3.3,
+7025,.Pitch +5,.Height 10,,,,,,,,;.Crack 2; 1,,,,,,
+7050,.Pitch 0,,,,.Dike 0; -1; 1,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 33; 2.2; 4.6,.FreeObj 2; 12; 2.2; -0.5,,;.Crack 2; 1,,,.FreeObj 2; 37; +3; 3.3,,,
+7075,,.Relay -2.2; -1,.FreeObj 0; 12; -2.2; -0.5; 0,,.RailType 0; 27,.RailType 2; 27,.RailType 10; 31,,,.Crack 2; 1,,,,;★喚呼標,.FreeObj 0; 37; -2.2; 3,
+7100,,,,,,,,,,.Crack 2; 1,,,,,,
+7125,,,,,,,,,,.Crack 2; 1,,,,,,
+7150,,,,,,,,,,.Crack 2; 1,,,,,,
+7175,.Curve 0; 0,,,.RailType 0; 40,.RailType 1; 40,.RailType 2; 40,.RailType 3; 40,,.RailType 10; 34,;.Crack 2; 1,,,,,,
+7200,.Sig 3; ７$chr(13)$chr(10)１$chr(13)$chr(10)Ｅ; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,,,,;.Crack 2; 1,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 23; 2.2; 4.8,.FreeObj 2; 12; 2.2; -0.55,,,
+7225,,,,,,,,,,;.Crack 2; 1,,,,,,.Relay 0; -1
+7250,,,,,,,,,,;.Crack 2; 1,,,,;★喚呼標,.FreeObj 0; 37; -3; 3.3,
+7275,,,,,,,,,,;.Crack 2; 1,,,,,,
+7300,,,,,,,,,,;.Crack 2; 1,,,,,,
+7325,,,,,,,,,,;.Crack 2; 1,,,,,,
+7350,,,,,,,,,,;.Crack 2; 1,,,.FreeObj 2; 37; +3; 3.3,,,
+7375,,,,,,,,,,;.Crack 2; 1,,,,,,
+7400,,,,,,,,,,;.Crack 2; 1,,,,,,
+7425,,;.Crack 2; 1,,,,,,,,,,,,,,
+7450,,;.Crack 2; 1,,,,,,,,,,,,,,
+7475,,;.Crack 2; 1,,,,,,,,,,,,,,
+7500,,;.Crack 2; 1,,,,,,,,,,,,,,
+7525,,;.Crack 2; 1,,,,,,,,,,,,,,
+7550,,;.Crack 2; 1,,,,,,,,,,,,,,
+7575,,;.Crack 2; 1,,,,,,,,,,,,,,
+7600,,;.Crack 2; 1,,.Sig 3; ７$chr(13)$chr(10)５$chr(13)$chr(10)Ｅ; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,.RailType 1; 0,.RailType 3; 0,.RailType 10; 33,,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 23; 2.2; 4.8,.FreeObj 2; 12; 2.2; -0.55,,,
+7625,,;.Crack 2; 1,,,,,,,,,,,,,,.Relay 0; -1
+7650,,;.Crack 2; 1,,,.Rail 1; +9.8; +0,.Rail 3; +13.8; +0,,,,,,,,;★喚呼標,.FreeObj 0; 37; -3; 3.3,
+7675,.Curve -2000; -25,;.Crack 2; 1,,,.Rail 1; +10,.Rail 3; +14,,,.RailType 0; 42,.RailType 2; 42,,,,,,
+7700,;.Sta Nakamurabashi; P; ; 0; +1; 0; 0; ; ; ; ,.Form 2; 1; 5; 2,.RailEnd 10; +7.05; 0; 33,.FreeObj 2; 46; +3.25,.Rail 1; +10.5,.Rail 3; +14.5,,,.PoleEnd 0,.PoleEnd 1,.Wall 0; -1; 7,.Wall 3; +1; 7,.FreeObj 2; 203; +3.15; 4.5,,,
+7725,.Curve 0; 0,.Form 2; 1; 5; 2,,,.Rail 1; +11.4,.Rail 3; +15.4,,,.RailType 0; 40,.RailType 2; 40,.DikeEnd 0,,,,,
+7750,,.Form 2; 1; 5; 2,,,.Rail 1; +12.5,.Rail 3; +16.5,,,,,,,,,,
+7775,,.Form 2; 1; 5; 2,.Curve +1614; +30,,.Rail 1; +13.6,.Rail 3; +17.6,,,.RailType 0; 43,.RailType 2; 43,,,,,,
+7800,.FreeObj 2; 33; +2.2; +5.5,.Form 2; 1; 5; 2,,,.Rail 1; +14.4,.Rail 3; +18.4,,,,,,,.FreeObj 2; 201; +3.15; 4.5,,,
+7825,,.Form 2; 1; 5; 2,,,.Rail 1; +14.6,.Rail 3; +18.6,,,,,,,,,,
+7850,,.Form 2; 1; 5; 2,.Curve 0; 0,,.Rail 1; +14.2,.Rail 3; +18.2,,,.RailType 0; 40,.RailType 2; 40,,,,,,
+7875,,.Form 2; 1; 5; 2,.FreeObj 2; 11,.FreeObj 2; 91; -1.8,.Rail 1; +13.4,.Rail 3; +17.4,,,,,,,,,,
+7900,,.Form 2; 1; 5; 2,,,.Rail 1; +12.6,.Rail 3; +16.6,,,,,,,,,,
+7915,;.Stop 0,,.FreeObj 2; 13,.FreeObj 2; 93; -1.8,,,,,,,,,,,,
+7925,,;.Crack 2; 1,.Rail 10; +7.95; 0; 33,.FreeObj 2; 46; +3.9,.Rail 1; +11.8,.Rail 3; +15.8,,,,,.Wall 0; -1; 0,.Wall 3; +1; 0,,,,
+7950,.Sig 3; ７$chr(13)$chr(10)９$chr(13)$chr(10)Ｅ; -2.2; -1; 1,;.Crack 2; 1,.Rail 10; +7.3; 0; 33,.FreeObj 0; 12; -2.2; -0.5,.Rail 1; +11,.Rail 3; +15,.Curve -3000; -20,,.RailType 0; 47,.RailType 2; 47,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 23; 2.2; 4.8,.FreeObj 2; 12; 2.2; -0.55,.Pole 0; 1; 0; 50,.Pole 1; 1; 0; 50,
+7975,,;.Crack 2; 1,.Rail 10; +6.95; 0; 33,,.Rail 1; +10.3,.Rail 3; +14.3,,,,,,,,,,.Relay 0; -1
+8000,,;.Crack 2; 1,.Rail 10; +6.75; 0; 33,,.Rail 1; +9.9,.Rail 3; +13.9,.Curve 0; 0,,.RailType 0; 40,.RailType 2; 40,,,,;★喚呼標,.FreeObj 0; 37; -3; 3.3,
+8025,,;.Crack 2; 1,,,.Rail 1; +9.8,.Rail 3; +13.8,,,,,,,,,,
+8050,,;.Crack 2; 1,,,,,,,,,,,,,,
+8075,,;.Crack 2; 1,,,,,,,,,,,,,,
+8100,.Pitch +2,;.Crack 2; 1,,,,,,,,,,,.FreeObj 2; 37; +3; 3.3,,,
+8125,,;.Crack 2; 1,,,,,,,,,,,,,,
+8150,,;.Crack 2; 1,,,,,,,,,,,,,,
+8175,,;.Crack 2; 1,,,,,,,,,,,,,,
+8200,,;.Crack 2; 1,,,,,,,,,,,,,,
+8225,,;.Crack 2; 1,,,,,,,,,,,,,,
+8250,,;.Crack 2; 1,,,,,,,,,,,,,,
+8275,,;.Crack 2; 1,,,,,,,,,,,,,,
+8300,,;.Crack 2; 1,,,,,,,,,,,,,,
+8325,,;.Crack 2; 1,,,,,,,,,,,,,,
+8350,,;.Crack 2; 1,,,,,,,,,,,,,,
+8375,,;.Crack 2; 1,,,,,,,,,,,,,,
+8400,.Sig 3; ８$chr(13)$chr(10)３$chr(13)$chr(10)Ｅ; -2.2; -1; 1,;.Crack 2; 1,,,,,.FreeObj 0; 12; -2.2; -0.5,.Curve -2000; -30,.RailType 0; 42,.RailType 2; 42,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 23; 2.2; 4.8,.FreeObj 2; 12; 2.2; -0.55,,,
+8425,,;.Crack 2; 1,.Rail 10; +7; 0; 33,,.Rail 1; +10,.Rail 3; +14,,,,,,,,,,
+8450,;.Sta Fujimidai; P; ; 0; +1; 0; 0; ; ; ; ,.Form 2; 1; 6; 2,.RailEnd 10; +7.3; 0; 33,.FreeObj 2; 46; +3.3,.Rail 1; +10.6,.Rail 3; +14.6,,.Curve 0; 0,.RailType 0; 40,.RailType 2; 40,.Wall 0; -1; 8,.Wall 3; +1; 8,.FreeObj 2; 203; +3.15; 4.5,,.PoleEnd 0,.PoleEnd 1
+8475,,.Form 2; 1; 6; 2,,,.Rail 1; +11.4,.Rail 3; +15.4,,,,,,,,,,.Relay 0; -1
+8500,.Curve +2000; +30,.Form 2; 1; 6; 2,,,.Rail 1; +12.2,.Rail 3; +16.2,,,.RailType 0; 44,.RailType 2; 44,,,,;★喚呼標,.FreeObj 0; 37; -2.32; 3.3,
+8525,.Curve +915; +65,.Form 2; 1; 6; 2,,,.Rail 1; +13,.Rail 3; +17,,,.RailType 0; 45,.RailType 2; 45,,,,,,
+8550,,.Form 2; 1; 6; 2,,,.Rail 1; +13.6,.Rail 3; +17.6,,,,,,,,,,
+8575,,.Form 2; 1; 6; 2,,,.Rail 1; +13.8,.Rail 3; +17.8,,,,,,,,,,
+8600,.FreeObj 2; 33; +2.2; +5.5,.Form 2; 1; 6; 2,.Relay -2.1; -1,.FreeObj 0; 12; -2.1; -0.5,,,,,,,,,.FreeObj 2; 201; +3.15; 4.5,;★喚呼標,.FreeObj 0; 37; -2.1; 3,
+8625,,.Form 2; 1; 6; 2,.FreeObj 2; 11,.FreeObj 2; 91; -1.8,.Rail 1; +13.4,.Rail 3; +17.4,,,,,,,,,,
+8650,,.Form 2; 1; 6; 2,,,.Rail 1; +13,.Rail 3; +17,,,,,,,,,,
+8665,;.Stop 0,,.FreeObj 2; 13,.FreeObj 2; 93; -1.8,,,,,,,,,,,,
+8675,.Rail 10; +7.75; 0; 33,;.Crack 2; 1,,.FreeObj 2; 44; +4,.Rail 1; +12,.Rail 3; +16,.Wall 0; -1; 0,.Wall 3; +1; 0,,.FreeObj 0; 157; -1; -1,,,,,,
+8700,.Rail 10; +7.3; 0; 33,;.Crack 2; 1,.Sig -4; ８$chr(13)$chr(10)５$chr(13)$chr(10)Ｅ; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,.Rail 1; +11.1,.Rail 3; +15.1,.Pole 0; 1; 0; 50,.Pole 1; 1; 0; 50,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 23; 2.2; 4.8,.FreeObj 2; 12; 2.2; -0.5,,,,,
+8725,.Rail 10; +6.95; 0; 33,;.Crack 2; 1,,,.Rail 1; +10.4,.Rail 3; +14.4,,,,,,,,,,.Relay 0; -1
+8750,.Rail 10; +6.75; 0; 33,;.Crack 2; 1,,,.Rail 1; +10,.Rail 3; +14,,.Dike 3; +1; 1,,,,,.FreeObj 2; 37; +3; 3.3,;★喚呼標,.FreeObj 0; 37; -3; 3.3,
+8775,,;.Crack 2; 1,,,.Rail 1; +9.8,.Rail 3; +13.8,,,,,,,,,,
+8800,,;.Crack 2; 1,,,,,,,,,,,,,,
+8825,.Curve +808; +80,;.Crack 2; 1,,,,,,,.RailType 0; 46,.RailType 1; 23,.RailType 2; 46,.RailType 3; 23,,,,
+8850,,;.Crack 2; 1,.Pitch 0,,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 32; 2.2; 4.6,.FreeObj 2; 12; 2.2; -0.5,,,,,,.FreeObj 2; 37; +3; 3.3,,,
+8875,,;.Crack 2; 1,,,,,,,,,,,,,,
+8900,,;.Crack 2; 1,,,,,,,,,,,,,,
+8925,,;.Crack 2; 1,,,,,,,,,,,,,,
+8950,.Sig -4;　８$chr(13)$chr(10)７$chr(13)$chr(10)Ｅ; -2.2; -1; 1,;.Crack 2; 1,.FreeObj 0; 12; -2.2; -0.75,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 30; 2.2; 4.8,.FreeObj 2; 12; 2.2; -0.5,,,,,,,,,,
+8975,,;.Crack 2; 1,,,,,,,,,,,,,,.Relay 0; -1
+9000,,;.Crack 2; 1,,,,,,,,,,,,;★喚呼標,.FreeObj 0; 37; -3; 3.3,
+9025,,;.Crack 2; 1,,,,,,,,,,,,,,
+9050,,;.Crack 2; 1,,,,,,,,,,,.FreeObj 2; 37; +3; 3.3,,,
+9075,,;.Crack 2; 1,,,,,,,,,,,,,,
+9100,.Relay -2.2; -1,;.Crack 2; 1,,.FreeObj 0; 12; -2.2; -0.5,,,,,,,,,,;★絶対喚呼標,.FreeObj 0; 38; -3; 3.3,
+9125,.Curve +1751; +35,;.Crack 2; 1,,,,,,,.RailType 0; 43,.RailType 1; 28,.RailType 2; 43,.RailType 3; 28,,,,
+9150,,;.Crack 2; 1,,,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 31; 2.2; 4.6,.FreeObj 2; 12; 2.2; -0.5,,,,,,.FreeObj 2; 38; +3; 3.3,,,
+9175,,;.Crack 2; 1,,,,,,,,,,,,,,
+9200,,;.Crack 2; 1,,,,,,,,,,,,,,
+9225,,;.Crack 2; 1,,,,,,,,,,,,,,
+9250,,;.Crack 2; 1,,,,,,,,,,,,,,
+9275,.Pitch -10,;.Crack 2; 1,,,.Height 8,,,,,,,,,,,
+9300,,;.Crack 2; 1,,,,,,,,,,,,,,
+9325,,;.Crack 2; 1,,,,,,,,,,,,,,
+9350,.Curve 0; 0,;.Crack 2; 1,.Sig -4; 第$chr(13)$chr(10)１$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.5; 5.3; 2,.FreeObj 0; 12; -2.5; -0.25,.FreeObj 0; 21; -2.2; 0,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 24; 2.2; 4.8,.FreeObj 2; 12; 2.2; -0.6,.FreeObj 0; 24; -1.9; 4,.FreeObj 0; 12; -1.9; -1.5,,.RailType 0; 40,.RailType 1; 0,.RailType 2; 40,.RailType 3; 0,
+9375,,;.Crack 2; 1,,,,,,,,,,,,,,.Relay 0; -1
+9400,,;.Crack 2; 1,,.Pitch 0,.Height 7,,,,,,,,,;★絶対喚呼標,.FreeObj 0; 38; -3; 3.3,
+9425,,;.Crack 2; 1,,,,,,,,,,,,,,
+9450,.DikeEnd 3,;.Crack 2; 1,,,,,,,,,,,.FreeObj 2; 38; +3; 3.3,,,
+9475,,.Crack 2; 1,,,.Pole 2; 3; 1; 50; 3,.PoleEnd 0,.PoleEnd 1,,,,.Wall 0; -1; 5,.Wall 3; +1; 5,.RailType 0; 0,.RailType 2; 0,.RailType 10; 31,
+9500,,.Crack 2; 1,,,,,,,,,,,,,,
+9525,,.Crack 2; 1,,,,,,,,,,,,,,
+9550,,.Crack 2; 1,,,,,,,,,,,,,,
+9575,.limit 100; 0,.Crack 2; 1,;.marker JNG-BKS\Mark\p95.gif; 200,,.Pole 2; 3; 1; 25; 0,.Accuracy 3,,.Rail 4; 0; 0; 13,,,,,,,,
+9600,.Limit 0; 0,.Crack 2; 1,,,.Pole 2; 3; 1; 50; 0,,,.Rail 4; +1; 0; 0,.Rail 5; +13.8; 0; 12,,,,,,,
+9625,,.Crack 2; 1,,,,.Accuracy 1,,.Rail 4; +2.8; 0; 12,.Rail 5; +12.8; 0; 0,,,,,,,
+9650,,.Crack 2; 1,.Rail 10; +6.75; 0; 31,,,,,.RailEnd 4; +3.8; 0; 0,.Rail 5; +10.8; 0; 13,,.RailType 1; 30,.RailType 3; 30,,,,
+9675,,.Crack 2; 1,.Rail 10; +6.85; 0; 31,,.Rail 1; +10.0,.Rail 3; +14.0,,,.RailEnd 5; +10.0; 0; 0,,,,,,,
+9700,,.Crack 2; 1,.Rail 10; +7.2; 0; 31,,.Rail 1; +10.6,.Rail 3; +14.6,,,,,,,.Ground 2,.Pole 0; 1; 0; 25; 0,.Pole 1; 1; 0; 25; 0,.PoleEnd 2
+9725,.Sig 5; 第$chr(13)$chr(10)２$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.2; -1; 2,.Crack 2; 1,.Rail 10; +7.65; 0; 31,.FreeObj 0; 12; -2.2; -1,.Rail 1; +11.4,.Rail 3; +15.4,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 24; 2.2; 4.8,.FreeObj 2; 12; 2.2; -0.6,,.RailType 1; 0,.RailType 3; 0,.Ground 1,.Pole 0; 1; 0; 25; 3,.Pole 1; 1; 0; 25; 3,
+9740,,;■入力禁止,;■入力禁止,;■入力禁止,,,,,,,,,,;★絶対喚呼標,.FreeObj 0; 38; -2.4; 2,.FreeObj 0; 34; -2.4; 2
+9750,;.Sta Nerima-Takanodai; P; ; 0; +1; 0; 0; ; ; ; ,.Form 2; 1; 8; 2,.RailEnd 10; +8.1; 0; 0,.FreeObj 2; 44; +4.1,.Rail 1; +12.2,.Rail 3; +16.2,.Wall 0; -1; 9,.Wall 3; +1; 9,.PoleEnd 0,.PoleEnd 1,.RailType 1; 29,.RailType 3; 29,.Ground 0,;.marker JNG-BKS\Mark\riv_shakujii.gif; 75,,.Sig 4; ; 0; -1; 2,.FreeObj 2; 201; +3.15; 5
+9775,,.Form 2; 1; 8; 2,,,.Rail 1; +13,.Rail 3; +17,,,,,,,,,,,
+9800,,.Form 2; 1; 8; 2,,,.Rail 1; +13.4,.Rail 3; +17.4,,,,,,,,,,,
+9825,,.Form 2; 1; 8; 2,,,.Rail 1; +13.6,.Rail 3; +17.6,,,,,.RailType 1; 0,.RailType 3; 0,,,,,
+9850,,.Form 2; 1; 8; 2,,,,,,,,,,,,,,,
+9875,,.Form 2; 1; 8; 2,,,,,,,,,,,,,,,
+9900,,.Form 2; 1; 8; 2,,,,,,,,,,,,,,,
+9925,,.Form 2; 1; 8; 2,,,,,,,,,,,,,,,
+9950,,.Form 2; 1; 8; 2,,,,,,,.Rail 1; +13.6,.Rail 3; +17.6,,,,,,,
+9965,;.Stop 0,,.FreeObj 2; 17,.FreeObj 2; 97; -1.8,,,,,,,,,,,,,
+9975,,.Crack 2; 1,,.FreeObj 2; 44; +4.5,,,.Wall 0; -1; 5,.Wall 3; +1; 5,.Rail 1; +13,.Rail 3; +17,.RailType 1; 0,.RailType 3; 0,,,,,
+10000,.Pitch -10,.Crack 2; 1,.Curve -1600; -20,.Height 7,.Rail 1; +11.7,.Rail 3; +15.7,.RailType 0; 27,.RailType 2; 27,.Pole 0; 1; 0; 50; 0,.Pole 1; 1; 0; 50; 0,.Sig 4; 出$chr(13)$chr(10)発; -2.2; -1; 3,.FreeObj 0; 12; -2.2; -0.7,.FreeObj 2; 21; 2.2; 0,.FreeObj 2; 24; 2.2; 4.8,.FreeObj 2; 12; 2.2; -0.7,,
+10025,,.Crack 2; 1,.Curve -800; 50,.limit 100; -1,.Rail 1; +10,.Rail 3; +14,.RailType 0; 22,.RailType 2; 22,,,,,,,,,
+10050,.Wall 0; -1; 6,;.announce JNG-BKS\1111\announce2.wav,.Rail 2; +3.9,.Dike 0; -1; 1,.Rail 1; +8.6,.Rail 3; +12.6,,,,,,.Pole 0; 3; 0; 25,.PoleEnd 1,,,,
+10075,.PreTrain 15.06$sub(0),;.PreTrain 15.0701,.Rail 2; +4; ; 10,,.Rail 1; +8; ; 28,.Rail 3; +12,.Rail 4; +4; 0; 25,.Rail 6; +8; 0; 27,,,,.Pole 0; 3; 0; 25; 3,,,,,
+10100,.PreTrain 15.1020,.Crack 1; 4,.Rail 2; +2.8; ; 0,,.Rail 1; +8.7; ; 0,.Rail 3; +11.4,.Rail 4; +4.2,.Rail 6; +7.8; ; 10,;.marker JNG-BKS\track_check.bmp; 100,.FreeObj 0; 19; -3.2; 4.3,,,,;★喚呼標,.FreeObj 0; 37; -2.28; 2,.Relay 0; -1,
+10125,,.Crack 1; 4,.Rail 2; +0.8; ; 18,,.Rail 1; +10.5; ; 12,.Accuracy 4,.Rail 4; +4.4,.Rail 6; +6.2; ; 11,,.PoleEnd 3,,,,,,,
+10150,,.Crack 1; 4,.RailEnd 2; 0; ; 0,.WallEnd 3,.Rail 1; +11.4; 0; 0,.RailEnd 3; +11.4,.Rail 4; +4.6; ; 0,.RailEnd 6; +4.6; ; 0,,.Wall 1; +1; 0,.PoleEnd 0,.Dike 4; -1; 2,,.Pole 1; 3; 3; 50; 4,,,
+10175,.Pitch -22,.Crack 1; 4,.Relay -2.1; -1,.FreeObj 0; 12; -2.1; -0.5,,.Accuracy 1,,,,.FreeObj 0; 52; -3.2; +3.5,,.Pole 1; 3; 3; 25; 3,,;★喚呼標,.FreeObj 0; 37; -2.1; 2,,
+10200,,.Crack 1; 4,,.Rail 4; ; +0.5,,.Rail 1; ; +0.5,,,,.FreeObj 0; 50; -2.8; +4,,.Pole 1; 3; 3; 50; 4,,,,,
+10225,,.Crack 1; 4,,.Rail 4; ; +1,,.Rail 1; ; +1,,,,,,,,,,,
+10250,.Curve -1600; -20,.Crack 1; 4,,.Rail 4; ; +1.5,.RailType 0; 27,.Rail 1; ; +1.5,,.Sig -4; １$chr(13)$chr(10)０$chr(13)$chr(10)１; -2.1; -1; 1,.FreeObj 0; 12; -2.1; -0.75,,,,,,,,
+10275,.Curve 0; 0,.Crack 1; 4,,.Rail 4; ; +2,.RailType 0; 0,.Rail 1; ; +2,,,,,,,,,,.Relay 0; -1,
+10300,,.Crack 1; 4,,.Rail 4; ; +2.5,,.Rail 1; ; +2.5,,,,,.DikeEnd 0,,,;★絶対喚呼標,.FreeObj 0; 38; -3.2; 4.1,,
+10325,,.Crack 1; 4,,.Rail 4; ; +2.5,.Wall 0; -1; 0,.Rail 1; ; +2.5,,,,,,,,,,,
+10350,.Curve +800; +40,.Crack 1; 4,.Pitch -10,.Rail 4; ; +2.5,.WallEnd 0,.Rail 1; +11.4; +2,.FreeObj 4; 100,,.RailType 0; 23,.Rail 15; -0.01; 0; 6,,.Wall 15; -1; 0,.Pole 0; 0; -1; 50; 0,.Pole 1; 0; +1; 50; 0,.Pole 4; 0; -1; 50; 0,,
+10375,,.Crack 0; 6,,.RailEnd 4; ; +2,.DikeEnd 4,.Rail 1; +10.6; +1.5,.Rail 6; +10.6; 0; 5,.Dike 1; 0; 3,.PoleEnd 4,.Rail 15; -0.6,,,,,,,
+10400,.Curve 0; 0,.Crack 0; 6,.height 0.7,,,.Rail 1; +8.8; +1,.Rail 6; +8.8,.Pitch +10,.RailType 0; 0,.Rail 15; -2,,.FreeObj 0; 35; -2.6; 3.4,,,,,
+10425,.Curve -800; -40,.Crack 0; 6,.height 0.5,.Accuracy 2,,.Rail 1; +6.4; +0.5,.Rail 6; +6.4,,.RailType 0; 22,.Rail 15; -3.8,,.WallEnd 15,.FreeObj 15; 74; -2.5,,,,
+10450,,.Crack 0; 6,.Pitch 0,,,.Rail 1; +4.5; 0,.Rail 6; +4.5,.DikeEnd 1,.FreeObj 0; 51; -3.1; +2.3,.Rail 15; -0.5; -0.1,,,.FreeObj 15; 74; -2.5,,,,
+10475,.Curve 0; 0,.Crack 0; 6,.PoleEnd 1,.WallEnd 1,.RailType 0; 0,.Rail 1; +3.8; 0,.RailEnd 6; +3.8,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 3,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.RailEnd 15; -1; 0,.Rail 15; -8; 0,.FreeObj 15; 77; -2.5,.Pole 0; 1; 0; 25; 0,.FreeObj 1; 87; +4
+10495,;信号,;■入力禁止,.Sig 5; 第$chr(13)$chr(10)１$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.5; 5.3; 2,.FreeObj 0; 12; -2.5; -0.5,.FreeObj 0; 21; -2.2; 0,.FreeObj 0; 22; -1.9; 4,.FreeObj 0; 12; -1.9; -1.3,;入力禁止,,,,,,,,,
+10500,,,.Limit 0; -1,,,,,,,,,,;絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10525,,,,,.Pole 0; 1; 0; 25; 2,,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10550,,,,,,,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10575,,,,,,,,,.FreeObj 0; 50; -3.3; +4,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10600,.Accuracy 3,.Curve -2000; -20,.RailType 0; 29,.RailType 1; 29,,,,,,,,,;.marker JNG-BKS\Mark\type_check.gif; 100,.FreeObj 0; 48; -3.5; 3,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10625,,.Curve 0; 0,.RailType 0; 0,.RailType 1; 50,;.announce JNG-BKS\halt.wav,,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 3,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.FreeObj 0; 47; -3.5; 2.8,.FreeObj 15; 77; -2.5,.FreeObj 1; 87; +4
+10650,.PreTrain 15.11$sub(1),,,,,.Rail 2; 0; 0; 11,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10675,.Curve -700; -50,.Pole 0; 1; 0; 25,.Sig 4; 第$chr(13)$chr(10)２$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.5; 5.3; 2,.FreeObj 0; 12; -2.5; -0.5,,.Rail 2; +1.9; 0; 10,.Crack 0; 1,,.RailType 0; 56,.FreeObj 0; 21; -2.2; 0,.FreeObj 0; 24; -1.9; 4,.FreeObj 0; 12; -1.9; -1.35,,.Rail 15; -8,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10700,,.Rail 1; +4.2,.PoleEnd 0,.Pole 1; 2; 2; 25; 2,,.RailEnd 2; +4.2; 0; 0,.Crack 0; 1,,,,,,,.Rail 15; -7.6,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10725,.Curve 0; 0,.Rail 1; +5.6,,,,,.Crack 0; 1,,,.Rail 3; +5.6; 0; 12,.RailType 0; 50,,,.Rail 15; -6.2,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10750,,.Rail 1; +7.4,,,,,.Crack 0; 1,,.FreeObj 0; 51; +2.9; +3.3,.Rail 3; +5.8; 0; 0,,,,.Rail 15; -4.4,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10775,.Accuracy 4,.Rail 1; +9.2,,.Rail 2; 0; 0; 11,.PoleEnd 0,.Pole 1; 3; 3; 25,.Crack 0; 1,,,.Rail 3; +5.2,,,,.Rail 15; -2.6,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4
+10800,,.Crack 1; 3; 4,.Crack 0; 3; 4,.Rail 2; +2; 0; 12,.Rail 1; +11,,.Crack 0; 1; 0,,.FreeObj 0; 51; -2.8; +4,.Rail 3; +4.6; 0; 13,,,,.Rail 15; -1; -0.1,,
+10815,.Accuracy 3,,,.FreeObj 2; 0; +0.5; ; -3,.FreeObj 1; 0,.FreeObj 0; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,,
+10825,.Sta Jatinegara; 12.1350; 12.1510; 0; +1; 0; 0; ; 25; 60; dept.wav,,.Crack 1; 2; 0,.Rail 2; +5; 0; 0,.Rail 1; +12.8,,.Crack 0; 2; 0,.Form 0; 2; 0; 0,.Form 2; 1; 1; 1,.RailEnd 3; +5; 0; 0,,.PoleEnd 1,.FreeObj 1; 303; -12.5,.Rail 15; -1; -0.1; 6,,
+10850,,,,.Rail 2; +6.5,.Rail 1; +14.6,.Rail 5; +18.6; 0,.Pole 2; 2; 0; 25; 2,.Form 0; 2; 1; 1,.Form 2; 1; 1; 1,.FreeObj 2; 301; 0; 0,.Pole 0; 0; -1; 25,.FreeObj 5; 101,,.Rail 15; -1; 0; 6,,.Signal 4;;0;-1;2
+10875,;.marker JNG-BKS\Mark\60.gif; 150,.Curve +400; 34,.RailType 0; 57,.Rail 2; +8,.Rail 1; +16.4,.Rail 5; +20.4,,.Form 0; 2; 1; 1,.Form 2; 1; 1; 1,.FreeObj 2; 301; 0; 0,,.limit 100,,;★絶対喚呼標,.FreeObj 2; 38; -11.3; 3.3,
+10900,.Doppler JNG-BKS\sb_n_fumikiri.wav; -3; +1,.Curve 0,.RailType 0; 50,.Rail 2; +8.7,.Rail 1; +17.3,.Rail 5; +21.3,,.Form 0; 2; 1; 1,.Form 2; 1; 1; 1,.FreeObj 2; 301; 0; 0,,,.FreeObj 2; 2151,,,
+10920,;8両オブジェクト,,,,,,,,,,,,.FreeObj 2; 2062,,,
+10925,,,,,.Rail 1; +17.6,.Rail 5; +21.6,,.Form 0; 2; 1; 1,.Form 2; 1; 1; 1,.FreeObj 2; 301; 0; 0,,,,,,
+10940,;8両オブジェクト,,,,,,,,,,,,.FreeObj 2; 2051,,,
+10950,,,,,.Rail 1; +17.7,.Rail 5; +21.7,,.Form 0; 2; 1; 1,.Form 2; 1; 1; 1,.FreeObj 2; 301; 0; 0,,,,,,
+10960,;8両オブジェクト,,,,,,,,,,,,.FreeObj 2; 2062,,,
+10975,,,,.Rail 2; +8.6,.Rail 1; +17.9,.Rail 5; +21.9,,.Form 0; 2; 1; 1,.Form 2; 1; 1; 1,.FreeObj 2; 301; 0; 0,,,,,,
+10980,;8両オブジェクト,,,,,,,,,,,,.FreeObj 2; 2051,,,
+11000,.Curve +400; +34,,,.Rail 2; +8.5,,,,.Form 0; 2; 1; 1,.Form 2; 1; 1; 1,.FreeObj 2; 301; 0; 0,.RailType 0; 57,,.FreeObj 2; 2062,,,
+11020,;8両オブジェクト,,,,,,,,,,,,.FreeObj 2; 2051,,,
+11024,,,.FreeObj 0; 16; ; ; -10,,,,,,,,,,,,,
+11025,.Doppler JNG-BKS\sb_n_fumikiri.wav; -3; +1,,.FreeObj 0; 18; ; ; -10,.Rail 2; +7.5,.Rail 1; +17.1,.Rail 5; +21.1,.Relay 0; -1,.Form 0; 2; 0; 0,.Form 2; 1; 0; 0,.FreeObj 2; 301; 0; 0,.FreeObj 0; 98; -1.9; -0.2,.FreeObj 0; 99; ; ; 180,,,,.FreeObj 15; 74; -2.5
+11026,,,.FreeObj 0; 15; ; ; -10,,,,,,,,,,,,,
+11040,;8両オブジェクト,,,,,,,,,,,,.FreeObj 2; 2161,,.FreeObj 2; 99,
+11045,.Stop 0,.FreeObj 0; 13; -0.3,.FreeObj 0; 11; +0.1,.FreeObj 0; 91; -1.9; -0.2,.FreeObj 0; 93; -1.9; +0.1,.FreeObj 0; 99; ; ; 180,,,,,,,,,,
+11050,.Curve 0,.FreeObj 0; 51; -3.5; +3.5; -10,.Rail 10; +7.8; 0; 5,.Rail 2; +5,.Rail 1; +14.8,.Rail 5; +18.8,.Rail 3; +5; 0; 13,.Crack 0; 1,.Form 1; 10; 0; 0,.FreeObj 10; 74; +1.8; +1,.PoleEnd 0,.RailType 0; 50,.PoleEnd 2,.Rail 11; +4.6; 0; 5,.Pole 11; 3; 1; 25; 3,.FreeObj 15; 74; -2.5,.Limit 0
+11055,.Sig 4; 出$chr(13)$chr(10)発; -2.2; -1; 3,.FreeObj 0; 12; -2.2; -0.75,;.marker JNG-BKS\Mark\1111.gif; 25,;.announce JNG-BKS\1111\announce3.wav,,,,,,.FreeObj 2; 21; -2.2; 0,.FreeObj 2; 22; -2.2; 4.8,.FreeObj 2; 12; -2.2; -0.5,,,,,
+11075,.Pitch +7.6,.Pole 1; 3; 3; 25; 2,.Rail 10; +4.5,.Rail 2; +1.5; 0; 11,.Rail 1; +11.6,.Rail 5; +15.6,.Rail 3; +4; 0; 0,.Crack 0; 1,.FreeObj 15; 74; -2.5,,.RailEnd 11; +1.1; ; 0,.DikeEnd 2,.DikeEnd 3,.Doppler JNG-BKS\Silence.wav; -3; +3,,.PoleEnd 11,
+11100,.Curve -800; -20,.RailType 0; 53,.Rail 10; +12,.RailEnd 2; 0; 0; 0,.Rail 1; +8.5,.Rail 5; +12.5,.Rail 3; +4,.Crack 0; 1,.FreeObj 15; 74; -2.5,.PoleEnd 1,,,,,,.Pole 10; 3; 3; 25; 3,
+11125,.Curve -400; -45,.RailType 0; 51,.RailEnd 10; +9.2; 0; 0,.PoleEnd 10,.Rail 1; +5.7,.Rail 5; +9.7,.Rail 3; +4.3; 0; 12,.Crack 0; 1,.FreeObj 15; 74; -2.5,;.marker JNG-BKS\Mark\75.gif; 100,.FreeObj 0; 51; -3.5; +3.5; -10,.FreeObj 5; 21; 2.2; 0,.FreeObj 5; 22; 2.2; 4.8,.FreeObj 5; 12; 2.2; -0.55,.FreeObj 5; 41; +2.2; -0.2,.Pole 5; 3; 3; 25; 3,.limit 100
+11150,.Curve -800; -20,.RailType 0; 53,,,.Rail 1; +4.1,.Rail 5; +8.1,.RailEnd 3; +4.1; 0; 0,.Crack 0; 1,.FreeObj 0; 0 ,.FreeObj 5; 0,.Crack 0; 5; 3,.FreeObj 0; 1,.FreeObj 5; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.Relay 0; -1,.Pole 5; 2; 2; 25; 3,.Limit 0
+11175,.Curve 0; 0,.RailType 0; 50,,.Rail 6; +7.6; 0; 10,.Rail 1; +3.8,.Rail 5; +7.6,,,,.Pole 0; 2; 0; 25; 2,.PoleEnd 5,.RailEnd 3; +3.8,;★喚呼標,.FreeObj 0; 37; -3.35; 3.3,,.PoleEnd 1,
+11200,,,,.Rail 6; +5.7; 0; 11,,,,,,,,,,,,,
+11225,,,,.RailEnd 6; +3.8; 0; 0,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 5; 0,.FreeObj 0; 1,.FreeObj 5; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,
+11250,,.Pitch 0,,.Rail 6; +3.8; 0; 10,,,,,,.FreeObj 15; 75; 0.5,,,,,,,
+11275,,,,.Rail 6; +1.9; 0; 11,,,,,,.FreeObj 15; 75; 0.5,.Pole 0; 2; 0; 25,,,.Rail 14; +12; 0; 7,.FreeObj 14; 74; +2.5,,
+11295,.Sig 3; １$chr(13)$chr(10)１$chr(13)$chr(10)１; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,;■入力禁止,,,,,,,,,,,,,,
+11300,,,,.RailEnd 6; 0; 0; 0,,,.FreeObj 1; 72; +10,,,.FreeObj 15; 75; 0.5,;★喚呼標,.FreeObj 0; 37; -3.35; 3.3,,,.FreeObj 14; 74; +2.5,,
+11325,.RailType 0; 0,.Accuracy 1,,,,,.FreeObj 1; 72; +10,,.FreeObj 5; 100,.FreeObj 15; 75; 0.5,,,,,.FreeObj 14; 74; +2.5,,
+11330,;車両オブジェクト,,,,,,,,,,,,.FreeObj 1; 6650,,,,
+11350,,,,,.Pole 0; 2; 0; 50; 3,.FreeObj 1; 72; +6,.FreeObj 1; 72; +10,,.RailEnd 5,.FreeObj 15; 74; -2.5,,.Rail 15; -1; 0; 6,.FreeObj 1; 6150,,.FreeObj 14; 74; +2.5,,
+11370,;車両オブジェクト,,,,,,,,,,,,.FreeObj 1; 7100,,
+11375,,,.Freeobj 5;14;0;0;0,,.Pole 0; 2; 0; 50; 2,,,,,.FreeObj 15; 74; -2.5,,.Rail 15; -2,,.Rail 14; +11,.FreeObj 14; 74; +2.5
+11390,;車両オブジェクト,,,,,,,,,,,,.FreeObj 1; 7100,,
+11400,,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 4,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.Pole 0; 1; 0; 50,.FreeObj 15; 77; -2.5,,.Rail 15; -3,,.Rail 14; +10,.FreeObj 14; 77; +2.5
+11410,;車両オブジェクト,,,,,,,,,,,,.FreeObj 1; 6150,,
+11425,,,,,,,,,,.FreeObj 15; 74; -2.5,,.Rail 15; -4,,.Rail 14; +9,.FreeObj 14; 74; +2.5
+11430,;車両オブジェクト,,,,,,,,,,,,.FreeObj 1; 7100,,
+11450,,,,,,,,,,.FreeObj 15; 74; -2.5,,.Rail 15; -5,.FreeObj 1; 6150,.Rail 14; +8,.FreeObj 14; 74; +2.5
+11470,;車両オブジェクト,.Sig -4; １$chr(13)$chr(10)１$chr(13)$chr(10)３; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,;■入力禁止,,,,,,,,,.FreeObj 1; 7200,,
+11475,,,,,,,,,,.FreeObj 15; 75; 0.5,,.Rail 15; -6,,.Rail 14; +7,.FreeObj 14; 74; +2.5
+11490,;車両オブジェクト,,,,,,,,,,,,,,
+11500,,,,,,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,,.FreeObj 15; 75; 0.5,,.Rail 15; -7,,.Rail 14; +6,.FreeObj 14; 74; +2.5
+11510,;車両オブジェクト,,,,,,,,,,,,,,
+11525,,,,,,,,,,.FreeObj 15; 75; 0.5,,.Rail 15; -7.5,,.Rail 14; +5.5,.FreeObj 14; 74; +2.5
+11550,,,,,,,.FreeObj 0; 35; -3.5; 3.3,,,.FreeObj 15; 75; 0.5,.FreeObj 1; 85; +4,.Rail 15; -8,,.RailEnd 14; +5.2,
+11575,,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,,,,
+11600,,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,
+11625,,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,
+11650,,,,,.Pole 0; 1; 0; 50; 3,,.FreeObj 0; 35; -3.5; 3.3,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,
+11675,,,,,.Pole 0; 1; 0; 50; 2,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,
+11695,;■入力禁止,;踏切,,,,,,,,,.FreeObj 0; 70; -4,
+11700,,,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 3,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.FreeObj 0; 77; -27; ; 91,.FreeObj 15; 77; -2.5,.FreeObj 1; 87; +4,
+11708,;■入力禁止,;踏切,,,,,,,.FreeObj 0; 77; -27; ; 91,,,
+11710,;■入力禁止,;踏切,,,,,,,,,.FreeObj 0; 70; -4,
+11725,,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,
+11750,.Sig -4; １$chr(13)$chr(10)１$chr(13)$chr(10)５; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -1,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,
+11775,,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,.Rail 15; -8
+11800,.Pole 0; 1; 0; 50; 0,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,.Rail 15; -1
+11825,,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,
+11850,.Pole 0; 1; 0; 50; 4,,,,,,,,,.FreeObj 15; 74; -2.5,.FreeObj 1; 85; +4,
+11875,,,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,.RailEnd 15
+11900,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,
+11925,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+11950,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+11975,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12000,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12025,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12050,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12075,.Curve +1600; +25,,.Pitch +2,.RailType 0; 28,.RailType 1; 28,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.Relay 0; -1
+12100,.Curve +610; +70,,,.RailType 0; 20,.RailType 1; 20,,.limit 100,;.marker JNG-BKS\Mark\85.gif; 200,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+12125,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12150,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12175,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12200,.Curve +1600; +25,,,.RailType 0; 28,.RailType 1; 28,,.Limit 0,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12225,.Curve 0; 0,.Pitch 0,,.RailType 0; 0,.RailType 1; 0,,,,.FreeObj 0; 78; -11; -0.5; 9,.FreeObj 0; 74; -8; ; 9,.FreeObj 1; 85; +4,,,,,
+12250,,,,,,,,.FreeObj -1; 71; -10,.FreeObj 0; 78; -7; -0.5,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12275,,,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,,
+12300,.Sig 3; １$chr(13)$chr(10)２$chr(13)$chr(10)１; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12325,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.Relay 0; -1
+12350,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+12375,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12400,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12425,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12450,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12475,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12500,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12525,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12550,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12575,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12600,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12625,,.Rail 1; +3.8; 0; 26,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12650,,.Rail 1; +4.3; 0; 0,.Crack 0; 1; 0,.Sig 3; １$chr(13)$chr(10)２$chr(13)$chr(10)５; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+12675,,.Rail 1; +5.3,.Crack 0; 1; 0,.Pole 0; 2; 0; 50,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,.Relay 0; -1
+12700,,.Rail 1; +6.3,.Crack 0; 1; 0,.Crack 0; 1; 3,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,;★喚呼標,.FreeObj 0; 37; -3.35; 3.3,
+12725,.Sta Cipinang; p; ; 0; +1; 0; 0; ; 20; 45; ,.Rail 1; +7.3,.Form 0; 1; 4; 1,,,,,.FreeObj -1; 71; -6,.FreeObj 0; 78; -7; -0.5,,.FreeObj 1; 85; +4,,.Rail 4; -4.5; -0.1; 6,,
+12750,,.Rail 1; +8.3,.Form 0; 1; 4; 1,,,,,.FreeObj -1; 71; -6,.FreeObj 0; 78; -7; -0.5,,,,,,
+12775,,.Rail 1; +9.3,.Form 0; 1; 4; 1,,,,,.FreeObj -1; 71; -6,.FreeObj 0; 78; -7; -0.5,,,,,,
+12800,,.Rail 1; +10.3,.Form 0; 1; 4; 1,.Pole 0; 3; 0; 50,,,,.FreeObj -1; 71; -6,.FreeObj 0; 78; -7; -0.5,,,,,,
+12825,.Curve -1600; -25,.Rail 1; +10.8,.Form 0; 1; 4; 1,,,.RailType 0; 27,.RailType 1; 27,,,,,,,,
+12850,.Curve -620; -55,,.Form 0; 1; 4; 1,,,.RailType 0; 19,.RailType 1; 25,.limit 100,;.marker JNG-BKS\Mark\85.gif; 200,,,,.Rail 4; -2; -0.1; 6,;★絶対喚呼標,.FreeObj 0; 38; -3.2; 3.3
+12875,.Relay +2.2; +4.5,,.Form 0; 1; 4; 1,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,.RailEnd 4,,
+12900,,.Rail 1; +10.3,.Form 0; 1; 4; 1,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+12925,,.Rail 1; +9.3,.Form 0; 1; 4; 1,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+12935,.Stop 0,,.FreeObj 0; 17; +0.1,.FreeObj 0; 97; -1.8; -0.1,.FreeObj 0; 99; ; ; 180,,,,,,,,,,
+12950,,.Rail 1; +8.3,.Crack 0; 1; 0,.Pole 0; 2; 0; 50,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+12975,.Sig 4; 出$chr(13)$chr(10)発; +3.5; -1; 3,,.Crack 0; 1; 0,.FreeObj 0; 12; +3.5; -0.75,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+13000,,,.Crack 0; 1; 0,,.height 0.5,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+13025,.Pitch -10,,.Crack 0; 1; 0,,.height 0.7,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+13050,,,.Crack 0; 1; 0,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+13075,,.Rail 1; +8,.Crack 0; 1; 0,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+13100,,.Rail 1; +7.3,.Crack 0; 1; 0,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+13125,,.Rail 1; +6.3,.Crack 0; 1; 0,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,.Relay 0; -1
+13150,,.Rail 1; +5.3,.Crack 0; 1; 0,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;★喚呼標,.FreeObj 0; 37; -3.35; 3.3,
+13175,,.Rail 1; +4.3,.Crack 0; 1; 0,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+13200,.Curve -1600; -25,.Rail 1; +3.8,,.Pole 0; 1; 0; 50,,.RailType 0; 27,.RailType 1; 0,.Limit 0,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+13225,.Curve 0; 0,,,,,.RailType 0; 0,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+13250,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,
+13275,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+13300,.Sig 3; １$chr(13)$chr(10)３$chr(13)$chr(10)１; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+13325,.height 0.7,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+13350,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+13375,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.Dike 0; -1,.Dike 1; +1,.Rail 2; -0.1; 0; 5,.Rail 3; +3.9; 0; 5,.FreeObj 2; 86; -4,.FreeObj 3; 87; +4,,,,.Relay 0; -1
+13400,,,,,,,,,.Rail 2; -0.1; -0.8,.Rail 3; +3.9; -0.8,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+13425,,,,,,,,,.Rail 2; -2.7; -1.2,.Rail 3; +6.5; -1.2,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13450,.Pitch +8.4,,.Pole 0; 1; 0; 50; 0,,,,,,.Rail 2; -3.1; -1.6,.Rail 3; +6.9; -1.6,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13475,,,,,,,,,.Rail 2; -3.7; -2.5,.Rail 3; +7.5; -2.5,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13500,,.Ground 2,.Wall 0; -1; 5,.Wall 1; +1; 5,.DikeEnd 0,.DikeEnd 1,,,.Rail 2; -4.1; -2.9,.Rail 3; +7.9; -2.9,,,,,.FreeObj 0; 35; -3.5; 1.5,
+13525,.Height 4,.Ground 1,.WallEnd 0,.WallEnd 1,.Dike 0; -1,.Dike 1; +1,,,.Rail 2; -4.5; -3.4,.Rail 3; +8.3; -3.4,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13550,,.Ground 0,;.marker JNG-BKS\Mark\riv_shirako.gif; 75,,,,,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13575,,,,,,,,,.Rail 2; -4.3; -3.2,.Rail 3; +8.1; -3.2,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13600,,,,,,,,,.Rail 2; -4.2; -3,.Rail 3; +8; -3,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13625,,,,,,,,,.Rail 2; -4; -2.8,.Rail 3; +7.8; -2.8,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13645,.Sig -4; １$chr(13)$chr(10)３$chr(13)$chr(10)５; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,,;■入力禁止,,,,,,,,,,
+13650,,,,,,,,,.Rail 2; -3.8; -2.7,.Rail 3; +7.6; -2.7,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,;.FreeObj 0; 36; -3.5; 3.3,
+13675,.Height 3.2,,,,,,,,.Rail 2; -3.8; -2.6,.Rail 3; +7.6; -2.6,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,.Relay 0; -1
+13700,;2.3,,,,,,,,.Rail 2; -3; -1.7,.Rail 3; +6.4; -1.7,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+13725,;1.4,,,,,,,,.Rail 2; -0.4; -0.8,.Rail 3; +5.2; -0.8,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13750,.Height 0.5,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.Rail 2; -0.2; 0,.Rail 3; +4; 0,.FreeObj 2; 86; -4,.FreeObj 3; 87; +4,,,,
+13775,;1.0,,,,,,,,.Rail 2; -0.2; -0.2,.Rail 3; +4; -0.2,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13800,;1.5,,.Pole 0; 1; 0; 50; 4,,,,,,.Rail 2; -0.2; -0.7,.Rail 3; +4; -0.7,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13825,.Height 2,,,,,,,,.Rail 2; -2.5; -1.2,.Rail 3; +6.3; -1.2,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13850,,,,.FreeObj -1; 74; -32; +0.5; 90,.FreeObj -1; 71; -10,.FreeObj -1; 71; -16,.FreeObj -1; 71; -22,.FreeObj -1; 71; -28,.Rail 2; -2.9; -1.5,.Rail 3; +6.7; -1.5,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,,
+13875,,,,,.FreeObj -1; 71; -10,,,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+13885,.Sig -4; １$chr(13)$chr(10)３$chr(13)$chr(10)７; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,;■入力禁止,,,,,,,,,,,,
+13900,,,,,.FreeObj -1; 71; -10,,,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,;絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3
+13925,.Height 2,,,,,,,,.Rail 2; -2.9; -1.5,.Rail 3; +6.7; -1.5,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+13950,;1.5,,,,,,,,.Rail 2; -2; -1,.Rail 3; +5.8; -1,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+13975,;1.0,,,,,,,,.Rail 2; -1.1; -0.5,.Rail 3; +4.9; -0.5,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+14000,.height 0.5,.DikeEnd 0,.DikeEnd 1,,,,,,.RailEnd 2; -0.01; 0,.RailEnd 3; +3.8; 0,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,
+14025,,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,
+14050,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,
+14070,,.Sig -4; 第$chr(13)$chr(10)１$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.2; -1; 2,.FreeObj 0; 12; -2.2; -0.75,;■入力禁止,,,,,,,,,,,
+14075,,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,
+14100,,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,;絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3
+14125,,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,
+14150,,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,
+14175,,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,
+14200,,,.Pole 0; 1; 0; 50; 0,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,
+14225,,,,,,.Rail 1; +3.8; 0; 28,.Crack 0; 1; 0,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+14250,.Accuracy 3,,,,,.Rail 1; +4.2; 0; 0,.Crack 0; 1; 0,,,.Rail 2; +4.2; 0; 10,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+14275,,,,,,.Rail 1; +5,.Crack 0; 1; 0,;.marker JNG-BKS\Mark\p95.gif; 150,,.Rail 2; +2.1; 0; 11,.Curve +2750; +20,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4
+14300,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.Rail 1; +5.8,.Crack 0; 1; 0,.Pitch 0,.Crack 0; 1; 3,.RailEnd 2; 0; 0; 0,.Curve 0; 0,,.RailType 0; 50,.Pole 0; 2; 0; 50; 0,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4
+14310,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,;入力禁止,.FreeObj 1; 70; +7,.Sig 5; 第$chr(13)$chr(10)２$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.2; -1; 2,.FreeObj 0; 12; -2.2; -1,,,,,
+14325,.Sta Klender; ; ; 0; +1; 0; 0; ; 20; 45; dept.wav,,,,.Form 0; 1; 1; 5,.Rail 1; +6.6,.Rail 3; +11; 0; 0,.Rail 4; +15; 0; 0,.FreeObj 4; 74; +2,.FreeObj 0; 75; -1,,.FreeObj 3; 101,.FreeObj 4; 101,,,.Sig 5; ; 0; -1; 2
+14350,.Curve -1500; -30,.RailType 0; 58,,.Pole 1; 2; 0; 50; 0,.Form 0; 1; 1; 5,.Rail 1; +7.4,.Rail 3; +11.4; 0,.Rail 4; +15.4; 0,.FreeObj 4; 74; +2,.FreeObj 0; 75; -1,,.Pole 0; 0; -1; 50; 0,,;★絶対喚呼標,.FreeObj 0; 38; -2.6; 3.3,
+14375,.Curve 0; 0,.RailType 0; 50,,,.Form 0; 1; 1; 5,.Rail 1; +7.8,.Rail 3; +11.8,.Rail 4; +15.8,.FreeObj 4; 74; +2,.FreeObj 0; 75; -1,,,,,,
+14400,,,,,.Form 0; 1; 1; 5,.Rail 1; +8.4,.Rail 3; +12.4,.Rail 4; +16.4,.FreeObj 4; 74; +2,.FreeObj 0; 75; -1,,,,,,
+14425,,,,,.Form 0; 1; 1; 5,.Rail 1; +9,.Rail 3; +13,.Rail 4; +17,.FreeObj 4; 74; +2,.FreeObj 0; 75; -1,,,,,,
+14450,,,,,.Form 0; 1; 1; 5,.Rail 1; +9.6,.Rail 3; +13.6,.Rail 4; +17.6,.FreeObj 4; 74; +2,.FreeObj 0; 75; -1,,,,,,
+14475,.Curve +1000; +45,.RailType 0; 59,,,.Form 0; 1; 1; 5,.Rail 1; +10.2,.Rail 3; +14.2,.Rail 4; +18; ; 10,.FreeObj 4; 74; +2,.FreeObj 0; 75; -1,,,,,,
+14500,,,,,.Form 0; 1; 1; 5,.Rail 1; +10.4,.Rail 3; +14.4,.Rail 4; +16; ; 11,,.FreeObj 0; 75; -1,,,,,,
+14525,.Curve 0; 0,.RailType 0; 50,,,.Form 0; 1; 1; 5,.Rail 1; +10,.Rail 3; +14,.RailEnd 4; +14; 0; 0,,.FreeObj 0; 75; -1,,,,,,
+14540,.Stop 0,.FreeObj 0; 17,.FreeObj 0; 97; -1.9,.FreeObj 0; 99; ; ; 180,,;入力禁止,,,,,,,,,,
+14550,.Sig 4; 第$chr(13)$chr(10)１$chr(13)$chr(10)出$chr(13)$chr(10)発; +2.2; -1; 3,.FreeObj 0; 41; +2.2; -0.2,,.Crack 0; 1; 0,.FreeObj 0; 12; +2.2; -0.75,.Rail 1; +9.3,.Rail 8; +9.3; 0; 11,,,.FreeObj 0; 75; -1,,.Curve -2200; -25,.RailType 0; 60,,,
+14575,.Rail 2; 0; 0; 11,,,.Crack 0; 1; 0,.Crack 1; 3; 0,.Rail 1; +8.6,.Rail 8; +11.3; ; 10,;.marker JNG-BKS\Mark\p95.gif; 150,,.FreeObj 0; 75; -1,,.limit 100,,,,,,,,
+14600,.Rail 2; +2; ; 26,.PoleEnd 1,.Pole 0; 2; 0; 50,.Crack 0; 1; 0,.Crack 1; 3; 0,.Rail 1; +8.2,.RailEnd 8; +14; ; 0,.Rail 5; -10.65,.Rail 6; -6.85,.Pole 6; 1; 1; 50; 0,.Pole 3; 1; 0; 50; 0,.Curve 0; 0,.RailType 0; 50,.Crack 0; 6; 0,.Rail 10; 0; 0; 10,.FreeObj 5; 75; -1,.FreeObj 6; 101,.FreeObj 5; 101,,
+14625,.Rail 2; +6.5; ; 0,,,.Crack 0; 1; 0,.Crack 1; 3; 0,.Rail 1; +8,,,.Rail 8; +14; 0; 10,.PoleEnd 0,.PoleEnd 3,,,.Crack 0; 6; 0,.Rail 10; -1.7; ; 0,.FreeObj 5; 75; -1,,,.Relay 0; -1,
+14650,.Rail 2; +11.8; ; 10,.Rail 7; 0; 0; 11,;.Rail 11; +11.8; 0; 0,.Crack 0; 1; 0,.Crack 1; 3; 0,,,,.Rail 8; +11; ; 11,.Pole 6; 3; 1; 50,.Pole 1; 1; 0; 50,.Rail 9; -10.6; 0; 11,,.Crack 0; 6; 0,.Rail 10; -5.1; ; 11,.FreeObj 5; 75; -1,;★絶対喚呼標,.FreeObj 0; 38; +3.95; 3.3,,.FreeObj 0; 40; +3.95; 2.8
+14675,.RailEnd 2; +14; ; 0,.Rail 7; +2; ; 10,;.Rail 11; +16,.Crack 0; 1; 0,.Crack 1; 3; 0,,,.PoleEnd 1,.Rail 8; +8; ; 10,.Pole 0; 3; 0; 50,.Pole 6; 1; 1; 50,.Rail 9; -8.7; ; 10,,.Crack 0; 6; 0,.RailEnd 10; -6.85; ; 0,,,,,
+14690,;踏切,.FreeObj 5; 0,.FreeObj 3; 0,.FreeObj 5; 1,.FreeObj 3; 2,.Doppler JNG-BKS\Crossing.wav; -13; +3,.Crack 5; 6; 4,.Crack 0; 6; 4,.Crack 0; 1; 4,.Crack 1; 3; 4,.FreeObj 6; 0,.FreeObj 0; 0,.FreeObj 1; 0,,,,,,,
+14700,,.Rail 7; +4; ; 0,;.Rail 11; +20,.Rail 12; +14.3; 0; 11,.Crack 1; 3; 0,;.Rail 6; -6.85,.Rail 3; +14.3,.Rail 2; +6; ; 11,.Rail 8; +6; ; 0,.Pole 0; 2; 0; 50,.Pole 3; 2; 0; 50,.RailEnd 9; -6.85; ; 0,,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,,,,
+14725,,,;.Rail 11; +24,.Rail 12; +16.3; ; 0,.Crack 1; 3; 0,.Rail 13; +16.3; 0; 10,,.RailEnd 2; +4; ; 0,.Rail 8; +2; ; 11,,,.Rail 9; -10.6; 0; 11,,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,,,,
+14750,,,;.RailEnd 11; +28,.Rail 12; +20.3; ; 10,.Crack 1; 3; 0,.Rail 13; +18.3; ; 0,,,.RailEnd 8; +0; ; 0,,,.Rail 9; -8.7; ; 10,,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,,,,
+14770,;車両オブジェクト,,,,,,,,,,,,,,,,,,,
+14775,,,,.Rail 12; +22.3; ; 0,.Crack 1; 3; 0,,,,,,,.RailEnd 9; -6.85; ; 0,.Rail 9; -10.6; 0; 11,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,,,,
+14790,;車両オブジェクト,,,,,.FreeObj 13; 2402,,,,,,,,,,,,,,
+14800,.Sig 4; 第$chr(13)$chr(10)２$chr(13)$chr(10)出$chr(13)$chr(10)発; -2.2; +6.5; 3,,.RailType 0; 0,,.Crack 1; 3; 0,,,,,,,,.Rail 9; -8.7; ; 10,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,,,,
+14810,;車両オブジェクト,,,,,.FreeObj 13; 2401,,,,,,,,,,,,,,
+14825,,,,,.Crack 1; 3; 0,,,,,,,,.RailEnd 9; -6.85; ; 0,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,,,,
+14830,;車両オブジェクト,,,,,,,,,,,,,,,,,,,
+14850,,,,,.Crack 1; 3; 0,,,.FreeObj 12; 7300,,,,,,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,,
+14870,;車両オブジェクト,,,,,,,.FreeObj 12; 7400,,,,,,,,,,
+14875,,,,,,.Crack 1; 3; 0,,,,,,.Rail 10; -6.85; ; 11,,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,,
+14890,;車両オブジェクト,,,,,,.FreeObj 3; 2002,.FreeObj 12; 7700,,,,,,,,,,
+14900,,,,,,.Crack 1; 3; 0,,,,,,.Rail 10; -5.1; ; 0,,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,,
+14910,;車両オブジェクト,,,,,,.FreeObj 3; 2101,.FreeObj 12; 7700,,,,,,,,,,
+14925,,,,,,.Crack 1; 3; 0,,,.FreeObj 5; 100,.FreeObj 6; 100,;.marker JNG-BKS\Mark\p95.gif; 150,.Rail 10; -1.7; ; 10,,.Crack 0; 6; 0,,.FreeObj 5; 75; -1,.Relay 0; -1,
+14930,;車両オブジェクト,,,,,,.FreeObj 3; 2101,.FreeObj 12; 7400,,,,,,,,,,
+14950,,.FreeObj 7; 17,.FreeObj 7; 97; -1.7,.Crack 0; 1; 0,,.Crack 1; 3; 0,.FreeObj 3; 2102,.FreeObj 12; 6850,.RailEnd 5,.RailEnd 6,.PoleEnd 6,.RailEnd 10; 0; ; 0,,.FreeObj 0; 75; -1,;★喚呼標,.FreeObj 0; 37; -3.35; 3.3,,.FreeObj 0; 36; -3.35; 2.8
+14970,;車両オブジェクト,,,,,,.FreeObj 3; 2002,.FreeObj 12; 7700,,,,,,,,,,
+14975,,,.FreeObj 7; 100,.Crack 0; 1; 0,.Rail 1; +8; ; 19,.Crack 1; 3; 0,,,,,,,,.FreeObj 0; 75; -1,,,,
+14990,;車両オブジェクト,,,,,,.FreeObj 3; 2101,.FreeObj 12; 7400,,,,,,,,,,
+15000,,.RailEnd 7,,.Crack 0; 1; 0,.Rail 1; +7.4; ; 0,.Crack 1; 3; 0,,,,,,,,.FreeObj 0; 75; -1,,.FreeObj 0; 35; -3.35; 3.3,,
+15010,;車両オブジェクト,,,,,,.FreeObj 3; 2101,.FreeObj 12; 7000,,,,,,,,,,
+15025,,,,.Crack 0; 1; 0,.Rail 1; +6.4,.Crack 1; 3; 0,,,.FreeObj 12; 100,.FreeObj 13; 100,.FreeObj 3; 100,,,.FreeObj 0; 75; -1,,,,
+15030,;車両オブジェクト,,,,,,.FreeObj 3; 2102,,,,,,,,,,,
+15050,.Pole 0; 1; 0; 50; 3,.RailEnd 3,,.Crack 0; 1; 0,.Rail 1; +5.4,,.RailEnd 12,.RailEnd 13,,,,,,.FreeObj 0; 75; -1,.FreeObj 1; 76; +1,.FreeObj 1; 75; +4.5; ; 90
+15075,.Accuracy 1,.Crack 0; 1; 3,.FreeObj 0; 0,.FreeObj 1; 0,.Rail 1; +4.4; ; 20,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,.PoleEnd 3,,,
+15100,.Pole 0; 1; 0; 50; 4,,,,.Rail 1; +3.8; ; 0,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,.Rail 10; 0; ; 11,,,
+15125,,,,,,,,.Limit 0,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,.Rail 10; +1.9; ; 10,,,
+15135,.Sig -4; １$chr(13)$chr(10)５$chr(13)$chr(10)１; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,;■入力禁止,,,,,,,,,,,,,
+15150,.Pole 0; 1; 0; 50; 0,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,.RailEnd 10; +3.8; ; 0,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+15175,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+15200,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+15225,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,,
+15250,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+15275,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+15300,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+15325,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+15350,.Sig -4; １$chr(13)$chr(10)５$chr(13)$chr(10)３; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,.Pole 0; 1; 0; 50; 4,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,,
+15375,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,,
+15400,.Curve +1200; +30,,,,.RailType 0; 28,.RailType 1; 28,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,.Relay 0; -1,
+15425,.Curve +600; +70,,.Pole 0; 1; 0; 25; 0,,.RailType 0; 20,.RailType 1; 20,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+15450,.Curve +400; +100,,.limit 100,,.RailType 0; 16,.RailType 1; 16,,,;.marker JNG-BKS\Mark\75.gif; 200,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15475,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15500,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15525,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15550,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15575,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15600,.Pitch +2.3,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15625,.Curve +600; +70,,.Limit 0,,.RailType 0; 20,.RailType 1; 20,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,
+15650,.Curve +1200; +30,.Sig 3; １$chr(13)$chr(10)５$chr(13)$chr(10)５; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,.Pole 0; 1; 0; 50,.RailType 0; 28,.RailType 1; 28,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15675,.Curve 0; 0,,,,.RailType 0; 0,.RailType 1; 0,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,.Relay 0; -1
+15700,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+15725,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15750,,,,,,,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,
+15775,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15800,;.announce JNG-BKS\1111\announce4.wav,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15825,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15850,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15875,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15900,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15925,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,
+15950,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+15975,.Sig 3; １$chr(13)$chr(10)５$chr(13)$chr(10)９; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16000,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16025,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,.Relay 0; -1
+16050,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3,
+16075,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16100,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16125,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,,
+16150,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16175,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16200,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16225,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+16250,,,.Pole 0; 1; 0; 50; 4,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+16275,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+16297,.Sig -4; 第$chr(13)$chr(10)１$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.2; 5.25; 2,.FreeObj 0; 12; -2.2; -0.25,.FreeObj 0; 21; -2.2; 0,.FreeObj 0; 22; -2.5; 4,.FreeObj 0; 12; -2.5; -1.25,;■入力禁止,,,,,,,,
+16300,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;絶対喚呼標,.FreeObj 0; 38; -3.5; 3.3
+16325,;.announce JNG-BKS\halt.wav,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+16350,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,
+16375,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+16400,,,,.Rail 3; +3.8; 0; 13,,,,,,.FreeObj 0; 84; -4,.FreeObj 3; 85; +4,,,
+16425,.Pitch 0,.Pole 0; 2; 0; 25; 4,.Rail 2; 0; 0; 12,.Rail 3; +4.8; ; 0,,,.Rail 4; +7.6; 0; 0,,.FreeObj 4; 101,.FreeObj 2; 84; -4,.FreeObj 4; 85; +4,,,
+16450,,.Pole 0; 2; 0; 25; 0,.Rail 2; -1; ; 0,.Rail 3; +6.8,,.Crack 1; 3,.Rail 4; +7.6; 0; 13,,,.FreeObj 2; 84; -4,.FreeObj 4; 85; +4,,,
+16475,.Pole 0; 3; 1; 25,;.Pole 4; 3; 3; 25,.Rail 2; -3,.Rail 3; +8.8,.Crack 0; 2,.Form 1; 3; 10; 7,.RailEnd 4; +8.8; 0; 0,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+16495,;■入力禁止,,.Sig 5; 第$chr(13)$chr(10)２$chr(13)$chr(10)場$chr(13)$chr(10)内; -1.8; 5; 2,.FreeObj 0; 12; -1.8; -0.75,.FreeObj 2; 21; +2.4; 0,.FreeObj 2; 24; +2.1; +4.75,.FreeObj 2; 12; +2.1; -0.75,,,,,,,
+16500,.Sta Buaran; ; ; 0; -1; 0; 0; ; 25; 40; dept.wav,.Pole 0; 1; 0; 50; 0,.Rail 2; -5,.Rail 3; +10.8,.Form 0; 2; 10; 7,.Form 1; 3; 10; 7,.Pole 2; 0; -1; 25; 0,.Pole 3; 0; +1; 25; 0,.PoleEnd 4,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+16525,,,.Rail 2; -7,.Rail 3; +12.8; ; 0,.Form 0; 2; 10; 7,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+16535,;■車両オブジェクト,,,,,,,,,,,,,
+16550,,,.Rail 2; -9; ; 13,,.Form 0; 2; 10; 7,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+16555,;■車両オブジェクト,,,,,,,,,,,,,
+16575,,,.Rail 2; -10; ; 0,,.Form 0; 2; 10; 7,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+16595,;■車両オブジェクト,,,,,,,,,,,,,
+16600,,,,,.Form 0; 2; 10; 7,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+16615,;■車両オブジェクト,,,,,,,,,,,,,
+16625,.Sig 5; ; 0; -1; 2,,,,.Form 0; 2; 10; 7,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+16635,;■車両オブジェクト,,,,,,,,,,,,,
+16650,,,.Rail 2; -10; ; 13,.Rail 3; +12.8; ; 0,.Form 0; 2; 10; 7,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+16655,;■車両オブジェクト,,,,,,,,,,,,,
+16675,,,.Rail 2; -9; ; 0,.Rail 3; +10.8,.Form 0; 2; 10; 7,.Form 1; 3; 10; 7,,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,
+16680,,,,,,,,,,,,,,
+16695,;■車両オブジェクト,,,,,,,,,,,,,
+16700,,,.Rail 2; -7,.Rail 3; +8.8,.Form 0; 2; 10; 7,,.Crack 1; 3,,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,,.Relay 0; -1
+16715,.Stop 0,.FreeObj 0; 17,.FreeObj 0; 97; +1.9,.FreeObj 0; 99,.FreeObj 2; 99; ; ; 180,,,,,,,;■入力禁止,,
+16725,,,.Rail 2; -5,.Rail 3; +6.8,.Crack 0; 2,.Crack 1; 3,,,,,,,.Rail 4; -7; -0.1; 6,.Rail 5; +8.8; -0.1; 7
+16730,.Sig 4; 出$chr(13)$chr(10)発; -2.1; -1; 3,.FreeObj 0; 12; -2.1; -0.75,.FreeObj 2; 21; -2.1; 0,.FreeObj 2; 22; -2.1; +4.75,.FreeObj 2; 12; -2.1; -0.75,.FreeObj 0; 50; -2.2; 2.7,;.marker JNG-BKS\Mark\1111.gif; 25,;.announce JNG-BKS\1111\announce5.wav,,,,;■入力禁止,,,
+16735,,.FreeObj 0; 0; -1,.FreeObj 1; 0; -1,.FreeObj 0; 0; -4.8,.FreeObj 1; 0; +2.8,.FreeObj 0; 1; -4.8,.FreeObj 1; 2; +2.8,.Doppler JNG-BKS\Crossing.wav; -7; +3,,,,;■入力禁止,,,
+16750,,.Pole 0; 3; 1; 50,.Rail 2; -3,.Rail 3; +4.8; ; 13,.Crack 0; 2; 0,,.PoleEnd 2,.PoleEnd 3,,.FreeObj 2; 84; -4,.FreeObj 3; 85; +4,,.RailEnd 4; -5,.RailEnd 5; +6.8,
+16775,,.Pole 0; 2; 1; 25,.Rail 2; -1; ; 12,.RailEnd 3; +3.8; ; 0,,,,,,.FreeObj 2; 84; -4,.FreeObj 1; 85; +4,,,,.Relay 0; -1
+16800,,.Pole 0; 1; 0; 25,.RailEnd 2; 0; ; 0,,.Height 0.5,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+16825,.Pitch -10,.Pole 0; 1; 0; 50,,,.Height 0.7,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16850,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16875,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16900,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16925,.Sig -4; １$chr(13)$chr(10)６$chr(13)$chr(10)７; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16950,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+16975,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,,
+17000,.Curve +800; +40,,.Pole 0; 1; 0; 25,,.RailType 0; 23,.RailType 1; 23,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,
+17025,.Curve +400; +80,,,,.RailType 0; 16,.RailType 1; 16,,.limit 100,;.marker JNG-BKS\Mark\75.gif; 200,,,,,,
+17050,,,,,,,,,,,,,,,
+17075,,,,,,,,,,,,,,,
+17100,.Sig 3; １$chr(13)$chr(10)６$chr(13)$chr(10)９; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,,,
+17125,,,,,,,,,
+17150,,,,,,,,,
+17175,.Curve +800; +40,,.Dike 0; -1,.Dike 1; +1,.RailType 0; 23,.RailType 1; 23,,.Limit 0,.Height 0.7
+17200,.Curve 0; 0,,,,.RailType 0; 0,.RailType 1; 0,,,
+17225,,,.Pole 0; 1; 0; 50,,,,,,
+17250,.RailType 0; 2,.RailType 1; 2,.DikeEnd 0,.DikeEnd 1,,,,,.Height 5
+17275,.RailType 0; 0,.RailType 1; 0,.Dike 0; -1,.Dike 1; +1,,,,,.Height 5
+17300,.Sig 3; １$chr(13)$chr(10)７$chr(13)$chr(10)３; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,,,
+17325,,,,,,,,,
+17350,,,,,,,,,
+17375,,,,,,,,,
+17400,,,,,,,,,
+17425,.Height 0.7,,,,,,,,
+17450,.Height 0.7,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,
+17475,,,,,,,,,
+17500,.Height 5,.Ground 2,.Wall 0; -1; 5,.Wall 1; +1; 5,.DikeEnd 0,.DikeEnd 1,
+17525,.Height 5,.Ground 1,.WallEnd 0,.WallEnd 1,.Dike 0; -1,.Dike 1; +1,
+17550,,.Ground 0,;.marker JNG-BKS\Mark\riv_ochiai.gif; 75,,,,
+17575,,,,,,,
+17600,.Pitch 0,,,,,,
+17625,,,,,,,
+17650,.Sig -4; １$chr(13)$chr(10)７$chr(13)$chr(10)７; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,,,
+17675,,,,,,,
+17700,,,,,,,
+17725,.Height 0.5,.DikeEnd 0,.DikeEnd 1,,,,
+17750,,,,,,,
+17775,,,,,,,
+17800,,,,,,,
+17825,,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3
+17850,,,,,,,
+17875,.Sig -4; １$chr(13)$chr(10)７$chr(13)$chr(10)９; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,,,
+17900,.Sta Klenderbaru; ; ; 0; -1; 0; 0; ; 25; 40; dept.wav,.Form 0; L; 4; 1,.Form 1; R; 4; 1,.Wall 0; -1; 2,.Wall 1; +1; 2,,.Pole 0; 1; 0; 50; 2
+17925,,.Form 0; L; 4; 1,.Form 1; R; 4; 1,,,,.Pole 0; 3; 1; 50; 0
+17950,,.Form 0; L; 4; 1,.Form 1; R; 4; 1,,,,
+17975,,.Form 0; L; 4; 1,.Form 1; R; 4; 1,,,,
+18000,,.Form 0; L; 4; 1,.Form 1; R; 4; 1,,,,
+18025,,.Form 0; L; 4; 1,.Form 1; R; 4; 1,,,,
+18050,,.Form 0; L; 4; 1,.Form 1; R; 4; 1,,,,
+18075,,.Form 0; L; 0; 0,.Form 1; R; 0; 0,.Wall 0; -1; 3,.Wall 1; +1; 3,.FreeObj 0; 11; 0,.FreeObj 0; 91; +1.9
+18100,,.Form 0; L; 0; 0,.Form 1; R; 0; 0,,,,
+18115,.Stop 0,.FreeObj 0; 13; 0,.FreeObj 0; 93; +1.9,.FreeObj 0; 99,,,
+18125,,,,.WallEnd 0,.WallEnd 1,,.Pole 0; 1; 0; 50
+18150,.Pitch +11.4,.Sig 3; 出$chr(13)$chr(10)発; -2.2; -1; 3,.FreeObj 0; 12; -2.2; -0.5,,,,
+18175,,,,,,,
+18200,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,
+18225,,,,,,,
+18250,.Height 0.5,.Dike 0; -1,.Dike 1; +1,,,,
+18275,,,,,,,,,,,,
+18300,,,,,,,,,,,,
+18325,,,,,,,,,,,,
+18350,,,,,,,,,,,,
+18375,,,,,,,,,,,,
+18400,,,,,,,,,,,,
+18425,.Height 7,,,,,,,,,,,
+18450,,,,,,,,,,,,
+18475,.Ground 2,;.Wall 0; -1; 5,;.Wall 1; +1; 5,.DikeEnd 0,.DikeEnd 1,.Height 5,.Railtype 0; 2,.Railtype 1; 2,,,,
+18500,.Ground 1,;.WallEnd 0,;.WallEnd 1,.Dike 0; -1,.Dike 1; +1,,.Railtype 0; 0,.Railtype 1; 0,,,,
+18525,.Ground 0,;.marker JNG-BKS\Mark\riv_kurome.gif; 75,,,,,,,,,,
+18550,,,,.Rail 14; -9; -7; 8,.Rail 15; +13; -7; 9,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18575,.Height 7,,,.Rail 14; -7; -3,.Rail 15; +11; -3,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18600,,.DikeEnd 0,.DikeEnd 1,.Rail 14; -5; +1,.Rail 15; +9; +1,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18625,.Height 0.5,,,.Rail 14; -9; +5,.Rail 15; +11; +3,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18650,,,,,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18675,.Sig 3; １$chr(13)$chr(10)８$chr(13)$chr(10)７; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18700,,,,,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18725,,,,,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18750,,,,,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18775,,,,,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18800,,,,,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18825,,,,.Rail 14; -9; 5,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18850,,,,.Rail 14; -8.9; 4.9,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18875,,,,.Rail 14; -8.2; 4.2,,,.FreeObj 14; 80; -2,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18900,,,,.Rail 14; -7.5; 3.5,.Rail 15; +11; 3,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18925,,,,.Rail 14; -6.8; 2.8,.Rail 15; +10.8; 2.8,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18950,,,,.Rail 14; -6.1; 2.1,.Rail 15; +10.1; 2.1,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+18975,,,,.Rail 14; -5.4; 1.4,.Rail 15; +9.4; 1.4,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+19000,,,,.Rail 14; -4.7; 0.7,.Rail 15; +8.7; 0.7,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+19025,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,.RailEnd 14; -4; 0,.RailEnd 15; +8; 0,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4
+19050,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4
+19075,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19100,.Sig -4; １$chr(13)$chr(10)９$chr(13)$chr(10)１; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19125,.Pitch 0,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19150,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,
+19175,;.marker JNG-BKS\Mark\riv_nobidome.gif; 75,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19200,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19225,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19250,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19275,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19300,.Sig -4; １$chr(13)$chr(10)９$chr(13)$chr(10)３; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19325,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,.FreeObj 0; 86; -4,.FreeObj 1; 87; +4,,,
+19350,,,,,,,,,,,.FreeObj 0; 84; -4,.FreeObj 1; 85; +4,,,
+19375,,,,,,,,,,,.Rail 14; -4; -0.5; 8,.FreeObj 1; 85; +4,,,.FreeObj 14; 74; ; +0.5
+19400,.Curve -1000; -35,,.RailType 0; 25,.RailType 1; 25,,,,,,,.Rail 14; -5; +1,.FreeObj 1; 85; +4,,,.FreeObj 14; 74; ; +0.5
+19425,.Curve -510; -70,,.RailType 0; 17,.RailType 1; 17,.limit 100,,;.marker JNG-BKS\Mark\85.gif; 200,,,,,.FreeObj 1; 85; +4,,,.FreeObj 14; 74; ; +0.5
+19450,,,,,,.Height 0.5,,,,,,.FreeObj 1; 85; +4,,,.FreeObj 14; 74; ; +0.5
+19475,.Pitch -4,,,,,.Height 0.6,,,,,,.FreeObj 1; 85; +4,,,.FreeObj 14; 74; ; +0.5,
+19500,,,,,,,,,,,,.FreeObj 1; 85; +4; ; 10,,,.FreeObj 14; 74; ; +0.5,
+19525,,,,,,,,.Rail 6; +7.8; 0; 17,.FreeObj 6; 101,,,.Rail 15; +12.5; -0.5; 9,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+19549,.Sig 5; 第$chr(13)$chr(10)１$chr(13)$chr(10)場$chr(13)$chr(10)内; +12.2; +5.8; 2,.FreeObj 0; 28; +12.8; +5.5,.FreeObj 0; 21; +12.5; +1,.FreeObj 0; 12; +12.5; -0.3,.FreeObj 0; 24; +11.5; +5.5,.FreeObj 0; 21; +11.5; +1,.FreeObj 0; 12; +11.5; -0.3,,,,,,,,,
+19550,.Curve -400; -80,,.RailType 0; 15,,.limit 100,.Pole 0; 2; 0; 50,;.marker JNG-BKS\Mark\75.gif; 100,,,,.Rail 14; -4.5; +0.5,.Rail 15; +13; +0.5,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+19575,,.Crack 0; 1,,.Rail 1; +4,,,,.Rail 6; +8,,,,,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+19600,,.Crack 0; 1,,.Rail 1; +4.5,,,,.Rail 6; +8.5,,,,.Rail 15; +13.5; +0.5,,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+19625,.Curve -800; -40,.Crack 0; 1,.RailType 0; 22,.Rail 1; +5.3,.RailType 1; 0,.Pole 0; 3; 0; 50,.Limit 0,.Rail 6; +9.3; ; 0,,,,.RailEnd 15; +13.3; -0.5,.FreeObj 6; 85; +4,,.FreeObj 14; 74; ; +0.5,.FreeObj 15; 74; ; +0.5
+19650,.Curve 0; 0,.Crack 0; 3,.RailType 0; 0,.Rail 1; +6.5,.Rail 2; 0; 0; 12,.Rail 3; +6.5; 0; 12,,.Rail 6; +10.5,,,,,.FreeObj 6; 85; +4,,.FreeObj 14; 74; ; +0.5,
+19675,,.Crack 0; 3,,.Rail 1; +8,.Rail 2; -1.6; ; 0,.Rail 3; +6.5; ; 0,.Rail 4; 0; 0; 11,.Rail 6; +12,,,.Rail 14; -6.6; +1,,.FreeObj 6; 85; +4,,.FreeObj 14; 74; ; +0.5,
+19700,,.Crack 0; 2,.Crack 1; 3,.Rail 1; +9.5,.Rail 2; -4.5; ; 26,.Rail 3; +5.4; ; 16,.Rail 4; +2.3; ; 10,.Rail 6; +13.5; ; 10,,,.RailEnd 14; -8.5; -0.5,.FreeObj 2; 84; -4,.FreeObj 6; 85; +4,,,
+19724,.Sig 4; 第$chr(13)$chr(10)２$chr(13)$chr(10)場$chr(13)$chr(10)内; -2.2; -1; 2,.FreeObj 0; 12; -2.2; -0.75,.FreeObj 2; 24; +2.2; +4.8,.FreeObj 2; 21; +2.2,.FreeObj 2; 12; +2.2; -0.75,,,,,,,,,,,
+19725,.Sta Cakung; ; ; 0; -1; 0; 0; ; 25; 40; dept.wav,.Form 0; 2; 1; 7,.Crack 1; 3,.Rail 1; +10.9,.Rail 2; -7; ; 0,.Rail 3; +4.6; ; 0,.RailEnd 4; +4.6; ; 0,.Rail 6; +12.9; ; 11,,,,.FreeObj 2; 84; -4,.FreeObj 6; 85; +4,,,
+19749,,,.FreeObj 3; 24; +2.2; +4.8,.FreeObj 3; 21; +2.2,.FreeObj 3; 12; +2.2; -0.75,,,,,,,,,,,
+19750,,.Form 0; 2; 1; 7,.Form 1; 3; 1; 7,.Rail 1; +12.3,.Rail 2; -9; ; 0,,,.RailEnd 6; +12.3; ; 0,,,,.FreeObj 2; 84; -4,.FreeObj 1; 85; +4,,,
+19775,,.Form 0; 2; 1; 7,.Form 1; 3; 1; 7,.Rail 1; +13.7,.Rail 2; -10.6,,,,,,,.FreeObj 2; 84; -4,.FreeObj 1; 85; +4,,,
+19800,.Pitch -3.2,.Form 0; 2; 1; 7,.Form 1; 3; 1; 7,.Rail 1; +14.5,.Rail 2; -11,.Rail 3; +4.5,,,,,,.FreeObj 2; 84; -4,.FreeObj 1; 85; +4,,,
+19825,,.Form 0; 2; 1; 7,.Form 1; 3; 1; 7,,,.Rail 3; +4.4,,,,,,.FreeObj 2; 84; -4,,,,
+19850,,.Form 0; 2; 1; 7,.Form 1; 3; 1; 7,,,.Rail 3; +4.3,,,,,,.FreeObj 2; 84; -4,,,,
+19875,,.Form 0; 2; 1; 7,.Form 1; 3; 1; 7,.Rail 1; +14.2,.Rail 2; -10.5,.Rail 3; +4.2,,,,,,.FreeObj 2; 84; -4,,,,
+19900,,.Form 0; 2; 1; 7,.Form 1; 3; 1; 7,.Rail 1; +13.1,.Rail 2; -9,.Rail 3; +4.1,,,,,,.FreeObj 2; 84; -4,,,,
+19922,.Stop 0,.FreeObj 0; 13,.FreeObj 0; 93; +1.6,.FreeObj 0; 99,,,,,,.Height 0.6,,,,,,
+19925,.Pitch +1.3,.Crack 0; 2,.Form 1; 3; 1; 7,.Rail 1; +11.7,.Rail 2; -6.5,.Rail 3; +4,,.Rail 5; -6.5; 0; 10,,.Height 0.5,,.FreeObj 2; 84; -4,,,,
+19930,.Sig 3; 出$chr(13)$chr(10)発; -2.2; -1; 3,.FreeObj 0; 12; -2.2; -0.5,.FreeObj 2; 22; -2.2; +4.8,.FreeObj 2; 21; -2.2,.FreeObj 2; 12; -2.2; -0.5,.FreeObj 2; 41; -2.2,,,,,,,,,,
+19945,,.FreeObj 3; 13,.FreeObj 3; 93; -1.6,,,,,,,,,,,,,
+19950,,,.Crack 1; 3,.Rail 1; +10.3,.Rail 2; -2.2; ; 10,.Rail 3; +3.9,.Rail 4; +3.9; 0; 13,.Rail 5; -4; ; 0,.FreeObj 5; 100,.Pole 0; 3; 1; 50,,.FreeObj 2; 74; -4; ; -6,,,,
+19955,,,.FreeObj 3; 22; +2.2; +4.8,.FreeObj 3; 21; +2.2,.FreeObj 3; 12; +2.2; -0.5,.FreeObj 3; 41; +2.2,,,,,,,,,,
+19975,.Height 0.5,,.Crack 1; 3,.Rail 1; +8.9; ; 26,.RailEnd 2; 0; ; 0,.Rail 3; +3.8,.Rail 4; +4.8; ; 0,.RailEnd 5; -4; ; 0,,,,,,,,
+19985,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 4; 0,.FreeObj 3; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,,,,
+20000,.Height 1.0,.Rail 5; 0; 0; 11,.Rail 6; +3.8; 0; 10,.Rail 1; +7.9,.Dike 0; -1,,.Rail 4; +6.7; ; 12,,,.Pole 0; 2; 0; 50,,.FreeObj 0; 74; -2.8,,,.FreeObj 0; 40; -3.35; 3.3,
+20025,,.Rail 5; +1.9; ; 10,.Rail 6; +1.9; ; 11,.Rail 1; +7.6; ; 0,,,.RailEnd 4; +7.6; ; 0,,,,,.FreeObj 0; 74; -2.8,,,,.Relay 0; -1
+20050,,.RailEnd 5; +3.8; ; 0,.RailEnd 6; 0; ; 0,,,,,,,,,.FreeObj 0; 74; -2.8,,;★喚呼標,.FreeObj 0; 37; -3.35; 3.3,
+20075,,,,,,,,,,,,.FreeObj 0; 74; -2.8
+20090,;車両オブジェクト,,,,,,,.FreeObj 3; 2001,,,,
+20100,,,,,,,,,,,,.FreeObj 0; 74; -2.8
+20110,;車両オブジェクト,,,,,,,.FreeObj 3; 2402,,,,
+20125,.Pitch +5,,,,,,,,,,,.FreeObj 0; 74; -2.8
+20130,;車両オブジェクト,,,,,,,.FreeObj 3; 2401,,,,
+20150,,,,,,,,.FreeObj 3; 2402,,,,.FreeObj 0; 74; -2.8
+20170,;車両オブジェクト,,,,,,,.FreeObj 3; 2401,,,,
+20175,,,,,,,,,,,,.FreeObj 0; 74; -2.8
+20190,;車両オブジェクト,,,,,,,.FreeObj 3; 2402,,,,
+20200,,.Curve +5000; 15,,,,,,,,,,.FreeObj 0; 74; -2.8
+20210,;車両オブジェクト,,,,,,,.FreeObj 3; 2401,,,,
+20225,,.Curve 0; 0,,,,,,,,,,.FreeObj 0; 74; -2.8
+20230,;車両オブジェクト,,,,,,,.FreeObj 3; 2052,,,,
+20250,.Sig 3; ２$chr(13)$chr(10)０$chr(13)$chr(10)３; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,.Rail 3; +3.7,.FreeObj 3; 11,.Rail 1; +7.5; ; 25,,,,,,,.FreeObj 0; 74; -2.8
+20255,;■入力禁止,,,,,,,,,.FreeObj 3; 100,,
+20270,;車両オブジェクト,,,.FreeObj 3; 13,,,,,,,,,,,,
+20275,,.Pitch 0,.RailEnd 3; +3.6,.Crack 0; 1,.Rail 1; +7; ; 0,,,,,,,.FreeObj 0; 74; -2.8,,,,.Relay 0; -1
+20300,.Height 1.0,,,.Crack 0; 1,.Rail 1; +6.1,,,,,,,.FreeObj 0; 74; -2.8,,;★喚呼標,.FreeObj 0; 37; -3.35; 3.3,
+20325,.Height 0.5,.DikeEnd 0,.Pole 0; 1; 0; 50,.Crack 0; 1,.Rail 1; +5.15,,.Crack 0; 1; 3,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,
+20350,,.Curve -5000; 15,,,.Rail 1; +4.2; ; 26,,,,,,,,,,,
+20375,,.Curve 0; 0,,,.Rail 1; +3.8; ; 0,,,,,,,,,,,
+20400,,,,,,,,,,,,,,,.FreeObj 0; 36; -3.5; 3.3,
+20425,,,,,,,,,,,,,,,,
+20450,,,,,,,,,,,,,,,,
+20475,,,,,,,,,,,,,,,,
+20500,,,,,,,,,,,,,,,,
+20525,,,,,,,,,,,,,,,,
+20550,,,,,,,,,,,,,,,,
+20575,,,,,,,,,,,,,,,,
+20600,,,,,,,,,,,,,,,,
+20625,,,,,,,,,,,,,,,,
+20650,,,,,,,,,,,,,,,,
+20675,,,,,,,,,,,,,,,,
+20700,.Sig 3; ２$chr(13)$chr(10)０$chr(13)$chr(10)７; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,,,,,,,,,,
+20725,,,,,,,,,,,,,,,,
+20750,,,,,,,,,,,,,,,.FreeObj 0; 35; -3.5; 3.3,
+20775,,,,,,,,,,,,,,,,
+20800,,,,,,,,,,,,,,,,
+20825,,,,,,,,,,,,,,,,
+20850,,,,,,,,,,,,,,,,
+20875,,,,,,,,,,,,,,,,.Relay 0; -1
+20900,,,,,,,,,,,,,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+20925,,.Height 0.5,,,,,,,,,,,,,,
+20950,.Pitch -10,.Height 0.7,,,,,,,,,,,,,,
+20975,,.Height 1,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.Dike 0; -1; 0,.Dike 1; +1; 0,.Rail 14; -4.5; -0.5; 8,,;.Rail 15; +8.3; -0.5; 9,,.FreeObj 14; 77; ; +0.5,
+21000,,,,,,,,,,,.Rail 14; -4.75; -0.25,,,,.FreeObj 14; 74; ; +0.5,
+21025,,,,,,,,,,,.Rail 14; -5.5; +0.5,,,,.FreeObj 14; 74; ; +0.5,
+21050,,,,,,,,,,,.Rail 14; -6.3; +1.3,,,,.FreeObj 14; 74; ; +0.5
+21075,,,,,,,,,,,.Rail 14; -6.6; +1.6,,,,.FreeObj 14; 74; ; +0.5
+21100,,,,,,,,,,,.Rail 14; -6.9; +1.9,,,,.FreeObj 14; 74; ; +0.5
+21125,,,,,,,,,,,.Rail 14; -7.2; +2.2,,,,.FreeObj 14; 74; ; +0.5
+21150,,.Height 4,,,,,,,,,.Rail 14; -7.5; +2.5,,,,.FreeObj 14; 74; ; +0.5
+21175,,,,,,,,,,,.Rail 14; -7.8; +2.8,,,,
+21200,,,,,,,,,,,.Rail 14; -9.9; -0.2,,,,
+21225,,,,,,,,,,,.Rail 14; -12; -3.2,,,,
+21250,,,,,,,,,,,.RailEnd 14; -14; -6.2,,,,
+21275,,,,,,,,,,,,,,,
+21300,,,,,,,,,,,,,,,
+21325,.Pitch 0,,,,,,,,,,,,,,
+21350,,.Height 4,,,,,.Wall 0; -1; 5,.Wall 1; +1; 5,.DikeEnd 0,.DikeEnd 1,,,,,
+21375,,,,.Ground 2,,,,,,,,,,,
+21400,,,,.Ground 1,;.marker JNG-BKS\Mark\riv_karabori.gif; 75,,.WallEnd 0,.WallEnd 1,.Dike 0; -1; 0,.Dike 1; +1; 0,,,,,
+21425,,.Height 4,,.Ground 0,,,,,,,,,,,
+21450,,,,,,,,,,,,,,,,
+21475,,,,,,,,,,,,,,,,
+21500,.Sig 3; ２$chr(13)$chr(10)１$chr(13)$chr(10)５; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,,,,,,,,,,,,,,
+21525,,,,,,,,,,,,,,,,
+21550,,,,,,,,,,,,,,,,
+21575,,,,,,,,,,,,,,,,.Relay 0; -1
+21600,.Pitch +10,,,,,,,,,,,,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+21625,.Height 0.5,,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,.DikeEnd 0,.DikeEnd 1,,,,,,
+21650,,,,,,,,,,,,,,,,
+21675,,,,,,,,,,,,,,,,
+21700,.RailType 0; 35,.RailType 1; 35,,,,,,,,,,,,,,
+21725,,,,,,,,,,,,,,,,
+21750,,,,,,,,,,,,,,,,
+21775,,,,,,,,,,,,,,,,
+21800,,,,,,,,,,,,,,,,
+21825,,,,,,,,,,,,,,,,
+21850,.RailType 0; 0,.RailType 1; 0,,,,,,,,,,,,,
+21875,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,,,,,,,
+21885,.Sig -4; ２$chr(13)$chr(10)１$chr(13)$chr(10)９; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,,,,,,,.Rail 14; -8.7; 0.7; 8,.Rail 15; +13.7; 0.7; 9,,,
+21900,.RailType 0; 35,.RailType 1; 35,,,,,,,,,,,,,
+21925,.Pole 0; 3; 1; 25,,,,,,,,,,,,,;★絶対喚呼標,.FreeObj 0; 38; -7; 3.3
+21950,.Sta Kranji; ; ; 0; -1; 0; 0; ; 25; 40; dept.wav,.Form 0; L; 9; 5,.Form 1; R; 9; 5,.Wall 0; -1; 10,.Wall 1; +1; 10,.PoleEnd 0,,.FreeObj 0; 45; -4.9,.FreeObj 1; 45; +4.9,,.PoleEnd 0,,,,
+21975,,.Form 0; L; 9; 5,.Form 1; R; 9; 5,,,,,,,,,,,,
+22000,,.Form 0; L; 9; 5,.Form 1; R; 9; 5,,,,,,,,,,,,
+22025,,.Form 0; L; 9; 5,.Form 1; R; 9; 5,,,,,,,,,,,,
+22050,,.Form 0; L; 9; 5,.Form 1; R; 9; 5,,,,,,,,,,,,
+22075,,.Form 0; L; 9; 5,.Form 1; R; 9; 5,,,,,,,,,,,,
+22100,,.Form 0; L; 9; 5,.Form 1; R; 9; 5,,,,,,,,,,,,
+22125,,.Form 0; L; 9; 5,.Form 1; R; 9; 5,,,,,,,,,,,,
+22150,,.Form 0; L; 0; 6,.Form 1; R; 0; 6,.Wall 0; -1; 3,.Wall 1; +1; 3,,,,,,,,,,
+22172,.Stop 0,.FreeObj 0; 17,.FreeObj 0; 97; +1.9,.FreeObj 0; 99,,,,,,,.Rail 14; -12.7; 4.7,,,,
+22175,,,,.WallEnd 0,.WallEnd 1,.Pole 0; 1; 0; 50,,.FreeObj 0; 45; -4.9,.FreeObj 1; 45; +4.9,,,,,,
+22200,,,,,,,,,,,.Rail 14; -10.2; 3.2,
+22225,,,,,,,,,,,.Rail 14; -6.7; 1.7,
+22250,.Sig -4; 出$chr(13)$chr(10)発; -2.2; -1; 3,.FreeObj 0; 12; -2.2; -0.75,,,.RailType 0; 0,.RailType 1; 0,,,,,.Rail 14; -4.2; 0.2,
+22275,,,,,.RailType 0; 2,.RailType 1; 2,,,,,.RailEnd 14; -12.7; 0,.RailEnd 15
+22300,,,,,.RailType 0; 0,.RailType 1; 0,,,,,,
+22325,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 0; 1,.FreeObj 1; 2,.Doppler JNG-BKS\Crossing.wav; -3; +3,,,,.FreeObj 0; 86; -4,,,
+22350,.Height 0.5,.Dike 1; +1; 0,,,,,,.Rail 15; -1.9; -0.1; 6,,,,
+22375,.Height 3,,,,,,,,,,,
+22400,,,,,,,,,,,,
+22425,,,,,,,,.Rail 15; -6; -0.1; 6,,,,
+22450,,,,,,,,,,,,
+22475,,,,,,,,,,,,
+22500,,,.Curve +1200; +25,,.RailType 0; 28,.RailType 1; 28,,,,,,
+22525,.Pitch 0,,.Curve +600; +50,,.RailType 0; 20,.RailType 1; 20,,,,,,
+22550,.Sig 3; ２$chr(13)$chr(10)２$chr(13)$chr(10)５; -2.4; -1; 1,.FreeObj 0; 12; -2.4; -0.5,.Curve +400; +75,.Dike 2; 0; 3,.RailType 0; 16,.RailType 1; 16,.Pole 0; 1; 0; 25; 3,,.Rail 2; -17.6; -2.1,.Pole 2; 0; -1; 25; 0,.limit 100,;.marker JNG-BKS\Mark\75.gif; 200
+22575,,,,,,,,.Rail 15; -4.5; -0.1; 6,.Rail 2; -13; -1.9,,,
+22600,,,,,,,,.Rail 15; -3; -0.1; 6,.Rail 2; -10.1; -1.7,,,,,,,
+22625,,,.DikeEnd 1,,.RailType 0; 36,.RailType 1; 36,,.RailEnd 15; -1.5; -0.1; 6,.Rail 2; -8.8; -1.5; 16,,.Wall 2; -1; 0,,,,,.Relay 0; -1
+22650,,.Dike 0; -1; 3,.Dike 1; +1; 0,.Dike 2; +1; 3,.RailType 0; 16,.RailType 1; 16,,,.Rail 2; -8.3; -1.3,,,,,;喚呼標,.FreeObj 0; 37; -3.5; 3.3,
+22675,.Pitch +6,,,,,,,,.Rail 2; -7.8; -1.1,,,,,,,
+22700,,,,,,,,,.Rail 2; -7.3; -1,,,,,,,
+22725,,,.Curve +600; +50,,.RailType 0; 20,.RailType 1; 20,,.Limit 0,.Rail 2; -6.8; -0.9; 20,,,,,,,
+22750,.Pole 0; 1; 0; 50; 5,,.Curve +1200; +25,,.RailType 0; 28,.RailType 1; 28,,,.Rail 2; -6.3; -0.8; 0,,.Pole 2; 0; -1; 50,,,,,
+22775,,,.Curve 0; 0,,.RailType 0; 0,.RailType 1; 0,,,.Rail 2; -6; -0.7; 0,,,,,,,
+22800,,,,,,,,,.Rail 2; -6; -0.6,,,,,,,
+22825,.Pole 0; 1; 0; 50; 0,,;.DikeEnd 1,,.RailType 0; 2,.RailType 1; 2,,,.Rail 2; -6; -0.5,,,,,,,
+22850,.Sig 3; ２$chr(13)$chr(10)２$chr(13)$chr(10)９; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,;.Dike 1; +1; 0,,.RailType 0; 0,.RailType 1; 0,,,.Rail 2; -6; -0.4,,,,,,,
+22875,.Pole 0; 1; 0; 50; 5,,,,,,,,.Rail 2; -6; -0.3,,,,,,,
+22900,,,,,,,,,.Rail 2; -6; -0.2,,,,,,,
+22925,,,,,,,,,.Rail 2; -6; -0.1,,,,,,,
+22950,.Pitch +10,,,,,,,,.Rail 2; -6; 0,.Crack 0; 2; 0,,,,,,
+22975,,.DikeEnd 0,.DikeEnd 2,,,,,,,.Crack 0; 2; 0,,,,,,
+23000,.Height 3,,,,,,,,,.Crack 0; 2; 0,,,,,
+23025,,,,,,,,,,.Crack 0; 2; 0,.Rail 13; +6; -2; 7,,,,.FreeObj 13; 74; +3.5; +0.1
+23050,,,,,,,,,,.Crack 0; 2; 0,.Rail 13; +6.5; -1.3,,,,.FreeObj 13; 74; +3.5; +0.1
+23075,,,,,,,,.Rail 14; -9; -1; 8,,.Crack 0; 2; 0,.Rail 13; +6.5; -0.7,,,.FreeObj 14; 74; ; +0.5,.FreeObj 13; 74; +3.5; +0.1
+23100,.Height 0.5,.DikeEnd 1,,,,.WallEnd 2,.Rail 12; +10; -0.5; 9,.Rail 14; -12; +2,,.Crack 0; 2; 0,.Rail 13; +6.5; -0.1,,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23125,,,,,,,.Rail 12; +11; +0.5,.Rail 14; -15; +5,,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23150,,,,,,,.Rail 12; +12; +1.5,,,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23175,.Pole 0; 1; 0; 50; 0,,.Curve -2000; 20,,.RailType 0; 29,.RailType 1; 29,,,,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23200,.Sig 3; ２$chr(13)$chr(10)３$chr(13)$chr(10)１; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.5,.Curve -1000; 40,,.RailType 0; 25,.RailType 1; 25,,.Rail 15; -6.8; -0.1; 6,.Rail 2; -5.9; 0; 25,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23225,.Pole 0; 1; 0; 50; 5,,,,,,,,.Rail 2; -5.8; 0,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23250,,,,,,,,,.Rail 2; -5.7; 0,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23275,,,,,,,,,.Rail 2; -5.6; 0,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23300,,,,,,,,,.Rail 2; -5.5; 0,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23325,,,,,,,,,.Rail 2; -5.4; 0,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23350,,,,,,,,,.Rail 2; -5.3; 0,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23375,,,,,,,,,.Rail 2; -5.2; 0,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23400,,,,,,,,,.Rail 2; -5.1; 0,.Crack 0; 2; 0,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23425,,,,,,,,,.Rail 2; -5; 0,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23450,,,,,,,,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23475,,,,,,,,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23500,,,.Curve -2000; 20,,.RailType 0; 29,.RailType 1; 29,.RailType 2; 29,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23525,,,.Curve 0; 0,,.RailType 0; 0,.RailType 1; 0,.RailType 2; 0,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23550,,,,,,,,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23575,.Pitch +12.5,,,,,,,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23600,,,,,,,,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23625,,,,,,,,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23650,,,,,,,,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23675,,,,,,,,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23700,.Pole 0; 2; 1; 50; 0,,,,,,,,,.PoleEnd 2,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23725,,,,,,,,,,,,.FreeObj 14; 80; -2,,.FreeObj 14; 74; ; +0.5,.FreeObj 12; 74; 0; +0.5
+23750,,,,,,,,.RailEnd 14,,,,,,,.FreeObj 12; 74; 0; +0.5
+23775,,,,,,,,,,,,,,,.FreeObj 12; 74; 0; +0.5
+23800,.Sig -4; ２$chr(13)$chr(10)３$chr(13)$chr(10)７; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,,,.Rail 12; +11; +0.5,,,,,,,,.FreeObj 12; 74; 0; +0.5
+23825,,,,,,,,,,,,,,,.FreeObj 12; 74; 0; +0.5
+23850,,,,,,,,,,,,,,,.FreeObj 12; 74; 0; +0.5
+23875,,,,,,,,,,,,,,,.FreeObj 12; 74; 0; +0.5
+23900,,,,,,,,,,,,,,,.FreeObj 12; 74; 0; +0.5
+23925,,,,,,,,,,,,,,,.FreeObj 12; 74; 0; +0.5
+23950,.Curve -1600; 25,,.RailType 0; 27,.RailType 1; 27,.RailType 2; 27,,.RailEnd 12; +10; -0.5; 9,,,,.RailEnd 13,,,,
+23975,.Curve -800; 50,,.RailType 0; 22,.RailType 1; 22,.RailType 2; 22,,,,,,,,,,
+24000,,,,,,,,,,,,,,,
+24025,,,,,,,,,,,,,,,
+24050,,,,,,,,,,,,,,,
+24075,,,,,,,,,,,,,,,
+24100,,,,,,,,,,,,,,,
+24125,;.announce JNG-BKS\1111\announce6.wav,,,,,,,,,,,,,,
+24150,,,,,,,,,,,,,,,
+24175,,,,,,,,,,,,,,,
+24200,,,,,,,,,,,,,
+24225,,,,,,,,,,,,,
+24250,.Sig -4; ２$chr(13)$chr(10)４$chr(13)$chr(10)１; -2.2; -1; 1,.FreeObj 0; 12; -2.2; -0.75,,,,,,,,,,,
+24275,.Curve -1600; 25,,.RailType 0; 27,.RailType 1; 27,.RailType 2; 27,,.FreeObj 2; 0,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 2; 1,.FreeObj 1; 2,.Crack 0; 2; 3,.Doppler JNG-BKS\Crossing.wav; +7; +3
+24300,.Curve 0; 0,.Pitch +11.4,.RailType 0; 0,.RailType 1; 0,.RailType 2; 0,,,,,,,,
+24325,,,,,,,,,,,,,
+24350,,,,,,,,,,,,,
+24375,.Curve -1200; 20,.Pole 0; 2; 1; 25; 0,.RailType 0; 61,.RailType 1; 61,.RailType 2; 61,,,,,,,,
+24400,.Curve -600; 40,,.RailType 0; 62,.RailType 1; 62,.RailType 2; 62,,,,,,,,
+24425,.Curve -267; 75,,.RailType 0; 63,.RailType 1; 63,.RailType 2; 63,,.limit 100,;.marker JNG-BKS\Mark\55.gif; 200,,,,,
+24450,,,,,,,,,,,,,
+24475,.Pole 0; 2; 1; 25; 3,,,,,,,,,,,,
+24500,,,,,,,.FreeObj 2; 0,.FreeObj 0; 0,.FreeObj 1; 0,.FreeObj 2; 1,.FreeObj 1; 2,.Crack 0; 2; 3,.Doppler JNG-BKS\Crossing.wav; +7; +3
+24525,.Sig -4; 第$chr(13)$chr(10)１$chr(13)$chr(10)場$chr(13)$chr(10)内; +6; -1; 2,.FreeObj 0; 12; +6; -0.75,.Pitch +10,,,,,,,,,,
+24550,,,,,,,,,,,,,
+24575,,,,,,,,,,,,,
+24600,,,,,,,,,,,,,,,
+24625,.Pitch +5.4,,,,,,,,,,,,,,
+24650,.Curve -200; 80,.limit 100; -1,,.Rail 1; +3.8,,.RailType 0; 64,,.RailType 2; 64,,,,,,,
+24675,,,,.Rail 1; +4.2,.Crack 0; 1; 0,,,,,,,,,,
+24700,.Curve -400; 30,,,.Rail 1; +5.4,.Crack 0; 1; 0,.RailType 0; 65,,.RailType 2; 65,,.PoleEnd 0,.Pole 1; 3; 3; 25; 3,,,,
+24725,.Curve -400; 10,,.Rail 3; 0; 0; 0,.Rail 1; +6.6,.Crack 1; 3; 0,.RailType 0; 51,,,,,,,,,
+24750,.Curve -200; 75,,.Rail 3; +0.8; ; 10,.Rail 1; +7,.Crack 1; 3; 0,.RailType 0; 64,,.RailType 2; 64,,,,,,,
+24775,,,.Rail 3; +2.2; ; 64,.Rail 1; +7.3,,.FreeObj 0; 0; -7.1,.FreeObj 0; 0; -3.3,.FreeObj 0; 0; +0.5,.FreeObj 0; 0; +4.3,.FreeObj 0; 0; +8.1,.FreeObj 0; 1; -7.1,.FreeObj 0; 2; +8.1,.Doppler JNG-BKS\Crossing.wav; -7; +3,,
+24800,,,.Rail 3; +3.4; ; 65,.Rail 1; +8.3,.Crack 0; 3; 0,,,,,.PoleEnd 1,.Pole 3; 3; 2; 25; 3,,,,
+24820,.Sig -4; 第$chr(13)$chr(10)２$chr(13)$chr(10)場$chr(13)$chr(10)内; +2.4; -1; 2,.FreeObj 0; 12; +2.4; -0.75,;■入力禁止,,,,,,,.Rail 7; +30.15; 0; 10,,,,,
+24825,.Curve -600; 40,,.Rail 3; +5.3; ; 15,.Rail 1; +10; ; 17,.Crack 0; 3; 0,,.Crack 4; 7; 0,.Rail 4; +26.83; 0; 101,,.Rail 7; +24.1; ; 0,.Pole 3; 1; 0; 25; 5,.Pole 0; 1; 1; 25; 5,.Rail 11; -5; 0; 13,.RailType 0; 62,.RailType 2; 19
+24850,.Curve -1200; 20,,.Rail 3; +7.8,.Rail 1; +12,.Crack 0; 3; 0,.Crack 1; 7; 0,.Crack 4; 7; 0,.Rail 4; +25.75; 0; 0,,.Rail 7; +19.5,.Pole 4; 3; 2; 25; 0,.Pole 0; 1; 1; 25; 0,.Rail 11; -3.8; ; 0,.RailType 0; 61,.RailType 2; 61
+24875,.Curve 0; 0,,.Rail 3; +9.7; ; 19,.Rail 1; +13.5; ; 25,.Crack 0; 3; 0,,.Crack 1; 4; 0,.Rail 4; +25.5,.Rail 6; +9.7; ; 11,.Rail 7; +15.8,.Pole 4; 1; 0; 50; 0,.Pole 3; 2; 0; 25; 0,.Rail 11; -1.2; ; 12,.RailType 0; 0,.RailType 2; 0
+24900,,,.Rail 3; +10.5; ; 27,.Rail 1; +14.3; ; 27,.Crack 0; 3; 0,,.Crack 1; 4; 0,.Rail 5; +29.3; 0; 101,.Rail 6; +12.4; ; 10,.Rail 7; +12.4; ; 11,.Pole 0; 1; 1; 25; 3,.Pole 3; 1; 0; 25; 3,.RailEnd 11; 0; ; 0,,
+24925,.Sta Bekasi; ; T; 1; +1; 0; 0; ; 20; 20;,,.Rail 3; +10.7; ; 0,.Rail 1; +14.5; ; 0,.Form 0; 3; 1; 5,.Form 1; 4; 1; 5,.Form 5; R; 1; 5,.Rail 5; +29.3; ; 0,.RailEnd 6; +14.5; ; 0,.RailEnd 7; +10.7,.Pole 0; 2; 2; 25; 0,,.Rail 15; -10; -0.1; 6,.FreeObj 0; 131; -10.8,.Wall 5; +1; 2
+24950,,,,,.Form 0; 3; 1; 5,.Form 1; 4; 1; 5,.Form 5; R; 1; 5,,,,.Pole 0; 2; 2; 50; 0,.Pole 3; 1; 0; 50; 3,,.FreeObj 0; 131; -10.8,
+24975,,,,,.Form 0; 3; 1; 5,.Form 1; 4; 1; 5,.Form 5; R; 1; 5,,,,,,,.FreeObj 0; 131; -10.8,
+25000,,,,,.Form 0; 3; 1; 5,.Form 1; 4; 1; 5,.Form 5; R; 1; 5,,,,,,,.FreeObj 0; 131; -10.8,
+25025,,,,,.Form 0; 3; 1; 5,.Form 1; 4; 1; 5,.Form 5; R; 1; 5,,,,,,,.FreeObj 0; 131; -10.8,
+25050,,,,,.Form 0; 3; 1; 5,.Form 1; 4; 1; 5,.Form 5; R; 1; 5,,,,.Pole 0; 2; 2; 50; 3,,,.FreeObj 0; 131; -10.8,
+25075,,,,,.Form 0; 3; 1; 5,.Form 1; 4; 1; 5,.Form 5; R; 1; 5,,,,,,,.FreeObj 0; 131; -10.8,
+25100,.Curve +400; 40,.RailType 0; 16,,,.Form 0; 3; 1; 5,.Form 1; 4; 1; 5,.Form 5; R; 1; 5,.Rail 5; ; ; 102,.Rail 4; ; ; 102,.RailType 2; 16,.Pole 0; 1; 1; 50; 3,,,.FreeObj 0; 131; -10.8,
+25115,.Stop 0,.FreeObj 0; 17; -0.2,.FreeObj 0; 97; -2.1,.FreeObj 0; 99; ; ; 180,;■入力禁止,,,,,,,,,,
+25125,.Curve 0; 0,.RailType 0; 0,.Rail 3; +9.9,,.Form 0; R; 1; 5,,,.RailEnd 5; +28.5,.RailEnd 4; +24.7,.RailType 2; 0,,,,,.WallEnd 5
+25150,.Sig 3; 出$chr(13)$chr(10)発; -2.2; -1; 3,.FreeObj 0; 12; -2.2; -0.5,.Rail 3; +8.2,,,,,;.marker JNG-BKS\Mark\1111.gif; 50,,,,,,,
+25175,.Curve -600; -30,.RailType 0; 19,.Rail 3; +6.5,,,,,,.Rail 2; ; ; 19,,,,,,
+25200,.Curve -300; -60,.RailType 0; 12,.Rail 3; +5,,,,,,,,,,,,
+25225,,,.Rail 3; +4,,,,,,.Rail 2; -4.5; 0; 0,,,,,,
+25250,.Curve 0; 0,.RailType 0; 0,.Rail 3; +3.5,,,,,,.Rail 2; -2.4; 0; 15,,,,,,
+25275,,,.Rail 3; +2.2,,,,,,.RailEnd 2; 0; 0,,,,,,
+25300,,,.RailEnd 3; 0,,,,,,,,,,,,
+25325,,,,,,,,,,,,,,,
+25350,
+25375,.PreTrain 15.0630
+25400,

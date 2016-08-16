@@ -1,0 +1,30 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshBuilder,
+AddVertex,-33, 7.6, 25,
+AddVertex,-33, 12, 25,
+AddVertex,30, 13, -25,
+AddVertex,30, 8.6, -25,
+AddFace,0,1,2,3
+GenerateNormals,
+setcolor,180,180,180
+LoadTexture,viaductedge4.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,6,0,
+SetTextureCoordinates,3,6,1,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-33, 7.6, 25,
+AddVertex,-33, 7.6, 30,
+AddVertex,30, 8.6, -20,
+AddVertex,30, 8.6, -25,
+AddFace,3,2,1,0
+setcolor,80,80,80
+
+
+
+
+

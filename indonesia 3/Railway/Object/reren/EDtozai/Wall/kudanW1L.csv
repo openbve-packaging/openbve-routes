@@ -1,0 +1,128 @@
+CreateMeshBuilder,
+AddVertex,-6.8, 1.1, 0,
+AddVertex,-6.8, 4.7, 0,
+AddVertex,-6.8, 4.7, 25.2,
+AddVertex,-6.8, 1.1, 25.2,
+AddFace,0,1,2,3,
+LoadTexture,kudanWall1.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 22, 0,
+SetTextureCoordinates,3, 22, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-5.3, 4.7,  0.4,  ;0
+Addvertex,-5.4, 4.7,  0.18,
+AddVertex,-5.55, 4.7,  0.1   ;2
+AddVertex,-5.7, 4.7,  0.18
+AddVertex,-5.8, 4.7,  0.4   ;4
+AddVertex,-5.8, 1.1,  0.4   ;5
+AddVertex,-5.7, 1.1,  0.18
+AddVertex,-5.55, 1.1,  0.1   ;7
+Addvertex,-5.4, 1.1,  0.18,
+Addvertex,-5.3, 1.1,  0.4,  ;9
+AddFace,9,8,1,0
+AddFace,8,7,2,1
+AddFace,7,6,3,2
+AddFace,6,5,4,3
+LoadTexture,../Pole/station_pole/kayawall3.bmp,
+SetTextureCoordinates,0  ,0.0,0
+SetTextureCoordinates,1  ,0.3,0
+SetTextureCoordinates,2  ,0.5,0
+SetTextureCoordinates,3  ,0.7,0
+SetTextureCoordinates,4  ,1.0,0
+SetTextureCoordinates,5  ,1.0,1
+SetTextureCoordinates,6  ,0.7,1
+SetTextureCoordinates,7  ,0.5,1
+SetTextureCoordinates,8  ,0.3,1
+SetTextureCoordinates,9  ,0.0,1
+GenerateNormals,
+Translate,0,0,2
+
+CreateMeshBuilder,
+Addvertex,-5.3, 4.7,  0.4,  ;0
+Addvertex,-5.4, 4.7,  0.18,
+AddVertex,-5.55, 4.7,  0.1   ;2
+AddVertex,-5.7, 4.7,  0.18
+AddVertex,-5.8, 4.7,  0.4   ;4
+AddVertex,-5.8, 1.1,  0.4   ;5
+AddVertex,-5.7, 1.1,  0.18
+AddVertex,-5.55, 1.1,  0.1   ;7
+Addvertex,-5.4, 1.1,  0.18,
+Addvertex,-5.3, 1.1,  0.4,  ;9
+AddFace,9,8,1,0
+AddFace,8,7,2,1
+AddFace,7,6,3,2
+AddFace,6,5,4,3
+LoadTexture,../Pole/station_pole/kayawall3.bmp,
+SetTextureCoordinates,0  ,0.0,0
+SetTextureCoordinates,1  ,0.3,0
+SetTextureCoordinates,2  ,0.5,0
+SetTextureCoordinates,3  ,0.7,0
+SetTextureCoordinates,4  ,1.0,0
+SetTextureCoordinates,5  ,1.0,1
+SetTextureCoordinates,6  ,0.7,1
+SetTextureCoordinates,7  ,0.5,1
+SetTextureCoordinates,8  ,0.3,1
+SetTextureCoordinates,9  ,0.0,1
+GenerateNormals,
+Translate,0,0,8.25
+
+CreateMeshBuilder,
+Addvertex,-5.3, 4.7,  0.4,  ;0
+Addvertex,-5.4, 4.7,  0.18,
+AddVertex,-5.55, 4.7,  0.1   ;2
+AddVertex,-5.7, 4.7,  0.18
+AddVertex,-5.8, 4.7,  0.4   ;4
+AddVertex,-5.8, 1.1,  0.4   ;5
+AddVertex,-5.7, 1.1,  0.18
+AddVertex,-5.55, 1.1,  0.1   ;7
+Addvertex,-5.4, 1.1,  0.18,
+Addvertex,-5.3, 1.1,  0.4,  ;9
+AddFace,9,8,1,0
+AddFace,8,7,2,1
+AddFace,7,6,3,2
+AddFace,6,5,4,3
+LoadTexture,../Pole/station_pole/kayawall3.bmp,
+SetTextureCoordinates,0  ,0.0,0
+SetTextureCoordinates,1  ,0.3,0
+SetTextureCoordinates,2  ,0.5,0
+SetTextureCoordinates,3  ,0.7,0
+SetTextureCoordinates,4  ,1.0,0
+SetTextureCoordinates,5  ,1.0,1
+SetTextureCoordinates,6  ,0.7,1
+SetTextureCoordinates,7  ,0.5,1
+SetTextureCoordinates,8  ,0.3,1
+SetTextureCoordinates,9  ,0.0,1
+GenerateNormals,
+Translate,0,0,15
+
+CreateMeshBuilder,
+Addvertex,-5.3, 4.7,  0.4,  ;0
+Addvertex,-5.4, 4.7,  0.18,
+AddVertex,-5.55, 4.7,  0.1   ;2
+AddVertex,-5.7, 4.7,  0.18
+AddVertex,-5.8, 4.7,  0.4   ;4
+AddVertex,-5.8, 1.1,  0.4   ;5
+AddVertex,-5.7, 1.1,  0.18
+AddVertex,-5.55, 1.1,  0.1   ;7
+Addvertex,-5.4, 1.1,  0.18,
+Addvertex,-5.3, 1.1,  0.4,  ;9
+AddFace,9,8,1,0
+AddFace,8,7,2,1
+AddFace,7,6,3,2
+AddFace,6,5,4,3
+LoadTexture,../Pole/station_pole/kayawall3.bmp,
+SetTextureCoordinates,0  ,0.0,0
+SetTextureCoordinates,1  ,0.3,0
+SetTextureCoordinates,2  ,0.5,0
+SetTextureCoordinates,3  ,0.7,0
+SetTextureCoordinates,4  ,1.0,0
+SetTextureCoordinates,5  ,1.0,1
+SetTextureCoordinates,6  ,0.7,1
+SetTextureCoordinates,7  ,0.5,1
+SetTextureCoordinates,8  ,0.3,1
+SetTextureCoordinates,9  ,0.0,1
+GenerateNormals,
+Translate,0,0,20.25

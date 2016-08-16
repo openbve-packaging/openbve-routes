@@ -1,0 +1,70 @@
+;Originally a 
+;West Coast Main Line BVE Route Object
+;Watford Jcn - Milton Keynes Central
+;-------------------------------------
+;(c) Anthony Bowden,  2002.
+;www.railsimroutes.co.uk
+;
+;Please seek permission before using
+;any WJ-MKC files in your own route.
+;
+;See 'Readme.txt'.
+
+CreateMeshBuilder,
+AddVertex,1.2, 1.05, 23.70,
+AddVertex,1.2, 1.05, 0.30,
+AddVertex,-1.0, 1.05, 0.30,
+AddVertex,-1.0, 1.05, 23.70,
+AddVertex,-0.8, -0.05, 23.70,
+AddVertex,-0.8, -0.05, 0.30,
+AddFace,0,1,2,3,
+AddFace,3,2,5,4,
+
+GenerateNormals,
+
+LoadTexture,FL_1_U.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0,0.5,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1,
+SetDecalTransparentColor,0,0,0,
+
+;Container
+CreateMeshBuilder,
+AddVertex,-1.1, 1.05, 13,
+AddVertex,-1.1, 3.6, 13,
+AddVertex,-1.1, 3.6, 1,
+AddVertex,-1.1, 1.05, 1,
+AddVertex,1.2, 3.6, 1,
+AddVertex,1.2, 1.05, 1,
+AddFace,0,1,2,3,
+AddFace,2,4,5,3,
+SetColor,100,230,100,
+
+GenerateNormals,
+
+LoadTexture,FL_1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,25,
+SetTextureCoordinates,3,0,25,
+SetTextureCoordinates,4,1,35,
+SetTextureCoordinates,5,0,35,
+
+;Buffers
+CreateMeshBuilder,
+AddVertex,-1.1, 1.26, 0.35,
+AddVertex,1.1, 1.26, 0.35,
+AddVertex,1.1, 0.8, 0.35,
+AddVertex,-1.1, 0.8, 0.35,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,mk3b.bmp,
+SetTextureCoordinates,0, 0, 0.85,
+SetTextureCoordinates,1, 1, 0.85,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

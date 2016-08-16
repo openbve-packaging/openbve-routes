@@ -1,0 +1,14 @@
+
+CreateMeshBuilder
+Addvertex,-250,0,0
+Addvertex,250,0,0
+Addvertex,250,0,25
+Addvertex,-250,0,25
+AddFace,0,3,2,1
+GenerateNormals
+
+LoadTexture,river.bmp
+SetTextureCoordinates,0,0,2
+SetTextureCoordinates,1,100,2
+SetTextureCoordinates,2,100,0
+SetTextureCoordinates,3,0,0

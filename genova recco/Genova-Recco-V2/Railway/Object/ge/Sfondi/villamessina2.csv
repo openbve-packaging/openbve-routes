@@ -1,0 +1,65 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+
+CreateMeshBuilder,
+AddVertex,0, 0, -0.2,
+AddVertex,0, 15, -0.2,
+AddVertex,0, 15, 55,
+AddVertex,0, 0, 55,
+AddFace,0, 1, 2, 3,
+Rotate, 0, 1, 0, 40
+GenerateNormals,
+ 
+
+LoadTexture,villamessina2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 15, 0,
+AddVertex,0, 15, 25,
+AddVertex,0, 0, 25,
+AddFace,3, 2, 1, 0,
+
+GenerateNormals,
+ 
+
+LoadTexture,villamessina2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.45, 0,
+SetTextureCoordinates,3, 0.45, 1,
+SetDecalTransparentColor,0,0,0
+
+
+;;;muro basso
+CreateMeshBuilder,
+AddVertex,0, -25, 0,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 55,
+AddVertex,0, -25, 55,
+AddFace,0, 1, 2, 3,
+Rotate, 0, 1, 0, 40
+GenerateNormals,
+ 
+
+LoadTexture,muromessina.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 20, 0,
+SetTextureCoordinates,3, 20, 3,
+SetDecalTransparentColor,0,0,0
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+[MeshBuilder]
+Vertex 5.2, 5,    0
+Vertex 5.2, 5, 25.5
+Vertex 5.2,0, 25.5
+Vertex 5.2,0,    0
+Face 1,0,3,2
+[Texture]
+Load stazione.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[meshbuilder]
+vertex  0, 4.5, 0
+vertex 5.2, 5, 0
+vertex 5.2, 5, 25
+vertex  0, 4.5, 25
+face 0,1,2,3
+[texture]
+load pensilina.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,10
+coordinates 3,1,10
+
+
+
+
+[meshbuilder]
+vertex  0, 4.4, 19
+vertex  0, 4.5, 19
+vertex  5.2, 5, 19
+vertex  5.2, 4.4, 19
+face 0,1,2,3
+color 70,70,70
+[meshbuilder]
+vertex 0, 4.4, 6
+vertex 0, 4.5, 6
+vertex 5.2, 5, 6
+vertex 5.2, 4.4, 6
+face 0,1,2,3
+color 70,70,70

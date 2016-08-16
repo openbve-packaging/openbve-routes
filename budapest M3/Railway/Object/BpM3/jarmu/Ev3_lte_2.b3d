@@ -1,0 +1,241 @@
+;Ev3 motorkocsi lámpák+tükör
+;Készítette: http://www.bvemetro.hu/
+
+;------------------------
+;Fényszórók elöl
+[MeshBuilder]
+Vertex  0.74,1.37,00.14
+Vertex  0.74,1.64,00.14
+Vertex  1.01,1.64,00.14
+Vertex  1.01,1.37,00.14
+;---
+Vertex -0.74,1.37,00.14
+Vertex -0.74,1.64,00.14
+Vertex -1.01,1.64,00.14
+Vertex -1.01,1.37,00.14
+Face 00,01,02,03
+;---
+Face 07,06,05,04
+[Texture]
+Load Ev3_kl01e.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+;---
+Coordinates 04,0,1
+Coordinates 05,0,0
+Coordinates 06,1,0
+Coordinates 07,1,1
+Transparent 255,0,0
+Rotate 0,1,0,180
+;---
+[MeshBuilder]
+Cylinder 16,0.135,0.135,0.08
+Color 100,100,100
+Rotate 1,0,0,90
+Translate 0.875,1.505,0.19
+Rotate 0,1,0,180
+;---
+[MeshBuilder]
+Cylinder 16,0.135,0.135,0.08
+Color 100,100,100
+Rotate 1,0,0,90
+Translate -0.875,1.505,0.19
+Rotate 0,1,0,180
+;------------------------
+;Zárófény lámpák
+[MeshBuilder]
+Vertex  0.60,3.07,00.17
+Vertex  0.60,3.23,00.17
+Vertex  0.76,3.23,00.20
+Vertex  0.76,3.07,00.20
+;---
+Vertex -0.60,3.07,00.17
+Vertex -0.60,3.23,00.17
+Vertex -0.76,3.23,00.20
+Vertex -0.76,3.07,00.20
+Face 00,01,02,03
+;---
+Face 07,06,05,04
+[Texture]
+Load Ev3_kl02e.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+;---
+Coordinates 04,0,1
+Coordinates 05,0,0
+Coordinates 06,1,0
+Coordinates 07,1,1
+Transparent 255,0,0
+Rotate 0,1,0,180
+;------------------------
+;Tükrök
+[MeshBuilder]
+Vertex -0.09, 0.16,0.02
+Vertex -0.07, 0.18,0.02
+Vertex  0.07, 0.18,0.02
+Vertex  0.09, 0.16,0.02
+Vertex  0.09,-0.16,0.02
+Vertex  0.07,-0.18,0.02
+Vertex -0.07,-0.18,0.02
+Vertex -0.09,-0.16,0.02
+Vertex -0.09, 0.16,0.04
+Vertex -0.07, 0.18,0.04
+Vertex  0.07, 0.18,0.04
+Vertex  0.09, 0.16,0.04
+Vertex  0.09,-0.16,0.04
+Vertex  0.07,-0.18,0.04
+Vertex -0.07,-0.18,0.04
+Vertex -0.09,-0.16,0.04
+Vertex -0.01, 0.01,0
+Vertex  0.01, 0.01,0
+Vertex  0.01,-0.01,0
+Vertex -0.01,-0.01,0
+Face 0,1,17,16
+Face 1,2,17
+Face 2,3,18,17
+Face 3,4,18
+Face 4,5,19,18
+Face 5,6,19
+Face 6,7,16,19
+Face 7,0,16
+Face2 1,0,8,9
+Face2 2,1,9,10
+Face2 3,2,10,11
+Face2 4,3,11,12
+Face2 5,4,12,13
+Face2 6,5,13,14
+Face2 7,6,14,15
+Face2 0,7,15,8
+Color 60,60,60
+Rotate 0,1,0,-20
+Translate 1.397,2.75,0.1
+Rotate 0,1,0,180
+[MeshBuilder]
+Vertex -0.09, 0.16,0.03
+Vertex -0.07, 0.18,0.03
+Vertex  0.07, 0.18,0.03
+Vertex  0.09, 0.16,0.03
+Vertex  0.09,-0.16,0.03
+Vertex  0.07,-0.18,0.03
+Vertex -0.07,-0.18,0.03
+Vertex -0.09,-0.16,0.03
+Face 7,2,1,0
+Face 7,6,3,2
+Face 6,5,4,3
+Color 180,180,180
+Rotate 0,1,0,-20
+Translate 1.397,2.75,0.1
+Rotate 0,1,0,180
+[MeshBuilder]
+Cylinder 6,0.012,0.012,0.31
+Translate 1.403,2.60,0.09
+Color 60,60,60
+Rotate 0,1,0,180
+[MeshBuilder]
+Cylinder 6,0.012,0.012,0.30
+Rotate 1,0,0,90
+Rotate 0,1,0,-30
+Translate 1.33,2.45,0.22
+Color 60,60,60
+Rotate 0,1,0,180
+[MeshBuilder]
+Cylinder 8,0.015,0.015,0.035
+Rotate 1,0,0,90
+Rotate 0,1,0,-30
+Translate 1.40,2.75,0.095
+Color 60,60,60
+Rotate 0,1,0,180
+[MeshBuilder]
+Cube 0.04,0.07,0.01
+Rotate 0,1,0,-45
+Translate 1.26,2.45,0.335
+Color 60,60,60
+Rotate 0,1,0,180
+
+[MeshBuilder]
+Vertex -0.09, 0.16,0.02
+Vertex -0.07, 0.18,0.02
+Vertex  0.07, 0.18,0.02
+Vertex  0.09, 0.16,0.02
+Vertex  0.09,-0.16,0.02
+Vertex  0.07,-0.18,0.02
+Vertex -0.07,-0.18,0.02
+Vertex -0.09,-0.16,0.02
+Vertex -0.09, 0.16,0.04
+Vertex -0.07, 0.18,0.04
+Vertex  0.07, 0.18,0.04
+Vertex  0.09, 0.16,0.04
+Vertex  0.09,-0.16,0.04
+Vertex  0.07,-0.18,0.04
+Vertex -0.07,-0.18,0.04
+Vertex -0.09,-0.16,0.04
+Vertex -0.01, 0.01,0
+Vertex  0.01, 0.01,0
+Vertex  0.01,-0.01,0
+Vertex -0.01,-0.01,0
+Face 0,1,17,16
+Face 1,2,17
+Face 2,3,18,17
+Face 3,4,18
+Face 4,5,19,18
+Face 5,6,19
+Face 6,7,16,19
+Face 7,0,16
+Face2 1,0,8,9
+Face2 2,1,9,10
+Face2 3,2,10,11
+Face2 4,3,11,12
+Face2 5,4,12,13
+Face2 6,5,13,14
+Face2 7,6,14,15
+Face2 0,7,15,8
+Color 60,60,60
+Rotate 0,1,0,20
+Translate -1.397,2.75,0.1
+Rotate 0,1,0,180
+[MeshBuilder]
+Vertex -0.09, 0.16,0.03
+Vertex -0.07, 0.18,0.03
+Vertex  0.07, 0.18,0.03
+Vertex  0.09, 0.16,0.03
+Vertex  0.09,-0.16,0.03
+Vertex  0.07,-0.18,0.03
+Vertex -0.07,-0.18,0.03
+Vertex -0.09,-0.16,0.03
+Face 7,2,1,0
+Face 7,6,3,2
+Face 6,5,4,3
+Color 180,180,180
+Rotate 0,1,0,20
+Translate -1.397,2.75,0.1
+Rotate 0,1,0,180
+[MeshBuilder]
+Cylinder 6,0.012,0.012,0.31
+Translate -1.403,2.60,0.09
+Color 60,60,60
+Rotate 0,1,0,180
+[MeshBuilder]
+Cylinder 6,0.012,0.012,0.30
+Rotate 1,0,0,90
+Rotate 0,1,0,30
+Translate -1.33,2.45,0.22
+Color 60,60,60
+Rotate 0,1,0,180
+[MeshBuilder]
+Cylinder 8,0.015,0.015,0.035
+Rotate 1,0,0,90
+Rotate 0,1,0,30
+Translate -1.40,2.75,0.095
+Color 60,60,60
+Rotate 0,1,0,180
+[MeshBuilder]
+Cube 0.04,0.07,0.01
+Rotate 0,1,0,45
+Translate -1.26,2.45,0.335
+Color 60,60,60
+Rotate 0,1,0,180
+;------------------------

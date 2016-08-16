@@ -1,0 +1,1102 @@
+﻿;Sibrik Miklós úti felüljáró
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;Oszlopok
+
+[MeshBuilder]
+Vertex -0.794,-0.3, 0.000
+Vertex -0.978,-0.3, 0.401
+Vertex -0.972,-0.3, 0.842
+Vertex -0.777,-0.3, 1.238
+Vertex -0.430,-0.3, 1.511
+Vertex  0.000,-0.3, 1.608
+Vertex  0.430,-0.3, 1.511
+Vertex  0.777,-0.3, 1.238
+Vertex  0.972,-0.3, 0.842
+Vertex  0.978,-0.3, 0.401
+Vertex  0.794,-0.3, 0.000
+Vertex  0.978,-0.3,-0.401
+Vertex  0.972,-0.3,-0.842
+Vertex  0.777,-0.3,-1.238
+Vertex  0.430,-0.3,-1.511
+Vertex  0.000,-0.3,-1.608
+Vertex -0.430,-0.3,-1.511
+Vertex -0.777,-0.3,-1.238
+Vertex -0.972,-0.3,-0.842
+Vertex -0.978,-0.3,-0.401
+Vertex -0.794,6.1, 0.000
+Vertex -0.978,6.1, 0.401
+Vertex -0.972,6.1, 0.842
+Vertex -0.777,6.1, 1.238
+Vertex -0.430,6.1, 1.511
+Vertex  0.000,6.1, 1.608
+Vertex  0.430,6.1, 1.511
+Vertex  0.777,6.1, 1.238
+Vertex  0.972,6.1, 0.842
+Vertex  0.978,6.1, 0.401
+Vertex  0.794,6.1, 0.000
+Vertex  0.978,6.1,-0.401
+Vertex  0.972,6.1,-0.842
+Vertex  0.777,6.1,-1.238
+Vertex  0.430,6.1,-1.511
+Vertex  0.000,6.1,-1.608
+Vertex -0.430,6.1,-1.511
+Vertex -0.777,6.1,-1.238
+Vertex -0.972,6.1,-0.842
+Vertex -0.978,6.1,-0.401
+Face 00,01,21,20
+Face 01,02,22,21
+Face 02,03,23,22
+Face 03,04,24,23
+Face 04,05,25,24
+Face 05,06,26,25
+Face 06,07,27,26
+Face 07,08,28,27
+Face 08,09,29,28
+Face 09,10,30,29
+Face 10,11,31,30
+Face 11,12,32,31
+Face 12,13,33,32
+Face 13,14,34,33
+Face 14,15,35,34
+Face 15,16,36,35
+Face 16,17,37,36
+Face 17,18,38,37
+Face 18,19,39,38
+Face 19,00,20,39
+[Texture]
+Load sibrik_f_oszlop.bmp
+Coordinates 00,00,1
+Coordinates 01,01,1
+Coordinates 02,02,1
+Coordinates 03,03,1
+Coordinates 04,04,1
+Coordinates 05,05,1
+Coordinates 06,06,1
+Coordinates 07,07,1
+Coordinates 08,08,1
+Coordinates 09,09,1
+Coordinates 10,10,1
+Coordinates 11,11,1
+Coordinates 12,12,1
+Coordinates 13,13,1
+Coordinates 14,14,1
+Coordinates 15,15,1
+Coordinates 16,16,1
+Coordinates 17,17,1
+Coordinates 18,18,1
+Coordinates 19,19,1
+Coordinates 20,00,0
+Coordinates 21,01,0
+Coordinates 22,02,0
+Coordinates 23,03,0
+Coordinates 24,04,0
+Coordinates 25,05,0
+Coordinates 26,06,0
+Coordinates 27,07,0
+Coordinates 28,08,0
+Coordinates 29,09,0
+Coordinates 30,10,0
+Coordinates 31,11,0
+Coordinates 32,12,0
+Coordinates 33,13,0
+Coordinates 34,14,0
+Coordinates 35,15,0
+Coordinates 36,16,0
+Coordinates 37,17,0
+Coordinates 38,18,0
+Coordinates 39,19,0
+Translate -16,0,8.685
+
+[MeshBuilder]
+Vertex -0.794,-0.3, 0.000
+Vertex -0.978,-0.3, 0.401
+Vertex -0.972,-0.3, 0.842
+Vertex -0.777,-0.3, 1.238
+Vertex -0.430,-0.3, 1.511
+Vertex  0.000,-0.3, 1.608
+Vertex  0.430,-0.3, 1.511
+Vertex  0.777,-0.3, 1.238
+Vertex  0.972,-0.3, 0.842
+Vertex  0.978,-0.3, 0.401
+Vertex  0.794,-0.3, 0.000
+Vertex  0.978,-0.3,-0.401
+Vertex  0.972,-0.3,-0.842
+Vertex  0.777,-0.3,-1.238
+Vertex  0.430,-0.3,-1.511
+Vertex  0.000,-0.3,-1.608
+Vertex -0.430,-0.3,-1.511
+Vertex -0.777,-0.3,-1.238
+Vertex -0.972,-0.3,-0.842
+Vertex -0.978,-0.3,-0.401
+Vertex -0.794,6.1, 0.000
+Vertex -0.978,6.1, 0.401
+Vertex -0.972,6.1, 0.842
+Vertex -0.777,6.1, 1.238
+Vertex -0.430,6.1, 1.511
+Vertex  0.000,6.1, 1.608
+Vertex  0.430,6.1, 1.511
+Vertex  0.777,6.1, 1.238
+Vertex  0.972,6.1, 0.842
+Vertex  0.978,6.1, 0.401
+Vertex  0.794,6.1, 0.000
+Vertex  0.978,6.1,-0.401
+Vertex  0.972,6.1,-0.842
+Vertex  0.777,6.1,-1.238
+Vertex  0.430,6.1,-1.511
+Vertex  0.000,6.1,-1.608
+Vertex -0.430,6.1,-1.511
+Vertex -0.777,6.1,-1.238
+Vertex -0.972,6.1,-0.842
+Vertex -0.978,6.1,-0.401
+Face 00,01,21,20
+Face 01,02,22,21
+Face 02,03,23,22
+Face 03,04,24,23
+Face 04,05,25,24
+Face 05,06,26,25
+Face 06,07,27,26
+Face 07,08,28,27
+Face 08,09,29,28
+Face 09,10,30,29
+Face 10,11,31,30
+Face 11,12,32,31
+Face 12,13,33,32
+Face 13,14,34,33
+Face 14,15,35,34
+Face 15,16,36,35
+Face 16,17,37,36
+Face 17,18,38,37
+Face 18,19,39,38
+Face 19,00,20,39
+[Texture]
+Load sibrik_f_oszlop.bmp
+Coordinates 00,00,1
+Coordinates 01,01,1
+Coordinates 02,02,1
+Coordinates 03,03,1
+Coordinates 04,04,1
+Coordinates 05,05,1
+Coordinates 06,06,1
+Coordinates 07,07,1
+Coordinates 08,08,1
+Coordinates 09,09,1
+Coordinates 10,10,1
+Coordinates 11,11,1
+Coordinates 12,12,1
+Coordinates 13,13,1
+Coordinates 14,14,1
+Coordinates 15,15,1
+Coordinates 16,16,1
+Coordinates 17,17,1
+Coordinates 18,18,1
+Coordinates 19,19,1
+Coordinates 20,00,0
+Coordinates 21,01,0
+Coordinates 22,02,0
+Coordinates 23,03,0
+Coordinates 24,04,0
+Coordinates 25,05,0
+Coordinates 26,06,0
+Coordinates 27,07,0
+Coordinates 28,08,0
+Coordinates 29,09,0
+Coordinates 30,10,0
+Coordinates 31,11,0
+Coordinates 32,12,0
+Coordinates 33,13,0
+Coordinates 34,14,0
+Coordinates 35,15,0
+Coordinates 36,16,0
+Coordinates 37,17,0
+Coordinates 38,18,0
+Coordinates 39,19,0
+Translate -16,0,-3.473
+
+[MeshBuilder]
+Vertex -0.794,-0.3, 0.000
+Vertex -0.978,-0.3, 0.401
+Vertex -0.972,-0.3, 0.842
+Vertex -0.777,-0.3, 1.238
+Vertex -0.430,-0.3, 1.511
+Vertex  0.000,-0.3, 1.608
+Vertex  0.430,-0.3, 1.511
+Vertex  0.777,-0.3, 1.238
+Vertex  0.972,-0.3, 0.842
+Vertex  0.978,-0.3, 0.401
+Vertex  0.794,-0.3, 0.000
+Vertex  0.978,-0.3,-0.401
+Vertex  0.972,-0.3,-0.842
+Vertex  0.777,-0.3,-1.238
+Vertex  0.430,-0.3,-1.511
+Vertex  0.000,-0.3,-1.608
+Vertex -0.430,-0.3,-1.511
+Vertex -0.777,-0.3,-1.238
+Vertex -0.972,-0.3,-0.842
+Vertex -0.978,-0.3,-0.401
+Vertex -0.794,6.1, 0.000
+Vertex -0.978,6.1, 0.401
+Vertex -0.972,6.1, 0.842
+Vertex -0.777,6.1, 1.238
+Vertex -0.430,6.1, 1.511
+Vertex  0.000,6.1, 1.608
+Vertex  0.430,6.1, 1.511
+Vertex  0.777,6.1, 1.238
+Vertex  0.972,6.1, 0.842
+Vertex  0.978,6.1, 0.401
+Vertex  0.794,6.1, 0.000
+Vertex  0.978,6.1,-0.401
+Vertex  0.972,6.1,-0.842
+Vertex  0.777,6.1,-1.238
+Vertex  0.430,6.1,-1.511
+Vertex  0.000,6.1,-1.608
+Vertex -0.430,6.1,-1.511
+Vertex -0.777,6.1,-1.238
+Vertex -0.972,6.1,-0.842
+Vertex -0.978,6.1,-0.401
+Face 00,01,21,20
+Face 01,02,22,21
+Face 02,03,23,22
+Face 03,04,24,23
+Face 04,05,25,24
+Face 05,06,26,25
+Face 06,07,27,26
+Face 07,08,28,27
+Face 08,09,29,28
+Face 09,10,30,29
+Face 10,11,31,30
+Face 11,12,32,31
+Face 12,13,33,32
+Face 13,14,34,33
+Face 14,15,35,34
+Face 15,16,36,35
+Face 16,17,37,36
+Face 17,18,38,37
+Face 18,19,39,38
+Face 19,00,20,39
+[Texture]
+Load sibrik_f_oszlop.bmp
+Coordinates 00,00,1
+Coordinates 01,01,1
+Coordinates 02,02,1
+Coordinates 03,03,1
+Coordinates 04,04,1
+Coordinates 05,05,1
+Coordinates 06,06,1
+Coordinates 07,07,1
+Coordinates 08,08,1
+Coordinates 09,09,1
+Coordinates 10,10,1
+Coordinates 11,11,1
+Coordinates 12,12,1
+Coordinates 13,13,1
+Coordinates 14,14,1
+Coordinates 15,15,1
+Coordinates 16,16,1
+Coordinates 17,17,1
+Coordinates 18,18,1
+Coordinates 19,19,1
+Coordinates 20,00,0
+Coordinates 21,01,0
+Coordinates 22,02,0
+Coordinates 23,03,0
+Coordinates 24,04,0
+Coordinates 25,05,0
+Coordinates 26,06,0
+Coordinates 27,07,0
+Coordinates 28,08,0
+Coordinates 29,09,0
+Coordinates 30,10,0
+Coordinates 31,11,0
+Coordinates 32,12,0
+Coordinates 33,13,0
+Coordinates 34,14,0
+Coordinates 35,15,0
+Coordinates 36,16,0
+Coordinates 37,17,0
+Coordinates 38,18,0
+Coordinates 39,19,0
+Translate 11,0,4.288
+
+[MeshBuilder]
+Vertex -0.794,-0.3, 0.000
+Vertex -0.978,-0.3, 0.401
+Vertex -0.972,-0.3, 0.842
+Vertex -0.777,-0.3, 1.238
+Vertex -0.430,-0.3, 1.511
+Vertex  0.000,-0.3, 1.608
+Vertex  0.430,-0.3, 1.511
+Vertex  0.777,-0.3, 1.238
+Vertex  0.972,-0.3, 0.842
+Vertex  0.978,-0.3, 0.401
+Vertex  0.794,-0.3, 0.000
+Vertex  0.978,-0.3,-0.401
+Vertex  0.972,-0.3,-0.842
+Vertex  0.777,-0.3,-1.238
+Vertex  0.430,-0.3,-1.511
+Vertex  0.000,-0.3,-1.608
+Vertex -0.430,-0.3,-1.511
+Vertex -0.777,-0.3,-1.238
+Vertex -0.972,-0.3,-0.842
+Vertex -0.978,-0.3,-0.401
+Vertex -0.794,6.1, 0.000
+Vertex -0.978,6.1, 0.401
+Vertex -0.972,6.1, 0.842
+Vertex -0.777,6.1, 1.238
+Vertex -0.430,6.1, 1.511
+Vertex  0.000,6.1, 1.608
+Vertex  0.430,6.1, 1.511
+Vertex  0.777,6.1, 1.238
+Vertex  0.972,6.1, 0.842
+Vertex  0.978,6.1, 0.401
+Vertex  0.794,6.1, 0.000
+Vertex  0.978,6.1,-0.401
+Vertex  0.972,6.1,-0.842
+Vertex  0.777,6.1,-1.238
+Vertex  0.430,6.1,-1.511
+Vertex  0.000,6.1,-1.608
+Vertex -0.430,6.1,-1.511
+Vertex -0.777,6.1,-1.238
+Vertex -0.972,6.1,-0.842
+Vertex -0.978,6.1,-0.401
+Face 00,01,21,20
+Face 01,02,22,21
+Face 02,03,23,22
+Face 03,04,24,23
+Face 04,05,25,24
+Face 05,06,26,25
+Face 06,07,27,26
+Face 07,08,28,27
+Face 08,09,29,28
+Face 09,10,30,29
+Face 10,11,31,30
+Face 11,12,32,31
+Face 12,13,33,32
+Face 13,14,34,33
+Face 14,15,35,34
+Face 15,16,36,35
+Face 16,17,37,36
+Face 17,18,38,37
+Face 18,19,39,38
+Face 19,00,20,39
+[Texture]
+Load sibrik_f_oszlop.bmp
+Coordinates 00,00,1
+Coordinates 01,01,1
+Coordinates 02,02,1
+Coordinates 03,03,1
+Coordinates 04,04,1
+Coordinates 05,05,1
+Coordinates 06,06,1
+Coordinates 07,07,1
+Coordinates 08,08,1
+Coordinates 09,09,1
+Coordinates 10,10,1
+Coordinates 11,11,1
+Coordinates 12,12,1
+Coordinates 13,13,1
+Coordinates 14,14,1
+Coordinates 15,15,1
+Coordinates 16,16,1
+Coordinates 17,17,1
+Coordinates 18,18,1
+Coordinates 19,19,1
+Coordinates 20,00,0
+Coordinates 21,01,0
+Coordinates 22,02,0
+Coordinates 23,03,0
+Coordinates 24,04,0
+Coordinates 25,05,0
+Coordinates 26,06,0
+Coordinates 27,07,0
+Coordinates 28,08,0
+Coordinates 29,09,0
+Coordinates 30,10,0
+Coordinates 31,11,0
+Coordinates 32,12,0
+Coordinates 33,13,0
+Coordinates 34,14,0
+Coordinates 35,15,0
+Coordinates 36,16,0
+Coordinates 37,17,0
+Coordinates 38,18,0
+Coordinates 39,19,0
+Translate 11,0,-7.870
+
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate -43,2.9,13.512
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate -43,2.9,12.651
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate -43,2.9,1.354
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate -43,2.9,0.493
+;
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 44,2.9,-0.656
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 44,2.9,-1.517
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 44,2.9,-12.814
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 44,2.9,-13.675
+;
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 74,2.9,-5.542
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 74,2.9,-6.403
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 74,2.9,-17.700
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 74,2.9,-18.561
+;
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 113,2.9,-11.893
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 113,2.9,-12.754
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 113,2.9,-24.051
+[meshbuilder]
+cylinder 16,1,1,6.4
+color 70,70,70
+translate 113,2.9,-24.912
+
+;--------------------------------------
+
+;Gerendák alulról
+[MeshBuilder]
+Vertex -82,3.5, 04.235
+Vertex -82,3.5, 22.473
+Vertex -43,5.4,-02.116
+Vertex -43,5.4, 16.121
+Vertex -16,6.0,-06.513
+Vertex -16,6.0, 11.724
+Vertex  74,6.0,-21.170
+Vertex  74,6.0,-02.933
+Vertex 113,5.5,-27.521
+Vertex 113,5.5,-09.284
+Face 3,1,0,2
+Face 5,3,2,4
+Face 7,5,4,6
+Face 9,7,6,8
+[Texture]
+Load sibrik_f_gerenda.bmp
+Coordinates 0,00,00.30
+Coordinates 1,00,15.70
+Coordinates 2,20,00.30
+Coordinates 3,20,15.70
+Coordinates 4,40,00.30
+Coordinates 5,40,15.70
+Coordinates 6,60,00.30
+Coordinates 7,60,15.70
+Coordinates 8,80,00.30
+Coordinates 9,80,15.70
+
+;--------------------------------------
+
+;Pályalemez oldal
+[MeshBuilder]
+Vertex -82,3.5, 04.235
+Vertex -82,4.5, 04.235
+Vertex -43,5.4,-02.116
+Vertex -43,6.4,-02.116
+Vertex -16,6.0,-06.513
+Vertex -16,7.0,-06.513
+Vertex  74,6.0,-21.170
+Vertex  74,7.0,-21.170
+Vertex 113,5.5,-27.521
+Vertex 113,6.5,-27.521
+;
+Vertex -82,3.5, 22.473
+Vertex -82,4.5, 22.473
+Vertex -43,5.4, 16.121
+Vertex -43,6.4, 16.121
+Vertex -16,6.0, 11.724
+Vertex -16,7.0, 11.724
+Vertex  74,6.0,-02.933
+Vertex  74,7.0,-02.933
+Vertex 113,5.5,-09.284
+Vertex 113,6.5,-09.284
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 12,13,11,10
+Face 14,15,13,12
+Face 16,17,15,14
+Face 18,19,17,16
+[Texture]
+Load sibrik_f_oldal_1.bmp
+Coordinates 0,00,1
+Coordinates 1,00,0
+Coordinates 2,10,1
+Coordinates 3,10,0
+Coordinates 4,20,1
+Coordinates 5,20,0
+Coordinates 6,30,1
+Coordinates 7,30,0
+Coordinates 8,40,1
+Coordinates 9,40,0
+Coordinates 10,00,1
+Coordinates 11,00,0
+Coordinates 12,10,1
+Coordinates 13,10,0
+Coordinates 14,20,1
+Coordinates 15,20,0
+Coordinates 16,30,1
+Coordinates 17,30,0
+Coordinates 18,40,1
+Coordinates 19,40,0
+
+[MeshBuilder]
+Vertex -82,4.5, 03.425
+Vertex -82,4.5, 04.235
+Vertex -43,6.4,-02.926
+Vertex -43,6.4,-02.116
+Vertex -16,7.0,-07.323
+Vertex -16,7.0,-06.513
+Vertex  74,7.0,-21.970
+Vertex  74,7.0,-21.170
+Vertex 113,6.5,-28.332
+Vertex 113,6.5,-27.521
+;
+Vertex -82,4.5, 22.473
+Vertex -82,4.5, 23.283
+Vertex -43,6.4, 16.121
+Vertex -43,6.4, 16.932
+Vertex -16,7.0, 11.724
+Vertex -16,7.0, 12.535
+Vertex  74,7.0,-02.933
+Vertex  74,7.0,-02.122
+Vertex 113,6.5,-09.284
+Vertex 113,6.5,-08.473
+Face 3,1,0,2
+Face 5,3,2,4
+Face 7,5,4,6
+Face 9,7,6,8
+Face 12,13,11,10
+Face 14,15,13,12
+Face 16,17,15,14
+Face 18,19,17,16
+Color 30,30,30
+
+[MeshBuilder]
+Vertex -82,4.5, 03.425
+Vertex -82,5.5, 03.425
+Vertex -43,6.4,-02.926
+Vertex -43,7.4,-02.926
+Vertex -16,7.0,-07.323
+Vertex -16,8.0,-07.323
+Vertex  74,7.0,-21.970
+Vertex  74,8.0,-21.970
+Vertex 113,6.5,-28.332
+Vertex 113,7.5,-28.332
+;
+Vertex -82,4.5, 23.283
+Vertex -82,5.5, 23.283
+Vertex -43,6.4, 16.932
+Vertex -43,7.4, 16.932
+Vertex -16,7.0, 12.535
+Vertex -16,8.0, 12.535
+Vertex  74,7.0,-02.122
+Vertex  74,8.0,-02.122
+Vertex 113,6.5,-08.473
+Vertex 113,7.5,-08.473
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 12,13,11,10
+Face 14,15,13,12
+Face 16,17,15,14
+Face 18,19,17,16
+[Texture]
+Load sibrik_f_oldal_2.bmp
+Coordinates 0,00,1
+Coordinates 1,00,0
+Coordinates 2,13,1
+Coordinates 3,13,0
+Coordinates 4,22,1
+Coordinates 5,22,0
+Coordinates 6,52,1
+Coordinates 7,52,0
+Coordinates 8,65,1
+Coordinates 9,65,0
+Coordinates 10,00,1
+Coordinates 11,00,0
+Coordinates 12,13,1
+Coordinates 13,13,0
+Coordinates 14,22,1
+Coordinates 15,22,0
+Coordinates 16,52,1
+Coordinates 17,52,0
+Coordinates 18,65,1
+Coordinates 19,65,0
+
+[MeshBuilder]
+Vertex -150,-1.2,34.278
+Vertex -150,-0.2,34.278
+Vertex -082,-1.2,23.283
+Vertex -082, 5.5,23.283
+Vertex -082,-1.2,03.425
+Vertex -082, 5.5,03.425
+Face 2,3,1,0
+Face 3,2,4,5
+Color 80,80,80
+
+[MeshBuilder]
+Vertex -2,-0.05,-9.401
+Vertex -2, 1.05,-9.401
+Vertex  0,-0.05,-9.726
+Vertex  0, 1.05,-9.726
+Vertex  2,-0.05,-10.052
+Vertex  2, 1.05,-10.052
+Vertex -2,-0.05,10.052
+Vertex -2, 1.05,10.052
+Vertex  0,-0.05,9.726
+Vertex  0, 1.05,9.726
+Vertex  2,-0.05,9.401
+Vertex  2, 1.05,9.401
+Face 0,1,3,2
+Face 2,3,5,4
+Face 10,11,9,8
+Face 8,9,7,6
+Face 0,2,8,6
+Face 2,4,10,8
+Face 6,7,1,0
+Face 4,5,11,10
+[Texture]
+Load sibrik_f_oldal_3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,1,1
+Coordinates 9,1,0
+Coordinates 10,0,1
+Coordinates 11,0,0
+Color 180,180,180
+Rotate 0,0,1,2
+Translate -43,5.4,7.003
+
+[MeshBuilder]
+Vertex -2,-0.05,-9.401
+Vertex -2, 1.05,-9.401
+Vertex  0,-0.05,-9.726
+Vertex  0, 1.05,-9.726
+Vertex  2,-0.05,-10.052
+Vertex  2, 1.05,-10.052
+Vertex -2,-0.05,10.052
+Vertex -2, 1.05,10.052
+Vertex  0,-0.05,9.726
+Vertex  0, 1.05,9.726
+Vertex  2,-0.05,9.401
+Vertex  2, 1.05,9.401
+Face 0,1,3,2
+Face 2,3,5,4
+Face 10,11,9,8
+Face 8,9,7,6
+Face 0,2,8,6
+Face 2,4,10,8
+Face 6,7,1,0
+Face 4,5,11,10
+[Texture]
+Load sibrik_f_oldal_3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,1,1
+Coordinates 9,1,0
+Coordinates 10,0,1
+Coordinates 11,0,0
+Color 180,180,180
+Rotate 0,0,1,1
+Translate -16,6.0,2.606
+
+[MeshBuilder]
+Vertex -2,-0.05,-9.401
+Vertex -2, 1.05,-9.401
+Vertex  0,-0.05,-9.726
+Vertex  0, 1.05,-9.726
+Vertex  2,-0.05,-10.052
+Vertex  2, 1.05,-10.052
+Vertex -2,-0.05,10.052
+Vertex -2, 1.05,10.052
+Vertex  0,-0.05,9.726
+Vertex  0, 1.05,9.726
+Vertex  2,-0.05,9.401
+Vertex  2, 1.05,9.401
+Face 0,1,3,2
+Face 2,3,5,4
+Face 10,11,9,8
+Face 8,9,7,6
+Face 0,2,8,6
+Face 2,4,10,8
+Face 6,7,1,0
+Face 4,5,11,10
+[Texture]
+Load sibrik_f_oldal_3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,1,1
+Coordinates 9,1,0
+Coordinates 10,0,1
+Coordinates 11,0,0
+Color 180,180,180
+Translate 11,6.0,-1.791
+
+[MeshBuilder]
+Vertex -2,-0.05,-9.401
+Vertex -2, 1.05,-9.401
+Vertex  0,-0.05,-9.726
+Vertex  0, 1.05,-9.726
+Vertex  2,-0.05,-10.052
+Vertex  2, 1.05,-10.052
+Vertex -2,-0.05,10.052
+Vertex -2, 1.05,10.052
+Vertex  0,-0.05,9.726
+Vertex  0, 1.05,9.726
+Vertex  2,-0.05,9.401
+Vertex  2, 1.05,9.401
+Face 0,1,3,2
+Face 2,3,5,4
+Face 10,11,9,8
+Face 8,9,7,6
+Face 0,2,8,6
+Face 2,4,10,8
+Face 6,7,1,0
+Face 4,5,11,10
+[Texture]
+Load sibrik_f_oldal_3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,1,1
+Coordinates 9,1,0
+Coordinates 10,0,1
+Coordinates 11,0,0
+Color 180,180,180
+Translate 44,6.0,-7.166
+
+[MeshBuilder]
+Vertex -2,-0.05,-9.401
+Vertex -2, 1.05,-9.401
+Vertex  0,-0.05,-9.726
+Vertex  0, 1.05,-9.726
+Vertex  2,-0.05,-10.052
+Vertex  2, 1.05,-10.052
+Vertex -2,-0.05,10.052
+Vertex -2, 1.05,10.052
+Vertex  0,-0.05,9.726
+Vertex  0, 1.05,9.726
+Vertex  2,-0.05,9.401
+Vertex  2, 1.05,9.401
+Face 0,1,3,2
+Face 2,3,5,4
+Face 10,11,9,8
+Face 8,9,7,6
+Face 0,2,8,6
+Face 2,4,10,8
+Face 6,7,1,0
+Face 4,5,11,10
+[Texture]
+Load sibrik_f_oldal_3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,1,1
+Coordinates 9,1,0
+Coordinates 10,0,1
+Coordinates 11,0,0
+Color 180,180,180
+Translate 74,6.0,-12.051
+
+[MeshBuilder]
+Vertex -2,-0.05,-9.401
+Vertex -2, 1.05,-9.401
+Vertex  0,-0.05,-9.726
+Vertex  0, 1.05,-9.726
+Vertex  2,-0.05,-10.052
+Vertex  2, 1.05,-10.052
+Vertex -2,-0.05,10.052
+Vertex -2, 1.05,10.052
+Vertex  0,-0.05,9.726
+Vertex  0, 1.05,9.726
+Vertex  2,-0.05,9.401
+Vertex  2, 1.05,9.401
+Face 0,1,3,2
+Face 2,3,5,4
+Face 10,11,9,8
+Face 8,9,7,6
+Face 0,2,8,6
+Face 2,4,10,8
+Face 6,7,1,0
+Face 4,5,11,10
+[Texture]
+Load sibrik_f_oldal_3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,1
+Coordinates 3,1,0
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,0,1
+Coordinates 7,0,0
+Coordinates 8,1,1
+Coordinates 9,1,0
+Coordinates 10,0,1
+Coordinates 11,0,0
+Color 180,180,180
+Rotate 0,0,1,-1
+Translate 113,5.5,-18.402
+
+;--------------------------------------
+
+;Korlát
+
+[MeshBuilder]
+Vertex -82,5.5, 03.425
+Vertex -82,6.5, 03.425
+Vertex -43,7.4,-02.926
+Vertex -43,8.4,-02.926
+Vertex -16,8.0,-07.323
+Vertex -16,9.0,-07.323
+Vertex  74,8.0,-21.970
+Vertex  74,9.0,-21.970
+Vertex 113,7.5,-28.332
+Vertex 113,8.5,-28.332
+;
+Vertex -82,5.5, 23.283
+Vertex -82,6.5, 23.283
+Vertex -43,7.4, 16.932
+Vertex -43,8.4, 16.932
+Vertex -16,8.0, 12.535
+Vertex -16,9.0, 12.535
+Vertex  74,8.0,-02.122
+Vertex  74,9.0,-02.122
+Vertex 113,7.5,-08.473
+Vertex 113,8.5,-08.473
+;
+Vertex -150,-0.2,34.278
+Vertex -150, 0.8,34.278
+Vertex  -82, 5.5,23.283
+Vertex  -82, 6.5,23.283
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 12,13,11,10
+Face 14,15,13,12
+Face 16,17,15,14
+Face 18,19,17,16
+Face 22,23,21,20
+[Texture]
+Load sibrik_f_korlat_1.bmp
+Coordinates 0,00,1
+Coordinates 1,00,0
+Coordinates 2,26,1
+Coordinates 3,26,0
+Coordinates 4,44,1
+Coordinates 5,44,0
+Coordinates 6,104,1
+Coordinates 7,104,0
+Coordinates 8,130,1
+Coordinates 9,130,0
+Coordinates 10,00,1
+Coordinates 11,00,0
+Coordinates 12,26,1
+Coordinates 13,26,0
+Coordinates 14,44,1
+Coordinates 15,44,0
+Coordinates 16,104,1
+Coordinates 17,104,0
+Coordinates 18,130,1
+Coordinates 19,130,0
+Coordinates 20,0,1
+Coordinates 21,0,0
+Coordinates 22,45,1
+Coordinates 23,45,0
+Transparent 0,0,255
+
+
+
+
+[MeshBuilder]
+Vertex -82,5, -16.575
+Vertex -82,6, -16.575
+Vertex -43,6.9,-22.926
+Vertex -43,7.9, -22.926
+Vertex -16,7.5, -27.323
+Vertex -16,8.5, -27.323
+Vertex  74,7.5,-41.970
+Vertex  74,8.5,-41.970
+Vertex 113,7,-48.332
+Vertex 113,8,-48.332
+;
+Vertex -82,5, 3.283
+Vertex -82,6, 3.283
+Vertex -43,6.9, -3.068
+Vertex -43,7.9, -3.068
+Vertex -16,7.5, -7.465
+Vertex -16,8.5, -7.465
+Vertex  74,7.5,-22.122
+Vertex  74,8.5,-22.122
+Vertex 113,7,-28.473
+Vertex 113,8,-28.473
+;
+Vertex -150,-0.7,14.278
+Vertex -150, 0.3,14.278
+Vertex  -82, 5,3.283
+Vertex  -82, 6,3.283
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 12,13,11,10
+Face 14,15,13,12
+Face 16,17,15,14
+Face 18,19,17,16
+Face 22,23,21,20
+[Texture]
+Load sibrik_f_korlat_1.bmp
+Coordinates 0,00,1
+Coordinates 1,00,0
+Coordinates 2,26,1
+Coordinates 3,26,0
+Coordinates 4,44,1
+Coordinates 5,44,0
+Coordinates 6,104,1
+Coordinates 7,104,0
+Coordinates 8,130,1
+Coordinates 9,130,0
+Coordinates 10,00,1
+Coordinates 11,00,0
+Coordinates 12,26,1
+Coordinates 13,26,0
+Coordinates 14,44,1
+Coordinates 15,44,0
+Coordinates 16,104,1
+Coordinates 17,104,0
+Coordinates 18,130,1
+Coordinates 19,130,0
+Coordinates 20,0,1
+Coordinates 21,0,0
+Coordinates 22,45,1
+Coordinates 23,45,0
+Transparent 0,0,255
+
+
+;--------------------------------------
+
+;Kerítések
+
+;[MeshBuilder]
+;Vertex -8.4,-0.25,-12.25
+;Vertex -8.4, 2.00,-12.25
+;Vertex -8.4, 2.00, 05.50
+;Vertex -8.4,-0.25, 05.50
+;Vertex 11.0,-0.25, 02.68
+;Vertex 11.0, 2.00, 02.68
+;Vertex 11.0, 2.00,-06.27
+;Vertex 11.0,-0.25,-06.27
+;Vertex 11.0,-0.25,-09.47
+;Vertex 11.0, 2.00,-09.47
+;Vertex 11.0, 2.00,-12.25
+;Vertex 11.0,-0.25,-12.25
+;Face 0,1,2,3
+;Face 4,5,6,7
+;Face 8,9,10,11
+;[Texture]
+;Load kerites_01.bmp
+;Coordinates 0,0,1
+;Coordinates 1,0,0
+;Coordinates 2,7,0
+;Coordinates 3,7,1
+;Coordinates 4,0,1
+;Coordinates 5,0,0
+;Coordinates 6,3,0
+;Coordinates 7,3,1
+;Coordinates 8,0,1
+;Coordinates 9,0,0
+;Coordinates 10,1,0
+;Coordinates 11,1,1
+
+;[MeshBuilder]
+;Vertex -8.4,-0.25,05.50
+;Vertex -8.4, 2.00,05.50
+;Vertex -8.4, 2.00,13.25
+;Vertex -8.4,-0.25,13.25
+;Vertex 11.0,-0.25,13.25
+;Vertex 11.0, 2.00,13.25
+;Vertex 11.0, 2.00,05.89
+;Vertex 11.0,-0.25,05.89
+;Face 0,1,2,3
+;Face 4,5,6,7
+;[Texture]
+;Load kerites_02.bmp
+;Coordinates 0,0,1
+;Coordinates 1,0,0
+;Coordinates 2,3,0
+;Coordinates 3,3,1
+;Coordinates 4,0,1
+;Coordinates 5,0,0
+;Coordinates 6,3,0
+;Coordinates 7,3,1
+;Transparent 0,0,255

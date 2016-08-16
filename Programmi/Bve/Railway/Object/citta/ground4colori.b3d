@@ -1,0 +1,142 @@
+[MeshBuilder]
+Vertex -130, 20, 25
+Vertex  0, -0.3, 25
+Vertex  0, -0.3, -1
+Vertex -130, 20, -1
+Face 0, 1, 2, 3
+[Texture]
+Load grass.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;----- alberi
+[meshbuilder]
+vertex -36, 12, 3
+vertex -28,  12, 3
+vertex -28,   3.5, 3
+vertex -36,  3.5, 3
+face 1,2,3,0
+[texture]
+load albero1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+[meshbuilder]
+vertex -30, 12, 7
+vertex -22,  12, 7
+vertex -22,   3.5, 7
+vertex -30,  3.5, 7
+face 1,2,3,0
+[texture]
+load albero1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+
+
+[meshbuilder]
+vertex -39, 14, 9
+vertex -23,  14, 9
+vertex -23,   3.5, 9
+vertex -39,  3.5, 9
+face 1,2,3,0
+[texture]
+load albero2.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+
+[meshbuilder]
+vertex -39, 17, 19
+vertex -20,  17, 19
+vertex -20,   3.5, 19
+vertex -39,  3.5, 19
+face 1,2,3,0
+[texture]
+load albero3.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+
+
+;------------------destra
+
+[MeshBuilder]
+Vertex 130, 20, 50
+Vertex  0, -0.3, 50
+Vertex  0, -0.3, -1
+Vertex 130, 20, -1
+Face 3, 2, 1, 0
+[Texture]
+Load grass.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;----- alberi
+[meshbuilder]
+vertex 32, 22, 3
+vertex 24,  22, 3
+vertex 24,  3, 3
+vertex 32, 3, 3
+face 0,3,2,1
+[texture]
+load albero1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+[meshbuilder]
+vertex 30, 22, 7
+vertex 23,  22, 7
+vertex 23,  3.5, 7
+vertex 30, 3.5, 7
+face 0,3,2,1
+[texture]
+load albero1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+
+
+[meshbuilder]
+vertex 30, 24, 9
+vertex 23,  24, 9
+vertex 23,  3.5, 9
+vertex 30, 3.5, 9
+face 0,3,2,1
+[texture]
+load albero2.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+
+[meshbuilder]
+vertex 30, 17, 19
+vertex 23,  17, 19
+vertex 23,  3.5, 19
+vertex 30, 3.5, 19
+face 0,3,2,1
+[texture]
+load albero3.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0

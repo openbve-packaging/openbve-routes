@@ -1,0 +1,107 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+;;;;casa 3
+
+CreateMeshBuilder,
+AddVertex,0, 0, -12,
+AddVertex,0, 7.5, -12,
+AddVertex,7, 7.5, -12,
+AddVertex,7, 0, -12,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,FVbogliasco.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.5, 0,
+SetTextureCoordinates,3, 0.5, 1,
+
+
+CreateMeshBuilder,
+AddVertex,7, 0, 0,
+AddVertex,7, 7.5, 0,
+AddVertex,0, 7.5, 0,
+AddVertex,0, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,FVbogliasco.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.63, 0,
+SetTextureCoordinates,3, 0.63, 1,
+
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 7.5, 0,
+AddVertex,0, 7.5, -12,
+AddVertex,0, 0, -12,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,fvbogliasco.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,7, 0, 0,
+AddVertex,7, 7.5, 0,
+AddVertex,7, 7.5, -12,
+AddVertex,7, 0, -12,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,fvbogliasco.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Tetto
+CreateMeshBuilder,
+AddVertex,, 7.5,-12,
+AddVertex,3.5, 9, -6,
+AddVertex,7, 7.5,-12,
+AddFace,0, 1, 2, 
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, , 1,
+SetTextureCoordinates,1, 0.5, ,
+SetTextureCoordinates,2, 1, 1,
+
+
+
+CreateMeshBuilder,
+AddVertex,, 7.5, 0,
+AddVertex,3.5, 9, -6,
+AddVertex,7, 7.5, 0,
+AddFace,2, 1, 0, 
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, , 1,
+SetTextureCoordinates,1, 0.5, ,
+SetTextureCoordinates,2, 1, 1,
+
+
+
+CreateMeshBuilder,
+AddVertex,, 7.5,-12,
+AddVertex,3.5, 9, -6,
+AddVertex,, 7.5, 0,
+AddFace,2, 1, 0, 
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, , 1,
+SetTextureCoordinates,1, 0.5, ,
+SetTextureCoordinates,2, 1, 1,
+
+
+
+

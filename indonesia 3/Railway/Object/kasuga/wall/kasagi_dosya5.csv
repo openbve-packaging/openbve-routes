@@ -1,0 +1,349 @@
+;“y‘ä
+
+
+
+CreateMeshBuilder,
+AddVertex,2.2, 5, .25,
+AddVertex,2.9, 2, .25,
+AddVertex,3.2, 2, .25,
+AddVertex,2.5, 5, .25,
+AddVertex,2.2, 5, .4,
+AddVertex,2.9, 2, .4,
+AddVertex,2.9, 2, .1,
+AddVertex,2.2, 5, .1,
+AddVertex,2.5, 5, .4,
+AddVertex,3.2, 2, .4,
+AddVertex,3.2, 2, .1,
+AddVertex,2.5, 5, .1,
+
+AddVertex,2.55, 3.5, .3,
+AddVertex,2.2, 2, .3,
+AddVertex,2.5, 2, .3,
+AddVertex,2.85, 3.5, .3,
+
+AddFace,3,2,1,0
+Addface,11,10,9,8,
+AddFace,7,6,5,4
+AddFace,15,14,13,12
+GenerateNormals,
+LoadTexture,rikkyou.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 1, 1,
+SetTextureCoordinates,6, 2, 1,
+SetTextureCoordinates,7, 2, 0,
+SetTextureCoordinates,8, 1, 0,
+SetTextureCoordinates,9, 0, 0,
+SetTextureCoordinates,10, 1, 1,
+SetTextureCoordinates,11, 1, 0,
+
+SetTextureCoordinates,12, 0, 1,
+SetTextureCoordinates,13, 1, 1,
+SetTextureCoordinates,14, 1, 0,
+SetTextureCoordinates,15, 0, 0,
+Setcolor,218,0,0
+Translate,.4,1.2,0
+
+CreateMeshBuilder,
+AddVertex,2, 4, 26,
+AddVertex,2, .3, 26,
+AddVertex,2, .3, 0,
+AddVertex,2, 4, 0,
+AddVertex,3, 4, 0,
+AddVertex,3, .3, 0,
+AddVertex,3,4,26
+AddFace,3,2,1,0
+AddFace,4,5,2,3
+AddFace,6,4,3,0
+GenerateNormals,
+LoadTexture,conc1.bmp,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 1, 0,
+Translate,.7,-.8,
+Setcolor,179,158,147
+
+
+
+
+CreateMeshBuilder,
+AddVertex,2.2, 5, .25,
+AddVertex,2.9, 2, .25,
+AddVertex,3.2, 2, .25,
+AddVertex,2.5, 5, .25,
+AddVertex,2.2, 5, .4,
+AddVertex,2.9, 2, .4,
+AddVertex,2.9, 2, .1,
+AddVertex,2.2, 5, .1,
+AddVertex,2.5, 5, .4,
+AddVertex,3.2, 2, .4,
+AddVertex,3.2, 2, .1,
+AddVertex,2.5, 5, .1,
+
+AddVertex,2.55, 3.5, .3,
+AddVertex,2.2, 2, .3,
+AddVertex,2.5, 2, .3,
+AddVertex,2.85, 3.5, .3,
+
+AddFace,3,2,1,0
+Addface,11,10,9,8,
+AddFace,7,6,5,4
+AddFace,15,14,13,12
+GenerateNormals,
+LoadTexture,rikkyou.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 1, 1,
+SetTextureCoordinates,6, 2, 1,
+SetTextureCoordinates,7, 2, 0,
+SetTextureCoordinates,8, 1, 0,
+SetTextureCoordinates,9, 0, 0,
+SetTextureCoordinates,10, 1, 1,
+SetTextureCoordinates,11, 1, 0,
+
+SetTextureCoordinates,12, 0, 1,
+SetTextureCoordinates,13, 1, 1,
+SetTextureCoordinates,14, 1, 0,
+SetTextureCoordinates,15, 0, 0,
+Setcolor,218,0,0
+Translate,.4,1.2,5
+
+
+
+
+CreateMeshBuilder,
+AddVertex,2.2, 5, .25,
+AddVertex,2.9, 2, .25,
+AddVertex,3.2, 2, .25,
+AddVertex,2.5, 5, .25,
+AddVertex,2.2, 5, .4,
+AddVertex,2.9, 2, .4,
+AddVertex,2.9, 2, .1,
+AddVertex,2.2, 5, .1,
+AddVertex,2.5, 5, .4,
+AddVertex,3.2, 2, .4,
+AddVertex,3.2, 2, .1,
+AddVertex,2.5, 5, .1,
+
+AddVertex,2.55, 3.5, .3,
+AddVertex,2.2, 2, .3,
+AddVertex,2.5, 2, .3,
+AddVertex,2.85, 3.5, .3,
+
+AddFace,3,2,1,0
+Addface,11,10,9,8,
+AddFace,7,6,5,4
+AddFace,15,14,13,12
+GenerateNormals,
+LoadTexture,rikkyou.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 1, 1,
+SetTextureCoordinates,6, 2, 1,
+SetTextureCoordinates,7, 2, 0,
+SetTextureCoordinates,8, 1, 0,
+SetTextureCoordinates,9, 0, 0,
+SetTextureCoordinates,10, 1, 1,
+SetTextureCoordinates,11, 1, 0,
+
+SetTextureCoordinates,12, 0, 1,
+SetTextureCoordinates,13, 1, 1,
+SetTextureCoordinates,14, 1, 0,
+SetTextureCoordinates,15, 0, 0,
+Setcolor,218,0,0
+Translate,.4,1.2,10
+
+
+
+
+CreateMeshBuilder,
+AddVertex,2.2, 5, .25,
+AddVertex,2.9, 2, .25,
+AddVertex,3.2, 2, .25,
+AddVertex,2.5, 5, .25,
+AddVertex,2.2, 5, .4,
+AddVertex,2.9, 2, .4,
+AddVertex,2.9, 2, .1,
+AddVertex,2.2, 5, .1,
+AddVertex,2.5, 5, .4,
+AddVertex,3.2, 2, .4,
+AddVertex,3.2, 2, .1,
+AddVertex,2.5, 5, .1,
+
+AddVertex,2.55, 3.5, .3,
+AddVertex,2.2, 2, .3,
+AddVertex,2.5, 2, .3,
+AddVertex,2.85, 3.5, .3,
+
+AddFace,3,2,1,0
+Addface,11,10,9,8,
+AddFace,7,6,5,4
+AddFace,15,14,13,12
+GenerateNormals,
+LoadTexture,rikkyou.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 1, 1,
+SetTextureCoordinates,6, 2, 1,
+SetTextureCoordinates,7, 2, 0,
+SetTextureCoordinates,8, 1, 0,
+SetTextureCoordinates,9, 0, 0,
+SetTextureCoordinates,10, 1, 1,
+SetTextureCoordinates,11, 1, 0,
+
+SetTextureCoordinates,12, 0, 1,
+SetTextureCoordinates,13, 1, 1,
+SetTextureCoordinates,14, 1, 0,
+SetTextureCoordinates,15, 0, 0,
+Setcolor,218,0,0
+Translate,.4,1.2,15
+
+
+
+CreateMeshBuilder,
+AddVertex,2.2, 5, .25,
+AddVertex,2.9, 2, .25,
+AddVertex,3.2, 2, .25,
+AddVertex,2.5, 5, .25,
+AddVertex,2.2, 5, .4,
+AddVertex,2.9, 2, .4,
+AddVertex,2.9, 2, .1,
+AddVertex,2.2, 5, .1,
+AddVertex,2.5, 5, .4,
+AddVertex,3.2, 2, .4,
+AddVertex,3.2, 2, .1,
+AddVertex,2.5, 5, .1,
+
+AddVertex,2.55, 3.5, .3,
+AddVertex,2.2, 2, .3,
+AddVertex,2.5, 2, .3,
+AddVertex,2.85, 3.5, .3,
+
+AddFace,3,2,1,0
+Addface,11,10,9,8,
+AddFace,7,6,5,4
+AddFace,15,14,13,12
+GenerateNormals,
+LoadTexture,rikkyou.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 1, 1,
+SetTextureCoordinates,6, 2, 1,
+SetTextureCoordinates,7, 2, 0,
+SetTextureCoordinates,8, 1, 0,
+SetTextureCoordinates,9, 0, 0,
+SetTextureCoordinates,10, 1, 1,
+SetTextureCoordinates,11, 1, 0,
+
+SetTextureCoordinates,12, 0, 1,
+SetTextureCoordinates,13, 1, 1,
+SetTextureCoordinates,14, 1, 0,
+SetTextureCoordinates,15, 0, 0,
+Setcolor,218,0,0
+Translate,.4,1.2,20
+
+
+
+
+CreateMeshBuilder,
+AddVertex,2.2, 5, .25,
+AddVertex,2.9, 2, .25,
+AddVertex,3.2, 2, .25,
+AddVertex,2.5, 5, .25,
+AddVertex,2.2, 5, .4,
+AddVertex,2.9, 2, .4,
+AddVertex,2.9, 2, .1,
+AddVertex,2.2, 5, .1,
+AddVertex,2.5, 5, .4,
+AddVertex,3.2, 2, .4,
+AddVertex,3.2, 2, .1,
+AddVertex,2.5, 5, .1,
+
+AddVertex,2.55, 3.5, .3,
+AddVertex,2.2, 2, .3,
+AddVertex,2.5, 2, .3,
+AddVertex,2.85, 3.5, .3,
+
+AddFace,3,2,1,0
+Addface,11,10,9,8,
+AddFace,7,6,5,4
+AddFace,15,14,13,12
+GenerateNormals,
+LoadTexture,rikkyou.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 1, 1,
+SetTextureCoordinates,6, 2, 1,
+SetTextureCoordinates,7, 2, 0,
+SetTextureCoordinates,8, 1, 0,
+SetTextureCoordinates,9, 0, 0,
+SetTextureCoordinates,10, 1, 1,
+SetTextureCoordinates,11, 1, 0,
+
+SetTextureCoordinates,12, 0, 1,
+SetTextureCoordinates,13, 1, 1,
+SetTextureCoordinates,14, 1, 0,
+SetTextureCoordinates,15, 0, 0,
+Setcolor,218,0,0
+Translate,.4,1.2,25
+
+CreateMeshBuilder,
+AddVertex,2.51, 5, 25,
+AddVertex,3.21, 2, 25,
+AddVertex,3.21, 2, 0.5,
+AddVertex,2.51, 5, 0.5,
+AddFace,3,2,1,0
+Translate,.4,1.2,0
+GenerateNormals,
+Setcolor,0,0,0
+LoadTexture,white_mini.bmp,
+SetTextureCoordinates,0, 0, .4,
+SetTextureCoordinates,1, 5, .4,
+SetTextureCoordinates,2, 5, .3,
+SetTextureCoordinates,3, 0, .3,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,2.51, 5, 25,
+AddVertex,3.21, 2, 25,
+AddVertex,3.21, 2, 0.5,
+AddVertex,2.51, 5, 0.5,
+AddFace,3,2,1,0
+Translate,.4,1.2,
+GenerateNormals,
+Setcolor,50,50,50[,50]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

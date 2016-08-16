@@ -1,0 +1,86 @@
+
+
+[Meshbuilder] 
+Vertex -2.15,8,0
+Vertex -2.15,8,26
+Vertex -2.15,-1,26
+Vertex -2.15,-1,0
+Face 0,1,2,3
+[Texture]
+Load muropietrascurissimoluce.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[Meshbuilder] 
+Vertex 5.95,8,0
+Vertex 5.95,8,26
+Vertex 5.95,-1,26
+Vertex 5.95,-1,0
+Face 3,2,1,0
+[Texture]
+Load muropietrascurissimoluce.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[Meshbuilder] 
+Vertex -2.0,4.3,8
+Vertex -2.0,4.3,15
+Vertex -2.0,4,15
+Vertex -2.0,4,8
+Face 0,1,2,3
+color 192,192,192
+[MeshBuilder]
+Vertex -3  , 4.3, 8,
+Vertex -3  , 4.3, 15,
+Vertex -2.0, 4.3, 15,
+Vertex -2.0, 4.3, 8,
+Face 3,2,1,0,
+color 192,192,192
+[MeshBuilder]
+Vertex -3  , 4, 8,
+Vertex -3  , 4, 15,
+Vertex -2.0, 4, 15,
+Vertex -2.0, 4, 8,
+Face 3,2,1,0,
+color 192,192,192
+[MeshBuilder]
+Vertex -3,     4,8
+vertex -3,   4.3,8
+Vertex -2.0, 4.3,8
+Vertex -2.0,   4,8
+Face 0,1,2,3
+color 192,192,192
+
+[Meshbuilder] 
+Vertex 5.80,4.3,8
+Vertex 5.80,4.3,15
+Vertex 5.80,4,15
+Vertex 5.80,4,8
+Face 3,2,1,0
+color 192,192,192
+[MeshBuilder]
+Vertex 5.80  , 4.3, 8,
+Vertex 5.80  , 4.3, 15,
+Vertex 7, 4.3, 15,
+Vertex 7, 4.3, 8,
+Face 3,2,1,0
+color 192,192,192
+[MeshBuilder]
+Vertex 5.80  , 4, 8,
+Vertex 5.80  , 4, 15,
+Vertex 7, 4, 15,
+Vertex 7, 4, 8,
+Face 3,2,1,0
+color 192,192,192
+[MeshBuilder]
+Vertex 5.80,     4,8
+vertex 5.80,   4.3,8
+Vertex 7, 4.3,8
+Vertex 7,   4,8
+Face 0,1,2,3
+color 192,192,192

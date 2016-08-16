@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+AddVertex,10, 0, -4,
+AddVertex,8, 0, 15,
+AddVertex,8, 12.5, 15,
+AddVertex,10, 12.5, -4,
+AddFace2,3, 2, 1, 0,
+
+GenerateNormals,
+
+LoadTexture,Strauch2.BMP,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0,

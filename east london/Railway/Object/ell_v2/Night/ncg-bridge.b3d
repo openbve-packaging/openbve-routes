@@ -1,0 +1,165 @@
+[MeshBuilder] ; "ceilings" over tracks
+Vertex 2.8,4,5
+Vertex 2.8,4,13
+Vertex -2.8,4,13
+Vertex -2.8,4,5
+
+Vertex 16.8,4,5
+Vertex 16.8,4,13
+Vertex 7.2,4,13
+Vertex 7.2,4,5
+
+Vertex 30.8,4,5
+Vertex 30.8,4,13
+Vertex 21.2,4,13
+Vertex 21.2,4,5
+
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+
+[Texture]
+load stonea.bmp
+Coordinates 0,6,0
+Coordinates 1,6,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+
+Coordinates 4,10,0
+Coordinates 5,10,8
+Coordinates 6,0,8
+Coordinates 7,0,0
+
+Coordinates 8,10,0
+Coordinates 9,10,8
+Coordinates 10,0,8
+Coordinates 11,0,0
+
+[Meshbuilder] ; Left wall (adjacent to would-be ELL)
+Vertex -2.8,4,13
+Vertex -2.8,-0.5,13
+Vertex -2.8,-0.5,5
+Vertex -2.8,4,5
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,8,0
+Coordinates 1,8,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+
+[Meshbuilder] Platform walls at x=2.8,16.8 and 30.8
+Vertex 2.8,4,13
+Vertex 2.8,-0.5,13
+Vertex 2.8,-0.5,5
+Vertex 2.8,4,5
+
+Vertex 16.8,4,13
+Vertex 16.8,-0.5,13
+Vertex 16.8,-0.5,5
+Vertex 16.8,4,5
+
+Vertex 30.8,4,13
+Vertex 30.8,-0.5,13
+Vertex 30.8,-0.5,5
+Vertex 30.8,4,5
+
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+[Texture]
+load stonea.bmp
+Coordinates 0,8,0
+Coordinates 1,8,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+Coordinates 4,8,0
+Coordinates 5,8,5
+Coordinates 6,0,5
+Coordinates 7,0,0
+Coordinates 8,8,0
+Coordinates 9,8,5
+Coordinates 10,0,5
+Coordinates 11,0,0
+
+[Meshbuilder] ; Wall to the left of view (into scrapyard)
+Vertex -2.8,4,5
+Vertex -2.8,-0.5,5
+Vertex -28,-0.5,5
+Vertex -28,4,5
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,25.2,0
+Coordinates 1,25.2,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+
+[Meshbuilder] ; top wall into station building
+Vertex 2.9,5.5,5
+Vertex 2.9,3.95,5
+Vertex -28,3.95,5
+Vertex -28,5.5,5
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,30.9,0
+Coordinates 1,30.9,1.5
+Coordinates 2,0,1.5
+Coordinates 3,0,0
+
+[Meshbuilder] ; Few houses maybe?
+Vertex 140,11,15
+Vertex 140,4,15
+Vertex 34,4,15
+Vertex 34,11,15
+Face 0,1,2,3
+Color 192,192,192
+[Texture]
+load ..\houserow.bmp
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 34,11,15
+Vertex 34,4,15
+Vertex 34,4,21
+Vertex 34,11,21
+Face 0,1,2,3
+Color 192,192,192
+[Texture]
+load ..\houseside.bmp
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] 
+Vertex -3,11,15
+Vertex -3,4,15
+Vertex -46,4,15
+Vertex -46,11,15
+Face 0,1,2,3
+Color 192,192,192
+[Texture]
+load ..\houserow.bmp
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -3,11,15
+Vertex -3,4,15
+Vertex -3,4,21
+Vertex -3,11,21
+Face 3,2,1,0
+Color 192,192,192
+[Texture]
+load ..\houseside.bmp
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0

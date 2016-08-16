@@ -1,0 +1,194 @@
+[MeshBuilder]
+Vertex -0.95, -0.144, 0
+Vertex -0.73, -0.144, 8.4
+Vertex 1.17, -0.144, 8.4
+Vertex 0.95, -0.144, 0
+Face 0, 1, 2, 3
+[Texture]
+Load Tie2.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 3
+[MeshBuilder]
+Vertex -0.73, -0.144, 16.8
+Vertex -0.73, -0.144, 8.4
+Vertex 1.17, -0.144, 8.4
+Vertex 1.17, -0.144, 16.8
+Face 3,2,1,0
+[Texture]
+Load Tie2.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 3
+[MeshBuilder]
+Vertex -0.95, -0.144, 25.2
+Vertex -0.73, -0.144, 16.8
+Vertex 1.17, -0.144, 16.8
+Vertex 0.95, -0.144, 25.2
+Face 3,2,1,0
+[Texture]
+Load Tie2.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 3
+[MeshBuilder]
+Vertex -1.9, -0.3, 0
+Vertex -1.68, -0.3, 8.4
+Vertex -0.73, -0.144, 8.4
+Vertex -0.95, -0.144, 0
+Face 0, 1, 2, 3
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 0.33
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.33
+[MeshBuilder]
+Vertex -1.68, -0.3,16.8
+Vertex -1.68, -0.3, 8.4
+Vertex -0.73, -0.144, 8.4
+Vertex -0.73, -0.144, 16.8
+Face 3,2,1,0
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 0.33
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.33
+[MeshBuilder]
+Vertex -1.9, -0.3, 25.2
+Vertex -1.68, -0.3, 16.8
+Vertex -0.73, -0.144, 16.8
+Vertex -0.95, -0.144, 25.2
+Face 3,2,1,0
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 0.33
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.33
+
+[MeshBuilder]
+Vertex 0.95, -0.144, 0
+Vertex 1.17, -0.144, 8.4
+Vertex 2.12, -0.3, 8.4
+Vertex 1.9, -0.3, 0
+Face 0, 1, 2, 3
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 1, 0.33
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 0.33
+[MeshBuilder]
+Vertex 1.17, -0.144, 16.8
+Vertex 1.17, -0.144, 8.4
+Vertex 2.12, -0.3, 8.4
+Vertex 2.12, -0.3, 16.8
+Face 3,2,1,0
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 1, 0.33
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 0.33
+[MeshBuilder]
+Vertex 0.95, -0.144, 25.2
+Vertex 1.17, -0.144, 16.8
+Vertex 2.12, -0.3, 16.8
+Vertex 1.9, -0.3, 25.2
+Face 3,2,1,0
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 1, 0.33
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 0.33
+
+[MeshBuilder]
+Vertex -0.602, 0, 0
+Vertex -0.382, 0, 8.4
+Vertex -0.314, 0, 8.4
+Vertex -0.534, 0, 0
+Face 0, 1, 2, 3
+Color 224, 224, 224
+[MeshBuilder]
+Vertex -0.382, 0, 16.8
+Vertex -0.382, 0, 8.4
+Vertex -0.314, 0, 8.4
+Vertex -0.314, 0, 16.8
+Face 3,2,1,0
+Color 224, 224, 224
+[MeshBuilder]
+Vertex -0.602, 0, 25.2
+Vertex -0.382, 0, 16.8
+Vertex -0.314, 0, 16.8
+Vertex -0.534, 0, 25.2
+Face 3,2,1,0
+Color 224, 224, 224
+[MeshBuilder]
+Vertex 0.534, 0, 0
+Vertex 0.754, 0, 8.4
+Vertex 0.822, 0, 8.4
+Vertex 0.602, 0, 0
+Face 0, 1, 2, 3
+Color 224, 224, 224
+[MeshBuilder]
+Vertex 0.754, 0, 16.8
+Vertex 0.754, 0, 8.4
+Vertex 0.822, 0, 8.4
+Vertex 0.822, 0, 16.8
+Face 3,2,1,0
+Color 224, 224, 224
+[MeshBuilder]
+Vertex 0.534, 0, 25.2
+Vertex 0.754, 0, 16.8
+Vertex 0.822, 0, 16.8
+Vertex 0.602, 0, 25.2
+Face 3,2,1,0
+Color 224, 224, 224
+[MeshBuilder]
+Vertex 0.568, -0.01, 0
+Vertex 0.788, -0.01, 8.4
+Vertex 0.788, -0.144, 8.4
+Vertex 0.568, -0.144, 0
+Vertex -0.568, -0.01, 0
+Vertex -0.348, -0.01, 8.4
+Vertex -0.348, -0.144, 8.4
+Vertex -0.568, -0.144, 0
+Face 0,1,2,3
+Face 3,2,1,0
+Face 4,5,6,7
+Face 7,6,5,4
+Color 102,66,36
+[MeshBuilder]
+Vertex 0.788, -0.01, 16.8
+Vertex 0.788, -0.01, 8.4
+Vertex 0.788, -0.144, 8.4
+Vertex 0.788, -0.144, 16.8
+Vertex -0.348, -0.01, 16.8
+Vertex -0.348, -0.01, 8.4
+Vertex -0.348, -0.144, 8.4
+Vertex -0.348, -0.144, 16.8
+Face 0,1,2,3
+Face 3,2,1,0
+Face 4,5,6,7
+Face 7,6,5,4
+Color 102,66,36
+[MeshBuilder]
+Vertex 0.568, -0.01, 25.2
+Vertex 0.788, -0.01, 16.8
+Vertex 0.788, -0.144, 16.8
+Vertex 0.568, -0.144, 25.2
+Vertex -0.568, -0.01, 25.2
+Vertex -0.348, -0.01, 16.8
+Vertex -0.348, -0.144, 16.8
+Vertex -0.568, -0.144, 25.2
+Face 0,1,2,3
+Face 3,2,1,0
+Face 4,5,6,7
+Face 7,6,5,4
+Color 102,66,36

@@ -1,0 +1,41 @@
+;Converted from B3D by BVE FILE CONVERTER
+ 
+
+
+CreateMeshBuilder,
+AddVertex, -3.949, -0.170, 0.108,
+AddVertex, 3.919, -0.170, -0.906,
+AddVertex, -3.322, -0.170, 5.172,
+AddVertex, 4.546, -0.170, 4.758,
+AddVertex, -3.019, -0.170, 10.185,
+AddVertex, 4.849, -0.170, 9.771,
+AddVertex, -3.028, -0.170, 15.246,
+AddVertex, 4.840, -0.170, 14.832,
+AddVertex, -3.351, -0.170, 20.356,
+AddVertex, 4.517, -0.170, 19.942,
+AddVertex, -3.978, -0.170, 25.614,
+AddVertex, 3.890, -0.170, 25.200,
+AddFace, 2, 3, 1, 0,
+AddFace, 4, 5, 3, 2,
+AddFace, 6, 7, 5, 4,
+AddFace, 8, 9, 7, 6,
+AddFace, 10, 11, 9, 8,
+GenerateNormals,
+LoadTexture, roada.bmp,
+SetTextureCoordinates, 0, 1.02, 5,
+SetTextureCoordinates, 1, -0.02, 5,
+SetTextureCoordinates, 2, 1.02, 4,
+SetTextureCoordinates, 3, -0.02, 4,
+SetTextureCoordinates, 4, 1.02, 3,
+SetTextureCoordinates, 5, -0.02, 3,
+SetTextureCoordinates, 6, 1.02, 2,
+SetTextureCoordinates, 7, -0.02, 2,
+SetTextureCoordinates, 8, 1.02, 1,
+SetTextureCoordinates, 9, -0.02, 1,
+SetTextureCoordinates, 10, 1.02, 0,
+SetTextureCoordinates, 11, -0.02, 0,
+Rotate,1,0,0,-4,
+
+
+
+

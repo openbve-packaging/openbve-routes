@@ -1,0 +1,347 @@
+;Kálvin tér állomás peronrész
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;Peron
+
+;bal oldali peron
+
+;peron széle felül
+[MeshBuilder]
+Vertex -01.45, 00.90, 00.00
+Vertex -01.45, 00.90, 25.00
+Vertex -01.45, 01.10, 25.00
+Vertex -01.45, 01.10, 00.00
+Face 3,2,1,0
+color 48,48,48
+
+;peron széle alul
+[MeshBuilder]
+Vertex -01.60, -00.15, 00.00
+Vertex -01.60, -00.15, 25.00
+Vertex -01.60, 00.90, 25.00
+Vertex -01.60, 00.90, 00.00
+Face 3,2,1,0
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 25.00, 1.00
+Coordinates 2, 25.00, 0.15
+Coordinates 3, 00.00, 0.15
+
+;peron járófelület 1;5
+[MeshBuilder]
+Vertex -01.45, 01.10, 00.00
+Vertex -01.45, 01.10, 25.00
+Vertex -02.25, 01.10, 25.00
+Vertex -02.25, 01.10, 00.00
+Vertex -23.55, 01.10, 00.00
+Vertex -23.55, 01.10, 25.00
+Vertex -24.35, 01.10, 25.00
+Vertex -24.35, 01.10, 00.00
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load mh_09_kt_peronteto_1.bmp
+Coordinates 0, 24.00, 600.00
+Coordinates 1, 24.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 600.00
+Coordinates 4, 24.00, 600.00
+Coordinates 5, 24.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 600.00
+
+;peron járófelület2
+[MeshBuilder]
+Vertex -02.25, 01.10, 00.00
+Vertex -02.25, 01.10, 25.00
+Vertex -02.40, 01.10, 25.00
+Vertex -02.40, 01.10, 00.00
+Face 3,2,1,0
+[Texture]
+Load mh_09_kt_peronteto_2.bmp
+Coordinates 0, 01.00, 42.00
+Coordinates 1, 01.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 42.00
+
+;peron járófelület3
+[MeshBuilder]
+Vertex -02.40, 01.10, 00.00
+Vertex -02.40, 01.10, 25.00
+Vertex -23.40, 01.10, 25.00
+Vertex -23.40, 01.10, 00.00
+Face 3,2,1,0
+[Texture]
+Load mh_09_kt_peronteto_2.bmp
+Coordinates 0, 35.00, 42.00
+Coordinates 1, 35.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 42.00
+
+;peron járófelület4
+[MeshBuilder]
+Vertex -23.40, 01.10, 00.00
+Vertex -23.40, 01.10, 25.00
+Vertex -23.55, 01.10, 25.00
+Vertex -23.55, 01.10, 00.00
+Face 3,2,1,0
+[Texture]
+Load mh_09_kt_peronteto_2.bmp
+Coordinates 0, 01.00, 42.00
+Coordinates 1, 01.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 42.00
+
+;--------------------------------------------------
+
+;Falak
+
+;jobb oldali fal
+;-0.200-0.250 
+[MeshBuilder]
+Vertex 1.625,-0.20,0
+Vertex 2.037, 0.25,0
+Vertex 2.037, 0.25,25
+Vertex 1.606,-0.20,25
+Face 3,2,1,0
+[Texture]
+Load mh_09_kt_oldalfal_01.bmp
+Coordinates 0,10,1
+Coordinates 1,10,0
+Coordinates 2,00,0
+Coordinates 3,00,1
+
+;0.250-0.750 
+[MeshBuilder]
+Vertex  02.037,0.25,0
+Vertex  02.313,0.75,0
+Vertex  02.313,0.75,25
+Vertex  02.037,0.25,25
+Vertex -27.837,0.25,0
+Vertex -28.113,0.75,0
+Vertex -28.113,0.75,25
+Vertex -27.837,0.25,25
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_09_kt_oldalfal_02a.bmp
+Coordinates 0,2,1
+Coordinates 1,2,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Coordinates 4,2,1
+Coordinates 5,2,0
+Coordinates 6,0,0
+Coordinates 7,0,1
+
+;0.750-2.426 
+[Meshbuilder]
+Vertex 2.213,0.750,0
+Vertex 2.367,1.293,0
+Vertex 2.395,1.864,0
+Vertex 2.292,2.436,0
+Vertex 2.213,0.750,25
+Vertex 2.367,1.293,25
+Vertex 2.395,1.864,25
+Vertex 2.292,2.436,25
+Vertex -28.013,0.750,0
+Vertex -28.167,1.293,0
+Vertex -28.195,1.864,0
+Vertex -28.092,2.426,0
+Vertex -28.013,0.750,25
+Vertex -28.167,1.293,25
+Vertex -28.195,1.864,25
+Vertex -28.092,2.426,25
+Face 1,0,4,5
+Face 2,1,5,6
+Face 3,2,6,7
+Face 13,12,8,9
+Face 14,13,9,10
+Face 15,14,10,11
+[Texture]
+Load mh_09_kt_oldalfal_02b.bmp
+Coordinates 00,2,1.00
+Coordinates 01,2,0.67
+Coordinates 02,2,0.33
+Coordinates 03,2,0.00
+Coordinates 04,0,1.00
+Coordinates 05,0,0.67
+Coordinates 06,0,0.33
+Coordinates 07,0,0.00
+Coordinates 08,2,1.00
+Coordinates 09,2,0.67
+Coordinates 10,2,0.33
+Coordinates 11,2,0.00
+Coordinates 12,0,1.00
+Coordinates 13,0,0.67
+Coordinates 14,0,0.33
+Coordinates 15,0,0.00
+
+;2.426-2.950 
+[MeshBuilder]
+Vertex -28.092,2.426,0
+Vertex -27.865,2.950,0
+Vertex -27.865,2.950,25
+Vertex -28.092,2.426,25
+Face 0,1,2,3
+[Texture]
+Load mh_09_kt_oldalfal_02i.bmp
+Coordinates 0,25,1
+Coordinates 1,25,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 2.213,0.75,0
+Vertex 2.313,0.75,0
+Vertex 2.313,0.75,25
+Vertex 2.213,0.75,25
+Vertex 2.065,2.95,0
+Vertex 2.165,2.95,0
+Vertex 2.165,2.95,25
+Vertex 2.065,2.95,25
+Face 0,1,2,3
+Face 7,6,5,4
+Color 24,24,24
+
+;--------------------------------------------------
+
+;Födém
+
+;íves födém
+[Meshbuilder]
+Vertex -1.450,3.737,0
+Vertex -1.250,3.865,0
+Vertex -0.647,4.115,0
+Vertex  0.000,4.200,0
+Vertex  0.647,4.115,0
+Vertex  1.250,3.865,0
+Vertex  1.768,3.468,0
+Vertex  2.165,2.950,0
+Vertex -1.450,3.737,25
+Vertex -1.250,3.865,25
+Vertex -0.647,4.115,25
+Vertex  0.000,4.200,25
+Vertex  0.647,4.115,25
+Vertex  1.250,3.865,25
+Vertex  1.768,3.468,25
+Vertex  2.165,2.950,25
+Vertex -24.350,3.737,0
+Vertex -24.550,3.865,0
+Vertex -25.153,4.115,0
+Vertex -25.800,4.200,0
+Vertex -26.447,4.115,0
+Vertex -27.050,3.865,0
+Vertex -27.568,3.468,0
+Vertex -27.965,2.950,0
+Vertex -24.350,3.737,25
+Vertex -24.550,3.865,25
+Vertex -25.153,4.115,25
+Vertex -25.800,4.200,25
+Vertex -26.447,4.115,25
+Vertex -27.050,3.865,25
+Vertex -27.568,3.468,25
+Vertex -27.965,2.950,25
+Face 00,01,09,08
+Face 01,02,10,09
+Face 02,03,11,10
+Face 03,04,12,11
+Face 04,05,13,12
+Face 05,06,14,13
+Face 06,07,15,14
+Face 24,25,17,16
+Face 25,26,18,17
+Face 26,27,19,18
+Face 27,28,20,19
+Face 28,29,21,20
+Face 29,30,22,21
+Face 30,31,23,22
+[texture]
+Load mh_09_kt_fodem_01.bmp
+coordinates 00,2,00
+coordinates 01,2,01
+coordinates 02,2,04
+coordinates 03,2,07
+coordinates 04,2,10
+coordinates 05,2,13
+coordinates 06,0,16
+coordinates 07,0,19
+coordinates 08,0,00
+coordinates 09,0,01
+coordinates 10,0,04
+coordinates 11,0,07
+coordinates 12,0,10
+coordinates 13,0,13
+coordinates 14,0,16
+coordinates 15,0,19
+coordinates 16,2,00
+coordinates 17,2,01
+coordinates 18,2,04
+coordinates 19,2,07
+coordinates 20,2,10
+coordinates 21,2,13
+coordinates 22,0,16
+coordinates 23,0,19
+coordinates 24,0,00
+coordinates 25,0,01
+coordinates 26,0,04
+coordinates 27,0,07
+coordinates 28,0,10
+coordinates 29,0,13
+coordinates 30,0,16
+coordinates 31,0,19
+
+;vízszintes síkú födém
+[MeshBuilder]
+Vertex -24.38,3.55,0
+Vertex -01.45,3.55,0
+Vertex -01.45,3.55,25
+Vertex -24.38,3.55,25
+Face 0,1,2,3
+[Texture]
+Load mh_09_kt_fodem_02.bmp
+Coordinates 0,10,4.1
+Coordinates 1,10,0
+Coordinates 2,00,0
+Coordinates 3,00,4.1
+
+[MeshBuilder]
+Vertex -1.45,3.550,0
+Vertex -1.45,3.737,0
+Vertex -1.45,3.737,25
+Vertex -1.45,3.550,25
+Face 0,1,2,3
+Color 24,24,24
+
+;--------------------------------------------------
+
+;világítótestek
+
+;merõleges
+[MeshBuilder]
+Vertex -3.0,3.52,0
+Vertex -3.0,3.52,25
+Vertex -1.5,3.52,25
+Vertex -1.5,3.52,0
+Vertex -6.2,3.52,0
+Vertex -6.2,3.52,25
+Vertex -4.7,3.52,25
+Vertex -4.7,3.52,0
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load mh_09_kt_vilagitas_01.bmp
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,1,10
+Coordinates 3,1,0
+Coordinates 4,0,0
+Coordinates 5,0,10
+Coordinates 6,1,10
+Coordinates 7,1,0
+transparent 0,0,255
+
+;--------------------------------------------------

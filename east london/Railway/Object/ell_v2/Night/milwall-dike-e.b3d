@@ -1,0 +1,41 @@
+; dike end object.. flattens out a bit
+
+[MeshBuilder]
+Vertex 2.9,-0.4,25.3
+Vertex 2.9,-0.4,-25.3
+Vertex 7,2.5,-25.3
+Vertex 2.9,-0.4,25.3
+Face 3,2,1,0
+[Texture]
+load grass.bmp
+Coordinates 0,4,0
+Coordinates 1,4,25
+Coordinates 2,0,25
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 12.9,-0.4,25.3
+Vertex 12.9,-0.4,-25.3
+Vertex 7,2.5,-25.3
+Vertex 2.9,-0.4,25.3
+Face 0,1,2,3
+[Texture]
+load grass.bmp
+Coordinates 0,4,0
+Coordinates 1,4,25
+Coordinates 2,0,25
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 2.8,0.8,25
+Vertex 2.8,-0.6,25
+Vertex 2.8,-0.6,-25
+Vertex 2.8,0.8,-25
+Face 3,2,1,0
+[Texture]
+load ..\track-cables-r.bmp
+Coordinates 0,15,0
+Coordinates 1,15,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

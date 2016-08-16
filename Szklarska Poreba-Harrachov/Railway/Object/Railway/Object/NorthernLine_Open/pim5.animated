@@ -1,0 +1,3 @@
+[Object]
+States = pim5_1.csv, pim5_2.csv
+StateFunction = floor[mod[TIME * 0.35, 2]]

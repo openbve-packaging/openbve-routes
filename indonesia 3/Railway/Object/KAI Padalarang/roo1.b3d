@@ -1,0 +1,15 @@
+[Meshbuilder]
+vertex 0,0,0;0
+vertex 0,2,0;1
+vertex 2,2,0;2
+vertex 2,0,0;3
+
+face 0,1,2,3
+
+[texture]
+load roo1.bmp
+coordinates 0,1,0
+coordinates 1,1,1
+coordinates 2,0,1
+coordinates 3,0,0
+transparent 0,0,0

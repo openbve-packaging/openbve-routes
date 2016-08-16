@@ -1,0 +1,181 @@
+;Klinikák megállóhely D-É-2
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;jobb oldali fal
+[MeshBuilder]
+Vertex 2.000,1.20,0
+Vertex 2.000,3.20,0
+Vertex 2.000,3.20,14
+Vertex 2.000,1.20,14
+Face 3,2,1,0
+[Texture]
+Load mh_07_kl_oldalfal_02.bmp
+Coordinates 0,14,1
+Coordinates 1,14,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;világítótestek
+
+;merõleges
+[MeshBuilder]
+Vertex -13.2,3.52,0
+Vertex -13.2,3.52,25
+Vertex -07.5,3.52,25
+Vertex -07.5,3.52,0
+Face 3,2,1,0
+[Texture]
+Load mh_07_kl_vilagitas_01.bmp
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,6,10
+Coordinates 3,6,0
+transparent 0,0,255
+
+;--------------------------------------------------
+
+;táblák
+
+;kijárat
+
+[MeshBuilder]
+Vertex -0.8,0.0,-0.1
+Vertex -0.8,0.3,-0.1
+Vertex  0.8,0.3,-0.1
+Vertex  0.8,0.0,-0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_bal.bmp
+Coordinates 0,0.05,1
+Coordinates 1,0.05,0
+Coordinates 2,0.95,0
+Coordinates 3,0.95,1
+translate -5.00,3.25,5
+
+[MeshBuilder]
+Vertex -0.80,0.0,-0.1
+Vertex -0.80,0.0, 0.1
+Vertex 0.80, 0.0,-0.1
+Vertex 0.80, 0.3,-0.1
+Vertex 0.80, 0.3, 0.1
+Vertex 0.80, 0.0, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -5.00,3.25,5
+
+;menetrend
+
+[MeshBuilder]
+Vertex -0.60, 0.0, -0.1
+Vertex -0.60, 0.3, -0.1
+Vertex  0.60, 0.3, -0.1
+Vertex  0.60, 0.0, -0.1
+Face 0,1,2,3
+color 176,176,176
+[Texture]
+Load ..\tabla\menet.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+translate -6.40,3.25,25
+
+[MeshBuilder]
+Vertex -0.60,0.0,-0.1
+Vertex -0.60,0.0, 0.1
+Vertex 0.60, 0.0,-0.1
+Vertex 0.60, 0.3,-0.1
+Vertex 0.60, 0.3, 0.1
+Vertex 0.60, 0.0, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -6.40,3.25,25
+
+[MeshBuilder]
+Vertex -0.60, 0.0, -0.1
+Vertex -0.60, 0.3, -0.1
+Vertex  0.60, 0.3, -0.1
+Vertex  0.60, 0.0, -0.1
+Face 0,1,2,3
+color 176,176,176
+[Texture]
+Load ..\tabla\menet.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+translate -14.30,3.25,25
+
+[MeshBuilder]
+Vertex -0.60,0.0,-0.1
+Vertex -0.60,0.0, 0.1
+Vertex 0.60, 0.0,-0.1
+Vertex 0.60, 0.3,-0.1
+Vertex 0.60, 0.3, 0.1
+Vertex 0.60, 0.0, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -14.30,3.25,25
+
+;óra
+
+[MeshBuilder]
+Vertex -0.60, 0.00, -0.1
+Vertex -0.60, 0.30, -0.1
+Vertex  0.60, 0.30, -0.1
+Vertex  0.60, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\ora_030_1.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+translate -4.8,3.25,25
+
+[MeshBuilder]
+Vertex -0.60,0.00,-0.1
+Vertex -0.60,0.00, 0.1
+Vertex  0.60,0.00,-0.1
+Vertex  0.60,0.30,-0.1
+Vertex  0.60,0.30, 0.1
+Vertex  0.60,0.00, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -4.8,3.25,25
+
+;óra
+
+[MeshBuilder]
+Vertex -0.60, 0.00, -0.1
+Vertex -0.60, 0.30, -0.1
+Vertex  0.60, 0.30, -0.1
+Vertex  0.60, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\ora_030_1.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+translate -15.9,3.25,25
+
+[MeshBuilder]
+Vertex -0.60,0.00,-0.1
+Vertex -0.60,0.00, 0.1
+Vertex  0.60,0.00,-0.1
+Vertex  0.60,0.30,-0.1
+Vertex  0.60,0.30, 0.1
+Vertex  0.60,0.00, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -15.9,3.25,25

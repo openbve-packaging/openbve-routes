@@ -1,0 +1,12 @@
+[Object]
+States = ruota.csv
+Position = 0.016, 0.775, -1.35
+;RotateXFunction = value + delta * speedometer / 0.5
+
+[Object]
+States = ruota.csv
+Position = 0.016, 0.775, 1.35
+;RotateXFunction = value + delta * speedometer / 0.5
+
+[Object]
+States = carrello.csv

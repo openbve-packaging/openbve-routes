@@ -1,0 +1,150 @@
+;Felszínen kerítés
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;kábelek
+
+[meshbuilder]
+vertex 3.70,-0.20, -0.1
+vertex 3.70,-0.20, 25.1
+vertex 3.70, 0.35, 25.1
+vertex 3.70, 0.35, -0.1
+vertex 4.70,-0.20, -0.1
+vertex 4.70,-0.20, 25.1
+vertex 4.70, 0.35, 25.1
+vertex 4.70, 0.35, -0.1
+face2 0,1,2,3
+face2 4,5,6,7
+[Texture]
+Load kabelek.bmp
+Coordinates 0, 0.0, 1.0
+Coordinates 1, 5.0, 1.0
+Coordinates 2, 5.0, 0.0
+Coordinates 3, 0.0, 0.0
+Coordinates 4, 0.0, 1.0
+Coordinates 5, 5.0, 1.0
+Coordinates 6, 5.0, 0.0
+Coordinates 7, 0.0, 0.0
+transparent 0,0,255
+
+;lefedés
+
+[meshbuilder]
+vertex -0.50, 0.35, 00.00
+vertex  0.50, 0.35, 00.00
+vertex  0.50, 0.55, 00.00
+vertex  0.00, 0.70, 00.00
+vertex -0.50, 0.55, 00.00
+face2 0,1,2,3,4
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex -0.50, 0.35, 25.00
+vertex  0.50, 0.35, 25.00
+vertex  0.50, 0.55, 25.00
+vertex  0.00, 0.70, 25.00
+vertex -0.50, 0.55, 25.00
+face2 0,1,2,3,4
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex -0.50, 0.55, -00.10
+vertex  0.00, 0.70, -00.10
+vertex  0.00, 0.70,  25.10
+vertex -0.50, 0.55,  25.10
+face2 0,1,2,3
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex  0.50, 0.55, -00.10
+vertex  0.00, 0.70, -00.10
+vertex  0.00, 0.70,  25.10
+vertex  0.50, 0.55,  25.10
+face2 0,1,2,3
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex -0.50, 0.35,  0.00
+vertex -0.50, 0.55,  0.00
+vertex -0.50, 0.55,  25.00
+vertex -0.50, 0.35,  25.00
+face2 0,1,2,3
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex  0.50, 0.35,  0.00
+vertex  0.50, 0.55,  0.00
+vertex  0.50, 0.55,  25.00
+vertex  0.50, 0.35,  25.00
+face2 0,1,2,3
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+;--------------------------------------
+
+;kerítés
+
+[MeshBuilder]
+;jobb oldal
+Vertex   06.00, -00.250, -00.15
+Vertex   06.00,  02.300, -00.15
+Vertex   06.00,  02.300,  25.15
+Vertex   06.00, -00.250,  25.15
+Face 3,2,1,0
+[Texture]
+Load kerites_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 10.00, 00.00
+Coordinates  3, 10.00, 01.00
+
+[MeshBuilder]
+Vertex   06.00, -00.250, -00.15
+Vertex   06.00,  02.300, -00.15
+Vertex   06.15,  02.300, -00.15
+Vertex   06.15, -00.250, -00.15
+Face 0,1,2,3
+color 101,103,92
+
+;--------------------------------------
+
+;lámpa
+
+[meshbuilder]
+cylinder 8, 0.07, 0.10, 10.00
+color 180,180,180
+translate  00.00, 04.85, 00.00
+translate  02.80, 00.00, 11.25
+
+[meshbuilder]
+cylinder 8, 0.05, 0.05, 01.00
+color 180,180,180
+rotate 0, 0, 1, 85
+translate  -00.50, 09.75, 00.00
+translate  02.80, 00.00, 11.25
+
+[meshbuilder]
+cube 0.4, 0.01, 0.4
+translate  00.00, -0.15, 00.00
+translate  02.80, 00.00, 11.25
+color 180,180,180
+
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 180,180,180
+rotate 0, 0, 1, -5
+translate -01.50, 09.85, 00.00
+translate  02.80, 00.00, 11.25
+
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 225,255,200,100
+rotate 0, 0, 1, -5
+translate -01.50, 09.75, 00.00
+translate  02.80, 00.00, 11.25

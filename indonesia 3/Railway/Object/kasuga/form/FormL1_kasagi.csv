@@ -1,0 +1,47 @@
+CreateMeshBuilder
+AddVertex,-1.5, .7, 0
+AddVertex,-1.5, .7, 25.3
+AddVertex,-2, .7, 25.3
+AddVertex,-2, .7, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+LoadTexture,conc1.bmp
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 10, 0
+SetTextureCoordinates,0, 10, 1
+
+CreateMeshBuilder
+AddVertex,-2, .7, 0
+AddVertex,-2, .7, 25.3
+AddVertex,-2.7, .7, 25.3
+AddVertex,-2.7, .7, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+LoadTexture,center.bmp
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 10, 0
+SetTextureCoordinates,0, 10, 1
+Setcolor,128,128,128
+CreateMeshBuilder
+AddVertex,-1.5, -0.45, 0
+AddVertex,-1.5, -0.45, 25.3
+AddVertex,-1.5, .7, 25.3
+AddVertex,-1.5, .7 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+LoadTexture,Formside_nara.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 10, 1
+SetTextureCoordinates,2, 10, 0
+SetTextureCoordinates,3, 0, 0
+
+CreateMeshBuilder
+AddVertex,-1.5, -0.45, 0
+AddVertex,-1.5, .7, 0
+AddVertex,-2.7, .7, 0
+AddVertex,-2.7, -0.45, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+Setcolor,150,150,150

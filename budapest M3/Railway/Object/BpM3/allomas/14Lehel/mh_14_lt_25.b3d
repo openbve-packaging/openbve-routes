@@ -1,0 +1,217 @@
+;Lehel tér állomás 25
+;Bal és jobb vágány
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;világítótestek
+
+;merõleges
+[MeshBuilder]
+Vertex -1.70, 4.17,-01.00
+Vertex -7.72, 4.17,-01.00
+Vertex -8.92, 4.17, 14.00
+Vertex -1.70, 4.17, 14.00
+Vertex -1.70, 4.17, 14.00
+Vertex -2.90, 4.17, 14.00
+Vertex -2.90, 4.17, 24.00
+Vertex -1.70, 4.17, 24.00
+Vertex -7.72, 4.17, 14.00
+Vertex -8.92, 4.17, 14.00
+Vertex -9.35, 4.17, 24.00
+Vertex -8.15, 4.17, 24.00
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+[Texture]
+Load mh_14_lt_vilagitas_01.bmp
+Coordinates 0, 0.0, 6.0
+Coordinates 1, 6.0, 6.0
+Coordinates 2, 6.0, 0.0
+Coordinates 3, 0.0, 0.0
+Coordinates 4, 0.0, 4.0
+Coordinates 5, 1.0, 4.0
+Coordinates 6, 1.0, 0.0
+Coordinates 7, 0.0, 0.0
+Coordinates 8, 0.0, 4.0
+Coordinates 9, 1.0, 4.0
+Coordinates 10,1.0, 0.0
+Coordinates 11,0.0, 0.0
+transparent 0,0,255
+
+;--------------------------------------------------
+
+;táblák
+
+[MeshBuilder]
+Vertex -0.80, 0.00, 0.1
+Vertex -0.80, 0.30, 0.1
+Vertex  0.80, 0.30, 0.1
+Vertex  0.80, 0.00, 0.1
+Face 3,2,1,0
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0, 0.95, 1
+Coordinates 1, 0.95, 0
+Coordinates 2, 0.05, 0
+Coordinates 3, 0.05, 1
+translate -5.2,3.90,1.5
+
+[MeshBuilder]
+Vertex -0.80, 0.00,-0.1
+Vertex -0.80, 0.30,-0.1
+Vertex -0.80, 0.30, 0.1
+Vertex -0.80, 0.00, 0.1
+Vertex  0.80, 0.00,-0.1
+Vertex  0.80, 0.30,-0.1
+Vertex  0.80, 0.30, 0.1
+Vertex  0.80, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+color 48,48,48
+translate -5.2,3.90,1.5
+
+;irány
+
+[MeshBuilder]
+cube 0.02,0.05,0.02
+translate -3.3,4.15,6.5
+color 24,24,24
+[MeshBuilder]
+cube 0.02,0.05,0.02
+translate -4.1,4.15,6.5
+color 24,24,24
+
+[MeshBuilder]
+Vertex -0.80, 0.00, -0.1
+Vertex -0.80, 0.30, -0.1
+Vertex  0.51, 0.30, -0.1
+Vertex  0.51, 0.00, -0.1
+Vertex -0.80, 0.00, 0.1
+Vertex -0.80, 0.30, 0.1
+Vertex  0.51, 0.30, 0.1
+Vertex  0.51, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\Irany_KK1.bmp
+Coordinates 0, 0.1, 1
+Coordinates 1, 0.1, 0
+Coordinates 2, 0.9, 0
+Coordinates 3, 0.9, 1
+Coordinates 4, 0.9, 1
+Coordinates 5, 0.9, 0
+Coordinates 6, 0.1, 0
+Coordinates 7, 0.1, 1
+translate -3.7,3.80,6.5
+
+[MeshBuilder]
+Vertex 0.50, 0.00,-0.1
+Vertex 0.50, 0.30,-0.1
+Vertex 0.80, 0.30,-0.1
+Vertex 0.80, 0.00,-0.1
+Vertex 0.50, 0.00, 0.1
+Vertex 0.50, 0.30, 0.1
+Vertex 0.80, 0.30, 0.1
+Vertex 0.80, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\nyil11.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+translate -3.7,3.80,6.5
+
+[MeshBuilder]
+Vertex -0.80, 0.00,-0.1
+Vertex -0.80, 0.30,-0.1
+Vertex -0.80, 0.30, 0.1
+Vertex -0.80, 0.00, 0.1
+Vertex  0.80, 0.00,-0.1
+Vertex  0.80, 0.30,-0.1
+Vertex  0.80, 0.30, 0.1
+Vertex  0.80, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+color 0,0,204
+translate -3.7,3.80,6.5
+
+;irány
+
+[MeshBuilder]
+cube 0.02,0.05,0.02
+translate -6.3,4.15,6.5
+color 24,24,24
+[MeshBuilder]
+cube 0.02,0.05,0.02
+translate -7.1,4.15,6.5
+color 24,24,24
+
+[MeshBuilder]
+Vertex -0.51, 0.00,-0.1
+Vertex -0.51, 0.30,-0.1
+Vertex  0.80, 0.30,-0.1
+Vertex  0.80, 0.00,-0.1
+Vertex -0.51, 0.00, 0.1
+Vertex -0.51, 0.30, 0.1
+Vertex  0.80, 0.30, 0.1
+Vertex  0.80, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\Irany_UP2.bmp
+Coordinates 0, 0.1, 1
+Coordinates 1, 0.1, 0
+Coordinates 2, 0.9, 0
+Coordinates 3, 0.9, 1
+Coordinates 4, 0.9, 1
+Coordinates 5, 0.9, 0
+Coordinates 6, 0.1, 0
+Coordinates 7, 0.1, 1
+translate -6.7,3.80,6.5
+
+[MeshBuilder]
+Vertex -0.80, 0.00,-0.1
+Vertex -0.80, 0.30,-0.1
+Vertex -0.50, 0.30,-0.1
+Vertex -0.50, 0.00,-0.1
+Vertex -0.80, 0.00, 0.1
+Vertex -0.80, 0.30, 0.1
+Vertex -0.50, 0.30, 0.1
+Vertex -0.50, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\nyil21.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Coordinates 4, 1, 1
+Coordinates 5, 1, 0
+Coordinates 6, 0, 0
+Coordinates 7, 0, 1
+translate -6.7,3.80,6.5
+
+[MeshBuilder]
+Vertex -0.80, 0.00,-0.1
+Vertex -0.80, 0.30,-0.1
+Vertex -0.80, 0.30, 0.1
+Vertex -0.80, 0.00, 0.1
+Vertex  0.80, 0.00,-0.1
+Vertex  0.80, 0.30,-0.1
+Vertex  0.80, 0.30, 0.1
+Vertex  0.80, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+color 128,128,128
+translate -6.7,3.80,6.5

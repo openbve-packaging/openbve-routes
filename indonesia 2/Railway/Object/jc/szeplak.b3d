@@ -1,0 +1,741 @@
+;Állomás 18x8m
+;0 pont az épület bal sarka
+
+
+[meshbuilder] ;alap
+vertex 0,0,0
+vertex 18,0,0
+vertex 18,0,8
+vertex 0,0,8
+face 0,1,2,3
+face 3,2,1,0
+color 0,0,0
+[meshbuilder];          alap
+vertex 7,0,0
+vertex 7,0,-2
+vertex 11,0,-2
+vertex 11,0,0
+face 0,1,2,3
+face 3,2,1,0
+color 0,0,0
+
+[meshbuilder];          fal
+vertex 0,0,2
+vertex 7,0,2
+vertex 7,3,2
+vertex 0,3,2
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];         fal
+vertex 7,0,2
+vertex 7,0,-2
+vertex 7,3,-2
+vertex 7,3,2
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder];           fal
+vertex 7,0,-2
+vertex 11,0,-2
+vertex 11,3,-2
+vertex 7,3,-2
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];           fal
+vertex 11,0,-2
+vertex 11,0,0
+vertex 11,3,0
+vertex 11,3,-2
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];           fal
+vertex 11,0,0
+vertex 18,0,0
+vertex 18,3,0
+vertex 11,3,0
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];            fal
+vertex 18,0,0
+vertex 18,0,8
+vertex 18,3,8
+vertex 18,3,0
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];             fal
+vertex 0,0,8
+vertex 18,0,8
+vertex 18,3,8
+vertex 0,3,8
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];             fal
+vertex 0,0,2
+vertex 0,0,8
+vertex 0,3,8
+vertex 0,3,2
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];             fal
+vertex 0,3,0
+vertex 18,3,0
+vertex 18,3.5,0
+vertex 0,3.5,0
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];           elõtértetõ
+vertex 0,3,0
+vertex 7,3,0
+vertex 7,3,2
+vertex 0,3,2
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];             fal
+vertex 18,3,0
+vertex 18,3,8
+vertex 18,3.5,8
+vertex 18,3.5,0
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];             fal          
+vertex 0,3,8
+vertex 18,3,8
+vertex 18,3.5,8
+vertex 0,3.5,8
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];             fal
+vertex 0,3,0
+vertex 0,3,8
+vertex 0,3.5,8
+vertex 0,3.5,0
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];         csúcsfal bal
+vertex 0,3.5,-0.3
+vertex 0,7.5,4
+vertex 0,3.5,8.3
+vertex 0,3.5,0
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];         csúcsfal jobb
+vertex 18,3.5,-0.3
+vertex 18,7.5,4
+vertex 18,3.5,8.3
+vertex 18,3.5,0
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load fal_1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];          ereszalja 
+vertex 0,3.5,0
+vertex 18,3.5,0
+vertex 18,3.5,-0.3
+vertex 0,3.5,-0.3
+face 0,1,2,3
+face 3,2,1,0
+color 31,31,26
+[meshbuilder];            tetõ 
+vertex -0.3,3.5,8.3
+vertex 18.3,3.5,8.3
+vertex 18.3,7.5,4
+vertex -0.3,7.5,4
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load rooftilesceramic0034_1_s.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];          ereszalja
+vertex 0,3.5,8
+vertex 18,3.5,8
+vertex 18,3.5,8.3
+vertex 0,3.5,8.3
+face 0,1,2,3
+face 3,2,1,0
+color 31,31,26
+[meshbuilder];            tetõ
+vertex -0.3,3.5,-0.3
+vertex 18.3,3.5,-0.3
+vertex 18.3,7.5,4
+vertex -0.3,7.5,4
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load rooftilesceramic0034_1_s.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder];        elõtetõ perem 
+vertex 6.5,3,0
+vertex 6.5,3,-2.5
+vertex 6.5,3.1,-2.5
+vertex 6.5,3.1,0
+face 0,1,2,3
+face 3,2,1,0
+color 180,180,180
+[meshbuilder];        elõtetõ perem
+vertex 6.5,3,-2.5
+vertex 11.5,3,-2.5
+vertex 11.5,3.1,-2.5
+vertex 6.5,3.1,-2.5
+face 0,1,2,3
+face 3,2,1,0
+color 180,180,180
+[meshbuilder];        elõtetõ perem
+vertex 11.5,3,0
+vertex 11.5,3,-2.5
+vertex 11.5,3.1,-2.5
+vertex 11.5,3.1,0
+face 0,1,2,3
+face 3,2,1,0
+color 180,180,180
+[meshbuilder];           elõtetõ 
+vertex 6.5,3.1,0
+vertex 6.5,3.1,-2.5
+vertex 9,3.4,0
+;vertex 6.5,3.1,0
+face 0,1,2
+face 2,1,0
+[texture]
+load rooftilesceramic0034_1_s.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+;coordinates 3,0,
+[meshbuilder];           elõtetõ 
+vertex 6.5,3.1,-2.5
+vertex 11.5,3.1,-2.5
+vertex 9,3.4,0
+;vertex 6.5,3.1,0
+face 0,1,2
+face 2,1,0
+[texture]
+load rooftilesceramic0034_1_s.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+;coordinates 3,0,1
+[meshbuilder];           elõtetõ 
+vertex 11.5,3.1,-2.5
+vertex 11.5,3.1,0
+vertex 9,3.4,0
+;vertex 11.5,3.1,-2.5
+face 0,1,2
+face 2,1,0
+[texture]
+load rooftilesceramic0034_1_s.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+
+[meshbuilder];         elõtetõ alja 
+vertex 6.5,3,0
+vertex 6.5,3,-2.5
+vertex 7,3,-2.5
+vertex 7,3,0
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder];         elõtetõ alja 
+vertex 6.5,3,-2
+vertex 6.5,3,-2.5
+vertex 11.5,3,-2.5
+vertex 11,3,-2
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder];         elõtetõ alja 
+vertex 11,3,-2.5
+vertex 11.5,3,-2.5
+vertex 11.5,3,0
+vertex 11,3,0
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder];         oszlopláb 1
+vertex 0,0,0
+vertex 0.5,0,0
+vertex 0.5,0.5,0
+vertex 0,0.5,0
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder]
+vertex 0.5,0,0
+vertex 0.5,0,0.5
+vertex 0.5,0.5,0.5
+vertex 0.5,0.5,0
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder]
+vertex 0,0,0.5
+vertex 0.5,0,0.5
+vertex 0.5,0.5,0.5
+vertex 0,0.5,0.5
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder]
+vertex 0,0,0
+vertex 0,0.5,0
+vertex 0,0.5,0.5
+vertex 0,0.5,0.5
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder]
+vertex 0,0.5,0
+vertex 0.5,0.5,0
+vertex 0.5,0.5,0.5
+vertex 0,0.5,0.5
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder];          oszlopláb 2
+vertex 4,0,0
+vertex 4.5,0,0
+vertex 4.5,0.5,0
+vertex 4,0.5,0
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder]
+vertex 4.5,0,0
+vertex 4.5,0,0.5
+vertex 4.5,0.5,0.5
+vertex 4.5,0.5,0
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder]
+vertex 4,0,0.5
+vertex 4.5,0,0.5
+vertex 4.5,0.5,0.5
+vertex 4,0.5,0.5
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder]
+vertex 4,0,0
+vertex 4,0.5,0
+vertex 4,0.5,0.5
+vertex 4,0.5,0.5
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder]
+vertex 4,0.5,0
+vertex 4.5,0.5,0
+vertex 4.5,0.5,0.5
+vertex 4,0.5,0.5
+face 0,1,2,3
+face 3,2,1,0
+color 128,64,0
+[meshbuilder];oszlop
+cylinder 12,0.2,0.2,2.5
+color 128,64,0
+translate 0.25,1.75,0.25
+[meshbuilder]
+cylinder 12,0.2,0.2,2.5
+color 128,64,0
+translate 4.25,1.75,0.25
+[meshbuilder];          lábazat
+vertex 0,0,1.98
+vertex 7,0,1.98
+vertex 7,0.5,1.98
+vertex 0,0.5,1.98
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load labazat.bmp
+coordinates 0,0,0
+coordinates 1,7,1
+coordinates 2,1,1
+coordinates 3,1,7
+[meshbuilder]; 
+vertex 6.98,0,2
+vertex 6.98,0,-2
+vertex 6.98,0.5,-2
+vertex 6.98,0.5,2
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load labazat.bmp
+coordinates 0,0,0
+coordinates 1,4,1
+coordinates 2,1,1
+coordinates 3,1,4
+[meshbuilder]; 
+vertex 6.98,0,-2.02
+vertex 11.02,0,-2.02
+vertex 11.02,0.5,-2.02
+vertex 6.98,0.5,-2.02
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load labazat.bmp
+coordinates 0,0,0
+coordinates 1,4,1
+coordinates 2,1,1
+coordinates 3,1,4
+[meshbuilder];
+vertex 11.02,0,-2.02
+vertex 11.02,0,0
+vertex 11.02,0.5,0
+vertex 11.02,0.5,-2.02
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load labazat.bmp
+coordinates 0,0,0
+coordinates 1,2,1
+coordinates 2,1,1
+coordinates 3,1,2
+[meshbuilder];
+vertex 11,0,-0.02
+vertex 18.02,0,-0.02
+vertex 18.02,0.5,-0.02
+vertex 11,0.5,-0.02
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load labazat.bmp
+coordinates 0,0,0
+coordinates 1,7,1
+coordinates 2,1,1
+coordinates 3,1,7
+[meshbuilder]; 
+vertex 18.02,0,-0.02
+vertex 18.02,0,8.02
+vertex 18.02,0.5,8.02
+vertex 18.02,0.5,-0.02
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load labazat.bmp
+coordinates 0,0,0
+coordinates 1,4,1
+coordinates 2,1,1
+coordinates 3,1,4
+[meshbuilder];
+vertex -0.02,0,8.02
+vertex 18.02,0,8.02
+vertex 18.02,0.5,8.02
+vertex -0.02,0.5,8.02
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load labazat.bmp
+coordinates 0,0,0
+coordinates 1,4,1
+coordinates 2,1,1
+coordinates 3,1,4
+[meshbuilder];
+vertex -0.02,0,8.02
+vertex -0.02,0,1.98
+vertex -0.02,0.5,1.98
+vertex -0.02,0.5,8.02
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load labazat.bmp
+coordinates 0,0,0
+coordinates 1,4,1
+coordinates 2,1,1
+coordinates 3,1,4
+[meshbuilder];        ablak jobb
+vertex 13.5,1.4,-0.05
+vertex 15,1.4,-0.05
+vertex 15,2.7,-0.05
+vertex 13.5,2.7,-0.05
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ablak12.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];        ablak közép
+vertex 7.8,1,-2.05
+vertex 10.2,1,-2.05
+vertex 10.2,2.5,-2.05
+vertex 7.8,2.5,-2.05
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ablak13.bmp
+coordinates 0,1,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,1,0
+transparent 0,0,255
+[meshbuilder]; ajto
+vertex 5,0,1.95
+vertex 6.5,0,1.95
+vertex 6.5,2.5,1.95
+vertex 5,2.5,1.95
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ajto12.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder];      ajto oldal
+vertex 6.95,0,1.5
+vertex 6.95,0,0.5
+vertex 6.95,2.5,0.5
+vertex 6.95,2.5,1.5
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ajto12.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];      ablak oldal
+vertex 6.95,1,0
+vertex 6.95,1,-2
+vertex 6.95,2.5,-2
+vertex 6.95,2.5,0
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ablak13.bmp
+coordinates 0,1,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,1,0
+[meshbuilder];    ablak jobb oldal
+vertex 18.02,1,1
+vertex 18.02,1,3.5
+vertex 18.02,2.5,3.5
+vertex 18.02,2.5,1
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ablak13.bmp
+coordinates 0,1,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,1,0
+[meshbuilder];    ablak jobb oldal
+vertex 18.02,1,4.5
+vertex 18.02,1,7
+vertex 18.02,2.5,7
+vertex 18.02,2.5,4.5
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ablak13.bmp
+coordinates 0,1,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,1,0
+[meshbuilder];    ajtó hátul
+vertex 12,0,8.05
+vertex 14.2,0,8.05
+vertex 14.2,2.5,8.05
+vertex 12,2.5,8.05
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ajto12.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];    ajtó baloldalt
+vertex -0.05,0,7.5
+vertex -0.05,0,6.5
+vertex -0.05,2.5,6.5
+vertex -0.05,2.5,7.5
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ajto17.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];    ajtó baloldalt
+vertex -0.05,0,2.5
+vertex -0.05,0,3.5
+vertex -0.05,2.5,3.5
+vertex -0.05,2.5,2.5
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ajto17.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder];    ablak baloldalt
+vertex -0.05,2.1,4.25
+vertex -0.05,2.1,4.65
+vertex -0.05,2.5,4.65
+vertex -0.05,2.5,4.25
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ablak1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];    ablak baloldalt
+vertex -0.05,2.1,5.75
+vertex -0.05,2.1,5.35
+vertex -0.05,2.5,5.35
+vertex -0.05,2.5,5.75
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ablak1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+[meshbuilder];    elõtérpadló
+vertex 0,0.02,0
+vertex 7,0.02,0
+vertex 7,0.02,2
+vertex 0,0.02,2
+face 0,1,2,3
+face 3,2,1,0
+[texture]
+load ablak1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

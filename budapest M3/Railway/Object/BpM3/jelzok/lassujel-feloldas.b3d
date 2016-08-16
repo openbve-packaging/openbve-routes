@@ -1,0 +1,33 @@
+;elõoldalon lassan bejárandó pályarész jelzõ
+;hátoldalon lassan bejárandó pályarész vége jelzõ
+;Készítette: http://www.bvemetro.hu/
+
+;elõoldal-kezd
+[MeshBuilder]
+Vertex 0,0.5,0.025
+Vertex 0.5,0.5,0.025
+Vertex 0.5,0,0.025
+Vertex 0,0,0.025
+Face 0,1,2,3
+[Texture]
+Load lassu.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,0.5
+Coordinates 3,0,0.5
+Transparent 0,0,255
+
+;hátoldal-vége
+[MeshBuilder]
+Vertex 0,0.5,-0.025
+Vertex 0.5,0.5,-0.025
+Vertex 0.5,0,-0.025
+Vertex 0,0,-0.025
+Face 3,2,1,0
+[Texture]
+Load lassu.bmp
+Coordinates 0,0,0.5
+Coordinates 1,1,0.5
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255

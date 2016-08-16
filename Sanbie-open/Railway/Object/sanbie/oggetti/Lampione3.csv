@@ -1,0 +1,95 @@
+CreateMeshBuilder,
+AddVertex,5.6, 5.7, 0,
+AddVertex,5.6, 5.6, 0,
+AddVertex,6.04, 5.59, 0,
+AddVertex,5.91, 5.49, 0,
+AddVertex,5.91, 2.28, 0,
+AddVertex,6.04, 2.28, 0,
+AddVertex,5.875, 2.2, 0,
+AddVertex,5.875, 1, 0,
+AddVertex,6.075, 1, 0,
+AddVertex,6.075, 2.2, 0,
+AddVertex,5.2, 5.7, 0,
+AddVertex,5.2, 5.51, 0,
+AddVertex,5.6, 5.51, 0,
+AddVertex,6.4, 5.7, 0,
+AddVertex,6.8, 5.7, 0,
+AddVertex,6.8, 5.51, 0,
+AddVertex,6.4, 5.51, 0,
+AddVertex,6.04, 5.49, 0,
+
+AddFace,2,3,1,0,
+AddFace,5,4,3,2,
+AddFace,9,8,7,6,4,5,
+AddFace,12,11,10,0,
+AddFace,13,14,15,16,
+AddFace,2,13,14,17,
+SetColor,240,240,240,
+
+CreateMeshBuilder, ; palo
+cylinder, 6,0.06,0.06,5
+translate, 5.97,3,0
+SetColor, 226, 226, 226,
+
+
+
+CreateMeshBuilder, ; luci
+cylinder, 6,0.05,0.05,0.25
+translate, 5.5,-5.4,0
+Rotate,0,0,1,90
+SetColor, 180, 230, 230,
+
+CreateMeshBuilder, ; luci
+cylinder, 6,0.05,0.05,0.25
+translate, 5.5,-6.6,0
+Rotate,0,0,1,90
+SetColor, 0, 230, 230,
+
+
+
+
+CreateMeshBuilder,
+AddVertex,5.6, 5.7, 15,
+AddVertex,5.6, 5.6, 15,
+AddVertex,6.04, 5.59, 15,
+AddVertex,5.91, 5.49, 15,
+AddVertex,5.91, 2.28, 15,
+AddVertex,6.04, 2.28, 15,
+AddVertex,5.875, 2.2, 15,
+AddVertex,5.875, 1, 15,
+AddVertex,6.075, 1, 15,
+AddVertex,6.075, 2.2, 15,
+AddVertex,5.2, 5.7, 15,
+AddVertex,5.2, 5.51, 15,
+AddVertex,5.6, 5.51, 15,
+AddVertex,6.4, 5.7, 15,
+AddVertex,6.8, 5.7, 15,
+AddVertex,6.8, 5.51, 15,
+AddVertex,6.4, 5.51, 15,
+AddVertex,6.04, 5.49, 15,
+
+AddFace,2,3,1,0,
+AddFace,5,4,3,2,
+AddFace,9,8,7,6,4,5,
+AddFace,12,11,10,0,
+AddFace,13,14,15,16,
+AddFace,2,13,14,17,
+SetColor,240,240,240,
+GenerateNormals,
+
+CreateMeshBuilder, ; palo
+cylinder, 6,0.06,0.06,5
+translate, 5.96,3,15
+SetColor, 226, 226, 226,
+
+CreateMeshBuilder, ; luci
+cylinder, 6,0.05,0.05,0.25
+translate, 5.5,-5.4,15
+Rotate,0,0,1,90
+SetColor, 180, 230, 230,
+
+CreateMeshBuilder, ; luci
+cylinder, 6,0.05,0.05,0.25
+translate, 5.5,-6.6,15
+Rotate,0,0,1,90
+SetColor, 180, 230, 230,

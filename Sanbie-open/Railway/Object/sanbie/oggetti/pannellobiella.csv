@@ -1,0 +1,38 @@
+; pannello 
+CreateMeshBuilder,,,,
+AddVertex,4,2.2,1.5,
+AddVertex,4,2.2,0,
+AddVertex,4,1.7,0,
+AddVertex,4,1.7,1.5,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,Biella1.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+
+CreateMeshBuilder,,,,
+AddVertex,4.1,2.2,1.5,
+AddVertex,4.1,2.2,0,
+AddVertex,4.1,1.7,0,
+AddVertex,4.1,1.7,1.5,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,Biella1.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+;pali
+CreateMeshBuilder, 
+cylinder, 4,0.055,0.025,2.2
+translate, 4.05,1.1,-0.05
+SetColor, 200, 200, 200,
+
+CreateMeshBuilder, 
+cylinder, 4,0.055,0.025,2.2
+translate, 4.05,1.1,1.55
+SetColor, 200, 200, 200,

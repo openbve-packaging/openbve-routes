@@ -1,0 +1,13 @@
+[MeshBuilder]
+Vertex -200, 0, 30
+Vertex  0, 0, 30
+Vertex  0, -0.01, 0
+Vertex -200, -0.01, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load River.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 2
+Coordinates 2, 1, 2
+Coordinates 3, 1, 0

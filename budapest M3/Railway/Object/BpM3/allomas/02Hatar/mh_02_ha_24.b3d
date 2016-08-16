@@ -1,0 +1,344 @@
+;Határ út állomás, jobb 24 (5000)
+;Készítette: http://bvemetro.hu/
+
+;--------------------------------------------------
+
+;Oszlopok
+
+;01
+[MeshBuilder]
+Vertex -00.35,-00.20, -00.35
+Vertex -00.35,-00.20,  00.35
+Vertex  00.35,-00.20,  00.35
+Vertex  00.35,-00.20, -00.35
+Vertex -00.35, 04.00, -00.35
+Vertex -00.35, 04.00,  00.35
+Vertex  00.35, 04.00,  00.35
+Vertex  00.35, 04.00, -00.35
+Face 00,01,05,04
+Face 01,02,06,05
+Face 02,03,07,06
+Face 03,00,04,07
+[Texture]
+Load mh_02_ha_oszlop_1.bmp
+Coordinates  0, 00.00, 1.00
+Coordinates  1, 01.00, 1.00
+Coordinates  2, 02.00, 1.00
+Coordinates  3, 03.00, 1.00
+Coordinates  4, 00.00, 0.00
+Coordinates  5, 01.00, 0.00
+Coordinates  6, 02.00, 0.00
+Coordinates  7, 03.00, 0.00
+Color 60,60,60
+Rotate 0,1,0,-180.2
+Translate -03.045,0,-02.777
+
+;02
+[MeshBuilder]
+Vertex -00.35,-00.20, -00.35
+Vertex -00.35,-00.20,  00.35
+Vertex  00.35,-00.20,  00.35
+Vertex  00.35,-00.20, -00.35
+Vertex -00.35, 04.00, -00.35
+Vertex -00.35, 04.00,  00.35
+Vertex  00.35, 04.00,  00.35
+Vertex  00.35, 04.00, -00.35
+Face 00,01,05,04
+Face 01,02,06,05
+Face 02,03,07,06
+Face 03,00,04,07
+[Texture]
+Load mh_02_ha_oszlop_1.bmp
+Coordinates  0, 00.00, 1.00
+Coordinates  1, 01.00, 1.00
+Coordinates  2, 02.00, 1.00
+Coordinates  3, 03.00, 1.00
+Coordinates  4, 00.00, 0.00
+Coordinates  5, 01.00, 0.00
+Coordinates  6, 02.00, 0.00
+Coordinates  7, 03.00, 0.00
+Color 60,60,60
+Rotate 0,1,0,-179.6
+Translate -03.034,0,04.723
+
+;03
+[MeshBuilder]
+Vertex -00.35,-00.20, -00.35
+Vertex -00.35,-00.20,  00.35
+Vertex  00.35,-00.20,  00.35
+Vertex  00.35,-00.20, -00.35
+Vertex -00.35, 04.00, -00.35
+Vertex -00.35, 04.00,  00.35
+Vertex  00.35, 04.00,  00.35
+Vertex  00.35, 04.00, -00.35
+Face 00,01,05,04
+Face 01,02,06,05
+Face 02,03,07,06
+Face 03,00,04,07
+[Texture]
+Load mh_02_ha_oszlop_1.bmp
+Coordinates  0, 00.00, 1.00
+Coordinates  1, 01.00, 1.00
+Coordinates  2, 02.00, 1.00
+Coordinates  3, 03.00, 1.00
+Coordinates  4, 00.00, 0.00
+Coordinates  5, 01.00, 0.00
+Coordinates  6, 02.00, 0.00
+Coordinates  7, 03.00, 0.00
+Color 60,60,60
+Rotate 0,1,0,-179.0
+Translate -02.944,0,12.222
+
+;04
+[MeshBuilder]
+Vertex -00.35,-00.20, -00.35
+Vertex -00.35,-00.20,  00.35
+Vertex  00.35,-00.20,  00.35
+Vertex  00.35,-00.20, -00.35
+Vertex -00.35, 04.00, -00.35
+Vertex -00.35, 04.00,  00.35
+Vertex  00.35, 04.00,  00.35
+Vertex  00.35, 04.00, -00.35
+Face 00,01,05,04
+Face 01,02,06,05
+Face 02,03,07,06
+Face 03,00,04,07
+[Texture]
+Load mh_02_ha_oszlop_1.bmp
+Coordinates  0, 00.00, 1.00
+Coordinates  1, 01.00, 1.00
+Coordinates  2, 02.00, 1.00
+Coordinates  3, 03.00, 1.00
+Coordinates  4, 00.00, 0.00
+Coordinates  5, 01.00, 0.00
+Coordinates  6, 02.00, 0.00
+Coordinates  7, 03.00, 0.00
+Color 60,60,60
+Rotate 0,1,0,-178.4
+Translate -02.773,0,19.720
+
+;16
+[MeshBuilder]
+Vertex -00.35,-00.20, -00.35
+Vertex -00.35,-00.20,  00.35
+Vertex  00.35,-00.20,  00.35
+Vertex  00.35,-00.20, -00.35
+Vertex -00.35, 04.00, -00.35
+Vertex -00.35, 04.00,  00.35
+Vertex  00.35, 04.00,  00.35
+Vertex  00.35, 04.00, -00.35
+Face 00,01,05,04
+Face 01,02,06,05
+Face 02,03,07,06
+Face 03,00,04,07
+[Texture]
+Load mh_02_ha_oszlop_1.bmp
+Coordinates  0, 00.00, 1.00
+Coordinates  1, 01.00, 1.00
+Coordinates  2, 02.00, 1.00
+Coordinates  3, 03.00, 1.00
+Coordinates  4, 00.00, 0.00
+Coordinates  5, 01.00, 0.00
+Coordinates  6, 02.00, 0.00
+Coordinates  7, 03.00, 0.00
+Color 60,60,60
+Rotate 0,1,0,-175.3
+Translate -11.709,0,05.231
+
+;17
+[MeshBuilder]
+Vertex -00.35,-00.20, -00.35
+Vertex -00.35,-00.20,  00.35
+Vertex  00.35,-00.20,  00.35
+Vertex  00.35,-00.20, -00.35
+Vertex -00.35, 04.00, -00.35
+Vertex -00.35, 04.00,  00.35
+Vertex  00.35, 04.00,  00.35
+Vertex  00.35, 04.00, -00.35
+Face 00,01,05,04
+Face 01,02,06,05
+Face 02,03,07,06
+Face 03,00,04,07
+[Texture]
+Load mh_02_ha_oszlop_1.bmp
+Coordinates  0, 00.00, 1.00
+Coordinates  1, 01.00, 1.00
+Coordinates  2, 02.00, 1.00
+Coordinates  3, 03.00, 1.00
+Coordinates  4, 00.00, 0.00
+Coordinates  5, 01.00, 0.00
+Coordinates  6, 02.00, 0.00
+Coordinates  7, 03.00, 0.00
+Color 60,60,60
+Rotate 0,1,0,-175.3
+Translate -11.235,0,12.778
+
+;18
+[MeshBuilder]
+Vertex -00.35,-00.20, -00.35
+Vertex -00.35,-00.20,  00.35
+Vertex  00.35,-00.20,  00.35
+Vertex  00.35,-00.20, -00.35
+Vertex -00.35, 04.00, -00.35
+Vertex -00.35, 04.00,  00.35
+Vertex  00.35, 04.00,  00.35
+Vertex  00.35, 04.00, -00.35
+Face 00,01,05,04
+Face 01,02,06,05
+Face 02,03,07,06
+Face 03,00,04,07
+[Texture]
+Load mh_02_ha_oszlop_1.bmp
+Coordinates  0, 00.00, 1.00
+Coordinates  1, 01.00, 1.00
+Coordinates  2, 02.00, 1.00
+Coordinates  3, 03.00, 1.00
+Coordinates  4, 00.00, 0.00
+Coordinates  5, 01.00, 0.00
+Coordinates  6, 02.00, 0.00
+Coordinates  7, 03.00, 0.00
+Color 60,60,60
+Rotate 0,1,0,-175.3
+Translate -10.698,0,20.319
+
+;--------------------------------------------------
+
+;Falak és tetõ
+
+;Bal fal
+[MeshBuilder]
+Vertex -18.259,-0.40,-00.300
+Vertex -18.259, 4.00,-00.300
+Vertex -16.554,-0.40, 26.602
+Vertex -16.554, 4.00, 26.602
+Face 0,1,3,2
+Color 150,150,150
+Load ..\..\alagut\fal_keret_01.bmp
+Coordinates 0,2.0,1.0
+Coordinates 1,2.0,0.0
+Coordinates 2,0.0,1.0
+Coordinates 3,0.0,0.0
+
+;Alagút tetõ
+[MeshBuilder]
+vertex -02.00,4.00,-0.3
+vertex -02.00,4.00,25.3
+vertex -19.00,4.00,25.3
+vertex -19.00,4.00,-0.3
+face 0,1,2,3
+Load ..\..\alagut\melyteto.bmp
+Coordinates 0,0,1
+Coordinates 1,2,1
+Coordinates 2,2,0
+Coordinates 3,0,0
+
+;Lámpák
+[MeshBuilder]
+cube 0.03,0.1,0.5
+rotate 0,1,0,3.90
+translate -17.81,2.60,06.25
+color 72,72,72
+[MeshBuilder]
+cube 0.03,0.1,0.5
+rotate 0,1,0,3.90
+translate -17.02,2.60,18.75
+color 72,72,72
+
+;--------------------------------------------------
+
+;Kihúzóperon
+;peron oldal
+[MeshBuilder]
+Vertex -00.831,-0.40,-099.972
+Vertex -00.332,-0.40,-099.937
+Vertex -07.503,-0.40, 000.018
+Vertex -08.198,-0.40, 012.464
+Vertex -08.505,-0.40, 025.064
+Vertex -00.831, 0.90,-099.972
+Vertex -00.332, 0.90,-099.937
+Vertex -07.503, 0.90, 000.018
+Vertex -08.198, 0.90, 012.464
+Vertex -08.505, 0.90, 025.064
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Color 150,150,150
+Load mh_02_ha_khperonoldal.bmp
+Coordinates 0,00,1
+Coordinates 1,01,1
+Coordinates 2,50,1
+Coordinates 3,62,1
+Coordinates 4,73,1
+Coordinates 5,00,0
+Coordinates 6,01,0
+Coordinates 7,50,0
+Coordinates 8,62,0
+Coordinates 9,73,0
+
+;peron tetõ
+[MeshBuilder]
+Vertex -00.082, 0.90,-099.918
+Vertex -07.253, 0.90, 000.000
+Vertex -07.952, 0.90, 012.593
+Vertex -08.257, 0.90, 025.306
+Vertex -10.657, 0.90, 025.391
+Vertex -10.358, 0.90, 012.688
+Vertex -09.660, 0.90, 000.000
+Vertex -02.477, 0.90,-100.090
+Vertex -00.082, 1.10,-099.918
+Vertex -07.253, 1.10, 000.000
+Vertex -07.952, 1.10, 012.593
+Vertex -08.257, 1.10, 025.306
+Vertex -10.657, 1.10, 025.391
+Vertex -10.358, 1.10, 012.688
+Vertex -09.660, 1.10, 000.000
+Vertex -02.477, 1.10,-100.090
+Face 00,07,15,08
+Face 01,00,08,09
+Face 02,01,09,10
+Face 03,02,10,11
+Face 15,14,09,08
+Face 14,13,10,09
+Face 13,12,11,10
+Color 120,120,120
+Load mh_02_ha_khperonteto.bmp
+Coordinates 08,01,00
+Coordinates 09,01,50
+Coordinates 10,01,62
+Coordinates 11,01,73
+Coordinates 12,00,73
+Coordinates 13,00,62
+Coordinates 14,00,50
+Coordinates 15,00,00
+
+;korlát
+[MeshBuilder]
+Vertex -09.659, 1.08, 00.000
+Vertex -10.242, 1.08, 09.973
+Vertex -10.578, 1.08, 19.879
+Vertex -10.593, 1.08, 20.761
+Vertex -10.657, 1.08, 25.391
+Vertex -09.659, 2.10, 00.000
+Vertex -10.242, 2.10, 09.973
+Vertex -10.578, 2.10, 19.879
+Vertex -10.593, 2.10, 20.761
+Vertex -10.657, 2.10, 25.391
+Face 00,05,06,01
+Face 01,06,07,02
+Face 03,08,09,04
+;Color 100,100,100
+Load mh_02_ha_khperonkorlat.bmp
+Coordinates 00,00,01
+Coordinates 01,10,01
+Coordinates 02,20,01
+Coordinates 03,30,01
+Coordinates 04,35,01
+Coordinates 05,00,00
+Coordinates 06,10,00
+Coordinates 07,20,00
+Coordinates 08,30,00
+Coordinates 09,35,00
+Transparent 0,0,255
+
+;--------------------------------------------------

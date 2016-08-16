@@ -1,0 +1,75 @@
+[meshbuilder]
+vertex 0.0000,0.0000,0.00
+vertex 0.0000,1.8288,0.00
+vertex 0.3048,1.8288,0.00
+vertex 0.3048,0.0000,0.00
+
+face2 0,1,2,3
+
+[texture]
+load b_turnstyle.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+transparent 255,0,0
+
+[meshbuilder]
+
+vertex 0.1524,0.0000,0.0000
+vertex 0.1524,0.0000,0.2032
+vertex 0.1524,1.8288,0.2032
+vertex 0.1524,1.8288,0.0000
+face 0,1,2,3
+color 192,192,192
+
+[meshbuilder]
+vertex 0.1524,0.0000,0.0000
+vertex 0.1524,1.8288,0.0000
+vertex 0.1524,1.8288,0.2032
+vertex 0.1524,0.0000,0.2032
+face 0,1,2,3
+color 192,192,192
+
+[meshbuilder]
+vertex 0.3048,0.0000,0.0000
+vertex 0.3048,0.8382,0.0000
+vertex 0.3048,0.8382,0.9144
+vertex 0.3048,0.0000,0.9144
+face 0,1,2,3
+color 192,192,192
+
+[meshbuilder]
+vertex 0.3048,0.8382,0.0000
+vertex 0.1524,0.9144,0.0000
+vertex 0.1524,0.9144,0.9144
+vertex 0.3048,0.8382,0.9144
+face 0,1,2,3
+color 192,192,192
+
+[meshbuilder]
+vertex 0.0000,0.0000,0.0000
+vertex 0.0000,0.0000,0.9144
+vertex 0.0000,0.6096,0.9144
+vertex 0.0000,0.6096,0.0000
+face 0,1,2,3
+color 192,192,192
+
+[meshbuilder]
+vertex 0.0000,0.6096,0.0000
+vertex 0.0000,0.6096,0.9144
+vertex 0.1524,0.7600,0.9144
+vertex 0.1524,0.7600,0.0000
+face 0,1,2,3
+color 192,192,192
+
+
+[meshbuilder]
+vertex 0.1524,0.0000,0.0000
+vertex 0.1524,0.0000,0.9144
+vertex 0.1524,0.9144,0.9144
+vertex 0.1524,0.9144,0.0000
+face 0,1,2,3
+color 192,192,192
+

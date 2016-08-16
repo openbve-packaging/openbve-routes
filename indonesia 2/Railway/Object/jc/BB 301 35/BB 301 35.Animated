@@ -1,0 +1,51 @@
+;All Lokomotif BB Series
+;M.A.S. Production [ Muhammad Adam Santoso Production ]
+
+[Object]
+Position = 0, 0, 0
+States = BB 301 35.b3d
+
+[Object]
+Position = 0, -0.3, 9.66
+States= atap.csv
+
+[Object]
+Position = 0, -0.2, -3.40
+States = 0000_endB.b3d
+
+
+[Object]
+Position = 0, -0.2, 10.02
+States = 0000_endA.b3d
+
+[Object]
+Position = 0, 0.25, 16.32
+States = kabin.csv
+
+[object]
+Position = 0, 0.35, 1.399
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.35, -1.295
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.35, 5.42
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[object]
+Position = 0, 0.35, 7.90
+states=wheel.csv
+RotateXFunction = value + mod[(speedometer * delta),2.7] / 2.7 * 3.14 * 2
+
+[Object]
+Position = 0, -0.2, 10.02
+States = semboyan.csv
+
+[Object]
+Position = 0.60, 0.18, -1.62
+States = klaxon.b3d

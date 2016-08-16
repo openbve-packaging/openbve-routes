@@ -1,0 +1,271 @@
+; PaloFS.csv by Luigi Cartello luigi.cartello@tiscali.it
+
+; Oggetto BVE costituito interamente con le istruzioni Cube e Cylinder
+; esclusive del formato CSV
+; palo con due linee a destra
+
+; 1 - Basamento
+CreateMeshBuilder
+Cube, 0.3, 0.45, 0.3
+Translate, -2.6, -0.5, 0
+SetColor, 176, 176, 176
+
+; 2 - Palo
+CreateMeshBuilder
+Cylinder, 6, 0.12, 0.12, 10
+Translate, -2.6, 4.5, 0
+SetColor, 176, 176, 192
+
+
+; 3 - Mensola
+CreateMeshBuilder
+Cylinder, 6, 0.08, 0.08, 12.5
+Rotate, 0, 0, 1, 90
+Translate, 0 , 6.2, 0
+SetColor, 176, 176, 192
+
+; 4 - Tirante
+CreateMeshBuilder
+Cylinder, 3, 0.03, 0.03, 1.9
+Rotate, 0, 0, 1, 68
+Translate, -1.6, 6.6, 0
+SetColor, 128, 128, 128
+
+; 4a - 2° Tirante
+CreateMeshBuilder
+Cylinder, 3, 0.03, 0.03, 7.0
+Rotate, 0, 0, 1, 70
+Translate, 0.65, 7.5, 0
+SetColor, 128, 128, 128
+
+; 4 - 3° Tirante
+CreateMeshBuilder
+Cylinder, 3, 0.03, 0.03, 1.6
+Rotate, 0, 0, 1, -62
+Translate, -3.32, 6.6, 0
+SetColor, 128, 128, 128
+
+
+; 5 - Isolatore per fune portante - perno
+CreateMeshBuilder
+Cylinder, 4, 0.025, 0.025, 0.5
+Translate, 0, 6.60, 0
+SetColor, 247, 247, 247
+
+; 5 - 2 Isolatore per fune portante - perno
+CreateMeshBuilder
+Cylinder, 4, 0.025, 0.025, 0.5
+Translate, 4.5, 6.65, 0
+SetColor, 247, 247, 247
+
+; 5 - 3 Isolatore per fune portante - perno a sx
+CreateMeshBuilder
+Cylinder, 4, 0.025, 0.025, 0.5
+Translate, -4.62, 6.60, 0
+SetColor, 247, 247, 247
+
+; 6 - Isolatore per fune portante - aletta sinistra
+CreateMeshBuilder
+Cube, 0.025, 0.16, 0.07
+Rotate, 0, 0, 1, -15
+Translate, -0.065, 6.4, 0
+SetColor, 176, 176, 192
+
+; 6 - 2 Isolatore per fune portante - aletta sinistra
+CreateMeshBuilder
+Cube, 0.025, 0.16, 0.07
+Rotate, 0, 0, 1, -15
+Translate, 4.435, 6.4, 0
+SetColor, 176, 176, 192
+
+; 6 - 3° Isolatore per fune portante - aletta sinistra sx
+CreateMeshBuilder
+Cube, 0.025, 0.16, 0.07
+Rotate, 0, 0, 1, -15
+Translate, -4.685, 6.4, 0
+SetColor, 176, 176, 192
+
+; 7 - Isolatore per fune portante - aletta destra
+CreateMeshBuilder
+Cube, 0.025, 0.16, 0.07
+Rotate, 0, 0, 1, 15
+Translate, 0.065, 6.4, 0
+SetColor, 176, 176, 192
+
+; 7 - 2 Isolatore per fune portante - aletta destra
+CreateMeshBuilder
+Cube, 0.025, 0.16, 0.07
+Rotate, 0, 0, 1, 15
+Translate, 4.565, 6.4, 0
+SetColor, 176, 176, 192
+
+; 7 - 3° Isolatore per fune portante - aletta destra sx
+CreateMeshBuilder
+Cube, 0.025, 0.16, 0.07
+Rotate, 0, 0, 1, 15
+Translate, -4.555, 6.4, 0
+SetColor, 176, 176, 192
+
+; 8 - Isolatore per fune portante - isolante
+CreateMeshBuilder
+Cylinder, 6, 0.06, 0.06, 0.20
+Translate, 0, 6.72, 0
+SetColor, 247, 247, 247
+
+; 8 - 2 Isolatore per fune portante - isolante
+CreateMeshBuilder
+Cylinder, 6, 0.06, 0.06, 0.20
+Translate, 4.5, 6.72, 0
+SetColor, 247, 247, 247
+
+; 8 - 3° Isolatore per fune portante - isolante sx
+CreateMeshBuilder
+Cylinder, 6, 0.06, 0.06, 0.20
+Translate, -4.62, 6.72, 0
+SetColor, 247, 247, 247
+
+; 9 - Zampa parte 1
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 0.5
+Rotate, 0, 0, 1, 90
+Translate, -0.0, 6.08, 0
+SetColor, 128, 128, 128
+
+; 9 - 2° Zampa parte 1
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 0.5
+Rotate, 0, 0, 1, 90
+Translate, 4.5, 6.08, 0
+SetColor, 128, 128, 128
+
+; 9 - 3° Zampa parte 1 sx
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 0.5
+Rotate, 0, 0, 1, 90
+Translate, -4.62, 6.08, 0
+SetColor, 128, 128, 128
+
+; 10 - Zampa parte 2
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 0.81
+Rotate, 0, 0, 1, 64
+Translate, 0.6, 5.9, 0
+SetColor, 128, 128, 128
+
+; 10 - 2° Zampa parte 2
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 0.81
+Rotate, 0, 0, 1, 64
+Translate, 5.1, 5.9, 0
+SetColor, 128, 128, 128
+
+; 10 - 3° Zampa parte 2
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 0.81
+Rotate, 0, 0, 1, -64
+Translate, -5.22, 5.9, 0
+SetColor, 128, 128, 128
+
+; 11 - Zampa parte 3
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 0.2
+Rotate, 0, 0, 1, 30
+Translate, 1  , 5.65, 0
+SetColor, 128, 128, 128
+
+; 11 - 2° Zampa parte 3
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 0.2
+Rotate, 0, 0, 1, 30
+Translate, 5.5  , 5.65, 0
+SetColor, 128, 128, 128
+
+; 11 - 3° Zampa parte 3 sx 
+CreateMeshBuilder
+Cylinder, 3, 0.04, 0.04, 0.2
+Rotate, 0, 0, 1, -30
+Translate, -5.62 , 5.65, 0
+SetColor, 128, 128, 128
+
+; 12 - Isolatore della zampa
+CreateMeshBuilder
+Cylinder, 6, 0.06, 0.06, 0.25
+Rotate, 0, 0, 1, -60
+Translate, 0.9, 5.54, 0
+SetColor, 200, 200, 200
+
+; 12 - 2° Isolatore della zampa
+CreateMeshBuilder
+Cylinder, 6, 0.06, 0.06, 0.25
+Rotate, 0, 0, 1, -60
+Translate, 5.4, 5.54, 0
+SetColor, 200, 200, 200
+
+; 12 - 3° Isolatore della zampa sx
+CreateMeshBuilder
+Cylinder, 6, 0.06, 0.06, 0.25
+Rotate, 0, 0, 1, 60
+Translate, -5.52, 5.54, 0
+SetColor, 200, 200, 200
+
+; 13 - Tirante ancoraggio filo parte 1
+CreateMeshBuilder
+Cylinder, 3, 0.02, 0.02, 0.3
+Rotate, 0, 0, 1, 60
+Translate, 0.67, 5.54, 0
+SetColor, 64, 64, 64
+
+; 13 - 2° Tirante ancoraggio filo parte 1
+CreateMeshBuilder
+Cylinder, 3, 0.02, 0.02, 0.3
+Rotate, 0, 0, 1, 60
+Translate, 5.17, 5.54, 0
+SetColor, 64, 64, 64
+
+; 13 - 3° Tirante ancoraggio filo parte 1 sx
+CreateMeshBuilder
+Cylinder, 3, 0.02, 0.02, 0.3
+Rotate, 0, 0, 1, -60
+Translate, -5.29, 5.54, 0
+SetColor, 64, 64, 64
+
+; 14 - Tirante ancoraggio filo parte 2
+CreateMeshBuilder
+Cylinder, 3, 0.02, 0.02, 0.6
+Rotate, 0, 0, 1, -80
+Translate, 0.25, 5.57, 0
+SetColor, 64, 64, 64
+
+; 14 - 2° Tirante ancoraggio filo parte 2
+CreateMeshBuilder
+Cylinder, 3, 0.02, 0.02, 0.6
+Rotate, 0, 0, 1, -80
+Translate, 4.75, 5.57, 0
+SetColor, 64, 64, 64
+
+; 14 - 3° Tirante ancoraggio filo parte 2 sx
+CreateMeshBuilder
+Cylinder, 3, 0.02, 0.02, 0.6
+Rotate, 0, 0, 1, 80
+Translate, -4.87, 5.57, 0
+SetColor, 64, 64, 64
+
+; 15 - Morsetto serrafilo
+CreateMeshBuilder
+Cube, 0.01, 0.02, 0.15
+Translate, 0, 5.5, 0
+SetColor, 32, 32, 32
+
+; 15 - 2° Morsetto serrafilo
+CreateMeshBuilder
+Cube, 0.01, 0.02, 0.15
+Translate, 4.5, 5.5, 0
+SetColor, 32, 32, 32
+
+; 15 - 3° Morsetto serrafilo sx
+CreateMeshBuilder
+Cube, 0.01, 0.02, 0.15
+Translate, -4.62, 5.5, 0
+SetColor, 32, 32, 32
+
+

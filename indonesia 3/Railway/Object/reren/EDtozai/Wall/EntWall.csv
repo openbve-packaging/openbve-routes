@@ -1,0 +1,21 @@
+CreateMeshBuilder
+AddVertex, 2.1, 11.5,-50
+AddVertex, 2.1, 11.5, 0.3
+AddVertex, 2.1,  9.5, 0.3
+AddVertex, 2.1,  9.5,-50
+AddVertex,-7.7, 11.5,-50
+AddVertex,-7.7, 11.5, 0.3
+AddVertex,-7.7,  9.5, 0.3
+AddVertex,-7.7,  9.5,-50
+AddFace,3,2,1,0
+AddFace,4,5,6,7
+GenerateNormals,
+Loadtexture,EntWall2.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,15,0
+SetTextureCoordinates,2,15,1
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,15,0
+SetTextureCoordinates,6,15,1
+SetTextureCoordinates,7,0,1

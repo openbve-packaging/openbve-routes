@@ -1,0 +1,330 @@
+;Újpest városkapu megállóhely 4
+;Készítette: http://www.bvemetro.hu/
+
+;------------------------------------
+
+;Falak és födém
+
+;jobb oldali fal
+[MeshBuilder]
+Vertex 05.40, 01.10, 00.00
+Vertex 05.40, 03.50, 00.00
+Vertex 05.40, 03.50, 15.00
+Vertex 05.40, 01.10, 15.00
+Vertex 07.00, 01.10, 15.00
+Vertex 07.00, 03.50, 15.00
+Vertex 07.00, 03.50, 17.50
+Vertex 07.00, 01.10, 17.50
+Vertex 07.00, 01.10, 20.00
+Vertex 07.00, 03.50, 20.00
+Vertex 07.00, 03.50, 22.50
+Vertex 07.00, 01.10, 22.50
+;bal oldali fal
+Vertex -08.80, 01.10, 00.00
+Vertex -08.80, 03.50, 00.00
+Vertex -08.80, 03.50, 15.00
+Vertex -08.80, 01.10, 15.00
+Vertex -10.40, 01.10, 15.00
+Vertex -10.40, 03.50, 15.00
+Vertex -10.40, 03.50, 17.50
+Vertex -10.40, 01.10, 17.50
+Vertex -10.40, 01.10, 20.00
+Vertex -10.40, 03.50, 20.00
+Vertex -10.40, 03.50, 22.50
+Vertex -10.40, 01.10, 22.50
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+Face 12,13,14,15
+Face 16,17,18,19
+Face 20,21,22,23
+[Texture]
+Load mh_19_uv_oldalfal_03.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 06.00, 00.00
+Coordinates 3, 06.00, 01.00
+Coordinates 4, 00.00, 01.00
+Coordinates 5, 00.00, 00.00
+Coordinates 6, 01.00, 00.00
+Coordinates 7, 01.00, 01.00
+Coordinates 8, 00.00, 01.00
+Coordinates 9, 00.00, 00.00
+Coordinates 10, 01.00, 00.00
+Coordinates 11, 01.00, 01.00
+Coordinates 12, 00.00, 01.00
+Coordinates 13, 00.00, 00.00
+Coordinates 14, 06.00, 00.00
+Coordinates 15, 06.00, 01.00
+Coordinates 16, 00.00, 01.00
+Coordinates 17, 00.00, 00.00
+Coordinates 18, 01.00, 00.00
+Coordinates 19, 01.00, 01.00
+Coordinates 20, 00.00, 01.00
+Coordinates 21, 00.00, 00.00
+Coordinates 22, 01.00, 00.00
+Coordinates 23, 01.00, 01.00
+
+[MeshBuilder]
+Vertex  07.00, 01.10, 17.50
+Vertex  07.00, 03.50, 17.50
+Vertex  07.00, 03.50, 20.00
+Vertex  07.00, 01.10, 20.00
+Vertex  07.00, 01.10, 22.50
+Vertex  07.00, 03.50, 22.50
+Vertex  07.00, 03.50, 25.00
+Vertex  07.00, 01.10, 25.00
+Vertex -10.40, 01.10, 17.50
+Vertex -10.40, 03.50, 17.50
+Vertex -10.40, 03.50, 20.00
+Vertex -10.40, 01.10, 20.00
+Vertex -10.40, 01.10, 22.50
+Vertex -10.40, 03.50, 22.50
+Vertex -10.40, 03.50, 25.00
+Vertex -10.40, 01.10, 25.00
+Face 3,2,1,0
+Face 7,6,5,4
+Face 8,9,10,11
+Face 12,13,14,15
+[Texture]
+Load mh_19_uv_oldalfal_05.bmp
+Coordinates 0, 05.00, 01.00
+Coordinates 1, 05.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 05.00, 01.00
+Coordinates 5, 05.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 01.00
+Coordinates 8, 05.00, 01.00
+Coordinates 9, 05.00, 00.00
+Coordinates 10, 00.00, 00.00
+Coordinates 11, 00.00, 01.00
+Coordinates 12, 05.00, 01.00
+Coordinates 13, 05.00, 00.00
+Coordinates 14, 00.00, 00.00
+Coordinates 15, 00.00, 01.00
+
+[MeshBuilder]
+Vertex 05.40, 03.50, 00.00
+Vertex 05.40, 03.50, 25.00
+Vertex 05.40, 04.00, 25.00
+Vertex 05.40, 04.00, 00.00
+Vertex 05.40, 03.50, 00.00
+Vertex 07.00, 03.50, 00.00
+Vertex 07.00, 04.00, 00.00
+Vertex 05.40, 04.00, 00.00
+Vertex 05.40, 03.50, 25.00
+Vertex 07.00, 03.50, 25.00
+Vertex 07.00, 04.00, 25.00
+Vertex 05.40, 04.00, 25.00
+Vertex -08.80, 03.50, 00.00
+Vertex -08.80, 03.50, 25.00
+Vertex -08.80, 04.00, 25.00
+Vertex -08.80, 04.00, 00.00
+Vertex -08.80, 03.50, 00.00
+Vertex -10.40, 03.50, 00.00
+Vertex -10.40, 04.00, 00.00
+Vertex -08.80, 04.00, 00.00
+Vertex -08.80, 03.50, 25.00
+Vertex -10.40, 03.50, 25.00
+Vertex -10.40, 04.00, 25.00
+Vertex -08.80, 04.00, 25.00
+Face 0,1,2,3
+Face 7,6,5,4
+Face 8,9,10,11
+Face 15,14,13,12
+Face 16,17,18,19
+Face 23,22,21,20
+[Texture]
+Load mh_19_uv_fodem_01.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 00.00, 50.00
+Coordinates 2, 01.00, 50.00
+Coordinates 3, 01.00, 00.00
+Coordinates 4, 00.00, 00.00
+Coordinates 5, 00.00, 03.00
+Coordinates 6, 01.00, 03.00
+Coordinates 7, 01.00, 00.00
+Coordinates 8, 00.00, 00.00
+Coordinates 9, 00.00, 03.00
+Coordinates 10, 01.00, 03.00
+Coordinates 11, 01.00, 00.00
+Coordinates 12, 00.00, 00.00
+Coordinates 13, 00.00, 50.00
+Coordinates 14, 01.00, 50.00
+Coordinates 15, 01.00, 00.00
+Coordinates 16, 00.00, 00.00
+Coordinates 17, 00.00, 03.00
+Coordinates 18, 01.00, 03.00
+Coordinates 19, 01.00, 00.00
+Coordinates 20, 00.00, 00.00
+Coordinates 21, 00.00, 03.00
+Coordinates 22, 01.00, 03.00
+Coordinates 23, 01.00, 00.00
+
+[MeshBuilder]
+Vertex 05.40, 01.10, 00.00
+Vertex 05.40, 03.50, 00.00
+Vertex 07.00, 03.50, 00.00
+Vertex 07.00, 01.10, 00.00
+Vertex 05.40, 01.10, 15.00
+Vertex 05.40, 03.50, 15.00
+Vertex 07.00, 03.50, 15.00
+Vertex 07.00, 01.10, 15.00
+Vertex -10.40, 01.10, 00.00
+Vertex -10.40, 03.50, 00.00
+Vertex -08.80, 03.50, 00.00
+Vertex -08.80, 01.10, 00.00
+Vertex -08.80, 01.10, 15.00
+Vertex -08.80, 03.50, 15.00
+Vertex -10.40, 03.50, 15.00
+Vertex -10.40, 01.10, 15.00
+Face 0,1,2,3
+Face 7,6,5,4
+Face 8,9,10,11
+Face 12,13,14,15
+[Texture]
+Load mh_19_uv_oldalfal_01.bmp
+Coordinates 0, 03.00, 01.00
+Coordinates 1, 03.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 03.00, 01.00
+Coordinates 5, 03.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 01.00
+Coordinates 8, 03.00, 01.00
+Coordinates 9, 03.00, 00.00
+Coordinates 10, 00.00, 00.00
+Coordinates 11, 00.00, 01.00
+Coordinates 12, 03.00, 01.00
+Coordinates 13, 03.00, 00.00
+Coordinates 14, 00.00, 00.00
+Coordinates 15, 00.00, 01.00
+
+;------------------------------
+
+;táblák
+
+;Újpest városkapu tábla a jobb oldalon
+
+[MeshBuilder]
+Vertex 00.00, 00.00,-0.80
+Vertex 00.00, 00.30,-0.80
+Vertex 00.10, 00.30,-0.80
+Vertex 00.10, 00.00,-0.80
+Vertex 00.00, 00.00, 0.80
+Vertex 00.00, 00.30, 0.80
+Vertex 00.10, 00.30, 0.80
+Vertex 00.10, 00.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,0,3,7
+translate 5.30,2.95,7.5
+color 160,160,160
+
+[MeshBuilder]
+Vertex 00.00, 00.00, 0.80
+Vertex 00.00, 00.30, 0.80
+Vertex 00.00, 00.30,-0.80
+Vertex 00.00, 00.00,-0.80
+Face 0,1,2,3
+[Texture]
+Load mh_tabla_ujpestv.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate 5.30,2.95,7.5
+
+;Újpest városkapu tábla a bal oldalon
+
+[MeshBuilder]
+Vertex -00.10, 00.00,-0.80
+Vertex -00.10, 00.30,-0.80
+Vertex  00.00, 00.30,-0.80
+Vertex  00.00, 00.00,-0.80
+Vertex -00.10, 00.00, 0.80
+Vertex -00.10, 00.30, 0.80
+Vertex  00.00, 00.30, 0.80
+Vertex  00.00, 00.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,0,3,7
+translate -8.70,2.95,7.5
+color 160,160,160
+
+[MeshBuilder]
+Vertex 00.00, 00.00,-0.80
+Vertex 00.00, 00.30,-0.80
+Vertex 00.00, 00.30, 0.80
+Vertex 00.00, 00.00, 0.80
+Face 0,1,2,3
+[Texture]
+Load mh_tabla_ujpestv.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate -8.70,2.95,7.5
+
+;kis kijárat
+
+[MeshBuilder]
+Vertex -0.40, 0.00,-0.1
+Vertex -0.40, 0.30,-0.1
+Vertex  0.40, 0.30,-0.1
+Vertex  0.40, 0.00,-0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0, 0.070, 1
+Coordinates 1, 0.070, 0
+Coordinates 2, 0.402, 0
+Coordinates 3, 0.402, 1
+translate 4.4,3.70,14
+
+[MeshBuilder]
+Vertex -0.4, 0.00,-0.1
+Vertex -0.4, 0.30,-0.1
+Vertex -0.4, 0.30, 0.1
+Vertex -0.4, 0.00, 0.1
+Vertex  0.4, 0.00,-0.1
+Vertex  0.4, 0.30,-0.1
+Vertex  0.4, 0.30, 0.1
+Vertex  0.4, 0.00, 0.1
+face 3,2,1,0
+face 3,0,4,7
+face 2,3,7,6
+color 48,48,48
+translate 4.4,3.70,14
+
+[MeshBuilder]
+Vertex -0.40, 0.00,-0.1
+Vertex -0.40, 0.30,-0.1
+Vertex  0.40, 0.30,-0.1
+Vertex  0.40, 0.00,-0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0, 0.070, 1
+Coordinates 1, 0.070, 0
+Coordinates 2, 0.402, 0
+Coordinates 3, 0.402, 1
+translate -7.8,3.70,14
+
+[MeshBuilder]
+Vertex -0.4, 0.00,-0.1
+Vertex -0.4, 0.30,-0.1
+Vertex -0.4, 0.30, 0.1
+Vertex -0.4, 0.00, 0.1
+Vertex  0.4, 0.00,-0.1
+Vertex  0.4, 0.30,-0.1
+Vertex  0.4, 0.30, 0.1
+Vertex  0.4, 0.00, 0.1
+face 4,5,6,7
+face 3,0,4,7
+face 2,3,7,6
+color 48,48,48
+translate -7.8,3.70,14

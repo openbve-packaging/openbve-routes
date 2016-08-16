@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex,-5.8,-0.25, 35.00,
+AddVertex,-5.8,-0.25,-10.00,
+AddVertex,10.8,-0.25,-10.00,
+AddVertex,10.8,-0.25, 35.00,
+AddFace2,0,1,2,3
+Loadtexture,../glow_A01.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+Setcolor,150,150,150,100
+;SetBlendMode,Additive
+SetDecalTransparentColor,255,255,255

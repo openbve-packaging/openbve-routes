@@ -1,0 +1,59 @@
+;keretalagút
+;Nagyvárad tér, bal vágány speciális objektum
+;Készítette: http://www.bvemetro.hu/
+
+;jobb fal
+[MeshBuilder]
+vertex 2.2,-0.665,25.3
+vertex 2.2, 4.000,25.3
+vertex 2.2, 4.000,8
+vertex 2.2,-0.665,8
+face2 0,1,2,3
+Load fal_keret_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0.041
+coordinates 2,1.5,0.041
+coordinates 3,1.5,1
+
+[MeshBuilder]
+vertex  2.21,4.00,8
+vertex  2.21,4.00,25.3
+vertex -8.00,4.00,25.3
+vertex -8.00,4.00,8
+face 0,1,2,3
+Load melyteto.bmp
+Coordinates 0,0,1
+Coordinates 1,1.5,1
+Coordinates 2,1.5,0
+Coordinates 3,0,0
+
+;--------------------------------------
+
+;Világítás
+
+[MeshBuilder]
+Vertex -0.03,-0.1, 0.5
+Vertex -0.03, 0.1, 0.5
+Vertex -0.03, 0.1,-0.5
+Vertex -0.03,-0.1,-0.5
+Vertex  0.03,-0.1, 0.5
+Vertex  0.03, 0.1, 0.5
+Vertex  0.03, 0.1,-0.5
+Vertex  0.03,-0.1,-0.5
+Face 0,1,2,3
+Face 1,5,6,2
+Face 2,6,7,3
+Face 0,3,7,4
+[Texture]
+Load alagut_lampa_01.bmp
+Coordinates 0,0.00,1.00
+Coordinates 1,0.00,0.00
+Coordinates 2,1.00,0.00
+Coordinates 3,1.00,1.00
+Coordinates 4,0.00,1.00
+Coordinates 5,0.00,0.00
+Coordinates 6,1.00,0.00
+Coordinates 7,1.00,1.00
+Translate 2.170,2.984,18.75
+
+;--------------------------------------

@@ -1,0 +1,29 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+CreateMeshBuilder
+AddVertex,-11.99, 7, -1
+AddVertex,-3.99, 1, -1
+AddVertex,-4, 1, 25
+AddVertex,-12, 7, 25
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture, terrapieno.png
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+CreateMeshBuilder
+AddVertex,-15.99, 8, -1
+AddVertex,-11.99, 7, -1
+AddVertex,-12, 7, 25
+AddVertex,-16, 8, 25
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture, terrapieno.png
+SetTextureCoordinates, 0, 0, -0.4
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, -0.4

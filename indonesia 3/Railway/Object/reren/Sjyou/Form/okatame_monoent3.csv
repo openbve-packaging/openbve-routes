@@ -1,0 +1,77 @@
+CreateMeshBuilder,
+AddVertex,-14.5, 6.3, -25,
+AddVertex,-14.5, 6.3, 25,
+AddVertex,-14.5,-1.0, 25,
+AddVertex,-14.5,-1.0, -25,
+
+AddVertex,18.3, 6.3, -25,
+AddVertex,18.3, 6.3, 25,
+AddVertex,18.3,-1.0, 25,
+AddVertex,18.3,-1.0, -25,
+AddFace,0,1,2,3,
+AddFace,7,6,5,4,
+LoadTexture,../Road/tollgatewall1.bmp
+SetTextureCoordinates,0, 0.6, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0.6, 1,
+SetTextureCoordinates,4, 0.6, 0,
+SetTextureCoordinates,5, 1, 0,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 0.6, 1,
+Setcolor,71,87,89
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, -2.5, 0.05, -25,
+ADdVertex, -1.9, 0.05,  25,
+AddVertex, 5.9, 0.05, 25,
+AddVertex, 6.3, 0.05, -25,
+AddFace,0,1,2,3,
+Setcolor,10,10,10,100
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-14.5, 6.3, -25,
+ADdVertex,-14.5, 6.3, 25,
+AddVertex, 18.3, 6.3, 25,
+AddVertex, 18.3, 6.3, -25,
+AddFace,3,2,1,0,
+
+LoadTexture,../Roof/RoofB.bmp
+SetTextureCoordinates,0, 0,-0.1,
+SetTextureCoordinates,1, 1,-0.1,
+SetTextureCoordinates,2, 1, 0.95,
+SetTextureCoordinates,3, 0, 0.95,
+GenerateNormals,
+
+CreateMeshBuilder,
+ADdVertex,-2.8, 5.5, 24.5
+AddVertex,-2.5, 5.6, 24.5
+AddVertex,-2.5, 5.6, -25
+AddVertex,-2.8, 5.5, -25
+ADdVertex,-6.3, 5.6, 24.5
+AddVertex,-6.0, 5.5, 24.5
+AddVertex,-6.0, 5.5, -25
+AddVertex,-6.3, 5.6, -25
+ADdVertex, 6.6, 5.5, 24.5
+AddVertex, 6.3, 5.6, 24.5
+AddVertex, 6.3, 5.6, -25
+AddVertex, 6.6, 5.5, -25
+ADdFace,3,2,1,0
+ADdFace,7,6,5,4
+AddFace,8,9,10,11,
+LoadTexture,../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,6,0
+SetTextureCoordinates,3  ,6,1
+SetTextureCoordinates,4  ,0,1
+SetTextureCoordinates,5  ,0,0
+SetTextureCoordinates,6  ,6,0
+SetTextureCoordinates,7  ,6,1
+SetTextureCoordinates,8  ,0,1
+SetTextureCoordinates,9  ,0,0
+SetTextureCoordinates,10  ,6,0
+SetTextureCoordinates,11  ,6,1
+GenerateNormals,

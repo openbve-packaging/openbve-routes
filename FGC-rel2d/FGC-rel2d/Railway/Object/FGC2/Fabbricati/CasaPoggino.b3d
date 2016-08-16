@@ -1,0 +1,311 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; --------- Stazione di Cappuccio  ------------
+
+; Muro di pietre su lato sinistro (dritto o in curva a sinistra)
+[MeshBuilder] ; Muro interrato
+vertex -3.2 , 1.6 , -15
+vertex -3.2 , 1.6 , 25.1
+vertex -2.7 ,-0.3 , 26
+vertex -2.7 ,-0.3 ,-16
+vertex -4.2 ,1.65 , 26
+vertex -4.2 ,1.65 ,-15.1
+vertex -4.5 ,-0.3 ,-16
+vertex -4.2 ,1.65 ,-15.1
+Face 0,1,2,3
+Face 5,4,1,0
+Face 7,0,3,6
+Translate -0.5,-0.2,0
+[texture]
+load MurettoCapp.bmp
+coordinates 0, 0, 0
+coordinates 1, 4, 0
+coordinates 2, 4, 0.65
+coordinates 3, 0, 0.65
+coordinates 4, 4, 0.15
+coordinates 5, 0, 0.15
+coordinates 6, 0.4, 0.7
+coordinates 7, 0.3, 0.0
+
+[MeshBuilder] ; Muretto lato casa
+vertex -3.2 , 1.6 , 2.1
+vertex -3.2 , 1.6 , 13.1
+vertex -3.0 ,-0.3 , 15.6
+vertex -3.0 ,-0.3 ,-0.6
+vertex -3.5 ,1.65 , 13
+vertex -3.5 ,1.65 ,2.1
+vertex -3.5 ,-0.3 ,-0.6
+vertex -3.5 ,1.65 ,2.1
+Face 0,1,2,3
+Face 5,4,1,0
+Face 7,0,3,6
+Translate  0.8,-0.5,-5
+[texture]
+load MurettoCapp.bmp
+coordinates 0, 0.2, 0
+coordinates 1, 1.8, 0
+coordinates 2, 2, 0.65
+coordinates 3, 0, 0.65
+coordinates 4, 1.8, 0.15
+coordinates 5, 0, 0.15
+coordinates 6, 0.2, 0.7
+coordinates 7, 0.15, 0.0
+
+[MeshBuilder] ; scalinata
+cube 0.6,0.1,0.15
+color 100,100,100
+translate -3.2,-0.2,-4.6
+[MeshBuilder]
+cube 0.6,0.1,0.15
+color 100,100,100
+translate -3.2,-0.0,-4.3
+[MeshBuilder]
+cube 0.6,0.1,0.15
+color 100,100,100
+translate -3.2, 0.2,-4.0
+[MeshBuilder]
+cube 0.6,0.1,0.15
+color 100,100,100
+translate -3.2, 0.4,-3.7
+[MeshBuilder]
+cube 0.6,0.1,0.15
+color 100,100,100
+translate -3.2, 0.6,-3.4
+[MeshBuilder]
+cube 0.6,0.1,0.15
+color 100,100,100
+translate -3.2, 0.8,-3.1
+
+[MeshBuilder]
+cube 0.6,0.1,5.35
+color 110,110,110
+translate -3.2, 1,  2.4
+
+[MeshBuilder] ; mancorrente muretto
+cube 0.03,0.03,5.47
+color 0,48,45
+translate -2.6,1.4,  2.50
+[MeshBuilder]
+cube 0.03,0.03,5.47
+color 0,48,45
+translate -2.6,1.8,  2.50
+[MeshBuilder]
+cube 0.03,0.5,0.03
+color 0,48,45
+translate -2.6, 1.33,  5.50
+[MeshBuilder]
+cube 0.03,0.5,0.03
+color 0,48,45
+translate -2.6, 1.33,  2.50
+[MeshBuilder]
+cube 0.03,0.5,0.03
+color 0,48,45
+translate -2.6, 1.33, -0.50
+
+[MeshBuilder] ; mancorrente scalinata iniz
+cube 0.03,0.03,1.4
+color 0,48,45
+rotate 1,0,0,-33
+translate -2.6,1.05,-4.10
+[MeshBuilder]
+cube 0.03,0.03,1.4
+color 0,48,45
+rotate 1,0,0,-33
+translate -2.6,0.65,-4.10
+[MeshBuilder]
+cube 0.03,0.5,0.03
+color 0,48,45
+translate -2.6, 1.33,-2.95
+[MeshBuilder]
+cube 0.03,0.5,0.03
+color 0,48,45
+translate -2.6,-0.21,-5.25
+
+[MeshBuilder] ; mancorrente scalinata fin
+cube 0.03,0.03,1.4
+color 0,48,45
+rotate 1,0,0,33
+translate -2.6,1.05, 9.1
+[MeshBuilder]
+cube 0.03,0.03,1.4
+color 0,48,45
+rotate 1,0,0,33
+translate -2.6,0.65, 9.1
+[MeshBuilder]
+cube 0.03,0.5,0.03
+color 0,48,45
+translate -2.6, 1.33, 7.95
+[MeshBuilder]
+cube 0.03,0.5,0.03
+color 0,48,45
+translate -2.6,-0.21, 10.3
+
+; Casetta ------------------------------------
+[MeshBuilder] 
+Vertex 0, 4.0, 3.5
+Vertex 0,-0.2, 3.5
+Vertex 0,-0.2, -7.5
+Vertex 0, 4.0, -7.5
+Face 0,1,2,3
+Translate -4.4,1.8,0
+[texture]
+load CasaCapp256.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+[MeshBuilder] 
+Vertex -5, 4.0,-7.5
+Vertex 0, 4.0, -7.5
+Vertex 0,-0.2, -7.5
+Vertex -5,-0.2, -7.5
+Face 0,1,2,3
+Translate -4.4,1.8,0
+[texture]
+load CasaCapp256.bmp
+Coordinates 0, -0.38, 0
+Coordinates 1, 0.38, 0
+Coordinates 2, 0.38, 1
+Coordinates 3, -0.38, 1
+
+[MeshBuilder] ; Tetto
+Vertex -2.5, 5.6,-2.5
+Vertex  0.5, 3.85,-8.0
+Vertex -5.5, 3.85,-8.0
+Face2 0,1,2
+Translate -4.4,1.8,0
+load TettoCapp.bmp
+Coordinates 0, 0.72, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Tetto
+Vertex -3.0, 5.7,-2.5
+Vertex  0.5, 3.85,4
+Vertex  0.5, 3.85,-8.0
+Face2 0,1,2
+Translate -4.4,1.8,0
+load TettoCapp.bmp
+Coordinates 0, 0.8, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+transparent 0,0,0
+
+[meshbuilder] ; Tetto
+Cube 3.0,0.04,5.95
+color 60,60,60
+;rotate 0,0,1,-5
+translate -6.90,5.70,-2.0
+
+
+
+
+; Vegetazione in alto sulla sinistra
+; ===================================
+
+[MeshBuilder] ; Alberello sulla sinistra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-36
+Translate -14, 2.0 ,22
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero sulla sinistra
+Vertex 0, 13, 0
+Vertex 10, 13, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -17,3,15
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 10, 18, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -20,5,8
+[texture]
+load ..\Alberi\Pino1.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 90,0,255
+
+[MeshBuilder] ; Albero sulla sinistra
+Vertex 0, 13, 0
+Vertex 10, 13, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -19,4,-5
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero sulla sinistra
+Vertex 0, 13, 0
+Vertex 10, 13, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -22,5,-20
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 10, 18, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -25,8,-8
+[texture]
+load ..\Alberi\Pino1.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 90,0,255
+

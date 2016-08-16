@@ -1,0 +1,80 @@
+[MeshBuilder]
+Vertex -1.2, 3,    0.3
+Vertex 1.2, 3,    0.3
+Vertex 1.2, 1.6,    0
+Vertex -1.2, 1.6,    0
+Vertex 1.2, 0,    0
+Vertex -1.2, 0,    0
+Face 0,1,2,3,
+Face 3,2,4,5
+[Texture]
+Load busfr.bmp
+Coordinates 0,0, 0
+Coordinates 1, 0.5, 0
+Coordinates 2, 0.5, 0.47
+Coordinates 3, 0, 0.47
+Coordinates 4, 0.5, 1
+Coordinates 5, 0, 1
+
+[MeshBuilder]
+Vertex 1.2, 3,    0.3
+Vertex 1.2, 3,    9
+Vertex 1.2, 0,    9
+Vertex 1.2, 0,    0
+Vertex 1.2, 1.6,    0
+Face 0,1,2,3,4
+[Texture]
+Load busl.bmp
+Coordinates 0,0.03, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.5
+Coordinates 3, 0, 0.5
+Coordinates 4, 0,0.235
+[MeshBuilder]
+Vertex 1.2, 3,    9
+Vertex -1.2, 3,    9
+Vertex -1.2, 0,    9
+Vertex 1.2, 0,    9
+Face 0,1,2,3
+[Texture]
+Load busfr.bmp
+Coordinates 0,0.52, 0
+Coordinates 1, 0.98, 0
+Coordinates 2, 0.98, 1
+Coordinates 3, 0.52, 1
+[MeshBuilder]
+Vertex -1.2, 3,    0.3
+Vertex -1.2, 3,    9
+Vertex -1.2, 0,    9
+Vertex -1.2, 0,    0
+Vertex -1.2, 1.6,    0
+Face 4,3,2,1,0
+[Texture]
+Load busl.bmp
+Coordinates 0,0.97, 0.5
+Coordinates 1, 0, 0.5
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+Coordinates 4, 1,0.735
+[MeshBuilder]
+Vertex -1.2, 3,    0.3
+Vertex 1.2, 3,    0.3
+Vertex 1.2, 3,    9
+Vertex -1.2, 3,    9
+Face 3,2,1,0
+color 245,226,191
+[MeshBuilder]
+Vertex -0.8, 3.2,    0.2
+Vertex 0.8, 3.2,    0.2
+Vertex 0.8, 2.8,    0.2
+Vertex -0.8, 2.8,    0.2
+face 0,1,2,3
+[Texture]
+Load busfr.bmp
+Coordinates 0,0.1, 0.03
+Coordinates 1, 0.4, 0.03
+Coordinates 2, 0.4, 0.1
+Coordinates 3, 0.1, 0.1
+
+
+

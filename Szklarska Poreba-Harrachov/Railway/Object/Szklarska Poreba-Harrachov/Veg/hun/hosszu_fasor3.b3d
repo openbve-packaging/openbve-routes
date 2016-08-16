@@ -1,0 +1,899 @@
+;-----------------------------------
+;-----------Hosszú fasor------------
+;-----------------------------------
+
+;fa1
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,15,0
+vertex  4,15,0
+face2 0,1,2,3
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,15,-4.5
+vertex 0,15, 4.5
+face2 0,1,2,3
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+
+
+;fa3
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,18,0
+vertex  4,18,0
+face2 0,1,2,3
+translate 8,0,5,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,18,-4.5
+vertex 0,18, 4.5
+face2 0,1,2,3
+translate 8,0,5,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa3
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 8,0,-2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 8,0,-2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa4
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 13,0,3,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 13,0,3,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa5
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 14,0,-3,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 14,0,-3,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa6
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,17,0
+vertex  4,17,0
+face2 0,1,2,3
+translate 18,0,4,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,17,-4.5
+vertex 0,17, 4.5
+face2 0,1,2,3
+translate 18,0,4,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa7
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 19,0,0,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 19,0,0,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa8
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 22,0,-4,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 22,0,-4,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa9
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 24,0,2,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 24,0,2,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa10
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,18,0
+vertex  4,18,0
+face2 0,1,2,3
+translate 28,0,4,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,18,-4.5
+vertex 0,18, 4.5
+face2 0,1,2,3
+translate 28,0,4,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa11
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,12,0
+vertex  4,12,0
+face2 0,1,2,3
+translate 30,0,0,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,12,-4.5
+vertex 0,12, 4.5
+face2 0,1,2,3
+translate 30,0,0,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa12
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,12,0
+vertex  4,12,0
+face2 0,1,2,3
+translate 34,0,-4,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,12,-4.5
+vertex 0,12, 4.5
+face2 0,1,2,3
+translate 34,0,-4,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa13
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,12,0
+vertex  4,12,0
+face2 0,1,2,3
+translate 38,0,4,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,12,-4.5
+vertex 0,12, 4.5
+face2 0,1,2,3
+translate 38,0,4,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa13
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 40,0,0,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 40,0,0,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa14
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 42,0,-4,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 42,0,-4,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa15
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,18,0
+vertex  4,18,0
+face2 0,1,2,3
+translate 44,0,4,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,18,-4.5
+vertex 0,18, 4.5
+face2 0,1,2,3
+translate 44,0,4,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa16
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 49,0,2,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 49,0,2,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa17
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 49,0,-4,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 49,0,-4,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa18
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 55,0,3,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 55,0,3,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa19
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,15,0
+vertex  4,15,0
+face2 0,1,2,3
+translate 60,0,2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,15,-4.5
+vertex 0,15, 4.5
+face2 0,1,2,3
+translate 60,0,2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa19
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,13,0
+vertex  4,13,0
+face2 0,1,2,3
+translate 56,0,-4,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,13,-4.5
+vertex 0,13, 4.5
+face2 0,1,2,3
+translate 56,0,-4,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa19
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,13,0
+vertex  4,13,0
+face2 0,1,2,3
+translate 64,0,-6,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,13,-4.5
+vertex 0,13, 4.5
+face2 0,1,2,3
+translate 64,0,-6,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa21
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,13,0
+vertex  4,13,0
+face2 0,1,2,3
+translate 62,0,-2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,13,-4.5
+vertex 0,13, 4.5
+face2 0,1,2,3
+translate 62,0,-2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa22
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 68,0,2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 68,0,2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa23
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 70,0,-8,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 70,0,-8,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa24
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 72,0,-2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 72,0,-2,
+
+load oak25_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa25
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,13,0
+vertex  4,13,0
+face2 0,1,2,3
+translate 78,0,2,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,13,-4.5
+vertex 0,13, 4.5
+face2 0,1,2,3
+translate 78,0,2,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa26
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,13,0
+vertex  4,13,0
+face2 0,1,2,3
+translate 78,0,-6,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,13,-4.5
+vertex 0,13, 4.5
+face2 0,1,2,3
+translate 78,0,-6,
+
+load oak25_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,

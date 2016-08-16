@@ -1,0 +1,93 @@
+; Tetto curvo - ridisegnato per compatibilità con openBVE e BVE - L.Cartello 9-11-2008
+;Curved section from Northern line V3	
+;Steve Green used with permission	
+[MeshBuilder]
+
+Cylinder  24, 8.26,8.27, 30
+Rotate  1, 0, 0, 90
+Rotate  0, 0, 1, 210
+Translate  0, 4, 15
+Color 0,0,0,1
+Face2 6,7,9,8  
+Face2 8,9,11,10  
+Face2 10,11,13,12
+Face2 12,13,15,14
+Face2 14,15,17,16
+Face2 16,17,19,18
+Face2 18,19,21,20
+Face2 20,21,23,22
+Face2 22,23,25,24
+Face2 24,25,27,26
+
+;[Texture]
+Load tile1a.bmp
+Coordinates 6,30,0.0
+Coordinates 7,0,0.0
+Coordinates 8,30,0.5
+Coordinates 9,0,0.5
+Coordinates 10,30,1.0
+Coordinates 11,0,1.0
+Coordinates 12,30,1.5
+Coordinates 13,0,1.5
+Coordinates 14,30,2.0
+Coordinates 15,0,2.0
+Coordinates 16,30,2.5
+Coordinates 17,0,2.5
+Coordinates 18,30,3.0
+Coordinates 19,0,3.0
+Coordinates 20,30,3.5
+Coordinates 21,0,3.5
+Coordinates 22,30,4.0
+Coordinates 23,0,4.0
+Coordinates 24,30,4.5
+Coordinates 25,0,4.5
+Coordinates 26,30,5.0
+Coordinates 27,0,5.0
+
+
+;; lato dx
+[MeshBuilder]
+Vertex -7.5,0,0
+Vertex -7.5,7,0
+Vertex -7.5,7,30
+Vertex -7.5,0,30
+Face2 0,1,2,3,
+[Texture]
+Load a4.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 5, 0
+Coordinates 3, 5, 1
+
+;; lato dx
+[MeshBuilder]
+Vertex 7.5,0,0
+Vertex 7.5,7,0
+Vertex 7.5,7,30
+Vertex 7.5,0,30
+Face2 0,1,2,3,
+[Texture]
+Load a4.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 5, 0
+Coordinates 3, 5, 1
+
+;fronte
+[MeshBuilder]
+Vertex -7.5,0,0.2
+Vertex -7.5,12.5,0.2
+Vertex 7.5,12.5,0.2
+Vertex 7.5,0,0.2
+Face2 0,1,2,3
+
+[Texture]
+Load a41.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,0
+
+
+

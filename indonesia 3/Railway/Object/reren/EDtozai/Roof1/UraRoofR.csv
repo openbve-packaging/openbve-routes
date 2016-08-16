@@ -1,0 +1,145 @@
+;‰®ª’Œ
+CreateMeshBuilder
+AddVertex,3.25, 4.5, 0.0
+AddVertex,3.05, 4.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,urapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,0.1
+CreateMeshBuilder
+AddVertex,3.25, 4.5, 0.0
+AddVertex,3.05, 4.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,urapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,6.25
+CreateMeshBuilder
+AddVertex,3.25, 4.5, 0.0
+AddVertex,3.05, 4.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,urapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,12.5
+CreateMeshBuilder
+AddVertex,3.25, 4.5, 0.0
+AddVertex,3.05, 4.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,urapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,18.75
+CreateMeshBuilder
+AddVertex,3.25, 4.5, 0.0
+AddVertex,3.05, 4.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,urapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,24.8
+CreateMeshBuilder
+AddVertex,7.25, 4.5, 0.0
+AddVertex,6.95, 4.5, 0.0
+AddVertex,6.95, 1.1, 0.0
+AddVertex,7.25, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,urapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,8.5
+
+;‰®ª1
+CreateMeshBuilder
+AddVertex,1.1, 5.485, 25.3
+AddVertex,1.1, 5.485, 0
+AddVertex,7.2, 4.875, 0
+AddVertex,7.2, 4.875, 25.3
+AddFace, 0, 1, 2,3
+SetColor,178, 178, 178
+GenerateNormals
+LoadTexture,RoofA.bmp
+SetTextureCoordinates,0, 0, 4
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1.5, 0
+SetTextureCoordinates,3, 1.5, 4
+
+;‰®ª2
+CreateMeshBuilder
+AddVertex,1.1, 5.485, 25.3
+AddVertex,1.1, 5.485, 0
+AddVertex,1.2, 5.025, 0
+AddVertex,1.2, 5.025, 25.3
+AddFace2, 0, 1, 2,3
+GenerateNormals
+LoadTexture,RoofA2.bmp
+SetTextureCoordinates,0, 0, 7
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 7
+
+;‰®ª’Œã
+CreateMeshBuilder
+AddVertex,3.25, 5.00, 0
+AddVertex,3.05, 5.00, 0
+AddVertex,3.05, 5.00, 25.1
+AddVertex,3.05, 4.50, 25.1
+AddVertex,3.05, 4.50, 0
+AddVertex,3.25, 4.50, 0
+AddVertex,3.25, 4.50, 25.1
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+AddFace,3,4,5,6
+Loadtexture,urapole1.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,5,0
+SetTextureCoordinates,3,5,1
+SetTextureCoordinates,4,0,1
+SetTextureCoordinates,5,0,0
+SetTextureCoordinates,6,1,1
+GenerateNormals
+
+;ŒuŒõ“”
+CreateMeshBuilder,
+ADdVertex, 3.8, 5.3, 24.5
+AddVertex, 3.7, 5.4, 24.5
+AddVertex, 3.7, 5.4, 0.5
+AddVertex, 3.8, 5.3, 0.5
+ADdFace,0,1,2,3
+LoadTexture,../Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals,
+Translate,-0.8,-0.9

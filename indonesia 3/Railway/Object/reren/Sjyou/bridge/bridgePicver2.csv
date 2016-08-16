@@ -1,0 +1,93 @@
+CreateMeshBuilder,
+AddVertex, -5, 7.3, 0,
+AddVertex, 11.5, 8.1, 0,
+AddVertex, 11.5, 6.42, 0,
+AddVertex, -5, 5.55, 0,
+AddFace,0,1,2,3,
+LoaDtexture,bridgePicver.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, -5, 5.55, 0,
+AddVertex, 11.5, 6.42, 0,
+AddVertex, 11.5, 6.42, 20,
+AddVertex, -5, 5.55, 20,
+AddFace,0,1,2,3
+Loadtexture,../../EDtozai/bridge/kiyo_under.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 2,
+SetTextureCoordinates,3, 0, 2,
+GenerateNormals,
+Setcolor,80,100,110,
+
+CreateMeshBuilder,
+AddVertex, 0.6, -0.09, 2,
+AddVertex, 0.6, -0.09, 25,
+AddVertex, 9.7, -0.09, 25,
+AddVertex, 10.9, -0.09, 5,
+AddVertex, 0.6, -0.09, 2,
+AddVertex, 0.6, 5.55, 2,
+AddVertex, 0.6, 5.55, 20,
+AddVertex, 0.6, -0.09, 25,
+AddVertex, 10.9, -0.09, 5,
+AddVertex, 10.9, 5.55, 2,
+AddVertex, 9.7, 5.55, 20,
+AddVertex, 9.7, -0.09, 25,
+AddFace,0,1,2,3,
+AddFace,4,5,6,7,
+AddFace,11,10,9,8,
+Setcolor,0,0,0,100
+GenerateNormals,
+Translate,0,0.8
+
+CreateMeshBuilder
+AddVertex,3, -2, 0
+AddVertex,3,  5, 0
+AddVertex,1,  5, 0
+AddVertex,1, -2, 0
+AddFace,3,2,1,0
+LoadTexture,../Road/right2.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,0
+GenerateNormals
+Translate,2,8,10
+
+CreateMeshBuilder,
+AddVertex,-1.0, 2.6, 0
+AddVertex, 1.91, 2.6, 0
+AddVertex, 1.91,-0.4, 0
+AddVertex,-1.0,-0.4, 0
+ADdFace,0,1,2,3
+LoadTexture,../car/Bus_A.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255,
+rotate,0,1,0,84
+Translate,7,6.82,7
+
+CreateMeshBuilder,
+AddVertex,1.89, 2.8, 0
+AddVertex,1.89, 2.8, 10
+AddVertex,1.89,-0.4, 10
+AddVertex,1.89,-0.4, 0
+AddFace,0,1,2,3
+LoadTexture,../car/Bus_B.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255
+rotate,0,1,0,84
+Translate,7,6.82,7

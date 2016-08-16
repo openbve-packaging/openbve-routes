@@ -1,0 +1,16 @@
+[MeshBuilder]
+Vertex -3, 1.5,    0
+Vertex -3, 1.5, 25.3
+Vertex -3, -1, 25.3
+Vertex -3, -1,    0
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load fence2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 5, 0
+Coordinates 2, 5, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+

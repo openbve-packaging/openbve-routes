@@ -1,0 +1,57 @@
+CreateMeshBuilder,
+AddVertex,-11.2, 1.1, 0,
+AddVertex,-11.2, 4.5, 0,
+AddVertex,-11.2, 4.5, 25.2,
+AddVertex,-11.2, 1.1, 25.2,
+AddFace,0,1,2,3,
+GenerateNormals,
+Loadtexture,uraWall2.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,-11.18, 3.91, 11.2,
+AddVertex,-11.18, 4.20, 11.2,
+AddVertex,-11.18, 4.20, 13.6,
+AddVertex,-11.18, 3.91, 13.6,
+AddFace,0,1,2,3
+LoadTexture,../sta\ura.bmp
+GenerateNormals,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,-11.2, 1.2, 0
+AddVertex,-10.8, 1.2, 0
+AddVertex,-10.8, 1.0, 0
+AddVertex,-10.8, 1.0, 25.1
+AddVertex,-10.8, 1.2, 25.1
+AddVertex,-11.2, 1.2, 25.1
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+LoadTexture,boadwall1.bmp
+SetTextureCoordinates,0,   0,1,
+SetTextureCoordinates,1,   0,0.5,
+SetTextureCoordinates,2,   0,0,
+SetTextureCoordinates,3,   1,0,
+SetTextureCoordinates,4,   1,0.5,
+SetTextureCoordinates,5,   1,1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-11.2, 4.5, 0,
+AddVertex,-11.2, 4.5, 25.1
+AddVertex,-7.2, 4.875, 25.1
+AddVertex,-7.2, 4.875, 0
+AddFace,3,2,1,0
+Setcolor,148,148,148
+LoadTexture,../Roof1/RoofA.bmp
+SetTextureCoordinates,0,  0,0
+SetTextureCoordinates,1,  0,4
+SetTextureCoordinates,2,  1,4
+SetTextureCoordinates,3,  1,0
+GenerateNormals,

@@ -1,0 +1,287 @@
+;;; alberi
+
+CreateMeshBuilder,
+Addvertex,-6,19,18,
+Addvertex,-14,19,18,
+Addvertex,-14,3,18,
+Addvertex,-6,3,18,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,strauch1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+
+
+;; quarto albero 
+
+CreateMeshBuilder,
+Addvertex,-8,20,17.5,
+Addvertex,-15,20,10,
+Addvertex,-15,2,10,
+Addvertex,-8,2,17.5,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,strauch1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+;; terzo albero per traverso
+
+CreateMeshBuilder,
+Addvertex,-4.5,10,12,
+Addvertex,-13,10,12,
+Addvertex,-13,0,12,
+Addvertex,-4.5,0,12,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,strauch1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+;; secondo albero per traverso
+
+CreateMeshBuilder,
+Addvertex,-5,20,9,
+Addvertex,-16,20,9,
+Addvertex,-16,2,9,
+Addvertex,-5,2,9,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,strauch1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+
+
+;; primo albero per traverso
+
+CreateMeshBuilder,
+Addvertex,-5,19,4,
+Addvertex,-17,19,6,
+Addvertex,-17,0,6,
+Addvertex,-5,0,4,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,strauch1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,
+Addvertex,-5,10,0,
+Addvertex,-17,10,2,
+Addvertex,-17,0,2,
+Addvertex,-5,0,0,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,strauch1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+
+
+; alberi per lungo
+
+CreateMeshBuilder,
+Addvertex,-8,6.5,25.5,
+Addvertex,-8,6.5,-2,
+Addvertex,-8,2.5,-2,
+Addvertex,-8,2.5,25.5,
+Addface2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,strauch2.bmp,
+SetTextureCoordinates,0,0,0.01,
+SetTextureCoordinates,1,1,0.01,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+;; cespugli
+
+CreateMeshBuilder,
+AddVertex,-4, 1.8, 0,
+AddVertex,-8, 1.8, 0,
+AddVertex,-8, -0.5, 0,
+AddVertex,-4, -0.5, 0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,shrub28.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;; 2
+
+CreateMeshBuilder,
+AddVertex,-4, 3, 3,
+AddVertex,-7, 3, 3,
+AddVertex,-7, -0.5, 3,
+AddVertex,-4, -0.5, 3,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,shrub28.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;; 3
+
+
+;CreateMeshBuilder,
+;AddVertex,-4, 3.0, 6,
+;AddVertex,-8, 3.0, 6,
+;AddVertex,-8, -0.5, 6,
+;AddVertex,-4, -0.5, 6,
+;AddFace2,0,1,2,3,
+;GenerateNormals,
+
+;LoadTexture,tree035.bmp,
+;SetTextureCoordinates,0, 0, 0,
+;SetTextureCoordinates,1, 1, 0,
+;SetTextureCoordinates,2, 1, 1,
+;SetTextureCoordinates,3, 0, 1,
+;SetDecalTransparentColor,0,0,255,
+
+;; 4
+
+
+CreateMeshBuilder,
+AddVertex,-4.3, 3, 8.5,
+AddVertex,-7.0, 3, 7.5,
+AddVertex,-7.0, -0.5, 7.5,
+AddVertex,-4.3, -0.5, 8.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,tree035.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;; 5
+
+CreateMeshBuilder,
+AddVertex,-4, 3.5, 12,
+AddVertex,-8, 3.5, 12,
+AddVertex,-8, -0.5, 12,
+AddVertex,-4, -0.5, 12,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,shrub28.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+
+;; 6
+
+CreateMeshBuilder,
+AddVertex,-4.3, 3, 15,
+AddVertex,-7.5, 3, 15,
+AddVertex,-7.5, -0.5, 15,
+AddVertex,-4.3, -0.5, 15,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,tree035.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;; 7
+
+
+CreateMeshBuilder,
+AddVertex,-4, 3.5, 19.5,
+AddVertex,-8, 3.5, 17.5,
+AddVertex,-8, -0.5, 19.5,
+AddVertex,-4, -0.5, 17.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,shrub28.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;; 8
+
+;CreateMeshBuilder,
+;AddVertex,-4, 3.2, 22,
+;AddVertex,-7.5, 3.2, 22,
+;AddVertex,-7.5, -0.5, 22,
+;AddVertex,-4, -0.5, 22,
+;AddFace2,0,1,2,3,
+;GenerateNormals,
+
+;LoadTexture,shrub28.bmp,
+;SetTextureCoordinates,0, 0, 0,
+;SetTextureCoordinates,1, 1, 0,
+;SetTextureCoordinates,2, 1, 1,
+;SetTextureCoordinates,3, 0, 1,
+;SetDecalTransparentColor,0,0,255,
+
+;; 9
+
+CreateMeshBuilder,
+AddVertex,-4, 3.7, 25,
+AddVertex,-8, 3.7, 25,
+AddVertex,-8, -0.5, 25,
+AddVertex,-4, -0.5, 25,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,tree035.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+

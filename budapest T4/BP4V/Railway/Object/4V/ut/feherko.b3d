@@ -1,0 +1,18 @@
+;Készítette: mamutsegg
+
+
+[Meshbuilder]
+Vertex -3.5, -0.03, -0.5
+Vertex -3.5, -0.03, 25.5
+Vertex 3.5, -0.03, 25.5
+Vertex 3.5, -0.03, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load feherko.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 10, 0
+Coordinates 2, 10, 2
+Coordinates 3, 0, 2
+
+
+

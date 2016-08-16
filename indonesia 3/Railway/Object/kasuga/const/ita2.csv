@@ -1,0 +1,15 @@
+CreateMeshBuilder 
+AddVertex, 0, 7.5, 0 
+AddVertex, 0, 0 ,0 
+AddVertex, 34,  0,0
+AddVertex, 34, 7.5 ,0
+AddFace ,3,2,1,0
+Generatenormals 
+LoadTexture, ita2.bmp 
+SetTextureCoordinates, 2, 0, 1 
+SetTextureCoordinates, 3, 0, 0 
+SetTextureCoordinates, 0, -2, 0 
+SetTextureCoordinates, 1, -2, 1 
+  
+SetDecalTransparentColor, 0,0,255
+Translate,-10

@@ -1,0 +1,40 @@
+; ****************************************
+; 
+;  Állomásnév tábla 2.2 méter
+;
+;  Modell : Krisz
+;
+; ****************************************
+
+[MeshBuilder]
+Cube 0.03,1.2,0.03
+Color 160,160,160
+Translate -1.07,1.2,0.034
+
+[MeshBuilder]
+Cube 0.03,1.2,0.03
+Color 160,160,160
+Translate 1.07,1.2,0.034
+
+[MeshBuilder]
+Vertex -1.4,2.4,0
+Vertex 1.4,2.4,0
+Vertex 1.4,1.8,0
+Vertex -1.4,1.8,0
+Face 0,1,2,3
+
+[Texture]
+Load BW.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 1.4,2.4,0
+Vertex -1.4,2.4,0
+Vertex -1.4,1.8,0
+Vertex 1.4,1.8,0
+Face 0,1,2,3
+Color 140,140,140
+

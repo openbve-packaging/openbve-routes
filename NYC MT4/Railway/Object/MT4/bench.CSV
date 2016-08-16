@@ -1,0 +1,679 @@
+;Scaled with BVE File Converter
+;Photo Bench, by BStyles
+
+;====
+;Back
+;====
+
+Createmeshbuilder,
+AddVertex, 0.8 ,  1.52 ,  0.08 ,
+AddVertex, 0.8 ,  1.52 ,  3.92 ,
+AddVertex, 0.8 ,  2 ,  3.92 ,
+AddVertex, 0.8 ,  2 ,  0.08 ,
+
+AddVertex, 0.88 ,  1.52 ,  0.08 ,
+AddVertex, 0.88 ,  1.52 ,  3.92 ,
+AddVertex, 0.88 ,  2 ,  3.92 ,
+AddVertex, 0.88 ,  2 ,  0.08 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+
+GenerateNormals,
+
+Loadtexture, Wood-1.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,0,1,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,1,0,
+
+Createmeshbuilder,
+AddVertex, 0.8 ,  1.52 ,  0.08 ,
+AddVertex, 0.8 ,  1.52 ,  3.92 ,
+AddVertex, 0.88 ,  1.52 ,  3.92 ,
+AddVertex, 0.88 ,  1.52 ,  0.08 ,
+
+AddVertex, 0.8 ,  2 ,  0.08 ,
+AddVertex, 0.8 ,  2 ,  3.92 ,
+AddVertex, 0.88 ,  2 ,  3.92 ,
+AddVertex, 0.88 ,  2 ,  0.08 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+
+GenerateNormals,
+
+Loadtexture, Wood-2.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,0,1,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,1,0,
+
+Createmeshbuilder,
+AddVertex, 0.8 ,  1.52 ,  0.08 ,
+AddVertex, 0.8 ,  2 ,  0.08 ,
+AddVertex, 0.88 ,  2 ,  0.08 ,
+AddVertex, 0.88 ,  1.52 ,  0.08 ,
+
+AddVertex, 0.8 ,  1.52 ,  3.92 ,
+AddVertex, 0.8 ,  2 ,  3.92 ,
+AddVertex, 0.88 ,  2 ,  3.92 ,
+AddVertex, 0.88 ,  1.52 ,  3.92 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+
+GenerateNormals,
+
+Loadtexture, Wood-3.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,0,1,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,1,0,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,0,1,
+
+;====
+;Seat
+;====
+
+Createmeshbuilder,
+AddVertex, 0 ,  1.44 ,  0.08 ,
+AddVertex, 0 ,  1.44 ,  3.92 ,
+AddVertex, 0.88 ,  1.44 ,  3.92 ,
+AddVertex, 0.88 ,  1.44 ,  0.08 ,
+
+AddFace2, 0,1,2,3,
+
+GenerateNormals,
+
+Loadtexture, Seat-1.bmp,
+SetTextureCoordinates, 0,6,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,6,0,
+
+Createmeshbuilder,
+AddVertex, 0 ,  1.36 ,  0 ,
+AddVertex, 0 ,  1.36 ,  4 ,
+AddVertex, 0.88 ,  1.36 ,  4 ,
+AddVertex, 0.88 ,  1.36 ,  0 ,
+
+AddFace2, 0,1,2,3,
+
+GenerateNormals,
+
+Loadtexture, Wood-1.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+Createmeshbuilder,
+AddVertex, 0 ,  1.44 ,  0.08 ,
+AddVertex, 0 ,  1.44 ,  3.92 ,
+AddVertex, 0 ,  1.36 ,  3.92 ,
+AddVertex, 0 ,  1.36 ,  0.08 ,
+
+AddFace2, 0,1,2,3,
+
+GenerateNormals,
+
+Loadtexture, Wood-2.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+Createmeshbuilder,
+AddVertex, 0.88 ,  1.44 ,  0.08 ,
+AddVertex, 0.88 ,  1.44 ,  3.92 ,
+AddVertex, 0.88 ,  1.36 ,  3.92 ,
+AddVertex, 0.88 ,  1.36 ,  0.08 ,
+
+AddFace2, 0,1,2,3,
+
+GenerateNormals,
+
+Loadtexture, Wood-2.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+;==============
+;Armrests(Tall)
+;==============
+
+Createmeshbuilder,
+AddVertex, 0 ,  1.36 ,  0 ,
+AddVertex, 0 ,  1.76 ,  0 ,
+AddVertex, 0.88 ,  1.76 ,  0 ,
+AddVertex, 0.88 ,  1.36 ,  0 ,
+
+AddVertex, 0 ,  1.36 ,  0.08 ,
+AddVertex, 0 ,  1.76 ,  0.08 ,
+AddVertex, 0.88 ,  1.76 ,  0.08 ,
+AddVertex, 0.88 ,  1.36 ,  0.08 ,
+
+AddVertex, 0 ,  1.36 ,  3.92 ,
+AddVertex, 0 ,  1.76 ,  3.92 ,
+AddVertex, 0.88 ,  1.76 ,  3.92 ,
+AddVertex, 0.88 ,  1.36 ,  3.92 ,
+
+AddVertex, 0 ,  1.36 ,  4 ,
+AddVertex, 0 ,  1.76 ,  4 ,
+AddVertex, 0.88 ,  1.76 ,  4 ,
+AddVertex, 0.88 ,  1.36 ,  4 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+AddFace2, 8,9,10,11,
+Addface2, 12,13,14,15,
+
+GenerateNormals,
+
+Loadtexture, Wood-5.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,0,1,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,1,0,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,0,1,
+
+SetTextureCoordinates, 8,1,1,
+SetTextureCoordinates, 9,1,0,
+SetTextureCoordinates, 10,0,0,
+SetTextureCoordinates, 11,0,1,
+
+SetTextureCoordinates, 12,1,1,
+SetTextureCoordinates, 13,1,0,
+SetTextureCoordinates, 14,0,0,
+SetTextureCoordinates, 15,0,1,
+
+Createmeshbuilder,
+AddVertex, 0 ,  1.76 ,  0 ,
+AddVertex, 0 ,  1.76 ,  0.08 ,
+AddVertex, 0.88 ,  1.76 ,  0.08 ,
+AddVertex, 0.88 ,  1.76 ,  0 ,
+
+AddVertex, 0 ,  1.76 ,  3.92 ,
+AddVertex, 0 ,  1.76 ,  4 ,
+AddVertex, 0.88 ,  1.76 ,  4 ,
+AddVertex, 0.88 ,  1.76 ,  3.92 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+
+GenerateNormals,
+
+Loadtexture, Wood-6.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,0,1,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,1,0,
+
+
+Createmeshbuilder,
+AddVertex, 0 ,  1.36 ,  0 ,
+AddVertex, 0 ,  1.36 ,  0.08 ,
+AddVertex, 0 ,  1.76 ,  0.08 ,
+AddVertex, 0 ,  1.76 ,  0 ,
+
+AddVertex, 0.88 ,  1.36 ,  0 ,
+AddVertex, 0.88 ,  1.36 ,  0.08 ,
+AddVertex, 0.88 ,  1.76 ,  0.08 ,
+AddVertex, 0.88 ,  1.76 ,  0 ,
+
+AddVertex, 0 ,  1.36 ,  3.92 ,
+AddVertex, 0 ,  1.36 ,  4 ,
+AddVertex, 0 ,  1.76 ,  4 ,
+AddVertex, 0 ,  1.76 ,  3.92 ,
+
+AddVertex, 0.88 ,  1.36 ,  3.92 ,
+AddVertex, 0.88 ,  1.36 ,  4 ,
+AddVertex, 0.88 ,  1.76 ,  4 ,
+AddVertex, 0.88 ,  1.76 ,  3.92 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+AddFace2, 8,9,10,11,
+Addface2, 12,13,14,15,
+
+GenerateNormals,
+
+Loadtexture, Wood-3.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,0,1,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,1,0,
+
+SetTextureCoordinates, 8,1,1,
+SetTextureCoordinates, 9,0,1,
+SetTextureCoordinates, 10,0,0,
+SetTextureCoordinates, 11,1,0,
+
+SetTextureCoordinates, 12,1,1,
+SetTextureCoordinates, 13,0,1,
+SetTextureCoordinates, 14,0,0,
+SetTextureCoordinates, 15,1,0,
+
+;===============
+;Armrests(Short)
+;===============
+
+Createmeshbuilder,
+AddVertex, 0.08 ,  1.44 ,  0.68 ,
+AddVertex, 0.08 ,  1.68 ,  0.68 ,
+AddVertex, 0.88 ,  1.68 ,  0.68 ,
+AddVertex, 0.88 ,  1.44 ,  0.68 ,
+
+AddVertex, 0.08 ,  1.44 ,  0.76 ,
+AddVertex, 0.08 ,  1.68 ,  0.76 ,
+AddVertex, 0.88 ,  1.68 ,  0.76 ,
+AddVertex, 0.88 ,  1.44 ,  0.76 ,
+
+AddVertex, 0.08 ,  1.44 ,  1.32 ,
+AddVertex, 0.08 ,  1.68 ,  1.32 ,
+AddVertex, 0.88 ,  1.68 ,  1.32 ,
+AddVertex, 0.88 ,  1.44 ,  1.32 ,
+
+AddVertex, 0.08 ,  1.44 ,  1.4 ,
+AddVertex, 0.08 ,  1.68 ,  1.4 ,
+AddVertex, 0.88 ,  1.68 ,  1.4 ,
+AddVertex, 0.88 ,  1.44 ,  1.4 ,
+
+AddVertex, 0.08 ,  1.44 ,  1.96 ,
+AddVertex, 0.08 ,  1.68 ,  1.96 ,
+AddVertex, 0.88 ,  1.68 ,  1.96 ,
+AddVertex, 0.88 ,  1.44 ,  1.96 ,
+
+AddVertex, 0.08 ,  1.44 ,  2.04 ,
+AddVertex, 0.08 ,  1.68 ,  2.04 ,
+AddVertex, 0.88 ,  1.68 ,  2.04 ,
+AddVertex, 0.88 ,  1.44 ,  2.04 ,
+
+AddVertex, 0.08 ,  1.44 ,  2.6 ,
+AddVertex, 0.08 ,  1.68 ,  2.6 ,
+AddVertex, 0.88 ,  1.68 ,  2.6 ,
+AddVertex, 0.88 ,  1.44 ,  2.6 ,
+
+AddVertex, 0.08 ,  1.44 ,  2.68 ,
+AddVertex, 0.08 ,  1.68 ,  2.68 ,
+AddVertex, 0.88 ,  1.68 ,  2.68 ,
+AddVertex, 0.88 ,  1.44 ,  2.68 ,
+
+AddVertex, 0.08 ,  1.44 ,  3.24 ,
+AddVertex, 0.08 ,  1.68 ,  3.24 ,
+AddVertex, 0.88 ,  1.68 ,  3.24 ,
+AddVertex, 0.88 ,  1.44 ,  3.24 ,
+
+AddVertex, 0.08 ,  1.44 ,  3.32 ,
+AddVertex, 0.08 ,  1.68 ,  3.32 ,
+AddVertex, 0.88 ,  1.68 ,  3.32 ,
+AddVertex, 0.88 ,  1.44 ,  3.32 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+AddFace2, 8,9,10,11,
+AddFace2, 12,13,14,15,
+AddFace2, 16,17,18,19,
+AddFace2, 20,21,22,23,
+AddFace2, 24,25,26,27,
+AddFace2, 28,29,30,31,
+AddFace2, 32,33,34,35,
+AddFace2, 36,37,38,39,
+
+Loadtexture, Wood-5.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,0,1,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,1,0,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,0,1,
+
+SetTextureCoordinates, 8,1,1,
+SetTextureCoordinates, 9,1,0,
+SetTextureCoordinates, 10,0,0,
+SetTextureCoordinates, 11,0,1,
+
+SetTextureCoordinates, 12,1,1,
+SetTextureCoordinates, 13,1,0,
+SetTextureCoordinates, 14,0,0,
+SetTextureCoordinates, 15,0,1,
+
+SetTextureCoordinates, 16,1,1,
+SetTextureCoordinates, 17,1,0,
+SetTextureCoordinates, 18,0,0,
+SetTextureCoordinates, 19,0,1,
+
+SetTextureCoordinates, 20,1,1,
+SetTextureCoordinates, 21,1,0,
+SetTextureCoordinates, 22,0,0,
+SetTextureCoordinates, 23,0,1,
+
+SetTextureCoordinates, 24,1,1,
+SetTextureCoordinates, 25,1,0,
+SetTextureCoordinates, 26,0,0,
+SetTextureCoordinates, 27,0,1,
+
+SetTextureCoordinates, 28,1,1,
+SetTextureCoordinates, 29,1,0,
+SetTextureCoordinates, 30,0,0,
+SetTextureCoordinates, 31,0,1,
+
+SetTextureCoordinates, 32,1,1,
+SetTextureCoordinates, 33,1,0,
+SetTextureCoordinates, 34,0,0,
+SetTextureCoordinates, 35,0,1,
+
+SetTextureCoordinates, 36,1,1,
+SetTextureCoordinates, 37,1,0,
+SetTextureCoordinates, 38,0,0,
+SetTextureCoordinates, 39,0,1,
+
+Createmeshbuilder,
+AddVertex, 0.08 ,  1.68 ,  0.68 ,
+AddVertex, 0.08 ,  1.68 ,  0.76 ,
+AddVertex, 0.88 ,  1.68 ,  0.76 ,
+AddVertex, 0.88 ,  1.68 ,  0.68 ,
+
+AddVertex, 0.08 ,  1.68 ,  1.32 ,
+AddVertex, 0.08 ,  1.68 ,  1.4 ,
+AddVertex, 0.88 ,  1.68 ,  1.4 ,
+AddVertex, 0.88 ,  1.68 ,  1.32 ,
+
+AddVertex, 0.08 ,  1.68 ,  1.96 ,
+AddVertex, 0.08 ,  1.68 ,  2.04 ,
+AddVertex, 0.88 ,  1.68 ,  2.04 ,
+AddVertex, 0.88 ,  1.68 ,  1.96 ,
+
+AddVertex, 0.08 ,  1.68 ,  2.6 ,
+AddVertex, 0.08 ,  1.68 ,  2.68 ,
+AddVertex, 0.88 ,  1.68 ,  2.68 ,
+AddVertex, 0.88 ,  1.68 ,  2.6 ,
+
+AddVertex, 0.08 ,  1.68 ,  3.24 ,
+AddVertex, 0.08 ,  1.68 ,  3.32 ,
+AddVertex, 0.88 ,  1.68 ,  3.32 ,
+AddVertex, 0.88 ,  1.68 ,  3.24 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+AddFace2, 8,9,10,11,
+AddFace2, 12,13,14,15,
+AddFace2, 16,17,18,19,
+
+GenerateNormals,
+
+Loadtexture, Wood-6.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,0,1,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,1,0,
+
+SetTextureCoordinates, 8,1,1,
+SetTextureCoordinates, 9,0,1,
+SetTextureCoordinates, 10,0,0,
+SetTextureCoordinates, 11,1,0,
+
+SetTextureCoordinates, 12,1,1,
+SetTextureCoordinates, 13,0,1,
+SetTextureCoordinates, 14,0,0,
+SetTextureCoordinates, 15,1,0,
+
+SetTextureCoordinates, 16,1,1,
+SetTextureCoordinates, 17,0,1,
+SetTextureCoordinates, 18,0,0,
+SetTextureCoordinates, 19,1,0,
+
+Createmeshbuilder,
+AddVertex, 0.08 ,  1.44 ,  0.68 ,
+AddVertex, 0.08 ,  1.44 ,  0.76 ,
+AddVertex, 0.08 ,  1.68 ,  0.76 ,
+AddVertex, 0.08 ,  1.68 ,  0.68 ,
+
+AddVertex, 0.88 ,  1.44 ,  0.68 ,
+AddVertex, 0.88 ,  1.44 ,  0.76 ,
+AddVertex, 0.88 ,  1.52 ,  0.76 ,
+AddVertex, 0.88 ,  1.52 ,  0.68 ,
+
+AddVertex, 0.08 ,  1.44 ,  1.32 ,
+AddVertex, 0.08 ,  1.44 ,  1.4 ,
+AddVertex, 0.08 ,  1.68 ,  1.4 ,
+AddVertex, 0.08 ,  1.68 ,  1.32 ,
+
+AddVertex, 0.88 ,  1.44 ,  1.32 ,
+AddVertex, 0.88 ,  1.44 ,  1.4 ,
+AddVertex, 0.88 ,  1.52 ,  1.4 ,
+AddVertex, 0.88 ,  1.52 ,  1.32 ,
+
+AddVertex, 0.08 ,  1.44 ,  1.96 ,
+AddVertex, 0.08 ,  1.44 ,  2.04 ,
+AddVertex, 0.08 ,  1.68 ,  2.04 ,
+AddVertex, 0.08 ,  1.68 ,  1.96 ,
+
+AddVertex, 0.88 ,  1.44 ,  1.96 ,
+AddVertex, 0.88 ,  1.44 ,  2.04 ,
+AddVertex, 0.88 ,  1.52 ,  2.04 ,
+AddVertex, 0.88 ,  1.52 ,  1.96 ,
+
+AddVertex, 0.08 ,  1.44 ,  2.6 ,
+AddVertex, 0.08 ,  1.44 ,  2.68 ,
+AddVertex, 0.08 ,  1.68 ,  2.68 ,
+AddVertex, 0.08 ,  1.68 ,  2.6 ,
+
+AddVertex, 0.88 ,  1.44 ,  2.6 ,
+AddVertex, 0.88 ,  1.44 ,  2.68 ,
+AddVertex, 0.88 ,  1.52 ,  2.68 ,
+AddVertex, 0.88 ,  1.52 ,  2.6 ,
+
+AddVertex, 0.08 ,  1.44 ,  3.24 ,
+AddVertex, 0.08 ,  1.44 ,  3.32 ,
+AddVertex, 0.08 ,  1.68 ,  3.32 ,
+AddVertex, 0.08 ,  1.68 ,  3.24 ,
+
+AddVertex, 0.88 ,  1.44 ,  3.24 ,
+AddVertex, 0.88 ,  1.44 ,  3.32 ,
+AddVertex, 0.88 ,  1.52 ,  3.32 ,
+AddVertex, 0.88 ,  1.52 ,  3.24 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+AddFace2, 8,9,10,11,
+AddFace2, 12,13,14,15,
+AddFace2, 16,17,18,19,
+AddFace2, 20,21,22,23,
+AddFace2, 24,25,26,27,
+AddFace2, 28,29,30,31,
+AddFace2, 32,33,34,35,
+AddFace2, 36,37,38,39,
+
+GenerateNormals,
+
+Loadtexture, Wood-3.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,0,1,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,1,0,
+
+SetTextureCoordinates, 8,1,1,
+SetTextureCoordinates, 9,0,1,
+SetTextureCoordinates, 10,0,0,
+SetTextureCoordinates, 11,1,0,
+
+SetTextureCoordinates, 12,1,1,
+SetTextureCoordinates, 13,0,1,
+SetTextureCoordinates, 14,0,0,
+SetTextureCoordinates, 15,1,0,
+
+SetTextureCoordinates, 16,1,1,
+SetTextureCoordinates, 17,0,1,
+SetTextureCoordinates, 18,0,0,
+SetTextureCoordinates, 19,1,0,
+
+SetTextureCoordinates, 20,1,1,
+SetTextureCoordinates, 21,0,1,
+SetTextureCoordinates, 22,0,0,
+SetTextureCoordinates, 23,1,0,
+
+SetTextureCoordinates, 24,1,1,
+SetTextureCoordinates, 25,0,1,
+SetTextureCoordinates, 26,0,0,
+SetTextureCoordinates, 27,1,0,
+
+SetTextureCoordinates, 28,1,1,
+SetTextureCoordinates, 29,0,1,
+SetTextureCoordinates, 30,0,0,
+SetTextureCoordinates, 31,1,0,
+
+SetTextureCoordinates, 32,1,1,
+SetTextureCoordinates, 33,0,1,
+SetTextureCoordinates, 34,0,0,
+SetTextureCoordinates, 35,1,0,
+
+SetTextureCoordinates, 36,1,1,
+SetTextureCoordinates, 37,0,1,
+SetTextureCoordinates, 38,0,0,
+SetTextureCoordinates, 39,1,0,
+
+;====
+;Legs
+;====
+
+Createmeshbuilder,
+AddVertex, 0.08 ,  0.88 ,  0.64 ,
+AddVertex, 0.08 ,  1.36 ,  0.64 ,
+AddVertex, 0.88 ,  1.36 ,  0.64 ,
+AddVertex, 0.88 ,  0.88 ,  0.64 ,
+
+AddVertex, 0.08 ,  0.88 ,  0.8 ,
+AddVertex, 0.08 ,  1.36 ,  0.8 ,
+AddVertex, 0.88 ,  1.36 ,  0.8 ,
+AddVertex, 0.88 ,  0.88 ,  0.8 ,
+
+AddVertex, 0.08 ,  0.88 ,  3.2 ,
+AddVertex, 0.08 ,  1.36 ,  3.2 ,
+AddVertex, 0.88 ,  1.36 ,  3.2 ,
+AddVertex, 0.88 ,  0.88 ,  3.2 ,
+
+AddVertex, 0.08 ,  0.88 ,  3.36 ,
+AddVertex, 0.08 ,  1.36 ,  3.36 ,
+AddVertex, 0.88 ,  1.36 ,  3.36 ,
+AddVertex, 0.88 ,  0.88 ,  3.36 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+AddFace2, 8,9,10,11,
+AddFace2, 12,13,14,15,
+
+Loadtexture, Wood-4.bmp,
+SetTextureCoordinates, 0,2,1,
+SetTextureCoordinates, 1,2,0,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,0,1,
+
+SetTextureCoordinates, 4,2,1,
+SetTextureCoordinates, 5,2,0,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,0,1,
+
+SetTextureCoordinates, 8,2,1,
+SetTextureCoordinates, 9,2,0,
+SetTextureCoordinates, 10,0,0,
+SetTextureCoordinates, 11,0,1,
+
+SetTextureCoordinates, 12,2,1,
+SetTextureCoordinates, 13,2,0,
+SetTextureCoordinates, 14,0,0,
+SetTextureCoordinates, 15,0,1,
+
+Createmeshbuilder,
+AddVertex, 0.08 ,  0.88 ,  0.64 ,
+AddVertex, 0.08 ,  0.88 ,  0.8 ,
+AddVertex, 0.08 ,  1.36 ,  0.8 ,
+AddVertex, 0.08 ,  1.36 ,  0.64 ,
+
+AddVertex, 0.88 ,  0.88 ,  0.64 ,
+AddVertex, 0.88 ,  0.88 ,  0.8 ,
+AddVertex, 0.88 ,  1.36 ,  0.8 ,
+AddVertex, 0.88 ,  1.36 ,  0.64 ,
+
+AddVertex, 0.08 ,  0.88 ,  3.2 ,
+AddVertex, 0.08 ,  0.88 ,  3.36 ,
+AddVertex, 0.08 ,  1.36 ,  3.36 ,
+AddVertex, 0.08 ,  1.36 ,  3.2 ,
+
+AddVertex, 0.88 ,  0.88 ,  3.2 ,
+AddVertex, 0.88 ,  0.88 ,  3.36 ,
+AddVertex, 0.88 ,  1.36 ,  3.36 ,
+AddVertex, 0.88 ,  1.36 ,  3.2 ,
+
+AddFace2, 0,1,2,3,
+AddFace2, 4,5,6,7,
+AddFace2, 8,9,10,11,
+AddFace2, 12,13,14,15,
+
+GenerateNormals,
+
+Loadtexture, Wood-3.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,0,1,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,1,0,
+
+SetTextureCoordinates, 4,1,1,
+SetTextureCoordinates, 5,0,1,
+SetTextureCoordinates, 6,0,0,
+SetTextureCoordinates, 7,1,0,
+
+SetTextureCoordinates, 8,1,1,
+SetTextureCoordinates, 9,0,1,
+SetTextureCoordinates, 10,0,0,
+SetTextureCoordinates, 11,1,0,
+
+SetTextureCoordinates, 12,1,1,
+SetTextureCoordinates, 13,0,1,
+SetTextureCoordinates, 14,0,0,
+SetTextureCoordinates, 15,1,0,
+
+TranslateAll, -.55,.2,-2,

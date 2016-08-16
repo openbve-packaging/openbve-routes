@@ -1,0 +1,284 @@
+CreateMeshBuilder,,,,
+AddVertex,-1.5,0,25,;0
+AddVertex,-1.5,1.1,25,;1
+AddVertex,-1.5,0,22,;2
+AddVertex,-2,1.1,25,;3
+AddVertex,-2,0,22,;4
+AddFace,2,1,0,
+AddFace,1,2,4,3
+GenerateNormals,,,,
+LoadTexture,..\..\FormSide.bmp,,,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,4,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,1,1,1,
+
+;äKíi,,,,
+CreateMeshBuilder,,,,
+AddVertex,-2,1.1,25,;0
+AddVertex,-2,0.88,25,;1
+AddVertex,-2,0.88,24.5,;2
+AddVertex,-2,0.66,24.5,;3
+AddVertex,-2,0.66,24,;4
+AddVertex,-2,0.44,24,;5
+AddVertex,-2,0.44,23.5,;6
+AddVertex,-2,0.22,23.5,;7
+AddVertex,-2,0.22,23,;8
+AddVertex,-2,0,23,;9
+AddVertex,-7,1.1,25,;10
+AddVertex,-7,0.88,25,;11
+AddVertex,-7,0.88,24.5,;12
+AddVertex,-7,0.66,24.5,;13
+AddVertex,-7,0.66,24,;14
+AddVertex,-7,0.44,24,;15
+AddVertex,-7,0.44,23.5,;16
+AddVertex,-7,0.22,23.5,;17
+AddVertex,-7,0.22,23,;18
+AddVertex,-7,0,23,;19
+AddFace,11,10,0,1
+AddFace,12,11,1,2
+AddFace,13,12,2,3
+AddFace,14,13,3,4
+AddFace,15,14,4,5
+AddFace,16,15,5,6
+AddFace,17,16,6,7
+AddFace,18,17,7,8
+AddFace,19,18,8,9
+SetColor,120,120,120,
+GenerateNormals,,,,
+
+;âÆç™íå,,,,
+CreateMeshBuilder,,,,
+AddVertex,-3.05,3.6,17.2,;0
+AddVertex,-3.05,3.6,22,;1
+AddVertex,-3.05,3.4,22,;2
+AddVertex,-3.05,3.4,17.2,;3
+AddVertex,-3.05,3.6,17.4,;4
+AddVertex,-3.05,0,17.4,;5
+AddVertex,-3.25,0,17.2,;6
+AddVertex,-3.25,3.6,17.2,;7
+AddVertex,-3.05,0,17.2,;8
+AddVertex,-3.05,4.7,25,
+AddVertex,-3.05,4.5,25,
+AddFace,3,0,1,2
+AddFace,8,0,4,5
+AddFace,6,7,0,8
+AddFace,2,1,9,10
+SetColor,208,208,192,
+GenerateNormals,,,,
+
+;âÆç™,,,,
+CreateMeshBuilder,,,,
+AddVertex,-1.5,3.3,12,
+AddVertex,-1.5,3.3,17,
+AddVertex,-8,  3.3,17,
+AddVertex,-8,  3.3,12,
+AddFace,2,3,0,1
+GenerateNormals,,,,
+LoadTexture,..\..\Roof.bmp,,,
+SetTextureCoordinates,1,0,4,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,2,1,4,
+
+CreateMeshBuilder,,,,
+AddVertex,-1.5,3.6,17,
+AddVertex,-1.5,3.6,22,
+AddVertex,-7.3,3.6,22,
+AddVertex,-7.3,3.6,17,
+AddFace,2,3,0,1
+GenerateNormals,,,,
+LoadTexture,..\..\Roof.bmp,,,
+SetTextureCoordinates,1,0,4,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,2,1,4,
+
+CreateMeshBuilder,,,,
+AddVertex,-1.5,3.6,22,
+AddVertex,-1.5,4.7,25,
+AddVertex,-8,4.7,25,
+AddVertex,-8,3.6,22,
+AddFace,2,3,0,1
+AddFace,1,0,3,2
+GenerateNormals,,,,
+LoadTexture,..\..\Roof.bmp,,
+SetTextureCoordinates,1,0,4
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,2,1,4
+
+;âÆç™ë§ñ ,,,
+CreateMeshBuilder,,,
+AddVertex,-1.5,3.6,22
+AddVertex,-1.5,3.6,17
+AddVertex,-1.5,3.3,17
+AddVertex,-1.5,3.3,22
+AddVertex,-1.5,4.4,25
+AddVertex,-1.5,4.7,25
+AddFace,2,1,0,3
+AddFace,3,0,5,4
+GenerateNormals,,,,
+LoadTexture,..\..\Roof.bmp,,,
+SetTextureCoordinates,0,0,4,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,4,
+
+CreateMeshBuilder,,,
+AddVertex,-1.9,3.3,12
+AddVertex,-1.9,3.0,12
+AddVertex,-7.3,3.0,12
+AddVertex,-7.3,3.3,12
+AddFace,2,3,0,1
+GenerateNormals,,,,
+LoadTexture,..\..\Roof.bmp,,,
+SetTextureCoordinates,0,1,4,
+SetTextureCoordinates,1,0,4,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+
+;éËÇ∑ÇË,,,,
+CreateMeshBuilder,,,,
+AddVertex,-2,0,  17,
+AddVertex,-2,1.8,17,
+AddVertex,-2,1.8,25,
+AddVertex,-2,0,  25,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,..\Fence.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+SetDecalTransparentColor,0,0,0,
+
+;ï«,,,,
+CreateMeshBuilder,,,,
+AddVertex,-7.2,0,  17,
+AddVertex,-7.2,3.6,17,
+AddVertex,-7.2,4.7,25,
+AddVertex,-7.2,0,  25,
+AddVertex,-7.2,3.6,22,
+AddFace,0,1,4,2,3
+SetColor,160,160,160,
+GenerateNormals,,,,,
+LoadTexture,..\FormWall.bmp,
+SetTextureCoordinates,0,0,    3.5,
+SetTextureCoordinates,1,0,    0.89,
+SetTextureCoordinates,2,2.325,0,
+SetTextureCoordinates,3,2.325,3.5,
+SetTextureCoordinates,4,1.45,0.89,
+
+CreateMeshBuilder,,,,
+AddVertex,-2,0,  12,
+AddVertex,-2,3.0,12,
+AddVertex,-2,3.0,17,
+AddVertex,-2,0,  17,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,..\FormWall.bmp,,,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,6,0
+SetTextureCoordinates,3,6,0.4
+SetTextureCoordinates,0,0,0.4
+
+CreateMeshBuilder,,,,
+AddVertex,-7.2,0,  12,
+AddVertex,-7.2,3.0,12,
+AddVertex,-7.2,3.0,17,
+AddVertex,-7.2,0,  17,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,..\FormWall.bmp,,,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,3.5
+SetTextureCoordinates,0,0,3.5
+
+; è∞
+CreateMeshBuilder,
+AddVertex,-2.0, 0, 12,
+AddVertex,-2.0, 0, 25,
+AddVertex,-7.2, 0, 25,
+AddVertex,-7.2, 0, 12,
+AddFace,3,2,1,0,
+SetColor,120,120,120,
+GenerateNormals,
+
+; éññ±èä
+CreateMeshBuilder,
+AddVertex,-7.2, 0,   13,
+AddVertex,-7.2, 3.4, 13,
+AddVertex,-5.7, 3.4, 13,
+AddVertex,-5.7, 0,   13,
+AddVertex,-5.7, 0,   17,
+AddVertex,-5.7, 3.4, 17,
+AddFace,0,1,2,3,
+AddFace,3,2,5,4,
+SetColor,160,160,160,
+GenerateNormals,
+
+;â¸éDã@
+CreateMeshBuilder,
+AddVertex,-3.0, 0,   14,
+AddVertex,-3.0, 1.0, 14,
+AddVertex,-3.2, 1.0, 14,
+AddVertex,-3.2, 0,   14,
+AddVertex,-3.0, 1.0, 16,
+AddVertex,-3.2, 1.0, 16,
+AddFace,3,2,1,0,
+AddFace,2,5,4,1,
+SetColor,60,60,60,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-3.0, 0,   14,
+AddVertex,-3.0, 1.1, 14,
+AddVertex,-3.0, 1.1, 16,
+AddVertex,-3.0, 0,   16,
+AddFace,0,1,2,3,
+SetColor,232,232,232,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-4.0, 0,   14,
+AddVertex,-4.0, 1.0, 14,
+AddVertex,-4.2, 1.0, 14,
+AddVertex,-4.2, 0,   14,
+AddVertex,-4.0, 1.0, 16,
+AddVertex,-4.2, 1.0, 16
+AddFace,3,2,1,0,
+AddFace,2,5,4,1,
+SetColor,60,60,60,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-4.0, 0,   14
+AddVertex,-4.0, 1.1, 14
+AddVertex,-4.0, 1.1, 16
+AddVertex,-4.0, 0,   16
+AddFace,0,1,2,3,
+SetColor,232,232,232,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-5.0, 0,   14
+AddVertex,-5.0, 1.0, 14
+AddVertex,-5.2, 1.0, 14
+AddVertex,-5.2, 0,   14
+AddVertex,-5.0, 1.0, 16
+AddVertex,-5.2, 1.0, 16
+AddFace,3,2,1,0,
+AddFace,2,5,4,1,
+SetColor,60,60,60,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-5.0, 0,   14
+AddVertex,-5.0, 1.1, 14
+AddVertex,-5.0, 1.1, 16
+AddVertex,-5.0, 0,   16
+AddFace,0,1,2,3,
+SetColor,232,232,232,
+GenerateNormals,

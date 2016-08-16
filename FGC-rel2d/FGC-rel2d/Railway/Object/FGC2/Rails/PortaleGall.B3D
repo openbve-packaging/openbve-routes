@@ -1,0 +1,246 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Portale galleria S. Antonino
+
+[meshbuilder] ; Imbocco galleria
+vertex -3.3,5.90,-0.12
+vertex  3.3,5.90,-0.12
+vertex  3.3,-0.40,-0.12
+vertex -3.3,-0.40,-0.12
+face 0,1,2,3
+[texture]
+load ImboccoGalleria.bmp
+transparent 0,0,255
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  0 , 1
+coordinates 3,  1 , 1
+[meshbuilder]
+vertex -3.3,6.05, 0.10
+vertex  3.3,6.05, 0.10
+vertex -3.3,6.05,-0.20
+vertex  3.3,6.05,-0.20
+vertex -3.3,5.85,-0.20
+vertex  3.3,5.85,-0.20
+vertex -3.3,5.85, 0.10
+vertex  3.3,5.85, 0.10
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+[texture]
+load ..\Fabbricati\Muro1.bmp
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  1 , 0.2
+coordinates 3,  0 , 0.2
+coordinates 4,  1 , 0.3
+coordinates 5,  0 , 0.3
+coordinates 6,  1 , 0.5
+coordinates 7,  0 , 0.5
+
+
+
+[meshbuilder] ; Muro a sinistra longitudinale
+vertex -3.0,2.20,-5.1
+vertex -3.3,5.90,-0.1
+vertex -2.8,-0.40,-0.1
+vertex -2.8,-0.40,-5.5
+face 0,1,2,3
+[texture]
+load ..\Fabbricati\Muro1.bmp
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  0 , 1
+coordinates 3,  1 , 1
+[meshbuilder]
+vertex -3.3,6.05, 0.10
+vertex  3.3,6.05, 0.10
+vertex -3.3,6.05,-0.20
+vertex  3.3,6.05,-0.20
+vertex -3.3,5.85,-0.20
+vertex  3.3,5.85,-0.20
+vertex -3.3,5.85, 0.10
+vertex  3.3,5.85, 0.10
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+rotate 0,1,0,93
+rotate 1,0,0,-36.5
+translate 3.2,-0.7,1
+[texture]
+load ..\Fabbricati\Muro1.bmp
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  1 , 0.2
+coordinates 3,  0 , 0.2
+coordinates 4,  1 , 0.3
+coordinates 5,  0 , 0.3
+coordinates 6,  1 , 0.5
+coordinates 7,  0 , 0.5
+
+[meshbuilder] ; Muro a sinistra trasversale
+vertex -6.0,2.20,-5.1
+vertex -3.0,2.20,-5.1
+vertex -2.8,-0.40,-5.5
+vertex -6.0,-0.40,-5.5
+face 0,1,2,3
+[texture]
+load ..\Fabbricati\Muro1.bmp
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  0 , 1
+coordinates 3,  1 , 1
+[meshbuilder]
+vertex -6.0,6.05, 0.10
+vertex -2.85,6.05, 0.10
+vertex -6.0,6.05,-0.20
+vertex -2.85,6.05,-0.20
+vertex -6.0,5.85,-0.20
+vertex -2.85,5.85,-0.20
+vertex -6.0,5.85, 0.10
+vertex -2.85,5.85, 0.10
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+[texture]
+load ..\Fabbricati\Muro1.bmp
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  1 , 0.2
+coordinates 3,  0 , 0.2
+coordinates 4,  1 , 0.3
+coordinates 5,  0 , 0.3
+coordinates 6,  1 , 0.5
+coordinates 7,  0 , 0.5
+translate 0,-3.8,-5.00
+
+
+[meshbuilder] ; Muro a destra longitudinale
+vertex 3.0,2.20,-5.1
+vertex 3.3,5.90,-0.1
+vertex 2.8,-0.40,-0.1
+vertex 2.8,-0.40,-5.5
+face 3,2,1,0
+[texture]
+load ..\Fabbricati\Muro1.bmp
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  0 , 1
+coordinates 3,  1 , 1
+[meshbuilder]
+vertex -3.3,6.05, 0.10
+vertex  3.3,6.05, 0.10
+vertex -3.3,6.05,-0.20
+vertex  3.3,6.05,-0.20
+vertex -3.3,5.85,-0.20
+vertex  3.3,5.85,-0.20
+vertex -3.3,5.85, 0.10
+vertex  3.3,5.85, 0.10
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+rotate 0,1,0,-93
+rotate 1,0,0,-36.5
+translate -3.2,-0.7,1.0
+[texture]
+load ..\Fabbricati\Muro1.bmp
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  1 , 0.2
+coordinates 3,  0 , 0.2
+coordinates 4,  1 , 0.3
+coordinates 5,  0 , 0.3
+coordinates 6,  1 , 0.5
+coordinates 7,  0 , 0.5
+
+
+
+
+[meshbuilder] ; Muro a destra
+vertex 6.0,2.20,-5.1
+vertex 3.0,2.20,-5.1
+vertex 2.8,-0.40,-5.5
+vertex 6.0,-0.40,-5.5
+face 3,2,1,0
+[texture]
+load ..\Fabbricati\Muro1.bmp
+coordinates 0,  0 , 1
+coordinates 1,  1 , 1
+coordinates 2,  1 , 0
+coordinates 3,  0 , 0
+[meshbuilder]
+vertex -6.0,6.05, 0.10
+vertex -2.85,6.05, 0.10
+vertex -6.0,6.05,-0.20
+vertex -2.85,6.05,-0.20
+vertex -6.0,5.85,-0.20
+vertex -2.85,5.85,-0.20
+vertex -6.0,5.85, 0.10
+vertex -2.85,5.85, 0.10
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+[texture]
+load ..\Fabbricati\Muro1.bmp
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  1 , 0.2
+coordinates 3,  0 , 0.2
+coordinates 4,  1 , 0.3
+coordinates 5,  0 , 0.3
+coordinates 6,  1 , 0.5
+coordinates 7,  0 , 0.5
+translate 8.82,-3.8,-5.00
+
+
+[meshbuilder] ; Imbocco galleria
+vertex -3.3,5.90,-0.12
+vertex -15, 20,  20
+vertex  3.3,5.90,-0.12
+vertex  10, 15,  15
+vertex  3.1,2.20,-5
+vertex  40,-15,  -5
+
+face 0,1,3,2
+face 2,3,5,4
+
+[texture]
+load ..\Grass2.bmp
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  1 , 1
+coordinates 3,  0 , 1
+coordinates 4,  1.4 , 2
+coordinates 5,  0 , 3
+
+[MeshBuilder] ; Albero sulla destra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0, 40
+Translate 3.4, 1.6 ,-3
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+
+[meshbuilder] ; Rete
+vertex -2.3,8.2,0.1
+vertex  2.3,8.2,0.1
+vertex  2.3,5.7,0.1
+vertex -2.3,5.7,0.1
+face 0,1,2,3
+[texture]
+load ..\ReteGall.bmp
+transparent 0,0,0
+coordinates 0,  1 , 0
+coordinates 1,  0 , 0
+coordinates 2,  0 , 1
+coordinates 3,  1 , 1

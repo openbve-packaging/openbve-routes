@@ -1,0 +1,12 @@
+CreateMeshBuilder,
+AddVertex,0,2.05,-0.1
+AddVertex,0,2.15,-0.1
+AddVertex,0,2.15,0.1
+AddVertex,0,2.05,0.1
+AddFace2,1,2,3,0
+LoadTexture,off.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,255

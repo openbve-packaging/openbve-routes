@@ -1,0 +1,67 @@
+﻿[MeshBuilder]
+Vertex 0, 0, 0
+Vertex 0, 0.8, 0
+Vertex 0.3, 0.8, 0
+Vertex 0.3, 0, 0
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0.1, 1.05
+Coordinates 1, 0.1, 0
+Coordinates 2, 0.9, 0
+Coordinates 3, 0.9, 1.05
+Load slupek32.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 0, 0, 0.15
+Vertex 0, 0.8, 0.15
+Vertex 0.3, 0.8, 0.15
+Vertex 0.3, 0, 0.15
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Load slupek.png
+Transparent 0,0,255
+;
+[MeshBuilder]
+Vertex 0, 0, 0
+Vertex 0, 0.8, 0
+Vertex 0, 0.8, 0.15
+Vertex 0, 0, 0.15
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 0.5, 0
+Coordinates 3, 0.5, 1
+Load slupek.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 0.3, 0, 0
+Vertex 0.3, 0.8, 0
+Vertex 0.3, 0.8, 0.15
+Vertex 0.3, 0, 0.15
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 0.5, 0
+Coordinates 3, 0.5, 1
+Load slupek.png
+Transparent 0,0,255
+;-
+[MeshBuilder]
+Vertex 0.3, 0.8, 0
+Vertex 0, 0.8, 0
+Vertex 0, 0.8, 0.15
+Vertex 0.3, 0.8, 0.15
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Load slupek.png
+Transparent 0,0,255

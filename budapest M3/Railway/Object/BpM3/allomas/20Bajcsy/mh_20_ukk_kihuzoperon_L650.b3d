@@ -1,0 +1,255 @@
+;Bajcsy kihúzó, -650 sugarú peron
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;jobb oldali peron
+
+
+;szemben
+[MeshBuilder]
+vertex -2.645,-0.3,25.119
+vertex -2.645,0.9,25.119
+vertex -1.765,0.9,25.119
+vertex -1.765,-0.3,25.119
+face 3,2,1,0
+[Texture]
+Load mh_20_ukk_kihuzo_2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+vertex -2.955,0.9,25.119
+vertex -2.955,1.1,25.119
+vertex -1.455,1.1,25.119
+vertex -1.455,0.9,25.119
+face 3,2,1,0
+color 40,40,40
+
+;peron széle felül
+;jobb vágány
+[MeshBuilder]
+vertex -0.762,1.1,-0.086
+vertex -0.762,0.9,-0.086
+vertex -0.684,1.1,5.014
+vertex -0.684,0.9,5.014
+vertex -0.647,1.1,10.014
+vertex -0.647,0.9,10.014
+vertex -0.649,1.1,15.015
+vertex -0.649,0.9,15.015
+vertex -0.689,1.1,20.017
+vertex -0.689,0.9,20.017
+vertex -0.765,1.1,25.119
+vertex -0.765,0.9,25.119
+translate -0.69,0,0
+Face2 0,1,3,2
+Face2 2,3,5,4
+Face2 4,5,7,6
+Face2 6,7,9,8
+Face2 8,9,11,10
+color 40,40,40
+
+;peron széle felül
+;bal vágány
+[MeshBuilder]
+vertex -0.762,1.1,-0.086
+vertex -0.762,0.9,-0.086
+vertex -0.684,1.1,5.014
+vertex -0.684,0.9,5.014
+vertex -0.647,1.1,10.014
+vertex -0.647,0.9,10.014
+vertex -0.649,1.1,15.015
+vertex -0.649,0.9,15.015
+vertex -0.689,1.1,20.017
+vertex -0.689,0.9,20.017
+vertex -0.765,1.1,25.119
+vertex -0.765,0.9,25.119
+translate -2.19,0,0
+Face2 0,1,3,2
+Face2 2,3,5,4
+Face2 4,5,7,6
+Face2 6,7,9,8
+Face2 8,9,11,10
+color 40,40,40
+
+;peron széle alul
+[MeshBuilder]
+;jobb vg.
+vertex -1.762,0.9,-0.086
+vertex -1.762,-0.3,-0.086
+vertex -1.684,0.9,5.014
+vertex -1.684,-0.3,5.014
+vertex -1.647,0.9,10.014
+vertex -1.647,-0.3,10.014
+vertex -1.649,0.9,15.015
+vertex -1.649,-0.3,15.015
+vertex -1.689,0.9,20.017
+vertex -1.689,-0.3,20.017
+vertex -1.765,0.9,25.119
+vertex -1.765,-0.3,25.119
+;bal vágány
+vertex -2.642,0.9,-0.086
+vertex -2.642,-0.3,-0.086
+vertex -2.564,0.9,5.014
+vertex -2.564,-0.3,5.014
+vertex -2.527,0.9,10.014
+vertex -2.527,-0.3,10.014
+vertex -2.529,0.9,15.015
+vertex -2.529,-0.3,15.015
+vertex -2.569,0.9,20.017
+vertex -2.569,-0.3,20.017
+vertex -2.645,0.9,25.119
+vertex -2.645,-0.3,25.119
+Face 1,0,2,3
+Face 3,2,4,5
+Face 5,4,6,7
+Face 7,6,8,9
+Face 9,8,10,11
+Face 12,13,15,14
+Face 14,15,17,16
+Face 16,17,19,18
+Face 18,19,21,20
+Face 20,21,23,22
+[Texture]
+Load mh_20_ukk_kihuzo_2.bmp
+Coordinates  0,0,0
+Coordinates  1,0,1
+Coordinates  2,2,0
+Coordinates  3,2,1
+Coordinates  4,4,0
+Coordinates  5,4,1
+Coordinates  6,6,0
+Coordinates  7,6,1
+Coordinates  8,8,0
+Coordinates  9,8,1
+Coordinates 10,10,0
+Coordinates 11,10,1
+Coordinates 12,0,0
+Coordinates 13,0,1
+Coordinates 14,2,0
+Coordinates 15,2,1
+Coordinates 16,4,0
+Coordinates 17,4,1
+Coordinates 18,6,0
+Coordinates 19,6,1
+Coordinates 20,8,0
+Coordinates 21,8,1
+Coordinates 22,10,0
+Coordinates 23,10,1
+;peron járófelület 1
+[MeshBuilder]
+vertex -2.262,1.1,-0.086
+vertex -0.762,1.1,-0.086
+vertex -2.184,1.1,5.014
+vertex -0.684,1.1,5.014
+vertex -2.147,1.1,10.014
+vertex -0.647,1.1,10.014
+vertex -2.149,1.1,15.015
+vertex -0.649,1.1,15.015
+vertex -2.189,1.1,20.017
+vertex -0.689,1.1,20.017
+vertex -2.265,1.1,25.119
+vertex -0.765,1.1,25.119
+translate -0.69,0,0
+Face 2,3,1,0
+Face 4,5,3,2
+Face 6,7,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+[Texture]
+Load mh_20_ukk_kihuzo_1.bmp
+Coordinates  0,0.00,1.00
+Coordinates  1,0.00,0.00
+Coordinates  2,0.60,1.00
+Coordinates  3,0.60,0.00
+Coordinates  4,1.20,1.00
+Coordinates  5,1.20,0.00
+Coordinates  6,1.80,1.00
+Coordinates  7,1.80,0.00
+Coordinates  8,2.40,1.00
+Coordinates  9,2.40,0.00
+Coordinates 10,3.00,1.00
+Coordinates 11,3.00,0.00
+
+;lámpatest 1
+;oldalak
+[MeshBuilder]
+vertex -2.35,3.90,-0.5
+vertex -2.35,4.00,-0.5
+vertex -2.05,4.00,-0.5
+vertex -2.05,3.90,-0.5
+vertex -2.35,3.90, 0.5
+vertex -2.35,4.00, 0.5
+vertex -2.05,4.00, 0.5
+vertex -2.05,3.90, 0.5
+Face 0,1,2,3
+Face 4,5,6,7
+Face 4,5,1,0
+Face 3,2,6,7
+color 55,55,55
+translate 0.06,0,4.17
+
+[MeshBuilder]
+vertex -2.35,3.90, 0.5
+vertex -2.35,3.90,-0.5
+vertex -2.05,3.90,-0.5
+vertex -2.05,3.90, 0.5
+Face 0,1,2,3
+color 255,255,255
+translate 0.06,0,4.17
+
+;lámpatest 2
+;oldalak
+[MeshBuilder]
+vertex -2.35,3.90,-0.5
+vertex -2.35,4.00,-0.5
+vertex -2.05,4.00,-0.5
+vertex -2.05,3.90,-0.5
+vertex -2.35,3.90, 0.5
+vertex -2.35,4.00, 0.5
+vertex -2.05,4.00, 0.5
+vertex -2.05,3.90, 0.5
+Face 0,1,2,3
+Face 4,5,6,7
+Face 4,5,1,0
+Face 3,2,6,7
+color 55,55,55
+translate 0.11,0,12.50
+
+[MeshBuilder]
+vertex -2.35,3.90, 0.5
+vertex -2.35,3.90,-0.5
+vertex -2.05,3.90,-0.5
+vertex -2.05,3.90, 0.5
+Face 0,1,2,3
+color 255,255,255
+translate 0.11,0,12.50
+
+;lámpatest 3
+;oldalak
+[MeshBuilder]
+vertex -2.35,3.90,-0.5
+vertex -2.35,4.00,-0.5
+vertex -2.05,4.00,-0.5
+vertex -2.05,3.90,-0.5
+vertex -2.35,3.90, 0.5
+vertex -2.35,4.00, 0.5
+vertex -2.05,4.00, 0.5
+vertex -2.05,3.90, 0.5
+Face 0,1,2,3
+Face 4,5,6,7
+Face 4,5,1,0
+Face 3,2,6,7
+color 55,55,55
+translate 0.06,0,20.83
+
+[MeshBuilder]
+vertex -2.35,3.90, 0.5
+vertex -2.35,3.90,-0.5
+vertex -2.05,3.90,-0.5
+vertex -2.05,3.90, 0.5
+Face 0,1,2,3
+color 255,255,255
+translate 0.06,0,20.83

@@ -1,0 +1,60 @@
+CreateMeshBuilder
+AddVertex,2.4, 5.7, 0
+AddVertex,2.4, 5.7, 25.1
+AddVertex,2.4,-1.0, 25.1
+AddVertex,2.4,-1.0, 0
+AddFace,3,2,1,0
+LoadTexture,SPF_1.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,4,0
+SetTextureCoordinates,2,4,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder
+AddVertex,2.41, 5.59, 0.27
+ADdVertex,2.41, 5.59, 24.73
+ADdVertex,2.41, 1.03, 24.73
+ADdVertex,2.41, 1.03, 0.27
+ADdFace,3,2,1,0
+Setcolor,200,200,200,200
+GenerateNormals
+
+CreateMeshBuilder
+addvertex,-3.35, 6.7, 0
+AddVertex,-1.0, 6.7, 0
+addvertex, 2.4, 4.0, 0
+addvertex, 2.4, 3.6, 0
+addvertex,-1.0, 6.35, 0
+addvertex,-3.35, 6.35, 0
+addface,0,1,4,5
+addface,1,2,3,4
+loadtexture,Froof_A.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,1
+SetTextureCoordinates,4,1,1
+SetTextureCoordinates,5,0,1
+GenerateNormals
+Translate,0,0,6.25
+CreateMeshBuilder
+addvertex,-3.35, 6.7, 0
+AddVertex,-1.0, 6.7, 0
+addvertex, 2.4, 4.0, 0
+addvertex, 2.4, 3.6, 0
+addvertex,-1.0, 6.35, 0
+addvertex,-3.35, 6.35, 0
+addface,0,1,4,5
+addface,1,2,3,4
+loadtexture,Froof_A.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,1
+SetTextureCoordinates,4,1,1
+SetTextureCoordinates,5,0,1
+GenerateNormals
+Translate,0,0,18.75
+

@@ -1,0 +1,79 @@
+Createmeshbuilder
+Addvertex, -0.15, 0.4, 0
+Addvertex, 0.15, 0.4, 0
+Addvertex, 0.15, 0, 0
+Addvertex, -0.15, 0, 0
+Addface, 0,1,2,3
+loadTexture,lanterna.bmp
+SetTexturecoordinates, 0,1,0
+SetTexturecoordinates, 1,0,0
+SetTexturecoordinates, 2,0,1
+SetTexturecoordinates, 3,1,1
+SetDecaltransparentColor, 0,0,255
+
+Createmeshbuilder
+Addvertex, -0.107, 0, 0.1
+Addvertex, 0.123, 0, 0.1
+Addvertex, 0.123, 0, 0
+Addvertex, -0.107, 0, 0
+Addface, 3,2,1,0
+SetColor,168,178,181
+
+Createmeshbuilder
+Addvertex, 0.123, 0, 0.1
+Addvertex, 0.15, 0.275, 0.1
+Addvertex, 0.15, 0.275, 0
+Addvertex, 0.123, 0, 0
+Addface, 3,2,1,0
+SetColor,168,178,181
+
+Createmeshbuilder
+Addvertex, -0.107, 0, 0.1
+Addvertex, -0.15, 0.275, 0.1
+Addvertex, -0.15, 0.275, 0
+Addvertex, -0.107, 0, 0
+Addface, 0,1,2,3
+SetColor,168,178,181
+
+
+Createmeshbuilder
+Addvertex, -0.15, 0.36, 0.1
+Addvertex, -0.15, 0.275, 0.1
+Addvertex, -0.15, 0.275, 0
+Addvertex, -0.15, 0.36, 0
+Addface, 3,2,1,0
+SetColor,168,178,181
+Createmeshbuilder
+Addvertex, 0.15, 0.36, 0.1
+Addvertex, 0.15, 0.275, 0.1
+Addvertex, 0.15, 0.275, 0
+Addvertex, 0.15, 0.36, 0
+Addface, 0,1,2,3
+SetColor,168,178,181
+
+Createmeshbuilder
+Addvertex, -0.1, 0.4, 0.1
+Addvertex, -0.15, 0.36, 0.1
+Addvertex, -0.15, 0.36, 0
+Addvertex, -0.1, 0.4, 0
+Addface, 3,2,1,0
+SetColor,168,178,181
+Createmeshbuilder
+Addvertex, 0.1, 0.4, 0.1
+Addvertex, 0.15, 0.36, 0.1
+Addvertex, 0.15, 0.36, 0
+Addvertex, 0.1, 0.4, 0
+Addface, 0,1,2,3
+SetColor,168,178,181
+
+
+
+Createmeshbuilder
+Addvertex, -0.1, 0.4, 0.1
+Addvertex, 0.1, 0.4, 0.1
+Addvertex, 0.1, 0.4, 0
+Addvertex, -0.1, 0.4, 0
+Addface, 0,1,2,3
+SetColor,168,178,181
+
+

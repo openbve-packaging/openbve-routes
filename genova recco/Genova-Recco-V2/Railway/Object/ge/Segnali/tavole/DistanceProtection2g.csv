@@ -1,0 +1,27 @@
+
+CreateMeshBuilder,
+AddVertex,  0.15,2.6, -0.14,
+AddVertex,- 0.15, 2.6, -0.14,
+AddVertex, - 0.15, 0, -0.14,
+AddVertex,  0.15, 0, -0.14,
+AddFace, 0, 3, 2, 1,
+GenerateNormals,
+Translate, 0, 1.4, 
+LoadTexture,distanceprotection2g.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, ,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor, 0, 0, 0,
+
+
+
+CreateMeshBuilder,
+AddVertex,  0.15,2, -0.14,
+AddVertex,- 0.15, 2, -0.14,
+AddVertex, - 0.15, 0, -0.14,
+AddVertex,  0.15, 0, -0.14,
+AddFace, 0, 1, 2, 3,
+GenerateNormals,
+Translate, 0, 2, 
+setcolor,20,20,20

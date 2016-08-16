@@ -1,0 +1,31 @@
+;;;Low shrubby stuff, using Hannes' trees.
+
+[MeshBuilder]
+Vertex   -8, -3.5, 14
+Vertex   -6, -3.5, 38
+Vertex   -6, 1, 38
+Vertex   -8, 1, 14
+Face  3, 2, 1, 0
+
+[Texture]
+Load Strauch1.BMP
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex   -10, -6.5, -4
+Vertex   -8, -6.5, 15
+Vertex   -8, 6, 15
+Vertex   -10, 6, -4
+Face  3, 2, 1, 0
+
+[Texture]
+Load Strauch2.BMP
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+Transparent 0,0,255

@@ -1,0 +1,79 @@
+
+
+
+CreateMeshBuilder
+AddVertex,-1.5, -2.3, 0
+AddVertex,1.5, -2.3, 0
+AddVertex,1.5, -2.3, 25.5
+AddVertex,-1.5, -2.3, 25.5
+AddFace,1,0,3, 2
+GenerateNormals
+LoadTexture, WhiteWall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 10, 0
+SetTextureCoordinates, 3, 10, 1 
+SetColor, 50, 0,0 
+
+
+
+
+CreateMeshBuilder
+AddVertex,1.1,-.2, 0
+AddVertex,1.1, -2.3, 0
+AddVertex,1.1, -2.3, 25.5
+AddVertex,1.1,-.2, 25.5
+AddFace2,3,2,1, 0
+GenerateNormals
+SetColor, 100, 10, 10 
+LoadTexture, WhiteWall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 10, 0
+SetTextureCoordinates, 3, 10, 1 
+
+
+CreateMeshBuilder
+AddVertex,-1.1, -.2, 0
+AddVertex,-1.1, -2.3, 0
+AddVertex,-1.1, -2.3, 25.5
+AddVertex,-1.1, -.2, 25.5
+AddFace2,3,2,1, 0
+GenerateNormals
+SetColor, 100, 10, 10 
+LoadTexture, WhiteWall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 10, 0
+SetTextureCoordinates, 3, 10, 1 
+
+
+
+CreateMeshBuilder
+AddVertex,1.2, -.3, 0
+AddVertex,2.5, -.3, 0
+AddVertex,2.5, -.3, 25.5
+AddVertex,1.2, -.3, 25.5
+AddFace,1,0,3, 2
+GenerateNormals
+LoadTexture, WhiteWall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 10, 0
+SetTextureCoordinates, 3, 10, 1 
+SetColor, 50, 0,0 
+
+CreateMeshBuilder
+AddVertex,2.5, -.4, 0
+AddVertex,2.5, -.4, 25.3
+AddVertex,2.5, 1, 25.3
+AddVertex,2.5, 1, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,white_mini.bmp
+SetTextureCoordinates,0, 0.5, 1
+SetTextureCoordinates,1, 10, 1
+SetTextureCoordinates,2, 10, 0
+SetTextureCoordinates,3, 0.5, 0
+Setcolor,200,0,0
+SetDecalTransparentColor,0,0,255

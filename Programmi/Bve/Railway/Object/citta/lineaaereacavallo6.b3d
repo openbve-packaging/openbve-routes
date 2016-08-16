@@ -1,0 +1,107 @@
+[MeshBuilder]
+cylinder 6, 0.10 , 0.10 , 8
+rotate 0,0,0,2
+translate 22.3, 4, 0
+color 192,192,192
+[MeshBuilder]
+cylinder 6, 0.10 , 0.10 , 8
+rotate 0,0,0,-2
+translate 22.3, 4, 0.7
+color 192,192,192
+[MeshBuilder]
+cylinder 6, 0.10 , 0.10 , 8
+rotate 0,0,0,2
+translate -2.3, 4, 0
+color 192,192,192
+[MeshBuilder]
+cylinder 6, 0.10 , 0.10 , 8
+rotate 0,0,0,-2
+translate -2.3, 4, 0.7
+color 192,192,192
+
+[MeshBuilder]
+Vertex -2.29, 8, 0.5
+Vertex -2.29, 8, 0.1
+Vertex -2.29, 0, -0.1
+Vertex -2.29, 0, 0.9
+Face2 0,1,2,3 
+[Texture]
+Load lineaereagrata.BMP
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,15
+Coordinates 3,0,15
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex 22.29, 8, 0.5
+Vertex 22.29, 8, 0.1 
+Vertex 22.29, 0, -0.1
+Vertex 22.29, 0, 0.9
+Face2 0,1,2,3 
+[Texture]
+Load lineaereagrata.BMP
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,15
+Coordinates 3,0,15
+Transparent 0, 0, 255
+
+
+
+
+[MeshBuilder]
+Vertex -2.3,  7, 0 
+Vertex -2.3, 8, 0 
+Vertex 22.3, 8, 0 
+Vertex 22.3, 7, 0 
+Face 0,1,2,3 
+[Texture]
+Load lineaereagrata.BMP
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,20,0
+Coordinates 3,20,1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex -2.3,  7, 0.1
+Vertex -2.3, 7, 0.6 
+Vertex 22.3, 7, 0.6 
+Vertex 22.3, 7, 0.1 
+Face 3,2,1,0 
+[Texture]
+Load lineaereagrata.BMP
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,20,0
+Coordinates 3,20,1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex  5.3,  6, 0.25
+Vertex  5.3, 7, 0.25 
+Vertex 13.3, 7, 0.25 
+Vertex 13.3, 6, 0.25 
+Face 0,1,2,3 
+[Texture]
+Load lineaereamast2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex 13.3,  6, 0.25
+Vertex 13.3, 7, 0.25 
+Vertex 21.3, 7, 0.25 
+Vertex 21.3, 6, 0.25 
+Face 0,1,2,3 
+[Texture]
+Load lineaereamast2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0, 0, 255

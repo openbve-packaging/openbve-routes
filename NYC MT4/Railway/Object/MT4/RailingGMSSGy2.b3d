@@ -1,0 +1,312 @@
+[MeshBuilder]
+
+Vertex -0.00, 0.8,  0.0  ; top
+Vertex -0.00, 0.8,  5.5
+Vertex -0.00, 0.7,  5.5
+Vertex -0.00, 0.7,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -0.00, 0.6,  0.0  ; lower
+Vertex -0.00, 0.6,  5.5
+Vertex -0.00, 0.5,  5.5
+Vertex -0.00, 0.5,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -0.00, 0.4,  0.0  ; lower
+Vertex -0.00, 0.4,  5.5
+Vertex -0.00, 0.3,  5.5
+Vertex -0.00, 0.3,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -0.00, 0.2,  0.0  ; lower
+Vertex -0.00, 0.2,  5.5
+Vertex -0.00, 0.1,  5.5
+Vertex -0.00, 0.1,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+Vertex -0.00, 0.8,  0.0  ; vertical
+Vertex -0.00, 0.8,  0.1
+Vertex -0.00, 0.0,  0.0
+Vertex -0.00, 0.0,  0.1
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+;---------------- Repeating
+
+[MeshBuilder]
+Vertex -0.00, 0.8,  1.1  ; vertical
+Vertex -0.00, 0.8,  1.2
+Vertex -0.00, 0.0,  1.2
+Vertex -0.00, 0.0,  1.1
+
+Vertex -0.00, 0.8,  2.2  ; vertical
+Vertex -0.00, 0.8,  2.3
+Vertex -0.00, 0.0,  2.3
+Vertex -0.00, 0.0,  2.2
+
+Vertex -0.00, 0.8,  3.3  ; vertical
+Vertex -0.00, 0.8,  3.4
+Vertex -0.00, 0.0,  3.4
+Vertex -0.00, 0.0,  3.3
+
+Vertex -0.00, 0.8,  4.4  ; vertical
+Vertex -0.00, 0.8,  4.4
+Vertex -0.00, 0.0,  4.4
+Vertex -0.00, 0.0,  4.4
+
+Vertex -0.00, 0.8,  5.5  ; vertical
+Vertex -0.00, 0.8,  5.5
+Vertex -0.00, 0.0,  5.5
+Vertex -0.00, 0.0,  5.5
+
+
+
+
+
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+Face2 12,13,14,15
+Face2 16,17,18,19
+;Face2 20,21,22,23
+;Face2 24,25,26,27
+;Face2 28,29,30,31
+
+;Face2 32,33,34,35
+
+
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -1.50, 0.8,  0.0  ; top
+Vertex -1.50, 0.8,  5.5
+Vertex -1.50, 0.7,  5.5
+Vertex -1.50, 0.7,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -1.50, 0.6,  0.0  ; lower
+Vertex -1.50, 0.6,  5.5
+Vertex -1.50, 0.5,  5.5
+Vertex -1.50, 0.5,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -1.50, 0.4,  0.0  ; lower
+Vertex -1.50, 0.4,  5.5
+Vertex -1.50, 0.3,  5.5
+Vertex -1.50, 0.3,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -1.50, 0.2,  0.0  ; lower
+Vertex -1.50, 0.2,  5.5
+Vertex -1.50, 0.1,  5.5
+Vertex -1.50, 0.1,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+Vertex -1.50, 0.8,  0.0  ; vertical
+Vertex -1.50, 0.8,  0.1
+Vertex -1.50, 0.0,  0.0
+Vertex -1.50, 0.0,  0.1
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+;---------------- Repeating
+
+[MeshBuilder]
+Vertex -1.50, 0.8,  1.1  ; vertical
+Vertex -1.50, 0.8,  1.2
+Vertex -1.50, 0.0,  1.2
+Vertex -1.50, 0.0,  1.1
+
+Vertex -1.50, 0.8,  2.2  ; vertical
+Vertex -1.50, 0.8,  2.3
+Vertex -1.50, 0.0,  2.3
+Vertex -1.50, 0.0,  2.2
+
+Vertex -1.50, 0.8,  3.3  ; vertical
+Vertex -1.50, 0.8,  3.4
+Vertex -1.50, 0.0,  3.4
+Vertex -1.50, 0.0,  3.3
+
+Vertex -1.50, 0.8,  4.4  ; vertical
+Vertex -1.50, 0.8,  4.4
+Vertex -1.50, 0.0,  4.4
+Vertex -1.50, 0.0,  4.4
+
+Vertex -1.50, 0.8,  5.5  ; vertical
+Vertex -1.50, 0.8,  5.5
+Vertex -1.50, 0.0,  5.5
+Vertex -1.50, 0.0,  5.5
+
+
+
+
+
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+Face2 12,13,14,15
+Face2 16,17,18,19
+;Face2 20,21,22,23
+;Face2 24,25,26,27
+;Face2 28,29,30,31
+
+;Face2 32,33,34,35
+
+
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -1.50, 0.8,  0.0  ; top
+Vertex -1.50, 0.7,  0.0
+Vertex -0.00, 0.7,  0.0
+Vertex -0.00, 0.8,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -1.50, 0.6,  0.0  ; lower
+Vertex -1.50, 0.5,  0.0
+Vertex -0.00, 0.5,  0.0
+Vertex -0.00, 0.6,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -1.50, 0.4,  0.0  ; lower
+Vertex -1.50, 0.3,  0.0
+Vertex -0.00, 0.3,  0.0
+Vertex -0.00, 0.4,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+
+Vertex -1.50, 0.2,  0.0  ; lower
+Vertex -1.50, 0.1,  0.0
+Vertex -0.00, 0.1,  0.0
+Vertex -0.00, 0.2,  0.0
+
+Face2 0,1,2,3
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+[MeshBuilder]
+Vertex -1.50, 0.8,  0.0  ; vertical
+Vertex -1.48, 0.8,  0.0
+Vertex -1.48, 0.0,  0.0
+Vertex -1.50, 0.0,  0.0
+
+Vertex -1.02, 0.8,  0.0  ; vertical
+Vertex -1.00, 0.8,  0.0
+Vertex -1.00, 0.0,  0.0
+Vertex -1.02, 0.0,  0.0
+
+Vertex -0.52, 0.8,  0.0  ; vertical
+Vertex -0.50, 0.8,  0.0
+Vertex -0.50, 0.0,  0.0
+Vertex -0.52, 0.0,  0.0
+
+Vertex -0.27, 0.8,  0.0  ; vertical
+Vertex -0.25, 0.8,  0.0
+Vertex -0.25, 0.0,  0.0
+Vertex -0.27, 0.0,  0.0
+
+Vertex -0.02, 0.8,  0.0  ; vertical
+Vertex -0.00, 0.8,  0.0
+Vertex -0.00, 0.0,  0.0
+Vertex -0.02, 0.0,  0.0
+
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+Face2 12,13,14,15
+Face2 16,17,18,19
+;Face2 20,21,22,23
+;Face2 24,25,26,27
+;Face2 28,29,30,31
+
+;Face2 32,33,34,35
+
+
+;Color 255,255,255
+Color 225,225,225   
+;Color 255,0,0   ; Red
+
+
+
+
+
+
+
+
+

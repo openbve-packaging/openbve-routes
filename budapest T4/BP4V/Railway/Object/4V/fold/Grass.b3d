@@ -1,0 +1,17 @@
+;description=Grass ground
+;author=Uwe Post
+;copyright=the RouteBuilder team 2002, visit routebuilder.bve-routes.com for details
+
+[MeshBuilder]
+Vertex -120, -0.40, 26
+Vertex 120, -0.40, 26
+Vertex 120, -0.401, -1
+Vertex -120, -0.401, -1
+Face 0, 1, 2, 3
+
+[Texture]
+Load grass.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 60, 0
+Coordinates 2, 60, 12
+Coordinates 3, 0, 12

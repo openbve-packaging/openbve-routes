@@ -1,0 +1,84 @@
+CreateMeshBuilder,
+AddVertex,-2.3, 2.83, 0
+AddVertex,-2.3, 2.83, 25
+AddVertex,-2.3, 2.55, 25
+AddVertex,-2.3, 2.55, 0
+AddFace,0,1,2,3
+LoadTexture,HEpole.bmp
+SetTextureCoordinates,0,   0,0
+SetTextureCoordinates,1,   1,0
+SetTextureCoordinates,2,   1,1
+SetTextureCoordinates,3,   0,1
+SetDecalTransparentColor, 0, 0, 255
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.3, 2.67, 0
+AddVertex,-2.3, 2.67, 25
+AddVertex,-2.3, 2.15, 25
+AddVertex,-2.3, 2.15, 0
+AddFace,0,1,2,3
+LoadTexture,HEpole.bmp
+SetTextureCoordinates,0,   0,0
+SetTextureCoordinates,1,   1,0
+SetTextureCoordinates,2,   1,1
+SetTextureCoordinates,3,   0,1
+SetDecalTransparentColor, 0, 0, 255
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.42, 3.1, 0
+AddVertex,-2.00, 3.1, 0
+AddVertex,-2.00, 1.0, 0
+AddVertex,-2.42, 1.0, 0
+AddFace,0,1,2,3
+LoadTexture,HE1pole.bmp
+SetTextureCoordinates,0,  0,0
+SetTextureCoordinates,1,  1,0
+SetTextureCoordinates,2,  1,1
+SetTextureCoordinates,3,  0,1
+SetDecalTransparentColor, 0, 0, 255
+GenerateNormals,
+
+
+CreateMeshBuilder
+AddVertex,6.1, 2.83, 0
+AddVertex,6.1, 2.83, 25
+AddVertex,6.1, 2.55, 25
+AddVertex,6.1, 2.55, 0
+AddFace,3,2,1,0
+LoadTexture,HEpole.bmp
+SetTextureCoordinates,0,   0,0
+SetTextureCoordinates,1,   1,0
+SetTextureCoordinates,2,   1,1
+SetTextureCoordinates,3,   0,1
+SetDecalTransparentColor, 0, 0, 255
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,6.1, 2.67, 0
+AddVertex,6.1, 2.67, 25
+AddVertex,6.1, 2.15, 25
+AddVertex,6.1, 2.15, 0
+AddFace,3,2,1,0
+LoadTexture,HEpole.bmp
+SetTextureCoordinates,0,   0,0
+SetTextureCoordinates,1,   1,0
+SetTextureCoordinates,2,   1,1
+SetTextureCoordinates,3,   0,1
+SetDecalTransparentColor, 0, 0, 255
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,6.22, 3.1, 0
+AddVertex,5.8, 3.1, 0
+AddVertex,5.8, 1.0, 0
+AddVertex,6.22, 1.0, 0
+AddFace,3,2,1,0
+LoadTexture,HE1pole.bmp
+SetTextureCoordinates,0,  0,0
+SetTextureCoordinates,1,  1,0
+SetTextureCoordinates,2,  1,1
+SetTextureCoordinates,3,  0,1
+SetDecalTransparentColor, 0, 0, 255
+GenerateNormals

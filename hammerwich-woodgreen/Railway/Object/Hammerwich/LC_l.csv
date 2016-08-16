@@ -1,0 +1,226 @@
+;A Hammerwich - Wood Green object
+;--------------------------------------
+;(c) Steve Green  2002.
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+
+;Road
+
+CreateMeshBuilder,
+AddVertex,-9,-0.5,0,
+AddVertex,-9,-0.5,25,
+AddVertex,-50,-0.5,25,
+AddVertex,-50,-0.5,0,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,lc_road1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,1,0,
+
+CreateMeshBuilder,
+AddVertex,-2.4,0,0,
+AddVertex,-2.4,0,25,
+AddVertex,-10,-0.5,25,
+AddVertex,-10,-0.5,0,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Lc_road2.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+
+;Embankment
+
+CreateMeshBuilder,
+AddVertex,-50,-0.5,-1,
+AddVertex,-50,-0.1,0,
+AddVertex,-2.4,0,0,
+AddVertex,-2.65,-0.5,-1,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,ballast.bmp,
+SetTextureCoordinates,0,10,0.2,
+SetTextureCoordinates,1,10,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,0.2,
+
+;Road/Rail Crossing
+
+CreateMeshBuilder,
+AddVertex,-0.6,0, 0,
+AddVertex,-0.6,0, 25,
+AddVertex,0.61, 0, 25,
+AddVertex,0.61, 0, 0,
+AddVertex,0.61, -0.3, 0,
+AddVertex,-0.6, -0.3, 0,
+AddFace,0, 1, 2, 3,
+AddFace,0,3,4,5,
+GenerateNormals,
+
+LoadTexture,lc_concrete.bmp,
+SetTextureCoordinates,0,0.2,1,
+SetTextureCoordinates,1,0.2,0,
+SetTextureCoordinates,2,0.2,0,
+SetTextureCoordinates,3,0.2,1,
+SetTextureCoordinates,4,0.2,1,
+SetTextureCoordinates,5,0.2,1,
+
+CreateMeshBuilder,
+AddVertex,-0.85, 0, 0,
+AddVertex,-0.85, 0, 25,
+AddVertex,-2.4, 0, 25,
+AddVertex,-2.4, 0, 0,
+AddVertex,-0.85, -0.3, 0,
+AddVertex,-2.4, -0.3, 0,
+AddFace,3,2,1,0,
+AddFace,3,0,4,5,
+GenerateNormals,
+
+LoadTexture,lc_concrete.bmp,
+SetTextureCoordinates,0,0.2,1,
+SetTextureCoordinates,1,0.2,0,
+SetTextureCoordinates,2,0.2,0,
+SetTextureCoordinates,3,0.2,1,
+SetTextureCoordinates,4,0.2,1,
+SetTextureCoordinates,5,0.2,1,
+
+
+CreateMeshBuilder,
+AddVertex,0.83, 0, 0,
+AddVertex,0.83, 0, 25,
+AddVertex,2, 0, 25,
+AddVertex,2, 0, 0,
+AddVertex,0.83, -0.3, 0,
+AddVertex,2, -0.3, 0,
+AddFace,0,1,2,3,
+AddFace,0,3,5,4,
+GenerateNormals,
+
+LoadTexture,lc_concrete.bmp,
+SetTextureCoordinates,0,0.2,1,
+SetTextureCoordinates,1,0.2,0,
+SetTextureCoordinates,2,0.2,0,
+SetTextureCoordinates,3,0.2,1,
+SetTextureCoordinates,4,0.2,1,
+SetTextureCoordinates,5,0.2,1,
+
+;barrier
+
+CreateMeshBuilder,
+AddVertex,-5.2,-0.2, 12,
+AddVertex,-5.2,1.2, 12,
+AddVertex,-5.2,1.2, 25.6,
+AddVertex,-5.2,-0.2, 25.6,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,lc_barrier.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,-5.7, 1.2, 24.1,
+AddVertex,-5.2, 1.2, 24.1,
+AddVertex,-5.2, -0.2, 24.1,
+AddVertex,-5.7, -0.2, 24.1,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,lc_box.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-6.49, 2.5, 25.3
+AddVertex,-5.91, 2.5, 24.5,
+AddVertex,-5.91, -0.4, 24.5,
+AddVertex,-6.49, -0.4, 25.3
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,lc_sign.bmp,
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+AddVertex,-5.2,-0.2, 11.7,
+AddVertex,-5.2,1.2, 11.7,
+AddVertex,-5.2,1.2, 0,
+AddVertex,-5.2,-0.2, 0,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,lc_barrier.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,-6.9, 8.2, 0.7,
+AddVertex,-8.3, 8.2, 0.1,
+AddVertex,-8.3, -0.2, 0.1,
+AddVertex,-6.9, -0.2, 0.7,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,lc_light.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,-5.0,-0.7, 0,
+AddVertex,-5.0,2.6, 0,
+AddVertex,-9.2,2.6, -8,
+AddVertex,-9.2,-0.7, -8,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,bushes_tall.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,-8.0,-0.7, 0,
+AddVertex,-8.0,2.6, 0,
+AddVertex,-30,2.6, -4,
+AddVertex,-30,-0.7, -4,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,bushes_tall.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 3, 0,
+SetTextureCoordinates,3, 3, 1,
+SetDecalTransparentColor,0,0,0
+

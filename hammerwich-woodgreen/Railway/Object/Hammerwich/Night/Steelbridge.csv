@@ -1,0 +1,139 @@
+;A Hammerwich - Wood Green object
+;--------------------------------------
+;(c) Steve Green  2002.
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+
+CreateMeshBuilder,
+AddVertex,-1.22, -0.144, 0,
+AddVertex,-1.22, -0.144, 25.2,
+AddVertex,1.22, -0.144, 25.2,
+AddVertex,1.22, -0.144, 0,
+AddFace,0, 1, 2, 3,
+SetColor,150,150,150,
+GenerateNormals,
+
+LoadTexture,../steelSlab.bmp,
+SetTextureCoordinates,0, 0, 5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 5,
+
+CreateMeshBuilder,
+AddVertex,-1.22, -0.144, 0,
+AddVertex,-1.22, -0.3, 0,
+AddVertex,-1.9, -0.3, 0,
+AddVertex,-1.22, -0.144, 25.2,
+AddVertex,-1.22, -0.3, 25.2,
+AddVertex,-1.9, -0.3, 25.2,
+AddFace,0, 1, 4, 3,
+AddFace,1, 2, 5, 4,
+SetColor,150,150,150,
+GenerateNormals,
+
+LoadTexture,../steelSlab2.bmp,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0.1, 2,
+SetTextureCoordinates,2, 1, 2,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 0.1, 0,
+SetTextureCoordinates,5, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,1.22, -0.144, 0,
+AddVertex,1.22, -0.3, 0,
+AddVertex,1.9, -0.3, 0,
+AddVertex,1.22, -0.144, 25.2,
+AddVertex,1.22, -0.3, 25.2,
+AddVertex,1.9, -0.3, 25.2,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+SetColor,150,150,150,
+GenerateNormals,
+
+LoadTexture,../steelSlab2.bmp,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0.1, 2,
+SetTextureCoordinates,2, 1, 2,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,4, 0.1, 0,
+SetTextureCoordinates,5, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,-0.746, 0, 0,
+AddVertex,-0.746, 0, 25.5,
+AddVertex,-0.686, 0, 25.5,
+AddVertex,-0.686, 0, 0,
+AddFace,0, 1, 2, 3,
+SetColor,150,150,150,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.686, 0, 0,
+AddVertex,0.686, 0, 25.5,
+AddVertex,0.746, 0, 25.5,
+AddVertex,0.746, 0, 0,
+AddFace,0, 1, 2, 3,
+SetColor,150,150,150,
+
+
+
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.02, 4.864, 0,
+AddVertex,0.02,  4.864, 0,
+AddVertex,0.02,  4.864, 25,
+AddVertex,-0.02, 4.864, 25,
+AddFace,0,1,2,3,
+SetColor,100,100,100,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.02, 5.6, 0,
+AddVertex,0.02,  5.6, 0,
+AddVertex,0.02,  5.6, 25,
+AddVertex,-0.02, 5.6, 25,
+AddFace,0,1,2,3,
+SetColor,100,100,100,
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0, 5.6, 4.166,
+AddVertex,0, 4.864, 4.166,
+AddVertex,0.03, 4.864, 4.166,
+AddVertex,0.03, 5.6, 4.166,
+AddFace,3,2,1,0,
+SetColor,100,100,100,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0, 5.6, 12.499,
+AddVertex,0, 4.864, 12.499,
+AddVertex,0.03, 4.864, 12.499,
+AddVertex,0.03, 5.6, 12.499,
+AddFace,3,2,1,0,
+SetColor,100,100,100,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0, 5.6, 20.832,
+AddVertex,0, 4.864, 20.832,
+AddVertex,0.03, 4.864, 20.832,
+AddVertex,0.03, 5.6, 20.832,
+AddFace,3,2,1,0,
+SetColor,100,100,100,
+GenerateNormals,
+

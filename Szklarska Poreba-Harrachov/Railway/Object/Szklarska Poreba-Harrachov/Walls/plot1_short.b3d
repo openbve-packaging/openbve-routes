@@ -1,0 +1,13 @@
+[MeshBuilder]
+Vertex -2.75, -0.5, 0
+Vertex -2.75, -0.5, 2.5
+Vertex -2.75, 1, 2.5
+Vertex -2.75, 1, 0
+Face2 3,2,1,0
+[Texture]
+Load plot1.png
+Coordinates 0, 1, 0
+Coordinates 1, 1, 0.5
+Coordinates 2, 0, 0.5
+Coordinates 3, 0, 0
+Transparent 0,0,255

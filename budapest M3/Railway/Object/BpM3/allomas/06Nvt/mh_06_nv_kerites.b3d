@@ -1,0 +1,44 @@
+;Nagyvárad tér - Népliget, tárolóhelyek
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;----jobb oldal----
+[MeshBuilder]
+Vertex -2.4,-0.15,0
+Vertex -2.4,2.4,0
+Vertex -2.4,2.4,7
+Vertex -2.4,-0.15,7
+Vertex -3.55,-0.15,0
+Vertex -3.55,2.4,0
+Vertex -3.55,2.4,7
+Vertex -3.55,-0.15,7
+face2 0,1,2,3
+face2 4,5,1,0
+face2 4,5,6,7
+face2 7,6,2,3
+[Texture]
+Load kerites.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+Coordinates 6,0,0
+Coordinates 7,0,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex -3.55,2.4,0
+Vertex -3.55,2.4,7
+Vertex -2.4,2.4,7
+Vertex -2.4,2.4,0
+face2 0,1,2,3
+[Texture]
+Load kerites.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255

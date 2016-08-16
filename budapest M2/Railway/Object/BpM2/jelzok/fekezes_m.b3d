@@ -1,0 +1,18 @@
+;fékezés kezdete jelzõ, feszített ütem esetén
+;Készítette: http://www.bvemetro.hu/
+
+[MeshBuilder]
+Vertex 0,0.5,0
+Vertex 0.5,0.5,0
+Vertex 0.5,0,0
+Vertex 0,0,0
+Face 0,1,2,3
+
+[Texture]
+Load fekezes_m.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+

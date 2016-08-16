@@ -1,0 +1,13 @@
+[MeshBuilder]
+Vertex 0.5,1.5,25.5
+Vertex 0.5,-0.5,25.5
+Vertex 0.5,-0.5,-0.5
+Vertex 0.5,1.5,-0.5
+Face 3,2,1,0
+[Texture]
+load track-cables.bmp
+Coordinates 0,15,0
+Coordinates 1,15,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

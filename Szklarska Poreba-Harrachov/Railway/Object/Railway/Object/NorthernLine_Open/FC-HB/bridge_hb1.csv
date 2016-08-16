@@ -1,0 +1,123 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green. Thanks to Anthony Bowden for road Texture
+
+CreateMeshBuilder,
+AddVertex,-47, -6, -24,
+AddVertex,-47, -6, 26,
+AddVertex,60, -6, 26,
+AddVertex,60, -6, -24,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Road.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 4, 0,
+SetTextureCoordinates,3, 4, 1,
+CreateMeshBuilder,
+AddVertex,-47.5,-0.8,23,
+AddVertex,62.3,-0.8,23,
+AddVertex,62.3,-8,23,
+AddVertex,-47.5,-8,23
+AddFace,0,1,2,3,
+SetColor,200,200,200,
+GenerateNormals,
+LoadTexture,../wall2.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+CreateMeshBuilder,
+AddVertex,15.5,5,22.5,
+AddVertex,36.3,5,22.5,
+AddVertex,36.3,-5,22.5,
+AddVertex,15.5,-5,22.5,
+AddFace,0,1,2,3,
+SetColor,200,200,200,
+GenerateNormals,
+LoadTexture,advert1.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+CreateMeshBuilder,
+AddVertex,-47.5,2.0,23,
+AddVertex,-4.2,2.0,23,
+AddVertex,-4.2,-0.8,23,
+AddVertex,-47.5,-0.8,23,
+AddFace,0,1,2,3,
+Setcolor,100,190,120,
+GenerateNormals,
+LoadTexture,Bridge5.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,3,0,
+SetTextureCoordinates,2,3,1,
+SetTextureCoordinates,3,0,1,
+CreateMeshBuilder,
+AddVertex,10.5,2.0,23,
+AddVertex,62.2,2.0,23,
+AddVertex,62.2,-0.8,23,
+AddVertex,10.5,-0.8,23,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,Bridge5.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,3,0,
+SetTextureCoordinates,2,3,1,
+SetTextureCoordinates,3,0,1,
+CreateMeshBuilder
+AddVertex,-5, -0.5, 0
+AddVertex,-5, -0.5, 30.3
+AddVertex,-1.9, -0.3, 30.3
+AddVertex,-1.9, -0.3, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../ballast.png
+SetTextureCoordinates,0, 2, 7
+SetTextureCoordinates,1, 2, 0
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 0, 7
+CreateMeshBuilder
+AddVertex,-4.2, 2.0, 25
+AddVertex,-4.2, 2.0, 0
+AddVertex,-4.8, 2.0, 0
+AddVertex,-4.8, -0.6, 0
+AddVertex,-4.2,-0.6, 0
+AddVertex,-4.2,-0.6, 25
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+Setcolor,100,150,120,
+GenerateNormals
+LoadTexture,bridge5.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 3, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+SetTextureCoordinates,4, 3, 1
+SetTextureCoordinates,5, 0, 1
+CreateMeshBuilder
+AddVertex,-4, -0.5, 0
+AddVertex,-4, -0.5, 25.3
+AddVertex,-4,1.15, 25.3
+AddVertex,-4, 1.15, 0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../cables2.png
+SetTextureCoordinates,0, 12, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 12, 0
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder,
+AddVertex,29.8,9.0,24.5,
+AddVertex,68.2,5.0,24.5,
+AddVertex,68.2,1.7,24.5,
+AddVertex,29.8,1.7,24.5,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../trees1.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,3,0,
+SetTextureCoordinates,2,3,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0

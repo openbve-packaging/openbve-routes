@@ -1,0 +1,66 @@
+;csak programszõnyeget tartalmaz
+;AVR a bal oldalon
+;Készítette: http://www.bvemetro.hu/
+
+;AVR programszõnyeg bal
+
+[meshbuilder]
+vertex -0.870,0,0
+vertex -0.720,0,0
+vertex -0.870,0,25
+vertex -0.720,0,25
+face 2,3,1,0
+translate 0.45,0.05,0
+load avr.bmp
+coordinates 0,50,0
+coordinates 1,50,1
+coordinates 2,0,0
+coordinates 3,0,1
+
+[meshbuilder]
+vertex -0.760,0.05,0
+vertex -0.760,0,0
+vertex -0.760,0.05,25
+vertex -0.760,0,25
+face2 2,3,1,0
+translate 0.49,0,0
+load avr.bmp
+coordinates 0,50,0
+coordinates 1,50,1
+coordinates 2,0,0
+coordinates 3,0,1
+
+[meshbuilder]
+vertex -0.760,0.05,0
+vertex -0.760,0,0
+vertex -0.760,0.05,25
+vertex -0.760,0,25
+face2 2,3,1,0
+translate 0.34,0,0
+load avr.bmp
+coordinates 0,50,0
+coordinates 1,50,1
+coordinates 2,0,0
+coordinates 3,0,1
+
+;AVR tartóelemek
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.345,-0.085,2.50
+color 25,25,25
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.345,-0.085,7.50
+color 25,25,25
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.345,-0.085,12.50
+color 25,25,25
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.345,-0.085,17.50
+color 25,25,25
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.345,-0.085,22.50
+color 25,25,25

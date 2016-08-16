@@ -1,0 +1,93 @@
+CreateMeshBuilder,
+AddVertex,-0.4, 2.8, -8
+AddVertex, 1.91, 2.8, -8
+AddVertex, 1.91, 2.8, 0
+AddVertex, 1.91,-0.4, 0
+AddVertex, 1.91,-0.4, -8
+AddVertex,-0.4,-0.4, -8
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,../../car\car_G1.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0.57,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,0.59,1
+SetTextureCoordinates,5,0,1
+GenerateNormals,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,-0.4, 2.8, -8
+AddVertex,-0.4, 2.8, 0
+AddVertex,-0.4,-0.4, 0
+AddVertex,-0.4,-0.4, -8
+AddFace,3,2,1,0,
+LoadTexture,../../car\car_G1.bmp
+SetTextureCoordinates,0,0.51,0,
+SetTextureCoordinates,1,0.98,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0.52,1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255,
+
+
+CreateMeshBuilder
+AddVertex,-0.29,-0.7662, 0
+AddVertex,-0.29,-0.4962, 0
+AddVertex,0.09,-0.4962, 0
+AddVertex,0.09,-0.7662, 0
+AddFace2,0,1,2,3,
+SetTextureCoordinates,0,0,1.0
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,1,0.0
+SetTextureCoordinates,3,1,1.0
+LoadTexture,../glow_red.png
+SetEmissiveColor,255,255,255,
+SetBlendMode,Additive,30,DivideExponent2
+scale,2,2,2
+Translate,0.1,1.55,-8.02
+CreateMeshBuilder
+AddVertex,-0.29,-0.7662, 0
+AddVertex,-0.29,-0.4962, 0
+AddVertex,0.09,-0.4962, 0
+AddVertex,0.09,-0.7662, 0
+AddFace2,0,1,2,3,
+SetTextureCoordinates,0,0,1.0
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,1,0.0
+SetTextureCoordinates,3,1,1.0
+LoadTexture,../glow_red.png
+SetEmissiveColor,255,255,255,
+SetBlendMode,Additive,30,DivideExponent2
+scale,2,2,2
+Translate,1.79,1.55,-8.02
+
+CreateMeshBuilder
+AddVertex,-0.16,-0.7462, 0
+AddVertex,-0.16,-0.6962, 0
+AddVertex,0.00,-0.6962, 0
+AddVertex,0.00,-0.7462, 0
+AddFace2,0,1,2,3,
+SetTextureCoordinates,0,0,1.0
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,1,0.0
+SetTextureCoordinates,3,1,1.0
+LoadTexture,../glow_red31.png
+SetEmissiveColor,255,255,155,
+scale,2,2,2
+Translate,1.75,1.72,-8.02
+CreateMeshBuilder
+AddVertex,-0.16,-0.7462, 0
+AddVertex,-0.16,-0.6962, 0
+AddVertex,0.00,-0.6962, 0
+AddVertex,0.00,-0.7462, 0
+AddFace2,0,1,2,3,
+SetTextureCoordinates,0,0,1.0
+SetTextureCoordinates,1,0,0.0
+SetTextureCoordinates,2,1,0.0
+SetTextureCoordinates,3,1,1.0
+LoadTexture,../glow_red31.png
+SetEmissiveColor,255,255,155,
+scale,2,2,2
+Translate,0.09,1.72,-8.02

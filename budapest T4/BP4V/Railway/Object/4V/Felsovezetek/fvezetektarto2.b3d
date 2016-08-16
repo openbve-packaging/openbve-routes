@@ -1,0 +1,179 @@
+﻿;made by ujpestisrac
+
+[Meshbuilder]
+Vertex -2.2,8,-0.2
+Vertex -1.9,8,-0.2
+Vertex -1.7,0,-0.2
+Vertex -2.3,0,-0.2
+Face2 0,1,2,3
+[Texture]
+Load pole1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex -2.2,8,0.2
+Vertex -1.9,8,0.2
+Vertex -1.7,0,0.2
+Vertex -2.3,0,0.2
+Face2 0,1,2,3
+[Texture]
+Load pole1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex -1.7,0,-0.2
+Vertex -1.9,8,-0.2
+Vertex -1.9,8,0.2
+Vertex -1.7,0,0.2
+Face2 0,1,2,3
+[Texture]
+Load pole2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex -2.3,0,0.2
+Vertex -2.2 ,8,0.2
+Vertex -2.2 ,8,-0.2
+Vertex -2.3,0,-0.2
+Face2 0,1,2,3
+[Texture]
+Load pole2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]		
+Vertex -2.4, 0,-0.4
+Vertex -1.6, 0,-0.4
+Vertex -1.6,-1.2,-0.4
+Vertex -2.4,-1.2,-0.4
+Face 0,1,2,3
+Face 3,2,1,0
+Color 192,192,192
+
+[Meshbuilder]
+Vertex -2.4, 0,0.4
+Vertex -1.6, 0,0.4
+Vertex -1.6,-1.2,0.4
+Vertex -2.4,-1.2,0.4
+Face 0,1,2,3
+Face 3,2,1,0
+Color 192,192,192
+
+[Meshbuilder]
+Vertex -2.4, 0,-0.4
+Vertex -2.4, 0,0.4
+Vertex -2.4,-1.2,0.4
+Vertex -2.4,-1.2,-0.4
+Face 0,1,2,3
+Face 3,2,1,0
+Color 192,192,192
+
+[Meshbuilder]
+Vertex -1.6, 0,-0.4
+Vertex -1.6, 0,0.4
+Vertex -1.6,-1.2,0.4
+Vertex -1.6,-1.2,-0.4
+Face 0,1,2,3
+Face 3,2,1,0
+Color 192,192,192
+
+[Meshbuilder]
+Vertex -2.4, 0,-0.4
+Vertex -1.6, 0,-0.4
+Vertex -1.6, 0,0.4
+Vertex -2.4, 0,0.4
+Face 0,1,2,3
+Face 3,2,1,0
+Color 192,192,192
+
+[Meshbuilder]
+Vertex -2.4, 0,-0.4
+Vertex -2.4, 0,0.4
+Vertex -1.6, 0,0.4
+Vertex -1.6, 0,-0.4
+Face 0,1,2,3
+Color 128,128,128
+
+[Meshbuilder]
+Cube 0.15, 0.02, 0.15
+Color 128, 128, 128
+Translate -2.05, 7.65, 0
+
+[Meshbuilder]
+Cylinder 8, 0.02, 0.02, 0.4
+Color 16, 16, 16
+Rotate 0, 0, 1, 90
+Translate -2.05, 7.65, 0
+
+[Meshbuilder]
+Cube 0.17, 0.05, 0.17
+Color 128, 128, 128
+Translate -2.05, 6.5, 0
+
+[Meshbuilder]
+Cylinder 8, 0.04, 0.04, 0.6
+Color 64, 64, 64
+Rotate 0, 0, 1, 90
+Translate -2.05, 6.5, 0
+
+[Meshbuilder]
+Cylinder 8, 0.03, 0.03, 3.44
+Color 40, 80, 40
+Rotate 0, 0, 1, 90
+Translate -0.1, 6.5, 0
+
+[Meshbuilder]
+Cylinder 8, 0.03, 0.03, 0.17
+Color 41, 25, 25
+Translate 0.71, 6.565, 0
+
+[Meshbuilder]
+Cylinder 8, 0.03, 0.03, 0.17
+Color 41, 25, 25
+Translate -1.1, 6.565, 0
+
+[Meshbuilder]
+Cylinder 8, 0.03, 0.03, 0.17
+Color 41, 25, 25
+Translate -1.05, 6.435, 0
+
+[Meshbuilder]
+Cylinder 8, 0.03, 0.03, 0.17
+Color 41, 25, 25
+Translate -0.9, 6.435, 0
+
+[Meshbuilder]
+Vertex -2.05, 8, 0
+Vertex 1.39, 8, 0
+Vertex 1.39, 6, 0
+Vertex -2.05, 6, 0
+Face2 0, 1, 2, 3
+[Texture]
+Load fvtarto3_1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+
+
+
+
+
+

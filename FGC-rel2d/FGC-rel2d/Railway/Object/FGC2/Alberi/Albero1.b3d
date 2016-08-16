@@ -1,0 +1,18 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+;Albero 1
+[MeshBuilder]
+Vertex 0, 5.5, -2
+Vertex 0, 5.5,  2
+Vertex 0, 0  ,  2
+Vertex 0, 0  , -2
+Face2 0,1,2,3
+[texture]
+load Albero1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 90,0,255

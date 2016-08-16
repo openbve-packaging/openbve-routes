@@ -1,0 +1,64 @@
+;bal fal
+[MeshBuilder]
+vertex -4.65,3.5,0
+vertex -4.65,3.5,25
+vertex -4.65,1.1,25
+vertex -4.65,1.1,0
+face 0,1,2,3
+Load Bfal.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+;jobb fal
+[MeshBuilder]
+vertex 2,3.2,25
+vertex 2,-0.2,25
+vertex 2,3.2,0
+vertex 2,-0.2,0
+face 3,1,0,2
+Load Jfal.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,2,0
+coordinates 3,2,1
+
+;jobb irány
+;[MeshBuilder]
+;vertex 1.8,3.5,25
+;vertex 2,3.2,25
+;vertex 1.8,3.5,0
+;vertex 2,3.2,0
+;face 3,1,0,2
+;color 255,0,0
+
+;-------------------
+
+;Déli tábla
+;szöveg
+[MeshBuilder]
+Vertex -4.55,3.2,-1
+Vertex -4.55,3.5,-1
+Vertex -4.55,3.5, 1
+Vertex -4.55,3.2, 1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FDelir.bmp
+Coordinates 0,0.18,1
+Coordinates 1,0.18,0
+Coordinates 2,0.82,0
+Coordinates 3,0.82,1
+translate 0,0,23.5
+
+[MeshBuilder]
+Vertex -4.55,3.2,-1
+Vertex -4.55,3.5,-1
+Vertex -4.65,3.2,-1
+Vertex -4.65,3.5,-1
+Vertex -4.55,3.2, 1
+Vertex -4.65,3.2, 1
+face 2,3,1,0
+face 5,2,0,4
+color 0,0,0
+translate 0,0,23.5

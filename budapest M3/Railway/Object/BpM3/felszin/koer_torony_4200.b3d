@@ -1,0 +1,21 @@
+;Kõér utca torony 4200
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+[MeshBuilder]
+Vertex -7.87,-1.0,0
+Vertex  7.87,-1.0,0
+Vertex -7.87,85.6,0
+Vertex  7.87,85.6,0
+Face 0,2,3,1
+[Texture]
+Load koer_torony.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Transparent 0,0,255
+Translate 275.11,0,590
+
+;--------------------------------------

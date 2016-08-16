@@ -1,0 +1,212 @@
+;;;;ï«;;;;
+
+CreateMeshBuilder,
+AddVertex,-2.51, 0.8, 0,
+AddVertex,-2.51, 4.2, 0,
+AddVertex,-2.51, 4.2, 25.2,
+AddVertex,-2.51, 0.8, 25.2,
+AddFace,0,1,2,3,
+LoadTexture,../Wall/takeWall.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 8, 0,
+SetTextureCoordinates,3, 8, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.51, -0.3, 0
+AddVertex,-2.51, -0.3, 25.2
+AddVertex,-2.51,  0.8, 25.2
+AddVertex,-2.51,  0.8, 0
+AddFace,3,2,1,0
+LoadTexture,../Roof1/SideWall2.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 26,0
+SetTextureCoordinates,2, 26,0.08
+SetTextureCoordinates,3, 0,0.08
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-2.51, -0.3, 25.2
+AddVertex,-1.90, -0.3, 25.2
+AddVertex,-1.90, -0.3, 0
+AddVertex,-2.51, -0.3, 0
+AddFace,0,1,2,3
+LoadTexture,../Roof1/SideWall2.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 0,0.07
+SetTextureCoordinates,2, 5,0.07
+SetTextureCoordinates,3, 5,0
+Setcolor,255,255,190
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.5, 3.0, 11.5,
+AddVertex,-2.5, 3.0, 14.5,
+AddVertex,-2.5, 2.2, 14.5,
+AddVertex,-2.5, 2.2, 11.5,
+AddFace,0,1,2,3,
+LoadTexture,../Fpanel/kagura.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+;;;;;;;;;;;;;;ï«áU;;;;;;;;;;;;;;;
+CreateMeshBuilder,
+AddVertex,6.8, 4.7, 25.2
+AddVertex,6.8, 4.7, 0.0
+AddVertex,6.8, 1.1, 0.0
+AddVertex,6.8, 1.1, 25.2
+ADdFace,0,1,2,3
+LoadTexture,kagura4.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 25, 0
+SetTextureCoordinates,2, 25, 1
+SetTextureCoordinates,3, 0, 1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,6.79, 3.16, 11.5
+AddVertex,6.79, 3.16, 10.0
+AddVertex,6.79, 2.97, 10.0
+AddVertex,6.79, 2.97, 11.5
+ADdFace,0,1,2,3
+LoadTexture,kagurazaka.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+GenerateNormals,
+
+;;;;;;;;;;;;;;âÆç™;;;;;;;;;;;;;;;
+
+
+CreateMeshBuilder
+AddVertex,1.5, 4.7, 0.0
+AddVertex,6.9, 4.7, 0.0
+AddVertex,6.9, 4.7,25.0
+AddVertex,1.5, 4.7,25.0
+AddFace,0,1,2,3
+LoadTexture,../Roof1/MzRoof1.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 15, 0
+SetTextureCoordinates,3, 15, 1
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,1.5, 5.4,25.0
+AddVertex,1.5, 5.4, 0.0
+AddVertex,1.5, 4.7, 0.0
+AddVertex,1.5, 4.7,25.0
+AddFAce,0,1,2,3
+LoadTexture,../Wall\boadwall.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+Setcolor,110,110,110
+GenerateNormals
+
+CreateMeshBuilder,
+AddVertex,-2.51, 4.2, 25,
+AddVertex,-1.90, 5.4, 25,
+AddVertex, 2.00, 5.4, 25,
+AddVertex, 2.00, 5.4, 0,
+AddVertex,-1.90, 5.4, 0,
+AddVertex,-2.51, 4.2, 0,
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+LoadTexture,../Roof1/roofB1.bmp,
+SetTextureCoordinates,0, -0.3, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.1, 0,
+SetTextureCoordinates,3, 1.1, 6,
+SetTextureCoordinates,4, 0, 6,
+SetTextureCoordinates,5, -0.3, 6,
+Setcolor,180,180,190
+GenerateNormals,
+
+CreateMeshBuilder
+AddVertex,1.5, 4.7, 0
+AddVertex,1.5, 5.4, 0
+AddVertex,6.8, 5.4, 0
+AddVertex,6.8, 4.7, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,../Wall/boadwall.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 5, 0
+SetTextureCoordinates,3, 5, 1
+Setcolor,100,100,100
+
+;;;;;;;;;;;;;;ÉzÅ[ÉÄ;;;;;;;;;;;;;;
+
+
+CreateMeshBuilder
+AddVertex,1.5, 1.1, 0
+AddVertex,1.5, 1.1, 25.2
+AddVertex,2.9, 1.1, 25.2
+AddVertex,2.9, 1.1, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,../Form/(D)kagura.bmp
+SetTextureCoordinates,0, 0, 22
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 22
+
+CreateMeshBuilder
+AddVertex,1.5, -0.45, 0
+AddVertex,1.5, -0.45, 25.2
+AddVertex,1.5, 1.1, 25.2
+AddVertex,1.5, 1.1, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,../Form/tozaiform.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 5, 1
+SetTextureCoordinates,2, 5, 0
+SetTextureCoordinates,3, 0, 0
+
+CreateMeshBuilder
+AddVertex,1.5, -0.45, 0
+AddVertex,1.5, 1.1, 0
+AddVertex,2.9, 1.1, 0
+AddVertex,2.9, -0.45, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,../../../Wall.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+Setcolor,100,100,100
+
+CreateMeshBuilder
+AddVertex,6.8, 1.1, 0
+AddVertex,6.8, 1.1, 25.1
+AddVertex,2.9, 1.1, 25.1
+AddVertex,2.9, 1.1, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+LoadTexture,../Form/FormD.bmp
+SetTextureCoordinates,0, 8, 15
+SetTextureCoordinates,1, 8, 0
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 0, 15
+
+CreateMeshBuilder
+AddVertex,6.8, -0.45, 0
+AddVertex,6.8, 1.1, 0
+AddVertex,2.9, 1.1, 0
+AddVertex,2.9, -0.45, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+LoadTexture,../../Slab2.bmp
+SetTextureCoordinates,0, 1, 0.5
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 0, 0.5

@@ -1,0 +1,74 @@
+;--- INITRND:145235511
+[MeshBuilder]
+Vertex -7.8357, 22.1628, 7.8357
+Vertex 7.8357, 22.1628, 7.8357
+Vertex 7.8357, 22.1628, -7.8357
+Vertex -7.8357, 22.1628, -7.8357
+Vertex -7.8357, 0, 7.8357
+Vertex 7.8357, 0, 7.8357
+Vertex 7.8357, 0, -7.8357
+Vertex -7.8357, 0, -7.8357
+Face2 0,2,6,4
+Face2 3,1,5,7
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 225, 225, 225
+[MeshBuilder]
+Vertex -1.5231, 2.6327, 1.5231
+Vertex 1.5231, 2.6327, 1.5231
+Vertex 1.5231, 2.6327, -1.5231
+Vertex -1.5231, 2.6327, -1.5231
+Vertex -1.5231, 0, 1.5231
+Vertex 1.5231, 0, 1.5231
+Vertex 1.5231, 0, -1.5231
+Vertex -1.5231, 0, -1.5231
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -3.8661, 0, -1.0916
+Translate 2.5, 0, 0
+[Texture]
+Load ..\Novenyek\bmp\BOZOT00.BMP
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 203, 203, 203
+[MeshBuilder]
+Vertex -1.6592, 2.868, 1.6592
+Vertex 1.6592, 2.868, 1.6592
+Vertex 1.6592, 2.868, -1.6592
+Vertex -1.6592, 2.868, -1.6592
+Vertex -1.6592, 0, 1.6592
+Vertex 1.6592, 0, 1.6592
+Vertex 1.6592, 0, -1.6592
+Vertex -1.6592, 0, -1.6592
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -2.4414, 0, 0.4443
+Translate 2.5, 0, 0
+[Texture]
+Load ..\Novenyek\bmp\BOZOT00.BMP
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 168, 168, 168

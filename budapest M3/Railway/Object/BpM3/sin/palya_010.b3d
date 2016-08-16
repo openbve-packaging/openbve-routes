@@ -1,0 +1,59 @@
+;Egyenes pálya vasbetonlemezes felépítménnyel
+;Készítette: Kovács Attila 2006.04.
+;www.bve-metro.uw.hu    koat@dpg.hu
+
+;--------------------------------------
+
+;Sínek
+
+;bal oldali sín
+[meshbuilder]
+vertex -0.80,  00.00, 00.00
+vertex -0.72,  00.00, 00.00
+vertex -0.72,  00.00, 25.00
+vertex -0.80,  00.00, 25.00
+face 3,2,1,0
+color 180,190,200
+
+[meshbuilder]
+vertex -0.76, -00.15, 00.00
+vertex -0.76,  00.00, 00.00
+vertex -0.76,  00.00, 25.00
+vertex -0.76, -00.15, 25.00
+face2 0,1,2,3
+color 85,50,50
+
+;jobb oldali sín
+[meshbuilder]
+vertex  0.80,  00.00, 00.00
+vertex  0.72,  00.00, 00.00
+vertex  0.72,  00.00, 25.00
+vertex  0.80,  00.00, 25.00
+face 0,1,2,3
+color 180,190,200
+
+[meshbuilder]
+vertex  0.76, -00.15, 00.00
+vertex  0.76,  00.00, 00.00
+vertex  0.76,  00.00, 25.00
+vertex  0.76, -00.15, 25.00
+face2 0,1,2,3
+color 85,50,50
+
+;--------------------------------------
+
+;vasbeton pályalemez
+[meshbuilder]
+vertex -2.50, -00.15, 00.00
+vertex  2.50, -00.15, 00.00
+vertex  2.50, -00.15, 25.00
+vertex -2.50, -00.15, 25.00
+face 3,2,1,0
+[texture]
+load aljzat_010.bmp
+coordinates 0, 0, 5
+coordinates 1, 1, 5
+coordinates 2, 1, 0
+coordinates 3, 0, 0
+
+;--------------------------------------

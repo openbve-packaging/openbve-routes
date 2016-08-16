@@ -1,0 +1,16 @@
+CreateMeshBuilder,
+AddVertex,0.3,2.7,-0.00,
+AddVertex,0.3,2.9,-0.00,
+ADdVertex,0.0,2.9,-0.00,
+AddVertex,0.0,2.7,-0.00,
+AddFace2,0,1,2,3
+Loadtexture,../glow_white2.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+Setcolor,255,255,255,
+SetBlendMode,Additive
+SetEmissiveColor,245,245,245
+SetDecalTransparentColor,0,0,0
+GenerateNormals,

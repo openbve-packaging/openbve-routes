@@ -1,0 +1,171 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; - Pedale e semaforo ACAI
+
+; =========== Tratto diritto ============
+[meshbuilder] ; Superf.controrotaia
+vertex -0.41,0,0
+vertex -0.35,0,0
+vertex -0.41,0,8
+vertex -0.35,0,8
+face2 2, 3, 1, 0
+color 125,113,120
+translate 0,0,0.5
+
+[meshbuilder] ; Anima
+cube 0.012,0.07, 4
+color 85,50,50
+translate  -0.38,-0.071, 4.5
+
+[meshbuilder] ; Suola
+vertex -0.435,-0.1295,0
+vertex -0.325,-0.1295,0
+vertex -0.435,-0.1295,8
+vertex -0.325,-0.1295,8
+face2 2, 3, 1, 0
+color 78,51,50
+translate 0,0,0.5
+
+; =========== Raccordo iniziale ============
+[meshbuilder] ; Superf.controrotaia
+vertex -0.41,0,0
+vertex -0.35,0,0
+vertex -0.41,0,0.4
+vertex -0.35,0,0.4
+face2 2, 3, 1, 0
+color 125,113,120
+rotate 0,1,0,-7.5
+translate  0.045, 0,  0.2
+
+[meshbuilder] ; Anima
+cube 0.012,0.07, 0.20
+color 85,50,50
+rotate 0,1,0,-7.5
+translate  -0.36,-0.071,  0.35
+
+[meshbuilder] ; Suola
+vertex -0.435,-0.1295,0
+vertex -0.325,-0.1295,0
+vertex -0.435,-0.1295,0.4
+vertex -0.325,-0.1295,0.4
+face2 2, 3, 1, 0
+color 78,51,50
+rotate 0,1,0,-7.5
+translate  0.045, 0, 0.2
+
+; =========== Raccordo finale ============
+[meshbuilder] ; Superf.controrotaia
+vertex -0.41,0,0
+vertex -0.35,0,0
+vertex -0.41,0,0.4
+vertex -0.35,0,0.4
+face2 2, 3, 1, 0
+color 125,113,120
+rotate 0,1,0, 7.5
+translate   0, 0,  8.45
+
+[meshbuilder] ; Anima
+cube 0.012,0.07, 0.20
+color 85,50,50
+rotate 0,1,0, 7.5
+translate  -0.360	,-0.071,  8.6
+
+[meshbuilder] ; Suola
+vertex -0.435,-0.1295,0
+vertex -0.325,-0.1295,0
+vertex -0.435,-0.1295,0.4
+vertex -0.325,-0.1295,0.4
+face2 2, 3, 1, 0
+color 78,51,50
+rotate 0,1,0, 7.5
+translate  0, 0, 8.45
+
+
+; =========== Raccordo finale su cr precedente============
+[meshbuilder] ; Superf.controrotaia
+vertex -0.41,0,0
+vertex -0.35,0,0
+vertex -0.41,0,0.4
+vertex -0.35,0,0.4
+face2 2, 3, 1, 0
+color 125,113,120
+rotate 0,1,0, 7.5
+translate   0, 0, -1.0
+
+[meshbuilder] ; Anima
+cube 0.012,0.07, 0.20
+color 85,50,50
+rotate 0,1,0, 7.5
+translate  -0.360,-0.071, -0.8
+
+[meshbuilder] ; Suola
+vertex -0.435,-0.1295,0
+vertex -0.325,-0.1295,0
+vertex -0.435,-0.1295,0.5
+vertex -0.325,-0.1295,0.5
+face2 2, 3, 1, 0
+color 78,51,50
+rotate 0,1,0, 7.5
+translate  0, 0, -1.05
+
+[meshbuilder] ; Pedale
+cube 0.04,0.06, 0.10
+color 85,50,50
+translate  0.45,-0.1, -0.3
+[meshbuilder]
+cube 0.09,0.20, 0.09
+color 243,183,82
+translate  1.65,-0.3, -0.35
+[meshbuilder]
+cube 0.03,0.20, 0.03
+color 38,34,35
+translate -1.55,-0.3, -0.35
+[meshbuilder]
+cube 0.01,0.20, 0.01
+color 38,34,35
+translate -1.45,-0.3, -0.35
+[meshbuilder]
+cube 0.12,0.04, 0.08
+color 38,34,35
+translate -1.53,-0.1, -0.35
+[meshbuilder]
+cube 0.11,0.05, 0.07
+color 249,242,226
+translate -1.53, -0.04, -0.35
+
+; Semaforo
+
+[meshbuilder] ; basamento
+cube 0.2,0.1,0.2
+color 155,155,155
+rotate 0,1,0,20
+translate -3.91,  0.0, -14.5
+[meshbuilder] ; cassetta
+cube 0.15,0.18,0.1
+color 202,202,202
+rotate 0,1,0,20
+translate -3.92,  0.3, -14.6
+
+[meshbuilder] ; paletto
+cylinder 4, 0.03,0.03,0.8
+color 92,90,78
+rotate 0,1,0,20
+translate -3.84,  0.3, -14.5
+
+[meshbuilder] ; luci segnale
+vertex -0.125,0.5,0
+vertex 0.125,0.5,0
+vertex 0.125,0,0
+vertex -0.125,0,0
+Face 0,1,2,3
+[Texture]
+load Semaf-giallo1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+rotate 0,1,0,20
+translate -3.85,  0.65, -14.535

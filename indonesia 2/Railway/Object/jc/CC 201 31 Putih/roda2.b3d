@@ -1,0 +1,287 @@
+;Tabung
+[MeshBuilder]
+Cylinder 10,0.18,0.18,1.7
+Color 60,60,60,
+Translate -1,3.3,-1.1
+Rotate 360,0,0,90
+
+;Roda
+[Meshbuilder]
+Vertex -0.7,1.2,13.6
+Vertex -0.7,1.2,-2
+Vertex -0.7,-0.05,-2
+Vertex -0.7,-0.05,13.6
+Face2 0,1,2,3
+[Texture]
+Load U20_truck6.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[meshbuilder]
+Vertex -0.87,1.2,13.6
+Vertex -0.87,1.2,-2
+Vertex -0.87,-0.05,-2
+Vertex -0.87,-0.05,13.6
+Face2 0,1,2,3
+[texture]
+Load u20_truck6a.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[Meshbuilder]
+Vertex -1,1.2,13.6
+Vertex -1,1.2,-2
+Vertex -1,-0.05,-2
+Vertex -1,-0.05,13.6
+Face2 0,1,2,3
+[Texture]
+Load U20_truck6b.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,0.57,-0.8
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,0.57,1.2
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,0.57,3.5
+Rotate 0,0,1,90
+
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,0.55,8.3
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,0.55,10.65
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,0.55,12.7
+Rotate 0,0,1,90
+
+[Meshbuilder]
+Vertex 0.7,1.2,13.6
+Vertex 0.7,1.2,-2
+Vertex 0.7,-0.05,-2
+Vertex 0.7,-0.05,13.6
+Face2 0,1,2,3
+[Texture]
+Load U20_truck6.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[meshbuilder]
+Vertex 0.87,1.2,13.6
+Vertex 0.87,1.2,-2
+Vertex 0.87,-0.05,-2
+Vertex 0.87,-0.05,13.6
+Face2 0,1,2,3
+[texture]
+Load u20_truck6a.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[Meshbuilder]
+Vertex 1,1.2,13.6
+Vertex 1,1.2,-2
+Vertex 1,-0.05,-2
+Vertex 1,-0.05,13.6
+Face2 0,1,2,3
+[Texture]
+Load U20_truck6b.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,-0.57,-0.8
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,-0.57,1.2
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,-0.57,3.5
+Rotate 0,0,1,90
+
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,-0.57,8.3
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,-0.57,10.65
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.45,0.45,0.09
+Color 100,100,100
+Translate 0.355,-0.57,12.7
+Rotate 0,0,1,90
+
+;As Roda
+[MeshBuilder]
+Cylinder 25,0.11,0.11,1.65
+Color 40,40,40
+Translate 0.355,0,-0.8
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.11,0.11,1.65
+Color 40,40,40
+Translate 0.355,0,1.2
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.11,0.11,1.65
+Color 40,40,40
+Translate 0.355,0,3.5
+Rotate 0,0,1,90
+
+[MeshBuilder]
+Cylinder 25,0.11,0.11,1.65
+Color 40,40,40
+Translate 0.355,0,8.3
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.11,0.11,1.65
+Color 40,40,40
+Translate 0.355,0,10.65
+Rotate 0,0,1,90
+[MeshBuilder]
+Cylinder 25,0.11,0.11,1.65
+Color 40,40,40
+Translate 0.355,0,12.7
+Rotate 0,0,1,90
+
+[Meshbuilder]
+Cube 1,0.26,1.3
+Color 70,70,75
+Translate 0,0.65,5.9
+
+[Meshbuilder]
+Cube 0.9,0.23,1.28
+Color 60,60,65
+Translate 0,0.32,5.9
+
+[Meshbuilder]
+Cube 0.45,0.3,2.3
+Color 10,10,10
+Translate 0,0.55,1.35
+
+[Meshbuilder]
+Cube 0.45,0.3,2.3
+Color 10,10,10
+Translate 0,0.55,10.5
+
+;Sambungan
+[Meshbuilder]
+Cube 0.082,0.086,0.2
+Color 10,10,10
+Translate 0,0.67,14.15
+
+[Meshbuilder]
+Cube 0.025,0.12,0.07
+Color 10,10,10
+Translate 0.09,0.67,14.4
+
+[Meshbuilder]
+Cube 0.05,0.11,0.014
+Color 10,10,10
+Translate 0.03,0.67,14.47
+
+[Meshbuilder]
+Cube 0.015,0.11,0.03
+Color 10,10,10
+Rotate 0,1,0,-20
+Translate -0.08,0.67,14.38
+
+[Meshbuilder]
+Cube 0.015,0.11,0.03
+Color 10,10,10
+Rotate 0,1,0,-20
+Translate 0.08,0.67,-2.92
+
+[Meshbuilder]
+Cube 0.05,0.11,0.014
+Color 10,10,10
+Translate -0.03,0.67,-3
+
+[Meshbuilder]
+Cube 0.025,0.12,0.07
+Color 10,10,10
+Translate -0.09,0.67,-2.94
+
+[Meshbuilder]
+Cube 0.082,0.086,0.2
+Color 10,10,10
+Translate 0,0.67,-2.7
+
+[Meshbuilder]
+Cube 0.5,0.3,0.3
+Color 0,0,0
+Translate 0,0.82,-2.33
+
+[Meshbuilder]
+Cube 0.5,0.3,0.2
+Color 0,0,0
+Translate 0,0.82,13.8
+
+[Meshbuilder]
+Cube 0.03,0.03,0.45
+Color 20,20,20
+Rotate 1,0,0,-45
+Translate 0.6,0.6,-2.31
+
+[Meshbuilder]
+Cube 0.03,0.03,0.45
+Color 20,20,20
+Rotate 1,0,0,-45
+Translate -0.6,0.6,-2.31
+
+[Meshbuilder]
+Cylinder 10,0.06,0.17,0.17
+Color 50,50,50
+Translate 0.8,1,-2
+
+[Meshbuilder]
+Cylinder 10,0.14,0.14,0.25
+Color 50,50,50
+Translate -0.8,1,-2
+
+TranslateAll 0,0.08,-3.5
+RotateAll 0,1,0,360

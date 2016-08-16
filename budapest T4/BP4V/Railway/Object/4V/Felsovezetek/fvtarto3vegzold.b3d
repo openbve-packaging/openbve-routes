@@ -1,0 +1,110 @@
+﻿; Készítette: Zaigron
+
+[Meshbuilder]
+Vertex -0.05, 8, -0.05
+Vertex 0.05, 8, -0.05
+Vertex 0.2, 0, -0.25
+Vertex -0.2, 0, -0.25
+Vertex -0.05, 8, 0.05
+Vertex 0.05, 8, 0.05
+Vertex 0.2, 0, 0.25
+Vertex -0.2, 0, 0.25
+Face2 0, 1, 2, 3
+Face2 7, 6, 5, 4
+[Texture]
+Load pole1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 1, 0
+Coordinates 6, 1, 1
+Coordinates 7, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex -0.05, 8, 0.05
+Vertex -0.05, 8, -0.05
+Vertex -0.2, 0, -0.25
+Vertex -0.2, 0, 0.25
+Vertex 0.05, 8, -0.05
+Vertex 0.05, 8, 0.05
+Vertex 0.2, 0, 0.25
+Vertex 0.2, 0, -0.25
+Face2 0, 1, 2, 3
+Face2 4, 5, 6, 7
+[Texture]
+Load pole1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 1, 0
+Coordinates 6, 1, 1
+Coordinates 7, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Cube 0.15, 0.02, 0.15
+Color 128, 128, 128
+Translate 0, 7.65, 0
+
+[Meshbuilder]
+Cylinder 8, 0.02, 0.02, 0.4
+Color 16, 16, 16
+Rotate 1, 0, 0, 90
+Translate 0, 7.65, 0
+
+[Meshbuilder]
+Cube 0.17, 0.05, 0.17
+Color 128, 128, 128
+Translate 0, 6.5, 0
+
+[Meshbuilder]
+Cylinder 8, 0.04, 0.04, 0.6
+Color 16, 16, 16
+Rotate 1, 0, 0, 90
+Translate 0, 6.5, 0
+
+[Meshbuilder]
+Cube 0.17, 0.05, 0.17
+Color 128, 128, 128
+Translate 0, 6, 0
+
+[Meshbuilder]
+Cylinder 8, 0.04, 0.04, 0.6
+Color 16, 16, 16
+Rotate 1, 0, 0, 90
+Translate 0, 6, 0
+
+[Meshbuilder]
+Cube 0.21, 0.4, 0.26
+Color 128, 128, 128
+
+
+;Vezeték
+;-------------
+
+[Meshbuilder]
+Vertex -0.02, -0.07, 14.5
+Vertex 0.02, -0.07, 14.5
+Vertex 0.02, 7.65, 0.2
+Vertex -0.02, 7.65, 0.2
+Face2 3, 2, 1, 0
+Color 0,0,0
+
+[Meshbuilder]
+Vertex 0, 7.67, 0.2
+Vertex 0, -0.05, 14.5
+Vertex 0, -0.09, 14.5
+Vertex 0, 7.63, 0.2
+Face2 3, 2, 1, 0
+Color 0,0,0
+
+[Meshbuilder]
+Cube 0.23, 0.4, 0.26
+Color 128, 128, 128
+Translate 0, -10, 10
+Rotate 1, 0, 0, -45

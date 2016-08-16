@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+AddVertex,3.8, -0.25, 0,
+AddVertex,3.8, -0.25, 25.3,
+AddVertex,1.2, -0.25, 25.3,
+AddVertex,1.2, -0.25, 0,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+;LoadTexture,Ballast.bmp,
+LoadTexture,..\binsca\schotter2.bmp,
+SetTextureCoordinates,0, 2, 15,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 15,

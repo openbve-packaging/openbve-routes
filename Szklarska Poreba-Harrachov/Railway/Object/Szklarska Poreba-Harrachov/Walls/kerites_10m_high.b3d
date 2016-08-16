@@ -1,0 +1,82 @@
+;
+; Megnevezés : Drótkerítés 20 m
+; 
+; Modell     : Krisz
+; 
+; Textúrák   : Krisz
+;
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,2.8
+Color 127,127,127
+Translate -0.05,1.4,0
+[MeshBuilder]
+Cylinder 32,0.042,0.043,0.5
+Color 127,127,127
+Rotate 0,0,90,60
+Translate -0.245,2.86,0
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,2.8
+Color 127,127,127
+Translate -0.05,1.4,2
+[MeshBuilder]
+Cylinder 32,0.042,0.043,0.5
+Color 127,127,127
+Rotate 0,0,90,60
+Translate -0.245,2.86,2
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,2.8
+Color 127,127,127
+Translate -0.05,1.4,4
+[MeshBuilder]
+Cylinder 32,0.042,0.043,0.5
+Color 127,127,127
+Rotate 0,0,90,60
+Translate -0.245,2.86,4
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,2.8
+Color 127,127,127
+Translate -0.05,1.4,6
+[MeshBuilder]
+Cylinder 32,0.042,0.043,0.5
+Color 127,127,127
+Rotate 0,0,90,60
+Translate -0.245,2.86,6
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,2.8
+Color 127,127,127
+Translate -0.05,1.4,8
+[MeshBuilder]
+Cylinder 32,0.042,0.043,0.5
+Color 127,127,127
+Rotate 0,0,90,60
+Translate -0.245,2.86,8
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,2.8
+Color 127,127,127
+Translate -0.05,1.4,10
+[MeshBuilder]
+Cylinder 32,0.042,0.043,0.5
+Color 127,127,127
+Rotate 0,0,90,60
+Translate -0.245,2.86,10
+
+[MeshBuilder]
+Vertex 0,2.8,0
+Vertex 0,2.8,10
+Vertex 0,0,10
+Vertex 0,0,0
+Face2 0,1,2,3
+
+[Texture]
+Load kerites.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,5
+Coordinates 3,0,5
+Transparent 0,0,255

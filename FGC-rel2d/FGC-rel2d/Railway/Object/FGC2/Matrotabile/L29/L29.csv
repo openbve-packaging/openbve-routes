@@ -1,0 +1,842 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+;Locomotore L29
+;diametro ruote:1050 mm
+;lunghezza 10900 mm
+;larghezza  2600 mm
+;
+
+
+CreateMeshBuilder ; Fiancata sin ant
+Addvertex, 0, 3.6, 2.0 
+Addvertex, 0, 3.6, -1.9 
+Addvertex, 0, 1.3, -1.9 
+Addvertex, 0, 1.3, 2.0
+Addface,0,1,2,3
+GenerateNormals
+LoadTexture,L29-finesA.bmp
+SetTextureCoordinates,0,2,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,2,1
+;SetDecalTransparentColor,0,0,255
+translate, -1.3, 0, 2.4
+
+CreateMeshBuilder ; Fiancata sin post
+Addvertex, 0, 3.6, 1.9 
+Addvertex, 0, 3.6, -2.0 
+Addvertex, 0, 1.3, -2.0 
+Addvertex, 0, 1.3, 1.9
+Addface,0,1,2,3
+GenerateNormals
+LoadTexture,L29-fines1.bmp
+SetTextureCoordinates,0,4,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,4,1
+;SetDecalTransparentColor,0,0,255
+translate, -1.3, 0, -2.4
+
+CreateMeshBuilder ; Porta sin
+Addvertex, 0, 3.6, 0.5 
+Addvertex, 0, 1.3, 0.5 
+Addvertex, 0.4, 3.6, 0.5 
+Addvertex, 0.4, 1.3, 0.5 
+Addvertex, 0.4, 3.6, -0.5 
+Addvertex, 0.4, 1.3, -0.5 
+Addvertex, 0, 3.6, -0.5 
+Addvertex, 0, 1.3, -0.5 
+Addface,0,2,3,1
+Addface,2,4,5,3
+Addface,4,6,7,5
+GenerateNormals
+LoadTexture,L29-finesA.bmp
+SetTextureCoordinates,0,0.4,0
+SetTextureCoordinates,1,0.4,1
+SetTextureCoordinates,2,0.5,0
+SetTextureCoordinates,3,0.5,1
+SetTextureCoordinates,4,1.0,0
+SetTextureCoordinates,5,1.0,1
+SetTextureCoordinates,6,1.4,0
+SetTextureCoordinates,7,1.4,1
+translate, -1.3, 0, 0
+
+CreateMeshBuilder ; Scalini porta sin
+cube,0.1,0.02,0.5
+SetColor,38,62,31
+translate,-1.2,1,0
+CreateMeshBuilder
+cube,0.1,0.02,0.55
+SetColor,38,62,31
+translate,-1.25,0.7,0
+CreateMeshBuilder
+cube,0.1,0.02,0.60
+SetColor,38,62,31
+translate,-1.30,0.4,0
+CreateMeshBuilder
+cube,0.02,0.4,0.04
+SetColor,38,62,31
+rotate,0,0,1,-10
+translate,-1.20,0.75,-0.4
+CreateMeshBuilder
+cube,0.02,0.4,0.04
+SetColor,38,62,31
+rotate,0,0,1,-10
+translate,-1.20,0.75,0.4
+
+CreateMeshBuilder ; Scalini porta des
+cube,0.1,0.02,0.5
+SetColor,38,62,31
+translate,1.2,1,0
+CreateMeshBuilder
+cube,0.1,0.02,0.55
+SetColor,38,62,31
+translate,1.25,0.7,0
+CreateMeshBuilder
+cube,0.1,0.02,0.60
+SetColor,38,62,31
+translate,1.30,0.4,0
+CreateMeshBuilder
+cube,0.02,0.4,0.04
+SetColor,38,62,31
+rotate,0,0,1,10
+translate,1.20,0.75,-0.4
+CreateMeshBuilder
+cube,0.02,0.4,0.04
+SetColor,38,62,31
+rotate,0,0,1,10
+translate,1.20,0.75,0.4
+
+
+
+CreateMeshBuilder ; Porta des
+Addvertex, 0, 3.6, 0.5 
+Addvertex, 0, 1.3, 0.5 
+Addvertex, 0.4, 3.6, 0.5 
+Addvertex, 0.4, 1.3, 0.5 
+Addvertex, 0.4, 3.6, -0.5 
+Addvertex, 0.4, 1.3, -0.5 
+Addvertex, 0, 3.6, -0.5 
+Addvertex, 0, 1.3, -0.5 
+Addface,0,2,3,1
+Addface,2,4,5,3
+Addface,4,6,7,5
+GenerateNormals
+rotate,0,1,0,180
+LoadTexture,L29-finesA.bmp
+SetTextureCoordinates,0,0.4,0
+SetTextureCoordinates,1,0.4,1
+SetTextureCoordinates,2,0.5,0
+SetTextureCoordinates,3,0.5,1
+SetTextureCoordinates,4,1.0,0
+SetTextureCoordinates,5,1.0,1
+SetTextureCoordinates,6,1.4,0
+SetTextureCoordinates,7,1.4,1
+translate, 1.3, 0, 0
+
+
+
+
+
+
+CreateMeshBuilder ; Fiancata des ant
+Addvertex, 0, 3.6, 2.0 
+Addvertex, 0, 3.6, -1.9 
+Addvertex, 0, 1.3, -1.9 
+Addvertex, 0, 1.3, 2.0
+;Addface,0,1,2,3
+Addface,3,2,1,0
+GenerateNormals
+LoadTexture,L29-finesA.bmp
+SetTextureCoordinates,0,2,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,2,1
+;SetDecalTransparentColor,0,0,255
+translate, 1.3, 0, 2.4
+
+CreateMeshBuilder ; Fiancata des post
+Addvertex, 0, 3.6, 1.9 
+Addvertex, 0, 3.6, -2.0 
+Addvertex, 0, 1.3, -2.0 
+Addvertex, 0, 1.3, 1.9
+;Addface,0,1,2,3
+Addface,3,2,1,0
+GenerateNormals
+LoadTexture,L29-fines1.bmp
+SetTextureCoordinates,0,4,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,4,1
+;SetDecalTransparentColor,0,0,255
+translate, 1.3, 0, -2.4
+
+CreateMeshBuilder ; frontale anteriore
+AddVertex, -1.30  , 3.95  ,-4.4 
+AddVertex, -1.30  , 1.29  ,-4.4
+AddVertex, -0.70  , 3.95  ,-4.8 
+AddVertex, -0.70  , 1.29  ,-4.8
+AddVertex,  0.70  , 3.95  ,-4.8 
+AddVertex,  0.70  , 1.29  ,-4.8
+AddVertex,  1.30  , 3.95  ,-4.4 
+AddVertex,  1.30  , 1.29  ,-4.4
+AddFace2, 0, 2, 3, 1
+AddFace2, 2, 4, 5, 3
+AddFace2, 4, 6, 7, 5
+GenerateNormals
+LoadTexture,L29fronta.bmp
+SetTextureCoordinates,0,0  ,0
+SetTextureCoordinates,1,0  ,1
+SetTextureCoordinates,2,0.24,0
+SetTextureCoordinates,3,0.24,1
+SetTextureCoordinates,4,0.76,0
+SetTextureCoordinates,5,0.76,1
+SetTextureCoordinates,6,1  ,0
+SetTextureCoordinates,7,1  ,1
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder ; frontale posteriore
+AddVertex, -1.30  , 3.95  ,4.4 
+AddVertex, -1.30  , 1.29  ,4.4
+AddVertex, -0.70  , 3.95  ,4.8 
+AddVertex, -0.70  , 1.29  ,4.8
+AddVertex,  0.70  , 3.95  ,4.8 
+AddVertex,  0.70  , 1.29  ,4.8
+AddVertex,  1.30  , 3.95  ,4.4 
+AddVertex,  1.30  , 1.29  ,4.4
+AddFace2, 0, 2, 3, 1
+AddFace2, 2, 4, 5, 3
+AddFace2, 4, 6, 7, 5
+GenerateNormals
+LoadTexture,L29fronta.bmp
+SetTextureCoordinates,0,1  ,0
+SetTextureCoordinates,1,1  ,1
+SetTextureCoordinates,2,0.76,0
+SetTextureCoordinates,3,0.76,1
+SetTextureCoordinates,4,0.24,0
+SetTextureCoordinates,5,0.24,1
+SetTextureCoordinates,6,0  ,0
+SetTextureCoordinates,7,0  ,1
+SetDecalTransparentColor,255,255,255
+
+
+CreateMeshBuilder ; Tetto
+AddVertex, -1.35  , 3.60  ,4.45 
+AddVertex, -1.35  , 3.60  ,-4.45 
+AddVertex, -1.00  , 3.75  ,4.65 
+AddVertex, -1.00  , 3.75  ,-4.65 
+AddVertex, -0.68  , 3.84  ,4.85 
+AddVertex, -0.68  , 3.84  ,-4.85 
+AddVertex,  0.0   , 3.87  ,4.85 
+AddVertex,  0.0   , 3.87  ,-4.85 
+AddVertex,  0.68  , 3.84  ,4.85 
+AddVertex,  0.68  , 3.84  ,-4.85 
+AddVertex,  1.00  , 3.75  ,4.65 
+AddVertex,  1.00  , 3.75  ,-4.65 
+AddVertex,  1.35  , 3.60  ,4.45 
+AddVertex,  1.35  , 3.60  ,-4.45 
+AddFace2, 0, 2, 3, 1
+AddFace2, 2, 4, 5, 3
+AddFace2, 4, 6, 7, 5
+AddFace2, 6, 8, 9, 7
+AddFace2, 8, 10, 11, 9
+AddFace2, 10, 12, 13, 11
+GenerateNormals
+SetColor,200,192,174
+
+CreateMeshBuilder
+AddVertex, -1.25  , 3.60  ,4.45 
+AddVertex, -1.25  , 3.60  ,-4.45 
+AddVertex, -1.25  , 3.85  ,4.45 
+AddVertex, -1.25  , 3.85  ,-4.45 
+AddFace2, 0, 2, 3, 1
+GenerateNormals
+LoadTexture,L29tetto.bmp
+SetTextureCoordinates,0,0, -0.08
+SetTextureCoordinates,1,0, 6.08
+SetTextureCoordinates,2,1, -0.08
+SetTextureCoordinates,3,1, 6.08
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex, 1.25  , 3.60  ,4.45 
+AddVertex, 1.25  , 3.60  ,-4.45 
+AddVertex, 1.25  , 3.85  ,4.45 
+AddVertex, 1.25  , 3.85  ,-4.45 
+AddFace2, 0, 2, 3, 1
+GenerateNormals
+LoadTexture,L29tetto.bmp
+SetTextureCoordinates,0,0, -0.08
+SetTextureCoordinates,1,0, 6.08
+SetTextureCoordinates,2,1, -0.08
+SetTextureCoordinates,3,1, 6.08
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder ; Pantografo sin
+AddVertex, -1.0  , 3.85  ,2.55 
+AddVertex, -1.0  , 4.70  ,2.55 
+AddVertex, -1.0  , 3.85  ,0 
+AddVertex, -1.0  , 4.70  ,0 
+AddVertex, -1.0  , 3.85  ,-2.55 
+AddVertex, -1.0  , 4.70  ,-2.55 
+AddFace2, 0, 2, 3, 1
+AddFace2, 2, 4, 5, 3
+GenerateNormals
+LoadTexture,L29-pantL.bmp
+SetTextureCoordinates,0,0, -1
+SetTextureCoordinates,1,1, -1
+SetTextureCoordinates,2,0, 0
+SetTextureCoordinates,3,1, 0
+SetTextureCoordinates,4,0, -1
+SetTextureCoordinates,5,1, -1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder ; Archetti
+cylinder,3,0.04,0.04,1.95
+SetColor,77,77,58
+rotate,0,0,1,90
+translate,0,4.7,-2.5
+CreateMeshBuilder
+cylinder,3,0.04,0.04,1.95
+SetColor,77,77,58
+rotate,0,0,1,90
+translate,0,4.7, 2.5
+
+CreateMeshBuilder
+cylinder,3,0.04,0.04,1.95
+SetColor,77,77,58
+rotate,0,0,1,90
+translate,0,4.25,-2.5
+CreateMeshBuilder
+cylinder,3,0.04,0.04,1.95
+SetColor,77,77,58
+rotate,0,0,1,90
+translate,0,4.25, 2.5
+
+CreateMeshBuilder ; Pantografo des
+AddVertex, 1.0  , 3.85  ,2.55 
+AddVertex, 1.0  , 4.70  ,2.55 
+AddVertex, 1.0  , 3.85  ,0 
+AddVertex, 1.0  , 4.70  ,0 
+AddVertex, 1.0  , 3.85  ,-2.55 
+AddVertex, 1.0  , 4.70  ,-2.55 
+AddFace2, 0, 2, 3, 1
+AddFace2, 2, 4, 5, 3
+GenerateNormals
+LoadTexture,L29-pantL.bmp
+SetTextureCoordinates,0,0, -1
+SetTextureCoordinates,1,1, -1
+SetTextureCoordinates,2,0, 0
+SetTextureCoordinates,3,1, 0
+SetTextureCoordinates,4,0, -1
+SetTextureCoordinates,5,1, -1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder; Reostato ant
+cylinder,8,1,1,0.32
+rotate,0,1,0,22.5
+translate,0.15,3.90,-3.8
+SetColor,195,77,58
+CreateMeshBuilder
+cylinder,8,1,1,0.32
+rotate,0,1,0,22.5
+translate,-0.15,3.90,-3.8
+SetColor,195,77,58
+CreateMeshBuilder
+cube,1.075,0.15,0.32
+translate,0,3.90,-3.2
+SetColor,195,77,58
+
+CreateMeshBuilder; Reostato post
+cylinder,8,1,1,0.32
+rotate,0,1,0,22.5
+translate,0.15,3.90,3.8
+SetColor,195,77,58
+CreateMeshBuilder
+cylinder,8,1,1,0.32
+rotate,0,1,0,22.5
+translate,-0.15,3.90,3.8
+SetColor,195,77,58
+CreateMeshBuilder
+cube,1.075,0.15,0.32
+translate,0,3.90,3.2
+SetColor,195,77,58
+
+
+; Carrello anteriore
+; ------------------
+CreateMeshBuilder ; Ruota ant sin (+4)
+cylinder,16, 0.525, 0.528,0.1 
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.55, 0.526, 4.2
+CreateMeshBuilder ; Motore ant
+cylinder,6, 0.5, 0.5 ,1.1 
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0, 0.626, 4.2
+CreateMeshBuilder ; Ruota ant des (+3.9)
+cylinder,16, 0.528, 0.525,0.1  
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0.55, 0.526, 4.2
+
+CreateMeshBuilder ; Ruota post sin (+1.2)
+cylinder,16, 0.525, 0.528,0.1 
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.55, 0.526, 1.4
+CreateMeshBuilder ; Motore post
+cylinder,6, 0.5, 0.5 ,1.1 
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0, 0.626, 1.4
+CreateMeshBuilder ; Ruota post des (+1.2)
+cylinder,16, 0.528, 0.525,0.1  
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0.55, 0.526, 1.4
+
+CreateMeshBuilder ; Fianco carrello ant sin
+Addvertex, 0, 1.1, 2.2 
+Addvertex, 0, 1.1, -2.2 
+Addvertex, 0, 0,   -2.2 
+Addvertex, 0, 0,   2.2
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,L29-carrello.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255
+translate, -0.62, 0, 2.8
+
+CreateMeshBuilder ; Fianco carrello ant des
+Addvertex, 0, 1.1, 2.2 
+Addvertex, 0, 1.1, -2.2 
+Addvertex, 0, 0,   -2.2 
+Addvertex, 0, 0,   2.2
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,L29-carrello.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255
+translate, 0.62, 0, 2.8
+
+; Carrello posteriore
+; ------------------
+CreateMeshBuilder ; Ruota ant sin (-1.2)
+cylinder,16, 0.525, 0.528,0.1 
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.55, 0.526, -1.4
+CreateMeshBuilder ; Motore post
+cylinder,6, 0.5, 0.5 ,1.1 
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0, 0.626, -1.4
+CreateMeshBuilder ; Ruota ant des (-1.2)
+cylinder,16, 0.528, 0.525,0.1  
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0.55, 0.526, -1.4
+
+CreateMeshBuilder ; Ruota post sin (-4)
+cylinder,16, 0.525, 0.528,0.1 
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.55, 0.526, -4.2
+CreateMeshBuilder ; Motore post
+cylinder,6, 0.5, 0.5 ,1.1 
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0, 0.626, -4.2
+CreateMeshBuilder ; Ruota post des (-4)
+cylinder,16, 0.528, 0.525,0.1  
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0.55, 0.526, -4.2
+
+CreateMeshBuilder ; Fianco carrello post sin
+Addvertex, 0, 1.1, 2.2 
+Addvertex, 0, 1.1, -2.2 
+Addvertex, 0, 0,   -2.2 
+Addvertex, 0, 0,   2.2
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,L29-carrello.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255
+translate, -0.62, 0, -2.8
+
+CreateMeshBuilder ; Fianco carrello post des
+Addvertex, 0, 1.1, 2.2 
+Addvertex, 0, 1.1, -2.2 
+Addvertex, 0, 0,   -2.2 
+Addvertex, 0, 0,   2.2
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,L29-carrello.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255
+translate, 0.62, 0, -2.8
+
+; Telaio
+CreateMeshBuilder
+Cube, 1.25,0.10,5.1
+translate, 0, 1.2, 0
+SetColor,38,62,31
+
+CreateMeshBuilder
+Cube, 1.254,0.03,0.35
+translate, 0, 1.25, -4.749
+SetColor,255,250,226
+CreateMeshBuilder ; Traversa rossa
+Cube, 1.26,0.15,0.001
+translate, 0, 1.15, -5.11
+SetColor,193,62,39
+
+CreateMeshBuilder
+Cube, 1.254,0.03,0.35
+translate, 0, 1.25, 4.749
+SetColor,255,250,226
+CreateMeshBuilder ; Traversa rossa
+Cube, 1.26,0.15,0.001
+translate, 0, 1.15, 5.11
+SetColor,193,62,39
+
+CreateMeshBuilder ; Respingenti
+cylinder,4, 0.08, 0.08 ,0.5 
+SetColor,24,24,24
+rotate,1,0,0,-90
+translate, 0, 0.8, 5.16
+CreateMeshBuilder
+Cube,0.3,0.15,0.02
+SetColor,77,88,71
+translate, 0, 0.8, 5.44
+
+CreateMeshBuilder ; Respingenti
+cylinder,4, 0.08, 0.08 ,0.5 
+SetColor,24,24,24
+rotate,1,0,0,-90
+translate, 0, 0.8, -5.16
+CreateMeshBuilder
+Cube,0.3,0.15,0.02
+SetColor,77,88,71
+translate, 0, 0.8, -5.44
+
+CreateMeshBuilder ; Piattaforma anteriore
+cube,0.30,0.015,0.15
+SetColor,82,86,86
+translate, 0, 1.30, 5.2
+CreateMeshBuilder
+cube,0.30,0.015,0.07
+SetColor,82,86,86
+rotate,1,0,0,30
+translate, 0, 1.267, 5.4
+
+
+CreateMeshBuilder ; Piattaforma posteriore
+cube,0.30,0.015,0.15
+SetColor,82,86,86
+translate, 0, 1.30, -5.2
+CreateMeshBuilder
+cube,0.30,0.015,0.07
+SetColor,82,86,86
+rotate,1,0,0,-30
+translate, 0, 1.267, -5.4
+
+CreateMeshBuilder ; Scaletta ant sin
+cube,0.1,0.015,0.15
+SetColor,38,62,31
+translate,-1.15,0.9,4.7
+CreateMeshBuilder
+cube,0.1,0.015,0.15
+SetColor,38,62,31
+translate,-1.15,0.5,4.7
+CreateMeshBuilder
+cube,0.06,0.3,0.015
+SetColor,38,62,31
+rotate,0,0,1,-4
+translate,-1.12,0.8,4.85
+CreateMeshBuilder
+cube,0.06,0.3,0.015
+SetColor,38,62,31
+rotate,0,0,1,-4
+translate,-1.12,0.8,4.55
+
+CreateMeshBuilder ; Scaletta ant des
+cube,0.1,0.015,0.15
+SetColor,38,62,31
+translate,1.15,0.9,4.7
+CreateMeshBuilder
+cube,0.1,0.015,0.15
+SetColor,38,62,31
+translate,1.15,0.5,4.7
+CreateMeshBuilder
+cube,0.06,0.3,0.015
+SetColor,38,62,31
+rotate,0,0,1,4
+translate,1.12,0.8,4.85
+CreateMeshBuilder
+cube,0.06,0.3,0.015
+SetColor,38,62,31
+rotate,0,0,1,4
+translate,1.12,0.8,4.55
+
+CreateMeshBuilder ; Scaletta post sin
+cube,0.1,0.015,0.15
+SetColor,38,62,31
+translate,-1.15,0.9,-4.7
+CreateMeshBuilder
+cube,0.1,0.015,0.15
+SetColor,38,62,31
+translate,-1.15,0.5,-4.7
+CreateMeshBuilder
+cube,0.06,0.3,0.015
+SetColor,38,62,31
+rotate,0,0,1,-4
+translate,-1.12,0.8,-4.85
+CreateMeshBuilder
+cube,0.06,0.3,0.015
+SetColor,38,62,31
+rotate,0,0,1,-4
+translate,-1.12,0.8,-4.55
+
+CreateMeshBuilder ; Scaletta post des
+cube,0.1,0.015,0.15
+SetColor,38,62,31
+translate,1.15,0.9,-4.7
+CreateMeshBuilder
+cube,0.1,0.015,0.15
+SetColor,38,62,31
+translate,1.15,0.5,-4.7
+CreateMeshBuilder
+cube,0.06,0.3,0.015
+SetColor,38,62,31
+rotate,0,0,1,4
+translate,1.12,0.8,-4.85
+CreateMeshBuilder
+cube,0.06,0.3,0.015
+SetColor,38,62,31
+rotate,0,0,1,4
+translate,1.12,0.8,-4.55
+
+CreateMeshBuilder ; Mancorrente ant sin
+cylinder,3,0.03,0.03,1
+SetColor,38,62,31
+translate,-1.22,1.8,4.85
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.25
+SetColor,38,62,31
+rotate,1,0,0,90
+translate,-1.22,2.3,4.95
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.95
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.75,2.3,5.05
+CreateMeshBuilder
+cylinder,3,0.03,0.03,1
+SetColor,38,62,31
+translate,-0.3,1.8,5.05
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.4
+SetColor,38,62,31
+rotate,1,0,0,60
+translate,-0.3,2.18,5.24
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.4
+SetColor,38,62,31
+rotate,1,0,0,90
+translate,-0.3,2.30,5.24
+
+CreateMeshBuilder ; Mancorrente ant des
+cylinder,3,0.03,0.03,1
+SetColor,38,62,31
+translate,1.22,1.8,4.85
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.25
+SetColor,38,62,31
+rotate,1,0,0,90
+translate,1.22,2.3,4.95
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.95
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,0.75,2.3,5.05
+CreateMeshBuilder
+cylinder,3,0.03,0.03,1
+SetColor,38,62,31
+translate,0.3,1.8,5.05
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.4
+SetColor,38,62,31
+rotate,1,0,0,60
+translate,0.3,2.18,5.24
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.4
+SetColor,38,62,31
+rotate,1,0,0,90
+translate,0.3,2.30,5.24
+
+CreateMeshBuilder ; Mancorrente post sin
+cylinder,3,0.03,0.03,1
+SetColor,38,62,31
+translate,-1.22,1.8,-4.85
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.25
+SetColor,38,62,31
+rotate,1,0,0,90
+translate,-1.22,2.3,-4.95
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.95
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.75,2.3,-5.05
+CreateMeshBuilder
+cylinder,3,0.03,0.03,1
+SetColor,38,62,31
+translate,-0.3,1.8,-5.05
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.4
+SetColor,38,62,31
+rotate,1,0,0,-60
+translate,-0.3,2.18,-5.24
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.4
+SetColor,38,62,31
+rotate,1,0,0,90
+translate,-0.3,2.30,-5.24
+
+CreateMeshBuilder ; Mancorrente post des
+cylinder,3,0.03,0.03,1
+SetColor,38,62,31
+translate,1.22,1.8,-4.85
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.25
+SetColor,38,62,31
+rotate,1,0,0,90
+translate,1.22,2.3,-4.95
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.95
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,0.75,2.3,-5.05
+CreateMeshBuilder
+cylinder,3,0.03,0.03,1
+SetColor,38,62,31
+translate,0.3,1.8,-5.05
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.4
+SetColor,38,62,31
+rotate,1,0,0,-60
+translate,0.3,2.18,-5.24
+CreateMeshBuilder
+cylinder,3,0.03,0.03,0.4
+SetColor,38,62,31
+rotate,1,0,0,90
+translate,0.3,2.30,-5.24
+
+CreateMeshBuilder ; Targa sinistra
+Addvertex, 0, 0.38, 0.25 
+Addvertex, 0, 0.38, -0.25 
+Addvertex, 0, 0.0, -0.25 
+Addvertex, 0, 0.0, 0.25
+Addface,0,1,2,3
+GenerateNormals
+LoadTexture,L29-dett.bmp
+SetTextureCoordinates,0,0.8,0
+SetTextureCoordinates,1,0.2,0
+SetTextureCoordinates,2,0.2,0.5
+SetTextureCoordinates,3,0.8,0.5
+SetDecalTransparentColor,0,0,255
+translate, -1.31, 1.7, -1.0
+
+CreateMeshBuilder ; Targa destra
+Addvertex, 0, 0.38, 0.25 
+Addvertex, 0, 0.38, -0.25 
+Addvertex, 0, 0.0, -0.25 
+Addvertex, 0, 0.0, 0.25
+Addface,3,2,1,0
+GenerateNormals
+LoadTexture,L29-dett.bmp
+SetTextureCoordinates,0,0.8,0
+SetTextureCoordinates,1,0.2,0
+SetTextureCoordinates,2,0.2,0.5
+SetTextureCoordinates,3,0.8,0.5
+SetDecalTransparentColor,0,0,255
+translate, 1.31, 1.7, 1.0
+
+CreateMeshBuilder ; Fanale alto ant
+Addvertex, -0.2, 0.23, 0 
+Addvertex,  0.2, 0.23, 0 
+Addvertex,  0.2,-0.23, 0 
+Addvertex, -0.2,-0.23, 0
+Addface,0,1,2,3
+GenerateNormals
+LoadTexture,L29-dett.bmp
+SetTextureCoordinates,0,0.82,0.6
+SetTextureCoordinates,1,0.42,0.6
+SetTextureCoordinates,2,0.42,1
+SetTextureCoordinates,3,0.82,1
+SetDecalTransparentColor,0,0,255
+translate, -0.04, 3.74, -4.9
+
+CreateMeshBuilder ; Fanale sin ant
+Addvertex, -0.14, 0.3, 0 
+Addvertex,  0.14, 0.3, 0 
+Addvertex,  0.14,-0.3, 0 
+Addvertex, -0.14,-0.3, 0
+Addface,0,1,2,3
+GenerateNormals
+LoadTexture,L29-dett.bmp
+SetTextureCoordinates,0,0.08,0.5
+SetTextureCoordinates,1,0.30,0.5
+SetTextureCoordinates,2,0.30,1
+SetTextureCoordinates,3,0.08,1
+SetDecalTransparentColor,0,0,255
+translate, -1.05, 1.60, -5.10
+
+CreateMeshBuilder ; Fanale des ant
+Addvertex, -0.14, 0.3, 0 
+Addvertex,  0.14, 0.3, 0 
+Addvertex,  0.14,-0.3, 0 
+Addvertex, -0.14,-0.3, 0
+Addface,0,1,2,3
+GenerateNormals
+LoadTexture,L29-dett.bmp
+SetTextureCoordinates,0,0.30,0.5
+SetTextureCoordinates,1,0.08,0.5
+SetTextureCoordinates,2,0.08,1
+SetTextureCoordinates,3,0.30,1
+SetDecalTransparentColor,0,0,255
+translate, 1.05, 1.60, -5.10
+
+CreateMeshBuilder ; Fanale alto post
+Addvertex, -0.2, 0.23, 0 
+Addvertex,  0.2, 0.23, 0 
+Addvertex,  0.2,-0.23, 0 
+Addvertex, -0.2,-0.23, 0
+Addface,3,2,1,0
+GenerateNormals
+LoadTexture,L29-dett.bmp
+SetTextureCoordinates,0,0.82,0.6
+SetTextureCoordinates,1,0.42,0.6
+SetTextureCoordinates,2,0.42,1
+SetTextureCoordinates,3,0.82,1
+SetDecalTransparentColor,0,0,255
+translate, -0.04, 3.74, 4.9
+

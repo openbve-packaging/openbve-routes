@@ -1,0 +1,102 @@
+CreateMeshBuilder,
+addvertex,-18.0, 3.0, 10,
+addvertex,-15.5, 3.0, 10,
+addvertex,-15.5, 3.0, 20,
+addvertex,-18.0, 3.0, 20,
+addvertex,-18.0,-0.1, 20,
+addvertex,-15.5,-0.1, 20,
+addvertex,-15.5,-0.1, 10,
+addvertex,-18.0,-0.1, 10,
+addface,0,1,6,7
+addface,1,2,5,6
+addface,0,3,4,7
+loadtexture,anzen_23.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,7,0,
+SetTextureCoordinates,3,8,0,
+SetTextureCoordinates,4,8,1,
+SetTextureCoordinates,5,7,1,
+SetTextureCoordinates,6,1,1,
+SetTextureCoordinates,7,0,1,
+SetDecalTransparentColor,0,0,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+addvertex,-8.0, 3.0, -5,
+addvertex,-3.5, 3.0, -5,
+addvertex,-3.5, 3.0, 25,
+addvertex,-8.0, 3.0, 25,
+addvertex,-8.0,-0.1, 25,
+addvertex,-3.5,-0.1, 25,
+addvertex,-3.5,-0.1, -5,
+addvertex,-8.0,-0.1, -5,
+addface,0,1,6,7
+addface,1,2,5,6
+addface,0,3,4,7
+addface,4,5,6,7
+loadtexture,anzen_23.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,8,0,
+SetTextureCoordinates,3,10,0,
+SetTextureCoordinates,4,10,1,
+SetTextureCoordinates,5,8,1,
+SetTextureCoordinates,6,2,1,
+SetTextureCoordinates,7,0,1,
+SetDecalTransparentColor,0,0,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-18.0, 6.0, 20
+AddVertex,-3.5, 6.0, 20
+AddVertex,-3.5, 4.7, 20
+AddVertex,-18.0, 4.7, 20
+AddFace,0,1,2,3
+LoadTexture,../Roof\hodou.bmp
+SetTextureCoordinates,0  ,0.3,-0.1
+SetTextureCoordinates,1  ,4,-0.1
+SetTextureCoordinates,2  ,4,1
+SetTextureCoordinates,3  ,0.3,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-18.0, 4.7, 22.7
+AddVertex,-3.5, 4.7, 22.7
+AddVertex,-3.5, 4.7, 20
+AddVertex,-18.0, 4.7, 20
+AddFace2,0,1,2,3
+Setcolor,100,100,100
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-17.8, 6.0, 15
+AddVertex,-15.6, 6.0, 15
+Addvertex,-15.6, 6.0, 20
+Addvertex,-15.6,-0.1, 20
+Addvertex,-15.6,-0.1, 15
+addvertex,-17.8,-0.1, 15
+AddVertex, -7.8, 6.0, 15
+AddVertex, -3.6, 6.0, 15
+Addvertex, -3.6, 6.0, 24.7
+Addvertex, -3.6,-0.1, 24.7
+Addvertex, -3.6,-0.1, 15
+addvertex, -7.8,-0.1, 15
+addface,0,1,4,5
+AddFace,1,2,3,4
+addface,6,7,10,11
+AddFace,7,8,9,10
+loadtexture,../Roof\iwa_const.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,2,0
+SetTextureCoordinates,3  ,2,2
+SetTextureCoordinates,4  ,1,2
+SetTextureCoordinates,5  ,0,2
+SetTextureCoordinates,6  ,0,0
+SetTextureCoordinates,7  ,1,0
+SetTextureCoordinates,8  ,2,0
+SetTextureCoordinates,9  ,2,2
+SetTextureCoordinates,10  ,1,2
+SetTextureCoordinates,11  ,0,2
+GenerateNormals,

@@ -1,0 +1,78 @@
+;Arany János utca megállóhely D-É-2
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;2.426-2.950 
+[MeshBuilder]
+Vertex 2.292,2.426,0
+Vertex 2.065,2.950,0
+Vertex 2.065,2.950,16
+Vertex 2.292,2.426,16
+Face 3,2,1,0
+[Texture]
+Load mh_12_aj_oldalfal_02i.bmp
+Coordinates 0,16,1
+Coordinates 1,16,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+;világítótestek
+
+[MeshBuilder]
+Vertex -09.35,3.52,0
+Vertex -09.35,3.52,25
+Vertex -11.35,3.52,25
+Vertex -11.35,3.52,0
+Vertex -15.20,3.52,0
+Vertex -15.20,3.52,25
+Vertex -17.20,3.52,25
+Vertex -17.20,3.52,0
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load mh_12_aj_vilagitas_01.bmp
+Coordinates 0,00,0
+Coordinates 1,00,12
+Coordinates 2,01,12
+Coordinates 3,01,0
+Coordinates 4,00,0
+Coordinates 5,00,12
+Coordinates 6,01,12
+Coordinates 7,01,0
+transparent 0,0,255
+
+;--------------------------------------------------
+
+;táblák
+
+;kijárat
+
+[MeshBuilder]
+Vertex -0.8,0.0,-0.1
+Vertex -0.8,0.3,-0.1
+Vertex  0.8,0.3,-0.1
+Vertex  0.8,0.0,-0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_bal.bmp
+Coordinates 0,0.05,1
+Coordinates 1,0.05,0
+Coordinates 2,0.95,0
+Coordinates 3,0.95,1
+translate -5.00,3.25,5
+
+[MeshBuilder]
+Vertex -0.8,0.0,-0.1
+Vertex -0.8,0.0, 0.1
+Vertex  0.8,0.0,-0.1
+Vertex  0.8,0.3,-0.1
+Vertex  0.8,0.3, 0.1
+Vertex  0.8,0.0, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -5.00,3.25,5

@@ -1,0 +1,42 @@
+[MeshBuilder]
+Vertex -0.325, 1.25, -0.5
+Vertex  0.325, 1.25, -0.5
+Vertex  0.325, 0, -0.5
+Vertex -0.325, 0, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load SIGNAL3R.BMP
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[MeshBuilder]      ;Žx’Œ
+Vertex -0, 1.5, -0.4
+Vertex -0.006, 1.5, -0.44
+Vertex -0.03, 1.5, -0.47
+Vertex -0.06, 1.5, -0.494
+Vertex -0.1, 1.5, -0.5
+Vertex -0.14, 1.5, -0.494
+Vertex -0.17, 1.5, -0.47
+Vertex -0.194, 1.5, -0.44
+Vertex -0.2, 1.5, -0.4
+Vertex -0.0, -5, -0.4
+Vertex -0.006, -5, -0.44
+Vertex -0.03, -5, -0.47
+Vertex -0.06, -5, -0.494
+Vertex -0.1, -5, -0.5
+Vertex -0.14, -5, -0.494
+Vertex -0.17, -5, -0.47
+Vertex -0.194, -5, -0.44
+Vertex -0.2, -5, -0.4
+Face 1,0,9,10
+Face 2,1,10,11
+Face 3,2,11,12
+Face 4,3,12,13
+Face 5,4,13,14
+Face 6,5,14,15
+Face 7,6,15,16
+Face 8,7,16,17
+Color 180,180,180

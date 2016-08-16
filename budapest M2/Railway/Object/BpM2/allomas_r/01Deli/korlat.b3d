@@ -1,0 +1,64 @@
+;Déli pályaudvar, kihúzó korlát
+;Készítette: http://ak.tx.hu/
+
+;--------------------------------------------------
+
+;sárga-fekete
+[MeshBuilder]
+cube 0.02,0.02,12.53
+translate -1.5,2.019,12.5
+load korlat.bmp
+Coordinates 0,40,1
+Coordinates 1,40,0
+Coordinates 2,40,0
+Coordinates 3,40,1
+[MeshBuilder]
+cube 0.02,0.02,12.47
+translate -1.5,1.55,12.5
+color 120,120,120
+
+;szürke
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,0
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,2.5
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,5.0
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,7.5
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,10.0
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,12.5
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,15.0
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,17.5
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,20.0
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,22.5
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.45,0.02
+translate -1.5,1.55,25
+color 120,120,120

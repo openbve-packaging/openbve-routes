@@ -1,0 +1,111 @@
+;keretalagút-mélyalagút
+;Készítette: ak.tx.hu
+;NVT-Klinkák 8600. szelvény
+
+;--------------------------------------
+
+;alagút jobb
+[meshbuilder]
+vertex -2.60,-0.400,-00.3
+vertex -2.60,-0.170,-00.3
+vertex -2.60, 0.260,-00.3
+vertex -2.60, 0.943,-00.3
+vertex -2.60, 1.700,-00.3
+vertex -2.60, 2.457,-00.3
+vertex -2.60, 3.140,-00.3
+vertex -2.60, 3.682,-00.3
+vertex -2.60, 4.030,-00.3
+vertex -2.60, 4.150,-00.3
+vertex -2.60, 4.150,-00.3
+
+vertex -0.250,-0.400,-00.3
+vertex -1.606,-0.170,-00.3
+vertex -1.982, 0.260,-00.3
+vertex -2.330, 0.943,-00.3
+vertex -2.450, 1.700,-00.3
+vertex -2.330, 2.457,-00.3
+vertex -1.982, 3.140,-00.3
+vertex -1.440, 3.682,-00.3
+vertex -0.757, 4.030,-00.3
+vertex -0.000, 4.150,-00.3
+vertex -5.000, 4.150,-00.3
+face 10,21,20,9
+face 9,20,19,8
+face 8,19,18,7
+face 7,18,17,6
+face 6,17,16,5
+face 5,16,15,4
+face 4,15,14,3
+face 3,14,13,2
+face 2,13,12,1
+face 1,12,11,0
+color 20,20,20
+
+;alagút jobb
+[meshbuilder]
+vertex 0.250,-0.400,-00.3
+vertex 1.606,-0.170,-00.3
+vertex 1.982, 0.260,-00.3
+vertex 2.330, 0.943,-00.3
+vertex 2.450, 1.700,-00.3
+vertex 2.330, 2.457,-00.3
+vertex 1.982, 3.140,-00.3
+vertex 1.440, 3.682,-00.3
+vertex 0.757, 4.030,-00.3
+vertex 0.000, 4.150,-00.3
+vertex 0.000, 4.150,-00.3
+
+vertex 2.60,-0.400,-00.3
+vertex 2.60,-0.170,-00.3
+vertex 2.60, 0.260,-00.3
+vertex 2.60, 0.943,-00.3
+vertex 2.60, 1.700,-00.3
+vertex 2.60, 2.457,-00.3
+vertex 2.60, 3.140,-00.3
+vertex 2.60, 3.682,-00.3
+vertex 2.60, 4.030,-00.3
+vertex 2.60, 4.150,-00.3
+vertex 2.60, 4.150,-00.3
+face 10,21,20,9
+face 9,20,19,8
+face 8,19,18,7
+face 7,18,17,6
+face 6,17,16,5
+face 5,16,15,4
+face 4,15,14,3
+face 3,14,13,2
+face 2,13,12,1
+face 1,12,11,0
+color 20,20,20
+
+[meshbuilder]
+;mélyalagúthoz NVT után
+vertex -5,-0.50,-00.31
+vertex -5,-0.17,-00.31
+vertex -1,-0.17,-00.31
+vertex -1,-0.50,-00.31
+face 0,1,2,3
+color 40,40,40
+;------------------
+
+;mély-keret átmenet
+;180 fokkal elforgatva
+;alagút jobb
+[meshbuilder]
+vertex -2.60,-0.400,-00.3
+vertex -2.60,4.150,-00.3
+vertex -2.20,4.150,-00.3
+vertex -2.20,-0.400,-00.3
+vertex 2.20,-0.400,-00.3
+vertex 2.20,4.150,-00.3
+vertex 2.60,4.150,-00.3
+vertex 2.60,-0.400,-00.3
+;felül
+vertex -2.60,4.000,00.3
+vertex -2.60,4.200,00.3
+vertex 2.60,4.200,00.3
+vertex 2.60,4.000,00.3
+face 3,2,1,0
+face 7,6,5,4
+face 11,10,9,8
+color 20,20,20

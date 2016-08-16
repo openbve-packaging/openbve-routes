@@ -1,0 +1,91 @@
+CreateMeshBuilder,
+AddVertex,-1.35, -0.17, -0.5,
+AddVertex,-1.35, -0.175, 25.5,
+AddVertex,1.35, -0.175, 25.5,
+AddVertex,1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,Schwellen2.bmp,
+SetTextureCoordinates,0, -0.02, 10,
+SetTextureCoordinates,1, -0.02, 0,
+SetTextureCoordinates,2, 1.02, 0,
+SetTextureCoordinates,3, 1.02, 10,
+
+;dike s
+
+CreateMeshBuilder,
+AddVertex,-2.8, -0.4, -0.5,
+AddVertex,-2.8, -0.405, 25.5,
+AddVertex,-1.35, -0.175, 25.5,
+AddVertex,-1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 10,
+SetTextureCoordinates,2, 0, 10,
+SetTextureCoordinates,3, 0, 0,
+
+; dike d
+
+CreateMeshBuilder,
+AddVertex,1.35, -0.175, 25.5,
+AddVertex,2.8, -0.405, 25.5,
+AddVertex,2.8, -0.4, -0.5,
+AddVertex,1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 10,
+SetTextureCoordinates,3, 0, 10,
+
+CreateMeshBuilder,
+AddVertex,-0.8, 0, -0.4,
+AddVertex,-0.8, 0, 25.5,
+AddVertex,-0.72, 0, 25.5,
+AddVertex,-0.72, 0, -0.4,
+AddFace,0, 1, 2, 3,
+setcolor, 180,190,200
+
+GenerateNormals,
+
+LoadTexture,Schienehell.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 10,
+SetTextureCoordinates,2, 0, 10,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder,
+AddVertex,0.72, 0, -0.3,
+AddVertex,0.72, 0, 25.5,
+AddVertex,0.8, 0, 25.5,
+AddVertex,0.8, 0, -0.3,
+AddFace,0, 1, 2, 3,
+setcolor, 180,190,200
+
+GenerateNormals,
+
+LoadTexture,Schienehell.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 10,
+SetTextureCoordinates,2, 0, 10,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder ; Anime delle rotaie
+Addvertex, -0.76,0.00,-0.30
+Addvertex, -0.76,-0.17,-0.30
+Addvertex, -0.76,0.00,25.5
+Addvertex, -0.76,-0.17,25.5
+Addvertex, 0.76,0.00,-0.30
+Addvertex, 0.76,-0.17,-0.30
+Addvertex, 0.76,0.00,25.5
+Addvertex, 0.76,-0.17,25.5
+Addface2, 2, 3, 1, 0
+Addface2, 6, 7, 5 ,4
+Setcolor, 85,50,50
+GenerateNormals,

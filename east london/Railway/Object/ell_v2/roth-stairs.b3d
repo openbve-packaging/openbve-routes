@@ -1,0 +1,100 @@
+[MeshBuilder] ; The Stairs from both platforms to the concourse
+Vertex 4,7,0
+Vertex 4,7,5
+Vertex 0,7,5
+Vertex 0,7,0
+Vertex -3.2,4,5
+Vertex -3.2,4,0
+Vertex 7.2,4,0
+Vertex 7.2,4,5
+Vertex 4,10.5,10
+Vertex 0,10.5,10
+Face 0,1,2,3
+Face 3,2,4,5
+Face 6,7,1,0
+Face 1,8,9,3
+Color 0,0,0
+
+[Meshbuilder] ; Left wall under lower "landing"
+Vertex -3.2,4,5
+Vertex -3.2,1.1,5
+Vertex -3.2,1.1,0
+Vertex -3.2,4,0
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+[Meshbuilder] ; Right wall under lower "landing"
+Vertex 7.2,4,0
+Vertex 7.2,1.1,0
+Vertex 7.2,1.1,5
+Vertex 7.2,4,5
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+[Meshbuilder] ; Left platform wall
+Vertex -6,16,10
+Vertex -6,1.1,10
+Vertex -6,1.1,0
+Vertex -6,16,0
+Face 0,1,2,3
+[Texture]
+load stone.bmp
+Coordinates 0,10,0
+Coordinates 1,10,16
+Coordinates 2,0,16
+Coordinates 3,0,0
+
+[Meshbuilder] ; Right platform wall
+Vertex 10,16,10
+Vertex 10,1.1,10
+Vertex 10,1.1,0
+Vertex 10,16,0
+Face 3,2,1,0
+[Texture]
+load stone.bmp
+Coordinates 0,10,0
+Coordinates 1,10,16
+Coordinates 2,0,16
+Coordinates 3,0,0
+
+[Meshbuilder] ; Left stair wall
+Vertex -3.2,6,7.4
+Vertex -3.2,2.5,10
+Vertex -3.2,1.1,10
+Vertex -3.2,1.1,5
+Vertex -3.2,6,5
+Face 0,1,2,3
+Face 0,3,4
+[Texture]
+load stonea.bmp
+Coordinates 0,2.4,0
+Coordinates 1,5,1.5
+Coordinates 2,5,2.9
+Coordinates 3,0,2.9
+Coordinates 4,0,0
+
+[Meshbuilder] ; Right stair wall
+Vertex 7.2,6,7.4
+Vertex 7.2,2.5,10
+Vertex 7.2,1.1,10
+Vertex 7.2,1.1,5
+Vertex 7.2,6,5
+Face 3,2,1,0
+Face 4,3,0
+[Texture]
+load stonea.bmp
+Coordinates 0,2.4,0
+Coordinates 1,5,1.5
+Coordinates 2,5,2.9
+Coordinates 3,0,2.9
+Coordinates 4,0,0

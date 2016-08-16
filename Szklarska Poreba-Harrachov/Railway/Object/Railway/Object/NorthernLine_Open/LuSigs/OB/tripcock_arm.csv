@@ -1,0 +1,65 @@
+CreateMeshBuilder,
+AddVertex, 1.36, 0.14, -0.087, 
+AddVertex, 1.4, 0.14, -0.087, 
+AddVertex, 1.4, 0.012, -0.024, 
+AddVertex, 1.36, 0.012, -0.024, 
+AddFace2,0,1,2,3,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+LoadTexture,trainstop2.png
+generatenormals,
+Setcolor,50,50,50,
+
+CreateMeshBuilder,
+AddVertex, 1.36, 0.076, 0, 
+AddVertex, 1.36, 0.178, -0.072, 
+AddVertex, 1.36, 0.14, -0.087, 
+AddVertex, 1.36, 0.012, -0.024, 
+AddVertex, 1.36, 0.015, 0, 
+AddVertex, 1.4, 0.076, 0, 
+AddVertex, 1.4, 0.178, -0.072, 
+AddVertex, 1.4, 0.14, -0.087, 
+AddVertex, 1.4, 0.012, -0.024, 
+AddVertex, 1.4, 0.015, 0, 
+AddFace2,0,1,2,3,4
+AddFace2,5,6,7,8,9
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,0,0
+SetTextureCoordinates,6,0,1
+SetTextureCoordinates,7,1,1
+SetTextureCoordinates,8,1,0
+SetTextureCoordinates,9,1,0
+LoadTexture,trainstop2.png
+generatenormals,
+Setcolor,70,70,70,
+
+CreateMeshBuilder,
+AddVertex, 1.4232, 0.184, -0.076, 
+AddVertex, 1.4232, 0.14, -0.088, 
+AddVertex, 1.3368, 0.14, -0.088, 
+AddVertex, 1.3368, 0.184, -0.076, 
+AddVertex, 1.3368, 0.184, -0.076, 
+AddVertex, 1.3368, 0.14, -0.088, 
+AddVertex, 1.3368, 0.128, -0.082, 
+AddVertex, 1.3368, 0.172, -0.069, 
+AddFace,0,1,2,3,
+Addface,4,5,6,7,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+LoadTexture,trainstop1.png
+generatenormals,
+Setcolor,70,70,70,
+
+CreateMeshBuilder,
+cylinder,6,0.01,0.01,0.06
+rotate,0,0,1,90,
+translate,1.385,0.03,-0.01,
+Setcolor,20,20,20,

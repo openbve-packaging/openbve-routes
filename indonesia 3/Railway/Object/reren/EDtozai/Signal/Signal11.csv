@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex,-0.3, 4.82,-0.3,
+AddVertex, 0.3, 4.82,-0.3,
+AddVertex, 0.3,  3.5,-0.3,
+AddVertex,-0.3,  3.5,-0.3,
+AddFace,3,0,1,2,
+
+LoadTexture,signalyg4.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0, 0, 0,
+GenerateNormals,

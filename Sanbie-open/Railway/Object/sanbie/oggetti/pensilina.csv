@@ -1,0 +1,60 @@
+;;pensilina 
+; luca revello
+; sanbie
+
+; fronte
+CreateMeshBuilder,
+AddVertex,-4,0.4,0,
+AddVertex,-4,2.8,0,
+AddVertex,-4,2.8,3,
+AddVertex,-4,0.4,3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,pensilina.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+SetDecalTransparentColor,255,255,255,
+
+;pensilina lato 1
+CreateMeshBuilder,
+AddVertex,-2.5,0.4,0,
+AddVertex,-2.5,2.8,0,
+AddVertex,-4,2.8,0,
+AddVertex,-4,0.4,0,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,pensilina.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,255,255,255,
+
+;pensilina lato 2
+CreateMeshBuilder,
+AddVertex,-3.6,0.4,3,
+AddVertex,-3.6,2.8,3,
+AddVertex,-4,2.8,3,
+AddVertex,-4,0.4,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,pensilina.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,255,255,255,
+
+
+;;tetto
+CreateMeshBuilder,
+Cube, 1,0.07,1.7,
+Translate, -3.2,2.85,1.5
+GenerateNormals,
+Setcolor,120,120,120,
+

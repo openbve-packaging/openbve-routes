@@ -1,0 +1,137 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+CreateMeshBuilder,
+addvertex, -0.013, 5, -0
+addvertex, 0.019, 5, -0
+addvertex, 0.019, 5, -50.7
+addvertex, -0.013, 5, -50.7
+AddFace2,3,2,1,0,
+rotate,,1,,-0.44
+translate,-0.24
+SetColor,11,15,11,
+
+
+;;;;;;fune portante
+CreateMeshBuilder,
+Addvertex,0.015,  6.65, -0,
+Addvertex,-0.015, 6.65, -0,
+Addvertex,0.015,  5.9, -10,
+Addvertex,-0.015, 5.9, -10,
+Addvertex,0.015,  5.5, -20,
+Addvertex,-0.015, 5.5, -20,
+Addvertex,0.015,  5.5, -30,
+Addvertex,-0.015, 5.5, -30,
+Addvertex,0.015,  5.7, -40,
+Addvertex,-0.015, 5.7, -40,
+Addvertex,0.015,  6.65, -50.6,
+Addvertex,-0.015, 6.65 , -50.6,
+Addface2,0,1,3,2,
+Addface2,2,3,5,4,
+Addface2,4,5,7,6,
+Addface2,6,7,9,8,
+Addface2,8,9,11,10,
+rotate,,1,,-0.44
+translate,-0.22
+SetColor,11,15,11,
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;linea di contatto
+
+
+;CreateMeshBuilder,
+;cylinder,5,0.016,0.016,50.3
+;SetColor,11,15,11,
+;rotate,,,1,90
+;rotate,,1,,90
+;translate,-0.016,5,-25.6
+;rotate,,1,,-0.44
+;translate,-0.22
+;GenerateNormals,
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Pendini
+CreateMeshBuilder,
+Addvertex,-0.01, 6.27,,
+Addvertex,-0.025, 6.27, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,-0.175,0,-5
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+CreateMeshBuilder,
+Addvertex,-0.01, 5.9, ,
+Addvertex,-0.025, 5.9, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,-0.14,0,-10
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+CreateMeshBuilder,
+Addvertex,-0.01, 5.7, ,
+Addvertex,-0.025, 5.7, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,-0.10,0,-15
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+CreateMeshBuilder,
+Addvertex,-0.01, 5.5, ,
+Addvertex,-0.025, 5.5,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,-0.06,0,-20
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+CreateMeshBuilder,
+Addvertex,-0.01, 5.5, ,
+Addvertex,-0.025, 5.5, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,-0.02,0,-25
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+CreateMeshBuilder,
+Addvertex,-0.01, 5.5, ,
+Addvertex,-0.025, 5.5, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,0.02,0,-30
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+CreateMeshBuilder,
+Addvertex,-0.01, 5.6, ,
+Addvertex,-0.025, 5.6, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,0.06,0,-35
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+
+CreateMeshBuilder,
+Addvertex,-0.01, 5.7, ,
+Addvertex,-0.025, 5.7, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,0.10,0,-40
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+CreateMeshBuilder,
+Addvertex,-0.01, 6.25, ,
+Addvertex,-0.025, 6.25, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,0.14,0,-46
+AddFace2,3,2,1,0,
+SetColor,11,15,11,

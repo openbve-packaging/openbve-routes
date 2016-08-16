@@ -1,0 +1,134 @@
+;Felszínen kerítés
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;kerítés
+
+[MeshBuilder]
+;jobb oldal
+Vertex 2.6,-0.25,-0.15
+Vertex 2.6, 2.30,-0.15
+Vertex 2.6, 2.30,12.50
+Vertex 2.6,-0.25,12.50
+Vertex 6.0,-0.25,12.50
+Vertex 6.0, 2.30,12.50
+Vertex 6.0, 2.30,25.15
+Vertex 6.0,-0.25,25.15
+Vertex 6.0,-0.25,12.50
+Vertex 6.0, 2.30,12.50
+Vertex 2.6, 2.30,12.50
+Vertex 2.6,-0.25,12.50
+Face 3,2,1,0
+Face 7,6,5,4
+Face2 8,9,10,11
+[Texture]
+Load kerites_02.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,5,0
+Coordinates 7,5,1
+Coordinates 8,0,1
+Coordinates 9,0,0
+Coordinates 10,2,0
+Coordinates 11,2,1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 2.60,-0.25,-0.15
+Vertex 2.60, 2.25,-0.15
+Vertex 2.75, 2.25,-0.15
+Vertex 2.75,-0.25,-0.15
+Face 0,1,2,3
+color 101,103,92
+
+;--------------------------------------
+
+;kábelek
+
+[meshbuilder]
+vertex 3.70,-0.20, 12.7
+vertex 3.70,-0.20, 25.1
+vertex 3.70, 0.35, 25.1
+vertex 3.70, 0.35, 12.7
+vertex 4.70,-0.20, 12.7
+vertex 4.70,-0.20, 25.1
+vertex 4.70, 0.35, 25.1
+vertex 4.70, 0.35, 12.7
+face2 0,1,2,3
+face2 4,5,6,7
+[Texture]
+Load kabelek.bmp
+Coordinates 0, 0.0, 1.0
+Coordinates 1, 5.0, 1.0
+Coordinates 2, 5.0, 0.0
+Coordinates 3, 0.0, 0.0
+Coordinates 4, 0.0, 1.0
+Coordinates 5, 5.0, 1.0
+Coordinates 6, 5.0, 0.0
+Coordinates 7, 0.0, 0.0
+transparent 0,0,255
+
+;lefedés
+
+[meshbuilder]
+vertex -0.50, 0.35, 12.70
+vertex  0.50, 0.35, 12.70
+vertex  0.50, 0.55, 12.70
+vertex  0.00, 0.70, 12.70
+vertex -0.50, 0.55, 12.70
+face2 0,1,2,3,4
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex -0.50, 0.35, 25.00
+vertex  0.50, 0.35, 25.00
+vertex  0.50, 0.55, 25.00
+vertex  0.00, 0.70, 25.00
+vertex -0.50, 0.55, 25.00
+face2 0,1,2,3,4
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex -0.50, 0.55, 12.70
+vertex  0.00, 0.70, 12.70
+vertex  0.00, 0.70, 25.10
+vertex -0.50, 0.55, 25.10
+face2 0,1,2,3
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex  0.50, 0.55, 12.70
+vertex  0.00, 0.70, 12.70
+vertex  0.00, 0.70, 25.10
+vertex  0.50, 0.55, 25.10
+face2 0,1,2,3
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex -0.50, 0.35, 12.70
+vertex -0.50, 0.55, 12.70
+vertex -0.50, 0.55, 25.00
+vertex -0.50, 0.35, 25.00
+face2 0,1,2,3
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+[meshbuilder]
+vertex  0.50, 0.35, 12.70
+vertex  0.50, 0.55, 12.70
+vertex  0.50, 0.55, 25.00
+vertex  0.50, 0.35, 25.00
+face2 0,1,2,3
+color 97,95,82
+translate  04.20, 00.00, 00.00
+
+;--------------------------------------

@@ -1,0 +1,31 @@
+[MeshBuilder]
+
+Vertex     0,5,0    ;4     ; facing Left Track  (right)
+Vertex     0,0,0    ;5
+Vertex  -0.25,0,0   ;6
+Vertex  -0.25,5,0    ;7
+
+Vertex   0,5,0     ;0  
+Vertex   0,5,0.25   ;1
+Vertex   0,0,0.25   ;2  
+Vertex   0,0,0     ;3 
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Right
+Color 255,0,0
+;Color 232,221,181   ; Beige
+Color 255,0,0
+
+[Texture]
+Load StaBeam_149.bmp
+
+Coordinates  0  ,1,1  ; Front  Face   (full bitmap)
+Coordinates  1  ,0,1
+Coordinates  2  ,0,0
+Coordinates  3  ,1,0
+
+Coordinates  4  ,0,1  ; Left Face (full bitmap)
+Coordinates  5  ,0,0
+Coordinates  6  ,1,0
+Coordinates  7  ,1,1
+

@@ -1,0 +1,1161 @@
+; Oggetto compatibile openBVE
+; Locomotiva E464 XMPR Trenitalia
+; Texture ricavate da foto varie scaricate da internet
+; Nota:
+; Per inversione senso di marcia dell'oggetto e utilizzo nella vista esterna
+; del treno in corsa openBVE vedere varianti previste al fondo del file
+; Luigi Cartello 6-1-2009
+; 
+; ====================================
+;Pantografo posteriore alzato
+; ====================================
+
+;;;;;;;;;;;;
+;;;;OMBRA;;;
+;;;;;;;;;;;;
+CreateMeshBuilder
+AddVertex,-1.475,0.01,-10.3,
+AddVertex,1.475,0.01,-10.3,
+AddVertex,1.475,0.01,5.1,
+AddVertex,-1.475,0.01,5.1,
+AddFace,3,2,1,0,
+LoadTexture,ombraR.png
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,0,0,
+
+
+;Isolatori -------------------
+CreateMeshBuilder, ; ---- Ant sx
+Cylinder,4,0.057,0.087,0.091
+SetColor,200,200,200
+rotate,0,1,0,45
+translate,-0.540,3.79,0.900
+CreateMeshBuilder,
+Cylinder,6,0.028,0.129,0.068
+SetColor,200,200,200
+translate,-0.540,3.870,0.900
+CreateMeshBuilder, ; ---- Ant dx
+Cylinder,4,0.057,0.087,0.091
+SetColor,200,200,200
+rotate,0,1,0,45
+translate,0.540,3.79,0.900
+CreateMeshBuilder,
+Cylinder,6,0.028,0.129,0.068
+SetColor,200,200,200
+translate,0.540,3.870,0.900
+CreateMeshBuilder, ; ---- Post sx
+Cylinder,4,0.057,0.087,0.091
+SetColor,200,200,200
+rotate,0,1,0,45
+translate,-0.540,3.79,-0.900
+CreateMeshBuilder,
+Cylinder,6,0.028,0.129,0.068
+SetColor,200,200,200
+translate,-0.540,3.870,-0.900
+CreateMeshBuilder, ; ---- Post dx
+Cylinder,4,0.057,0.087,0.091
+SetColor,200,200,200
+rotate,0,1,0,45
+translate,0.540,3.79,-0.900
+CreateMeshBuilder,
+Cylinder,6,0.028,0.129,0.068
+SetColor,200,200,200
+translate,0.540,3.870,-0.900
+
+; Telaio di base ------------
+CreateMeshBuilder,
+AddVertex,-1.11,3.9,0.95,
+AddVertex,-1.11,3.9,-0.95,
+AddVertex,0.85,3.9,0.950,
+AddVertex,0.85,3.9,-0.95,
+AddFace2,1,0,2,3,
+GenerateNormals,
+LoadTexture,Panto52-base.bmp,
+SetTextureCoordinates, 0,1,0
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor,0,0,0
+
+;Albero anteriore -----------
+CreateMeshBuilder,
+Cylinder,7,0.050,0.050,1.54
+rotate,0,0,1,90
+SetColor,165,0,0
+translate,0,3.950,0.600
+;Albero posteriore ----------
+CreateMeshBuilder,
+Cylinder,7,0.050,0.050,1.54
+rotate,0,0,1,90
+SetColor,165,0,0
+translate,0,3.950,-0.600
+
+;Biella sx ----------
+CreateMeshBuilder,
+Cube,0.01,0.01,0.610
+SetColor,165,0,0
+rotate,1,0,0,5.5
+translate,-0.75,3.95,0
+;Biella dx ---------
+CreateMeshBuilder,
+Cube,0.01,0.01,0.610
+SetColor,165,0,0
+rotate,1,0,0,-5.5
+translate,0.75,3.95,0
+
+;Cilindro sx -------
+CreateMeshBuilder,
+Cylinder,9,0.10,0.10,0.40
+rotate,1,0,0,90
+SetColor,165,0,0
+translate,-0.2,4.02,0
+CreateMeshBuilder,
+Cylinder,5,0.020,0.020,0.45
+rotate,1,0,0,90
+SetColor,165,0,0
+translate,-0.2,4.02,-0.4
+
+;Cilindro dx ----------
+CreateMeshBuilder,
+Cylinder,9,0.10,0.10,0.40
+rotate,1,0,0,90
+SetColor,165,0,0
+translate,0.2,4.02,0
+CreateMeshBuilder,
+Cylinder,5,0.020,0.020,0.45
+rotate,1,0,0,90
+SetColor,165,0,0
+translate,0.2,4.02,0.4
+
+; Supporto cilindri ---------
+CreateMeshBuilder,
+Cube,0.72,0.07,0.3
+SetColor,108,135,136
+translate,0,3.829,0
+
+; ====== inizio diff. panto alzato ==========
+; Braccio inf sx ant
+CreateMeshBuilder,
+Cube,0.01,0.035,0.610
+SetColor,165,0,0
+rotate,1,0,0,-22.5
+translate,-0.75,4.210,1.18
+; Braccio inf dx ant
+CreateMeshBuilder,
+Cube,0.01,0.035,0.610
+SetColor,165,0,0
+rotate,1,0,0,-22.5
+translate,0.75,4.210,1.18
+; Braccio inf sx post
+CreateMeshBuilder,
+Cube,0.01,0.035,0.610
+SetColor,165,0,0
+rotate,1,0,0,22.5
+translate,-0.75,4.210,-1.18
+; Braccio inf dx post
+CreateMeshBuilder,
+Cube,0.01,0.035,0.610
+SetColor,165,0,0
+rotate,1,0,0,22.5
+translate,0.75,4.210,-1.18
+
+; Braccio sup sx ant
+CreateMeshBuilder,
+Cylinder,5,0.015,0.015,1.78
+SetColor,165,0,0
+rotate,1,0,0,-74
+rotate,0,1,0,-1.5
+translate,-0.705,4.70,0.870
+
+; Braccio sup dx ant
+CreateMeshBuilder,
+Cylinder,5,0.015,0.015,1.78
+SetColor,165,0,0
+rotate,1,0,0,-74
+rotate,0,1,0,1.5
+translate,0.705,4.70,0.870
+
+; Braccio sup sx pos
+CreateMeshBuilder,
+Cylinder,5,0.015,0.015,1.78
+SetColor,165,0,0
+rotate,1,0,0,74
+rotate,0,1,0,1.5
+translate,-0.705,4.70,-0.870
+
+; Braccio sup dx pos
+CreateMeshBuilder,
+Cylinder,5,0.015,0.015,1.78
+SetColor,165,0,0
+rotate,1,0,0,74
+rotate,0,1,0,-1.5
+translate,0.705,4.70,-0.870
+
+; Travesa braccio ant
+CreateMeshBuilder,
+Cylinder,5,0.012,0.012,2.15
+SetColor,165,0,0
+rotate,1,0,0,-77.9
+rotate,0,1,0,42
+translate,0.02,4.69,0.90
+
+; Travesa braccio POST
+CreateMeshBuilder,
+Cylinder,5,0.012,0.012,2.15
+SetColor,165,0,0
+rotate,1,0,0,77.9
+rotate,0,1,0,42
+translate,-0.02,4.69,-0.90
+
+; Strisciante
+CreateMeshBuilder,
+AddVertex,-0.9, 4.8 ,0.15,
+AddVertex,-0.9, 4.8 ,-0.15, 
+AddVertex,-0.8, 4.91 ,0.15,
+AddVertex,-0.8, 4.91 ,-0.15, 
+AddVertex,-0.6 , 5.00 ,0.15,
+AddVertex,-0.6,  5.00 ,-0.15, 
+AddVertex,-0.4 , 5.00 ,0.15,
+AddVertex,-0.4,  5.00 ,-0.15, 
+AddVertex,0.4 , 5.00  ,0.15,
+AddVertex,0.4,  5.00  ,-0.15, 
+AddVertex,0.6 , 4.97  ,0.15,
+AddVertex,0.6,  4.97  ,-0.15, 
+AddVertex,0.8, 4.91  ,0.15,
+AddVertex,0.8, 4.91  ,-0.15, 
+AddVertex,0.9, 4.8  ,0.15,
+AddVertex,0.9, 4.8  ,-0.15, 
+AddFace2,1,0,2,3,
+AddFace2,3,2,4,5,
+AddFace2,5,4,6,7,
+AddFace2,7,6,8,9,
+AddFace2,9,8,10,11,
+AddFace2,11,10,12,13,
+AddFace2,13,12,14,15,
+GenerateNormals,
+LoadTexture,Strisciante.bmp,
+SetTextureCoordinates,0,0.999,-1.00,
+SetTextureCoordinates,1,0.001,-1.00,
+SetTextureCoordinates,2,0.999,-0.85,
+SetTextureCoordinates,3,0.001,-0.85,
+SetTextureCoordinates,4,0.999,-0.75,
+SetTextureCoordinates,5,0.001,-0.75,
+SetTextureCoordinates,6,0.999,-0.55,
+SetTextureCoordinates,7,0.001,-0.55,
+SetTextureCoordinates,8,0.999,-0.45,
+SetTextureCoordinates,9,0.001,-0.45,
+SetTextureCoordinates,10,0.999,-0.25,
+SetTextureCoordinates,11,0.001,-0.25,
+SetTextureCoordinates,12,0.999,-0.15,
+SetTextureCoordinates,13,0.001,-0.15,
+SetTextureCoordinates,14,0.999,0,
+SetTextureCoordinates,15,0.001,0,
+SetDecalTransparentColor,255,0,0
+
+; Fissaggio strisciante sx
+CreateMeshBuilder,
+Cylinder,4,0.015,0.015,0.16
+SetColor,127,106,55
+translate,-0.685,4.885,0
+; Fissaggio strisciante dx
+CreateMeshBuilder,
+Cylinder,4,0.015,0.015,0.16
+SetColor,127,106,55
+translate,0.685,4.885,0
+; ====== fine diff. panto post alzato ==========
+translateall,0,0,6.2
+; ==============================================
+
+; ====================================
+;Pantografo anteriore abbassato
+; ====================================
+;Isolatori ---------------------
+CreateMeshBuilder, ; ---- Ant sx
+Cylinder,4,0.057,0.087,0.091
+SetColor,200,200,200
+rotate,0,1,0,45
+translate,-0.540,3.79,0.900
+CreateMeshBuilder,
+Cylinder,6,0.028,0.129,0.068
+SetColor,200,200,200
+translate,-0.540,3.870,0.900
+CreateMeshBuilder, ; ---- Ant dx
+Cylinder,4,0.057,0.087,0.091
+SetColor,200,200,200
+rotate,0,1,0,45
+translate,0.540,3.79,0.900
+CreateMeshBuilder,
+Cylinder,6,0.028,0.129,0.068
+SetColor,200,200,200
+translate,0.540,3.870,0.900
+CreateMeshBuilder, ; ---- Post sx
+Cylinder,4,0.057,0.087,0.091
+SetColor,200,200,200
+rotate,0,1,0,45
+translate,-0.540,3.79,-0.900
+CreateMeshBuilder,
+Cylinder,6,0.028,0.129,0.068
+SetColor,200,200,200
+translate,-0.540,3.870,-0.900
+CreateMeshBuilder, ; ---- Post dx
+Cylinder,4,0.057,0.087,0.091
+SetColor,200,200,200
+rotate,0,1,0,45
+translate,0.540,3.79,-0.900
+CreateMeshBuilder,
+Cylinder,6,0.028,0.129,0.068
+SetColor,200,200,200
+translate,0.540,3.870,-0.900
+
+; Telaio di base ----------
+CreateMeshBuilder,
+AddVertex,-1.11,3.9,0.95,
+AddVertex,-1.11,3.9,-0.95,
+AddVertex,0.85,3.9,0.950,
+AddVertex,0.85,3.9,-0.95,
+AddFace2,1,0,2,3,
+GenerateNormals,
+LoadTexture,Panto52-base.bmp,
+SetTextureCoordinates, 0,1,0
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetDecalTransparentColor,0,0,0
+
+;Albero anteriore -----------
+CreateMeshBuilder,
+Cylinder,7,0.050,0.050,1.54
+rotate,0,0,1,90
+SetColor,165,0,0
+translate,0,3.950,0.600
+;Albero posteriore -------------
+CreateMeshBuilder,
+Cylinder,7,0.050,0.050,1.54
+rotate,0,0,1,90
+SetColor,165,0,0
+translate,0,3.950,-0.600
+
+;Biella sx -----------
+CreateMeshBuilder,
+Cube,0.01,0.01,0.610
+SetColor,165,0,0
+rotate,1,0,0,5.5
+translate,-0.75,3.95,0
+;Biella dx ----------
+CreateMeshBuilder,
+Cube,0.01,0.01,0.610
+SetColor,165,0,0
+rotate,1,0,0,-5.5
+translate,0.75,3.95,0
+
+;Cilindro sx ----------
+CreateMeshBuilder,
+Cylinder,9,0.10,0.10,0.40
+rotate,1,0,0,90
+SetColor,165,0,0
+translate,-0.2,4.02,0
+CreateMeshBuilder,
+Cylinder,5,0.020,0.020,0.45
+rotate,1,0,0,90
+SetColor,165,0,0
+translate,-0.2,4.02,-0.4
+
+;Cilindro dx ----------
+CreateMeshBuilder,
+Cylinder,9,0.10,0.10,0.40
+rotate,1,0,0,90
+SetColor,165,0,0
+translate,0.2,4.02,0
+CreateMeshBuilder,
+Cylinder,5,0.020,0.020,0.45
+rotate,1,0,0,90
+SetColor,165,0,0
+translate,0.2,4.02,0.4
+
+; Supporto cilindri ----------
+CreateMeshBuilder,
+Cube,0.72,0.07,0.3
+SetColor,108,135,136
+translate,0,3.829,0
+
+; ====== inizio diff. panto abbassato ==========
+; Braccio inf sx ant
+CreateMeshBuilder,
+Cube,0.01,0.035,0.610
+SetColor,165,0,0
+translate,-0.75,3.950,1.2
+; Braccio inf dx ant
+CreateMeshBuilder,
+Cube,0.01,0.035,0.610
+SetColor,165,0,0
+translate,0.75,3.950,1.2
+; Braccio inf sx post
+CreateMeshBuilder,
+Cube,0.01,0.035,0.610
+SetColor,165,0,0
+translate,-0.75,3.950,-1.2
+; Braccio inf dx post
+CreateMeshBuilder,
+Cube,0.01,0.035,0.610
+SetColor,165,0,0
+translate,0.75,3.950,-1.2
+
+; Braccio sup sx ant
+CreateMeshBuilder,
+Cylinder,5,0.015,0.015,1.78
+SetColor,165,0,0
+rotate,1,0,0,-86
+rotate,0,1,0,-1.5
+translate,-0.705,4.02,0.925
+; Braccio sup dx ant
+CreateMeshBuilder,
+Cylinder,5,0.015,0.015,1.78
+SetColor,165,0,0
+rotate,1,0,0,-86
+rotate,0,1,0,1.5
+translate,0.705,4.02,0.925
+; Braccio sup sx pos
+CreateMeshBuilder,
+Cylinder,5,0.015,0.015,1.78
+SetColor,165,0,0
+rotate,1,0,0,86
+rotate,0,1,0,1.5
+translate,-0.705,4.02,-0.925
+; Braccio sup dx pos
+CreateMeshBuilder,
+Cylinder,5,0.015,0.015,1.78
+SetColor,165,0,0
+rotate,1,0,0,86
+rotate,0,1,0,-1.5
+translate,0.705,4.02,-0.925
+
+; Travesa braccio ant
+CreateMeshBuilder,
+Cylinder,5,0.012,0.012,2.1
+SetColor,165,0,0
+rotate,1,0,0,-86.8
+rotate,0,1,0,42
+translate,0.02,4.02,0.925
+
+; Travesa braccio POST
+CreateMeshBuilder,
+Cylinder,5,0.012,0.012,2.1
+SetColor,165,0,0
+rotate,1,0,0,86.8
+rotate,0,1,0,42
+translate,-0.02,4.02,-0.925
+
+; Strisciante
+CreateMeshBuilder,
+AddVertex,-0.9, 3.98 ,0.15,
+AddVertex,-0.9, 3.98 ,-0.15, 
+AddVertex,-0.8, 4.09 ,0.15,
+AddVertex,-0.8, 4.09 ,-0.15, 
+AddVertex,-0.6 , 4.15 ,0.15,
+AddVertex,-0.6,  4.15 ,-0.15, 
+AddVertex,-0.4 , 4.18 ,0.15,
+AddVertex,-0.4,  4.18 ,-0.15, 
+AddVertex,0.4 , 4.18  ,0.15,
+AddVertex,0.4,  4.18  ,-0.15, 
+AddVertex,0.6 , 4.15  ,0.15,
+AddVertex,0.6,  4.15  ,-0.15, 
+AddVertex,0.8, 4.09  ,0.15,
+AddVertex,0.8, 4.09  ,-0.15, 
+AddVertex,0.9, 3.98  ,0.15,
+AddVertex,0.9, 3.98  ,-0.15, 
+AddFace2,1,0,2,3,
+AddFace2,3,2,4,5,
+AddFace2,5,4,6,7,
+AddFace2,7,6,8,9,
+AddFace2,9,8,10,11,
+AddFace2,11,10,12,13,
+AddFace2,13,12,14,15,
+GenerateNormals,
+LoadTexture,Strisciante.bmp,
+SetTextureCoordinates,0,0.999,-1.00,
+SetTextureCoordinates,1,0.001,-1.00,
+SetTextureCoordinates,2,0.999,-0.85,
+SetTextureCoordinates,3,0.001,-0.85,
+SetTextureCoordinates,4,0.999,-0.75,
+SetTextureCoordinates,5,0.001,-0.75,
+SetTextureCoordinates,6,0.999,-0.55,
+SetTextureCoordinates,7,0.001,-0.55,
+SetTextureCoordinates,8,0.999,-0.45,
+SetTextureCoordinates,9,0.001,-0.45,
+SetTextureCoordinates,10,0.999,-0.25,
+SetTextureCoordinates,11,0.001,-0.25,
+SetTextureCoordinates,12,0.999,-0.15,
+SetTextureCoordinates,13,0.001,-0.15,
+SetTextureCoordinates,14,0.999,0,
+SetTextureCoordinates,15,0.001,0,
+SetDecalTransparentColor,255,0,0
+
+; Fissaggio strisciante sx
+CreateMeshBuilder,
+Cylinder,4,0.015,0.015,0.16
+SetColor,127,106,55
+translate,-0.685,4.052,0
+; Fissaggio strisciante dx
+CreateMeshBuilder,
+Cylinder,4,0.015,0.015,0.16
+SetColor,127,106,55
+translate,0.685,4.052,0
+
+; ====== fine diff. panto ant abbassato ==========
+translateall,0,0,4.4
+; ==============================================
+
+
+; Tetto
+CreateMeshBuilder,
+AddVertex,-1.173,3.74,15.4,
+AddVertex,-1.173,3.74,1.40,
+AddVertex,1.173,3.74,15.4,
+AddVertex,1.173,3.74,1.40,
+AddFace2,1,0,2,3,
+GenerateNormals,
+SetColor,108,135,136
+
+
+; Cofano su tetto lato destro
+CreateMeshBuilder,
+AddVertex,1.173, 3.74 ,8.6,
+AddVertex,1.173, 3.74 ,6.5, 
+AddVertex,0.95, 4.10 ,8.6,
+AddVertex,0.95, 4.10 ,6.5, 
+AddVertex,0.55, 4.10 ,8.6,
+AddVertex,0.55, 4.10 ,6.5, 
+AddVertex,0.30, 3.74 ,8.6,
+AddVertex,0.30, 3.74 ,6.5, 
+AddFace2,1,0,2,3,
+AddFace2,3,2,4,5,
+AddFace2,5,4,6,7,
+Addface2,0,2,4,6
+Addface2,1,3,5,7
+GenerateNormals,
+LoadTexture,E464-cofano.bmp,
+SetTextureCoordinates,0,0.999,-1.00,
+SetTextureCoordinates,1,0.001,-1.00,
+SetTextureCoordinates,2,0.999,-0.6,
+SetTextureCoordinates,3,0.001,-0.6,
+SetTextureCoordinates,4,0.999,-0.4,
+SetTextureCoordinates,5,0.001,-0.4,
+SetTextureCoordinates,6,0.999,0,
+SetTextureCoordinates,7,0.001,0,
+
+
+; Pavimento
+CreateMeshBuilder,
+Cube,1.474,0.2,7.38
+GenerateNormals,
+Translate,0,1.148,8
+SetColor,35,30,30
+
+
+; Fiancata destra
+CreateMeshBuilder,
+AddVertex,-1.475,0.95,0.64, 
+AddVertex,-1.475,1.2,0.52,  
+AddVertex,-1.475,1.68,0.44, 
+AddVertex,-1.475,1.89,0.45, 
+AddVertex,-1.475,2,0.46,    
+AddVertex,-1.475,2.26,0.52, 
+AddVertex,-1.475,2.68,0.69, 
+AddVertex,-1.475,3.34,1.09, 
+AddVertex,-1.172,3.74,1.44, 
+AddVertex,-1.475,0.95,15.4, 
+AddVertex,-1.475,1.2,15.4,  
+AddVertex,-1.475,1.68,15.4, 
+AddVertex,-1.475,1.89,15.4, 
+AddVertex,-1.475,2,15.4,    
+AddVertex,-1.475,2.26,15.4, 
+AddVertex,-1.475,2.68,15.4, 
+AddVertex,-1.475,3.34,15.4, 
+AddVertex,-1.172,3.74,15.4, 
+AddFace,9 ,10,1,0,
+AddFace,10,11,2,1,
+AddFace,11,12,3,2,
+AddFace,12,13,4,3,
+AddFace,13,14,5,4,
+AddFace,14,15,6,5,
+AddFace,15,16,7,6,
+AddFace,16,17,8,7,
+GenerateNormals,
+LoadTexture,E464-fianco-destro.bmp,
+SetTextureCoordinates,0,0.958,0.999,
+SetTextureCoordinates,1,0.971,0.913,
+SetTextureCoordinates,2,0.977,0.764,
+SetTextureCoordinates,3,0.976,0.696,
+SetTextureCoordinates,4,0.975,0.661,
+SetTextureCoordinates,5,0.971,0.584,
+SetTextureCoordinates,6,0.960,0.413,
+SetTextureCoordinates,7,0.934,0.14,
+SetTextureCoordinates,8,0.917,0.001,
+SetTextureCoordinates,9 ,0.001 ,0.999,
+SetTextureCoordinates,10,0.001 ,0.913,
+SetTextureCoordinates,11,0.001,0.764,
+SetTextureCoordinates,12,0.001,0.696,
+SetTextureCoordinates,13,0.001,0.661, 
+SetTextureCoordinates,14,0.001 ,0.584,
+SetTextureCoordinates,15,0.001 ,0.413,
+SetTextureCoordinates,16,0.001 ,0.14,
+SetTextureCoordinates,17,0.001 ,0.001, 
+
+
+; Scalette destre
+CreateMeshBuilder,
+AddVertex,-1.475,0.3,-0.1,
+AddVertex,-1.475,0.95,-0.1,
+AddVertex,-1.475,0.3,17.6,
+AddVertex,-1.475,0.95,17.6,
+AddFace2, 0,2,3,1,
+GenerateNormals,
+LoadTexture,E464-scalette.bmp,
+SetTextureCoordinates, 0,0,0.7
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0.7
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor,0,0,0
+
+; Scalette sinistre
+CreateMeshBuilder,
+AddVertex,1.475,0.3,-0.1,
+AddVertex,1.475,0.95,-0.1,
+AddVertex,1.475,0.3,17.6,
+AddVertex,1.475,0.95,17.6,
+AddFace2, 1,3,2,0
+GenerateNormals,
+LoadTexture,E464-scalette.bmp,
+SetTextureCoordinates, 0,0,0.7
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0.7
+SetTextureCoordinates, 3,1,0
+SetDecalTransparentColor,0,0,0
+
+; Copertura apparecchiature sotto cassa
+CreateMeshBuilder,
+Cube, 1.45,0.60,1.04
+GenerateNormals,
+SetColor,35,30,30
+Translate,0,0.9,7.75
+
+CreateMeshBuilder,
+Cube, 1.45,0.30,0.4
+GenerateNormals,
+SetColor,35,30,30
+Translate,0,0.88,6.45
+
+
+;Fiancata sinistra
+CreateMeshBuilder,
+AddVertex,1.475,0.95,0.64,
+AddVertex,1.475,1.2,0.52,
+AddVertex,1.475,1.68,0.44,
+AddVertex,1.475,1.89,0.45,
+AddVertex,1.475,2,0.46,
+AddVertex,1.475,2.26,0.52,
+AddVertex,1.475,2.68,0.69,
+AddVertex,1.475,3.34,1.09,
+AddVertex,1.172,3.74,1.44,
+AddVertex,1.475,0.95,15.4,
+AddVertex,1.475,1.2,15.4,
+AddVertex,1.475,1.68,15.4,
+AddVertex,1.475,1.89,15.4,
+AddVertex,1.475,2,15.4,
+AddVertex,1.475,2.26,15.4,
+AddVertex,1.475,2.68,15.4,
+AddVertex,1.475,3.34,15.4,
+AddVertex,1.172,3.74,15.4,
+AddFace,0,1,10,9,
+AddFace,1,2,11,10,
+AddFace,2,3,12,11,
+AddFace,3,4,13,12,
+AddFace,4,5,14,13,
+AddFace,5,6,15,14,
+AddFace,6,7,16,15,
+AddFace,7,8,17,16,
+GenerateNormals,
+LoadTexture,E464-fianco-sinistro.bmp,
+SetTextureCoordinates,0,0.042,0.999,
+SetTextureCoordinates,1,0.029,0.913,
+SetTextureCoordinates,2,0.0238,0.764,
+SetTextureCoordinates,3,0.0245,0.696,
+SetTextureCoordinates,4,0.0250,0.661,
+SetTextureCoordinates,5,0.029,0.584,
+SetTextureCoordinates,6,0.040,0.413,
+SetTextureCoordinates,7,0.066,0.14,
+SetTextureCoordinates,8,0.083,0.001,
+SetTextureCoordinates,9, 0.999,0.999,
+SetTextureCoordinates,10,0.999,0.913,
+SetTextureCoordinates,11,0.999,0.764,
+SetTextureCoordinates,12,0.999,0.696,
+SetTextureCoordinates,13,0.999,0.661,
+SetTextureCoordinates,14,0.999,0.584,
+SetTextureCoordinates,15,0.999,0.413,
+SetTextureCoordinates,16,0.999,0.14,
+SetTextureCoordinates,17,0.999,0.001,
+
+; Frontale anteriore
+CreateMeshBuilder,
+AddVertex,-1.475,0.95,0.64,
+AddVertex,-1.475,1.2,0.52,
+AddVertex,-1.475,1.68,0.44,
+AddVertex,-1.475,1.89,0.45,
+AddVertex,-1.475,2,0.46,
+AddVertex,-1.475,2.26,0.52,
+AddVertex,-1.475,2.68,0.69,
+AddVertex,-1.475,3.34,1.09,
+AddVertex,-1.172,3.74,1.44,
+AddVertex,-1.424,0.95,0.63,
+AddVertex,-1.424,1.2,0.51,
+AddVertex,-1.424,1.68,0.43,
+AddVertex,-1.424,1.89,0.44,
+AddVertex,-1.424,2,0.45,
+AddVertex,-1.424,2.26,0.51,
+AddVertex,-1.433,2.68,0.68,
+AddVertex,-1.433,3.34,1.08,
+AddVertex,-1.13,3.74,1.43,
+AddVertex,-1.357,0.95,0.615,
+AddVertex,-1.357,1.2,0.495,
+AddVertex,-1.357,1.68,0.415,
+AddVertex,-1.357,1.89,0.425,
+AddVertex,-1.357,2,0.435,
+AddVertex,-1.366,2.26,0.495,
+AddVertex,-1.374,2.68,0.665,
+AddVertex,-1.382,3.34,1.065,
+AddVertex,-1.088,3.74,1.415,
+AddVertex,-1.273,0.95,0.6,
+AddVertex,-1.273,1.2,0.48,
+AddVertex,-1.273,1.68,0.4,
+AddVertex,-1.281,1.89,0.41,
+AddVertex,-1.281,2,0.42,
+AddVertex,-1.29,2.26,0.48,
+AddVertex,-1.298,2.68,0.65,
+AddVertex,-1.324,3.34,1.05,
+AddVertex,-1.055,3.74,1.4,
+
+AddVertex,1.273,0.95,0.6,
+AddVertex,1.273,1.2,0.48,
+AddVertex,1.273,1.68,0.4,
+AddVertex,1.282,1.89,0.41,
+AddVertex,1.282,2,0.42,
+AddVertex,1.29,2.26,0.48,
+AddVertex,1.299,2.68,0.65,
+AddVertex,1.324,3.34,1.05,
+AddVertex,1.055,3.74,1.4,
+AddVertex,1.358,0.95,0.615,
+AddVertex,1.358,1.2,0.495,
+AddVertex,1.358,1.68,0.415,
+AddVertex,1.358,1.89,0.425,
+AddVertex,1.358,2,0.435,
+AddVertex,1.366,2.26,0.495,
+AddVertex,1.374,2.68,0.665,
+AddVertex,1.383,3.34,1.065,
+AddVertex,1.089,3.74,1.415,
+AddVertex,1.425,0.95,0.63,
+AddVertex,1.425,1.2,0.51,
+AddVertex,1.425,1.68,0.43,
+AddVertex,1.425,1.89,0.44,
+AddVertex,1.425,2,0.45,
+AddVertex,1.425,2.26,0.51,
+AddVertex,1.433,2.68,0.68,
+AddVertex,1.433,3.34,1.08,
+AddVertex,1.131,3.74,1.43,
+AddVertex,1.475,0.95,0.64,
+AddVertex,1.475,1.2,0.52,
+AddVertex,1.475,1.68,0.44,
+AddVertex,1.475,1.89,0.45,
+AddVertex,1.475,2,0.46,
+AddVertex,1.475,2.26,0.52,
+AddVertex,1.475,2.68,0.69,
+AddVertex,1.475,3.34,1.09,
+AddVertex,1.173,3.74,1.44,
+
+AddFace,0,1,10,9
+AddFace,1,2,11,10
+AddFace,2,3,12,11
+AddFace,3,4,13,12
+AddFace,4,5,14,13
+AddFace,5,6,15,14
+AddFace,6,7,16,15
+AddFace,7,8,17,16
+AddFace,9,10,19,18
+AddFace,10,11,20,19
+AddFace,11,12,21,20
+AddFace,12,13,22,21
+AddFace,13,14,23,22
+AddFace,14,15,24,23
+AddFace,15,16,25,24
+AddFace,16,17,26,25
+AddFace,18,19,28,27
+AddFace,19,20,29,28
+AddFace,20,21,30,29
+AddFace,21,22,31,30
+AddFace,22,23,32,31
+AddFace,23,24,33,32
+AddFace,24,25,34,33
+AddFace,25,26,35,34
+AddFace,27,28,37,36
+AddFace,28,29,38,37
+AddFace,29,30,39,38
+AddFace,30,31,40,39
+AddFace,31,32,41,40
+AddFace,32,33,42,41
+AddFace,33,34,43,42
+AddFace,34,35,44,43
+AddFace,36,37,46,45
+AddFace,37,38,47,46
+AddFace,38,39,48,47
+AddFace,39,40,49,48
+AddFace,40,41,50,49
+AddFace,41,42,51,50
+AddFace,42,43,52,51
+AddFace,43,44,53,52
+AddFace,45,46,55,54
+AddFace,46,47,56,55
+AddFace,47,48,57,56
+AddFace,48,49,58,57
+AddFace,49,50,59,58
+AddFace,50,51,60,59
+AddFace,51,52,61,60
+AddFace,52,53,62,61
+AddFace,54,55,64,63
+AddFace,55,56,65,64
+AddFace,56,57,66,65
+AddFace,57,58,67,66
+AddFace,58,59,68,67
+AddFace,59,60,69,68
+AddFace,60,61,70,69
+AddFace,61,62,71,70
+GenerateNormals,
+LoadTexture,E464-fronte.bmp,
+SetTextureCoordinates,0,0.009,0.997,
+SetTextureCoordinates,1,0.009,0.913,
+SetTextureCoordinates,2,0.009,0.764,
+SetTextureCoordinates,3,0.009,0.696,
+SetTextureCoordinates,4,0.009,0.661,
+SetTextureCoordinates,5,0.009,0.584,
+SetTextureCoordinates,6,0.009,0.413,
+SetTextureCoordinates,7,0.009,0.14,
+SetTextureCoordinates,8,0.111,0.006,
+SetTextureCoordinates,9,0.026,0.997,
+SetTextureCoordinates,10,0.026,0.913,
+SetTextureCoordinates,11,0.026,0.764,
+SetTextureCoordinates,12,0.026,0.696,
+SetTextureCoordinates,13,0.026,0.661,
+SetTextureCoordinates,14,0.026,0.584,
+SetTextureCoordinates,15,0.023,0.413,
+SetTextureCoordinates,16,0.023,0.14,
+SetTextureCoordinates,17,0.125,0.006,
+SetTextureCoordinates,18,0.048,0.997,
+SetTextureCoordinates,19,0.048,0.913,
+SetTextureCoordinates,20,0.048,0.764,
+SetTextureCoordinates,21,0.048,0.696,
+SetTextureCoordinates,22,0.048,0.661,
+SetTextureCoordinates,23,0.046,0.584,
+SetTextureCoordinates,24,0.043,0.413,
+SetTextureCoordinates,25,0.04,0.14,
+SetTextureCoordinates,26,0.14,0.006,
+SetTextureCoordinates,27,0.077,0.997,
+SetTextureCoordinates,28,0.077,0.913,
+SetTextureCoordinates,29,0.077,0.764,
+SetTextureCoordinates,30,0.074,0.696,
+SetTextureCoordinates,31,0.074,0.661,
+SetTextureCoordinates,32,0.071,0.584,
+SetTextureCoordinates,33,0.068,0.413,
+SetTextureCoordinates,34,0.06,0.14,
+SetTextureCoordinates,35,0.151,0.006,
+
+SetTextureCoordinates,36,0.926,0.997,
+SetTextureCoordinates,37,0.926,0.913,
+SetTextureCoordinates,38,0.926,0.764,
+SetTextureCoordinates,39,0.929,0.696,
+SetTextureCoordinates,40,0.929,0.661,
+SetTextureCoordinates,41,0.932,0.584,
+SetTextureCoordinates,42,0.934,0.413,
+SetTextureCoordinates,43,0.943,0.14,
+SetTextureCoordinates,44,0.852,0.006,
+SetTextureCoordinates,45,0.954,0.997,
+SetTextureCoordinates,46,0.954,0.913,
+SetTextureCoordinates,47,0.954,0.764,
+SetTextureCoordinates,48,0.954,0.696,
+SetTextureCoordinates,49,0.954,0.661,
+SetTextureCoordinates,50,0.957,0.584,
+SetTextureCoordinates,51,0.96,0.413,
+SetTextureCoordinates,52,0.963,0.14,
+SetTextureCoordinates,53,0.863,0.006,
+SetTextureCoordinates,54,0.977,0.997,
+SetTextureCoordinates,55,0.977,0.913,
+SetTextureCoordinates,56,0.977,0.764,
+SetTextureCoordinates,57,0.977,0.696,
+SetTextureCoordinates,58,0.977,0.661,
+SetTextureCoordinates,59,0.977,0.584,
+SetTextureCoordinates,60,0.98,0.413,
+SetTextureCoordinates,61,0.98,0.14,
+SetTextureCoordinates,62,0.877,0.006,
+SetTextureCoordinates,63,0.994,0.997,
+SetTextureCoordinates,64,0.994,0.913,
+SetTextureCoordinates,65,0.994,0.764,
+SetTextureCoordinates,66,0.994,0.696,
+SetTextureCoordinates,67,0.994,0.661,
+SetTextureCoordinates,68,0.994,0.584,
+SetTextureCoordinates,69,0.994,0.413,
+SetTextureCoordinates,70,0.994,0.14,
+SetTextureCoordinates,71,0.892,0.006,
+
+; Frontale posteriore
+CreateMeshBuilder,
+AddVertex,-1.475,0.82,15.4,
+AddVertex,-1.475,3.74,15.4,
+AddVertex,1.475,3.74,15.4,
+AddVertex,1.475,0.82,15.4,
+AddFace2,0,1,2,3,
+GenerateNormals,
+LoadTexture,E464-retro.bmp,
+SetTextureCoordinates,0,0.945 ,0.935,
+SetTextureCoordinates,1,0.945 ,0.02,
+SetTextureCoordinates,2,0.052,0.02,
+SetTextureCoordinates,3,0.052,0.935,
+SetDecalTransparentColor,0, 0, 0,
+
+; Respingenti posteriori
+CreateMeshBuilder,
+AddVertex,-1.2 , 1.25 ,0.01,
+AddVertex, 1.3,  1.25 ,0.01,
+AddVertex,-1.2 , 0.65 ,0.01,
+AddVertex, 1.3,  0.65 ,0.01,
+AddFace2,3,2,0,1,
+GenerateNormals,
+LoadTexture,Respingenti.bmp,
+SetTextureCoordinates,0, -1,-0.98,
+SetTextureCoordinates,1, -0,-0.98,
+SetTextureCoordinates,2, -1, -0.02,
+SetTextureCoordinates,3, -0 ,-0.02,
+SetDecalTransparentColor,0, 0, 0,
+rotate,0,1,0,180
+translate,0,0,15.7
+
+CreateMeshBuilder,
+Cylinder,8,0.12,0.12,0.49
+SetColor,25,25,50
+rotate,1,0,0,90
+translate,-0.8,1.08,15.44
+
+CreateMeshBuilder,
+Cylinder,8,0.12,0.12,0.49
+SetColor,25,25,50
+rotate,1,0,0,90
+translate,0.8,1.08,15.44
+
+; Vomere
+CreateMeshBuilder,
+AddVertex,-1.3 , 1.22 ,0.48,
+AddVertex, 1.3,  1.22 ,0.48,
+AddVertex,-1.3 , 0.70 ,0.53,
+AddVertex, 1.3,  0.70 ,0.53,
+AddVertex,-1.3 , 0.35 ,0.38,
+AddVertex, 1.3,  0.35 ,0.38,
+AddFace2,0,1,3,2,
+AddFace2,2,3,5,4
+GenerateNormals,
+LoadTexture,E464-vomere.bmp,
+SetTextureCoordinates,0,-0.999,0,
+SetTextureCoordinates,1,-0.398,0,
+SetTextureCoordinates,2,-0.999,0.55,
+SetTextureCoordinates,3,-0.398,0.55,
+SetTextureCoordinates,4,-0.999,1,
+SetTextureCoordinates,5,-0.398,1,
+SetDecalTransparentColor,255, 0, 0,
+
+; Gancio automatico
+CreateMeshBuilder,
+Cylinder,8,0.12,0.12,0.30
+SetColor,96,22,37
+rotate,1,0,0,90
+translate,0,1.08,0.35
+
+CreateMeshBuilder,
+AddVertex,-0.2 , 1.26 ,0.199,
+AddVertex, 0.4,  1.26 ,0.199,
+AddVertex,-0.2 , 0.94 ,0.199,
+AddVertex, 0.4,  0.94 ,0.199,
+AddFace2,0,1,3,2,
+GenerateNormals,
+LoadTexture,E464-gancio-aut.bmp,
+SetTextureCoordinates,0,-0.999,0,
+SetTextureCoordinates,1,-0.398,0,
+SetTextureCoordinates,2,-0.999,0.55,
+SetTextureCoordinates,3,-0.398,0.55,
+SetDecalTransparentColor,255,0,0
+
+; Respingentini
+CreateMeshBuilder,
+Cylinder,8,0.08,0.08,0.2
+SetColor,35,35,45
+rotate,1,0,0,90
+translate,-0.902,1.038,0.5
+CreateMeshBuilder,
+Cylinder,8,0.04,0.04,0.3
+SetColor,55,55,70
+rotate,1,0,0,90
+translate,-0.902,1.038,0.3
+
+
+CreateMeshBuilder,
+Cylinder,8,0.08,0.08,0.2
+SetColor,35,35,45
+rotate,1,0,0,90
+translate,0.902,1.038,0.5
+CreateMeshBuilder,
+Cylinder,8,0.04,0.04,0.3
+SetColor,55,55,70
+rotate,1,0,0,90
+translate,0.902,1.038,0.3
+	
+
+
+CreateMeshBuilder ; fiancata sinistra carrello ant
+AddVertex, 0.8  , 0.00 , 5.0
+AddVertex, 0.8  , 0.00,  0
+AddVertex, 0.8  , 1.10 , 5.0
+AddVertex, 0.8  , 1.10 , 0
+AddFace2, 0,2,3,1,
+GenerateNormals
+LoadTexture,E464-carrello.bmp,
+SetTextureCoordinates, 0 ,1, 1  
+SetTextureCoordinates, 1 ,0 , 1  
+SetTextureCoordinates, 2 ,1, 0
+SetTextureCoordinates, 3 ,0 , 0	
+SetDecalTransparentColor,255,0,0
+translate,0,0.03,0.8
+
+CreateMeshBuilder ; fiancata sinistra carrello post
+AddVertex, 0.8  , 0.00 , 5.0
+AddVertex, 0.8  , 0.00,  0
+AddVertex, 0.8  , 1.10 , 5.0
+AddVertex, 0.8  , 1.10 , 0
+AddFace2, 0,2,3,1,
+GenerateNormals
+LoadTexture,E464-carrello.bmp,
+SetTextureCoordinates, 0 ,0, 1  
+SetTextureCoordinates, 1 ,1 , 1  
+SetTextureCoordinates, 2 ,0, 0
+SetTextureCoordinates, 3 ,1 , 0	
+SetDecalTransparentColor,255,0,0
+translate,0,0.03,9.1
+
+CreateMeshBuilder ; fiancata destra carrello ant
+AddVertex, -0.8  , 0.00 , 5.0
+AddVertex, -0.8  , 0.00,  0
+AddVertex, -0.8  , 1.10 , 5.0
+AddVertex, -0.8  , 1.10 , 0
+AddFace2, 0,2,3,1,
+GenerateNormals
+LoadTexture,E464-carrello.bmp,
+SetTextureCoordinates, 0 ,1, 1  
+SetTextureCoordinates, 1 ,0 , 1  
+SetTextureCoordinates, 2 ,1, 0
+SetTextureCoordinates, 3 ,0 , 0	
+SetDecalTransparentColor,255,0,0
+translate,0,0.03,0.8
+
+CreateMeshBuilder ; fiancata desta carrello post
+AddVertex, -0.8  , 0.00 , 5.0
+AddVertex, -0.8  , 0.00,  0
+AddVertex, -0.8  , 1.10 , 5.0
+AddVertex, -0.8  , 1.10 , 0
+AddFace2, 0,2,3,1,
+GenerateNormals
+LoadTexture,E464-carrello.bmp,
+SetTextureCoordinates, 0 ,0, 1  
+SetTextureCoordinates, 1 ,1 , 1  
+SetTextureCoordinates, 2 ,0, 0
+SetTextureCoordinates, 3 ,1 , 0	
+SetDecalTransparentColor,255,0,0
+translate,0,0.03,9.1
+
+
+
+; Route carrello anteriore
+; ------------------
+CreateMeshBuilder ; Ruota ant sin
+cylinder,16, 0.55, 0.56,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.555, 2.2
+CreateMeshBuilder ; Ruota ant des
+cylinder,16, 0.56, 0.55,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.555, 2.2
+CreateMeshBuilder ; Assale Ant
+cylinder,8, 0.13, 0.15,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.555, 2.2
+
+CreateMeshBuilder ; Ruota po sin
+cylinder,16, 0.55, 0.56,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.555, 4.85
+CreateMeshBuilder ; Ruota pos des
+cylinder,16, 0.56, 0.55,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.555, 4.85
+CreateMeshBuilder ; Assale Pos
+cylinder,8, 0.13, 0.15,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.555, 4.85
+
+; Route carrello posteriore
+; ------------------
+CreateMeshBuilder ; Ruota pos sin
+cylinder,16, 0.55, 0.56,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.555, 10.05
+CreateMeshBuilder ; Ruota pos des
+cylinder,16, 0.56, 0.55,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.555, 10.05
+CreateMeshBuilder ; Assale pos
+cylinder,8, 0.13, 0.15,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.555, 10.05
+
+CreateMeshBuilder ; Ruota ant sin
+cylinder,16, 0.55, 0.56,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.555, 12.7
+CreateMeshBuilder ; Ruota ant des
+cylinder,16, 0.56, 0.55,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.555, 12.7
+CreateMeshBuilder ; Assale Ant
+cylinder,8, 0.13, 0.15,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.555, 12.7
+
+; ==================================================
+; Varianti 
+; ==================================================
+; Per invertire il senso di marcia
+; togliere il commento alle 2 righe seguenti
+;RotateAll,0,1,0,180
+;TranslateAll,0,0,15.7
+
+; Per utilizzo dell'oggetto nella vista esterna del treno in corsa openBVE
+; togliere il commento alle righe seguenti
+;RotateAll,0,1,0,180
+;TranslateAll,0,0,23.55
+

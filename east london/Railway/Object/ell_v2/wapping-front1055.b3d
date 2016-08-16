@@ -1,0 +1,361 @@
+[Meshbuilder] ; Make this yellow concrete... ish... (SG thinks should be grey, dodgy photo?)
+; Forward bits over stairs
+Vertex -3.15,16,0
+Vertex -3.15,4.1,0
+Vertex -6,4.1,0
+Vertex -6,16,0
+
+Vertex 11,16,0
+Vertex 11,4.1,0
+Vertex 8.15,4.1,0
+Vertex 8.15,16,0
+
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+load stonea.bmp
+Coordinates 0,3,0
+Coordinates 1,3,12
+Coordinates 2,0,12
+Coordinates 3,0,0
+Coordinates 4,3,0
+Coordinates 5,3,12
+Coordinates 6,0,12
+Coordinates 7,0,0
+
+[Meshbuilder] ; sides of stair columns
+Vertex -3.15,4.1,9.8
+Vertex -3.15,1.1,9.8
+Vertex -3.15,1.1,0
+Vertex -3.15,4.1,0
+
+Vertex 8.15,4.1,0
+Vertex 8.15,1.1,0
+Vertex 8.15,1.1,9.8
+Vertex 8.15,4.1,9.8
+Face 0,1,2,3
+Face 4,5,6,7
+Color 140,140,140
+
+[Meshbuilder] ; upper sides of stair columns
+Vertex -3.15,16,9.8
+Vertex -3.15,4.1,9.8
+Vertex -3.15,4.1,0
+Vertex -3.15,16,0
+
+Vertex 8.15,16,0
+Vertex 8.15,4.1,0
+Vertex 8.15,4.1,9.8
+Vertex 8.15,16,9.8
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+load stonea.bmp
+Coordinates 0,10,0
+Coordinates 1,10,12
+Coordinates 2,0,12
+Coordinates 3,0,0
+Coordinates 4,10,0
+Coordinates 5,10,12
+Coordinates 6,0,12
+COordinates 7,0,0
+
+[Meshbuilder] ; flanks of main front not covered by tunnel decoration
+Vertex -2.3,16,9.8
+Vertex -2.3,1.1,9.8
+Vertex -3.15,1.1,9.8
+Vertex -3.15,16,9.8
+
+Vertex 8.15,16,9.8
+Vertex 8.15,1.1,9.8
+Vertex 7.3,1.1,9.8
+Vertex 7.3,16,9.8
+Face 0,1,2,3
+Face 4,5,6,7
+Color 140,140,140
+
+[Meshbuilder]
+Vertex 8.15,16,0.9
+Vertex 8.15,4.1,0.9
+Vertex -3.15,4.1,0.9
+Vertex -3.15,16,0.9
+Face 0,1,2,3
+[Texture]
+load roth-black.bmp
+Coordinates 0,1,0
+Coordinates 1,1,10
+Coordinates 2,0,10
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 8.15,4.1,0.9
+Vertex 8.15,4.1,9.8
+Vertex -3.15,4.1,9.8
+Vertex -3.15,4.1,0.9
+Face 0,1,2,3
+[Texture]
+load roth-black.bmp
+Coordinates 0,1,0
+Coordinates 1,1,6
+Coordinates 2,0,6
+Coordinates 3,0,0
+
+[MeshBuilder] ; Clock 
+Vertex 1.9,4.8,0.6
+Vertex 1.9,4.3,0.6
+Vertex 0.7,4.3,0.6
+Vertex 0.7,4.8,0.6
+Face 0,1,2,3
+[Texture]
+load wap-time1055.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 1.9,4.8,0.6
+Vertex 1.9,4.3,0.6
+Vertex 0.7,4.3,0.6
+Vertex 0.7,4.8,0.6
+Vertex 1.9,4.8,0.9
+Vertex 1.9,4.3,0.9
+Vertex 0.7,4.3,0.9
+Vertex 0.7,4.8,0.9
+
+Face 4,5,1,0
+Face 4,0,3,7
+Face 3,2,6,7
+Face 1,5,6,2
+
+Color 128,128,128
+
+[Meshbuilder] ; Way out box left
+Vertex 0.4,4.8,0.6
+Vertex 0.4,4.3,0.6
+Vertex -2.4,4.3,0.6
+Vertex -2.4,4.8,0.6
+Face 0,1,2,3
+[Texture]
+load wa-wo-l.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 0.4,4.8,0.6
+Vertex 0.4,4.3,0.6
+Vertex -2.4,4.3,0.6
+Vertex -2.4,4.8,0.6
+Vertex 0.4,4.8,0.9
+Vertex 0.4,4.3,0.9
+Vertex -2.4,4.3,0.9
+Vertex -2.4,4.8,0.9
+Face 4,5,1,0
+Face 4,0,3,7
+Face 3,2,6,7
+Face 1,5,6,2
+Color 128,128,128
+
+[Meshbuilder] ; Way out box right
+Vertex 7.4,4.8,0.6
+Vertex 7.4,4.3,0.6
+Vertex 4.6,4.3,0.6
+Vertex 4.6,4.8,0.6
+Face 0,1,2,3
+[Texture]
+load wa-wo-r.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[Meshbuilder]
+Vertex 7.4,4.8,0.6
+Vertex 7.4,4.3,0.6
+Vertex 4.6,4.3,0.6
+Vertex 4.6,4.8,0.6
+Vertex 7.4,4.8,0.9
+Vertex 7.4,4.3,0.9
+Vertex 4.6,4.3,0.9
+Vertex 4.6,4.8,0.9
+Face 4,5,1,0
+Face 4,0,3,7
+Face 3,2,6,7
+Face 1,5,6,2
+Color 128,128,128
+
+[Meshbuilder] ; left cable box on wall
+Vertex -2.5,4.1,10
+Vertex -2.7,3.4,10
+Vertex -3.2,2.6,10
+Vertex -3.2,2.6,0
+Vertex -2.7,3.4,0
+Vertex -2.5,4.1,0
+Face 0,1,4,5
+Face 1,2,3,4
+[Texture]
+load metal1.bmp
+Coordinates 0,10,0
+Coordinates 1,10,0.5
+Coordinates 2,10,1
+Coordinates 3,0,1
+Coordinates 4,0,0.5
+Coordinates 5,0,0
+
+[Meshbuilder] ; end of left wall cable box
+Vertex -2.5,4.1,0
+Vertex -2.7,3.4,0
+Vertex -3.2,2.6,0
+Vertex -3.2,4.1,0
+Face 0,1,2,3
+[Texture]
+load metal1.bmp
+Coordinates 0,0.5,0
+Coordinates 1,0.5,1.5
+Coordinates 2,0,2
+Coordinates 3,0,0
+
+[Meshbuilder] ; left cable box diagonal
+Vertex -2.5,5.2,0
+Vertex -2.7,4.0,0
+Vertex -3.2,3.0,0
+Vertex -5.5,3.5,-4
+Vertex -5,4.5,-4
+Vertex -4.8,5.7,-4
+Face 0,1,4,5
+Face 1,2,3,4
+[Texture]
+load metal1.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1.5
+Coordinates 2,4,2.5
+Coordinates 3,0,2.5
+Coordinates 4,0,1.5
+Coordinates 5,0,0
+
+[Meshbuilder] ; right cable box on wall
+Vertex 7.5,4.1,10
+Vertex 7.7,3.4,10
+Vertex 8.2,2.6,10
+Vertex 8.2,2.6,0
+Vertex 7.7,3.4,0
+Vertex 7.5,4.1,0
+Face 5,4,1,0
+Face 4,3,2,1
+[Texture]
+load metal1.bmp
+Coordinates 0,10,0
+Coordinates 1,10,0.5
+Coordinates 2,10,1
+Coordinates 3,0,1
+Coordinates 4,0,0.5
+Coordinates 5,0,0
+
+[Meshbuilder] ; end of right wall cable box
+Vertex 7.5,4.1,0
+Vertex 7.7,3.4,0
+Vertex 8.2,2.6,0
+Vertex 8.2,4.1,0
+Face 3,2,1,0
+[Texture]
+load metal1.bmp
+Coordinates 0,0.5,0
+Coordinates 1,0.5,1.5
+Coordinates 2,0,2
+Coordinates 3,0,0
+
+[Meshbuilder] ; right cable box diagonal
+Vertex 7.5,5.2,0
+Vertex 7.7,4.0,0
+Vertex 8.2,3.0,0
+Vertex 10.5,3.5,-4
+Vertex 10,4.5,-4
+Vertex 9.8,5.7,-4
+Face 5,4,1,0
+Face 4,3,2,1
+[Texture]
+load metal1.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1.5
+Coordinates 2,4,2.5
+Coordinates 3,0,2.5
+Coordinates 4,0,1.5
+Coordinates 5,0,0
+
+[Meshbuilder] ; lazily done pipework
+Vertex 2.7,6,9.5
+Vertex 2.7,0,9.5
+Vertex 2.5,0,9.3
+Vertex 2.5,6,9.3
+Vertex 2.3,6,9.5
+Vertex 2.3,0,9.5
+Face 0,1,2,3
+Face 3,2,5,4
+Color 0,0,0
+
+[Meshbuilder] ; strange block at bottom in front of portal
+Vertex 3,0.6,10
+Vertex 3,0.6,6
+Vertex 2,0.6,6
+Vertex 2,0.6,10
+
+Vertex 3,-0.5,10
+Vertex 3,-0.5,6
+Vertex 2,-0.5,6
+Vertex 2,-0.5,10
+
+Face 0,1,2,3
+Face 1,5,6,2
+Face 2,6,7,3
+
+Color 140,140,140
+
+[Meshbuilder] ; the signal pole
+Vertex 2.4,1.8,7
+Vertex 2.4,0,7
+Vertex 2.3,0,7
+Vertex 2.3,1.8,7
+Face 0,1,2,3
+Color 0,0,0
+
+[Meshbuilder] ; the signal itself
+Vertex 2.5,2.2,6.9
+Vertex 2.5,1.6,6.9
+Vertex 2.2,1.6,6.9
+Vertex 2.2,2.2,6.9
+Face 0,1,2,3
+[Texture]
+load greensig.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 2.5,2.2,6.9
+Vertex 2.5,1.6,6.9
+Vertex 2.2,1.6,6.9
+Vertex 2.2,2.2,6.9
+Vertex 2.5,2.2,7.1
+Vertex 2.5,1.6,7.1
+Vertex 2.2,1.6,7.1
+Vertex 2.2,2.2,7.1
+Face 4,0,3,7
+Face 3,2,6,7
+Face 4,5,1,0
+Face 1,5,6,2
+Color 0,0,0
+
+[Meshbuilder] ; 25mph sign
+Vertex -2.2,3,9.7
+Vertex -2.2,2,9.7
+Vertex -3.2,2,9.7
+Vertex -3.2,3,9.7
+Face 0,1,2,3
+[Texture]
+load 25mph.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

@@ -1,0 +1,317 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;ponte
+
+CreateMeshBuilder, ;;;sotto
+AddVertex,7, 5.7, 0,
+AddVertex,-105, 5.7, 0,
+AddVertex,-105, 5.7, 15,
+AddVertex,7, 5.7, 15,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,pontesotto.bmp,
+SetTextureCoordinates,0, 0, 20,
+SetTextureCoordinates,1, 1, 20,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecaltransparentColor,0,0,0,
+
+CreateMeshBuilder, ;;;sopra
+AddVertex,25, 5.95, 0,
+AddVertex,-105, 6, 0,
+AddVertex,-105, 6, 15,
+AddVertex,25, 5.95, 15,
+AddFace,0, 1, 2,3,
+GenerateNormals,
+
+setcolor,30,30,30
+
+
+CreateMeshBuilder, ;;;alzata fronte
+AddVertex,7, 5.7, 0,
+AddVertex,-105, 5.7, 0,
+AddVertex,-105, 8, 0,
+AddVertex,7, 8, 0,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Edifici\ringhieraponte.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 8, 1,
+SetTextureCoordinates,2, 8, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecaltransparentColor,0,0,0,
+
+CreateMeshBuilder, ;;;alzata fronte
+AddVertex,9, 5.7, 15,
+AddVertex,-105, 5.7, 15,
+AddVertex,-105, 8, 15,
+AddVertex,9, 8, 15,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Edifici\ringhieraponte.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 8, 1,
+SetTextureCoordinates,2, 8, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecaltransparentColor,0,0,0,
+
+
+
+
+;;;Pilone dx
+
+CreateMeshBuilder, ;;;fronte
+AddVertex,8, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,8, 5.7, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 0.98,
+SetTextureCoordinates,1, 1, 0.98,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder, ;;;lato sx
+AddVertex,6, 5.7, 0,
+AddVertex,6, -1, 0,
+AddVertex,6, -1, 15,
+AddVertex,6, 5.7, 15,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 0.98,
+SetTextureCoordinates,2, 2, 0.98,
+SetTextureCoordinates,3, 2, 0,
+
+
+CreateMeshBuilder, ;;;retro
+AddVertex,8, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,8, 5.7, 0,
+AddFace,3, 2, 1, 0,
+translate,0,0,15
+GenerateNormals,
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 0.98,
+SetTextureCoordinates,1, 1, 0.98,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+;;;;pilone sx 1
+CreateMeshBuilder, ;;;fronte
+AddVertex,7, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,7, 5.7, 0,
+AddFace,0, 1, 2, 3,
+translate, -17.5,0,0,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder, ;;;lato sx
+AddVertex,6, 5.7, 0,
+AddVertex,6, -1, 0,
+AddVertex,6, -1, 15,
+AddVertex,6, 5.7, 15,
+AddFace,0, 1, 2, 3,
+translate, -17.5,0,0,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 2, 0,
+
+CreateMeshBuilder, ;;;lato dx
+AddVertex,6, 5.7, 0,
+AddVertex,6, -1, 0,
+AddVertex,6, -1, 15,
+AddVertex,6, 5.7, 15,
+AddFace,3, 2, 1, 0,
+translate, -16.5,0,0,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 2, 0,
+
+CreateMeshBuilder, ;;;retro
+AddVertex,7, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,7, 5.7, 0,
+AddFace,3, 2, 1, 0,
+translate,-17.5,0,15
+GenerateNormals,
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;pilone sx3
+CreateMeshBuilder, ;;;fronte
+AddVertex,7, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,7, 5.7, 0,
+AddFace,0, 1, 2, 3,
+translate, -55.5,0,0,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+
+
+CreateMeshBuilder, ;;;lato dx
+AddVertex,6, 5.7, 0,
+AddVertex,6, -1, 0,
+AddVertex,6, -1, 15,
+AddVertex,6, 5.7, 15,
+AddFace,3, 2, 1, 0,
+translate, -54.5,0,0,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 2, 0,
+
+CreateMeshBuilder, ;;;retro
+AddVertex,7, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,7, 5.7, 0,
+AddFace,3, 2, 1, 0,
+translate,-55.5,0,15
+GenerateNormals,
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;pilone sx3
+CreateMeshBuilder, ;;;fronte
+AddVertex,7, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,7, 5.7, 0,
+AddFace,0, 1, 2, 3,
+translate, -75.5,0,0,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+
+CreateMeshBuilder, ;;;lato dx
+AddVertex,6, 5.7, 0,
+AddVertex,6, -1, 0,
+AddVertex,6, -1, 15,
+AddVertex,6, 5.7, 15,
+AddFace,3, 2, 1, 0,
+translate, -74.5,0,0,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 2, 0,
+
+CreateMeshBuilder, ;;;retro
+AddVertex,7, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,7, 5.7, 0,
+AddFace,3, 2, 1, 0,
+translate,-75.5,0,15
+GenerateNormals,
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;pilone sx5
+CreateMeshBuilder, ;;;fronte
+AddVertex,7, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,7, 5.7, 0,
+AddFace,0, 1, 2, 3,
+translate, -95.5,0,0,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+
+
+CreateMeshBuilder, ;;;lato dx
+AddVertex,6, 5.7, 0,
+AddVertex,6, -1, 0,
+AddVertex,6, -1, 15,
+AddVertex,6, 5.7, 15,
+AddFace,3, 2, 1, 0,
+translate, -94.5,0,0,
+GenerateNormals,
+
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 2, 0,
+
+CreateMeshBuilder, ;;;retro
+AddVertex,7, -1, 0,
+AddVertex,6,-1, 0,
+AddVertex,6, 5.7, 0,
+AddVertex,7, 5.7, 0,
+AddFace,3, 2, 1, 0,
+translate,-95.5,0,15
+GenerateNormals,
+LoadTexture,pontelato.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+

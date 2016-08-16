@@ -1,0 +1,168 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshBuilder,
+AddVertex,2.3, 3.8, -60,
+AddVertex,-1.2, 3.8, -45,
+AddVertex,-1.2 ,0, -45,
+AddVertex,2.3, 0, -60,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,b2_ef2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+CreateMeshBuilder,
+AddVertex,-3.8,3.8,-60,
+AddVertex,2.3,3.8,-60,
+AddVertex,-3.8,0,-60,
+AddVertex,2.3,0,-60,
+AddFace,0,1,3,2,
+GenerateNormals,
+LoadTexture,b2_ef1.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+CreateMeshBuilder,
+AddVertex,-3.3, 4.5, -30
+AddVertex,-2.3, 4.5, -30
+AddVertex,-3.3, -0.5, -30
+AddVertex,-2.3, -0.5, -30
+AddFace,0,1,3,2
+GenerateNormals,
+LoadTexture,../overcable3.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 6,
+SetTextureCoordinates,3, 1, 6,
+SetDecalTransparentColor,198,198,198,
+CreateMeshBuilder,
+AddVertex,-2.32, 4.5, -30
+AddVertex,3.34, 4.5, -30
+AddVertex,3.34, 3.5, -30
+AddVertex,-2.32, 3.5, -30
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../overcable2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 3, 0,
+SetTextureCoordinates,2, 3, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,198,198,198,
+CreateMeshBuilder,
+AddVertex,3.34, 4.5, -30
+AddVertex,22, 4.5, -30
+AddVertex,22, 3.5, -30
+AddVertex,3.34, 3.5, -30
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../overcable2.png,
+SetTextureCoordinates,0, 8, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 8, 1,
+SetDecalTransparentColor,198,198,198,
+CreateMeshBuilder,
+AddVertex,8, 4.5, -30
+AddVertex,9, 4.5, -30
+AddVertex,8, -0.5, -30
+AddVertex,9, -0.5, -30
+AddFace,0,1,3,2
+GenerateNormals,
+LoadTexture,../overcable3.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 6,
+SetTextureCoordinates,3, 1, 6,
+SetDecalTransparentColor,198,198,198,
+CreateMeshBuilder,
+AddVertex,21, 4.5, -30
+AddVertex,22, 4.5, -30
+AddVertex,21, -0.5, -30
+AddVertex,22, -0.5, -30
+AddFace,0,1,3,2
+GenerateNormals,
+LoadTexture,../overcable3.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 6,
+SetTextureCoordinates,3, 1, 6,
+SetDecalTransparentColor,198,198,198,
+CreateMeshBuilder,
+AddVertex,-3.32, 4.5, -29
+AddVertex,3.34, 4.5, -29
+AddVertex,3.34, 3.5, -29,
+AddVertex,-3.32, 3.5, -29
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../overcable2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 3, 0,
+SetTextureCoordinates,2, 3, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,198,198,198,
+CreateMeshBuilder,
+AddVertex,3.34, 4.5, -29
+AddVertex,22, 4.5, -29
+AddVertex,22, 3.5, -29
+AddVertex,3.34, 3.5, -29
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../overcable2.png,
+SetTextureCoordinates,0, 8, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 8, 1,
+SetDecalTransparentColor,198,198,198,
+CreateMeshBuilder,
+Addvertex,-3.0, 6, -20
+Addvertex,-2.5, 6, -25
+Addvertex,-2.5, -0.6, -25
+Addvertex,-3.0, -0.6, -20
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../morden_build3.png
+SetTextureCoordinates,0,3,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,3,1
+CreateMeshBuilder,;side main
+AddVertex,-6.2, -0.6, -25
+AddVertex,-6.2, 6, -25
+AddVertex,-2.5, 6, -25
+AddVertex,-2.5, -0.6, -25
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../morden_build3.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+CreateMeshBuilder,
+Addvertex,-1.8, 6, -20
+Addvertex,-2.8, 6, -10
+Addvertex,-2.8, -0.6, -10
+Addvertex,-1.8, -0.6, -20
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../morden_build3.png
+SetTextureCoordinates,0,3,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,3,1
+CreateMeshBuilder,
+AddVertex,-9, -0.6, -20
+AddVertex,-9, 6, -20
+AddVertex,-1.8, 6, -20
+AddVertex,-1.8, -0.6,-20
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../morden_build3.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+

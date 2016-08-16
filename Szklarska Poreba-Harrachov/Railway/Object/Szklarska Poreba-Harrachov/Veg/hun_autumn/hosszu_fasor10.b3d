@@ -1,0 +1,834 @@
+;-----------------------------------
+;-----------Hosszú fasor------------
+;-----------------------------------
+
+;fa1
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,11,0
+vertex  4,11,0
+face2 0,1,2,3
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,11,-4.5
+vertex 0,11, 4.5
+face2 0,1,2,3
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa2
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,13,0
+vertex  4,13,0
+face2 0,1,2,3
+translate 4,0,0,
+
+load beech24_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,13,-4.5
+vertex 0,13, 4.5
+face2 0,1,2,3
+translate 4,0,0,
+
+load beech24_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa3
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 8,0,0,
+
+load beech24_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 8,0,0,
+
+load beech24_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa4
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 12,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 12,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa5
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,17,0
+vertex  4,17,0
+face2 0,1,2,3
+translate 16,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,17,-4.5
+vertex 0,17, 4.5
+face2 0,1,2,3
+translate 16,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa6
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 20,0,0,
+
+load poplars.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 20,0,0,
+
+load poplars.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa6
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,15,0
+vertex  4,15,0
+face2 0,1,2,3
+translate 24,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,15,-4.5
+vertex 0,15, 4.5
+face2 0,1,2,3
+translate 24,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa6
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,16,0
+vertex  4,16,0
+face2 0,1,2,3
+translate 28,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,16,-4.5
+vertex 0,16, 4.5
+face2 0,1,2,3
+translate 28,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa7
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,16,0
+vertex  4,16,0
+face2 0,1,2,3
+translate 32,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,16,-4.5
+vertex 0,16, 4.5
+face2 0,1,2,3
+translate 32,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa8
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 36,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 36,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa9
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 40,0,0,
+
+load beech24_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 40,0,0,
+
+load beech24_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa10
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,16,0
+vertex  4,16,0
+face2 0,1,2,3
+translate 44,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,16,-4.5
+vertex 0,16, 4.5
+face2 0,1,2,3
+translate 44,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa11
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,17,0
+vertex  4,17,0
+face2 0,1,2,3
+translate 48,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,17,-4.5
+vertex 0,17, 4.5
+face2 0,1,2,3
+translate 48,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa12
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,15,0
+vertex  4,15,0
+face2 0,1,2,3
+translate 52,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,15,-4.5
+vertex 0,15, 4.5
+face2 0,1,2,3
+translate 52,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa13
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,15,0
+vertex  4,15,0
+face2 0,1,2,3
+translate 56,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,15,-4.5
+vertex 0,15, 4.5
+face2 0,1,2,3
+translate 56,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa14
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,15,0
+vertex  4,15,0
+face2 0,1,2,3
+translate 60,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,15,-4.5
+vertex 0,15, 4.5
+face2 0,1,2,3
+translate 60,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa15
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 64,0,0,
+
+load poplars.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 64,0,0,
+
+load poplars.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa16
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,13,0
+vertex  4,13,0
+face2 0,1,2,3
+translate 68,0,0,
+
+load poplars.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,13,-4.5
+vertex 0,13, 4.5
+face2 0,1,2,3
+translate 68,0,0,
+
+load poplars.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa16
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 72,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 72,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa17
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,16,0
+vertex  4,16,0
+face2 0,1,2,3
+translate 76,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,16,-4.5
+vertex 0,16, 4.5
+face2 0,1,2,3
+translate 76,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa18
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,15,0
+vertex  4,15,0
+face2 0,1,2,3
+translate 80,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,15,-4.5
+vertex 0,15, 4.5
+face2 0,1,2,3
+translate 80,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa18
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,15,0
+vertex  4,15,0
+face2 0,1,2,3
+translate 84,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,15,-4.5
+vertex 0,15, 4.5
+face2 0,1,2,3
+translate 84,0,0,
+
+load beech24_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa18
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,15,0
+vertex  4,15,0
+face2 0,1,2,3
+translate 88,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,15,-4.5
+vertex 0,15, 4.5
+face2 0,1,2,3
+translate 88,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa19
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 92,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 92,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa20
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,14,0
+vertex  4,14,0
+face2 0,1,2,3
+translate 96,0,0,
+
+load beech24_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,14,-4.5
+vertex 0,14, 4.5
+face2 0,1,2,3
+translate 96,0,0,
+
+load beech24_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa21
+
+[Meshbuilder]
+vertex  4,0, 0
+vertex -4,0, 0
+vertex -4,13,0
+vertex  4,13,0
+face2 0,1,2,3
+translate 100,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  4.5
+vertex 0,0, -4.5
+vertex 0,13,-4.5
+vertex 0,13, 4.5
+face2 0,1,2,3
+translate 100,0,0,
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+

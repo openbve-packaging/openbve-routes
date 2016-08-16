@@ -1,0 +1,130 @@
+CreateMeshBuilder
+AddVertex,9.6,  1.8, -2
+AddVertex,9.6,  1.8, 25.3
+AddVertex,9.6,  0.2, 25.3
+AddVertex,9.6,  0.2, -2
+AddFace2,0,1,2,3
+LoadTexture,kiyo_wallC.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+CreateMeshBuilder
+AddVertex,-3.8,  1.8, -2
+AddVertex,-3.8,  1.8, 25.3
+AddVertex,-3.8,  0.2, 25.3
+AddVertex,-3.8,  0.2, -2
+AddFace2,0,1,2,3
+LoadTexture,kiyo_wallC.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,8.5,-0.2, 25.3
+AddVertex,9.6, 0.2, 25.3
+AddVertex,9.6, 0.2, -2
+AddVertex,8.5,-0.2, -2
+AddFace2,0,1,2,3,
+Loadtexture,kiyo_wallB.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-2.7,-0.2, 25.3
+AddVertex,-3.8, 0.2, 25.3
+AddVertex,-3.8, 0.2, -2
+AddVertex,-2.7,-0.2, -2
+AddFace2,0,1,2,3,
+Loadtexture,kiyo_wallB.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,8.5,-0.2, -2
+AddVertex,8.5,-0.2, 25.3
+AddVertex,8.4,-2.6, 25.3
+AddVertex,8.4,-2.6, -2
+AddFace2,0,1,2,3,
+Loadtexture,kiyo_wallA.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-2.7,-0.2, -2
+AddVertex,-2.7,-0.2, 25.3
+AddVertex,-2.6,-2.6, 25.3
+AddVertex,-2.6,-2.6, -2
+AddFace2,0,1,2,3,
+Loadtexture,kiyo_wallA.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.6, -2.6, -2,
+AddVertex,-2.6, -2.6, 25.3,
+AddVertex, 8.4, -2.6, 25.3,
+AddVertex, 8.4, -2.6, -2,
+AddFace2,3,2,1,0,
+Loadtexture,kiyo_under.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-3.8,  0.2, -2
+AddVertex,-3.8,  0.2, 26.3
+AddVertex, 9.6,  0.2, 26.3
+AddVertex, 9.6,  0.2, -2
+AddFace2,0,1,2,3
+LoadTexture,roadA.bmp
+SetTextureCoordinates,0,0,5,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,5,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-3, -2, 0
+AddVertex,-3,  4.2, 0
+AddVertex,-0.7,  4.2, 0
+AddVertex,-0.7, -2, 0
+AddFace2,0,1,2,3
+LoadTexture,right2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+GenerateNormals,
+Translate,-0.8,2.1,0
+
+CreateMeshBuilder
+AddVertex,3, -2, 0
+AddVertex,3,  4.2, 0
+AddVertex,0.7,  4.2, 0
+AddVertex,0.7, -2, 0
+AddFace2,3,2,1,0
+LoadTexture,right2.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,0
+GenerateNormals
+Translate,6.6,2.1,0

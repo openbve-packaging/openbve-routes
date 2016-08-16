@@ -1,0 +1,42 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Muro di pietre su lato sinistro (dritto o in curva a sinistra)
+
+[MeshBuilder] ; Muro interrato
+vertex -3.3 , 5 , -0.1
+vertex -3.3 , 5 , 25.1
+vertex -2.7 ,-0.1 , 25.1
+vertex -2.7 ,-0.1 ,-0.1
+vertex -2.2 ,-0.3 , 25.1
+vertex -2.2 ,-0.3 ,-0.1
+
+
+Face 0,1,2,3
+Face 3,2,4,5
+
+[texture]
+load muro_pietre.bmp
+coordinates 0, 0, 0
+coordinates 1, 1.0, 0
+coordinates 2, 1.0, 0.92
+coordinates 3, 0, 0.92
+coordinates 4, 1, 1
+coordinates 5, 0, 1
+
+
+transparent 0, 0, 255
+
+[MeshBuilder]; Ghiaia a copertura
+Vertex -2.7, -0.25, 25.5
+Vertex -1.0, -0.25, 25.5
+Vertex -1.0, -0.25, -0.5
+Vertex -2.7, -0.25, -0.5
+Face 0,1,2,3
+[texture]
+load ..\Rails\Trav-gray.bmp
+Coordinates 0, 0.4,0
+Coordinates 1, 0,  0
+Coordinates 2, 0, 21
+Coordinates 3, 0.4, 21

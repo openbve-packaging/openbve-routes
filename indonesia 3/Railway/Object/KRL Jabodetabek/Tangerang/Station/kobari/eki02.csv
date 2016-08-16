@@ -1,0 +1,14 @@
+
+CreateMeshBuilder
+Addvertex,7.6,1,-25
+Addvertex,7.6,5,-25
+Addvertex,7.6,5,-7
+Addvertex,7.6,1,-7
+AddFace,0,3,2,1
+GenerateNormals
+
+LoadTexture,eki02.bmp
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1

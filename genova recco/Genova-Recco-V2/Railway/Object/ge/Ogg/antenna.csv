@@ -1,0 +1,58 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;base
+CreateMeshBuilder
+cylinder, 3, 0.1, 0.25,7,
+translate, 1,6,2 ,    
+setcolor,77,96,84
+
+
+;;;;base
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 3, 0,
+AddVertex,2, 3, 0,
+AddVertex,2, 0, 0,
+addface,0, 1, 2, 3,
+GenerateNormals,
+setcolor,47,66,54
+
+CreateMeshBuilder,
+AddVertex,2,0, 4,
+AddVertex,2, 3, 4,
+AddVertex,0, 3, 4,
+AddVertex,0, 0, 4,
+addface,0, 1, 2, 3,
+GenerateNormals,
+setcolor,47,66,54
+
+
+CreateMeshBuilder,
+AddVertex,0, 0, 4,
+AddVertex,0, 3, 4,
+AddVertex,0, 3, 0,
+AddVertex,0, 0, 0,
+addface,0, 1, 2, 3,
+GenerateNormals,
+setcolor,47,66,54
+
+CreateMeshBuilder,
+AddVertex,2, 0, 4,
+AddVertex,2, 3, 4,
+AddVertex,2, 3, 0,
+AddVertex,2, 0, 0,
+addface,3, 2, 1, 0,
+GenerateNormals,
+setcolor,47,66,54
+
+CreateMeshBuilder,
+AddVertex,0, 3, 4,
+AddVertex,2,3, 4,
+AddVertex,2, 3, 0,
+AddVertex,0, 3, 0,
+addface,0, 1, 2, 3,
+GenerateNormals,
+setcolor,47,66,54

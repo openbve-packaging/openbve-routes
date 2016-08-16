@@ -1,0 +1,75 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;Textures by Oskari Saarekas with Permission
+
+CreateMeshBuilder
+AddVertex,-5.5, 2.4, 3
+AddVertex,-4.7, 2.4, 3
+AddVertex,-4.7, 0.5, 3
+AddVertex,-5.5, 0.5, 3
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,peopl138.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-3.25, 2.4, 4
+AddVertex,-2.35, 2.4, 4
+AddVertex,-2.35, 0.5, 4
+AddVertex,-3.25, 0.5, 4
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,peopl141.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-4.85, 2.4, 10
+AddVertex,-3.25, 2.4, 10
+AddVertex,-3.25, 0.5, 10
+AddVertex,-4.85, 0.5, 10
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,peopl146.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-6, 2.4, 8
+AddVertex,-5.2, 2.4, 8
+AddVertex,-5.2, 0.5, 8
+AddVertex,-6, 0.5, 8
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,peopl147.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-3.25, 2.4, 17
+AddVertex,-2.45, 2.4, 17
+AddVertex,-2.45, 0.5, 17
+AddVertex,-3.25, 0.5, 17
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,peopl150.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+
+
+
+
+
+

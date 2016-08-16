@@ -1,0 +1,87 @@
+; SerbAcqua.csv by Luigi Cartello cartello.luigi@tiscali.it
+
+; Oggetto BVE costruito interamente con istruzioni Cylinder
+; e Cube esclusive del formato CSV.
+; Dimostrazione di oggetti Cylinder e Cube con applicata texture
+
+; Questo oggetto, il cui ompiego è previsto mediante l'istruzione Freeobj,
+; non può essere collocato liberamente in qualsiasi posizione, ma deve
+; essere opportunamente orientato in modo da nascondere la faccia con
+; la texture anomala.
+; Di default è visibile correttamente 6 metri a sinistra del binario.
+
+CreateMeshBuilder ; basamento
+Cylinder,12,2,2,0.4
+Translate,-6,0,0  ; risulta "interrato" di 20 cm
+SetColor,150,150,150
+
+CreateMeshBuilder ; struttura portante
+Cylinder,12,1.5,1.5,7.8
+Translate,-6,4.1,0
+SetColor,160,160,160
+
+CreateMeshBuilder ; zoccolo
+Cylinder,12,1.51,1.51,1
+Translate,-6,0.5,0
+SetColor,150,150,150
+
+CreateMeshBuilder ; anello su struttura
+Cylinder,12,1.6,1.6,0.2
+Translate,-6,7,0
+SetColor,200,200,200
+
+CreateMeshBuilder ; anello inferiore su corpo
+Cylinder,12,2.2,2.2,0.2
+Translate,-6,8.1,0
+SetColor,200,200,200
+
+CreateMeshBuilder ; Corpo principale
+Cylinder,12,2,2,4
+Rotate,0,1,0,-195 ; Per posizionare correttamente i loghi
+                  ; e nascondere la 12a faccia
+Translate,-6,10.1,0
+SetColor,128,128,128
+
+CreateMeshBuilder ; anello superiore
+Cylinder,12,2.1,2.1,0.2
+Translate,-6,12.1,0
+SetColor,200,200,200
+
+CreateMeshBuilder ; coperchio
+Cylinder,12,0.4,2.11,0.7
+Translate,-6,12.45,0
+SetColor,128,128,128
+
+CreateMeshBuilder ; Aeratore
+Cube,0.4
+LoadTexture,aeratore.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,1 
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,1,1
+SetTextureCoordinates,4,2,0
+SetTextureCoordinates,5,2,1
+SetTextureCoordinates,7,1,0
+SetTextureCoordinates,6,1,1
+Translate,-6,13.15,0
+
+CreateMeshBuilder ; tettuccio aeratore
+Cylinder,12,0.1,0.7,0.4
+Translate,-6,13.8,0
+SetColor,128,128,128
+
+CreateMeshBuilder ; parafulmine
+Cylinder,3,0.05,0.05,1.5
+Translate,-6,14.5,0
+SetColor,128,128,128
+
+;CreateMeshBuilder ; porta
+;Cube,0.15,1.25,0.6
+;LoadTexture,aeratore.bmp
+;SetTextureCoordinates,0, 0.1, 0.06
+;SetTextureCoordinates,4, 0.9, 0.06
+;SetTextureCoordinates,5, 0.9, 0.85 
+;SetTextureCoordinates,1, 0.1, 0.85
+;SetTextureCoordinates,7, 1.1, 0.06
+;SetTextureCoordinates,6, 1.1, 0.85
+;Translate,-4.62,1.4,0

@@ -1,0 +1,327 @@
+[MeshBuilder]
+Vertex -1.35, -0.17, -0.5
+Vertex -1.35, -0.175, 25.5
+Vertex 1.35, -0.175, 25.5
+Vertex 1.35, -0.17, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load schwellen2.bmp
+Coordinates 0, -0.02, 10
+Coordinates 1, -0.02, 0
+Coordinates 2, 1.02, 0
+Coordinates 3, 1.02, 10
+
+[MeshBuilder]
+Vertex -2.8, -0.4, -0.5
+Vertex -2.8, -0.405, 25.5
+Vertex -1.35, -0.175, 25.5
+Vertex -1.35, -0.17, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load schotter2.bmp
+Coordinates 0, 0, 10
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 10
+
+[MeshBuilder]
+Vertex 1.35, -0.175, 25.5
+Vertex 2.8, -0.405, 25.5
+Vertex 2.8, -0.4, -0.5
+Vertex 1.35, -0.17, -0.5
+Face 0,1,2,3
+[Texture]
+Load schotter2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 10
+Coordinates 3, 0, 10
+
+[MeshBuilder]
+Vertex -0.8, 0, -0.4
+Vertex -0.8, 0, 25.4
+Vertex -0.72, 0, 25.4
+Vertex -0.72, 0, -0.4
+Face 0, 1, 2, 3
+Color 180,170,180
+
+[MeshBuilder]
+Vertex 0.72, 0, -0.3
+Vertex 0.72, 0, 25.3
+Vertex 0.8, 0, 25.3
+Vertex 0.8, 0, -0.3
+Face 0, 1, 2, 3
+Color 180,170,180
+
+[meshbuilder]
+vertex 0.76, 0, 25.3
+vertex 0.76, 0, -0.3
+vertex 0.76, -0.17, -0.3
+vertex 0.76, -0.17, 25.3
+face 0,1,2,3
+face 1,0,3,2
+color 85,60,60
+
+[meshbuilder]
+vertex -0.76, 0, -0.3
+vertex -0.76, 0, 25.3
+vertex -0.76, -0.17, 25.3
+vertex -0.76, -0.17, -0.3
+face 0,1,2,3
+face 1,0,3,2
+color 85,60,60
+
+; Now the power rails
+
+[Meshbuilder] ; Centre ground rail (-210V fyi)
+Vertex 0.05,0.05,14
+Vertex 0.05,0.05,-0.3
+Vertex -0.05,0.05,-0.3
+Vertex -0.05,0.05,14
+Face 0,1,2,3
+Color 140,120,120
+
+[Meshbuilder]
+Vertex 0,0.05,-0.3
+Vertex 0,-0.1,-0.3
+Vertex 0,-0.1,14
+Vertex 0,0.05,14
+Face2 0,1,2,3
+Color 90,70,70
+
+[Meshbuilder]
+Vertex 0.05,-0.1,14
+Vertex 0.05,-0.1,-0.3
+Vertex -0.05,-0.1,-0.3
+Vertex -0.05,-0.1,14
+Face 0,1,2,3
+Color 90,70,70
+
+[Meshbuilder] ; Outer live rail (+420V fyi)
+Vertex -1.11,0.05,14
+Vertex -1.11,0.05,-0.3
+Vertex -1.21,0.05,-0.3
+Vertex -1.21,0.05,14
+Face 0,1,2,3
+Color 140,120,120
+
+[Meshbuilder]
+Vertex -1.16,0.05,-0.3
+Vertex -1.16,-0.1,-0.3
+Vertex -1.16,-0.1,14
+Vertex -1.16,0.05,14
+Face2 0,1,2,3
+Color 90,70,70
+
+[Meshbuilder]
+Vertex -1.11,-0.1,14
+Vertex -1.11,-0.1,-0.3
+Vertex -1.21,-0.1,-0.3
+Vertex -1.21,-0.1,14
+Face 0,1,2,3
+Color 90,70,70
+
+[Meshbuilder] ; Centre rail insulators
+Vertex 0.15,-0.1,2
+Vertex 0.2,-0.17,2
+Vertex -0.2,-0.17,2
+Vertex -0.15,-0.1,2
+
+Vertex 0.15,-0.1,7
+Vertex 0.2,-0.17,7
+Vertex -0.2,-0.17,7
+Vertex -0.15,-0.1,7
+
+Vertex 0.15,-0.1,12
+Vertex 0.2,-0.17,12
+Vertex -0.2,-0.17,12
+Vertex -0.15,-0.1,12
+
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Color 180,180,180
+
+[Meshbuilder] ; Outer rail insulators
+Vertex -1.01,-0.1,2
+Vertex -0.96,-0.17,2
+Vertex -1.36,-0.17,2
+Vertex -1.31,-0.1,2
+
+Vertex -1.01,-0.1,7
+Vertex -0.96,-0.17,7
+Vertex -1.36,-0.17,7
+Vertex -1.31,-0.1,7
+
+Vertex -1.01,-0.1,12
+Vertex -0.96,-0.17,12
+Vertex -1.36,-0.17,12
+Vertex -1.31,-0.1,12
+
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Color 180,180,180
+
+[Meshbuilder] ; The grassy nol
+Vertex 2.8,-0.405,29
+Vertex 2.8,-0.405,20
+Vertex -2.8,-0.405,20
+Vertex -2.8,-0.405,29
+Vertex 0,1,22.5
+Face 0,1,4
+Face 1,2,4
+Face 2,3,4
+Face 3,0,4
+[Texture]
+load grass.bmp
+Coordinates 0,3,0
+Coordinates 1,3,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+Coordinates 4,1.5,1.5
+
+[Meshbuilder] ; The end barrier
+Vertex 2.2,1.8,29
+Vertex 2.2,1.6,29
+Vertex -2.2,1.6,29
+Vertex -2.2,1.8,29
+Face 0,1,2,3
+[Texture]
+load end_bar.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; barrier box
+Vertex 2.2,1.8,29
+Vertex 2.2,1.6,29
+Vertex -2.2,1.6,29
+Vertex -2.2,1.8,29
+Vertex 2.2,1.8,29.1
+Vertex 2.2,1.6,29.1
+Vertex -2.2,1.6,29.1
+Vertex -2.2,1.8,29.1
+Face 4,0,3,7
+Face 4,5,1,0
+Face 3,2,6,7
+Color 150,150,150
+
+[Meshbuilder] ; poles holding the barrier up
+Vertex -1.2,1.6,29.05
+Vertex -1.2,-0.405,29.05
+Vertex -1.32,-0.405,29.05
+Vertex -1.32,1.6,29.05
+Vertex 1.32,1.6,29.05
+Vertex 1.32,-0.405,29.05
+Vertex 1.2,-0.405,29.05
+Vertex 1.2,1.6,29.05
+Face 0,1,2,3
+Face 4,5,6,7
+Color 0,0,0
+
+[Meshbuilder] ; the singular red light
+Vertex 0.13,2.3,18.8
+Vertex 0.13,2,18.8
+Vertex -0.13,2,18.8
+Vertex -0.13,2.3,18.8
+Face 0,1,2,3
+[Texture]
+load redlight.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 0.13,2.3,18.8
+Vertex 0.13,2,18.8
+Vertex -0.13,2,18.8
+Vertex -0.13,2.3,18.8
+Vertex 0.13,2.3,19.1
+Vertex 0.13,2,19.1
+Vertex -0.13,2,19.1
+Vertex -0.13,2.3,19.1
+Face 4,0,3,7
+Face 4,5,1,0
+Face 3,2,6,7
+Color 150,150,150
+
+[Meshbuilder]
+Vertex 0.03,2,18.95
+Vertex 0.03,-0.3,18.95
+Vertex -0.03,-0.3,18.95
+Vertex -0.03,2,18.95
+Face 0,1,2,3
+Color 150,150,150
+
+[Meshbuilder] ; the two red lights
+Vertex -0.49,2.3,3.8
+Vertex -0.49,2,3.8
+Vertex -0.23,2,3.8
+Vertex -0.23,2.3,3.8
+Face 3,2,1,0
+[Texture]
+load redlight.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -0.23,2.3,3.8
+Vertex -0.23,2,3.8
+Vertex -0.49,2,3.8
+Vertex -0.49,2.3,3.8
+Vertex -0.23,2.3,4.1
+Vertex -0.23,2,4.1
+Vertex -0.49,2,4.1
+Vertex -0.49,2.3,4.1
+Face 4,0,3,7
+Face 4,5,1,0
+Face 3,2,6,7
+Color 150,150,150
+
+[Meshbuilder]
+Vertex -0.39,2,3.95
+Vertex -0.39,-0.3,3.95
+Vertex -0.33,-0.3,3.95
+Vertex -0.33,2,3.95
+Face 3,2,1,0
+Color 150,150,150
+
+[Meshbuilder] ; the two red lights
+Vertex 0.49,2.3,3.8
+Vertex 0.49,2,3.8
+Vertex 0.23,2,3.8
+Vertex 0.23,2.3,3.8
+Face 0,1,2,3
+[Texture]
+load redlight.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 0.23,2.3,3.8
+Vertex 0.23,2,3.8
+Vertex 0.49,2,3.8
+Vertex 0.49,2.3,3.8
+Vertex 0.23,2.3,4.1
+Vertex 0.23,2,4.1
+Vertex 0.49,2,4.1
+Vertex 0.49,2.3,4.1
+Face 7,3,0,4
+Face 0,1,5,4
+Face 7,6,2,3
+Color 150,150,150
+
+[Meshbuilder]
+Vertex 0.39,2,3.95
+Vertex 0.39,-0.3,3.95
+Vertex 0.33,-0.3,3.95
+Vertex 0.33,2,3.95
+Face 0,1,2,3
+Color 150,150,150

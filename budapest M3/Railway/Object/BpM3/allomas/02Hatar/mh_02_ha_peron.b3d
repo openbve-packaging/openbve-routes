@@ -1,0 +1,34 @@
+;Kihúzóperon
+;peron oldal
+[MeshBuilder]
+Vertex -1.690,-0.40,-00.2
+Vertex -1.690, 0.90,-00.2
+Vertex -1.690, 0.90, 25.3
+Vertex -1.690,-0.40, 25.3
+Face 0,1,2,3
+Color 150,150,150
+Load mh_02_ha_khperonoldal.bmp
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,12,0
+Coordinates 3,12,2
+
+;peron tetõ
+[MeshBuilder]
+Vertex -3.85, 1.10,-00.2
+Vertex -3.85, 1.10, 25.3
+Vertex -1.42, 1.10, 25.3
+Vertex -1.42, 1.10,-00.2
+
+Vertex -1.42, 0.90,-00.2
+Vertex -1.42, 0.90, 25.2
+Face 0,1,2,3
+Face 4,3,2,5
+Color 120,120,120
+Load mh_02_ha_khperonteto.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0

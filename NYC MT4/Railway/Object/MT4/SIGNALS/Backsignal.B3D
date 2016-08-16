@@ -1,0 +1,14 @@
+[meshbuilder] 
+
+vertex -0.3,3.0,0.0
+vertex  0.3,3.0,0.0
+vertex  0.3,0.0,0.0
+vertex -0.3,0.0,0.0
+face 0,1,2,3
+[texture]
+Load BackSignal.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255

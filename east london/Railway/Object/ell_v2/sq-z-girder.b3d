@@ -1,0 +1,32 @@
+; girders that run horizontally across the tracks
+[MeshBuilder]
+Vertex 1.8,4.7,0
+Vertex 3.2,4.7,0
+Vertex 3.2,4.7,25
+Vertex 1.8,4.7,25
+Face2 0,1,2,3
+Color 140,140,140
+
+[Meshbuilder]
+Vertex 2.1,5,0
+Vertex 2.1,4.7,0
+Vertex 2.1,4.7,25
+Vertex 2.1,5,25
+Face 0,1,2,3
+Color 210,210,210
+
+[Meshbuilder]
+Vertex 1.8,4.95,0
+Vertex 3.2,4.95,0
+Vertex 3.2,4.95,25
+Vertex 1.8,4.95,25
+Face2 0,1,2,3
+Color 240,240,240
+
+[Meshbuilder]
+Vertex 2.9,5,0
+Vertex 2.9,4.7,0
+Vertex 2.1,4.7,0
+Vertex 2.1,5,0
+Face 0,1,2,3
+Color 210,210,210

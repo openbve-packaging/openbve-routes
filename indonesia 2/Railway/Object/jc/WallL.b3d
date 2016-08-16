@@ -1,0 +1,50 @@
+[MeshBuilder]
+Vertex -2.6, -0.6, 0
+Vertex -1.9, -0.6, 0
+Vertex -1.9, -1.5, 0
+Vertex 1.9, -1.5, 0
+Vertex -2.6, -0.6, 28
+Vertex -1.9, -0.6, 28
+Vertex -1.9, -1.5, 28
+Vertex 1.9, -1.5, 28
+Face 0, 1, 5, 4
+Face 1, 2, 6, 5
+Face 2, 3, 7, 6
+Color 160, 160, 160
+
+[MeshBuilder]
+Vertex -1.9, -0.3, 0
+Vertex -2.5, -0.3, 0
+Vertex -2.5, 1.5, 0
+Vertex -2.6, 1.5, 0
+Vertex -2.6, -0.6, 0
+Vertex -1.9, -0.3, 25.3
+Vertex -2.5, -0.3, 25.3
+Vertex -2.5, 1.5, 25.3
+Vertex -2.6, 1.5, 25.3
+Vertex -2.6, -0.6, 25.3
+Face 0, 1, 6, 5
+Face 1, 2, 7, 6
+Face 2, 3, 8, 7
+Face 3, 4, 9, 8
+
+[Texture]
+Load Concrete.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.8
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0.9
+Coordinates 4, 0, 0
+Coordinates 9, 12, 0
+Coordinates 8, 12, 0.8
+Coordinates 7, 12, 1
+Coordinates 6, 12, 0.9
+Coordinates 5, 12, 1
+
+[MeshBuilder]
+Vertex -2.6, -0.3, 0
+Vertex -2.6, 1.5, 0
+Vertex -2.5, 1.5, 0
+Vertex -2.5, -0.3, 0
+Face 0, 1, 2, 3
+Color 160, 160, 160

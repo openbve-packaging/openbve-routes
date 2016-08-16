@@ -1,0 +1,179 @@
+;Joao Carlos Goncalves, January 2003
+;Please seek permission to use this file on your route.
+;http://joaocg.topcities.com
+;
+;Description: EFCJ's station building at Pindamonhangaba, SP
+
+;front wall
+[MeshBuilder]
+Vertex -4, 3, -17
+Vertex -4, 5, -17
+Vertex 4, 3, -17
+Vertex 4, -2, -17
+Vertex -4, -2, -17
+Face 0,1,2
+Face 0,2,3,4
+color 170,180,185
+[Texture]
+Load H101_BW_wall.bmp
+Coordinates 0, 0, 0.131
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.131
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Transparent 0,0,0
+
+;left wall 
+[MeshBuilder]
+Vertex -4, 3,  3       
+Vertex -4, 3, -7
+Vertex -4, -2, -7
+Vertex -4, -2,  3
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load H101_BW.bmp
+Coordinates 0, 0, 0.13
+Coordinates 1, 1, 0.13
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;right wall
+[MeshBuilder]
+Vertex 4, 3, -7
+Vertex 4, 3, 3
+Vertex 4, -2, 3
+Vertex 4, -2, -7
+Face 0,1,2,3
+Face 3,2,1,0
+color 103,103,103
+[Texture]
+Load h101_BW.bmp
+Coordinates 0, 0, 0.131
+Coordinates 1, 1, 0.131
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;back wall
+[MeshBuilder]
+Vertex 4, 3, 3
+Vertex -4, 5, 3
+Vertex -4, 3, 3
+Vertex -4, -2, 3
+Vertex 4, -2, 3
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+Color 104,104,104
+[Texture]
+Load H101_BW_wall.bmp
+Coordinates 0, 0, 0.131
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.131
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Transparent 0,0,0
+
+;;;floor
+[MeshBuilder]
+Vertex -4.00, -1.38,  -17.00
+Vertex  4.01, -1.38,  -17.00
+Vertex  4.01, -1.38,  2.5
+Vertex -4.00, -1.38,  2.5
+Face 3,2,1,0
+Face 0,1,2,3
+color 100,100,100
+[Texture]
+Load concrete.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;;roof both sides
+[MeshBuilder]
+Vertex -4, 5, 3
+Vertex -4, 5, 3
+Vertex 4, 3, 3
+Vertex 4, 3, -7
+Vertex -4, 5, -7
+Vertex -4, 5, -7
+Face 0,1,4,5
+Face 1,2,3,4
+Face 4,3,2,1
+Face 5,4,1,0
+Color 150,150,150
+[Texture]
+Load Roof_french.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 0, 3
+Coordinates 3, 10, 3
+Coordinates 4, 10, 0
+Coordinates 5, 10, 3
+
+;;;;;===========================
+;left wall 
+[MeshBuilder]
+Vertex -4, 3,  -7       
+Vertex -4, 3, -17
+Vertex -4, -2, -17
+Vertex -4, -2,  -7
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load H101_BW.bmp
+Coordinates 0, 0, 0.13
+Coordinates 1, 1, 0.13
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;right wall
+[MeshBuilder]
+Vertex 4, 3, -17
+Vertex 4, 3, -7
+Vertex 4, -2, -7
+Vertex 4, -2, -17
+Face 0,1,2,3
+Face 3,2,1,0
+color 103,103,103
+[Texture]
+Load H101_BW.bmp
+Coordinates 0, 0, 0.131
+Coordinates 1, 1, 0.131
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;;roof both sides
+[MeshBuilder]
+Vertex -4, 5, -17
+Vertex -4, 5, -17
+Vertex 4, 3, -17
+Vertex 4, 3, -7
+Vertex -4, 5, -7
+Vertex -4, 5, -7
+Face 0,1,4,5
+Face 1,2,3,4
+Face 4,3,2,1
+Face 5,4,1,0
+Color 148,149,150
+[Texture]
+Load Roof_french.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 0, 3
+Coordinates 3, 10, 3
+Coordinates 4, 10, 0
+Coordinates 5, 10, 3
+
+
+
+
+
+
+

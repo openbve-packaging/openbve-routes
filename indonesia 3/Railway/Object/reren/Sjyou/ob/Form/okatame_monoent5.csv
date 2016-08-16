@@ -1,0 +1,243 @@
+CreateMeshBuilder,
+AddVertex,-4.6, 7.3, 22,
+AddVertex,-3.5, 7.3, 22,
+AddVertex,-3.5, 7.3, 24.8,
+AddVertex,-3.5, 1.1, 24.8,
+AddVertex,-3.5, 1.1, 22,
+AddVertex,-4.6, 1.1, 22,
+AddVertex,-6.2, 7.3, 22,
+AddVertex,-7.6, 7.3, 22,
+AddVertex,-7.6, 7.3, 24.8,
+AddVertex,-7.6, 1.1, 24.8,
+AddVertex,-7.6, 1.1, 22,
+AddVertex,-6.2, 1.1, 22,
+AddVertex,-7.6, 7.3, 24.8,
+AddVertex,-3.5, 7.3, 24.8,
+AddVertex,-3.5, 1.1, 24.8,
+AddVertex,-7.6, 1.1, 24.8,
+AddFace2,0,1,4,5,
+AddFace2,1,2,3,4,
+AddFace2,6,7,10,11,
+AddFace2,7,8,9,10,
+AddFace2,12,13,14,15,
+LoadTexture,../nihonwall4.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,2,0
+SetTextureCoordinates,2,4,0
+SetTextureCoordinates,3,4,1
+SetTextureCoordinates,4,2,1
+SetTextureCoordinates,5,0,1
+SetTextureCoordinates,6,0,0
+SetTextureCoordinates,7,2,0
+SetTextureCoordinates,8,4,0
+SetTextureCoordinates,9,4,1
+SetTextureCoordinates,10,2,1
+SetTextureCoordinates,11,0,1
+SetTextureCoordinates,12,0,0
+SetTextureCoordinates,13,1,0
+SetTextureCoordinates,14,1,1
+SetTextureCoordinates,15,0,1
+GenerateNormals,
+Setcolor,71,87,89
+SetEmissiveColor,50,90,140,
+Translate,0,0,-25
+
+CreateMeshBuilder,
+AddVertex,-4.6, 7.3, 22,
+AddVertex,-3.5, 7.3, 22,
+AddVertex,-3.5, 7.3, 24.8,
+AddVertex,-3.5, 1.1, 24.8,
+AddVertex,-3.5, 1.1, 22,
+AddVertex,-4.6, 1.1, 22,
+AddVertex,-6.2, 7.3, 22,
+AddVertex,-7.6, 7.3, 22,
+AddVertex,-7.6, 7.3, 24.8,
+AddVertex,-7.6, 1.1, 24.8,
+AddVertex,-7.6, 1.1, 22,
+AddVertex,-6.2, 1.1, 22,
+AddVertex,-7.6, 7.3, 24.8,
+AddVertex,-3.5, 7.3, 24.8,
+AddVertex,-3.5, 1.1, 24.8,
+AddVertex,-7.6, 1.1, 24.8,
+AddFace2,0,1,4,5,
+AddFace2,1,2,3,4,
+AddFace2,6,7,10,11,
+AddFace2,7,8,9,10,
+AddFace2,12,13,14,15,
+LoadTexture,../nihonwall4.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,2,0
+SetTextureCoordinates,2,4,0
+SetTextureCoordinates,3,4,1
+SetTextureCoordinates,4,2,1
+SetTextureCoordinates,5,0,1
+SetTextureCoordinates,6,0,0
+SetTextureCoordinates,7,2,0
+SetTextureCoordinates,8,4,0
+SetTextureCoordinates,9,4,1
+SetTextureCoordinates,10,2,1
+SetTextureCoordinates,11,0,1
+SetTextureCoordinates,12,0,0
+SetTextureCoordinates,13,1,0
+SetTextureCoordinates,14,1,1
+SetTextureCoordinates,15,0,1
+GenerateNormals,
+Setcolor,71,87,89
+SetEmissiveColor,50,90,140,
+Translate,15,,-25
+
+CreateMeshBuilder,
+AddVertex, -6.2, 7.3, 22
+AddVertex, -4.6, 7.3, 22
+AddVertex, -4.6, 1.1, 22
+AddVertex, -6.2, 1.1, 22
+ADdFace2,0,1,2,3,
+LoadTexture,../../Wall\SPF_1.bmp
+SetTextureCoordinates,0,0,-0.0
+SetTextureCoordinates,1,1,-0.0
+SetTextureCoordinates,2,1,0.8
+SetTextureCoordinates,3,0,0.8
+SetDecalTransparentColor,0,0,0
+Translate,0,0,-25
+
+CreateMeshBuilder,
+AddVertex, -6.2, 7.3, 22
+AddVertex, -4.6, 7.3, 22
+AddVertex, -4.6, 1.1, 22
+AddVertex, -6.2, 1.1, 22
+ADdFace2,0,1,2,3,
+LoadTexture,../../Wall\SPF_1.bmp
+SetTextureCoordinates,0,0,-0.0
+SetTextureCoordinates,1,1,-0.0
+SetTextureCoordinates,2,1,0.8
+SetTextureCoordinates,3,0,0.8
+SetDecalTransparentColor,0,0,0
+Translate,15,,-25
+
+CreateMeshBuilder,
+AddVertex, -4.2, 1.9, 21.98,
+AddVertex, -4.1, 1.9, 21.98,
+AddVertex, -4.1, 1.2, 21.98,
+AddVertex, -4.2, 1.2, 21.98,
+ADdFace2,0,1,2,3,
+LoadTexture,../elevator-button.png
+SetTextureCoordinates,0,0,-0.2
+SetTextureCoordinates,1,1.2,-0.2
+SetTextureCoordinates,2,1.2,1
+SetTextureCoordinates,3,0,1
+Translate,12.8,0.5,-25
+SetEmissiveColor,255,255,255,
+
+
+CreateMeshBuilder,
+AddVertex, 4.2, 1.9, 21.98,
+AddVertex, 4.1, 1.9, 21.98,
+AddVertex, 4.1, 1.2, 21.98,
+AddVertex, 4.2, 1.2, 21.98,
+ADdFace2,0,1,2,3,
+LoadTexture,../elevator-button.png
+SetTextureCoordinates,0,0,-0.2
+SetTextureCoordinates,1,1.2,-0.2
+SetTextureCoordinates,2,1.2,1
+SetTextureCoordinates,3,0,1
+Translate,-8.6,0.5,-25.0
+SetEmissiveColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,-14.5, 6.3, 0,
+ADdVertex,-14.5, 6.3, 22,
+AddVertex, 18.3, 6.3, 22,
+AddVertex, 18.3, 6.3, 0,
+AddFace,3,2,1,0,
+LoadTexture,../../Roof/RoofB.bmp
+SetTextureCoordinates,0, 0,-0.1,
+SetTextureCoordinates,1, 1,-0.1,
+SetTextureCoordinates,2, 1, 0.95,
+SetTextureCoordinates,3, 0, 0.95,
+GenerateNormals,
+SetEmissiveColor,255,255,255,
+Translate,0,0,-25
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex, -3.5, 7.3, 22
+AddVertex, -3.5, 7.3, 40
+AddVertex, 7.4, 7.3, 40
+AddVertex, 7.4, 7.3, 22
+AddVertex, 7.4, 6.1, 22
+AddVertex, 7.4, 6.1, 40
+AddVertex, -3.5, 6.1, 40
+AddVertex, -3.5, 6.1, 22
+ADdFace2,0,1,6,7,
+ADdFace2,1,2,5,6,
+ADdFace2,2,3,4,5,
+ADdFace2,0,3,4,7,
+LoadTexture,../../bill\depawall_A1.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,10,0
+SetTextureCoordinates,2,20,0
+SetTextureCoordinates,3,10,0
+SetTextureCoordinates,4,10,1
+SetTextureCoordinates,5,20,1
+SetTextureCoordinates,6,10,1
+SetTextureCoordinates,7,0,1
+SetEmissiveColor,100,100,100,
+SetDecalTransparentColor,0,100,0
+Translate,,1.2,-25
+
+CreateMeshBuilder,
+AddVertex, -8.2, 6.1, 22
+AddVertex, -8.2, 6.1, 45
+AddVertex, 12.4, 6.1, 45
+AddVertex, 12.4, 6.1, 22
+AddVertex, 7.4, 6.1, 22
+AddVertex, 7.4, 6.1, 40
+AddVertex, -3.5, 6.1, 40
+AddVertex, -3.5, 6.1, 22
+ADdFace2,0,1,6,7,
+ADdFace2,1,2,5,6,
+ADdFace2,2,3,4,5,
+LoadTexture,../../Con2.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,3,0
+SetTextureCoordinates,4,3,1
+SetTextureCoordinates,5,2,1
+SetTextureCoordinates,6,1,1
+SetTextureCoordinates,7,0,1
+Setcolor,71,77,79
+SetEmissiveColor,30,40,53,
+Translate,,1.2,-25
+
+
+CreateMeshBuilder,
+cube,0.8,3.3,0.8,
+LoadTexture,../nihonwall4.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,0,1
+SetTextureCoordinates,6,1,1
+SetTextureCoordinates,7,1,0
+Setcolor,71,87,89
+SetEmissiveColor,50,90,140,
+Translate,9,3.98,18
+
+CreateMeshBuilder,
+cube,0.8,3.3,0.8,
+LoadTexture,../nihonwall4.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,0,1
+SetTextureCoordinates,6,1,1
+SetTextureCoordinates,7,1,0
+Setcolor,71,87,89
+SetEmissiveColor,50,90,140,
+Translate,-5,3.98,18

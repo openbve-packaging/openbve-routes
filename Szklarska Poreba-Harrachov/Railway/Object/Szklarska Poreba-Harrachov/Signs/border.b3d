@@ -1,0 +1,32 @@
+﻿[MeshBuilder]
+Cylinder 10,0.02,0.02,3.5
+Rotate 1,0,0,0
+Color 128,128,128
+Translate 0,1.2,0.05
+
+[MeshBuilder]
+Vertex 0.3, 3, 0.025
+Vertex 0.3, 2.6, 0.025
+Vertex -0.3, 2.6, 0.025
+Vertex -0.3, 3, 0.025
+Face 0, 1, 2, 3
+[Texture]
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Load border.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 0.3, 3, 0.025
+Vertex 0.3, 2.6, 0.025
+Vertex -0.3, 2.6, 0.025
+Vertex -0.3, 3, 0.025
+Face 3,2,1,0
+[Texture]
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Load znak1_tyl.png
+Transparent 0,0,255

@@ -1,0 +1,124 @@
+[MeshBuilder]
+cylinder 6, 0.07 , 0.07 , 7.5
+translate -2.8, 4, 0.2
+color 192,192,192
+
+
+[meshbuilder]
+vertex -3.0, 3.5, 0
+vertex -2.5, 3.5, 0
+vertex -2.5, 1.6, 0
+vertex -3.0, 1.6, 0
+face 1,2,3,0
+[texture]
+load zebrasegnale.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+cylinder 20, 0.4 , 0.4, 0.1
+translate -2.5, 0, -6.5
+rotate 1,0,0,90
+color 255,255,255
+[MeshBuilder]
+cylinder 20, 0.4 , 0.4, 0.1
+translate -2.5, 0.1, -6.5
+rotate 1,0,0,90
+color 55,55,55
+[meshbuilder]
+vertex -2.9, 6.9, -0.2
+vertex -2.1, 6.9, -0.2
+vertex -2.1, 6.1, -0.2
+vertex -2.9, 6.1, -0.2
+face 1,2,3,0
+[texture]
+load segnaler.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+[MeshBuilder]
+cylinder 20, 0.4 , 0.4 , 0.1
+translate -2.5, 0, -5.5
+rotate 1,0,0,90
+color 255,255,255
+[MeshBuilder]
+cylinder 20, 0.4 , 0.4 , 0.1
+translate -2.5, 0.1, -5.5
+rotate 1,0,0,90
+color 55,55,55
+[meshbuilder]
+vertex -2.9, 5.9, -0.2
+vertex -2.1, 5.9, -0.2
+vertex -2.1, 5.1, -0.2
+vertex -2.9, 5.1, -0.2
+face 1,2,3,0
+[texture]
+load segnalen.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+[MeshBuilder]
+cube 0.7,0.05,0.7
+translate -2.8,6.9,1
+color 128,128,128
+[MeshBuilder]
+cylinder 6, 0.05 , 0.05 , 7
+translate -2.5, 3.2, 2.8
+rotate 1,0,0,-10
+color 128,128,128
+[MeshBuilder]
+cylinder 6, 0.05 , 0.05 , 7
+translate -3.0, 3.2, 2.8
+rotate 1,0,0,-10
+color 128,128,128
+
+[meshbuilder]
+vertex -2.1, 7.5, 0.3
+vertex -2.1, 7.5, 1.7
+vertex -2.1, 6.9, 1.7
+vertex -2.1, 6.9, 0.3
+face2 1,2,3,0
+[texture]
+load parapetto.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3.5, 7.5, 0.3
+vertex -3.5, 7.5, 1.7
+vertex -3.5, 6.9, 1.7
+vertex -3.5, 6.9, 0.3
+face2 1,2,3,0
+[texture]
+load parapetto.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3, 7, 1.65
+vertex -2.5, 7, 1.65
+vertex -2.5, 0, 2.8
+vertex -3, 0, 2.8
+face2 1,2,3,0
+[texture]
+load gradini.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255

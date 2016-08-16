@@ -1,0 +1,91 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshBuilder,
+AddVertex,-5,20,18,
+AddVertex,-5,9,18,
+AddVertex,-14,9,14,
+AddVertex,-14,20,14,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../tree2.png,
+SetTextureCoordinates,0,00,0,
+SetTextureCoordinates,1,00,1,
+SetTextureCoordinates,2,01,1,
+SetTextureCoordinates,3,01,0,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-9,22,10,
+AddVertex,-9,9,10,
+AddVertex,-19,9,5,
+AddVertex,-19,22,5,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../tree2.png,
+SetTextureCoordinates,0,00,0,
+SetTextureCoordinates,1,00,1,
+SetTextureCoordinates,2,01,1,
+SetTextureCoordinates,3,01,0,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-6.5, 11.1, 0,
+AddVertex,-6.5, 11.1, 26,
+AddVertex,-6.5,12, 26,
+AddVertex,-6.5, 12, 0,
+AddFace,3,2,1,0,
+SetColor,130,130,210,
+GenerateNormals,
+LoadTexture,archtop.png,
+SetTextureCoordinates,0, 20, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 20, 0,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-6, 11.1, 0,
+AddVertex,-6, 11.1, 26,
+AddVertex,-6, 7.1, 26,
+AddVertex,-3.8,-6, 26,
+AddVertex,-3.8,-6, 0,
+AddVertex,-6, 7.1, 0,
+AddFace,0,1,2,5,
+AddFace,2,3,4,5,
+SetColor,140,140,140,
+GenerateNormals,
+LoadTexture,../wall2.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,0.5,
+SetTextureCoordinates,3,2,2,
+SetTextureCoordinates,4,0,2,
+SetTextureCoordinates,5,0,0.5,
+CreateMeshBuilder,
+AddVertex,-6, 11.1, 0,
+AddVertex,-12, 11.1, 0,
+AddVertex,-12, 7, 0,
+AddVertex,-6, 7, 0,
+AddFace,3,2,1,0,
+SetColor,130,130,130,
+GenerateNormals,
+LoadTexture,../wall2.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+CreateMeshBuilder
+AddVertex,-20, 11, 0
+AddVertex,-20, 11, 25.3
+AddVertex,-6, 11, 25.3
+AddVertex,-6, 11, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../ballast.png
+SetTextureCoordinates,0, 2, 7
+SetTextureCoordinates,1, 2, 0
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 0, 7
+
+
+
+

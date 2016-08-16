@@ -1,0 +1,773 @@
+Route.Comment Linea Biella-Oropa 
+Route.Timetable Biella-Oropa
+Route.Change -1
+Route.Gauge 950
+Route.Signal(0) 0
+Route.Signal(1) 15
+Route.Signal(2) 25
+Route.Signal(3) 35
+Route.Signal(4) 45
+Route.DeveloperID Oropa
+Route.LightDirection 90;90
+Route.DirectionalLight 252;253;215
+Route.AmbientLight 245;245;234
+;Route.Image Oropa.jpg
+
+Train.Folder Tram_oropa
+Train.Timetable(0).Day.Load ..\..\Railway\Route\Oropa\Oropa-x.bmp
+  
+
+; rotaie normali non saldate
+Train.Run(0) 2
+Train.Run(1) 2
+Train.Run(2) 2
+Train.Run(3) 2
+Train.Run(4) 2
+Train.Run(5) 2
+Train.Run(6) 2
+Train.Run(7) 2
+Train.Run(8) 2
+Train.Run(9) 2
+Train.Run(10) 2
+Train.Run(11) 2
+Train.Run(12) 3
+Train.Run(13) 2
+Train.Run(14) 2
+Train.Run(16) 2
+Train.Run(20) 2
+Train.Run(21) 2
+Train.Run(22) 2
+Train.Run(23) 2
+Train.Run(24) 2
+Train.Run(25) 2
+Train.Run(26) 2
+Train.Run(27) 2
+Train.Run(28) 2
+Train.Run(29) 2
+
+;Rail per suono TSS su ponti: 2->30 
+Train.Run(30) 6
+
+
+With structure
+.Rail(0) Oropa-x\rail00.x ; binario ordinario
+.Rail(1) Oropa-x\S25.x 
+.Rail(2) Oropa-x\D25.x 
+.Rail(3) Oropa-x\S30.x 
+.Rail(4) Oropa-x\D30.x  ;cambio al posto di 30
+.Rail(5) Oropa-x\S35.x
+.rail(7) Oropa-x\S40.x 
+.rail(8) Oropa-x\D40.x
+.rail(9) Oropa-x\S45.x
+.rail(11) Oropa-x\S50.x
+.rail(12) Oropa-x\D50.x
+.Rail(16) Oropa-x\D60.x
+.rail(21) Oropa-x\S75.x
+.Rail(23) Oropa-x\S80.x
+.rail(25) Oropa-x\S95.x
+.rail(27) Oropa-x\S100.x
+.Rail(28) Oropa-x\D100.x
+.Rail(29) Oropa-x\S200.x
+.Rail(30) Oropa-x\D25-1.x
+.rail(40) Oropa-x\nullrail.x
+
+; Strada
+.rail(100) Oropa-x\strada00.x
+.rail(101) Oropa-x\strada25S.x
+.rail(102) Oropa-x\strada25D.x
+.rail(103) Oropa-x\strada30S.x
+.rail(104) Oropa-x\strada30D.x
+.rail(106) Oropa-x\strada33D.x
+.rail(108) Oropa-x\strada40D.x
+.rail(109) Oropa-x\strada45S.x
+.rail(111) Oropa-x\strada50S.x
+.rail(112) Oropa-x\strada50D.x
+.rail(115) Oropa-x\strada60S.x
+.rail(116) Oropa-x\strada60D.x
+.rail(121) Oropa-x\strada75S.x
+.rail(127) Oropa-x\strada100S.x
+.rail(128) Oropa-x\strada100D.x
+.rail(129) Oropa-x\strada200S.x
+.rail(131) Oropa-x\Nullrail.x
+
+
+; Pali con catenaria
+.Rail(200) Oropa-x\Cat00sin.x ;diritto
+.Rail(201) Oropa-x\CatS25sin.x 
+.Rail(202) Oropa-x\CatD25sin.x 
+.Rail(203) Oropa-x\CatS30sin.x 
+.Rail(204) Oropa-x\CatD30sin.x
+.Rail(205) Oropa-x\CatS35sin.x
+.Rail(207) Oropa-x\CatS40sin.x
+.rail(208) Oropa-x\CatD40sin.x 
+.rail(209) Oropa-x\CatS40sin.x
+.rail(210) Oropa-x\NullRail.x ;CatD45.x  
+.rail(211) Oropa-x\CatS50sin.x
+.rail(212) Oropa-x\CatD50sin.x
+.Rail(216) Oropa-x\CatD60sin.x
+.Rail(221) Oropa-x\NullRail.x ;CatS75.x
+.rail(223) Oropa-x\NullRail.x ;CatS80.x
+.Rail(225) Oropa-x\NullRail.x ;CatS95.x
+.rail(227) Oropa-x\NullRail.x ;CatS100.x
+.Rail(228) Oropa-x\NullRail.x ;CatD100.x
+;.Rail(229) Oropa-x\CatS200sin.x
+.Rail(230) Oropa-x\CatD200sin.x
+.rail(240) Oropa-x\NullRail.x ;nulla di nulla
+.Rail(241) Oropa-x\Cat00.x ;diritto palo a destra
+.Rail(242) Oropa-x\Cat00des.x ;diritto palo a destra
+.Rail(243) Oropa-x\Cat00sin-1.x ;diritto con basamento basso
+
+.DikeL(0) Oropa-x\dikeL.x
+.DikeR(0) Oropa-x\dikeR.x
+.DikeL(1) Oropa-x\dikeL1.x
+.DikeR(1) Oropa-x\dikeR1.x
+.DikeL(2) Oropa-x\dikeL2.x
+.DikeL(3) Oropa-x\dikeL3.x
+.DikeR(3) Oropa-x\dikeR1.x
+.dikeR(4) Oropa-x\dikeR2.x
+.dikeL(5) Oropa-x\dikeLS25-1.x
+.DikeR(5) Oropa-x\dikeR1.x
+.dikeL(10) Oropa-x\dikeLD25.x
+.DikeR(10) Oropa-x\dikeR1.x
+.DikeL(11) Oropa-x\dikeLD60.x
+.DikeL(12) Oropa-x\dikeLD60-2.x
+.DikeL(13) Oropa-x\dikeLD100.x
+.DikeL(14) Oropa-x\dikeLD30.x
+.DikeR(14) Oropa-x\dikeLD30-1.x
+.DikeL(15) Oropa-x\dikeLD40.x
+.DikeL(16) Oropa-x\dikeLS30.x
+.DikeR(16) Oropa-x\dikeRS35.x
+.DikeL(17) Oropa-x\dikeLS75.x
+.DikeL(18) Oropa-x\dikeLS45.x
+.DikeL(19) Oropa-x\dikeLS25.x
+
+
+
+.WallL(0) Oropa-x\muro_pietre01.x
+.WallR(0) Oropa-x\muro_pietre00.x
+.WallL(1) Oropa-x\pratoS35.x
+.WallR(1) Oropa-x\muro_pietreD60.x
+.WallL(2) Oropa-x\muro_pietreS5.x
+.WallR(2) Oropa-x\muro_pietreD30.x
+.WallR(3) Oropa-x\muro_pietreD40.x
+.WallR(4) Oropa-x\muro_pietreS30.x
+.WallR(5) Oropa-x\muro_pietreS75.x
+.WallR(6) Oropa-x\muro_pietreS45.x
+
+
+.Ground(0) Oropa-x\Nullrail.x
+.Ground(1) Oropa-x\Ground_alberato.x
+.Ground(2) Oropa-x\Ground_alberato1.x
+
+
+;alberi
+.freeobj(1) Oropa-x\faggio.x
+.freeobj(2) Oropa-x\pini.x 
+.freeobj(3) Oropa-x\albero2.x
+.freeobj(4) Oropa-x\castano.x
+.freeobj(5) Oropa-x\pino.x 
+.freeobj(6) Oropa-x\castani.x
+.freeobj(7) Oropa-x\gruppoabeti.x
+
+;rocce e muretti
+.freeobj(29) Oropa-x\muro_pietre03.x
+.freeobj(30) Oropa-x\muro_pietre02.x
+.freeobj(31) Oropa-x\muro_pietreS1.x
+.freeobj(32) Oropa-x\muro_pietreS2.x
+.freeobj(33) Oropa-x\Parete_rocciosa.X
+.freeobj(34) Oropa-x\muro_pietreS3.x
+.freeobj(35) Oropa-x\Parete_rocciosa2.X
+.freeobj(36) Oropa-x\spuntone.x
+.freeobj(37) Oropa-x\muro_pietreS4.x
+.freeobj(38) Oropa-x\muro_pietreS80.x
+.freeobj(39) Oropa-x\muro_pietreS6.x
+.freeobj(40) Oropa-x\muro_pietre00.x
+.freeobj(41) Oropa-x\DikeLD60.x
+.freeobj(42) Oropa-x\torrente.x
+.freeobj(43) Oropa-x\DikeL1.x
+
+
+;edifici
+.freeobj(51) Oropa-x\Sanfermo.x 
+.freeobj(52) Oropa-x\SanLucca.x
+.freeobj(53) Oropa-x\acquedotto.x
+.freeobj(54) Oropa-x\deltrasporto.x
+.freeobj(55) Oropa-x\santuario.x
+.freeobj(56) Oropa-x\rimessa.x
+.freeobj(57) Oropa-x\ponte.x
+
+;persone
+.freeobj(100) Oropa-x\Oropa01-2signori.x
+.freeobj(101) Oropa-x\FG04-Cineoperatore.x
+
+;altro
+.freeobj(110) Oropa-x\strada00-1.x
+.freeobj(111) Oropa-x\strada25S.x
+.freeobj(112) Oropa-x\strada33S.x
+.freeobj(113) Oropa-x\selciato.x
+.freeobj(114) Oropa-x\tram.x
+.freeobj(115) Oropa-x\ground_alberato2.x
+.freeobj(116) Oropa-x\Fg08-Lambretta.x
+.freeobj(117) Oropa-x\ponte1.x
+.freeobj(201) Oropa-x\DxSx40.x
+.freeobj(202) Oropa-x\Paraurti.x
+.freeobj(203) Oropa-x\Culmine.x
+
+texture.background(0) Oropa-x\oropa.bmp
+
+
+With Track
+0,    .back 0,
+      .height 0.5,
+      .ground 0,
+      .Adhesion 150,
+      .Accuracy 1,
+      .brightness 245,
+25,   .limit 30,
+      .pattern 1;135,
+8000, .railstart 15;0;0;200,
+8500, .pitch 70,
+12200,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+12275,.curve 50;0,
+      .railtype 0;12,
+      .railtype 15;212,
+12300,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+12325,.curve -50;0,
+      .railtype 0;11,
+      .railtype 15;211,
+12375,.curve 50;0,
+      .railtype 0;12,
+      .railtype 15;212,
+12400,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200
+12425,.curve -50;0,
+      .railtype 0;11,
+      .railtype 15;211,
+      .railstart 11;3.3;-0.11;111,
+
+; Stazione di Oropa Bagni
+12430,.Sta Oropa Bagni; 17.0400; 17.0410; ; 1; 0; ; ; 20; 10; ;,
+12453,.stop 0,
+12460,.freeobj 11;1;8;-4;0,  ;faggio
+12470,.freeobj 15;3;21.5;-2.5;10,  ;boschetto
+12470,.freeobj 15;51;8;0;80,  ;sanfermo
+12471,.freeobj 15;100;6;-0.2;0,   ;signori
+
+;trenino entra nella strada oropa
+12475,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .railtype 11;100,
+      .dike 0;-1;0,
+      .dike 11;1;0,
+      .wall 11;1;0,
+      .pitch 43,
+12478,.freeobj 11;1;3.5;-2;0,  ;faggio
+12490,.freeobj 11;1;4;-2;0,  ;faggio
+12498,.freeobj 11;1;2;-2;180,  ;faggio
+12500,.pitch 40,
+12510,.freeobj 11;1;4;-2;0,  ;faggio
+12520,.freeobj 11;1;2;-2;180,  ;faggio
+12525,.freeobj 11;1;7;-2.5;0,  ;faggio
+12530,.freeobj 11;1;3;-2;180,  ;faggio
+12540,.freeobj 11;1;4;-2;0,  ;faggio
+12550,.pitch 34,
+12555,.freeobj 11;1;4;-2;0,  ;faggio
+12570,.freeobj 11;1;2;-2;180,  ;faggio
+12575,.freeobj 11;1;7;-3.5;0,  ;faggio
+      .freeobj 15;31;0;0;0, ;muro
+12580,.freeobj 11;1;3;-2;180,  ;faggio
+12585,.freeobj 11;1;4;-2;0,  ;faggio
+12592,.freeobj 11;1;7;-2.5;0,  ;faggio
+12597,.freeobj 11;1;4;-2;180,  ;faggio
+12600,.pitch 33,
+      .freeobj 15;31;0;0;0, ;muro
+12605,.freeobj 11;1;4;-2;0,  ;faggio
+12610,.freeobj 11;1;2;-2;180,  ;faggio
+12618,.freeobj 11;1;7;-3.5;0,  ;faggio
+12620,.freeobj 11;1;3;-2;180,  ;faggio
+12622,.freeobj 11;1;4;-2;0,  ;faggio
+12625,.curve 60;0,
+      .railtype 0;16,
+      .railtype 15;216,
+      .railtype 11;116,
+      .dike 0;-1;11,
+      .wall 11;1;1,
+      .pitch 38,
+12634,.freeobj 11;1;4;-2;0,  ;faggio
+12643,.freeobj 11;1;2;-2;180,  ;faggio
+12650,.dike 0;-1;12,
+12660,.freeobj 15;35;-6;0;55,  ;muro roccia
+12675,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .railtype 11;100,
+      .dike 0;-1;0,
+      .wall 11;1;0,
+      .pitch 16,
+      .freeobj 15;33;0.2;-0.5;5, ;parete roccia
+12700,.curve 100;0,
+      .railtype 0;28,
+      .railtype 15;230,
+      .railtype 11;128,
+      .dikeend 0,
+      .dike 0;-1;13,
+      .pitch 7,
+      .freeobj 11;36;0;0;0,  ;spuntone
+12725,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .railtype 11;100,
+      .dike 0;-1;1,
+      .pitch 2,
+12730,.freeobj 11;4;5.5;-3.5;0,  ; castano
+12740,.freeobj 11;5;9;-4.5;0,    ;pino
+12747,.freeobj 11;1;7;-2.5;0,  ;faggio
+12750,.pitch 0,
+12755,.freeobj 11;1;7;-2.5;0,  ;faggio
+12755,.freeobj 15;32;0;0;0,    ;muro a sinistra
+12760,.freeobj 11;4;5.5;-3.5;0,         ; castano
+12768,.freeobj 11;1;7;-2.5;0,  ;faggio
+12773,.freeobj 11;5;9;-4.5;0,    ;pino
+12775,.pitch 7,
+12790,.freeobj 11;36;0;0;0,  ;spuntone
+12800,.curve 30;0,
+      .railtype 0;4,
+      .railtype 15;204,
+      .railtype 11;104,
+      .dike 0;-1;14,
+      .wall 11;1;2,
+12810,.freeobj 11;5;9;-4.5;0,    ;pino
+12815,.freeobj 11;5;9;-4.5;0,    ;pino
+12819,.freeobj 11;5;9;-4.5;0,    ;pino
+12823,.freeobj 11;5;9;-4.5;0,    ;pino
+12825,.curve 40;0,
+      .railtype 0;8,
+      .railtype 15;208,
+      .railtype 11;108,
+      .dike 0;-1;15,
+      .wall 11;1;3,
+      .pitch 25,
+12827,.freeobj 11;1;7;-4.5;0,  ;faggio
+12830,.freeobj 11;5;9;-4.5;0,  ;pino
+12835,.freeobj 11;4;7;-4.5;0,  ; castano
+12840,.freeobj 11;1;7;-4.5;0,  ;faggio
+12845,.freeobj 11;5;9;-4.5;0,  ;pino
+12850,.pitch 5,
+12855,.freeobj 11;5;9;-4.5;0,  ;pino
+12860,.freeobj 11;4;5.5;-3.5;0, ; castano
+12865,.freeobj 11;5;9;-4.5;0,    ;pino
+12870,.freeobj 11;1;7;-2.5;0,  ;faggio
+      .freeobj 11;4;6.5;-4.5;0, ; castano
+12875,.curve -30;0,
+      .railtype 0;3,
+      .railtype 15;203,
+      .railtype 11;103,
+      .dike 0;-1;16,
+      .wall 11;1;4,
+      .pitch 10,
+      .freeobj 11;4;7;-4.5;0,  ; castano
+      .freeobj 11;1;7;-2.5;0,  ;faggio
+12880,.freeobj 11;1;7;-4.5;0,  ;faggio
+12885,.freeobj 11;5;9;-4;0,     ;pino
+12890,.freeobj 11;1;7;-4.5;0,  ;faggio
+12895,.freeobj 11;4;7;-5;0,    ; castano
+12899,.freeobj 11;5;9;-4.5;0,   ;pino
+12900,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .railtype 11;100,
+      .wall 11;1;0,
+      .dike 0;-1;2,
+      .pitch 36,
+12905,.freeobj 11;2;5.5;-1;0,   ;pini
+12910,.freeobj 11;2;5.5;-1;0,   ;pini
+12920,.freeobj 11;2;5.5;-1;0,   ;pini
+12925,.curve -75;0,
+      .railtype 0;21,
+      .railtype 15;211,
+      .railtype 11;121,
+      .dike 0;-1;17,
+      .wall 11;1;5,
+      .pitch 44,
+12930,.freeobj 11;1;4;-2;0,    ;faggio
+12940,.freeobj 11;1;4;-2;180,  ;faggio
+12945,.freeobj 11;1;7;-2.5;0,  ;faggio
+12950,.pitch 64,
+      .freeobj 11;1;3;-2;180,  ;faggio
+12955,.freeobj 11;1;4;-2;0,    ;faggio
+12965,.freeobj 11;4;7;-4.5;0,  ;castano
+12970,.freeobj 11;5;9;-4.5;0,  ;pino
+12975,.curve 30;0,
+      .railtype 0;4,
+      .railtype 15;204,
+      .railtype 11;104,
+      .wall 11;1;2,
+      .dike 0;-1;14,
+      .freeobj 11;5;9;-4.5;0,   ;pino
+12985,.freeobj 11;4;5.5;-3.5;0,  ;castano
+13000,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .railtype 11;100,
+      .wall 11;1;0,
+      .dike 0;-1;2,
+13015,.freeobj 11;4;7;-4.5;0,    ;castano
+13020,.freeobj 11;5;9;-4.5;0,    ;pino
+13025,.freeobj 11;5;9;-4.5;0,    ;pino
+13030,.freeobj 11;4;5.5;-3.5;0,  ;castano
+13035,.freeobj 11;5;9;-4.5;0,    ;pino
+13040,.freeobj 11;1;7;-2.5;0,    ;faggio
+13045,.freeobj 11;1;7;-2.5;0,    ;faggio
+13050,.curve 30;0,
+      .railtype 0;4,
+      .railtype 15;204,
+      .railtype 11;104,
+      .wall 11;1;2,
+      .dike 0;-1;14,
+      .pitch 70,
+      .freeobj 11;4;6.5;-4.5;0,  ;castano
+13055,.freeobj 11;4;5.5;-3.5;0,  ;castano
+13060,.freeobj 11;5;9;-4.5;0,    ;pino
+13063,.freeobj 11;1;7;-2.5;0,    ;faggio
+13065,.freeobj 11;1;7;-2.5;0,    ;faggio
+13070,.freeobj 11;4;6.5;-4.5;0,  ;castano
+13075,.curve -45;0,
+      .railtype 0;9,
+      .railtype 15;209,
+      .railtype 11;109,
+      .dike 0;-1;18,
+      .wall 11;1;6,
+13085,.freeobj 11;4;7;-4.5;0,     ;castano
+13090,.freeobj 11;5;9;-4.5;0,     ;pino
+13095,.freeobj 11;5;9;-4.5;0,     ;pino
+13100,.freeobj 11;4;5.5;-3.5;0,   ;castano
+13105,.freeobj 11;5;9;-4.5;0,     ;pino
+13110,.freeobj 11;1;7;-2.5;0,     ;faggio
+13115,.freeobj 11;1;7;-2.5;0,     ;faggio
+13120,.freeobj 11;4;6.5;-4.5;0,   ;castano
+13125,.freeobj 11;5;9;-4.5;0,     ;pino
+13127,.freeobj 11;1;7;-4.5;0,     ;faggio
+13130,.freeobj 11;5;9;-4.5;0,     ;pino
+13135,.freeobj 11;4;7;-4.5;0,     ;castano
+13140,.freeobj 11;1;7;-4.5;0,     ;faggio
+13145,.freeobj 11;5;9;-4.5;0,     ;pino
+13150,.freeobj 11;1;7;-4.5;0,     ;faggio
+13155,.freeobj 11;4;6.5;-5;0,     ;castano
+13160,.freeobj 11;5;9;-4.5;0,     ;pino
+13165,.freeobj 11;4;6.5;-5;0,     ;castano
+13174,.freeobj 11;1;7;-3.5;10,    ;faggio
+13175,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .railtype 11;100,
+      .dike 0;-1;1,
+      .wall 11;1;0,
+      .pitch 46,
+      .freeobj 0;34;0.5;-1;0,
+13180,.freeobj 11;4;6.5;-5;0,      ;castano
+13185,.freeobj 11;1;7;-3.5;0,      ;faggio
+13190,.freeobj 11;4;6.5;-5;0,      ;castano
+13195,.freeobj 11;5;9;-4.5;0,      ;pino
+13200,.curve -25;0,
+      .railtype 0;1,
+      .railtype 15;201,
+      .rail 11;4;-0.1,
+      .railtype 11;131,
+      .wallend 11,
+      .dike 0;-1;19,
+      .pitch 42,
+      .freeobj 11;112;0;0;0,       ;Strada 33S
+13205,.freeobj 11;1;7;-4.5;0,      ;faggio
+13209,.freeobj 11;5;9;-3.5;0,      ;pino
+13210,.freeobj 11;1;7;-4.5;0,      ;faggio
+13215,.freeobj 11;4;6.5;-5;0,      ;castano
+13220,.freeobj 11;5;9;-3.0;0,      ;pino
+13222,.freeobj 11;4;6.5;-5;0,      ;castano
+13225,.curve 25;0,
+      .railtype 0;2,
+      .railtype 15;202,
+      .rail 11;8;-1,
+      .railtype 11;102,
+	.dikeend 0,
+      .pitch 30,
+      .freeobj 11;1;7;-3.5;10,     ;faggio
+	.freeobj 0;41;0;0;-20,   
+13245,.freeobj 0;53;-5.5;0;-45,    ;acquedotto
+13250,.pitch 68,
+	.freeobj ;57;-0.35;0;-8,     ;ponte
+	.freeobj 0;42;0;0;0,         ;torrente
+13275,.curve 0;0,
+      .rail 11;7;-1.5,
+      .railtype 0;0,
+      .railtype 15;200,
+      .railtype 11;100,
+      .wall 11;1;0,
+      .dike 0;-1;1,
+      .railstart 1;0.35;0;40,
+      .freeobj 1;34;0;0;0,         ;muro
+13280,.freeobj 11;4;6.5;-4.5;0,    ;castano
+13300,.rail 1;0.35;-0.5,  
+      .rail 11;6.7;-0.7,
+      .pitch 70,
+      .freeobj 1;34;0;0;0,         ;muro
+13301,.freeobj 11;4;6.5;-4.5;0,    ;castano
+13310,.freeobj 0;2;12.5;-3.5;0,    ;pini
+13325,.rail 1;0.35;-1,             ; muro
+      .rail 11;6.7;-0.5,
+      .freeobj 11;5;8;-3.5;0,      ;pino      
+      .freeobj 1;34;0;0;0,
+13335,.freeobj 11;5;8;-3.5;10,     ;pino
+13345,.freeobj 11;4;6.5;-4.5;0,    ;castano
+13350,
+      .dikeend 1,  
+      .freeobj 1;34;0;0;0,         ;muro
+      .railend 1;0.5;-1.5,
+      .freeobj 0;2;12.5;-3.5;0,    ;pini
+13357,.freeobj 11;5;7.5;-3.5;10,   ;pino
+13368,.freeobj 0;2;12.5;-3.5;0,    ;pini
+13375,.curve 50;0,
+      .railtype 0;12,
+      .railtype 15;212,
+      .rail 11;6.7;-0.51,
+      .railtype 11;112,
+      .dike 0;-1;11,
+      .wall 11;1;3
+      .freeobj 11;5;8;-3.5;0,      ;pino
+13383,.freeobj 11;5;8;-3.5;10,     ;pino
+13390,.freeobj 11;4;6.5;-4.5;0,    ;castano
+13400,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .rail 11;6.7;-0.31,
+      .railtype 11;100,
+      .wall 11;-1;0,
+      .dike 0;-1;1,
+      .freeobj 15;34;0;0;0,        ;muro
+13424,.freeobj 11;4;5;-3.5;0,      ;castano
+13425,.curve 30;0,
+      .railtype 0;4,
+      .railtype 15;204,
+      .dike 0;1;14,
+      .rail 11;6.7;-0.1,
+      .railtype 11;100,
+13445,.freeobj 11;43;-3;0;0,       ;dike strada
+13450,.curve -30;0,
+      .railtype 0;3,
+      .railtype 15;203,
+      .rail 11;-5;-0.11;40,
+      .dikeend 11,
+      .dike 0;1;16,
+      .wallend 11,
+      .wall 0;-1;1,
+      .freeobj 11;110;1.1;0;-25,    ;strada
+13451,.freeobj 11;40;1;1;-25,       ;muro
+13453,.freeobj 0;2;12.5;-3.5;0,      ;pini
+13475,.curve -35;0,
+      .railtype 0;5,
+      .railtype 15;205,
+      .rail 11;-5;0.5,
+      .railtype 11;40,
+13488,.freeobj 11;111;-5;0.5;-10,    ;strada 25s
+13495,.freeobj 0;52;7.5;-0.5;-15,   ;cappella di sanluca
+
+;torna in sede propria
+13516,.freeobj 0;2;7.5;-2.5;0,      ;pini
+13518,.freeobj 0;2;6.5;-1.5;0,      ;pini
+13525,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;243,
+      .rail 11;-4.5;0.5;100,
+      .wall 11;1;0,
+      .wallend 0,
+      .dike 0;1;1,
+      .freeobj 11;43;-3;0;0,       ;dike strada
+13541,.freeobj 0;2;7.5;-2.5;0,      ;pini
+13543,.freeobj 0;2;6.5;-1.5;0,      ;pini
+13548,.freeobj 0;43;-8;0;0,       ;dike strada
+13550,.curve 25;0,
+      .railtype 15;202,
+      .railtype 0;30,
+      .railend 11,
+      .wallend 11,
+      .dikeend 11,
+      .dikeend 0,
+13551,.freeobj 0;5;8;-3.5;10,      ;pino
+13555,.freeobj 0;5;6;-3.5;10,      ;pino
+13565,.freeobj 0;57;-3.1;0;25,     ;ponte
+13567,.freeobj 0;43;-18;0;-30,       ;dike strada
+13575,.railtype 0;2,
+13580,.freeobj 0;2;-5.5;-0.5;-45,   ;pini
+13590,.freeobj 0;2;-5.5;0.5;-45,   ;pini
+13600,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .dike 0;1;1,
+      .railstart 11;-8.9;5.1;100,
+      .wall 11;1;0,
+      .freeobj 0;37;0;0;0,
+      .freeobj 11;34;-3;0;0,
+      .freeobj 0;117;0;0;0,   ;ponte1
+13605,.freeobj 0;2;-3.5;3.5;-10,   ;pini
+13610,.freeobj 11;6;-6.5;3;0,      ;castani
+13611,.freeobj 0;2;-3;3.3;0,       ;pini
+13614,.freeobj 0;5;-4;3.5;10,      ;pino
+13615,.freeobj 0;2;6.5;-1.5;0,     ;pini
+13620,.freeobj 0;5;-4;3.5;10,      ;pino
+13625,.rail 11;-10.4;6.2;100,
+      .freeobj 0;37;0;0;0,
+      .freeobj 11;34;-3;0;0,
+13627,.freeobj 0;5;-3.7;3.3;10,    ;pino
+13630,.freeobj 11;6;-6.5;3;0,      ;castani
+13636,.freeobj 0;5;-3.7;3.3;10,    ;pino
+13640,.freeobj 0;2;-3.5;3.5;-10,   ;pini
+13650,.rail 11;-12.9;7.5;100,
+      .freeobj 0;5;-3.7;3.3;10,    ;pino
+      .freeobj 11;34;-3;0;0,
+      .freeobj 11;6;-6.5;3;0,      ;castani
+      .freeobj 0;37;0;0;0,
+13660,.freeobj 0;2;-3.5;3.5;-10,   ;pini
+13665,.freeobj 0;5;-4;3.5;10,      ;pino
+13670,.freeobj 11;6;-6.5;3;0,      ;castani
+13675,.curve -80;0,
+      .railtype 0;23,
+      .railtype 15;211,
+      .rail 11;-14.9;8;100,
+      .freeobj 0;38;0;0;0,
+13678,.freeobj 0;54;-10.5;4.6;0,   ;deltrasporto
+13680,.freeobj 0;2;7.5;-2.5;0,     ;pini
+13690,.freeobj 0;2;-3.5;3.4;-10,   ;pini
+13695,.freeobj 0;5;-4;3.5;10,      ;pino
+13700,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .rail 11;-13;8;100,
+      .freeobj 0;34;0;0;0,
+13710,.freeobj 0;5;-3.7;3.3;10,    ;pino
+13716,.freeobj 0;5;-3.7;3.3;10,    ;pino
+13720,.freeobj 0;2;-3.5;3.4;-10,   ;pini
+13725,.rail 11;-10;8;100,
+      .freeobj 0;34;0;-0.25;0,
+13730,.freeobj 0;5;-3.7;3.3;10,    ;pino
+13736,.freeobj 0;5;-3.7;3.3;10,    ;pino
+13740,.freeobj 0;2;-3.5;3.1;-10,   ;pini
+13750,.railend 11;-9;8;100,
+      .wallend 11,
+      .freeobj 0;34;0;-0.5;0,
+13760,.freeobj 0;5;-3.7;3.1;10,    ;pino
+13766,.freeobj 0;2;-3.5;3.1;-10,   ;pini
+13772,.freeobj 0;5;-3.7;3.1;10,    ;pino
+13770,.freeobj 0;29;-9.0;5.8;0,    ;muro
+13775,.curve -25;0,
+      .railtype 0;1,
+      .railtype 15;201,
+      .dike 0;0;5,
+13825,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .dike 0;0;3,
+      .railstart 11;-11;5;100,
+      .wall 11;1;0,
+13875,.curve 25;0,
+      .railtype 0;2,
+      .railtype 15;202,
+      .dike 0;0;10,
+      .wallend 11,
+      .railend 11,
+13900,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .dike 0;0;3,
+13925,.curve 25;0,
+      .railtype 0;2,
+      .railtype 15;202,
+      .dike 0;0;10,
+13940,.freeobj 0;30;-18;5;0,  ;muro rocce
+13950,.curve -25;0,
+      .railtype 0;1,
+      .railtype 15;201,
+      .dike 0;0;5,
+14000,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;200,
+      .wall 0;-1;2,
+      .Dike 0;1;5,
+14025,.curve 40;0,
+      .railtype 0;8,
+      .railtype 15;208,
+      .wallend 0,
+      .freeobj 0;39;0;0;-18,
+14050,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;243,
+14075,.curve -40;0,
+      .railtype 0;7,
+      .railtype 15;207,
+14100,.curve 0;0,
+      .railtype 0;0,
+      .railtype 15;241,
+      .freeobj 0;115;0;0;0,
+      .height -1,
+      .ground 1,
+14140,.freeobj 0;7;8;-3.5;45,   ;gruppoabeti
+14150,.railstart 1;-5.5;1.5;0,
+      .railtype 0;40,
+      .rail 14;-5.5;1.5;241,
+      .dike 1;1;4,
+      .height -3,
+      .freeobj 0;7;6;-3.5;45,   ;gruppoabeti
+14150,.freeobj 1;202;0.6;-0.4;0,   ;paraurti
+14160,.freeobj 0;7;6;-3.5;45,   ;gruppoabeti
+14165,.freeobj 0;7;6;-4.5;-45,  ;gruppoabeti
+14169,.freeobj 0;7;6;-3.5;45,   ;gruppoabeti
+14175,.rail 1;-5.2;0;0,
+      .rail 14;-5.2;0;242,
+      .dikeend 1,
+      .pitch 0,
+      .railtype 15;242,
+      .freeobj 0;203;0;0, ; Cambio pendenza
+      .ground 2,
+      .height -4.5,
+14200,.rail 1;-3.8;0;40,
+      .railstart 2;0;0;40,
+      .railtype 0;0,
+      .dike 2;1;10
+      .railstart 13;0;0;242,     ;inizio binario dx
+      .freeobj 0;113;0;0,
+      .freeobj 0;201;-0.07;-0.001;17.75,
+      .freeobj 0;201;-3.87;-0.001;17.75,
+      .height -4.5,
+14225,.rail 2;3.8;0;0,
+      .dikeend 2,
+      .dikeend 0,
+      .rail 13;3.8;0;242,
+      .railend 1;0;0;0,
+      .railend 14;0;0;0,,
+      .freeobj 0;113;0;0,
+      .ground 0,
+14230,.freeobj 0;116;-8;0.1;0,     ;lambretta
+14250,.Sta Oropa Santuario; 17.1400;T; ;1;0;0; ;10;0 ; ;,
+      .stop 0, 
+      .wallend 2,
+      .freeobj 0;113;0;0,
+      .freeobj 2;7;20;-5;30,       ;gruppoabeti
+14255,.freeobj 0;101;1.1;0;0,      ;cineoperatore
+14265,.freeobj 2;114;0;0,          ;tram
+14270,.freeobj 2;7;24;-5;20,       ;gruppoabeti
+14275,.freeobj 0;113;0;0,
+14295,.freeobj 0;55;-1;0,          ;santuario
+14300,.railtype 0;40,
+      .railend 2,
+      .freeobj 0;113;0;0,
+14300,.freeobj 0;202;-0.6;-0.2;180,   ;paraurti
+14300,.freeobj 0;202;3.2;-0.2;180,   ;paraurti
+14313,.freeobj 0;56;4;0,           ;rimessa
+14325,.wallend 0,
+      .dikeend 0,
+
+

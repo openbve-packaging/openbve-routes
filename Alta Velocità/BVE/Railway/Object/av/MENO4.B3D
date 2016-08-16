@@ -1,0 +1,17 @@
+[MeshBuilder]
+cylinder 6, 0.07 , 0.07 , 6
+translate -3, 2.5, 0.2
+color 192,192,192
+
+[meshbuilder]
+vertex -3.2, 5, 0
+vertex -2.8, 5, 0
+vertex -2.8, 2, 0
+vertex -3.2, 2, 0
+face 1,2,3,0
+[texture]
+load meno4.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1

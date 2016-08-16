@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,25,4,3,
+AddVertex,25,20,3,
+AddVertex,53,20,0,
+AddVertex,53,4,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,Parking.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,

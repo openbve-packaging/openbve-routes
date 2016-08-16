@@ -1,0 +1,194 @@
+;Dózsa György út megállóhely peron
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;jobb és bal oldali peron
+
+;peron széle felül
+[MeshBuilder]
+Vertex  01.45, 00.90,-01.00
+Vertex  01.45, 00.90, 24.00
+Vertex  01.45, 01.10, 24.00
+Vertex  01.45, 01.10,-01.00
+Vertex -05.75, 00.90,-01.00
+Vertex -05.75, 00.90, 24.00
+Vertex -05.75, 01.10, 24.00
+Vertex -05.75, 01.10,-01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peronszel_a2.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 18.00, 1.00
+Coordinates 2, 18.00, 0.00
+Coordinates 3, 00.00, 0.00
+Coordinates 4, 00.00, 1.00
+Coordinates 5, 18.00, 1.00
+Coordinates 6, 18.00, 0.00
+Coordinates 7, 00.00, 0.00
+
+;peron széle alul
+[MeshBuilder]
+Vertex  01.60,-00.20,-01.00
+Vertex  01.60,-00.20, 24.00
+Vertex  01.60, 00.90, 24.00
+Vertex  01.60, 00.90,-01.00
+Vertex -05.90,-00.20,-01.00
+Vertex -05.90,-00.20, 24.00
+Vertex -05.90, 00.90, 24.00
+Vertex -05.90, 00.90,-01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 25.00, 1.00
+Coordinates 2, 25.00, 0.15
+Coordinates 3, 00.00, 0.15
+Coordinates 4, 00.00, 1.00
+Coordinates 5, 25.00, 1.00
+Coordinates 6, 25.00, 0.15
+Coordinates 7, 00.00, 0.15
+
+;peron járófelület
+[MeshBuilder]
+Vertex  01.45, 01.10,-01.00
+Vertex  01.45, 01.10, 24.00
+Vertex  02.25, 01.10, 24.00
+Vertex  02.25, 01.10,-01.00
+Vertex -05.75, 01.10,-01.00
+Vertex -05.75, 01.10, 24.00
+Vertex -06.55, 01.10, 24.00
+Vertex -06.55, 01.10,-01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load mh_15_do_peronteto_1.bmp
+Coordinates 0, 24.00, 600.00
+Coordinates 1, 24.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 600.00
+Coordinates 4, 24.00, 600.00
+Coordinates 5, 24.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 600.00
+
+;peron járófelület
+[MeshBuilder]
+Vertex  02.25, 01.10,-01.00
+Vertex  02.25, 01.10, 24.00
+Vertex  02.40, 01.10, 24.00
+Vertex  02.40, 01.10,-01.00
+Vertex -06.55, 01.10,-01.00
+Vertex -06.55, 01.10, 24.00
+Vertex -06.70, 01.10, 24.00
+Vertex -06.70, 01.10,-01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load mh_15_do_peronteto_2.bmp
+Coordinates 0, 01.00, 42.00
+Coordinates 1, 01.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 42.00
+Coordinates 4, 01.00, 42.00
+Coordinates 5, 01.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 42.00
+
+[MeshBuilder]
+Vertex  02.40, 01.10,-01.00
+Vertex  02.40, 01.10, 24.00
+Vertex  11.75, 01.10, 24.00
+Vertex  11.75, 01.10,-01.00
+Vertex -06.70, 01.10,-01.00
+Vertex -06.70, 01.10, 24.00
+Vertex -16.05, 01.10, 24.00
+Vertex -16.05, 01.10,-01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load mh_15_do_peronteto_3.bmp
+Coordinates 0, 11.00, 36.00
+Coordinates 1, 11.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 36.00
+Coordinates 4, 11.00, 36.00
+Coordinates 5, 11.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 36.00
+
+;--------------------------------------------------
+
+;Födém
+
+[MeshBuilder]
+Vertex 05.00, 04.00, -01.00
+Vertex 05.00, 04.00, 24.00
+Vertex -09.30, 04.00, 24.00
+Vertex -09.30, 04.00, -01.00
+Face 0,1,2,3
+[Texture]
+Load mh_15_do_fodem_02.bmp
+Coordinates 0, 04.00, 08.00
+Coordinates 1, 04.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 08.00
+
+[MeshBuilder]
+Vertex 02.10, 03.97,-01.00
+Vertex 02.10, 03.97, 24.00
+Vertex 05.03, 03.97, 24.00
+Vertex 05.03, 03.97,-01.00
+Vertex -09.33, 03.97,-01.00
+Vertex -09.33, 03.97, 24.00
+Vertex -06.50, 03.97, 24.00
+Vertex -06.50, 03.97,-01.00
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load mh_15_do_fodem_01.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 00.00, 08.00
+Coordinates 2, 01.00, 08.00
+Coordinates 3, 01.00, 00.00
+Coordinates 4, 01.00, 00.00
+Coordinates 5, 01.00, 08.00
+Coordinates 6, 00.00, 08.00
+Coordinates 7, 00.00, 00.00
+transparent 130,130,120
+
+;--------------------------------------------------
+
+;Oszlopok
+
+;vágányok között
+[MeshBuilder]
+cube 0.15, 2.1, 0.25
+color 130,130,120
+translate -2.15, 1.9, 1.5
+
+[MeshBuilder]
+cube 0.15, 2.1, 0.25
+color 130,130,120
+translate -2.15, 1.9, 6.5
+
+[MeshBuilder]
+cube 0.15, 2.1, 0.25
+color 130,130,120
+translate -2.15, 1.9, 11.5
+
+[MeshBuilder]
+cube 0.15, 2.1, 0.25
+color 130,130,120
+translate -2.15, 1.9, 16.5
+
+[MeshBuilder]
+cube 0.15, 2.1, 0.25
+color 130,130,120
+translate -2.15, 1.9, 21.5
+
+;--------------------------------------------------

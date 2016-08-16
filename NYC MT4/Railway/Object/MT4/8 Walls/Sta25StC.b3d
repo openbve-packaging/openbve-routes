@@ -1,0 +1,549 @@
+[MeshBuilder]
+
+Vertex 0.0,4.5,0
+Vertex 0.7,4.5,0
+Vertex 0.7,0,0
+Vertex 0.0,0,0
+Face 0,1,2,3  ; Front
+[Texture]
+Load 25th.bmp
+Coordinates  0  ,0,0
+Coordinates  1  ,0,1
+Coordinates  2  ,1,1
+Coordinates  3  ,1,0
+
+[MeshBuilder]
+
+Vertex 3.3,4.5,0
+Vertex 4.0,4.5,0
+Vertex 4.0,0,0
+Vertex 3.3,0,0
+Face 0,1,2,3  ; Front
+[Texture]
+Load 25th.bmp
+Coordinates  0  ,0,0
+Coordinates  1  ,0,1
+Coordinates  2  ,1,1
+Coordinates  3  ,1,0
+
+[MeshBuilder]
+
+Vertex 0,4.8,0  ;19
+Vertex 0,4,0   ;16  ; Left  (facing Right Track)
+Vertex 4,4,0    ;17
+Vertex 4,4.8,0  ;18
+Face 3,2,1,0  ; Left
+[Texture]
+Load 25th.bmp
+Coordinates  0  ,0,0
+Coordinates  1  ,0,3
+Coordinates  2  ,1,3
+Coordinates  3  ,1,0
+
+[meshbuilder]
+
+vertex 0.7,1.0,10.0
+vertex 0.7,7.0,10.0
+vertex 0.7,7.0,0.0
+vertex 0.7,1.0,0.0
+face2 0,1,2,3
+color 36,36,36
+
+[meshbuilder]
+
+vertex 3.3,1.0,0.0
+vertex 3.3,7.0,0.0
+vertex 3.3,7.0,10.0
+vertex 3.3,1.0,10.0
+face2 0,1,2,3
+color 36,36,36
+
+[meshbuilder]
+
+vertex 0.7,1.1,10.0
+vertex 0.7,7.0,10.0
+vertex 3.3,7.0,10.0
+vertex 3.3,1.1,10.0
+face 0,1,2,3
+color 36,36,36
+
+[meshbuilder]
+
+vertex -5.0,4.0,0.0
+vertex -5.0,4.0,25.2
+vertex 0.5,4.0,25.2
+vertex 0.5,4.0,0.0
+face2 0,1,2,3
+color 20,20,20
+[Texture]
+Load Concrete.bmp
+Coordinates 0, 0, 0.7
+Coordinates 1, 0, 0.4
+Coordinates 2, 12, 0.3
+Coordinates 3, 12, 0.4
+
+[meshbuilder]
+
+vertex 3.5,4.0,0.0
+vertex 3.5,4.0,25.2
+vertex 10.5,4.0,25.2
+vertex 10.5,4.0,0.0
+face2 0,1,2,3
+color 20,20,20
+[Texture]
+Load Concrete.bmp
+Coordinates 0, 0, 0.7
+Coordinates 1, 0, 0.4
+Coordinates 2, 12, 0.3
+Coordinates 3, 12, 0.4
+
+[MeshBuilder]
+Vertex 0.7, 1.1, 0
+Vertex 0.7, 1.1, 1
+Vertex 3.3, 1.1, 1
+Vertex 3.3, 1.1, 0
+Face 0,1,2,3
+[Texture]
+Load StaFormC.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[meshbuilder]
+
+vertex 0.7,1.1,1.0
+vertex 0.7,1.3,1.0
+vertex 3.3,1.3,1.0
+vertex 3.3,1.1,1.0
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,1.3,1.0
+vertex 0.7,1.3,1.2
+vertex 3.3,1.3,1.2
+vertex 3.3,1.3,1.0
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,1.3,1.2
+vertex 0.7,1.5,1.2
+vertex 3.3,1.5,1.2
+vertex 3.3,1.3,1.2
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,1.5,1.2
+vertex 0.7,1.5,1.4
+vertex 3.3,1.5,1.4
+vertex 3.3,1.5,1.2
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,1.5,1.4
+vertex 0.7,1.7,1.4
+vertex 3.3,1.7,1.4
+vertex 3.3,1.5,1.4
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,1.7,1.4
+vertex 0.7,1.7,1.6
+vertex 3.3,1.7,1.6
+vertex 3.3,1.7,1.4
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,1.7,1.6
+vertex 0.7,1.9,1.6
+vertex 3.3,1.9,1.6
+vertex 3.3,1.7,1.6
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,1.9,1.6
+vertex 0.7,1.9,1.8
+vertex 3.3,1.9,1.8
+vertex 3.3,1.9,1.6
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,1.9,1.8
+vertex 0.7,2.1,1.8
+vertex 3.3,2.1,1.8
+vertex 3.3,1.9,1.8
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.1,1.8
+vertex 0.7,2.1,2.0
+vertex 3.3,2.1,2.0
+vertex 3.3,2.1,1.8
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.1,2.0
+vertex 0.7,2.3,2.0
+vertex 3.3,2.3,2.0
+vertex 3.3,2.1,2.0
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.3,2.0
+vertex 0.7,2.3,2.2
+vertex 3.3,2.3,2.2
+vertex 3.3,2.3,2.0
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.3,2.2
+vertex 0.7,2.5,2.2
+vertex 3.3,2.5,2.2
+vertex 3.3,2.3,2.2
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.5,2.2
+vertex 0.7,2.5,2.4
+vertex 3.3,2.5,2.4
+vertex 3.3,2.5,2.2
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.5,2.4
+vertex 0.7,2.7,2.4
+vertex 3.3,2.7,2.4
+vertex 3.3,2.5,2.4
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.7,2.4
+vertex 0.7,2.7,2.6
+vertex 3.3,2.7,2.6
+vertex 3.3,2.7,2.4
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.7,2.6
+vertex 0.7,2.9,2.6
+vertex 3.3,2.9,2.6
+vertex 3.3,2.7,2.6
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.9,2.6
+vertex 0.7,2.9,2.8
+vertex 3.3,2.9,2.8
+vertex 3.3,2.9,2.6
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,2.9,2.8
+vertex 0.7,3.1,2.8
+vertex 3.3,3.1,2.8
+vertex 3.3,2.9,2.8
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.1,2.8
+vertex 0.7,3.1,3.0
+vertex 3.3,3.1,3.0
+vertex 3.3,3.1,2.8
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.1,3.0
+vertex 0.7,3.3,3.0
+vertex 3.3,3.3,3.0
+vertex 3.3,3.1,3.0
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.3,3.0
+vertex 0.7,3.3,3.2
+vertex 3.3,3.3,3.2
+vertex 3.3,3.3,3.0
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.3,3.2
+vertex 0.7,3.5,3.2
+vertex 3.3,3.5,3.2
+vertex 3.3,3.3,3.2
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.5,3.2
+vertex 0.7,3.5,3.4
+vertex 3.3,3.5,3.4
+vertex 3.3,3.5,3.2
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.5,3.4
+vertex 0.7,3.7,3.4
+vertex 3.3,3.7,3.4
+vertex 3.3,3.5,3.4
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.7,3.4
+vertex 0.7,3.7,3.6
+vertex 3.3,3.7,3.6
+vertex 3.3,3.7,3.4
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.7,3.6
+vertex 0.7,3.9,3.6
+vertex 3.3,3.9,3.6
+vertex 3.3,3.7,3.6
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.9,3.6
+vertex 0.7,3.9,3.8
+vertex 3.3,3.9,3.8
+vertex 3.3,3.9,3.6
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,3.9,3.8
+vertex 0.7,4.1,3.8
+vertex 3.3,4.1,3.8
+vertex 3.3,3.9,3.8
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.7,4.1,3.8
+vertex 0.7,4.1,4.0
+vertex 3.3,4.1,4.0
+vertex 3.3,4.1,3.8
+face 0,1,2,3
+color 107,90,20
+
+[meshbuilder]
+
+vertex 0.75,2.1,1.0
+vertex 0.75,5.1,4.0
+vertex 0.75,5.05,4.0
+vertex 0.75,2.05,1.0
+face2 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex 0.80,2.1,1.0
+vertex 0.80,5.1,4.0
+vertex 0.80,5.05,4.0
+vertex 0.80,2.05,1.0
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex 0.75,2.1,1.0
+vertex 0.75,5.1,4.0
+vertex 0.80,5.1,4.0
+vertex 0.80,2.1,1.0
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex 0.75,2.05,1.0
+vertex 0.75,2.1,1.0
+vertex 0.80,2.1,1.0
+vertex 0.80,2.05,1.0
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex 3.20,2.1,1.0
+vertex 3.20,5.1,4.0
+vertex 3.20,5.05,4.0
+vertex 3.20,2.05,1.0
+face2 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex 3.25,2.1,1.0
+vertex 3.25,5.1,4.0
+vertex 3.25,5.05,4.0
+vertex 3.25,2.05,1.0
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex 3.20,2.1,1.0
+vertex 3.20,5.1,4.0
+vertex 3.25,5.1,4.0
+vertex 3.25,2.1,1.0
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex 3.20,2.05,1.0
+vertex 3.20,2.1,1.0
+vertex 3.25,2.1,1.0
+vertex 3.25,2.05,1.0
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex 1.975,2.1,1.0
+vertex 1.975,5.1,4.0
+vertex 1.975,5.05,4.0
+vertex 1.975,2.05,1.0
+face2 0,1,2,3
+[Texture]
+Load Alum001.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,0,0.2
+coordinates 3,10,0.2
+
+[meshbuilder]
+
+vertex 2.025,2.1,1.0
+vertex 2.025,5.1,4.0
+vertex 2.025,5.05,4.0
+vertex 2.025,2.05,1.0
+face 0,1,2,3
+[Texture]
+Load Alum001.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,0,0.2
+coordinates 3,10,0.2
+
+[meshbuilder]
+
+vertex 1.975,2.1,1.0
+vertex 1.975,5.1,4.0
+vertex 2.025,5.1,4.0
+vertex 2.025,2.1,1.0
+face 0,1,2,3
+[Texture]
+Load Alum001.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,0,0.2
+coordinates 3,10,0.2
+
+[meshbuilder]
+
+vertex 1.975,1.05,1.0
+vertex 1.975,2.1,1.0
+vertex 2.025,2.1,1.0
+vertex 2.025,1.05,1.0
+face 0,1,2,3
+[Texture]
+Load Alum001.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,0,0.2
+coordinates 3,10,0.2
+
+
+[meshbuilder]
+
+vertex 1.975,2.55,2.5
+vertex 1.975,3.6,2.5
+vertex 2.025,3.6,2.5
+vertex 2.025,2.55,2.5
+face 0,1,2,3
+[Texture]
+Load Alum001.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,0,0.2
+coordinates 3,10,0.2
+
+[meshbuilder]
+
+vertex 1.975,4.05,4.0
+vertex 1.975,5.1,4.0
+vertex 2.025,5.1,4.0
+vertex 2.025,4.05,4.0
+face 0,1,2,3
+[Texture]
+Load Alum001.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,0,0.2
+coordinates 3,10,0.2
+
+
+
+
+
+
+
+
+
+
+

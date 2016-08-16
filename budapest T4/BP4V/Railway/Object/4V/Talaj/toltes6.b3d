@@ -1,0 +1,69 @@
+;Készítette: mamutsegg
+;Szerkesztette: Taurus1116
+
+[MeshBuilder]
+Vertex -3, -0.40, 26
+Vertex 3, -0.40, 26
+Vertex 3, -0.401, -1
+Vertex -3, -0.401, -1
+Face 0, 1, 2, 3
+[Texture]
+Load fu.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1.5, 0
+Coordinates 2, 1.5, 12
+Coordinates 3, 0, 12
+
+[MeshBuilder]
+Vertex -3, -0.40, 26
+Vertex -7, -6.40, 26
+Vertex -7, -6.401, -1
+Vertex -3, -0.401, -1
+Face 3, 2, 1, 0
+[Texture]
+Load fu.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1.5, 0
+Coordinates 2, 1.5, 12
+Coordinates 3, 0, 12
+
+[MeshBuilder]
+Vertex 3, -0.40, 26
+Vertex 7, -6.40, 26
+Vertex 7, -6.401, -1
+Vertex 3, -0.401, -1
+Face 0, 1, 2, 3
+[Texture]
+Load fu.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1.5, 0
+Coordinates 2, 1.5, 12
+Coordinates 3, 0, 12
+
+[MeshBuilder]
+Vertex 3, -0.4,-1
+Vertex 7, -6.40,-1
+Vertex -7, -6.40,-1
+Vertex -3, -0.4,-1
+Face 0, 1, 2, 3
+[Texture]
+Load fu.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1.5, 0
+Coordinates 2, 1.5, 12
+Coordinates 3, 0, 12
+
+[MeshBuilder]
+Vertex 3, -0.4,-1
+Vertex 7, -6.40,-1
+Vertex -7, -6.40,-1
+Vertex -3, -0.4,-1
+Face2 0, 1, 2, 3
+Translate 0,0,27
+[Texture]
+Load fu.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1.5, 0
+Coordinates 2, 1.5, 12
+Coordinates 3, 0, 12
+

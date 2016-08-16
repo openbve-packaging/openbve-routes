@@ -1,0 +1,220 @@
+;Toyota ProAce by graymac 2014 - fre use - public domain,
+
+[meshbuilder]
+vertex  0.88, 1.05, 0
+vertex  0.88, 1.05, 5.143
+vertex  0.88, 0, 0
+vertex  0.88, 0, 5.143
+face 0,1,3,2
+face 2,3,1,0
+[texture]
+load chassis.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0,0,0
+
+[meshbuilder]
+vertex  -0.88, 1.05, 0
+vertex  -0.88, 1.05, 5.143
+vertex  -0.88, 0, 0
+vertex  -0.88, 0, 5.143
+face 0,1,3,2
+face 2,3,1,0
+[texture]
+load chassis.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0,0,0
+
+
+[meshbuilder]
+vertex  0.8, 2.29, 0
+vertex  0.8, 2.29, 5.143
+vertex  0.947, 1.4, 0,  0,0.25,0
+vertex  0.947, 1.4, 5.143  0,0.25,0
+vertex  0.947, 0.8, 0
+vertex  0.947, 0.8, 5.143
+vertex  0.9, 0.2, 0
+vertex  0.9, 0.2, 5.143
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+[texture]
+load side.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 0.39
+coordinates 3, 0, 0.39
+coordinates 4, 1, 0.7
+coordinates 5, 0, 0.7
+coordinates 6,1, 1
+coordinates 7, 0, 1
+transparent 0,0,0
+
+[meshbuilder]
+vertex  -0.8, 2.29, 0
+vertex  -0.8, 2.29, 5.143
+vertex  -0.947, 1.4, 0,  0,0.25,0
+vertex  -0.947, 1.4, 5.143  0,0.25,0
+vertex  -0.947, 0.8, 0
+vertex  -0.947, 0.8, 5.143
+vertex  -0.9, 0.2, 0
+vertex - 0.9, 0.2, 5.143
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+[texture]
+load side.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 0.39
+coordinates 3, 0, 0.39
+coordinates 4, 1, 0.7
+coordinates 5, 0, 0.7
+coordinates 6,1, 1
+coordinates 7, 0, 1
+transparent 0,0,0
+
+[meshbuilder]
+vertex  -0.947,  2.29, 4.78
+vertex  0.947,  2.29, 4.78
+vertex  -0.947, 1.4, 5.02
+vertex  0.947, 1.4, 5.02
+vertex  -0.947, 0.8, 5.05
+vertex  0.947, 0.8, 5.05
+vertex  -0.947,  0.8, 5.143
+vertex  0.947,  0.8, 5.143
+vertex  -0.947,  0.5, 5.13
+vertex  0.947,  0.5, 5.13
+vertex  -0.947,  0.38, 5.1
+vertex  0.947, 0.38, 5.1
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+face 8,9,7,6
+face 10,11,9,8
+[texture]
+load back.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 0.405
+coordinates 3, 0, 0.405
+coordinates 4, 1, 0.75
+coordinates 5, 0, 0.75
+coordinates 6, 1, 0.758
+coordinates 7, 0, 0.758
+coordinates 8, 1, 0.918
+coordinates 9, 0, 0.918
+coordinates 10,1, 1
+coordinates 11, 0, 1
+transparent 0,0,0
+
+[meshbuilder]
+vertex  0.8, 2.26, 4.78
+vertex  -0.8, 2.26, 4.78
+vertex  0.804, 2.25, 3.3
+vertex  -0.804, 2.25, 3.3
+vertex  0.82, 2.2, 2.49
+vertex  -0.82, 2.2, 2.49
+vertex  0.84, 2.1,  2.3
+vertex  -0.84, 2.1,  2.3
+vertex  0.86, 1.95, 2.05
+vertex  -0.86, 1.95, 2.05
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+face 8,9,7,6
+[texture]
+load roof.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 0.428
+coordinates 3, 0, 0.428
+coordinates 4, 1, 0.835
+coordinates 5, 0, 0.835
+coordinates 6, 1, 0.923
+coordinates 7, 0, 0.923
+coordinates 8, 1, 1
+coordinates 9, 0, 1
+
+[meshbuilder]
+vertex  0.86, 1.95, 2.05
+vertex  -0.86, 1.95, 2.05
+vertex  0.96, 1.2, 1.09
+vertex  -0.96, 1.2, 1.09
+vertex  0.95, 1.045, 0.52,  0,0.3,0
+vertex  -0.95, 1.045, 0.52,  0,0.3,0
+face 2,3,1,0
+face 4,5,3,2
+load windscreen.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 0.723
+coordinates 3, 0, 0.723
+coordinates 4, 1, 1
+coordinates 5, 0, 1
+
+[meshbuilder]
+vertex  0.948, 1.045, 0.52,  0,0.3,0
+vertex  -0.948, 1.045, 0.528,  0,0.3,0
+vertex  0.948, 1, 0.4,  0,0.3,-0.1
+vertex  -0.948, 1, 0.4,  0,0.3,0-0.1
+vertex  0.95, 0.9, 0.25,  0,0.2,-0.1
+vertex  -0.95, 0.9, 0.25,  0,0.2,-0.1
+vertex  0.935, 0.7,  0.12,  0,0.2,-0.2
+vertex  -0.935, 0.7,  0.12,  0,0.2,-0.2
+vertex  0.934, 0.64, 0,  0,0.2,-0.5
+vertex  -0.934, 0.64, 0,   0,0.2,-0.5
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+face 8,9,7,6
+[texture]
+load front.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 0.08
+coordinates 3, 0, 0.08
+coordinates 4, 1, 0.306
+coordinates 5, 0, 0.306
+coordinates 6, 1, 0.6
+coordinates 7, 0, 0.6
+coordinates 8, 1, 1
+coordinates 9, 0, 1
+
+
+[meshbuilder]
+vertex  0.934, 0.64, 0,  0,0.2,-0.5
+vertex  -0.934, 0.64, 0,   0,0.2,-0.5
+vertex  0.92, 0.4, 0.02
+vertex  -0.92, 0.4, 0.02
+vertex  0.91, 0.3, 0.1
+vertex  -0.91, 0.3, 0.1
+face 2,3,1,0
+face 4,5,3,2
+[texture]
+load frontB.png
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 1, 0.6
+coordinates 3, 0, 0.6
+coordinates 4, 1, 1
+coordinates 5, 0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+

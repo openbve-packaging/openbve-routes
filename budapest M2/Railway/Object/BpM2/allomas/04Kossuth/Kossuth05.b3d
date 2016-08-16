@@ -1,0 +1,480 @@
+;Kossuth tér állomás, bal 5
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;Jobb oldali fal
+[MeshBuilder]
+Vertex 01.606,-00.17,00.00
+Vertex 01.982, 00.26,00.00
+Vertex 01.982, 00.95,00.00
+Vertex 01.982, 00.95,20.00
+Vertex 01.982, 00.26,20.00
+Vertex 01.606,-00.17,20.00
+Vertex 01.606,-00.17,20.00
+Vertex 01.982, 00.26,20.00
+Vertex 01.982, 00.26,25.00
+Vertex 01.606,-00.17,25.00
+Face 5,4,1,0
+Face 4,3,2,1
+Face 9,8,7,6
+[Texture]
+Load kossuth_fal_J_01.bmp
+Coordinates 0, 20.00, 01.00
+Coordinates 1, 20.00, 00.42
+Coordinates 2, 20.00, 00.00
+Coordinates 3, 00.00, 00.00
+Coordinates 4, 00.00, 00.42
+Coordinates 5, 00.00, 01.00
+Coordinates 6, 05.00, 01.00
+Coordinates 7, 05.00, 00.42
+Coordinates 8, 00.00, 00.42
+Coordinates 9, 00.00, 01.00
+
+[MeshBuilder]
+Vertex 01.982,00.95,04.50
+Vertex 01.982,02.84,04.50
+Vertex 01.982,02.84,20.00
+Vertex 01.982,00.95,20.00
+Face 3,2,1,0
+[Texture]
+Load kossuth_fal_J_02.bmp
+Coordinates 0,31.00,01.00
+Coordinates 1,31.00,00.00
+Coordinates 2,00.00,00.00
+Coordinates 3,00.00,01.00
+
+[MeshBuilder]
+Vertex 01.982,00.950,00.00
+Vertex 01.982,02.840,00.00
+Vertex 01.982,02.840,04.50
+Vertex 01.982,00.950,04.50
+Face 3,2,1,0
+[Texture]
+Load kossuth_kep_J_01.bmp
+Coordinates 0,01.00,01.00
+Coordinates 1,01.00,00.00
+Coordinates 2,00.00,00.00
+Coordinates 3,00.00,01.00
+
+[MeshBuilder]
+Vertex 01.982,00.260,20.00
+Vertex 01.982,03.140,20.00
+Vertex 01.982,03.140,25.00
+Vertex 01.982,00.260,25.00
+Face 3,2,1,0
+[Texture]
+Load kossuth_fal_J_03.bmp
+Coordinates 0,03.00,02.00
+Coordinates 1,03.00,00.00
+Coordinates 2,00.00,00.00
+Coordinates 3,00.00,02.00
+
+;jobb irány
+[MeshBuilder]
+vertex 1.982,3.14,12.5
+vertex 1.982,2.84,12.5
+vertex 1.982,3.14,-12.5
+vertex 1.982,2.84,-12.5
+face 3,1,0,2
+Load kossuth_iranyB.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,1,0
+coordinates 3,1,1
+
+;jobb irány piros
+[MeshBuilder]
+vertex 1.982,3.14,20
+vertex 1.982,2.84,20
+vertex 1.982,3.14,12.4
+vertex 1.982,2.84,12.4
+face 3,1,0,2
+color 255,0,0
+
+;------------------------------
+
+;bal fal
+[MeshBuilder]
+vertex -5.65,1.10,0
+vertex -5.65,3.36,0
+vertex -5.65,3.36,19
+vertex -5.65,1.10,19
+face 0,1,2,3
+Load kossuth_fal_B_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,19,0
+coordinates 3,19,1
+
+[MeshBuilder]
+Vertex -5.65,3.360,0
+Vertex -5.55,3.682,0
+Vertex -5.55,3.682,0.76
+Vertex -5.65,3.360,0.76
+Vertex -5.65,3.360,1.25
+Vertex -5.55,3.682,1.25
+Vertex -5.55,3.682,9.01
+Vertex -5.65,3.360,9.01
+Vertex -5.65,3.360,11
+Vertex -5.55,3.682,11
+Vertex -5.55,3.682,18.26
+Vertex -5.65,3.360,18.26
+Vertex -5.65,3.360,18.75
+Vertex -5.55,3.682,18.75
+Vertex -5.55,3.682,19
+Vertex -5.65,3.360,19
+
+vertex -5.65,3.360,19
+vertex -5.65,3.682,18.9
+vertex -4.4,3.360,19
+vertex -4.3,3.682,18.9
+vertex -4.4,3.360,22
+vertex -4.3,3.682,21.9
+vertex -3.4,3.360,22
+vertex -3.3,3.682,21.9
+vertex -3.4,3.360,25
+vertex -3.3,3.682,25
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 12,13,14,15
+Face 16,17,19,18
+Face 18,19,21,20
+Face 20,21,23,22
+Face 22,23,25,24
+Color 200,0,0
+
+;segélykérõ
+[MeshBuilder]
+Vertex 0.01,  01.18,  00.00
+Vertex 0.01,  03.36,  00.00
+Vertex 0.01,  03.36,  00.65
+Vertex 0.01,  01.18,  00.65
+Vertex 0.11,  01.18,  00.10
+Vertex 0.11,  03.20,  00.10
+Vertex 0.11,  03.20,  00.55
+Vertex 0.11,  01.18,  00.55
+Vertex 0.01,  03.36,  00.10
+Vertex 0.01,  03.36,  00.55
+Face 0,1,5,4
+Face 4,5,6,7
+Face 2,3,7,6
+Face 8,9,6,5
+Face 1,8,5
+Face 2,6,9
+[Texture]
+Load ..\skero_02.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 01.00
+Coordinates  4, 00.21, 01.00
+Coordinates  5, 00.21, 00.05
+Coordinates  6, 00.79, 00.05
+Coordinates  7, 00.79, 01.00
+Coordinates  8, 00.21, 00.00
+Coordinates  9, 00.79, 00.00
+Translate -5.65,0,0.175
+
+;--------------------------------------------------
+
+;indítófülke
+[MeshBuilder]
+vertex -5.65,1.10,19
+vertex -5.65,3.36,19
+vertex -4.4,3.36,19
+vertex -4.4,1.10,19
+vertex -4.4,1.10,19
+vertex -4.4,3.36,19
+vertex -4.4,3.36,22.05
+vertex -4.4,1.10,22.05
+vertex -3.4,1.10,22
+vertex -3.4,3.36,22
+vertex -3.4,3.36,25
+vertex -3.4,1.10,25
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+Load kossuth_fal_B_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,3,0
+coordinates 7,3,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,2,0
+coordinates 11,2,1
+
+[MeshBuilder]
+vertex -4.4,1.1,22
+vertex -4.4,3.682,22
+vertex -3.4,3.682,22
+vertex -3.4,1.1,22
+face 0,1,2,3
+Load kossuth_if_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.375,0
+coordinates 3,0.375,1
+
+;--------------------
+
+;alagútbejárat
+
+[meshbuilder]
+Vertex -3.400,1.100,24.98
+Vertex -3.400,3.682,24.98
+Vertex -1.440,3.682,24.98
+Vertex -1.755,3.410,24.98
+Vertex -2.019,3.088,24.98
+Vertex -2.224,2.727,24.98
+Vertex -2.366,2.336,24.98
+Vertex -2.440,1.926,24.98
+Vertex -2.443,1.511,24.98
+Vertex -2.375,1.100,24.98
+Face 0,1,8,9
+Face 1,7,8
+Face 1,6,7
+Face 1,5,6
+Face 1,4,5
+Face 1,3,4
+Face 1,2,3
+color 60,57,47
+
+;--------------------
+
+;pályára aljzatpótlék
+[MeshBuilder]
+vertex -0.425, -00.40, 25.00
+vertex -0.425, -00.17, 25.00
+vertex 0.425, -00.17, 25.00
+vertex 0.425, -00.40, 25.00
+face 0,1,2,3
+color 216,216,216
+[texture]
+load ../../sin/aljzat_150.bmp
+coordinates 0, 0.0, 0.25
+coordinates 1, 0.0, 0.0
+coordinates 2, 0.25, 0.0
+coordinates 3, 0.25, 0.25
+
+;--------------------------------------------------
+
+;Belépni tilos tábla
+
+[meshbuilder]
+cylinder 8, 0.04, 0.04, 01.00
+color 112,97,80
+;color 145,130,91
+translate  -02.80, 01.60, 23.10
+
+[meshbuilder]
+cylinder 8, 0.02, 0.02, 00.60
+color 112,97,80
+rotate 0,0,1,90
+translate  -02.50, 02.04, 23.10
+
+[meshbuilder]
+cylinder 8, 0.02, 0.02, 00.60
+color 112,97,80
+rotate 0,0,1,90
+translate  -02.50, 01.96, 23.10
+
+[MeshBuilder]
+Vertex -2.32,1.70,23.10
+Vertex -2.32,2.30,23.10
+Vertex -1.72,2.30,23.10
+Vertex -1.72,1.70,23.10
+Face 0,1,2,3
+[Texture]
+Load ..\Tabla\tilos1b.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 51,51,51
+
+;--------------------------------------------------
+
+;Tükör
+
+[meshbuilder]
+cylinder 8, 0.04, 0.04, 01.00
+color 112,97,80
+translate  -02.35, 01.60, 16.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -02.35, 02.10, 16.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -02.35, 03.30, 16.00
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -02.773, 02.70, 15.846
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -01.927, 02.70, 16.154
+
+[meshbuilder]
+cube 0.20,0.01,0.20
+color 112,97,80
+rotate 0,1,0,0
+translate  -02.35, 01.10, 16.000
+
+[MeshBuilder]
+vertex -2.773,2.30,15.846
+vertex -2.773,3.30,15.846
+vertex -1.927,3.30,16.154
+vertex -1.927,2.30,16.154
+face 0,1,2,3
+Load ..\peron\tukor.bmp
+coordinates 0,0,0.8
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.8
+
+;felirat
+[MeshBuilder]
+vertex -2.773,2.10,15.846
+vertex -2.773,2.30,15.846
+vertex -1.927,2.30,16.154
+vertex -1.927,2.10,16.154
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FKossuth.bmp
+Coordinates 0,0.12,1
+Coordinates 1,0.12,0
+Coordinates 2,0.88,0
+Coordinates 3,0.88,1
+
+;---
+
+;Irány Déli
+
+;szöveg
+[MeshBuilder]
+Vertex -0.60,0.2,0.0
+Vertex  0.25,0.2,0.0
+Vertex  0.25,0.0,0.0
+Vertex -0.60,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\IDeli1.bmp
+Coordinates 0,0.12,0
+Coordinates 1,0.88,0
+Coordinates 2,0.88,1
+Coordinates 3,0.12,1
+translate -2.9,3.482,5
+
+;nyíl
+[MeshBuilder]
+Vertex 0.25,0.2,0.0
+Vertex 0.60,0.2,0.0
+Vertex 0.60,0.0,0.0
+Vertex 0.25,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil12b.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate -2.9,3.482,5
+
+;szélek
+[MeshBuilder]
+Vertex  0.6,0.0,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.2,0.2
+Vertex  0.6,0.0,0.2
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.0,0.2
+face 0,1,2,3
+face 5,4,0,3
+color 128,128,128
+translate -2.9,3.482,5
+
+;----
+
+;szöveg
+[MeshBuilder]
+Vertex -5.65,3.36,0.39
+Vertex -5.55,3.682,0.39
+Vertex -5.55,3.682,2
+Vertex -5.65,3.36,2
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Fkossuth.bmp
+Coordinates 0,0.15,1
+Coordinates 1,0.15,0
+Coordinates 2,0.85,0
+Coordinates 3,0.85,1
+translate 0,0,9
+Color 200,200,200
+
+;nyíl
+[MeshBuilder]
+Vertex -5.65,3.36,0
+Vertex -5.55,3.682,0
+Vertex -5.55,3.682,0.4
+Vertex -5.65,3.36,0.4
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil22.bmp
+Coordinates 0,0.85,1
+Coordinates 1,0.85,0
+Coordinates 2,0.15,0
+Coordinates 3,0.15,1
+translate 0,0,9
+Color 200,200,200
+
+;Exit felirat
+[MeshBuilder]
+Vertex -5.65,3.360,-0.25
+Vertex -5.55,3.682,-0.25
+Vertex -5.55,3.682, 0.25
+Vertex -5.65,3.360, 0.25
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Exit1.bmp
+Coordinates 0,0,0.8
+Coordinates 1,0,0.2
+Coordinates 2,1,0.2
+Coordinates 3,1,0.8
+translate 0,0,1
+Color 200,200,200
+
+;Exit felirat
+[MeshBuilder]
+Vertex -5.65,3.360,-0.25
+Vertex -5.55,3.682,-0.25
+Vertex -5.55,3.682, 0.25
+Vertex -5.65,3.360, 0.25
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Exit1.bmp
+Coordinates 0,0,0.8
+Coordinates 1,0,0.2
+Coordinates 2,1,0.2
+Coordinates 3,1,0.8
+translate 0,0,18.5
+Color 200,200,200

@@ -1,0 +1,142 @@
+[MeshBuilder]
+Vertex -1.3,2.3,-0.05
+Vertex 1.4,2.3,-0.05
+Vertex -1.2,2.2,-0.05
+Vertex -0.8,2.2,-0.05
+Vertex -0.7,2.2,-0.05
+Vertex 0,2.2,-0.05
+Vertex 0.1,2.2,-0.05
+Vertex 0.8,2.2,-0.05
+Vertex 0.9,2.2,-0.05
+Vertex 1.3,2.2,-0.05
+Vertex -1.2,1.8,-0.05
+Vertex -0.8,1.8,-0.05
+Vertex -0.7,1.8,-0.05
+Vertex 0,1.8,-0.05
+Vertex 0.1,1.8,-0.05
+Vertex 0.8,1.8,-0.05
+Vertex 0.9,1.8,-0.05
+Vertex 1.3,1.8,-0.05
+Vertex -1.3,1.7,-0.05
+Vertex -0.8,1.7,-0.05
+Vertex -0.7,1.7,-0.05
+Vertex 0,1.7,-0.05
+Vertex 0.1,1.7,-0.05
+Vertex 0.8,1.7,-0.05
+Vertex 0.9,1.7,-0.05
+Vertex 1.4,1.7,-0.05
+Vertex -0.8,1.1,-0.05
+Vertex -0.7,1.1,-0.05
+Vertex 0,1.1,-0.05
+Vertex 0.1,1.1,-0.05
+Vertex 0.8,1.1,-0.05
+Vertex 0.9,1.1,-0.05
+
+Vertex -1.3,2.3,0.05
+Vertex 1.4,2.3,0.05
+Vertex -1.2,2.2,0.05
+Vertex -0.8,2.2,0.05
+Vertex -0.7,2.2,0.05
+Vertex 0,2.2,0.05
+Vertex 0.1,2.2,0.05
+Vertex 0.8,2.2,0.05
+Vertex 0.9,2.2,0.05
+Vertex 1.3,2.2,0.05
+Vertex -1.2,1.8,0.05
+Vertex -0.8,1.8,0.05
+Vertex -0.7,1.8,0.05
+Vertex 0,1.8,0.05
+Vertex 0.1,1.8,0.05
+Vertex 0.8,1.8,0.05
+Vertex 0.9,1.8,0.05
+Vertex 1.3,1.8,0.05
+Vertex -1.3,1.7,0.05
+Vertex -0.8,1.7,0.05
+Vertex -0.7,1.7,0.05
+Vertex 0,1.7,0.05
+Vertex 0.1,1.7,0.05
+Vertex 0.8,1.7,0.05
+Vertex 0.9,1.7,0.05
+Vertex 1.4,1.7,0.05
+Vertex -0.8,1.1,0.05
+Vertex -0.7,1.1,0.05
+Vertex 0,1.1,0.05
+Vertex 0.1,1.1,0.05
+Vertex 0.8,1.1,0.05
+Vertex 0.9,1.1,0.05
+
+Face 1,9,2,0
+Face 1,25,17,9
+Face 2,10,18,0
+Face 17,25,18,10
+Face 8,16,15,7
+Face 6,14,13,5
+Face 4,12,11,3
+Face 24,31,30,23
+Face 22,29,28,21
+Face 20,27,26,19
+
+Face 41,49,57,33
+Face 32,50,42,34
+Face 42,50,57,49
+Face 32,34,41,33
+Face 35,43,44,36
+Face 37,45,46,38
+Face 39,47,48,40
+Face 55,62,63,56
+Face 53,60,61,54
+Face 51,58,59,52
+
+Face 34,42,10,2
+Face 36,44,12,4
+Face 38,46,14,6
+Face 40,48,16,8
+Face 52,59,27,20
+Face 54,61,29,22
+Face 56,63,31,24
+
+Face 9,17,49,41
+Face 7,15,47,39
+Face 5,13,45,37
+Face 3,11,43,35
+Face 23,30,62,55
+Face 21,28,60,53
+Face 19,26,58,51
+
+Face 49,17,16,48
+Face 47,15,14,46
+Face 45,13,12,44
+Face 43,11,10,42
+
+Face 3,35,34,2
+Face 5,37,36,4
+Face 7,39,38,6
+Face 9,41,40,8
+
+Face 33,1,0,32
+Face 25,57,50,18
+Face 0,18,50,32
+Face 33,57,25,1
+
+Color 90,90,90
+
+[Meshbuilder]
+Vertex 0.3,2.25,0.06
+Vertex 0.3,1.4,0.06
+Vertex -0.2,1.4,0.06
+Vertex -0.2,2.25,0.06
+Face 0,1,2,3
+Color 255,255,255
+
+[Meshbuilder]
+Vertex 0.3,2.25,0.06
+Vertex 0.3,1.4,0.06
+Vertex -0.2,1.4,0.06
+Vertex -0.2,2.25,0.06
+Face 3,2,1,0
+[Texture]
+load lu-gate.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0

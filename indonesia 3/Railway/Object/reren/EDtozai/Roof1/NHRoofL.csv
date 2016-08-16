@@ -1,0 +1,72 @@
+CreateMeshBuilder,
+AddVertex,-2.51, 4.2, 26,
+AddVertex,-1.90, 5.4, 26,
+AddVertex, 3.00, 5.4, 26,
+AddVertex, 3.00, 5.4, 0,
+AddVertex,-1.90, 5.4, 0,
+AddVertex,-2.51, 4.2, 0,
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+LoadTexture,roofB1.bmp,
+SetTextureCoordinates,0, -0.3, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.1, 0,
+SetTextureCoordinates,3, 1.1, 6,
+SetTextureCoordinates,4, 0, 6,
+SetTextureCoordinates,5, -0.3, 6,
+Setcolor,170,170,200,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.51,  4.2, 0
+AddVertex,-2.51,  4.2, 25.2
+AddVertex,-2.51,  0.29, 25.2
+AddVertex,-2.51,  0.29, 0
+AddFace,0,1,2,3,
+LoadTexture,nihowall.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 2,0
+SetTextureCoordinates,2, 2,1
+SetTextureCoordinates,3, 0,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.51, -0.29, 0,
+AddVertex,-2.51, -0.29, 25.2,
+AddVertex,-1.71, -0.29, 25.2,
+AddVertex,-1.71, -0.29, 0,
+AddFace,0,1,2,3,
+LoadTexture,../wall/bordwall_A.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+SetColor,109,110,120
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.51,  0.29, 0
+AddVertex,-2.51,  0.29, 25.1
+AddVertex,-2.51, -0.29, 25.1
+AddVertex,-2.51, -0.29, 0
+AddFace,0,1,2,3,
+LoadTexture,kayawall_c2.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 15,0
+SetTextureCoordinates,2, 15,1
+SetTextureCoordinates,3, 0,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.48, 2.5, 10.5,
+AddVertex,-2.48, 2.5, 12.0,
+AddVertex,-2.48, 2.0, 12.0,
+AddVertex,-2.48, 2.0, 10.5,
+AddFace,0,1,2,3,
+LoadTexture,../Fpanel/nihon.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+Translate,0,0.2,-3

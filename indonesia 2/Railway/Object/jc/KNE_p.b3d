@@ -1,0 +1,23 @@
+; ****************************************
+; 
+;  Állomásnév tábla 2.2 méter
+;
+;  Modell : Krisz
+;
+; ****************************************
+
+[MeshBuilder]
+Vertex -1.6,0.4,0
+Vertex 1.6,0.4,0
+Vertex 1.6,-0.4,0
+Vertex -1.6,-0.4,0
+Face 0,1,2,3
+Face 3,2,1,0
+
+[Texture]
+Load KNE.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+

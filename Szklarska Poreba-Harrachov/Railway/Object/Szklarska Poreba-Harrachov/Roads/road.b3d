@@ -1,0 +1,67 @@
+﻿[Meshbuilder]
+Vertex -2.15,-0.4,25
+Vertex 2.15,-0.4,25
+Vertex 2.15,-0.4,0
+Vertex -2.15,-0.4,0
+Face 0,1,2,3
+Load Obraz3.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+[Meshbuilder]
+Vertex -2.3,-0.4,0
+Vertex -2.2,-0.4,0
+Vertex -2.2,0.4,0
+Vertex -2.3,0.4,0
+Face2 3,2,1,0
+Load slupek.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+[Meshbuilder]
+Vertex 2.3,-0.4,0
+Vertex 2.2,-0.4,0
+Vertex 2.2,0.4,0
+Vertex 2.3,0.4,0
+Face2 0,1,2,3
+Load slupek.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+
+[Meshbuilder]
+Vertex -3,-0.4,25
+Vertex -2.15,-0.4,25
+Vertex -2.15,-0.4,0
+Vertex -3,-0.4,0
+Face 0,1,2,3
+Load pobocze.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+[Meshbuilder]
+Vertex 5,-0.4,25
+Vertex 2.15,-0.4,25
+Vertex 2.15,-0.4,0
+Vertex 5,-0.4,0
+Face 3,2,1,0
+Load pobocze2.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,2,1
+Coordinates 3,2,0
+[Meshbuilder]
+Vertex 8,-0.4,25
+Vertex 5,-0.4,25
+Vertex 5,-0.4,0
+Vertex 8,-0.4,0
+Face 3,2,1,0
+Load pobocze2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,1

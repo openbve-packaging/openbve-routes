@@ -1,0 +1,179 @@
+;lato sinistro
+[MeshBuilder]
+Vertex -1.3,0,12.5
+Vertex -1.3,6,12.5
+Vertex -1.3,6,0
+Vertex -1.3,0,0
+Face 0,1,2,3
+[Texture]
+Load carro01.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;lato destro 
+[MeshBuilder]
+Vertex 1.3,0,12.5
+Vertex 1.3,6,12.5
+Vertex 1.3,6,0
+Vertex 1.3,0,0
+Face 3,2,1,0
+[Texture]
+Load carro01.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;fronte
+[MeshBuilder]
+Vertex -1.3,0,  0.4
+Vertex -1.3,6.9,0.4
+Vertex  1.3,6.9,0.4
+Vertex  1.3,0,  0.4
+Face 0,1,2,3
+[Texture]
+Load davanticar01.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;angoli sin
+
+[MeshBuilder]
+Vertex -1.3,3.9,0.4
+Vertex -1.3,3.9,12.25
+Vertex -0.9,4.3,12.25
+Vertex -0.9,4.3,0.4
+Face 0,1,2,3
+color 50,50,50
+[MeshBuilder]
+Vertex -0.9,4.3,0.4
+Vertex -0.9,4.3,12.25
+Vertex -0.5,4.4,12.25
+Vertex -0.5,4.4,0.4
+Face 0,1,2,3
+color 50,50,50
+;--------------------------
+[MeshBuilder]
+Vertex -0.5,4.4,0.4
+Vertex -0.5,4.4,12.25
+Vertex  0.5,4.4,12.25
+Vertex  0.5,4.4,0.4
+Face 0,1,2,3
+color 50,50,50
+;-----------------------
+;angoli des
+[MeshBuilder]
+Vertex 1.3,3.9,0.4
+Vertex 1.3,3.9,12.25
+Vertex 0.9,4.3,12.25
+Vertex 0.9,4.3,0.4
+Face 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex 0.9,4.3,0.4
+Vertex 0.9,4.3,12.25
+Vertex 0.5,4.4,12.25
+Vertex 0.5,4.4,0.4
+Face 3,2,1,0
+color 50,50,50
+;-----------------------------------------------------------------------------
+;lato sinistro
+[MeshBuilder]
+Vertex -1.3,0,12.5
+Vertex -1.3,6,12.5
+Vertex -1.3,6,0
+Vertex -1.3,0,0
+Face 0,1,2,3
+translate 0,0,12.5
+[Texture]
+Load carro01.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;lato destro 
+[MeshBuilder]
+Vertex 1.3,0,12.5
+Vertex 1.3,6,12.5
+Vertex 1.3,6,0
+Vertex 1.3,0,0
+Face 3,2,1,0
+translate 0,0,12.5
+[Texture]
+Load carro01.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;fronte
+[MeshBuilder]
+Vertex -1.3,0,  0.4
+Vertex -1.3,6.9,0.4
+Vertex  1.3,6.9,0.4
+Vertex  1.3,0,  0.4
+Face 0,1,2,3
+translate 0,0,12.5
+[Texture]
+Load davanticar01.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;angoli sin
+
+[MeshBuilder]
+Vertex -1.3,3.9,0.4
+Vertex -1.3,3.9,12.25
+Vertex -0.9,4.3,12.25
+Vertex -0.9,4.3,0.4
+Face 0,1,2,3
+translate 0,0,12.5
+color 50,50,50
+[MeshBuilder]
+Vertex -0.9,4.3,0.4
+Vertex -0.9,4.3,12.25
+Vertex -0.5,4.4,12.25
+Vertex -0.5,4.4,0.4
+Face 0,1,2,3
+translate 0,0,12.5
+color 50,50,50
+;--------------------------
+[MeshBuilder]
+Vertex -0.5,4.4,0.4
+Vertex -0.5,4.4,12.25
+Vertex  0.5,4.4,12.25
+Vertex  0.5,4.4,0.4
+Face 0,1,2,3
+translate 0,0,12.5
+color 50,50,50
+;-----------------------
+;angoli des
+[MeshBuilder]
+Vertex 1.3,3.9,0.4
+Vertex 1.3,3.9,12.25
+Vertex 0.9,4.3,12.25
+Vertex 0.9,4.3,0.4
+Face 3,2,1,0
+translate 0,0,12.5
+color 50,50,50
+[MeshBuilder]
+Vertex 0.9,4.3,0.4
+Vertex 0.9,4.3,12.25
+Vertex 0.5,4.4,12.25
+Vertex 0.5,4.4,0.4
+Face 3,2,1,0
+translate 0,0,12.5
+color 50,50,50

@@ -1,0 +1,387 @@
+;; ALN668 d LUCA REVELLO
+;; anno 2004
+
+;Lato Sinistro
+CreateMeshBuilder,
+AddVertex,-1.45,0.5,23.87,
+AddVertex,-1.45,3.50,23.87,
+AddVertex,-1.45,3.50,-0.27,
+AddVertex,-1.45,0.5,-0.27,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,668_s.bmp,
+SetTextureCoordinates,0,0,0.96,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1.02,
+SetDecalTransparentColor,0,0,255,
+
+;lato destro 
+CreateMeshBuilder,
+AddVertex,1.45,0.5,23.87,
+AddVertex,1.45,3.50,23.87,
+AddVertex,1.45,3.50,-0.27,
+AddVertex,1.45,0.5,-0.27,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,668_s.bmp,
+SetTextureCoordinates,0,0,0.97,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1.005,
+SetDecalTransparentColor,0,0,255,
+
+;fronte fondo
+CreateMeshBuilder,
+AddVertex,-1.45,0,23.5,
+AddVertex,-1.45,3.7,23.5,
+AddVertex,1.45,3.7,23.5,
+AddVertex,1.45,0,23.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,668_f1.bmp,
+SetTextureCoordinates,0,0.98,0.98,
+SetTextureCoordinates,1,0.98,0.01,
+SetTextureCoordinates,2,0.02,0.01,
+SetTextureCoordinates,3,0.02,0.98,
+SetDecalTransparentColor,0,0,255,
+
+;;fronte
+CreateMeshBuilder,
+AddVertex,-1.45,0,0,
+AddVertex,-1.45,3.7,0,
+AddVertex,1.45,3.7,0,
+AddVertex,1.45,0,0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,668_f1.bmp,
+SetTextureCoordinates,0,0.02,0.98,
+SetTextureCoordinates,1,0.02,0.01,
+SetTextureCoordinates,2,0.98,0.01,
+SetTextureCoordinates,3,0.98,0.98,
+SetDecalTransparentColor,0,0,255,
+
+
+CreateMeshBuilder ; Tetto
+AddVertex, -1.45  , 3.17 , 23.5 ; 0  1a striscia a sinistra
+AddVertex, -1.45  , 3.17 , 0    ; 1
+AddVertex, -1.44  , 3.45 , 23.5 ; 2  2a striscia
+AddVertex, -1.44  , 3.45 , 0    ; 3
+AddVertex, -1.38  , 3.548, 23.5 ; 4  3a striscia
+AddVertex, -1.38  , 3.548, 0    ; 5
+AddVertex, -1.15  , 3.67 , 23.5 ; 6  4a striscia
+AddVertex, -1.15  , 3.67 , 0    ; 7
+AddVertex,  0.00  , 3.70 , 23.5 ; 8  5a striscia
+AddVertex,  0.00  , 3.70 , 0    ; 9
+AddVertex,  1.15  , 3.67 , 23.5 ;10  6a striscia
+AddVertex,  1.15  , 3.67 , 0    ;11
+AddVertex,  1.38  , 3.548, 23.5 ;12  7a striscia
+AddVertex,  1.38  , 3.548, 0    ;13
+AddVertex,  1.44  , 3.45 , 23.5 ;14  8a striscia
+AddVertex,  1.44  , 3.45 , 0    ;15
+AddVertex,  1.45  , 3.17 , 23.5 ;16  8a striscia a destra
+AddVertex,  1.45  , 3.17 , 0    ;17
+AddFace, 2, 3, 1, 0  ;1 striscia da sinistra 
+AddFace, 4, 5, 3, 2  ;2 striscia 
+AddFace, 6, 7, 5, 4  ;3 striscia 
+AddFace, 8, 9, 7, 6  ;4 striscia 
+AddFace,10,11, 9, 8  ;5 striscia 
+AddFace,12,13,11,10  ;6 striscia 
+AddFace,14,15,13,12  ;7 striscia 
+AddFace,16,17,15,14  ;8 striscia a destra
+SetColor,128,128,128
+
+
+
+
+CreateMeshBuilder ; Respingenti sx
+cylinder,4, 0.08, 0.08 ,0.5 
+SetColor,24,24,24
+rotate,1,0,0,-90
+translate, -0.9, 1, -0.14
+
+CreateMeshBuilder
+AddVertex,-1.3,1.18,-0.4,
+AddVertex,-1.25,1.25,-0.4,
+AddVertex,-0.60,1.20,-0.4,
+AddVertex,-0.55,1.15,-0.4,
+AddVertex,-0.55,0.95,-0.4,
+AddVertex,-0.60,0.85,-0.4,
+AddVertex,-1.25,0.9,-0.4,
+AddVertex,-1.3,0.95,-0.4,
+AddFace2,0,1,2,3,4,5,6,7
+SetColor,50,50,50,
+GenerateNormals,
+
+
+CreateMeshBuilder ; Respingenti dx
+cylinder,4, 0.08, 0.08 ,0.5 
+SetColor,24,24,24
+rotate,1,0,0,-90
+translate, 0.9, 1, -0.14
+
+CreateMeshBuilder
+AddVertex,1.3,1.18,-0.4,
+AddVertex,1.25,1.25,-0.4,
+AddVertex,0.60,1.20,-0.4,
+AddVertex,0.55,1.15,-0.4,
+AddVertex,0.55,0.95,-0.4,
+AddVertex,0.60,0.85,-0.4,
+AddVertex,1.25,0.9,-0.4,
+AddVertex,1.3,0.95,-0.4,
+AddFace2,0,1,2,3,4,5,6,7
+SetColor,50,50,50,
+GenerateNormals,
+
+
+;fondo
+CreateMeshBuilder ; Respingenti sx
+cylinder,4, 0.08, 0.08 ,0.5 
+SetColor,24,24,24
+rotate,1,0,0,-90
+translate, -0.9, 1, 23.64
+
+CreateMeshBuilder
+AddVertex,-1.3,1.18,23.9,
+AddVertex,-1.25,1.25,23.9,
+AddVertex,-0.60,1.20,23.9,
+AddVertex,-0.55,1.15,23.9,
+AddVertex,-0.55,0.95,23.9,
+AddVertex,-0.60,0.85,23.9,
+AddVertex,-1.25,0.9,23.9,
+AddVertex,-1.3,0.95,23.9,
+AddFace2,0,1,2,3,4,5,6,7
+SetColor,50,50,50,
+GenerateNormals,
+
+
+CreateMeshBuilder ; Respingenti dx
+cylinder,4, 0.08, 0.08 ,0.5 
+SetColor,24,24,24
+rotate,1,0,0,-90
+translate, 0.9, 1, 23.64
+
+CreateMeshBuilder
+AddVertex,1.3,1.18,23.9,
+AddVertex,1.25,1.25,23.9,
+AddVertex,0.60,1.20,23.9,
+AddVertex,0.55,1.15,23.9,
+AddVertex,0.55,0.95,23.9,
+AddVertex,0.60,0.85,23.9,
+AddVertex,1.25,0.9,23.9,
+AddVertex,1.3,0.95,23.9,
+AddFace2,0,1,2,3,4,5,6,7
+SetColor,50,50,50,
+GenerateNormals,
+
+
+
+; Carrello anteriore
+; ------------------
+CreateMeshBuilder ; Ruota ant sin
+cylinder,16, 0.476, 0.490,0.15 
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.55, 0.476, 4.15
+CreateMeshBuilder ; Motore ant
+cylinder,6, 0.5, 0.5 ,1.1 
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0, 0.626, 4.15
+CreateMeshBuilder ; Ruota ant des 
+cylinder,16, 0.490, 0.476,0.15  
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0.55, 0.476, 4.15
+
+CreateMeshBuilder ; Ruota post sin
+cylinder,16, 0.476, 0.490,0.15 
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.55, 0.476, 1.6
+CreateMeshBuilder ; Motore post
+cylinder,6, 0.5, 0.5 ,1.1 
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0, 0.626, 1.6
+CreateMeshBuilder ; Ruota post des 
+cylinder,16, 0.490, 0.476,0.15  
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0.55, 0.476, 1.6
+
+CreateMeshBuilder ; Fianco carrello ant sin
+Addvertex, 0, 1.1, 2.5 
+Addvertex, 0, 1.1, -1.5 
+Addvertex, 0, 0,   -1.5 
+Addvertex, 0, 0,   2.5
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,668_carrello.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,38,79,75
+translate, -0.70, 0, 2.4
+
+CreateMeshBuilder ; Fianco carrello ant des
+Addvertex, 0, 1.1, 2.5 
+Addvertex, 0, 1.1, -1.5 
+Addvertex, 0, 0,   -1.5 
+Addvertex, 0, 0,   2.5
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,668_carrello.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,38,79,75
+translate,  0.70, 0, 2.4
+
+
+
+; Carrello posteriore
+; ------------------
+CreateMeshBuilder ; Ruota ant sin
+cylinder,16, 0.476, 0.490,0.15 
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.55, 0.476, 21.65
+CreateMeshBuilder ; Motore ant
+cylinder,6, 0.5, 0.5 ,1.1 
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0, 0.626, 21.65
+CreateMeshBuilder ; Ruota ant des (+3.9)
+cylinder,16, 0.490, 0.476,0.15  
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0.55, 0.476, 21.65
+CreateMeshBuilder ; Ruota post sin
+cylinder,16, 0.476, 0.490,0.15 
+SetColor,38,62,31
+rotate,0,0,1,90
+translate,-0.55, 0.476, 19.1
+CreateMeshBuilder ; Motore post
+cylinder,6, 0.5, 0.5 ,1.1 
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0, 0.626, 19.1
+CreateMeshBuilder ; Ruota post des (+3.9)
+cylinder,16, 0.490, 0.476,0.15  
+SetColor,38,62,31
+rotate,0,0,1,-90
+translate, 0.55, 0.476, 19.1
+
+CreateMeshBuilder ; Fianco carrello ant sin
+Addvertex, 0, 1.1, 2.5 
+Addvertex, 0, 1.1, -1.5 
+Addvertex, 0, 0,   -1.5 
+Addvertex, 0, 0,   2.5
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,668_carrello.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,38,79,75
+translate, -0.70, 0, 19.9
+
+CreateMeshBuilder ; Fianco carrello ant des
+Addvertex, 0, 1.1, 2.5 
+Addvertex, 0, 1.1, -1.5 
+Addvertex, 0, 0,   -1.5 
+Addvertex, 0, 0,   2.5
+Addface2,0,1,2,3
+GenerateNormals
+LoadTexture,668_carrello.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,38,79,75
+translate,  0.70, 0, 19.9
+
+
+;; parte centrale
+
+;CreateMeshBuilder ; Fianco carrello ant sin
+;Addvertex, 0, 1.0, 2.5 
+;Addvertex, 0, 1.0, -2.5 
+;Addvertex, 0, 0.2,   -2.5 
+;Addvertex, 0, 0.2,   2.5
+;Addface2,0,1,2,3
+;GenerateNormals
+;LoadTexture,d445-sotto.bmp
+;SetTextureCoordinates,0,0,0
+;SetTextureCoordinates,1,1,0
+;SetTextureCoordinates,2,1,1
+;SetTextureCoordinates,3,0,1
+;SetDecalTransparentColor,0,0,255
+;translate, -1, 0, 7
+
+;translate,  1.0, 0, 7
+
+
+;; parte centrale
+
+CreateMeshBuilder ; Faro anteriore
+Addvertex, -0.27, 3.7, 0, 
+Addvertex, -0.2, 4.0, 0 
+Addvertex, -0.2, 4.0, 0.4, 
+Addvertex, -0.27, 3.7, 0.6,
+Addface2,0,1,2,3
+SetColor,130,130,130,
+GenerateNormals
+
+CreateMeshBuilder ; Faro anteriore
+Addvertex, 0.27, 3.7, 0, 
+Addvertex, 0.2, 4.0, 0 
+Addvertex, 0.2, 4.0, 0.4, 
+Addvertex, 0.27, 3.7, 0.6,
+Addface,0,1,2,3
+SetColor,130,130,130,
+GenerateNormals
+
+CreateMeshBuilder ; Faro anteriore
+Addvertex, -0.27, 3.7, 0, 
+Addvertex, -0.2, 4.0, 0 
+Addvertex, 0.2, 4.0, 0, 
+Addvertex, 0.27, 3.7, 0,
+Addface,0,1,2,3
+SetColor,130,130,130,
+GenerateNormals
+
+CreateMeshBuilder ; Faro posteriore
+Addvertex, -0.27, 3.7, 23.5, 
+Addvertex, -0.2, 4.0, 23.5 
+Addvertex, -0.2, 4.0, 23.1, 
+Addvertex, -0.27, 3.7,22.9,
+Addface2,0,1,2,3
+SetColor,130,130,130,
+GenerateNormals
+
+CreateMeshBuilder ; Faro posteriore
+Addvertex, 0.27, 3.7, 23.5, 
+Addvertex, 0.2, 4.0, 23.5 
+Addvertex, 0.2, 4.0, 23.1, 
+Addvertex, 0.27, 3.7,22.9,
+Addface,0,1,2,3
+SetColor,130,130,130,
+GenerateNormals
+
+CreateMeshBuilder ; Faro posteriore
+Addvertex, -0.27, 3.7, 22.9, 
+Addvertex, -0.2, 4.0, 23.1 
+Addvertex, 0.2, 4.0, 23.1, 
+Addvertex, 0.27, 3.7, 22.9,
+Addface,0,1,2,3
+SetColor,130,130,130,
+GenerateNormals

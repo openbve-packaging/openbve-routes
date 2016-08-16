@@ -1,0 +1,133 @@
+[MeshBuilder] ; Main wall above tunnel entrance
+Vertex 10,16,10
+Vertex 10,6.2,10
+Vertex -7.3,6.2,10
+Vertex -7.3,16,10
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,18,0
+Coordinates 1,18,10
+Coordinates 2,0,10
+Coordinates 3,0,0
+
+[Meshbuilder] ; Wall behind stairs to the left of tunnel
+Vertex -3.1,6.2,10
+Vertex -3.1,1.1,10
+Vertex -4.5,1.1,10
+Vertex -4.6,6.2,10
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,1,0
+Coordinates 1,1,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+
+[Meshbuilder] ; Whitish thing with the signal on it
+Vertex -3.2,3,10
+Vertex -3.2,1.1,10
+Vertex -3.2,1.1,8
+Vertex -3.2,3,8
+Vertex -4.6,1.1,8
+Vertex -4.6,3,8
+Vertex -4.6,4,10
+Vertex -4.6,4,8
+Face 0,1,2,3
+Face 3,2,4,5
+Face 6,0,3,7
+Face 7,3,5
+Color 200,200,200
+
+[Meshbuilder] ; Left wall in station
+Vertex -7.3,16,10
+Vertex -7.3,1.1,10
+Vertex -7.3,1.1,0
+Vertex -7.3,16,0
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,10,0
+Coordinates 1,10,15
+Coordinates 2,0,15
+Coordinates 3,0,0
+
+[Meshbuilder] ; Right wall in station
+Vertex 10,16,0
+Vertex 10,1.1,0
+Vertex 10,1.1,10
+Vertex 10,16,10
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,10,0
+Coordinates 1,10,15
+COordinates 2,0,15
+Coordinates 3,0,0
+
+[Meshbuilder] ; Westbound district line wall
+Vertex 40,16,-10
+Vertex 40,4.5,-10
+Vertex 10,4.5,0
+Vertex 10,16,0
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,30,0
+Coordinates 1,30,12
+Coordinates 2,0,12
+COordinates 3,0,0
+
+[Meshbuilder] ; Eastbound district line wall
+Vertex -7.3,16,0
+Vertex -7.3,4.5,0
+Vertex -37.3,4.5,20
+Vertex -37.3,16,20
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,30,0
+Coordinates 1,30,12
+Coordinates 2,0,12
+Coordinates 3,0,0
+
+[Meshbuilder] ; Missing bit of platform
+Vertex -6,1.1,2
+Vertex -6,1.1,0
+Vertex -7.3,1.1,0
+Vertex -7.3,1.1,2
+Face 0,1,2,3
+[Texture]
+Load ..\FormC.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; Left hand cables
+Vertex -1.8,2.8,9.9
+Vertex -2.3,1.8,9.9
+Vertex -4.6,1.8,9.9
+Vertex -4.6,2.8,9.9
+Face 0,1,2,3
+[Texture]
+Load side-cables.bmp
+Coordinates 0,2,0
+Coordinates 1,1.73,1
+Coordinates 2,0.4,1
+COordinates 3,0.4,0
+Transparent 255,0,255
+
+[Meshbuilder] ; right hand cables
+Vertex 5.8,2.8,9.9
+Vertex 6.3,1.8,9.9
+Vertex 8.6,1.8,9.9
+Vertex 8.6,2.8,9.9
+Face 3,2,1,0
+[Texture]
+Load side-cables.bmp
+Coordinates 0,2,0
+Coordinates 1,1.73,1
+Coordinates 2,0.4,1
+COordinates 3,0.4,0
+Transparent 255,0,255

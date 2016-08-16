@@ -1,0 +1,104 @@
+[MeshBuilder]
+Vertex 2,4.7,0
+Vertex 2,-0.5,0
+Vertex 2,-0.5,5.2
+Vertex 2,1,6
+Vertex 2,1.8,7
+Vertex 2,2.1,8
+Vertex 2,2.2,9
+Vertex 2,2.1,10
+Vertex 2,1.8,11
+Vertex 2,1,12
+Vertex 2,-0.5,12.8
+Vertex 2,-0.5,17
+Vertex 2,4.7,17
+
+Face 0,1,2
+Face 0,2,3
+Face 0,3,4
+Face 0,4,5
+Face 0,5,6
+Face 0,6,12
+Face 12,6,7
+Face 12,7,8
+Face 12,8,9
+Face 12,9,10
+Face 12,10,11
+
+[Texture]
+load stonea.bmp
+Coordinates 0,0,4.7
+Coordinates 1,0,-0.5
+Coordinates 2,5.2,-0.5
+Coordinates 3,6,1
+Coordinates 4,7,1.8
+Coordinates 5,8,2.1
+Coordinates 6,9,2.2
+Coordinates 7,10,2.1
+Coordinates 8,11,1.8
+Coordinates 9,12,1
+Coordinates 10,13,-0.5
+Coordinates 11,17,-0.5
+Coordinates 12,17,4.7
+
+[MeshBuilder]
+Vertex 2,4.7,0
+Vertex 2,-0.5,0
+Vertex 2,-0.5,5.2
+Vertex 2,1,6
+Vertex 2,1.8,7
+Vertex 2,2.1,8
+Vertex 2,2.2,9
+Vertex 2,2.1,10
+Vertex 2,1.8,11
+Vertex 2,1,12
+Vertex 2,-0.5,12.8
+
+Vertex 3,4.7,0
+Vertex 3,-0.5,0
+Vertex 3,-0.5,5.2
+Vertex 3,1,6
+Vertex 3,1.8,7
+Vertex 3,2.1,8
+Vertex 3,2.2,9
+Vertex 3,2.1,10
+Vertex 3,1.8,11
+Vertex 3,1,12
+Vertex 3,-0.5,12.8
+
+Face 11,12,1,0
+Face 12,13,2,1
+Face 13,14,3,2
+Face 14,15,4,3
+Face 15,16,5,4
+Face 16,17,6,5
+Face 17,18,7,6
+Face 18,19,8,7
+Face 19,20,9,8
+Face 20,21,10,9
+
+[Texture]
+load stonea.bmp
+Coordinates 0,0,0
+Coordinates 1,5,0
+Coordinates 2,10,0
+Coordinates 3,11,0
+Coordinates 4,12,0
+Coordinates 5,13,0
+Coordinates 6,14,0
+Coordinates 7,15,0
+Coordinates 8,16,0
+Coordinates 9,17,0
+Coordinates 10,18,0
+
+Coordinates 11,0,1
+Coordinates 12,5,1
+Coordinates 13,10,1
+Coordinates 14,11,1
+Coordinates 15,12,1
+Coordinates 16,13,1
+Coordinates 17,14,1
+Coordinates 18,15,1
+Coordinates 19,16,1
+Coordinates 20,17,1
+Coordinates 21,18,1

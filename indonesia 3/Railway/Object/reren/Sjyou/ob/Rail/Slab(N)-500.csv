@@ -1,0 +1,302 @@
+;曲線レール　左曲線500m(R=500m)
+;バラスト[ ]  スラブ　[+]
+;1067mm[+]  1372mm[ ]  1435mm[ ]
+;架　線[+]
+;     シンプルカテナリー[+]  ダブルシンプルカテナリー[ ]
+;脱線防止ガード[+]
+;     左　側[ ]              右　側[ ]
+;このレールはCurveRailB3DMakerで作成されました。
+
+;///// 道　床 /////
+CreateMeshBuilder
+AddVertex,-0.95,-0.144,25.5
+AddVertex,0.95,-0.144,25.5
+AddVertex,1.071947,-0.144,19.125
+AddVertex,-0.8280534,-0.144,19.125
+AddVertex,-0.7874111,-0.144,12.75
+AddVertex,1.112589,-0.144,12.75
+AddVertex,1.071947,-0.144,6.375
+AddVertex,-0.8280534,-0.144,6.375
+AddVertex,-0.95,-0.144,0
+AddVertex,0.95,-0.144,0
+AddFace,0,1,2,3
+AddFace,3,2,5,4
+AddFace,4,5,6,7
+AddFace,7,6,9,8
+SetColor,48,48,42,
+LoadTexture,../../Rail\SlabC.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,0.5
+SetTextureCoordinates,3,0,0.5
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,0.5
+SetTextureCoordinates,7,0,0.5
+SetTextureCoordinates,8,0,0
+SetTextureCoordinates,9,1,0
+SetEmissiveColor,38,38,32,
+GenerateNormals
+;///// 側面道床[スラブ] /////
+CreateMeshBuilder
+AddVertex,-1.9,-0.3,25.5
+AddVertex,-0.95,-0.3,25.5
+AddVertex,-0.8280534,-0.3,19.125
+AddVertex,-1.778053,-0.3,19.125
+AddVertex,-1.737411,-0.3,12.75
+AddVertex,-0.8280534,-0.3,12.75
+AddVertex,-0.8280534,-0.3,6.375
+AddVertex,-1.778053,-0.3,6.375
+AddVertex,-1.9,-0.3,0
+AddVertex,-0.95,-0.3,0
+
+AddFace,0,1,2,3
+AddFace,3,2,5,4
+AddFace,4,5,6,7
+AddFace,7,6,9,8
+SetColor,48,48,42,
+LoadTexture,../../Rail\SlabC.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,5
+SetTextureCoordinates,3,0,5
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,5
+SetTextureCoordinates,7,0,5
+SetTextureCoordinates,8,0,0
+SetTextureCoordinates,9,1,0
+SetEmissiveColor,28,28,22,
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,1.9,-0.3,25.5
+AddVertex,0.95,-0.3,25.5
+AddVertex,1.071947,-0.3,19.125
+AddVertex,2.021947,-0.3,19.125
+AddVertex,2.062589,-0.3,12.75
+AddVertex,1.112589,-0.3,12.75
+AddVertex,1.071947,-0.3,6.375
+AddVertex,2.021947,-0.3,6.375
+AddVertex,1.9,-0.3,0
+AddVertex,0.95,-0.3,0
+
+AddFace,3,2,1,0
+AddFace,4,5,2,3
+AddFace,7,6,5,4
+AddFace,8,9,6,7
+SetColor,48,48,42,
+LoadTexture,../../Rail\SlabC.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,4
+SetTextureCoordinates,3,0,4
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,4
+SetTextureCoordinates,7,0,4
+SetTextureCoordinates,8,0,0
+SetTextureCoordinates,9,1,0
+SetEmissiveColor,28,28,22,
+GenerateNormals
+;///// 側面道床[スラブ側面] /////
+CreateMeshBuilder
+AddVertex,-0.95,-0.144,25.5
+AddVertex,-0.95,-0.3,25.5
+AddVertex,-0.8280534,-0.3,19.125
+AddVertex,-0.8280534,-0.144,19.125
+AddVertex,-0.7874111,-0.144,12.75
+AddVertex,-0.8280534,-0.3,12.75
+AddVertex,-0.8280534,-0.3,6.375
+AddVertex,-0.8280534,-0.144,6.375
+AddVertex,-0.95,-0.144,0
+AddVertex,-0.95,-0.3,0
+
+AddFace,3,2,1,0
+AddFace,4,5,2,3
+AddFace,7,6,5,4
+AddFace,8,9,6,7
+SetColor,48,48,42,
+LoadTexture,../../Rail\SlabC.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,4
+SetTextureCoordinates,3,0,4
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,4
+SetTextureCoordinates,7,0,4
+SetTextureCoordinates,8,0,0
+SetTextureCoordinates,9,1,0
+SetEmissiveColor,28,28,22,
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,0.95,-0.144,25.5
+AddVertex,0.95,-0.3,25.5
+AddVertex,1.071947,-0.3,19.125
+AddVertex,1.071947,-0.144,19.125
+AddVertex,1.112589,-0.144,12.75
+AddVertex,1.112589,-0.3,12.75
+AddVertex,1.071947,-0.3,6.375
+AddVertex,1.071947,-0.144,6.375
+AddVertex,0.95,-0.144,0
+AddVertex,0.95,-0.3,0
+
+AddFace,0,1,2,3
+AddFace,3,2,5,4
+AddFace,4,5,6,7
+AddFace,7,6,9,8
+SetColor,48,48,42,
+LoadTexture,../../Rail\SlabC.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,4
+SetTextureCoordinates,3,0,4
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,4
+SetTextureCoordinates,7,0,4
+SetTextureCoordinates,8,0,0
+SetTextureCoordinates,9,1,0
+SetEmissiveColor,28,28,22,
+GenerateNormals
+;///// レール踏面 /////
+CreateMeshBuilder
+AddVertex,-0.602,0,25.5
+AddVertex,-0.534,0,25.5
+AddVertex,-0.4120533,0,19.125
+AddVertex,-0.4800533,0,19.125
+AddVertex,-0.4394111,0,12.75
+AddVertex,-0.3714111,0,12.75
+AddVertex,-0.4120533,0,6.375
+AddVertex,-0.4800533,0,6.375
+AddVertex,-0.602,0,0
+AddVertex,-0.534,0,0
+
+AddFace,0,1,2,3
+AddFace,3,2,5,4
+AddFace,4,5,6,7
+AddFace,7,6,9,8
+SetColor,124,124,124,
+LoadTexture,../../Rail\Rail1.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,1
+SetTextureCoordinates,7,0,1
+SetTextureCoordinates,8,0,1
+SetTextureCoordinates,9,1,1
+SetEmissiveColor,28,28,22,
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,0.602,0,25.5
+AddVertex,0.534,0,25.5
+AddVertex,0.6559467,0,19.125
+AddVertex,0.7239466,0,19.125
+AddVertex,0.764589,0,12.75
+AddVertex,0.6965889,0,12.75
+AddVertex,0.6559467,0,6.375
+AddVertex,0.7239466,0,6.375
+AddVertex,0.602,0,0
+AddVertex,0.534,0,0
+
+AddFace,3,2,1,0
+AddFace,4,5,2,3
+AddFace,7,6,5,4
+AddFace,8,9,6,7
+SetColor,124,124,124,
+LoadTexture,../../Rail\Rail1.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,1,0
+SetTextureCoordinates,6,1,1
+SetTextureCoordinates,7,0,1
+SetTextureCoordinates,8,0,1
+SetTextureCoordinates,9,1,1
+SetEmissiveColor,28,28,22,
+GenerateNormals
+
+
+
+;///// 架　線[シンプルカテナリー] /////
+CreateMeshBuilder,
+AddVertex,0.018, 5.1, 0,
+AddVertex,0.018, 5.1, 25.2,
+AddVertex,-0.018, 5.1, 25.2,
+AddVertex,-0.018, 5.1, 0,
+AddFace2,0,1,2,3,
+SetColor,48,40,32,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.018, 5.7, 0,
+AddVertex,0.018, 5.7, 25.2,
+AddVertex,-0.018, 5.7, 25.2,
+AddVertex,-0.018, 5.7, 0,
+AddFace2,0,1,2,3,
+SetColor,148,140,132,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.018, 5.7, 0,
+AddVertex,0.018, 5.1, 0,
+AddVertex,-0.018, 5.1, 0,
+AddVertex,-0.018, 5.7, 0,
+AddFace2,0,1,2,3,
+SetColor,148,140,132,
+GenerateNormals,
+Translate,0,0,4.167
+
+CreateMeshBuilder,
+AddVertex,0.018, 5.7, 0,
+AddVertex,0.018, 5.1, 0,
+AddVertex,-0.018, 5.1, 0,
+AddVertex,-0.018, 5.7, 0,
+AddFace2,0,1,2,3,
+SetColor,148,140,132,
+GenerateNormals,
+Translate,0,0,12.5
+
+CreateMeshBuilder,
+AddVertex,0.018, 5.7, 0,
+AddVertex,0.018, 5.1, 0,
+AddVertex,-0.018, 5.1, 0,
+AddVertex,-0.018, 5.7, 0,
+AddFace2,0,1,2,3,
+SetColor,148,140,132,
+GenerateNormals,
+Translate,0,0,20.833
+
+CreateMeshBuilder,
+AddVertex,-0.06, 5.7,  4.167,
+AddVertex,0,    5.76, 4.167,
+AddVertex,0.06, 5.7,  4.167,
+AddVertex,0,    5.64, 4.167,
+AddFace2,0,1,2,3,
+SetColor,48,40,32,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 5.7,  12.5,
+AddVertex,0,    5.76, 12.5,
+AddVertex,0.06, 5.7,  12.5,
+AddVertex,0,    5.64, 12.5,
+AddFace2,0,1,2,3,
+SetColor,48,40,32,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 5.7,  20.833,
+AddVertex,0,    5.76, 20.833,
+AddVertex,0.06, 5.7,  20.833,
+AddVertex,0,    5.64, 20.833,
+AddFace2,0,1,2,3,
+SetColor,48,40,32,

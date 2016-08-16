@@ -1,0 +1,46 @@
+;(c) STEVE GREEN 2002
+;
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+CreateMeshBuilder,
+AddVertex,3.15, 1.36, -0.30,
+AddVertex,2.45, 1.36, -0.30,
+AddVertex,2.45, -0.2, -0.30,
+AddVertex,3.15, -0.2, -0.30,
+AddFace,3,2,1,0,
+SetColor,50, 50, 50,
+GenerateNormals,
+
+LoadTexture,sigplate.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,2.90, 0, -0.28,
+AddVertex,2.70, 0, -0.28,
+AddVertex,2.70, -0.7, -0.28,
+AddVertex,2.90, -0.7, -0.28,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+Setcolor,100,100,100
+GenerateNormals,
+
+LoadTexture,post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+
+
+
+
+

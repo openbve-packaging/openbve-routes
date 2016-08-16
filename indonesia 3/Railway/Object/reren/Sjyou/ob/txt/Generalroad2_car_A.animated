@@ -1,0 +1,142 @@
+[Object]
+Position = 0.2, 0, -50
+States = ../car/car_A.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*20,180]
+
+[Object]
+Position = -3.6, 0, -500
+States = ../car/Bus_A.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*10,180]
+
+[Object]
+Position = 0.2, 0, -450
+States = ../car/car_A.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*20,180]
+
+[Object]
+Position = 0.2, 0, -400
+States = ../car/car_C.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*20,180]
+
+[Object]
+Position = -0.7, 0, -350
+States = ../car/Bus_A.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*20,180]
+
+[Object]
+Position = -3.6, 0, -300
+States = ../car/Bus_A.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*10,180]
+
+[Object]
+Position = 0.2, 0, -250
+States = ../car/car_G.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*20,180]
+
+[Object]
+Position = 0.2, 0, -200
+States = ../car/car_A.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*20,180]
+
+[Object]
+Position = -3.6, 0, -150
+States = ../car/car_G.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*10,180]
+
+[Object]
+Position = -0.2, 0, -100
+States = ../car/Bus_A.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[time*20,180]
+
+
+
+
+
+[Object]
+Position = 5.0, 0.2, 0
+States = ../car/car_D.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*20,180]
+
+
+[Object]
+Position = 7.4, 0.2, -30
+States = ../car/car_F.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*20,180]
+
+[Object]
+Position = 4.4, 0.2, -60
+States = ../car/car_F.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*20,180]
+
+[Object]
+Position = 4.4, 0.2, -90
+States = ../car/car_D.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*20,180]
+
+[Object]
+Position = 4.4, 0.2, -120
+States = ../car/car_F.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*20,180]
+
+[Object]
+Position = 7.4, 0.2, -150
+States = ../car/car_D.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*10,180]
+
+[Object]
+Position = 4.4, 0.2, -180
+States = ../car/car_D.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*20,180]
+
+[Object]
+Position = 7.4, 0.2, -210
+States = ../car/car_F.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*10,180]
+
+[Object]
+Position = 7.4, 0.2, -240
+States = ../car/car_D.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*10,180]
+
+[Object]
+Position = 4.4, 0.2, -340
+States = ../car/car_D.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*20,180]
+
+[Object]
+Position = 4.4, 0.2, -380
+States = ../car/car_F.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*20,180]
+
+[Object]
+Position = 7.4, 0.2, -420
+States = ../car/car_D.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*10,180]
+
+[Object]
+Position = 4.4, 0.2, -460
+States = ../car/car_F.csv
+TranslateZDirection = 0, 0, 0.5
+TranslateZFunction = mod[-time*20,180]

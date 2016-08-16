@@ -1,0 +1,166 @@
+;Kálvin tér állomás 13
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;Falak
+
+;felirat
+[MeshBuilder]
+Vertex 2.292,2.426,-11
+Vertex 2.065,2.950,-11
+Vertex 2.065,2.950,1
+Vertex 2.292,2.426,1
+Face 3,2,1,0
+[Texture]
+Load mh_09_kt_oldalfal_02ib.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 2.292,2.426,1
+Vertex 2.065,2.950,1
+Vertex 2.065,2.950,25
+Vertex 2.292,2.426,25
+Face 3,2,1,0
+[Texture]
+Load mh_09_kt_oldalfal_02i.bmp
+Coordinates 0,24,1
+Coordinates 1,24,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;bal oldali fal
+[MeshBuilder]
+Vertex -6.35,1.10,0
+Vertex -6.35,3.55,0
+Vertex -6.35,3.55,25
+Vertex -6.35,1.10,25
+Face 0,1,2,3
+[Texture]
+Load mh_09_kt_oldalfal_03a.bmp
+Coordinates 0,10,1
+Coordinates 1,10,0
+Coordinates 2,00,0
+Coordinates 3,00,1
+
+;--------------------------------------------------
+
+;világítótestek
+
+[MeshBuilder]
+Vertex -11.4,3.52,0
+Vertex -11.4,3.52,25
+Vertex -09.4,3.52,25
+Vertex -09.4,3.52,0
+Vertex -16.4,3.52,0
+Vertex -16.4,3.52,25
+Vertex -14.4,3.52,25
+Vertex -14.4,3.52,0
+Vertex -21.1,3.52,0
+Vertex -21.1,3.52,25
+Vertex -19.6,3.52,25
+Vertex -19.6,3.52,0
+Vertex -24.3,3.52,0
+Vertex -24.3,3.52,25
+Vertex -22.8,3.52,25
+Vertex -22.8,3.52,0
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+Face 15,14,13,12
+[Texture]
+Load mh_09_kt_vilagitas_01.bmp
+Coordinates 00,0,0
+Coordinates 01,0,10
+Coordinates 02,1,10
+Coordinates 03,1,0
+Coordinates 04,0,0
+Coordinates 05,0,10
+Coordinates 06,1,10
+Coordinates 07,1,0
+Coordinates 08,0,0
+Coordinates 09,0,10
+Coordinates 10,1,10
+Coordinates 11,1,0
+Coordinates 12,0,0
+Coordinates 13,0,10
+Coordinates 14,1,10
+Coordinates 15,1,0
+transparent 0,0,255
+
+;--------------------------------------------------
+
+;táblák
+
+;Kálvin tér tábla
+
+[MeshBuilder]
+cube 0.02, 0.05, 0.02
+color 24,24,24
+translate -6.30, 03.50, 14.5
+
+[MeshBuilder]
+cube 0.02, 0.05, 0.02
+color 24,24,24
+translate -6.30, 03.50, 15.5
+
+[MeshBuilder]
+Vertex -0.10, 0.00, -0.80
+Vertex -0.10, 0.30, -0.80
+Vertex -0.00, 0.30, -0.80
+Vertex -0.00, 0.00, -0.80
+Vertex -0.10, 0.00,  0.80
+Vertex -0.00, 0.00,  0.80
+Face 0,1,2,3
+Face 4,0,3,5
+translate -6.25,3.20,15
+color 0,0,204
+
+[MeshBuilder]
+Vertex 0, 0.00, -0.51
+Vertex 0, 0.30, -0.51
+Vertex 0, 0.30,  0.80
+Vertex 0, 0.00,  0.80
+Face 0,1,2,3
+translate -6.25,3.20,15
+[Texture]
+Load mh_tabla_kalvin_ter.bmp
+Coordinates 0, 0.20, 1
+Coordinates 1, 0.20, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+
+[MeshBuilder]
+Vertex 0, 0.00,-0.80
+Vertex 0, 0.30,-0.80
+Vertex 0, 0.30,-0.50
+Vertex 0, 0.00,-0.50
+Face 0,1,2,3
+translate -6.25,3.20,15
+[Texture]
+Load ..\tabla\nyil13.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 0.8, 0
+Coordinates 3, 0.8, 1
+
+;---
+
+;kis kijárat háttal
+
+[MeshBuilder]
+Vertex -0.40,0.00,-0.1
+Vertex -0.40,0.30,-0.1
+Vertex  0.40,0.30,-0.1
+Vertex  0.40,0.00,-0.1
+Vertex  0.40,0.30, 0.1
+Vertex  0.40,0.00, 0.1
+Vertex -0.40,0.00, 0.1
+face 0,1,2,3
+face 3,2,4,5
+face 6,0,3,5
+color 48,48,48
+translate -5.1,3.25,20

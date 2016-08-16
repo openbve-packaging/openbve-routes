@@ -1,0 +1,26 @@
+;Jelzõoszlop, mélyvezetésû alagútban
+;Készítette: http://www.bvemetro.hu/
+
+[meshbuilder]
+cube 0.02,1.2,0.02
+translate -0.17,1.0,-0.35
+color 32,32,32
+[meshbuilder]
+cube 0.02,1.2,0.02
+translate  0.17,1.0,-0.35
+color 32,32,32
+
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate -0.17,0.0,0.05
+color 32,32,32
+[meshbuilder]
+cube 0.02,0.5,0.02
+translate  0.17,0.0,0.05
+color 32,32,32
+
+;doboz
+[meshbuilder]
+cube 0.19,0.2,0.25
+translate 0.0,0.7,-0.13
+color 32,32,32

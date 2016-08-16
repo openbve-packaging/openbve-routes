@@ -1,0 +1,33 @@
+;==bush side 1
+
+[MeshBuilder]
+Vertex -1.4375,0,-1
+Vertex -1.4375,2.4125,-1
+Vertex 1.4375,2.4125,-1
+Vertex 1.4375,0,-1
+Face 0,1,2,3
+
+[Texture]
+Load shrub39.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;==bush side 2 
+[MeshBuilder]
+Vertex 1.5,0,1
+Vertex 1.5,2.4125,1
+Vertex -1.5,2.4125,1
+Vertex -1.5,0,1
+Face 0,1,2,3
+
+[Texture]
+Load shrub39.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+

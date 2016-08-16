@@ -1,0 +1,82 @@
+
+
+
+
+[MeshBuilder]
+Vertex -10, 6, 25
+Vertex -10, 6, 0
+Vertex -10, -2, 0
+Vertex -10, -2, 25
+Face2 0,1,2,3
+[Texture]
+Load depositofronte.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.9
+Coordinates 3, 0, 0.9
+
+;right wall
+[MeshBuilder]
+Vertex 10, 6, -0
+Vertex 10, 6, 25
+Vertex 10, -2, 25
+Vertex 10, -2, -0
+Face2 0,1,2,3
+[Texture]
+Load depositofronte.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.9
+Coordinates 3, 0, 0.9
+
+
+[MeshBuilder]
+Vertex -10,-2,25
+Vertex -10,9,25
+Vertex  10,9,25
+Vertex  10,-2,25
+Face2 0,1,2,3
+[Texture]
+Load depositolatodietro.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,0
+
+;tetto
+[MeshBuilder]
+Vertex -10, 6, 25
+Vertex -5, 9, 25
+Vertex 0, 6, 25
+Vertex 0, 6, 0
+Vertex -5, 9, 0
+Vertex -10, 6, 0
+Face2 0,1,4,5
+Face2 1,2,3,4
+[Texture]
+Load tetto2.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 0, 3
+Coordinates 3, 10, 3
+Coordinates 4, 10, 0
+Coordinates 5, 10, 3
+;tetto
+[MeshBuilder]
+Vertex 10, 6, 25
+Vertex 5, 9, 25
+Vertex 0, 6, 25
+Vertex 0, 6, 0
+Vertex 5, 9, 0
+Vertex 10, 6, 0
+Face2 0,1,4,5
+Face2 1,2,3,4
+[Texture]
+Load tetto2.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 0, 3
+Coordinates 3, 10, 3
+Coordinates 4, 10, 0
+Coordinates 5, 10, 3

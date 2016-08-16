@@ -1,0 +1,41 @@
+;made by ujpestisrac
+
+
+[Meshbuilder]
+Vertex -1, 0, -5
+Vertex -1, 0, 100
+Vertex 50, 0, 100
+Vertex 50, 0, -5
+Face 0, 1, 2, 3
+[Texture]
+Load wasser1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 50, 0, -5
+Vertex 50, 0, 100
+Vertex 10, 0, 100
+Vertex 10, 0, -5
+Face 0, 1, 2, 3
+[Texture]
+Load wasser1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 10, 0, -5
+Vertex 10, 0, 100
+Vertex 18, 0, 100
+Vertex 18, 0, -5
+Face 0, 1, 2, 3
+[Texture]
+Load wasser1.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

@@ -1,0 +1,58 @@
+;Felszínen kerítés
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;kerítés
+
+[MeshBuilder]
+;jobb oldal
+Vertex 3.8,-0.25,-0.15
+Vertex 3.8, 2.30,-0.15
+Vertex 3.8, 2.30,25.15
+Vertex 3.8,-0.25,25.15
+Face 3,2,1,0
+[Texture]
+Load kerites_02.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,1
+Transparent 0,0,255
+
+;--------------------------------------
+
+;lámpa
+
+[meshbuilder]
+cylinder 8, 0.07, 0.10, 10.00
+color 180,180,180
+translate  00.00, 04.85, 00.00
+translate  02.50, 00.00, 11.25
+
+[meshbuilder]
+cylinder 8, 0.05, 0.05, 01.00
+color 180,180,180
+rotate 0, 0, 1, 85
+translate  -00.50, 09.75, 00.00
+translate  02.50, 00.00, 11.25
+
+[meshbuilder]
+cube 0.4, 0.01, 0.4
+translate  00.00, -0.15, 00.00
+translate  02.50, 00.00, 11.25
+color 180,180,180
+
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 180,180,180
+rotate 0, 0, 1, -5
+translate -01.50, 09.85, 00.00
+translate  02.50, 00.00, 11.25
+
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 225,255,200,100
+rotate 0, 0, 1, -5
+translate -01.50, 09.75, 00.00
+translate  02.50, 00.00, 11.25

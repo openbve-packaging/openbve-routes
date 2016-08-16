@@ -1,0 +1,12 @@
+CreateMeshBuilder,,,,
+AddVertex,-0.2,-0.3,-0.18,
+AddVertex,-0.2,0.3,-0.18,
+AddVertex,0.2,0.3,-0.16,
+AddVertex,0.2,-0.3,-0.16,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,Premises.bmp,,,
+SetTextureCoordinates,0,0.1665,0.995,
+SetTextureCoordinates,1,0.1665,0.005,
+SetTextureCoordinates,2,0.8335,0.005,
+SetTextureCoordinates,3,0.8335,0.995,

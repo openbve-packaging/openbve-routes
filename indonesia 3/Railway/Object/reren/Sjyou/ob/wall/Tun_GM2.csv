@@ -1,0 +1,98 @@
+CreateMeshBuilder,
+AddVertex,2,   -0.3,   25.0,
+AddVertex,2,   -0.3,   0,
+AddVertex,9.8, -0.3,   0,
+AddVertex,9.8, -0.3,   25.0,
+AddVertex,9.3,  3.0,     0,
+AddVertex,9.3,  3.0,     25.0,
+AddVertex,8.7,  4.5,     0,
+AddVertex,8.7,  4.5,     25.0,
+AddVertex,8.1,  5.3,     0,
+AddVertex,8.1,  5.3,     25.0,
+AddVertex,7.0,  6.2,     0,
+AddVertex,7.0,  6.2,     25.0,
+AddVertex,5.59,  6.95,     0,
+AddVertex,5.59,  6.95,     25.0,
+AddVertex,4.2,  7.35,     0,
+AddVertex,4.2,  7.35,     25.0,
+AddVertex,2.8,    7.55,     0,
+AddVertex,2.8,    7.55,     25.0,
+AddFace,3,2,1,0,
+AddFace,5,4,2,3,
+AddFace,7,6,4,5,
+AddFace,9,8,6,7,
+AddFace,11,10,8,9,
+AddFace,13,12,10,11,
+AddFace,15,14,12,13,
+AddFace,17,16,14,15,
+LoadTexture,../../con2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,1,0.1,
+SetTextureCoordinates,3,0,0.1,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,0,0.5,
+SetTextureCoordinates,6,1,0.55,
+SetTextureCoordinates,7,0,0.55,
+SetTextureCoordinates,8,1,0.6,
+SetTextureCoordinates,9,0,0.6,
+SetTextureCoordinates,10,1,0.65,
+SetTextureCoordinates,11,0,0.65,
+SetTextureCoordinates,12,1,0.7,
+SetTextureCoordinates,13,0,0.7,
+SetTextureCoordinates,14,1,0.75,
+SetTextureCoordinates,15,0,0.75,
+SetTextureCoordinates,16,1,0.8,
+SetTextureCoordinates,17,0,0.8,
+Translate,-0.2,0,0
+Setcolor,60,61,64,
+
+
+CreateMeshBuilder
+AddVertex,-3.5,   -0.3,   25.0
+AddVertex,-3.5,   -0.3,   0
+AddVertex,-9.8, -0.3,   0
+AddVertex,-9.8, -0.3,   25.0
+AddVertex,-9.3,  3.0,     0
+AddVertex,-9.3,  3.0,     25.0
+AddVertex,-8.7,  4.5,     0
+AddVertex,-8.7,  4.5,     25.0
+AddVertex,-8.1,  5.3,     0
+AddVertex,-8.1,  5.3,     25.0
+AddVertex,-7,  6.2,     0
+AddVertex,-7,  6.2,     25.0
+AddVertex,-5.59,  6.95,     0
+AddVertex,-5.59,  6.95,     25.0
+AddVertex,-4.2,  7.35,     0
+AddVertex,-4.2,  7.35,     25.0
+AddVertex,-2.8,  7.55,     0
+AddVertex,-2.8,  7.55,     25.0
+AddFace,0,1,2,3
+AddFace,3,2,4,5
+AddFace,5,4,6,7
+AddFace,7,6,8,9
+AddFace,9,8,10,11
+AddFace,11,10,12,13
+AddFace,13,12,14,15
+AddFace,15,14,16,17
+LoadTexture,../../con2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,1,0.1,
+SetTextureCoordinates,3,0,0.1,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,0,0.5,
+SetTextureCoordinates,6,1,0.55,
+SetTextureCoordinates,7,0,0.55,
+SetTextureCoordinates,8,1,0.6,
+SetTextureCoordinates,9,0,0.6,
+SetTextureCoordinates,10,1,0.65,
+SetTextureCoordinates,11,0,0.65,
+SetTextureCoordinates,12,1,0.7,
+SetTextureCoordinates,13,0,0.7,
+SetTextureCoordinates,14,1,0.75,
+SetTextureCoordinates,15,0,0.75,
+SetTextureCoordinates,16,1,0.8,
+SetTextureCoordinates,17,0,0.8,
+Translate,5.4,0,0
+Setcolor,60,61,64,

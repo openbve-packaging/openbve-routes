@@ -1,0 +1,166 @@
+;description=created for Route Builder 
+;author=p barnett..."The Barn"
+;copyright= The Barn at www.class50-hoover-bashers.com
+;created with Milkshape 3d and generated using MS3D-CSV Converter by David White at http://homepage.ntlworld.com/zerosignal/bve
+;also using SMACES "object converter" to mirror,move and convert
+;June 2005
+
+[MeshBuilder]
+Vertex  -7.41, 1.1, 24.95, 
+Vertex  -7.41, 1.1, 0.03, 
+Vertex  -6.51, 0.6, 0.03, 
+Vertex  -6.51, 0.6, 24.95, 
+Vertex  -6.51, 0.59, 24.95, 
+Vertex  -6.51, 0.59, 0.03, 
+Vertex  -6.51, 0.6, 0.03, 
+Vertex  -6.5, 0.59, 24.95, 
+Vertex  -6.51, 0.59, 24.95, 
+Vertex  -6.51, 0.59, 0.03, 
+Vertex  -5.01, -0.14, 0.03, 
+Vertex  -5.02, -0.14, 24.95, 
+Vertex  -5.02, -0.14, 24.95, 
+Vertex  -5.01, -0.14, 0.03, 
+Vertex  -5.01, -0.14, 0.03, 
+Vertex  -5.01, -0.14, 24.95, 
+Vertex  -3.41, -0.36, 24.95, 
+Vertex  -3.41, -0.36, 0.03, 
+Vertex  -1.97, -0.36, 0.03, 
+Vertex  -1.97, -0.36, 24.95, 
+Vertex  -8.37, 1.44, 24.95, 
+Vertex  -8.37, 1.44, 0.04, 
+Vertex  -6.51, 0.6, 0.03, 
+Vertex  -7.41, 1.1, 0.03, 
+Vertex  -7.39, -0.49, -0.78, 
+Vertex  -6.5, -0.99, -0.78, 
+Vertex  -6.51, 0.59, 0.03, 
+Vertex  -6.5, -0.99, -0.78, 
+Vertex  -6.51, 0.6, 0.03, 
+Vertex  -6.5, -0.99, -0.78, 
+Vertex  -6.51, 0.59, 0.03, 
+Vertex  -6.5, -0.99, -0.78, 
+Vertex  -5.01, -0.14, 0.03, 
+Vertex  -5, -1.73, -0.78, 
+Vertex  -5.01, -0.14, 0.03, 
+Vertex  -5, -1.73, -0.78, 
+Vertex  -5.01, -0.14, 0.03, 
+Vertex  -5, -1.73, -0.78, 
+Vertex  -3.41, -0.36, 0.03, 
+Vertex  -3.4, -1.95, -0.78, 
+Vertex  -1.97, -0.36, 0.03, 
+Vertex  -1.96, -1.96, -0.78, 
+Vertex  -8.37, 1.44, 0.04, 
+Vertex  -8.35, -0.15, -0.78, 
+Face 2, 1,0, 
+Face 3, 2,0, 
+Face 4, 2,3, 
+Face 4, 5,2, 
+Face 6, 5,4, 
+Face 7, 6,4, 
+Face 8, 6,7, 
+Face 8, 9,6, 
+Face 10, 9,8, 
+Face 11, 10,8, 
+Face 12, 10,11, 
+Face 12, 13,10, 
+Face 14, 13,12, 
+Face 15, 14,12, 
+Face 16, 14,15, 
+Face 16, 17,14, 
+Face 18, 17,16, 
+Face 19, 18,16, 
+Face 0, 21,20, 
+Face 0, 1,21, 
+Face 24, 23,22, 
+Face 22, 25,24, 
+Face 25, 22,26, 
+Face 26, 27,25, 
+Face 27, 26,28, 
+Face 28, 29,27, 
+Face 29, 28,30, 
+Face 30, 31,29, 
+Face 31, 30,32, 
+Face 32, 33,31, 
+Face 33, 32,34, 
+Face 34, 35,33, 
+Face 35, 34,36, 
+Face 36, 37,35, 
+Face 37, 36,38, 
+Face 38, 39,37, 
+Face 39, 38,40, 
+Face 40, 41,39, 
+Face 43, 42,23, 
+Face 23, 24,43, 
+
+[Texture]
+Load  grass-acx.bmp, 
+Color  204, 204, 204, 255, 
+Coordinates  0,0.15,0
+Coordinates  1,0.15,1
+Coordinates  2,0.29,1
+Coordinates  3,0.29,0
+Coordinates  4,0.29,0
+Coordinates  5,0.29,1
+Coordinates  6,0.29,1
+Coordinates  7,0.29,0
+Coordinates  8,0.29,0
+Coordinates  9,0.29,1
+Coordinates  10,0.52,1
+Coordinates  11,0.52,0
+Coordinates  12,0.52,0
+Coordinates  13,0.52,1
+Coordinates  14,0.52,1
+Coordinates  15,0.52,0
+Coordinates  16,0.77,0
+Coordinates  17,0.77,1
+Coordinates  18,1,1
+Coordinates  19,1,0
+Coordinates  20,0,0
+Coordinates  21,0,1
+Coordinates  22,0.29,0.25
+Coordinates  23,0.15,0.1
+Coordinates  24,0.15,0.57
+Coordinates  25,0.29,0.71
+Coordinates  26,0.29,0.25
+Coordinates  27,0.29,0.72
+Coordinates  28,0.29,0.25
+Coordinates  29,0.29,0.71
+Coordinates  30,0.29,0.25
+Coordinates  31,0.29,0.72
+Coordinates  32,0.52,0.47
+Coordinates  33,0.52,0.93
+Coordinates  34,0.52,0.47
+Coordinates  35,0.53,0.93
+Coordinates  36,0.52,0.47
+Coordinates  37,0.52,0.93
+Coordinates  38,0.77,0.53
+Coordinates  39,0.78,1
+Coordinates  40,1,0.53
+Coordinates  41,1,1
+Coordinates  42,0,0
+Coordinates  43,0,0.4
+[meshbuilder]
+Vertex  -8.37 ,  1.44 ,  0.04 
+Vertex  -8.37 ,  1.44 ,  24.95
+Vertex  -25 ,  2.44 ,  24.95  
+Vertex  -25 ,  2.44 ,  0.04
+Face2 3,2,1,0
+[Texture]
+Load  grass-acx.bmp, 
+Color  204, 204, 204, 255, 
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  2,0,1
+Coordinates  3,0,0
+[meshbuilder]
+Vertex  -8.35 ,  -0.15 ,  -0.78
+Vertex  -8.37 ,  1.44 ,  0.04
+Vertex  -25 ,  2.44 ,  0.04  
+Vertex  -25 ,  -0.14 ,  -0.5
+Face2 3,2,1,0
+[Texture]
+Load  grass-acx.bmp, 
+Color  204, 204, 204, 255, 
+Coordinates  0,2,0
+Coordinates  1,2,0.5
+Coordinates  2,0,0.5
+Coordinates  3,0,0

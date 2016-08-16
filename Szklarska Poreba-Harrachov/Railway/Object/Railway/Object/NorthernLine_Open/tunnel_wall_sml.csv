@@ -1,0 +1,22 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Paul Jobber
+
+;Wall supports,,,,
+
+CreateMeshBuilder,,,,
+AddVertex,7.7,-0.6,0,
+AddVertex,7.7,-0.6,3.2,
+AddVertex,7.7,11.2,3.2,
+AddVertex,7.7,11.2,0,
+AddFace,0,1,2,3
+
+GenerateNormals,,,,
+
+LoadTexture,tunnel_sidewall_sml.png,,,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetDecalTransparentColor,0,0,0
+SetColor,100,100,100

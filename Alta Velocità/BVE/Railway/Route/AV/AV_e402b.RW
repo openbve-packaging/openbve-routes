@@ -1,0 +1,2188 @@
+av 
+
+[Train]
+File=e402b
+Velocity=180 
+Acceleration=5 
+Station=1 
+Interval=300 
+Gauge=1067 
+Rail(0)=0 
+Rail(1)=3
+rail(2)=0
+rail(5)=3
+rail(6)=0
+rail(10)=0
+rail(11)=0
+;------------ oggetti -----------------
+
+[Object]
+
+Rail(0)=av\binaricorrentedr.b3d
+Rail(1)=av\binaricorrentetun2.b3d ; tunnel
+Rail(2)=av\viadotto2.b3d
+Rail(3)=av\nullrail.b3d
+Rail(4)=av\binaricorrentetun2riflesso.b3d
+Rail(5)=av\binaricorrenteombra2.b3d
+Rail(6)=av\binaricorrentedr2.b3d
+rail(7)=av\autostrada.b3d
+Rail(10)=av\cur1200d.b3d
+Rail(11)=av\cur1200s.b3d
+rail(13)=av\pontemetallonero.b3d
+
+Ground(1)=av\ground.b3d
+Ground(2)=av\groundbasso.b3d    
+Ground(3)=av\groundnero.b3d 
+Ground(4)=av\groundalberi.b3d         
+Ground(5)=av\groundacqua.b3d 
+Ground(6)=av\groundghiaia.b3d 
+
+Back(0)=av\sfondo.bmp         ; sfondo
+Back(1)=av\sfondonero.bmp         ; sfondo
+
+
+
+FormR=av\FormR2.b3d
+FormL=av\FormL2.b3d
+FormCR=av\FormCR2.b3d
+FormCL=av\FormCL2.b3d
+
+Pole(0)=av\lineaarea1.b3d
+Pole(1)=av\lineaaereacavallo2.b3d
+Pole(2)=av\lineaaereacavallo4.b3d
+Pole(3)=av\lineaarea2brutta.b3d
+
+Walll(1)=av\groundbassosin.b3d 
+Wallr(1)=av\groundbassodes.b3d 
+walll(2)=av\murocementosin.b3d
+
+
+dikel(1)=av\trinceasin.b3d
+diker(1)=av\trinceades.b3d
+dikel(2)=av\tunx2.b3d 
+dikel(3)=av\tunx2quad.b3d 
+dikel(4)=av\trinceascurasin.b3d
+diker(4)=av\trinceascurades.b3d
+diker(5)=av\muropietrades.b3d
+dikel(5)=av\muropietrasin.b3d
+diker(6)=av\stazione01d.b3d
+dikel(6)=av\stazione01s.b3d
+diker(7)=av\stazione02d.b3d
+diker(8)=av\murolatodes.b3d
+diker(9)=av\ringhiera_r.b3d
+dikel(9)=av\ringhiera_l.b3d
+diker(10)=av\dikepianodes.b3d
+dikel(10)=av\dikepianosin.b3d
+dikel(11)=av\dikepianosin1.b3d
+diker(11)=av\rocciaintorno.b3d
+diker(12)=av\rocciadestra.b3d
+diker(13)=av\muroarchid.b3d
+dikel(13)=av\muroarchis.b3d
+dikel(14)=av\colonnes.b3d
+dikel(15)=av\Tunx4quad.b3d
+; dikel(12)=av\tunx2quadluce.b3d 
+
+freeobj(1)=av\tunnentquad.b3d 
+freeobj(2)=av\kmxxx.b3d
+freeobj(3)=av\pontemetallo2.b3d
+freeobj(4)=av\lineaaereacavallo4.b3d
+freeobj(5)=av\lineaarea2.b3d
+freeobj(6)=av\binaricorrentedr2.b3d
+freeobj(7)=av\pontemattoni.b3d
+freeobj(8)=av\tunn2vecchio.b3d
+freeobj(9)=av\muropietrafronte.b3d
+freeobj(10)=av\pensilina3.b3d
+freeobj(11)=av\muropietraangolosin.b3d
+freeobj(12)=av\lineaarea2brutta.b3d
+freeobj(13)=av\tunnentquad2.b3d 
+freeobj(14)=av\tunnent2tondo.b3d 
+freeobj(15)=av\respingenti.b3d
+freeobj(16)=av\albero01.b3d
+freeobj(17)=av\albero02.b3d
+freeobj(18)=av\albero03.b3d
+freeobj(19)=av\pontemetallo1.b3d
+freeobj(20)=av\alberi01.b3d
+freeobj(21)=av\pontemetallo3.b3d
+freeobj(22)=av\iniziotrinceades.b3d
+freeobj(23)=av\iniziotrinceasin.b3d
+freeobj(24)=av\pensilina4.b3d
+freeobj(25)=av\pensilina5.b3d
+freeobj(26)=av\pontecemento2.b3d
+freeobj(27)=av\pararumore.b3d
+freeobj(28)=av\rocciafronte1.b3d
+freeobj(29)=av\rocciafronte2.b3d
+freeobj(30)=av\mattonifronte.b3d
+freeobj(31)=av\stazione.b3d
+freeobj(32)=av\tettopensilina.b3d
+freeobj(33)=av\binaricorrentedr.b3d
+freeobj(34)=av\lineaaereacavallo2.b3d
+freeobj(35)=av\fabbrica2.b3d
+freeobj(36)=av\lucesin.b3d
+freeobj(37)=av\cabinatel.b3d
+freeobj(38)=av\murogallluce.b3d
+freeobj(39)=av\paese.b3d
+freeobj(40)=av\tunx2quadluce.b3d
+
+freeobj(49)=av\fattoria.b3d
+freeobj(50)=av\casa01.b3d
+freeobj(51)=av\casa02.b3d
+freeobj(52)=av\casa03.b3d
+freeobj(53)=av\casa04.b3d
+freeobj(54)=av\casa05.b3d
+freeobj(55)=av\casa06.b3d
+freeobj(57)=av\casa08.b3d
+freeobj(58)=av\casa09.b3d
+freeobj(59)=av\casa10.b3d
+
+freeobj(60)=av\scambionerod.b3d 
+freeobj(62)=av\scambioneros.b3d 
+freeobj(66)=av\incrociodrittonero.b3d
+freeobj(67)=av\incrociodrittonero2.b3d
+
+freeobj(70)=av\scambiod.b3d 
+freeobj(71)=av\scambiodd.b3d 
+freeobj(72)=av\scambios.b3d 
+freeobj(73)=av\scambioss.b3d 
+
+freeobj(74)=av\curv200d.b3d 
+freeobj(75)=av\curv200s.b3d
+
+freeobj(76)=av\incrociodritto.b3d
+freeobj(77)=av\incrociodritto2.b3d
+
+freeobj(78)=av\scambio75d.b3d 
+freeobj(79)=av\scambio75s.b3d 
+freeobj(80)=av\incrociogiras.b3d
+
+
+freeobj(100)=av\segnalen_ani.b3d
+freeobj(101)=av\segnaler.b3d
+freeobj(102)=av\segnaler_ani.b3d
+freeobj(103)=av\segnalerg.b3d
+freeobj(104)=av\segnalerv60.b3d
+freeobj(105)=av\segnaletrir.b3d
+freeobj(106)=av\segnalev.b3d
+freeobj(107)=av\segnalevg60.b3d
+freeobj(108)=av\segnalevg.b3d
+freeobj(109)=av\segnalev-d.b3d
+freeobj(110)=av\segnaler-d.b3d
+freeobj(111)=av\segnalegallv.b3d
+freeobj(112)=av\segnalegallg.b3d
+
+freeobj(120)=av\carro01.b3d
+freeobj(121)=av\carro02.b3d
+freeobj(122)=av\carro06.b3d
+freeobj(125)=av\carro03.b3d
+freeobj(126)=av\carro04.b3d
+freeobj(127)=av\carro04b.b3d
+freeobj(128)=av\carro04c.b3d
+freeobj(129)=av\carro05c.b3d
+
+freeobj(130)=av\e646.b3d
+freeobj(131)=av\e656.b3d
+freeobj(132)=av\e646brutta.b3d
+freeobj(133)=av\e444brutta.b3d
+freeobj(134)=av\e402.b3d
+
+freeobj(140)=av\vagone0.b3d
+freeobj(141)=av\vagone1.b3d
+freeobj(142)=av\altabassa0.b3d
+freeobj(143)=av\altabassapilota0.b3d
+freeobj(144)=av\vagone3.b3d
+freeobj(145)=av\vagone4.b3d
+freeobj(146)=av\vagone5.b3d
+
+freeobj(151)=av\binario1.b3d
+freeobj(152)=av\binario2.b3d
+freeobj(153)=av\binario3.b3d
+freeobj(154)=av\binario4.b3d
+freeobj(155)=av\binario5.b3d
+freeobj(156)=av\binario6.b3d
+freeobj(157)=av\binario7.b3d
+freeobj(158)=av\binario8.b3d
+
+freeobj(201)=av\meno1.b3d
+freeobj(202)=av\meno2.b3d
+freeobj(203)=av\meno3.b3d
+freeobj(204)=av\meno4.b3d
+
+freeobj(211)=av\meno1a.b3d
+freeobj(212)=av\meno2a.b3d
+freeobj(213)=av\meno3a.b3d
+freeobj(214)=av\meno4a.b3d
+
+freeobj(220)=av\l60.b3d
+freeobj(221)=av\l130.b3d
+freeobj(222)=av\l290.b3d
+freeobj(223)=av\l190.b3d
+
+freeobj(251)=av\casa01lato.b3d
+freeobj(252)=av\casa02lato.b3d
+freeobj(253)=av\casa03lato.b3d
+freeobj(254)=av\casa04lato.b3d
+
+[Cycle]
+0=0
+
+;---------- partenza --------------------
+
+[Railway]
+
+000 @Station(Azzone (BG), , , 1, ATS, )  @Stop(1)
+000 @Limit(60,-1)
+000 @RailType(0,6) @pole(0,1,0,50) 
+000 @railstart(6,-2) @railtype(6,3) ; x rumore scambi
+000 @railstart(2,14) @pole(2,1,0,50) @railtype(2,6) @railstart(1,28) @pole(1,1,0,50) @railtype(1,6)
+000 @height(1)
+000 @ground(1) 
+000 @railstart(7,4) @railstart(8,18) @railstart(9,32) 
+000 @dike(0,-1,6) @dike(1,1,6)
+000 @Form(0,-9,0) @Form(7,2,0) @form(8,1) @Form(9,9,0) @freeobj(0,24,-5.5,0,0) @freeobj(0,10,8.5,0,0) @freeobj(2,10,8.5,0,0) 
+025 @freeobj(0,151) @freeobj(0,152,11) @freeobj(2,153) @freeobj(2,154,11) @freeobj(1,155) @freeobj(1,156,11)
+025 @Form(0,-9,0) @Form(7,2,0) @form(8,1) @Form(9,9,0) @freeobj(0,24,-5.5,0,0) @freeobj(0,10,8.5,0,0) @freeobj(2,10,8.5,0,0) @freeobj(1,24, 9,0,180)
+050 @Form(0,-9,0) @Form(7,2,0) @form(8,1) @Form(9,9,0) @freeobj(0,24,-5.5,0,0) @freeobj(0,10,8.5,0,0) @freeobj(2,10,8.5,0,0) @freeobj(1,24, 9,0,180)
+075 @Form(0,-9,0) @Form(7,2,0) @form(8,1) @Form(9,9,0) @freeobj(0,24,-5.5,0,0) @freeobj(0,10,8.5,0,0) @freeobj(2,10,8.5,0,0) @freeobj(1,24, 9,0,180)
+075 @freeobj(0,151) @freeobj(0,152,11) @freeobj(2,153) @freeobj(2,154,11) @freeobj(1,155) @freeobj(1,156,11)
+100 @dike(0,-1,5) @dike(1,1,5) @freeobj(0,9,-2.5,0,0) @freeobj(1,9,31,0,0) 
+100 @railend(7) @railend(8) @railend(9)
+110 @freeobj(0,220,0,0,-30) @freeobj(2,220) @freeobj(1,220)
+120 @freeobj(0,106,0.5,0,0) @freeobj(0,110,4,0,0) @freeobj(2,101,0,0,0) @freeobj(1,101,0,0,0)
+125 @curve(3000,30)
+125 @rail(2,13) @rail(1,27)
+150 @rail(2,12) @rail(1,26)
+175 @rail(2,11) @rail(1,25)
+200 @rail(2,10) @rail(1,24)
+225 @curve(0,0)
+225 @rail(2,9) @rail(1,23)
+225 @pole(0,2,0,50) @poleend(2)
+250 @rail(2,8) @rail(1,22)
+250 @freeobj(0,70,0,0,0) @freeobj(0,70,4,0,0) 
+275 @freeobj(0,6,2,0,9) @rail(6,2)
+275 @rail(1,21)
+285 @freeobj(1,130,4,0,0)
+300 @freeobj(1,142,4,0,0)
+300 @rail(1,20)
+325 @freeobj(2,70,0,0,180) @freeobj(2,70,4,0,180)
+325 @pole(0,1,0,50) @pole(2,1,0,50)
+325 @rail(1,19)
+325 @freeobj(1,142,4,0,0)
+350 @freeobj(1,142,4,0,0)
+350 @rail(1,18) 
+375 @freeobj(1,142,4,0,0)
+400 @freeobj(1,142,4,0,0)
+400 @freeobj(0,7,6.3,0,0) @freeobj(1,7,6.3,0,0)  @railtype(0,5) @railtype(1,5) @railtype(2,5)
+425 @rail(1,17) @railtype(0,6) @railtype(1,6) @railtype(2,6)
+425 @freeobj(1,142,4,0,0)
+450 @freeobj(1,142,4,0,0)
+450 @rail(1,16) 
+450 @freeobj(2,70) @freeobj(2,70,4)
+475 @freeobj(2,6,2,0,9)
+500 @pole(2,2,0,50) @poleend(1)
+525 @freeobj(1,70,0,0,180) @freeobj(1,70,4,0,180)
+525 @freeobj(1,72,0,0,0) @freeobj(1,72,4,0,0,0)
+550 @freeobj(2,6,6,0,351)
+600 @freeobj(2,72,0,0,180.6) @freeobj(2,72,4,0,180.6)
+600 @pole(2,1,0,50) @pole(1,1,0,50)
+600 @curve(180,0) @freeobj(0,74) @freeobj(0,74,4) @railtype(0,3) @freeobj(0,4)
+600 @poleend(0) @poleend(2) 
+625 @freeobj(0,204,0.7,0,0) @freeobj(1,204,1,0,0) ; meno4
+625 @freeobj(0,5,4,0,180)
+625 @curve(0,0) @railtype(0,6)
+625 @rail(2,6) @rail(1,14)
+650 @rail(2,2) @rail(1,10) @railtype(2,3) @railtype(1,3) @freeobj(1,74) @freeobj(1,74,4)
+674 @freeobj(0,221,-0.2,0,-30) @freeobj(1,221)
+675 @Limit(130,-1)
+675 @rail(6,-2)
+675 @rail(2,0) @rail(1,8) @railtype(1,6)
+675 @freeobj(2,72,0,0,180) @freeobj(2,72,4,0,180)
+675 @pole(0,2,0,50) @poleend(1)
+675 @rail(1,8.1)
+
+700 @curve(-180,0)
+700 @railend(2) 
+700 @curve(0,0)
+700 @freeobj(0,140,4,0,0)
+710 @freeobj(2,131,4,0,0)
+725 @freeobj(0,203,0.7,0,0) @freeobj(1,203,1,0,0) ; meno3
+725 @freeobj(0,140,4,0,0)
+750 @freeobj(0,140,4,0,0)
+750 @rail(1,8.1) 
+775 @freeobj(0,7,6.2,0,0)  @railtype(0,5) @railtype(1,5)
+775 @freeobj(0,140,4,0,0)
+800 @freeobj(0,140,4,0,0)
+800 @rail(1,8) @railtype(0,6) @railtype(1,6)
+825 @freeobj(0,202,0.7,0,0) @freeobj(1,202,1,0,0)  ; meno2
+825 @freeobj(0,140,4,0,0)
+850 @freeobj(0,140,4,0,0)
+850 @rail(1,8.1)
+875 @freeobj(0,7,6.2,0,0) @railtype(0,5) @railtype(1,5)
+900 @rail(1,8) @railtype(0,6) @railtype(1,6)
+925 @freeobj(0,201,0.7,0,0) @freeobj(1,201,1,0,0) ; meno1
+950 @rail(1,8.1)
+975 @freeobj(0,7,6.2,0,0) @railtype(0,5) @railtype(1,5)
+1000 @railtype(0,6) @railtype(1,6)
+1020 @freeobj(0,106,0.5,0,0)  @freeobj(1,106,0.5,0,0) @marker(av\info\segnalev.gif,400)
+;------------ inizio tunnel
+1025 @freeobj(0,8,6,0,0)
+1025 @dike(0,-1,2) @dike(1,-1,2) @railtype(0,1) @railtype(1,1)
+1025 @poleend(0)
+;---------
+1075 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1100 @railtype(0,1) @railtype(1,1)
+1100 @curve(2000,100)
+1125 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1150 @railtype(0,1) @railtype(1,1)
+1175 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1200 @railtype(0,1) @railtype(1,1)
+1225 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1250 @railtype(0,1) @railtype(1,1)
+1275 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1300 @railtype(0,1) @railtype(1,1)
+1325 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1350 @railtype(0,1) @railtype(1,1)
+1375 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1400 @railtype(0,1) @railtype(1,1)
+1425 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1450 @railtype(0,1) @railtype(1,1)
+1475 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1500 @railtype(0,1) @railtype(1,1)
+1525 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1550 @railtype(0,1) @railtype(1,1)
+1575 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1600 @railtype(0,1) @railtype(1,1)
+1625 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1650 @railtype(0,1) @railtype(1,1)
+1675 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1700 @railtype(0,1) @railtype(1,1)
+1725 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1750 @railtype(0,1) @railtype(1,1)
+1775 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1800 @railtype(0,1) @railtype(1,1)
+1800 @curve(0,0)
+1825 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1850 @railtype(0,1) @railtype(1,1)
+1875 @freeobj(0,38)  @railtype(0,4) @railtype(1,4)
+1900 @railtype(0,1) @railtype(1,1)
+;------------ fine tunnel 
+1925 @dike(0,-1,1) @dike(1,1,1)
+1925 @pole(0,2,0,50)
+1925 @railtype(0,6) @railtype(1,6)
+1945 @freeobj(0,204,0.7,0,0) @freeobj(1,204,1,0,0) ; meno4
+1974 @freeobj(0,222) @freeobj(1,221)
+1975 @Limit(290,-1)
+;------------
+2000 @rail(1,8)
+2000 @dike(0,-1,1) @dike(1,1,1)
+2045 @freeobj(0,203,0.7,0,0) @freeobj(1,203,1,0,0) ; meno3
+2125 @freeobj(0,3,0,0,0) @dike(0,-1,4) @dike(1,1,4) @railtype(0,5) @railtype(1,5)
+2145 @freeobj(0,202,0.7,0,0) @freeobj(1,202,1,0,0) ; meno2
+2150 @dike(0,-1,1) @dike(1,1,1) @railtype(0,6) @railtype(1,6)
+2150 @freeobj(0,50,-40,0,0) 
+2245 @freeobj(0,201,0.7,0,0) @freeobj(1,201,1,0,0) ; meno1
+2250 @freeobj(0,52,-40,0,0)
+2345 @freeobj(0,106,0.5,0,0)  @freeobj(1,106,0.5,0,0) @marker(av\info\segnalev.gif,400)
+2350 @curve(2000,100) 
+2400 @curve(0,0) @freeobj(0,53,45,0,0)
+2425 @freeobj(0,3,0,0,0) @dike(0,-1,4) @dike(1,1,4) @railtype(0,5) @railtype(1,5)
+2450 @dike(0,-1,1) @dike(1,1,1) @railtype(0,6) @railtype(1,6)
+2500 @freeobj(0,51,-40,0,0) 
+2525 @freeobj(0,52,45,0,0)
+2550 @freeobj(0,3,0,0,0) @dike(0,-1,4) @dike(1,1,4) @railtype(0,5) @railtype(1,5)
+
+
+2750 @curve(-2000,100) @freeobj(0,54,45,0,0)
+2575 @dike(0,-1,1) @dike(1,1,1) @railtype(0,6) @railtype(1,6)
+2800 @curve(0,0) @freeobj(0,55,-45,0,0)
+2845 @freeobj(0,204,0.7,0,0) @freeobj(1,204,1,0,0) ; meno4
+2945 @freeobj(0,203,0.7,0,0) @freeobj(1,203,1,0,0) ; meno3
+3000 @freeobj(0,2,0,0,0) @freeobj(0,55,-45,0,0) @freeobj(0,54,45,0,0)
+3000 @curve(-2000,100)
+3045 @freeobj(0,202,0.7,0,0) @freeobj(1,202,1,0,0) ; meno2
+3100 @curve(0,0) @freeobj(0,55,-45,0,0) @freeobj(0,54,45,0,0)
+3145 @freeobj(0,201,0.7,0,0) @freeobj(1,204,1,0,0) ; meno1
+3200 @freeobj(0,55,-45,0,0) @freeobj(0,54,45,0,0) 
+3245 @freeobj(0,106,0.5,0,0)  @freeobj(1,106,0.5,0,0) @marker(av\info\segnalev.gif,400)
+3275 @freeobj(0,3,0,0,0) @railtype(0,5) @railtype(1,5)
+3300 @railtype(0,6) @railtype(1,6)
+3300 @curve(-2000,100) @freeobj(0,55,-45,0,0) @freeobj(0,54,45,0,0)
+3350 @curve(0,0)
+3375 @curve(2000,100)
+3400 @curve(0,0)
+
+;------------ inizio tunnel
+3525 @freeobj(0,1,0,0,0) 
+3525 @dike(0,-1,3) @dike(1,-1,3) @railtype(0,1) @railtype(1,1)
+3525 @poleend(0)
+;---------
+3600 @curve(2000,100)
+3650 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+3675 @railtype(0,1) @railtype(1,1)
+3800 @curve(0,0)
+3900 @curve(2000,100)
+
+;------------ fine tunnel 
+3975 @dike(0,-1,1) @dike(1,1,1)
+3975 @pole(0,2,0,50)
+3975 @railtype(0,6) @railtype(1,6)
+4025 @freeobj(0,2,0,0,0)
+4095 @freeobj(0,204,0.7,0,0) @freeobj(1,204,1,0,0) ; meno4
+4195 @freeobj(0,203,0.7,0,0) @freeobj(1,203,1,0,0) ; meno3
+;------------
+4200 @freeobj(0,51,-45,0,0) @freeobj(0,50,45,0,0)
+4295 @freeobj(0,202,0.7,0,0) @freeobj(1,202,1,0,0) ; meno2
+4395 @freeobj(0,202,0.7,0,0) @freeobj(1,201,1,0,0) ; meno1
+4495 @freeobj(0,106,0.5,0,0)  @freeobj(1,106,0.5,0,0) @marker(av\info\segnalev.gif,400)
+;------------ inizio tunnel
+4525 @freeobj(0,1,0,0,0) 
+4525 @dike(0,-1,3) @dike(1,-1,3) @railtype(0,1) @railtype(1,1)
+4525 @poleend(0)
+;---------
+4600 @curve(0,0)
+4725 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+4750 @railtype(0,1) @railtype(1,1)
+;------------ fine tunnel 
+4900 @dike(0,-1,1) @dike(1,1,1)
+4900 @pole(0,2,0,50)
+4900 @railtype(0,6) @railtype(1,6)
+;------------
+5000 @freeobj(0,2,0,0,0)
+;------------ inizio tunnel
+5050 @freeobj(0,1,0,0,0) 
+5050 @dike(0,-1,3) @dike(1,-1,3) @railtype(0,1) @railtype(1,1)
+5050 @poleend(0)
+;---------
+5200 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+5225 @railtype(0,1) @railtype(1,1)
+5400 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+5425 @railtype(0,1) @railtype(1,1)
+5500 @curve(0,0)
+5600 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+5625 @railtype(0,1) @railtype(1,1)
+;------------ fine tunnel 
+5875 @dike(0,-1,1) @dike(1,1,1)
+5875 @pole(0,2,0,50)
+5875 @railtype(0,6) @railtype(1,6)
+;------------
+5950 @freeobj(1,143,4,0,0)
+5975 @freeobj(1,144,4,0,0)
+6000 @freeobj(1,144,4,0,0)
+6000 @freeobj(0,2,0,0,0)
+6000 @rail(1,8.5)
+6025 @rail(1,9) @pole(0,1,0,50) @pole(1,1,0,50)
+6025 @freeobj(1,144,4,0,0)
+6050 @freeobj(1,144,4,0,0)
+6075 @freeobj(1,144,4,0,0)
+6075 @rail(1,9.5)
+6100 @rail(1,10)
+6100 @freeobj(1,144,4,0,0)
+6125 @freeobj(1,144,4,0,0)
+6125 @rail(1,10.5)
+6150 @freeobj(1,132,4,0,0)
+6150 @rail(1,11)
+6175 @rail(1,11.5) @freeobj(0,204,0.7,0,0) @freeobj(1,204,0.7,0,0)  ; meno4
+6200 @rail(1,12)
+6225 @rail(1,12.5)
+6250 @rail(1,13) @railstart(9,17,0,0,0) @railtype(9,3) @pole(0,3)
+6275 @railstart(15,3,1,0,0) @railtype(15,3) @dike(15,1,9)
+6275 @dike(1,1,7) @freeobj(1,9,36.5,0,0) @freeobj(0,203,0.7,0,0)  ; meno3
+6275 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) @freeobj(9,152,-3) @freeobj(9,151,10)
+6300 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)  
+6325 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)  
+6350 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) @freeobj(9,152,-3) @freeobj(9,151,10) 
+6375 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) @freeobj(0,202,0.7,0,0) ; meno2
+6400 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)  
+6425 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)  
+6450 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) @freeobj(9,152,-3) @freeobj(9,151,10) 
+6450 @curve(-1800,100)
+6475 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) @freeobj(0,201,0.7,0,0) ; meno1
+6500 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)  
+6525 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) @freeobj(9,152,-3) @freeobj(9,151,10) 
+6525 @Station(Ficarolo (RO), , , 1, ATS, )  
+6550 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) 
+6575 @dike(1,1,1)  @freeobj(1,11,4,0,0) @pole(0,1,0,50) @pole(1,1,0,50) @freeobj(0,106,0,0,0)  @marker(av\info\segnalev.gif,400)
+6575 @railend(15)
+6590 @freeobj(1,106,0,0,0)
+6600 @rail(1,12.5) @railend(9) @pole(0,1)
+6625 @rail(1,12)
+6650 @rail(1,11.5)
+6675 @rail(1,11)
+6700 @rail(1,10.5) @freeobj(0,50,-45,0,0) @freeobj(0,52,45,0,0)
+6725 @rail(1,10)
+6750 @rail(1,9.5)
+6775 @rail(1,9.5)
+6800 @rail(1,8.5) @poleend(1) @pole(0,2,0,50)
+6825 @rail(1,8)
+6900 @curve(-1800,100)
+7000 @curve(0,0)
+7000 @freeobj(0,2,0,0,0)
+7025 @freeobj(0,70,0,0,0) @freeobj(0,70,4,0,0) 
+7050 @freeobj(0,6,2,0,9) @rail(6,2)
+7100 @freeobj(1,70,0,0,180) @freeobj(1,70,4,0,180) 
+7125 @freeobj(1,72,0,0,0) @freeobj(1,72,4,0,0)
+7150 @freeobj(1,6,-2,0,-9)
+7200 @freeobj(0,72,0,0,180) @freeobj(0,72,4,0,180) @rail(6,-2)
+7250 @pitch(-8)
+7275 @pitch(-16)
+7500 @pitch(-8)
+7525 @pitch(0)
+7625 @pitch(-8)
+7650 @pitch(-16)
+;------------ inizio tunnel
+7750 @back(1)
+7750 @freeobj(0,1,0,0,0) 
+7750 @dike(0,-1,3) @dike(1,-1,3) @railtype(0,1) @railtype(1,1)
+7750 @poleend(0)
+;---------
+7750 @curve(1500,150)
+7800 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+7825 @railtype(0,1) @railtype(1,1)
+8000 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+8025 @railtype(0,1) @railtype(1,1)
+8200 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+8225 @railtype(0,1) @railtype(1,1)
+8200 @curve(0,0)
+8400 @curve(-1800,150)
+8400 @back(0)
+8400 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+8425 @railtype(0,1) @railtype(1,1)
+8600 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+8625 @railtype(0,1) @railtype(1,1)
+;------------ fine tunnel 
+8775 @dike(0,-1,1) @dike(1,1,1)
+8775 @pole(0,2,0,50)
+8775 @railtype(0,6) @railtype(1,6)
+;------------
+8800 @curve(0,0)
+;------------ inizio tunnel
+8900 @back(1)
+8900 @freeobj(0,1,0,0,0) 
+8900 @dike(0,-1,3) @dike(1,-1,3) @railtype(0,1) @railtype(1,1)
+8900 @poleend(0)
+;---------
+8950 @curve(1500,150)
+9000 @curve(0,0)
+9100 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+9125 @railtype(0,1) @railtype(1,1)
+9300 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+9325 @railtype(0,1) @railtype(1,1)
+9400 @curve(-1800,150)
+9400 @back(0)
+;------------ fine tunnel 
+9500 @dike(0,-1,1) @dike(1,1,1)
+9500 @pole(0,2,0,50)
+9500 @railtype(0,6) @railtype(1,6)
+;------------
+9600 @curve(0,0)
+9610 @freeobj(1,132,4,0,0)
+9625 @freeobj(1,129,4,0,0)
+9650 @freeobj(0,70,0,0,0) @freeobj(0,70,4,0,0) 
+9650 @freeobj(1,129,4,0,0)
+9675 @freeobj(1,129,4,0,0)
+9675 @freeobj(0,6,2,0,9) @rail(6,2)
+9700 @freeobj(1,129,4,0,0)
+9725 @freeobj(1,129,4,0,0)
+9725 @freeobj(1,70,0,0,180) @freeobj(1,70,4,0,180) 
+9750 @freeobj(1,72,0,0,0) @freeobj(1,72,4,0,0)
+9750 @freeobj(1,129,4,0,0)
+9775 @freeobj(1,129,4,0,0)
+9775 @freeobj(1,6,-2,0,-9)
+9800 @freeobj(1,129,4,0,0)
+9825 @freeobj(1,129,4,0,0)
+9825 @freeobj(0,72,0,0,180) @freeobj(0,72,4,0,180)
+9825 @rail(1,8.5) @rail(6,-2)
+9850 @rail(1,9) @pole(0,1,0,50) @pole(1,1,0,50)
+9850 @freeobj(1,129,4,0,0)
+9875 @freeobj(1,129,4,0,0)
+9875 @rail(1,9.5)
+9900 @rail(1,10)
+9900 @freeobj(1,129,4,0,0)
+9925 @freeobj(1,129,4,0,0)
+9925 @rail(1,10.5)
+9950 @rail(1,11)
+9950 @freeobj(1,129,4,0,0)
+9975 @freeobj(1,129,4,0,0)
+9975 @freeobj(0,204,0.7,0,0) @freeobj(1,204,1,0,0) ; meno4
+9975 @rail(1,11.5)
+10000 @freeobj(1,129,4,0,0)
+10025 @freeobj(1,129,4,0,0)
+10000 @rail(1,12)
+10000 @rail(1,12.5)
+10000 @rail(1,13) @railstart(9,17,0,0,0) @railtype(9,3)
+10075 @railstart(15,3,1,0,0) @railtype(15,3) @dike(15,1,9)
+10075 @freeobj(0,203,0.7,0,0) ; meno3
+10075 @dike(1,1,7) @freeobj(1,9,36.5,0,0) @pole(0,3) 
+10075 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)
+10100 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) 
+10125 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)
+10150 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) 
+10175 @freeobj(0,202,0.7,0,0) ; meno2
+10175 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)
+10200 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) 
+10225 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)
+10250 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) 
+10275 @freeobj(0,201,0.7,0,0) ; meno1
+10275 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)
+10300 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0) 
+10325 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)
+10350 @form(1,-9,0) @form(9,9,0) @freeobj(0,10,8.5,0,0)
+10375 @railend(15) @poleend(0,2)
+10375 @freeobj(0,106,0,0,0) @freeobj(1,106,0,0,0)  @marker(av\info\segnalev.gif,400)
+10375 @dike(1,1,1) @freeobj(1,11,4,0,0) @pole(0,1,0,50) @pole(1,1,0,50)
+10375 @curve(-2500,150)
+10500 @rail(1,12.5)
+10525 @rail(1,12)
+10550 @rail(1,11.5)
+10575 @rail(1,11)
+10600 @rail(1,10.5)
+10625 @rail(1,10)
+10650 @rail(1,9.5)
+10675 @rail(1,9)
+10700 @rail(1,8.5) @poleend(1) @pole(0,2,0,50)
+10725 @rail(1,8)
+
+
+10750 @freeobj(0,70,0,0,0) @freeobj(0,70,4,0,0) 
+10775 @freeobj(0,6,2,0,9) @rail(6,2)
+10825 @freeobj(1,70,0,0,180.5) @freeobj(1,70,4,0,180.5) 
+10850 @freeobj(1,72,0,0,0) @freeobj(1,72,4,0,0)
+10875 @freeobj(1,6,-2,0,-9)
+10925 @freeobj(0,72,0,0,180.5) @freeobj(0,72,4,0,180.5) @rail(6,-2)
+
+
+
+
+;------------ inizio tunnel
+10975 @back(1)
+10975 @freeobj(0,1,0,0,0) 
+10975 @dike(0,-1,3) @dike(1,-1,3) @railtype(0,1) @railtype(1,1)
+10975 @poleend(0)
+;---------
+11200 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+11225 @railtype(0,1) @railtype(1,1)
+11300 @railend(1)
+11400 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+11425 @railtype(0,1) @railtype(1,1)
+11600 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+11625 @railtype(0,1) @railtype(1,1)
+11600 @back(0) @railend(9)
+11625 @freeobj(0,214,0.7,0,0) ; meno4
+11725 @freeobj(0,213,0.7,0,0) ; meno3
+11800 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+11825 @railtype(0,1) @railtype(1,1)
+11825 @freeobj(0,212,0.7,0,0) ; meno2
+;------------ fine tunnel 
+11875 @dike(0,-1,1) @railstart(9,0) @dike(9,1,1)
+11875 @pole(0,1,0,50)
+11875 @railtype(0,6) @railtype(1,6)
+
+;------------
+11900 @curve(0,0)
+11925 @freeobj(0,201,0.7,0,0) ; meno1
+12000 @pitch(8)
+12025 @pitch(16)
+12025 @freeobj(0,106,0,0,0) @marker(av\info\segnalev.gif,400)
+12100 @curve(2000,150)
+;------------ inizio tunnel
+12125 @back(1) @dikeend(9)
+12125 @freeobj(0,13,0,0,0) 
+12125 @dike(0,-1,3) @railtype(0,1) 
+;---------------------
+12125 @poleend(0)
+12400 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+12425 @railtype(0,1) @railtype(1,1)
+12500 @curve(0,0)
+12600 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+12625 @railtype(0,1) @railtype(1,1)
+12800 @curve(-2000,150)
+12800 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+12825 @railtype(0,1) @railtype(1,1)
+13000 @back(0)
+13000 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+13025 @railtype(0,1) @railtype(1,1)
+13400 @curve(0,0)
+13400 @freeobj(0,40) @railtype(0,4) @railtype(1,4)
+13425 @railtype(0,1) @railtype(1,1)
+
+;------------ fine tunnel 
+13550 @ground(2)
+13575 @pole(0,1,0,50)
+13575 @railtype(0,2) @dikeend(0) 
+;------------
+13575 @curve(-2000,150) @dike(0,1,8) @dike(9,-1,9) @wall(9,-1,1)
+13625 @freeobj(0,204,0.7,0,0) ; meno4
+13725 @freeobj(0,203,0.7,0,0) ; meno3
+13800 @curve(0,0)
+13825 @freeobj(0,202,0.7,0,0) ; meno2
+13925 @freeobj(0,201,0.7,0,0) ; meno1
+14000 @curve(2000,150)
+14025 @freeobj(0,106,0,0,0) @marker(av\info\segnalev.gif,400)
+14500 @curve(-2000,150)
+14850 @curve(2000,150) 
+;--------------- inizio galleria
+14875 @freeobj(0,14,0,0,0) @dikeend(9) @dike(0,-1,2)
+14875 @poleend(0)
+14875 @railtype(0,1) @back(1)
+;---------
+15200 @curve(0,0)
+15225 @freeobj(0,214,0.7,0,0) ; meno4
+15325 @freeobj(0,213,0.7,0,0) ; meno3
+15400 @curve(-2000,150)
+15425 @freeobj(0,212,0.7,0,0) ; meno2
+15525 @freeobj(0,211,0.7,0,0) ; meno1
+15625 @freeobj(0,111,1.5,-2,0)   ; verde galleria
+15800 @curve(2000,150)
+15925 @railstart(8,4) @railtype(8,3) 
+;------------ fine tunnel 
+
+15925 @pole(0,1,0,50)
+15925 @railtype(0,2) @dikeend(0)
+15925 @dike(9,-1,9)  @dike(8,1,9) @wall(0,1,1)
+;------------
+;--------------- inizio galleria
+16025 @freeobj(0,14,0,0,0) @dike(0,-1,2) @dikeend(9) @dikeend(8)
+16025 @poleend(0)
+16025 @railtype(0,1) @back(1)
+;---------
+16600 @back(0)
+;------------ fine tunnel 
+16925 @ground(2)
+16925 @pole(0,1,0,50)
+16925 @railtype(0,2) @dikeend(0) @back(0)
+16975 @freeobj(0,204,0.7,0,0) ; meno4
+;------------
+17000 @curve(1800,0)
+17075 @freeobj(0,203,0.7,0,0) ; meno3
+17175 @freeobj(0,202,0.7,0,0) ; meno2
+17200 @pitch(8)
+17225 @pitch(0)
+17275 @freeobj(0,201,0.7,0,0) ; meno1
+17375 @freeobj(0,106,0,0,0) @marker(av\info\segnalev.gif,400)
+17500 @curve(-2200,150)
+;--------------- inizio galleria
+17625 @freeobj(0,14,0,0,0) @dike(0,-1,2) @dikeend(9) @dikeend(8)
+17625 @poleend(0)
+17625 @railtype(0,1) @back(1)
+;---------
+17775 @back(0)
+;------------ fine tunnel 
+17925 @ground(2)
+17925 @pole(0,1,0,50)
+17925 @railtype(0,2) @dikeend(0) 
+18075 @freeobj(0,204,0.7,0,0) ; meno4
+18175 @freeobj(0,203,0.7,0,0) ; meno3
+18275 @freeobj(0,202,0.7,0,0) ; meno2
+18375 @freeobj(0,201,0.7,0,0) ; meno1
+18475 @freeobj(0,106,0,0,0) @marker(av\info\segnalev.gif,400)
+;------------
+;--------------- inizio galleria
+18625 @freeobj(0,14,0,0,0) @dike(0,-1,2) @dikeend(9) @dikeend(8)
+18625 @poleend(0)
+18625 @railtype(0,1) @back(1)
+;---------
+18775 @back(0)
+;------------ fine tunnel 
+18925 @ground(2)
+18925 @pole(0,1,0,50)
+18925 @railtype(0,2) @dikeend(0) 
+;------------
+19000 @curve(2000,150)
+19075 @freeobj(0,204,0.7,0,0) ; meno4
+19175 @freeobj(0,203,0.7,0,0) ; meno3
+19275 @freeobj(0,202,0.7,0,0) ; meno2
+19375 @freeobj(0,201,0.7,0,0) ; meno1
+19475 @freeobj(0,108,0,0,0) @marker(av\info\segnaleg.gif,400)
+;------------ inizio tunnel
+19625 @back(1) @dikeend(9) @poleend(0)
+19625 @freeobj(0,13,0,0,0) 
+19625 @dike(0,-1,3) @railtype(0,1) 
+19775 @marker(av\info\meno5.gif,400)
+20000 @freeobj(0,40) @railtype(0,4) 
+20025 @railtype(0,1) 
+20200 @freeobj(0,40) @railtype(0,4) 
+20225 @railtype(0,1) 
+20300 @freeobj(0,40) @railtype(0,4) 
+20325 @railtype(0,1) 
+;---------------------
+20400 @back(0)
+;------------ fine tunnel 
+20625 @ground(2) 
+20625 @pole(0,1,0,50)
+20625 @railtype(0,2) @dikeend(0) 
+;------------
+20625 @railstart(1,15) @railtype(1,2) @pole(1,1,0,50) @dikeend(1) @wallend(0) @wall(1,1,1)
+20000 @curve(2000,150)
+20775 @marker(av\info\meno4.gif,400)
+20775 @freeobj(0,204,0.7,0,0) ; meno4
+20875 @freeobj(0,203,0.7,0,0) ; meno3
+20900 @curve(0,0)
+20975 @freeobj(0,202,0.7,0,0) ; meno2
+21000 @rail(1,14)
+21025 @rail(1,12)
+21050 @rail(1,11) @railtype(0,6) @railtype(1,6) @dike(0,-1,9) @railstart(2,15) @railtype(2,3) @dike(2,1,9)
+21075 @rail(1,10) @rail(2,14)
+21075 @freeobj(0,201,0.7,0,0) ; meno1
+21100 @rail(1,9) @rail(2,13)
+21125 @rail(1,8) @rail(2,12)
+21175 @freeobj(0,108,0,0,0) @marker(av\info\segnaleg.gif,400)
+21300 @poleend(1) @pole(0,2,0,50)
+21350 @freeobj(0,70,0,0,0) @freeobj(0,70,4,0,0) 
+21375 @freeobj(0,6,2,0,9) @rail(6,2)
+21425 @freeobj(1,70,0,0,180) @freeobj(1,70,4,0,180) 
+21450 @freeobj(1,72,0,0,0) @freeobj(1,72,4,0,0)
+21475 @freeobj(1,6,-2,0,-9)
+21525 @freeobj(0,72,0,0,180) @freeobj(0,72,4,0,180) @rail(6,-2)
+21600 @curve(3000,100)
+21700 @curve(-3000,100)
+21775 @marker(av\info\meno3.gif,400)
+21800 @curve(0,0)
+
+
+;------------ inizio tunnel
+22025 @freeobj(0,1,0,0,0) 
+22025 @dike(0,-1,3) @dike(1,-1,3) @railtype(0,1) @railtype(1,1)
+22025 @poleend(0)
+;---------
+22175 @freeobj(0,214,0.7,0,0) ; meno4
+22275 @freeobj(0,213,0.7,0,0) ; meno3
+22300 @freeobj(0,40) @railtype(0,4) 
+22325 @railtype(0,1) 
+22375 @freeobj(0,212,0.7,0,0) ; meno2
+22475 @freeobj(0,211,0.7,0,0) ; meno1
+22500 @freeobj(0,40) @railtype(0,4) 
+22525 @railtype(0,1) 
+22575 @freeobj(0,112,1.5,-2,0) @marker(av\info\segnaleg.gif,400)  ; giallo galleria
+22600 @curve(2000,100) @wallend(0) @wallend(1) @dikeend(2) @wallend(9) @railend(2) @railend(9) @railend(8)
+22700 @freeobj(0,40) @railtype(0,4) 
+22725 @railtype(0,1) 
+22775 @marker(av\info\meno2.gif,400)
+22800 @curve(0,0)
+22900 @curve(2000,150)
+22900 @freeobj(0,40) @railtype(0,4) 
+22925 @railtype(0,1) 
+23100 @freeobj(0,40) @railtype(0,4) 
+23125 @railtype(0,1) 
+23300 @freeobj(0,40) @railtype(0,4) 
+23325 @railtype(0,1) 
+23500 @freeobj(0,40) @railtype(0,4) 
+23525 @railtype(0,1) 
+;------------ fine tunnel 
+23775 @marker(av\info\meno1.gif,400)
+23975 @dike(0,-1,1) @dike(1,1,1)
+23975 @pole(0,2,0,50)
+23975 @railtype(0,6) @railtype(1,6)
+;------------
+24000 @freeobj(0,70,0,0,0) @freeobj(1,72,4,0,0)
+24024 @freeobj(0,221) @freeobj(1,221)
+24025 @Limit(130,-1)
+24025 @rail(6,2)
+24050 @freeobj(0,70,4,0,179.25) @freeobj(1,72,0,0,179.25)
+24050 @freeobj(0,70,4,0,0) @freeobj(1,72,0,0,0)
+
+24100 @freeobj(1,70,0,0,179.6) @freeobj(0,72,4,0,179.6)
+24100 @curve(0,0)
+24100 @freeobj(0,72,4,0,0) @freeobj(1,70,0,0,0)
+24150 @freeobj(0,72,0,0,180) @freeobj(1,70,4,0,180)
+24150 @railstart(2,16,0,0,0) @railtype(2,6) @dikeend(1) @dike(2,1,1) @pole(2,1)
+24150 @freeobj(0,70,0,0,0) @freeobj(0,70,4,0,0) 
+24150 @rail(6,-2)
+24175 @rail(6,2)
+24175 @freeobj(0,6,2,0,9) 
+24225 @freeobj(1,70,0,0,180) @freeobj(1,70,4,0,180) @freeobj(2,72,0,0,0) @freeobj(2,72,4,0,0)
+24250 @freeobj(1,70,0,0,0) @freeobj(1,70,4,0,0) @pole(0,1) @pole(1,2) @poleend(2) @freeobj(2,6,-2,0,-9)
+24275 @freeobj(1,6,2,0,9) 
+24300 @freeobj(1,72,0,0,180) @freeobj(1,72,4,0,180) 
+24325 @freeobj(2,70,0,0,180) @freeobj(2,70,4,0,180) 
+24325 @freeobj(0,3,0,0,0) @railtype(0,5) @railtype(1,5) @railtype(2,5) @dike(0,-1,4) @dike(2,1,4) ; ponte
+24350 @railtype(0,6) @railtype(1,6) @railtype(2,6) @dike(0,-1,1) @dike(2,1,1)
+24350 @pole(1,1) @pole(2,1)
+24350 @ground(1)
+24375 @rail(1,9)  @rail(2,18)
+24400 @rail(1,10) @rail(2,20) 
+24425 @rail(1,11) @rail(2,22)
+24425 @freeobj(0,3,0,0,0) @railtype(0,5) @railtype(1,5) @railtype(2,5) @dike(0,-1,4) @dike(2,1,4) ; pontemetallo
+24450 @railtype(0,6) @railtype(1,6) @railtype(2,6) @dike(0,-1,1) @dike(2,1,1)
+24450 @rail(1,12) @rail(2,24)
+24475 @rail(1,13) @rail(2,26) @freeobj(0,9,-7,1,0) @dike(0,-1,6) 
+
+24475 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(0,24,-5.5,0,0) 
+24485 @freeobj(1,131,4,0,0)
+24500 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(1,140,4,0,0) @freeobj(0,24,-5.5,0,0) 
+24521 @freeobj(0,37,-5,1,0)
+24523 @freeobj(0,37,-5,1,0)
+24525 @freeobj(0,37,-5,1,0)
+24525 @freeobj(0,151) @freeobj(0,152,11) @freeobj(1,153) @freeobj(1,154,11) @freeobj(2,155) 
+24525 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(1,140,4,0,0) @freeobj(0,24,-5.5,0,0) 
+24550 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(1,140,4,0,0) @freeobj(0,24,-5.5,0,0) 
+24575 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(1,140,4,0,0) @freeobj(0,24,-5.5,0,0) 
+24600 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(1,140,4,0,0) @freeobj(0,24,-5.5,0,0) 
+24600 @freeobj(0,151) @freeobj(0,152,11) @freeobj(1,153) @freeobj(1,154,11) @freeobj(2,155) 
+24625 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(1,140,4,0,0) @freeobj(0,24,-5.5,0,0) 
+24650 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(1,140,4,0,0) @freeobj(0,24,-5.5,0,0) 
+24675 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(1,140,4,0,0) @freeobj(0,24,-5.5,0,0)  
+24700 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(1,140,4,0,0) @freeobj(0,24,-5.5,0,0) 
+24725 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(0,24,-5.5,0,0) 
+24725 @freeobj(0,151) @freeobj(0,152,11) @freeobj(1,153) @freeobj(1,154,11) @freeobj(2,155) 
+24739 @freeobj(0,102,0.05,0,0) ; segnale rosso animato 
+
+24750 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0) @freeobj(0,24,-5.5,0,0) 
+24775 @Station(Cogliate (MI), , , 1, ATS, )  @Stop(0)
+24775 @form(0,-9,0) @form(1,-9,0) @form(2,-9,0) @freeobj(0,10,8.5,0,0) @freeobj(1,10,8.5,0,0)
+24781 @freeobj(0,37,-5,1,0)
+24783 @freeobj(0,37,-5,1,0)
+24785 @freeobj(0,37,-5,1,0)
+24790 @freeobj(0,106,0,0,0)  @marker(av\info\segnalev.gif,400) ; segnale verde 
+24790 @marker(av\info\segnaler.gif,400)
+24800 @dike(0,-1,1) @freeobj(1,72,4,0,0,0) @freeobj(2,72,4,0,0,0)
+24825 @railstart(3,-8,0,0,0) @railstart(4,-16,0,0,0) @railtype(3,6) @railtype(4,6)
+24825 @dike(4,-1,1) @dikeend(0) @pole(4,2)
+24825 @rail(1,12) @rail(2,24)
+24850 @rail(1,11) @rail(2,22) @freeobj(4,125,0,0,0) @freeobj(1,72,0,0,180) @freeobj(2,72,0,0,180)
+24875 @rail(1,10) @rail(2,20) @freeobj(4,125,0,0,0)
+24900 @rail(1,9) @rail(2,18) @freeobj(4,125,0,0,0)
+24925 @rail(1,8) @rail(2,16) @freeobj(0,70,0,0,0) @freeobj(4,125,0,0,0)
+24925 @freeobj(0,72,4,0,0) 
+24950 @freeobj(0,76,0,0,0) @freeobj(4,125,0,0,0) @freeobj(2,72,0,0,0) 
+24950 @rail(6,-2)
+24975 @rail(6,2)
+24975 @freeobj(0,76,-4,0,0) @freeobj(0,70,4,0,180) @freeobj(0,70,0,0,0) @freeobj(0,70,4,0,0)
+25000 @rail(6,-2)
+25000 @freeobj(0,76,-8,0,0) @pole(0,2) @poleend(1) @freeobj(1,72,4,0,180
+25025 @freeobj(0,76,-12,0,0) @freeobj(0,70,4,0,180) @freeobj(0,70,8,0,180) @freeobj(0,70,4,0,0) @freeobj(0,70,8,0,0)
+25025 @freeobj(1,72,4,0,0)
+25075 @freeobj(0,72,-16,0,180) @freeobj(0,70,8,0,180) @freeobj(0,70,12,0,180) @freeobj(1,72,0,0,180)
+25100 @freeobj(3,120,0,0,0) 
+25125 @freeobj(3,120,0,0,0) @freeobj(2,72,0,0,0) @freeobj(2,72,4,0,0)
+25150 @freeobj(3,120,0,0,0) @pole(0,1) @pole(1,2) @poleend(2) @freeobj(2,6,-2,0,-9)
+25175 @freeobj(3,120,0,0,0) 
+25200 @freeobj(3,120,0,0,0) @freeobj(1,72,0,0,180) @freeobj(1,72,4,0,180) @pole(0,2) @poleend(1) @pole(2,1)
+25225 @freeobj(3,120,0,0,0) 
+25250 @freeobj(3,120,0,0,0) 
+25275 @freeobj(3,120,0,0,0) 
+25297 @freeobj(2,15,0,0,0) @freeobj(2,15,4,0,0)
+25300 @freeobj(3,120,0,0,0) @railend(2) @dikeend(2) @dike(1,1,1) @freeobj(1,11,4,0,0)
+25325 @freeobj(3,120,0,0,0) 
+25350 @freeobj(3,120,0,0,0) 
+25375 @freeobj(3,120,0,0,0) 
+25400 @freeobj(0,70,-16,0,0)
+25425 @freeobj(0,77,-12,0,0)
+25450 @freeobj(0,77,-8,0,0)
+25475 @freeobj(0,77,-4,0,0)
+25500 @freeobj(0,77,0,0,0) @freeobj(0,72,4,0,0) @railtype(0,3) 
+25525 @railtype(0,6)
+25525 @rail(6,2)
+25550 @rail(6,-2)
+25550 @freeobj(0,72,0,0,180) @freeobj(0,70,4,0,180) @freeobj(4,125,0,0,0)
+25575 @freeobj(4,125,0,0,0)
+25600 @freeobj(3,121,0,0,0) @freeobj(4,125,0,0,0) 
+25625 @freeobj(3,121,0,0,0) @freeobj(4,125,0,0,0)
+25650 @freeobj(3,121,0,0,0) @freeobj(4,125,0,0,0)
+25675 @freeobj(3,121,0,0,0) @freeobj(4,125,0,0,0) @freeobj(3,130,4,0,0)
+25697 @freeobj(3,15,0,0,0) @freeobj(3,15,4,0,0) @freeobj(4,15,0,0,0) @freeobj(4,15,4,0,0)
+25699 @freeobj(0,11,0,0,180) @freeobj(0,9,-20,-1,0)
+25700 @railend(3) @railend(4)
+25700 @dike(0,-1,1)
+25700 @freeobj(0,70,0,0,0) 
+25725 @freeobj(0,77,4,0,0) @rail(6,2)
+25750 @freeobj(1,77,0,0,0) @freeobj(1,72,4,0,0)
+25775 @freeobj(1,76,0,0,0)
+25800 @freeobj(0,76,4,0,0) @freeobj(1,70,4,0,180)
+25850 @freeobj(0,72,0,0,180)
+25800 @freeobj(1,70,4,0,180) 
+25850 @rail(6,-2)
+25875 @freeobj(0,3,0,0,0) @railtype(0,5) @railtype(1,5) @dike(0,-1,4) @dike(1,1,4) ; pontemetallo
+25900 @railtype(0,6) @railtype(1,6) @dike(0,-1,1) @dike(1,1,1)
+25900 @curve(-2000,150) @pole(0,1) @pole(1,1)
+25925 @rail(1,9)
+25950 @rail(1,10)
+25975 @rail(1,11)
+26000 @rail(1,12)
+26025 @rail(1,14) @railstart(2,0) @railtype(2,3) @poleend(2) @dike(2,1,5) @freeobj(0,204,0.7,0,0) ; meno4
+26050 @rail(1,16) @freeobj(0,9,14.5,0,-71)
+26074 @freeobj(0,222)
+26075 @Limit(290,-1)
+26075 @rail(1,19) 
+26100 @rail(1,23) 
+26125 @rail(1,28) @freeobj(0,203,0.7,0,0) ; meno3
+26150 @rail(1.34) @dike(0,-1,5) @freeobj(0,9,-2.5,0,0)
+26225 @freeobj(0,202,0.7,0,0) ; meno2
+26325 @freeobj(0,201,0.7,0,0) ; meno1
+26425 @freeobj(0,106,0.5)  @marker(av\info\segnalev.gif,400)
+26500 @railend(1)
+;------------ inizio tunnel
+26525 @back(1) @dikeend(2) @poleend(0) 
+26525 @freeobj(0,13,0,0,0) 
+26525 @dike(0,-1,3) @railtype(0,1) 
+;---------------------
+26800 @curve(0,0)
+26800 @freeobj(0,40) @railtype(0,4) 
+26825 @railtype(0,1) 
+27000 @curve(3000,150)
+
+;------------ fine tunnel 
+27000 @back(0)
+27225 @pole(0,1,0,50)
+27225 @railtype(0,6) 
+
+
+
+
+;------------
+27225 @dike(0,1,10) @dike(2,-1,10) @dikeend(3) @dikeend(4)
+27300 @freeobj(0,35,-15,0,0)
+27300 @freeobj(0,16,0,0,0) @freeobj(0,17,-45,0,0) @freeobj(0,17,-30,0,0)
+27350 @freeobj(0,17,0,0,0) 
+27350 @freeobj(0,35,-15,0,0)
+27360 @freeobj(0,18,-9,-2,-60)
+27400 @freeobj(0,18,0,0,0)
+27400 @freeobj(0,35,-15,0,0)
+27420 @freeobj(0,18,-9,-2,-60) @freeobj(0,16,-32,0,0)
+27425 @freeobj(0,204,0.7,0,0) ; meno4
+27460 @freeobj(0,17,-19,-2,-60)
+
+27500 @freeobj(0,16,0,0,0) @freeobj(0,17,-45,0,0) @freeobj(0,17,-30,0,0)
+27525 @freeobj(0,203,0.7,0,0) ; meno3
+27550 @freeobj(0,17,0,0,0) 
+27560 @freeobj(0,18,-9,-2,-60)
+27600 @freeobj(0,18,0,0,0)
+27620 @freeobj(0,18,-9,-2,-60) @freeobj(0,16,-32,0,0)
+27625 @freeobj(0,202,0.7,0,0) ; meno2
+27660 @freeobj(0,17,-19,-2,-60)
+27700 @curve(-2000,15) @freeobj(0,49,80,0,30)
+27700 @freeobj(0,16,0,0,0) @freeobj(0,17,-45,0,0) @freeobj(0,17,-30,0,0)
+27725 @freeobj(0,201,0.7,0,0) ; meno1
+27750 @freeobj(0,17,0,0,0) 
+27760 @freeobj(0,18,-9,-2,-60)
+27800 @freeobj(0,18,0,0,0)
+27820 @freeobj(0,18,-9,-2,-60) @freeobj(0,16,-32,0,0)
+
+27825 @freeobj(0,106,0.5)  @marker(av\info\segnalev.gif,400)
+27860 @freeobj(0,17,-19,-2,-60)
+
+27900 @freeobj(0,16,0,0,0) @freeobj(0,17,-45,0,0) @freeobj(0,17,-30,0,0)
+27900 @freeobj(0,17,0,0,0) 
+27925 @freeobj(0,19,0,0,0) @railtype(0,5)
+27950 @freeobj(0,18,-9,-2,-60) @railtype(0,6)
+28000 @freeobj(0,18,0,0,0)
+28020 @freeobj(0,18,-9,-2,-60) @freeobj(0,16,-32,0,0)
+28060 @freeobj(0,17,-19,-2,-60)
+28300 @freeobj(0,57,50,0,20)
+28300 @curve(0,0)
+28400 @freeobj(0,18,0,0,0)
+28420 @freeobj(0,18,-9,-2,-60) @freeobj(0,16,-32,0,0)
+28460 @freeobj(0,17,-19,-2,-60)
+
+
+28500 @freeobj(0,16,0,0,0) @freeobj(0,17,-45,0,0) @freeobj(0,17,-30,0,0)
+28550 @freeobj(0,18,-9,-2,-60) @freeobj(0,19,0,0,0) @railtype(0,5)
+28575 @railtype(0,6)
+28620 @freeobj(0,18,-9,-2,-60) @freeobj(0,16,-32,0,0)
+28660 @freeobj(0,17,-19,-2,-60)
+
+28700 @freeobj(0,16,0,0,0) @freeobj(0,17,-45,0,0) @freeobj(0,17,-30,0,0)
+28750 @freeobj(0,17,0,0,0) 
+28760 @freeobj(0,18,-9,-2,-60)
+28800 @freeobj(0,18,0,0,0)
+28820 @freeobj(0,18,-9,-2,-60) @freeobj(0,16,-32,0,0)
+28860 @freeobj(0,17,-19,-2,-60)
+29000 @dike(2,-1,11) @railstart(9,-20) @railtype(9,7) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+29050 @rail(9,-19) 
+29100 @rail(9,-18) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+29150 @rail(9,-17) @freeobj(9,20,-70,0,0)
+29200 @rail(9,-16) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+29250 @rail(9,-15) @freeobj(9,20,-70,0,0)
+29300 @rail(9,-14) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+29325 @freeobj(0,204,0.7,0,0) ; meno4 @freeobj(9,20,-70,0,0)
+
+29350 @rail(9,-13) @freeobj(9,20,-70,0,0)
+29400 @rail(9,-12) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+29425 @freeobj(0,203,0.7,0,0) ; meno3
+29450 @rail(9,-11) @freeobj(9,20,-70,0,0)
+29500 @rail(9,-10) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+29525 @freeobj(0,202,0.7,0,0) ; meno2
+29550 @rail(9,-9) @freeobj(9,20,-70,0,0)
+29575 @freeobj(9,20,-70,0,0)
+29600 @rail(9,-8) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+29625 @freeobj(0,201,0.7,0,0) ; meno1
+29625 @freeobj(9,20,-70,0,0)
+29650 @freeobj(9,20,-70,0,0)
+29675 @freeobj(9,20,-70,0,0)
+29700 @curve(2500,150)  @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+29725 @freeobj(0,106,0.5)  @marker(av\info\segnalev.gif,400)
+29750 @freeobj(0,20,0,0,0)
+29800 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+29900 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+30000 @curve(0,0) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+30100 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+30200 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+30300 @curve(-2200,15) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+30400 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+30425 @freeobj(9,20,-70,0,0)
+30450 @freeobj(9,20,-70,0,0)
+30475 @freeobj(0,204,0.7,0,0) ; meno4
+30500 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+30525 @freeobj(9,20,-70,0,0)
+30550 @freeobj(9,20,-70,0,0)
+30575 @freeobj(0,203,0.7,0,0) ; meno3
+30600 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+30625 @freeobj(9,20,-70,0,0)
+30650 @freeobj(9,20,-70,0,0)
+30675 @freeobj(0,202,0.7,0,0) ; meno2 
+30700 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+30775 @freeobj(0,201,0.7,0,0) ; meno1
+30875 @freeobj(0,106,0.5)  @marker(av\info\segnalev.gif,400)
+30800 @curve(0,0)
+30900 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31000 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31100 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31200 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31300 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31400 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31500 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31600 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31700 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31800 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+31900 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32000 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32000 @freeobj(0,21,0,0,0) @railtype(0,5)
+32025 @railtype(0,6)
+32125 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32225 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32325 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32325 @freeobj(0,21,0,0,0) @railtype(0,5)
+32350 @railtype(0,6)
+32375 @freeobj(0,204,0.7,0,0) ; meno4
+32450 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32475 @freeobj(0,203,0.7,0,0) ; meno3
+32550 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32575 @freeobj(0,202,0.7,0,0) ; meno2
+32650 @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32675 @freeobj(0,201,0.7,0,0) ; meno1
+32700 @rail(9,-8) 
+32750 @rail(9,-9)  @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32775 @freeobj(0,106,0.5)  @marker(av\info\segnalev.gif,400)
+32800 @rail(9,-10) 
+32850 @rail(9,-11) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+32900 @rail(9,-12) 
+32950 @rail(9,-13) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+33000 @rail(9,-15)
+33050 @rail(9,-17) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+33100 @rail(9,-19)
+33150 @rail(9,-21) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+33200 @rail(9,-23)
+33250 @rail(9,-26) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0)
+33275 @freeobj(0,204,0.7,0,0) ; meno4
+
+33300 @rail(9,-29)
+33350 @rail(9,-32) @freeobj(0,20,0,0,0)  @freeobj(9,20,-70,0,0) @freeobj(0,20,-40,0,0)
+33375 @freeobj(0,203,0.7,0,0) ; meno3
+33400 @railend(9)
+33450 @freeobj(0,20,0,0,0)   @freeobj(0,20,-40,0,0)
+33475 @freeobj(0,202,0.7,0,0) ; meno2
+
+33550 @freeobj(0,20,0,0,0)   @freeobj(0,20,-40,0,0) @curve(2000,150)
+33575 @freeobj(0,201,0.7,0,0) ; meno1
+33650 @freeobj(0,20,0,0,0)   @freeobj(0,20,-40,0,0)
+33675 @freeobj(0,106,0.5)  @marker(av\info\segnalev.gif,400)
+
+33750 @freeobj(0,20,0,0,0)   @freeobj(0,20,-40,0,0)
+33800  @freeobj(0,49,-60,0,-30)
+33850 @freeobj(0,20,0,0,0)   @freeobj(0,20,-40,0,0) 
+33860 @freeobj(0,20,10,0,0)   @freeobj(0,20,-50,0,0)
+33850 @freeobj(0,23,0,0,0) @freeobj(0,22,0,0,0)
+33875 @dike(0,-1,1) @railstart(1,0) @railtype(1,3) @poleend(1) @dike(1,1,1)
+33900 @curve(0,0)
+34300 @curve(2000,150)
+34500 @curve(-2000,150)
+;------------ inizio tunnel
+34625 @back(1) @dikeend(1) @dikeend(2)
+34625 @freeobj(0,13,0,0,0) 
+34625 @dike(0,-1,3) @railtype(0,1) 
+34625 @poleend(0)
+34700 @freeobj(0,214,0.7,0,0) ; meno4
+34750 @freeobj(0,40) @railtype(0,4) 
+34775 @railtype(0,1) 
+34800 @freeobj(0,213,0.7,0,0) ; meno3
+34900 @freeobj(0,212,0.7,0,0) ; meno2
+34950 @freeobj(0,40) @railtype(0,4) 
+34975 @railtype(0,1) 
+35000 @freeobj(0,211,0.7,0,0) ; meno1
+35100 @freeobj(0,111,1.3,0,0) 
+;---------------------
+35000 @curve(0,0)
+35100 @curve(-2000,150)
+35000 @back(0)
+35400 @curve(0,0)
+;------------ fine tunnel 
+35550 @ground(2)
+35575 @pole(0,1,0,50)
+35575 @railtype(0,6) @dike(0) 
+;------------
+35575 @dike(0,-1,1)  @dike(1,1,1)
+35625 @freeobj(0,204,0.7,0,0) ; meno4
+35700 @curve(-2000,15)
+
+35725 @freeobj(0,203,0.7,0,0) ; meno3 
+35825 @freeobj(0,202,0.7,0,0) ; meno2 
+35900 @railstart(3,-25,6) @railtype(3,2) @railstart(4,-25,0) @railtype(4,3) @dike(4,-1,5) @pole(3,1,0,50) @poleend(4)
+35925 @dikeend(0) @ground(1) @freeobj(0,201,0.7,0,0) ; meno1 
+36000 @rail(3,-24,5.5) @rail(4,-24)
+36025 @rail(3,-23,5) @rail(4,-23) @freeobj(0,106,0,0,0)  @marker(av\info\segnalev.gif,400)
+36050 @rail(3,-22,4.5) @rail(4,-22)
+36075 @rail(3,-21,4) @rail(4,-21)
+36100 @rail(3,-20,3.5) @rail(4,-20) 
+36125 @rail(3,-19,3) @rail(4,-19)
+36150 @rail(3,-18,2.5) @rail(4,-18)
+36175 @rail(3,-17,2) @rail(4,-17) @curve(0,0)
+36200 @rail(3,-16.1.5) @rail(4,-16) @
+36225 @rail(3,-15,1) @rail(4,-15)
+36250 @rail(3,-14,0.5) @rail(4,-14) @railtype(3,6)
+36275 @rail(3,-13,0) @rail(4,-13)
+36300 @rail(3,-12) @rail(4,-12) 
+36325 @rail(3,-11) @rail(4,-11)
+36350 @rail(3,-10) @rail(4,-10)
+36375 @rail(3,-9) @rail(4,-9)
+36375 @rail(6,2)
+36400 @rail(3,-8.5) @railend(4) @dike(3,-1,5)
+36400 @freeobj(3,9,-2.5,0,0) @pole(3,2,0,50) @poleend(0) 
+
+36400 @freeobj(0,79,4,0,0) @freeobj(0,78,0,0,0)    
+36425 @rail(3,-8)
+
+36450 @freeobj(0,79,0,0,180)  @freeobj(0,78,4,0,180) 
+36475 @rail(6,-2)
+36475 @freeobj(3,79,4,0,0) @freeobj(3,78,0,0,0)
+36525 @freeobj(3,79,0,0,180)  @freeobj(3,78,4,0,180) 
+36525 @rail(6,2)
+36550 @freeobj(0,79,0,0,0)  @freeobj(0,79,4,0,0) 
+36575 @freeobj(0,6,-2,0,-3) 
+36600 @freeobj(0,6,-3.30,0,-3) 
+36625 @freeobj(0,6,-4.60,0,-3.22) @rail(6,-2)
+36675 @freeobj(3,79,0,0,180) @freeobj(3,79,4,0,180)
+
+
+36800 @freeobj(3,78,0,0,0)  @freeobj(3,78,4,0,0)
+36825 @freeobj(3,6,2,0,3)
+36850 @freeobj(3,6,3.30,0,3) 
+36875 @freeobj(3,6,4.60,0,3.22) @rail(6,2)
+36925 @freeobj(0,78,0,0,180) @freeobj(0,78,4,0,180)
+36950 @rail(6,-2) 
+;36600 @freeobj(0,78,0,0,180)
+37000 @curve(2000,150)
+37200 @curve(0,0)
+37275 @freeobj(0,3,0,0,0) @railtype(0,5) @railtype(3,5)  @dike(1,1,4) ; ponte
+37300 @railtype(0,6) @railtype(3,6) @dike(1,1,1)
+37300 @curve(4000,150)
+
+37399 @freeobj(0,223,-0.2,0,-30) @freeobj(3,221)
+37400 @Limit(190,-1) @marker(av\info\av190.gif,1000)
+37400 @curve(-2000,150)
+37475 @freeobj(0,3,0,0,0) @railtype(0,5) @railtype(3,5)  @dike(1,1,4) ; ponte
+37500 @railtype(0,6) @railtype(3,6) @dike(1,1,1)
+37525 @freeobj(3,204,0.8) @freeobj(0,204,0.8) ; meno 4
+37575 @freeobj(0,3,0,0,0) @railtype(0,5) @railtype(3,5)  @dike(1,1,4) ; ponte
+
+37600 @railtype(0,6) @railtype(3,6) @dike(1,1,1)
+37625 @freeobj(3,203,0.8) @freeobj(0,203,0.8) ; meno 3
+
+37725 @freeobj(3,202,0.8) @freeobj(0,202,0.8) ; meno 2
+37775 @freeobj(0,3,0,0,0) @railtype(0,5) @railtype(3,5)  @dike(1,1,4) ; ponte
+37800 @railtype(0,6) @railtype(3,6) @dike(1,1,1)
+37800 @curve(0,0)
+37825 @freeobj(3,201,0.8) @freeobj(0,201,0.8) ; meno 1
+37925 @freeobj(3,106,0.8) @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+38000 @dike(1,1,5) @freeobj(0,9,31,0,0)
+
+38100 @freeobj(0,25,-2,0,0) @railtype(0,5) @railtype(3,5) 
+38125 @freeobj(0,25,-2,0,0)
+38150 @freeobj(0,25,-2,0,0)
+38175 @freeobj(0,25,-2,0,0)
+38200 @freeobj(0,25,-2,0,0)
+38225 @freeobj(0,25,-2,0,0)
+38250 @freeobj(0,25,-2,0,0)
+38275 @freeobj(0,25,-2,0,0)
+38300 @freeobj(0,25,-2,0,0) @curve(2000,150)
+38325 @freeobj(0,25,-2,0,0)
+38350 @freeobj(0,25,-2,0,0)
+38375 @freeobj(0,25,-2,0,0)
+38400 @freeobj(0,25,-2,0,0)
+38425 @freeobj(0,25,-2,0,0)
+38450 @freeobj(0,25,-2,0,0)
+38475 @freeobj(0,25,-2,0,0)
+38500 @freeobj(0,25,-2,0,0)
+38525 @freeobj(0,25,-2,0,0)
+38550 @freeobj(0,25,-2,0,0)
+38575 @freeobj(0,25,-2,0,0) @curve(0,0)
+38600 @railtype(0,6) @railtype(3,6)
+38699 @freeobj(0,221,-0.2,0,-30) @freeobj(3,221)
+38700 @Limit(130,-1) @marker(av\info\av130.gif,1000)
+38725 @freeobj(3,204,0.8) @freeobj(0,204,0.8) ; meno 4
+38825 @freeobj(3,203,0.8) @freeobj(0,203,0.8) ; meno 3
+
+38925 @freeobj(3,202,0.8) @freeobj(0,202,0.8) ; meno 2
+39025 @freeobj(3,201,0.8) @freeobj(0,201,0.8) ; meno 1
+
+39100 @freeobj(0,25,-2,0,0) @railtype(0,5) @railtype(3,5) 
+39125 @freeobj(3,106,0.8) @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+39125 @freeobj(0,25,-2,0,0)
+39150 @freeobj(0,25,-2,0,0)
+39175 @freeobj(0,25,-2,0,0)
+39200 @freeobj(0,25,-2,0,0)
+39225 @freeobj(0,25,-2,0,0)
+39250 @freeobj(0,25,-2,0,0)
+39275 @freeobj(0,25,-2,0,0)
+39300 @freeobj(0,25,-2,0,0) @curve(-2000,150)
+39325 @freeobj(0,25,-2,0,0)
+39350 @freeobj(0,25,-2,0,0)
+39375 @freeobj(0,25,-2,0,0)
+39400 @freeobj(0,25,-2,0,0)
+39425 @freeobj(0,25,-2,0,0)
+39450 @freeobj(0,25,-2,0,0)
+39475 @freeobj(0,25,-2,0,0)
+39500 @freeobj(0,25,-2,0,0)
+39525 @freeobj(0,25,-2,0,0)
+39525 @freeobj(3,204,0.8) @freeobj(0,204,0.8) ; meno 4
+39550 @freeobj(0,25,-2,0,0)
+39575 @freeobj(0,25,-2,0,0) @curve(0,0)
+39600 @railtype(0,6) @railtype(3,6)
+
+39625 @freeobj(3,203,0.8) @freeobj(0,203,0.8) ; meno 3
+39725 @freeobj(3,202,0.8) @freeobj(0,202,0.8) ; meno 2
+39825 @freeobj(3,201,0.8) @freeobj(0,201,0.8) ; meno 1
+39925 @freeobj(3,106,0.8) @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+40000 @freeobj(0,79,4,0,0)    @freeobj(3,78,0,0,0) 
+40050 @freeobj(0,79,0,0,180)  @freeobj(3,78,4,0,180) 
+40075 @rail(6,2)
+40100 @rail(6,-2)
+40125 @freeobj(0,79,0,0,0)    @freeobj(3,78,4,0,0) 
+40175 @freeobj(0,79,-4,0,180) @freeobj(3,78,8,0,180) 
+40200 @rail(6,2)
+40225 @rail(6,-2)
+40250 @freeobj(0,79,-4,0,0)   @freeobj(3,78,8,0,0) 
+40300 @freeobj(0,79,-8,0,180) @freeobj(3,78,12,0,180) 
+40375 @rail(3,-8.5)
+40400 @rail(3,-9) @pole(3,1,0,50) @pole(0,1,0,50) 
+
+
+40425 @rail(3,-10)
+40450 @rail(3,-11)
+
+40475 @rail(3,-12)  
+40500 @rail(3,-13)  @freeobj(0,72,0,0,0)
+40525 @freeobj(0,74,-2,0,-4.65) @rail(6,2)
+40550 @railstart(8,-4) @railtype(8,0) @pole(8,0) 
+40550 @rail(3,-14) 
+40575 @rail(3,-15) @rail(8,-4.5) @wall(0,-1,2)
+40600 @rail(3,-16) @rail(8,-5)
+40625 @rail(3,-17)
+40650 @rail(3,-18)  @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) @dike(3,-1,6)
+40675 @freeobj(3,151) @freeobj(3,152,11) @freeobj(8,153)  
+40675 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) @curve(2400,150)
+40700 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) 
+40725 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) 
+40750 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) 
+40775 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) 
+40800 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) 
+40800 @freeobj(3,151) @freeobj(3,152,11) @freeobj(8,153)  
+40825 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) 
+40850 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) 
+40875 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) 
+40900 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0)
+40925 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0)
+40925 @freeobj(3,151) @freeobj(3,152,11) @freeobj(8,153)  
+40950 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0)
+40975 @form(8,-1,0) @Form(3,-9,0)  @freeobj(3,24,-5.5,0,0) @freeobj(3,10,8.5,0,0) 
+
+41025 @dike(3,-1,5)  @freeobj(3,9,-2.5,0,0) 
+41050 @curve(0,0)
+41050 @rail(3,-16)
+41075 @rail(3,-15)
+41100 @curve(-1900,150)
+41100 @rail(3,-14)
+41125 @rail(3,-13.5)
+41150 @rail(3,-13)
+41150 @freeobj(8,73,0,0,0)
+41200 @freeobj(3,73,4,0,180.7)
+41200 @freeobj(3,73,4,0,0)
+41250 @freeobj(3,73,0,0,180.7)
+41250 @freeobj(3,70,0,0,0)
+41272 @freeobj(8,15,0,0,0)
+41275 @railend(8)
+41300 @freeobj(3,70,4,0,180.7)
+41325 @freeobj(3,204,0.8) @freeobj(0,204,0.8) ; meno 4
+41350 @curve(0,0)
+41400 @curve(2000,150)
+41425 @freeobj(3,203,0.8) @freeobj(0,203,0.8) ; meno 3
+41500 @dike(0,-1,5) @wallend(0)
+41574 @freeobj(0,222,-0.2,0,-30) 
+41575 @Limit(290,-1) 
+41525 @freeobj(3,202,0.8) @freeobj(0,202,0.8) ; meno 2
+41625 @freeobj(3,201,0.8) @freeobj(0,201,0.8) ; meno 1
+41725 @freeobj(3,106,0.8) @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+41800 @railend(3)
+;------------ inizio tunnel
+41825 @back(1) @dikeend(9)
+41825 @freeobj(0,13,0,0,0) 
+41825 @dike(0,-1,3) @railtype(0,1) 
+41825 @poleend(0) @dikeend(1)
+;---------------------
+41900 @curve(0,0)
+42100 @curve(-2000,150)
+42100 @back(0)
+42100 @freeobj(0,40) @railtype(0,4) 
+42125 @railtype(0,1) 
+42300 @freeobj(0,40) @railtype(0,4) 
+42325 @railtype(0,1) 
+;------------ fine tunnel 
+42525 @dike(0,-1,5) @dike(1,1,5)
+42525 @pole(0,1,0,50)
+42525 @railtype(0,6) ; @railtype(1,6)
+;------------
+;------------ inizio tunnel
+42625 @back(1) @dikeend(9)
+42625 @freeobj(0,13,0,0,0) 
+42625 @dike(0,-1,3) @railtype(0,1) ; @railtype(1,1) 
+42625 @poleend(0) @dikeend(1)
+;---------------------
+42700 @curve(0,0)
+42750 @pitch(8)
+
+42800 @pitch(16)
+42875 @freeobj(0,214,0.8) ; meno 4
+42975 @freeobj(0,213,0.8) ; meno 3
+43000 @freeobj(0,40) @railtype(0,4) 
+43025 @railtype(0,1) 
+43075 @freeobj(0,212,0.8) ; meno 2
+43175 @freeobj(0,211,0.8) ; meno 1
+43200 @freeobj(0,40) @railtype(0,4) 
+43225 @railtype(0,1) 
+43275 @freeobj(0,111,1.5,-2,0)   ; verde galleria
+43400 @freeobj(0,40) @railtype(0,4) 
+43425 @railtype(0,1) 
+43600 @freeobj(0,40) @railtype(0,4) 
+43625 @railtype(0,1) 
+43600 @pitch(8)
+43625 @pitch(0)
+43800 @freeobj(0,40) @railtype(0,4) 
+43825 @railtype(0,1) 
+44000 @freeobj(0,40) @railtype(0,4) 
+44025 @railtype(0,1) 
+44200 @back(0)
+;------------ fine tunnel 
+44525 @dike(0,-1,5) @dike(1,1,5)
+44525 @pole(0,1,0,50)
+44525 @railtype(0,6) ; @railtype(1,6)
+;------------
+;------------ inizio tunnel
+44625 @back(1) @dikeend(9)
+44625 @freeobj(0,13,0,0,0) 
+44625 @dike(0,-1,3) @railtype(0,1) 
+44625 @poleend(0) @dikeend(1)
+;---------------------
+44700 @curve(-3000,150)
+44775 @freeobj(0,214,0.8) ; meno 4
+44875 @freeobj(0,213,0.8) ; meno 3
+44975 @freeobj(0,212,0.8) ; meno 2
+
+45000 @curve(0,0)
+45000 @freeobj(0,40) @railtype(0,4) 
+45025 @railtype(0,1) 
+45075 @freeobj(0,211,0.8) ; meno 1
+45175 @freeobj(0,111,1.5,-2,0)   ; verde galleria
+45200 @curve(3000,150)
+45200 @freeobj(0,40) @railtype(0,4) 
+45225 @railtype(0,1) 
+45400 @freeobj(0,40) @railtype(0,4) 
+45425 @railtype(0,1) 
+45600 @curve(0,0) @back(0)
+45600 @freeobj(0,40) @railtype(0,4) 
+45625 @railtype(0,1) 
+45800 @freeobj(0,40) @railtype(0,4) 
+45825 @railtype(0,1) 
+;------------ fine tunnel 
+45925 @dikeend(0) 
+45925 @pole(0,1,0,50)
+45925 @railtype(0,6) ; @railtype(1,6)
+45925 @ground(4)
+;------------
+45975 @freeobj(0,26,0,0,0) @railtype(0,5)
+46000 @railtype(0,6)
+46025 @freeobj(0,204,0.8) ; meno 4
+46125 @freeobj(0,203,0.8) ; meno 3
+46225 @freeobj(0,202,0.8) ; meno 2
+
+46300 @curve(2000,150)
+46325 @freeobj(0,201,0.8) ; meno 1
+46425 @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+46500 @curve(0,0)
+46700 @curve(-3000,150)
+46975 @freeobj(0,27,0,0,0)
+47000 @railtype(0,6) @freeobj(0,27,0,0,0)
+47000 @curve(0,0)
+47025 @freeobj(0,27,0,0,0) @freeobj(0,204,0.8) ; meno 4
+47050 @freeobj(0,27,0,0,0)
+47075 @freeobj(0,27,0,0,0)
+47100 @freeobj(0,27,0,0,0) @freeobj(0,57,40,0,30)
+47125 @freeobj(0,27,0,0,0) @freeobj(0,203,0.8) ; meno 3
+47150 @freeobj(0,27,0,0,0)
+47175 @freeobj(0,27,0,0,0)
+47200 @freeobj(0,27,0,0,0)
+47225 @freeobj(0,27,0,0,0) @freeobj(0,202,0.8) ; meno 2
+47250 @freeobj(0,27,0,0,0)
+47275 @freeobj(0,27,0,0,0) @freeobj(0,58,40,0,30)
+47300 @freeobj(0,27,0,0,0)
+47300 @curve(2000,150)
+47325 @freeobj(0,27,0,0,0) @freeobj(0,201,0.8) ; meno 1
+47350 @freeobj(0,27,0,0,0)
+47375 @freeobj(0,27,0,0,0) @freeobj(0,58,40,0,210)
+47400 @freeobj(0,27,0,0,0)
+47425 @freeobj(0,27,0,0,0) @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+47450 @freeobj(0,27,0,0,0)
+47475 @freeobj(0,27,0,0,0)
+47500 @freeobj(0,27,0,0,0)
+47500 @curve(0,0)
+47525 @freeobj(0,27,0,0,0)
+47550 @freeobj(0,27,0,0,0)
+47575 @freeobj(0,27,0,0,0)
+47600 @freeobj(0,27,0,0,0)
+47675 @freeobj(0,26,0,0,0) @railtype(0,5)
+47700 @railtype(0,6)
+47700 @curve(-3000,150)
+48000 @curve(0,0)
+48300 @curve(2000,150)
+48500 @curve(0,0)
+48525 @freeobj(0,204,0.8) ; meno 4
+48625 @freeobj(0,203,0.8) ; meno 3
+48725 @freeobj(0,202,0.8) ; meno 2
+48825 @freeobj(0,201,0.8) ; meno 1
+
+48875 @freeobj(0,26,0,0,0) @railtype(0,5)
+48900 @railtype(0,6)
+48925 @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+48700 @curve(-3000,150)
+49000 @curve(0,0)
+49500 @pitch(8)
+
+49800 @railtype(0,13) @ground(5) @poleend(0)
+50025 @freeobj(0,204,0.8) ; meno 4
+50125 @freeobj(0,203,0.8) ; meno 3
+50225 @freeobj(0,202,0.8) ; meno 2
+50325 @freeobj(0,201,0.8) ; meno 1
+50425 @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+50775 @railstart(1,0) @railtype(1,6) @pole(0,1)
+50775 @freeobj(0,29,0,0,0) @dike(0,1,11)
+50800 @railtype(0,3) 
+51000 @curve(2000,150)
+51500 @curve(0,0)
+51525 @freeobj(0,204,0.8) ; meno 4
+51625 @freeobj(0,203,0.8) ; meno 3
+51725 @freeobj(0,202,0.8) ; meno 2
+51825 @freeobj(0,201,0.8) ; meno 1
+51925 @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+52024 @freeobj(0,29,25,19,0)
+;--------------------- inizio tunnel
+52025 @freeobj(0,13,0,0,0) @railtype(0,1) @poleend(0) @dike(0,-1,3) @railend(1) 
+52100 @curve(-2000,150)
+52200 @freeobj(0,40) @railtype(0,4) 
+52225 @railtype(0,1) 
+52400 @freeobj(0,40) @railtype(0,4) 
+52425 @railtype(0,1) 
+52600 @freeobj(0,40) @railtype(0,4) 
+52625 @railtype(0,1) 
+52800 @curve(0,0)
+52800 @freeobj(0,40) @railtype(0,4) 
+52825 @railtype(0,1) 
+53000 @curve(2000,150)
+53000 @freeobj(0,40) @railtype(0,4) 
+53025 @railtype(0,1) 
+;------------------------- fine tunnel 
+53125 @railtype(0,2) @pole(0,1) @dikeend(0) @wall(0,1,1) @railstart(1,0) @railtype(1,3) @wall(1,-1,1)
+53175 @freeobj(0,204,0.8) ; meno 4
+53275 @freeobj(0,203,0.8) ; meno 3
+53375 @freeobj(0,202,0.8) ; meno 2
+53475 @freeobj(0,201,0.8) ; meno 1
+
+53500 @curve(0,0) @railend(2)
+53500 @railstart(2,-30,0,0,0) @wall(2,-1,1)  @railtype(2,2) @pole(2,1)
+53525 @wallend(1) 
+53550 @rail(2,-29)
+53575 @rail(2,-28) @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+53600 @rail(2,-27)
+53625 @rail(2,-26) @freeobj(2,204,0.8) @freeobj(0,204,0.8) ; meno 4
+53650 @rail(2,-25)
+53675 @rail(2,-24)
+53700 @rail(2,-23)
+53725 @rail(2,-22) @freeobj(2,203,0.8) @freeobj(0,203,0.8) ; meno 3
+53750 @rail(2,-21)
+53775 @rail(2,-20)
+53800 @rail(2,-19)
+53825 @rail(2,-18) @freeobj(2,202,0.8) @freeobj(0,202,0.8) ; meno 2
+53850 @rail(2,-17)
+53875 @rail(2,-16)
+53900 @rail(2,-15)
+53925 @rail(2,-14) @freeobj(2,201,0.8) @freeobj(0,201,0.8) ; meno 1
+53950 @rail(2,-13)
+53975 @rail(2,-12)
+53999 @freeobj(0,223,-0.2,0,-30) 
+54000 @Limit(190,-1) @marker(av\info\av190.gif,1000)
+54000 @rail(2,-11) @dike(2,-1,9) @railstart(3,4) @railtype(3,3) @dike(3,1,9) @railtype(0,6) @railtype(2,6) @poleend(3)
+54025 @rail(2,-10) @freeobj(2,106,0.8) @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+54050 @rail(2,-9) @poleend(0) @pole(2,2)
+54075 @rail(2,-8)
+54250 @freeobj(2,122)
+54275 @freeobj(2,122)
+54300 @freeobj(2,122)
+54300 @curve(2000,150)
+54325 @freeobj(2,122)
+54350 @freeobj(2,122)
+54375 @freeobj(2,122)
+54375 @freeobj(0,70,0,0,0)
+54400 @freeobj(2,122)
+54425 @freeobj(2,122)
+54425 @freeobj(0,70,4,0,179.2)
+54250 @freeobj(2,122)
+54275 @freeobj(2,122)
+54300 @freeobj(2,122)
+54325 @freeobj(2,122)
+54350 @freeobj(2,122)
+54375 @freeobj(2,122)
+54400 @freeobj(2,122)
+54425 @freeobj(2,122)
+54450 @freeobj(2,122)
+54475 @freeobj(2,122)
+54500 @freeobj(2,132)
+54600 @curve(0,0)
+54800 @curve(-2500,150)
+54924 @freeobj(0,221,-0.2,0,-30) @freeobj(2,221)
+54925 @Limit(130,-1) @marker(av\info\av130.gif,1000)
+54925 @freeobj(2,204,0.8) @freeobj(0,204,0.8) ; meno 4
+55025 @freeobj(2,203,0.8) @freeobj(0,203,0.8) ; meno 3
+55125 @freeobj(2,202,0.8) @freeobj(0,202,0.8) ; meno 2
+
+55225 @freeobj(2,201,0.8) @freeobj(0,201,0.8) ; meno 1
+55325 @freeobj(2,106,0.8) @freeobj(0,106,0.8) @marker(av\info\segnalev.gif,400) ; segnale verde
+55400 @rail(6,-1)
+55400 @railstart(4,0) @dikeend(4) @railtype(4,6) @wall(3,1,1) @wallend(0) @dikeend(0)
+ 
+55450 @freeobj(4,73,0,0,0) @freeobj(4,73,4,0,0) @curve(-158,0) 
+55450 @railtype(0,3) @railtype(4,3)
+55450 @rail(6,1)
+55475 @rail(6,-1)
+55475 @freeobj(2,80,4,0,0) @freeobj(4,80,0,0,0) @curve(0,0) @railtype(0,3) @rail(2,-6) @rail(4,2) @rail(3,6) 
+55475 @railtype(4,6)
+
+55500 @rail(2,-2) @rail(4,6) @rail(3,10) @curve(158,0)
+55525 @rail(6,1)
+55525 @freeobj(2,73,4,0,180) @freeobj(2,73,0,0,180.05) @rail(2,0) @rail(4,8) @Rail(3,12)
+55525 @curve(0,0) ; @rail(2,-0) @rail(4,8) @rail(3,12)
+55550 @freeobj(0,72,4,0,0)
+
+55600 @freeobj(0,72,0,0,180)
+55600 @railend(2) @railtype(0,6) @wall(0,-1,1) @dike(0,-1,9) @pole(0,2)
+55600 @freeobj(0,70,0,0,0) @freeobj(0,70,4,0,0)
+55600 @rail(6,-1)
+
+55625 @rail(6,1)
+55625 @freeobj(0,77,4,0,0) @freeobj(0,77,8,0,0) 
+55675 @freeobj(0,70,8,0,180) @freeobj(0,70,12,0,180)
+55725 @rail(4,8.5)
+55750 @rail(4,9)
+;--------------------------------------- inizio tunnel
+55749 @freeobj(0,1,0,0,0) 
+55750 @dike(4,-1,14)  @dike(0,-1,15)  @railtype(0,1) @railtype(4,1) @poleend(0)
+55775 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+55800 @railtype(0,1) @railtype(4,1) 
+55825 @freeobj(4,214,0.8) @freeobj(0,214,0.8) ; meno 4
+55875 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+55900 @railtype(0,1) @railtype(4,1)
+55925 @freeobj(4,213,0.8) @freeobj(0,213,0.8) ; meno 3
+55950 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+55975 @railtype(0,1) @railtype(4,1) 
+56000 @curve(-2000,100)
+56025 @freeobj(4,212,0.8) @freeobj(0,212,0.8) ; meno 2
+56050 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+56075 @railtype(0,1) @railtype(4,1)
+56125 @freeobj(4,211,0.8) @freeobj(0,211,0.8) ; meno 1
+56150 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+56175 @railtype(0,1) @railtype(4,1)
+56225 @freeobj(4,111,1.2) @freeobj(0,111,1.2) ; segnale verde
+56250 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+56275 @railtype(0,1) @railtype(4,1)
+56325 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+56350 @railtype(0,1) @railtype(4,1)
+56400 @curve(0,0)
+56425 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+56450 @railtype(0,1) @railtype(4,1)
+56525 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+56550 @railtype(0,1) @railtype(4,1)
+56625 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+56650 @railtype(0,1) @railtype(4,1)
+;--------------------------------------- fine tunnel
+56725 @railtype(0,6) @railtype(4,6) @pole(0,2) 
+56725 @dike(0,-1,9) @dikeend(4) @wallend(0) @wallend(3) @dikeend(3) @dike(4,1,12)
+56775 @freeobj(4,204,0.8) @freeobj(0,204,0.8) ; meno 4
+56825 @curve(2000,100)
+56909 @freeobj(4,133)
+56875 @freeobj(4,203,0.8) @freeobj(0,203,0.8) ; meno 3
+56925 @freeobj(4,140)
+56950 @freeobj(4,140)
+56975 @freeobj(4,140)
+56975 @freeobj(4,202,0.8) @freeobj(0,202,0.8) ; meno 2
+57000 @freeobj(4,140)
+57025 @freeobj(4,140)
+57075 @freeobj(4,201,0.8) @freeobj(0,201,0.8) ; meno 1
+57175 @freeobj(4,106) @freeobj(0,106) ; segnale verde
+57300 @curve(-2000,0)
+
+57524 @freeobj(0,28,0,0,0)
+57524 @freeobj(0,1,0,0,0) 
+;--------------------------------------- inizio tunnel
+
+57525 @dike(4,-1,14)  @dike(0,-1,15)  @railtype(0,1) @railtype(4,1) @poleend(0)
+57525 @curve(-2000,100)
+57525 @curve(0,0) 
+57526 @freeobj(0,39,8,0,0)
+57575 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+57600 @railtype(0,1) @railtype(4,1)
+57675 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+57700 @railtype(0,1) @railtype(4,1)
+
+
+;--------------------------------------- fine tunnel
+57725 @railtype(0,6) @railtype(4,6) @pole(0,2) 
+57725 @dike(0,-1,9) @dikeend(4) @wallend(0) @wallend(3) @dikeend(3) @dike(4,1,12)
+57750 @curve(2000,0)
+57775 @freeobj(4,204,0.8) @freeobj(0,204,0.8) ; meno 4
+57875 @freeobj(4,203,0.8) @freeobj(0,203,0.8) ; meno 3
+57975 @freeobj(4,202,0.8) @freeobj(0,202,0.8) ; meno 2
+57975 @freeobj(4,201,0.8) @freeobj(0,201,0.8) ; meno 1
+58075 @freeobj(4,106) @freeobj(0,106) ; segnale verde
+58100 @curve(0,0)
+
+58575 @freeobj(4,204,0.8) @freeobj(0,204,0.8) ; meno 4
+58675 @freeobj(4,203,0.8) @freeobj(0,203,0.8) ; meno 3
+58775 @freeobj(4,202,0.8) @freeobj(0,202,0.8) ; meno 2
+58775 @curve(-2000,50)
+58875 @freeobj(4,201,0.8) @freeobj(0,201,0.8) ; meno 1
+58975 @freeobj(4,106) @freeobj(0,106) ; segnale verde
+
+59024 @freeobj(0,28,0,0,0)
+;--------------------------------------- inizio tunnel
+
+59025 @dike(4,-1,14)  @dike(0,-1,15)  @railtype(0,1) @railtype(4,1) @poleend(0)
+59025 @curve(-2000,100)
+59025 @curve(0,0) 
+59026 @freeobj(0,1,0,0,0) 
+59050 @freeobj(0,54,-48,8,0)
+59075 @freeobj(0,55,6,8,0) @freeobj(0,55,-18,8,0) 
+
+
+;--------------------------------------- fine tunnel
+59225 @railtype(0,6) @railtype(4,6) @pole(0,2) 
+59225 @dike(0,-1,13) @dikeend(4) @wallend(0) @wallend(3) @dikeend(3) @dike(3,1,13)
+
+;--------------------------------------- inizio tunnel
+59324 @freeobj(0,1,0,0,0) 
+59325 @dike(4,-1,14)  @dike(0,-1,15) @railtype(0,1) @railtype(4,1) @poleend(0) @dikeend(3)
+59325 @curve(-2000,100)
+59325 @curve(0,0) 
+
+59374 @freeobj(0,53,4,9,0) @freeobj(0,53,24,9,0)
+
+59425 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+59450 @railtype(0,1) @railtype(4,1)
+59625 @freeobj(0,40) @railtype(0,4) @freeobj(4,40,-0.4) @railtype(4,4) 
+59650 @railtype(0,1) @railtype(4,1)
+;--------------------------------------- fine tunnel
+59725 @railtype(0,6) @railtype(4,6) @pole(0,2) @ground(6)
+59725 @dike(0,-1,13) @dikeend(4) @wallend(0) @wallend(3)  @dike(3,1,13)
+59775 @freeobj(4,204,0.8) @freeobj(0,204,0.8) ; meno 4
+59800 @rail(4,8.5) @rail(3,12.5)
+59825 @freeobj(0,251,-3,0,0) @freeobj(0,252,16,0,0) 
+59875 @freeobj(4,203,0.8) @freeobj(0,203,0.8) ; meno 3
+59925 @freeobj(0,253,-3,0,0) @freeobj(0,254,16,0,0) 
+59975 @freeobj(4,202,0.8) @freeobj(0,202,0.8) ; meno 2
+60025 @freeobj(0,252,-3,0,0) @freeobj(0,251,16,0,0) 
+60075 @freeobj(4,201,0.8) @freeobj(0,201,0.8) ; meno 1
+
+60125 @freeobj(0,254,-3,0,0) @freeobj(0,253,16,0,0) 
+60175 @freeobj(4,106,0.5) @freeobj(0,106,0.5) @marker(av\info\segnalev.gif,400) ; segnale verde
+60200 @freeobj(0,7,6.2,0,0)  @railtype(0,5) @railtype(4,5)
+60225 @railtype(0,6) @railtype(4,6)
+60300 @curve(1200,50) @railtype(0,10) @railtype(4,10) @railstart(7,4) @railstart(8,12) @railtype(7,10) @railtype(8,10) 
+60275 @freeobj(0,55,30,10,0)
+60400 @freeobj(0,53,30,10,0)
+60500 @curve(-1200,50) @railtype(0,11) @railtype(4,11) @railtype(7,11) @railtype(8,11)
+60575 @freeobj(4,204,0.8) @freeobj(0,204,0.8) ; meno 4
+60600 @freeobj(0,52,30,10,0)
+60675 @freeobj(4,203,0.8) @freeobj(0,203,0.8) ; meno 3
+60775 @freeobj(4,202,0.8) @freeobj(0,202,0.8) ; meno 2
+60800 @freeobj(0,51,30,10,0)
+60875 @freeobj(4,201,0.8) @freeobj(0,201,0.8) ; meno 1
+60900 @curve(0,0) @railtype(0,6) @railtype(4,6) @pole(0,2) @railend(7) @railend(8)
+60975 @freeobj(0,7,6.2,0,0)  @railtype(0,5) @railtype(4,5)
+60975 @freeobj(4,106,0.5) @freeobj(0,106,0.5) @marker(av\info\segnalev.gif,400) ; segnale verde
+
+61000 @railtype(0,6) @railtype(4,6) 
+61100 @freeobj(0,72,4,0,0)  @freeobj(0,70,0,0,0)
+61100 @rail(6,-1)
+61125 @rail(6,1)
+61150 @freeobj(0,72,0,0,180) @freeobj(0,70,4,0,180)
+61150 @rail(4,8) @rail(3,12) @railstart(8,0) @railtype(8,6) @poleend(8) @dike(8,-1,13) @dikeend(0) @railtype(0,3) @pole(8,2) @poleend(0)
+61150 @freeobj(0,59,50,0,0)
+61200 @rail(6,-1)
+61200 @freeobj(8,71,0,0,0) @freeobj(8,71,4,0,0) @curve(150,0)
+61225 @freeobj(8,77,4,0,-0.1) @freeobj(8,77,8,0,-0.1) @curve(0,0) @rail(8,-2) @rail(4,6) @rail(3,10)
+61225 @rail(6,1)
+61250 @rail(6,-1)
+61250 @rail(8,-6) @rail(4,2) @rail(3,6) @curve(-150,0)
+61275 @freeobj(8,71,8,0,180.2) @freeobj(8,71,12,0,180.2) @rail(8,-8) @rail(4,0) @rail(3,4) 
+61275 @curve(0,0)
+61300 @rail(6,1)
+61300 @railend(4) @railtype(0,6)
+61300 @freeobj(0,70,0,0,0) @freeobj(0,72,4,0,0)
+61325 @rail(6,-1)
+61350 @rail(6,1)
+61350 @freeobj(0,70,4,0,180) @freeobj(0,72,0,0,180)
+61350 @freeobj(0,72,0,0,0) @freeobj(0,72,4,0,0)
+61375 @rail(6,-1)
+61375 @freeobj(0,76,0,0,0) @freeobj(0,76,-4,0,0)
+61425 @freeobj(0,72,-8,0,180) @freeobj(0,72,-4,0,180)
+61425 @freeobj(0,70,-8,0,0) @freeobj(0,72,-4,0,0)
+61475 @freeobj(0,72,-8,0,180) @freeobj(0,70,-4,0,180)
+61500 @freeobj(0,54,-30,0,0)
+61500 @pole(8,1) @pole(0,1)
+61500 @rail(8,-8.5)
+61525 @rail(8,-9) @railstart(7,-4.5) @railtype(7,3) @dikeend(8) @dikeend(3) @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0) @dike(8,-1,6) @dike(0,1,6)
+61550 @rail(8,-9.5) @rail(7,-5.5) @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61560 @freeobj(0,131,4)
+61575 @rail(8,-10) @rail(7,-6) @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61575 @freeobj(0,145,4)
+61600 @freeobj(0,145,4)
+61600 @rail(8,-10.5) @rail(7,-6.5) @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0) @curve(2000,100)
+61625 @rail(8,-11) @rail(7,-7) @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61625 @freeobj(0,145,4)
+61650 @freeobj(0,145,4)
+61650 @rail(8,-11.5) @rail(7,-7.5) @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61675 @rail(8,-12) @rail(7,-8) @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61675 @freeobj(0,145,4)
+61700 @freeobj(0,145,4)
+61700 @rail(8,-12.5) @rail(7,-8.5) @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61725 @rail(8,-13) @rail(7,-9) @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61725 @freeobj(0,145,4)
+61750 @freeobj(0,145,4)
+61750 @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61775 @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61775 @freeobj(0,145,4)
+61800 @Station(Pisciotta (SA), , , 1, ATS, ) @Stop(0) 
+61800 @freeobj(0,145,4)
+61800 @Form(0,7,0) @Form(8,-9,0) @Form(3,9,0)
+61825 @curve(0,0) @railstart(15,-5,0,0,0) @railtype(15,0) @railend(7) @dike(8,-1,13) @dike(3,1,13) @dikeend(0) @pole(15,2) @dikeend(15)
+61825 @freeobj(0,30,9,0,0) @freeobj(8,30,-5,0,0) @freeobj(8,106,0.5) @freeobj(0,106,0.5) @marker(av\info\segnalev.gif,400) ; segnale verde
+61850 @rail(8,-12.5) @rail(15,-4.5)
+61875 @rail(8,-12) @rail(15,-4)
+61875 @marker(av\info\meno5.gif,400) 
+61925 @freeobj(0,72,4,0,0)  @freeobj(0,70,-12,0,0)
+61950 @freeobj(0,76,0,0,0) @freeobj(0,77,-8,0,0)
+61975 @rail(6,1)
+62000 @freeobj(0,70,-4,0,180) @freeobj(0,72,-4,0,180)
+62000 @freeobj(0,70,-4,0,0) @freeobj(0,72,-4,0,0)
+62025 @freeobj(0,77,0,0,0) @freeobj(0,76,-8,0,0)
+62050 @rail(6,-1)
+62075 @freeobj(0,70,4,0,180) @freeobj(0,72,-12,0,180)
+ 
+
+62097 @freeobj(15,15,0,0,0)
+62100 @railend(15)
+62125 @rail(8,-11.5)
+62150 @rail(8,-11)
+62175 @rail(8,-10.5)
+62200 @rail(8,-10)
+62225 @rail(8,-9.5)
+62250 @rail(8,-9)
+62250 @freeobj(8,7,6.4,0,0) @freeobj(8,7,24.4,0,0) @freeobj(8,7,-11.6,0,0) @railtype(0,5) @railtype(8,5)
+62275 @railtype(0,6) @railtype(8,6)
+62300 @freeobj(0,51,30,10,0)
+62300 @poleend(2)
+62325 @curve(-1200,100) @railtype(0,11) @railtype(8,11)
+62325 @railstart(4,-5) @railtype(4,11) @railstart(2,4) @railtype(2,11) @dikeend(2) @dikeend(4) @wallend(2) @wallend(4)
+62450 @freeobj(0,52,30,10,0) @freeobj(0,52,-25,10,0)
+62550 @freeobj(0,52,30,10,0) @freeobj(0,52,-25,10,0)
+62550 @curve(0,0) @railtype(0,6)  @railtype(8,6) @railtype(2,3) @railtype(4,3)
+62625 @freeobj(8,7,6.4,0,0) @freeobj(8,7,24.4,0,0) @freeobj(8,7,-11.6,0,0)  @railtype(0,5) @railtype(8,5)
+62650 @railtype(0,6) @railtype(8,6)
+62700 @freeobj(8,7,6.4,0,0) @freeobj(8,7,24.4,0,0) @freeobj(8,7,-11.6,0,0) @railtype(0,5) @railtype(8,5)
+62725 @railtype(0,6) @railtype(8,6)
+62750 @freeobj(0,53,30,10,0) @freeobj(0,53,-25,10,0)
+62825 @curve(1200,100) @railtype(0,10) @railtype(8,10)
+62825 @railtype(4,10) @railtype(2,10) 
+62850 @freeobj(0,54,30,10,0) @freeobj(0,54,-25,10,0)
+62875 @marker(av\info\meno4.gif,400)
+62950 @freeobj(0,54,30,10,0) @freeobj(0,54,-25,10,0)
+63000 @curve(0,0) @railtype(0,6)  @railtype(8,6) @railtype(2,3) @railtype(4,3)
+;--------------------------------------- inizio tunnel
+63100 @freeobj(8,1,0,0,0)  @dikeend(3)
+63100 @dike(0,-1,3)  @dike(8,-1,3) @railtype(0,1) @railtype(8,1) @poleend(0) @poleend(8) 
+63151 @freeobj(0,59,0,8,0) @freeobj(0,59,20,8,0) @freeobj(0,59,-20,8,0)
+63175 @rail(8,-9) @freeobj(0,214,0.8) ; meno 4
+63275 @rail(8,-9) @freeobj(0,213,0.8) ; meno 3
+63300 @curve(2500,50) @dike(0,-1,14) 
+63375 @freeobj(0,212,0.8) ; meno 2
+63475 @curve(-0,0)  @freeobj(0,211,0.8) ; meno 1
+63575 @curve(-2500,50) @freeobj(0,111,1) ; segnale verde
+63600 @dikeend(0) @rail(8,-8.5) @dike(8,-1,15)
+63625 @rail(8,-8) @freeobj(0,62,4)
+63650 @freeobj(0,66) @freeobj(0,62,4) 
+63675 @freeobj(8,66,4) @freeobj(0,66) 
+63675 @rail(6,1) 
+63700 @rail(6,-1) 
+63700 @freeobj(8,66,4) 
+63725 @freeobj(8,62,0,0,180.5) 
+63750 @freeobj(8,62,0,0,180.5) 
+63825 @freeobj(8,60,0)
+63850 @freeobj(8,67,4) @freeobj(8,60,0) 
+63875 @freeobj(8,67,4) @freeobj(0,67) 
+63875 @rail(6,1) 
+63875 @marker(av\info\meno3.gif,400)
+63900 @rail(6,-1) 
+63900 @freeobj(0,67,0) 
+63900 @rail(6,1) 
+63925 @rail(6,-1) 
+63925 @freeobj(0,60,4,0,180.5) 
+63950 @freeobj(0,60,4,0,180.5) 
+63975 @curve(-0,0)
+
+;--------------------------------------- fine tunnel 
+63975 @railtype(0,6)  @railtype(8,6) @dike(8,-1,13) @dike(3,1,13) @pole(8,1) @pole(0,1) @dikeend(0)
+64025 @rail(8,-9.25) 
+64050 @rail(8,-9.50)
+64075 @rail(8,-9.75)
+64125 @rail(8,-10)
+
+64150 @rail(8,-11)  
+64175 @rail(8,-12)  
+64200 @rail(8,-13) @rail(4,-9) 
+64200 @form(0,4) @form(3,9) @form(8,-9) 
+64200 @dike(8,-1,6) @dike(0,1,6) @dikeend(3)
+64225 @form(0,4) @form(3,9) @form(8,-9) 
+64250 @curve(-1200,100) @railtype(0,11) @railtype(8,11) @railtype(3,11) @railtype(4,11)
+64250 @form(0,4) @form(3,9) @form(8,-9) @freeobj(0,10,-4) @freeobj(0,32,8.5,0,0) 
+64250 @freeobj(8,145)
+64275 @freeobj(8,145)
+64275 @form(0,4) @form(3,9) @form(8,-9) @freeobj(0,10,-4) @freeobj(0,32,8.5,0,0) @poleend(8) @poleend(0)
+64300 @form(0,4) @form(3,9) @form(8,-9) @freeobj(0,10,-4) @freeobj(0,32,8.5,0,0)
+64300 @freeobj(8,145)
+64325 @freeobj(8,145)
+64325 @form(0,4) @form(3,9) @form(8,-9) @freeobj(0,10,-4) @freeobj(0,32,8.5,0,0)
+64350 @form(0,4) @form(3,9) @form(8,-9) @freeobj(0,10,-4) @freeobj(0,32,8.5,0,0)
+64350 @curve(0,0) @railtype(0,6) @railtype(8,6) @railtype(3,3) @railtype(4,3)
+64350 @freeobj(8,145)
+64375 @freeobj(8,145)
+64375 @form(0,4) @form(3,9) @form(8,-9) @freeobj(0,10,-4) @freeobj(0,32,8.5,0,0)
+64400 @freeobj(8,130)
+64400 @form(0,4) @form(3,9) @form(8,-9) @freeobj(0,10,-4) @freeobj(0,32,8.5,0,0)
+64425 @form(0,4) @form(3,9) @form(8,-9) @pole(8,1) @pole(0,1)
+64425 @Station(Caccamo (PA), , , 1, ATS, )  @Stop(0)
+64450 @rail(8,-12) @dike(8,-1,13) @dike(3,1,13) @dikeend(0) @freeobj(0,30,9,0,0) @freeobj(8,30,-5,0,0)
+64475 @rail(8,-11) 
+64475 @freeobj(4,106,0.5) @freeobj(0,106,0.5) @marker(av\info\segnalev.gif,400) ; segnale verde
+
+64500 @rail(8,-10)
+64525 @rail(8,-9.75)
+64550 @rail(8,-9.50)
+64575 @rail(8,-9.25)
+64600 @rail(8,-9)
+64625 @rail(8,-8.75)
+64650 @rail(8,-8.5)
+64675 @rail(8,-8.25)
+64700 @rail(8,-8)
+64725 @poleend(0) @pole(8,2)
+64725 @curve(2000,50)
+64875 @marker(av\info\meno2.gif,400)
+64975 @curve(0,0)
+65025 @freeobj(8,70,4,0,0)
+65050 @freeobj(8,70,0,0,0) @freeobj(0,77,0,0,0)
+65075 @railstart(1,8) @railstart(2,16) @railtype(1,6) @railtype(2,6) @pole(1,2) 
+65075 @wallend(0) @wallend(1) @wallend(2) @wallend(3)
+65075 @freeobj(8,77,4,0,0) 
+65075 @rail(6,1) 
+65075 @freeobj(1,126,0,0,0)
+65100 @freeobj(1,126,0,0,0)
+65100 @freeobj(0,77,0,0,0) @freeobj(2,72,4,0,0) @rail(3,20) @dike(3,1,13) @rail(3,20)
+65100 @freeobj(0,72,8,0,0) 
+65100 @freeobj(0,70,4,0,180)
+65125 @rail(6,-1) 
+65125 @freeobj(1,127,4,0,0)
+65150 @freeobj(1,127,4,0,0)
+65150 @freeobj(0,70,4,0,180) @freeobj(2,72,0,0,180) @freeobj(0,72,4,0,180) @freeobj(0,72,4,0,0)
+65150 @freeobj(0,70,4,0,0) @freeobj(2,72,0,0,0)
+65175 @freeobj(1,127,4,0,0)
+65200 @freeobj(1,127,4,0,0)
+65200 @rail(6,1) 
+65200 @freeobj(1,70,0,0,180) @freeobj(1,72,4,0,180)  @freeobj(0,72,0,0,180)
+65200 @freeobj(1,70,0,0,0) @freeobj(1,72,4,0,0)
+65225 @freeobj(1,127,4,0,0)
+65250 @freeobj(1,127,4,0,0)
+65250 @freeobj(1,70,4,0,180) @freeobj(1,72,0,0,180)  @freeobj(8,70,4,0,0)
+65250 @freeobj(1,70,4,0,0) @freeobj(1,72,0,0,0)     
+65275 @freeobj(8,70,0,0,0) @freeobj(0,77,0,0,0) 
+65275 @freeobj(1,127,4,0,0)
+65300 @freeobj(1,127,4,0,0)
+65300 @freeobj(2,70,0,0,180) @freeobj(0,72,4,0,180) @freeobj(8,77,4,0,0)
+65300 @freeobj(2,70,0,0,0) @freeobj(0,72,4,0,0)
+65300 @rail(6,-1) 
+65325 @freeobj(0,70,4,0,180)
+65350 @freeobj(2,70,4,0,180) @freeobj(0,72,0,0,180) @freeobj(0,72,0,0,0) @freeobj(0,70,0,0,180) 
+65350 @rail(6,1) 
+65375 @rail(6,-1) 
+65400 @freeobj(0,72,-4,0,180) @freeobj(0,72,-4,0,0) 
+65400 @freeobj(2,128,0,0,0)
+65430 @freeobj(2,128,0,0,0)
+65450 @freeobj(0,72,-8,0,180)
+65460 @freeobj(2,128,0,0,0)
+65490 @freeobj(2,128,0,0,0)
+65500 @curve(2000,10)
+65520 @freeobj(2,128,0,0,0)
+65525 @freeobj(0,120,8,0,0)
+65550 @freeobj(0,120,8,0,0)
+65575 @freeobj(0,120,8,0,0)
+65600 @freeobj(0,120,8,0,0)
+65625 @freeobj(0,120,8,0,0)
+65650 @freeobj(0,120,8,0,0)
+65675 @freeobj(0,120,8,0,0)
+65700 @freeobj(0,120,8,0,0)
+65725 @freeobj(0,121,12,0,0)
+65750 @freeobj(0,121,12,0,0)
+65775 @freeobj(0,121,12,0,0)
+65800 @freeobj(0,121,12,0,0)
+65825 @freeobj(0,125,16,0,0)
+65850 @freeobj(0,125,16,0,0)
+65875 @freeobj(0,125,16,0,0) 
+65875 @marker(av\info\meno1.gif,400)
+65900 @freeobj(0,125,16,0,0)
+65925 @freeobj(0,125,16,0,0)
+
+
+65950 @curve(0,0)
+65950 @freeobj(0,125,16,0,0)
+65975 @freeobj(0,125,16,0,0)
+65975 @freeobj(8,70,0,0,0) @freeobj(2,72,0,0,0) @freeobj(2,72,4,0,0)
+66000 @poleend(1) @poleend(8)
+66000 @freeobj(8,70,0,0,0) @freeobj(8,77,4,0,0) @freeobj(2,76,0,0,0)  @freeobj(1,76,4,0,0)
+66025 @freeobj(8,4) @freeobj(1,4)
+66025 @freeobj(8,77,4,0,0) @freeobj(0,77,0,0,0) @freeobj(1,76,4,0,0)  @freeobj(1,76,0,0,0)
+66050 @freeobj(0,77,0,0,0) @freeobj(0,77,4,0,0) @freeobj(1,76,0,0,0)  @freeobj(0,76,4,0,0)
+66050 @rail(6,1) 
+66075 @rail(6,-1) 
+66075 @freeobj(0,77,4,0,0) @freeobj(1,77,0,0,0) @freeobj(0,76,4,0,0)  @freeobj(0,76,0,0,0)
+66075 @freeobj(0,4) @freeobj(2,34) @freeobj(8,34)
+66100 @railtype(1,3)  @freeobj(0,76,0,0,0)  @freeobj(8,76,4,0,0)
+66100 @rail(6,1) 
+
+66110 @freeobj(8,4) @freeobj(1,4)
+66125 @rail(6,-1) 
+66125 @freeobj(1,72,2,0,189.1) @freeobj(1,72,6,0,189.1) @freeobj(1,33,2,0,9)
+66125 @freeobj(2,77,0,0,0)  ; @freeobj(1,77,4,0,0) 
+66150 @freeobj(2,77,0,0,0) @freeobj(8,72,0,0,180) @freeobj(8,72,4,0,180) @freeobj(0,70,0,0,0) @freeobj(8,70,0,0,0)
+66150 @pole(8,2) @pole(2,2)
+66175 @rail(6,1) 
+66175 @freeobj(2,70,4,0,180) 
+66175 @freeobj(0,144,16,0,0) 
+
+
+66200 @pole(2,2) 
+66200 @freeobj(0,144,16,0,0) @freeobj(0,145,-16,0,0)
+66200 @freeobj(2,70,4,0,180) @freeobj(0,70,4,0,180) @freeobj(8,70,4,0,180)
+66200 @freeobj(0,72,0,0,0) @freeobj(0,72,4,0,0) 
+66200 @railend(3)
+66200 @railstart(11,-16,0,0,0) @railtype(11,6)  @dikeend(8) @dike(11,-1,13) 
+66200 @railstart(12,24,0,0,0)  @railtype(12,6)  @railstart(3,28)
+66200 @pole(0,3) @poleend(1) @poleend(8) @poleend(13) @poleend(11)  @poleend(9) @poleend(10)
+66200 @freeobj(11,4)
+66215 @freeobj(8,5)
+66225 @freeobj(8,76,4,0,0) @freeobj(0,76,0,0,0)
+66225 @freeobj(11,5)
+66225 @rail(6,-1) 
+66225 @freeobj(0,144,16,0,0) @freeobj(0,145,-16,0,0)
+66250 @freeobj(0,144,16,0,0) @freeobj(0,145,-16,0,0)
+66250 @rail(6,1) 
+66250 @freeobj(8,76,0,0,0) @freeobj(8,76,4,0,0) 
+66275 @freeobj(11,4)
+66275 @freeobj(8,76,0,0,0) @freeobj(11,76,4,0,0)  
+66275 @freeobj(0,144,16,0,0) @freeobj(0,145,-16,0,0) @freeobj(0,34,0,0,0)
+66300 @freeobj(0,144,16,0,0) @freeobj(0,145,-16,0,0)
+66300 @railstart(13,0,0,0,0) @railtype(13,6) @freeobj(8,70,0,0,0) @freeobj(8,70,4,0,0)
+66310 @freeobj(11,34) @freeobj(8,34)
+66301 @poleend(0)
+66324 @freeobj(11,72,0,0,179.8) @freeobj(11,72,4,0,179.8)
+66325 @pole(11,1) @pole(8,1) 
+66325 @freeobj(13,77,0,0,0) @freeobj(13,71,4,0,0)  @freeobj(13,71,0,0,0) @freeobj(13,71,4,0,0) @curve(180,0) @railtype(0,3)
+66325 @freeobj(12,146,0,0,0)  
+66349 @freeobj(8,70,4,0,180) 
+66350 @curve(0,0) @rail(8,-10) @rail(2,14) @rail(1,6) @railstart(13,-2) @rail(11,-18) @rail(12,22) @rail(3,26) @freeobj(0,76,0,0,0) @freeobj(0,72,4,0,0)
+66350 @freeobj(13,4)
+66350 @freeobj(12,146,0,0,0)
+66375 @freeobj(12,146,0,0,0)
+66375 
+66375 @rail(8,-14) @rail(2,10)  @rail(1,2) @railstart(13,-6) @rail(11,-22) @rail(12,18) @rail(3,22) @freeobj(0,76,0,0,0) @freeobj(0,72,4,0,0)
+66400 @freeobj(12,146,0,0,0) @poleend(2)
+66400 @rail(8,-18) @rail(2,6) @rail(1,-2) @railstart(13,-10) @rail(11,-26) @rail(12,14) @rail(3,18) @freeobj(0,76,0,0,0) @freeobj(0,76,4,0,0) 
+66400 @railtype(1,6)  @freeobj(1,4) @pole(13,1)
+66425 @freeobj(12,145,4,0,0)
+66425 @rail(8,-22) @rail(2,2) @rail(1,-6) @railstart(13,-14) @rail(11,-30) @rail(12,10) @rail(3,14) @curve(-180,0) @freeobj(2,77,0,0,0) @freeobj(2,77,4,0,0)
+
+66450 @freeobj(13,34) @pole(1,2) @pole(12,2)
+66450 @rail(8,-24) @rail(2,0) @rail(1,-8) @railstart(13,-16) @rail(11,-32) @rail(12,8) @rail(3,12) @curve(0,0) @freeobj(2,77,4,0,0) @freeobj(12,77,0,0,0)
+66450 @railstart(14,16) @railtype(14,6) @rail(3,20) @freeobj(0,72,0,0,0)
+66475 @freeobj(12,77,0,0,0) @freeobj(12,77,4,0,0) 
+66500 @freeobj(12,77,4,0,0) @freeobj(14,77,0,0,0) @freeobj(0,72,-4,0,180) @pole(0,1)
+
+66525 @freeobj(14,77,0,0,0) @freeobj(12,145,0,0,0) 
+66547 @freeobj(12,15) @freeobj(12,15,4) @freeobj(1,15) @freeobj(1,15,4) @freeobj(8,15) @freeobj(8,15,4)
+66547 @freeobj(12,34) @freeobj(1,34) @freeobj(8,34) 
+
+66550 @railend(12) @railend(1) @railend(8)
+66550 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @dike(11,-1,6) @dike(3,1,6) 
+66560 @freeobj(13,132,4)
+66575 @freeobj(13,145,4) @freeobj(14,146,0)
+66575 @freeobj(14,70,4,0,180) @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16)
+66600 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66600 @freeobj(0,154) @freeobj(0,153,11) @freeobj(13,156) @freeobj(13,155,11) @freeobj(14,152) @freeobj(14,151,11) @freeobj(11,158) @freeobj(11,157,11) 
+66600 @freeobj(13,145,4) @freeobj(14,146,0)
+66625 @freeobj(13,145,4) @freeobj(14,146,0)
+66625 @poleend(0) @poleend(14) @poleend(13) @poleend(11) @poleend(2)
+66625 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66650 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66650 @freeobj(13,145,4) @freeobj(14,146,0)
+66675 @freeobj(13,145,4) @freeobj(14,146,0)
+66675 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66700 @freeobj(0,154) @freeobj(0,153,11) @freeobj(13,156) @freeobj(13,155,11) @freeobj(14,152) @freeobj(14,151,11) @freeobj(11,158) @freeobj(11,157,11) 
+66700 @curve(2000,0)
+66700 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66700 @freeobj(13,145,4) @freeobj(14,146,0)
+66725 @freeobj(13,145,4) @freeobj(14,146,0)
+66725 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66750 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66750 @freeobj(13,145,4) @freeobj(14,146,0)
+66775 @freeobj(13,145,4) @freeobj(14,146,0)
+66775 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66800 @freeobj(0,154) @freeobj(0,153,11) @freeobj(13,156) @freeobj(13,155,11) @freeobj(14,152) @freeobj(14,151,11) @freeobj(11,158) @freeobj(11,157,11) 
+66800 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66800 @freeobj(14,134)
+66825 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66850 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66875 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66875 @Station(Cazzano di Tramigna (VR), , , 1, ATS, )  @Stop(1)
+66900 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66925 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66950 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+66975 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+67000 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+67025 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+67050 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+67075 @freeobj(0,31) @freeobj(14,31) @freeobj(13,31) @freeobj(11,31) @freeobj(14,31,16) @freeobj(0,10,10,0,0) @freeobj(13,10,10,0,0) @freeobj(11,10,10,0,0) @freeobj(0,32,8.5,0,0)
+
+
+
+
+
+

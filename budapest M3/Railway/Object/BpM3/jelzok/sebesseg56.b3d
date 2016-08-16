@@ -1,0 +1,42 @@
+;sebességjelzõ
+;Készítette: http://www.bvemetro.hu/
+
+[MeshBuilder]
+Vertex 0,0.5,-0.4
+Vertex 0.5,0.5,-0.4
+Vertex 0.5,0,-0.4
+Vertex 0,0,-0.4
+Face 0,1,2,3
+[Texture]
+Load sebesseg1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex 0.042,0.422,-0.4
+Vertex 0.250,0.422,-0.4
+Vertex 0.250,0.078,-0.4
+Vertex 0.042,0.078,-0.4
+Face 0,1,2,3
+[Texture]
+Load sebesseg2.bmp
+Coordinates 0,0.4,0
+Coordinates 1,0.5,0
+Coordinates 2,0.5,0.641
+Coordinates 3,0.4,0.641
+
+[MeshBuilder]
+Vertex 0.250,0.422,-0.4
+Vertex 0.458,0.422,-0.4
+Vertex 0.458,0.078,-0.4
+Vertex 0.250,0.078,-0.4
+Face 0,1,2,3
+[Texture]
+Load sebesseg2.bmp
+Coordinates 0,0.5,0
+Coordinates 1,0.6,0
+Coordinates 2,0.6,0.641
+Coordinates 3,0.5,0.641

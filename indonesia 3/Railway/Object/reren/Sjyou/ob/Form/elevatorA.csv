@@ -1,0 +1,23 @@
+CreateMeshBuilder,
+AddVertex,-6.2, 4.0, 22.2
+ADdVertex,-4.6, 4.0, 22.2
+ADdVertex,-4.6, 1.12, 22.2
+ADdVertex,-6.2, 1.12, 22.2
+AddFace,0,1,2,3
+LoadTexture,../elevator.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+CreateMeshBuilder,
+AddVertex,-6.2, 1.12, 24.8
+ADdVertex,-4.6, 1.12, 24.8
+ADdVertex,-4.6, 1.12, 22.2
+ADdVertex,-6.2, 1.12, 22.2
+AddFace2,0,1,2,3
+LoadTexture,../Wall5.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1

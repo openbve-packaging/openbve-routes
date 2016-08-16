@@ -1,0 +1,24 @@
+;made by ujpestisrac
+
+[Meshbuilder]
+Cylinder 24, 0.05, 0.05, 7
+Translate 0, 1, 0
+Color 150, 150, 150
+
+[Meshbuilder]
+Cylinder 24, 0.05, 0.05, 7
+Translate 6, 1, 0
+Color 150, 150, 150
+
+[Meshbuilder]
+Vertex 0.05, 1.5, 0
+Vertex 0.05, 4.5, 0
+Vertex 5.95, 4.5, 0
+Vertex 5.95, 1.5, 0
+Face 0, 1, 2, 3
+[Texture] 
+Load 14.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1 

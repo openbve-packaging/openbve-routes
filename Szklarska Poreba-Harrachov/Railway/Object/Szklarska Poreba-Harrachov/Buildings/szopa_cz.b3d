@@ -1,0 +1,108 @@
+﻿[MeshBuilder]
+Vertex 5, 2.5, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Vertex 0, 2.5, 0
+Face2 3,2,1,0
+[Texture]
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Load 8.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 5, 2.5, 3
+Vertex 5, 0, 3
+Vertex 0, 0, 3
+Vertex 0, 2.5, 3
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Load 8.png
+Transparent 0,0,255
+
+;-
+[MeshBuilder]
+Vertex 5, 2.5, 3
+Vertex 5, 0, 3
+Vertex 5, 0, 0
+Vertex 5, 2.5, 0
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load 4.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 0, 2.5, 3
+Vertex 0, 0, 3
+Vertex 0, 0, 0
+Vertex 0, 2.5, 0
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load 4.png
+Transparent 0,0,255
+;---------DACH---------------
+[MeshBuilder]
+Vertex 5.5, 4.5, 1.5
+Vertex 5.5, 2.5, 0
+Vertex -0.5, 2.5, 0
+Vertex -0.5, 4.5, 1.5
+Face2 3,2,1,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load papa.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 5.5, 4.5, 1.5
+Vertex 5.5, 2.5, 3
+Vertex -0.5, 2.5, 3
+Vertex -0.5, 4.5, 1.5
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load papa.png
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 5, 2.5, 3
+Vertex 5, 4, 1.5
+Vertex 5,4,1.5
+Vertex 5, 2.5, 0
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load 4.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 0, 2.5, 3
+Vertex 0, 4, 1.5
+Vertex 0,4,1.5
+Vertex 0, 2.5, 0
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 0.5
+Coordinates 2, 1, 0.5
+Coordinates 3, 1, 0
+Load 4.png
+Transparent 0,0,255

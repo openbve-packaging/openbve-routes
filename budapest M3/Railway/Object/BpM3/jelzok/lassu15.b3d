@@ -1,0 +1,25 @@
+;lassan bejárandó pályarész elõjelzõ (15 km/h)
+;Készítette: http://www.bvemetro.hu/
+
+[MeshBuilder]
+Vertex 0,0.5,0
+Vertex 0.5,0.5,0
+Vertex 0.5,0,0
+Vertex 0,0,0
+Face 0,1,2,3
+[Texture]
+Load lassu15.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+;hátoldal
+[MeshBuilder]
+Vertex 0.00,0.45,0
+Vertex 0.50,0.45,0
+Vertex 0.25,0.05,0
+Vertex 0.25,0.05,0
+Face 3,2,1,0
+Color 48,48,48

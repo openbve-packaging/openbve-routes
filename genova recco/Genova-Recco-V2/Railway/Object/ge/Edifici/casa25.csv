@@ -1,0 +1,109 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;casa 20
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 15, 0,
+AddVertex,8, 15, 0,
+AddVertex,8, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa25.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.51, 0,
+SetTextureCoordinates,3, 0.51, 1,
+
+
+CreateMeshBuilder,
+AddVertex,8, 0, 14,
+AddVertex,8, 15,14,
+AddVertex,0, 15, 14,
+AddVertex,0, 0, 14,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa25.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.51, 0,
+SetTextureCoordinates,3, 0.51, 1,
+
+CreateMeshBuilder,
+AddVertex,0, 0, 14,
+AddVertex,0, 15, 14,
+AddVertex,0, 15, 0,
+AddVertex,0, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa25.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+
+CreateMeshBuilder,
+AddVertex,8, 0, 14,
+AddVertex,8, 15, 14,
+AddVertex,8, 15, 0,
+AddVertex,8, 0, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa25.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+
+;;;;TRIANGOLI LATERALI
+CreateMeshBuilder,
+AddVertex,0, 15, 0,
+AddVertex,4, 17, 0,
+AddVertex,8, 15, 0,
+AddFace,0, 1, 2, 
+GenerateNormals,
+setcolor, 150,80,70,
+
+CreateMeshBuilder,
+AddVertex,0, 15, 14,
+AddVertex,4, 17, 14,
+AddVertex,8, 15, 14,
+AddFace,2, 1, 0, 
+GenerateNormals,
+setcolor, 150,80,70,
+
+
+;;tetto
+CreateMeshBuilder,
+AddVertex,-0.4, 14.8, 14.4,
+AddVertex,4, 17.05, 14.4,
+AddVertex,4, 17.05, -0.4,
+AddVertex,-0.4, 14.8, -0.4,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+
+;;tetto
+CreateMeshBuilder,
+AddVertex,4, 17.05, 14.4,
+AddVertex,8.4, 14.8, 14.4,
+AddVertex,8.4, 14.8, -0.4,
+AddVertex,4, 17.05, -0.4,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,

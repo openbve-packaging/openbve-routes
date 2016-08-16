@@ -1,0 +1,107 @@
+;(c)Joao Carlos Goncalves, February, 2003
+;Please seek permission to use this file on your own route
+;http://joaocg.topcities.com
+;
+;Caixa d'água da SABESP em Pinda
+
+
+
+;;;;;scatola
+[Meshbuilder]
+cylinder 12, 3.98, 3.98, 5.000
+translate 0.00, 20, 0.000
+; rotate 0,0,0,0
+color 222,222,222
+
+
+;; tetto
+[Meshbuilder]
+cylinder 12, 0.98, 4.2, 2.000
+translate 0.00, 23.5, 0.000
+; rotate 0,0,0,0
+color 120,120,120
+
+[Meshbuilder]
+cylinder 4, 0.98, 0.98, 1.000
+translate 0.00, 25, 0.000
+; rotate 0,0,0,0
+color 120,120,120
+
+
+[Meshbuilder]
+cylinder 12, 4.2, 4.2, 0.400
+translate 0.00, 22.5, 0.000
+; rotate 0,0,0,0
+color 180,180,180
+
+[Meshbuilder]
+cylinder 12, 4.2, 4.2, 0.400
+translate 0.00, 17.5, 0.000
+; rotate 0,0,0,0
+color 200,200,200
+
+
+
+;;base
+[Meshbuilder]
+cylinder 12, 2.6, 2.6, 2.500
+translate 0.00, 16.5, 0.000
+; rotate 0,0,0,0
+color 222,222,222
+
+
+
+
+;;;;;pillars
+[Meshbuilder]
+cylinder 4, 0.38, 0.28, 26.9
+translate 0.00, 2.1, 2.3
+color 222,222,222
+
+[Meshbuilder]
+cylinder 4, 0.38, 0.28, 26.9
+translate 0.00, 2.1, -2.3
+color 222,222,222
+
+[Meshbuilder]
+cylinder 4, 0.38, 0.28, 26.9
+translate 1.9, 2.1, 1.2
+color 222,222,222
+
+[Meshbuilder]
+cylinder 4, 0.38, 0.28, 26.9
+translate 1.9, 2.1, -1.2
+color 222,222,222
+
+
+[Meshbuilder]
+cylinder 4, 0.38, 0.28, 26.9
+translate -2.3, 2.1, -0.2
+color 222,222,222
+
+
+
+;; piani
+[Meshbuilder]
+cylinder 10, 2.38, 2.38, 0.4000
+translate 0.00, 9.5, 0.000
+color 172,172,172
+
+[Meshbuilder]
+cylinder 10, 2.38, 2.38, 0.4000
+translate 0.00, 4.5, 0.000
+color 172,172,172
+
+[Meshbuilder]
+cylinder 10, 2.38, 2.38, 0.4000
+translate 0.00, 0.5, 0.000
+color 172,172,172
+
+
+;;;cano
+[Meshbuilder]
+cylinder 12, 0.25, 0.25, 26.9
+translate -1.40, 2.1, -0.82
+color 15,16,150
+
+

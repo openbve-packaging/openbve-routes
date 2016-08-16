@@ -1,0 +1,37 @@
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 7, 0,
+AddVertex,5, 7, 0,
+AddVertex,5, 0, 0,
+AddFace2,0, 1, 2, 3
+
+
+LoadTexture,albero3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 7, 0,
+AddVertex,5, 7, 0,
+AddVertex,5, 0, 0,
+AddFace2,0, 1, 2, 3
+rotate,0,1,0,90
+translate, 2.5,0,2.5,
+LoadTexture,albero3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0

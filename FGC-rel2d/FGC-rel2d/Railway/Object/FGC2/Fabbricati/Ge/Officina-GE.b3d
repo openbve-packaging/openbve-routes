@@ -1,0 +1,405 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; --------- Officina ------------
+[MeshBuilder] ; Muro
+Vertex 0, 2, 0
+Vertex 0, 2, 25
+Vertex 0,-0.2, 25
+Vertex 0,-0.2, 0
+Face 0,1,2,3
+[texture]
+load Muro-off-GE.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 6, 0
+Coordinates 2, 6, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Vetri vuoti
+Vertex 0, 5.5, 0
+Vertex 0, 5.5, 5
+Vertex 0, 2, 5
+Vertex 0, 2, 0
+Face 0,1,2,3
+[texture]
+load Vetri-off-GEv.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 6, 0
+Coordinates 2, 6, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Vetri inizio vettura
+Vertex 0, 5.5, 5 
+Vertex 0, 5.5, 10
+Vertex 0, 2, 10
+Vertex 0, 2, 5 
+Face 0,1,2,3
+[texture]
+load Vetri-off-GEf.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Vetri con vettura
+Vertex 0, 5.5, 10  ;0
+Vertex 0, 5.5, 20  ;1
+Vertex 0, 2, 20  ;8
+Vertex 0, 2, 10  ;9
+Face 0,1,2,3
+[texture]
+load Vetri-off-GE.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Vetri fine vettura
+Vertex 0, 5.5, 20 
+Vertex 0, 5.5, 25
+Vertex 0, 2, 25
+Vertex 0, 2, 20 
+Face 0,1,2,3
+[texture]
+load Vetri-off-GEf.bmp
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Perline
+Vertex 0,6.5, 0
+Vertex 0,6.5, 25
+Vertex 0,5.5, 25
+Vertex 0,5.5, 0
+Face 0,1,2,3
+[texture]
+load Perline-off-GE.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 12, 0
+Coordinates 2, 12, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Tetto
+Cube 2,0.05,13
+Rotate 0,0,1,-12
+Translate -1, 6.70, 12.90
+Color 127,127,127
+
+;Ghiaia
+[MeshBuilder]
+Vertex 2.0, -0.2, -0.3
+Vertex 2.0, -0.2, 33
+Vertex -0.5, -0.2,33
+Vertex -0.5, -0.2, -0.3
+Face 3,2,1,0
+[texture]
+load ..\..\Rails\Trav-brown1.bmp
+Coordinates 0, 0.5, 10
+Coordinates 1, 0.5, 0
+Coordinates 2, 0,   0
+Coordinates 3, 0,   10
+
+; ----------- Palazzina uffici ------------
+[MeshBuilder] ; 2 Moduli finestre (adiacenti officina)
+Vertex 0, 8, 0
+Vertex 0,-0.2, 0
+Vertex 0,-0.2, -8
+Vertex 0, 8, -8
+Face 0,1,2,3
+Rotate 0,1,0,-10
+[texture]
+load FinestreUff.bmp
+Coordinates 0, 2, 0
+Coordinates 1, 2, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+[MeshBuilder] ; Modulo porta PT
+Vertex 0, 4.0, 0
+Vertex 0,-0.2, 0
+Vertex 0,-0.2, -4
+Vertex 0, 4.0, -4
+Face 0,1,2,3
+Translate 0,0,-8
+Rotate 0,1,0,-10
+[texture]
+load PortaUff.bmp
+Coordinates 0, 1, 0.5
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0.5
+[MeshBuilder] ; Modulo finestra centrale P1
+Vertex 0.005, 8, 0.01
+Vertex 0.005,3.9,0.01
+Vertex 0.005,3.9,-4.01
+Vertex 0.005, 8, -4.01
+Face 0,1,2,3
+Translate 0,0,-8
+Rotate 0,1,0,-10
+[texture]
+load FinestreUff.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 0.5
+Coordinates 2, 0, 0.5
+Coordinates 3, 0, 0
+
+[MeshBuilder] ;  2 Moduli finestre (adiacenti laboratorio)
+Vertex 0, 8, 0
+Vertex 0,-0.2, 0
+Vertex 0,-0.2, -8
+Vertex 0, 8, -8
+Face 0,1,2,3
+Translate 0,0,-12
+Rotate 0,1,0,-10
+[texture]
+load FinestreUff.bmp
+Coordinates 0, 2, 0
+Coordinates 1, 2, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+[MeshBuilder] ;  modulo finestra su tetto laboratorio
+Vertex -8, 8, 0
+Vertex  0, 8, 0
+Vertex  0,4.0, 0
+Vertex -8,4.0, 0
+Face 0,1,2,3
+Translate -0,0,-20
+Rotate 0,1,0,-10
+[texture]
+load FinestreUff.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.6
+Coordinates 3, 0, 0.6
+
+[MeshBuilder] ;  modulo finestrino solaio
+Vertex -8, 7.99, 0
+Vertex -5.8, 9.2, 0
+Vertex -2.2, 9.2, 0
+Vertex  0, 7.99, 0
+Face 0,1,2,3
+Translate -0,0,-20
+Rotate 0,1,0,-10
+[texture]
+load PortaUff.bmp
+Coordinates 0, 0, 0.4
+Coordinates 1, 0.25, 0.6
+Coordinates 2, 0.72, 0.6
+Coordinates 3, 1, 0.4
+
+; --------  Tetto pal uffici ------------
+[MeshBuilder] ; Falda ant lungo il binario 1
+cube 1.4, 0.12, 10.8
+color 155,98,89 
+Rotate 0,0,1,-29
+Translate -0.90, 8.6, -10
+Rotate 0,1,0,-10
+color 155,98,89 
+
+[MeshBuilder] ; Falda lungitudinape post
+cube 1.4, 0.12, 11.2
+color 155,98,89 
+Rotate 0,0,1,29
+Translate -6.80, 8.6, -9.5
+Rotate 0,1,0,-10
+color 155,98,89 
+
+[MeshBuilder] ; Falda superiore ant
+cube 1.0, 0.12, 9.0
+color 155,98,89 
+Rotate 0,0,1,-29
+Translate -2.85, 9.68, -10
+Rotate 0,1,0,-10
+color 155,98,89 
+
+[MeshBuilder] ; fazzoletto anteriore
+cylinder 4,0.1,2.6,0.94
+color 155,98,89 
+Rotate 0,1,0,35
+;Rotate 1,0,0,-20
+Translate -0.50, 9.83, -19.3
+[MeshBuilder] ; Falda superiore ant
+cube 1.8, 0.12, 0.4
+color 155,98,89 
+Rotate 0,1,0,-10
+Translate -0.20, 9.2, -20.8
+[MeshBuilder] ; Tettoia entrata pal uffici
+Cube 0.5,0.04,1.5
+Rotate 0,0,1,-25
+Translate 0.2, 3.6, -10
+Rotate 0,1,0,-10
+Color 100,100,100
+[MeshBuilder] ; Ombra tettoia
+Cube 0.48,0.45,1.5
+Rotate 0,0,1,65
+Translate -0.1, 3.2, -10
+Rotate 0,1,0,-10
+Color 100,100,100,127
+[MeshBuilder] ; Soglia
+Cube 0.2,0.1,1.0
+;Rotate 0,0,1,-25
+Translate 0.2, -0.2, -10
+Rotate 0,1,0,-10
+Color 150,150,150
+
+; ----------- Laboratorio ----------------
+[MeshBuilder] ; Modulo porta + finestra
+Vertex 0, 4.0, 0
+Vertex 0,-0.2, 0
+Vertex 0,-0.2, -8
+Vertex 0, 4.0, -8
+Face 0,1,2,3
+Translate 0,0,-20
+Rotate 0,1,0,-10
+[texture]
+load PortaLabo.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+[MeshBuilder] ; Modulo finestra
+Vertex 0, 4.0, 0
+Vertex 0,-0.2, 0
+Vertex 0,-0.2, -4
+Vertex 0, 4.0, -4
+Face 0,1,2,3
+Translate 0,0,-28
+Rotate 0,1,0,-10
+[texture]
+load PortaLabo.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0.5, 1
+Coordinates 3, 00.5, 0
+
+[MeshBuilder] ; Lato
+Vertex -8, 5.2, -4
+Vertex  0, 4, -4
+Vertex  0,-0.2, -4
+Vertex -8,-0.2, -4
+Face2 0,1,2,3
+Translate 0,0,-28
+Rotate 0,1,0,-10
+[texture]
+load PortaLabo.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 0.9, 0
+Coordinates 2, 0.9, 1
+Coordinates 3, 1,   1
+
+[MeshBuilder] ; Tetto
+Cube 4.25,0.05,6.4
+Translate -4.5,3.92,-26.4
+Rotate 0,0,1,-9
+Rotate 0,1,0,-10
+;Rotate 0,0,1,-8
+Color 157,157,157
+
+
+[MeshBuilder] ; Asfalto davanti uffici
+Vertex 3.0, -0.21, -0.3
+Vertex 3.0, -0.21, 40
+Vertex -0.5, -0.21,40
+Vertex -0.5, -0.21, -0.3
+Face 3,2,1,0
+Translate 0,0,-35
+Rotate 0,1,0,-10
+[texture]
+load Pavimento.bmp
+Coordinates 0, 4, 30
+Coordinates 1, 4, 0
+Coordinates 2, 0,   0
+Coordinates 3, 0,  30
+
+; ----------- Laboratorio elettronico ----------------
+[MeshBuilder] ; Modulo porta + finestra
+Vertex 0, 4.0, 0
+Vertex 0,-0.2, 0
+Vertex 0,-0.2, -5
+Vertex 0, 4.0, -5
+Face 0,1,2,3
+Translate -9.5,0,-34
+Rotate 0,1,0,-28
+[texture]
+load LabElt.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+[MeshBuilder] ; Tetto lab.
+Cube 4.25,0.05,2.7
+Translate -13.5,3.5,-36.5
+Rotate 0,0,1,-3
+Rotate 0,1,0,-28
+;Rotate 0,0,1,-2
+Color 157,157,157
+
+[MeshBuilder] ; --------- Tettoia ------------------
+Vertex 0, 4.0, -5
+Vertex 0,-0.2, -5
+Vertex 0,-0.2, -50
+Vertex 0, 4.0, -50
+Face 0,1,2,3
+Color 68,94,94
+Translate -14.2,0,-33
+Rotate 0,1,0,-35
+
+[MeshBuilder]; Pilastrino
+Cube 0.2,2.1,0.2
+Color 78,104,104
+Translate -14.3,1.9,-37.8
+Rotate 0,1,0,-35
+
+[MeshBuilder]; Pilastrino
+Cube 0.2,2.1,0.2
+Color 78,104,104
+Translate -14.3,1.9,-37.8
+Rotate 0,1,0,-35
+[MeshBuilder]; Pilastrino
+Cube 0.2,2.1,0.2
+Color 78,104,104
+Translate -14.3,1.9,-47.8
+Rotate 0,1,0,-35
+[MeshBuilder]; Pilastrino
+Cube 0.2,2.1,0.2
+Color 78,104,104
+Translate -14.3,1.9,-57.8
+Rotate 0,1,0,-35
+[MeshBuilder]; Pilastrino
+Cube 0.2,2.1,0.2
+Color 78,104,104
+Translate -14.3,1.9,-67.8
+Rotate 0,1,0,-35
+[MeshBuilder]; Pilastrino
+Cube 0.2,2.1,0.2
+Color 78,104,104
+Translate -14.3,1.9,-77.8
+Rotate 0,1,0,-35
+
+[MeshBuilder] ; Asfalto davanti tettoia
+Vertex 6.0, -0.21, -0.3
+Vertex 3.5, -0.21, 50
+Vertex -0.5, -0.21,50
+Vertex -0.5, -0.21, -0.3
+Face 3,2,1,0
+Translate -13.8,0,-82
+Rotate 0,1,0,-35
+[texture]
+load Pavimento.bmp
+Coordinates 0, 6, 40
+Coordinates 1, 6, 0
+Coordinates 2, 0,   0
+Coordinates 3, 0,  40
+
+[MeshBuilder] ; Tetto tettoia
+Cube 4.25,0.05,25
+Translate -17.8,3.3,-62.5
+Rotate 0,0,1,-3
+Rotate 0,1,0,-35
+;Rotate 0,0,1,-2
+Color 157,157,157
+

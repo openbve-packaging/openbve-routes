@@ -1,0 +1,140 @@
+[MeshBuilder]
+Vertex -1.35, -0.17, -0
+Vertex -1.35, -0.175, 5
+Vertex 1.35, -0.175, 5
+Vertex 1.35, -0.17, -0
+Face 0, 1, 2, 3
+[Texture]
+Load ..\schwellen1.bmp
+Coordinates 0, -0.02, 2
+Coordinates 1, -0.02, 0
+Coordinates 2, 1.02, 0
+Coordinates 3, 1.02, 2
+
+[MeshBuilder]
+Vertex -2.8, -0.4, -0
+Vertex -2.8, -0.405, 5
+Vertex -1.35, -0.175, 5
+Vertex -1.35, -0.17, -0
+Face 0, 1, 2, 3
+[Texture]
+Load ..\schotter1.bmp
+Coordinates 0, 0, 2
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 2
+
+[MeshBuilder]
+Vertex 1.35, -0.175, 5
+Vertex 2.8, -0.405, 5
+Vertex 2.8, -0.4, -0
+Vertex 1.35, -0.17, -0
+Face 0,1,2,3
+[Texture]
+Load ..\schotter1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+[MeshBuilder]
+Vertex -0.8, 0, -0
+Vertex -0.8, 0, 5
+Vertex -0.72, 0, 5
+Vertex -0.72, 0, -0
+Face 0, 1, 2, 3
+Color 180,190,200
+
+[MeshBuilder]
+Vertex 0.72, 0, -0
+Vertex 0.72, 0, 5
+Vertex 0.8, 0, 5
+Vertex 0.8, 0, -0
+Face 0, 1, 2, 3
+Color 180,190,200
+
+[meshbuilder]
+vertex 0.76, 0, 5
+vertex 0.76, 0, -0
+vertex 0.76, -0.17, -0
+vertex 0.76, -0.17, 5
+face 0,1,2,3
+face 1,0,3,2
+color 85,50,50
+
+[meshbuilder]
+vertex -0.76, 0, -0
+vertex -0.76, 0, 5
+vertex -0.76, -0.17, 5
+vertex -0.76, -0.17, -0
+face 0,1,2,3
+face 1,0,3,2
+color 85,50,50
+
+; Now the power rails
+
+[Meshbuilder] ; Centre ground rail (-210V fyi)
+Vertex 0.05,0.05,5
+Vertex 0.05,0.05,-0
+Vertex -0.05,0.05,-0
+Vertex -0.05,0.05,5
+Face 0,1,2,3
+Color 110,110,110
+
+[Meshbuilder]
+Vertex 0,0.05,-0
+Vertex 0,-0.1,-0
+Vertex 0,-0.1,5
+Vertex 0,0.05,5
+Face2 0,1,2,3
+Color 60,60,60
+
+[Meshbuilder]
+Vertex 0.05,-0.1,5
+Vertex 0.05,-0.1,-0
+Vertex -0.05,-0.1,-0
+Vertex -0.05,-0.1,5
+Face 0,1,2,3
+Color 60,60,60
+
+[Meshbuilder] ; Outer live rail (+420V fyi)
+Vertex 1.11,0.05,5
+Vertex 1.11,0.05,-0
+Vertex 1.21,0.05,-0
+Vertex 1.21,0.05,5
+Face 3,2,1,0
+Color 110,110,110
+
+[Meshbuilder]
+Vertex 1.16,0.05,-0
+Vertex 1.16,-0.1,-0
+Vertex 1.16,-0.1,5
+Vertex 1.16,0.05,5
+Face2 0,1,2,3
+Color 60,60,60
+
+[Meshbuilder]
+Vertex 1.11,-0.1,5
+Vertex 1.11,-0.1,-0
+Vertex 1.21,-0.1,-0
+Vertex 1.21,-0.1,5
+Face 3,2,1,0
+Color 60,60,60
+
+[Meshbuilder] ; Centre rail insulators
+Vertex 0.15,-0.1,2
+Vertex 0.2,-0.17,2
+Vertex -0.2,-0.17,2
+Vertex -0.15,-0.1,2
+
+Face 0,1,2,3
+Color 180,180,180
+
+[Meshbuilder] ; Outer rail insulators
+Vertex 1.01,-0.1,2
+Vertex 0.96,-0.17,2
+Vertex 1.36,-0.17,2
+Vertex 1.31,-0.1,2
+
+Face 3,2,1,0
+Color 180,180,180

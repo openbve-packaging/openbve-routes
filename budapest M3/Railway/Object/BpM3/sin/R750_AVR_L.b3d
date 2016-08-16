@@ -1,0 +1,98 @@
+;-------------------------
+
+;AVR programszõnyeg
+
+[meshbuilder]
+vertex -0.418,0.05,-0.113
+vertex -0.268,0.05,-0.112
+vertex -0.485,0.05,4.986
+vertex -0.335,0.05,4.988
+vertex -0.517,0.05,9.987
+vertex -0.367,0.05,9.988
+vertex -0.516,0.05,14.987
+vertex -0.366,0.05,14.989
+vertex -0.482,0.05,19.989
+vertex -0.332,0.05,19.990
+vertex -0.415,0.05,25.090
+vertex -0.265,0.05,25.092
+vertex -0.418,0,-0.112
+vertex -0.268,0,-0.112
+vertex -0.485,0,4.987
+vertex -0.335,0,4.987
+vertex -0.517,0,9.987
+vertex -0.367,0,9.987
+vertex -0.516,0,14.988
+vertex -0.366,0,14.988
+vertex -0.482,0,19.989
+vertex -0.332,0,19.989
+vertex -0.415,0,25.091
+vertex -0.265,0,25.091
+;felület
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+face 8,9,7,6
+face 10,11,9,8
+;oldal
+face 14,2,0,12
+face 16,4,2,14
+face 18,6,4,16
+face 20,8,6,18
+face 22,10,8,20
+face 13,1,3,15
+face 15,3,5,17
+face 17,5,7,19
+face 19,7,9,21
+face 21,9,11,23
+;végek
+face 12,0,1,13
+face 22,10,11,23
+[texture]
+load avr.bmp
+coordinates 0,10,0
+coordinates 1,10,1
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 4,10,0
+coordinates 5,10,1
+coordinates 6,0,0
+coordinates 7,0,1
+coordinates 8,10,0
+coordinates 9,10,1
+coordinates 10,0,0
+coordinates 11,0,1
+coordinates 12,10,0
+coordinates 13,10,1
+coordinates 14,0,0
+coordinates 15,0,1
+coordinates 16,10,0
+coordinates 17,10,1
+coordinates 18,0,0
+coordinates 19,0,1
+coordinates 20,10,0
+coordinates 21,10,1
+coordinates 22,0,0
+coordinates 23,0,1
+
+;AVR tartóelemek
+
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.381,-0.085,02.50
+color 25,25,25
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.431,-0.085,07.50
+color 25,25,25
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.446,-0.085,12.50
+color 25,25,25
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.429,-0.085,17.50
+color 25,25,25
+[meshbuilder]
+cube 0.075,0.085,00.02
+translate -0.378,-0.085,22.50
+color 25,25,25

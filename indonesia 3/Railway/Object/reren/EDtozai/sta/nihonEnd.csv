@@ -1,0 +1,41 @@
+CreateMeshBuilder,
+AddVertex, 2.7, 4.4, 0,
+AddVertex, 3.5, 4.4, 0,
+AddVertex, 3.5, 1.1, 0,
+AddVertex, 2.7, 1.1, 0,
+
+AddVertex, 9.7, 4.4, 10,
+AddVertex, 9.7, 4.4, 0,
+AddVertex, 10.5, 4.4, 0,
+AddVertex, 10.5, 1.1, 0,
+AddVertex, 9.7, 1.1, 0,
+AddVertex, 9.7, 1.1, 10,
+AddFace,0,1,2,3
+AddFace,4,5,8,9
+AddFace,5,6,7,8
+Setcolor,220,220,210,
+LoadTexture,../Pole/station_pole/MSpole3.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,3,0
+SetTextureCoordinates,2  ,3,1
+SetTextureCoordinates,3  ,0,1
+SetTextureCoordinates,4  ,0,0
+SetTextureCoordinates,5  ,5,0
+SetTextureCoordinates,6  ,8,0
+SetTextureCoordinates,7  ,8,1
+SetTextureCoordinates,8  ,5,1
+SetTextureCoordinates,9  ,0,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 3.5, 10.4, 20.5,
+AddVertex, 9.7, 10.4, 20.5,
+AddVertex, 9.7, 1.1, 0.5,
+AddVertex, 3.5, 1.1, 0.5, 
+AddFace,0,1,2,3
+LoadTexture,stairB.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,3,
+SetTextureCoordinates,3,0,3,
+GenerateNormals,

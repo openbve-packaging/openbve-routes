@@ -1,0 +1,6288 @@
+;--- INITRND:552585511
+[MeshBuilder]
+Vertex -80, 39.5, -0.8
+Vertex -80, 40, 0
+Vertex -80, 38, 7.5
+Vertex -80, 36, 15
+Vertex -80, 34, 22.5
+Vertex -80, 32, 30
+Vertex -80, 30, 37.5
+Vertex -80, 28, 45
+Vertex -80, 26, 52.5
+Vertex -80, 24, 60
+Vertex -80, 22, 67.5
+Vertex -80, 20, 75
+Vertex -80, 19.5, 75.8
+Vertex -4.01, -1.1, -0.8
+Vertex -4.01, -0.6, 0
+Vertex -4.1249, -0.6514, 5
+Vertex -4.4686, -0.8054, 10
+Vertex -5.0373, -1.06, 15
+Vertex -5.8246, -1.4126, 20
+Vertex -6.8221, -1.8593, 25
+Vertex -8.0187, -2.3952, 30
+Vertex -9.4013, -3.0144, 35
+Vertex -10.9549, -3.7101, 40
+Vertex -12.6623, -4.4748, 45
+Vertex -14.505, -5.3, 50
+Vertex -16.4625, -6.1766, 55
+Vertex -18.5137, -7.0952, 60
+Vertex -20.6359, -8.0456, 65
+Vertex -22.8059, -9.0174, 70
+Vertex -25, -10, 75
+Vertex -25, -10.5, 75.8
+Vertex -20, -7.8, 75
+Vertex -20, -8.3, 75.8
+Vertex -4, -1.1, -0.8
+Vertex -4, -0.6, 0
+Vertex -4, -0.6, 5
+Vertex -4, -0.6, 10
+Vertex -4, -0.6, 15
+Vertex -4, -0.6, 20
+Vertex -4, -0.6, 25
+Vertex -4, -0.6, 30
+Vertex -4, -0.6, 35
+Vertex -4, -0.6, 40
+Vertex -4, -0.6, 45
+Vertex -4, -0.6, 50
+Vertex -4, -0.6, 55
+Vertex -4, -0.6, 60
+Vertex -4, -0.6, 65
+Vertex -4, -0.6, 70
+Vertex -4, -0.6, 75
+Vertex -4, -1.1, 75.8
+Face 10,11,29
+Face 11,12,30
+Face 11,30,29
+Face 9,10,29
+Face 9,29,28
+Face 8,9,28
+Face 8,28,27
+Face 8,27,26
+Face 7,8,26
+Face 7,26,25
+Face 6,7,25
+Face 6,25,24
+Face 6,24,23
+Face 5,6,23
+Face 5,23,22
+Face 5,22,21
+Face 4,5,21
+Face 4,21,20
+Face 4,20,19
+Face 3,4,19
+Face 3,19,18
+Face 2,3,17
+Face 3,18,17
+Face 2,17,16
+Face 1,2,15
+Face 2,16,15
+Face 0,1,14
+Face 0,14,13
+Face 1,15,14
+Face 29,31,28
+Face 29,30,32
+Face 29,32,31
+Face 28,31,27
+Face 27,31,48
+Face 27,47,26
+Face 27,48,47
+Face 31,49,48
+Face 31,32,50
+Face 31,50,49
+Face 26,47,46
+Face 26,46,25
+Face 25,45,24
+Face 25,46,45
+Face 24,45,44
+Face 24,44,23
+Face 23,44,43
+Face 23,43,22
+Face 22,42,21
+Face 22,43,42
+Face 21,41,20
+Face 21,42,41
+Face 20,41,40
+Face 20,40,19
+Face 19,39,18
+Face 19,40,39
+Face 18,39,38
+Face 18,38,17
+Face 17,38,37
+Face 17,37,16
+Face 16,36,15
+Face 16,37,36
+Face 15,36,35
+Face 15,35,14
+Face 13,14,34
+Face 13,34,33
+Face 14,35,34
+[Texture]
+Load ..\alap\bmp\Avar.BMP
+Coordinates 0, -6.0672, 5.2149
+Coordinates 1, -6.1187, 5.1537
+Coordinates 2, -6.6019, 4.5801
+Coordinates 3, -7.085, 4.0064
+Coordinates 4, -7.5682, 3.4328
+Coordinates 5, -8.0513, 2.8592
+Coordinates 6, -8.5345, 2.2855
+Coordinates 7, -9.0177, 1.7119
+Coordinates 8, -9.5008, 1.1383
+Coordinates 9, -9.984, 0.5646
+Coordinates 10, -10.4672, -0.0089
+Coordinates 11, -10.9503, -0.5825
+Coordinates 12, -11.0019, -0.6437
+Coordinates 13, -0.2551, 0.3195
+Coordinates 14, -0.3067, 0.2583
+Coordinates 15, -0.6376, -0.1166
+Coordinates 16, -0.986, -0.4769
+Coordinates 17, -1.3516, -0.8227
+Coordinates 18, -1.7339, -1.1544
+Coordinates 19, -2.1323, -1.4726
+Coordinates 20, -2.5459, -1.7779
+Coordinates 21, -2.9738, -2.0712
+Coordinates 22, -3.4147, -2.3536
+Coordinates 23, -3.8674, -2.626
+Coordinates 24, -4.3304, -2.8897
+Coordinates 25, -4.8023, -3.146
+Coordinates 26, -5.2813, -3.3963
+Coordinates 27, -5.7657, -3.642
+Coordinates 28, -6.2538, -3.8846
+Coordinates 29, -6.7437, -4.1257
+Coordinates 30, -6.7952, -4.1869
+Coordinates 31, -6.3613, -4.4478
+Coordinates 32, -6.4128, -4.509
+Coordinates 33, -0.2543, 0.3188
+Coordinates 34, -0.3059, 0.2576
+Coordinates 35, -0.628, -0.1247
+Coordinates 36, -0.9501, -0.5071
+Coordinates 37, -1.2722, -0.8895
+Coordinates 38, -1.5943, -1.2719
+Coordinates 39, -1.9164, -1.6544
+Coordinates 40, -2.2385, -2.0368
+Coordinates 41, -2.5606, -2.4192
+Coordinates 42, -2.8828, -2.8016
+Coordinates 43, -3.2049, -3.1841
+Coordinates 44, -3.527, -3.5665
+Coordinates 45, -3.8491, -3.9489
+Coordinates 46, -4.1712, -4.3313
+Coordinates 47, -4.4933, -4.7137
+Coordinates 48, -4.8154, -5.0962
+Coordinates 49, -5.1375, -5.4786
+Coordinates 50, -5.1891, -5.5398
+Color 90,100,70
+[MeshBuilder]
+Vertex -2.586, 14.6287, 2.586
+Vertex 2.586, 14.6287, 2.586
+Vertex 2.586, 14.6287, -2.586
+Vertex -2.586, 14.6287, -2.586
+Vertex -2.586, 0, 2.586
+Vertex 2.586, 0, 2.586
+Vertex 2.586, 0, -2.586
+Vertex -2.586, 0, -2.586
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -49.5717, 18.7773, 22.8343
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 162, 162, 162
+[MeshBuilder]
+Vertex -7.6655, 21.6814, 7.6655
+Vertex 7.6655, 21.6814, 7.6655
+Vertex 7.6655, 21.6814, -7.6655
+Vertex -7.6655, 21.6814, -7.6655
+Vertex -7.6655, 0, 7.6655
+Vertex 7.6655, 0, 7.6655
+Vertex 7.6655, 0, -7.6655
+Vertex -7.6655, 0, -7.6655
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -45.0916, 9.0081, 49.4243
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 248, 248, 248
+[MeshBuilder]
+Vertex -6.2217, 17.5976, 6.2217
+Vertex 6.2217, 17.5976, 6.2217
+Vertex 6.2217, 17.5976, -6.2217
+Vertex -6.2217, 17.5976, -6.2217
+Vertex -6.2217, 0, 6.2217
+Vertex 6.2217, 0, 6.2217
+Vertex 6.2217, 0, -6.2217
+Vertex -6.2217, 0, -6.2217
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -43.8359, 0.4312, 72.5358
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 224, 224, 224
+[MeshBuilder]
+Vertex -6.8282, 19.3133, 6.8282
+Vertex 6.8282, 19.3133, 6.8282
+Vertex 6.8282, 19.3133, -6.8282
+Vertex -6.8282, 19.3133, -6.8282
+Vertex -6.8282, 0, 6.8282
+Vertex 6.8282, 0, 6.8282
+Vertex 6.8282, 0, -6.8282
+Vertex -6.8282, 0, -6.8282
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -11.0768, -4.2663, 52.5743
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 163, 163, 163
+[MeshBuilder]
+Vertex -7.6291, 21.5785, 7.6291
+Vertex 7.6291, 21.5785, 7.6291
+Vertex 7.6291, 21.5785, -7.6291
+Vertex -7.6291, 21.5785, -7.6291
+Vertex -7.6291, 0, 7.6291
+Vertex 7.6291, 0, 7.6291
+Vertex 7.6291, 0, -7.6291
+Vertex -7.6291, 0, -7.6291
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -57.416, 18.183, 39.0952
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 182, 182, 182
+[MeshBuilder]
+Vertex -2.5618, 14.4918, 2.5618
+Vertex 2.5618, 14.4918, 2.5618
+Vertex 2.5618, 14.4918, -2.5618
+Vertex -2.5618, 14.4918, -2.5618
+Vertex -2.5618, 0, 2.5618
+Vertex 2.5618, 0, 2.5618
+Vertex 2.5618, 0, -2.5618
+Vertex -2.5618, 0, -2.5618
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -76.833, 20.4738, 64.8703
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 167, 167, 167
+[MeshBuilder]
+Vertex -6.7683, 19.1439, 6.7683
+Vertex 6.7683, 19.1439, 6.7683
+Vertex 6.7683, 19.1439, -6.7683
+Vertex -6.7683, 19.1439, -6.7683
+Vertex -6.7683, 0, 6.7683
+Vertex 6.7683, 0, 6.7683
+Vertex 6.7683, 0, -6.7683
+Vertex -6.7683, 0, -6.7683
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -55.5777, 12.6237, 54.4696
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 198, 198, 198
+[MeshBuilder]
+Vertex -10.7644, 30.4464, 10.7644
+Vertex 10.7644, 30.4464, 10.7644
+Vertex 10.7644, 30.4464, -10.7644
+Vertex -10.7644, 30.4464, -10.7644
+Vertex -10.7644, 0, 10.7644
+Vertex 10.7644, 0, 10.7644
+Vertex 10.7644, 0, -10.7644
+Vertex -10.7644, 0, -10.7644
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -19.2876, -7.9721, 72.9377
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 167, 167, 167
+[MeshBuilder]
+Vertex -9.6543, 27.3065, 9.6543
+Vertex 9.6543, 27.3065, 9.6543
+Vertex 9.6543, 27.3065, -9.6543
+Vertex -9.6543, 27.3065, -9.6543
+Vertex -9.6543, 0, 9.6543
+Vertex 9.6543, 0, 9.6543
+Vertex 9.6543, 0, -9.6543
+Vertex -9.6543, 0, -9.6543
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -32.0537, 13.8631, 0.8887
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 229, 229, 229
+[MeshBuilder]
+Vertex -7.0899, 20.0535, 7.0899
+Vertex 7.0899, 20.0535, 7.0899
+Vertex 7.0899, 20.0535, -7.0899
+Vertex -7.0899, 20.0535, -7.0899
+Vertex -7.0899, 0, 7.0899
+Vertex 7.0899, 0, 7.0899
+Vertex 7.0899, 0, -7.0899
+Vertex -7.0899, 0, -7.0899
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -75.2984, 26.593, 39.6574
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 205, 205, 205
+[MeshBuilder]
+Vertex -10.5133, 29.7362, 10.5133
+Vertex 10.5133, 29.7362, 10.5133
+Vertex 10.5133, 29.7362, -10.5133
+Vertex -10.5133, 29.7362, -10.5133
+Vertex -10.5133, 0, 10.5133
+Vertex 10.5133, 0, 10.5133
+Vertex 10.5133, 0, -10.5133
+Vertex -10.5133, 0, -10.5133
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -75.0612, 35.1158, 6.8431
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 169, 169, 169
+[MeshBuilder]
+Vertex -6.0542, 17.124, 6.0542
+Vertex 6.0542, 17.124, 6.0542
+Vertex 6.0542, 17.124, -6.0542
+Vertex -6.0542, 17.124, -6.0542
+Vertex -6.0542, 0, 6.0542
+Vertex 6.0542, 0, 6.0542
+Vertex 6.0542, 0, -6.0542
+Vertex -6.0542, 0, -6.0542
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -76.6568, 34.4451, 12.7578
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 193, 193, 193
+[MeshBuilder]
+Vertex -2.6562, 15.0258, 2.6562
+Vertex 2.6562, 15.0258, 2.6562
+Vertex 2.6562, 15.0258, -2.6562
+Vertex -2.6562, 15.0258, -2.6562
+Vertex -2.6562, 0, 2.6562
+Vertex 2.6562, 0, 2.6562
+Vertex 2.6562, 0, -2.6562
+Vertex -2.6562, 0, -2.6562
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -54.0199, 21.7846, 19.5787
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 237, 237, 237
+[MeshBuilder]
+Vertex -6.1614, 17.4272, 6.1614
+Vertex 6.1614, 17.4272, 6.1614
+Vertex 6.1614, 17.4272, -6.1614
+Vertex -6.1614, 17.4272, -6.1614
+Vertex -6.1614, 0, 6.1614
+Vertex 6.1614, 0, 6.1614
+Vertex 6.1614, 0, -6.1614
+Vertex -6.1614, 0, -6.1614
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -54.5539, 24.6138, 6.3754
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 161, 161, 161
+[MeshBuilder]
+Vertex -10.3754, 29.3461, 10.3754
+Vertex 10.3754, 29.3461, 10.3754
+Vertex 10.3754, 29.3461, -10.3754
+Vertex -10.3754, 29.3461, -10.3754
+Vertex -10.3754, 0, 10.3754
+Vertex 10.3754, 0, 10.3754
+Vertex 10.3754, 0, -10.3754
+Vertex -10.3754, 0, -10.3754
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -15.1456, -5.7742, 50.7666
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 189, 189, 189
+[MeshBuilder]
+Vertex -7.5105, 21.2429, 7.5105
+Vertex 7.5105, 21.2429, 7.5105
+Vertex 7.5105, 21.2429, -7.5105
+Vertex -7.5105, 21.2429, -7.5105
+Vertex -7.5105, 0, 7.5105
+Vertex 7.5105, 0, 7.5105
+Vertex 7.5105, 0, -7.5105
+Vertex -7.5105, 0, -7.5105
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -6.9686, -2.3213, 25.1466
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 199, 199, 199
+[MeshBuilder]
+Vertex -11.2221, 31.741, 11.2221
+Vertex 11.2221, 31.741, 11.2221
+Vertex 11.2221, 31.741, -11.2221
+Vertex -11.2221, 31.741, -11.2221
+Vertex -11.2221, 0, 11.2221
+Vertex 11.2221, 0, 11.2221
+Vertex 11.2221, 0, -11.2221
+Vertex -11.2221, 0, -11.2221
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -66.8775, 12.4091, 74.7492
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 209, 209, 209
+[MeshBuilder]
+Vertex -2.9655, 16.7758, 2.9655
+Vertex 2.9655, 16.7758, 2.9655
+Vertex 2.9655, 16.7758, -2.9655
+Vertex -2.9655, 16.7758, -2.9655
+Vertex -2.9655, 0, 2.9655
+Vertex 2.9655, 0, 2.9655
+Vertex 2.9655, 0, -2.9655
+Vertex -2.9655, 0, -2.9655
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -14.0547, 3.6842, 8.7022
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 253, 253, 253
+[MeshBuilder]
+Vertex -6.5019, 18.3903, 6.5019
+Vertex 6.5019, 18.3903, 6.5019
+Vertex 6.5019, 18.3903, -6.5019
+Vertex -6.5019, 18.3903, -6.5019
+Vertex -6.5019, 0, 6.5019
+Vertex 6.5019, 0, 6.5019
+Vertex 6.5019, 0, -6.5019
+Vertex -6.5019, 0, -6.5019
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -64.8756, 31.3722, 1.0889
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 159, 159, 159
+[MeshBuilder]
+Vertex -10.1093, 28.5936, 10.1093
+Vertex 10.1093, 28.5936, 10.1093
+Vertex 10.1093, 28.5936, -10.1093
+Vertex -10.1093, 28.5936, -10.1093
+Vertex -10.1093, 0, 10.1093
+Vertex 10.1093, 0, 10.1093
+Vertex 10.1093, 0, -10.1093
+Vertex -10.1093, 0, -10.1093
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -38.2384, 14.17, 19.2352
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 156, 156, 156
+[MeshBuilder]
+Vertex -7.3333, 20.7419, 7.3333
+Vertex 7.3333, 20.7419, 7.3333
+Vertex 7.3333, 20.7419, -7.3333
+Vertex -7.3333, 20.7419, -7.3333
+Vertex -7.3333, 0, 7.3333
+Vertex 7.3333, 0, 7.3333
+Vertex 7.3333, 0, -7.3333
+Vertex -7.3333, 0, -7.3333
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -38.8672, 9.0095, 39.9501
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 247, 247, 247
+[MeshBuilder]
+Vertex -6.0257, 17.0434, 6.0257
+Vertex 6.0257, 17.0434, 6.0257
+Vertex 6.0257, 17.0434, -6.0257
+Vertex -6.0257, 17.0434, -6.0257
+Vertex -6.0257, 0, 6.0257
+Vertex 6.0257, 0, 6.0257
+Vertex 6.0257, 0, -6.0257
+Vertex -6.0257, 0, -6.0257
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -14.9965, 4.7096, 2.6693
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 198, 198, 198
+[MeshBuilder]
+Vertex -2.3955, 13.5512, 2.3955
+Vertex 2.3955, 13.5512, 2.3955
+Vertex 2.3955, 13.5512, -2.3955
+Vertex -2.3955, 13.5512, -2.3955
+Vertex -2.3955, 0, 2.3955
+Vertex 2.3955, 0, 2.3955
+Vertex 2.3955, 0, -2.3955
+Vertex -2.3955, 0, -2.3955
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -25.2596, 10.2488, -0.0071
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 224, 224, 224
+[MeshBuilder]
+Vertex -7.2999, 20.6473, 7.2999
+Vertex 7.2999, 20.6473, 7.2999
+Vertex 7.2999, 20.6473, -7.2999
+Vertex -7.2999, 20.6473, -7.2999
+Vertex -7.2999, 0, 7.2999
+Vertex 7.2999, 0, 7.2999
+Vertex 7.2999, 0, -7.2999
+Vertex -7.2999, 0, -7.2999
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -44.8792, 5.3434, 59.931
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 156, 156, 156
+[MeshBuilder]
+Vertex -6.3859, 18.0621, 6.3859
+Vertex 6.3859, 18.0621, 6.3859
+Vertex 6.3859, 18.0621, -6.3859
+Vertex -6.3859, 18.0621, -6.3859
+Vertex -6.3859, 0, 6.3859
+Vertex 6.3859, 0, 6.3859
+Vertex 6.3859, 0, -6.3859
+Vertex -6.3859, 0, -6.3859
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -50.1932, 9.6614, 55.3668
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 189, 189, 189
+[MeshBuilder]
+Vertex -10.7197, 30.3199, 10.7197
+Vertex 10.7197, 30.3199, 10.7197
+Vertex 10.7197, 30.3199, -10.7197
+Vertex -10.7197, 30.3199, -10.7197
+Vertex -10.7197, 0, 10.7197
+Vertex 10.7197, 0, 10.7197
+Vertex 10.7197, 0, -10.7197
+Vertex -10.7197, 0, -10.7197
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -24.8104, -7.6143, 67.7226
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 216, 216, 216
+[MeshBuilder]
+Vertex -10.8635, 30.7266, 10.8635
+Vertex 10.8635, 30.7266, 10.8635
+Vertex 10.8635, 30.7266, -10.8635
+Vertex -10.8635, 30.7266, -10.8635
+Vertex -10.8635, 0, 10.8635
+Vertex 10.8635, 0, 10.8635
+Vertex 10.8635, 0, -10.8635
+Vertex -10.8635, 0, -10.8635
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -40.7681, 6.3187, 51.3813
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 194, 194, 194
+[MeshBuilder]
+Vertex -6.2163, 17.5824, 6.2163
+Vertex 6.2163, 17.5824, 6.2163
+Vertex 6.2163, 17.5824, -6.2163
+Vertex -6.2163, 17.5824, -6.2163
+Vertex -6.2163, 0, 6.2163
+Vertex 6.2163, 0, 6.2163
+Vertex 6.2163, 0, -6.2163
+Vertex -6.2163, 0, -6.2163
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -73.0238, 24.363, 43.7897
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 249, 249, 249
+[MeshBuilder]
+Vertex -6.6988, 18.947, 6.6988
+Vertex 6.6988, 18.947, 6.6988
+Vertex 6.6988, 18.947, -6.6988
+Vertex -6.6988, 18.947, -6.6988
+Vertex -6.6988, 0, 6.6988
+Vertex 6.6988, 0, 6.6988
+Vertex 6.6988, 0, -6.6988
+Vertex -6.6988, 0, -6.6988
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -33.8048, -3.6813, 69.3059
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 199, 199, 199
+[MeshBuilder]
+Vertex -6.812, 19.2672, 6.812
+Vertex 6.812, 19.2672, 6.812
+Vertex 6.812, 19.2672, -6.812
+Vertex -6.812, 19.2672, -6.812
+Vertex -6.812, 0, 6.812
+Vertex 6.812, 0, 6.812
+Vertex 6.812, 0, -6.812
+Vertex -6.812, 0, -6.812
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -13.5868, -5.3907, 65.9594
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 243, 243, 243
+[MeshBuilder]
+Vertex -6.0197, 17.0264, 6.0197
+Vertex 6.0197, 17.0264, 6.0197
+Vertex 6.0197, 17.0264, -6.0197
+Vertex -6.0197, 17.0264, -6.0197
+Vertex -6.0197, 0, 6.0197
+Vertex 6.0197, 0, 6.0197
+Vertex 6.0197, 0, -6.0197
+Vertex -6.0197, 0, -6.0197
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -52.9914, 25.0385, 1.384
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 226, 226, 226
+[MeshBuilder]
+Vertex -2.2702, 12.8425, 2.2702
+Vertex 2.2702, 12.8425, 2.2702
+Vertex 2.2702, 12.8425, -2.2702
+Vertex -2.2702, 12.8425, -2.2702
+Vertex -2.2702, 0, 2.2702
+Vertex 2.2702, 0, 2.2702
+Vertex 2.2702, 0, -2.2702
+Vertex -2.2702, 0, -2.2702
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -57.0299, 21.7559, 25.4
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 197, 197, 197
+[MeshBuilder]
+Vertex -7.5011, 21.2163, 7.5011
+Vertex 7.5011, 21.2163, 7.5011
+Vertex 7.5011, 21.2163, -7.5011
+Vertex -7.5011, 21.2163, -7.5011
+Vertex -7.5011, 0, 7.5011
+Vertex 7.5011, 0, 7.5011
+Vertex 7.5011, 0, -7.5011
+Vertex -7.5011, 0, -7.5011
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -72.6124, 28.46, 28.1831
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 160, 160, 160
+[MeshBuilder]
+Vertex -6.2186, 17.5889, 6.2186
+Vertex 6.2186, 17.5889, 6.2186
+Vertex 6.2186, 17.5889, -6.2186
+Vertex -6.2186, 17.5889, -6.2186
+Vertex -6.2186, 0, 6.2186
+Vertex 6.2186, 0, 6.2186
+Vertex 6.2186, 0, -6.2186
+Vertex -6.2186, 0, -6.2186
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -61.7225, 26.0373, 17.5224
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 244, 244, 244
+[MeshBuilder]
+Vertex -11.5758, 32.7415, 11.5758
+Vertex 11.5758, 32.7415, 11.5758
+Vertex 11.5758, 32.7415, -11.5758
+Vertex -11.5758, 32.7415, -11.5758
+Vertex -11.5758, 0, 11.5758
+Vertex 11.5758, 0, 11.5758
+Vertex 11.5758, 0, -11.5758
+Vertex -11.5758, 0, -11.5758
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -69.9029, 19.6554, 54.7586
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 220, 220, 220
+[MeshBuilder]
+Vertex -6.1926, 17.5153, 6.1926
+Vertex 6.1926, 17.5153, 6.1926
+Vertex 6.1926, 17.5153, -6.1926
+Vertex -6.1926, 17.5153, -6.1926
+Vertex -6.1926, 0, 6.1926
+Vertex 6.1926, 0, 6.1926
+Vertex 6.1926, 0, -6.1926
+Vertex -6.1926, 0, -6.1926
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -50.9891, 7.4884, 62.312
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 197, 197, 197
+[MeshBuilder]
+Vertex -2.5516, 14.4345, 2.5516
+Vertex 2.5516, 14.4345, 2.5516
+Vertex 2.5516, 14.4345, -2.5516
+Vertex -2.5516, 14.4345, -2.5516
+Vertex -2.5516, 0, 2.5516
+Vertex 2.5516, 0, 2.5516
+Vertex 2.5516, 0, -2.5516
+Vertex -2.5516, 0, -2.5516
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -52.4656, 18.1834, 30.6766
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 235, 235, 235
+[MeshBuilder]
+Vertex -6.3554, 17.9759, 6.3554
+Vertex 6.3554, 17.9759, 6.3554
+Vertex 6.3554, 17.9759, -6.3554
+Vertex -6.3554, 17.9759, -6.3554
+Vertex -6.3554, 0, 6.3554
+Vertex 6.3554, 0, 6.3554
+Vertex 6.3554, 0, -6.3554
+Vertex -6.3554, 0, -6.3554
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -7.9254, 0.9432, 2.156
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 254, 254, 254
+[MeshBuilder]
+Vertex -11.08, 31.339, 11.08
+Vertex 11.08, 31.339, 11.08
+Vertex 11.08, 31.339, -11.08
+Vertex -11.08, 31.339, -11.08
+Vertex -11.08, 0, 11.08
+Vertex 11.08, 0, 11.08
+Vertex 11.08, 0, -11.08
+Vertex -11.08, 0, -11.08
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -76.6146, 32.2887, 20.9367
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 220, 220, 220
+[MeshBuilder]
+Vertex -11.6052, 32.8245, 11.6052
+Vertex 11.6052, 32.8245, 11.6052
+Vertex 11.6052, 32.8245, -11.6052
+Vertex -11.6052, 32.8245, -11.6052
+Vertex -11.6052, 0, 11.6052
+Vertex 11.6052, 0, 11.6052
+Vertex 11.6052, 0, -11.6052
+Vertex -11.6052, 0, -11.6052
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -75.3003, 23.1926, 52.2398
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 181, 181, 181
+[MeshBuilder]
+Vertex -6.7438, 19.0745, 6.7438
+Vertex 6.7438, 19.0745, 6.7438
+Vertex 6.7438, 19.0745, -6.7438
+Vertex -6.7438, 19.0745, -6.7438
+Vertex -6.7438, 0, 6.7438
+Vertex 6.7438, 0, 6.7438
+Vertex 6.7438, 0, -6.7438
+Vertex -6.7438, 0, -6.7438
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -59.236, 16.9248, 46.0416
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 196, 196, 196
+[MeshBuilder]
+Vertex -2.8925, 16.3624, 2.8925
+Vertex 2.8925, 16.3624, 2.8925
+Vertex 2.8925, 16.3624, -2.8925
+Vertex -2.8925, 16.3624, -2.8925
+Vertex -2.8925, 0, 2.8925
+Vertex 2.8925, 0, 2.8925
+Vertex 2.8925, 0, -2.8925
+Vertex -2.8925, 0, -2.8925
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -19.3439, 0.4142, 37.7897
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 200, 200, 200
+[MeshBuilder]
+Vertex -7.9896, 22.5982, 7.9896
+Vertex 7.9896, 22.5982, 7.9896
+Vertex 7.9896, 22.5982, -7.9896
+Vertex -7.9896, 22.5982, -7.9896
+Vertex -7.9896, 0, 7.9896
+Vertex 7.9896, 0, 7.9896
+Vertex 7.9896, 0, -7.9896
+Vertex -7.9896, 0, -7.9896
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -10.2554, -3.8969, 38.0833
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 165, 165, 165
+[MeshBuilder]
+Vertex -7.9383, 22.453, 7.9383
+Vertex 7.9383, 22.453, 7.9383
+Vertex 7.9383, 22.453, -7.9383
+Vertex -7.9383, 22.453, -7.9383
+Vertex -7.9383, 0, 7.9383
+Vertex 7.9383, 0, 7.9383
+Vertex 7.9383, 0, -7.9383
+Vertex -7.9383, 0, -7.9383
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -53.0402, 13.1149, 48.8061
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 217, 217, 217
+[MeshBuilder]
+Vertex -7.8266, 22.137, 7.8266
+Vertex 7.8266, 22.137, 7.8266
+Vertex 7.8266, 22.137, -7.8266
+Vertex -7.8266, 22.137, -7.8266
+Vertex -7.8266, 0, 7.8266
+Vertex 7.8266, 0, 7.8266
+Vertex 7.8266, 0, -7.8266
+Vertex -7.8266, 0, -7.8266
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -10.0038, 0.572, 17.1783
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 215, 215, 215
+[MeshBuilder]
+Vertex -7.9686, 22.5386, 7.9686
+Vertex 7.9686, 22.5386, 7.9686
+Vertex 7.9686, 22.5386, -7.9686
+Vertex -7.9686, 22.5386, -7.9686
+Vertex -7.9686, 0, 7.9686
+Vertex 7.9686, 0, 7.9686
+Vertex 7.9686, 0, -7.9686
+Vertex -7.9686, 0, -7.9686
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -14.395, 2.4636, 19.0614
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 198, 198, 198
+[MeshBuilder]
+Vertex -9.2691, 26.2169, 9.2691
+Vertex 9.2691, 26.2169, 9.2691
+Vertex 9.2691, 26.2169, -9.2691
+Vertex -9.2691, 26.2169, -9.2691
+Vertex -9.2691, 0, 9.2691
+Vertex 9.2691, 0, 9.2691
+Vertex 9.2691, 0, -9.2691
+Vertex -9.2691, 0, -9.2691
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -78.6051, 32.1674, 25.0015
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 217, 217, 217
+[MeshBuilder]
+Vertex -7.8021, 22.0677, 7.8021
+Vertex 7.8021, 22.0677, 7.8021
+Vertex 7.8021, 22.0677, -7.8021
+Vertex -7.8021, 22.0677, -7.8021
+Vertex -7.8021, 0, 7.8021
+Vertex 7.8021, 0, 7.8021
+Vertex 7.8021, 0, -7.8021
+Vertex -7.8021, 0, -7.8021
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -79.5114, 19.3616, 74.5194
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 205, 205, 205
+[MeshBuilder]
+Vertex -7.1908, 20.3388, 7.1908
+Vertex 7.1908, 20.3388, 7.1908
+Vertex 7.1908, 20.3388, -7.1908
+Vertex -7.1908, 20.3388, -7.1908
+Vertex -7.1908, 0, 7.1908
+Vertex 7.1908, 0, 7.1908
+Vertex 7.1908, 0, -7.1908
+Vertex -7.1908, 0, -7.1908
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -4.9374, -1.4364, 13.3979
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 253, 253, 253
+[MeshBuilder]
+Vertex -2.3026, 13.0256, 2.3026
+Vertex 2.3026, 13.0256, 2.3026
+Vertex 2.3026, 13.0256, -2.3026
+Vertex -2.3026, 13.0256, -2.3026
+Vertex -2.3026, 0, 2.3026
+Vertex 2.3026, 0, 2.3026
+Vertex 2.3026, 0, -2.3026
+Vertex -2.3026, 0, -2.3026
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -25.8884, 3.5492, 37.7122
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 223, 223, 223
+[MeshBuilder]
+Vertex -7.3557, 20.8053, 7.3557
+Vertex 7.3557, 20.8053, 7.3557
+Vertex 7.3557, 20.8053, -7.3557
+Vertex -7.3557, 20.8053, -7.3557
+Vertex -7.3557, 0, 7.3557
+Vertex 7.3557, 0, 7.3557
+Vertex 7.3557, 0, -7.3557
+Vertex -7.3557, 0, -7.3557
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -65.785, 13.5161, 68.3633
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 162, 162, 162
+[MeshBuilder]
+Vertex -7.6268, 21.5719, 7.6268
+Vertex 7.6268, 21.5719, 7.6268
+Vertex 7.6268, 21.5719, -7.6268
+Vertex -7.6268, 21.5719, -7.6268
+Vertex -7.6268, 0, 7.6268
+Vertex 7.6268, 0, 7.6268
+Vertex 7.6268, 0, -7.6268
+Vertex -7.6268, 0, -7.6268
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -55.6101, 6.2287, 74.8788
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 180, 180, 180
+[MeshBuilder]
+Vertex -9.1409, 25.8544, 9.1409
+Vertex 9.1409, 25.8544, 9.1409
+Vertex 9.1409, 25.8544, -9.1409
+Vertex -9.1409, 25.8544, -9.1409
+Vertex -9.1409, 0, 9.1409
+Vertex 9.1409, 0, 9.1409
+Vertex 9.1409, 0, -9.1409
+Vertex -9.1409, 0, -9.1409
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -55.8645, 9.7475, 63.5424
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 200, 200, 200
+[MeshBuilder]
+Vertex -2.5829, 14.6112, 2.5829
+Vertex 2.5829, 14.6112, 2.5829
+Vertex 2.5829, 14.6112, -2.5829
+Vertex -2.5829, 14.6112, -2.5829
+Vertex -2.5829, 0, 2.5829
+Vertex 2.5829, 0, 2.5829
+Vertex 2.5829, 0, -2.5829
+Vertex -2.5829, 0, -2.5829
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -25.0803, 8.0605, 16.9428
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 163, 163, 163
+[MeshBuilder]
+Vertex -7.2719, 20.568, 7.2719
+Vertex 7.2719, 20.568, 7.2719
+Vertex 7.2719, 20.568, -7.2719
+Vertex -7.2719, 20.568, -7.2719
+Vertex -7.2719, 0, 7.2719
+Vertex 7.2719, 0, 7.2719
+Vertex 7.2719, 0, -7.2719
+Vertex -7.2719, 0, -7.2719
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -43.6268, 18.7055, 9.6872
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 199, 199, 199
+[MeshBuilder]
+Vertex -7.7831, 22.014, 7.7831
+Vertex 7.7831, 22.014, 7.7831
+Vertex 7.7831, 22.014, -7.7831
+Vertex -7.7831, 22.014, -7.7831
+Vertex -7.7831, 0, 7.7831
+Vertex 7.7831, 0, 7.7831
+Vertex 7.7831, 0, -7.7831
+Vertex -7.7831, 0, -7.7831
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -12.851, -5.0829, 74.1476
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 159, 159, 159
+[MeshBuilder]
+Vertex -7.4643, 21.1122, 7.4643
+Vertex 7.4643, 21.1122, 7.4643
+Vertex 7.4643, 21.1122, -7.4643
+Vertex -7.4643, 21.1122, -7.4643
+Vertex -7.4643, 0, 7.4643
+Vertex 7.4643, 0, 7.4643
+Vertex 7.4643, 0, -7.4643
+Vertex -7.4643, 0, -7.4643
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -60.2314, 21.7968, 31.0198
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 217, 217, 217
+[MeshBuilder]
+Vertex -2.9418, 16.6418, 2.9418
+Vertex 2.9418, 16.6418, 2.9418
+Vertex 2.9418, 16.6418, -2.9418
+Vertex -2.9418, 16.6418, -2.9418
+Vertex -2.9418, 0, 2.9418
+Vertex 2.9418, 0, 2.9418
+Vertex 2.9418, 0, -2.9418
+Vertex -2.9418, 0, -2.9418
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -67.1828, 16.9669, 58.9929
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 163, 163, 163
+[MeshBuilder]
+Vertex -7.259, 20.5317, 7.259
+Vertex 7.259, 20.5317, 7.259
+Vertex 7.259, 20.5317, -7.259
+Vertex -7.259, 20.5317, -7.259
+Vertex -7.259, 0, 7.259
+Vertex 7.259, 0, 7.259
+Vertex 7.259, 0, -7.259
+Vertex -7.259, 0, -7.259
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -15.2303, -6.1397, 70.005
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 202, 202, 202
+[MeshBuilder]
+Vertex -7.5727, 21.4188, 7.5727
+Vertex 7.5727, 21.4188, 7.5727
+Vertex 7.5727, 21.4188, -7.5727
+Vertex -7.5727, 21.4188, -7.5727
+Vertex -7.5727, 0, 7.5727
+Vertex 7.5727, 0, 7.5727
+Vertex 7.5727, 0, -7.5727
+Vertex -7.5727, 0, -7.5727
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -15.4877, 0.3395, 31.3355
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 204, 204, 204
+[MeshBuilder]
+Vertex -7.5891, 21.4652, 7.5891
+Vertex 7.5891, 21.4652, 7.5891
+Vertex 7.5891, 21.4652, -7.5891
+Vertex -7.5891, 21.4652, -7.5891
+Vertex -7.5891, 0, 7.5891
+Vertex 7.5891, 0, 7.5891
+Vertex 7.5891, 0, -7.5891
+Vertex -7.5891, 0, -7.5891
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -24.9723, -0.1305, 47.9203
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 249, 249, 249
+[MeshBuilder]
+Vertex -6.2966, 17.8095, 6.2966
+Vertex 6.2966, 17.8095, 6.2966
+Vertex 6.2966, 17.8095, -6.2966
+Vertex -6.2966, 17.8095, -6.2966
+Vertex -6.2966, 0, 6.2966
+Vertex 6.2966, 0, 6.2966
+Vertex 6.2966, 0, -6.2966
+Vertex -6.2966, 0, -6.2966
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -8.9933, 1.0869, 8.8226
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 165, 165, 165
+[MeshBuilder]
+Vertex -6.1036, 17.2637, 6.1036
+Vertex 6.1036, 17.2637, 6.1036
+Vertex 6.1036, 17.2637, -6.1036
+Vertex -6.1036, 17.2637, -6.1036
+Vertex -6.1036, 0, 6.1036
+Vertex 6.1036, 0, 6.1036
+Vertex 6.1036, 0, -6.1036
+Vertex -6.1036, 0, -6.1036
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -62.2762, 13.3692, 62.7205
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 191, 191, 191
+[MeshBuilder]
+Vertex -6.0876, 17.2184, 6.0876
+Vertex 6.0876, 17.2184, 6.0876
+Vertex 6.0876, 17.2184, -6.0876
+Vertex -6.0876, 17.2184, -6.0876
+Vertex -6.0876, 0, 6.0876
+Vertex 6.0876, 0, 6.0876
+Vertex 6.0876, 0, -6.0876
+Vertex -6.0876, 0, -6.0876
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -50.3781, 15.7139, 35.7727
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 247, 247, 247
+[MeshBuilder]
+Vertex -7.1303, 20.1676, 7.1303
+Vertex 7.1303, 20.1676, 7.1303
+Vertex 7.1303, 20.1676, -7.1303
+Vertex -7.1303, 20.1676, -7.1303
+Vertex -7.1303, 0, 7.1303
+Vertex 7.1303, 0, 7.1303
+Vertex 7.1303, 0, -7.1303
+Vertex -7.1303, 0, -7.1303
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -69.9371, 29.2464, 20.303
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 226, 226, 226
+[MeshBuilder]
+Vertex -9.0341, 25.5525, 9.0341
+Vertex 9.0341, 25.5525, 9.0341
+Vertex 9.0341, 25.5525, -9.0341
+Vertex -9.0341, 25.5525, -9.0341
+Vertex -9.0341, 0, 9.0341
+Vertex 9.0341, 0, 9.0341
+Vertex 9.0341, 0, -9.0341
+Vertex -9.0341, 0, -9.0341
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -25.1923, 5.8033, 28.1418
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 176, 176, 176
+[MeshBuilder]
+Vertex -2.4998, 14.1413, 2.4998
+Vertex 2.4998, 14.1413, 2.4998
+Vertex 2.4998, 14.1413, -2.4998
+Vertex -2.4998, 14.1413, -2.4998
+Vertex -2.4998, 0, 2.4998
+Vertex 2.4998, 0, 2.4998
+Vertex 2.4998, 0, -2.4998
+Vertex -2.4998, 0, -2.4998
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -37.5744, 15.5743, 10.0868
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 247, 247, 247
+[MeshBuilder]
+Vertex -2.991, 16.9199, 2.991
+Vertex 2.991, 16.9199, 2.991
+Vertex 2.991, 16.9199, -2.991
+Vertex -2.991, 16.9199, -2.991
+Vertex -2.991, 0, 2.991
+Vertex 2.991, 0, 2.991
+Vertex 2.991, 0, -2.991
+Vertex -2.991, 0, -2.991
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -42.9515, 11.2717, 38.8534
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 187, 187, 187
+[MeshBuilder]
+Vertex -2.8196, 15.9504, 2.8196
+Vertex 2.8196, 15.9504, 2.8196
+Vertex 2.8196, 15.9504, -2.8196
+Vertex -2.8196, 15.9504, -2.8196
+Vertex -2.8196, 0, 2.8196
+Vertex 2.8196, 0, 2.8196
+Vertex 2.8196, 0, -2.8196
+Vertex -2.8196, 0, -2.8196
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -39.4214, -1.5919, 71.0933
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 182, 182, 182
+[MeshBuilder]
+Vertex -2.3257, 13.1565, 2.3257
+Vertex 2.3257, 13.1565, 2.3257
+Vertex 2.3257, 13.1565, -2.3257
+Vertex -2.3257, 13.1565, -2.3257
+Vertex -2.3257, 0, 2.3257
+Vertex 2.3257, 0, 2.3257
+Vertex 2.3257, 0, -2.3257
+Vertex -2.3257, 0, -2.3257
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -45.732, 14.3478, 32.9722
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 221, 221, 221
+[MeshBuilder]
+Vertex -7.4841, 21.1684, 7.4841
+Vertex 7.4841, 21.1684, 7.4841
+Vertex 7.4841, 21.1684, -7.4841
+Vertex -7.4841, 21.1684, -7.4841
+Vertex -7.4841, 0, 7.4841
+Vertex 7.4841, 0, 7.4841
+Vertex 7.4841, 0, -7.4841
+Vertex -7.4841, 0, -7.4841
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -33.2199, 7.3057, 36.7736
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 210, 210, 210
+[MeshBuilder]
+Vertex -2.4379, 13.7911, 2.4379
+Vertex 2.4379, 13.7911, 2.4379
+Vertex 2.4379, 13.7911, -2.4379
+Vertex -2.4379, 13.7911, -2.4379
+Vertex -2.4379, 0, 2.4379
+Vertex 2.4379, 0, 2.4379
+Vertex 2.4379, 0, -2.4379
+Vertex -2.4379, 0, -2.4379
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -18.7474, 4.9221, 16.9935
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 209, 209, 209
+[MeshBuilder]
+Vertex -11.6098, 32.8375, 11.6098
+Vertex 11.6098, 32.8375, 11.6098
+Vertex 11.6098, 32.8375, -11.6098
+Vertex -11.6098, 32.8375, -11.6098
+Vertex -11.6098, 0, 11.6098
+Vertex 11.6098, 0, 11.6098
+Vertex 11.6098, 0, -11.6098
+Vertex -11.6098, 0, -11.6098
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -46.9488, 11.8832, 43.2285
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 200, 200, 200
+[MeshBuilder]
+Vertex -6.221, 17.5957, 6.221
+Vertex 6.221, 17.5957, 6.221
+Vertex 6.221, 17.5957, -6.221
+Vertex -6.221, 17.5957, -6.221
+Vertex -6.221, 0, 6.221
+Vertex 6.221, 0, 6.221
+Vertex 6.221, 0, -6.221
+Vertex -6.221, 0, -6.221
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -10.8277, -2.1641, 32.3967
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 197, 197, 197
+[MeshBuilder]
+Vertex -2.9934, 16.9332, 2.9934
+Vertex 2.9934, 16.9332, 2.9934
+Vertex 2.9934, 16.9332, -2.9934
+Vertex -2.9934, 16.9332, -2.9934
+Vertex -2.9934, 0, 2.9934
+Vertex 2.9934, 0, 2.9934
+Vertex 2.9934, 0, -2.9934
+Vertex -2.9934, 0, -2.9934
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -64.5757, 30.1144, 5.2229
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 168, 168, 168
+[MeshBuilder]
+Vertex -12.0903, 34.1965, 12.0903
+Vertex 12.0903, 34.1965, 12.0903
+Vertex 12.0903, 34.1965, -12.0903
+Vertex -12.0903, 34.1965, -12.0903
+Vertex -12.0903, 0, 12.0903
+Vertex 12.0903, 0, 12.0903
+Vertex 12.0903, 0, -12.0903
+Vertex -12.0903, 0, -12.0903
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -38.7268, 16.7892, 4.9617
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 177, 177, 177
+[MeshBuilder]
+Vertex -7.5689, 21.4083, 7.5689
+Vertex 7.5689, 21.4083, 7.5689
+Vertex 7.5689, 21.4083, -7.5689
+Vertex -7.5689, 21.4083, -7.5689
+Vertex -7.5689, 0, 7.5689
+Vertex 7.5689, 0, 7.5689
+Vertex 7.5689, 0, -7.5689
+Vertex -7.5689, 0, -7.5689
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -19.411, -7.947, 61.9883
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 173, 173, 173
+[MeshBuilder]
+Vertex -6.1771, 17.4715, 6.1771
+Vertex 6.1771, 17.4715, 6.1771
+Vertex 6.1771, 17.4715, -6.1771
+Vertex -6.1771, 17.4715, -6.1771
+Vertex -6.1771, 0, 6.1771
+Vertex 6.1771, 0, 6.1771
+Vertex 6.1771, 0, -6.1771
+Vertex -6.1771, 0, -6.1771
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -7.6186, -2.7187, 48.1609
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 200, 200, 200
+[MeshBuilder]
+Vertex -7.5222, 21.276, 7.5222
+Vertex 7.5222, 21.276, 7.5222
+Vertex 7.5222, 21.276, -7.5222
+Vertex -7.5222, 21.276, -7.5222
+Vertex -7.5222, 0, 7.5222
+Vertex 7.5222, 0, 7.5222
+Vertex 7.5222, 0, -7.5222
+Vertex -7.5222, 0, -7.5222
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -69.1541, 32.7167, 4.3608
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 194, 194, 194
+[MeshBuilder]
+Vertex -6.4031, 18.1108, 6.4031
+Vertex 6.4031, 18.1108, 6.4031
+Vertex 6.4031, 18.1108, -6.4031
+Vertex -6.4031, 18.1108, -6.4031
+Vertex -6.4031, 0, 6.4031
+Vertex 6.4031, 0, 6.4031
+Vertex 6.4031, 0, -6.4031
+Vertex -6.4031, 0, -6.4031
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -64.7907, 25.9967, 23.2453
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 249, 249, 249
+[MeshBuilder]
+Vertex -7.2819, 20.5963, 7.2819
+Vertex 7.2819, 20.5963, 7.2819
+Vertex 7.2819, 20.5963, -7.2819
+Vertex -7.2819, 20.5963, -7.2819
+Vertex -7.2819, 0, 7.2819
+Vertex 7.2819, 0, 7.2819
+Vertex 7.2819, 0, -7.2819
+Vertex -7.2819, 0, -7.2819
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -29.788, 12.0043, 5.5347
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 250, 250, 250
+[MeshBuilder]
+Vertex -2.9627, 16.7599, 2.9627
+Vertex 2.9627, 16.7599, 2.9627
+Vertex 2.9627, 16.7599, -2.9627
+Vertex -2.9627, 16.7599, -2.9627
+Vertex -2.9627, 0, 2.9627
+Vertex 2.9627, 0, 2.9627
+Vertex 2.9627, 0, -2.9627
+Vertex -2.9627, 0, -2.9627
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -52.194, 21.9523, 14.2534
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 231, 231, 231
+[MeshBuilder]
+Vertex -2.4885, 14.0773, 2.4885
+Vertex 2.4885, 14.0773, 2.4885
+Vertex 2.4885, 14.0773, -2.4885
+Vertex -2.4885, 14.0773, -2.4885
+Vertex -2.4885, 0, 2.4885
+Vertex 2.4885, 0, 2.4885
+Vertex 2.4885, 0, -2.4885
+Vertex -2.4885, 0, -2.4885
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -52.587, 6.2, 68.8027
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 205, 205, 205
+[MeshBuilder]
+Vertex -9.7586, 27.6015, 9.7586
+Vertex 9.7586, 27.6015, 9.7586
+Vertex 9.7586, 27.6015, -9.7586
+Vertex -9.7586, 27.6015, -9.7586
+Vertex -9.7586, 0, 9.7586
+Vertex 9.7586, 0, 9.7586
+Vertex 9.7586, 0, -9.7586
+Vertex -9.7586, 0, -9.7586
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -10.6159, -4.0694, 70.1159
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 199, 199, 199
+[MeshBuilder]
+Vertex -6.4988, 18.3814, 6.4988
+Vertex 6.4988, 18.3814, 6.4988
+Vertex 6.4988, 18.3814, -6.4988
+Vertex -6.4988, 18.3814, -6.4988
+Vertex -6.4988, 0, 6.4988
+Vertex 6.4988, 0, 6.4988
+Vertex 6.4988, 0, -6.4988
+Vertex -6.4988, 0, -6.4988
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -20.8008, -4.4667, 54.6426
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 164, 164, 164
+[MeshBuilder]
+Vertex -8.0461, 22.758, 8.0461
+Vertex 8.0461, 22.758, 8.0461
+Vertex 8.0461, 22.758, -8.0461
+Vertex -8.0461, 22.758, -8.0461
+Vertex -8.0461, 0, 8.0461
+Vertex 8.0461, 0, 8.0461
+Vertex 8.0461, 0, -8.0461
+Vertex -8.0461, 0, -8.0461
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -34.2151, 0.5889, 58.7561
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 206, 206, 206
+[MeshBuilder]
+Vertex -7.6483, 21.6327, 7.6483
+Vertex 7.6483, 21.6327, 7.6483
+Vertex 7.6483, 21.6327, -7.6483
+Vertex -7.6483, 21.6327, -7.6483
+Vertex -7.6483, 0, 7.6483
+Vertex 7.6483, 0, 7.6483
+Vertex 7.6483, 0, -7.6483
+Vertex -7.6483, 0, -7.6483
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -47.9097, 19.2114, 17.712
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 169, 169, 169
+[MeshBuilder]
+Vertex -7.1175, 20.1316, 7.1175
+Vertex 7.1175, 20.1316, 7.1175
+Vertex 7.1175, 20.1316, -7.1175
+Vertex -7.1175, 20.1316, -7.1175
+Vertex -7.1175, 0, 7.1175
+Vertex 7.1175, 0, 7.1175
+Vertex 7.1175, 0, -7.1175
+Vertex -7.1175, 0, -7.1175
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -29.817, 0.6124, 52.5013
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 232, 232, 232
+[MeshBuilder]
+Vertex -6.5771, 18.6029, 6.5771
+Vertex 6.5771, 18.6029, 6.5771
+Vertex 6.5771, 18.6029, -6.5771
+Vertex -6.5771, 18.6029, -6.5771
+Vertex -6.5771, 0, 6.5771
+Vertex 6.5771, 0, 6.5771
+Vertex 6.5771, 0, -6.5771
+Vertex -6.5771, 0, -6.5771
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -19.6812, -1.0241, 42.9629
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 157, 157, 157
+[MeshBuilder]
+Vertex -6.1695, 17.4499, 6.1695
+Vertex 6.1695, 17.4499, 6.1695
+Vertex 6.1695, 17.4499, -6.1695
+Vertex -6.1695, 17.4499, -6.1695
+Vertex -6.1695, 0, 6.1695
+Vertex 6.1695, 0, 6.1695
+Vertex 6.1695, 0, -6.1695
+Vertex -6.1695, 0, -6.1695
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -20.6753, 6.7969, 11.5205
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 179, 179, 179
+[MeshBuilder]
+Vertex -7.3429, 20.7689, 7.3429
+Vertex 7.3429, 20.7689, 7.3429
+Vertex 7.3429, 20.7689, -7.3429
+Vertex -7.3429, 20.7689, -7.3429
+Vertex -7.3429, 0, 7.3429
+Vertex 7.3429, 0, 7.3429
+Vertex 7.3429, 0, -7.3429
+Vertex -7.3429, 0, -7.3429
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -72.6717, 26.4585, 35.6521
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 241, 241, 241
+[MeshBuilder]
+Vertex -2.9781, 16.8471, 2.9781
+Vertex 2.9781, 16.8471, 2.9781
+Vertex 2.9781, 16.8471, -2.9781
+Vertex -2.9781, 16.8471, -2.9781
+Vertex -2.9781, 0, 2.9781
+Vertex 2.9781, 0, 2.9781
+Vertex 2.9781, 0, -2.9781
+Vertex -2.9781, 0, -2.9781
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -73.7789, 35.8863, 1.462
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 214, 214, 214
+[MeshBuilder]
+Vertex -6.4416, 18.2197, 6.4416
+Vertex 6.4416, 18.2197, 6.4416
+Vertex 6.4416, 18.2197, -6.4416
+Vertex -6.4416, 18.2197, -6.4416
+Vertex -6.4416, 0, 6.4416
+Vertex 6.4416, 0, 6.4416
+Vertex 6.4416, 0, -6.4416
+Vertex -6.4416, 0, -6.4416
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -77.8172, 29.5325, 33.4302
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 157, 157, 157
+[MeshBuilder]
+Vertex -6.2466, 17.6681, 6.2466
+Vertex 6.2466, 17.6681, 6.2466
+Vertex 6.2466, 17.6681, -6.2466
+Vertex -6.2466, 17.6681, -6.2466
+Vertex -6.2466, 0, 6.2466
+Vertex 6.2466, 0, 6.2466
+Vertex 6.2466, 0, -6.2466
+Vertex -6.2466, 0, -6.2466
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -12.338, -4.8313, 59.0003
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 200, 200, 200
+[MeshBuilder]
+Vertex -10.7266, 30.3395, 10.7266
+Vertex 10.7266, 30.3395, 10.7266
+Vertex 10.7266, 30.3395, -10.7266
+Vertex -10.7266, 30.3395, -10.7266
+Vertex -10.7266, 0, 10.7266
+Vertex 10.7266, 0, 10.7266
+Vertex 10.7266, 0, -10.7266
+Vertex -10.7266, 0, -10.7266
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -34.9347, -5.5098, 75.686
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 207, 207, 207
+[MeshBuilder]
+Vertex -7.3588, 20.8139, 7.3588
+Vertex 7.3588, 20.8139, 7.3588
+Vertex 7.3588, 20.8139, -7.3588
+Vertex -7.3588, 20.8139, -7.3588
+Vertex -7.3588, 0, 7.3588
+Vertex 7.3588, 0, 7.3588
+Vertex 7.3588, 0, -7.3588
+Vertex -7.3588, 0, -7.3588
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -68.3868, 22.721, 41.3238
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 192, 192, 192
+[MeshBuilder]
+Vertex -2.6422, 14.947, 2.6422
+Vertex 2.6422, 14.947, 2.6422
+Vertex 2.6422, 14.947, -2.6422
+Vertex -2.6422, 14.947, -2.6422
+Vertex -2.6422, 0, 2.6422
+Vertex 2.6422, 0, 2.6422
+Vertex 2.6422, 0, -2.6422
+Vertex -2.6422, 0, -2.6422
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -27.8196, -8.326, 73.1995
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 211, 211, 211
+[MeshBuilder]
+Vertex -6.1233, 17.3193, 6.1233
+Vertex 6.1233, 17.3193, 6.1233
+Vertex 6.1233, 17.3193, -6.1233
+Vertex -6.1233, 17.3193, -6.1233
+Vertex -6.1233, 0, 6.1233
+Vertex 6.1233, 0, 6.1233
+Vertex 6.1233, 0, -6.1233
+Vertex -6.1233, 0, -6.1233
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -35.9845, 11.0932, 27.6775
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 201, 201, 201
+[MeshBuilder]
+Vertex -6.8946, 19.5009, 6.8946
+Vertex 6.8946, 19.5009, 6.8946
+Vertex 6.8946, 19.5009, -6.8946
+Vertex -6.8946, 19.5009, -6.8946
+Vertex -6.8946, 0, 6.8946
+Vertex 6.8946, 0, 6.8946
+Vertex 6.8946, 0, -6.8946
+Vertex -6.8946, 0, -6.8946
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -29.1141, -1.2681, 56.6859
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 177, 177, 177
+[MeshBuilder]
+Vertex -6.9406, 19.6311, 6.9406
+Vertex 6.9406, 19.6311, 6.9406
+Vertex 6.9406, 19.6311, -6.9406
+Vertex -6.9406, 19.6311, -6.9406
+Vertex -6.9406, 0, 6.9406
+Vertex 6.9406, 0, 6.9406
+Vertex 6.9406, 0, -6.9406
+Vertex -6.9406, 0, -6.9406
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -37.0927, 16.544, -0.0503
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 190, 190, 190
+[MeshBuilder]
+Vertex -7.3772, 20.866, 7.3772
+Vertex 7.3772, 20.866, 7.3772
+Vertex 7.3772, 20.866, -7.3772
+Vertex -7.3772, 20.866, -7.3772
+Vertex -7.3772, 0, 7.3772
+Vertex 7.3772, 0, 7.3772
+Vertex 7.3772, 0, -7.3772
+Vertex -7.3772, 0, -7.3772
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -20.1392, 2.1661, 32.9005
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 173, 173, 173
+[MeshBuilder]
+Vertex -6.1204, 17.3113, 6.1204
+Vertex 6.1204, 17.3113, 6.1204
+Vertex 6.1204, 17.3113, -6.1204
+Vertex -6.1204, 17.3113, -6.1204
+Vertex -6.1204, 0, 6.1204
+Vertex 6.1204, 0, 6.1204
+Vertex 6.1204, 0, -6.1204
+Vertex -6.1204, 0, -6.1204
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -71.7296, 32.2311, 11.9255
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 175, 175, 175
+[MeshBuilder]
+Vertex -11.7984, 33.3709, 11.7984
+Vertex 11.7984, 33.3709, 11.7984
+Vertex 11.7984, 33.3709, -11.7984
+Vertex -11.7984, 33.3709, -11.7984
+Vertex -11.7984, 0, 11.7984
+Vertex 11.7984, 0, 11.7984
+Vertex 11.7984, 0, -11.7984
+Vertex -11.7984, 0, -11.7984
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -63.0117, 28.1889, 10.9216
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 240, 240, 240
+[MeshBuilder]
+Vertex -6.6424, 18.7877, 6.6424
+Vertex 6.6424, 18.7877, 6.6424
+Vertex 6.6424, 18.7877, -6.6424
+Vertex -6.6424, 18.7877, -6.6424
+Vertex -6.6424, 0, 6.6424
+Vertex 6.6424, 0, 6.6424
+Vertex 6.6424, 0, -6.6424
+Vertex -6.6424, 0, -6.6424
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -44.1887, 20.1671, 2.9085
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 155, 155, 155
+[MeshBuilder]
+Vertex -7.684, 21.7337, 7.684
+Vertex 7.684, 21.7337, 7.684
+Vertex 7.684, 21.7337, -7.684
+Vertex -7.684, 21.7337, -7.684
+Vertex -7.684, 0, 7.684
+Vertex 7.684, 0, 7.684
+Vertex 7.684, 0, -7.684
+Vertex -7.684, 0, -7.684
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -38.7301, 2.0486, 60.6442
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 206, 206, 206
+[MeshBuilder]
+Vertex -8.1195, 22.9655, 8.1195
+Vertex 8.1195, 22.9655, 8.1195
+Vertex 8.1195, 22.9655, -8.1195
+Vertex -8.1195, 22.9655, -8.1195
+Vertex -8.1195, 0, 8.1195
+Vertex 8.1195, 0, 8.1195
+Vertex 8.1195, 0, -8.1195
+Vertex -8.1195, 0, -8.1195
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -32.5157, 4.5416, 44.6954
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 163, 163, 163
+[MeshBuilder]
+Vertex -6.4487, 18.2397, 6.4487
+Vertex 6.4487, 18.2397, 6.4487
+Vertex 6.4487, 18.2397, -6.4487
+Vertex -6.4487, 18.2397, -6.4487
+Vertex -6.4487, 0, 6.4487
+Vertex 6.4487, 0, 6.4487
+Vertex 6.4487, 0, -6.4487
+Vertex -6.4487, 0, -6.4487
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -61.3102, 10.6237, 70.0567
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 251, 251, 251
+[MeshBuilder]
+Vertex -11.4975, 32.52, 11.4975
+Vertex 11.4975, 32.52, 11.4975
+Vertex 11.4975, 32.52, -11.4975
+Vertex -11.4975, 32.52, -11.4975
+Vertex -11.4975, 0, 11.4975
+Vertex 11.4975, 0, 11.4975
+Vertex 11.4975, 0, -11.4975
+Vertex -11.4975, 0, -11.4975
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -29.5021, 10.1572, 17.5451
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 252, 252, 252
+[MeshBuilder]
+Vertex -7.3711, 20.8488, 7.3711
+Vertex 7.3711, 20.8488, 7.3711
+Vertex 7.3711, 20.8488, -7.3711
+Vertex -7.3711, 20.8488, -7.3711
+Vertex -7.3711, 0, 7.3711
+Vertex 7.3711, 0, 7.3711
+Vertex 7.3711, 0, -7.3711
+Vertex -7.3711, 0, -7.3711
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -70.0681, 15.3129, 70.3863
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 192, 192, 192
+[MeshBuilder]
+Vertex -10.1422, 28.6867, 10.1422
+Vertex 10.1422, 28.6867, 10.1422
+Vertex 10.1422, 28.6867, -10.1422
+Vertex -10.1422, 28.6867, -10.1422
+Vertex -10.1422, 0, 10.1422
+Vertex 10.1422, 0, 10.1422
+Vertex 10.1422, 0, -10.1422
+Vertex -10.1422, 0, -10.1422
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -79.8362, 27.2665, 45.5648
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 200, 200, 200
+[MeshBuilder]
+Vertex -2.794, 15.8056, 2.794
+Vertex 2.794, 15.8056, 2.794
+Vertex 2.794, 15.8056, -2.794
+Vertex -2.794, 15.8056, -2.794
+Vertex -2.794, 0, 2.794
+Vertex 2.794, 0, 2.794
+Vertex 2.794, 0, -2.794
+Vertex -2.794, 0, -2.794
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -47.1752, 16.4171, 27.8165
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 181, 181, 181
+[MeshBuilder]
+Vertex -6.1118, 17.2868, 6.1118
+Vertex 6.1118, 17.2868, 6.1118
+Vertex 6.1118, 17.2868, -6.1118
+Vertex -6.1118, 17.2868, -6.1118
+Vertex -6.1118, 0, 6.1118
+Vertex 6.1118, 0, 6.1118
+Vertex 6.1118, 0, -6.1118
+Vertex -6.1118, 0, -6.1118
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -7.6861, -2.7497, 65.9615
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 190, 190, 190
+[MeshBuilder]
+Vertex -6.2637, 17.7166, 6.2637
+Vertex 6.2637, 17.7166, 6.2637
+Vertex 6.2637, 17.7166, -6.2637
+Vertex -6.2637, 17.7166, -6.2637
+Vertex -6.2637, 0, 6.2637
+Vertex 6.2637, 0, 6.2637
+Vertex 6.2637, 0, -6.2637
+Vertex -6.2637, 0, -6.2637
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -40.8399, 13.7259, 26.4632
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 165, 165, 165
+[MeshBuilder]
+Vertex -6.687, 18.9138, 6.687
+Vertex 6.687, 18.9138, 6.687
+Vertex 6.687, 18.9138, -6.687
+Vertex -6.687, 18.9138, -6.687
+Vertex -6.687, 0, 6.687
+Vertex 6.687, 0, 6.687
+Vertex 6.687, 0, -6.687
+Vertex -6.687, 0, -6.687
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -22.8205, 6.2033, 21.2893
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 235, 235, 235
+[MeshBuilder]
+Vertex -6.4658, 18.288, 6.4658
+Vertex 6.4658, 18.288, 6.4658
+Vertex 6.4658, 18.288, -6.4658
+Vertex -6.4658, 18.288, -6.4658
+Vertex -6.4658, 0, 6.4658
+Vertex 6.4658, 0, 6.4658
+Vertex 6.4658, 0, -6.4658
+Vertex -6.4658, 0, -6.4658
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -24.8741, 9.1842, 9.2329
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 159, 159, 159
+[MeshBuilder]
+Vertex -6.3632, 17.9981, 6.3632
+Vertex 6.3632, 17.9981, 6.3632
+Vertex 6.3632, 17.9981, -6.3632
+Vertex -6.3632, 17.9981, -6.3632
+Vertex -6.3632, 0, 6.3632
+Vertex 6.3632, 0, 6.3632
+Vertex 6.3632, 0, -6.3632
+Vertex -6.3632, 0, -6.3632
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -68.0514, 20.2215, 49.6338
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 235, 235, 235
+[MeshBuilder]
+Vertex -9.4075, 26.6087, 9.4075
+Vertex 9.4075, 26.6087, 9.4075
+Vertex 9.4075, 26.6087, -9.4075
+Vertex -9.4075, 26.6087, -9.4075
+Vertex -9.4075, 0, 9.4075
+Vertex 9.4075, 0, 9.4075
+Vertex 9.4075, 0, -9.4075
+Vertex -9.4075, 0, -9.4075
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -28.0805, -3.4638, 61.3912
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 230, 230, 230
+[MeshBuilder]
+Vertex -4, -1.1, -0.8
+Vertex -4, -0.6, 0
+Vertex -4, -0.6, 5
+Vertex -4, -0.6, 10
+Vertex -4, -0.6, 15
+Vertex -4, -0.6, 20
+Vertex -4, -0.6, 25
+Vertex -4, -0.6, 30
+Vertex -4, -0.6, 35
+Vertex -4, -0.6, 40
+Vertex -4, -0.6, 45
+Vertex -4, -0.6, 50
+Vertex -4, -0.6, 55
+Vertex -4, -0.6, 60
+Vertex -4, -0.6, 65
+Vertex -4, -0.6, 70
+Vertex -4, -0.6, 75
+Vertex -4, -1.1, 75.8
+Vertex -2, -0.8, -0.8
+Vertex -2, -0.3, 0
+Vertex -2, -0.3, 5
+Vertex -2, -0.3, 10
+Vertex -2, -0.3, 15
+Vertex -2, -0.3, 20
+Vertex -2, -0.3, 25
+Vertex -2, -0.3, 30
+Vertex -2, -0.3, 35
+Vertex -2, -0.3, 40
+Vertex -2, -0.3, 45
+Vertex -2, -0.3, 50
+Vertex -2, -0.3, 55
+Vertex -2, -0.3, 60
+Vertex -2, -0.3, 65
+Vertex -2, -0.3, 70
+Vertex -2, -0.3, 75
+Vertex -2, -0.8, 75.8
+Face 0,1,19
+Face 0,19,18
+Face 1,2,20
+Face 1,20,19
+Face 2,3,21
+Face 2,21,20
+Face 3,4,22
+Face 3,22,21
+Face 4,5,23
+Face 4,23,22
+Face 5,6,24
+Face 5,24,23
+Face 6,7,25
+Face 6,25,24
+Face 7,8,26
+Face 7,26,25
+Face 8,9,27
+Face 8,27,26
+Face 9,10,28
+Face 9,28,27
+Face 10,11,29
+Face 10,29,28
+Face 11,12,30
+Face 11,30,29
+Face 12,13,31
+Face 12,31,30
+Face 13,14,32
+Face 13,32,31
+Face 14,15,33
+Face 14,33,32
+Face 15,16,34
+Face 15,34,33
+Face 16,17,35
+Face 16,35,34
+[Texture]
+Load ..\alap\bmp\Avar.BMP
+Coordinates 0, -0.6359, 0.7971
+Coordinates 1, -0.7648, 0.6442
+Coordinates 2, -1.5701, -0.3118
+Coordinates 3, -2.3753, -1.2678
+Coordinates 4, -3.1806, -2.2239
+Coordinates 5, -3.9859, -3.1799
+Coordinates 6, -4.7912, -4.136
+Coordinates 7, -5.5964, -5.092
+Coordinates 8, -6.4017, -6.0481
+Coordinates 9, -7.207, -7.0042
+Coordinates 10, -8.0122, -7.9602
+Coordinates 11, -8.8175, -8.9163
+Coordinates 12, -9.6228, -9.8723
+Coordinates 13, -10.4281, -10.8284
+Coordinates 14, -11.2333, -11.7844
+Coordinates 15, -12.0386, -12.7405
+Coordinates 16, -12.8439, -13.6965
+Coordinates 17, -12.9727, -13.8495
+Coordinates 18, -0.2535, 0.475
+Coordinates 19, -0.3824, 0.3221
+Coordinates 20, -1.1876, -0.6339
+Coordinates 21, -1.9929, -1.5899
+Coordinates 22, -2.7982, -2.546
+Coordinates 23, -3.6035, -3.5021
+Coordinates 24, -4.4087, -4.4581
+Coordinates 25, -5.214, -5.4142
+Coordinates 26, -6.0193, -6.3702
+Coordinates 27, -6.8245, -7.3263
+Coordinates 28, -7.6298, -8.2823
+Coordinates 29, -8.4351, -9.2384
+Coordinates 30, -9.2404, -10.1944
+Coordinates 31, -10.0456, -11.1505
+Coordinates 32, -10.8509, -12.1065
+Coordinates 33, -11.6562, -13.0626
+Coordinates 34, -12.4615, -14.0186
+Coordinates 35, -12.5903, -14.1716
+Color 120,120,120
+[MeshBuilder]
+Vertex -2, -0.8, -0.8
+Vertex -2, -0.3, 0
+Vertex -2, -0.3, 5
+Vertex -2, -0.3, 10
+Vertex -2, -0.3, 15
+Vertex -2, -0.3, 20
+Vertex -2, -0.3, 25
+Vertex -2, -0.3, 30
+Vertex -2, -0.3, 35
+Vertex -2, -0.3, 40
+Vertex -2, -0.3, 45
+Vertex -2, -0.3, 50
+Vertex -2, -0.3, 55
+Vertex -2, -0.3, 60
+Vertex -2, -0.3, 65
+Vertex -2, -0.3, 70
+Vertex -2, -0.3, 75
+Vertex -2, -0.8, 75.8
+Vertex 2, -0.8, -0.8
+Vertex 2, -0.3, 0
+Vertex 2, -0.3, 5
+Vertex 2, -0.3, 10
+Vertex 2, -0.3, 15
+Vertex 2, -0.3, 20
+Vertex 2, -0.3, 25
+Vertex 2, -0.3, 30
+Vertex 2, -0.3, 35
+Vertex 2, -0.3, 40
+Vertex 2, -0.3, 45
+Vertex 2, -0.3, 50
+Vertex 2, -0.3, 55
+Vertex 2, -0.3, 60
+Vertex 2, -0.3, 65
+Vertex 2, -0.3, 70
+Vertex 2, -0.3, 75
+Vertex 2, -0.8, 75.8
+Face 0,1,19
+Face 0,19,18
+Face 1,2,20
+Face 1,20,19
+Face 2,3,21
+Face 2,21,20
+Face 3,4,22
+Face 3,22,21
+Face 4,5,23
+Face 4,23,22
+Face 5,6,24
+Face 5,24,23
+Face 6,7,25
+Face 6,25,24
+Face 7,8,26
+Face 7,26,25
+Face 8,9,27
+Face 8,27,26
+Face 9,10,28
+Face 9,28,27
+Face 10,11,29
+Face 10,29,28
+Face 11,12,30
+Face 11,30,29
+Face 12,13,31
+Face 12,31,30
+Face 13,14,32
+Face 13,32,31
+Face 14,15,33
+Face 14,33,32
+Face 15,16,34
+Face 15,34,33
+Face 16,17,35
+Face 16,35,34
+[Texture]
+Load ..\alap\bmp\Avar.BMP
+Coordinates 0, -0.5071, 0.9501
+Coordinates 1, -0.7648, 0.6442
+Coordinates 2, -2.3753, -1.2678
+Coordinates 3, -3.9859, -3.1799
+Coordinates 4, -5.5964, -5.092
+Coordinates 5, -7.207, -7.0042
+Coordinates 6, -8.8175, -8.9163
+Coordinates 7, -10.4281, -10.8284
+Coordinates 8, -12.0386, -12.7405
+Coordinates 9, -13.6491, -14.6526
+Coordinates 10, -15.2597, -16.5647
+Coordinates 11, -16.8702, -18.4768
+Coordinates 12, -18.4808, -20.3889
+Coordinates 13, -20.0913, -22.301
+Coordinates 14, -21.7019, -24.2131
+Coordinates 15, -23.3124, -26.1252
+Coordinates 16, -24.923, -28.0373
+Coordinates 17, -25.1806, -28.3433
+Coordinates 18, 1.0225, -0.3382
+Coordinates 19, 0.7648, -0.6442
+Coordinates 20, -0.8457, -2.5563
+Coordinates 21, -2.4562, -4.4684
+Coordinates 22, -4.0667, -6.3805
+Coordinates 23, -5.6773, -8.2926
+Coordinates 24, -7.2878, -10.2047
+Coordinates 25, -8.8984, -12.1168
+Coordinates 26, -10.5089, -14.0289
+Coordinates 27, -12.1195, -15.941
+Coordinates 28, -13.73, -17.8531
+Coordinates 29, -15.3406, -19.7652
+Coordinates 30, -16.9511, -21.6773
+Coordinates 31, -18.5616, -23.5894
+Coordinates 32, -20.1722, -25.5015
+Coordinates 33, -21.7827, -27.4136
+Coordinates 34, -23.3933, -29.3258
+Coordinates 35, -23.651, -29.6317
+Color 150,150,150
+[MeshBuilder]
+Vertex 2, -0.8, -0.8
+Vertex 2, -0.3, 0
+Vertex 2, -0.3, 5
+Vertex 2, -0.3, 10
+Vertex 2, -0.3, 15
+Vertex 2, -0.3, 20
+Vertex 2, -0.3, 25
+Vertex 2, -0.3, 30
+Vertex 2, -0.3, 35
+Vertex 2, -0.3, 40
+Vertex 2, -0.3, 45
+Vertex 2, -0.3, 50
+Vertex 2, -0.3, 55
+Vertex 2, -0.3, 60
+Vertex 2, -0.3, 65
+Vertex 2, -0.3, 70
+Vertex 2, -0.3, 75
+Vertex 2, -0.8, 75.8
+Vertex 4, -1.1, -0.8
+Vertex 4, -0.6, 0
+Vertex 4, -0.6, 5
+Vertex 4, -0.6, 10
+Vertex 4, -0.6, 15
+Vertex 4, -0.6, 20
+Vertex 4, -0.6, 25
+Vertex 4, -0.6, 30
+Vertex 4, -0.6, 35
+Vertex 4, -0.6, 40
+Vertex 4, -0.6, 45
+Vertex 4, -0.6, 50
+Vertex 4, -0.6, 55
+Vertex 4, -0.6, 60
+Vertex 4, -0.6, 65
+Vertex 4, -0.6, 70
+Vertex 4, -0.6, 75
+Vertex 4, -1.1, 75.8
+Face 0,1,19
+Face 0,19,18
+Face 1,2,20
+Face 1,20,19
+Face 2,3,21
+Face 2,21,20
+Face 3,4,22
+Face 3,22,21
+Face 4,5,23
+Face 4,23,22
+Face 5,6,24
+Face 5,24,23
+Face 6,7,25
+Face 6,25,24
+Face 7,8,26
+Face 7,26,25
+Face 8,9,27
+Face 8,27,26
+Face 9,10,28
+Face 9,28,27
+Face 10,11,29
+Face 10,29,28
+Face 11,12,30
+Face 11,30,29
+Face 12,13,31
+Face 12,31,30
+Face 13,14,32
+Face 13,32,31
+Face 14,15,33
+Face 14,33,32
+Face 15,16,34
+Face 15,34,33
+Face 16,17,35
+Face 16,35,34
+[Texture]
+Load ..\alap\bmp\Avar.BMP
+Coordinates 0, 0.5112, -0.1691
+Coordinates 1, 0.3824, -0.3221
+Coordinates 2, -0.4228, -1.2781
+Coordinates 3, -1.2281, -2.2342
+Coordinates 4, -2.0333, -3.1902
+Coordinates 5, -2.8386, -4.1463
+Coordinates 6, -3.6439, -5.1023
+Coordinates 7, -4.4492, -6.0584
+Coordinates 8, -5.2544, -7.0144
+Coordinates 9, -6.0597, -7.9705
+Coordinates 10, -6.865, -8.9265
+Coordinates 11, -7.6703, -9.8826
+Coordinates 12, -8.4755, -10.8386
+Coordinates 13, -9.2808, -11.7947
+Coordinates 14, -10.0861, -12.7507
+Coordinates 15, -10.8913, -13.7068
+Coordinates 16, -11.6966, -14.6629
+Coordinates 17, -11.8255, -14.8158
+Coordinates 18, 0.8936, -0.4912
+Coordinates 19, 0.7648, -0.6442
+Coordinates 20, -0.0404, -1.6002
+Coordinates 21, -0.8457, -2.5563
+Coordinates 22, -1.6509, -3.5123
+Coordinates 23, -2.4562, -4.4684
+Coordinates 24, -3.2615, -5.4244
+Coordinates 25, -4.0667, -6.3805
+Coordinates 26, -4.872, -7.3365
+Coordinates 27, -5.6773, -8.2926
+Coordinates 28, -6.4826, -9.2486
+Coordinates 29, -7.2878, -10.2047
+Coordinates 30, -8.0931, -11.1607
+Coordinates 31, -8.8984, -12.1168
+Coordinates 32, -9.7036, -13.0729
+Coordinates 33, -10.5089, -14.0289
+Coordinates 34, -11.3142, -14.985
+Coordinates 35, -11.443, -15.1379
+Color 120,120,120
+[MeshBuilder]
+Vertex 4, -1.1, -0.8
+Vertex 4, -0.6, 0
+Vertex 4, -0.6, 5
+Vertex 4, -0.6, 10
+Vertex 4, -0.6, 15
+Vertex 4, -0.6, 20
+Vertex 4, -0.6, 25
+Vertex 4, -0.6, 30
+Vertex 4, -0.6, 35
+Vertex 4, -0.6, 40
+Vertex 4, -0.6, 45
+Vertex 4, -0.6, 50
+Vertex 4, -0.6, 55
+Vertex 4, -0.6, 60
+Vertex 4, -0.6, 65
+Vertex 4, -0.6, 70
+Vertex 4, -0.6, 75
+Vertex 4, -1.1, 75.8
+Vertex 25, -10.5, -0.8
+Vertex 25, -10, 0
+Vertex 22.8049, -9.0174, 5
+Vertex 20.6338, -8.0456, 10
+Vertex 18.5106, -7.0952, 15
+Vertex 16.4585, -6.1766, 20
+Vertex 14.5, -5.3, 25
+Vertex 12.6565, -4.4748, 30
+Vertex 10.9482, -3.7101, 35
+Vertex 9.3939, -3.0144, 40
+Vertex 8.0106, -2.3952, 45
+Vertex 6.8134, -1.8593, 50
+Vertex 5.8155, -1.4126, 55
+Vertex 5.0278, -1.06, 60
+Vertex 4.4589, -0.8054, 65
+Vertex 4.115, -0.6514, 70
+Vertex 4, -0.6, 75
+Vertex 4, -1.1, 75.8
+Vertex 20, -8.3, -0.8
+Vertex 20, -7.8, 0
+Vertex 80, 19.5, -0.8
+Vertex 80, 20, 0
+Vertex 80, 22, 7.5
+Vertex 80, 24, 15
+Vertex 80, 26, 22.5
+Vertex 80, 28, 30
+Vertex 80, 30, 37.5
+Vertex 80, 32, 45
+Vertex 80, 34, 52.5
+Vertex 80, 36, 60
+Vertex 80, 38, 67.5
+Vertex 80, 40, 75
+Vertex 80, 39.5, 75.8
+Face 15,16,33
+Face 14,15,33
+Face 13,14,32
+Face 14,33,32
+Face 13,32,31
+Face 12,13,31
+Face 12,31,30
+Face 11,12,30
+Face 11,30,29
+Face 10,11,29
+Face 9,10,28
+Face 10,29,28
+Face 8,9,27
+Face 9,28,27
+Face 8,27,26
+Face 7,8,26
+Face 7,26,25
+Face 6,7,25
+Face 5,6,24
+Face 6,25,24
+Face 5,24,23
+Face 4,5,23
+Face 3,4,22
+Face 4,23,22
+Face 0,1,37
+Face 0,37,36
+Face 1,2,37
+Face 2,3,21
+Face 3,22,21
+Face 2,21,37
+Face 37,21,20
+Face 36,37,19
+Face 36,19,18
+Face 37,20,19
+Face 16,49,33
+Face 16,17,50
+Face 16,50,49
+Face 33,48,32
+Face 33,49,48
+Face 32,48,31
+Face 31,47,30
+Face 31,48,47
+Face 30,47,29
+Face 29,47,46
+Face 29,46,28
+Face 28,46,27
+Face 27,46,45
+Face 27,45,26
+Face 26,45,25
+Face 25,45,44
+Face 25,44,24
+Face 24,44,23
+Face 23,44,43
+Face 23,43,22
+Face 22,43,42
+Face 22,42,21
+Face 21,42,20
+Face 20,42,41
+Face 20,41,19
+Face 19,41,40
+Face 18,19,39
+Face 18,39,38
+Face 19,40,39
+[Texture]
+Load ..\alap\bmp\Avar.BMP
+Coordinates 0, 0.5957, -0.3274
+Coordinates 1, 0.5098, -0.4294
+Coordinates 2, -0.0269, -1.0668
+Coordinates 3, -0.5638, -1.7042
+Coordinates 4, -1.1006, -2.3415
+Coordinates 5, -1.6374, -2.9789
+Coordinates 6, -2.1743, -3.6163
+Coordinates 7, -2.7111, -4.2536
+Coordinates 8, -3.248, -4.891
+Coordinates 9, -3.7848, -5.5284
+Coordinates 10, -4.3217, -6.1657
+Coordinates 11, -4.8585, -6.8031
+Coordinates 12, -5.3954, -7.4405
+Coordinates 13, -5.9322, -8.0779
+Coordinates 14, -6.4691, -8.7152
+Coordinates 15, -7.0059, -9.3526
+Coordinates 16, -7.5428, -9.99
+Coordinates 17, -7.6287, -10.0919
+Coordinates 18, 3.2727, -2.5822
+Coordinates 19, 3.1868, -2.6842
+Coordinates 20, 2.3701, -3.0859
+Coordinates 21, 1.5565, -3.4901
+Coordinates 22, 0.749, -3.8995
+Coordinates 23, -0.0493, -4.3166
+Coordinates 24, -0.8358, -4.7437
+Coordinates 25, -1.6077, -5.1831
+Coordinates 26, -2.3623, -5.637
+Coordinates 27, -3.0973, -6.1075
+Coordinates 28, -3.8104, -6.5964
+Coordinates 29, -4.4999, -7.1052
+Coordinates 30, -5.164, -7.6354
+Coordinates 31, -5.8012, -8.1882
+Coordinates 32, -6.4106, -8.7645
+Coordinates 33, -6.9913, -9.3649
+Coordinates 34, -7.5428, -9.99
+Coordinates 35, -7.6287, -10.0919
+Coordinates 36, 2.6353, -2.0454
+Coordinates 37, 2.5494, -2.1473
+Coordinates 38, 10.2837, -8.4875
+Coordinates 39, 10.1978, -8.5895
+Coordinates 40, 9.3926, -9.5456
+Coordinates 41, 8.5873, -10.5016
+Coordinates 42, 7.782, -11.4577
+Coordinates 43, 6.9768, -12.4137
+Coordinates 44, 6.1715, -13.3698
+Coordinates 45, 5.3662, -14.3258
+Coordinates 46, 4.5609, -15.2819
+Coordinates 47, 3.7557, -16.2379
+Coordinates 48, 2.9504, -17.194
+Coordinates 49, 2.1451, -18.15
+Coordinates 50, 2.0592, -18.252
+Color 110,120,110
+[MeshBuilder]
+Vertex -8.0839, 22.8648, 8.0839
+Vertex 8.0839, 22.8648, 8.0839
+Vertex 8.0839, 22.8648, -8.0839
+Vertex -8.0839, 22.8648, -8.0839
+Vertex -8.0839, 0, 8.0839
+Vertex 8.0839, 0, 8.0839
+Vertex 8.0839, 0, -8.0839
+Vertex -8.0839, 0, -8.0839
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 36.3937, 8.1993, 36.2983
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 207, 207, 207
+[MeshBuilder]
+Vertex -10.1022, 28.5734, 10.1022
+Vertex 10.1022, 28.5734, 10.1022
+Vertex 10.1022, 28.5734, -10.1022
+Vertex -10.1022, 28.5734, -10.1022
+Vertex -10.1022, 0, 10.1022
+Vertex 10.1022, 0, 10.1022
+Vertex 10.1022, 0, -10.1022
+Vertex -10.1022, 0, -10.1022
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 9.6233, 1.8533, 72.7543
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 187, 187, 187
+[MeshBuilder]
+Vertex -6.33, 17.904, 6.33
+Vertex 6.33, 17.904, 6.33
+Vertex 6.33, 17.904, -6.33
+Vertex -6.33, 17.904, -6.33
+Vertex -6.33, 0, 6.33
+Vertex 6.33, 0, 6.33
+Vertex 6.33, 0, -6.33
+Vertex -6.33, 0, -6.33
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 54.7399, 12.1005, 20.1547
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 167, 167, 167
+[MeshBuilder]
+Vertex -10.5093, 29.7248, 10.5093
+Vertex 10.5093, 29.7248, 10.5093
+Vertex 10.5093, 29.7248, -10.5093
+Vertex -10.5093, 29.7248, -10.5093
+Vertex -10.5093, 0, 10.5093
+Vertex 10.5093, 0, 10.5093
+Vertex 10.5093, 0, -10.5093
+Vertex -10.5093, 0, -10.5093
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 7.0518, 0.0458, 65.3772
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 203, 203, 203
+[MeshBuilder]
+Vertex -2.8111, 15.9024, 2.8111
+Vertex 2.8111, 15.9024, 2.8111
+Vertex 2.8111, 15.9024, -2.8111
+Vertex -2.8111, 15.9024, -2.8111
+Vertex -2.8111, 0, 2.8111
+Vertex 2.8111, 0, 2.8111
+Vertex 2.8111, 0, -2.8111
+Vertex -2.8111, 0, -2.8111
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 33.2577, -4.1758, 5.1701
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 222, 222, 222
+[MeshBuilder]
+Vertex -7.2212, 20.4248, 7.2212
+Vertex 7.2212, 20.4248, 7.2212
+Vertex 7.2212, 20.4248, -7.2212
+Vertex -7.2212, 20.4248, -7.2212
+Vertex -7.2212, 0, 7.2212
+Vertex 7.2212, 0, 7.2212
+Vertex 7.2212, 0, -7.2212
+Vertex -7.2212, 0, -7.2212
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 46.4089, 19.1347, 60.8977
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 218, 218, 218
+[MeshBuilder]
+Vertex -7.8134, 22.0997, 7.8134
+Vertex 7.8134, 22.0997, 7.8134
+Vertex 7.8134, 22.0997, -7.8134
+Vertex -7.8134, 22.0997, -7.8134
+Vertex -7.8134, 0, 7.8134
+Vertex 7.8134, 0, 7.8134
+Vertex 7.8134, 0, -7.8134
+Vertex -7.8134, 0, -7.8134
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 43.4737, -0.8291, -0.6491
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 253, 253, 253
+[MeshBuilder]
+Vertex -2.4435, 13.823, 2.4435
+Vertex 2.4435, 13.823, 2.4435
+Vertex 2.4435, 13.823, -2.4435
+Vertex -2.4435, 13.823, -2.4435
+Vertex -2.4435, 0, 2.4435
+Vertex 2.4435, 0, 2.4435
+Vertex 2.4435, 0, -2.4435
+Vertex -2.4435, 0, -2.4435
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 11.8032, -4.5929, 19.624
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 246, 246, 246
+[MeshBuilder]
+Vertex -2.3112, 13.0743, 2.3112
+Vertex 2.3112, 13.0743, 2.3112
+Vertex 2.3112, 13.0743, -2.3112
+Vertex -2.3112, 13.0743, -2.3112
+Vertex -2.3112, 0, 2.3112
+Vertex 2.3112, 0, 2.3112
+Vertex 2.3112, 0, -2.3112
+Vertex -2.3112, 0, -2.3112
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 23.1994, 0.7289, 32.3237
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 250, 250, 250
+[MeshBuilder]
+Vertex -6.8582, 19.3981, 6.8582
+Vertex 6.8582, 19.3981, 6.8582
+Vertex 6.8582, 19.3981, -6.8582
+Vertex -6.8582, 19.3981, -6.8582
+Vertex -6.8582, 0, 6.8582
+Vertex 6.8582, 0, 6.8582
+Vertex 6.8582, 0, -6.8582
+Vertex -6.8582, 0, -6.8582
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 23.8552, -5.9535, 12.5491
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 174, 174, 174
+[MeshBuilder]
+Vertex -6.8012, 19.2368, 6.8012
+Vertex 6.8012, 19.2368, 6.8012
+Vertex 6.8012, 19.2368, -6.8012
+Vertex -6.8012, 19.2368, -6.8012
+Vertex -6.8012, 0, 6.8012
+Vertex 6.8012, 0, 6.8012
+Vertex 6.8012, 0, -6.8012
+Vertex -6.8012, 0, -6.8012
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 51.81, 14.9336, 33.9625
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 187, 187, 187
+[MeshBuilder]
+Vertex -10.0233, 28.3504, 10.0233
+Vertex 10.0233, 28.3504, 10.0233
+Vertex 10.0233, 28.3504, -10.0233
+Vertex -10.0233, 28.3504, -10.0233
+Vertex -10.0233, 0, 10.0233
+Vertex 10.0233, 0, 10.0233
+Vertex 10.0233, 0, -10.0233
+Vertex -10.0233, 0, -10.0233
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 63.1311, 29.4951, 70.2576
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 251, 251, 251
+[MeshBuilder]
+Vertex -2.2819, 12.9088, 2.2819
+Vertex 2.2819, 12.9088, 2.2819
+Vertex 2.2819, 12.9088, -2.2819
+Vertex -2.2819, 12.9088, -2.2819
+Vertex -2.2819, 0, 2.2819
+Vertex 2.2819, 0, 2.2819
+Vertex 2.2819, 0, -2.2819
+Vertex -2.2819, 0, -2.2819
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 58.3144, 19.8087, 40.342
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 187, 187, 187
+[MeshBuilder]
+Vertex -11.2698, 31.876, 11.2698
+Vertex 11.2698, 31.876, 11.2698
+Vertex 11.2698, 31.876, -11.2698
+Vertex -11.2698, 31.876, -11.2698
+Vertex -11.2698, 0, 11.2698
+Vertex 11.2698, 0, 11.2698
+Vertex 11.2698, 0, -11.2698
+Vertex -11.2698, 0, -11.2698
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 20.6921, 7.3289, 69.5926
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 244, 244, 244
+[MeshBuilder]
+Vertex -6.9707, 19.7162, 6.9707
+Vertex 6.9707, 19.7162, 6.9707
+Vertex 6.9707, 19.7162, -6.9707
+Vertex -6.9707, 19.7162, -6.9707
+Vertex -6.9707, 0, 6.9707
+Vertex 6.9707, 0, 6.9707
+Vertex 6.9707, 0, -6.9707
+Vertex -6.9707, 0, -6.9707
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 55.2163, 8.144, 8.1089
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 229, 229, 229
+[MeshBuilder]
+Vertex -11.1147, 31.4372, 11.1147
+Vertex 11.1147, 31.4372, 11.1147
+Vertex 11.1147, 31.4372, -11.1147
+Vertex -11.1147, 31.4372, -11.1147
+Vertex -11.1147, 0, 11.1147
+Vertex 11.1147, 0, 11.1147
+Vertex 11.1147, 0, -11.1147
+Vertex -11.1147, 0, -11.1147
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 47.1936, 7.4394, 17.4852
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 251, 251, 251
+[MeshBuilder]
+Vertex -7.6557, 21.6538, 7.6557
+Vertex 7.6557, 21.6538, 7.6557
+Vertex 7.6557, 21.6538, -7.6557
+Vertex -7.6557, 21.6538, -7.6557
+Vertex -7.6557, 0, 7.6557
+Vertex 7.6557, 0, 7.6557
+Vertex 7.6557, 0, -7.6557
+Vertex -7.6557, 0, -7.6557
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 27.7065, 6.334, 44.2109
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 184, 184, 184
+[MeshBuilder]
+Vertex -2.6007, 14.7119, 2.6007
+Vertex 2.6007, 14.7119, 2.6007
+Vertex 2.6007, 14.7119, -2.6007
+Vertex -2.6007, 14.7119, -2.6007
+Vertex -2.6007, 0, 2.6007
+Vertex 2.6007, 0, 2.6007
+Vertex 2.6007, 0, -2.6007
+Vertex -2.6007, 0, -2.6007
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 8.7291, -3.2168, 27.567
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 251, 251, 251
+[MeshBuilder]
+Vertex -12.1769, 34.4415, 12.1769
+Vertex 12.1769, 34.4415, 12.1769
+Vertex 12.1769, 34.4415, -12.1769
+Vertex -12.1769, 34.4415, -12.1769
+Vertex -12.1769, 0, 12.1769
+Vertex 12.1769, 0, 12.1769
+Vertex 12.1769, 0, -12.1769
+Vertex -12.1769, 0, -12.1769
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 33.1113, 13.106, 63.1277
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 156, 156, 156
+[MeshBuilder]
+Vertex -6.4866, 18.3469, 6.4866
+Vertex 6.4866, 18.3469, 6.4866
+Vertex 6.4866, 18.3469, -6.4866
+Vertex -6.4866, 18.3469, -6.4866
+Vertex -6.4866, 0, 6.4866
+Vertex 6.4866, 0, 6.4866
+Vertex 6.4866, 0, -6.4866
+Vertex -6.4866, 0, -6.4866
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 34.8644, 12.5255, 55.8287
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 155, 155, 155
+[MeshBuilder]
+Vertex -10.7021, 30.2702, 10.7021
+Vertex 10.7021, 30.2702, 10.7021
+Vertex 10.7021, 30.2702, -10.7021
+Vertex -10.7021, 30.2702, -10.7021
+Vertex -10.7021, 0, 10.7021
+Vertex 10.7021, 0, 10.7021
+Vertex 10.7021, 0, -10.7021
+Vertex -10.7021, 0, -10.7021
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 49.8586, 18.2184, 49.1915
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 160, 160, 160
+[MeshBuilder]
+Vertex -11.2253, 31.7501, 11.2253
+Vertex 11.2253, 31.7501, 11.2253
+Vertex 11.2253, 31.7501, -11.2253
+Vertex -11.2253, 31.7501, -11.2253
+Vertex -11.2253, 0, 11.2253
+Vertex 11.2253, 0, 11.2253
+Vertex 11.2253, 0, -11.2253
+Vertex -11.2253, 0, -11.2253
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 25.1934, 9.5529, 68.825
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 228, 228, 228
+[MeshBuilder]
+Vertex -6.4486, 18.2394, 6.4486
+Vertex 6.4486, 18.2394, 6.4486
+Vertex 6.4486, 18.2394, -6.4486
+Vertex -6.4486, 18.2394, -6.4486
+Vertex -6.4486, 0, 6.4486
+Vertex 6.4486, 0, 6.4486
+Vertex 6.4486, 0, -6.4486
+Vertex -6.4486, 0, -6.4486
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 40.609, 15.3325, 55.7348
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 193, 193, 193
+[MeshBuilder]
+Vertex -6.7461, 19.0809, 6.7461
+Vertex 6.7461, 19.0809, 6.7461
+Vertex 6.7461, 19.0809, -6.7461
+Vertex -6.7461, 19.0809, -6.7461
+Vertex -6.7461, 0, 6.7461
+Vertex 6.7461, 0, 6.7461
+Vertex 6.7461, 0, -6.7461
+Vertex -6.7461, 0, -6.7461
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 28.1854, -0.5148, 21.4621
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 197, 197, 197
+[MeshBuilder]
+Vertex -8.032, 22.7181, 8.032
+Vertex 8.032, 22.7181, 8.032
+Vertex 8.032, 22.7181, -8.032
+Vertex -8.032, 22.7181, -8.032
+Vertex -8.032, 0, 8.032
+Vertex 8.032, 0, 8.032
+Vertex 8.032, 0, -8.032
+Vertex -8.032, 0, -8.032
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 43.8114, 3.4758, 11.7526
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 169, 169, 169
+[MeshBuilder]
+Vertex -7.5629, 21.3912, 7.5629
+Vertex 7.5629, 21.3912, 7.5629
+Vertex 7.5629, 21.3912, -7.5629
+Vertex -7.5629, 21.3912, -7.5629
+Vertex -7.5629, 0, 7.5629
+Vertex 7.5629, 0, 7.5629
+Vertex 7.5629, 0, -7.5629
+Vertex -7.5629, 0, -7.5629
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 67.8505, 28.7719, 56.6779
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 232, 232, 232
+[MeshBuilder]
+Vertex -2.7315, 15.4517, 2.7315
+Vertex 2.7315, 15.4517, 2.7315
+Vertex 2.7315, 15.4517, -2.7315
+Vertex -2.7315, 15.4517, -2.7315
+Vertex -2.7315, 0, 2.7315
+Vertex 2.7315, 0, 2.7315
+Vertex 2.7315, 0, -2.7315
+Vertex -2.7315, 0, -2.7315
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 22.7517, -1.9507, 24.912
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 170, 170, 170
+[MeshBuilder]
+Vertex -6.059, 17.1374, 6.059
+Vertex 6.059, 17.1374, 6.059
+Vertex 6.059, 17.1374, -6.059
+Vertex -6.059, 17.1374, -6.059
+Vertex -6.059, 0, 6.059
+Vertex 6.059, 0, 6.059
+Vertex 6.059, 0, -6.059
+Vertex -6.059, 0, -6.059
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 10.4845, -4.4773, -0.7348
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 165, 165, 165
+[MeshBuilder]
+Vertex -6.442, 18.2207, 6.442
+Vertex 6.442, 18.2207, 6.442
+Vertex 6.442, 18.2207, -6.442
+Vertex -6.442, 18.2207, -6.442
+Vertex -6.442, 0, 6.442
+Vertex 6.442, 0, 6.442
+Vertex 6.442, 0, -6.442
+Vertex -6.442, 0, -6.442
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 8.7566, -3.2291, 14.7469
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 216, 216, 216
+[MeshBuilder]
+Vertex -2.2976, 12.9976, 2.2976
+Vertex 2.2976, 12.9976, 2.2976
+Vertex 2.2976, 12.9976, -2.2976
+Vertex -2.2976, 12.9976, -2.2976
+Vertex -2.2976, 0, 2.2976
+Vertex 2.2976, 0, 2.2976
+Vertex 2.2976, 0, -2.2976
+Vertex -2.2976, 0, -2.2976
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 58.2736, 17.0374, 31.1678
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 212, 212, 212
+[MeshBuilder]
+Vertex -7.7677, 21.9704, 7.7677
+Vertex 7.7677, 21.9704, 7.7677
+Vertex 7.7677, 21.9704, -7.7677
+Vertex -7.7677, 21.9704, -7.7677
+Vertex -7.7677, 0, 7.7677
+Vertex 7.7677, 0, 7.7677
+Vertex 7.7677, 0, -7.7677
+Vertex -7.7677, 0, -7.7677
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 9.4444, -3.3147, 40.6847
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 193, 193, 193
+[MeshBuilder]
+Vertex -6.1376, 17.3598, 6.1376
+Vertex 6.1376, 17.3598, 6.1376
+Vertex 6.1376, 17.3598, -6.1376
+Vertex -6.1376, 17.3598, -6.1376
+Vertex -6.1376, 0, 6.1376
+Vertex 6.1376, 0, 6.1376
+Vertex 6.1376, 0, -6.1376
+Vertex -6.1376, 0, -6.1376
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 30.8075, -7.3523, -0.0321
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 171, 171, 171
+[MeshBuilder]
+Vertex -6.9942, 19.7827, 6.9942
+Vertex 6.9942, 19.7827, 6.9942
+Vertex 6.9942, 19.7827, -6.9942
+Vertex -6.9942, 19.7827, -6.9942
+Vertex -6.9942, 0, 6.9942
+Vertex 6.9942, 0, 6.9942
+Vertex 6.9942, 0, -6.9942
+Vertex -6.9942, 0, -6.9942
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 50.2404, 11.017, 24.0628
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 232, 232, 232
+[MeshBuilder]
+Vertex -7.4474, 21.0646, 7.4474
+Vertex 7.4474, 21.0646, 7.4474
+Vertex 7.4474, 21.0646, -7.4474
+Vertex -7.4474, 21.0646, -7.4474
+Vertex -7.4474, 0, 7.4474
+Vertex 7.4474, 0, 7.4474
+Vertex 7.4474, 0, -7.4474
+Vertex -7.4474, 0, -7.4474
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 5.6402, -1.8341, 8.6345
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 165, 165, 165
+[MeshBuilder]
+Vertex -6.0243, 17.0394, 6.0243
+Vertex 6.0243, 17.0394, 6.0243
+Vertex 6.0243, 17.0394, -6.0243
+Vertex -6.0243, 17.0394, -6.0243
+Vertex -6.0243, 0, 6.0243
+Vertex 6.0243, 0, 6.0243
+Vertex 6.0243, 0, -6.0243
+Vertex -6.0243, 0, -6.0243
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 9.1235, -0.9073, 51.6868
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 243, 243, 243
+[MeshBuilder]
+Vertex -2.3888, 13.5133, 2.3888
+Vertex 2.3888, 13.5133, 2.3888
+Vertex 2.3888, 13.5133, -2.3888
+Vertex -2.3888, 13.5133, -2.3888
+Vertex -2.3888, 0, 2.3888
+Vertex 2.3888, 0, 2.3888
+Vertex 2.3888, 0, -2.3888
+Vertex -2.3888, 0, -2.3888
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 28.82, 10.1417, 59.6016
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 220, 220, 220
+[MeshBuilder]
+Vertex -7.7749, 21.9908, 7.7749
+Vertex 7.7749, 21.9908, 7.7749
+Vertex 7.7749, 21.9908, -7.7749
+Vertex -7.7749, 21.9908, -7.7749
+Vertex -7.7749, 0, 7.7749
+Vertex 7.7749, 0, 7.7749
+Vertex 7.7749, 0, -7.7749
+Vertex -7.7749, 0, -7.7749
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 66.2804, 17.1701, 18.4743
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 196, 196, 196
+[MeshBuilder]
+Vertex -7.5461, 21.3436, 7.5461
+Vertex 7.5461, 21.3436, 7.5461
+Vertex 7.5461, 21.3436, -7.5461
+Vertex -7.5461, 21.3436, -7.5461
+Vertex -7.5461, 0, 7.5461
+Vertex 7.5461, 0, 7.5461
+Vertex 7.5461, 0, -7.5461
+Vertex -7.5461, 0, -7.5461
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 14.1326, -5.6428, 6.1522
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 218, 218, 218
+[MeshBuilder]
+Vertex -9.6519, 27.2998, 9.6519
+Vertex 9.6519, 27.2998, 9.6519
+Vertex 9.6519, 27.2998, -9.6519
+Vertex -9.6519, 27.2998, -9.6519
+Vertex -9.6519, 0, 9.6519
+Vertex 9.6519, 0, 9.6519
+Vertex 9.6519, 0, -9.6519
+Vertex -9.6519, 0, -9.6519
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 41.277, 10.5211, 36.3539
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 250, 250, 250
+[MeshBuilder]
+Vertex -6.0703, 17.1696, 6.0703
+Vertex 6.0703, 17.1696, 6.0703
+Vertex 6.0703, 17.1696, -6.0703
+Vertex -6.0703, 17.1696, -6.0703
+Vertex -6.0703, 0, 6.0703
+Vertex 6.0703, 0, 6.0703
+Vertex 6.0703, 0, -6.0703
+Vertex -6.0703, 0, -6.0703
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 17.2336, 4.3194, 58.9617
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 248, 248, 248
+[MeshBuilder]
+Vertex -11.7741, 33.3023, 11.7741
+Vertex 11.7741, 33.3023, 11.7741
+Vertex 11.7741, 33.3023, -11.7741
+Vertex -11.7741, 33.3023, -11.7741
+Vertex -11.7741, 0, 11.7741
+Vertex 11.7741, 0, 11.7741
+Vertex 11.7741, 0, -11.7741
+Vertex -11.7741, 0, -11.7741
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 60.6739, 13.1557, 14.6669
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 158, 158, 158
+[MeshBuilder]
+Vertex -6.0696, 17.1675, 6.0696
+Vertex 6.0696, 17.1675, 6.0696
+Vertex 6.0696, 17.1675, -6.0696
+Vertex -6.0696, 17.1675, -6.0696
+Vertex -6.0696, 0, 6.0696
+Vertex 6.0696, 0, 6.0696
+Vertex 6.0696, 0, -6.0696
+Vertex -6.0696, 0, -6.0696
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 24.8137, -7.8657, 6.6529
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 165, 165, 165
+[MeshBuilder]
+Vertex -10.5256, 29.7708, 10.5256
+Vertex 10.5256, 29.7708, 10.5256
+Vertex 10.5256, 29.7708, -10.5256
+Vertex -10.5256, 29.7708, -10.5256
+Vertex -10.5256, 0, 10.5256
+Vertex 10.5256, 0, 10.5256
+Vertex 10.5256, 0, -10.5256
+Vertex -10.5256, 0, -10.5256
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 73.9162, 20.2864, 15.0553
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 249, 249, 249
+[MeshBuilder]
+Vertex -2.7722, 15.6823, 2.7722
+Vertex 2.7722, 15.6823, 2.7722
+Vertex 2.7722, 15.6823, -2.7722
+Vertex -2.7722, 15.6823, -2.7722
+Vertex -2.7722, 0, 2.7722
+Vertex 2.7722, 0, 2.7722
+Vertex 2.7722, 0, -2.7722
+Vertex -2.7722, 0, -2.7722
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 70.1033, 22.0509, 28.1107
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 241, 241, 241
+[MeshBuilder]
+Vertex -7.5476, 21.3479, 7.5476
+Vertex 7.5476, 21.3479, 7.5476
+Vertex 7.5476, 21.3479, -7.5476
+Vertex -7.5476, 21.3479, -7.5476
+Vertex -7.5476, 0, 7.5476
+Vertex 7.5476, 0, 7.5476
+Vertex 7.5476, 0, -7.5476
+Vertex -7.5476, 0, -7.5476
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 44.2982, 13.2268, 40.4918
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 176, 176, 176
+[MeshBuilder]
+Vertex -7.0737, 20.0076, 7.0737
+Vertex 7.0737, 20.0076, 7.0737
+Vertex 7.0737, 20.0076, -7.0737
+Vertex -7.0737, 20.0076, -7.0737
+Vertex -7.0737, 0, 7.0737
+Vertex 7.0737, 0, 7.0737
+Vertex 7.0737, 0, -7.0737
+Vertex -7.0737, 0, -7.0737
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 66.0684, 29.9783, 65.1187
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 205, 205, 205
+[MeshBuilder]
+Vertex -11.0199, 31.1691, 11.0199
+Vertex 11.0199, 31.1691, 11.0199
+Vertex 11.0199, 31.1691, -11.0199
+Vertex -11.0199, 31.1691, -11.0199
+Vertex -11.0199, 0, 11.0199
+Vertex 11.0199, 0, 11.0199
+Vertex 11.0199, 0, -11.0199
+Vertex -11.0199, 0, -11.0199
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 27.6922, 11.5534, 74.8606
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 176, 176, 176
+[MeshBuilder]
+Vertex -2.3793, 13.4598, 2.3793
+Vertex 2.3793, 13.4598, 2.3793
+Vertex 2.3793, 13.4598, -2.3793
+Vertex -2.3793, 13.4598, -2.3793
+Vertex -2.3793, 0, 2.3793
+Vertex 2.3793, 0, 2.3793
+Vertex 2.3793, 0, -2.3793
+Vertex -2.3793, 0, -2.3793
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 59.8053, 15.295, 22.5279
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 189, 189, 189
+[MeshBuilder]
+Vertex -7.7566, 21.9391, 7.7566
+Vertex 7.7566, 21.9391, 7.7566
+Vertex 7.7566, 21.9391, -7.7566
+Vertex -7.7566, 21.9391, -7.7566
+Vertex -7.7566, 0, 7.7566
+Vertex 7.7566, 0, 7.7566
+Vertex 7.7566, 0, -7.7566
+Vertex -7.7566, 0, -7.7566
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 66.2637, 13.8952, 7.0791
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 189, 189, 189
+[MeshBuilder]
+Vertex -6.0683, 17.1638, 6.0683
+Vertex 6.0683, 17.1638, 6.0683
+Vertex 6.0683, 17.1638, -6.0683
+Vertex -6.0683, 17.1638, -6.0683
+Vertex -6.0683, 0, 6.0683
+Vertex 6.0683, 0, 6.0683
+Vertex 6.0683, 0, -6.0683
+Vertex -6.0683, 0, -6.0683
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 15.3633, 4.938, 73.5678
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 159, 159, 159
+[MeshBuilder]
+Vertex -7.5649, 21.3968, 7.5649
+Vertex 7.5649, 21.3968, 7.5649
+Vertex 7.5649, 21.3968, -7.5649
+Vertex -7.5649, 21.3968, -7.5649
+Vertex -7.5649, 0, 7.5649
+Vertex 7.5649, 0, 7.5649
+Vertex 7.5649, 0, -7.5649
+Vertex -7.5649, 0, -7.5649
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 31.6549, 10.0229, 51.6385
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 209, 209, 209
+[MeshBuilder]
+Vertex -11.5375, 32.6332, 11.5375
+Vertex 11.5375, 32.6332, 11.5375
+Vertex 11.5375, 32.6332, -11.5375
+Vertex -11.5375, 32.6332, -11.5375
+Vertex -11.5375, 0, 11.5375
+Vertex 11.5375, 0, 11.5375
+Vertex 11.5375, 0, -11.5375
+Vertex -11.5375, 0, -11.5375
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 22.7509, 6.0767, 53.2
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 200, 200, 200
+[MeshBuilder]
+Vertex -11.353, 32.1112, 11.353
+Vertex 11.353, 32.1112, 11.353
+Vertex 11.353, 32.1112, -11.353
+Vertex -11.353, 32.1112, -11.353
+Vertex -11.353, 0, 11.353
+Vertex 11.353, 0, 11.353
+Vertex 11.353, 0, -11.353
+Vertex -11.353, 0, -11.353
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 42.0715, 18.8233, 75.6637
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 243, 243, 243
+[MeshBuilder]
+Vertex -10.7752, 30.4769, 10.7752
+Vertex 10.7752, 30.4769, 10.7752
+Vertex 10.7752, 30.4769, -10.7752
+Vertex -10.7752, 30.4769, -10.7752
+Vertex -10.7752, 0, 10.7752
+Vertex 10.7752, 0, 10.7752
+Vertex 10.7752, 0, -10.7752
+Vertex -10.7752, 0, -10.7752
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 47.0262, 13.2053, 36.0229
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 164, 164, 164
+[MeshBuilder]
+Vertex -2.6946, 15.2431, 2.6946
+Vertex 2.6946, 15.2431, 2.6946
+Vertex 2.6946, 15.2431, -2.6946
+Vertex -2.6946, 15.2431, -2.6946
+Vertex -2.6946, 0, 2.6946
+Vertex 2.6946, 0, 2.6946
+Vertex 2.6946, 0, -2.6946
+Vertex -2.6946, 0, -2.6946
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 42.6354, 8.8343, 28.8988
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 197, 197, 197
+[MeshBuilder]
+Vertex -6.2601, 17.7063, 6.2601
+Vertex 6.2601, 17.7063, 6.2601
+Vertex 6.2601, 17.7063, -6.2601
+Vertex -6.2601, 17.7063, -6.2601
+Vertex -6.2601, 0, 6.2601
+Vertex 6.2601, 0, 6.2601
+Vertex 6.2601, 0, -6.2601
+Vertex -6.2601, 0, -6.2601
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 71.5601, 28.9586, 50.5676
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 211, 211, 211
+[MeshBuilder]
+Vertex -6.5858, 18.6276, 6.5858
+Vertex 6.5858, 18.6276, 6.5858
+Vertex 6.5858, 18.6276, -6.5858
+Vertex -6.5858, 18.6276, -6.5858
+Vertex -6.5858, 0, 6.5858
+Vertex 6.5858, 0, 6.5858
+Vertex 6.5858, 0, -6.5858
+Vertex -6.5858, 0, -6.5858
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 54.1424, 24.3104, 68.0601
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 197, 197, 197
+[MeshBuilder]
+Vertex -6.7585, 19.116, 6.7585
+Vertex 6.7585, 19.116, 6.7585
+Vertex 6.7585, 19.116, -6.7585
+Vertex -6.7585, 19.116, -6.7585
+Vertex -6.7585, 0, 6.7585
+Vertex 6.7585, 0, 6.7585
+Vertex 6.7585, 0, -6.7585
+Vertex -6.7585, 0, -6.7585
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 78.9022, 37.2265, 68.6075
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 249, 249, 249
+[MeshBuilder]
+Vertex -6.3731, 18.026, 6.3731
+Vertex 6.3731, 18.026, 6.3731
+Vertex 6.3731, 18.026, -6.3731
+Vertex -6.3731, 18.026, -6.3731
+Vertex -6.3731, 0, 6.3731
+Vertex 6.3731, 0, 6.3731
+Vertex 6.3731, 0, -6.3731
+Vertex -6.3731, 0, -6.3731
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 19.3267, -7.9769, 5.385
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 252, 252, 252
+[MeshBuilder]
+Vertex -2.2896, 12.9519, 2.2896
+Vertex 2.2896, 12.9519, 2.2896
+Vertex 2.2896, 12.9519, -2.2896
+Vertex -2.2896, 12.9519, -2.2896
+Vertex -2.2896, 0, 2.2896
+Vertex 2.2896, 0, 2.2896
+Vertex 2.2896, 0, -2.2896
+Vertex -2.2896, 0, -2.2896
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 39.5566, 11.1047, 40.9551
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 166, 166, 166
+[MeshBuilder]
+Vertex -7.5019, 21.2187, 7.5019
+Vertex 7.5019, 21.2187, 7.5019
+Vertex 7.5019, 21.2187, -7.5019
+Vertex -7.5019, 21.2187, -7.5019
+Vertex -7.5019, 0, 7.5019
+Vertex 7.5019, 0, 7.5019
+Vertex 7.5019, 0, -7.5019
+Vertex -7.5019, 0, -7.5019
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 42.8415, 18.8296, 69.6843
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 202, 202, 202
+[MeshBuilder]
+Vertex -2.5216, 14.2646, 2.5216
+Vertex 2.5216, 14.2646, 2.5216
+Vertex 2.5216, 14.2646, -2.5216
+Vertex -2.5216, 14.2646, -2.5216
+Vertex -2.5216, 0, 2.5216
+Vertex 2.5216, 0, 2.5216
+Vertex 2.5216, 0, -2.5216
+Vertex -2.5216, 0, -2.5216
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 22.9708, 4.1413, 44.5036
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 176, 176, 176
+[MeshBuilder]
+Vertex -2.6709, 15.1089, 2.6709
+Vertex 2.6709, 15.1089, 2.6709
+Vertex 2.6709, 15.1089, -2.6709
+Vertex -2.6709, 15.1089, -2.6709
+Vertex -2.6709, 0, 2.6709
+Vertex 2.6709, 0, 2.6709
+Vertex 2.6709, 0, -2.6709
+Vertex -2.6709, 0, -2.6709
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 16.8184, -6.8378, 12.1696
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 200, 200, 200
+[MeshBuilder]
+Vertex -7.3276, 20.7257, 7.3276
+Vertex 7.3276, 20.7257, 7.3276
+Vertex 7.3276, 20.7257, -7.3276
+Vertex -7.3276, 20.7257, -7.3276
+Vertex -7.3276, 0, 7.3276
+Vertex 7.3276, 0, 7.3276
+Vertex 7.3276, 0, -7.3276
+Vertex -7.3276, 0, -7.3276
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 51.9271, 16.8257, 40.4367
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 226, 226, 226
+[MeshBuilder]
+Vertex -6.8622, 19.4093, 6.8622
+Vertex 6.8622, 19.4093, 6.8622
+Vertex 6.8622, 19.4093, -6.8622
+Vertex -6.8622, 19.4093, -6.8622
+Vertex -6.8622, 0, 6.8622
+Vertex 6.8622, 0, 6.8622
+Vertex 6.8622, 0, -6.8622
+Vertex -6.8622, 0, -6.8622
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 72.718, 16.5611, 3.8741
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 160, 160, 160
+[MeshBuilder]
+Vertex -6.4023, 18.1085, 6.4023
+Vertex 6.4023, 18.1085, 6.4023
+Vertex 6.4023, 18.1085, -6.4023
+Vertex -6.4023, 18.1085, -6.4023
+Vertex -6.4023, 0, 6.4023
+Vertex 6.4023, 0, 6.4023
+Vertex 6.4023, 0, -6.4023
+Vertex -6.4023, 0, -6.4023
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 77.7628, 24.667, 23.6188
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 230, 230, 230
+[MeshBuilder]
+Vertex -12.059, 34.1082, 12.059
+Vertex 12.059, 34.1082, 12.059
+Vertex 12.059, 34.1082, -12.059
+Vertex -12.059, 34.1082, -12.059
+Vertex -12.059, 0, 12.059
+Vertex 12.059, 0, 12.059
+Vertex 12.059, 0, -12.059
+Vertex -12.059, 0, -12.059
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 33.4268, 8.4952, 42.045
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 156, 156, 156
+[MeshBuilder]
+Vertex -9.2707, 26.2215, 9.2707
+Vertex 9.2707, 26.2215, 9.2707
+Vertex 9.2707, 26.2215, -9.2707
+Vertex -9.2707, 26.2215, -9.2707
+Vertex -9.2707, 0, 9.2707
+Vertex 9.2707, 0, 9.2707
+Vertex 9.2707, 0, -9.2707
+Vertex -9.2707, 0, -9.2707
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 66.052, 24.131, 42.4842
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 193, 193, 193
+[MeshBuilder]
+Vertex -6.0482, 17.1069, 6.0482
+Vertex 6.0482, 17.1069, 6.0482
+Vertex 6.0482, 17.1069, -6.0482
+Vertex -6.0482, 17.1069, -6.0482
+Vertex -6.0482, 0, 6.0482
+Vertex 6.0482, 0, 6.0482
+Vertex 6.0482, 0, -6.0482
+Vertex -6.0482, 0, -6.0482
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 7.5332, -2.6815, 34.9906
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 235, 235, 235
+[MeshBuilder]
+Vertex -7.3124, 20.6826, 7.3124
+Vertex 7.3124, 20.6826, 7.3124
+Vertex 7.3124, 20.6826, -7.3124
+Vertex -7.3124, 20.6826, -7.3124
+Vertex -7.3124, 0, 7.3124
+Vertex 7.3124, 0, 7.3124
+Vertex 7.3124, 0, -7.3124
+Vertex -7.3124, 0, -7.3124
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 7.5527, -2.6902, 44.9024
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 165, 165, 165
+[MeshBuilder]
+Vertex -2.3178, 13.1117, 2.3178
+Vertex 2.3178, 13.1117, 2.3178
+Vertex 2.3178, 13.1117, -2.3178
+Vertex -2.3178, 13.1117, -2.3178
+Vertex -2.3178, 0, 2.3178
+Vertex 2.3178, 0, 2.3178
+Vertex 2.3178, 0, -2.3178
+Vertex -2.3178, 0, -2.3178
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 13.3474, 0.6384, 49.3085
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 197, 197, 197
+[MeshBuilder]
+Vertex -2.3851, 13.4924, 2.3851
+Vertex 2.3851, 13.4924, 2.3851
+Vertex 2.3851, 13.4924, -2.3851
+Vertex -2.3851, 13.4924, -2.3851
+Vertex -2.3851, 0, 2.3851
+Vertex 2.3851, 0, 2.3851
+Vertex 2.3851, 0, -2.3851
+Vertex -2.3851, 0, -2.3851
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 60.6926, 11.6102, 9.8436
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 179, 179, 179
+[MeshBuilder]
+Vertex -11.3546, 32.1158, 11.3546
+Vertex 11.3546, 32.1158, 11.3546
+Vertex 11.3546, 32.1158, -11.3546
+Vertex -11.3546, 32.1158, -11.3546
+Vertex -11.3546, 0, 11.3546
+Vertex 11.3546, 0, 11.3546
+Vertex 11.3546, 0, -11.3546
+Vertex -11.3546, 0, -11.3546
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 18.2288, -5.9184, 19.7681
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 157, 157, 157
+[MeshBuilder]
+Vertex -10.7454, 30.3928, 10.7454
+Vertex 10.7454, 30.3928, 10.7454
+Vertex 10.7454, 30.3928, -10.7454
+Vertex -10.7454, 30.3928, -10.7454
+Vertex -10.7454, 0, 10.7454
+Vertex 10.7454, 0, 10.7454
+Vertex 10.7454, 0, -10.7454
+Vertex -10.7454, 0, -10.7454
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 52.335, 20.7472, 54.5636
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 157, 157, 157
+[MeshBuilder]
+Vertex -9.2696, 26.2185, 9.2696
+Vertex 9.2696, 26.2185, 9.2696
+Vertex 9.2696, 26.2185, -9.2696
+Vertex -9.2696, 26.2185, -9.2696
+Vertex -9.2696, 0, 9.2696
+Vertex 9.2696, 0, 9.2696
+Vertex 9.2696, 0, -9.2696
+Vertex -9.2696, 0, -9.2696
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 77.4151, 19.4851, 5.2314
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 188, 188, 188
+[MeshBuilder]
+Vertex -6.7502, 19.0925, 6.7502
+Vertex 6.7502, 19.0925, 6.7502
+Vertex 6.7502, 19.0925, -6.7502
+Vertex -6.7502, 19.0925, -6.7502
+Vertex -6.7502, 0, 6.7502
+Vertex 6.7502, 0, 6.7502
+Vertex 6.7502, 0, -6.7502
+Vertex -6.7502, 0, -6.7502
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 13.7233, -2.2379, 37.2733
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 244, 244, 244
+[MeshBuilder]
+Vertex -6.0687, 17.1648, 6.0687
+Vertex 6.0687, 17.1648, 6.0687
+Vertex 6.0687, 17.1648, -6.0687
+Vertex -6.0687, 17.1648, -6.0687
+Vertex -6.0687, 0, 6.0687
+Vertex 6.0687, 0, 6.0687
+Vertex 6.0687, 0, -6.0687
+Vertex -6.0687, 0, -6.0687
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 29.8505, -2.154, 14.7192
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 212, 212, 212
+[MeshBuilder]
+Vertex -2.647, 14.974, 2.647
+Vertex 2.647, 14.974, 2.647
+Vertex 2.647, 14.974, -2.647
+Vertex -2.647, 14.974, -2.647
+Vertex -2.647, 0, 2.647
+Vertex 2.647, 0, 2.647
+Vertex 2.647, 0, -2.647
+Vertex -2.647, 0, -2.647
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 18.5425, 2.5708, 46.733
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 221, 221, 221
+[MeshBuilder]
+Vertex -9.2871, 26.2679, 9.2871
+Vertex 9.2871, 26.2679, 9.2871
+Vertex 9.2871, 26.2679, -9.2871
+Vertex -9.2871, 26.2679, -9.2871
+Vertex -9.2871, 0, 9.2871
+Vertex 9.2871, 0, 9.2871
+Vertex 9.2871, 0, -9.2871
+Vertex -9.2871, 0, -9.2871
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 26.9964, 7.1857, 49.1445
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 182, 182, 182
+[MeshBuilder]
+Vertex -6.8255, 19.3055, 6.8255
+Vertex 6.8255, 19.3055, 6.8255
+Vertex 6.8255, 19.3055, -6.8255
+Vertex -6.8255, 19.3055, -6.8255
+Vertex -6.8255, 0, 6.8255
+Vertex 6.8255, 0, 6.8255
+Vertex 6.8255, 0, -6.8255
+Vertex -6.8255, 0, -6.8255
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 56.3114, 20.0603, 44.4765
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 239, 239, 239
+[MeshBuilder]
+Vertex -10.6289, 30.0632, 10.6289
+Vertex 10.6289, 30.0632, 10.6289
+Vertex 10.6289, 30.0632, -10.6289
+Vertex -10.6289, 30.0632, -10.6289
+Vertex -10.6289, 0, 10.6289
+Vertex 10.6289, 0, 10.6289
+Vertex 10.6289, 0, -10.6289
+Vertex -10.6289, 0, -10.6289
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 60.0912, 25.3008, 57.8113
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 250, 250, 250
+[MeshBuilder]
+Vertex -8.0177, 22.6775, 8.0177
+Vertex 8.0177, 22.6775, 8.0177
+Vertex 8.0177, 22.6775, -8.0177
+Vertex -8.0177, 22.6775, -8.0177
+Vertex -8.0177, 0, 8.0177
+Vertex 8.0177, 0, 8.0177
+Vertex 8.0177, 0, -8.0177
+Vertex -8.0177, 0, -8.0177
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 44.1321, 15.6079, 49.8478
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 245, 245, 245
+[MeshBuilder]
+Vertex -7.0096, 19.8264, 7.0096
+Vertex 7.0096, 19.8264, 7.0096
+Vertex 7.0096, 19.8264, -7.0096
+Vertex -7.0096, 19.8264, -7.0096
+Vertex -7.0096, 0, 7.0096
+Vertex 7.0096, 0, 7.0096
+Vertex 7.0096, 0, -7.0096
+Vertex -7.0096, 0, -7.0096
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 15.8507, 4.5427, 65.3422
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 243, 243, 243
+[MeshBuilder]
+Vertex -6.3123, 17.854, 6.3123
+Vertex 6.3123, 17.854, 6.3123
+Vertex 6.3123, 17.854, -6.3123
+Vertex -6.3123, 17.854, -6.3123
+Vertex -6.3123, 0, 6.3123
+Vertex 6.3123, 0, 6.3123
+Vertex 6.3123, 0, -6.3123
+Vertex -6.3123, 0, -6.3123
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 50.0749, 4.9672, 6.7124
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 249, 249, 249
+[MeshBuilder]
+Vertex -7.0104, 19.8286, 7.0104
+Vertex 7.0104, 19.8286, 7.0104
+Vertex 7.0104, 19.8286, -7.0104
+Vertex -7.0104, 19.8286, -7.0104
+Vertex -7.0104, 0, 7.0104
+Vertex 7.0104, 0, 7.0104
+Vertex 7.0104, 0, -7.0104
+Vertex -7.0104, 0, -7.0104
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 48.3892, 11.3155, 28.0919
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 186, 186, 186
+[MeshBuilder]
+Vertex -6.9688, 19.7108, 6.9688
+Vertex 6.9688, 19.7108, 6.9688
+Vertex 6.9688, 19.7108, -6.9688
+Vertex -6.9688, 19.7108, -6.9688
+Vertex -6.9688, 0, 6.9688
+Vertex 6.9688, 0, 6.9688
+Vertex 6.9688, 0, -6.9688
+Vertex -6.9688, 0, -6.9688
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 25.5769, -10.66, -0.7595
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 246, 246, 246
+[MeshBuilder]
+Vertex -2.6589, 15.0411, 2.6589
+Vertex 2.6589, 15.0411, 2.6589
+Vertex 2.6589, 15.0411, -2.6589
+Vertex -2.6589, 15.0411, -2.6589
+Vertex -2.6589, 0, 2.6589
+Vertex 2.6589, 0, 2.6589
+Vertex 2.6589, 0, -2.6589
+Vertex -2.6589, 0, -2.6589
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 41.115, 16.2421, 59.755
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 205, 205, 205
+[MeshBuilder]
+Vertex -2.6096, 14.7625, 2.6096
+Vertex 2.6096, 14.7625, 2.6096
+Vertex 2.6096, 14.7625, -2.6096
+Vertex -2.6096, 14.7625, -2.6096
+Vertex -2.6096, 0, 2.6096
+Vertex 2.6096, 0, 2.6096
+Vertex 2.6096, 0, -2.6096
+Vertex -2.6096, 0, -2.6096
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 55.4045, 21.0271, 49.7884
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 231, 231, 231
+[MeshBuilder]
+Vertex -7.1216, 20.143, 7.1216
+Vertex 7.1216, 20.143, 7.1216
+Vertex 7.1216, 20.143, -7.1216
+Vertex -7.1216, 20.143, -7.1216
+Vertex -7.1216, 0, 7.1216
+Vertex 7.1216, 0, 7.1216
+Vertex 7.1216, 0, -7.1216
+Vertex -7.1216, 0, -7.1216
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 18.856, 1.118, 40.4614
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 210, 210, 210
+[MeshBuilder]
+Vertex -2.978, 16.8463, 2.978
+Vertex 2.978, 16.8463, 2.978
+Vertex 2.978, 16.8463, -2.978
+Vertex -2.978, 16.8463, -2.978
+Vertex -2.978, 0, 2.978
+Vertex 2.978, 0, 2.978
+Vertex 2.978, 0, -2.978
+Vertex -2.978, 0, -2.978
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 68.857, 24.1396, 37.5487
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 240, 240, 240
+[MeshBuilder]
+Vertex -2.2842, 12.9215, 2.2842
+Vertex 2.2842, 12.9215, 2.2842
+Vertex 2.2842, 12.9215, -2.2842
+Vertex -2.2842, 12.9215, -2.2842
+Vertex -2.2842, 0, 2.2842
+Vertex 2.2842, 0, 2.2842
+Vertex 2.2842, 0, -2.2842
+Vertex -2.2842, 0, -2.2842
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 79.1098, 34.4345, 57.6095
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 160, 160, 160
+[MeshBuilder]
+Vertex -7.504, 21.2247, 7.504
+Vertex 7.504, 21.2247, 7.504
+Vertex 7.504, 21.2247, -7.504
+Vertex -7.504, 21.2247, -7.504
+Vertex -7.504, 0, 7.504
+Vertex 7.504, 0, 7.504
+Vertex 7.504, 0, -7.504
+Vertex -7.504, 0, -7.504
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 63.4507, 21.1973, 36.2919
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 184, 184, 184
+[MeshBuilder]
+Vertex -6.6849, 18.9078, 6.6849
+Vertex 6.6849, 18.9078, 6.6849
+Vertex 6.6849, 18.9078, -6.6849
+Vertex -6.6849, 18.9078, -6.6849
+Vertex -6.6849, 0, 6.6849
+Vertex 6.6849, 0, 6.6849
+Vertex 6.6849, 0, -6.6849
+Vertex -6.6849, 0, -6.6849
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 24.7484, 3.673, 39.5993
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 251, 251, 251
+[MeshBuilder]
+Vertex -8.1206, 22.9686, 8.1206
+Vertex 8.1206, 22.9686, 8.1206
+Vertex 8.1206, 22.9686, -8.1206
+Vertex -8.1206, 22.9686, -8.1206
+Vertex -8.1206, 0, 8.1206
+Vertex 8.1206, 0, 8.1206
+Vertex 8.1206, 0, -8.1206
+Vertex -8.1206, 0, -8.1206
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 70.8925, 26.8104, 43.752
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 195, 195, 195
+[MeshBuilder]
+Vertex -7.7952, 22.0483, 7.7952
+Vertex 7.7952, 22.0483, 7.7952
+Vertex 7.7952, 22.0483, -7.7952
+Vertex -7.7952, 22.0483, -7.7952
+Vertex -7.7952, 0, 7.7952
+Vertex 7.7952, 0, 7.7952
+Vertex 7.7952, 0, -7.7952
+Vertex -7.7952, 0, -7.7952
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 52.0734, 9.1674, 15.8392
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 183, 183, 183
+[MeshBuilder]
+Vertex -7.3807, 20.8759, 7.3807
+Vertex 7.3807, 20.8759, 7.3807
+Vertex 7.3807, 20.8759, -7.3807
+Vertex -7.3807, 20.8759, -7.3807
+Vertex -7.3807, 0, 7.3807
+Vertex 7.3807, 0, 7.3807
+Vertex 7.3807, 0, -7.3807
+Vertex -7.3807, 0, -7.3807
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 4.2365, -1.2058, 25.9534
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 209, 209, 209
+[MeshBuilder]
+Vertex -7.1163, 20.1279, 7.1163
+Vertex 7.1163, 20.1279, 7.1163
+Vertex 7.1163, 20.1279, -7.1163
+Vertex -7.1163, 20.1279, -7.1163
+Vertex -7.1163, 0, 7.1163
+Vertex 7.1163, 0, 7.1163
+Vertex 7.1163, 0, -7.1163
+Vertex -7.1163, 0, -7.1163
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 66.1242, 12.0963, 0.6185
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 216, 216, 216
+[MeshBuilder]
+Vertex -2.8407, 16.0698, 2.8407
+Vertex 2.8407, 16.0698, 2.8407
+Vertex 2.8407, 16.0698, -2.8407
+Vertex -2.8407, 16.0698, -2.8407
+Vertex -2.8407, 0, 2.8407
+Vertex 2.8407, 0, 2.8407
+Vertex 2.8407, 0, -2.8407
+Vertex -2.8407, 0, -2.8407
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 72.258, 33.3368, 66.2393
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 199, 199, 199
+[MeshBuilder]
+Vertex -9.4347, 26.6855, 9.4347
+Vertex 9.4347, 26.6855, 9.4347
+Vertex 9.4347, 26.6855, -9.4347
+Vertex -9.4347, 26.6855, -9.4347
+Vertex -9.4347, 0, 9.4347
+Vertex 9.4347, 0, 9.4347
+Vertex 9.4347, 0, -9.4347
+Vertex -9.4347, 0, -9.4347
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 78.7598, 26.5575, 28.8176
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 216, 216, 216
+[MeshBuilder]
+Vertex -7.6092, 21.5223, 7.6092
+Vertex 7.6092, 21.5223, 7.6092
+Vertex 7.6092, 21.5223, -7.6092
+Vertex -7.6092, 21.5223, -7.6092
+Vertex -7.6092, 0, 7.6092
+Vertex 7.6092, 0, 7.6092
+Vertex 7.6092, 0, -7.6092
+Vertex -7.6092, 0, -7.6092
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 11.6081, 1.5635, 59.1295
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 239, 239, 239
+[MeshBuilder]
+Vertex -9.2288, 26.1031, 9.2288
+Vertex 9.2288, 26.1031, 9.2288
+Vertex 9.2288, 26.1031, -9.2288
+Vertex -9.2288, 26.1031, -9.2288
+Vertex -9.2288, 0, 9.2288
+Vertex 9.2288, 0, 9.2288
+Vertex 9.2288, 0, -9.2288
+Vertex -9.2288, 0, -9.2288
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 74.7271, 19.4587, 10.6307
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_01.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 175, 175, 175
+[MeshBuilder]
+Vertex -7.1495, 20.2218, 7.1495
+Vertex 7.1495, 20.2218, 7.1495
+Vertex 7.1495, 20.2218, -7.1495
+Vertex -7.1495, 20.2218, -7.1495
+Vertex -7.1495, 0, 7.1495
+Vertex 7.1495, 0, 7.1495
+Vertex 7.1495, 0, -7.1495
+Vertex -7.1495, 0, -7.1495
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 11.7393, 2.2716, 63.7457
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 254, 254, 254
+[MeshBuilder]
+Vertex -2.4445, 13.8285, 2.4445
+Vertex 2.4445, 13.8285, 2.4445
+Vertex 2.4445, 13.8285, -2.4445
+Vertex -2.4445, 13.8285, -2.4445
+Vertex -2.4445, 0, 2.4445
+Vertex 2.4445, 0, 2.4445
+Vertex 2.4445, 0, -2.4445
+Vertex -2.4445, 0, -2.4445
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 41.2214, 5.2572, 20.1285
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 166, 166, 166
+[MeshBuilder]
+Vertex -6.1058, 17.2698, 6.1058
+Vertex 6.1058, 17.2698, 6.1058
+Vertex 6.1058, 17.2698, -6.1058
+Vertex -6.1058, 17.2698, -6.1058
+Vertex -6.1058, 0, 6.1058
+Vertex 6.1058, 0, 6.1058
+Vertex 6.1058, 0, -6.1058
+Vertex -6.1058, 0, -6.1058
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 34.5293, 3.6141, 24.9834
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 226, 226, 226
+[MeshBuilder]
+Vertex -2.8555, 16.1536, 2.8555
+Vertex 2.8555, 16.1536, 2.8555
+Vertex 2.8555, 16.1536, -2.8555
+Vertex -2.8555, 16.1536, -2.8555
+Vertex -2.8555, 0, 2.8555
+Vertex 2.8555, 0, 2.8555
+Vertex 2.8555, 0, -2.8555
+Vertex -2.8555, 0, -2.8555
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 28.1204, 1.4932, 27.4678
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 236, 236, 236
+[MeshBuilder]
+Vertex -8.0958, 22.8984, 8.0958
+Vertex 8.0958, 22.8984, 8.0958
+Vertex 8.0958, 22.8984, -8.0958
+Vertex -8.0958, 22.8984, -8.0958
+Vertex -8.0958, 0, 8.0958
+Vertex 8.0958, 0, 8.0958
+Vertex 8.0958, 0, -8.0958
+Vertex -8.0958, 0, -8.0958
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 38.1149, 16.8411, 71.411
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 178, 178, 178
+[MeshBuilder]
+Vertex -2.4846, 14.055, 2.4846
+Vertex 2.4846, 14.055, 2.4846
+Vertex 2.4846, 14.055, -2.4846
+Vertex -2.4846, 14.055, -2.4846
+Vertex -2.4846, 0, 2.4846
+Vertex 2.4846, 0, 2.4846
+Vertex 2.4846, 0, -2.4846
+Vertex -2.4846, 0, -2.4846
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 57.0105, 24.8073, 62.5177
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 163, 163, 163
+[MeshBuilder]
+Vertex -7.1097, 20.1093, 7.1097
+Vertex 7.1097, 20.1093, 7.1097
+Vertex 7.1097, 20.1093, -7.1097
+Vertex -7.1097, 20.1093, -7.1097
+Vertex -7.1097, 0, 7.1097
+Vertex 7.1097, 0, 7.1097
+Vertex 7.1097, 0, -7.1097
+Vertex -7.1097, 0, -7.1097
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 76.7618, 26.8537, 33.5981
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 177, 177, 177
+[MeshBuilder]
+Vertex -6.8376, 19.3396, 6.8376
+Vertex 6.8376, 19.3396, 6.8376
+Vertex 6.8376, 19.3396, -6.8376
+Vertex -6.8376, 19.3396, -6.8376
+Vertex -6.8376, 0, 6.8376
+Vertex 6.8376, 0, 6.8376
+Vertex 6.8376, 0, -6.8376
+Vertex -6.8376, 0, -6.8376
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 44.8517, 16.9743, 53.9095
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 228, 228, 228
+[MeshBuilder]
+Vertex -2.4517, 13.8692, 2.4517
+Vertex 2.4517, 13.8692, 2.4517
+Vertex 2.4517, 13.8692, -2.4517
+Vertex -2.4517, 13.8692, -2.4517
+Vertex -2.4517, 0, 2.4517
+Vertex 2.4517, 0, 2.4517
+Vertex 2.4517, 0, -2.4517
+Vertex -2.4517, 0, -2.4517
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 17.5985, -2.5573, 30.2194
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 236, 236, 236
+[MeshBuilder]
+Vertex -7.3459, 20.7775, 7.3459
+Vertex 7.3459, 20.7775, 7.3459
+Vertex 7.3459, 20.7775, -7.3459
+Vertex -7.3459, 20.7775, -7.3459
+Vertex -7.3459, 0, 7.3459
+Vertex 7.3459, 0, 7.3459
+Vertex 7.3459, 0, -7.3459
+Vertex -7.3459, 0, -7.3459
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 60.5991, 24.0969, 52.223
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 203, 203, 203
+[MeshBuilder]
+Vertex -7.5073, 21.2339, 7.5073
+Vertex 7.5073, 21.2339, 7.5073
+Vertex 7.5073, 21.2339, -7.5073
+Vertex -7.5073, 21.2339, -7.5073
+Vertex -7.5073, 0, 7.5073
+Vertex 7.5073, 0, 7.5073
+Vertex 7.5073, 0, -7.5073
+Vertex -7.5073, 0, -7.5073
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 23.4215, -4.1912, 17.7802
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 179, 179, 179
+[MeshBuilder]
+Vertex -2.9386, 16.6234, 2.9386
+Vertex 2.9386, 16.6234, 2.9386
+Vertex 2.9386, 16.6234, -2.9386
+Vertex -2.9386, 16.6234, -2.9386
+Vertex -2.9386, 0, 2.9386
+Vertex 2.9386, 0, 2.9386
+Vertex 2.9386, 0, -2.9386
+Vertex -2.9386, 0, -2.9386
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 63.3955, 19.2666, 30.0028
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 235, 235, 235
+[MeshBuilder]
+Vertex -7.643, 21.6178, 7.643
+Vertex 7.643, 21.6178, 7.643
+Vertex 7.643, 21.6178, -7.643
+Vertex -7.643, 21.6178, -7.643
+Vertex -7.643, 0, 7.643
+Vertex 7.643, 0, 7.643
+Vertex 7.643, 0, -7.643
+Vertex -7.643, 0, -7.643
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 54.6354, 13.5135, 25.1034
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 162, 162, 162
+[MeshBuilder]
+Vertex -7.7246, 21.8487, 7.7246
+Vertex 7.7246, 21.8487, 7.7246
+Vertex 7.7246, 21.8487, -7.7246
+Vertex -7.7246, 21.8487, -7.7246
+Vertex -7.7246, 0, 7.7246
+Vertex 7.7246, 0, 7.7246
+Vertex 7.7246, 0, -7.7246
+Vertex -7.7246, 0, -7.7246
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 79.4086, 38.8799, 75.4866
+[Texture]
+Load ..\Novenyek\bmp\Tree_Large_05.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 180, 180, 180
+[MeshBuilder]
+Vertex -7.009, 19.8247, 7.009
+Vertex 7.009, 19.8247, 7.009
+Vertex 7.009, 19.8247, -7.009
+Vertex -7.009, 19.8247, -7.009
+Vertex -7.009, 0, 7.009
+Vertex 7.009, 0, 7.009
+Vertex 7.009, 0, -7.009
+Vertex -7.009, 0, -7.009
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 67.5181, 27.115, 50.9085
+[Texture]
+Load ..\Novenyek\bmp\Tree_Medium_06.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 240, 240, 240
+[MeshBuilder]
+Vertex -2.7983, 15.8299, 2.7983
+Vertex 2.7983, 15.8299, 2.7983
+Vertex 2.7983, 15.8299, -2.7983
+Vertex -2.7983, 15.8299, -2.7983
+Vertex -2.7983, 0, 2.7983
+Vertex 2.7983, 0, 2.7983
+Vertex 2.7983, 0, -2.7983
+Vertex -2.7983, 0, -2.7983
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 39.0126, 12.19, 45.9348
+[Texture]
+Load ..\Novenyek\bmp\tree1.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 194, 194, 194

@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,-120.0, 6.5, 0,
+AddVertex, 1.0, 6.5, 0,
+AddVertex, 1.0,  0.3, 0,
+AddVertex,-120.0,  0.3, 0,
+AddFace,0,1,2,3,
+LoadTexture,PicBill_Q.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,100,0
+GenerateNormals,

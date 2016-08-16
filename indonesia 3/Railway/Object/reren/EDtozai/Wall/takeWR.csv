@@ -1,0 +1,25 @@
+CreateMeshBuilder
+AddVertex,5.9, 1.1, 0
+AddVertex,5.9, 4.7, 0
+AddVertex,5.9, 4.7, 25.2
+AddVertex,5.9, 1.1, 25.2
+AddFace,3,2,1,0
+LoadTexture,takeWall1.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 3.13, 0
+SetTextureCoordinates,3, 3.13, 1
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,5.88, 3.5, 11.5
+AddVertex,5.88, 3.5, 14.5
+AddVertex,5.88, 2.8, 14.5
+AddVertex,5.88, 2.8, 11.5
+AddFace,3,2,1,0
+LoadTexture,../Fpanel\take.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+GenerateNormals

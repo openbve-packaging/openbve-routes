@@ -1,0 +1,23 @@
+;Felszínen kerítés
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;kerítés
+
+[MeshBuilder]
+;jobb oldal
+Vertex 3.8,-0.25,0.35
+Vertex 3.8, 2.30,0.35
+Vertex 7.4, 2.30,25.7
+Vertex 7.4,-0.25,25.7
+Face 3,2,1,0
+[Texture]
+Load kerites_02.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,1
+Transparent 0,0,255
+
+;--------------------------------------

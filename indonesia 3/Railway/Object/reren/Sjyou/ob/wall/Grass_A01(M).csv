@@ -1,0 +1,41 @@
+CreateMeshBuilder
+AddVertex,55, 8.5, 0
+AddVertex,15, 8.5, 0
+AddVertex,10, 6.5, 0
+AddVertex,10, 6.5, 25.2
+AddVertex,15, 8.5, 25.2
+AddVertex,55, 8.5, 25.2
+AddFace2,0,1,4,5
+AddFace2,1,2,3,4
+LoadTexture,../../ground5.bmp,
+SetTextureCoordinates,0,0,0.0
+SetTextureCoordinates,1,0,3.0
+SetTextureCoordinates,2,0,3.7
+SetTextureCoordinates,3,2,3.7
+SetTextureCoordinates,4,2,3.0
+SetTextureCoordinates,5,2,0.0
+
+CreateMeshBuilder
+AddVertex,10, 6.5, 0
+AddVertex,10, 6.5, 25.2
+AddVertex,8, -3.9, 25.2
+AddVertex,8, -3.9, 0
+AddFace,3,2,1,0
+LoadTexture,../../con2.bmp
+SetTextureCoordinates,0,0,0.0
+SetTextureCoordinates,1,2,0.0
+SetTextureCoordinates,2,2,1.0
+SetTextureCoordinates,3,0,1.0
+
+CreateMeshBuilder
+AddVertex,15.5, 14.0, 3
+AddVertex,15.5, 14.0, 22
+AddVertex,15.5, 8.5, 22
+AddVertex,15.5, 8.5, 3
+AddFace2,3,2,1,0
+LoadTexture,../../Road\guardrail4.bmp
+SetTextureCoordinates,0,0,0.0
+SetTextureCoordinates,1,0,2.0
+SetTextureCoordinates,2,1,2.0
+SetTextureCoordinates,3,1,0.0
+SetDecalTransparentColor,0,0,255

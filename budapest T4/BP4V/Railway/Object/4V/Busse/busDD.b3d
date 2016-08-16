@@ -1,0 +1,68 @@
+[MeshBuilder]
+Vertex +0,+0.22,+0
+Vertex +0,+3.9,+0
+Vertex +2.4,+3.9,+0
+Vertex +2.4,+0.22,+0
+Face 0,1,2,3
+[Texture]
+Load DD-Bus Heck.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 255,255,255
+
+[MeshBuilder]
+Vertex +0,+0,+0
+Vertex +0,+0,+12
+Vertex +0,+3.9,+12
+Vertex +0,+3.9,+0
+Face 0,1,2,3
+[Texture]
+Load DD-Bus links.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+transparent 255,255,255
+
+[MeshBuilder]
+Vertex +0,+3.9,+0
+Vertex +2.4,3.9,+0
+Vertex +2.4,+3.9,+12
+Vertex +0,+3.9,+12
+Face 3,2,1,0
+[Texture]
+Load b1d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex +2.4,+0,+0
+Vertex +2.4,+0,+12
+Vertex +2.4,+3.9,+12
+Vertex +2.4,+3.9,+0
+Face 3,2,1,0
+[Texture]
+Load DD-Bus rechts.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+transparent 255,255,255
+
+[MeshBuilder]
+Vertex +0,+0.25,+12
+Vertex +0,+3.9,+12
+Vertex +2.4,+3.9,+12
+Vertex +2.4,+0.25,+12
+Face 3,2,1,0
+[Texture]
+Load DD-Bus Front.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 255,255,255

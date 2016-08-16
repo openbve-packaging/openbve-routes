@@ -1,0 +1,147 @@
+[meshbuilder]
+vertex 0, 0, 0
+vertex 0, 3, 0
+vertex 0, 3, 8
+vertex 0, 0, 8
+face2 0,1,2,3
+[Texture]
+Load h1.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 0, 8
+vertex 0, 3, 8
+vertex 0, 3, 11
+vertex 0, 0, 11
+face2 0,1,2,3
+[Texture]
+Load h2.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 0, 0
+vertex 0, 3, 0
+vertex -4, 3, 0
+vertex -4, 0, 0
+face2 0,1,2,3
+[Texture]
+Load h2.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 0, 11
+vertex 0, 3, 11
+vertex 3, 3, 11
+vertex 3, 0, 11
+face2 0,1,2,3
+[Texture]
+Load h3.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+
+;-dach
+[meshbuilder]
+vertex 0, 3, -0.5
+vertex -2, 5, -0.5
+vertex -2, 5, 11
+vertex 0, 3, 11
+face2 0,1,2,3
+[Texture]
+Load budj4_dach2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 3, 0
+Coordinates 3, 3, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex -4, 3, -0.5
+vertex -2, 5, -0.5
+vertex -2, 5, 11
+vertex -4, 3, 11
+face2 0,1,2,3
+[Texture]
+Load budj4_dach2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 3, 0
+Coordinates 3, 3, 1
+Transparent 0,0,255
+
+[meshbuilder]
+vertex -4, 3, 0
+vertex -2, 5, 0
+vertex -2, 5, 0
+vertex 0, 3, 0
+face2 0,1,2,3
+[Texture]
+Load budj4_braz.png
+Coordinates 0, 2, 2
+Coordinates 1, 2, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 2
+Transparent 0,0,255
+[meshbuilder]
+vertex -4, 3, 11
+vertex 0, 5, 11
+vertex 0, 5, 11
+vertex 3, 3, 11
+face2 0,1,2,3
+[Texture]
+Load budj4_braz.png
+Coordinates 0, 2, 2
+Coordinates 1, 2, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 2
+Transparent 0,0,255
+[meshbuilder]
+vertex 3, 3, 10.5
+vertex 0, 5, 10.5
+vertex 0, 5, 15
+vertex 3, 3, 15
+face2 0,1,2,3
+[Texture]
+Load budj4_dach2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex -4, 3, 10.5
+vertex 0, 5, 10.5
+vertex 0, 5, 15
+vertex -4, 3, 15
+face2 3,2,1,0
+[Texture]
+Load budj4_dach2.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+
+[meshbuilder]
+vertex 3, 0, 11
+vertex 3, 3, 11
+vertex 3, 3, 15
+vertex 3, 0, 15
+face2 0,1,2,3
+[Texture]
+Load h2.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255

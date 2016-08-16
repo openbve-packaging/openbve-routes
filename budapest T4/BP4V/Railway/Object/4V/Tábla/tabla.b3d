@@ -1,0 +1,41 @@
+﻿
+
+
+
+[Meshbuilder]
+Vertex -1.75,1.4,0
+Vertex -1.75,3,0
+Vertex 1.75,3,0
+Vertex 1.75,1.4,0
+Face 0,1,2,3
+Load hatter.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+
+[Meshbuilder]
+Vertex -1.75,1.4,0
+Vertex -1.75,3,0
+Vertex 1.75,3,0
+Vertex 1.75,1.4,0
+Face 3,2,1,0
+Load hatter1.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+
+[Meshbuilder]
+Cylinder 6,0.03,0.03,3
+Color 100,100,100
+Translate 1.5,1.5,0.03
+
+[Meshbuilder]
+Cylinder 6,0.03,0.03,3
+Color 100,100,100
+Translate -1.5,1.5,0.03
+
+
+
+

@@ -1,0 +1,20 @@
+[Include]
+Carrello.animated
+Position = 0, -0.06, 7
+[Include]
+Carrello.animated
+Position = 0, -0.06, -7
+
+[Object]
+States = rgs.csv
+Position = 0, 0, 0
+
+[Object]
+States = Container\container 20ft - maersk.csv
+Position = 0, 1.2, -6.15
+[Object]
+States = Container\container 20ft - cont1.csv
+Position = 0, 1.2, 6.15
+[Object]
+States = Container\container 20ft - triton.csv
+Position = 0, 1.2, 0

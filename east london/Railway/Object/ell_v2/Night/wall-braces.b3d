@@ -1,0 +1,91 @@
+[Meshbuilder]
+Vertex -0.35,1,25
+Vertex 0.05,0,25
+Vertex 0.05,0,0
+Vertex -0.35,1,0
+Face2 0,1,2,3
+[Texture]
+load side-cables.bmp
+Coordinates 0,25,0
+Coordinates 1,25,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder]
+Vertex -0.5,3.4,25
+Vertex -0.5,2.4,25
+Vertex -0.5,2.4,0
+Vertex -0.5,3.4,0
+Face2 0,1,2,3
+[Texture]
+load side-cables.bmp
+Coordinates 0,25,0
+Coordinates 1,25,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[MeshBuilder]
+Vertex -0.6,7.5,5.5
+Vertex -0.6,2,5.5
+Vertex -0.0,-0.3,5.5
+Vertex -0.6,7.5,5
+Vertex -0.6,2,5
+Vertex -0.0,-0.3,5
+Vertex -2,7.5,5
+Vertex -2,2,5
+Vertex -1.5,-0.3,5
+Face 0,1,4,3
+Face 1,2,5,4
+Face 4,5,8,7
+Face 3,4,7,6
+Color 100,100,100
+
+[MeshBuilder]
+Vertex -0.6,7.5,10.5
+Vertex -0.6,2,10.5
+Vertex -0.0,-0.3,10.5
+Vertex -0.6,7.5,10
+Vertex -0.6,2,10
+Vertex -0.0,-0.3,10
+Vertex -2,7.5,10
+Vertex -2,2,10
+Vertex -1.5,-0.3,10
+Face 0,1,4,3
+Face 1,2,5,4
+Face 4,5,8,7
+Face 3,4,7,6
+Color 100,100,100
+
+[MeshBuilder]
+Vertex -0.6,7.5,15.5
+Vertex -0.6,2,15.5
+Vertex -0.0,-0.3,15.5
+Vertex -0.6,7.5,15
+Vertex -0.6,2,15
+Vertex -0.0,-0.3,15
+Vertex -2,7.5,15
+Vertex -2,2,15
+Vertex -1.5,-0.3,15
+Face 0,1,4,3
+Face 1,2,5,4
+Face 4,5,8,7
+Face 3,4,7,6
+Color 100,100,100
+
+[MeshBuilder]
+Vertex -0.6,7.5,20.5
+Vertex -0.6,2,20.5
+Vertex -0.0,-0.3,20.5
+Vertex -0.6,7.5,20
+Vertex -0.6,2,20
+Vertex -0.0,-0.3,20
+Vertex -2,7.5,20
+Vertex -2,2,20
+Vertex -1.5,-0.3,20
+Face 0,1,4,3
+Face 1,2,5,4
+Face 4,5,8,7
+Face 3,4,7,6
+Color 100,100,100

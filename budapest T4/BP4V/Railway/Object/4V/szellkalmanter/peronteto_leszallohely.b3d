@@ -1,0 +1,558 @@
+
+
+
+;TETŐ
+
+[MeshBuilder];elöl
+Vertex 1.85,3.1,0
+Vertex 3.15,3.1,-0.35
+Vertex 3.15,3.1,-8.9
+Vertex 0,3.1,-8.9
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];hátul
+Vertex 0,3.1,-32.8
+Vertex 3.15,3.1,-28.8
+Vertex 3.15,3.1,-8.9
+Vertex 0,3.1,-8.9
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];jobb
+Vertex 3.15,2.97,-28.8
+Vertex 3.15,3.1,-28.8
+Vertex 3.15,3.1,-0.55
+Vertex 3.15,2.97,-0.55
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,0.1
+Coordinates 2,0,0.1
+Coordinates 3,0,0
+
+[MeshBuilder];bal elöl
+Vertex 0,2.97,-8.9
+Vertex 0,3.1,-8.9
+Vertex 1.85,3.1,0
+Vertex 1.85,2.97,0
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,0.1
+Coordinates 2,0,0.1
+Coordinates 3,0,0
+[MeshBuilder];bal hátul
+Vertex 0,2.97,-8.9
+Vertex 0,3.1,-8.9
+Vertex 0,3.1,-32.8
+Vertex 0,2.97,-32.8
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,0.1
+Coordinates 2,0,0.1
+Coordinates 3,0,0
+
+[MeshBuilder];hátul
+Vertex 3.15,2.97,-28.8
+Vertex 3.15,3.1,-28.8
+Vertex 0,3.1,-32.8
+Vertex 0,2.97,-32.8
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,0.1
+Coordinates 2,0,0.1
+Coordinates 3,0,0
+
+
+
+;PLAFON
+
+[MeshBuilder];elöl
+Vertex 1.85,2.97,0
+Vertex 3.15,2.97,-0.35
+Vertex 3.15,2.97,-8.9
+Vertex 0,2.97,-8.9
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Color 220,220,220
+
+[MeshBuilder];hátul
+Vertex 0,2.97,-32.8
+Vertex 3.15,2.97,-28.8
+Vertex 3.15,2.97,-8.9
+Vertex 0,2.97,-8.9
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Color 220,220,220
+
+
+
+
+
+
+
+;FRONT-FAL
+
+
+[MeshBuilder];elöl
+Vertex 1.85,3.1,0
+Vertex 3.15,3.1,-0.35
+Vertex 3.15,0,-0.35
+Vertex 1.85,0,0
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];hátul
+Vertex 1.808,3.1,-0.2
+Vertex 3.15,3.1,-0.55
+Vertex 3.15,0,-0.55
+Vertex 1.808,0,-0.2
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];bal
+Vertex 1.808,3.1,-0.2
+Vertex 1.85,3.1,0
+Vertex 1.85,0,0
+Vertex 1.808,0,-0.2
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,1,0
+Coordinates 1,1,0.1
+Coordinates 2,0,0.1
+Coordinates 3,0,0
+
+[MeshBuilder];jobb
+Vertex 3.15,3.1,-0.55
+Vertex 3.15,3.1,-0.35
+Vertex 3.15,0,-0.35
+Vertex 3.15,0,-0.55
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,1,0
+Coordinates 1,1,0.1
+Coordinates 2,0,0.1
+Coordinates 3,0,0
+
+
+
+
+
+
+
+;MEGÁLLÓTÁBLA
+
+[MeshBuilder];elöl
+Vertex 2.38,2.97,-0.14
+Vertex 2.38,0,-0.14
+Vertex 1.85,0,0.0005
+Vertex 1.85,2.97,0.0005
+Face 3,2,1,0
+[Texture]
+Load leszallohely.jpg
+Coordinates 0,-1,0
+Coordinates 1,-1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];hátul
+Vertex 2.33,2.97,-0.34
+Vertex 2.33,0,-0.34
+Vertex 1.808,0,-0.2005
+Vertex 1.808,2.97,-0.2005
+Face 0,1,2,3
+[Texture]
+Load leszallohely.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+
+
+
+;HIRDETŐ
+
+
+
+[MeshBuilder];1
+Cube 0.75,1.1,0.1
+Color 25,25,25
+Rotate 0,1,0,-28.25
+Translate 2.05,1.55,-25.275
+[MeshBuilder];elöl
+Vertex 0.65,1,0.105
+Vertex 0.65,-1,0.105
+Vertex -0.65,-1,0.105
+Vertex -0.65,1,0.105
+Face 3,2,1,0
+[Texture]
+Load tisztan-szeretjuk.jpg
+Coordinates 0,-1,0
+Coordinates 1,-1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Rotate 0,1,0,-28.25
+Translate 2.05,1.55,-25.275
+[MeshBuilder];hátul
+Vertex 0.65,1,-0.105
+Vertex 0.65,-1,-0.105
+Vertex -0.65,-1,-0.105
+Vertex -0.65,1,-0.105
+Face 0,1,2,3
+[Texture]
+Load ne-fuss.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Rotate 0,1,0,-28.25
+Translate 2.05,1.55,-25.275
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Translate 2.75,1.485,-8
+;Translate 1.5,1.485,-9.5
+
+
+
+
+
+
+
+
+
+;OSZLOPOK
+
+
+[MeshBuilder];1
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 2.75,1.485,-6
+
+[MeshBuilder];2
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 2.75,1.485,-8
+
+[MeshBuilder];3
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 1.5,1.485,-9.5
+
+
+
+
+[MeshBuilder];4
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 2.75,1.485,-13.5
+
+[MeshBuilder];5
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 2.75,1.485,-15.5
+
+[MeshBuilder];6
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 1.5,1.485,-17
+
+
+
+
+[MeshBuilder];7
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 2.75,1.485,-20.5
+
+[MeshBuilder];8
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 2.75,1.485,-22.75
+
+
+
+
+[MeshBuilder];9
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 2.75,1.485,-24.9
+
+[MeshBuilder];10
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 1.35,1.485,-25.65
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[MeshBuilder];11
+Cylinder 8,0.05,0.05,2.97
+[Texture]
+Load 12882.jpg
+Coordinates 0,0,0.0
+Coordinates 2,0.15,0.0
+Coordinates 4,0.3,0.0
+Coordinates 6,0.45,0.0
+Coordinates 8,0.6,0.0
+Coordinates 10,0.75,0.0
+Coordinates 12,0.85,0.0
+Coordinates 14,1.0,0.0
+Coordinates 1,0,1
+Coordinates 3,0.15,1
+Coordinates 5,0.3,1
+Coordinates 7,0.45,1
+Coordinates 9,0.6,1
+Coordinates 11,0.75,1
+Coordinates 13,0.85,1
+Coordinates 15,1.0,1
+Rotate 0,1,0,180
+Translate 1.35,1.485,-29.5
+
+

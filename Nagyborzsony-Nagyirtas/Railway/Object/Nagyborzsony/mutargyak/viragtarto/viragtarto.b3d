@@ -1,0 +1,54 @@
+;Készítette: Zaigron
+
+
+[Meshbuilder]
+Cylinder 10, 0.5, 0.5, 0.5
+[Texture]
+Load viragtarto.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 2, 0
+Coordinates 5, 2, 1
+Coordinates 6, 3, 0
+Coordinates 7, 3, 1
+Coordinates 8, 4, 0
+Coordinates 9, 4, 1
+Coordinates 10, 5, 0
+Coordinates 11, 5, 1
+Coordinates 12, 6, 0
+Coordinates 13, 6, 1
+Coordinates 14, 7, 0
+Coordinates 15, 7, 1
+Coordinates 16, 8, 0
+Coordinates 17, 8, 1
+Coordinates 18, 9, 0
+Coordinates 19, 9, 1
+
+[Meshbuilder]
+vertex 0.5, 0.251, -0.5
+vertex -0.5, 0.251, -0.5
+vertex -0.5, 0.251, 0.5
+vertex 0.5, 0.251, 0.5
+Face 0,1,2,3
+Load viragtartoteteje.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0,0
+Coordinates 3, 1,0
+Transparent 0, 0, 255 
+
+[Meshbuilder]
+vertex 0.6, 0.25, 0
+vertex -0.45, 0.25, 0
+vertex -0.45, 1, 0
+vertex 0.6, 1, 0
+Face2 0,1,2,3
+[Texture]
+Load virag.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0,0
+Coordinates 3, 1,0
+Transparent 0, 0, 255 

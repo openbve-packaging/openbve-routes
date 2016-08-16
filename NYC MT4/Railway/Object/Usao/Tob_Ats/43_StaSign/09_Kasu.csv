@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,-2.45,1.05,-0.04,
+AddVertex,-2.45,2.75,-0.04,
+AddVertex,-4.15,2.75,-0.04,
+AddVertex,-4.15,1.05,-0.04,
+AddFace,3,2,1,0
+GenerateNormals,,,,
+LoadTexture,09_Kasu.bmp,,,
+SetTextureCoordinates,0,1.6,1,
+SetTextureCoordinates,1,1.6,0.005,
+SetTextureCoordinates,2,0.6,0.005,
+SetTextureCoordinates,3,0.6,1,
+SetDecalTransparentColor,0,0,0,

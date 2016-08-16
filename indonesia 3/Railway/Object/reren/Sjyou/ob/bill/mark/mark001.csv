@@ -1,0 +1,39 @@
+CreateMeshBuilder,
+AddVertex,-3.0, 10, -4.0
+addVertex,-2.2, 10, -4.0
+ADdvertex,-2.2, 5, -4.0
+addvertex,-3.0, 5, -4.0
+AddFace2,0,1,2,3
+LoadTexture,../../naihuru.png,,,,,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+setEmissiveColor,80,80,80,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-3.0, 15, -4.0
+addVertex,-2.2, 15, -4.0
+ADdvertex,-2.2, 10, -4.0
+addvertex,-3.0, 10, -4.0
+AddFace2,0,1,2,3
+LoadTexture,../../waipa.png,,,,,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+setEmissiveColor,80,80,80,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-3.0, 20, -4.0
+addVertex,-2.2, 20, -4.0
+ADdvertex,-2.2, 15, -4.0
+addvertex,-3.0, 15, -4.0
+AddFace2,0,1,2,3
+LoadTexture,../../base_05.png,,,,,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+setEmissiveColor,80,80,80,
+GenerateNormals,

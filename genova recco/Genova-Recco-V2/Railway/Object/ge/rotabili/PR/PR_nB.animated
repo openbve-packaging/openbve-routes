@@ -1,0 +1,122 @@
+[Include]
+Carrello.animated
+Position = 0, -0.1, 10
+[Include]
+Carrello.animated
+Position = 0, -0.1, -10
+[Include]
+PR_interni.animated
+Position = 0, 0, 13.375
+
+[Object]
+States = PR nB.csv
+Position = 0, -0.2, 0
+
+[object];1/1	;posteriore sinistra 1/4
+states = jobbszarnyl2.b3d				;porte esterne
+position = 1.385,0.9,5.205
+rotateydirection = 0, 1, 0
+rotateyfunction = (1) * 1.5; - 0.2
+[object];1/2
+states = jobbszarnyl22.b3d				;porte interne
+position = 1.45,0.9,5.809
+rotateydirection = 0, -1, 0
+rotateyfunction = (1) * 1.5; - 0.2
+TranslateZFunction = (sin [1*1.5+4.712]+1)*(-0.62)
+TranslateXFunction = (sin [1*1.5]+1) * (-0.06)
+
+[object]	;posteriore sinistra 2/4
+states = balszarnyl2.b3d
+position = 1.385,0.9,6.44
+rotateydirection = 0, -1, 0
+rotateyfunction = (1) * 1.5; - 0.2
+[object];1/2
+states = balszarnyl22.b3d
+position = 1.45,0.9,5.809
+rotateydirection = 0, 1, 0
+rotateyfunction = (1) * 1.5; - 0.2
+TranslateZFunction = (sin [1*1.5+4.712]+1)*0.62
+TranslateXFunction = (sin [1*1.5]+1) * (-0.06)
+
+
+[object] ;posteriore sinistra 3/4
+states = jobbszarnyl2.b3d
+position = 1.4,0.9,-6.43
+rotateydirection = 0, 1, 0
+rotateyfunction = (1) * 1.5; - 0.2
+[object];1/2
+states = jobbszarnyl22.b3d
+position = 1.4,0.9,-5.784
+rotateydirection = 0, -1, 0
+rotateyfunction = (1) * 1.5; - 0.2
+TranslateZFunction = (sin [1*1.5+4.712]+1)*(-0.62)
+TranslateXFunction = sin [1*1.5]*(-0.06)
+
+[object] ;posteriore sinistra 4/4
+states = balszarnyl2.b3d
+position = 1.4,0.9,-5.17
+rotateydirection = 0, -1, 0
+rotateyfunction = (1) * 1.5; - 0.2
+[object];1/2
+states = balszarnyl22.b3d
+position = 1.4,0.9,-5.804
+rotateydirection = 0, 1, 0
+rotateyfunction = (1) * 1.5; - 0.2
+TranslateZFunction = (sin [1*1.5+4.712]+1)*0.62
+TranslateXFunction = sin [1*1.5]*(-0.06)
+
+[object] ;posteriore destra 1/4
+states = jobbszarnyr2.b3d
+position = -1.39,0.9,5.205
+rotateydirection = 0, -1, 0
+rotateyfunction = (0) * 1.5; - 0.2
+[object];1/2
+states = jobbszarnyr22.b3d
+position = -1.4,0.9,5.809
+rotateydirection = 0, -1, 0
+rotateyfunction = (0) * 1.5; - 0.2
+TranslateZFunction = (sin [0*1.5+4.712]+1)*0.61
+TranslateXFunction = (sin [0*1.5+4.712]+1) * (-0.051)
+
+
+[object] ;posteriore destra 2/4
+states = balszarnyr2.b3d
+position = -1.39,0.9,6.415
+rotateydirection = 0, 1, 0
+rotateyfunction = (0) * 1.5; - 0.2
+[object];1/2
+states = balszarnyr22.b3d
+position = -1.4,0.9,5.809
+rotateydirection = 0, 1, 0
+rotateyfunction = (0) * 1.5; - 0.2
+TranslateZFunction = (sin [0*1.5+4.712]+1)*(-0.59)
+TranslateXFunction = (sin [0*1.5+4.712]+1) * 0.221
+
+
+[object] ;posteriore destra 3/4
+states = jobbszarnyr2.b3d
+position = -1.4,0.9,-6.43
+rotateydirection = 0, -1, 0
+rotateyfunction = (0) * 1.5; - 0.2
+[object];1/2
+states = jobbszarnyr22.b3d
+position = -1.4,0.9,-5.804
+rotateydirection = 0, -1, 0
+rotateyfunction = (0) * 1.5; - 0.2
+TranslateZFunction = (sin [0*1.5+4.712]+1)*0.62
+TranslateXFunction = sin [0*1.5]*0.06
+
+[object] ;posteriore destra 4/4
+states = balszarnyr2.b3d
+position = -1.4,0.9,-5.17
+rotateydirection = 0, 1, 0
+rotateyfunction = (0) * 1.5; - 0.2
+[object];1/2
+states = balszarnyr22.b3d
+position = -1.4,0.9,-5.804
+rotateydirection = 0, 1, 0
+rotateyfunction = (0) * 1.5; - 0.2
+TranslateZFunction = (sin [0*1.5+4.712]+1)*(-0.62)
+TranslateXFunction = sin [0*1.5]*0.06
+
+

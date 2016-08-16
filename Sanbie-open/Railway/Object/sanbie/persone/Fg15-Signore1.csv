@@ -1,0 +1,15 @@
+CreateMeshBuilder,; Passeggero in attesa
+AddVertex,0.0 , 1.8, 0,
+AddVertex,0.75, 1.8, 0,
+AddVertex,0.75, 0, 0,
+AddVertex,0.0, 0, 0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Fg15-Signore1.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,255,
+

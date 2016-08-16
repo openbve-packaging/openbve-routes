@@ -1,0 +1,52 @@
+[MeshBuilder]
+Vertex -3, -0.4, 0
+Vertex -3, -0.4, 25.5
+Vertex -3.4, -1, 25.5
+Vertex -3.4, -1, 0
+Face2 3,2,1,0
+[Texture]
+Load grass2.bmp
+Coordinates 0, 0.5, 0
+Coordinates 1, 0.5, 5
+Coordinates 2, 0, 5
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Vertex -3.4, -1, 0
+Vertex -3.4, -1, 25.5
+Vertex -4, -1, 25.5
+Vertex -4, -1, 0
+Face2 3,2,1,0
+[Texture]
+Load grass2.bmp
+Coordinates 0, 0.5, 0
+Coordinates 1, 0.5, 10
+Coordinates 2, 0, 10
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Vertex -4, -1, 0
+Vertex -4, -1, 25.5
+Vertex -4.6, -0.4, 25.5
+Vertex -4.6, -0.4, 0
+Face2 3,2,1,0
+[Texture]
+Load grass2.bmp
+Coordinates 0, 0.5, 0
+Coordinates 1, 0.5, 5
+Coordinates 2, 0.1, 5
+Coordinates 3, 0.1, 0
+
+[MeshBuilder]
+Vertex -4.6, -0.4, 0
+Vertex -4.6, -0.4, 25.5
+Vertex -50, -0.4, 25.5
+Vertex -50, -0.4, 0
+Face2 3,2,1,0
+[Texture]
+Load terrapieno.bmp
+Coordinates 0, 2, 0
+Coordinates 1, 2, 2
+Coordinates 2, 0.1, 2
+Coordinates 3, 0.1, 0
+

@@ -1,0 +1,113 @@
+;lato sinistro
+[MeshBuilder]
+Vertex -1.3,0,24.7
+Vertex -1.3,3.5,24.7
+Vertex -1.3,3.5,-0
+Vertex -1.3,0,-0
+Face 0,1,2,3
+[Texture]
+Load vagone4d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;lato destro 
+[MeshBuilder]
+Vertex 1.3,  0,24.7
+Vertex 1.3,3.5,24.7
+Vertex 1.3,3.5,-0
+Vertex 1.3,  0,-0
+Face 3,2,1,0
+[Texture]
+Load vagone4d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+
+
+[Meshbuilder] 
+Vertex -1.3,6.6,-0
+Vertex  1.3,6.6,-0
+Vertex  1.3,  0,-0
+Vertex -1.3,  0,-0
+Face 0,1,2,3
+[Texture]
+Load davantivag4.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+[Meshbuilder] 
+Vertex -1.3,6.6,24.7
+Vertex  1.3,6.6,24.7
+Vertex  1.3,  0,24.7
+Vertex -1.3,  0,24.7
+Face 3,2,1,0
+[Texture]
+Load davantivag4.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+;angoli sin
+[MeshBuilder]
+Vertex -1.3,3.5, -0
+Vertex -1.3,3.5, 24.7
+Vertex -1.3,3.9, 24.7
+Vertex -1.3,3.9, -0
+Face 0,1,2,3
+color 50,50,50
+[MeshBuilder]
+Vertex -1.3,3.9,-0
+Vertex -1.3,3.9,24.7
+Vertex -0.9,4.3,24.7
+Vertex -0.9,4.3,-0
+Face 0,1,2,3
+color 50,50,50
+[MeshBuilder]
+Vertex -0.9,4.3,-0
+Vertex -0.9,4.3,24.7
+Vertex -0.5,4.4,24.7
+Vertex -0.5,4.4,-0
+Face 0,1,2,3
+color 50,50,50
+;--------------------------
+[MeshBuilder]
+Vertex -0.5,4.4,-0
+Vertex -0.5,4.4,24.7
+Vertex  0.5,4.4,24.7
+Vertex  0.5,4.4,-0
+Face 0,1,2,3
+color 50,50,50
+;-----------------------
+;angoli des
+[MeshBuilder]
+Vertex 1.3,3.5, -0
+Vertex 1.3,3.5, 24.7
+Vertex 1.3,3.9, 24.7
+Vertex 1.3,3.9, -0
+Face 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex 1.3,3.9,-0
+Vertex 1.3,3.9,24.7
+Vertex 0.9,4.3,24.7
+Vertex 0.9,4.3,-0
+Face 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex 0.9,4.3,-0
+Vertex 0.9,4.3,24.7
+Vertex 0.5,4.4,24.7
+Vertex 0.5,4.4,-0
+Face 3,2,1,0
+color 50,50,50

@@ -1,0 +1,16 @@
+
+CreateMeshBuilder
+Addvertex,-6.5,1,0
+Addvertex,-6.5,2.5,0
+Addvertex,-6.5,2.5,25
+Addvertex,-6.5,1,25
+AddFace,0,1,2,3
+GenerateNormals
+
+
+LoadTexture,saku02.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,10,0
+SetTextureCoordinates,3,10,1
+SetDecalTransParentColor,0,0,0

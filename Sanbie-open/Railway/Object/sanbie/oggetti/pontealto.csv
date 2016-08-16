@@ -1,0 +1,627 @@
+CreateMeshBuilder,
+AddVertex,-15,9,4.5,
+AddVertex,15,9,4.5,
+AddVertex,15,7.5,4.5,
+AddVertex,-15,7.5,4.5,
+AddVertex,-15,7.5,5,
+AddVertex,15,7.5,5,
+AddFace,0,1,2,3,
+AddFace,3,2,5,4,
+GenerateNormals,
+
+LoadTexture,concrete.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,0.9,
+SetTextureCoordinates,3,0,0.9,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,2,1,
+
+
+CreateMeshBuilder,
+AddVertex,-15,7.5,5,
+AddVertex,15,7.5,5,
+AddVertex,15,6.0,5,
+AddVertex,-15,6.0,5,
+AddVertex,-15,6.0,15,
+AddVertex,15,6.0,15,
+AddFace,0,1,2,3,
+AddFace,3,2,5,4,
+GenerateNormals,
+
+LoadTexture,kyoukyaku2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0,0.5,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1,;;;;;;;;;;;;;;;;;;;;;;;unit
+
+; sponda anteriore dx 
+
+CreateMeshbuilder,
+AddVertex, -15, 7.0, 4.5
+Addvertex, -45, 5.5, 4.5
+Addvertex, -15, -5, -4.5
+Addvertex, -45, -5, -4.5
+addface2,0,1,3,2,
+
+Loadtexture, grass.bmp, ;;;;;;;;;; I parametri sono errati
+;setTextureCoordinates, 0,0,0
+;setTextureCoordinates, 1,0,0
+;setTextureCoordinates, 1,1,0
+;setTextureCoordinates, 0,1,0
+
+setTextureCoordinates, 0,2,1.5 ;;;;;; meglio usare questi
+setTextureCoordinates, 1,0,1
+setTextureCoordinates, 2,2,0
+setTextureCoordinates, 3,0,0
+
+CreateMeshbuilder,
+AddVertex, -15,7.0,4.5
+Addvertex, -15,7.0,15.5
+Addvertex, -15,-5,-4.5
+Addvertex, -15,-5,22.0
+addface2,0,1,2,3,
+
+Loadtexture, concrete.bmp,
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 0,1,0
+
+
+; fine sponda
+
+
+CreateMeshBuilder,
+AddVertex,-45,8,4.5,
+AddVertex,-15,9,4.5,
+AddVertex,-15,7.5,4.5,
+AddVertex,-45,6.5,4.5,
+AddVertex,-45,6.5,5,
+AddVertex,-15,7.5,5,
+AddFace,0,1,2,3,
+AddFace,3,2,5,4,
+GenerateNormals,
+
+LoadTexture,concrete.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,0.9,
+SetTextureCoordinates,3,0,0.9,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,2,1,
+
+CreateMeshBuilder,
+AddVertex,-45,6.5,5,
+AddVertex,-15,7.5,5,
+AddVertex,-15,6.0,5,
+AddVertex,-45,5.0,5,
+AddVertex,-45,5.0,15,
+AddVertex,-15,6.0,15,
+AddFace,0,1,2,3,
+AddFace,3,2,5,4,
+GenerateNormals,
+
+LoadTexture,kyoukyaku2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0,0.5,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1,;;;;;;;;;;;;;;;;;;;;;;;unit
+
+; sponda anteriore 2 dx e sx
+
+CreateMeshbuilder,
+AddVertex, -45,5.5,4.5
+Addvertex, -155,-3.0,4.5
+Addvertex, -45,-5,-4.5
+Addvertex, -155,-5,-4.5
+addface2,0,1,3,2,
+
+Loadtexture, grass.bmp, ;;;;;;;;;; I parametri sono errati
+;setTextureCoordinates, 0,0,0
+;setTextureCoordinates, 1,0,0
+;setTextureCoordinates, 1,1,0
+;setTextureCoordinates, 0,1,0
+
+setTextureCoordinates, 0,6,1    ;;;;;; meglio usare questi
+setTextureCoordinates, 1,0,0.1
+setTextureCoordinates, 2,6,0
+setTextureCoordinates, 3,0,0
+
+
+CreateMeshbuilder,
+AddVertex, 45,5.5,4.5
+Addvertex, 155,-3.0,4.5
+Addvertex, 45,-5,-4.5
+Addvertex, 155,-5,-4.5
+addface2,0,1,3,2,
+
+Loadtexture, grass.bmp, ;;;;;;;;;; I parametri sono errati
+;setTextureCoordinates, 0,0,0
+;setTextureCoordinates, 1,0,0
+;setTextureCoordinates, 1,1,0
+;setTextureCoordinates, 0,1,0
+
+setTextureCoordinates, 0,6,1    ;;;;;; meglio usare questi
+setTextureCoordinates, 1,0,0.1
+setTextureCoordinates, 2,6,0
+setTextureCoordinates, 3,0,0
+
+
+CreateMeshbuilder,
+AddVertex, 45,5.5,4.5
+Addvertex, 45,5.5,15.5
+Addvertex, 45,-5,-4.5
+Addvertex, 45,-5,22.0
+addface2,0,1,2,3,
+
+Loadtexture, concrete.bmp,
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 0,1,0
+
+; fine sponda
+
+
+CreateMeshBuilder,
+AddVertex,-155,2,4.5,
+AddVertex,-45,8,4.5,
+AddVertex,-45,6.5,4.5,
+AddVertex,-155,-1,4.5,
+AddVertex,-155,-1,5,
+AddVertex,-45,6.5,5,
+AddFace,0,1,2,3,
+AddFace,3,2,5,4,
+GenerateNormals,
+
+LoadTexture,concrete.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,0.9,
+SetTextureCoordinates,3,0,0.9,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,2,1,
+
+CreateMeshBuilder,
+AddVertex,-155,0.5,5,
+AddVertex,-45,6.5,5,
+AddVertex,-45,5.0,5,
+AddVertex,-155,-3.0,5,
+AddVertex,-155,-3.0,15,
+AddVertex,-45,5.0,15,
+AddFace,0,1,2,3,
+AddFace,3,2,5,4,
+GenerateNormals,
+
+LoadTexture,kyoukyaku2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,3,0,
+SetTextureCoordinates,2,3,0.5,
+SetTextureCoordinates,3,0,0.5,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,3,1,;;;;;;;;;;;;;;;;;;;;;;;unit(L)
+
+CreateMeshBuilder,
+AddVertex,45,8,4.5,
+AddVertex,15,9,4.5,
+AddVertex,15,7.5,4.5,
+AddVertex,45,6.5,4.5,
+AddVertex,45,6.5,5,
+AddVertex,15,7.5,5,
+AddFace,1,0,3,2,
+AddFace,2,3,4,5,
+GenerateNormals,
+
+LoadTexture,concrete.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,0.9,
+SetTextureCoordinates,3,0,0.9,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,2,1,
+
+
+CreateMeshBuilder,
+AddVertex,45,6.5,5,
+AddVertex,15,7.5,5,
+AddVertex,15,6.0,5,
+AddVertex,45,5.0,5,
+AddVertex,45,5.0,15,
+AddVertex,15,6.0,15,
+AddFace,1,0,3,2,
+AddFace,2,3,4,5,
+GenerateNormals,
+
+LoadTexture,kyoukyaku2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0,0.5,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1,;;;;;;;;;;;;;;;;;;;;;;;unit
+
+CreateMeshBuilder,
+AddVertex,155,0,4.5,
+AddVertex,45,8,4.5,
+AddVertex,45,6.5,4.5,
+AddVertex,155,-2,4.5,
+AddVertex,155,-2.5,5,
+AddVertex,45,6.5,5,
+AddFace,1,0,3,2,
+AddFace,2,3,4,5,
+GenerateNormals,
+
+LoadTexture,concrete.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,0.9,
+SetTextureCoordinates,3,0,0.9,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,2,1,
+
+CreateMeshBuilder,
+AddVertex,155,0.5,5,
+AddVertex,45,6.5,5,
+AddVertex,45,5.0,5,
+AddVertex,155,-5.0,5,
+AddVertex,155,-5.0,15,
+AddVertex,45,5.0,15,
+AddFace,1,0,3,2,
+AddFace,2,3,4,5,
+GenerateNormals,
+
+LoadTexture,kyoukyaku2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,3,0,
+SetTextureCoordinates,2,3,0.5,
+SetTextureCoordinates,3,0,0.5,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,3,1,;;;;;;;;;;;;;;;;;;;;;;;unit(R)
+
+
+; fine cornice sinistra e destra
+
+CreateMeshBuilder,
+AddVertex,-14,5.8,5,
+AddVertex,-14,5.8,15,
+AddVertex,-14,4.8,15,
+AddVertex,-14,3.8,12.5,
+AddVertex,-14,3.8,7.5,
+AddVertex,-14,4.8,5,
+AddVertex,-14,-5,12.5,
+AddVertex,-14,-5,7.5,
+AddVertex,-16,5.8,5,
+AddVertex,-16,4.8,5,
+AddVertex,-16,3.8,7.5,
+AddVertex,-16,-5,7.5,
+AddFace,0,1,2,3,4,5,
+AddFace,4,3,6,7,
+AddFace,8,0,5,9,
+AddFace,9,5,4,10,
+AddFace,10,4,7,11,
+GenerateNormals,
+
+LoadTexture,kyoukyaku.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0.75,1,
+SetTextureCoordinates,4,0.25,1,
+SetTextureCoordinates,5,0,0.5,
+SetTextureCoordinates,6,0.75,0,
+SetTextureCoordinates,7,0.25,0,
+SetTextureCoordinates,8,-1,0,
+SetTextureCoordinates,9,-1,0.5,
+SetTextureCoordinates,10,-1,1,
+SetTextureCoordinates,11,-1,0,;;;;;;;;;;;;;;;;‹´‹runit
+
+; fine primo tralicio sinistra
+
+CreateMeshBuilder,
+AddVertex,-44,4.8,5,
+AddVertex,-44,4.8,15,
+AddVertex,-44,3.8,15,
+AddVertex,-44,2.8,12.5,
+AddVertex,-44,2.8,7.5,
+AddVertex,-44,3.8,5,
+AddVertex,-44,-5,12.5,
+AddVertex,-44,-5,7.5,
+AddVertex,-46,4.8,5,
+AddVertex,-46,3.8,5,
+AddVertex,-46,2.8,7.5,
+AddVertex,-46,-5,7.5,
+AddFace,0,1,2,3,4,5,
+AddFace,4,3,6,7,
+AddFace,8,0,5,9,
+AddFace,9,5,4,10,
+AddFace,10,4,7,11,
+GenerateNormals,
+
+LoadTexture,kyoukyaku.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0.75,1,
+SetTextureCoordinates,4,0.25,1,
+SetTextureCoordinates,5,0,0.5,
+SetTextureCoordinates,6,0.75,0,
+SetTextureCoordinates,7,0.25,0,
+SetTextureCoordinates,8,-1,0,
+SetTextureCoordinates,9,-1,0.5,
+SetTextureCoordinates,10,-1,1,
+SetTextureCoordinates,11,-1,0,;;;;;;;;;;;;;;;;‹´‹runit
+
+; fine 2 tralicio sinistra
+
+CreateMeshBuilder,
+AddVertex,-74,2.8,5,
+AddVertex,-74,2.8,15,
+AddVertex,-74,1.8,15,
+AddVertex,-74,0.8,12.5,
+AddVertex,-74,0.8,7.5,
+AddVertex,-74,1.8,5,
+AddVertex,-74,-5,12.5,
+AddVertex,-74,-5,7.5,
+AddVertex,-76,2.8,5,
+AddVertex,-76,1.8,5,
+AddVertex,-76,0.8,7.5,
+AddVertex,-76,-5,7.5,
+AddFace,0,1,2,3,4,5,
+AddFace,4,3,6,7,
+AddFace,8,0,5,9,
+AddFace,9,5,4,10,
+AddFace,10,4,7,11,
+GenerateNormals,
+
+LoadTexture,kyoukyaku.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0.75,1,
+SetTextureCoordinates,4,0.25,1,
+SetTextureCoordinates,5,0,0.5,
+SetTextureCoordinates,6,0.75,0,
+SetTextureCoordinates,7,0.25,0,
+SetTextureCoordinates,8,-1,0,
+SetTextureCoordinates,9,-1,0.5,
+SetTextureCoordinates,10,-1,1,
+SetTextureCoordinates,11,-1,0,;;;;;;;;;;;;;;;;‹´‹runit
+
+; fine 3 tralicio sinistra
+; pilastro centrale
+
+CreateMeshBuilder,
+Cube, 0.3,6,0.3,
+Translate, 8,0,6,
+GenerateNormals,
+Setcolor,150,150,150,
+
+CreateMeshBuilder,
+Cube, 0.3,6,0.3,
+Translate, 8,0,7.5,
+GenerateNormals,
+SetColor,150,150,150,
+
+CreateMeshBuilder,
+Cube, 0.3,6,0.3,
+Translate, 8,0,9,
+GenerateNormals,
+SetColor,150,150,150
+
+CreateMeshBuilder,
+Cube, 0.3,6,0.3,
+Translate, 8,0,10.5,
+GenerateNormals,
+SetColor,150,150,150
+
+CreateMeshBuilder,
+Cube, 0.3,6,0.3,
+Translate, 8,0,12,
+GenerateNormals,
+SetColor,150,150,150
+
+CreateMeshBuilder,
+Cube, 0.3,6,0.3,
+Translate, 8,0,13.5,
+GenerateNormals,
+SetColor,150,150,150
+
+
+
+;CreateMeshBuilder,
+;AddVertex,14,5.8,5,
+;AddVertex,14,5.8,15,
+;AddVertex,14,4.8,15,
+;AddVertex,14,3.8,12.5,
+;AddVertex,14,3.8,7.5,
+;AddVertex,14,4.8,5,
+;AddVertex,14,-5,12.5,
+;AddVertex,14,-5,7.5,
+;AddVertex,16,5.8,5,
+;AddVertex,16,4.8,5,
+;AddVertex,16,3.8,7.5,
+;AddVertex,16,-5,7.5,
+;AddFace,5,4,3,2,1,0,
+;AddFace,3,4,7,6,
+;AddFace,0,8,9,5,
+;AddFace,5,9,10,4,
+;AddFace,4,10,11,7,
+;GenerateNormals,
+
+;LoadTexture,kyoukyaku.bmp,
+;SetTextureCoordinates,0,0,0,
+;SetTextureCoordinates,1,1,0,
+;SetTextureCoordinates,2,1,0.5,
+;SetTextureCoordinates,3,0.75,1,
+;SetTextureCoordinates,4,0.25,1,
+;SetTextureCoordinates,5,0,0.5,
+;SetTextureCoordinates,6,0.75,0,
+;SetTextureCoordinates,7,0.25,0,
+;SetTextureCoordinates,8,-1,0,
+;SetTextureCoordinates,9,-1,0.5,
+;SetTextureCoordinates,10,-1,1,
+;SetTextureCoordinates,11,-1,0,;;;;;;;;;;;;;;;;‹´‹runit
+
+; secondo tralicio destra.
+
+CreateMeshBuilder,
+AddVertex,44,4.8,5,
+AddVertex,44,4.8,15,
+AddVertex,44,3.8,15,
+AddVertex,44,2.8,12.5,
+AddVertex,44,2.8,7.5,
+AddVertex,44,3.8,5,
+AddVertex,44,-5,12.5,
+AddVertex,44,-5,7.5,
+AddVertex,46,4.8,5,
+AddVertex,46,3.8,5,
+AddVertex,46,2.8,7.5,
+AddVertex,46,-5,7.5,
+AddFace,5,4,3,2,1,0,
+AddFace,3,4,7,6,
+AddFace,0,8,9,5,
+AddFace,5,9,10,4,
+AddFace,4,10,11,7,
+GenerateNormals,
+
+LoadTexture,kyoukyaku.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0.75,1,
+SetTextureCoordinates,4,0.25,1,
+SetTextureCoordinates,5,0,0.5,
+SetTextureCoordinates,6,0.75,0,
+SetTextureCoordinates,7,0.25,0,
+SetTextureCoordinates,8,-1,0,
+SetTextureCoordinates,9,-1,0.5,
+SetTextureCoordinates,10,-1,1,
+SetTextureCoordinates,11,-1,0,;;;;;;;;;;;;;;;;‹´‹runit
+
+;; secondo pilastro a dx
+
+CreateMeshBuilder,
+AddVertex,74,2.8,5,
+AddVertex,74,2.8,15,
+AddVertex,74,1.8,15,
+AddVertex,74,0.8,12.5,
+AddVertex,74,0.8,7.5,
+AddVertex,74,1.8,5,
+AddVertex,74,-5,12.5,
+AddVertex,74,-5,7.5,
+AddVertex,76,2.8,5,
+AddVertex,76,1.8,5,
+AddVertex,76,0.8,7.5,
+AddVertex,76,-5,7.5,
+AddFace,5,4,3,2,1,0,
+AddFace,7,6,3,4,
+AddFace,9,5,0,8,
+AddFace,10,4,5,9,
+AddFace,11,7,4,10,
+GenerateNormals,
+
+LoadTexture,kyoukyaku.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0.75,1,
+SetTextureCoordinates,4,0.25,1,
+SetTextureCoordinates,5,0,0.5,
+SetTextureCoordinates,6,0.75,0,
+SetTextureCoordinates,7,0.25,0,
+SetTextureCoordinates,8,-1,0,
+SetTextureCoordinates,9,-1,0.5,
+SetTextureCoordinates,10,-1,1,
+SetTextureCoordinates,11,-1,0,;;;;;;;;;;;;;;;;‹´‹runit
+
+
+CreateMeshBuilder,
+AddVertex,104,0.8,5,
+AddVertex,104,0.8,15,
+AddVertex,104,-0.2,15,
+AddVertex,104,-1.2,12.5,
+AddVertex,104,-1.2,7.5,
+AddVertex,104,-0.2,5,
+AddVertex,104,-5,12.5,
+AddVertex,104,-5,7.5,
+AddVertex,106,1.8,5,
+AddVertex,106,-0.2,5,
+AddVertex,106,-1.2,7.5,
+AddVertex,106,-5,7.5,
+AddFace,5,4,3,2,1,0,
+AddFace,3,4,7,6,
+AddFace,0,8,9,5,
+AddFace,5,9,10,4,
+AddFace,4,10,11,7,
+GenerateNormals,
+
+LoadTexture,kyoukyaku.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0.75,1,
+SetTextureCoordinates,4,0.25,1,
+SetTextureCoordinates,5,0,0.5,
+SetTextureCoordinates,6,0.75,0,
+SetTextureCoordinates,7,0.25,0,
+SetTextureCoordinates,8,-1,0,
+SetTextureCoordinates,9,-1,0.5,
+SetTextureCoordinates,10,-1,1,
+SetTextureCoordinates,11,-1,0,;;;;;;;;;;;;;;;;‹´‹runit
+
+
+
+CreateMeshBuilder,
+AddVertex,-104,0.8,5,
+AddVertex,-104,0.8,15,
+AddVertex,-104,-0.2,15,
+AddVertex,-104,-1.2,12.5,
+AddVertex,-104,-1.2,7.5,
+AddVertex,-104,-0.2,5,
+AddVertex,-104,-5,12.5,
+AddVertex,-104,-5,7.5,
+AddVertex,-106,0.8,5,
+AddVertex,-106,-0.2,5,
+AddVertex,-106,-1.2,7.5,
+AddVertex,-106,-5,7.5,
+AddFace,0,1,2,3,4,5,
+AddFace,4,3,6,7,
+AddFace,8,0,5,9,
+AddFace,9,5,4,10,
+AddFace,10,4,7,11,
+GenerateNormals,
+
+LoadTexture,kyoukyaku.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0.5,
+SetTextureCoordinates,3,0.75,1,
+SetTextureCoordinates,4,0.25,1,
+SetTextureCoordinates,5,0,0.5,
+SetTextureCoordinates,6,0.75,0,
+SetTextureCoordinates,7,0.25,0,
+SetTextureCoordinates,8,-1,0,
+SetTextureCoordinates,9,-1,0.5,
+SetTextureCoordinates,10,-1,1,
+SetTextureCoordinates,11,-1,0,;;;;;;;;;;;;;;;;‹´‹runit
+
+;;barriera
+CreateMeshBuilder,
+AddVertex,-7,11,4.3,
+AddVertex,7,11,4.3,
+AddVertex,7,8.8,4.3,
+AddVertex,-7,8.8,4.3,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,barriera.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,6,0,
+SetTextureCoordinates,2,6,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,

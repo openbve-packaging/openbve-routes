@@ -1,0 +1,54 @@
+;A Hammerwich - Wood Green object
+;--------------------------------------
+;(c) Steve Green  2002.
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+
+CreateMeshBuilder,
+AddVertex,3.8,-3.3, 0,
+AddVertex,3.8, 8.1, 0,
+AddVertex,3.8, 8.1, 25.5,
+AddVertex,3.8,-3.3, 25.5,
+AddFace,3, 2, 1, 0,
+SetColor,50,50,50,,
+GenerateNormals,
+
+LoadTexture,00brick.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 2.25, 0,
+SetTextureCoordinates,3, 2.25, 1,
+
+CreateMeshBuilder,
+AddVertex,4.8, 8.0, 25.5,
+AddVertex,3.8, 8.1, 25.5,
+AddVertex,4.8, 8.1, 0,
+AddVertex,3.8, 8.1, 0,
+AddFace,2,3,1,0,
+GenerateNormals,
+
+LoadTexture,00brick.bmp,
+SetTextureCoordinates,0, 0,0,
+SetTextureCoordinates,1, 1,0,
+SetTextureCoordinates,2, 0,2.25,
+SetTextureCoordinates,3, 1,2.25,
+
+CreateMeshBuilder,
+AddVertex,3.8, -0.07, 25.5,
+AddVertex,1.5, -0.07, 25.5,
+AddVertex,3.8, -0.07, 0,
+AddVertex,1.5, -0.07, 0,
+AddFace,2,3,1,0,
+SetColor,96,96,96,
+GenerateNormals,
+
+LoadTexture,ballast.bmp,
+SetTextureCoordinates,0, 0,0,
+SetTextureCoordinates,1, 1,0,
+SetTextureCoordinates,2, 0,1,
+SetTextureCoordinates,3, 1,1,
+

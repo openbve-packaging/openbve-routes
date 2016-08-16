@@ -1,0 +1,34 @@
+[Object]
+Position = 0, 0, 10
+States = ../car/car_A.csv
+TranslateZFunction = mod[time*9,180]
+RotateZDirection = 0, 0, 1
+;RotateZFunction =  time 1.2 + cos  ~ * 0.01 *
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = 0, 0, -10
+States = ../car/Bus_A.csv
+TranslateZFunction = mod[time*9,180]
+RotateZDirection = 0, 0, 1
+;RotateZFunction = time 1.2 + cos  ~ * 0.01 *
+;RotateZDamping = 10, 10.4
+
+
+[Object]
+Position = 3.4, 0, 165
+States = ../car/car_D.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[-time*9,180]
+
+[Object]
+Position = 3.2, 0, 105
+States = ../car/car_F.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[-time*9,180]
+
+[Object]
+Position = 3.2, 0, 25
+States = ../car/car_F.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = mod[-time*9,180]

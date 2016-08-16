@@ -1,0 +1,126 @@
+[MeshBuilder] ; The stair bridge over Whitechapel
+Vertex 7.2,3,0
+Vertex 4,5.5,0
+Vertex -1.3,5.5,0
+Vertex -4.5,3,0
+Vertex -4.5,3,4
+Vertex -1.3,5.5,4
+Vertex 4,5.5,4
+Vertex 7.2,3,4
+
+Face 7,6,1,0
+Face 6,5,2,1
+Face 5,4,3,2
+[Texture]
+load roth-black.bmp
+Coordinates 0,1,0
+Coordinates 1,1,12.8
+Coordinates 2,1,28.8
+Coordinates 3,1,46.8
+Coordinates 4,0,46.8
+Coordinates 5,0,28.8
+Coordinates 6,0,12.8
+Coordinates 7,0,0
+
+[Meshbuilder] ; The glass bit in front
+Vertex 7.2,3,0
+Vertex 4,5.5,0
+Vertex -1.3,5.5,0
+Vertex -4.5,3,0
+Vertex 7.2,6,0
+Vertex 4,8.5,0
+Vertex -1.3,8.5,0
+Vertex -4.5,6,0
+
+Face 4,0,1,5
+Face 5,1,2,6
+Face 6,2,3,7
+
+[Texture]
+load bridgeglass.bmp
+Coordinates 0,3.2,1
+Coordinates 1,0,1
+Coordinates 2,4,1
+Coordinates 3,8.5,1
+Coordinates 4,3.2,0
+Coordinates 5,0,0
+Coordinates 6,4,0
+Coordinates 7,8.5,0
+Transparent 255,0,255
+
+[MeshBuilder] ; The roof
+Vertex 7.2,6,0
+Vertex 4,8.5,0
+Vertex -1.3,8.5,0
+Vertex -4.5,6,0
+Vertex -4.5,6,4
+Vertex -1.3,8.5,4
+Vertex 4,8.5,4
+Vertex 7.2,6,4
+
+Face 7,6,1,0
+Face 6,5,2,1
+Face 5,4,3,2
+Color 200,200,200
+[Texture]
+load stonewall.bmp
+Coordinates 0,1,0
+Coordinates 1,1,12.8
+Coordinates 2,1,28.8
+Coordinates 3,1,46.8
+Coordinates 4,0,46.8
+Coordinates 5,0,28.8
+Coordinates 6,0,12.8
+Coordinates 7,0,0
+
+[Meshbuilder] ; The back
+Vertex 7.2,3,4
+Vertex 4,5.5,4
+Vertex -1.3,5.5,4
+Vertex -4.5,3,4
+Vertex 7.2,6,4
+Vertex 4,8.5,4
+Vertex -1.3,8.5,4
+Vertex -4.5,6,4
+
+Face 4,0,1,5
+Face 5,1,2,6
+Face 6,2,3,7
+
+[Texture]
+load stone.bmp
+Coordinates 0,3.2,1
+Coordinates 1,0,1
+Coordinates 2,4,1
+Coordinates 3,8.5,1
+Coordinates 4,3.2,0
+Coordinates 5,0,0
+Coordinates 6,4,0
+Coordinates 7,8.5,0
+Transparent 255,0,255
+
+[Meshbuilder] ; Left wall
+Vertex -4.5,3,5
+Vertex -4.5,0,5
+Vertex -4.5,0,0
+Vertex -4.5,3,0
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; Left wall
+Vertex 7.2,3,5
+Vertex 7.2,0,5
+Vertex 7.2,0,0
+Vertex 7.2,3,0
+Face 3,2,1,0
+[Texture]
+load stonea.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0

@@ -1,0 +1,144 @@
+[meshbuilder]
+vertex -120,-0.4,26
+vertex -12,-0.4,26
+vertex -12,-0.401,12
+vertex -120,-0.401,12
+face 0,1,2,3
+
+[texture]
+load ground2.bmp
+coordinates 0,0,0
+coordinates 1,5,0
+coordinates 2,5,1
+coordinates 3,0,1
+
+[meshbuilder]
+vertex -120,-0.4,2
+vertex 120,-0.4,2
+vertex 120,-0.401,1
+vertex -120,-0.401,1
+face 0,1,2,3
+
+[texture]
+load ground2.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,10,0.2
+coordinates 3,0,0.2
+
+[meshbuilder]
+vertex -2,-0.4,26
+vertex 2,-0.4,26
+vertex 2,-0.4,12
+vertex -2,-0.4,12
+face 0,1,2,3
+color 100,100,100
+
+[texture]
+load teglak3.bmp
+coordinates 0,0,0
+coordinates 1,2,0
+coordinates 2,2,4
+coordinates 3,0,4
+
+[meshbuilder]
+vertex 2,-0.4,26
+vertex 120,-0.4,26
+vertex 120,-0.401,12
+vertex 2,-0.401,12
+face 0,1,2,3
+
+[texture]
+load ground2.bmp
+coordinates 0,0,0
+coordinates 1,5,0
+coordinates 2,5,1
+coordinates 3,0,1
+
+[meshbuilder]
+vertex -120,-0.4,12
+vertex -12,-0.4,12
+vertex -10,-2.4,10
+vertex -120,-2.4,10
+face 0,1,2,3
+color 200,200,200
+
+[texture]
+load teglak3.bmp
+coordinates 0,0,0
+coordinates 1,49.1,0
+coordinates 2,50,2
+coordinates 3,0,2
+
+[meshbuilder]
+vertex -12,-0.4,12
+vertex -12,-0.4,26
+vertex -10,-2.4,26
+vertex -10,-2.4,10
+face 0,1,2,3
+color 150,150,150
+
+[texture]
+load teglak3.bmp
+coordinates 0,0.5,0
+coordinates 1,5,0
+coordinates 2,5,2
+coordinates 3,0,2
+
+[meshbuilder]
+vertex -2,-0.4,26
+vertex -2,-0.4,12
+vertex -4,-2.4,10
+vertex -4,-2.4,26
+face 0,1,2,3
+color 150,150,150
+
+[texture]
+load teglak3.bmp
+coordinates 0,0,0
+coordinates 1,4.5,0
+coordinates 2,4.5,2
+coordinates 3,0,2
+
+[meshbuilder]
+vertex -2,-0.4,12
+vertex 120,-0.4,12
+vertex 120,-2.4,10
+vertex -4,-2.4,10
+face 0,1,2,3
+color 150,150,150
+
+[texture]
+load teglak3.bmp
+coordinates 0,0.8,0
+coordinates 1,50,0
+coordinates 2,50,2
+coordinates 3,0,2
+
+[meshbuilder]
+vertex 120,-0.4,2
+vertex -120,-0.4,2
+vertex -120,-2.4,4
+vertex 120,-2.4,4
+face 0,1,2,3
+
+[texture]
+load teglak3.bmp
+coordinates 0,0,0
+coordinates 1,100,0
+coordinates 2,100,2
+coordinates 3,0,2
+
+[meshbuilder]
+vertex -120,-2.39,26
+vertex 120,-2.39,26
+vertex 120,-2.39,1
+vertex -120,-2.39,1
+face 0,1,2,3
+
+[texture]
+load viz1.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,10,2
+coordinates 3,0,2

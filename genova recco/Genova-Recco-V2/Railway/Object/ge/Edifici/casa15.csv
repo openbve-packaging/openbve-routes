@@ -1,0 +1,149 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com 
+
+;;;;casa 3
+
+CreateMeshBuilder,
+AddVertex,0, 0, -25,
+AddVertex,0, 20, -25,
+AddVertex,10, 20, -25,
+AddVertex,10, 0, -25,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa15.bmp,
+SetTextureCoordinates,0, 0, 1.5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.65, 0,
+SetTextureCoordinates,3, 0.65, 1.5,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CreateMeshBuilder,
+AddVertex,10, 0, 0,
+AddVertex,10, 20, 0,
+AddVertex,0, 20, 0,
+AddVertex,0, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa15.bmp,
+SetTextureCoordinates,0, 0, 1.5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.65, 0,
+SetTextureCoordinates,3, 0.65, 1.5,
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 20, 0,
+AddVertex,0, 20, -25,
+AddVertex,0, 0, -25,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa15.bmp,
+SetTextureCoordinates,0, 0, 1.5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2,1.5,0,
+SetTextureCoordinates,3,1.5, 1.5,
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;sopra
+
+CreateMeshBuilder,
+AddVertex,9.5, 20, -24.5,
+AddVertex,9.5, 21.25, -24.5,
+AddVertex,0.2, 21.25, -24.5,
+AddVertex,0.2, 20, -24.5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa15.bmp,
+SetTextureCoordinates,0, 0, 0.68,
+SetTextureCoordinates,1, 0, 0.72,
+SetTextureCoordinates,2, 1, 0.72,
+SetTextureCoordinates,3,1, 0.68,
+CreateMeshBuilder,
+AddVertex,9.5, 20, -0.5,
+AddVertex,9.5, 21.25, -0.5,
+AddVertex,0.2, 21.25, -0.5,
+AddVertex,0.2, 20, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa15.bmp,
+SetTextureCoordinates,0, 0, 0.68,
+SetTextureCoordinates,1, 0, 0.72,
+SetTextureCoordinates,2, 1, 0.72,
+SetTextureCoordinates,3,1, 0.68,
+
+CreateMeshBuilder,
+AddVertex,0.2, 20, -0.5,
+AddVertex,0.2, 21.25, -0.5,
+AddVertex,0.2, 21.25, -24.5,
+AddVertex,0.2, 20, -24.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa15.bmp,
+SetTextureCoordinates,0, 0, 0.68,
+SetTextureCoordinates,1, 0, 0.72,
+SetTextureCoordinates,2, 1, 0.72,
+SetTextureCoordinates,3,1, 0.68,
+
+CreateMeshBuilder,
+cube,5.5, 0.1, 13,
+translate, 5, 20, -12.5
+GenerateNormals,
+
+setcolor,170,160,120
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;sopra
+
+CreateMeshBuilder,
+AddVertex,8, 20, -22.5,
+AddVertex,8, 21.8, -22.5,
+AddVertex,0.5, 21.8, -22.5,
+AddVertex,0.5, 20, -22.5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,murettosturla.png,
+SetTextureCoordinates,0, 0, 0.4,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 0.4,
+setdecaltransparentcolor,0,0,0
+CreateMeshBuilder,
+AddVertex,8, 20, -5.5,
+AddVertex,8, 21.8, -5.5,
+AddVertex,0.5, 21.8, -5.5,
+AddVertex,0.5, 20, -5.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,murettosturla.png,
+SetTextureCoordinates,0, 0, 0.4,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 0.4,
+setdecaltransparentcolor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,0.5, 20, -5.5,
+AddVertex,0.5, 21.8, -5.5,
+AddVertex,0.5, 21.8, -22.5,
+AddVertex,0.5, 20, -22.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,murettosturla.png,
+SetTextureCoordinates,0, 0, 0.4,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 0.4,
+setdecaltransparentcolor,0,0,0

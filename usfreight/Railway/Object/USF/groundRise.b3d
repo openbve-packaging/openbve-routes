@@ -1,0 +1,26 @@
+:(c) STEVE GREEN 2002
+;
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+[MeshBuilder]
+Vertex -120, 0, 25
+Vertex -120, 0, 0
+Vertex -120, -1, -25
+Vertex 120, 0, 25
+Vertex 120, 0, 0
+Vertex 120, -1, -25
+Face 1, 0, 3, 4
+Face 2, 1, 4, 5
+
+[Texture]
+Load Ground.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 0, 2
+Coordinates 3, 5, 0
+Coordinates 4, 5, 1
+Coordinates 5, 5, 2

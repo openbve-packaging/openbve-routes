@@ -1,0 +1,64 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+CreateMeshBuilder,
+AddVertex, 0.19, 0.51, -0.61,
+AddVertex, -0.19, 0.51, -0.61,
+AddVertex, -0.19, 0.51, -0.28,
+AddVertex, 0.19, 0.51, -0.28,
+AddFace2, 0, 3, 2, 1,
+GenerateNormals,
+setcolor,50,50,50
+
+
+CreateMeshBuilder,
+AddVertex,  0.19, 0, -0.54,
+AddVertex,- 0.19, 0, -0.54,
+AddVertex, - 0.19, 0, -0.28,
+AddVertex,  0.19, 0,-0.28,
+AddFace2, 0, 3, 2, 1,
+GenerateNormals,
+setcolor,50,50,50
+
+
+CreateMeshBuilder,
+AddVertex, - 0.19, 0.51, -0.61,
+AddVertex,- 0.19, 0, -0.54,
+AddVertex, - 0.19, 0, -0.28,
+AddVertex, - 0.19, 0.51, -0.28,
+AddFace2, 0, 3, 2, 1,
+GenerateNormals,
+setcolor,50,50,50
+
+CreateMeshBuilder,
+AddVertex, 0.19, 0.51, -0.61,
+AddVertex,  0.19, 0, -0.54,
+AddVertex,  0.19, 0, -0.28,
+AddVertex,  0.19, 0.51, -0.28,
+AddFace2, 0, 3, 2, 1,
+GenerateNormals,
+setcolor,50,50,50
+
+
+
+CreateMeshBuilder,
+AddVertex,  0.19, 0.51, -0.52,
+AddVertex,- 0.19, 0.51, -0.52,
+AddVertex, - 0.19, 0, -0.52,
+AddVertex,  0.19, 0, -0.52,
+AddFace, 0, 3, 2, 1,
+GenerateNormals,
+setcolor,20,20,20
+
+
+CreateMeshBuilder,
+AddVertex,  0.19, 0.51, -0.28,
+AddVertex,- 0.19, 0.51, -0.28,
+AddVertex, - 0.19, 0, -0.28,
+AddVertex,  0.19, 0, -0.28,
+AddFace, 0, 1, 2, 3,
+GenerateNormals,
+setcolor,50,50,50
+
+

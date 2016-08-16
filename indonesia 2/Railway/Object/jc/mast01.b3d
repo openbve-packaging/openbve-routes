@@ -1,0 +1,21 @@
+
+[Meshbuilder]
+cylinder 5, 0.10, 0.10, 9.2500
+translate 3.20002, 2.400, 0.000
+color 85,50,50
+
+
+[MeshBuilder]
+Vertex -4.40, 7.0, 0
+Vertex 3.18, 7.0, 0
+Vertex 3.18, 4.2, 0
+vertex -4.40, 4.2, 0
+Face2 0,1,2,3
+[Texture]
+Load mast2efcj01.BMP
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+

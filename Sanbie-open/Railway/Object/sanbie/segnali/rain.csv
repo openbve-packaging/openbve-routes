@@ -1,0 +1,90 @@
+CreateMeshBuilder,,,, ; al centro 30 metri avanti
+AddVertex,2.5,0,0,
+AddVertex,-2.5,0,0,
+AddVertex,-2.5,30,0,
+AddVertex,2.5,30,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+Translate,0,0,30
+LoadTexture,rain1.bmp,,,
+SetTextureCoordinates,0,2,6,
+SetTextureCoordinates,1,0,6,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,2,0,
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,,,, ; al centro 42 metri avanti
+AddVertex,2.5,0,0,
+AddVertex,-2.5,0,0,
+AddVertex,-2.5,30,0,
+AddVertex,2.5,30,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+Translate,0,0,42
+LoadTexture,rain2.bmp,,,
+SetTextureCoordinates,0,2,6,
+SetTextureCoordinates,1,0,6,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,2,0,
+SetDecalTransparentColor,255,255,255
+
+
+CreateMeshBuilder,,,, ;lato destro 6.5 metri avanti
+AddVertex,40,0,0,
+AddVertex, 2.5,0,0,
+AddVertex, 2.5,30,0,
+AddVertex,40,30,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+Translate,0,0,6.5
+LoadTexture,rain2.bmp,,,
+SetTextureCoordinates,0,7,6,
+SetTextureCoordinates,1,0,6,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,7,0,
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,,,, ;lato sinistro 6.5 metri avanti
+AddVertex,-2.5,0,0,
+AddVertex,-40,0,0,
+AddVertex,-40,30,0,
+AddVertex,-2.5,30,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+Translate,0,0,6.5
+LoadTexture,rain3.bmp,,,
+SetTextureCoordinates,0,7,6,
+SetTextureCoordinates,1,0,6,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,7,0,
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,,,, ;lato destro 18.5 metri avanti
+AddVertex,40,0,0,
+AddVertex, 2.5,0,0,
+AddVertex, 2.5,30,0,
+AddVertex,40,30,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+Translate,0,0,18.5
+LoadTexture,rain3.bmp,,,
+SetTextureCoordinates,0,7,6,
+SetTextureCoordinates,1,0,6,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,7,0,
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,,,, ;lato sinistro 18.5 metri avanti
+AddVertex,-2.5,0,0,
+AddVertex,-40,0,0,
+AddVertex,-40,30,0,
+AddVertex,-2.5,30,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+Translate,0,0,18.5
+LoadTexture,rain1.bmp,,,
+SetTextureCoordinates,0,7,6,
+SetTextureCoordinates,1,0,6,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,7,0,
+SetDecalTransparentColor,255,255,255

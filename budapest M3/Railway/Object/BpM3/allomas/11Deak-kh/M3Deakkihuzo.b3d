@@ -1,0 +1,71 @@
+;Deák kihúzó peron
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------
+;--------bal oldal---------
+;peron teteje
+[MeshBuilder]
+Vertex -3.15,1.1,0
+Vertex -3.15,1.1,25
+Vertex -1.45,1.1,25
+Vertex -1.45,1.1,0
+Face 0,1,2,3
+[Texture]
+Load 11_de_kihuzo_1.bmp
+Coordinates 0,0,1
+Coordinates 1,3,1
+Coordinates 2,3,0
+Coordinates 3,0,0
+
+[MeshBuilder]
+;szélei
+Vertex -3.15,0.9,0
+Vertex -3.15,0.9,25
+Vertex -3.15,1.1,25
+Vertex -3.15,1.1,0
+Vertex -1.45,0.9,0
+Vertex -1.45,0.9,25
+Vertex -1.45,1.1,25
+Vertex -1.45,1.1,0
+;eleje
+Vertex -3.15,0.9,0
+Vertex -3.15,1.1,0
+Vertex -1.45,1.1,0
+Vertex -1.45,0.9,0
+Face 0,1,2,3
+Face 7,6,5,4
+Face 8,9,10,11
+color 36,36,36
+
+;peronoldal
+[MeshBuilder]
+Vertex -3.00,-0.3,0
+Vertex -3.00,-0.3,25
+Vertex -3.00,0.9,25
+Vertex -3.00,0.9,0
+Vertex -1.6,-0.3,0
+Vertex -1.6,-0.3,25
+Vertex -1.6,0.9,25
+Vertex -1.6,0.9,0
+;eleje
+Vertex -3.00,-0.3,0
+Vertex -3.00,0.9,0
+Vertex -1.6,0.9,0
+Vertex -1.6,-0.3,0
+Face 0,1,2,3
+Face 7,6,5,4
+Face 8,9,10,11
+[Texture]
+Load 11_de_kihuzo_2.bmp
+Coordinates 0,10,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,10,0
+Coordinates 4,10,1
+Coordinates 5,0,1
+Coordinates 6,0,0
+Coordinates 7,10,0
+Coordinates 8,0,1
+Coordinates 9,0,0
+Coordinates 10,1,0
+Coordinates 11,1,1

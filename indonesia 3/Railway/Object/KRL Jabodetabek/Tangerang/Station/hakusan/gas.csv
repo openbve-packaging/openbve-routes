@@ -1,0 +1,15 @@
+
+
+CreateMeshbuilder,,,,
+addvertex,140,35,25,
+addvertex,140,0,25,
+addvertex,170,0,15,
+addvertex,170,35,15,
+addface,0,3,2,1
+GenerateNormals,,,,
+LoadTexture,gas2.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,1,0,
+SetDecalTransParentColor,255,255,255

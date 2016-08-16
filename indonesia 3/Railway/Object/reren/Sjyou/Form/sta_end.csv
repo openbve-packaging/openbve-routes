@@ -1,0 +1,12 @@
+CreateMeshBuilder,
+AddVertex,1.9, 14.4, 0,
+AddVertex,1.9, 14.4, 0.1,
+AddVertex,1.9,  2.2, 0.1,
+AddVertex,1.9,  2.2, 0,
+AddFace2,0,1,2,3,
+LoadTexture,../Roof/Spole.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,

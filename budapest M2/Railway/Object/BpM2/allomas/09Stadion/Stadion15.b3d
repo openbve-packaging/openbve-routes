@@ -1,0 +1,278 @@
+;Stadionok állomás, jobb vágány 5
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;felsõ vízszintes szürke szegély
+[MeshBuilder]
+vertex -27.7, 4.00,24.8
+vertex -27.7, 4.00,24.6
+vertex   2.2, 4.00,24.6
+vertex   2.2, 4.00,24.8
+face 0,1,2,3
+color 160,160,160
+
+[MeshBuilder]
+;szembefal fent 1-4 vg
+vertex -27.7,4.05,24.8
+vertex -27.7,5.10,24.8
+vertex   2.2,5.10,24.8
+vertex   2.2,4.05,24.8
+face 0,1,2,3
+color 40,40,40
+
+;-------------------------
+
+;táblák
+
+;vágány feliratok
+[MeshBuilder]
+vertex -1.2, 4.00,24.6
+vertex -1.2, 4.30,24.6
+vertex  1.2, 4.30,24.6
+vertex  1.2, 4.00,24.6
+vertex -11.95, 4.00,24.6
+vertex -11.95, 4.30,24.6
+vertex -09.55, 4.30,24.6
+vertex -09.55, 4.00,24.6
+vertex -15.95, 4.00,24.6
+vertex -15.95, 4.30,24.6
+vertex -13.55, 4.30,24.6
+vertex -13.55, 4.00,24.6
+vertex -26.7, 4.00,24.6
+vertex -26.7, 4.30,24.6
+vertex -24.3, 4.30,24.6
+vertex -24.3, 4.00,24.6
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+Load Stadion_vagany.bmp
+coordinates 0,0.0,0.25
+coordinates 1,0.0,0
+coordinates 2,0.5,0
+coordinates 3,0.5,0.25
+coordinates 4,0.5,0.50
+coordinates 5,0.5,0.25
+coordinates 6,1.0,0.25
+coordinates 7,1.0,0.50
+coordinates 8,0.0,0.75
+coordinates 9,0.0,0.50
+coordinates 10,0.5,0.50
+coordinates 11,0.5,0.75
+coordinates 12,0.5,1.00
+coordinates 13,0.5,0.75
+coordinates 14,1.0,0.75
+coordinates 15,1.0,1.00
+
+[MeshBuilder]
+vertex -8.70, 4.00,24.6
+vertex -8.70, 4.30,24.6
+vertex -6.90, 4.30,24.6
+vertex -6.90, 4.00,24.6
+vertex -3.85, 4.00,24.6
+vertex -3.85, 4.30,24.6
+vertex -2.05, 4.30,24.6
+vertex -2.05, 4.00,24.6
+vertex -18.60, 4.00,24.6
+vertex -18.60, 4.30,24.6
+vertex -16.80, 4.30,24.6
+vertex -16.80, 4.00,24.6
+vertex -23.45, 4.00,24.6
+vertex -23.45, 4.30,24.6
+vertex -21.65, 4.30,24.6
+vertex -21.65, 4.00,24.6
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+Load Stadion_hungaria.bmp
+coordinates 0,0.20,0.5
+coordinates 1,0.20,0
+coordinates 2,1.00,0
+coordinates 3,1.00,0.5
+coordinates 4,0.00,1
+coordinates 5,0.00,0.5
+coordinates 6,0.80,0.5
+coordinates 7,0.80,1
+coordinates 8,0.20,0.5
+coordinates 9,0.20,0
+coordinates 10,1.00,0
+coordinates 11,1.00,0.5
+coordinates 12,0.00,1
+coordinates 13,0.00,0.5
+coordinates 14,0.80,0.5
+coordinates 15,0.80,1
+
+[MeshBuilder]
+vertex -6.90, 4.00,24.6
+vertex -6.90, 4.30,24.6
+vertex -3.85, 4.30,24.6
+vertex -3.85, 4.00,24.6
+vertex -21.65, 4.00,24.6
+vertex -21.65, 4.30,24.6
+vertex -18.60, 4.30,24.6
+vertex -18.60, 4.00,24.6
+face 0,1,2,3
+face 4,5,6,7
+Load ..\tabla\kijarat4.bmp
+coordinates 0,0.1,1
+coordinates 1,0.1,0
+coordinates 2,0.9,0
+coordinates 3,0.9,1
+coordinates 4,0.1,1
+coordinates 5,0.1,0
+coordinates 6,0.9,0
+coordinates 7,0.9,1
+
+;vörös szegélyek
+[MeshBuilder]
+vertex -2.05, 4.00,24.6
+vertex -2.05, 4.30,24.6
+vertex -1.2, 4.30,24.6
+vertex -1.2, 4.00,24.6
+vertex  1.2, 4.00,24.6
+vertex  1.2, 4.30,24.6
+vertex  2.1, 4.30,24.6
+vertex  2.1, 4.00,24.6
+vertex -9.55, 4.00,24.6
+vertex -9.55, 4.30,24.6
+vertex -8.70, 4.30,24.6
+vertex -8.70, 4.00,24.6
+vertex -13.55, 4.00,24.6
+vertex -13.55, 4.30,24.6
+vertex -11.95, 4.30,24.6
+vertex -11.95, 4.00,24.6
+vertex -16.80, 4.00,24.6
+vertex -16.80, 4.30,24.6
+vertex -15.95, 4.30,24.6
+vertex -15.95, 4.00,24.6
+vertex -24.30, 4.00,24.6
+vertex -24.30, 4.30,24.6
+vertex -23.45, 4.30,24.6
+vertex -23.45, 4.00,24.6
+vertex -27.60, 4.00,24.6
+vertex -27.60, 4.30,24.6
+vertex -26.70, 4.30,24.6
+vertex -26.70, 4.00,24.6
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+face 16,17,18,19
+face 20,21,22,23
+face 24,25,26,27
+color 204,0,0
+
+;-----------------------------
+
+;1 vágány tükör
+;keret
+[MeshBuilder]
+cube 0.03,0.03,0.2
+translate -2.025,2.70,24.8
+color 128,128,128
+[MeshBuilder]
+cube 0.245,0.02,0.02
+translate -2.025,2.28,24.6
+color 128,128,128
+[MeshBuilder]
+cube 0.245,0.02,0.02
+translate -2.025,3.12,24.6
+color 128,128,128
+[MeshBuilder]
+cube 0.02,0.44,0.02
+translate -2.27,2.7,24.6
+color 128,128,128
+[MeshBuilder]
+cube 0.02,0.44,0.02
+translate -1.78,2.7,24.6
+color 128,128,128
+
+[MeshBuilder]
+vertex -2.25,2.40,24.6
+vertex -2.25,3.10,24.6
+vertex -1.80,3.10,24.6
+vertex -1.80,2.40,24.6
+face 0,1,2,3
+Load ..\peron\tukor.bmp
+coordinates 0,0,0.8
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.8
+
+[MeshBuilder]
+vertex -2.25,2.30,24.6
+vertex -2.25,2.40,24.6
+vertex -1.80,2.40,24.6
+vertex -1.80,2.30,24.6
+face 0,1,2,3
+Load ..\tabla\FStadion.bmp
+coordinates 0,0.25,1
+coordinates 1,0.25,0
+coordinates 2,0.75,0
+coordinates 3,0.75,1
+
+;2 vágány tükör
+;keret
+[MeshBuilder]
+cube 0.03,0.03,0.2
+translate -8.725,2.70,24.8
+color 128,128,128
+[MeshBuilder]
+cube 0.245,0.02,0.02
+translate -8.725,2.28,24.6
+color 128,128,128
+[MeshBuilder]
+cube 0.245,0.02,0.02
+translate -8.725,3.12,24.6
+color 128,128,128
+[MeshBuilder]
+cube 0.02,0.44,0.02
+translate -8.97,2.7,24.6
+color 128,128,128
+[MeshBuilder]
+cube 0.02,0.44,0.02
+translate -8.48,2.7,24.6
+color 128,128,128
+
+[MeshBuilder]
+vertex -8.95,2.40,24.6
+vertex -8.95,3.10,24.6
+vertex -8.50,3.10,24.6
+vertex -8.50,2.40,24.6
+face 0,1,2,3
+Load ..\peron\tukor.bmp
+coordinates 0,0,0.8
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.8
+
+[MeshBuilder]
+vertex -8.95,2.30,24.6
+vertex -8.95,2.40,24.6
+vertex -8.50,2.40,24.6
+vertex -8.50,2.30,24.6
+face 0,1,2,3
+Load ..\tabla\FStadion.bmp
+coordinates 0,0.25,1
+coordinates 1,0.25,0
+coordinates 2,0.75,0
+coordinates 3,0.75,1
+
+;----------------------------
+
+;pályára aljzatpótlék
+[MeshBuilder]
+vertex -0.425, -00.40, 25.00
+vertex -0.425, -00.17, 25.00
+vertex 0.425, -00.17, 25.00
+vertex 0.425, -00.40, 25.00
+face 0,1,2,3
+color 216,216,216
+[texture]
+load ../../sin/aljzat_150.bmp
+coordinates 0, 0.0, 0.25
+coordinates 1, 0.0, 0.0
+coordinates 2, 0.25, 0.0
+coordinates 3, 0.25, 0.25

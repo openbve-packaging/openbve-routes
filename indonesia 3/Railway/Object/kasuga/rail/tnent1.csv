@@ -1,0 +1,15 @@
+CreateMeshBuilder
+AddVertex,-1.95, 1, 0
+AddVertex,-1.95, -8, 0
+AddVertex,-15.95, -8,0
+AddVertex,-15.95, 1, 0
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,tnent1.bmp
+SetTextureCoordinates,0, 1, 0
+SetTextureCoordinates,1, 1, 1
+SetTextureCoordinates,2, 0, 1
+SetTextureCoordinates,3, 0, 0
+Setcolor,130,130,130
+SetDecalTransparentColor, 0,255,255
+Translate,9,7,

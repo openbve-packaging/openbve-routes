@@ -1,0 +1,243 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+CreateMeshBuilder,;;copertura
+AddVertex,2.701, 1, -0.4,
+AddVertex,2.701, 1,25,
+AddVertex,2.79, 1, 25,
+AddVertex,2.79.1, 1, -0.4,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+
+CreateMeshBuilder,;;lato sx
+AddVertex,2.701, -0.45, -0.4,
+AddVertex,2.701, -0.45, 25,
+AddVertex,2.701, 1, 25,
+AddVertex,2.701, 1, -0.4,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,ringhierar.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 10, 1,
+SetTextureCoordinates,2, 10, 0,
+SetTextureCoordinates,3, 0, 0,
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;picchetti;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;paralleli
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.701, 1, 0.1,
+AddVertex,2.701, 1.4, 0.1,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,0.95
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.701, 1, 0.1,
+AddVertex,2.701, 1.4, 0.1,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,5.95
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.701, 1, 0.1,
+AddVertex,2.701, 1.4, 0.1,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,11.95
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.701, 1, 0.1,
+AddVertex,2.701, 1.4, 0.1,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,17.95
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.701, 1, 0.1,
+AddVertex,2.701, 1.4, 0.1,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,23.95
+
+
+;;;;;;;;;;;;;;;;;;;;;;;picchetti;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;perpend
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,0.95
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,5.95
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,11.95
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,17.95
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,23.95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,1.05
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,6.05
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,12.05
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,18.05
+
+CreateMeshBuilder,
+AddVertex,2.701, 1,,
+AddVertex,2.8, 1, ,
+AddVertex,2.8, 1.4, ,
+AddVertex,2.701, 1.4, ,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,,24.05
+
+
+;;;;Lungo
+
+CreateMeshBuilder,;;copertura
+AddVertex,2.701, 1, -0.4,
+AddVertex,2.701, 1,25,
+AddVertex,2.79, 1, 25,
+AddVertex,2.79.1, 1, -0.4,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,0.5
+
+
+
+CreateMeshBuilder,;;lato sx
+AddVertex,2.701, , -0.4,
+AddVertex,2.701, , 25,
+AddVertex,2.701, 0.1, 25,
+AddVertex,2.701, 0.1, -0.4,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,100,85
+translate,,1.4
+
+
+CreateMeshBuilder,
+AddVertex,2.701, 0,,
+AddVertex,2.8, 0, ,
+AddVertex,2.8, 0.1 ,
+AddVertex,2.701, 0.1, ,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+setcolor,175,100,85
+translate,,1.4,-0.4

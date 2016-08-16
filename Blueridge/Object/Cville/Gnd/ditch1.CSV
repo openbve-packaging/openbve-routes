@@ -1,0 +1,28 @@
+
+
+CreateMeshBuilder,
+AddVertex, 14,-3.5,-.5,
+AddVertex,7.8,-.39,-.5,
+AddVertex, 7,-.26,-.5,
+AddVertex,7,-.26,25.6,
+AddVertex, 7.8,-.39,25.6,
+Addvertex,14,-3.4,25.6,
+Addvertex,15,-3.5,-.5,
+AddVertex,15,-3.4,25.6
+Addface,1,2,3,4,
+AddFace, 0,1,4,5,
+AddFace,6,0,5,7,
+GenerateNormals,
+LoadTexture, ditch1.bmp,
+SetTextureCoordinates, 0,0,.9,
+SetTextureCoordinates, 1,0,.3,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,3,0,
+SetTextureCoordinates, 4,3,.3,
+SetTextureCoordinates, 5,3,.9,
+SetTextureCoordinates, 6,0,1,
+SetTextureCoordinates, 7,3,1,
+SetDecalTransparentColor,0,0,255,
+
+
+

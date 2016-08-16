@@ -1,0 +1,228 @@
+;With permission of Anthony Bowden 
+;from an object 
+;from his Birmingham Cross-City BVE Route 
+;
+;--------------------------------------
+;(c) Anthony Bowden, 2002. 
+;www.railsimroutes.co.uk
+;
+;Please seek permission before using
+;any X-City files in your own route.
+;
+;See 'Readme.txt'.
+
+
+CreateMeshBuilder,
+;Ramp top
+AddVertex,-0.12, 0, 0.65,
+AddVertex,0.12, 0, 0.65,
+AddVertex,0.12, -0.144, 0,
+AddVertex,-0.12, -0.144, 0,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp back
+AddVertex,-0.12, 0, 0.65,
+AddVertex,0.12, 0, 0.65,
+AddVertex,0.12, -0.144, 0.65,
+AddVertex,-0.12, -0.144, 0.65,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+SetColor,88,70,70,
+
+;----------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp holder
+AddVertex,-0.12, -0.05, 0.66,
+AddVertex,0.12, -0.05, 0.66,
+AddVertex,0.23, -0.144, 0.66,
+AddVertex,-0.23, -0.144, 0.66,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp block 1 top
+AddVertex,-0.12, 0, 1.20,
+AddVertex,0.12, 0, 1.20,
+AddVertex,0.12, 0, 0.70,
+AddVertex,-0.12, 0, 0.70,
+AddFace,0,1,2,3,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp block 1 L side
+AddVertex,-0.12, 0, 1.20,
+AddVertex,-0.12, 0, 0.70,
+AddVertex,-0.12, -0.144, 0.70,
+AddVertex,-0.12, -0.144, 1.20,
+AddFace,0,1,2,3,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp block 1 R side
+AddVertex,0.12, 0, 0.70,
+AddVertex,0.12, 0, 1.20,
+AddVertex,0.12, -0.144, 1.20,
+AddVertex,0.12, -0.144, 0.70,
+AddFace,0,1,2,3,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp holder
+AddVertex,-0.12, -0.05, 1.21,
+AddVertex,0.12, -0.05, 1.21,
+AddVertex,0.23, -0.144, 1.21,
+AddVertex,-0.23, -0.144, 1.21,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Block front
+AddVertex,-0.12, 0, 0.70,
+AddVertex,0.12, 0, 0.70,
+AddVertex,0.12, -0.144, 0.70,
+AddVertex,-0.12, -0.144, 0.70,
+AddFace,0,1,2,3,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Block back
+AddVertex,-0.12, 0, 1.20,
+AddVertex,0.12, 0, 1.20,
+AddVertex,0.12, -0.144, 1.20,
+AddVertex,-0.12, -0.144, 1.20,
+AddFace,3,2,1,0,
+SetColor,88,70,70,
+;-------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp block 2 top
+AddVertex,-0.12, 0, 1.75,
+AddVertex,0.12, 0, 1.75,
+AddVertex,0.12, 0, 1.25,
+AddVertex,-0.12, 0, 1.25,
+AddFace,0,1,2,3,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp block 2 L side
+AddVertex,-0.12, 0, 1.75,
+AddVertex,-0.12, 0, 1.25,
+AddVertex,-0.12, -0.144, 1.25,
+AddVertex,-0.12, -0.144, 1.75,
+AddFace,0,1,2,3,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp block 2 R side
+AddVertex,0.12, 0, 1.25,
+AddVertex,0.12, 0, 1.75,
+AddVertex,0.12, -0.144, 1.75,
+AddVertex,0.12, -0.144, 1.25,
+AddFace,0,1,2,3,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Block front
+AddVertex,-0.12, 0, 1.25,
+AddVertex,0.12, 0, 1.25,
+AddVertex,0.12, -0.144, 1.25,
+AddVertex,-0.12, -0.144, 1.25,
+AddFace,0,1,2,3,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Block back
+AddVertex,-0.12, 0, 1.75,
+AddVertex,0.12, 0, 1.75,
+AddVertex,0.12, -0.144, 1.75,
+AddVertex,-0.12, -0.144, 1.75,
+AddFace,3,2,1,0,
+SetColor,88,70,70,
+
+;---------------
+GenerateNormals,
+
+CreateMeshBuilder,
+;Short ramp
+AddVertex,0.12, 0, 1.77,
+AddVertex,-0.12, 0, 1.77,
+AddVertex,-0.12, -0.144, 1.9,
+AddVertex,0.12, -0.144, 1.9,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;Ramp back
+AddVertex,-0.12, 0, 1.77,
+AddVertex,0.12, 0, 1.77,
+AddVertex,0.12, -0.144, 1.77,
+AddVertex,-0.12, -0.144, 1.77,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;L side
+AddVertex,-0.12, 0, 1.77,
+AddVertex,-0.12, -0.144, 1.77,
+AddVertex,-0.12, -0.144, 1.9,
+AddFace,0,1,2,
+SetColor,88,70,70,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+;R side
+AddVertex,0.12, 0, 1.77,
+AddVertex,0.12, -0.144, 1.77,
+AddVertex,0.12, -0.144, 1.9,
+AddFace,2,1,0,
+SetColor,88,70,70,
+
+
+
+
+
+
+
+
+
+GenerateNormals,
+

@@ -1,0 +1,31 @@
+[meshbuilder]
+
+vertex 0,0,0
+vertex 0,0,2.5
+vertex 0,0.1,2.5
+vertex 0,0.1,0
+face 0,1,2,3
+[texture]
+Load Conductorsboard.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1 
+
+[meshbuilder]
+
+vertex 0,0.1,0.8
+vertex 0,1,0.8
+vertex 0,1,0.9
+vertex 0,0.1,0.8
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+
+vertex 0,0.1,1.6
+vertex 0,1,1.6
+vertex 0,1,1.7
+vertex 0,0.1,1.7
+face2 0,1,2,3
+color 0,0,0

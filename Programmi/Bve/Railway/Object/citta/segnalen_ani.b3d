@@ -1,0 +1,16 @@
+
+
+
+[meshbuilder]
+vertex -2.9, 5.9, 49.99
+vertex -2.1, 5.9, 49.99
+vertex -2.1, 5.1, 49.99
+vertex -2.9, 5.1, 49.99
+face 1,2,3,0
+[texture]
+load segnalen.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255

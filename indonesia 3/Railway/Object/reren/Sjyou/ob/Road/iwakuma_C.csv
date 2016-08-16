@@ -1,0 +1,147 @@
+CreateMeshBuilder,
+AddVertex,-6.0, -0.41, -105
+AddVertex,-6.0, -0.41, 75
+AddVertex,-1.4, -0.45, 75
+AddVertex,-1.4, -0.45, -105
+AddVertex,-7.0,-0.19, -105
+AddVertex,-7.0,-0.19, 75;;;;;;;;;;5
+AddVertex, 6.0, -0.45, -105
+AddVertex, 6.0, -0.45, 75
+AddVertex,26.0, -0.45, 75
+AddVertex,26.0, -0.45, -105
+AddFace2,0,1,2,3
+AddFace2,0,1,5,4
+AddFace2,6,7,8,9
+LoadTexture,../../ground5.bmp
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,1,10
+SetTextureCoordinates,2,0,10
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,0,10
+SetTextureCoordinates,6,0,0
+SetTextureCoordinates,7,10,0
+SetTextureCoordinates,8,10,2
+SetTextureCoordinates,9,0,2
+
+CreateMeshBuilder,
+AddVertex,-7.0,-0.19, -75
+AddVertex,-7.0,-0.19, 25
+AddVertex,-7.8,-0.19, 25
+AddVertex,-7.8,-0.19, -75
+AddVertex,-7.8, -0.45, 25
+AddVertex,-7.8, -0.45, -75
+AddVertex,-14.1, -0.45, 25.3
+AddVertex,-14.1, -0.45,-75
+AddVertex,-14.1, -0.19, 25.3
+AddVertex,-14.1, -0.19,-75
+AddFace2,0,1,2,3,
+AddFace2,2,3,5,4,
+AddFace2,0,3,5,
+AddFace2,6,7,9,8,
+LoadTexture,../../Road\roadC.bmp
+SetTextureCoordinates,0,0.2,0
+SetTextureCoordinates,1,0.2,10
+SetTextureCoordinates,2,0,10
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,4,.1,10
+SetTextureCoordinates,5,.1,0
+SetTextureCoordinates,6,0,10
+SetTextureCoordinates,7,0,0
+SetTextureCoordinates,8,.1,10
+SetTextureCoordinates,9,.1,0
+;SetEmissiveColor,35,35,35
+GenerateNormals,
+;ÇÆÇ†Ç«ÇÁÇ¢ÇÈç∂
+CreateMeshBuilder,
+AddVertex,-7.7, 5.10, -74
+AddVertex,-7.7,-0.22, -74
+AddVertex,-7.7,-0.22, 24
+ADdVertex,-7.7, 5.10, 24
+AddFace2,3,2,1,0
+LoadTexture,../../Road\\guardrail4.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,5,
+SetTextureCoordinates,3,0,5,
+GenerateNormals,
+SetDecalTransparentColor,0,0,255,
+;ìπòH
+CreateMeshBuilder
+AddVertex,-7.8, -0.45, -75
+AddVertex,-7.8, -0.45, 25.3
+AddVertex,-14.1, -0.45, 25.3
+AddVertex,-14.1, -0.45,-75
+AddFace2,3,2,1,0
+LoadTexture,../../Road\roadA.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,25
+SetTextureCoordinates,2,1,25
+SetTextureCoordinates,3,1,0
+Setcolor,190,190,190,
+GenerateNormals
+
+;ï«
+CreateMeshBuilder,
+AddVertex,26.0, -0.45, 0
+AddVertex,26.0, -0.45, -100
+AddVertex,28.0, 11.45, -100
+AddVertex,28.0, 11.45, 0
+AddVertex,14.0, 11.45, 0
+AddVertex,14.0, -0.45, 0
+AddVertex,14.0, 11.45, 50
+AddVertex,14.0, -0.45, 50
+AddFace2,0,1,2,3,
+AddFace2,4,3,0,5,
+AddFace2,6,4,5,7,
+LoadTexture,../../Road\roadB_wa.bmp
+SetTextureCoordinates,0,6,1
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,6,0
+SetTextureCoordinates,4,4,0
+SetTextureCoordinates,5,4,1
+SetTextureCoordinates,6,0,0
+SetTextureCoordinates,7,0,1
+SetDecalTransparentColor,255,0,0
+
+;ìπòH
+CreateMeshBuilder,
+AddVertex,16.0, -0.40, 0
+AddVertex,16.0, -0.40, -100
+AddVertex,24.0, -0.40, -100
+AddVertex,24.0, -0.40, 0
+AddFace2,0,1,2,3,
+LoadTexture,../../Road\roadA.bmp
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,1,10
+SetTextureCoordinates,2,0,10
+SetTextureCoordinates,3,0,0
+;ì¸å˚
+CreateMeshBuilder,
+AddVertex,14.0, -0.40, 0
+AddVertex,14.0, 7.40, 0
+AddVertex,28.0, 7.40, 0
+AddVertex,26.0, -0.40, 0
+AddFace2,0,1,2,3,
+LoadTexture,../enter_cars.png
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0.15,1
+Setcolor,255,245,230,
+Translate,0,0,-0.1
+;ÇÆÇ†Ç«ÇÁÇ¢ÇÈ
+CreateMeshBuilder,
+AddVertex,14.7, 5.10, -74
+AddVertex,14.7,-0.22, -74
+AddVertex,14.7,-0.22, 0
+ADdVertex,14.7, 5.10, 0
+AddFace2,3,2,1,0
+LoadTexture,../../Road\\guardrail4.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,5,
+SetTextureCoordinates,3,0,5,
+GenerateNormals,
+SetDecalTransparentColor,0,0,255,

@@ -1,0 +1,103 @@
+The Northern Line Southbound & Northbound (Version 4.2)
+
+openBVE ONLY
+ 
+===============================================================
+Edgware-Kennington & Kennington-High Barnet via Kennington Loop
+Edgware-Morden via Bank (City Branch)
+===============================================================
+
+v4.1 Added 1998 era route files specifically for openBVE and updated objects to be both BVE4 and openBVE compatible.
+November 2008
+
+v4.2 Update for openBVE only. You require openBVE version 1.0.2 or greater for this addon to work correctly. In this release we've added some animation, reverse views for underground stations, some improved objects and textures. The 1974 era routes will follow in another update. These will use the 1959 stock currently in production.
+April 2009
+__________________________________________________________________________________
+
+Train Required : LT1995_openbve from www.trainsimcentral.co.uk (dated April 2009)
+
+Thanks for downloading version 4.2 of the Northern Line. 
+
+The releases covers the London Underground Ltd Northern Line's North Operations between Edgware and Kennington Loop (Southbound), and between Kennington Loop and High Barnet (Northbound) and Edgware via Bank to Morden*.
+
+The 1998 era openBVE route files use the high resolution 1995 Stock. This train features working tripcocks, simulates traction loss over rail gaps, separate left and right door opening pilotlights.
+There is now a fully animated external views and passenger view, including doors, body side lights, switchable head and tail lights, animated wheels, saloon lighting switch, animated destination indicator, front and rear door cut-outs. 
+
+The HOME key will give temporary tripcock isolation
+The SPACE key will reset a brake application caused by a tripcock after a short time delay.
+The PageUp Key will switch on the wiper (toggle for intermittant wipe)
+The PageDn key will switch off the wiper
+4 key - change destination blind. Press 4 again to hold the blind.
+5 key - Switch head and tail lights
+6 key - switch on/off saloon lights
+8 key - Cut-out front left doors (press before door release, and again after door closure
+0 key - Cut-out front right doors (press before door release, and again after door closure
+
+Rear door cut outs are driven by track beacons and are automatic.
+
+If you jump stations the tripcock may apply the brakes if you jump past red signals. To reset, place the controller to OFF and the reverser to NEUTRAL. Press SPACE. The brake should then release, and you can carry on as normal.
+
+
+v4.2 route additions:
+
+Added some animation. 
+
+Route includes more detail, reverse views for underground stations, corrections to track vertex errors, darker tunnels, and new signalling.
+
+
+Credits
+______
+
+Richard Gellman. Buffer block and textures, Overcable structures, gate warning sign texture. Development of the PRail program to build the 3rd and 4th rails and "Suicide Pits"
+
+Simon Gathercole. For producing the rounded tube tunnel objects, and helping to place the PSR limits.
+
+Luigi Cartello. For helping produce the alternative objects for the s3/Intel patch.
+
+Dan Lewis - Recording, providing and inserting the 'CELIA' automatic announcements from the real Northern Line. Sounds (C) Dan Lewis 2005
+
+Anthony Bowden. I've adapted a few of his objects/textures for the route. Surface ballast and sleeper textures. Platform edge textures. Barnt Green footbridge.
+
+Kelvin Liu. Replacement tunnel lighting, wiring and tunnel lining.
+
+Announcements (CELIA) recorded and coded by Dan Lewis.
+
+Robert Hull.  Waterloo station objects 1998/2000 (revised).
+
+Stephen Cross & Switch Creating the curved track units with various rails included. 
+
+The Beta team.
+
+LUL Ltd - Simon Lewis for supplying signal, gradient and track layout diagrams.
+
+Alan Lee (LUL train driver) - for route testing and supplying us with much technical information about the 1995 stock.
+
+Roger Mather (Northern Line Senior Driving Instructor) - for granting Keith his boyhood dream of a cab ride on the whole route plus loads of inside information about the Northern Line.
+Video 125 Ltd for giving permission to use various sounds (the radio chat mainly!) from their Northern Line Cab ride videos.
+
+
+Copyright Note:
+===============
+
+All objects and textures built either by or in conjunction with other parties are copyright their respective owners, and must not be re-used, or adapted for public release without seeking prior permission via e-mail. Any other object is by the TSC team and may be freely used elsewhere in part. Please do not contact us, just drop a mention in the credits.
+
+Signals:
+========
+
+You need to be aware of the following:
+
+The Northern line signals are operated by "line of sight", i.e. some main aspects that are displayed are red and green (home or starter signals). You'll have to look out for the signal in the distance. If it's red you'll have time to stop (unless you're speeding of course). Occasionally on tight curves or signals with close headways you'll see a distant (repeater in LU language) which can be green or yellow giving prior warning of the state of the next signal. Sometimes the home and repeater are based on the same head where headways are close. In busy areas signals can be as close as 60m apart. Don't fall asleep!
+
+Some of the routes are fitted with the London Underground Tripcock train stop system. This safety system will bring the train to a stand if you pass a signal at danger (SPAD) or drive above the linespeed in certain areas. 
+
+If you do SPAD, then you'll have to reset the safety system on your train. Press the SPACE key. Put your brakes in the apply position, and then open up the power controller once more.
+
+In openBVE it is possible to temporarily over-ride the tripcock device. Press HOME key. This will light up the Tripcock delay light on the panel. You may then pass the next signal at danger without penalty
+
+
+
+
+Steve Green April 2009 ('Trainsim' on the TSC forum)
+www.trainsimcentral.co.uk
+
+

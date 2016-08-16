@@ -1,0 +1,153 @@
+;Nagyvárad tér állomás 03
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;Peron
+
+;peron széle felül 
+;jobb
+[MeshBuilder]
+Vertex -1.45, 0.90, 00.00
+Vertex -1.45, 0.90, 25.00
+Vertex -1.45, 1.10, 25.00
+Vertex -1.45, 1.10, 00.00
+Face 3,2,1,0
+color 64,64,64
+
+;------------------------------
+
+;peron széle alul
+;jobb
+[MeshBuilder]
+Vertex -1.60,-0.20, 00.00
+Vertex -1.60,-0.20, 25.00
+Vertex -1.60, 0.90, 25.00
+Vertex -1.60, 0.90, 00.00
+Face 3,2,1,0
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 25.00, 1.00
+Coordinates 2, 25.00, 0.15
+Coordinates 3, 00.00, 0.15
+
+;------------------------------
+
+[MeshBuilder]
+;peron sáv 1/1
+Vertex -1.45, 1.10, 00.00
+Vertex -1.45, 1.10, 25.00
+Vertex -2.30, 1.10, 25.00
+Vertex -2.30, 1.10, 00.00
+;peron sáv 2/2
+Vertex -14.722, 1.10, 00.00
+Vertex -15.114, 1.10, 25.00
+Vertex -15.964, 1.10, 25.00
+Vertex -15.572, 1.10, 00.00
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peron_sav.bmp
+Coordinates 0, 24.00, 600.00
+Coordinates 1, 24.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 600.00
+Coordinates 4, 24.00, 600.00
+Coordinates 5, 24.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 600.00
+
+[MeshBuilder]
+;peron sáv 1/2
+Vertex -2.30, 1.10, 00.00
+Vertex -2.30, 1.10, 25.00
+Vertex -2.50, 1.10, 25.00
+Vertex -2.50, 1.10, 00.00
+;peron sáv 2/1
+Vertex -14.522, 1.10, 00.00
+Vertex -14.914, 1.10, 25.00
+Vertex -15.114, 1.10, 25.00
+Vertex -14.722, 1.10, 00.00
+Face 3,2,1,0
+Face 7,6,5,4
+color 136,136,136
+
+;peron járófelület
+[MeshBuilder]
+Vertex -2.500, 1.10, 00.00
+Vertex -2.500, 1.10, 25.00
+Vertex -14.914, 1.10, 25.00
+Vertex -14.522, 1.10, 00.00
+Face 3,2,1,0
+[Texture]
+Load mh_06_nv_peronteto_1.bmp
+Coordinates 0, 00.00, 42.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 12.414, 00.00
+Coordinates 3, 12.022, 42.00
+
+;--------------------------------------------------
+
+[MeshBuilder]
+;jobb oldali fal
+Vertex 02.10,-0.20, 00.00
+Vertex 02.10, 1.00, 00.00
+Vertex 02.10, 1.00, 25.00
+Vertex 02.10,-0.20, 25.00
+;bal oldali fal
+Vertex -19.122,-0.20, 00.00
+Vertex -19.122, 1.00, 00.00
+Vertex -19.514, 1.00, 25.00
+Vertex -19.514,-0.20, 25.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_06_nv_oldalfal_01a.bmp
+Coordinates 0, 25.00, 01.00
+Coordinates 1, 25.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 25.00, 01.00
+Coordinates 5, 25.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 01.00
+
+[MeshBuilder]
+;jobb oldali fal
+Vertex 02.10, 1.00, 00.00
+Vertex 02.10, 4.00, 00.00
+Vertex 02.10, 4.00, 11.00
+Vertex 02.10, 1.00, 11.00
+;bal oldali fal
+Vertex -19.122, 1.00, 00.00
+Vertex -19.122, 4.00, 00.00
+Vertex -19.514, 4.00, 25.00
+Vertex -19.514, 1.00, 25.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_06_nv_oldalfal_01i.bmp
+Coordinates 0, 11.00, 01.00
+Coordinates 1, 11.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 25.00, 01.00
+Coordinates 5, 25.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 01.00
+
+[MeshBuilder]
+Vertex -19.122, 4.00, 00.00
+Vertex -19.122, 7.40, 00.00
+Vertex -19.514, 7.40, 25.00
+Vertex -19.514, 4.00, 25.00
+Face 0,1,2,3
+[Texture]
+Load mh_06_nv_oldalfal_02.bmp
+Coordinates 0, 25.00, 01.00
+Coordinates 1, 25.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+
+;-----------------------------

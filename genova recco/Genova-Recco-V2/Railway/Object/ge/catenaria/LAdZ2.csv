@@ -1,0 +1,78 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+CreateMeshBuilder,
+addvertex, -0.013, 5, 0.
+addvertex, 0.019, 5, 0.
+addvertex, 0.019, 5, -25.6
+addvertex, -0.013, 5, -25.6
+AddFace2,3,2,1,0,
+rotate,,1,,0.44
+translate,0.165
+SetColor,11,15,11,
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;fune portante
+CreateMeshBuilder,
+Addvertex,0.015,  5.5, 0.,
+Addvertex,-0.015, 5.5, 0.,
+Addvertex,0.015,  5.5, -5,
+Addvertex,-0.015, 5.5, -5,
+Addvertex,0.015,  5.7, -15,
+Addvertex,-0.015, 5.7, -15,
+Addvertex,0.015,  6.65, -25.6,
+Addvertex,-0.015, 6.65 , -25.6,
+Addface2,0,1,3,2,
+Addface2,2,3,5,4,
+Addface2,4,5,7,6,
+rotate,,1,,0.44
+translate,0.17
+SetColor,11,15,11,
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Pendini
+CreateMeshBuilder,
+Addvertex,-0.01, 5.5,,
+Addvertex,-0.025, 5.5, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,0.155,0,-5
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+
+
+
+
+CreateMeshBuilder,
+Addvertex,-0.01, 5.6, ,
+Addvertex,-0.025, 5.6, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,0.11,0,-10
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+
+CreateMeshBuilder,
+Addvertex,-0.01, 5.7, ,
+Addvertex,-0.025, 5.7, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,0.06,,-15
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+
+CreateMeshBuilder,
+Addvertex,-0.01, 6.25, ,
+Addvertex,-0.025, 6.25, ,
+Addvertex,-0.025, 5, ,
+Addvertex,-0.01, 5, ,
+translate,0.01,0,-21
+AddFace2,3,2,1,0,
+SetColor,11,15,11,
+

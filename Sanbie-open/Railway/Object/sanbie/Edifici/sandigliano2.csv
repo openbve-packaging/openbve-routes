@@ -1,0 +1,134 @@
+;;oltre
+CreateMeshBuilder,
+AddVertex,-5.5,0,0,
+AddVertex,-5.5,4,0,
+AddVertex,-5.5,4,20,
+AddVertex,-5.5,0,20,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,terrapieno.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+CreateMeshBuilder,
+AddVertex,-6.5,4,0,
+AddVertex,-5.5,4,0,
+AddVertex,-5.5,0,0,
+AddVertex,-6.5,0,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,terrapieno.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+
+CreateMeshBuilder,
+Cube, 0.2,0.1,10,
+Translate, -5.65,4.1,10
+GenerateNormals,
+Setcolor,176,176,176,
+
+CreateMeshBuilder,
+Cube, 0.2,0.1,10,
+Translate, -5.65,3.1,10
+GenerateNormals,
+Setcolor,176,176,176,
+
+CreateMeshBuilder,
+Cube, 0.5,0.1,0.2,
+Translate, -6,4.1,0.15
+GenerateNormals,
+Setcolor,176,176,176,
+
+CreateMeshBuilder,
+Cube, 0.5,0.1,0.2,
+Translate, -6,3.1,0.15
+GenerateNormals,
+Setcolor,176,176,176,
+
+
+;; casa
+CreateMeshBuilder,
+AddVertex,-10, 7, 0,
+AddVertex,0, 7, 0,
+AddVertex,0, 0, 0,
+AddVertex,-10, 0, 0,
+AddFace,0, 1, 2, 3,
+
+GenerateNormals,
+
+LoadTexture,casa6_f.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+Translate, 3,3,18
+Rotate, 0,10,0,-45
+
+
+CreateMeshBuilder,
+AddVertex,0, 7.25, 0,
+AddVertex,0, 7.25, 6,
+AddVertex,0, 0, 6,
+AddVertex,0, 0, 0,
+AddFace,0, 1, 2, 3,
+
+GenerateNormals,
+
+LoadTexture,casa6_f.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+Translate, 3,3,18
+Rotate, 0,10,0,-45
+
+
+
+;;fronte tetto
+CreateMeshBuilder,
+AddVertex,-8, 9.5, 4,
+AddVertex,-2.5, 9.5, 4,
+AddVertex,1, 6.7, -0.5,
+AddVertex,-11, 6.7, -0.5,
+AddFace2,3,2,1,0,
+SetColor,180,105,105,,
+
+GenerateNormals,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+Translate, 3,3,18
+Rotate, 0,10,0,-45
+
+
+;;lato tetto
+CreateMeshBuilder,
+AddVertex,-2.5, 9.5, 4,
+AddVertex,-2.5, 9.5, 4.1,
+AddVertex,1, 6.7, 6,
+AddVertex,1, 6.7, -0.5,
+AddFace2,3,2,1,0,
+SetColor,180,105,105,,
+
+GenerateNormals,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+Translate, 3,3,18
+Rotate, 0,10,0,-45
+
+

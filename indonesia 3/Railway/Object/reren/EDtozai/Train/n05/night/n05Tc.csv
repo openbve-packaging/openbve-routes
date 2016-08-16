@@ -1,0 +1,166 @@
+;ëOñ ,,,,
+CreateMeshBuilder,,,,
+AddVertex,-1.4,0.01,-20.02,  ;ÇO
+AddVertex,-1.4,1.01,-19.73,
+AddVertex,-1.4,1.58,-19.85,  ;ÇQ
+AddVertex,-1.4,2.16,-19.89,
+AddVertex,-1.4,2.84,-19.77,  ;ÇS
+AddVertex,-1.4,3.52,-19.53,
+AddVertex,-1.4,3.7,-19.03,;;;;;;;;;;;ç∂ÇU
+AddVertex,1.4,3.7,-19.03,
+AddVertex,1.4,3.52,-19.53,  ;ÇW
+AddVertex,1.4,2.84,-19.77,
+AddVertex,1.4,2.16,-19.89,  ;ÇPÇO
+AddVertex,1.4,1.58,-19.85,
+AddVertex,1.4,1.01,-19.73,  ;ÇPÇQ
+AddVertex,1.4,0.01,-20.02,;;;;;;;;;;;;âEÇPÇR
+AddFace,0,1,12,13
+AddFace,1,2,11,12
+AddFace,2,3,10,11
+AddFace,3,4,9,10
+AddFace,4,5,8,9
+AddFace,5,6,7,8
+
+Setcolor,130,130,130,
+LoadTexture,../Face.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0.25,0,
+SetTextureCoordinates,2,0.4,0,
+SetTextureCoordinates,3,0.55,0,
+SetTextureCoordinates,4,0.73,0,
+SetTextureCoordinates,5,0.96,0,
+SetTextureCoordinates,6,1,0,
+SetTextureCoordinates,7,1,1
+SetTextureCoordinates,8,0.96,1
+SetTextureCoordinates,9,0.73,1
+SetTextureCoordinates,10,0.55,1
+SetTextureCoordinates,11,0.4,1
+SetTextureCoordinates,12,0.25,1
+SetTextureCoordinates,13,0,1
+SetDecalTransparentColor,0,0,255
+GenerateNormals,,,
+
+;îóãêj,,,
+CreateMeshBuilder,,,
+AddVertex,-0.2,4.1,-18.95
+AddVertex,0.2,4.1,-18.95
+AddVertex,0.2,3.68,-18.95
+AddVertex,-0.2,3.68,-18.95
+AddFace,0,1,2,3
+Setcolor,130,130,130,
+LoadTexture,../05rog.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,
+GenerateNormals,,,,
+
+;ë§ñ ,,,,
+CreateMeshBuilder,,,,
+AddVertex,-1.4,0.84,0,
+AddVertex,-1.4,3.5,0,
+AddVertex,-1.2,3.61,0,
+AddVertex,-1.2,3.61,-19.53,
+AddVertex,-1.4,3.5,-19.53,
+AddVertex,-1.4,0.84,-19.53,
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+Setcolor,130,130,130,
+LoadTexture,../n05tcSideB.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,1,1,
+SetTextureCoordinates,5,0,1,
+GenerateNormals,,,,
+
+CreateMeshBuilder,,,,
+AddVertex, 1.385,3.52,-19.50,
+AddVertex, 1.385,2.84,-19.77,
+AddVertex, 1.385,2.16,-19.89,
+AddVertex, 1.385,1.58,-19.85,
+AddVertex, 1.385,0.91,-19.73,
+AddVertex, 1.385,0.81,-19.23,
+AddFace,5,4,3,2,1,0
+Setcolor,92,92,96
+GenerateNormals,,,,
+CreateMeshBuilder,,,,
+AddVertex,-1.385,3.52,-19.50,
+AddVertex,-1.385,2.84,-19.77,
+AddVertex,-1.385,2.16,-19.89,
+AddVertex,-1.385,1.58,-19.85,
+AddVertex,-1.385,0.91,-19.73,
+AddVertex,-1.385,0.81,-19.23,
+AddFace,0,1,2,3,4,5,
+Setcolor,92,92,96
+GenerateNormals,,,,
+
+;ÉÇÅ[É^Å[
+CreateMeshBuilder,,
+AddVertex,-1.3, 1.01, -0,
+AddVertex,-1.3, 1.01, -19.7,
+AddVertex,-1.3, 0.01, -20.2,
+AddVertex,-1.3, 0.01, -0,
+AddVertex, 1.3, 1.01, -0,
+AddVertex, 1.3, 1.01, -19.7,
+AddVertex, 1.3, 0.01, -20.2,
+AddVertex, 1.3, 0.01, -0,
+AddFace,0,1,2,3
+AddFace,7,6,5,4
+LoadTexture,../../05\05motor.bmp,,,
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetTextureCoordinates,4  ,0,0
+SetTextureCoordinates,5  ,1,0
+SetTextureCoordinates,6  ,1,1
+SetTextureCoordinates,7  ,0,1
+GenerateNormals,
+
+;âÆç™,,,,
+CreateMeshBuilder,,,,
+AddVertex,-1.2,3.61,0,
+AddVertex,-0.54,3.72,0,
+AddVertex,0.54,3.72,0,
+AddVertex,1.2,3.61,0,
+AddVertex,1.2,3.61,-19.23,
+AddVertex,0.54,3.72,-19.23,
+AddVertex,-0.54,3.72,-19.23,
+AddVertex,-1.2,3.61,-19.23,
+AddFace,0,1,6,7
+AddFace,1,2,5,6
+AddFace,2,3,4,5
+Setcolor,80,80,80,
+LoadTexture,../../TrainRoof.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0.3,0,
+SetTextureCoordinates,2,0.7,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,2,
+SetTextureCoordinates,5,0.7,2,
+SetTextureCoordinates,6,0.3,2,
+SetTextureCoordinates,7,0,2,
+GenerateNormals,,,,
+
+;ÉNÅ[ÉâÅ[,,,,
+CreateMeshBuilder,
+AddVertex,-0.50, 4.08, -9.2
+AddVertex,-0.50, 4.08, -12.2
+AddVertex, 0.50, 4.08, -12.2
+AddVertex, 0.64, 3.62, -12.3
+AddVertex,-0.64, 3.62, -12.3
+AddVertex,-0.64, 3.62, -9.3
+Addface,0,1,4,5
+Addface,1,2,3,4,
+LoadTexture,../../05\05cooler.bmp
+SetTextureCoordinates,0, 0.0,0,
+SetTextureCoordinates,1, 0.5,0,
+SetTextureCoordinates,2, 1.0,0.5,
+SetTextureCoordinates,3, 1.0,0.5,
+SetTextureCoordinates,4, 0.5,1,
+SetTextureCoordinates,5, 0.0,1,
+GenerateNormals,
+Setcolor,50,50,50,

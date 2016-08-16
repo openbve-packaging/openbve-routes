@@ -1,0 +1,53 @@
+[Meshbuilder] 
+Vertex -3,8,0
+Vertex  7,8,0
+Vertex  7,-1,0
+Vertex -3,-1,0
+Face 0,1,2,3
+[Texture]
+Load tunnent2tondo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[Meshbuilder] 
+Vertex -3,38,0.1
+Vertex  7,38,0.1
+Vertex  7,7.8,0.1
+Vertex -3,7.8,0.1
+Face 0,1,2,3
+[Texture]
+Load verde.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[Meshbuilder] 
+Vertex -130,38,0.1
+Vertex  -3,38,0.1
+Vertex  -3,-20,0.1
+Vertex -130,-20,0.1
+Face 0,1,2,3
+[Texture]
+Load verde.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+
+[Meshbuilder] 
+Vertex    7,38,0.1
+Vertex  130,38,0.1
+Vertex  130,-20,0.1
+Vertex    7,-20,0.1
+Face 0,1,2,3
+[Texture]
+Load verde.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+

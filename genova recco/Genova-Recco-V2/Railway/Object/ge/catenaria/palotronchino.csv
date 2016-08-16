@@ -1,0 +1,62 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;I cassa
+;;base
+CreateMeshBuilder
+cylinder, 3, 0.0650, 0.110, 8.7,
+translate, ,3.8, ,    
+GenerateNormals,
+setcolor,155,150,150
+GenerateNormals,
+
+;;;tirante
+CreateMeshBuilder ; Tirante dx
+cylinder, 3, 0.03, 0.03, 9.8
+rotate, 1,0,0,19
+translate, ,2.65,-1.6
+setcolor,155,150,150
+GenerateNormals,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;basamento
+
+CreateMeshBuilder,
+AddVertex, -0.615, -0.25, -0.915,
+AddVertex,  0.815, -0.25, -0.915,
+AddVertex,  0.815, -0.25,  0.615,
+AddVertex, -0.615, -0.25,  0.615,
+AddVertex, -0.025,     0, -0.325,  ;;;
+AddVertex,  0.225,     0, -0.325,
+AddVertex,  0.225,     0,  0.025, ;;;
+AddVertex, -0.025,     0,  0.025, ;;;
+translate,-0.1,-0.15,0.1
+AddFace, 3, 2, 6, 7,
+AddFace, 4, 5, 1, 0,
+AddFace, 0, 3, 7, 4,
+AddFace, 5, 6, 2, 1,
+AddFace, 7, 6, 5, 4,
+setcolor,134,132,120
+GenerateNormals,
+
+
+CreateMeshBuilder,
+AddVertex, -0.615, -0.25, -0.915,
+AddVertex,  0.815, -0.25, -0.915,
+AddVertex,  0.815, -0.25,  0.615,
+AddVertex, -0.615, -0.25,  0.615,
+AddVertex, -0.025,     0, -0.325,  ;;;
+AddVertex,  0.225,     0, -0.325,
+AddVertex,  0.225,     0,  0.025, ;;;
+AddVertex, -0.025,     0,  0.025, ;;;
+translate,-0.1,-0.15,-2.6
+AddFace, 3, 2, 6, 7,
+AddFace, 4, 5, 1, 0,
+AddFace, 0, 3, 7, 4,
+AddFace, 5, 6, 2, 1,
+AddFace, 7, 6, 5, 4,
+setcolor,134,132,120
+GenerateNormals,
+
+

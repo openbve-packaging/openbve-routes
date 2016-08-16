@@ -1,0 +1,59 @@
+CreateMeshBuilder,,,,
+AddVertex,-1,6.6,0,
+AddVertex,0.23,6.6,0,
+AddVertex,2.17,5.47,0,
+AddVertex,3.3,3.52,0,
+AddVertex,3.3,1.26,0,
+AddVertex,2.17,-0.69,0,
+AddVertex,-1,6.6,25.1,
+AddVertex,0.23,6.6,25.1,
+AddVertex,2.17,5.47,25.1,
+AddVertex,3.3,3.52,25.1,
+AddVertex,3.3,1.26,25.1,
+AddVertex,2.17,-0.69,25.1,
+AddFace,1,0,6,7
+AddFace,2,1,7,8
+AddFace,3,2,8,9
+AddFace,4,3,9,10
+AddFace,5,4,10,11
+AddFace2,1,0,6,7
+AddFace2,2,1,7,8
+AddFace2,3,2,8,9
+AddFace2,4,3,9,10
+AddFace2,5,4,10,11
+
+GenerateNormals,,,,
+LoadTexture,Wall7A.bmp
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,0.0,
+SetTextureCoordinates,2,1,0.0,
+SetTextureCoordinates,3,1,0.1,
+SetTextureCoordinates,4,1,0.3,
+SetTextureCoordinates,5,1,1,
+SetTextureCoordinates,6,0,0,
+SetTextureCoordinates,7,0,0.0,
+SetTextureCoordinates,8,0,0.0,
+SetTextureCoordinates,9,0,0.1,
+SetTextureCoordinates,10,0,0.3,
+SetTextureCoordinates,11,0,1,
+
+CreateMeshBuilder,
+AddVertex,3.29, 2.6, 11.7,
+AddVertex,3.29, 2.6, 13.7,
+AddVertex,3.24,2.6, 11.7,
+AddVertex,3.24,2.6, 13.7,
+AddVertex,3.29, 2.55,11.7,
+AddVertex,3.29, 2.55,13.7,
+AddVertex,3.24,2.55,11.7,
+AddVertex,3.24,2.55,13.7,
+AddFace,2,0,4,6,
+AddFace,3,2,6,7,
+AddFace,1,0,2,3,
+AddFace,7,6,4,5,
+AddFace2,2,0,4,6,
+AddFace2,3,2,6,7,
+AddFace2,1,0,2,3,
+AddFace2,7,6,4,5,
+SetColor,254,254,254,
+GenerateNormals,
+Translate,0,0,0.2

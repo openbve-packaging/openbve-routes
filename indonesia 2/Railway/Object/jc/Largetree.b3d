@@ -1,0 +1,31 @@
+;bush side 1
+[MeshBuilder]
+Vertex -7,0,-1.1375
+Vertex -7,15,-1.1375
+Vertex 7,15,-1.1375
+Vertex 7,0,-1.1375
+Face 0,1,2,3
+
+[Texture]
+Load largetree2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 90,0,255
+
+;bush layer 2
+[MeshBuilder]
+Vertex -7,0,-0.4
+Vertex -7,15,-0.4
+Vertex 7,15,-0.4
+Vertex 7,0,-0.4
+Face 0,1,2,3
+
+[Texture]
+Load largetree.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 90,0,255

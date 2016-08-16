@@ -1,0 +1,64 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;ponte
+
+CreateMeshBuilder, ;;;sotto
+AddVertex,20, 5, 0,
+AddVertex,-20, 5, 0,
+AddVertex,-20, 5, 5,
+AddVertex,20, 5, 5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,pontesotto.bmp,
+SetTextureCoordinates,0, 0, 7,
+SetTextureCoordinates,1, 2, 7,
+SetTextureCoordinates,2, 2, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecaltransparentColor,0,0,0,
+
+CreateMeshBuilder, ;;;sopra
+AddVertex,25, 6.5, 0,
+AddVertex,-25, 6.5, 0,
+AddVertex,-25, 6.5, 5,
+AddVertex,25, 6.5, 5,
+AddFace,0, 1, 2,3,
+GenerateNormals,
+
+setcolor,30,30,30
+
+
+CreateMeshBuilder, ;;;alzata fronte
+AddVertex,20, 5, 0,
+AddVertex,-20, 5, 0,
+AddVertex,-20, 8, 0,
+AddVertex,20, 8, 0,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Edifici\ringhieraponte.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1.5, 1,
+SetTextureCoordinates,2, 1.5, 0.28,
+SetTextureCoordinates,3, 0, 0.28,
+SetDecaltransparentColor,0,0,0,
+
+CreateMeshBuilder, ;;;alzata fronte
+AddVertex,20, 5, 5,
+AddVertex,-20, 5, 5,
+AddVertex,-20, 8, 5,
+AddVertex,20, 8, 5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Edifici\ringhieraponte.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1.5, 1,
+SetTextureCoordinates,2, 1.5, 0.28,
+SetTextureCoordinates,3, 0, 0.28,
+SetDecaltransparentColor,0,0,0,
+
+
+

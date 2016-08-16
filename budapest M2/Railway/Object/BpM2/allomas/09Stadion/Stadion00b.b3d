@@ -1,0 +1,511 @@
+;Stadionok állomás, peron 2.-3.vágány között
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+[MeshBuilder]
+;jobb vágány fal
+vertex 2.2, 1.10,25
+vertex 2.2, 5.10,25
+vertex 2.2, 5.10,0
+vertex 2.2, 1.10,0
+;bal vágány fal
+vertex -27.7, 1.10,25
+vertex -27.7, 5.10,25
+vertex -27.7, 5.10,0
+vertex -27.7, 1.10,0
+face 0,1,2,3
+face 7,6,5,4
+Load Stadion_fal_J_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,6,0
+coordinates 3,6,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,6,0
+coordinates 7,6,1
+
+;jobb vágány fal
+;alsó rész
+[MeshBuilder]
+vertex 2.0,-0.20,25
+vertex 2.0, 0.90,25
+vertex 2.0, 0.90,0
+vertex 2.0,-0.20,0
+vertex -27.5,-0.20,25
+vertex -27.5, 0.90,25
+vertex -27.5, 0.90,0
+vertex -27.5,-0.20,0
+face 0,1,2,3
+face 7,6,5,4
+Load Stadion_fal_J_02.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,10,0
+coordinates 3,10,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,10,0
+coordinates 7,10,1
+
+[MeshBuilder]
+;jobb vágány fal
+vertex 1.9, 0.90,25
+vertex 1.9, 1.10,25
+vertex 1.9, 1.10,0
+vertex 1.9, 0.90,0
+;bal vágány fal
+vertex -27.4, 0.90,25
+vertex -27.4, 1.10,25
+vertex -27.4, 1.10,0
+vertex -27.4, 0.90,0
+face 0,1,2,3
+face 7,6,5,4
+color 32,32,32
+
+[MeshBuilder]
+;jobb vágány fal
+vertex 1.9, 1.10,25
+vertex 2.2, 1.10,25
+vertex 2.2, 1.10,0
+vertex 1.9, 1.10,0
+vertex -27.4, 1.10,25
+vertex -27.7, 1.10,25
+vertex -27.7, 1.10,0
+vertex -27.4, 1.10,0
+face 0,1,2,3
+face 7,6,5,4
+color 84,84,84
+
+;irányfelirat szegély
+[MeshBuilder]
+vertex 2.1, 4.00,25
+vertex 2.2, 4.00,25
+vertex 2.2, 4.00,0
+vertex 2.1, 4.00,0
+vertex 2.2, 4.30,0
+vertex 2.1, 4.30,0
+vertex -27.6, 4.00,25
+vertex -27.7, 4.00,25
+vertex -27.7, 4.00,0
+vertex -27.6, 4.00,0
+vertex -27.7, 4.30,0
+vertex -27.6, 4.30,0
+face 3,2,1,0
+face 5,4,2,3
+face 6,7,8,9
+face 11,10,8,9
+color 160,160,160
+
+;2.-3.vágány között
+[MeshBuilder]
+vertex -12.2,0.9,0
+vertex -12.2,1.1,0
+vertex -12.2,1.1,25
+vertex -12.2,0.9,25
+vertex -13.3,0.9,0
+vertex -13.3,1.1,0
+vertex -13.3,1.1,25
+vertex -13.3,0.9,25
+face 0,1,2,3
+face 7,6,5,4
+color 32,32,32
+
+[MeshBuilder]
+vertex -12.45,-0.2,0
+vertex -12.45,0.9,0
+vertex -12.45,0.9,25
+vertex -12.45,-0.2,25
+vertex -13.05,-0.2,0
+vertex -13.05,0.9,0
+vertex -13.05,0.9,25
+vertex -13.05,-0.2,25
+face 0,1,2,3
+face 7,6,5,4
+Load Stadion_fal_J_02.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,10,0
+coordinates 3,10,1
+coordinates 4,0,1
+coordinates 5,0,0
+coordinates 6,10,0
+coordinates 7,10,1
+
+[MeshBuilder]
+vertex -12.2,1.1,0
+vertex -13.3,1.1,0
+vertex -13.3,1.1,25
+vertex -12.2,1.1,25
+face 0,1,2,3
+color 72,72,72
+
+;---------------------
+;oszlopok
+
+;1.sor
+
+;peron1
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+translate -5.375,0,0
+
+;2-3 vg között
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+color 192,192,192
+translate -12.750,0,0
+
+;túlsó peron
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+translate -20.125,0,0
+
+;2.sor
+
+;oszlopok
+
+;peron1
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+translate -5.375,0,6.25
+
+;2-3 vg között
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+color 192,192,192
+translate -12.750,0,6.25
+
+;túlsó peron
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+translate -20.125,0,6.25
+
+;3.sor
+
+;oszlopok
+
+;peron1
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+translate -5.375,0,12.5
+
+;2-3 vg között
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+color 192,192,192
+translate -12.750,0,12.5
+
+;túlsó peron
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+translate -20.125,0,12.5
+
+;4.sor
+
+;oszlopok
+
+;peron1
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+translate -5.375,0,18.75
+
+;2-3 vg között
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+color 192,192,192
+translate -12.750,0,18.75
+
+;túlsó peron
+[meshbuilder]
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,1.10,-0.25
+Vertex  0.30,1.10,-0.25
+Vertex  0.30,1.10, 0.25
+Vertex -0.30,1.10, 0.25
+Vertex -0.30,4.52, 0.25
+Vertex -0.30,4.52,-0.25
+Vertex  0.30,4.52,-0.25
+Vertex  0.30,4.52, 0.25
+Vertex -0.30,4.52, 0.25
+Face 1,0,5,6
+Face 2,1,6,7
+Face 3,2,7,8
+Face 4,3,8,9
+Load Stadion_oszlop.bmp
+coordinates 0,0,5
+coordinates 1,1,5
+coordinates 2,2,5
+coordinates 3,3,5
+coordinates 4,4,5
+coordinates 5,0,0
+coordinates 6,1,0
+coordinates 7,2,0
+coordinates 8,3,0
+coordinates 9,4,0
+translate -20.125,0,18.75

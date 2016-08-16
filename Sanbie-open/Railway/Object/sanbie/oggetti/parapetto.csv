@@ -1,0 +1,30 @@
+;;parapetto
+CreateMeshBuilder,
+AddVertex,15, 0.5, 0,
+AddVertex,18, 0.5, 16,
+AddVertex,18, 3, 16,
+AddVertex,15, 3, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,parapetto.bmp
+SetTextureCoordinates,0, 3, 1,
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 3, 0,
+
+
+;;parapetto
+CreateMeshBuilder,
+AddVertex,-12, 0.5, 0,
+AddVertex,-14, 0.5, 16,
+AddVertex,-14, 3, 16,
+AddVertex,-12, 3, 0,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,parapetto.bmp
+SetTextureCoordinates,0, 3, 1,
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 3, 0,

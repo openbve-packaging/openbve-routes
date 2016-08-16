@@ -1,0 +1,190 @@
+;Ferenc körút megállóhely D-É-4
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;jobb oldali fal
+[MeshBuilder]
+Vertex 2.0,0.7,0
+Vertex 2.0,3.2,0
+Vertex 2.0,3.2,14
+Vertex 2.0,0.7,14
+Face 3,2,1,0
+[Texture]
+Load mh_08_fk_oldalfal_02.bmp
+Coordinates 0,14,1
+Coordinates 1,14,0
+Coordinates 2,00,0
+Coordinates 3,00,1
+
+;--------------------------------------------------
+
+;világítótestek
+
+;merõleges
+[MeshBuilder]
+Vertex -13.60, 03.67, 00.00
+Vertex -13.60, 03.67, 25.00
+Vertex -11.60, 03.67, 25.00
+Vertex -11.60, 03.67, 00.00
+Vertex -20.30, 03.67, 00.00
+Vertex -20.30, 03.67, 25.00
+Vertex -19.10, 03.67, 25.00
+Vertex -19.10, 03.67, 00.00
+Vertex -23.50, 03.67, 00.00
+Vertex -23.50, 03.67, 25.00
+Vertex -22.30, 03.67, 25.00
+Vertex -22.30, 03.67, 00.00
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+[Texture]
+Load mh_08_fk_vilagitas_01.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 00.00, 10.00
+Coordinates 2, 01.00, 10.00
+Coordinates 3, 01.00, 00.00
+Coordinates 4, 00.00, 00.00
+Coordinates 5, 00.00, 10.00
+Coordinates 6, 01.00, 10.00
+Coordinates 7, 01.00, 00.00
+Coordinates 8, 00.00, 00.00
+Coordinates 9, 00.00, 10.00
+Coordinates 10, 01.00, 10.00
+Coordinates 11, 01.00, 00.00
+transparent 0,0,255
+
+;--------------------------------------------------
+
+;Ferenc körút tábla
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 0,0,0
+translate -7.00, 03.60, 19.5
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 0,0,0
+translate -7.00, 03.60, 20.5
+
+[MeshBuilder]
+Vertex -00.10, 0.00, -0.80
+Vertex -00.10, 0.30, -0.80
+Vertex -00.00, 0.30, -0.80
+Vertex -00.00, 0.00, -0.80
+Vertex -00.10, 0.00,  0.80
+Vertex -00.00, 0.00,  0.80
+Face 0,1,2,3
+Face 4,0,3,5
+translate -6.95,3.35,20
+color 0,0,204
+
+[MeshBuilder]
+Vertex 0, 0.00, -0.80
+Vertex 0, 0.30, -0.80
+Vertex 0, 0.30,  0.51
+Vertex 0, 0.00,  0.51
+Face 0,1,2,3
+translate -6.95,3.35,20
+[Texture]
+Load mh_tabla_ferenc_korut.bmp
+Coordinates 0, 0.15, 1
+Coordinates 1, 0.15, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+
+[MeshBuilder]
+Vertex 0, 0.00, 0.50
+Vertex 0, 0.30, 0.50
+Vertex 0, 0.30, 0.80
+Vertex 0, 0.00, 0.80
+Face 0,1,2,3
+translate -6.95,3.35,20
+[Texture]
+Load ..\tabla\nyil13.bmp
+Coordinates 0, 0.8, 1
+Coordinates 1, 0.8, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 0,0,0
+translate -18.30, 03.60, 19.5
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 0,0,0
+translate -18.30, 03.60, 20.5
+
+[MeshBuilder]
+Vertex -00.10, 0.00, -0.80
+Vertex -00.10, 0.30, -0.80
+Vertex -00.00, 0.30, -0.80
+Vertex -00.00, 0.00, -0.80
+Vertex -00.10, 0.00,  0.80
+Vertex -00.00, 0.00,  0.80
+Face 0,1,2,3
+Face 4,0,3,5
+translate -18.25,3.35,20
+color 0,0,204
+
+[MeshBuilder]
+Vertex 0, 0.00, -0.80
+Vertex 0, 0.30, -0.80
+Vertex 0, 0.30,  0.51
+Vertex 0, 0.00,  0.51
+Face 0,1,2,3
+translate -18.25,3.35,20
+[Texture]
+Load mh_tabla_ferenc_korut.bmp
+Coordinates 0, 0.15, 1
+Coordinates 1, 0.15, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+
+[MeshBuilder]
+Vertex 0, 0.00, 0.50
+Vertex 0, 0.30, 0.50
+Vertex 0, 0.30, 0.80
+Vertex 0, 0.00, 0.80
+Face 0,1,2,3
+translate -18.25,3.35,20
+[Texture]
+Load ..\tabla\nyil13.bmp
+Coordinates 0, 0.8, 1
+Coordinates 1, 0.8, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+;menetrend
+
+[MeshBuilder]
+Vertex -0.60, 0.00, -0.1
+Vertex -0.60, 0.30, -0.1
+Vertex  0.60, 0.30, -0.1
+Vertex  0.60, 0.00, -0.1
+Face 0,1,2,3
+color 176,176,176
+[Texture]
+Load ..\tabla\menet.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+translate -5.20,3.40,5
+
+[MeshBuilder]
+Vertex -0.60,0.00,-0.1
+Vertex -0.60,0.00, 0.1
+Vertex 0.60, 0.00,-0.1
+Vertex 0.60, 0.30,-0.1
+Vertex 0.60, 0.30, 0.1
+Vertex 0.60, 0.00, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -5.20,3.40,5

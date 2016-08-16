@@ -1,0 +1,48 @@
+CreateMeshBuilder,
+AddVertex,-2.9, 1.81, 0,
+AddVertex,-2.1, 1.81, 0,
+AddVertex,-2.1, 1.0, 0,
+AddVertex,-2.9, 1.0, 0,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,w.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2.9, 1.8, 0,
+AddVertex,-2.1, 1.8, 0,
+AddVertex,-2.1, 1.0, 0,
+AddVertex,-2.9, 1.0, 0,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,PSRBack.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2.525,  1.7, 0.04,
+AddVertex,-2.455,  1.7, 0.04,
+AddVertex,-2.455, -0.3, 0.04,
+AddVertex,-2.525, -0.3, 0.04,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+SetColor,200, 200, 200,
+
+GenerateNormals,
+
+LoadTexture,Post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

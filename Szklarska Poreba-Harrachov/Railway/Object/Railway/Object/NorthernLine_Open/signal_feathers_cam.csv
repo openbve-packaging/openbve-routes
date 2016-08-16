@@ -1,0 +1,20 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green & Keith Hazelton
+
+CreateMeshBuilder,
+AddVertex,-1.6, 5, -0.2,
+AddVertex,-1, 5, -0.2,
+AddVertex,-1, 4.4, -0.2,
+AddVertex,-1.6, 4.4, -0.2,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,feathers.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+

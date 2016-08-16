@@ -1,0 +1,5 @@
+
+[Object]
+Position = 0, 0, 0
+States = home_outsideR.csv, home_outsideG.csv
+statefunction = if[section == 4, 1, 0]

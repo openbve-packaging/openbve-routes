@@ -1,0 +1,29 @@
+[Include]
+pantoBasso.csv
+Position = 0, 0, -2.5
+[Include]
+carrello.animated
+Position = 0, -0.125, 1.7
+[Include]
+carrello - centrale.animated
+Position = 0, -0.125, -3.2
+
+[object]
+States = E656A.csv
+Position = 0, 0, 0
+
+[Object]
+States = null.csv, luce.csv
+;States = luce.csv
+Position = 0, 1.61, 5.42
+statefunction = pluginstate[60]
+
+[object]
+States = tergicristalli.csv
+Position = -0.5, 2.8, 5.39
+;RotateZFunction = -(-0.015 * pluginstate[199]+1.5)
+
+
+[object]
+States = tergicristalli.csv
+Position = 0.5, 2.8, 5.39

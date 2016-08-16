@@ -1,0 +1,18 @@
+;(c) Adam Priseman
+;Feel free to use but please credit me somewhere
+
+
+[meshbuilder]
+vertex -7,3.1,0
+vertex -7,3.1,4
+vertex -7,1.1,4
+vertex -7,1.1,0
+face 0,1,2,3
+
+[texture]
+Load infoboard1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+Transparent 0,0,255

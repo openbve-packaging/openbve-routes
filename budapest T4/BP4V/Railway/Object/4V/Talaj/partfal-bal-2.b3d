@@ -1,0 +1,61 @@
+;----------------------------------------------------------------------------------
+;
+; PARTFAL BAL
+;
+; (C) phontanka 2008
+;
+; Méret: x=40 y=8 
+;
+; Ezt az objektumot csak írásbeli engedélyemmel használhatod saját pályádban.
+;
+; If you want to use this object in your route request permission by email.
+;
+; http://phontanka.extra.hu  ---  phontanka@gmail.com
+;
+;----------------------------------------------------------------------------------
+
+;1
+[Meshbuilder]
+Vertex -15,10,26
+Vertex -2.8,-0.4,26
+Vertex -2.8,-0.4,0
+Vertex -15,10,0
+Face 0,1,2,3
+
+[Texture]
+Load grass.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,10,25
+coordinates 3,0,25
+
+;BOKROK
+[MeshBuilder]
+Vertex -6,10,24
+Vertex -6,-0.3,24
+Vertex -10,-0.3,6
+Vertex -10,10,6
+Face2 0,1,2,3
+
+[Texture]
+load bushes_tall.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,1,1
+coordinates 3,1,0
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -5,9,7
+Vertex -5,-0.3,7
+Vertex -13,-0.3,0
+Vertex -13,9,0
+Face2 0,1,2,3
+
+[Texture]
+load bushes_tall.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,1,1
+coordinates 3,1,0
+Transparent 0,0,0

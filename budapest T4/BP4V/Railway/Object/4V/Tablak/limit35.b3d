@@ -1,0 +1,32 @@
+; (c) pre-zli
+
+
+
+[Meshbuilder]
+Vertex -0.25, 2.5, -0.06
+Vertex 0.25, 2.5, -0.06
+Vertex 0.25, 2, -0.06
+Vertex -0.25, 2, -0.06
+Face 0, 1, 2, 3
+[Texture]
+Load limit35.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex 0.25, 2.5, -0.06
+Vertex -0.25, 2.5, -0.06
+Vertex -0.25, 2, -0.06
+Vertex 0.25, 2, -0.06
+Face 0, 1, 2, 3
+[Texture]
+Load limithat.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+

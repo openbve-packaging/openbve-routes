@@ -1,0 +1,675 @@
+;------ Pole and Attachments repeat as often as necessary (in this case every 5 meters)
+;------ Pole and Attachments repeat as often as necessary (in this case every 5 meters)
+
+; Pole # 1 ------------------------------
+
+[MeshBuilder]
+; Vertical Pole (Front)
+Vertex  -1.60,4.2,-0.20
+Vertex  -1.30,4.2,-0.20
+Vertex  -1.30,0.0,-0.20
+Vertex  -1.60,0.0,-0.20
+
+Vertex   -1.30,4.2,0.00
+Vertex   -1.30,4.2,-0.20
+Vertex   -1.30,0.0,-0.20
+Vertex   -1.30,0.0,0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+[MeshBuilder]
+; Vertical Pole (Rear)
+Vertex  -5.60,4.2,0.0
+Vertex  -5.30,4.2,0.0
+Vertex  -5.30,0.0,0.0
+Vertex  -5.60,0.0,0.0
+
+Vertex   -5.30,4.2,0.00
+Vertex   -5.30,4.2,-0.20
+Vertex   -5.30,0.0,-0.20
+Vertex   -5.30,0.0,0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+; Width/Height wise brace (top to front)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,0.00
+Vertex   -0.30,4.3,0.00
+Vertex   -0.30,3.9,0.00
+Vertex   -3.40,4.7,0.00   
+
+Vertex   -3.40,5.1,-0.20
+Vertex   -0.30,4.3,-0.20
+Vertex   -0.30,3.9,0.00
+Vertex   -3.40,4.7,0.00   
+
+Vertex   -3.40,4.7,0.00
+Vertex   -0.30,3.9,0.00
+Vertex   -0.30,3.9,-0.20
+Vertex   -3.40,4.7,-0.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+
+; Width/Height wise brace (top to Rear)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,0.00
+Vertex   -6.60,4.3,0.00
+Vertex   -6.60,3.9,0.00
+Vertex   -3.40,4.7,0.00   
+
+Vertex   -3.40,5.1,-0.20
+Vertex   -6.30,4.3,-0.20
+Vertex   -6.30,3.9,0.00
+Vertex   -3.40,4.7,0.00   
+
+Vertex   -3.40,4.7,0.00
+Vertex   -6.30,3.9,0.00
+Vertex   -6.30,3.9,-0.20
+Vertex   -3.40,4.7,-0.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+;--------------------------------------------------------------------------------------------------
+
+; Pole # 2 ------------------------------
+
+[MeshBuilder]
+; Vertical Pole (Front)
+Vertex  -1.60,4.2,-5.20
+Vertex  -1.30,4.2,-5.20
+Vertex  -1.30,0.0,-5.20
+Vertex  -1.60,0.0,-5.20
+
+Vertex   -1.30,4.2,-5.00
+Vertex   -1.30,4.2,-5.20
+Vertex   -1.30,0.0,-5.20
+Vertex   -1.30,0.0,-5.0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+[MeshBuilder]
+; Vertical Pole (Rear)
+Vertex  -5.60,4.2,-5.0
+Vertex  -5.30,4.2,-5.0
+Vertex  -5.30,0.0,-5.0
+Vertex  -5.60,0.0,-5.0
+
+Vertex   -5.30,4.2,-5.00
+Vertex   -5.30,4.2,-5.20
+Vertex   -5.30,0.0,-5.20
+Vertex   -5.30,0.0,-5.0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+; Width/Height wise brace (top to front)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-5.00
+Vertex   -0.30,4.3,-5.00
+Vertex   -0.30,3.9,-5.00
+Vertex   -3.40,4.7,-5.00   
+
+Vertex   -3.40,5.1,-5.20
+Vertex   -0.30,4.3,-5.20
+Vertex   -0.30,3.9,-5.00
+Vertex   -3.40,4.7,-5.00   
+
+Vertex   -3.40,4.7,-5.00
+Vertex   -0.30,3.9,-5.00
+Vertex   -0.30,3.9,-5.20
+Vertex   -3.40,4.7,-5.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+
+; Width/Height wise brace (top to Rear)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-5.00
+Vertex   -6.60,4.3,-5.00
+Vertex   -6.60,3.9,-5.00
+Vertex   -3.40,4.7,-5.00   
+
+Vertex   -3.40,5.1,-5.20
+Vertex   -6.30,4.3,-5.20
+Vertex   -6.30,3.9,-5.00
+Vertex   -3.40,4.7,-5.00   
+
+Vertex   -3.40,4.7,-5.00
+Vertex   -6.30,3.9,-5.00
+Vertex   -6.30,3.9,-5.20
+Vertex   -3.40,4.7,-5.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+
+;--------------------------------------------------------------------------------------------------
+
+; Pole # 3 ------------------------------
+
+[MeshBuilder]
+; Vertical Pole (Front)
+Vertex  -1.60,4.2,-10.20
+Vertex  -1.30,4.2,-10.20
+Vertex  -1.30,0.0,-10.20
+Vertex  -1.60,0.0,-10.20
+
+Vertex   -1.30,4.2,-10.00
+Vertex   -1.30,4.2,-10.20
+Vertex   -1.30,0.0,-10.20
+Vertex   -1.30,0.0,-10.0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+[MeshBuilder]
+; Vertical Pole (Rear)
+Vertex  -5.60,4.2,-10.0
+Vertex  -5.30,4.2,-10.0
+Vertex  -5.30,0.0,-10.0
+Vertex  -5.60,0.0,-10.0
+
+Vertex   -5.30,4.2,-10.00
+Vertex   -5.30,4.2,-10.20
+Vertex   -5.30,0.0,-10.20
+Vertex   -5.30,0.0,-10.0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+; Width/Height wise brace (top to front)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-10.00
+Vertex   -0.30,4.3,-10.00
+Vertex   -0.30,3.9,-10.00
+Vertex   -3.40,4.7,-10.00   
+
+Vertex   -3.40,5.1,-10.20
+Vertex   -0.30,4.3,-10.20
+Vertex   -0.30,3.9,-10.00
+Vertex   -3.40,4.7,-10.00   
+
+Vertex   -3.40,4.7,-10.00
+Vertex   -0.30,3.9,-10.00
+Vertex   -0.30,3.9,-10.20
+Vertex   -3.40,4.7,-10.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+
+; Width/Height wise brace (top to Rear)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-10.00
+Vertex   -6.60,4.3,-10.00
+Vertex   -6.60,3.9,-10.00
+Vertex   -3.40,4.7,-10.00   
+
+Vertex   -3.40,5.1,-10.20
+Vertex   -6.30,4.3,-10.20
+Vertex   -6.30,3.9,-10.00
+Vertex   -3.40,4.7,-10.00   
+
+Vertex   -3.40,4.7,-10.00
+Vertex   -6.30,3.9,-10.00
+Vertex   -6.30,3.9,-10.20
+Vertex   -3.40,4.7,-10.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+;--------------------------------------------------------------------------------------------------
+
+; Pole # 4 ------------------------------
+
+[MeshBuilder]
+; Vertical Pole (Front)
+Vertex  -1.60,4.2,-15.20
+Vertex  -1.30,4.2,-15.20
+Vertex  -1.30,0.0,-15.20
+Vertex  -1.60,0.0,-15.20
+
+Vertex   -1.30,4.2,-15.00
+Vertex   -1.30,4.2,-15.20
+Vertex   -1.30,0.0,-15.20
+Vertex   -1.30,0.0,-15.0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+[MeshBuilder]
+; Vertical Pole (Rear)
+Vertex  -5.60,4.2,-15.0
+Vertex  -5.30,4.2,-15.0
+Vertex  -5.30,0.0,-15.0
+Vertex  -5.60,0.0,-15.0
+
+Vertex   -5.30,4.2,-15.00
+Vertex   -5.30,4.2,-15.20
+Vertex   -5.30,0.0,-15.20
+Vertex   -5.30,0.0,-15.0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+; Width/Height wise brace (top to front)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-15.00
+Vertex   -0.30,4.3,-15.00
+Vertex   -0.30,3.9,-15.00
+Vertex   -3.40,4.7,-15.00   
+
+Vertex   -3.40,5.1,-15.20
+Vertex   -0.30,4.3,-15.20
+Vertex   -0.30,3.9,-15.00
+Vertex   -3.40,4.7,-15.00   
+
+Vertex   -3.40,4.7,-15.00
+Vertex   -0.30,3.9,-15.00
+Vertex   -0.30,3.9,-15.20
+Vertex   -3.40,4.7,-15.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+
+; Width/Height wise brace (top to Rear)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-15.00
+Vertex   -6.60,4.3,-15.00
+Vertex   -6.60,3.9,-15.00
+Vertex   -3.40,4.7,-15.00   
+
+Vertex   -3.40,5.1,-15.20
+Vertex   -6.30,4.3,-15.20
+Vertex   -6.30,3.9,-15.00
+Vertex   -3.40,4.7,-15.00   
+
+Vertex   -3.40,4.7,-15.00
+Vertex   -6.30,3.9,-15.00
+Vertex   -6.30,3.9,-15.20
+Vertex   -3.40,4.7,-15.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+;--------------------------------------------------------------------------------------------------
+
+; Pole # 5 ------------------------------
+
+[MeshBuilder]
+; Vertical Pole (Front)
+Vertex  -1.60,4.2,-20.20
+Vertex  -1.30,4.2,-20.20
+Vertex  -1.30,0.0,-20.20
+Vertex  -1.60,0.0,-20.20
+
+Vertex   -1.30,4.2,-20.00
+Vertex   -1.30,4.2,-20.20
+Vertex   -1.30,0.0,-20.20
+Vertex   -1.30,0.0,-20.0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+[MeshBuilder]
+; Vertical Pole (Rear)
+Vertex  -5.60,4.2,-20.0
+Vertex  -5.30,4.2,-20.0
+Vertex  -5.30,0.0,-20.0
+Vertex  -5.60,0.0,-20.0
+
+Vertex   -5.30,4.2,-20.00
+Vertex   -5.30,4.2,-20.20
+Vertex   -5.30,0.0,-20.20
+Vertex   -5.30,0.0,-20.0   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+; Width/Height wise brace (top to front)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-20.00
+Vertex   -0.30,4.3,-20.00
+Vertex   -0.30,3.9,-20.00
+Vertex   -3.40,4.7,-20.00   
+
+Vertex   -3.40,5.1,-20.20
+Vertex   -0.30,4.3,-20.20
+Vertex   -0.30,3.9,-20.00
+Vertex   -3.40,4.7,-20.00   
+
+Vertex   -3.40,4.7,-20.00
+Vertex   -0.30,3.9,-20.00
+Vertex   -0.30,3.9,-20.20
+Vertex   -3.40,4.7,-20.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+
+; Width/Height wise brace (top to Rear)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-20.00
+Vertex   -6.60,4.3,-20.00
+Vertex   -6.60,3.9,-20.00
+Vertex   -3.40,4.7,-20.00   
+
+Vertex   -3.40,5.1,-20.20
+Vertex   -6.30,4.3,-20.20
+Vertex   -6.30,3.9,-20.00
+Vertex   -3.40,4.7,-20.00   
+
+Vertex   -3.40,4.7,-20.00
+Vertex   -6.30,3.9,-20.00
+Vertex   -6.30,3.9,-20.20
+Vertex   -3.40,4.7,-20.20   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+;--------------------------------------------------------------------------------------------------
+; Pole # 6 ------------------------------
+
+[MeshBuilder]
+; Vertical Pole (Front)
+Vertex  -1.60,4.2,-25.00
+Vertex  -1.30,4.2,-25.00
+Vertex  -1.30,0.0,-25.00
+Vertex  -1.60,0.0,-25.00
+
+Vertex   -1.30,4.2,-24.80
+Vertex   -1.30,4.2,-25.00
+Vertex   -1.30,0.0,-25.00
+Vertex   -1.30,0.0,-24.80   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+[MeshBuilder]
+; Vertical Pole (Rear)
+Vertex  -5.60,4.2,-24.80
+Vertex  -5.30,4.2,-24.80
+Vertex  -5.30,0.0,-24.80
+Vertex  -5.60,0.0,-24.80
+
+Vertex   -5.30,4.2,-24.80
+Vertex   -5.30,4.2,-25.00
+Vertex   -5.30,0.0,-25.00
+Vertex   -5.30,0.0,-24.80   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+
+Color 0,75,0
+
+; Width/Height wise brace (top to front)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-25.00
+Vertex   -0.30,4.3,-25.00
+Vertex   -0.30,3.9,-25.00
+Vertex   -3.40,4.7,-25.00   
+
+Vertex   -3.40,5.1,-25.00
+Vertex   -0.30,4.3,-25.00
+Vertex   -0.30,3.9,-24.80
+Vertex   -3.40,4.7,-24.80   
+
+Vertex   -3.40,4.7,-24.80
+Vertex   -0.30,3.9,-24.80
+Vertex   -0.30,3.9,-25.00
+Vertex   -3.40,4.7,-25.00   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+
+; Width/Height wise brace (top to Rear)
+
+[MeshBuilder]
+Vertex   -3.40,5.1,-24.80
+Vertex   -6.60,4.3,-24.80
+Vertex   -6.60,3.9,-24.80
+Vertex   -3.40,4.7,-24.80   
+
+Vertex   -3.40,5.1,-25.00
+Vertex   -6.30,4.3,-25.00
+Vertex   -6.30,3.9,-24.80
+Vertex   -3.40,4.7,-24.80   
+
+Vertex   -3.40,4.7,-24.80
+Vertex   -6.30,3.9,-24.80
+Vertex   -6.30,3.9,-25.00
+Vertex   -3.40,4.7,-25.00   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+Color 0,75,0
+
+;--------------------------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------------------------
+
+;--------------------------------------------------------------------------------------------------
+
+;************************ End Poles and Attachments ***************************************
+
+
+;------  Lengthwise Objects  (these extend the entire length of the structure ) --------------------------------------------------
+
+; Lengthwise beam (front)
+
+[MeshBuilder]
+Vertex   -0.30,4.3,0.00
+Vertex   -0.10,4.3,0.00
+Vertex   -0.10,3.9,0.00
+Vertex   -0.30,3.9,0.00   
+
+Vertex   -0.10,4.3,0.00
+Vertex   -0.10,4.3,-25.80
+Vertex   -0.10,3.9,-25.80
+Vertex   -0.10,3.9,0.00   
+
+Vertex   -0.10,3.9,0.00
+Vertex   -0.10,3.9,-25.80
+Vertex   -0.30,3.9,-25.80
+Vertex   -0.30,3.9,0.00   
+
+
+Face2  0,1,2,3     
+Face2  4,5,6,7     
+Face2  8,9,10,11     
+
+;Color 122,62,53
+Color 122,62,53
+
+
+; Lengthwise beam (Rear)
+
+[MeshBuilder]
+Vertex   -6.50,4.3,0.00
+Vertex   -6.30,4.3,0.00
+Vertex   -6.30,3.9,0.00
+Vertex   -6.50,3.9,0.00   
+
+Vertex   -6.30,4.3,0.00
+Vertex   -6.30,4.3,-25.80
+Vertex   -6.30,3.9,-25.80
+Vertex   -6.30,3.9,0.00   
+
+Vertex   -6.30,3.9,0.00
+Vertex   -6.30,3.9,-25.80
+Vertex   -6.50,3.9,-25.80
+Vertex   -6.50,3.9,0.00   
+
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+
+Color 0,75,0
+
+
+; Lengthwise Cross Beam  (Center)
+
+[MeshBuilder]
+Vertex   -3.55,5.1,0.00
+Vertex   -3.35,5.1,0.00
+Vertex   -3.35,4.7,0.00
+Vertex   -3.55,4.7,0.00   
+
+Vertex   -3.35,5.1,0.00
+Vertex   -3.35,5.1,-25.80
+Vertex   -3.35,4.7,-25.80
+Vertex   -3.35,4.7,0.00   
+
+Vertex   -3.55,4.7,0.00
+Vertex   -3.35,4.7,0.00
+Vertex   -3.35,4.7,-25.80
+Vertex   -3.55,4.7,-25.80   
+
+Face2 0,1,2,3     
+Face2 4,5,6,7     
+Face2 8,9,10,11     
+
+;Color 0,75,0
+Color 0,75,0
+
+; Ceiling Cover / Top
+
+[MeshBuilder]
+
+Vertex   -3.30,5.2,-25.80
+Vertex   -3.30,5.2,0.00
+Vertex    0.00,4.3,0.00   
+Vertex    0.00,4.3,-25.80
+
+Vertex   -3.60,5.2,-25.80
+Vertex   -3.60,5.2,0.00
+Vertex   -3.30,5.2,0.00   
+Vertex   -3.30,5.2,-25.80
+
+Vertex   -6.70,4.2,-25.80
+Vertex   -6.70,4.2,0.00
+Vertex   -3.60,5.2,0.00   
+Vertex   -3.60,5.2,-25.80
+
+Face 0,1,2,3     
+Face 4,5,6,7     
+Face 8,9,10,11     
+
+Color 122,62,53
+;Color 122,62,53
+
+
+; Ceiling Cover / Bottom
+
+[MeshBuilder]
+Vertex   -3.30,5.2,0.00
+Vertex   -3.30,5.2,-25.80
+Vertex    0.00,4.3,-25.80
+Vertex    0.00,4.3,0.00   
+
+Vertex   -3.60,5.2,0.00
+Vertex   -3.60,5.2,-25.80
+Vertex   -3.30,5.2,-25.80
+Vertex   -3.30,5.2,0.00   
+
+Vertex   -6.70,4.1,0.00
+Vertex   -6.70,4.1,-25.80
+Vertex   -3.60,5.2,-25.80
+Vertex   -3.60,5.2,0.00   
+
+Face 0,1,2,3     
+Face 4,5,6,7     
+Face 8,9,10,11     
+
+;
+Color 122,62,53
+Color 122,62,53

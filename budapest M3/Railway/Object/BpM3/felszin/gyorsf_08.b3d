@@ -1,0 +1,254 @@
+;M3 gyorsforgalmi út 8
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;Kerítés és korlát
+
+;bal oldal H felõl
+[MeshBuilder]
+Vertex  -09.900, -00.250,  00.000
+Vertex  -09.900,  02.300,  00.000
+Vertex  -09.224,  02.300,  12.482
+Vertex  -09.224, -00.250,  12.482
+Face 0,1,2,3
+[Texture]
+Load kerites_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 06.00, 00.00
+Coordinates  3, 06.00, 01.00
+
+[meshbuilder]
+vertex -09.224, -0.200,  12.482
+vertex -09.224,  2.000,  12.482
+vertex -09.083,  2.000,  15.089
+vertex -09.083, -0.200,  15.089
+
+vertex -08.869,  3.359,  19.609
+vertex -08.869,  1.159,  19.609
+
+vertex -08.871,  5.272,  23.059
+vertex -08.871,  3.072,  23.059
+
+vertex -08.872,  5.562,  23.512
+vertex -08.872,  3.362,  23.512
+
+vertex -06.648,  4.225,  23.514
+vertex -06.648,  2.025,  23.514
+
+vertex -06.641,  4.225,  25.714
+vertex -06.641,  3.225,  25.714
+
+
+Face  0,1,2,3
+Face  3,2,4,5
+Face  5,4,6,7
+Face  7,6,8,9
+Face2 9,8,10,11
+Face  11,10,12,13
+
+
+[Texture]
+Load gyorsf_korlat_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 02.00, 00.00
+Coordinates  3, 02.00, 01.00
+
+Coordinates  4, 06.00, 00.00
+Coordinates  5, 06.00, 01.00
+
+Coordinates  6, 08.70, 00.00
+Coordinates  7, 08.70, 01.00
+
+Coordinates  8, 09.00, 00.00
+Coordinates  9, 09.00, 01.00
+
+Coordinates 10, 11.00, 00.00
+Coordinates 11, 11.00, 01.00
+
+Coordinates 12, 13.00, 00.00
+Coordinates 13, 13.00, 01.00
+
+transparent 0,0,255
+
+[meshbuilder]
+vertex -06.641,  4.225,  25.714
+vertex -06.642,  3.225,  25.714
+vertex -06.629,  6.300,  30.062
+vertex -06.629,  5.300,  30.062
+Face 2,3,1,0
+[Texture]
+Load gyorsf_korlat_02.bmp
+Coordinates  0, 00.00, 00.00
+Coordinates  1, 00.00, 01.00
+Coordinates  2, 04.00, 00.00
+Coordinates  3, 04.00, 01.00
+transparent 0,0,255
+
+;--------------------------------------
+
+;Kábelek
+
+;H felõl bal
+
+;kábelek
+[meshbuilder]
+vertex -07.400, -0.200, -00.200
+vertex -06.868, -0.200,  19.064
+vertex -06.871,  1.508,  22.514
+vertex -06.871,  2.058,  22.514
+vertex -06.848,  0.350,  19.064
+vertex -07.400,  0.350, -00.200
+
+vertex -08.400, -0.200, -00.200
+vertex -07.868, -0.200,  19.063
+vertex -07.871,  1.508,  22.513
+vertex -07.871,  2.058,  22.513
+vertex -07.848,  0.350,  19.063
+vertex -08.400,  0.350, -00.200
+
+face 00,05,04,01
+face 04,03,02,01
+
+face 06,11,10,07
+face 10,09,08,07
+
+[Texture]
+Load kabelek.bmp
+Coordinates 00, 0.0, 1.0
+Coordinates 01, 4.0, 1.0
+Coordinates 02, 4.8, 1.0
+Coordinates 03, 4.8, 0.0
+Coordinates 04, 4.0, 0.0
+Coordinates 05, 0.0, 0.0
+
+Coordinates 06, 0.0, 1.0
+Coordinates 07, 4.0, 1.0
+Coordinates 08, 4.8, 1.0
+Coordinates 09, 4.8, 0.0
+Coordinates 10, 4.0, 0.0
+Coordinates 11, 0.0, 0.0
+
+transparent 0,0,255
+translate -0.2,0,0
+
+;lefedés
+
+[meshbuilder]
+vertex -07.871, 2.058,  22.513
+vertex -06.871, 2.058,  22.514
+vertex -06.871, 2.258,  22.514
+vertex -07.371, 2.408,  22.514
+vertex -07.871, 2.258,  22.513
+face2 0,1,2,3,4
+color 97,95,82
+translate -0.2,0,0
+
+[meshbuilder]
+vertex -07.400, 0.350, -00.200
+vertex -07.400, 0.550, -00.200
+vertex -06.868, 0.550,  19.064
+vertex -06.871, 2.258,  22.514
+vertex -06.871, 2.058,  22.514
+vertex -06.868, 0.350,  19.064
+Face 0,1,2,5
+Face 2,3,4,5
+color 97,95,82
+translate -0.2,0,0
+
+[meshbuilder]
+vertex -08.400, 0.350, -00.200
+vertex -08.400, 0.550, -00.200
+vertex -07.868, 0.550,  19.063
+vertex -07.871, 2.258,  22.513
+vertex -07.871, 2.058,  22.513
+vertex -07.868, 0.350,  19.063
+Face 0,1,2,5
+Face 2,3,4,5
+color 97,95,82
+translate -0.2,0,0
+
+[meshbuilder]
+vertex -07.400, 0.550, -00.200
+vertex -07.900, 0.700, -00.200
+vertex -07.368, 0.700,  19.064
+vertex -07.371, 2.408,  22.514
+vertex -06.871, 2.258,  22.514
+vertex -06.868, 0.550,  19.064
+Face 0,1,2,5
+Face 2,3,4,5
+color 97,95,82
+translate -0.2,0,0
+
+[meshbuilder]
+vertex -07.900, 0.700, -00.200
+vertex -08.400, 0.550, -00.200
+vertex -07.868, 0.550,  19.063
+vertex -07.871, 2.258,  22.513
+vertex -07.371, 2.408,  22.514
+vertex -07.368, 0.700,  19.064
+Face 0,1,2,5
+Face 2,3,4,5
+color 97,95,82
+translate -0.2,0,0
+
+;--------------------------------------
+
+;Rézsû
+
+[MeshBuilder]
+Vertex  -17.752, -00.200,  00.000
+Vertex  -23.517,  04.700,  00.000
+Vertex  -13.867,  05.300,  17.698
+Vertex  -09.083, -00.200,  15.089
+Vertex  -11.918,  05.300,  21.271
+Vertex  -07.868, -00.200,  19.063
+Vertex  -10.468,  05.300,  23.930
+Vertex  -07.871,  01.550,  22.513
+Vertex  -06.876,  05.300,  30.065
+Vertex  -06.871,  01.550,  22.514
+Vertex  -06.868, -00.200,  19.064
+Face 0,1,2,3
+Face 3,2,4,5
+Face 5,4,6,7
+Face 7,6,8,9
+Face 5,7,9,10
+[Texture]
+Load fu.bmp
+Coordinates  0, 02.77, 05.06
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 19.02, 00.00
+Coordinates  3, 19.02, 05.45
+Coordinates  4, 23.90, 00.00
+Coordinates  5, 23.90, 04.61
+Coordinates  6, 26.12, 00.00
+Coordinates  7, 26.12, 02.96
+Coordinates  8, 33.22, 00.00
+Coordinates  9, 26.59, 03.84
+Coordinates 10, 23.57, 05.49
+
+;--------------------------------------
+
+;Szalagkorlát
+[meshbuilder]
+vertex -24.315,  4.731,  00.000
+vertex -24.315,  5.431,  00.000
+vertex -14.481,  6.000,  18.033
+vertex -14.481,  5.300,  18.033
+vertex -06.622,  6.000,  32.446
+vertex -06.622,  5.300,  32.446
+Face 0,1,2,3
+Face 3,2,4,5
+[Texture]
+Load gyorsf_szkorlat.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 04.00, 00.00
+Coordinates  3, 04.00, 01.00
+Coordinates  4, 07.00, 00.00
+Coordinates  5, 07.00, 01.00
+transparent 0,0,255
+
+;--------------------------------------

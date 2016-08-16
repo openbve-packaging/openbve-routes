@@ -1,0 +1,32 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Rallentamento 26 - inizio
+
+[meshbuilder]
+vertex -0.2 , 2 , 0
+vertex  0.2 , 2 , 0
+vertex  0.2 , 1.2 , 0
+vertex -0.2 , 1.2 , 0
+face 0,1,2,3
+[texture]
+load lim26-0.bmp
+transparent 0,0,255
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex -0.2 , 2 , 0.005
+vertex  0.2 , 2 , 0.005
+vertex  0.2 , 1.5 , 0.005
+vertex -0.2 , 1.5 , 0.005
+face2 3,2,1,0
+color 24,40,37
+
+[meshbuilder]
+cylinder 6,0.04,0.04,2.4
+color 67,62,50
+translate 0,0.7,0.04

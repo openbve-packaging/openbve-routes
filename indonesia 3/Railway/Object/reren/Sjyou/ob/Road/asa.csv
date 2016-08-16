@@ -1,0 +1,30 @@
+CreateMeshBuilder
+AddVertex,-3.53, 0.3125,-8.5
+AddVertex,-3.53,-0.0125,-8.5
+AddVertex,-2.90,-0.0125,-8.5
+AddVertex,-2.90,-0.7125,-8.5
+AddVertex, 1.47,-0.7125,-8.5
+AddVertex, 1.47,-0.7125,-0.5
+AddVertex,-2.90,-0.7125,-0.5
+AddVertex,-2.90,-0.0125,-0.5
+AddVertex,-3.53,-0.0125,-0.5
+AddVertex,-3.53, 0.3125,-0.5
+AddFace2,0,1,8,9
+AddFace2,1,2,7,8
+AddFace2,2,3,6,7
+AddFace2,3,4,5,6
+SetTextureCoordinates,0,0.0,0.0
+SetTextureCoordinates,1,0.1,0.0
+SetTextureCoordinates,2,0.2,0.0
+SetTextureCoordinates,3,0.3,0.0
+SetTextureCoordinates,4,1.0,0.0
+SetTextureCoordinates,5,1.0,1.0
+SetTextureCoordinates,6,0.3,1.0
+SetTextureCoordinates,7,0.2,1.0
+SetTextureCoordinates,8,0.1,1.0
+SetTextureCoordinates,9,0.0,1.0
+LoadTexture,../glow_white.png
+setcolor,255,255,255,120
+SetEmissiveColor,85,85,85,
+SetBlendMode,Additive,30,DivideExponent2
+Translate,1.02,-0.43,5

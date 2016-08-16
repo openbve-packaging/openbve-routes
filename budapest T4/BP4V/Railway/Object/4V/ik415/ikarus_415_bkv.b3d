@@ -1,0 +1,238 @@
+﻿;description=BKV Ikarus 415
+;author=prezli
+;copyright=freeware for BVE
+
+[Meshbuilder] ;tabla elol
+Vertex 0.825, 2.89, 0.26
+Vertex 1.73, 2.89, 0.26
+Vertex 1.73, 2.68, 0.22
+Vertex 0.825, 2.68, 0.22
+Face 0, 1, 2, 3
+[Texture]
+Load ik415_tabla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder] ;tabla oldalt
+Vertex 0.02, 2.48, 4.455
+Vertex 0.02, 2.48, 3.55
+Vertex 0.02, 2.27, 3.55
+Vertex 0.02, 2.27, 4.455
+Face 0, 1, 2, 3
+[Texture]
+Load ik415_tabla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder] ;tabla elol
+Vertex 1.24, 2.12, 11.365
+Vertex 0.35, 2.12, 11.365
+Vertex 0.35, 1.9, 11.4
+Vertex 1.24, 1.9, 11.4
+Face 0, 1, 2, 3
+[Texture]
+Load ik415_tabla.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder] ;feneklemez elol
+Vertex 2.5, 0.330, 0.270
+Vertex 0, 0.330, 0.270
+Vertex 0, 0.425, 0
+Vertex 2.5, 0.425, 0
+Face 0, 1, 2, 3
+Color 0, 0, 0
+
+[Meshbuilder] ;feneklemez kozepen
+Vertex 2.5, 0.330, 10.340
+Vertex 0, 0.330, 10.340
+Vertex 0, 0.330, 0.270
+Vertex 2.5, 0.330, 0.270
+Face 0, 1, 2, 3
+Color 0, 0, 0
+
+[Meshbuilder] ;feneklemez hatul
+Vertex 2.5, 0.445, 11.440
+Vertex 0, 0.445, 11.440
+Vertex 0, 0.330, 10.340
+Vertex 2.5, 0.330, 10.340
+Face 0, 1, 2, 3
+Color 0, 0, 0
+
+[Meshbuilder] ;kerek jobb elso
+Cylinder 32, 0.482, 0.482, 0.315
+Color 0, 0, 0
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 0.159, 0.482, 2.600
+
+[Meshbuilder] ;kerek bal elso
+Cylinder 32, 0.482, 0.482, 0.315
+Color 0, 0, 0
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 2.341, 0.482, 2.600
+
+[Meshbuilder] ;kerek jobb hatso kulso
+Cylinder 32, 0.482, 0.482, 0.315
+Color 0, 0, 0
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 0.159, 0.482, 8.170
+
+[Meshbuilder] ;kerek jobb hatso belso
+Cylinder 32, 0.482, 0.482, 0.315
+Color 0, 0, 0
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 0.5, 0.482, 8.170
+
+[Meshbuilder] ;kerek bal hatso belso
+Cylinder 32, 0.482, 0.482, 0.315
+Color 0, 0, 0
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 2, 0.482, 8.170
+
+[Meshbuilder] ;kerek bal hatso kulso
+Cylinder 32, 0.482, 0.482, 0.315
+Color 0, 0, 0
+Rotate 1, 0, 0, 90
+Rotate 0, 1, 0, 90
+Translate 2.341, 0.482, 8.170
+
+[Meshbuilder] ;vezeto szellozo teteje
+Cylinder 16, 0.137, 0.183, 0.12
+Color 128, 128, 96
+Translate 1.838, 3.08, 1.177
+
+[Meshbuilder] ;vezeto szellozo alja
+Cylinder 16, 0.137, 0.137, 0.04
+Color 16, 16, 16
+Translate 1.838, 3.02, 1.177
+
+[Meshbuilder] ;utaster szellozo elso
+Cube 0.45, 0.03, 0.45
+Color 128, 128, 128
+Translate 1.25, 3.03, 4.44
+
+[Meshbuilder] ;utaster szellozo hatso
+Cube 0.45, 0.03, 0.45
+Color 128, 128, 128
+Translate 1.25, 3.03, 8.35
+
+[Meshbuilder] ;helyzetjelzo jobb elso
+Cube 0.028, 0.028, 0.082
+Color 128, 128, 128
+Translate 0.265, 3.025, 0.557
+
+[Meshbuilder] ;helyzetjelzo bal elso
+Cube 0.028, 0.028, 0.082
+Color 128, 128, 128
+Translate 2.235, 3.025, 0.557
+
+[Meshbuilder] ;helyzetjelzo jobb hatso
+Cube 0.028, 0.028, 0.082
+Color 128, 128, 128
+Translate 0.265, 3.025, 11.12
+
+[Meshbuilder] ;helyzetjelzo bal hatso
+Cube 0.028, 0.028, 0.082
+Color 128, 128, 128
+Translate 2.235, 3.025, 11.12
+
+[Meshbuilder] ;jobb oldal
+Vertex 0, 3.01, 11.44
+Vertex 0, 3.01, 0
+Vertex 0, 0, 0
+Vertex 0, 0, 11.44
+Face 0, 1, 2, 3
+[Texture]
+Load ik415_jobboldal.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 255
+
+[Meshbuilder] ;bal oldal
+Vertex 2.5, 3.01, 0
+Vertex 2.5, 3.01, 11.44
+Vertex 2.5, 0, 11.44
+Vertex 2.5, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load ik415_baloldal.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 255
+
+[Meshbuilder] ;orrlemez
+Vertex 0, 1.256, 0
+Vertex 2.5, 1.256, 0
+Vertex 2.5, 0.425, 0
+Vertex 0, 0.425, 0
+Face 0, 1, 2, 3
+[Texture]
+Load ik415_orrlemez.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder] ;szelvedo
+Vertex 0, 3, 0.27
+Vertex 2.5, 3, 0.27
+Vertex 2.5, 1.256, 0
+Vertex 0, 1.256, 0
+Face 0, 1, 2, 3
+[Texture]
+Load ik415_szelvedo.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 255
+
+[Meshbuilder] ;teto
+Vertex 0, 3, 11.251
+Vertex 2.5, 3, 11.251
+Vertex 2.5, 3, 0.27
+Vertex 0, 3, 0.27
+Face 0, 1, 2, 3
+Color 128, 128, 128
+
+[Meshbuilder] ;hatso ablak
+Vertex 2.5, 3, 11.25
+Vertex 0, 3, 11.25
+Vertex 0, 1.6, 11.44
+Vertex 2.5, 1.6, 11.44
+Face 0, 1, 2, 3
+[Texture]
+Load ik415_hatso_ablak.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 255
+
+[Meshbuilder] ;farlemez
+Vertex 2.5, 1.6, 11.44
+Vertex 0, 1.6, 11.44
+Vertex 0, 0.4, 11.44
+Vertex 2.5, 0.4, 11.44
+Face 0, 1, 2, 3
+[Texture]
+Load ik415_farlemez.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

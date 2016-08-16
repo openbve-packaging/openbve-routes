@@ -1,0 +1,20 @@
+[Meshbuilder] ; the red signal that will disappear
+Vertex 2.5,2.2,56.7
+Vertex 2.5,1.6,56.7
+Vertex 2.2,1.6,56.7
+Vertex 2.2,2.2,56.7
+Face 0,1,2,3
+[Texture]
+load redsig.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 2.55,2.25,56.75
+Vertex 2.55,1.55,56.75
+Vertex 2.15,1.55,56.75
+Vertex 2.15,2.25,56.75
+Face 0,1,2,3
+Color 0,0,0

@@ -1,0 +1,183 @@
+CreateMeshBuilder,
+AddVertex,-1.35, -0.17, -0.5,
+AddVertex,-1.35, -0.175, 25.5,
+AddVertex,1.35, -0.175, 25.5,
+AddVertex,1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,Schwellen2.bmp,
+SetTextureCoordinates,0, -0.02, 10,
+SetTextureCoordinates,1, -0.02, 0,
+SetTextureCoordinates,2, 1.02, 0,
+SetTextureCoordinates,3, 1.02, 10,
+
+CreateMeshBuilder,
+AddVertex,-2.8, -0.4, -0.5,
+AddVertex,-2.8, -0.405, 25.5,
+AddVertex,-1.35, -0.175, 25.5,
+AddVertex,-1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 0, 10,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 10,
+
+CreateMeshBuilder,
+AddVertex,1.35, -0.175, 25.5,
+AddVertex,2.8, -0.405, 25.5,
+AddVertex,2.8, -0.4, -0.5,
+AddVertex,1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 10,
+SetTextureCoordinates,3, 0, 10,
+
+CreateMeshBuilder,
+AddVertex,-0.8, 0, -0.4,
+AddVertex,-0.8, 0, 25.5,
+AddVertex,-0.72, 0, 25.5,
+AddVertex,-0.72, 0, -0.4,
+AddFace,0, 1, 2, 3,
+;SetColor,224, 224, 224,
+
+GenerateNormals,
+
+LoadTexture,Schienehell.bmp,
+SetTextureCoordinates,0, 0, 10,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 10,
+
+
+CreateMeshBuilder,
+AddVertex,0.72, 0, -0.3,
+AddVertex,0.72, 0, 25.5,
+AddVertex,0.8, 0, 25.5,
+AddVertex,0.8, 0, -0.3,
+AddFace,0, 1, 2, 3,
+SetColor,224, 224, 224,
+
+GenerateNormals,
+
+LoadTexture,Schienehell.bmp,
+SetTextureCoordinates,0, 0, 10,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 10,
+
+;fili lunghi
+
+CreateMeshBuilder,
+AddVertex,-0.10, 6.8, 0,
+AddVertex,-0.04,  6.8, 0,
+AddVertex,-0.04,  6.8, 25.3,
+AddVertex,-0.10, 6.8, 25.3,
+AddFace,2,3,0,1,
+SetColor,32,32,32,
+
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-0.10, 6.82, 0,
+AddVertex,-0.04,  6.82, 0,
+AddVertex,-0.04,  6.82, 25.3,
+AddVertex,-0.10, 6.82, 25.3,
+AddFace,2,3,0,1,
+SetColor,32,32,32,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-0.10, 5.1, 0,
+AddVertex,-0.04,  5.1, 0,
+AddVertex,-0.04,  5.1, 25.3,
+AddVertex,-0.10, 5.1, 25.3,
+AddFace,2,3,0,1,
+SetColor,128,48,24,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-0.10, 5.12, 0,
+AddVertex,-0.04,  5.12, 0,
+AddVertex,-0.04,  5.12, 25.3,
+AddVertex,-0.10, 5.12, 25.3,
+AddFace,2,3,0,1,
+SetColor,128,48,24,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 5,
+AddVertex,-0.06, 5.1, 5,
+AddVertex,-0.06, 5.1, 5.05,
+AddVertex,-0.06, 6.8, 5.05,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 5.05,
+AddVertex,-0.06, 5.1, 5.05,
+AddVertex,-0.06, 5.1, 5.1,
+AddVertex,-0.06, 6.8, 5.1,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 15,
+AddVertex,-0.06, 5.1, 15,
+AddVertex,-0.06, 5.1, 15.05,
+AddVertex,-0.06, 6.8, 15.05,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 15.05,
+AddVertex,-0.06, 5.1, 15.05,
+AddVertex,-0.06, 5.1, 15.1,
+AddVertex,-0.06, 6.8, 15.1,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+
+
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 25,
+AddVertex,-0.06, 5.1, 25,
+AddVertex,-0.06, 5.1, 25.05,
+AddVertex,-0.06, 6.8, 25.05,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 25.05,
+AddVertex,-0.06, 5.1, 25.05,
+AddVertex,-0.06, 5.1, 25.1,
+AddVertex,-0.06, 6.8, 25.1,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+
+GenerateNormals,
+
+CreateMeshBuilder ; Anime delle rotaie
+Addvertex, -0.76,0.00,-0.30
+Addvertex, -0.76,-0.17,-0.30
+Addvertex, -0.76,0.00,25.5
+Addvertex, -0.76,-0.17,25.5
+Addvertex, 0.76,0.00,-0.30
+Addvertex, 0.76,-0.17,-0.30
+Addvertex, 0.76,0.00,25.5
+Addvertex, 0.76,-0.17,25.5
+Addface2, 2, 3, 1, 0
+Addface2, 6, 7, 5 ,4
+Setcolor, 85,50,50
+GenerateNormals,

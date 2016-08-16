@@ -1,0 +1,125 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;Textures by Oskari Saarekas with Permission
+
+CreateMeshBuilder
+AddVertex,-3.5, 2.4, 1
+AddVertex,-2.5, 2.4, 1
+AddVertex,-2.5, 0.5, 1
+AddVertex,-3.5, 0.5, 1
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,person6_75.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-3.25, 2.4, 4
+AddVertex,-2.25, 2.4, 4
+AddVertex,-2.25, 0.5, 4
+AddVertex,-3.25, 0.5, 4
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,person8_75.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-3, 2.4, 7
+AddVertex,-2, 2.4, 7
+AddVertex,-2, 0.5, 7
+AddVertex,-3, 0.5, 7
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,person9.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder
+AddVertex,-4.25, 2.4, 13
+AddVertex,-3.25, 2.4, 13
+AddVertex,-3.25, 0.5, 13
+AddVertex,-4.25, 0.5, 13
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,person2_75.png
+SetTextureCoordinates,0, 1, 0
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 0, 1
+SetTextureCoordinates,3, 1, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-3, 2.4, 14
+AddVertex,-2, 2.4, 14
+AddVertex,-2, 0.5, 14
+AddVertex,-3, 0.5, 14
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,person3_75.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-3.5, 2.4, 16
+AddVertex,-2.5, 2.4, 16
+AddVertex,-2.5, 0.5, 16
+AddVertex,-3.5, 0.5, 16
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,person4_75.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-5.5, 2.4, 17
+AddVertex,-4.5, 2.4, 17
+AddVertex,-4.5, 0.5, 17
+AddVertex,-5.5, 0.5, 17
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,person5_75.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+
+
+CreateMeshBuilder
+AddVertex,-3, 2.4, 20
+AddVertex,-2, 2.4, 20
+AddVertex,-2, 0.5, 20
+AddVertex,-3, 0.5, 20
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,person10.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,-6, 2.4, 23
+AddVertex,-5, 2.4, 23
+AddVertex,-5, 0.5, 23
+AddVertex,-6, 0.5, 23
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,person9.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0
+

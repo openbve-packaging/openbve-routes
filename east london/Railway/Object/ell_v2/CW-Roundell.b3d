@@ -1,0 +1,270 @@
+; Canada Water roundell _object_
+[MeshBuilder] ; Top half
+Vertex 0,1.55,-0.85
+Vertex 0,1.95,-0.65
+Vertex 0,2.1,-0.5
+Vertex 0,2.25,-0.25
+Vertex 0,2.3,0
+Vertex 0,2.25,0.25
+Vertex 0,2.1,0.5
+Vertex 0,1.95,0.65
+Vertex 0,1.55,0.85
+
+Vertex 0,1.55,0.65
+Vertex 0,1.85,0.5
+Vertex 0,2.05,0.25
+Vertex 0,2.1,0
+Vertex 0,2.05,-0.25
+Vertex 0,1.85,-0.5
+Vertex 0,1.55,-0.65
+
+Face 1,15,0
+Face 2,14,15,1
+Face 3,13,14,2
+Face 4,12,13,3
+Face 5,11,12,4
+Face 6,10,11,5
+Face 7,9,10,6
+Face 7,8,9
+
+Color 255,0,0
+
+[Meshbuilder] ; Bottom half
+Vertex 0,1.3,-0.85
+Vertex 0,0.85,-0.65
+Vertex 0,0.75,-0.5
+Vertex 0,0.6,-0.25
+Vertex 0,0.55,0
+Vertex 0,0.6,0.25
+Vertex 0,0.75,0.5
+Vertex 0,0.85,0.65
+Vertex 0,1.3,0.85
+
+Vertex 0,1.3,0.65
+Vertex 0,1.0,0.5
+Vertex 0,0.8,0.25
+Vertex 0,0.75,0
+Vertex 0,0.8,-0.25
+Vertex 0,1.0,-0.5
+Vertex 0,1.3,-0.65
+
+Face 0,15,1
+Face 14,2,1,15
+Face 13,3,2,14
+Face 12,4,3,13
+Face 11,5,4,12
+Face 10,6,5,11
+Face 9,7,6,10
+Face 8,7,9
+
+Color 255,0,0
+
+[meshbuilder] ; Sign
+Vertex 0,1.55,1
+Vertex 0,1.3,1
+Vertex 0,1.3,-1
+Vertex 0,1.55,-1
+Face 0,1,2,3
+[Texture]
+Load CW-Sign.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; Sign box
+Vertex 0,1.55,1
+Vertex 0,1.3,1
+Vertex 0,1.3,-1
+Vertex 0,1.55,-1
+
+Vertex -0.1,1.55,1
+Vertex -0.1,1.3,1
+Vertex -0.1,1.3,-1
+Vertex -0.1,1.55,-1
+Face 4,0,3,7
+Face 5,1,0,4
+Face 7,3,2,6
+Face 6,2,1,5
+Color 90,90,90
+
+[Meshbuilder] ; Top half outer box
+Vertex 0,1.55,-0.85
+Vertex 0,1.95,-0.65
+Vertex 0,2.1,-0.5
+Vertex 0,2.25,-0.25
+Vertex 0,2.3,0
+Vertex 0,2.25,0.25
+Vertex 0,2.1,0.5
+Vertex 0,1.95,0.65
+Vertex 0,1.55,0.85
+
+Vertex -0.1,1.55,-0.85
+Vertex -0.1,1.95,-0.65
+Vertex -0.1,2.1,-0.5
+Vertex -0.1,2.25,-0.25
+Vertex -0.1,2.3,0
+Vertex -0.1,2.25,0.25
+Vertex -0.1,2.1,0.5
+Vertex -0.1,1.95,0.65
+Vertex -0.1,1.55,0.85
+
+Face 10,1,0,9
+Face 11,2,1,10
+Face 12,3,2,11
+Face 13,4,3,12
+Face 14,5,4,13
+Face 15,6,5,14
+Face 16,7,6,15
+Face 17,8,7,16
+Color 90,90,90
+
+[Meshbuilder] ; Bottom Half outer box
+Vertex 0,1.3,-0.85
+Vertex 0,0.85,-0.65
+Vertex 0,0.75,-0.5
+Vertex 0,0.6,-0.25
+Vertex 0,0.55,0
+Vertex 0,0.6,0.25
+Vertex 0,0.75,0.5
+Vertex 0,0.85,0.65
+Vertex 0,1.3,0.85
+Vertex -0.1,1.3,-0.85
+Vertex -0.1,0.85,-0.65
+Vertex -0.1,0.75,-0.5
+Vertex -0.1,0.6,-0.25
+Vertex -0.1,0.55,0
+Vertex -0.1,0.6,0.25
+Vertex -0.1,0.75,0.5
+Vertex -0.1,0.85,0.65
+Vertex -0.1,1.3,0.85
+
+Face 0,1,10,9
+Face 1,2,11,10
+Face 2,3,12,11
+Face 3,4,13,12
+Face 4,5,14,13
+Face 5,6,15,14
+Face 6,7,16,15
+Face 7,8,17,16
+Color 90,90,90
+
+[Meshbuilder] ; Top half inner box
+Vertex 0,1.55,0.65
+Vertex 0,1.85,0.5
+Vertex 0,2.05,0.25
+Vertex 0,2.1,0
+Vertex 0,2.05,-0.25
+Vertex 0,1.85,-0.5
+Vertex 0,1.55,-0.65
+
+Vertex -0.1,1.55,0.65
+Vertex -0.1,1.85,0.5
+Vertex -0.1,2.05,0.25
+Vertex -0.1,2.1,0
+Vertex -0.1,2.05,-0.25
+Vertex -0.1,1.85,-0.5
+Vertex -0.1,1.55,-0.65
+Face 1,0,7,8
+Face 2,1,8,9
+Face 3,2,9,10
+Face 4,3,10,11
+Face 5,4,11,12
+Face 6,5,12,13
+Color 90,90,90
+
+[Meshbuilder] ; Bottom half inner box
+Vertex 0,1.3,0.65
+Vertex 0,1.0,0.5
+Vertex 0,0.8,0.25
+Vertex 0,0.75,0
+Vertex 0,0.8,-0.25
+Vertex 0,1.0,-0.5
+Vertex 0,1.3,-0.65
+
+Vertex -0.1,1.3,0.65
+Vertex -0.1,1.0,0.5
+Vertex -0.1,0.8,0.25
+Vertex -0.1,0.75,0
+Vertex -0.1,0.8,-0.25
+Vertex -0.1,1.0,-0.5
+Vertex -0.1,1.3,-0.65
+
+Face 7,0,1,8
+Face 8,1,2,9
+Face 9,2,3,10
+Face 10,3,4,11
+Face 11,4,5,12
+Face 12,5,6,13
+Color 90,90,90
+
+;; Now the posts holding it up
+[Meshbuilder] ; Right post
+Vertex -0.1,1.55,1.05
+Vertex -0.095,1.55,1.09
+Vertex -0.05,1.55,1.1
+Vertex -0.005,1.55,1.09
+Vertex 0,1.55,1.05
+Vertex -0.005,1.55,1.01
+Vertex -0.05,1.55,1
+Vertex -0.095,1.55,1.01
+
+Vertex -0.1,0,1.05
+Vertex -0.095,0,1.09
+Vertex -0.05,0,1.1
+Vertex -0.005,0,1.09
+Vertex 0,0,1.05
+Vertex -0.005,0,1.01
+Vertex -0.05,0,1
+Vertex -0.095,0,1.01
+
+Face 1,3,4,0
+Face 0,4,5,7
+Face 1,2,3
+Face 7,5,6
+
+Face 0,8,9,1
+Face 1,9,10,2
+Face 2,10,11,3
+Face 3,11,12,4
+Face 4,12,13,5
+Face 5,13,14,6
+Face 6,14,15,7
+Face 7,15,8,0
+
+Color 90,90,90
+
+[Meshbuilder] ; left post
+Vertex -0.1,1.55,-1.05
+Vertex -0.095,1.55,-1.09
+Vertex -0.05,1.55,-1.1
+Vertex -0.005,1.55,-1.09
+Vertex 0,1.55,-1.05
+Vertex -0.005,1.55,-1.01
+Vertex -0.05,1.55,-1
+Vertex -0.095,1.55,-1.01
+
+Vertex -0.1,0,-1.05
+Vertex -0.095,0,-1.09
+Vertex -0.05,0,-1.1
+Vertex -0.005,0,-1.09
+Vertex 0,0,-1.05
+Vertex -0.005,0,-1.01
+Vertex -0.05,0,-1
+Vertex -0.095,0,-1.01
+
+Face 7,5,4,0
+Face 0,4,3,1
+Face 1,3,2
+Face 7,6,5
+
+Face 0,8,15,7
+Face 7,15,14,6
+Face 6,14,13,5
+Face 5,13,12,4
+Face 4,12,11,3
+Face 3,11,10,2
+Face 2,10,9,1
+Face 1,9,8,0
+
+Color 90,90,90

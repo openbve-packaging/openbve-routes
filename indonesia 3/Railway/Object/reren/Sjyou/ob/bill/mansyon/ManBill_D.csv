@@ -1,0 +1,24 @@
+CreateMeshBuilder,
+AddVertex,-10.0, 18.0, 0
+ADdVertex,-3.0, 18.0, 0
+ADdVertex,-3.0, 18.0, 7
+AddVertex,-10.0, 18.0, 7
+AddVertex,-10.0, 0.0, 7
+AddVertex,-3.0, 0.0, 7
+AddVertex,-3.0, 0.0, 0
+AddVertex,-10.0, 0.0, 0
+AddFace,0,1,6,7
+AddFace,1,2,5,6
+AddFace,2,3,4,5,
+LoadTexture,../../ManBill_D.png,
+SetTextureCoordinates,0,-0.1,0,
+SetTextureCoordinates,1,-1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,1,
+SetTextureCoordinates,5,0,1,
+SetTextureCoordinates,6,-1,1,
+SetTextureCoordinates,7,-0.1,1,
+GenerateNormals,
+setEmissiveColor,70,70,70,
+SetDecalTransparentColor,0,0,255,

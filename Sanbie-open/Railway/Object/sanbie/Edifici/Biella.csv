@@ -1,0 +1,505 @@
+;laterale
+CreateMeshBuilder,
+AddVertex,-16.5,4.95,-30,
+AddVertex,-6.5,4.95,-30,
+AddVertex,-6.5,0.3,-30,
+AddVertex,-16.5,0.3,-30,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,-12.5,6,-29,
+AddVertex,-6.5,6,-29,
+AddVertex,-6.5,4.95,-29,
+AddVertex,-12.5,4.95,-29,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,0,1,
+
+
+CreateMeshBuilder,
+AddVertex,-16.5,8.5,-17,
+AddVertex,-6.5,8.5,-17,
+AddVertex,-6.5,4.95,-17,
+AddVertex,-16.5,4.95,-17,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella7.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,3,0,
+SetTextureCoordinates,2,3,1,
+SetTextureCoordinates,3,0,1,
+
+;parte alta laterale
+CreateMeshBuilder,
+AddVertex,-16.7,9.3,-13,
+AddVertex,-8.5,9.3,-13,
+AddVertex,-8.5,8,-13,
+AddVertex,-16.7,8,-13,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,0,1,
+
+
+
+
+;;fronte stazione
+CreateMeshBuilder,
+AddVertex,-6.5,0.3,-30,
+AddVertex,-6.5,4.95,-30,
+AddVertex,-6.5,4.95,30,
+AddVertex,-6.5,0.3,30,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella8.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+CreateMeshBuilder,
+AddVertex,-6.5,4.95,-29,
+AddVertex,-6.5,6,-29,
+AddVertex,-6.5,6,-17,
+AddVertex,-6.5,4.95,-17,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+
+CreateMeshBuilder,
+AddVertex,-6.5,4.95,17,
+AddVertex,-6.5,6,17,
+AddVertex,-6.5,6,29,
+AddVertex,-6.5,4.95,29,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+
+
+CreateMeshBuilder,
+AddVertex,-6.5,4.95,-17,
+AddVertex,-6.5,8.5,-17,
+AddVertex,-6.5,8.5,17,
+AddVertex,-6.5,4.95,17,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella7.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,9,0,
+SetTextureCoordinates,3,9,1,
+
+
+CreateMeshBuilder,
+AddVertex,-8.5,8,-13,
+AddVertex,-8.5,9.3,-13,
+AddVertex,-8.5,9.3,13,
+AddVertex,-8.5,8,13,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+
+
+;; fotografie
+CreateMeshBuilder,
+AddVertex,-6.5,3.3,-30,
+AddVertex,-5.5,3.3,-30,
+AddVertex,-5.5,0.3,-30,
+AddVertex,-6.5,0.3,-30,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella5.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+
+
+CreateMeshBuilder,
+AddVertex,-5.5,2.5,-30,
+AddVertex,-5.5,2.5,-28.5,
+AddVertex,-5.5,0.3,-28.5,
+AddVertex,-5.5,0.3,-30,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella4.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,-6.5,2.5,-30,
+AddVertex,-6.5,2.5,-28.5,
+AddVertex,-5.5,2.5,-28.5,
+AddVertex,-5.5,2.5,-30,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+;tetto
+CreateMeshBuilder,
+Cube, 2.6,0.05,19.2,
+Translate, -4.2,4.95,0
+GenerateNormals,
+Setcolor,100,60,0,
+
+CreateMeshBuilder,
+Cube, 2.55,0.05,19.2,
+Translate, -4.2,4.85,0
+GenerateNormals,
+Setcolor,255,255,255,
+
+;prima parte stazione
+CreateMeshBuilder,
+Cube, 5,0.05,6.7,
+Translate, -9.5,4.95,-25.9
+GenerateNormals,
+Setcolor,100,60,0,
+
+CreateMeshBuilder,
+Cube, 4.95,0.07,6.7,
+Translate, -9.5,4.83,-25.9
+GenerateNormals,
+Setcolor,255,255,255,
+
+;parte fondo stazione
+CreateMeshBuilder,
+Cube, 5,0.05,6.7,
+Translate, -9.5,4.95,25.9
+GenerateNormals,
+Setcolor,100,60,0,
+
+CreateMeshBuilder,
+Cube, 4.95,0.07,6.7,
+Translate, -9.5,4.85,25.9
+GenerateNormals,
+Setcolor,255,255,255,
+
+;tettoalto
+CreateMeshBuilder,
+Cube, 5.1,0.05,17.1,
+Translate, -11.5,8.5,0
+GenerateNormals,
+Setcolor,100,60,0,
+
+;parte bianca
+CreateMeshBuilder,
+AddVertex,-6.5,4.53,-19,
+AddVertex,-5.5,4.7,-19,
+AddVertex,-5.5,4.7,19,
+AddVertex,-6.5,4.53,19,
+AddFace2,0,1,2,3,
+GenerateNormals,
+Setcolor,240,240,240,
+
+CreateMeshBuilder,
+AddVertex,-5.5,4.7,-19,
+AddVertex,-3.5,4.85,-19,
+AddVertex,-3.5,4.85,19,
+AddVertex,-5.5,4.7,19,
+AddFace2,0,1,2,3,
+GenerateNormals,
+Setcolor,250,250,250,
+
+
+
+;camino
+CreateMeshBuilder,
+AddVertex,-10,10,-16,
+AddVertex,-8.5,10,-16,
+AddVertex,-8.5,8.5,-16,
+AddVertex,-10,8.5,-16,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella3.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+
+;marciapiede
+CreateMeshBuilder,
+AddVertex,-16, 0.3, -0.8,
+AddVertex,-16, 0.3, 50,
+AddVertex,-2.5, 0.3, 50,
+AddVertex,-2.5, 0.3, -0.8,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\linea\autobloccanti1.bmp,
+SetTextureCoordinates,0, 6, 80,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 80,
+
+;marciapiede
+CreateMeshBuilder,
+AddVertex,-6.5, 0.3, 49.8,
+AddVertex,-6.5, 0.3, 100,
+AddVertex,-2.5, 0.3, 100,
+AddVertex,-2.5, 0.3, 49.8,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\linea\autobloccanti1.bmp,
+SetTextureCoordinates,0, 6, 80,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 80,
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex,-6.5, 0.3, -57,
+AddVertex,-6.5, 0.3, -0.8,
+AddVertex,-2.5, 0.3, -0.8,
+AddVertex,-2.5, 0.3, -57,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\linea\autobloccanti1.bmp,
+SetTextureCoordinates,0, 6, 25,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 25,
+
+;staccionata
+CreateMeshBuilder,
+AddVertex,-6.5, 2.4, -30,
+AddVertex,-6.5, 2.4, -70,
+AddVertex,-6.5, 0.3, -30,
+AddVertex,-6.5, 0.3, -70,
+AddFace2,2,3,1,0,
+GenerateNormals,
+
+LoadTexture,..\oggetti\staccionata1.bmp,
+SetTextureCoordinates,0, 15, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 15, 0.93,
+SetTextureCoordinates,3, 0, 0.93,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,-6.5, 2.4, 50,
+AddVertex,-6.5, 2.4, 120,
+AddVertex,-6.5, 0.3, 50,
+AddVertex,-6.5, 0.3, 120,
+AddFace2,2,3,1,0,
+GenerateNormals,
+
+LoadTexture,..\oggetti\staccionata1.bmp,
+SetTextureCoordinates,0, 12, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 12, 0.93,
+SetTextureCoordinates,3, 0, 0.93,
+SetDecalTransparentColor,255,255,255,
+
+
+;cartello biella
+CreateMeshBuilder, ; fronte sx
+AddVertex,-2,4.86,-1.25,
+AddVertex,-2,4.86,1.25,
+AddVertex,-2,3.65,1.25,
+Addvertex,-2,3.65,-1.25,
+Addface, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, ..\linea\Biella.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder, ; fronte sx
+AddVertex,-4.25,4.86,19,
+AddVertex,-1.75,4.86,19,
+AddVertex,-1.75,3.65,19,
+Addvertex,-4.25,3.65,19,
+Addface, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, ..\linea\Biella.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder, ; fronte sx
+AddVertex,-4.25,4.86,-19,
+AddVertex,-1.75,4.86,-19,
+AddVertex,-1.75,3.65,-19,
+Addvertex,-4.25,3.65,-19,
+Addface, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, ..\linea\Biella.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder, ; fronte sx
+AddVertex,-4.25,4.86,-5,
+AddVertex,-1.75,4.86,-5,
+AddVertex,-1.75,3.,-5,
+Addvertex,-4.25,3.,-5,
+Addface, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, stabiella6.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+SetDecalTransparentColor,0,0,0,
+
+
+;;giardino
+;laterale
+CreateMeshBuilder,
+AddVertex,-16.5,2.3,-44,
+AddVertex,-6.5,2.3,-44,
+AddVertex,-6.5,0.3,-44,
+AddVertex,-16.5,0.3,-44,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\oggetti\staccionata1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,5,0.93,
+SetTextureCoordinates,3,0,0.93,
+SetDecalTransparentColor,255,255,255,
+
+
+CreateMeshBuilder,
+AddVertex,-16.5,3,-30,
+AddVertex,-16.5,3,-44,
+AddVertex,-16.5,0.3,-44,
+AddVertex,-16.5,0.3,-30,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,stabiella9.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,5,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,-16.5, 0.3, -30,
+AddVertex,-16.5, 0.3, -49,
+AddVertex,-6.5, 0.3, -49,
+AddVertex,-6.5, 0.3, -30,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\alberi\grass3a.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1.2,
+SetTextureCoordinates,2, 0.8, 1.2,
+SetTextureCoordinates,3, 0.8, 0,
+
+;cartello pubblicitario
+
+CreateMeshBuilder,
+AddVertex,-16,5.5,-39,
+AddVertex,-16,5.5,-44,
+AddVertex,-16,0.3,-44,
+AddVertex,-16,0.3,-39,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,cartellopub.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+;palo
+CreateMeshBuilder, ; palo
+cylinder, 6,0.05,0.12,4.9
+translate, -6.5,2.8,-44
+SetColor, 200, 200, 200,
+
+
+CreateMeshBuilder,
+AddVertex,-6.5,4.3,-47,
+AddVertex,-5.5,4.3,-47,
+AddVertex,-5.5,0.3,-47,
+AddVertex,-6.5,0.3,-47,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\oggetti\lampione2.bmp,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+
+;albero
+CreateMeshBuilder,
+AddVertex,-7.7,8.3,-38,
+AddVertex,-5.7,8.3,-36,
+AddVertex,-5.7,0.3,-36,
+AddVertex,-7.7,0.3,-38,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\alberi\tree2.bmp,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+

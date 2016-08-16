@@ -1,0 +1,97 @@
+CreateMeshBuilder
+AddVertex,-1.3, 4.4, 0.0
+AddVertex,-11.5, 4.4, 0.0
+AddVertex,-11.5, 4.4,25.0
+AddVertex,-1.3, 4.4,25.0
+AddFace,3,2,1,0
+LoadTexture,MSRoof.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 15, 0
+SetTextureCoordinates,3, 15, 1
+GenerateNormals
+
+CreateMeshBuilder,
+AddVertex,-11.5, 5.4, 0,
+AddVertex,-11.5, 4.4, 0,
+AddVertex,-11.5, 4.4, 25.1,
+AddVertex,-11.5, 5.4, 25.1,
+AddFace,0,1,2,3,
+LoadTexture,../Wall\boadwall.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 6,
+SetTextureCoordinates,3, 0, 6,
+SetColor,100,100,100
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-11.5, 5.4, 0
+AddVertex,-1.3, 5.4, 0
+AddVertex,-1.3, 4.4, 0
+AddVertex,-11.5, 4.4, 0
+AddFace,0,1,2,3
+LoadTexture,../Wall\boadwall.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetColor,100,100,100
+GenerateNormals,
+
+CreateMeshBuilder
+AddVertex, 2.51, 4.2, 25.1
+AddVertex, 1.9, 5.6, 25.1
+AddVertex,-2.05, 5.6, 25.1
+AddVertex,-2.05, 5.6, 0
+AddVertex, 1.9, 5.6, 0
+AddVertex, 2.51, 4.2, 0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,wall_B1.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.3, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 5
+SetTextureCoordinates,4, 0.3, 5
+SetTextureCoordinates,5, 0, 5
+Setcolor,150,150,150
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,2.51,  4.2, 0
+AddVertex,2.51,  4.2, 25.1
+AddVertex,2.51,  0.35, 25.1
+AddVertex,2.51,  0.35, 0
+AddFace,3,2,1,0
+LoadTexture,kayawall_c.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 15,0
+SetTextureCoordinates,2, 15,1
+SetTextureCoordinates,3, 0,1
+GenerateNormals
+CreateMeshBuilder
+AddVertex,2.51,  0.35, 0
+AddVertex,2.51,  0.35, 25.1
+AddVertex,2.51, -0.29, 25.1
+AddVertex,2.51, -0.29, 0
+AddFace,3,2,1,0
+LoadTexture,kayawall_c2.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 15,0
+SetTextureCoordinates,2, 15,1
+SetTextureCoordinates,3, 0,1
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,2.49, 2.86, 11.5
+AddVertex,2.49, 2.86, 13.0
+AddVertex,2.49, 3.02, 13.0
+AddVertex,2.49, 3.02, 11.5
+AddFace,0,1,2,3
+LoadTexture,../sta/kayaba2.bmp
+SetTextureCoordinates,0, 1, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 1, 0
+GenerateNormals,

@@ -1,0 +1,18 @@
+CreateMeshBuilder,
+AddVertex,-9.0, 18.88,-8.0
+AddVertex,-2.0, 18.88,-8.0
+AddVertex,-2.0, 18.88,-1.0
+AddVertex,-2.0,  1.88,-1.0
+AddVertex,-2.0,  1.88,-8.0
+AddVertex,-9.0,  1.88,-8.0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,bill_b.bmp,
+Setcolor,220,220,220
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,3,0
+SetTextureCoordinates,2  ,6,0
+SetTextureCoordinates,3  ,6,6
+SetTextureCoordinates,4  ,3,6
+SetTextureCoordinates,5  ,0,6
+GenerateNormals,

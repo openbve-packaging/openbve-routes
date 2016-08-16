@@ -1,0 +1,122 @@
+; File creato da Francesco Alois "mikros"
+; PARZIALMENTE MODIFICATO DA 
+; Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+; per la route Genova-Recco
+
+
+;; Basamento
+CreateMeshBuilder
+Cube, 0.3, 0.45, 0.3
+Translate, 0, -0.3, 0
+setcolor,154,152,140
+
+;; Palo
+CreateMeshBuilder
+Cylinder, 5, 0.10, 0.10, 6
+Translate, 0, 0.95, 0
+setcolor,155,150,150
+
+;; Staffa orizzontale
+CreateMeshBuilder
+Cube, 1.5, 0.05, 0.05
+Translate, 0, 4, 0,
+setcolor,155,150,150
+
+;; Staffa orizzontale
+CreateMeshBuilder
+Cube, 1.5, 0.05, 0.05
+Translate, 0, 4, 0,
+setcolor,155,150,150
+
+CreateMeshBuilder,
+cube,1.5,0.445,0.025
+AddFace,0, 1, 2, 3,
+AddFace,4, 5, 6, 7,
+Translate, 0, 4.5, 0,
+LoadTexture, brign.bmp
+SetTextureCoordinates,0, 1, ,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, , 1,
+SetTextureCoordinates,3, , ,
+SetTextureCoordinates,4, , ,
+SetTextureCoordinates,5, , 1,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 1, ,
+
+
+;; Luce sinistra davanti
+CreateMeshBuilder
+Cube, 0.7, 0.05, 0.05
+Translate, -0.75, 5.0, -0.25
+setcolor,155,150,150
+
+;; Luce destra davanti
+CreateMeshBuilder
+Cube, 0.7, 0.05, 0.05
+Translate, 0.75, 5.0, -0.25
+setcolor,155,150,150
+
+;; Luce sinistra dietro
+CreateMeshBuilder
+Cube, 0.7, 0.05, 0.05
+Translate, -0.75, 5.0, 0.25
+setcolor,155,150,150
+
+;; Luce destra dietro
+CreateMeshBuilder
+Cube, 0.7, 0.05, 0.05
+Translate, 0.75, 5.0, 0.25
+setcolor,155,150,150
+
+;; Staffa per il sostegno luci sinistra-sx
+CreateMeshBuilder
+Cylinder, 3,0.02,0.02,0.9
+Translate, -1.35, 4.65, 0
+setcolor,155,150,150
+
+;; Staffa per il sostegno luci sinistra-dx
+CreateMeshBuilder
+Cylinder, 3,0.02,0.02,0.9
+Translate, -0.20, 4.65, 0
+setcolor,155,150,150
+
+;; Staffa per il sostegno luci destra-sx
+CreateMeshBuilder
+Cylinder, 3,0.02,0.02,0.9
+Translate, 1.35, 4.65, 0
+setcolor,155,150,150
+
+;; Staffa per il sostegno luci destra-dx
+CreateMeshBuilder
+Cylinder, 3,0.02,0.02,0.9
+Translate, 0.20, 4.65, 0
+setcolor,155,150,150
+
+;; Staffa luci sinistra-sx
+CreateMeshBuilder
+Cylinder, 3,0.02,0.02,0.6
+Rotate, 1, 0, 0, 90
+Translate, -1.35, 5.07, 0
+setcolor,155,150,150
+
+;; Staffa luci sinistra-sx
+CreateMeshBuilder
+Cylinder, 3,0.02,0.02,0.6
+Rotate, 1, 0, 0, 90
+Translate, -0.20, 5.07, 0
+setcolor,155,150,150
+
+;; Staffa luci sinistra-sx
+CreateMeshBuilder
+Cylinder, 3,0.02,0.02,0.6
+Rotate, 1, 0, 0, 90
+Translate, 1.35, 5.07, 0
+setcolor,155,150,150
+
+;; Staffa luci sinistra-sx
+CreateMeshBuilder
+Cylinder, 3,0.02,0.02,0.6
+Rotate, 1, 0, 0, 90
+Translate, 0.20, 5.07, 0
+setcolor,155,150,150

@@ -1,0 +1,106 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+CreateMeshBuilder,;;copertura
+AddVertex,-0.25, 0.9, -75,
+AddVertex,-0.25, 0.9,0,
+AddVertex,0.25, 0.9, 0,
+AddVertex,0.25, 0.9, -75,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,83,82,87
+
+
+
+
+
+
+
+CreateMeshBuilder,;;lato dx
+AddVertex,0.25, 0,-75,
+AddVertex,0.25,0,0,
+AddVertex,0.25,0.9,0,
+AddVertex,0.25, 0.9, -75,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,basering.bmp,
+SetTextureCoordinates,0, 0, 0.65,
+SetTextureCoordinates,1, 12, 0.65,
+SetTextureCoordinates,2, 12, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,;;lato sx
+AddVertex,-0.25, 0,-75,
+AddVertex,-0.25,0,0,
+AddVertex,-0.25,0.9,0,
+AddVertex,-0.25, 0.9, -75,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,basering.bmp,
+SetTextureCoordinates,0, 0, 0.65,
+SetTextureCoordinates,1, 12, 0.65,
+SetTextureCoordinates,2, 12, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0
+
+
+CreateMeshBuilder,;;lato dx inclinato
+AddVertex,0.45, -0.5,-75,
+AddVertex,0.45,-0.5,0,
+AddVertex,0.25,0,0,
+AddVertex,0.25, 0, -75,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,basering.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.65,
+SetTextureCoordinates,3, 0, 0.65,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,;;lato sx inclinato
+AddVertex,-0.45, -0.5,-75,
+AddVertex,-0.45,-0.5,0,
+AddVertex,-0.25,0,0,
+AddVertex,-0.25, 0, -75,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,basering.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.65,
+SetTextureCoordinates,3, 0, 0.65,
+SetDecalTransparentColor,0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;rete
+CreateMeshBuilder ;;;sx
+AddVertex,,0.8,0
+AddVertex,,0.8,-75
+AddVertex,,2.5,-75
+AddVertex,,2.5,0
+
+
+AddFace2,0,1,2,3
+GenerateNormals
+
+LoadTexture,ringhieramuro.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 21, 1
+SetTextureCoordinates,2, 21, 0
+SetTextureCoordinates,3, 0, 0
+SetDecaltransparentColor,0,0,0,
+
+
+
+
+
+
+
+
+
+
+
+

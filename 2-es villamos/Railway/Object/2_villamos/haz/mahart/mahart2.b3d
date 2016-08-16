@@ -1,0 +1,117 @@
+; made by IST - Wachtler Istvan - Hungary, 2003
+
+
+
+[Meshbuilder]
+Vertex -10, 0, 0
+Vertex -10, 3, 0
+Vertex 0, 3, 0
+Vertex 0, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load mahartoldal.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+
+[Meshbuilder]
+Vertex 0, 0, 0
+Vertex 0, 3, 0
+Vertex 0, 3, 8
+Vertex 0, 0, 8
+Face 0, 1, 2, 3
+[Texture]
+Load mahart1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 0, 0, 8
+Vertex 0, 3, 8
+Vertex 0, 3, 22
+Vertex 0, 0, 22
+Face 0, 1, 2, 3
+[Texture]
+Load mahart2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 0, 0, 22
+Vertex 0, 3, 22
+Vertex 0, 3, 30
+Vertex 0, 0, 30
+Face 0, 1, 2, 3
+[Texture]
+Load mahart3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+
+
+
+
+;teto
+
+
+[Meshbuilder]
+Vertex -11, 3, -1
+Vertex -11, 3.3, -1
+Vertex 1, 3.3, -1
+Vertex 1, 3, -1
+Face 0, 1, 2, 3
+[Texture]
+Load mahartteto.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+
+[Meshbuilder]
+Vertex 1, 3, -1
+Vertex 1, 3.3, -1
+Vertex 1, 3.3, 31
+Vertex 1, 3, 31
+Face 0, 1, 2, 3
+[Texture]
+Load mahartteto.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 1, 3, 31
+Vertex -11, 3, 31
+Vertex -11, 3, -1
+Vertex 1, 3, -1
+Face 0, 1, 2, 3
+Color 128, 64, 0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+
+[Meshbuilder]
+Vertex -11, 3.3, -1
+Vertex -11, 3.3, 31
+Vertex 1, 3.3, 31
+Vertex 1, 3.3, -1
+Face 0, 1, 2, 3
+Color 128, 64, 0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

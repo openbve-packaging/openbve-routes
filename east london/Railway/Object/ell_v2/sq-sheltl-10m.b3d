@@ -1,0 +1,23 @@
+[Meshbuilder] ; Platform shelter
+Vertex -0.5,4.5,-0.1
+Vertex -0.5,3.5,-0.1
+Vertex -4,3.5,-0.1
+Vertex -4,4.5,-0.1
+Vertex -0.5,4.5,10
+Vertex -0.5,3.5,10
+Face 0,1,2,3
+Face 4,5,1,0
+Color 0,0,0
+
+[Meshbuilder]
+Vertex -0.5,3.5,10
+Vertex -0.5,3.5,-0.1
+Vertex -4,3.5,-0.1
+Vertex -4,3.5,10
+Face 1,0,3,2
+[Texture]
+load roth-black.bmp
+Coordinates 0,8,20
+Coordinates 1,8,0
+Coordinates 2,0,0
+Coordinates 3,0,20

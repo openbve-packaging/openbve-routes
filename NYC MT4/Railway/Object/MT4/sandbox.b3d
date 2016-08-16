@@ -1,0 +1,63 @@
+[MeshBuilder]
+vertex 0,0,0
+vertex 1.5,0,0
+vertex 1.5,0.75,0
+vertex 0,0.75,0
+face2 0,1,2,3
+color 5,5,5
+
+[meshbuilder]
+vertex 0,0.75,0
+vertex 1.5,0.75,0
+vertex 1.5,1,0
+vertex 0.75,1,0
+face2 0,1,2,3
+color 5,5,5
+
+[MeshBuilder]
+vertex 0,0,1.5
+vertex 1.5,0,1.5
+vertex 1.5,0.75,1.5
+vertex 0,0.75,1.5
+face2 0,1,2,3
+color 5,5,5
+
+[meshbuilder]
+vertex 0,0.75,1.5
+vertex 1.5,0.75,1.5
+vertex 1.5,1,1.5
+vertex 0.75,1,1.5
+face2 0,1,2,3
+color 5,5,5
+
+[meshbuilder]
+vertex 0,0,0
+vertex 0,0.75,0
+vertex 0,0.75,1.5
+vertex 0,0,1.5
+face2 0,1,2,3
+color 5,5,5
+
+[meshbuilder]
+vertex 0,0.75,0
+vertex 0.75,1,0
+vertex 0.75,1,1.5
+vertex 0,0.75,1.5
+face2 0,1,2,3
+color 5,5,5
+
+[meshbuilder]
+vertex 0.75,1,0
+vertex 1.5,1,0
+vertex 1.5,1,1.5
+vertex 0.75,1,1.5
+face2 0,1,2,3
+color 5,5,5
+
+[meshbuilder]
+vertex 1.5,0,0
+vertex 1.5,1,0
+vertex 1.5,1,1.5
+vertex 1.5,0,1.5
+face 0,1,2,3
+color 5,5,5

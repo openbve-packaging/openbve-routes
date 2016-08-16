@@ -1,0 +1,106 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; --- Cespugli e alberi per curve a destra
+
+; ========= DESTRA ===============
+[MeshBuilder] ; Pini sulla destra
+Vertex 0, 11, 0
+Vertex 10, 11, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0, 26
+Translate 2,-2,5
+[texture]
+load ..\Smikes\ctree8.bmp
+transparent 0,0,255
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Pini sulla destra
+Vertex 0, 10, 0
+Vertex 10, 10, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+;Rotate 0,1,0,-26
+Translate 2,-2,20
+[texture]
+load ..\Smikes\ctree8.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Pin0 sulla destra
+Vertex 0, 10, 0
+Vertex 10, 10, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+;Rotate 0,1,0,-26
+Translate 2,-2,0
+[texture]
+load ..\Smikes\ctree7.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Pin0 sulla destra
+Vertex 0, 9, 0
+Vertex 8, 9, 0
+Vertex 8, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+;Rotate 0,1,0,-26
+Translate 3,-2,12
+[texture]
+load ..\Smikes\ctree7.bmp
+transparent 0,0,255
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+transparent 0,0,255
+
+;Coppia cespugli
+
+[MeshBuilder]
+Vertex 1.5, 2.5, -5
+Vertex 0.5, 2.5,  0
+Vertex 0, 0  ,  0
+Vertex 1, 0  , -5
+Face2 0,1,2,3
+[texture]
+load ..\Alberi\CespuglioRC.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.9, 0
+Coordinates 2, 0.9, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+translate 4,-1,0
+
+[MeshBuilder]
+Vertex 1.5, 2.5, 0
+Vertex 0.5, 2.5,  5
+Vertex 0, 0  ,  5
+Vertex 1, 0  , 0
+Face2 0,1,2,3
+[texture]
+load ..\Alberi\CespuglioRC.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.9, 0
+Coordinates 2, 0.9, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+translate 4,-1,5

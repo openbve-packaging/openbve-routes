@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,0,10.9,-25,
+AddVertex,0,10.9,25,
+AddVertex,0,0.0,25,
+AddVertex,0,0.0,-25,
+AddFace2,0,1,2,3,
+LoadTexture,Tree4_3.bmp
+SetTextureCoordinates,0, 0.5, 0,
+SetTextureCoordinates,1, 2.95, 0,
+SetTextureCoordinates,2, 2.95, 1,
+SetTextureCoordinates,3, 0.5, 1,
+SetDecalTransparentColor,255,0,0
+GenerateNormals,

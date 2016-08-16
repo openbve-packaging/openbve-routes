@@ -1,0 +1,313 @@
+;M3 gyorsforgalmi út 6 és felüljáró
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;Falak
+[MeshBuilder]
+;bal oldalfal belsõ síkja
+Vertex  -07.531, -00.200,  15.071
+Vertex  -07.531, -00.200,  15.071
+Vertex  -07.683, -00.200,  20.596
+Vertex  -07.683,  02.814,  20.596
+Vertex  -07.880, -00.200,  26.066
+Vertex  -07.880,  05.300,  26.066
+Vertex  -07.938, -00.200,  27.465
+Vertex  -07.938,  05.300,  27.465
+
+;bal oldalfal ferde síkja K felõl szemben
+Vertex  -08.030, -00.200,  15.050
+Vertex  -08.185,  02.550,  20.664
+Vertex  -08.378,  05.300,  26.045
+Vertex  -07.880,  05.300,  26.066
+Vertex  -07.683,  02.550,  20.596
+Vertex  -07.531, -00.200,  15.071
+
+Face 00,01,03,02
+Face 02,03,05,04
+Face 04,05,07,06
+Face 08,09,12,13
+Face 09,10,11,12
+
+[Texture]
+Load gyorsf_fal_01.bmp
+Coordinates 00, 00.00, 01.00
+Coordinates 01, 00.00, 00.00
+Coordinates 02, 02.00, 01.00
+Coordinates 03, 02.00, 00.00
+Coordinates 04, 04.00, 00.00
+Coordinates 05, 04.00, 01.00
+Coordinates 06, 05.00, 00.00
+Coordinates 07, 05.00, 01.00
+
+Coordinates 08, 00.00, 00.00
+Coordinates 09, 00.00, 01.00
+Coordinates 10, 01.00, 00.00
+Coordinates 11, 01.00, 01.00
+Coordinates 12, 02.00, 00.00
+Coordinates 13, 02.00, 01.00
+
+;--------------------------------------
+
+;Rézsû
+
+[MeshBuilder]
+Vertex  -13.232, -00.200,  00.000
+Vertex  -17.801,  05.000,  01.704
+Vertex  -12.697,  05.300,  14.931
+Vertex  -08.994, -00.200,  13.515
+
+Vertex  -08.994, -00.200,  13.515
+Vertex  -12.697,  05.300,  14.931
+Vertex  -12.203,  05.300,  16.231
+Vertex  -09.030, -00.200,  15.026
+
+Vertex  -09.030, -00.200,  15.026
+Vertex  -12.203,  05.300,  16.231
+Vertex  -11.071,  05.300,  19.214
+Vertex  -09.119,  01.550,  18.473
+
+Vertex  -11.071,  05.300,  19.214
+Vertex  -08.389,  05.300,  26.277
+Vertex  -08.090,  01.550,  18.532
+Vertex  -09.119,  01.550,  18.473
+
+Vertex  -09.030, -00.200,  15.026
+Vertex  -09.119,  01.550,  18.473
+Vertex  -08.090,  01.550,  18.532
+Vertex  -08.030, -00.200,  15.050
+
+Face 00,01,02,03
+
+Face 04,05,06,07
+Face 08,09,10,11
+Face 12,13,14,15
+Face 16,17,18,19
+
+[Texture]
+Load fu.bmp
+Coordinates  0, 00.00, 04.80
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 16.00, 00.00
+Coordinates  3, 16.00, 04.80
+
+Coordinates  4, 00.00, 04.00
+Coordinates  5, 00.00, 00.00
+Coordinates  6, 01.00, 00.00
+Coordinates  7, 01.00, 03.00
+
+Coordinates  8, 00.00, 04.00
+Coordinates  9, 00.00, 00.00
+Coordinates 10, 03.00, 00.00
+Coordinates 11, 03.00, 02.00
+
+Coordinates 12, 00.00, 00.00
+Coordinates 13, 07.50, 00.00
+Coordinates 14, 00.40, 03.00
+Coordinates 15, 00.00, 02.00
+
+Coordinates 16, 00.00, 03.50
+Coordinates 17, 00.00, 00.00
+Coordinates 18, 01.00, 00.00
+Coordinates 19, 01.00, 03.50
+
+;--------------------------------------
+
+;Kábelek
+
+;K felõl bal
+
+;kábelek
+[meshbuilder]
+vertex -08.355, -0.200, -00.010
+vertex -08.030, -0.200,  15.050
+vertex -08.121,  1.508,  18.532
+vertex -08.121,  2.058,  18.532
+vertex -08.030,  0.350,  15.050
+vertex -08.355,  0.350, -00.010
+
+vertex -09.355, -0.200,  00.013
+vertex -09.030, -0.200,  15.026
+vertex -09.119,  1.508,  18.473
+vertex -09.119,  2.058,  18.473
+vertex -09.030,  0.350,  15.026
+vertex -09.355,  0.350,  00.013
+
+face 00,05,04,01
+face 04,03,02,01
+
+face 06,11,10,07
+face 10,09,08,07
+
+[Texture]
+Load kabelek.bmp
+Coordinates 00, 0.0, 1.0
+Coordinates 01, 3.0, 1.0
+Coordinates 02, 3.8, 1.0
+Coordinates 03, 3.8, 0.0
+Coordinates 04, 3.0, 0.0
+Coordinates 05, 0.0, 0.0
+
+Coordinates 06, 0.0, 1.0
+Coordinates 07, 3.0, 1.0
+Coordinates 08, 3.8, 1.0
+Coordinates 09, 3.8, 0.0
+Coordinates 10, 3.0, 0.0
+Coordinates 11, 0.0, 0.0
+
+transparent 0,0,255
+translate -0.2,0,0
+
+;lefedés
+
+[meshbuilder]
+vertex -09.119, 2.058,  18.473
+vertex -08.121, 2.058,  18.532
+vertex -08.121, 2.258,  18.532
+vertex -08.620, 2.408,  18.486
+vertex -09.119, 2.258,  18.473
+face2 0,1,2,3,4
+color 97,95,82
+translate -0.2,0,0
+
+[meshbuilder]
+vertex -08.355, 0.350, -00.010
+vertex -08.355, 0.550, -00.010
+vertex -08.030, 0.550,  15.050
+vertex -08.121, 2.258,  18.532
+vertex -08.121, 2.058,  18.532
+vertex -08.030, 0.350,  15.050
+Face 0,1,2,5
+Face 2,3,4,5
+color 97,95,82
+translate -0.2,0,0
+
+[meshbuilder]
+vertex -09.355, 0.350,  00.013
+vertex -09.355, 0.550,  00.013
+vertex -09.030, 0.550,  15.026
+vertex -09.119, 2.258,  18.473
+vertex -09.119, 2.058,  18.473
+vertex -09.030, 0.350,  15.026
+Face 0,1,2,5
+Face 2,3,4,5
+color 97,95,82
+translate -0.2,0,0
+
+[meshbuilder]
+vertex -08.355, 0.550, -00.010
+vertex -08.855, 0.700, -00.010
+vertex -08.531, 0.700,  15.072
+vertex -08.620, 2.408,  18.486
+vertex -08.121, 2.258,  18.532
+vertex -08.030, 0.550,  15.050
+Face 0,1,2,5
+Face 2,3,4,5
+color 97,95,82
+translate -0.2,0,0
+
+[meshbuilder]
+vertex -08.855, 0.700, -00.010
+vertex -09.355, 0.550,  00.013
+vertex -09.030, 0.550,  15.026
+vertex -09.119, 2.258,  18.473
+vertex -08.620, 2.408,  18.486
+vertex -08.531, 0.700,  15.072
+Face 0,1,2,5
+Face 2,3,4,5
+color 97,95,82
+translate -0.2,0,0
+
+;--------------------------------------
+
+;Kerítés és korlát
+
+;K felõl bal
+[meshbuilder]
+vertex -10.855, -0.200,  00.000
+vertex -10.855,  2.300,  00.000
+vertex -10.287,  2.300,  07.497
+vertex -10.287, -0.200,  07.497
+Face 0,1,2,3
+[Texture]
+Load kerites_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 03.00, 00.00
+Coordinates  3, 03.00, 01.00
+
+[meshbuilder]
+vertex -10.287, -0.200,  07.497
+vertex -10.287,  2.000,  07.497
+vertex -10.095,  2.000,  10.005
+vertex -10.095, -0.200,  10.005
+
+vertex -09.992,  3.474,  13.530
+vertex -09.992,  1.274,  13.530
+
+vertex -10.143,  6.496,  19.351
+vertex -10.143,  4.296,  19.351
+
+vertex -07.900,  4.238,  19.534
+vertex -07.900,  2.038,  19.534
+
+vertex -07.977,  4.338,  21.733
+vertex -07.977,  3.138,  21.733
+
+vertex -08.128,  6.300,  26.055
+vertex -08.128,  5.300,  26.055
+
+Face  0,1,2,3
+Face  3,2,4,5
+Face  5,4,6,7
+Face2 7,6,8,9
+Face  9,8,10,11
+Face  11,10,12,13
+
+[Texture]
+Load gyorsf_korlat_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 02.00, 00.00
+Coordinates  3, 02.00, 01.00
+
+Coordinates  4, 05.00, 00.00
+Coordinates  5, 05.00, 01.00
+
+Coordinates  6, 10.00, 00.00
+Coordinates  7, 10.00, 01.00
+
+Coordinates  8, 12.00, 00.00
+Coordinates  9, 12.00, 01.00
+
+Coordinates 10, 14.00, 00.00
+Coordinates 11, 14.00, 01.00
+
+Coordinates 12, 18.00, 00.00
+Coordinates 13, 18.00, 01.00
+
+transparent 0,0,255
+
+;--------------------------------
+
+;Szalagkorlát
+[meshbuilder]
+vertex -18.577,  5.000,  00.000
+vertex -18.577,  5.700,  00.000
+vertex -12.978,  6.000,  15.037
+vertex -12.978,  5.300,  15.037
+vertex -08.185,  6.000,  27.660
+vertex -08.185,  5.300,  27.660
+Face 0,1,2,3
+Face 3,2,4,5
+[Texture]
+Load gyorsf_szkorlat.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 03.27, 00.00
+Coordinates  3, 03.27, 01.00
+Coordinates  4, 05.00, 00.00
+Coordinates  5, 05.00, 01.00
+transparent 0,0,255
+
+;--------------------------------------

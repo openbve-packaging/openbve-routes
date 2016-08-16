@@ -1,0 +1,221 @@
+CreateMeshBuilder,
+AddVertex,-100,10.5,5.5,
+AddVertex,100,10.5,5.5,
+AddVertex,100,9.0,5.5,
+AddVertex,-100,9.0,5.5,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,ground1.bmp,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,15,
+SetTextureCoordinates,2,0,15,
+SetTextureCoordinates,3,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,-50,9.1,5.5,
+AddVertex,50,9.1,5.5,
+AddVertex,50,6.75,6,
+AddVertex,-50,6.75,6,
+AddFace,0,1,2,3,
+;SetColor,200,200,200,
+GenerateNormals,
+
+LoadTexture,ground1-a.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,10,0,
+SetTextureCoordinates,2,10,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,100,7.75,6,
+AddVertex,-100,7.75,6,
+AddVertex,-100,7.75,20,
+AddVertex,100,7.75,20,
+AddFace,3,2,1,0,
+SetColor,255,255,255,
+GenerateNormals,
+
+LoadTexture,00Roof.bmp,
+SetTextureCoordinates,0,1,0.5,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+
+;==================================
+
+CreateMeshBuilder,
+;Pillastro sinistra
+AddVertex,-8, 7.75, 15,
+AddVertex,-8, -2, 15,
+AddVertex,-8, -2, 8,
+AddVertex,-9.5, -2, 8,
+AddVertex,-9.5, 7.75, 8,
+AddVertex,-8, 7.75, 8,
+AddFace,0,1,2,5,
+AddFace,5,2,3,4,
+
+GenerateNormals,
+
+LoadTexture,ground1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 4,
+SetTextureCoordinates,3, 0, 4,
+SetTextureCoordinates,4, 4, 4,
+SetTextureCoordinates,5, 0, 4,
+
+CreateMeshBuilder,
+;terrapieno cemento sinistra
+AddVertex,-18, 8.75, 20,
+AddVertex,-18, -2, 20,
+AddVertex,-18, -2, 5.5,
+AddVertex,-45, -2, 5.5,
+AddVertex,-45, 8.75, 5.5,
+AddVertex,-16, 8.75, 5.5,
+AddFace,0,1,2,5,
+AddFace,5,2,3,4,
+
+GenerateNormals,
+
+LoadTexture,ground1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 2,
+SetTextureCoordinates,3, 0, 2,
+SetTextureCoordinates,4, 2, 2,
+SetTextureCoordinates,5, 0, 4,
+
+; terrapieno
+CreateMeshBuilder,
+AddVertex,-29, 10.5, 5.5,
+AddVertex,-20, -2, 5.5,
+AddVertex,-24, -2, -1.5,
+AddVertex,-100, -2, -1.5,
+AddVertex,-100, 10.5, 5.5,
+AddVertex,-29, 10.5, 5.5,
+AddFace2,0,1,2,5,
+AddFace2,5,2,3,4,
+SetColor,200,200,200
+GenerateNormals,
+
+LoadTexture,..\alberi\grass3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 3, 4,
+SetTextureCoordinates,5, 0, 4,
+
+CreateMeshBuilder
+; colonna
+cylinder,14, 0.75, 0.75 ,11 
+SetColor,150,150,150
+translate, -8.7, 3.5, 8
+
+
+;===========================
+CreateMeshBuilder,
+;Pillastro sinistra
+AddVertex,8, 7.75, 15,
+AddVertex,8, -2, 15,
+AddVertex,8, -2, 8,
+AddVertex,9.5, -2, 8,
+AddVertex,9.5, 7.75, 8,
+AddVertex,8, 7.75, 8,
+AddFace2,0,1,2,5,
+AddFace2,5,2,3,4,
+
+GenerateNormals,
+
+LoadTexture,ground1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 4,
+SetTextureCoordinates,3, 0, 4,
+SetTextureCoordinates,4, 4, 4,
+SetTextureCoordinates,5, 0, 4,
+
+
+CreateMeshBuilder,
+;terrapieno cemento destra
+AddVertex,18, 8.75, 20,
+AddVertex,18, -2, 20,
+AddVertex,18, -2, 5.5,
+AddVertex,45, -2, 5.5,
+AddVertex,45, 8.75, 5.5,
+AddVertex,18, 8.75, 5.5,
+AddFace2,0,1,2,5,
+AddFace2,5,2,3,4,
+
+GenerateNormals,
+
+LoadTexture,ground1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 4,
+SetTextureCoordinates,3, 0, 2,
+SetTextureCoordinates,4, 4, 2,
+SetTextureCoordinates,5, 0, 4,
+
+; terrapieno
+CreateMeshBuilder,
+AddVertex,29, 10.5, 5.5,
+AddVertex,20, -2, 5.5,
+AddVertex,24, -2, -1.5,
+AddVertex,100, -2, -1.5,
+AddVertex,100, 10.5, 5.5,
+AddVertex,29, 10.5, 5.5,
+AddFace2,0,1,2,5,
+AddFace2,5,2,3,4,
+SetColor,200,200,200
+GenerateNormals,
+
+LoadTexture,..\alberi\grass3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 3, 4,
+SetTextureCoordinates,5, 0, 4,
+
+CreateMeshBuilder
+; colonna
+cylinder,14, 0.75, 0.75 ,11 
+SetColor,150,150,150
+translate, 8.7, 3.5, 8
+
+
+;;barriera
+CreateMeshBuilder,
+AddVertex,-130,15.5,5.5,
+AddVertex,-50,15.5,5.5,
+AddVertex,-50,10.5,5.5,
+AddVertex,-130,10.5,5.5,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,barriera1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,3,0,
+SetTextureCoordinates,2,3,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,
+
+
+CreateMeshBuilder,
+AddVertex,-45,11.5,5.5,
+AddVertex,100,11.5,5.5,
+AddVertex,100,10.5,5.5,
+AddVertex,-45,10.5,5.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,guardrail2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,40,0,
+SetTextureCoordinates,2,40,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,

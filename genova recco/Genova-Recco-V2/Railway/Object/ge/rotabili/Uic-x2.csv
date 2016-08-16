@@ -1,0 +1,500 @@
+; Oggetto compatibile openBVE
+; Carrozza UIC-X 2a classe Trenitalia
+; Texture laterale ricavata da foto di Ernesto Imperato pubblicata da Trenomania Foto
+; http://www.trenomania.it/TMF2004/
+; Texture frontale ricavata da foto di "Brignolino"
+; Nota:
+; La lunghezza totale dell'oggetto è ridotta da 26,4 a 25 m per compatibilità
+; di utilizzo come oggetto ripetitivo.
+; Per utilizzo nella vista esterna del treno in corsa openBVE togliere il commento
+; dell'ultima riga
+; Luigi Cartello 6-1-2009
+
+;;;;;;;;;;;;
+;;;;OMBRA;;;
+;;;;;;;;;;;;
+CreateMeshBuilder
+AddVertex,-1.55,0.01,0.2,
+AddVertex,1.55,0.01,0.2,
+AddVertex,1.55,0.01,24.8,
+AddVertex,-1.55,0.01,24.8,
+AddFace,3,2,1,0,
+LoadTexture,ombraR.png
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,0,0,
+
+; Fiancata destra Esterna
+CreateMeshBuilder,
+AddVertex,1.35, 3.1 ,24.8,
+AddVertex,1.35, 3.1 ,0.2,
+AddVertex,1.35, 0.5  ,24.8,
+AddVertex,1.35, 0.5  ,0.2,
+AddFace,1,0,2,3,
+GenerateNormals,
+LoadTexture,UIC-X2-fiancata-est.bmp,
+SetTextureCoordinates,0,0.990,-1,
+SetTextureCoordinates,1,0.001,-1,
+SetTextureCoordinates,2,0.990,-0.12,
+SetTextureCoordinates,3,0.001,-0.12,
+SetDecalTransparentColor,255, 0, 0,
+
+; Fiancata sinistra esterna
+CreateMeshBuilder,
+AddVertex,-1.35, 3.1 ,24.8, 
+AddVertex,-1.35, 3.1 ,0.2,  
+AddVertex,-1.35, 0.5  ,24.8, 
+AddVertex,-1.35, 0.5  ,0.2,  
+AddFace,3,2,0,1,
+GenerateNormals,
+LoadTexture,UIC-X2-fiancata-est.bmp,
+SetTextureCoordinates,0,0.001,-1,
+SetTextureCoordinates,1,0.990,-1,
+SetTextureCoordinates,2,0.001,-0.12,
+SetTextureCoordinates,3,0.990,-0.12,
+SetDecalTransparentColor,255, 0, 0,
+
+; Tetto
+CreateMeshBuilder,
+AddVertex,-1.35, 3.1  ,24.8,-1.35, 3.1  ,24.8,
+AddVertex,-1.35, 3.1  ,0.2, -1.35, 3.1  ,0.2, 
+AddVertex,-1.20, 3.40 ,24.8,-1.20, 3.40 ,24.8,
+AddVertex,-1.20, 3.40 ,0.2, -1.20, 3.40 ,0.2, 
+AddVertex,-0.88, 3.75 ,24.8,-0.88, 3.75 ,24.8,
+AddVertex,-0.88, 3.75 ,0.2, -0.88, 3.75 ,0.2, 
+AddVertex,-0.3 , 4.05 ,24.8,-0.3 , 4.05 ,24.8,
+AddVertex,-0.3 , 4.05 ,0.2, -0.3 , 4.05 ,0.2, 
+AddVertex,0.3  , 4.05 ,24.8,0.3  , 4.05 ,24.8,
+AddVertex,0.3  , 4.05 ,0.2, 0.3  , 4.05 ,0.2, 
+AddVertex,0.88 , 3.75 ,24.8,0.88 , 3.75 ,24.8,
+AddVertex,0.88 , 3.75 ,0.2, 0.88 , 3.75 ,0.2, 
+AddVertex,1.20 , 3.40 ,24.8,1.20 , 3.40 ,24.8,
+AddVertex,1.20 , 3.40 ,0.2, 1.20 , 3.40 ,0.2, 
+AddVertex,1.35 , 3.1  ,24.8,1.35 , 3.1  ,24.8,
+AddVertex,1.35 , 3.1  ,0.2, 1.35 , 3.1  ,0.2, 
+AddFace2,1,0,2,3,
+AddFace2,3,2,4,5,
+AddFace2,5,4,6,7,
+AddFace2,7,6,8,9,
+AddFace2,9,8,10,11,
+AddFace2,11,10,12,13,
+AddFace2,13,12,14,15,
+GenerateNormals,
+LoadTexture,UIC-X2-tetto.bmp,
+SetTextureCoordinates,0,0.999,-1.00,
+SetTextureCoordinates,1,0.001,-1.00,
+SetTextureCoordinates,2,0.999,-0.83,
+SetTextureCoordinates,3,0.001,-0.83,
+SetTextureCoordinates,4,0.999,-0.65,
+SetTextureCoordinates,5,0.001,-0.65,
+SetTextureCoordinates,6,0.999,-0.55,
+SetTextureCoordinates,7,0.001,-0.55,
+SetTextureCoordinates,8,0.999,-0.45,
+SetTextureCoordinates,9,0.001,-0.45,
+SetTextureCoordinates,10,0.999,-0.35,
+SetTextureCoordinates,11,0.001,-0.35,
+SetTextureCoordinates,12,0.999,-0.17,
+SetTextureCoordinates,13,0.001,-0.17,
+SetTextureCoordinates,14,0.999,0,
+SetTextureCoordinates,15,0.001,0,
+
+; Frontale posteriore esterno
+CreateMeshBuilder,
+AddVertex,-0.3 , 4.05 ,0.2,
+AddVertex, 0.3,  4.05 ,0.2,
+AddVertex,-0.88 , 3.75 ,0.2,
+AddVertex, 0.88,  3.75 ,0.2,
+AddVertex,-1.20, 3.40 ,0.2,
+AddVertex, 1.20, 3.40 ,0.2,
+AddVertex,-1.35, 3.10 ,0.2,
+AddVertex, 1.35, 3.10 ,0.2,
+AddVertex,-1.35, 1.22 ,0.2,
+AddVertex, 1.35, 1.22 ,0.2,
+AddVertex,-1.35, 1.18 ,0.6,
+AddVertex, 1.35, 1.18 ,0.6,
+AddVertex,-1.35, 0.88 ,0.6,
+AddVertex, 1.35, 0.88 ,0.6,
+AddFace,3,2,0,1,
+AddFace,5,4,2,3,
+AddFace,7,6,4,5,
+AddFace,9,8,6,7,
+AddFace,11,10,8,9,
+AddFace,13,12,10,11,
+GenerateNormals,
+LoadTexture,UIC-X-fronte-est.bmp,
+SetTextureCoordinates,0, -0.6,-1.00,
+SetTextureCoordinates,1, -0.4,-1.00,
+SetTextureCoordinates,2, -0.7, -0.94,
+SetTextureCoordinates,3, -0.3 ,-0.94,
+SetTextureCoordinates,4, -0.93, -0.84,
+SetTextureCoordinates,5, -0.07, -0.84,
+SetTextureCoordinates,6, -1  , -0.71,
+SetTextureCoordinates,7, -0  , -0.71,
+SetTextureCoordinates,8, -1  , -0.10,
+SetTextureCoordinates,9, -0  , -0.10,
+SetTextureCoordinates,10,-1  , -0.09,
+SetTextureCoordinates,11,-0  , -0.09,
+SetTextureCoordinates,12,-1  , -0.00,
+SetTextureCoordinates,13,-0  , -0.00,
+
+; Frontale posteriore interno
+CreateMeshBuilder,
+AddVertex,-0.3 , 4.05 ,-0.2,
+AddVertex, 0.3,  4.05 ,-0.2,
+AddVertex,-0.88 , 3.75 ,-0.2,
+AddVertex, 0.88,  3.75 ,-0.2,
+AddVertex,-1.20, 3.40 ,-0.2,
+AddVertex, 1.2, 3.40 ,-0.2,
+AddVertex,-1.35, 3.10 ,-0.2,
+AddVertex, 1.35, 3.10 ,-0.2,
+AddVertex,-1.35, 1.22 ,-0.2,
+AddVertex, 1.35, 1.22 ,-0.2,
+AddVertex,-1.35, 1.18 ,-0.6,
+AddVertex, 1.35, 1.18 ,-0.6,
+AddVertex,-1.35, 0.88 ,-0.6,
+AddVertex, 1.35, 0.88 ,-0.6,
+AddFace,3,2,0,1,
+AddFace,5,4,2,3,
+AddFace,7,6,4,5,
+AddFace,9,8,6,7,
+AddFace,11,10,8,9,
+AddFace,13,12,10,11,
+GenerateNormals,
+LoadTexture,MDVE-fronte-int.bmp,
+SetTextureCoordinates,0, -0.6,-1.00,
+SetTextureCoordinates,1, -0.4,-1.00,
+SetTextureCoordinates,2, -0.7, -0.94,
+SetTextureCoordinates,3, -0.3 ,-0.94,
+SetTextureCoordinates,4, -0.93, -0.84,
+SetTextureCoordinates,5, -0.07, -0.84,
+SetTextureCoordinates,6, -1  , -0.71,
+SetTextureCoordinates,7, -0  , -0.71,
+SetTextureCoordinates,8, -1  , -0.10,
+SetTextureCoordinates,9, -0  , -0.10,
+SetTextureCoordinates,10,-1  , -0.09,
+SetTextureCoordinates,11,-0  , -0.09,
+SetTextureCoordinates,12,-1  , -0.00,
+SetTextureCoordinates,13,-0  , -0.00,
+SetDecalTransparentColor,255, 0, 0,
+rotate,0,1,0,180
+
+
+; Frontale anteriore esterno
+CreateMeshBuilder,
+AddVertex,-0.3 , 4.05 ,0.2,
+AddVertex, 0.3,  4.05 ,0.2,
+AddVertex,-0.88 , 3.75 ,0.2,
+AddVertex, 0.88,  3.75 ,0.2,
+AddVertex,-1.20, 3.40 ,0.2,
+AddVertex, 1.20, 3.40 ,0.2,
+AddVertex,-1.35, 3.10 ,0.2,
+AddVertex, 1.35, 3.10 ,0.2,
+AddVertex,-1.35, 1.22 ,0.2,
+AddVertex, 1.35, 1.22 ,0.2,
+AddVertex,-1.35, 1.18 ,0.6,
+AddVertex, 1.35, 1.18 ,0.6,
+AddVertex,-1.35, 0.88 ,0.6,
+AddVertex, 1.35, 0.88 ,0.6,
+AddFace,3,2,0,1,
+AddFace,5,4,2,3,
+AddFace,7,6,4,5,
+AddFace,9,8,6,7,
+AddFace,11,10,8,9,
+AddFace,13,12,10,11,
+GenerateNormals,
+LoadTexture,UIC-X-fronte-est.bmp,
+SetTextureCoordinates,0, -0.6,-1.00,
+SetTextureCoordinates,1, -0.4,-1.00,
+SetTextureCoordinates,2, -0.7, -0.94,
+SetTextureCoordinates,3, -0.3 ,-0.94,
+SetTextureCoordinates,4, -0.93, -0.84,
+SetTextureCoordinates,5, -0.07, -0.84,
+SetTextureCoordinates,6, -1  , -0.71,
+SetTextureCoordinates,7, -0  , -0.71,
+SetTextureCoordinates,8, -1  , -0.10,
+SetTextureCoordinates,9, -0  , -0.10,
+SetTextureCoordinates,10,-1  , -0.09,
+SetTextureCoordinates,11,-0  , -0.09,
+SetTextureCoordinates,12,-1  , -0.00,
+SetTextureCoordinates,13,-0  , -0.00,
+rotate,0,1,0,180
+translate,0,0,25.0
+
+; Frontale anteriore interno
+CreateMeshBuilder,
+AddVertex,-0.3 , 4.05 ,24.8,
+AddVertex, 0.3,  4.05 ,24.8,
+AddVertex,-0.88, 3.75 ,24.8,
+AddVertex, 0.88,  3.75 ,24.8,
+AddVertex,-1.20, 3.40 ,24.8,
+AddVertex, 1.20, 3.40 ,24.8,
+AddVertex,-1.35, 3.10 ,24.8,
+AddVertex, 1.35, 3.10 ,24.8,
+AddVertex,-1.35, 1.22 ,24.8,
+AddVertex, 1.35, 1.22 ,24.8,
+AddVertex,-1.35, 1.18 ,24.4,
+AddVertex, 1.35, 1.18 ,24.4,
+AddVertex,-1.35, 0.88 ,24.4,
+AddVertex, 1.35, 0.88 ,24.4,
+AddFace,3,2,0,1,
+AddFace,5,4,2,3,
+AddFace,7,6,4,5,
+AddFace,9,8,6,7,
+AddFace,11,10,8,9,
+AddFace,13,12,10,11,
+GenerateNormals,
+LoadTexture,MDVE-fronte-int.bmp,
+SetTextureCoordinates,0, -0.6,-1.00,
+SetTextureCoordinates,1, -0.4,-1.00,
+SetTextureCoordinates,2, -0.7, -0.94,
+SetTextureCoordinates,3, -0.3 ,-0.94,
+SetTextureCoordinates,4, -0.93, -0.84,
+SetTextureCoordinates,5, -0.07, -0.84,
+SetTextureCoordinates,6, -1  , -0.71,
+SetTextureCoordinates,7, -0  , -0.71,
+SetTextureCoordinates,8, -1  , -0.10,
+SetTextureCoordinates,9, -0  , -0.10,
+SetTextureCoordinates,10,-1  , -0.09,
+SetTextureCoordinates,11,-0  , -0.09,
+SetTextureCoordinates,12,-1  , -0.00,
+SetTextureCoordinates,13,-0  , -0.00,
+SetDecalTransparentColor,255, 0, 0,
+
+
+
+
+
+; Fiancata destra interna
+CreateMeshBuilder,
+AddVertex,1.35, 3.1,24.8, 
+AddVertex,1.35, 3.1 ,0.2,  
+AddVertex,1.35, 0.5  ,24.8, 
+AddVertex,1.35, 0.5  ,0.2,  
+AddFace,3,2,0,1,
+GenerateNormals,
+LoadTexture,MDVE-Fiancata-int.bmp,
+SetTextureCoordinates,0,0.001,-0.735,
+SetTextureCoordinates,1,0.999,-0.735,
+SetTextureCoordinates,2,0.001,-0.00, 
+SetTextureCoordinates,3,0.999,-0.00, 
+SetDecalTransparentColor,255, 0, 0,
+
+
+; Fiancata sinistra interna
+CreateMeshBuilder,
+AddVertex,-1.35, 3.1 ,24.8, 
+AddVertex,-1.35, 3.1 ,0.2,  
+AddVertex,-1.35, 0.5  ,24.8, 
+AddVertex,-1.35, 0.5  ,0.2,  
+AddFace,1,0,2,3,
+GenerateNormals,
+LoadTexture,MDVE-Fiancata-int.bmp,
+SetTextureCoordinates,0,0.001,-0.735,
+SetTextureCoordinates,1,0.999,-0.735,
+SetTextureCoordinates,2,0.001,-0.00,
+SetTextureCoordinates,3,0.999,-0.00,
+SetDecalTransparentColor,255, 0, 0,
+
+; Pavimento
+; Tetto
+CreateMeshBuilder,
+AddVertex,-1.35, 1.25 ,24.8,
+AddVertex,-1.35, 1.25 ,0.2, 
+AddVertex,1.35, 1.25  ,24.8,
+AddVertex,1.35, 1.25  ,0.2, 
+AddFace2,1,0,2,3,
+GenerateNormals,
+SetColor,100,100,100
+
+; Respingenti posteriori
+CreateMeshBuilder,
+AddVertex,-1.2 , 1.25 ,0.01,
+AddVertex, 1.3,  1.25 ,0.01,
+AddVertex,-1.2 , 0.65 ,0.01,
+AddVertex, 1.3,  0.65 ,0.01,
+AddFace,3,2,0,1,
+GenerateNormals,
+LoadTexture,MDVE-respingenti.bmp,
+SetTextureCoordinates,0, -1,-0.98,
+SetTextureCoordinates,1, -0,-0.98,
+SetTextureCoordinates,2, -1, -0.02,
+SetTextureCoordinates,3, -0 ,-0.02,
+SetDecalTransparentColor,255, 0, 0,
+
+CreateMeshBuilder,
+Cylinder,8,0.12,0.12,0.49
+SetColor,25,25,50
+rotate,1,0,0,90
+translate,-0.8,1.08,0.26
+
+CreateMeshBuilder,
+Cylinder,8,0.12,0.12,0.49
+SetColor,25,25,50
+rotate,1,0,0,90
+translate,0.8,1.08,0.26
+
+; Respingenti antteriori
+CreateMeshBuilder,
+AddVertex,-1.2 , 1.25 ,0.01,
+AddVertex, 1.3,  1.25 ,0.01,
+AddVertex,-1.2 , 0.65 ,0.01,
+AddVertex, 1.3,  0.65 ,0.01,
+AddFace,3,2,0,1,
+GenerateNormals,
+LoadTexture,MDVE-respingenti.bmp,
+SetTextureCoordinates,0, -1,-0.98,
+SetTextureCoordinates,1, -0,-0.98,
+SetTextureCoordinates,2, -1, -0.02,
+SetTextureCoordinates,3, -0 ,-0.02,
+SetDecalTransparentColor,255, 0, 0,
+rotate,0,1,0,180
+translate,0,0,25.0
+
+CreateMeshBuilder,
+Cylinder,8,0.12,0.12,0.49
+SetColor,25,25,50
+rotate,1,0,0,90
+translate,-0.8,1.08,24.74
+
+CreateMeshBuilder,
+Cylinder,8,0.12,0.12,0.49
+SetColor,25,25,50
+rotate,1,0,0,90
+translate,0.8,1.08,24.74
+
+; Carrello anteriore
+;-----------------------------------
+CreateMeshBuilder ; fiancata sinistra carrello ant
+AddVertex, -0.8  , 0.00 , 1.85
+AddVertex, -0.8  , 0.00,  -1.65
+AddVertex, -0.8  , 0.90 , 1.65
+AddVertex, -0.8  , 0.90 , -1.85
+AddFace2, 0,2,3,1,
+GenerateNormals
+LoadTexture,Carrello-Fiat.bmp,
+SetTextureCoordinates, 0 ,0.788, 0.999  
+SetTextureCoordinates, 1 ,0.001 , 0.999  
+SetTextureCoordinates, 2 ,0.788, 0.195
+SetTextureCoordinates, 3 ,0.001 , 0.195	
+SetDecalTransparentColor,255,0,0
+translate,0,0.1,21.2
+
+CreateMeshBuilder ; fiancata destra carrello ant
+AddVertex, 0.8  , 0.00 , 1.85
+AddVertex, 0.8  , 0.00,  -1.65
+AddVertex, 0.8  , 0.90 , 1.85
+AddVertex, 0.8  , 0.90 , -1.65
+AddFace2, 0,2,3,1,
+GenerateNormals
+LoadTexture,Carrello-Fiat.bmp,
+SetTextureCoordinates, 0 ,0.788, 0.999  
+SetTextureCoordinates, 1 ,0.001 , 0.999  
+SetTextureCoordinates, 2 ,0.788, 0.195
+SetTextureCoordinates, 3 ,0.001 , 0.195	
+SetDecalTransparentColor,255,0,0
+translate,0,0.1,21.2
+
+; Route carrello anteriore
+; ------------------
+CreateMeshBuilder ; Ruota ant sin
+cylinder,16, 0.52, 0.53,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.525, 22.5
+CreateMeshBuilder ; Ruota ant des
+cylinder,16, 0.53, 0.52,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.525, 22.5
+CreateMeshBuilder ; Assale Ant
+cylinder,8, 0.13, 0.15,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.525, 22.5
+
+CreateMeshBuilder ; Ruota pos sin
+cylinder,16, 0.52, 0.53,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.525, 20.0
+CreateMeshBuilder ; Ruota pos des
+cylinder,16, 0.53, 0.52,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.525, 20.0
+CreateMeshBuilder ; Assale Post
+cylinder,8, 0.13, 0.15,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.525, 20.0
+
+; Carrello posteriore
+;-----------------------------------
+CreateMeshBuilder ; fiancata sinistra carrello post
+AddVertex, -0.8  , 0.00 , 1.85
+AddVertex, -0.8  , 0.00,  -1.65
+AddVertex, -0.8  , 0.90 , 1.85
+AddVertex, -0.8  , 0.90 , -1.65
+AddFace2, 0,2,3,1,
+GenerateNormals
+LoadTexture,Carrello-Fiat.bmp,
+SetTextureCoordinates, 0 ,0.788, 0.999  
+SetTextureCoordinates, 1 ,0.001 , 0.999  
+SetTextureCoordinates, 2 ,0.788, 0.195
+SetTextureCoordinates, 3 ,0.001 , 0.195	
+SetDecalTransparentColor,255,0,0
+translate,0,0.1,3.55
+
+CreateMeshBuilder ; fiancata destra carrello post
+AddVertex, 0.8  , 0.00 , 1.85
+AddVertex, 0.8  , 0.00,  -1.65
+AddVertex, 0.8  , 0.90 , 1.85
+AddVertex, 0.8  , 0.90 , -1.65
+AddFace2, 0,2,3,1,
+GenerateNormals
+LoadTexture,Carrello-Fiat.bmp,
+SetTextureCoordinates, 0 ,0.788, 0.999  
+SetTextureCoordinates, 1 ,0.001 , 0.999  
+SetTextureCoordinates, 2 ,0.788, 0.195
+SetTextureCoordinates, 3 ,0.001 , 0.195	
+SetDecalTransparentColor,255,0,0
+translate,0,0.1,3.55
+
+; Route carrello posteriore
+; ------------------
+CreateMeshBuilder ; Ruota post sin
+cylinder,16, 0.52, 0.53,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.525, 2.3
+CreateMeshBuilder ; Ruota post des
+cylinder,16, 0.53, 0.52,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.525, 2.3
+CreateMeshBuilder ; Assale post
+cylinder,8, 0.13, 0.15,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.525, 2.3
+
+CreateMeshBuilder ; Ruota ant sin
+cylinder,16, 0.52, 0.53,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.525, 4.9
+CreateMeshBuilder ; Ruota ant des
+cylinder,16, 0.53, 0.52,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.525, 4.9
+CreateMeshBuilder ; Assale ant
+cylinder,8, 0.13, 0.15,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.525, 4.9
+
+; Per utilizzo dell'oggetto nella vista esterna del treno in corsa openBVE
+; togliere il commento alla riga seguente
+; TranslateAll,0,0,12.5

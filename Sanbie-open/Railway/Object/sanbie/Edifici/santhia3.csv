@@ -1,0 +1,127 @@
+;frontale
+CreateMeshBuilder,
+AddVertex,-5,0.5,0,
+AddVertex,-5,3.5,0,
+AddVertex,-5,3.5,10,
+AddVertex,-5,0.5,10,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,santhia3a.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+;tetto
+CreateMeshBuilder,
+AddVertex,-5,3.5,0,
+AddVertex, -1.5,4,0,
+AddVertex, -1.5,4,10,
+AddVertex,-5,3.5,10,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,santhia3b.bmp,
+SetTextureCoordinates,0,6,4,
+SetTextureCoordinates,1,0,4,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,6,0,
+
+;frontale tetto
+CreateMeshBuilder,
+AddVertex,-1.5,4,0,
+AddVertex,-1.5,4.3,0,
+AddVertex,-1.5,4.3,10,
+AddVertex,-1.5,4,10,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+Loadtexture, ..\alberi\wall2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+
+
+
+;cartello1
+CreateMeshBuilder,
+AddVertex,-2.8,3.5,9,
+AddVertex,-2.3,3.5,9,
+AddVertex,-2.3,3,9,
+AddVertex,-2.8,3,9,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,santhia3c.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+;cartello 2
+
+
+;cartello3
+CreateMeshBuilder,
+AddVertex,-3.1,3.1,3.95,
+AddVertex,-2.7,3.1,3.95,
+AddVertex,-2.7,2.6,3.95,
+AddVertex,-3.1,2.6,3.95,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,santhia3f.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+
+;pilastri
+CreateMeshBuilder,
+AddVertex,-5,3.9,9,
+AddVertex,-1.5,4.35,9,
+AddVertex,-1.5,0.5,9,
+AddVertex,-5,0.5,9,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,santhia3e.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,-5,3.9,4,
+AddVertex,-1.5,4.25,4,
+AddVertex,-1.5,0.5,4,
+AddVertex,-5,0.5,4,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,santhia3e.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+;marciapiede
+CreateMeshBuilder,
+AddVertex,-3, 0.5, 0,
+AddVertex,-10, 0.5, 0,
+AddVertex,-10, 0.5, 15,
+AddVertex,-3, 0.5, 15,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\edifici\autobloccanti.bmp,
+SetTextureCoordinates,0, 15, 7,
+SetTextureCoordinates,1, 15, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 7,

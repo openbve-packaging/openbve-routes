@@ -1,0 +1,51 @@
+
+;Moved with BVE File Converter
+;Converted from B3D by BVE FILE CONVERTER
+ 
+CreateMeshBuilder,
+AddVertex,-3.2 ,  0.2 ,  0 ,
+AddVertex,-4.2 ,  0.2 ,  0 ,
+AddVertex,-4.2 ,  0.2 ,  25.5 ,
+AddVertex,-3.2 ,  0.2 ,  25.5 ,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, formaedge.bmp,
+SetTextureCoordinates, 0,-1,0,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,0,5,
+SetTextureCoordinates, 3,-1,5,
+
+CreateMeshBuilder,
+AddVertex,-3.2 ,  0.2 ,  0 ,
+AddVertex,-3.2 ,  0.2 ,  25.5 ,
+AddVertex,-3.2 , -0.25 ,  25.5 ,
+AddVertex,-3.2 , -0.25 ,  0 ,
+AddVertex,-9.2 , -0.25 ,  0 ,
+AddVertex,-9.2 ,  0.2 ,  0 ,
+AddFace, 3,0,1,2,
+AddFace, 4,5,0,3,
+GenerateNormals,
+LoadTexture, Formaside.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,4,0,
+SetTextureCoordinates, 2,4,1,
+SetTextureCoordinates, 3,0,1,
+SetTextureCoordinates, 4,2,1,
+SetTextureCoordinates, 5,2,0,
+
+CreateMeshBuilder,
+AddVertex,-4.2 ,  0.2 ,  0 ,
+AddVertex,-9.2 ,  0.2 ,  0 ,
+AddVertex,-9.2 ,  0.2 ,  25.5 ,
+AddVertex,-4.2 ,  0.2 ,  25.5 ,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, Formatop.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+
+
+

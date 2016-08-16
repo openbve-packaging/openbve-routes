@@ -1,0 +1,28 @@
+CreateMeshBuilder,
+AddVertex,-0.10, 5.5, -0.29
+AddVertex, 0.10, 5.5, -0.29
+AddVertex, 0.10,-1.0, -0.29
+AddVertex,-0.10,-1.0, -0.29
+AddFace2,0,1,2,3
+LoadTexture,../../EDtozai/Pole/Tpole.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+GenerateNormals,
+Translate,-0.3
+
+;CreateMeshBuilder,
+;AddVertex,-0.33, 4.5, -0.31
+;AddVertex, 0.35, 4.5, -0.31
+;AddVertex, 0.35, 3.2, -0.31
+;AddVertex,-0.33, 3.2, -0.31
+;AddFace,0,1,2,3
+;LoadTexture,sigstep.bmp
+;SetTextureCoordinates,0,0,0,
+;SetTextureCoordinates,1,1,0,
+;SetTextureCoordinates,2,1,1,
+;SetTextureCoordinates,3,0,1,
+;SetDecalTransparentColor,0,0,0,
+;GenerateNormals,
+;Translate,-0.3

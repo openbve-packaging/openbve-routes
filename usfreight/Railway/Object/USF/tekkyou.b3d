@@ -1,0 +1,478 @@
+;ìSã¥
+
+[MeshBuilder]
+Vertex -1.52, -0.144, 2.8
+Vertex -1.52, -0.144, 19.6
+Vertex 1.52, -0.144, 19.6
+Vertex 1.52, -0.144, 2.8
+Face 0, 1, 2, 3
+[Texture]
+Load BridgeRail.bmp
+Transparent 0,0,0
+Coordinates 0, 0, 6
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 6
+
+[MeshBuilder]
+Vertex -1.22, -0.144, 0
+Vertex -1.22, -0.144, 2.8
+Vertex 1.22, -0.144, 2.8
+Vertex 1.22, -0.144, 0
+Face 0, 1, 2, 3
+[Texture]
+Load Tie_w.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[MeshBuilder]
+Vertex -1.22, -0.144, 19.6
+Vertex -1.22, -0.144, 25.2
+Vertex 1.22, -0.144, 25.2
+Vertex 1.22, -0.144, 19.6
+Face 0, 1, 2, 3
+[Texture]
+Load Tie_w.bmp
+Coordinates 0, 0, 2
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 2
+
+[MeshBuilder]
+Vertex -1.9, -0.3, 0
+Vertex -1.9, -0.3, 2.8
+Vertex -0.95, -0.144, 2.8
+Vertex -0.95, -0.144, 0
+Face 0, 1, 2, 3
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 0.12
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.12
+[MeshBuilder]
+Vertex -1.9, -0.3, 19.6
+Vertex -1.9, -0.3, 25.2
+Vertex -0.95, -0.144, 25.2
+Vertex -0.95, -0.144, 19.6
+Face 0, 1, 2, 3
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 0.24
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.24
+
+[MeshBuilder]
+Vertex 1.9, -0.3, 0
+Vertex 1.9, -0.3, 2.8
+Vertex 0.95, -0.144, 2.8
+Vertex 0.95, -0.144, 0
+Face 1, 0, 3, 2
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 0.12
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.12
+[MeshBuilder]
+Vertex 1.9, -0.3, 19.6
+Vertex 1.9, -0.3, 25.2
+Vertex 0.95, -0.144, 25.2
+Vertex 0.95, -0.144, 19.6
+Face 1, 0, 3, 2
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 0.24
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0.24
+
+[MeshBuilder]
+Vertex -0.746,0,0,
+Vertex -0.746,0,25.2,
+Vertex -0.686,0,25.2,
+Vertex -0.686,0,0,
+Face 0,1,2,3,
+color 180,180,180,
+
+
+[MeshBuilder]
+Vertex -0.716,0,0,
+Vertex -0.716,0,25.2,
+Vertex -0.716,-0.144,25.2,
+Vertex -0.716,-0.144,0,
+Face2 0,1,2,3,
+color 90,60,40,
+
+
+[MeshBuilder]
+Vertex 0.686,0,0,
+Vertex 0.686,0,25.2,
+Vertex 0.746,0,25.2,
+Vertex 0.746,0,0,
+Face 0,1,2,3,
+color 180,180,180,
+
+
+[MeshBuilder]
+Vertex 0.716,-0.144,0,
+Vertex 0.716,-0.144,25.2,
+Vertex 0.716,0,25.2,
+Vertex 0.716,0,0,
+Face2 0,1,2,3,
+color 90,60,40,
+
+;ìSçúïîï™(ê¸òHâ∫)
+[MeshBuilder]
+Vertex 1.4, -0.5, 19.5
+Vertex 1.0, -0.5, 19.5
+Vertex 1.0, -0.5, 3
+Vertex 1.4, -0.5, 3
+Face 1,0,3,2
+[Texture]
+Load iron.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0, 0, 0
+[MeshBuilder]
+Vertex -1.4, -0.5, 19.5
+Vertex -1.0, -0.5, 19.5
+Vertex -1.0, -0.5, 3
+Vertex -1.4, -0.5, 3
+Face 0,1,2,3
+[Texture]
+Load iron.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+
+
+[MeshBuilder]
+Vertex 1.9, -0.3, 0
+Vertex 3, -0.3, 0
+Vertex 6, -3.3, 0
+Vertex 1.9, -0.3, 2.8
+Vertex 3, -0.3, 2.8
+Vertex 6, -3.3, 2.8
+Face 1, 0, 3, 4
+Face 2, 1, 4, 5
+
+[Texture]
+Load emb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.75
+Coordinates 2, 0, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1, 0.75
+Coordinates 5, 1, 0
+
+[MeshBuilder]
+Vertex -1.9, -0.3, 0
+Vertex -3, -0.3, 0
+Vertex -6, -3.3, 0
+Vertex -1.9, -0.3, 2.8
+Vertex -3, -0.3, 2.8
+Vertex -6, -3.3, 2.8
+Face 0, 1, 4, 3
+Face 1, 2, 5, 4
+
+[Texture]
+Load emb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.75
+Coordinates 2, 0, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1, 0.75
+Coordinates 5, 1, 0
+
+[MeshBuilder]
+Vertex 1.9, -0.3, 19.6
+Vertex 3, -0.3, 19.6
+Vertex 6, -3.3, 19.6
+Vertex 1.9, -0.3, 25.2
+Vertex 3, -0.3, 25.2
+Vertex 6, -3.3, 25.2
+Face 1, 0, 3, 4
+Face 2, 1, 4, 5
+
+[Texture]
+Load emb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.75
+Coordinates 2, 0, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1, 0.75
+Coordinates 5, 1, 0
+
+[MeshBuilder]
+Vertex -1.9, -0.3, 19.6
+Vertex -3, -0.3, 19.6
+Vertex -6, -3.3, 19.6
+Vertex -1.9, -0.3, 25.2
+Vertex -3, -0.3, 25.2
+Vertex -6, -3.3, 25.2
+Face 0, 1, 4, 3
+Face 1, 2, 5, 4
+
+[Texture]
+Load emb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.75
+Coordinates 2, 0, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1, 0.75
+Coordinates 5, 1, 0
+
+[MeshBuilder]
+Vertex -3, -0.3, 19.6
+Vertex 3, -0.3, 19.6
+Vertex 9, -6.3, 19.6
+Vertex -9, -6.3, 19.6
+face 0,1,2,3
+[Texture]
+Load  G_001.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.7, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;ì‡ë§ÉåÅ[Éãïîï™
+[MeshBuilder]
+Vertex 0.334,0,+2.8
+Vertex 0.334,0,+19.6
+Vertex 0.402,0,+19.6
+Vertex 0.402,0,+2.8
+Vertex 0.334,-0.144,+2.8
+Vertex 0.334,-0.144,+19.6
+Face 0,1,2,3
+Face 1,0,4,5
+Color 102,66,36
+[MeshBuilder]
+Vertex 0.334,0,+19.6
+Vertex 0.184,0,+20.6
+Vertex 0.252,0,+20.6
+Vertex 0.402,0,+19.6
+Vertex 0.334,-0.144,+19.6
+Vertex 0.184,-0.144,+20.6
+Face 0,1,2,3
+Face 1,0,4,5
+Color 102,66,36
+[MeshBuilder]
+Vertex 0.334,0,+2.8
+Vertex 0.184,0,1.8
+Vertex 0.252,0,1.8
+Vertex 0.402,0,2.8
+Vertex 0.334,-0.134,+2.8
+Vertex 0.184,-0.134,1.8
+Vertex 0.252,-0.134,1.8
+Vertex 0.402,-0.134,2.8
+Face 3,2,1,0
+Face 1,0,4,5
+Face 7,6,5,4
+Color 102,66,36
+[MeshBuilder]
+Vertex -0.402,0,+2.8
+Vertex -0.402,0,+19.6
+Vertex -0.334,0,+19.6
+Vertex -0.334,0,+2.8
+Vertex -0.334,-0.144,+2.8
+Vertex -0.334,-0.144,+19.6
+Face 0, 1, 2, 3
+Face 3,2,5,4
+Color 102,66,36
+[MeshBuilder]
+Vertex -0.252,0,1.8
+Vertex -0.402,0,2.8
+Vertex -0.334,0,2.8
+Vertex -0.184,0,1.8
+Vertex -0.334,-0.134,2.8
+Vertex -0.184,-0.134,1.8
+Vertex -0.252,-0.134,1.8
+Vertex -0.402,-0.134,2.8
+Face 0, 1, 2, 3
+Face 2,3,5,4
+Face 4,5,6,7
+Color 102,66,36
+[MeshBuilder]
+Vertex -0.402,0,19.6
+Vertex -0.252,0,20.6
+Vertex -0.184,0,20.6
+Vertex -0.334,0,19.6
+Vertex -0.184,-0.144,20.6
+Vertex -0.334,-0.144,19.6
+Face 0, 1, 2, 3
+Face 3,2,4,5
+Color 102,66,36
+
+[MeshBuilder]  ;ìnÇËî¬
+Vertex -0.202,0,19.6
+Vertex 0.202,0,+19.6
+Vertex 0.202,0,+1.8
+Vertex -0.202,0,+1.8
+Face 0, 1, 2, 3
+
+[Texture]
+Load watari.bmp
+Coordinates 0, 0,0
+Coordinates 1, 0.2, 0
+Coordinates 2, 0.2,1
+Coordinates 3, 0, 1
+
+[MeshBuilder];;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Vertex -2.12, -0.244, 2.8
+Vertex -2.12, -0.244, 19.6
+Vertex -1.52, -0.244, 19.6
+Vertex -1.52, -0.244, 2.8
+Face 0, 1, 2, 3
+[Texture]
+Load watari.bmp
+Transparent 0,0,0
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+[MeshBuilder]
+Vertex -2.12, 0.8, 2.8
+Vertex -2.07, 0.8, 2.8
+Vertex -2.07, -0.244, 2.8
+Vertex -2.12, -0.244, 2.8
+Vertex -2.07, 0.8, 2.85
+Vertex -2.07, -0.244, 2.85
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 4.3
+Vertex -2.07, 0.8, 4.3
+Vertex -2.07, -0.244, 4.3
+Vertex -2.12, -0.244, 4.3
+Vertex -2.07, 0.8, 4.35
+Vertex -2.07, -0.244, 4.35
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 5.8
+Vertex -2.07, 0.8, 5.8
+Vertex -2.07, -0.244, 5.8
+Vertex -2.12, -0.244, 5.8
+Vertex -2.07, 0.8, 5.85
+Vertex -2.07, -0.244, 5.85
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 7.3
+Vertex -2.07, 0.8, 7.3
+Vertex -2.07, -0.244, 7.3
+Vertex -2.12, -0.244, 7.3
+Vertex -2.07, 0.8, 7.35
+Vertex -2.07, -0.244, 7.35
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 8.8
+Vertex -2.07, 0.8, 8.8
+Vertex -2.07, -0.244, 8.8
+Vertex -2.12, -0.244, 8.8
+Vertex -2.07, 0.8, 8.85
+Vertex -2.07, -0.244, 8.85
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 10.3
+Vertex -2.07, 0.8, 10.3
+Vertex -2.07, -0.244, 10.3
+Vertex -2.12, -0.244, 10.3
+Vertex -2.07, 0.8, 10.35
+Vertex -2.07, -0.244, 10.35
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 11.8
+Vertex -2.07, 0.8, 11.8
+Vertex -2.07, -0.244, 11.8
+Vertex -2.12, -0.244, 11.8
+Vertex -2.07, 0.8, 11.85
+Vertex -2.07, -0.244, 11.85
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 13.3
+Vertex -2.07, 0.8, 13.3
+Vertex -2.07, -0.244, 13.3
+Vertex -2.12, -0.244, 13.3
+Vertex -2.07, 0.8, 13.35
+Vertex -2.07, -0.244, 13.35
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 14.8
+Vertex -2.07, 0.8, 14.8
+Vertex -2.07, -0.244, 14.8
+Vertex -2.12, -0.244, 14.8
+Vertex -2.07, 0.8, 14.85
+Vertex -2.07, -0.244, 14.85
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 16.3
+Vertex -2.07, 0.8, 16.3
+Vertex -2.07, -0.244, 16.3
+Vertex -2.12, -0.244, 16.3
+Vertex -2.07, 0.8, 16.35
+Vertex -2.07, -0.244, 16.35
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 17.8
+Vertex -2.07, 0.8, 17.8
+Vertex -2.07, -0.244, 17.8
+Vertex -2.12, -0.244, 17.8
+Vertex -2.07, 0.8, 17.85
+Vertex -2.07, -0.244, 17.85
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 19.3
+Vertex -2.07, 0.8, 19.3
+Vertex -2.07, -0.244, 19.3
+Vertex -2.12, -0.244, 19.3
+Vertex -2.07, 0.8, 19.35
+Vertex -2.07, -0.244, 19.35
+Face 0,1,2,3
+Face 1,4,5,2
+Color 13,51,17,
+[MeshBuilder]
+Vertex -2.12, 0.8, 19.3
+Vertex -2.07, 0.8, 19.3
+Vertex -2.07, 0.8, 2.8
+Vertex -2.12, 0.8, 2.8
+Vertex -2.07, 0.76, 19.3
+Vertex -2.07, 0.76, 2.8
+Face 0,1,2,3
+Face 2,1,5
+Color 13,51,17
+[MeshBuilder]
+Vertex -2.07, 0.4, 2.8
+Vertex -2.07, 0.4, 19.3
+Vertex -2.07, 0.34, 19.3
+Vertex -2.07, 0.34, 2.8
+Face 0,1,2,3
+Color 13,51,17,
+

@@ -1,0 +1,14 @@
+;Bajcsy kihúzó, alagút vége
+;Készítette: http://www.bvemetro.hu/
+
+[MeshBuilder]
+vertex -5.0,-0.5,0
+vertex -5.0, 5.0,0
+vertex  5.0, 5.0,0
+vertex  5.0,-0.5,0
+face 0,1,2,3
+Load ..\..\alagut\melyteto.bmp
+coordinates 0,1,0
+coordinates 1,1,1
+coordinates 2,0,1
+coordinates 3,0,0

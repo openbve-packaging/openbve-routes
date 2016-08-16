@@ -1,0 +1,38 @@
+[MeshBuilder]
+Vertex 12,5.6,-9.7
+Vertex 12,4.5,-9.7
+Vertex -12,4.5,8.6
+Vertex -12,5.6,8.6
+Face 0,1,2,3
+
+[Texture]
+Load wc-cables.bmp
+Coordinates 0,20,0
+Coordinates 1,20,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[MeshBuilder]
+Vertex 12,4.5,-9.7
+Vertex 12,4.5,-9
+Vertex -12,4.5,9.3
+Vertex -12,4.5,8.6
+Face 0,1,2,3
+Color 0,0,0
+
+; DAMN this is a difficult object
+; (district line platforms over whitechapel btw)
+
+[Meshbuilder]
+Vertex 12,4.5,-9
+Vertex 12,4,-9
+Vertex -12,4,9.3
+Vertex -12,4.5,9.3
+Vertex 12,4,-9
+Vertex 12,4,-5
+Vertex -12,4,13.3
+Vertex -12,4,9.3
+Face 0,1,2,3
+Face2 4,5,6,7
+Color 0,0,0

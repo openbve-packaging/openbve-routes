@@ -1,0 +1,87 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Transizione da terreno in piano a
+; terreno in salita - per curva a sinistra
+; monte a sinistra - valle a destra
+
+[MeshBuilder] ;  ; 2o tratto - monte a sinistra
+vertex -8.8 ,-0.5 ,12.3 ;  alto inzio
+vertex -5.8 , 2.0 ,24.8 ; alto fine
+vertex -4.0 , 1.5 ,24.8 ; basso fine *
+vertex -4.0 ,-0.2 ,12.3  ;basso inizio *
+vertex -2.7 , 0.1 ,24.4 ; basso max fine
+vertex -2.7 ,-0.1 ,12.3  ;basso max inizio
+vertex -80,  30   ,20 ;alto max fine 
+vertex -80,  30   ,12  ; alto max inizio
+vertex -1.2 ,-0.22 ,24.0 ; basso max fine
+vertex -0.5 ,-0.22 ,12.3  ;basso max inizio
+Face 0,1,2,3
+Face 3,2,4,5
+Face 7,6,1,0
+Face 5,4,8,9
+translate 0,-0.3,0
+[texture]
+load Grass2.bmp
+coordinates 0, 0,   0
+coordinates 1, 0.5, 0
+coordinates 2, 0.5, 0.5
+coordinates 3, 0,   0.5
+coordinates 4, 0.5, 1
+coordinates 5, 0,   1
+coordinates 6, 0.5, 10
+coordinates 7, 0,   10
+coordinates 8, 1, -0.001
+coordinates 9, 0.5,-0.001
+
+
+[MeshBuilder] ; Alberello sulla destra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,30
+Translate 2, -1.5 ,0
+[texture]
+load Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+
+;Cespuglio lungo 10 metri a destra
+[MeshBuilder]
+Vertex 0.5, 4.0, 0
+Vertex 0.5, 4.0,  10
+Vertex 0,   0  ,  10
+Vertex 0,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,-6
+Translate 3.7,-2.5,8
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+;Cespuglio lungo 10 metri a sinistra
+[MeshBuilder]
+Vertex 0.0, 4.0, 0
+Vertex 0.0, 4.0,  10
+Vertex 0.5,   0  ,  10
+Vertex 0.5,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,55
+Translate -13,-0.5,-2
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0

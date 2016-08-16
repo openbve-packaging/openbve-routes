@@ -1,0 +1,18 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+[meshbuilder] ; Gruppo di 3 ragazzi
+Vertex 0.0 , 2.4, 0
+Vertex 1.6, 2.4, 0
+Vertex 1.6, 0, 0
+Vertex 0.0, 0, 0
+Face2 0,1,2,3
+[texture]
+Load Fg16-Ragazzi.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+Rotate 0,1,0,60

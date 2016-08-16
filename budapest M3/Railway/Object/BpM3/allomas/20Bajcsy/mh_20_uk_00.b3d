@@ -1,0 +1,344 @@
+;Újpest központ megállóhely peron
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;peron széle felül
+[MeshBuilder]
+Vertex 01.45, 00.90, -01.00
+Vertex 01.45, 00.90, 24.00
+Vertex 01.45, 01.10, 24.00
+Vertex 01.45, 01.10, -01.00
+Vertex -05.85, 00.90, -01.00
+Vertex -05.85, 00.90, 24.00
+Vertex -05.85, 01.10, 24.00
+Vertex -05.85, 01.10, -01.00
+Face 0,1,2,3
+Face 7,6,5,4
+color 48,48,48
+
+;peron széle alul
+[MeshBuilder]
+Vertex 01.60, -00.20, -01.00
+Vertex 01.60, -00.20, 24.00
+Vertex 01.60, 00.90, 24.00
+Vertex 01.60, 00.90, -01.00
+Vertex -06.00, -00.20, -01.00
+Vertex -06.00, -00.20, 24.00
+Vertex -06.00, 00.90, 24.00
+Vertex -06.00, 00.90, -01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 25.00, 1.00
+Coordinates 2, 25.00, 0.15
+Coordinates 3, 00.00, 0.15
+Coordinates 4, 00.00, 1.00
+Coordinates 5, 25.00, 1.00
+Coordinates 6, 25.00, 0.15
+Coordinates 7, 00.00, 0.15
+
+;peron járófelület
+[MeshBuilder]
+Vertex 01.45, 01.10, -01.00
+Vertex 01.45, 01.10, 24.00
+Vertex 02.25, 01.10, 24.00
+Vertex 02.25, 01.10, -01.00
+Vertex -05.85, 01.10, -01.00
+Vertex -05.85, 01.10, 24.00
+Vertex -06.65, 01.10, 24.00
+Vertex -06.65, 01.10, -01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peron_sav.bmp
+Coordinates 0, 24.00, 600.00
+Coordinates 1, 24.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 600.00
+Coordinates 4, 24.00, 600.00
+Coordinates 5, 24.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 600.00
+
+[MeshBuilder]
+Vertex 02.25, 01.10, -01.00
+Vertex 02.25, 01.10, 24.00
+Vertex 14.80, 01.10, 24.00
+Vertex 14.80, 01.10, -01.00
+Vertex -06.65, 01.10, -01.50
+Vertex -06.65, 01.10, 24.00
+Vertex -19.20, 01.10, 24.00
+Vertex -19.20, 01.10, -01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load mh_20_uk_peronteto_1.bmp
+Coordinates 0, 24.00, 50.00
+Coordinates 1, 24.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 50.00
+Coordinates 4, 24.00, 50.00
+Coordinates 5, 24.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 50.00
+
+;--------------------------------------------------
+
+;Födém
+
+[MeshBuilder]
+;jobb peron
+;jobb szélsõ íves rész
+Vertex 05.90, 03.50, -01.00
+Vertex 05.83, 03.75, -01.00
+Vertex 05.65, 03.93, -01.00
+Vertex 05.40, 04.00, -01.00
+Vertex 05.10, 04.00, -01.00
+Vertex 05.90, 03.50, 24.00
+Vertex 05.83, 03.75, 24.00
+Vertex 05.65, 03.93, 24.00
+Vertex 05.40, 04.00, 24.00
+Vertex 05.10, 04.00, 24.00
+;világítási rész
+Vertex 02.60, 04.00, -01.00
+Vertex 02.60, 04.00, 24.00
+Vertex 05.10, 04.00, 24.00
+Vertex 05.10, 04.00, -01.00
+Vertex 01.80, 03.50, -01.00
+;bal szélsõ íves rész
+Vertex 01.87, 03.75, -01.00
+Vertex 02.05, 03.93, -01.00
+Vertex 02.30, 04.00, -01.00
+Vertex 02.60, 04.00, -01.00
+Vertex 01.80, 03.50, 24.00
+Vertex 01.87, 03.75, 24.00
+Vertex 02.05, 03.93, 24.00
+Vertex 02.30, 04.00, 24.00
+Vertex 02.60, 04.00, 24.00
+;sáv feletti rész
+Vertex 01.45, 03.50, -01.00
+Vertex 01.45, 03.50, 24.00
+Vertex 01.80, 03.50, 24.00
+Vertex 01.80, 03.50, -01.00
+;sáv oldalsó rész
+Vertex 01.45, 03.50, -01.00
+Vertex 01.45, 03.50, 24.00
+Vertex 01.45, 04.60, 24.00
+Vertex 01.45, 04.60, -01.00
+;bal peron
+;jobb szélsõ íves rész
+Vertex -10.30, 03.50, -01.00
+Vertex -10.23, 03.75, -01.00
+Vertex -10.05, 03.93, -01.00
+Vertex -09.80, 04.00, -01.00
+Vertex -09.50, 04.00, -01.00
+Vertex -10.30, 03.50, 24.00
+Vertex -10.23, 03.75, 24.00
+Vertex -10.05, 03.93, 24.00
+Vertex -09.80, 04.00, 24.00
+Vertex -09.50, 04.00, 24.00
+;világítási rész
+Vertex -07.00, 04.00, -01.00
+Vertex -07.00, 04.00, 24.00
+Vertex -09.50, 04.00, 24.00
+Vertex -09.50, 04.00, -01.00
+;bal szélsõ íves rész
+Vertex -06.20, 03.50, -01.00
+Vertex -06.27, 03.75, -01.00
+Vertex -06.45, 03.93, -01.00
+Vertex -06.70, 04.00, -01.00
+Vertex -07.00, 04.00, -01.00
+Vertex -06.20, 03.50, 24.00
+Vertex -06.27, 03.75, 24.00
+Vertex -06.45, 03.93, 24.00
+Vertex -06.70, 04.00, 24.00
+Vertex -07.00, 04.00, 24.00
+;sáv feletti rész
+Vertex -05.85, 03.50, -01.00
+Vertex -05.85, 03.50, 24.00
+Vertex -06.20, 03.50, 24.00
+Vertex -06.20, 03.50, -01.00
+;sáv oldalsó rész
+Vertex -05.85, 03.50, -01.00
+Vertex -05.85, 03.50, 24.00
+Vertex -05.85, 04.60, 24.00
+Vertex -05.85, 04.60, -01.00
+Face 5,6,1,0
+Face 6,7,2,1
+Face 7,8,3,2
+Face 8,9,4,3
+Face 13,12,11,10
+Face 14,15,20,19
+Face 15,16,21,20
+Face 16,17,22,21
+Face 17,18,23,22
+Face 27,26,25,24
+Face 28,29,30,31
+face 32,33,38,37
+face 33,34,39,38
+face 34,35,40,39
+face 35,36,41,40
+Face 42,43,44,45
+face 51,52,47,46
+face 52,53,48,47
+face 53,54,49,48
+face 54,55,50,49
+Face 56,57,58,59
+Face 63,62,61,60
+[Texture]
+Load mh_20_uk_fodem_01.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 00.25, 00.00
+Coordinates 2, 00.50, 00.00
+Coordinates 3, 00.75, 00.00
+Coordinates 4, 01.00, 00.00
+Coordinates 5, 00.00, 50.00
+Coordinates 6, 00.25, 50.00
+Coordinates 7, 00.50, 50.00
+Coordinates 8, 00.75, 50.00
+Coordinates 9, 01.00, 50.00
+Coordinates 10, 00.00, 00.00
+Coordinates 11, 00.00, 50.00
+Coordinates 12, 01.00, 50.00
+Coordinates 13, 01.00, 00.00
+Coordinates 14, 00.00, 00.00
+Coordinates 15, 00.25, 00.00
+Coordinates 16, 00.50, 00.00
+Coordinates 17, 00.75, 00.00
+Coordinates 18, 01.00, 00.00
+Coordinates 19, 00.00, 50.00
+Coordinates 20, 00.25, 50.00
+Coordinates 21, 00.50, 50.00
+Coordinates 22, 00.75, 50.00
+Coordinates 23, 01.00, 50.00
+Coordinates 24, 00.00, 00.00
+Coordinates 25, 00.00, 50.00
+Coordinates 26, 01.00, 50.00
+Coordinates 27, 01.00, 00.00
+Coordinates 28, 00.00, 00.00
+Coordinates 29, 00.00, 50.00
+Coordinates 30, 01.00, 50.00
+Coordinates 31, 01.00, 00.00
+Coordinates 32, 00.00, 00.00
+Coordinates 33, 00.25, 00.00
+Coordinates 34, 00.50, 00.00
+Coordinates 35, 00.75, 00.00
+Coordinates 36, 01.00, 00.00
+Coordinates 37, 00.00, 50.00
+Coordinates 38, 00.25, 50.00
+Coordinates 39, 00.50, 50.00
+Coordinates 40, 00.75, 50.00
+Coordinates 41, 01.00, 50.00
+Coordinates 42, 00.00, 00.00
+Coordinates 43, 00.00, 50.00
+Coordinates 44, 01.00, 50.00
+Coordinates 45, 01.00, 00.00
+Coordinates 46, 00.00, 00.00
+Coordinates 47, 00.25, 00.00
+Coordinates 48, 00.50, 00.00
+Coordinates 49, 00.75, 00.00
+Coordinates 50, 01.00, 00.00
+Coordinates 51, 00.00, 50.00
+Coordinates 52, 00.25, 50.00
+Coordinates 53, 00.50, 50.00
+Coordinates 54, 00.75, 50.00
+Coordinates 55, 01.00, 50.00
+Coordinates 56, 00.00, 00.00
+Coordinates 57, 00.00, 50.00
+Coordinates 58, 01.00, 50.00
+Coordinates 59, 01.00, 00.00
+Coordinates 60, 00.00, 00.00
+Coordinates 61, 00.00, 50.00
+Coordinates 62, 01.00, 50.00
+Coordinates 63, 01.00, 00.00
+
+;------------------------------
+
+;Födém
+
+[MeshBuilder]
+Vertex 01.45, 04.00, -01.00
+Vertex 01.45, 04.00, 24.00
+Vertex -05.85, 04.00, 24.00
+Vertex -05.85, 04.00, -01.00
+Face 0,1,2,3
+[Texture]
+Load mh_20_uk_fodem_02.bmp
+Coordinates 0, 01.00, 08.00
+Coordinates 1, 01.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 08.00
+
+;--------------------------------------------------
+
+;világítótestek
+
+[MeshBuilder]
+Vertex 02.80, 03.97, -01.00
+Vertex 02.80, 03.97, 24.00
+Vertex 04.90, 03.97, 24.00
+Vertex 04.90, 03.97, -01.00
+Vertex -07.20, 03.97, -01.00
+Vertex -07.20, 03.97, 24.00
+Vertex -09.30, 03.97, 24.00
+Vertex -09.30, 03.97, -01.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_20_uk_vilagitas_01.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 00.00, 10.00
+Coordinates 2, 01.00, 10.00
+Coordinates 3, 01.00, 00.00
+Coordinates 4, 00.00, 00.00
+Coordinates 5, 00.00, 10.00
+Coordinates 6, 01.00, 10.00
+Coordinates 7, 01.00, 00.00
+transparent 0,0,255
+
+[MeshBuilder]
+vertex 01.53, 03.48, -01.00
+vertex 01.53, 03.50, -01.00
+vertex 01.53, 03.50, 24.00
+vertex 01.53, 03.48, 24.00
+vertex 01.53, 03.48, -01.00
+vertex 01.72, 03.48, -01.00
+vertex 01.72, 03.48, 24.00
+vertex 01.53, 03.48, 24.00
+vertex -05.93, 03.48, -01.00
+vertex -05.93, 03.50, -01.00
+vertex -05.93, 03.50, 24.00
+vertex -05.93, 03.48, 24.00
+vertex -05.93, 03.48, -01.00
+vertex -06.12, 03.48, -01.00
+vertex -06.12, 03.48, 24.00
+vertex -05.93, 03.48, 24.00
+Face 3,2,1,0
+Face 4,5,6,7
+Face 8,9,10,11
+Face 15,14,13,12
+[Texture]
+Load mh_20_uk_vilagitas_02.bmp
+Coordinates 0, 20.00, 01.00
+Coordinates 1, 20.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 20.00, 01.00
+Coordinates 5, 20.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 01.00
+Coordinates 8, 20.00, 01.00
+Coordinates 9, 20.00, 00.00
+Coordinates 10, 00.00, 00.00
+Coordinates 11, 00.00, 01.00
+Coordinates 12, 20.00, 01.00
+Coordinates 13, 20.00, 00.00
+Coordinates 14, 00.00, 00.00
+Coordinates 15, 00.00, 01.00
+
+;--------------------------------------------------

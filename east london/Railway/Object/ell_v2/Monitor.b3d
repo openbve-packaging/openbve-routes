@@ -1,0 +1,71 @@
+[MeshBuilder] ; Front grey panel
+Vertex 0.25,1.5,-0.25
+Vertex 0.25,0,-0.25
+Vertex -0.25,0,-0.25
+Vertex -0.25,1.5,-0.25
+Face 0,1,2,3
+Color 150,150,150
+
+[MeshBuilder] ; Box
+Vertex 0.25,2,-0.25
+Vertex 0.25,0,-0.25
+Vertex -0.25,0,-0.25
+Vertex -0.25,2,-0.25
+
+Vertex 0.25,2,0.25
+Vertex 0.25,0,0.25
+Vertex -0.25,0,0.25
+Vertex -0.25,2,0.25
+
+Face 4,0,3,7
+Face 4,5,1,0
+Face 3,2,6,7
+Face 7,6,5,4
+
+Color 150,150,150
+
+[Meshbuilder] ; Monitor screen
+Vertex 0.25,2,-0.35
+Vertex 0.25,1.5,-0.35
+Vertex -0.25,1.5,-0.35
+Vertex -0.25,2,-0.35
+Face 0,1,2,3
+[Texture]
+load train-moni.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; Monitor sun-screen
+Vertex 0.25,2,-0.35
+Vertex 0.25,1.5,-0.35
+Vertex -0.25,1.5,-0.35
+Vertex -0.25,2,-0.35
+
+Vertex 0.25,2,-0.45
+Vertex -0.25,2,-0.45
+
+Face2 0,4,5,3
+Face2 0,1,4
+Face2 3,2,5
+
+Color 150,150,150
+
+[Meshbuilder] ; Monitor screen projection
+Vertex 0.25,2,-0.35
+Vertex 0.25,1.5,-0.35
+Vertex -0.25,1.5,-0.35
+Vertex -0.25,2,-0.35
+
+Vertex 0.25,2,-0.25
+Vertex 0.25,1.5,-0.25
+Vertex -0.25,1.5,-0.25
+Vertex -0.25,2,-0.25
+
+Face 4,5,1,0
+Face 4,0,3,7
+Face 3,2,6,7
+Face 1,5,6,2
+
+Color 150,150,150

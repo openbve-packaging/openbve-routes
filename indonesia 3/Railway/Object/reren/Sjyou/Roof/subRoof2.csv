@@ -1,0 +1,64 @@
+CreateMeshBuilder,
+AddVertex, 4.0, 5.05, 0,
+AddVertex, 4.6, 4.90, 0,
+AddVertex, 5.2, 4.40, 0,
+AddVertex, 5.5, 3.80, 0,
+AddVertex, 5.5, 3.80, 25,
+AddVertex, 5.2, 4.40, 25
+AddVertex, 4.6, 4.90, 25,
+AddVertex, 4.0, 5.05, 25,
+AddFace,0,1,6,7,
+AddFace,1,2,5,6,
+AddFace,2,3,4,5,
+LoadTexture,Ugroof1.bmp
+SetTextureCoordinates,0, 0.0,0
+SetTextureCoordinates,1, 0.33,0
+SetTextureCoordinates,2, 0.67,0
+SetTextureCoordinates,3, 1.00,0
+SetTextureCoordinates,4, 1.00,1
+SetTextureCoordinates,5, 0.67,1
+SetTextureCoordinates,6, 0.33,1
+SetTextureCoordinates,7, 0.0,1
+GenerateNormals,
+Translate,-0.4,1.69
+Setcolor,200,200,200
+
+CreateMeshBuilder
+AddVertex,-4.0, 5.05, 0
+AddVertex,-4.6, 4.90, 0
+AddVertex,-5.2, 4.40, 0
+AddVertex,-5.5, 3.80, 0
+AddVertex,-5.5, 3.80, 25
+AddVertex,-5.2, 4.40, 25
+AddVertex,-4.6, 4.90, 25
+AddVertex,-4.0, 5.05, 25
+AddFace,7,6,1,0
+AddFace,6,5,2,1
+AddFace,5,4,3,2
+LoadTexture,Ugroof1.bmp
+SetTextureCoordinates,0, 0.0,0
+SetTextureCoordinates,1, 0.33,0
+SetTextureCoordinates,2, 0.67,0
+SetTextureCoordinates,3, 1.00,0
+SetTextureCoordinates,4, 1.00,1
+SetTextureCoordinates,5, 0.67,1
+SetTextureCoordinates,6, 0.33,1
+SetTextureCoordinates,7, 0.0,1
+GenerateNormals,
+Translate,4.2,1.69
+Setcolor,200,200,200
+
+CreateMeshBuilder,
+AddVertex,-4.0, 5.05, 25,
+AddVertex,-0.6, 5.05, 25,
+AddVertex,-0.6, 5.05, 0,
+AddVertex,-4.0, 5.05, 0,
+AddFace,3,2,1,0
+LoadTexture,Ugroof.bmp
+SetTextureCoordinates,0, 0,1
+SetTextureCoordinates,1, 0,1
+SetTextureCoordinates,2, 5,0
+SetTextureCoordinates,3, 5,0
+GenerateNormals,
+Translate,4.2,1.69
+Setcolor,200,200,200

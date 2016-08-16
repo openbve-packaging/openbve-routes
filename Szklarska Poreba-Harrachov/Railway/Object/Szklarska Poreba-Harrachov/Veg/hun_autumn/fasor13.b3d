@@ -1,0 +1,615 @@
+;-----------------------------------
+;-------------Fasor-----------------
+;-----------------------------------
+
+;közepe
+
+;fa1
+
+[Meshbuilder]
+vertex  4,0, 2.5
+vertex -4,0, 2.5
+vertex -4,16,2.5
+vertex  4,16,2.5
+face2 0,1,2,3
+
+load brich15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  7
+vertex 0,0, -2
+vertex 0,16,-2
+vertex 0,16, 7
+face2 0,1,2,3
+
+load brich15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa2
+
+[Meshbuilder]
+vertex  4,0, 2.5
+vertex -4,0, 2.5
+vertex -4,15,2.5
+vertex  4,15,2.5
+face2 0,1,2,3
+translate 0,0,8,
+
+load brich15_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  7
+vertex 0,0, -2
+vertex 0,15,-2
+vertex 0,15, 7
+face2 0,1,2,3
+translate 0,0,8,
+
+load brich15_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa3
+
+[Meshbuilder]
+vertex  4,0, 2.5
+vertex -4,0, 2.5
+vertex -4,16,2.5
+vertex  4,16,2.5
+face2 0,1,2,3
+translate 0,0,16,
+
+load brich15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  7
+vertex 0,0, -2
+vertex 0,16,-2
+vertex 0,16, 7
+face2 0,1,2,3
+translate 0,0,16,
+
+load brich15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa4
+
+[Meshbuilder]
+vertex  4,0, 2.5
+vertex -4,0, 2.5
+vertex -4,16,2.5
+vertex  4,16,2.5
+face2 0,1,2,3
+translate 0,0,24,
+
+load brich15_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  7
+vertex 0,0, -2
+vertex 0,15,-2
+vertex 0,15, 7
+face2 0,1,2,3
+translate 0,0,24,
+
+load brich15_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa5
+
+[Meshbuilder]
+vertex  4,0, 2.5
+vertex -4,0, 2.5
+vertex -4,15,2.5
+vertex  4,15,2.5
+face2 0,1,2,3
+translate 0,0,32,
+
+load brich15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  7
+vertex 0,0, -2
+vertex 0,16,-2
+vertex 0,16, 7
+face2 0,1,2,3
+translate 0,0,32,
+
+load brich15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;jobb oldal
+
+;fa1
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate 5,0,-5,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate 5,0,-5,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa2
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate 3,0,0,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate 3,0,0,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa3
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate 5,0,5,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate 5,0,5,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa4
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate 3,0,10,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate 3,0,10,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa5
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate 5,0,15,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate 5,0,15,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa6
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate 3,0,20,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate 3,0,20,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa7
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate 5,0,25,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate 5,0,25,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;bal oldal
+
+;fa1
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate -5,0,-5,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate -5,0,-5,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa2
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate -3,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate -3,0,0,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa3
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate -5,0,5,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate -5,0,5,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa4
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate -3,0,10,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate -3,0,10,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa5
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate -5,0,15,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate -5,0,15,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa6
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate -3,0,20,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate -3,0,20,
+
+load bricha.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;fa7
+
+[Meshbuilder]
+vertex  4,0, 8
+vertex -4,0, 8
+vertex -4,12,8
+vertex  4,12,8
+face2 0,1,2,3
+translate -5,0,25,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 12
+vertex 0,0, 4
+vertex 0,12,4
+vertex 0,12,12
+face2 0,1,2,3
+translate -5,0,25,
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,

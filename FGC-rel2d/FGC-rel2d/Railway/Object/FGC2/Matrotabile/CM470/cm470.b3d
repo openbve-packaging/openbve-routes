@@ -1,0 +1,592 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Carro magazzino 470 su traversine
+; e finitura lato destro tronchino
+
+[meshbuilder]  ; Erba 
+vertex  1.8 , 0.05 , 7.5
+vertex  5.8 , 0.7 , 7.5
+vertex  5.8 , 0.1 , -45.5
+vertex  2.5 ,  0.1 , -45.5
+face 0,1,2,3
+translate -4.8,0,0
+[texture]
+load ..\..\Grass2.bmp
+coordinates 0, 0.6, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 6
+coordinates 3, 0.6, 6
+
+[Meshbuilder]; Rete metallica
+Vertex 2.5, 2.05, 7.0
+Vertex 4.0,  1.6, -45.5
+Vertex 4.0, 0.1, -45.5
+Vertex 2.5, 0.55, 7.0
+face 0,1,2,3
+translate -4.8,0,0
+[Texture]
+load ..\..\fence1.bmp
+coordinates 0,0,0
+coordinates 1,0,16
+coordinates 2,1,16
+coordinates 3,1,0
+transparent 0,0,0
+
+; Limite 30
+; =============
+[meshbuilder]
+vertex  -0.35, 2.75, 0.05
+vertex   0.35, 2.75, -0.05
+vertex   0.35, 2.0, -0.05
+vertex  -0.35, 2.0, 0.05
+face 0,1,2,3
+translate -2.0,0,-35
+[texture]
+load ..\..\lim30.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0 
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+[meshbuilder]
+cylinder 6,0.04,0.04,3.1
+color 180,180,180
+translate -2,1.3,-34.96
+
+; Macaco scambio tronchino
+; ================================
+[meshbuilder]
+vertex  -0.8, 0.7, 0
+vertex   0.8, 0.5, 0
+vertex   0.8, -0.2, 0
+vertex  -0.8,  0.0, 0
+face 0,1,2,3
+translate -2.8, 0.20,-41.6
+[texture]
+load ..\..\Rails\Macaco.bmp
+transparent 0,0,255
+coordinates 0, 1, 0
+coordinates 1, 0, 0 
+coordinates 2, 0, 1
+coordinates 3, 1, 1
+[meshbuilder]
+cylinder 6,0.03,0.03,3.0
+color 68,73,69
+rotate 0,0,1,90
+translate -3.8,0.25,-41.55
+
+[MeshBuilder] ; Fiancata carro
+Vertex -1.3, 3.6, -46
+Vertex -1.3, 3.6, -54
+Vertex -1.3, 0.0, -54
+Vertex -1.3, 0.0, -46
+Face 0,1,2,3
+[Texture]
+Load fianco3.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]  ; Frontale carro
+Vertex -1.3, 3.8, -53.87
+Vertex 1.3, 3.8, -53.87
+Vertex 1.3, 0.6, -53.87
+Vertex -1.3, 0.6, -53.87
+Face 0,1,2,3
+[Texture]
+Load Fronte3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder] ; Telaio del carro
+Cube 0.1, 0.02, 4.0
+color 127,127,127
+Rotate 0,0,1,35
+translate -1.25, 3.61, -50
+
+[MeshBuilder] ; Predella
+Cube 0.08, 0.02, 1.0
+color 97,97,97
+translate -1.39, 0.66, -50
+
+[meshbuilder] ; Cespugli sotto il carro
+vertex -1.2 , 1.1 , 5
+vertex 0 ,  1.1 , 0 
+vertex 0 , -0.3 , 0
+vertex -1, -0.3 ,5
+face 0,1,2,3
+load ..\..\Alberi\Cespuglio.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,0
+translate -0.1,0,-50
+
+[meshbuilder] ; Cespugli sotto il carro
+vertex -1.2 , 1.1 , 5
+vertex 0 ,  1.1 , 0 
+vertex 0 , -0.3 , 0
+vertex -1, -0.3 ,5
+face 0,1,2,3
+load ..\..\Alberi\Cespuglio.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,0
+translate 0.3,0,-56
+
+; === Tetto del carro ====
+[MeshBuilder]
+Cube 0.2, 0.02, 4.0
+color 127,127,127
+translate 0, 3.805, -50
+[MeshBuilder]
+Cube 1.28, 0.1, 3.8
+color 27,27,27
+translate 0, 0.9, -50
+[MeshBuilder]
+Cube 0.2, 0.02, 4.0
+color 127,127,127
+Rotate 0,0,1,14
+translate -0.98, 3.70, -50
+[MeshBuilder]
+Cube 0.3, 0.02, 4.0
+color 127,127,127
+Rotate 0,0,1,6
+translate -0.50, 3.775, -50
+[MeshBuilder]
+Cube 0.3, 0.02, 4.0
+color 127,127,127
+Rotate 0,0,1,-6
+translate 0.50, 3.775, -50
+[MeshBuilder]
+Cube 0.2, 0.02, 4.0
+color 127,127,127
+Rotate 0,0,1,-14
+translate 0.98, 3.70, -50
+[MeshBuilder]
+Cube 0.1, 0.02, 4.0
+color 127,127,127
+Rotate 0,0,1,-35
+translate 1.25, 3.61, -50
+
+; ======== Rotaie sotto al carro arrugginite ======
+[meshbuilder] ; Superf.rotolamento fungo rotaie
+vertex -0.5600,0.2,-55
+vertex -0.5000,0.2,-55
+vertex -0.5600,0.2,-45
+vertex -0.5000,0.2,-45
+vertex 0.5000, 0.2,-55
+vertex 0.5600, 0.2,-55
+vertex 0.5000, 0.2,-45
+vertex 0.5600, 0.23,-45
+face 2, 3, 1, 0
+face 6, 7, 5 ,4
+color 80,90,100
+
+[meshbuilder] ; Anime delle rotaie
+vertex -0.5300,0.2000,-55
+vertex -0.5300,0.0300,-55
+vertex -0.5300,0.2000,-45
+vertex -0.5300,0.0300,-45
+vertex 0.5300,0.2000,-55
+vertex 0.5300,0.0300,-55
+vertex 0.5300,0.2000,-45
+vertex 0.5300,0.0300,-45
+face2 2, 3, 1, 0
+face2 6, 7, 5 ,4
+color 85,50,50
+
+
+; ==== Traversine ant sotto al carro ====
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate 0.02, 0.3, -47.5
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate 0.01, 0.3, -46.95
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate -0.01, 0.3, -46.6
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate -0.8, 0.5, -47.15
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate -0.45, 0.5, -46.9
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate 0.0, 0.5, -46.97
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate 0.45, 0.5, -47.0
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate 0.8, 0.5, -46.9
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate -0.02, 0.7, -47.4
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate 0.02, 0.7, -46.95
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate 0.01, 0.7, -46.6
+
+; ==== Traversine post sotto al carro ====
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate 0.02, 0.3, -52.5
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate 0.01, 0.3, -53.05
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate -0.01, 0.3, -53.4
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate -0.8, 0.5, -52.85
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate -0.45, 0.5, -53.1
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate 0.0, 0.5, -53.03
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate 0.45, 0.5, -53.0
+[meshbuilder]
+cube 0.15, 0.125, 0.6
+color 78,88,88
+translate 0.8, 0.5, -53.1
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate -0.02, 0.7, -52.6
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate 0.02, 0.7, -53.05
+[meshbuilder]
+cube 1, 0.125, 0.15
+color 78,88,88
+translate 0.01, 0.7, -53.4
+
+; ==== Traversine a terra prima del carro ====
+[meshbuilder]
+cube 0.6, 0.125, 0.15
+color 78,88,88
+translate 0.02, 0.15, -55.5
+[meshbuilder]
+cube 0.6, 0.125, 0.15
+color 78,88,88
+translate 0.01, 0.15, -56.05
+[meshbuilder]
+cube 0.6, 0.125, 0.15
+color 78,88,88
+translate -0.01, 0.15, -56.6
+[meshbuilder]
+cube 0.15, 0.125, 0.9
+color 78,88,88
+translate -0.42, 0.4, -56.1
+[meshbuilder]
+cube 0.15, 0.125, 0.9
+color 78,88,88
+translate 0.0, 0.4, -56.03
+[meshbuilder]
+cube 0.15, 0.125, 0.9
+color 78,88,88
+translate 0.43, 0.4, -56.0
+[meshbuilder]
+cube 0.15, 0.125, 0.9
+color 78,88,88
+translate -0.1, 0.65, -56.1
+[meshbuilder]
+cube 0.15, 0.125, 0.9
+color 78,88,88
+translate 0.4, 0.65, -55.85
+
+[meshbuilder] ; Cespugli su traversine
+vertex -1.2 , 1.1 , 4
+vertex 0 ,  1.1 , 1 
+vertex 0 , -0.3 , 1
+vertex -1, -0.3 ,4
+face 0,1,2,3
+load ..\..\Alberi\Cespuglio.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,0
+translate 0.3,0,-59
+
+; Macaco scambio officina
+; ================================
+[meshbuilder]
+vertex  -0.8, 0.5, 0
+vertex   0.8, 0.5, 0
+vertex   0.8, -0.2, 0
+vertex  -0.8, -0.2, 0
+face 0,1,2,3
+translate 1.3,0.15,-66.6
+[texture]
+load ..\..\Rails\Macaco.bmp
+transparent 0,0,255
+coordinates 0, 0, 0
+coordinates 1, 1, 0 
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+[meshbuilder]
+cylinder 6,0.03,0.03,6.4
+color 68,73,69
+rotate 0,0,1,90
+translate -2.2,0.25,-66.55
+
+; === Assale fine tronchino =======
+[MeshBuilder] ; Bordino sin
+cylinder 16, 0.43, 0.43,0.025 
+Color 85,81,69
+rotate 0,0,1,-90
+translate  -1.1, 0.66, -117.5
+[MeshBuilder] ; Ruota sin
+cylinder 16, 0.375, 0.38,0.09 
+Color 85,81,69
+rotate 0,0,1,90
+translate -1.155, 0.66, -117.5
+[MeshBuilder] ; Assale
+cylinder 6, 0.05, 0.05 ,1.35 
+Color 140,150,131
+rotate 0,0,1,-90
+translate  -0.61, 0.66, -117.5
+[MeshBuilder] ; Bordino des
+cylinder 16, 0.43, 0.43,0.025 
+Color 85,81,69
+rotate 0,0,1,-90
+translate  -0.115, 0.66, -117.5
+[MeshBuilder] ; Ruota des
+cylinder 16, 0.375, 0.38,0.09 
+Color 85,81,69
+rotate 0,0,1,-90
+translate  -0.06, 0.66, -117.5
+
+; ======== Paracarri ==========
+[MeshBuilder] ; Paraurti
+cube 0.03, 0.6,0.065 
+color 80,90,100
+translate  -0.06, 0.52, -119.5
+[MeshBuilder]
+cube 0.03, 0.6,0.065 
+color 80,90,100
+translate  -1.12, 0.52, -119.5
+[MeshBuilder] ; Traverse
+cube 0.8, 0.03,0.065 
+color 80,90,100
+translate  -0.6, 0.89, -119.37
+[MeshBuilder]
+cube 0.8, 0.03,0.065 
+color 80,90,100
+translate  -0.6, 1.0, -119.37
+[MeshBuilder] ; Puntoni
+cube 0.03, 0.7,0.065 
+color 80,90,100
+rotate 1,0,0,35
+translate  -0.06, 0.45, -119.85
+[MeshBuilder]
+cube 0.03, 0.6,0.065 
+color 80,90,100
+rotate 1,0,0,35
+translate  -1.12, 0.45, -119.85
+
+
+[meshbuilder] ; Superf.rotolamento rotaie arrugginite
+vertex -0.5650,0.2,-55
+vertex -0.4950,0.2,-55
+vertex -0.5650,0.2,-6
+vertex -0.4950,0.2,-6
+vertex 0.4950, 0.2,-55
+vertex 0.5650, 0.2,-55
+vertex 0.4950, 0.2,-6
+vertex 0.5650, 0.2,-6
+face 2, 3, 1, 0
+face 6, 7, 5 ,4
+color 80,90,100
+translate  -0.60, 0.152, -65.12
+
+
+[meshbuilder] ; Cespuglio davanti al paraurti
+vertex -1.5 , 1 , 0.5
+vertex 1.5 ,  1 , 0 
+vertex 1.5 , -0.3 , 0
+vertex -1.5, -0.3 ,0.5
+face 0,1,2,3
+load ..\..\Alberi\Cespuglio.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+translate -0.5,0,-120.5
+
+
+[Meshbuilder]; Rete metallica a lato tronchino
+Vertex 2.4,  1.3, -44.95
+Vertex 1.2,  1.45, -120
+Vertex 1.2, -0.05, -120
+Vertex 2.4, -0.2, -44.95
+face 0,1,2,3
+[Texture]
+load ..\..\fence1.bmp
+coordinates 0,0,0
+coordinates 1,0,24
+coordinates 2,1,24
+coordinates 3,1,0
+transparent 0,0,0
+
+[meshbuilder] ; Cespugli lungo la rete
+Vertex 2.3,  0.8, -44.95
+Vertex 1.1,  0.8, -120
+Vertex 1.1, -0.05, -120
+Vertex 2.3, -0.2, -44.95
+face 0,1,2,3
+[Texture]
+load ..\..\Alberi\Cespuglio.bmp
+coordinates 0,0,0
+coordinates 1,0,45
+coordinates 2,1,45
+coordinates 3,1,0
+transparent 90, 0, 255
+
+[meshbuilder] ; Cespugli lungo la rete
+Vertex 2.2,  0.7, -44.95
+Vertex 1.1,  0.7, -120
+Vertex 1.1, -0.05, -120
+Vertex 2.2, -0.2, -44.95
+face 0,1,2,3
+[Texture]
+load ..\..\Alberi\Cespuglio.bmp
+coordinates 0,0,0
+coordinates 1,0,50
+coordinates 2,1,50
+coordinates 3,1,0
+transparent 90, 0, 255
+translate -0.1,0,0.3
+
+[meshbuilder] ; Albero 
+vertex -3 , 7 , 0
+vertex 3 ,  7 , 0 
+vertex 3 , 0.5 , 0
+vertex -3, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,25
+translate 4,0,-112
+
+[meshbuilder] ; Albero 
+vertex -3.5 , 7.7 , 0
+vertex 3 ,  6.2 , 0 
+vertex 3 , 0.5 , 0
+vertex -3.5, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,25
+translate 4,0,-102
+
+[meshbuilder] ; Albero 
+vertex -3.5 , 6.7 , 0
+vertex 3.5 ,  7.2 , 0 
+vertex 3.5 , 0.5 , 0
+vertex -3.5, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,25
+translate 4,0,-93
+
+
+[meshbuilder] ; Albero 
+vertex -3.5 , 6.7 , 0
+vertex 3.5 ,  7.2 , 0 
+vertex 3.5 , 0.5 , 0
+vertex -3.5, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,25
+translate 3,0,-84
+
+[meshbuilder] ; Albero 
+vertex -4 , 7.5 , 0
+vertex 3.5 ,  7.2 , 0 
+vertex 3.5 , 0.5 , 0
+vertex -4, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,25
+translate 3,0,-72
+
+[meshbuilder] ; Albero 
+vertex -4 , 7.5 , 0
+vertex 4.5 ,  7.2 , 0 
+vertex 3.5 , 0.5 , 0
+vertex -4, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,25
+translate 3.3,0,-58

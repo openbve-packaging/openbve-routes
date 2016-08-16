@@ -1,0 +1,111 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshbuilder,
+AddVertex,4, 9.6, -10
+AddVertex,-3, 9.6, -10
+AddVertex,-4, 6, -10
+AddVertex,4, 6, -10
+AddVertex,-3, 9.6, 30
+AddVertex,-4, 6, 30
+AddFace,3,2,1,0,
+AddFace,2,5,4,1
+SetColor,120,120,120
+GenerateNormals,
+LoadTexture,flats3.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0.8,0,
+SetTextureCoordinates,5,0.8,1,
+CreateMeshbuilder,
+AddVertex,2, 6.3, -10
+AddVertex,-3, 6.3, -10
+AddVertex,-3, 0, -10
+AddVertex,2, 0, -10
+AddVertex,-3, 6.3, 30
+AddVertex,-3, 0, 30
+AddFace,3,2,1,0,
+AddFace,2,5,4,1
+GenerateNormals,
+LoadTexture,tw_brick4.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,2,0,
+SetTextureCoordinates,5,2,1,
+CreateMeshbuilder,
+AddVertex,2, 6, -20
+AddVertex,-3, 6, -20
+AddVertex,-3, 0, -20
+AddVertex,2, 0, -20
+AddVertex,-3, 6, -12
+AddVertex,-3, 0, -12
+AddFace,3,2,1,0,
+AddFace,2,5,4,1
+Setcolor,160,160,160
+GenerateNormals,
+LoadTexture,b0_ef2.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,2,0,
+SetTextureCoordinates,5,2,1,
+CreateMeshBuilder,
+AddVertex,-24,6,-10,
+AddVertex,-4,6,-10,
+AddVertex,-24,0,-10,
+AddVertex,-4,0,-10,
+AddFace,0,1,3,2
+GenerateNormals,
+LoadTexture,b2_wp1.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,,,
+AddVertex,-23.7,0.0,-10.1
+AddVertex,-23.7,0.0,25
+AddVertex,-23.7,4.8,25
+AddVertex,-23.7,4.8,-10.1
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,b2_wp2.png,
+SetTextureCoordinates,0,2,1
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,2,0
+CreateMeshBuilder,
+AddVertex,-25, 0, 25,
+AddVertex,-25, 0, -40
+AddVertex,-25 ,2.7,-40
+AddVertex,-25, 2.7,25
+AddFace,3,2,1,0
+SetColor,100,100,100,80,
+CreateMeshBuilder,
+AddVertex,-25, -0.4, -40
+AddVertex,-25, 2.70,-40
+AddVertex,-15, 2.70, -40
+AddVertex,-15, -0.4, -40
+AddFace,0,1,2,3
+SetColor,100,100,100,150,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-25, 0, -40
+AddVertex,-25, 0, 25
+AddVertex,-25 ,3.3, 25
+AddVertex,-25, 3.3, -40
+AddFace,0,1,2,3,
+SetColor,100,100,100
+GenerateNormals,
+LoadTexture,../Fence2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 6, 1,
+SetTextureCoordinates,2, 6, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0,

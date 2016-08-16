@@ -1,0 +1,8 @@
+[Object]
+States=signal_pole.b3d
+
+[Object]
+States=signal_arm.b3d
+RotateZFunction = if[trackDistance[0]<200 & trackDistance[0]>-5 & rightDoors==1 & speed==0,0.67,value*(trackDistance[0]>-150 & trackDistance[0]<200)]
+RotateZDamping = 10, 0.5
+Position=0,7.9,-0.1

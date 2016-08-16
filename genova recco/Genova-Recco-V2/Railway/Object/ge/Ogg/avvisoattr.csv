@@ -1,0 +1,34 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+;;;avanti
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0.35, 0, 0,
+AddVertex,0.35, 0.5, 0,
+AddVertex,0, 0.5, ,
+Translate, ,2.5,,
+AddFace,3, 2, 1, 0,
+
+LoadTexture, avvisoattr.bmp
+SetTextureCoordinates,0, -1, 1
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, ,
+SetTextureCoordinates,3, -1, ,
+
+;;;avanti
+CreateMeshBuilder,
+AddVertex,0, 0, 0.01,
+AddVertex,0.35, 0, 0.01,
+AddVertex,0.35, 0.5, 0.01,
+AddVertex,0, 0.5, 0.01,
+Translate, ,2.5,,
+AddFace,0, 1, 2, 3,
+
+LoadTexture, avvisoattr.bmp
+SetTextureCoordinates,0, 1, 1
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, ,
+SetTextureCoordinates,3, 1, ,
+

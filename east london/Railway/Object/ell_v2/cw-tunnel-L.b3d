@@ -1,0 +1,33 @@
+[MeshBuilder] ; the wall (we dont need no eh-joo-cay-shun...)
+Vertex -2.6,6.6,25.5
+Vertex -2.6,-0.18,25.5
+Vertex -2.6,-0.18,0
+Vertex -2.6,6.6,0
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,50,0
+Coordinates 1,50,6
+Coordinates 2,0,6
+Coordinates 3,0,0
+
+[Meshbuilder] ; the ground
+Vertex 0,-0.18,25.5
+Vertex 0,-0.18,0
+Vertex -2.6,-0.18,0
+Vertex -2.6,-0.18,25.5
+Face 0,1,2,3
+[Texture]
+load schotter1.bmp
+Coordinates 0,6,0
+Coordinates 1,6,30
+Coordinates 2,0,30
+Coordinates 3,0,0
+
+[Meshbuilder] ; The ceiling
+Vertex 2.1,6.6,25.5
+Vertex 2.1,6.6,0
+Vertex -2.6,6.6,0
+Vertex -2.6,6.6,25.5
+Face 3,2,1,0
+Color 0,0,0

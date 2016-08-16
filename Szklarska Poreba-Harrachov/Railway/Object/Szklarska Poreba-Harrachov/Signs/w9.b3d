@@ -1,0 +1,60 @@
+[MeshBuilder]
+Cylinder  10, 0.045, 0.045, 1.69
+Rotate  0, 0, 0, 0
+Translate  0, 0.845, 0
+Color 70,75,81
+
+[meshbuilder]
+vertex 0.2, 1.25, -0.05
+vertex 0.2, 1.85, -0.05
+vertex -0.2, 1.85, -0.05
+vertex -0.2, 1.25, -0.05
+face 3,2,1,0
+[Texture]
+Load w9a.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0.2, 1.25, -0.05
+vertex 0.2, 1.85, -0.05
+vertex -0.2, 1.85, -0.05
+vertex -0.2, 1.25, -0.05
+face 0,1,2,3
+[Texture]
+Load w9_tyl.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+;-
+[meshbuilder]
+vertex 0.2, 1.25, 0.05
+vertex 0.2, 1.85, 0.05
+vertex -0.2, 1.85, 0.05
+vertex -0.2, 1.25, 0.05
+face 0,1,2,3
+[Texture]
+Load w9b.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0.2, 1.25, 0.05
+vertex 0.2, 1.85, 0.05
+vertex -0.2, 1.85, 0.05
+vertex -0.2, 1.25, 0.05
+face 3,2,1,0
+[Texture]
+Load w9_tyl.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+

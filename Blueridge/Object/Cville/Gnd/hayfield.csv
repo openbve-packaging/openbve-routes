@@ -1,0 +1,79 @@
+CreateMeshbuilder,  ;;strawgnd
+AddVertex,-8,0,-.6,
+AddVertex,-8,2,-.6,
+AddVertex,-7.9,2,25.6,
+AddVertex,-7.9,0,25.6,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture, straw1a.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,5,0,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,255
+Rotate,0,0,1,6,
+Translate,-10,-.6,0,
+
+CreateMeshbuilder,
+AddVertex,-8,1.6,-.8,
+AddVertex,-8,1.6,26,
+AddVertex,-45,1.6,26,
+AddVertex,-60,2,26,
+AddVertex,-60,2,-.8,
+AddVertex,-45,1.6,-.8,
+AddFace,5,2,1,0,
+AddFace,4,3,2,5,
+GenerateNormals,
+LoadTexture, straw2.bmp
+SetTextureCoordinates,0,0,5,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,5,0,
+SetTextureCoordinates,3,0,0,
+SetTextureCoordinates,4,0,5,
+SetTextureCoordinates,5,5,5,
+Translate,-10.14,-1.5,0,
+
+;fence
+ 
+CreateMeshBuilder,
+AddVertex, -16,0,0,
+AddVertex, -16,1.5,0,
+AddVertex, -16,1.5,25,
+AddVertex, -16,0,25,
+AddFace,   0,1,2,3,
+GenerateNormals,
+LoadTexture, ..\misc\wirefence.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,5,0,
+SetTextureCoordinates, 3,5,1,
+SetDecalTransparentColor,  0,0,0,
+Translate,0,-1.35,0,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,1.5,
+SetColor, 120,120,0,
+Translate, -16,-.6,25,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,1.5,
+SetColor, 120,120,0,
+Translate, -16,-.6,5,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,1.5,
+SetColor, 120,120,0,
+Translate, -16,-.6,10 ,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,1.5,
+SetColor, 120,120,0,
+Translate, -16,-.6,15,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,1.5,
+SetColor, 120,120,0,
+Translate, -16,-.6,20,
+
+
+

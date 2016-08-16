@@ -1,0 +1,30 @@
+;----------------------------------------------------------------------------------
+;
+; PARTFAL JOBB
+;
+; (C) phontanka 2006
+;
+; Méret: x=40 y=8
+;
+; Ezt az objektumot módosítatlan formában szabadon beépítheted saját pályádba
+; és a pályádban publikálhatod. Ha módosítani akarod, engedélyt kell kérned.
+;
+; You can use this object freely in your routes without modification. If you
+; want to modify it please request permission by email.
+;
+; http://phontanka.extra.hu  ---  phontanka@gmail.com
+;
+;----------------------------------------------------------------------------------
+
+;1
+[Meshbuilder]
+Vertex 15,10,0
+Vertex 46,-0.4,-5
+Vertex 2.8,-0.4,0
+Face 0,1,2
+
+[Texture]
+Load grass.bmp
+coordinates 0,3,0
+coordinates 1,15,8
+coordinates 2,0,8

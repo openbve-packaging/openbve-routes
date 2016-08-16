@@ -1,0 +1,72 @@
+;;casello candelo
+; luca revello
+; sanbie
+
+; fronte
+CreateMeshBuilder,
+AddVertex,0,4,10,
+AddVertex,0,4,0,
+AddVertex,0,0.4,0,
+AddVertex,0,0.4,10,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,casello.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,
+
+;pensilina lato 1
+CreateMeshBuilder,
+AddVertex,0,4,0,
+AddVertex,3,4,0,
+AddVertex,3,0.4,0,
+AddVertex,0,0.4,0,
+AddFace,0,1,2,3
+GenerateNormals,
+
+LoadTexture,casello1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+;pensilina lato 1
+CreateMeshBuilder,
+AddVertex,0,4,10,
+AddVertex,2.5,4,10,
+AddVertex,2.5,0.4,10,
+AddVertex,0,0.4,10,
+AddFace,0,1,2,3
+GenerateNormals,
+
+LoadTexture,casello1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0.6,0,
+SetTextureCoordinates,2,0.6,1,
+SetTextureCoordinates,3,0,1,
+
+;;tetto
+CreateMeshBuilder,
+Cube, 1.7,0.07,5.2,
+Translate, 1.5,4,5
+GenerateNormals,
+Setcolor,120,120,120,
+
+; casa fondo
+CreateMeshBuilder,
+AddVertex,9,10,5,
+AddVertex,25,10,-10,
+AddVertex,25,0.4,-10,
+AddVertex,9,0.4,5,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,casello2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,

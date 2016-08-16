@@ -1,0 +1,523 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green. 
+
+CreateMeshBuilder,
+AddVertex,-5.6, 0.6, 18,
+AddVertex,-5.6, 4.6, 18
+AddVertex,-3.6, 4.6, 18
+AddVertex,-3.6, 0.6, 18
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,hb3_support.png,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-5.6, 0.6, 4,
+AddVertex,-5.6, 4.6, 4
+AddVertex,-3.6, 4.6, 4
+AddVertex,-3.6, 0.6, 4
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,hb3_support.png,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,9.6, 0.6, 18,
+AddVertex,9.6, 4.6, 18
+AddVertex,7.6, 4.6, 18
+AddVertex,7.6, 0.6, 18
+AddFace,3,2,1,0
+GenerateNormals,
+LoadTexture,hb3_support.png,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,9.6, 0.6, 4,
+AddVertex,9.6, 4.6, 4
+AddVertex,7.6, 4.6, 4
+AddVertex,7.6, 0.6, 4
+AddFace,3,2,1,0,,
+GenerateNormals,
+LoadTexture,hb3_support.png,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,13.2, 0.6, -25,
+AddVertex,13.2, 0.6, 25.3,
+AddVertex,11.2, 0.6, 25.3,
+AddVertex,11.2, 0.6, -25,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,../FormC_hb.png,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+CreateMeshBuilder,
+AddVertex,-9.2, 0.6, -25,
+AddVertex,-9.2, 0.6, 25.3,
+AddVertex,-7.2, 0.6, 25.3,
+AddVertex,-7.2, 0.6, -25,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,../FormC_hb.png,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+;Shelter bottom of steps plat 1
+CreateMeshBuilder,
+AddVertex,5.75, 3.0, -22.9,
+AddVertex,5.75, 4.8, -22.9,
+AddVertex,11.9, 4.6, -22.9,
+AddVertex,11.9, 2.8, -22.9,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,tw_edge.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 0,
+CreateMeshBuilder,
+AddVertex,5.75, 3.0, -12.9,
+AddVertex,5.75, 4.8, -12.9,
+AddVertex,11.9, 4.6, -12.9,
+AddVertex,11.9, 2.8, -12.9,
+AddFace,0,1,2,3,
+SetColor,180,180,180,
+GenerateNormals,
+LoadTexture,tw_edge.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 0,
+CreateMeshBuilder,
+AddVertex,5.77, 3, -22.95,
+AddVertex,5.77, 3, -12.9,
+AddVertex,5.77, 4.8, -12.9,
+AddVertex,5.77, 4.8, -22.95,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,tw_edge.png,
+SetTextureCoordinates,0, 2, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 2, 0,
+SetDecalTransparentColor,0,0,0,
+CreateMeshbuilder,
+AddVertex,11.9, 4.4, -14.2,
+AddVertex,9.2, 4.4, -14.2,
+AddVertex,9.2, 0.6, -14.2,
+AddVertex,11.9, 0.6, -14.2,
+AddVertex,9.2, 4.4, -13.7,
+AddVertex,9.2, 0.6, -13.7,
+AddFace2,0,1,2,3,
+AddFace2,1,4,5,2,
+SetColor,180,180,180,
+GenerateNormals,
+LoadTexture,tw_brick3.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,1,0,
+SetTextureCoordinates,5,1,1,
+CreateMeshBuilder,
+AddVertex,11.9, 0.6, -22.95,
+AddVertex,11.9, 0.6, -14.2,
+AddVertex,11.9, 4.4, -14.2,
+AddVertex,11.9, 4.4, -22.95,
+AddFace,0, 1, 2, 3,
+SetColor,212,197,183,
+GenerateNormals,
+LoadTexture,tw_brick.png,
+SetTextureCoordinates,0, 2, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 2, 0,
+CreateMeshBuilder,
+AddVertex,5.75, 4.55, -12.9,
+AddVertex,5.75, 4.55, -22.9,
+AddVertex,12.0, 4.05, -22.9
+AddVertex,12.0, 4.05, -12.9,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,../01roof.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 0.6,
+SetTextureCoordinates,3, 1, 0.6,
+
+;Shelter bottom of steps plat 0
+CreateMeshBuilder
+AddVertex,-1.75, 3, -22.9
+AddVertex,-1.75, 4.8, -22.9
+AddVertex,-7.9, 4.6, -22.9
+AddVertex,-7.9, 2.8, -22.9
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,tw_edge.png
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+SetDecalTransparentColor,0, 0, 0
+CreateMeshBuilder
+AddVertex,-1.75, 3.0, -12.9
+AddVertex,-1.75, 4.8, -12.9
+AddVertex,-7.9, 4.6, -12.9
+AddVertex,-7.9, 2.8, -12.9
+AddFace,3,2,1,0
+SetColor,180,180,180,
+GenerateNormals
+LoadTexture,tw_edge.png
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+SetDecalTransparentColor,0, 0, 0
+CreateMeshBuilder
+AddVertex,-1.77, 3, -22.95
+AddVertex,-1.77, 3, -12.9
+AddVertex,-1.77, 4.8, -12.9
+AddVertex,-1.77, 4.8, -22.95
+AddFace, 3, 2, 1,0
+GenerateNormals
+LoadTexture,tw_edge.png
+SetTextureCoordinates,0, 2, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 2, 0
+SetDecalTransparentColor,0,0,0
+CreateMeshbuilder
+AddVertex,-7.9, 4.4, -14.2
+AddVertex,-5.2, 4.4, -14.2
+AddVertex,-5.2, 0.6, -14.2
+AddVertex,-7.9, 0.6, -14.2
+AddVertex,-5.2, 4.4, -13.7
+AddVertex,-5.2, 0.6, -13.7
+AddFace2,3,2,1,0
+AddFace2,2,5,4,1
+SetColor,180,180,180,
+GenerateNormals
+LoadTexture,tw_brick3.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,1
+CreateMeshBuilder
+AddVertex,-7.9, 0.6, -22.95
+AddVertex,-7.9, 0.6, -14.2
+AddVertex,-7.9, 4.4, -14.2
+AddVertex,-7.9, 4.4, -22.95
+AddFace, 3, 2, 1,0
+SetColor,212,197,183
+GenerateNormals
+LoadTexture,tw_brick.png
+SetTextureCoordinates,0, 2, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 2, 0
+CreateMeshBuilder
+AddVertex,-1.75, 4.55, -12.9
+AddVertex,-1.75, 4.55, -22.9
+AddVertex,-8, 4.05, -22.9
+AddVertex,-8, 4.05, -12.9
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../01roof.png
+SetTextureCoordinates,0, 1, 0
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 0, 0.6
+SetTextureCoordinates,3, 1, 0.6
+
+
+;wall r
+CreateMeshBuilder
+AddVertex,12.9, 0.6, -12.95
+AddVertex,12.9, 0.6, 4
+AddVertex,12.9, 2.9, 4
+AddVertex,12.9, 2.9, -12.95
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,tw_brick2.png
+SetTextureCoordinates,0, 3, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 3, 0
+;wall l
+CreateMeshBuilder
+AddVertex,-8.9, 0.6, -12.95
+AddVertex,-8.9, 0.6, 4
+AddVertex,-8.9, 2.9, 4
+AddVertex,-8.9, 2.9, -12.95
+AddFace,3,2,1,0,
+GenerateNormals
+LoadTexture,tw_brick2.png
+SetTextureCoordinates,0, 3, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 3, 0
+
+;Plat1 waiting room shelter
+CreateMeshBuilder,
+AddVertex,5.75, 3.0, 18.9,
+AddVertex,5.75, 4.8, 18.9,
+AddVertex,11.9, 4.6, 18.9,
+AddVertex,11.9, 2.8, 18.9,
+AddFace,0,1,2,3,
+SetColor,180,180,180,
+GenerateNormals,
+LoadTexture,tw_edge.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 0,
+CreateMeshBuilder,
+AddVertex,5.75, 3.0, 2.9,
+AddVertex,5.75, 4.8, 2.9,
+AddVertex,11.9, 4.6, 2.9,
+AddVertex,11.9, 2.8, 2.9,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,tw_edge.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 0,
+CreateMeshBuilder,
+AddVertex,5.77, 3, 2.95,
+AddVertex,5.77, 3, 18.9
+AddVertex,5.77, 4.8, 18.9
+AddVertex,5.77, 4.8, 2.95,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,tw_edge.png,
+SetTextureCoordinates,0, 2, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 2, 0,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,5.75, 4.55, 18.9,
+AddVertex,5.75, 4.55, 2.9,
+AddVertex,12.0, 4.05, 2.9
+AddVertex,12.0, 4.05, 18.9,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,../01roof.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+
+;Plat1 Waiting room
+CreateMeshBuilder,;front main
+Addvertex,11.9, 4.2, 2.8,
+Addvertex,11.9, 4.2, 25.9,
+Addvertex,12.0, 0.6, 25.9,
+Addvertex,12.0, 0.6, 2.8,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,tw3.png,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+CreateMeshBuilder,;side main
+AddVertex,11.85, 0.6, 2.8,,
+AddVertex,11.85, 6.3, 2.8,
+AddVertex,21.0, 6.3, 2.8,
+AddVertex,21.0, 0.6, 2.8,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,tw5.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,15.5, 5.6, 13.8,,
+AddVertex,15.5, 9.2, 13.8,
+AddVertex,17.4, 9.2, 13.8,
+AddVertex,17.4, 5.6, 13.8,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,tw_chimney.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,16.5, 5.6, 12.8,,
+AddVertex,16.5, 9.2, 12.8,
+AddVertex,16.5, 9.2, 15.2,
+AddVertex,16.5, 5.6, 15.2,
+AddFace,3,2,1,0
+GenerateNormals,
+LoadTexture,tw_chimney.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+Addvertex,11.9, 4.4, 25.9,
+Addvertex,16.5, 6.2, 25.9,
+Addvertex,16.5, 6.2, 2.8,
+Addvertex,11.9, 4.4, 2.8,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,roof.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+
+;Plat0 waiting room shelter
+CreateMeshBuilder,
+AddVertex,-1.75, 3, 18.9,
+AddVertex,-1.75, 4.8, 18.9,
+AddVertex,-7.9, 4.6, 18.9,
+AddVertex,-7.9, 2.8, 18.9,
+AddFace,3,2,1,0,
+SetColor,180,180,180,
+GenerateNormals,
+LoadTexture,tw_edge.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 0,
+CreateMeshBuilder,
+AddVertex,-1.75, 3.0, 2.9,
+AddVertex,-1.75, 4.8, 2.9,
+AddVertex,-7.9, 4.6, 2.9,
+AddVertex,-7.9, 2.8, 2.9,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,tw_edge.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0, 0, 0,
+CreateMeshBuilder,
+AddVertex,-1.77, 3, 2.95,
+AddVertex,-1.77, 3, 18.9
+AddVertex,-1.77, 4.8, 18.9
+AddVertex,-1.77, 4.8, 2.95,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,tw_edge.png,
+SetTextureCoordinates,0, 2, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 2, 0,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-1.75, 4.55, 18.9,
+AddVertex,-1.75, 4.55, 2.9,
+AddVertex,-7.9, 4.05, 2.9
+AddVertex,-7.9, 4.05, 18.9,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,../01roof.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+
+;Plat0 Waiting room
+CreateMeshBuilder,;front main
+Addvertex,-7.9, 4.2, 2.8,
+Addvertex,-7.9, 4.2, 18.9,
+Addvertex,-7.9, 0.6, 18.9,
+Addvertex,-7.9, 0.6, 2.8,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,tw4.png,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+CreateMeshBuilder,;side main
+AddVertex,-7.82, 0.6, 2.8,,
+AddVertex,-7.82, 6.3, 2.8,
+AddVertex,-17.2, 6.3, 2.8,
+AddVertex,-17.2, 0.6, 2.8,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,tw5.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-11.5, 5.6, 10.8,,
+AddVertex,-11.5, 9.2, 10.8,
+AddVertex,-13.4, 9.2, 10.8,
+AddVertex,-13.4, 5.6, 10.8,
+AddFace,3,2,1,0
+GenerateNormals,
+LoadTexture,tw_chimney.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-12.5, 5.6, 9.8,,
+AddVertex,-12.5, 9.2, 9.8,
+AddVertex,-12.5, 9.2, 11.2,
+AddVertex,-12.5, 5.6, 11.2,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,tw_chimney.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+Addvertex,-7.9, 4.4, 18.9,
+Addvertex,-12.5, 6.2, 18.9,
+Addvertex,-12.5, 6.2, 2.8,
+Addvertex,-7.9, 4.4, 2.8,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,roof.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,

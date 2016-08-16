@@ -1,0 +1,196 @@
+[MeshBuilder]
+Vertex 5, 5, 24
+Vertex 5.0, 5, 8
+Vertex 5.0, 0, 8
+Vertex 5, 0, 24
+Vertex 10.0, 5, 8
+Vertex 10.0, 0, 8
+Face 0,1,2,3
+Face 1,4,5,2
+
+[Texture]
+Load koya2r.bmp
+Coordinates 0,0, 0
+Coordinates 1, 0.75, 0
+Coordinates 2, 0.75, 1
+Coordinates 3, 0, 1
+Coordinates 4, 1, 0
+Coordinates 5, 1, 1
+color 150,100,0
+
+[MeshBuilder]
+Vertex 10.8, 5, 7.2
+Vertex 4.2, 5, 7.2
+Vertex 4.2, 5, 24.8
+Vertex 10.8, 5, 24.8
+Vertex 7.5, 6.5, 10.2
+Vertex 7.5, 6.5, 21.8
+Face 3,2,1,0
+color 166,166,166
+Face 4,0,1
+Face 5,4,1,2
+color 75,50,0
+
+[MeshBuilder]
+Vertex 10, 4.7, 8
+Vertex 10, 4.0, 5
+Vertex 2.5, 4.0, 5
+Vertex 5.0, 4.7, 8
+Vertex 2.5, 4, 24
+Vertex 5, 4.7, 24
+Face 0,1,2,3
+Face 0,3,2,1
+Face 3,2,4,5,
+Face 3,5,4,2
+color 75,50,0
+
+[MeshBuilder]
+Vertex 9.55, 4, 5.5
+Vertex 9.4, 4, 5.5
+Vertex 9.4, 0, 5.5
+Vertex 9.55, 0, 5.5
+Vertex 9.4, 4, 5.65
+Vertex 9.4, 0, 5.65
+Face  1,0,3,2
+Face 4,1,2,5
+color 150,100,0
+
+[MeshBuilder]
+Vertex 7.55, 4, 5.5
+Vertex 7.4, 4, 5.5
+Vertex 7.4, 0, 5.5
+Vertex 7.55, 0, 5.5
+Vertex 7.4, 4, 5.65
+Vertex 7.4, 0, 5.65
+Face  1,0,3,2
+Face 4,1,2,5
+color 150,100,0
+
+[MeshBuilder]
+Vertex 5.55, 4, 5.5
+Vertex 5.4, 4, 5.5
+Vertex 5.4, 0, 5.5
+Vertex 5.55, 0, 5.5
+Vertex 5.4, 4, 5.65
+Vertex 5.4, 0, 5.65
+Face  1,0,3,2
+Face 4,1,2,5
+color 150,100,0
+
+[MeshBuilder]
+Vertex 3.05, 4, 5.5
+Vertex 2.9, 4, 5.5
+Vertex 2.9, 0, 5.5
+Vertex 3.05, 0, 5.5
+Vertex 2.9, 4, 5.65
+Vertex 2.9, 0, 5.65
+Face  1,0,3,2
+Face 4,1,2,5
+color 150,100,0
+
+[MeshBuilder]
+Vertex 3.05, 4, 8.5
+Vertex 2.9, 4, 8.5
+Vertex 2.9, 0, 8.5
+Vertex 3.05, 0, 8.5
+Vertex 2.9, 4, 8.65
+Vertex 2.9, 0, 8.65
+Face  1,0,3,2
+Face 4,1,2,5
+color 150,100,0
+
+[MeshBuilder]
+Vertex 3.05, 4, 11.5
+Vertex 2.9, 4, 11.5
+Vertex 2.9, 0, 11.5
+Vertex 3.05, 0, 11.5
+Vertex 2.9, 4, 11.65
+Vertex 2.9, 0, 11.65
+Face  1,0,3,2
+Face 4,1,2,5
+color 150,100,0
+
+[MeshBuilder]
+Vertex 3.05, 4, 14.5
+Vertex 2.9, 4, 14.5
+Vertex 2.9, 0, 14.5
+Vertex 3.05, 0, 14.5
+Vertex 2.9, 4, 14.65
+Vertex 2.9, 0, 14.65
+Face  1,0,3,2
+Face 4,1,2,5
+color 150,100,0
+
+[MeshBuilder]
+Vertex 3.05, 4, 17.5
+Vertex 2.9, 4, 17.5
+Vertex 2.9, 0, 17.5
+Vertex 3.05, 0, 17.5
+Vertex 2.9, 4, 17.65
+Vertex 2.9, 0, 17.65
+Face  1,0,3,2
+Face 4,1,2,5
+color 150,100,0
+
+[MeshBuilder]
+Vertex 3.05, 4, 20.5
+Vertex 2.9, 4, 20.5
+Vertex 2.9, 0, 20.5
+Vertex 3.05, 0, 20.5
+Vertex 2.9, 4, 20.65
+Vertex 2.9, 0, 20.65
+Face  1,0,3,2
+Face  4,1,2,5
+color 150,100,0
+
+[MeshBuilder]
+Vertex 3.05, 4, 23.5
+Vertex 2.9, 4, 23.5
+Vertex 2.9, 0, 23.5
+Vertex 3.05, 0, 23.5
+Vertex 2.9, 4, 23.65
+Vertex 2.9, 0, 23.65
+Face  1,0,3,2
+Face  4,1,2,5
+color 150,100,0
+
+[MeshBuilder]   
+Vertex 4.6, 3.5, 2.9
+Vertex 4.6, 3.5,   3.1
+Vertex 4.6, 2.5, 3.1
+Vertex 4.6, 2.5, 2.9
+
+Face 1,0,3,2
+color 150,100,0
+
+[MeshBuilder]
+Vertex 2.9, 4.06, 5.5
+Vertex 2.9, 4.06, 23.65
+Vertex 2.9, 3.8, 23.65
+Vertex 2.9, 3.8, 5.5
+Face  1,0,3,2
+
+[Texture]
+Load noki.bmp
+Coordinates 0,0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+color 150,100,0
+
+[MeshBuilder]
+Vertex 12.6,12.4,0
+Vertex 12,  12.4,5
+Vertex 12,0,5
+Vertex 12.6,0,0
+Face 3,2,1,0,
+
+[Texture]
+Load windmill.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+transparent 0,0,255
+
+

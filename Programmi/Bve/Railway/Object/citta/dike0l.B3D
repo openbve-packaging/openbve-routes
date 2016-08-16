@@ -1,0 +1,56 @@
+[meshbuilder]
+vertex -2, 15, 17
+vertex -10, 15, 14
+vertex -10, -0.5, 14
+vertex -2, -0.5, 17
+face 3,2,1,0
+[texture]
+load albero1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3, 17, 10
+vertex -13, 17, 12
+vertex -13, -0.5, 12
+vertex -3, -0.5, 10
+face 3,2,1,0
+[texture]
+load albero1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -3, 16, 3
+vertex -12, 16, 1
+vertex -12, -0.5, 1
+vertex -3, -0.5, 3
+face 3,2,1,0
+[texture]
+load albero1.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+transparent 0,0,255
+
+[meshbuilder]
+vertex -2,6,25.5
+vertex -2,6,0
+vertex -2,0,0
+vertex -2,0,25.5
+face 3,2,1,0
+[texture]
+load cespuglio.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+

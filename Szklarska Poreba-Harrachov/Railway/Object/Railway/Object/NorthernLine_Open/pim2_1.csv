@@ -1,0 +1,20 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (c) Steve Green. Textures by Tom Beevers with Permission
+
+CreateMeshBuilder,
+AddVertex,1.6, 6,6,
+AddVertex,4.9, 6, 6,
+AddVertex,4.9, 3, 6,
+AddVertex,1.6, 3, 6,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,pim2_1.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+SetEmissiveColor,255,255,255
+
+

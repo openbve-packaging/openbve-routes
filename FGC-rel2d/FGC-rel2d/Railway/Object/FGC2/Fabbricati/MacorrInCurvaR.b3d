@@ -1,0 +1,183 @@
+; --------- Muro lato destro ----------
+[MeshBuilder] ; Inizio muro sporgente
+vertex 0 ,  0.4 , -6.2
+vertex 0.8 , 0.4 , -6.2
+vertex 0.8 , -1.4 , -6.2
+vertex 0 , -1.4 , -6.2
+Face 0,1,2,3
+[texture]
+load Muro_pietre4.bmp
+Coordinates 0, 0, 0.16
+coordinates 1, 0.2, 0.16
+coordinates 2, 0.2, 1
+coordinates 3, 0, 1
+rotate 0,1,0,-9.5
+translate 0.75,-0.2,6.25
+[MeshBuilder] ; Mancorrente - tratto 1
+Cube 0.05,0.05,3.0
+Color 101,76,72
+rotate 0,1,0,-9.0
+translate 2.05,1.0,3.4
+[MeshBuilder]
+Cube 0.05,0.6,0.05
+Color 101,76,72
+rotate 0,1,0,-9.0
+translate 2.05,0.4,3.4
+[MeshBuilder]
+Cube 0.05,0.6,0.05
+Color 101,76,72
+rotate 0,1,0,-9.0
+translate 2.5,0.4,0.5
+[MeshBuilder]
+Cube 0.05,0.6,0.05
+Color 101,76,72
+rotate 0,1,0,-9.0
+translate 1.6,0.4,6.25
+[MeshBuilder] ; Muro sporgente - tratto 1
+vertex 0 ,  0.4 , 0
+vertex 0 ,  0.4 , -6.2
+vertex 0 , -0.2 , -6.2
+vertex 0 , -0.2 , 0
+vertex 0.8 , 0.4 , 0
+vertex 0.8 , 0.4 , -6.2
+vertex 0.8 , -0.2 , 0
+vertex 0.8 , -0.2 , -6.2
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre4.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 0.77
+coordinates 7, 1, 0.77
+rotate 0,1,0,-9.0
+translate 0.75,-0.2,6.25
+[MeshBuilder] ; Mancorrente - tratto 2
+Cube 0.05,0.05,3.2
+Color 101,76,72
+rotate 0,1,0,-2.0
+translate 1.45,1.0,9.6
+[MeshBuilder]
+Cube 0.05,0.6,0.05
+Color 101,76,72
+rotate 0,1,0,-2.0
+translate 1.45,0.4,9.6
+[MeshBuilder]
+Cube 0.05,0.6,0.05
+Color 101,76,72
+rotate 0,1,0,-2.0
+translate 1.35,0.4,12.75
+[MeshBuilder] ; Muro sporgente - tratto 2
+vertex 0 ,  0.4 , 0
+vertex 0 ,  0.4 , -6.5
+vertex 0 , -0.2 , -6.5
+vertex 0 , -0.2 , 0
+vertex 0.8 , 0.4 , 0
+vertex 0.8 , 0.4 , -6.5
+vertex 0.8 , -0.2 , 0
+vertex 0.8 , -0.2 , -6.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre4.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 0.77
+coordinates 7, 1, 0.77
+rotate 0,1,0,-2
+translate 0.55,-0.2,12.5
+
+[MeshBuilder] ; Mancorrente - tratto 3
+Cube 0.05,0.05,3.35
+Color 101,76,72
+rotate 0,1,0,3.75
+translate 1.55,1.0,16.2
+[MeshBuilder]
+Cube 0.05,0.6,0.05
+Color 101,76,72
+rotate 0,1,0,3.75
+translate 1.55,0.4,16.2
+[MeshBuilder] ; Muro sporgente - tratto 3
+vertex 0 ,  0.4 , 0
+vertex 0 ,  0.4 , -6.2
+vertex 0 , -0.2 , -6.2
+vertex 0 , -0.2 , 0
+vertex 0.8 , 0.4 , 0
+vertex 0.8 , 0.4 , -6.2
+vertex 0.8 , -0.2 , 0
+vertex 0.8 , -0.2 , -6.2
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre4.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 0.77
+coordinates 7, 1, 0.77
+rotate 0,1,0,3.75
+translate 0.95,-0.2,18.7
+
+[MeshBuilder] ; Mancorrente - tratto 4
+Cube 0.05,0.05,2.4
+Color 101,76,72
+rotate 0,1,0,9.5
+translate 2.15,1.0,21.7
+
+[MeshBuilder]
+Cube 0.05,0.6,0.05
+Color 101,76,72
+rotate 0,1,0,9.5
+translate 1.8,0.4,19.5
+[MeshBuilder]
+Cube 0.05,0.6,0.05
+Color 101,76,72
+rotate 0,1,0,9.5
+translate 2.2,0.4,22
+[MeshBuilder]
+Cube 0.05,0.6,0.05
+Color 101,76,72
+rotate 0,1,0,9.5
+translate 2.6,0.4,24.2
+
+
+
+[MeshBuilder] ; Muro sporgente - tratto 4
+vertex 0 ,  0.4 , 0
+vertex 0 ,  0.4 , -6.5
+vertex 0 , -0.2 , -6.5
+vertex 0 , -0.2 , 0
+vertex 0.8 , 0.4 , 0
+vertex 0.8 , 0.4 , -6.5
+vertex 0.8 , -0.2 , 0
+vertex 0.8 , -0.2 , -6.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre4.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 0.77
+coordinates 7, 1, 0.77
+rotate 0,1,0,7.5
+translate 1.77,-0.2,25
+

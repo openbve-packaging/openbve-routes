@@ -1,0 +1,37 @@
+;81-717 motorkocsi világítás
+;Készítette: http://www.bvemetro.hu/
+
+;------------------------
+;Fényszórók elöl
+[MeshBuilder]
+Vertex  0.74,1.55,00.14
+Vertex  0.74,1.73,00.14
+Vertex  0.92,1.73,00.14
+Vertex  0.92,1.55,00.14
+Vertex -0.92,1.55,00.14
+Vertex -0.92,1.73,00.14
+Vertex -0.74,1.73,00.14
+Vertex -0.74,1.55,00.14
+Face 00,01,02,03
+Face 04,05,06,07
+[Texture]
+Load 81_kl01e.bmp
+Coordinates 00,0,1
+Coordinates 01,0,0
+Coordinates 02,1,0
+Coordinates 03,1,1
+Coordinates 04,0,1
+Coordinates 05,0,0
+Coordinates 06,1,0
+Coordinates 07,1,1
+Transparent 255,0,0
+[MeshBuilder]
+Cylinder 16,0.11,0.11,0.08
+Color 48,48,48
+Rotate 1,0,0,90
+Translate 0.83,1.64,0.19
+[MeshBuilder]
+Cylinder 16,0.11,0.11,0.08
+Color 48,48,48
+Rotate 1,0,0,90
+Translate -0.83,1.64,0.19

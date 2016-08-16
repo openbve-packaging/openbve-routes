@@ -1,0 +1,313 @@
+;Kút
+
+[meshbuilder]
+vertex  1,0,0
+vertex -1,0,0
+vertex -1,0,2
+vertex  1,0,2
+face 0,1,2,3
+
+load kerites.jpg
+Coordinates 0,12,1
+Coordinates 1,0, 1
+Coordinates 2,0, 0
+Coordinates 3,12,0
+
+;kút végei
+
+;vége
+
+[meshbuilder]
+vertex  1,0,   0
+vertex -1,0,   0
+vertex -1,1.12,0
+vertex  1,1.12,0
+face2 0,1,2,3
+
+load kerites.jpg
+Coordinates 0,12,1
+Coordinates 1,0, 1
+Coordinates 2,0, 0
+Coordinates 3,12,0
+;transparent 0,0,0,
+
+[meshbuilder]
+vertex  1,0,   2
+vertex -1,0,   2
+vertex -1,1.12,2
+vertex  1,1.12,2
+face2 0,1,2,3
+
+load kerites.jpg
+Coordinates 0,12,1
+Coordinates 1,0, 1
+Coordinates 2,0, 0
+Coordinates 3,12,0
+;transparent 0,0,0,
+
+;kút oldali 
+
+[meshbuilder]
+vertex -1,0,   0
+vertex -1,1.12,0
+vertex -1,1.12,2
+vertex -1,0,   2
+face2 0,1,2,3
+
+load kerites.jpg
+Coordinates 0,12,1
+Coordinates 1,12,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+;transparent 0,0,0,
+
+[meshbuilder]
+vertex 1,0,   0
+vertex 1,1.12,0
+vertex 1,1.12,2
+vertex 1,0,   2
+face2 0,1,2,3
+
+load kerites.jpg
+Coordinates 0,12,1
+Coordinates 1,12,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+;transparent 0,0,0,
+
+;tetõ
+
+[meshbuilder] 
+vertex  1.1,1.1,-0.05
+vertex -1.1,1.1,-0.05
+vertex -1.1,1.6, 1
+vertex  1.1,1.6, 1
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+
+[meshbuilder]
+vertex  1.1,1.1,2.05
+vertex -1.1,1.1,2.05
+vertex -1.1,1.6,1
+vertex  1.1,1.6,1
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+
+;tetõ oldali 
+
+[meshbuilder]
+vertex -1.099,1.2, 0.31
+vertex -1.099,1.1, 0.075
+vertex -1.099,1.1, 1.92
+vertex -1.099,1.2, 1.72
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[meshbuilder]
+vertex -1.1, 1.1,-0.05
+vertex -1,   1.1,-0.05
+vertex -1,   1.1, 2.05
+vertex -1.1, 1.1, 2.05
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;másik oldal
+
+[meshbuilder]
+vertex 1.099,1.2, 0.31
+vertex 1.099,1.1, 0.075
+vertex 1.099,1.1, 1.92
+vertex 1.099,1.2, 1.72
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+[meshbuilder]
+vertex 1.1, 1.1,-0.05
+vertex 1,   1.1,-0.05
+vertex 1,   1.1, 2.05
+vertex 1.1, 1.1, 2.05
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;háromszög+merevítõ
+
+[meshbuilder]
+vertex -1.1, 1.1, 0.075
+vertex -1.1, 1.1,-0.05
+vertex -1.1, 1.6, 1
+vertex -1.1, 1.5, 1
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[meshbuilder]
+vertex -1.1, 1.1, 1.925
+vertex -1.1, 1.1, 2.05
+vertex -1.1, 1.6, 1
+vertex -1.1, 1.5, 1
+face2 3,2,1,0
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[meshbuilder]
+vertex -1.099,1.2, 0.95
+vertex -1.099,1.51,0.95
+vertex -1.099,1.51,1.05
+vertex -1.099,1.2, 1.05
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;másik oldal
+
+[meshbuilder]
+vertex 1.1, 1.1, 0.075
+vertex 1.1, 1.1,-0.05
+vertex 1.1, 1.6, 1
+vertex 1.1, 1.5, 1
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[meshbuilder]
+vertex 1.1, 1.1, 1.925
+vertex 1.1, 1.1, 2.05
+vertex 1.1, 1.6, 1
+vertex 1.1, 1.5, 1
+face2 3,2,1,0
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[meshbuilder]
+vertex 1.099,1.2, 0.95
+vertex 1.099,1.51,0.95
+vertex 1.099,1.51,1.05
+vertex 1.099,1.2, 1.05
+face2 0,1,2,3
+
+load kutteto.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+;-------------kútkerék és részei
+
+
+[meshbuilder]
+vertex -1.1,0,  0.85
+vertex -1.1,1.1,0.85
+vertex -1.1,1.1,1.15
+vertex -1.1,0,  1.15
+face2 0,1,2,3
+
+load rozsda.jpg
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[meshbuilder]
+vertex -1.01,0,   0.85
+vertex -1.1, 0,   0.85
+vertex -1.1, 1.14,0.85
+vertex -1.01,1.14,0.85
+face2 0,1,2,3
+
+load rozsda.jpg
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+
+[meshbuilder]
+vertex -1.01,0,   1.15
+vertex -1.1, 0,   1.15
+vertex -1.1, 1.14,1.15
+vertex -1.01,1.14,1.15
+face2 0,1,2,3
+
+load rozsda.jpg
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+
+;kerék tartója
+
+;[MeshBuilder]
+;Cylinder 32,0.02,0.02,0.05
+;Color 150,150,150
+;Rotate 0,0,2,90
+;Translate -1.125,0.8,1
+
+;kerék
+
+[meshbuilder]
+vertex -1.15,0.4,0.55
+vertex -1.15,1.3,0.55
+vertex -1.15,1.3,1.45
+vertex -1.15,0.4,1.45
+face2 0,1,2,3
+
+load kerek.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,0,
+
+
+

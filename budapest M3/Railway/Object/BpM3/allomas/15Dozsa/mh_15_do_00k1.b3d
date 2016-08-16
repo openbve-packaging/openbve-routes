@@ -1,0 +1,1195 @@
+;Dózsa György út megállóhely 00 korlát 1
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+
+;oszlopok közötti korlát
+
+[MeshBuilder]
+Vertex -2.15,-0.17,01.75
+Vertex -2.15, 1.00,01.75
+Vertex -2.15, 1.00,21.25
+Vertex -2.15,-0.17,21.25
+Face2 0,1,2,3
+[Texture]
+Load mh_15_do_korlat_01.bmp
+Coordinates 00,1,1
+Coordinates 01,1,0
+Coordinates 02,0,0
+Coordinates 03,0,1
+transparent 0,0,255
+
+;----------------------
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,2.3
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,2.3
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,3.15
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,3.15
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,4.0
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,4.0
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,4.85
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,4.85
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,5.7
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,5.7
+
+;----------------------
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,7.3
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,7.3
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,8.15
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,8.15
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,9.0
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,9.0
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,9.85
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,9.85
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,10.7
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,10.7
+
+;----------------------
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,12.3
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,12.3
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,13.15
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,13.15
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,14.0
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,14.0
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,14.85
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,14.85
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,15.7
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,15.7
+
+;----------------------
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,17.3
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,17.3
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,18.15
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,18.15
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,19.0
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,19.0
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,19.85
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,19.85
+
+[MeshBuilder]
+Vertex -0.06,0.02,-0.37
+Vertex -0.04,0.00,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Face 0,3,2,1
+Face 4,5,6,7
+Face 0,4,7,3
+[Texture]
+Load Mh_15_do_korlat_02.bmp
+Coordinates 0,0.00,0.95
+Coordinates 1,0.17,1.00
+Coordinates 2,0.83,1.00
+Coordinates 3,1.00,0.95
+Coordinates 4,0.00,0.05
+Coordinates 5,0.17,0.00
+Coordinates 6,0.83,0.00
+Coordinates 7,1.00,0.05
+Translate -2.15,0.00,20.7
+
+[MeshBuilder]
+Vertex -0.06,0.83,-0.37
+Vertex -0.04,0.85,-0.37
+Vertex  0.04,0.85,-0.37
+Vertex  0.06,0.83,-0.37
+Vertex  0.06,0.02,-0.37
+Vertex  0.04,0.00,-0.37
+Vertex -0.06,0.83,0.37
+Vertex -0.04,0.85,0.37
+Vertex  0.04,0.85,0.37
+Vertex  0.06,0.83,0.37
+Vertex  0.06,0.02,0.37
+Vertex  0.04,0.00,0.37
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+[Texture]
+Load Mh_15_do_korlat_03.bmp
+Coordinates 00,0,0.00
+Coordinates 01,0,0.05
+Coordinates 02,0,0.15
+Coordinates 03,0,0.20
+Coordinates 04,0,0.95
+Coordinates 05,1,1.00
+Coordinates 06,1,0.00
+Coordinates 07,1,0.05
+Coordinates 08,1,0.15
+Coordinates 09,1,0.20
+Coordinates 10,1,0.95
+Coordinates 11,1,1.00
+Translate -2.15,0.00,20.7
+
+;----------------------
+
+
+
+

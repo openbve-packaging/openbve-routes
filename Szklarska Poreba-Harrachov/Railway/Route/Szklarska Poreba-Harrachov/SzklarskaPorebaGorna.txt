@@ -1,0 +1,170 @@
+0
+	.Sta Szklarska Poreba Gorna; ; 16.3500; ; -1;;;;;;; 0
+	.Height 0.4
+	.Limit 40;0;0
+	.brightness 255
+	.Ground 2
+	.RailStart 1;4.5;0;1
+	.RailStart 2;-8.175;0;0
+	.Railtype 0;0
+	.FreeObj 0;15;-3;0;0
+	.Marker Szklarska Poreba-Harrachov\Signs\szklarskaporebagorna.png; -250
+25,
+	.RailStart 3;-12.675; 0; 0
+	.RailStart 4;-17.175; 0; 0
+	.RailStart 5;-21.675; 0; 0
+	.FreeObj 1;13;0.7;0;180
+	.FreeObj 5;121;-5.6;0;0
+35,
+	.Stop 0;;;;4
+	.FreeObj 0;1;-4.3;0;0
+
+50,	.FreeObj 1;13;0.7;0;187
+	.FreeObj 1;4;0;0;0
+	.Railtype 1;4
+	.FreeObj (5; 121; -5.6; 0; 0)
+65
+	.Section 0;2;4
+	.SigF 3;0;-3;0
+72
+	.FreeObj (0; 37; -3; -1.8; 0)
+72.8
+	.FreeObj (0; 37; 4.5; -1.8; 0)
+75,	
+	.Rail 1; 2.25
+	.FreeObj (5; 121; -5.6; 0; 0)
+	.curve -150
+	.Railtype 0;4
+	.Rail 3;-12.675;0;2
+	.Rail 4;-17.175;0;3
+	.Rail 5;-21.675;0;3
+	.FreeObj (1; 13; 1.6; 0; 187)
+	.FreeObj (5; 124; -4.8; 0.5; 180)
+	.FreeObj (5; 124; -4.8; 0.8; 180)
+	.FreeObj (5; 124; -4.8; 1.1; 180)
+	.FreeObj (5; 124; -4.8; 1.4; 180)
+98.2,
+	.FreeObj (1; 180; 0; 0; 0)
+100,	
+	.FreeObj (0; 132; -34; 0; 180)
+	.FreeObj (5; 131; -5.6; 0; 0)
+	.curve 0
+	.Rail 1;0 
+	.Rail 2;-6.20;0;1
+	.Rail 3;-10.75;0;2
+	.Rail 4;-15.25;0;3
+	.Rail 5;-19.80;0;3
+	.FreeObj (1; 12; 0.08; 0; 179.84)
+	.FreeObj (0; 13; 3.9; 0; 185)
+	.FreeObj (0; 241; 0.08; 0; 0.36)
+	.FreeObj (0; 47; -45; -0.5; 90)
+	.FreeObj (0; 47; -60; -0.5; 90)
+115
+	.FreeObj (0; 125; -21.5; 0.1;270)
+125,
+	.FreeObj (2; 220; -4; 0; 0)
+	.FreeObj (2; 219; -6; 0; 0)
+	.FreeObj (0; 132; -31; 0; 180)
+	.FreeObj (5; 131; -5.6; 0; 0)
+	.curve 150
+	.Rail 1; 0
+	.Rail 2;-2.00
+	.Rail 3;-6.50
+	.Rail 4;-11.00
+	.Rail 5;-15.50
+	.FreeObj (0; 13; 7; 0; 183)
+	.FreeObj (0; 126; -17; 0.3;7)
+	.railtype 2;4
+127.5
+	.FreeObj (5; 127; 0; 0;0)
+131
+	.FreeObj (0; 126; -16.3; 0.3;7)
+137
+	.FreeObj (0; 126; -15.5; 0.3;7)
+	.FreeObj (0; 23; 5; -0.5; 45)
+140
+	.FreeObj (5; 127; 0; 0;0)
+145
+	.FreeObj (0; 126; -15; 0.3;7)
+148
+	.FreeObj (0; 128; -3; -0.2; 0)
+149,
+	.FreeObj (2; 239; 0; 0; 0)
+	.FreeObj (0; 129; -7; -0.15; 0)
+150,
+	.FreeObj (0; 132; -27.5; 0; 180)
+	.FreeObj (0; 130; -5; -0.2; 0)
+	.FreeObj (0; 121; -19.1; 0; 0)
+	.curve 0
+	.Railtype 0;0
+	.Railend 1
+	.Railend 2;0;0;4
+	.Rail 3;-4.5
+	.Rail 4;-9
+	.Rail 5;-13.5;;11
+	.FreeObj (0; 11; 0; 0; 179.82)
+	.FreeObj (0; 13; 7; 0; 175.26)
+162
+	.FreeObj (0; 136; 2.9; -0.5;0)
+165
+	.FreeObj (0; 37; -13; -2; 0)
+169
+	.FreeObj (0; 126; -14; 0;0)
+175,	
+	.FreeObj (0; 132; -27.5; 0; 180)
+	.FreeObj (0; 121; -19.1; 0; 0)
+	.Railend 4
+	.Rail 5;-11.25;;4
+	.FreeObj (0; 13; 4; 0; 173.26)
+	.FreeObj (0; 47; -34; -0.5; 90)
+	.FreeObj (0; 47; -45; -1.5; 90)
+	.FreeObj (0; 126; -14; 0;0)
+180
+	.FreeObj (0; 135; -2.5; 0; 180)
+192
+	.FreeObj (0; 133; -20; 0; 0)
+195
+	.FreeObj (0; 23; -13; -0.5; 45)
+198.5,
+	.FreeObj (5; 180; 0; 0; 180)
+200,
+	.Railend 3
+	.Rail 5;-6.8
+	.FreeObj (0; 13; 0.8; 0; 172.84)
+	.FreeObj (5; 11; 0; 0; 179.84)
+	.FreeObj (0; 132; -22; 0; 180)
+215
+	.FreeObj (0; 25; 3; -0.3; 45)
+	.FreeObj (0; 134; -20; 2.1; 0)
+	.FreeObj (0; 37; -10; -2; 0)
+223.5,
+	.FreeObj (5; 180; 0; 0; 180)
+225
+	.FreeObj (0; 123; -20; -0.3; 180)
+	.Rail 5;-2.25
+	.FreeObj (5; 11; 0; 0; 185.16)
+	.FreeObj (0; 13; 0.75; 0; 180.26)
+	.FreeObj (0; 122; -20; -0.3; 25)
+	.FreeObj (0; 132; -22; 3; 180)
+	.Railtype 0;4
+230
+	.FreeObj (0; 27; -10; -0.5; 45)
+240
+	.FreeObj (0; 24; -9; -1.5; 45)
+	.FreeObj (0; 132; -16.5; 3; 200)
+243
+	.FreeObj (0; 24; -8; -1.5; 45)
+246
+	.FreeObj (0; 24; -6; -3; 45)
+247
+	.FreeObj (0; 25; 5.4; -0.9; 15)
+249,
+	.FreeObj (0; 239; 0; 0; 0)
+250,
+	.Railtype 0;0
+	.FreeObj (0; 47; -34; -0.5; 90)
+	.FreeObj (0; 47; -50; -1; 90)
+	.FreeObj (0; 13; 0.75; 0; 180.26)
+	.Railend 5;0
+	.FreeObj 0;10;0;0;180
+	.Limit 50;0;0

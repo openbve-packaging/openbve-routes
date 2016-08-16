@@ -1,0 +1,79 @@
+; (c) pre-zli
+;Átalakította: mamutsegg
+
+[Meshbuilder]
+Vertex 1.4, 0.3, 25
+Vertex 1.4, 0.3, -25
+Vertex 1.4, -0.3, -25
+Vertex 1.4, -0.3, 25
+Vertex 1.5, 0.3, 25
+Vertex 1.5, 0.3, -25
+Vertex 6, 0.3, 25
+Vertex 6, 0.3, -25
+Vertex 6, -0.3, -25
+Vertex 6, -0.3, 25
+Vertex 5.9, 0.3, 25
+Vertex 5.9, 0.3, -25
+Face 0, 1, 2, 3
+Face 0, 4, 5, 1
+Face 9, 8, 7, 6
+Face 7, 11, 10, 6
+[Texture]
+Load peronszel0.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 70, 1
+Coordinates 2, 70, 3
+Coordinates 3, 0, 3
+Coordinates 4, 0, 0
+Coordinates 5, 70, 0
+Coordinates 6, 0, 1
+Coordinates 7, 70, 1
+Coordinates 8, 70, 3
+Coordinates 9, 0, 3
+Coordinates 10, 0, 0
+Coordinates 11, 70, 0
+
+[Meshbuilder]
+Vertex 1.4, 0.3, -25
+Vertex 6, 0.3, -25
+Vertex 6, -0.3, -25
+Vertex 1.4, -0.3, -25
+Vertex 1.4, 0.3, -24.9
+Vertex 6, 0.3, -24.9
+Vertex 1.4, 0.3, 25
+Vertex 6, 0.3, 25
+Vertex 6, -0.3, 25
+Vertex 1.4, -0.3, 25
+Vertex 1.4, 0.3, 24.9
+Vertex 6, 0.3, 24.9
+Face 0, 1, 2, 3
+Face 4, 5, 1, 0
+Face 9, 8, 7, 6
+Face 6, 7, 11, 10
+[Texture]
+Load peronszel0.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 6, 1
+Coordinates 2, 6, 3
+Coordinates 3, 0, 3
+Coordinates 4, 0, 0
+Coordinates 5, 6, 0
+Coordinates 6, 0, 1
+Coordinates 7, 6, 1
+Coordinates 8, 6, 3
+Coordinates 9, 0, 3
+Coordinates 10, 0, 0
+Coordinates 11, 6, 0
+
+[Meshbuilder]
+Vertex 1.5, 0.3, 24.9
+Vertex 5.9, 0.3, 24.9
+Vertex 5.9, 0.3, -24.9
+Vertex 1.5, 0.3, -24.9
+Face 0, 1, 2, 3
+[Texture]
+Load beton0.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 17
+Coordinates 3, 0, 17

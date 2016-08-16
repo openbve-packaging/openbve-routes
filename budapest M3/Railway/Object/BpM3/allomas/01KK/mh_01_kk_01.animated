@@ -1,0 +1,8 @@
+﻿[Object]
+States = mh_01_kk_01.b3d
+
+[Object]
+Position = 0,-0.15,0.328
+States = mh_01_kk_01_mgl.b3d
+TranslateXDirection = 0, 0.15, -0.328
+TranslateXFunction = (mod[time, 1] - 0.5) * 1

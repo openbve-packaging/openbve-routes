@@ -1,0 +1,687 @@
+; (c) pre-zli
+
+;						Kerekek
+[Meshbuilder] ;					bal elso kerek
+Cylinder 24, 0.458, 0.458, 0.1
+Rotate 0, 0, 1, 90
+Color 119, 100, 67
+Translate -0.77, 0.458, 1.5
+[Meshbuilder] ;					bal elso nyomkoszoru
+Cylinder 24, 0.528, 0.528, 0.04
+Rotate 0, 0, 1, 90
+Color 90, 75, 50
+Translate -0.718, 0.458, 1.5
+[Meshbuilder] ;					jobb elso kerek
+Cylinder 24, 0.458, 0.458, 0.1
+Rotate 0, 0, 1, 90
+Color 119, 100, 67
+Translate 0.77, 0.458, 1.5
+[Meshbuilder] ;					jobb elso nyomkoszoru
+Cylinder 24, 0.528, 0.528, 0.04
+Rotate 0, 0, 1, 90
+Color 90, 75, 50
+Translate 0.718, 0.458, 1.5
+[Meshbuilder] ;					elso tengely
+Cylinder 24, 0.1, 0.1, 1.44
+Rotate 0, 0, 1, 90
+Color 60, 50, 33
+Translate 0, 0.458, 1.5
+[Meshbuilder] ;					bal hatso kerek
+Cylinder 24, 0.458, 0.458, 0.1
+Rotate 0, 0, 1, 90
+Color 119, 100, 67
+Translate -0.77, 0.458, 4.5
+[Meshbuilder] ;					bal hatso nyomkoszoru
+Cylinder 24, 0.528, 0.528, 0.04
+Rotate 0, 0, 1, 90
+Color 90, 75, 50
+Translate -0.718, 0.458, 4.5
+[Meshbuilder] ;					jobb hatso kerek
+Cylinder 24, 0.458, 0.458, 0.1
+Rotate 0, 0, 1, 90
+Color 119, 100, 67
+Translate 0.77, 0.458, 4.5
+[Meshbuilder] ;					jobb hatso nyomkoszoru
+Cylinder 24, 0.528, 0.528, 0.04
+Rotate 0, 0, 1, 90
+Color 90, 75, 50
+Translate 0.718, 0.458, 4.5
+[Meshbuilder] ;					hatso tengely
+Cylinder 24, 0.1, 0.1, 1.44
+Rotate 0, 0, 1, 90
+Color 60, 50, 33
+Translate 0, 0.458, 4.5
+
+;						fenéklemez
+[Meshbuilder]
+Cube 1.04, 0.05, 3
+Color 0, 0, 0
+Translate 0, 0.9, 3
+
+;						vedoracsok
+[Meshbuilder]
+Cube 0.05, 0.065, 2.05
+Color 106, 95, 63
+Translate -0.9, 0.12, 3
+[Meshbuilder]
+Cube 0.05, 0.065, 0.22
+Color 106, 95, 63
+Rotate 0, 1, 0, -45
+Translate -0.76, 0.12, 0.83
+[Meshbuilder]
+Cube 0.05, 0.065, 0.22
+Color 106, 95, 63
+Rotate 0, 1, 0, 45
+Translate -0.76, 0.12, 5.17
+
+[Meshbuilder]
+Cube 0.05, 0.065, 2.05
+Color 106, 95, 63
+Translate 0.9, 0.12, 3
+[Meshbuilder]
+Cube 0.05, 0.065, 0.22
+Color 106, 95, 63
+Rotate 0, 1, 0, 45
+Translate 0.76, 0.12, 0.83
+[Meshbuilder]
+Cube 0.05, 0.065, 0.22
+Color 106, 95, 63
+Rotate 0, 1, 0, -45
+Translate 0.76, 0.12, 5.17
+
+;						felfuggesztesek
+[Meshbuilder]
+Cube 0.1, 0.123, 0.092
+Color 78, 56, 33
+Translate -0.92, 0.458, 1.5
+[Meshbuilder]
+Cube 0.05, 0.34, 0.033
+Color 78, 56, 33
+Translate -0.9, 0.52, 1.375
+[Meshbuilder]
+Cube 0.05, 0.34, 0.033
+Color 78, 56, 33
+Translate -0.9, 0.52, 1.625
+[Meshbuilder]
+Cube 0.1, 0.14, 0.033
+Color 78, 56, 33
+Translate -0.92, 0.6, 1.5
+
+[Meshbuilder]
+Cube 0.1, 0.123, 0.092
+Color 78, 56, 33
+Translate 0.92, 0.458, 1.5
+[Meshbuilder]
+Cube 0.05, 0.34, 0.033
+Color 78, 56, 33
+Translate 0.9, 0.52, 1.375
+[Meshbuilder]
+Cube 0.05, 0.34, 0.033
+Color 78, 56, 33
+Translate 0.9, 0.52, 1.625
+[Meshbuilder]
+Cube 0.1, 0.14, 0.033
+Color 78, 56, 33
+Translate 0.92, 0.6, 1.5
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05, 2.02
+Rotate 0, 0, 1, 90
+Color 68, 63, 43
+Translate 0, 0.774, 0.95
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05, 2.02
+Rotate 0, 0, 1, 90
+Color 68, 63, 43
+Translate 0, 0.774, 2.05
+[Meshbuilder]
+Vertex -1, 0.774, 0.9
+Vertex -1, 0.74, 1.35
+Vertex -1, 0.62, 1.25
+Vertex -1, 0.74, 1.65
+Vertex -1, 0.62, 1.75
+Vertex -1, 0.774, 2.1
+Face2 0, 1, 2
+Face2 1, 2, 4, 3
+Face2 3, 4, 5
+Color 28, 26, 13
+[Meshbuilder]
+Vertex 1, 0.774, 0.9
+Vertex 1, 0.74, 1.35
+Vertex 1, 0.62, 1.25
+Vertex 1, 0.74, 1.65
+Vertex 1, 0.62, 1.75
+Vertex 1, 0.774, 2.1
+Face2 0, 1, 2
+Face2 1, 2, 4, 3
+Face2 3, 4, 5
+Color 28, 26, 13
+
+[Meshbuilder]
+Cube 0.1, 0.123, 0.092
+Color 78, 56, 33
+Translate -0.92, 0.458, 4.5
+[Meshbuilder]
+Cube 0.05, 0.34, 0.033
+Color 78, 56, 33
+Translate -0.9, 0.52, 4.375
+[Meshbuilder]
+Cube 0.05, 0.34, 0.033
+Color 78, 56, 33
+Translate -0.9, 0.52, 4.625
+[Meshbuilder]
+Cube 0.1, 0.14, 0.033
+Color 78, 56, 33
+Translate -0.92, 0.6, 4.5
+
+[Meshbuilder]
+Cube 0.1, 0.123, 0.092
+Color 78, 56, 33
+Translate 0.92, 0.458, 4.5
+[Meshbuilder]
+Cube 0.05, 0.34, 0.033
+Color 78, 56, 33
+Translate 0.9, 0.52, 4.375
+[Meshbuilder]
+Cube 0.05, 0.34, 0.033
+Color 78, 56, 33
+Translate 0.9, 0.52, 4.625
+[Meshbuilder]
+Cube 0.1, 0.14, 0.033
+Color 78, 56, 33
+Translate 0.92, 0.6, 4.5
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05, 2.02
+Rotate 0, 0, 1, 90
+Color 68, 63, 43
+Translate 0, 0.774, 3.95
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05, 2.02
+Rotate 0, 0, 1, 90
+Color 68, 63, 43
+Translate 0, 0.774, 5.05
+[Meshbuilder]
+Vertex -1, 0.774, 3.9
+Vertex -1, 0.74, 4.35
+Vertex -1, 0.62, 4.25
+Vertex -1, 0.74, 4.65
+Vertex -1, 0.62, 4.75
+Vertex -1, 0.774, 5.1
+Face2 0, 1, 2
+Face2 1, 2, 4, 3
+Face2 3, 4, 5
+Color 28, 26, 13
+[Meshbuilder]
+Vertex 1, 0.774, 3.9
+Vertex 1, 0.74, 4.35
+Vertex 1, 0.62, 4.25
+Vertex 1, 0.74, 4.65
+Vertex 1, 0.62, 4.75
+Vertex 1, 0.774, 5.1
+Face2 0, 1, 2
+Face2 1, 2, 4, 3
+Face2 3, 4, 5
+Color 28, 26, 13
+
+;						fekpofak
+[Meshbuilder]
+Cylinder 8, 0.03, 0.03, 1.6
+Rotate 0, 0, 1, 90
+Color 34, 37, 30
+Translate 0, 0.458, 0.9
+[Meshbuilder]
+Cylinder 8, 0.03, 0.03, 1.6
+Rotate 0, 0, 1, 90
+Color 34, 37, 30
+Translate 0, 0.458, 2.1
+
+[Meshbuilder]
+Cylinder 8, 0.03, 0.03, 1.6
+Rotate 0, 0, 1, 90
+Color 34, 37, 30
+Translate 0, 0.458, 3.9
+[Meshbuilder]
+Cylinder 8, 0.03, 0.03, 1.6
+Rotate 0, 0, 1, 90
+Color 34, 37, 30
+Translate 0, 0.458, 5.1
+
+[Meshbuilder]
+Cube 0.04, 0.146, 0.05
+Color 101, 70, 42
+Translate -0.77, 0.458, 1.05
+[Meshbuilder]
+Cube 0.04, 0.146, 0.05
+Color 101, 70, 42
+Translate -0.77, 0.458, 1.95
+
+[Meshbuilder]
+Cube 0.04, 0.146, 0.05
+Color 101, 70, 42
+Translate 0.77, 0.458, 1.05
+[Meshbuilder]
+Cube 0.04, 0.146, 0.05
+Color 101, 70, 42
+Translate 0.77, 0.458, 1.95
+
+[Meshbuilder]
+Cube 0.04, 0.146, 0.05
+Color 101, 70, 42
+Translate -0.77, 0.458, 4.05
+[Meshbuilder]
+Cube 0.04, 0.146, 0.05
+Color 101, 70, 42
+Translate -0.77, 0.458, 4.95
+
+[Meshbuilder]
+Cube 0.04, 0.146, 0.05
+Color 101, 70, 42
+Translate 0.77, 0.458, 4.05
+[Meshbuilder]
+Cube 0.04, 0.146, 0.05
+Color 101, 70, 42
+Translate 0.77, 0.458, 4.95
+
+[Meshbuilder]
+Vertex -0.77, 0.458, 0.9
+Vertex -0.77, 0.614, 1
+Vertex -0.77, 0.312, 1
+Face2 0, 1, 2
+Color 123, 104, 72
+[Meshbuilder]
+Vertex -0.77, 0.458, 2.1
+Vertex -0.77, 0.614, 2
+Vertex -0.77, 0.312, 2
+Face2 0, 1, 2
+Color 123, 104, 72
+
+[Meshbuilder]
+Vertex 0.77, 0.458, 0.9
+Vertex 0.77, 0.614, 1
+Vertex 0.77, 0.312, 1
+Face2 0, 1, 2
+Color 123, 104, 72
+[Meshbuilder]
+Vertex 0.77, 0.458, 2.1
+Vertex 0.77, 0.614, 2
+Vertex 0.77, 0.312, 2
+Face2 0, 1, 2
+Color 123, 104, 72
+
+[Meshbuilder]
+Vertex -0.77, 0.458, 3.9
+Vertex -0.77, 0.614, 4
+Vertex -0.77, 0.312, 4
+Face2 0, 1, 2
+Color 123, 104, 72
+[Meshbuilder]
+Vertex -0.77, 0.458, 5.1
+Vertex -0.77, 0.614, 5
+Vertex -0.77, 0.312, 5
+Face2 0, 1, 2
+Color 123, 104, 72
+
+[Meshbuilder]
+Vertex 0.77, 0.458, 3.9
+Vertex 0.77, 0.614, 4
+Vertex 0.77, 0.312, 4
+Face2 0, 1, 2
+Color 123, 104, 72
+[Meshbuilder]
+Vertex 0.77, 0.458, 5.1
+Vertex 0.77, 0.614, 5
+Vertex 0.77, 0.312, 5
+Face2 0, 1, 2
+Color 123, 104, 72
+
+;						letrak
+[Meshbuilder]
+Cylinder 6, 0.02, 0.02, 0.422
+Color 95, 88, 62
+Translate -0.95, 0.639, 2.5
+[Meshbuilder]
+Cylinder 6, 0.02, 0.02, 0.422
+Color 95, 88, 62
+Translate -0.95, 0.639, 2.75
+[Meshbuilder]
+Vertex -0.9, 0.428, 2.45
+Vertex -0.9, 0.428, 2.8
+Vertex -1.04, 0.428, 2.8
+Vertex -1.04, 0.428, 2.45
+Face2 0, 1, 2, 3
+Color 139, 130, 99
+[Meshbuilder]
+Vertex -0.9, 0.71, 2.45
+Vertex -0.9, 0.71, 2.8
+Vertex -1.04, 0.71, 2.8
+Vertex -1.04, 0.71, 2.45
+Face2 0, 1, 2, 3
+Color 139, 130, 99
+
+[Meshbuilder]
+Cylinder 6, 0.02, 0.02, 0.422
+Color 95, 88, 62
+Translate 0.95, 0.639, 3.5
+[Meshbuilder]
+Cylinder 6, 0.02, 0.02, 0.422
+Color 95, 88, 62
+Translate 0.95, 0.639, 3.25
+[Meshbuilder]
+Vertex 0.9, 0.428, 3.5
+Vertex 0.9, 0.428, 3.2
+Vertex 1.04, 0.428, 3.2
+Vertex 1.04, 0.428, 3.5
+Face2 0, 1, 2, 3
+Color 139, 130, 99
+[Meshbuilder]
+Vertex 0.9, 0.71, 3.5
+Vertex 0.9, 0.71, 3.2
+Vertex 1.04, 0.71, 3.2
+Vertex 1.04, 0.71, 3.5
+Face2 0, 1, 2, 3
+Color 139, 130, 99
+
+;						csatlakozok
+[Meshbuilder]
+Cylinder 8, 0.04, 0.04, 7.2
+Color 49, 36, 30
+Rotate 1, 0, 0, 90
+Translate 0, 0.674, 3
+[Meshbuilder]
+Cylinder 16, 0.155, 0.155, 0.05
+Color 49, 36, 30
+Rotate 1, 0, 0, 90
+Translate 0, 0.674, -0.575
+[Meshbuilder]
+Cylinder 8, 0.077, 0.041, 0.23
+Color 49, 36, 30
+Rotate 1, 0, 0, -90
+Translate 0, 0.674, -0.44
+[Meshbuilder]
+Cylinder 16, 0.155, 0.155, 0.05
+Color 49, 36, 30
+Rotate 1, 0, 0, 90
+Translate 0, 0.674, 6.575
+[Meshbuilder]
+Cylinder 8, 0.077, 0.041, 0.23
+Color 49, 36, 30
+Rotate 1, 0, 0, 90
+Translate 0, 0.674, 6.44
+
+;						karosszeria oszlopok
+[Meshbuilder]
+Cube 1.02, 1.166, 0.05
+Color 135, 132, 115
+Translate 0, 2.116, 1
+[Meshbuilder]
+Cube 1.03, 1.166, 0.05
+Color 135, 132, 115
+Translate 0, 2.116, 2
+[Meshbuilder]
+Cube 1.03, 1.166, 0.05
+Color 135, 132, 115
+Translate 0, 2.116, 3
+[Meshbuilder]
+Cube 1.03, 1.166, 0.05
+Color 135, 132, 115
+Translate 0, 2.116, 4
+[Meshbuilder]
+Cube 1.03, 1.166, 0.05
+Color 135, 132, 115
+Translate 0, 2.116, 5
+
+[Meshbuilder]
+Cube 0.05, 1.223, 3
+Color 135, 132, 115
+Translate -0.35, 2.173, 3
+[Meshbuilder]
+Cube 0.05, 1.223, 3
+Color 135, 132, 115
+Translate 0.35, 2.173, 3
+
+[Meshbuilder]
+Cube 0.04, 1.166, 0.05
+Color 135, 132, 115
+Translate -0.99, 2.116, 0.05
+[Meshbuilder]
+Cube 0.04, 1.166, 0.05
+Color 135, 132, 115
+Translate 0.99, 2.116, 0.05
+[Meshbuilder]
+Cube 0.04, 1.166, 0.05
+Color 135, 132, 115
+Translate -0.99, 2.116, 5.95
+[Meshbuilder]
+Cube 0.04, 1.166, 0.05
+Color 135, 132, 115
+Translate 0.99, 2.116, 5.95
+
+;						kasztni
+[Meshbuilder]
+Vertex -1.01, 3.446, 0.03
+Vertex -1.01, 0.95, 0.03
+Vertex 1.01, 3.446, 0.03
+Vertex 1.01, 0.95, 0.03
+Vertex 1.01, 3.446, 5.97
+Vertex 1.01, 0.95, 5.97
+Vertex -1.01, 3.446, 5.97
+Vertex -1.01, 0.95, 5.97
+Face 0, 2, 3, 1
+Face 4, 6, 7, 5
+[Texture]
+Load muki7033.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 0.25, 0
+Coordinates 3, 0.25, 1
+Coordinates 4, 0, 0
+Coordinates 5, 0, 1
+Coordinates 6, 0.25, 0
+Coordinates 7, 0.25, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex -1.01, 3.282, 5.97
+Vertex -1.01, 0.95, 5.97
+Vertex -1.01, 3.282, 0.03
+Vertex -1.01, 0.95, 0.03
+Vertex 1.01, 3.282, 0.03
+Vertex 1.01, 0.95, 0.03
+Vertex 1.01, 3.282, 5.97
+Vertex 1.01, 0.95, 5.97
+Face 0, 2, 3, 1
+Face 4, 6, 7, 5
+[Texture]
+Load muki7033.bmp
+Coordinates 0, 0.25, 0
+Coordinates 1, 0.25, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0.25, 0
+Coordinates 5, 0.25, 1
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+
+;						teto
+[Meshbuilder]
+Vertex -1.04, 3.282, -0.183
+Vertex -1.04, 3.282, 6.183
+Vertex -0.35, 3.446, -0.183
+Vertex -0.35, 3.446, 6.183
+Vertex 0.35, 3.446, -0.183
+Vertex 0.35, 3.446, 6.183
+Vertex 1.04, 3.282, -0.183
+Vertex 1.04, 3.282, 6.183
+Vertex -1.04, 3.232, -0.183
+Vertex -1.04, 3.232, 6.183
+Vertex -0.35, 3.396, -0.183
+Vertex -0.35, 3.396, 6.183
+Vertex 0.35, 3.396, -0.183
+Vertex 0.35, 3.396, 6.183
+Vertex 1.04, 3.232, -0.183
+Vertex 1.04, 3.232, 6.183
+Face2 0, 1, 3, 2
+Face2 2, 3, 5, 4
+Face2 4, 5, 7, 6
+Face 9, 8, 10, 11
+Face 11, 10, 12, 13
+Face 13, 12, 14, 15
+Face 0, 2, 10, 8
+Face 2, 4, 12, 10
+Face 4, 6, 14, 12
+Face 7, 5, 13, 15
+Face 5, 3, 11, 13
+Face 3, 1, 9, 11
+Face 1, 0, 8, 9
+Face 6, 7, 15, 14
+Color 146, 151, 145
+
+;						tetoberendezesek
+[Meshbuilder]
+Cube 0.26, 0.06, 0.15
+Color 195, 196, 198
+Translate 0, 3.5, 0.05
+[Meshbuilder]
+Cube 0.26, 0.16, 0.19
+Color 195, 196, 198
+Translate 0, 3.5, 0.5
+[Meshbuilder]
+Cube 0.56, 0.16, 0.56
+Color 195, 196, 198
+Translate 0, 3.4, 1.5
+[Meshbuilder]
+Cube 0.56, 0.16, 0.56
+Color 195, 196, 198
+Translate 0, 3.45, 4.5
+[Meshbuilder]
+Cube 0.26, 0.16, 0.19
+Color 195, 196, 198
+Translate 0, 3.5, 5.5
+[Meshbuilder]
+Cube 0.26, 0.06, 0.15
+Color 195, 196, 198
+Translate 0, 3.5, 5.95
+
+;						aramszedo
+[Meshbuilder] ;				elso talp
+Cylinder 12, 0.03, 0.03, 1.2
+Color 172, 128, 115
+Rotate 0, 0, 1, 90
+Translate 0, 3.5, 2.75
+[Meshbuilder] ;				hatso talp
+Cylinder 12, 0.03, 0.03, 1.2
+Color 172, 128, 115
+Rotate 0, 0, 1, 90
+Translate 0, 3.5, 3.25
+[Meshbuilder] ;				elso also bal rud
+Cylinder 12, 0.03, 0.03, 1.458
+Color 172, 128, 115
+Rotate 1, 0, 0, -30.964
+Translate -0.6, 4.125, 2.375
+[Meshbuilder] ;				elso also jobb rud
+Cylinder 12, 0.03, 0.03, 1.458
+Color 172, 128, 115
+Rotate 1, 0, 0, -30.964
+Translate 0.6, 4.125, 2.375
+[Meshbuilder] ;				hatso also bal rud
+Cylinder 12, 0.03, 0.03, 1.458
+Color 172, 128, 115
+Rotate 1, 0, 0, 30.964
+Translate -0.6, 4.125, 3.625
+[Meshbuilder] ;				hatso also jobb rud
+Cylinder 12, 0.03, 0.03, 1.458
+Color 172, 128, 115
+Rotate 1, 0, 0, 30.964
+Translate 0.6, 4.125, 3.625
+[Meshbuilder] ;				elso felso bal rud
+Cylinder 12, 0.03, 0.03, 1.601
+Color 172, 128, 115
+Rotate 1, 0, 0, 38.66
+Translate -0.6, 5.375, 2.5
+[Meshbuilder] ;				elso felso jobb rud
+Cylinder 12, 0.03, 0.03, 1.601
+Color 172, 128, 115
+Rotate 1, 0, 0, 38.66
+Translate 0.6, 5.375, 2.5
+[Meshbuilder] ;				hatso felso bal rud
+Cylinder 12, 0.03, 0.03, 1.601
+Color 172, 128, 115
+Rotate 1, 0, 0, -38.66
+Translate -0.6, 5.375, 3.5
+[Meshbuilder] ;				hatso felso jobb rud
+Cylinder 12, 0.03, 0.03, 1.601
+Color 172, 128, 115
+Rotate 1, 0, 0, -38.66
+Translate 0.6, 5.375, 3.5
+[Meshbuilder] ;				elso keresztrud
+Cylinder 12, 0.03, 0.03, 2.001
+Color 172, 128, 115
+Rotate 0, 0, 1, 36.853
+Rotate 1, 0, 0, 38.66
+Translate 0, 5.375, 2.5
+[Meshbuilder] ;				hatso keresztrud
+Cylinder 12, 0.03, 0.03, 2.001
+Color 172, 128, 115
+Rotate 0, 0, 1, -36.853
+Rotate 1, 0, 0, -38.66
+Translate 0, 5.375, 3.5
+[Meshbuilder] ;				lap
+Cylinder 6, 0.03, 0.03, 0.3
+Color 172, 128, 115
+Rotate 1, 0, 0, 90
+Translate -0.6, 5.98, 3
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.3
+Color 172, 128, 115
+Rotate 1, 0, 0, 90
+Translate 0.6, 5.98, 3
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.2
+Color 172, 128, 115
+Rotate 0, 0, 1, -45
+Translate -0.77, 5.91, 2.85
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 1.4
+Color 172, 128, 115
+Rotate 0, 0, 1, 90
+Translate 0, 5.98, 2.85
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.2
+Color 172, 128, 115
+Rotate 0, 0, 1, 45
+Translate 0.77, 5.91, 2.85
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.2
+Color 172, 128, 115
+Rotate 0, 0, 1, -45
+Translate -0.77, 5.91, 3.15
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 1.4
+Color 172, 128, 115
+Rotate 0, 0, 1, 90
+Translate 0, 5.98, 3.15
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.2
+Color 172, 128, 115
+Rotate 0, 0, 1, 45
+Translate 0.77, 5.91, 3.15
+[Meshbuilder]
+Cylinder 6, 0.03, 0.03, 0.3
+Color 172, 128, 115
+Rotate 1, 0, 0, 90
+Translate -0.84, 5.84, 3
+[Meshbuilder]			
+Cylinder 6, 0.03, 0.03, 0.3
+Color 172, 128, 115
+Rotate 1, 0, 0, 90
+Translate 0.84, 5.84, 3
+
+[Meshbuilder]
+Cube 0.1, 0.16, 0.56
+Color 195, 196, 198
+Translate -0.4, 3.4, 3
+[Meshbuilder]
+Cube 0.1, 0.16, 0.56
+Color 195, 196, 198
+Translate 0.4, 3.4, 3

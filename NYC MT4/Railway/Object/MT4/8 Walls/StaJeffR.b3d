@@ -1,0 +1,20 @@
+[MeshBuilder]
+
+Vertex 2,3.7,0  ;19
+Vertex 2,0,0   ;16  
+Vertex 2,0,25    ;17
+Vertex 2,3.7,25  ;18
+
+
+Face 0,1,2,3  ; Left
+
+;Face 4,5,6,7  ; Left
+
+[Texture]
+Load Rutland.bmp
+
+Coordinates  0  ,1,0  
+Coordinates  1  ,1,1
+Coordinates  2  ,0,1
+Coordinates  3  ,0,0
+

@@ -1,0 +1,178 @@
+;piazzale
+
+CreateMeshBuilder,
+AddVertex,-30, 0, -33,
+AddVertex,-8, 0, 0
+AddVertex,-8, 0, 20,
+AddVertex,-30, 0, 35,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\linea\strada.bmp,
+SetTextureCoordinates,0, 50, 50,
+SetTextureCoordinates,1, 50, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 50,
+
+
+;steccato
+CreateMeshBuilder,
+AddVertex,-30, 3, -25
+AddVertex,-30, 0, -25,
+AddVertex,-15, 0, 0,
+AddVertex,-15, 3, 0,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,muretto6.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 6, 0,
+
+;steccato
+CreateMeshBuilder,
+AddVertex,-15, 2.5, 0
+AddVertex,-15, 0, 0,
+AddVertex,-20, 0, 20,
+AddVertex,-20, 2.5, 20,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,muretto7.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 2, 0,
+
+;fabbrica
+CreateMeshBuilder,
+AddVertex,-30, 22, 25
+AddVertex,-30, 22, -25,
+AddVertex,-30, -5, -25,
+AddVertex,-30, -5, 25,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,fabbrica.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+;staccionata
+;laterale
+CreateMeshBuilder,
+AddVertex,-10,1.7,5,
+AddVertex,-2,1.7,-4,
+AddVertex,-2,-0.5,-4,
+AddVertex,-10,-0.5,5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\oggetti\staccionata1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,5,0.93,
+SetTextureCoordinates,3,0,0.93,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,-12, 1.7, -50
+AddVertex,-12, -0.5, -50,
+AddVertex,-2, -0.5, -30,
+AddVertex,-2, 1.7, -30,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\oggetti\staccionata1.bmp,
+SetTextureCoordinates,0,8,0,
+SetTextureCoordinates,1,8,0.93,
+SetTextureCoordinates,2,0,0.93,
+SetTextureCoordinates,3,0,0,
+SetDecalTransparentColor,255,255,255,
+
+
+CreateMeshBuilder,
+AddVertex,-2, 1.7, -30
+AddVertex,-2, -0.5, -30,
+AddVertex,-2, -0.5, -4,
+AddVertex,-2, 1.7, -4,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\oggetti\staccionata1.bmp,
+SetTextureCoordinates,0,8,0,
+SetTextureCoordinates,1,8,0.93,
+SetTextureCoordinates,2,0,0.93,
+SetTextureCoordinates,3,0,0,
+SetDecalTransparentColor,255,255,255,
+
+;3
+CreateMeshBuilder,
+AddVertex,-8.5, 1.7, 16
+AddVertex,-8.5, -0.5, 16,
+AddVertex,-8.5, -0.5, 25,
+AddVertex,-8.5, 1.7, 25,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\oggetti\staccionata1.bmp,
+SetTextureCoordinates,0,8,0,
+SetTextureCoordinates,1,8,0.93,
+SetTextureCoordinates,2,0,0.93,
+SetTextureCoordinates,3,0,0,
+SetDecalTransparentColor,255,255,255,
+
+
+
+
+;steccato1
+CreateMeshBuilder,
+AddVertex,-11, 3, 5,
+AddVertex,-11, 0, 5,
+AddVertex,-8, 0, 10,
+AddVertex,-8, 3, 10,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,muretto6.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,-8, 3, 10,
+AddVertex,-8, 0, 10,
+AddVertex,-8, 0, 15,
+AddVertex,-8, 3, 15,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,muretto6.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+
+
+;muro casa
+CreateMeshBuilder,
+AddVertex,-30, 2.5, -33
+AddVertex,-30, 0, -33,
+AddVertex,-7, 0, 0,
+AddVertex,-7, 2.5, 0,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\alberi\fence2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 6, 0,
+SetDecalTransparentColor,0,0,0,
+
+

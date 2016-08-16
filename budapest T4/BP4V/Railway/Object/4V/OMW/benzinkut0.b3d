@@ -1,0 +1,462 @@
+; (c) pre-zli
+
+
+[Meshbuilder]
+Vertex 9, -0.2, 0
+Vertex 34, -0.2, 0
+Vertex 34, -0.2, -75
+Vertex 9, -0.2, -75
+Face2 0, 1, 2, 3
+[Texture]
+Load benzinkut0.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 125, 0
+Coordinates 2, 125, 375
+Coordinates 3, 0, 375
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05, 3
+Color 128, 128, 128
+Translate 9.75, 1.4, -100
+
+[Meshbuilder]
+Vertex 9.35, 2.8, -100.07
+Vertex 10.15, 2.8, -100.09
+Vertex 10.15, 2, -100.09
+Vertex 9.35, 2, -100.07
+Face 0, 1, 2, 3
+[Texture]
+Load benzinkut3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 0
+[Meshbuilder]
+Vertex 9.35, 2.8, -100.07
+Vertex 10.15, 2.8, -100.09
+Vertex 10.15, 2, -100.09
+Vertex 9.35, 2, -100.07
+Face 1, 0, 3, 2
+Color 128, 128, 128
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05, 1
+Color 128, 128, 128
+Translate 9.5, 0.7, -49.3
+[Meshbuilder]
+Vertex 9.1, 1.5, -49.34
+Vertex 9.9, 1.5, -49.38
+Vertex 9.9, 0.7, -49.38
+Vertex 9.1, 0.7, -49.34
+Face 0, 1, 2, 3
+[Texture]
+Load benzinkut7.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 0
+[Meshbuilder]
+Vertex 9.1, 1.5, -49.34
+Vertex 9.9, 1.5, -49.38
+Vertex 9.9, 0.7, -49.38
+Vertex 9.1, 0.7, -49.34
+Face 1, 0, 3, 2
+[Texture]
+Load benzinkut7hat.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 0
+
+
+
+
+
+[Meshbuilder]
+Vertex 10, 0.2, -25
+Vertex 11, 0.2, -28
+Vertex 11, 0.2, -47
+Vertex 10, 0.2, -50
+Vertex 11, -0.2, -47
+Vertex 10, -0.2, -50
+Face 0, 1, 2, 3
+Face 2, 4, 5, 3
+Color 164, 164, 164
+
+[Meshbuilder]
+Cube 1, 0.2, 12.5
+Color 164, 164, 164
+Translate 16, 0, -37.5
+
+[Meshbuilder]
+Cube 1, 0.2, 12.5
+Color 164, 164, 164
+Translate 22, 0, -37.5
+
+[Meshbuilder]
+Vertex 11, 11.8, -77
+Vertex 11, -0.2, -77
+Vertex 11, 11.8, -78
+Vertex 13, 11.8, -78
+Vertex 13, -0.2, -78
+Vertex 11, -0.2, -78
+Vertex 13, 11.8, -78
+Vertex 13, 11.8, -77
+Vertex 11, 11.8, -77
+Vertex 11, -0.2, -77
+Vertex 13, -0.2, -77
+Vertex 13, -0.2, -78
+Face 2, 3, 4, 5
+Face 0, 2, 5, 1
+Face 6, 7, 10, 11
+Face 7, 8, 9, 10
+[Texture]
+Load benzinkut1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 0.33, 0
+Coordinates 3, 1, 0
+Coordinates 4, 1, 1
+Coordinates 5, 0.33, 1
+Coordinates 6, 0, 0
+Coordinates 7, 0.33, 0
+Coordinates 8, 1, 0
+Coordinates 9, 1, 1
+Coordinates 10, 0.33, 1
+Coordinates 10, 0, 1
+
+[Meshbuilder]
+Vertex 9, 9.5, -52.505
+Vertex 13.2, 9.5, -52.505
+Vertex 13.2, 8.45, -52.505
+Vertex 9, 8.45, -52.505
+Face 0, 1, 2, 3
+Load benzinkut4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 0
+
+[Meshbuilder]
+Vertex 8.995, 9.5, -22.5
+Vertex 8.995, 9.5, -26.5
+Vertex 8.995, 8.45, -26.5
+Vertex 8.995, 8.45, -22.5
+Face 0, 1, 2, 3
+Load benzinkut4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 0
+
+[Meshbuilder]
+Cube 0.5, 3.9, 0.5
+Color 15, 49, 95
+Translate 10, 4.1, -32
+
+[Meshbuilder]
+Cube 0.5, 3.9, 0.5
+Color 15, 49, 95
+Translate 10, 4.1, -43
+
+[Meshbuilder]
+Cube 0.5, 3.9, 0.5
+Color 15, 49, 95
+Translate 16, 4.1, -32
+[Meshbuilder]
+Cylinder 12, 0.4, 0.4, 3
+Color 15, 49, 95
+Translate 16, 11, -32
+[Meshbuilder]
+Cylinder 12, 1, 1, 0.5
+Color 164, 164, 164
+Translate 16, 12.75, -32
+
+[Meshbuilder]
+Cube 0.5, 3.9, 0.5
+Color 15, 49, 95
+Translate 16, 4.1, -43
+[Meshbuilder]
+Cylinder 12, 0.4, 0.4, 3
+Color 15, 49, 95
+Translate 16, 11, -43
+[Meshbuilder]
+Cylinder 12, 1, 1, 0.5
+Color 164, 164, 164
+Translate 16, 12.75, -43
+
+[Meshbuilder]
+Cube 0.5, 3.9, 0.5
+Color 15, 49, 95
+Translate 22, 4.1, -32
+
+[Meshbuilder]
+Cube 0.5, 3.9, 0.5
+Color 15, 49, 95
+Translate 22, 4.1, -43
+
+[Meshbuilder]
+Cube 9, 0.25, 15
+Color 74, 181, 49
+Translate 18, 8.25, -37.5
+
+[Meshbuilder]
+Cube 8.9, 0.25, 14.9
+Color 74, 74, 74
+Translate 18, 8.15, -37.5
+
+[Meshbuilder]
+Cube 9, 0.5, 15
+Color 15, 49, 95
+Translate 18, 9, -37.5
+
+[Meshbuilder]
+Vertex 9.5, 9.5, -23
+Vertex 16, 12.5, -32
+Vertex 16, 12.3, -32
+Vertex 9.7, 9.5, -23.2
+Vertex 26.5, 9.5, -23
+Vertex 26.3, 9.5, -23.2
+Vertex 9.5, 9.5, -52
+Vertex 9.7, 9.5, -51.8
+Vertex 26.5, 9.5, -52
+Vertex 26.3, 9.5, -51.8
+Face2 0, 1, 2, 3
+Face2 1, 4, 5, 2
+Face2 1, 6, 7, 2
+Face2 1, 8, 9, 2
+Color 128, 128, 128
+
+[Meshbuilder]
+Vertex 9.5, 9.5, -23
+Vertex 16, 12.5, -43
+Vertex 16, 12.3, -43
+Vertex 9.7, 9.5, -23.2
+Vertex 26.5, 9.5, -23
+Vertex 26.3, 9.5, -23.2
+Vertex 9.5, 9.5, -52
+Vertex 9.7, 9.5, -51.8
+Vertex 26.5, 9.5, -52
+Vertex 26.3, 9.5, -51.8
+Face2 0, 1, 2, 3
+Face2 1, 4, 5, 2
+Face2 1, 6, 7, 2
+Face2 1, 8, 9, 2
+Color 128, 128, 128
+
+[Meshbuilder]
+Cube 0.2, 0.3, 8
+Color 214, 214, 214
+Translate 28, 0.1, -37.5
+[Meshbuilder]
+Cube 0.2, 0.3, 8
+Color 214, 214, 214
+Translate 28, 4.5, -37.5
+[Meshbuilder]
+Cube 0.2, 2.5, 1
+Color 214, 214, 214
+Translate 28, 2.3, -30.5
+[Meshbuilder]
+Cube 0.2, 2.5, 1
+Color 214, 214, 214
+Translate 28, 2.3, -44.5
+[Meshbuilder]
+Cube 0.1, 1.9, 6
+Color 128, 128, 128, 172
+Translate 28, 2.3, -37.5
+
+[Meshbuilder]
+Cube 0.2, 0.3, 8
+Color 214, 214, 214
+Translate 33, 0.1, -37.5
+[Meshbuilder]
+Cube 0.2, 0.3, 8
+Color 214, 214, 214
+Translate 33, 4.5, -37.5
+[Meshbuilder]
+Cube 0.2, 2.5, 1
+Color 214, 214, 214
+Translate 33, 2.3, -30.5
+[Meshbuilder]
+Cube 0.2, 2.5, 1
+Color 214, 214, 214
+Translate 33, 2.3, -44.5
+[Meshbuilder]
+Cube 0.1, 1.9, 6
+Color 128, 128, 128, 172
+Translate 33, 2.3, -37.5
+
+[Meshbuilder]
+Cylinder 12, 0.5, 0.5, 4
+Color 30, 98, 190
+Translate 29, 2, -31
+
+[Meshbuilder]
+Cylinder 12, 0.5, 0.5, 4
+Color 30, 98, 190
+Translate 32, 2, -31
+
+[Meshbuilder]
+Cylinder 12, 0.5, 0.5, 2
+Rotate 0, 0, 1, 90
+Color 30, 98, 190
+Translate 30.5, 3.5, -31
+
+[Meshbuilder]
+Cube 3, 0.2, 8.5
+Color 74, 181, 49
+Translate 30.5, 5, -37.5
+
+[Meshbuilder]
+Cube 3, 0.3, 8.5
+Color 15, 49, 95
+Translate 30.5, 5.5, -37.5
+
+[Meshbuilder]
+Vertex 12, 3.8, -1
+Vertex 12, 3.8, -6
+Vertex 27, 3.8, -6
+Vertex 27, -0.2, -6
+Vertex 12, -0.2, -6
+Vertex 12, -0.2, -1
+Face2 0, 1, 4, 5
+Face2 1, 2, 3, 4
+[Texture]
+Load benzinkut2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0.25, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0.25, 1
+Coordinates 5, 0, 1
+Transparent 0, 0, 255
+
+
+[Meshbuilder]
+Vertex 12, 3.8, -5.9
+Vertex 27, 3.8, -5.9
+Vertex 27, -0.2, -5.9
+Vertex 12, -0.2, -5.9
+Face2 0, 1, 2, 3
+Color 64, 64, 0, 64
+
+[Meshbuilder]
+Vertex 27, 3.8, -6
+Vertex 27, 3.8, -1
+Vertex 12, 3.8, -1
+Vertex 12, -0.2, -1
+Vertex 27, -0.2, -1
+Vertex 27, -0.2, -6
+Face2 0, 1, 4, 5
+Face2 1, 2, 3, 4
+[Texture]
+Load benzinkut6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0.25, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0.25, 1
+Coordinates 5, 0, 1
+
+[Meshbuilder]
+Cube 7.5, 0.5, 2.5
+Color 184, 184, 184
+Translate 19.5, 4.3, -3.5
+
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 10.5, 1.2, -34
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 10.5, 1.2, -36
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 10.5, 1.2, -38
+
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 15.5, 1.2, -34
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 15.5, 1.2, -36
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 15.5, 1.2, -38
+[Meshbuilder]
+Vertex 15.19, 2.2, -33.6
+Vertex 15.19, 2.2, -38.4
+Vertex 15.19, 0.2, -38.4
+Vertex 15.19, 0.2, -33.6
+Face 0, 1, 2, 3
+[Texture]
+Load benzinkut5.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 255
+
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 16.5, 1.2, -34
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 16.5, 1.2, -36
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 16.5, 1.2, -38
+
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 21.5, 1.2, -34
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 21.5, 1.2, -36
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 21.5, 1.2, -38
+[Meshbuilder]
+Vertex 21.19, 2.2, -33.6
+Vertex 21.19, 2.2, -38.4
+Vertex 21.19, 0.2, -38.4
+Vertex 21.19, 0.2, -33.6
+Face 0, 1, 2, 3
+[Texture]
+Load benzinkut5.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 255
+
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 22.5, 1.2, -34
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 22.5, 1.2, -36
+[Meshbuilder]
+Cube 0.3, 1, 0.4
+Color 7, 24, 47
+Translate 22.5, 1.2, -38
+
+

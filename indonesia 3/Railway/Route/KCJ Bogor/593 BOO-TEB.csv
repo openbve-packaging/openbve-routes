@@ -1,0 +1,4734 @@
+;//Rute KCJ Bogor-Jakarta Kota
+;//Hak Cipta (C) 2010 Charles Y.A.
+;//Balai Yasa BVE Divisi Pengembangan
+;//Bekasi $chr(44) Indonesia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;//Informasi rute
+
+With Route
+.Comment Rute KA 593 Ekonomi Bogor - Jakarta Kota(13)$chr(10)Hak Cipta (C) 2010 Charles Y.A. $chr(13)$chr(10)Balai Yasa BVE Divisi Pengembangan
+.Timetable Bogor - Jakarta Kota KA 593 Ekonomi$chr(13)$chr(10)Yang bertanda panah langsung
+.DeveloperID Charles Y. A.
+.Change 1
+.Gauge 1067
+.Signal(1) 120
+.Signal(2) 120
+.Signal(3) 120
+.Elevation 246
+
+;//Informasi rangkaian
+
+With Train
+.Folder KRL Rheostatik Stainless\2 set
+.Run(0) 0
+.Flange(0) 0
+.Run(2) 1
+.Flange(2) 0
+.Run(3) 0
+.Flange(3) 0
+.Run(5) 2
+.Flange(5) 0
+.Run(6) 3
+.Flange(6) 0
+.Run(7) 3
+.Flange(7) 0
+.Run(8) 0
+.Flange(8) 0
+.Run(9) 0
+.Flange(9) 0
+.Run(10) 0
+.Flange(10) 0
+.Run(11) 0
+.Flange(11) 0
+.Run(12) 0
+.Flange(12) 0
+.Run(13) 0
+.Flange(13) 0
+.Run(14) 1
+.Flange(14) 0
+.Run(15) 1
+.Flange(15) 0
+.Run(16) 1
+.Flange(16) 0
+.Run(17) 1
+.Flange(17) 0
+.Run(18) 1
+.Flange(18) 0
+.Run(19) 1
+.Flange(19) 0
+.Run(20) 0
+.Flange(20) 0
+.Run(21) 0
+.Flange(21) 0
+.Run(22) 0
+.Flange(22) 0
+.Run(23) 0
+.Flange(23) 0
+
+;//Informasi objek yang digunakan
+
+With Structure
+.Rail(0) KRL Jabodetabek\Rail\BallastS.csv
+.Rail(1) KRL Jabodetabek\Rail\BallastS1.csv
+.Rail(2) KRL Jabodetabek\Null.csv
+.Rail(4) KRL Jabodetabek\Rail\Ballast-only.csv
+.Rail(5) KRL Jabodetabek\Rail\Bridge1.csv
+.Rail(6) KRL Jabodetabek\Rail\Bridge2.csv
+.Rail(7) KRL Jabodetabek\Rail\Bridge3.csv
+.Rail(8) KRL Jabodetabek\Rail\SlabS.csv
+.Rail(9) KRL Jabodetabek\Rail\BallastS1.csv
+.Rail(15) KRL Jabodetabek\Rail\Ballast-n.csv
+
+;Tikungan kanan
+.Rail(10) KRL Jabodetabek\Rail\b200.csv
+.Rail(11) KRL Jabodetabek\Rail\b300.csv
+.Rail(12) KRL Jabodetabek\Rail\b400.csv
+.Rail(13) KRL Jabodetabek\Rail\b600.csv
+.Rail(14) KRL Jabodetabek\Rail\b800.csv
+.Rail(16) KRL Jabodetabek\Rail\b1000.csv
+.Rail(17) KRL Jabodetabek\Rail\b1500.csv
+
+;Tikungan kiri
+.Rail(20) KRL Jabodetabek\Rail\b-200.csv
+.Rail(21) KRL Jabodetabek\Rail\b-300.csv
+.Rail(22) KRL Jabodetabek\Rail\b-400.csv
+.Rail(23) KRL Jabodetabek\Rail\b-600.csv
+.Rail(24) KRL Jabodetabek\Rail\b-800.csv
+.Rail(26) KRL Jabodetabek\Rail\b-1000.csv
+.Rail(27) KRL Jabodetabek\Rail\b-1500.csv
+
+;Jalan raya
+.Rail(30) KRL Jabodetabek\Road\Road1.csv
+.Rail(31) KRL Jabodetabek\Rail\nonrail.csv
+.Rail(32) KRL Jabodetabek\Road\Road2.csv
+.Rail(33) KRL Jabodetabek\Station\tan-form.csv
+.Rail(34) KRL Jabodetabek\Ground\CraSlb-kise.csv
+.Rail(35) KRL Jabodetabek\Road\arakawa.csv
+.Rail(36) KRL Jabodetabek\Ground\GrassDown.csv
+
+;Tembok/pagar
+.WallL(0) KRL Jabodetabek\Wall\WallL0.csv
+.WallR(0) KRL Jabodetabek\Wall\WallR0.csv
+.WallL(1) KRL Jabodetabek\Wall\WallL1.csv
+.WallR(1) KRL Jabodetabek\Wall\WallR1.csv
+.WallL(2) KRL Jabodetabek\Wall\WallL2.csv
+.WallR(2) KRL Jabodetabek\Wall\WallR2.csv
+.WallL(3) KRL Jabodetabek\Wall\WallL3.csv
+.WallR(3) KRL Jabodetabek\Wall\WallR3.csv
+.WallL(4) KRL Jabodetabek\Wall\WallL4.csv
+.WallR(4) KRL Jabodetabek\Wall\WallR4.csv
+.WallL(5) KRL Jabodetabek\Wall\WallL5.csv
+.WallR(5) KRL Jabodetabek\Wall\WallR5.csv
+.WallL(6) KRL Jabodetabek\Wall\WallL7.csv
+.WallR(6) KRL Jabodetabek\Wall\WallR7.csv
+.WallL(7) KRL Jabodetabek\Construction\WallL.csv
+.WallR(7) KRL Jabodetabek\Construction\WallR.csv
+.WallL(8) KRL Jabodetabek\Wall\WallL8.csv
+.WallR(8) KRL Jabodetabek\Wall\WallR8.csv
+.WallL(9) KRL Jabodetabek\Wall\FormWallL1.csv
+.WallR(9) KRL Jabodetabek\Wall\FormWallR1.csv
+.WallL(10) KRL Jabodetabek\Wall\FormWallL2.csv
+.WallR(10) KRL Jabodetabek\Wall\FormWallR2.csv
+.WallL(11) KRL Jabodetabek\Wall\FormWall8.csv
+.WallL(12) KRL Jabodetabek\Wall\FormWallL4.csv
+.WallR(12) KRL Jabodetabek\Wall\FormWallR4.csv
+.WallL(13) KRL Jabodetabek\Wall\FormWallL5.csv
+.WallR(13) KRL Jabodetabek\Wall\FormWallR5.csv
+.WallL(14) KRL Jabodetabek\Wall\FormWallL6.csv
+.WallR(14) KRL Jabodetabek\Wall\FormWallR6.csv
+.WallL(15) KRL Jabodetabek\Wall\FormWallL7.csv
+.WallR(15) KRL Jabodetabek\Wall\FormWallR7.csv
+.WallL(20) KRL Jabodetabek\Wall\Truss2L.csv
+.WallR(20) KRL Jabodetabek\Wall\Truss2R.csv
+
+;Tanggul/undakan (dikes)
+.DikeL(0) KRL Jabodetabek\Dike\DikeL1.csv
+.DikeR(0) KRL Jabodetabek\Dike\DikeR1.csv
+.DikeL(1) KRL Jabodetabek\Wall\WallL6.csv
+.DikeR(1) KRL Jabodetabek\Wall\St-Pole1.csv
+.DikeL(2) KRL Jabodetabek\Dike\ConcreteDikeL.csv
+.DikeR(2) KRL Jabodetabek\Dike\ConcreteDikeR.csv
+.DikeL(3) KRL Jabodetabek\Dike\PierH1.csv
+.DikeR(3) KRL Jabodetabek\Dike\PierH2.csv
+.DikeL(4) KRL Jabodetabek\Wall\Truss1.csv
+
+;Tekstur tanah
+.Ground(0) KRL Jabodetabek\Ground\Grass.csv
+.Ground(1) KRL Jabodetabek\Ground\GrassRise.csv
+.Ground(2) KRL Jabodetabek\Ground\Levee.csv
+.Ground(3) KRL Jabodetabek\Ground\Ditch.csv
+.Ground(4) KRL Jabodetabek\Ground\ta.csv
+.Ground(5) KRL Jabodetabek\Ground\taRise.csv
+.Ground(6) KRL Jabodetabek\Ground\River.csv
+.Ground(7) KRL Jabodetabek\Null.csv
+
+;Tekstur rengkahan (crack)
+.CrackL(0) KRL Jabodetabek\Ground\CraBallastL.csv
+.CrackR(0) KRL Jabodetabek\Ground\CraBallastR.csv
+.CrackL(2) KRL Jabodetabek\Ground\CraSlabL.csv
+.CrackR(2) KRL Jabodetabek\Ground\CraSlabR.csv
+
+;Peron
+.FormR(0) KRL Jabodetabek\Platforms\FormR.csv
+.FormL(0) KRL Jabodetabek\Platforms\FormL.csv
+.FormCR(0) KRL Jabodetabek\Platforms\FormCR.csv
+.FormCL(0) KRL Jabodetabek\Platforms\FormCL.csv
+.FormR(1) KRL Jabodetabek\Platforms\FormR.csv
+.FormL(1) KRL Jabodetabek\Platforms\FormL.csv
+.FormR(2) KRL Jabodetabek\Platforms\FormR2.csv
+.FormL(2) KRL Jabodetabek\Platforms\FormL2.csv
+.FormCR(2) KRL Jabodetabek\Platforms\FormCR2.csv
+.FormCL(2) KRL Jabodetabek\Platforms\FormCL2.csv
+.FormR(3) KRL Jabodetabek\Platforms\FormR-1.csv
+.FormL(3) KRL Jabodetabek\Platforms\FormL-1.csv
+.FormCR(3) KRL Jabodetabek\Platforms\FormCR-1.csv
+.FormCL(3) KRL Jabodetabek\Platforms\FormCL-1.csv
+.FormR(4) KRL Jabodetabek\Platforms\FormR-1.csv
+.FormL(4) KRL Jabodetabek\Platforms\FormL-1.csv
+.FormCR(4) KRL Jabodetabek\Platforms\FormCR-12.csv
+.FormCL(4) KRL Jabodetabek\Platforms\FormCL-12.csv
+.FormR(5) KRL Jabodetabek\Platforms\FormR-13.csv
+.FormL(5) KRL Jabodetabek\Platforms\FormL-13.csv
+.FormCR(5) KRL Jabodetabek\Platforms\FormCR-13.csv
+.FormCL(5) KRL Jabodetabek\Platforms\FormCL-13.csv
+.FormR(6) KRL Jabodetabek\Platforms\FormR-14.csv
+.FormL(6) KRL Jabodetabek\Platforms\FormL-14.csv
+.FormCR(6) KRL Jabodetabek\Platforms\FormCR-14.csv
+.FormCL(6) KRL Jabodetabek\Platforms\FormCL-14.csv
+.FormR(7) KRL Jabodetabek\Platforms\FormR-2.csv
+.FormL(7) KRL Jabodetabek\Platforms\FormL-2.csv
+.FormCR(7) KRL Jabodetabek\Platforms\FormCR-2.csv
+.FormCL(7) KRL Jabodetabek\Platforms\FormCL-2.csv
+.FormR(8) KRL Jabodetabek\Platforms\FormR-23.csv
+.FormL(8) KRL Jabodetabek\Platforms\FormL-23.csv
+.FormCR(8) KRL Jabodetabek\Platforms\FormCR-23.csv
+.FormCL(8) KRL Jabodetabek\Platforms\FormCL-23.csv
+.FormR(9) KRL Jabodetabek\Platforms\FormR-24.csv
+.FormL(9) KRL Jabodetabek\Platforms\FormL-24.csv
+.FormCR(9) KRL Jabodetabek\Platforms\FormCR-24.csv
+.FormCL(9) KRL Jabodetabek\Platforms\FormCL-24.csv
+
+.FormR(10) KRL Jabodetabek\Platforms\FormR_d.csv
+.FormL(10) KRL Jabodetabek\Platforms\FormL_d.csv
+.FormCR(10) KRL Jabodetabek\Platforms\FormCR_d.csv
+.FormCL(10) KRL Jabodetabek\Platforms\FormCL_d.csv
+.FormR(11) KRL Jabodetabek\Platforms\FormR_d.csv
+.FormL(11) KRL Jabodetabek\Platforms\FormL_d.csv
+.FormR(14) KRL Jabodetabek\Platforms\FormR-1_d.csv
+.FormL(14) KRL Jabodetabek\Platforms\FormL-1_d.csv
+.FormCR(14) KRL Jabodetabek\Platforms\FormCR-12_d.csv
+.FormCL(14) KRL Jabodetabek\Platforms\FormCL-12_d.csv
+.FormR(17) KRL Jabodetabek\Platforms\FormR-2_d.csv
+.FormL(17) KRL Jabodetabek\Platforms\FormL-2_d.csv
+.FormCR(17) KRL Jabodetabek\Platforms\FormCR-2_d.csv
+.FormCL(17) KRL Jabodetabek\Platforms\FormCL-2_d.csv
+.FormR(18) KRL Jabodetabek\Station\FormR1.csv
+.FormL(18) KRL Jabodetabek\Station\FormL1.csv
+.FormCR(18) KRL Jabodetabek\Station\FormCR.csv
+.FormCL(18) KRL Jabodetabek\Station\FormCL.csv
+.FormR(19) KRL Jabodetabek\Station\FormR2.csv
+.FormL(19) KRL Jabodetabek\Station\FormL2.csv
+.FormCR(19) KRL Jabodetabek\Station\FormCR2.csv
+.FormCL(19) KRL Jabodetabek\Station\FormCL2.csv
+.FormL(20) KRL Jabodetabek\Station\FormL1.csv
+.FormCR(20) KRL Jabodetabek\Station\FormCR.csv
+.FormCL(20) KRL Jabodetabek\Station\FormCL.csv
+.FormR(21) KRL Jabodetabek\Station\FormR-R200.csv
+.FormL(21) KRL Jabodetabek\Station\FormL-R200.csv
+.FormCR(21) KRL Jabodetabek\Station\FormCR-R200.csv
+.FormCL(21) KRL Jabodetabek\Station\FormCL-R200.csv
+
+;Atap peron
+.RoofR(1) KRL Jabodetabek\Station\RoofR1.csv
+.RoofL(1) KRL Jabodetabek\Station\RoofL1.csv
+.RoofCR(1) KRL Jabodetabek\Null.csv
+.RoofCL(1) KRL Jabodetabek\Null.csv
+.RoofR(2) KRL Jabodetabek\Station\RoofR2.csv
+.RoofL(2) KRL Jabodetabek\Station\RoofL2.csv
+.RoofCR(2) KRL Jabodetabek\Station\RoofCR.csv
+.RoofCL(2) KRL Jabodetabek\Station\RoofCL.csv
+
+;----- Tiang LAA -----
+.Pole (0; 0) KRL Jabodetabek\Pole\Pole1CR.csv
+.Pole (0; 1) KRL Jabodetabek\Pole\Pole1CL.csv
+.Pole (0; 2) KRL Jabodetabek\Pole\Pole1SM.csv
+.Pole (0; 3) KRL Jabodetabek\Pole\Pole1S.csv
+.Pole (1; 0) KRL Jabodetabek\Pole\Pole2.csv
+.Pole (2; 0) KRL Jabodetabek\Pole\Pole3.csv
+.Pole (2; 1) KRL Jabodetabek\Pole\Kasen3-1.csv
+.Pole (3; 0) KRL Jabodetabek\Pole\Pole4.csv
+.Pole (3; 3) KRL Jabodetabek\Pole\Kasen4-3.csv
+
+;Objek lainnya (free objects)
+.FreeObj(56) KRL Jabodetabek\Pole\PoleA.csv
+.FreeObj(41) KRL Jabodetabek\Pole\KasenA.csv
+.FreeObj(42) KRL Jabodetabek\Pole\KasenB.csv
+.FreeObj(43) KRL Jabodetabek\Pole\KasenC.csv
+.FreeObj(47) KRL Jabodetabek\Pole\KasenD.csv
+.FreeObj(48) KRL Jabodetabek\Pole\KasenE.csv
+.FreeObj(50) KRL Jabodetabek\Pole\KasenG.csv
+.FreeObj(53) KRL Jabodetabek\Pole\KasenH.csv
+.FreeObj(72) KRL Jabodetabek\Pole\KasenI.csv
+.FreeObj(200) KRL Jabodetabek\Other\Point1.csv
+.FreeObj(201) KRL Jabodetabek\Other\Point2.csv
+.FreeObj(1) KRL Jabodetabek\Signal\SigPole3-L.csv
+.FreeObj(2) KRL Jabodetabek\Signal\SigPole3-R.csv
+.FreeObj(3) KRL Jabodetabek\Signal\SigPole3-M1.csv
+.FreeObj(4) KRL Jabodetabek\Signal\SigPole4-L.csv
+.FreeObj(5) KRL Jabodetabek\Signal\SigPole4-R.csv
+.FreeObj(6) KRL Jabodetabek\Signal\SigPole4-M.csv
+.FreeObj(7) KRL Jabodetabek\Signal\SigPole5-L.csv
+.FreeObj(8) KRL Jabodetabek\Signal\SigPole5-R.csv
+
+.FreeObj(11) KRL Jabodetabek\Signal_3_0.csv
+.FreeObj(12) KRL Jabodetabek\Signal_3_2.csv
+.FreeObj(13) KRL Jabodetabek\Signal_3_4.csv
+.FreeObj(14) KRL Jabodetabek\Signal\relay1.csv
+;.FreeObj(15) KRL Jabodetabek\Signal\relay2.csv
+
+.FreeObj(111) KRL Jabodetabek\Signal\Swsig.csv
+.FreeObj(113) KRL Jabodetabek\Signal\SigPole.csv
+.FreeObj(68) KRL Jabodetabek\Cross\Cr-2.csv
+.FreeObj(69) KRL Jabodetabek\Cross\Cr-3.csv
+
+.FreeObj(35) KRL Jabodetabek\Other\OverBridge1.csv
+.FreeObj(36) KRL Jabodetabek\Other\OverBridge2.csv
+.FreeObj(88) KRL Jabodetabek\Other\OverBridge4.csv
+.FreeObj(89) KRL Jabodetabek\Other\OverBridge4-side.csv
+
+.FreeObj(55) KRL Jabodetabek\Other\Tower1.csv
+.FreeObj(65) KRL Jabodetabek\Station\Ume.csv
+.FreeObj(66) KRL Jabodetabek\Ground\Bank.csv
+
+.FreeObj(73) KRL Jabodetabek\Other\RailStop0.csv
+.FreeObj(74) KRL Jabodetabek\Wall\TunEnt.csv
+.FreeObj(75) KRL Jabodetabek\Other\RailStop1.csv
+.FreeObj(85) KRL Jabodetabek\Wall\Wall9.csv
+.FreeObj(86) KRL Jabodetabek\Wall\Stopper_wall.csv
+.FreeObj(87) KRL Jabodetabek\Other\barn.csv
+.FreeObj(211) KRL Jabodetabek\Tree\tree1.csv
+.FreeObj(131) KRL Jabodetabek\Signal\straight-right.csv
+.FreeObj(132) KRL Jabodetabek\Signal\1.csv
+
+.FreeObj(211) KRL Jabodetabek\StaNum\01.csv
+.FreeObj(212) KRL Jabodetabek\StaNum\02.csv
+.FreeObj(213) KRL Jabodetabek\StaNum\03.csv
+.FreeObj(214) KRL Jabodetabek\StaNum\04.csv
+.FreeObj(215) KRL Jabodetabek\StaNum\05.csv
+.FreeObj(216) KRL Jabodetabek\StaNum\06.csv
+.FreeObj(217) KRL Jabodetabek\StaNum\07.csv
+.FreeObj(300) KRL Jabodetabek\Station\Kosen1.csv
+.FreeObj(301) KRL Jabodetabek\Station\Sugita.csv
+.FreeObj(302) KRL Jabodetabek\Station\Roof1.csv
+.FreeObj(303) KRL Jabodetabek\Station\tobuko1.csv
+.FreeObj(304) KRL Jabodetabek\Station\tobuko2.csv
+.FreeObj(305) KRL Jabodetabek\Station\Hime.csv
+.FreeObj(306) KRL Jabodetabek\Wall\FormWall.csv
+.FreeObj(307) KRL Jabodetabek\Station\Kikasu.csv
+.FreeObj(308) KRL Jabodetabek\Station\b1.csv
+.FreeObj(309) KRL Jabodetabek\Station\Kosen2.csv
+.FreeObj(310) KRL Jabodetabek\Station\Kosen3.csv
+.FreeObj(311) KRL Jabodetabek\Station\Take.csv
+.FreeObj(312) KRL Jabodetabek\Station\Seta.csv
+.FreeObj(313) KRL Jabodetabek\Station\Tsuka.csv
+.FreeObj(314) KRL Jabodetabek\Station\b2.csv
+.FreeObj(315) KRL Jabodetabek\Station\Nishi.csv
+.FreeObj(316) KRL Jabodetabek\Wall\FormWall9.csv
+.FreeObj(317) KRL Jabodetabek\Wall\FormWall10.csv
+.FreeObj(318) KRL Jabodetabek\Station\Form-narrow.csv
+.FreeObj(319) KRL Jabodetabek\Station\Koya.csv
+.FreeObj(320) KRL Jabodetabek\Station\Soka.csv
+.FreeObj(340) KRL Jabodetabek\Station\Form_End1.csv
+.FreeObj(344) KRL Jabodetabek\Station\Form_End2.csv
+.FreeObj(341) KRL Jabodetabek\Station\stair.csv
+.FreeObj(342) KRL Jabodetabek\Station\elevator.csv
+.FreeObj(343) KRL Jabodetabek\Station\stair2.csv
+.FreeObj(348) KRL Jabodetabek\Station\Kane1.csv
+.FreeObj(349) KRL Jabodetabek\Station\Kane2.csv
+.FreeObj(360) KRL Jabodetabek\Station\Kane3.csv
+.FreeObj(361) KRL Jabodetabek\Station\Ushi.csv
+.FreeObj(362) KRL Jabodetabek\Station\Hori1.csv
+.FreeObj(363) KRL Jabodetabek\Station\Hori2.csv
+.FreeObj(364) KRL Jabodetabek\Wall\Formwall11.csv
+.FreeObj(365) KRL Jabodetabek\Platforms\FormStairL.csv
+.FreeObj(366) KRL Jabodetabek\Platforms\FormStairR.csv
+.FreeObj(367) KRL Jabodetabek\Platforms\FormStairResL.csv
+.FreeObj(368) KRL Jabodetabek\Platforms\FormStairResR.csv
+.FreeObj(369) KRL Jabodetabek\Platforms\StairA.csv
+.FreeObj(370) KRL Jabodetabek\Platforms\StairB.csv
+
+;Marka berhenti
+.FreeObj(200) KRL Jabodetabek\Stop\4.csv ;4 kereta
+.FreeObj(201) KRL Jabodetabek\Stop\6.csv ;6 kereta
+.FreeObj(202) KRL Jabodetabek\Stop\8.csv ;8 kereta
+
+;PJL
+.FreeObj(1000) KRL Jabodetabek\Cross\fumikiri-road1.csv
+.FreeObj(1001) KRL Jabodetabek\Cross\fumikiri-road3.csv
+.FreeObj(1002) KRL Jabodetabek\Cross\crossing1.animated
+.FreeObj(1003) KRL Jabodetabek\Cross\crossing3.animated
+.FreeObj(1004) KRL Jabodetabek\Cross\crossing2.animated
+.FreeObj(1005) KRL Jabodetabek\Cross\crossing1_2.animated
+.FreeObj(1100) KRL Jabodetabek\Pos PJL\Pos PJL.csv
+
+;Tiang LAA tambahan
+.FreeObj(5000) KRL Jabodetabek\Pole\Pole1CR.csv
+.FreeObj(5001) KRL Jabodetabek\Pole\Pole1CL.csv
+.FreeObj(5002) KRL Jabodetabek\Pole\Pole1SM.csv
+.FreeObj(5003) KRL Jabodetabek\Pole\Pole1S.csv
+
+;// Daftar rangkaian KA lainnya yang sedang berdinas
+;// Kereta akan ditampilkan secara acak setiap dinasan bergulir
+;// Parameter $Rnd dan $Sub digunakan untuk mengacak rangkaian KA
+
+;// Toei 6000
+
+;8 cars
+;.FreeObj(500) KRL Jabodetabek\Train\6121F\toei6000-6128.animated
+;.FreeObj(501) KRL Jabodetabek\Train\6121F\toei6000-6127.animated
+;.FreeObj(502) KRL Jabodetabek\Train\6121F\toei6000-6216.animated
+;.FreeObj(503) KRL Jabodetabek\Train\6121F\toei6000-6247.animated
+;.FreeObj(504) KRL Jabodetabek\Train\6121F\toei6000-6222.animated
+;.FreeObj(505) KRL Jabodetabek\Train\6121F\toei6000-6197.animated
+;.FreeObj(506) KRL Jabodetabek\Train\6121F\toei6000-6122.animated
+;.FreeObj(507) KRL Jabodetabek\Train\6121F\toei6000-6121.animated
+
+;.FreeObj(510) KRL Jabodetabek\Train\6161F\toei6000-6168.animated
+;.FreeObj(511) KRL Jabodetabek\Train\6161F\toei6000-6167.animated
+;.FreeObj(512) KRL Jabodetabek\Train\6161F\toei6000-6166.animated
+;.FreeObj(513) KRL Jabodetabek\Train\6161F\toei6000-6165.animated
+;.FreeObj(514) KRL Jabodetabek\Train\6161F\toei6000-6162.animated
+;.FreeObj(515) KRL Jabodetabek\Train\6161F\toei6000-6215.animated
+;.FreeObj(516) KRL Jabodetabek\Train\6161F\toei6000-6212.animated
+;.FreeObj(517) KRL Jabodetabek\Train\6161F\toei6000-6161.animated
+
+;.FreeObj(520) KRL Jabodetabek\Train\6171F\toei6000-6178.animated
+;.FreeObj(521) KRL Jabodetabek\Train\6171F\toei6000-6237.animated
+;.FreeObj(522) KRL Jabodetabek\Train\6171F\toei6000-6226.animated
+;.FreeObj(523) KRL Jabodetabek\Train\6171F\toei6000-6225.animated
+;.FreeObj(524) KRL Jabodetabek\Train\6171F\toei6000-6172.animated
+;.FreeObj(525) KRL Jabodetabek\Train\6171F\toei6000-6257.animated
+;.FreeObj(526) KRL Jabodetabek\Train\6171F\toei6000-6192.animated
+;.FreeObj(527) KRL Jabodetabek\Train\6171F\toei6000-6171.animated
+
+;6 cars
+;.FreeObj(530) KRL Jabodetabek\Train\6181F\toei6000-6188.animated
+;.FreeObj(531) KRL Jabodetabek\Train\6181F\toei6000-6245.animated
+;.FreeObj(532) KRL Jabodetabek\Train\6181F\toei6000-6176.animated
+;.FreeObj(533) KRL Jabodetabek\Train\6181F\toei6000-6175.animated
+;.FreeObj(534) KRL Jabodetabek\Train\6181F\toei6000-6242.animated
+;.FreeObj(535) KRL Jabodetabek\Train\6181F\toei6000-6181.animated
+
+;.FreeObj(540) KRL Jabodetabek\Train\6201F\toei6000-6208.animated
+;.FreeObj(541) KRL Jabodetabek\Train\6201F\toei6000-6207.animated
+;.FreeObj(542) KRL Jabodetabek\Train\6201F\toei6000-6206.animated
+;.FreeObj(543) KRL Jabodetabek\Train\6201F\toei6000-6205.animated
+;.FreeObj(544) KRL Jabodetabek\Train\6201F\toei6000-6262.animated
+;.FreeObj(545) KRL Jabodetabek\Train\6201F\toei6000-6201.animated
+
+;.FreeObj(550) KRL Jabodetabek\Train\6271F\toei6000-6278.animated
+;.FreeObj(551) KRL Jabodetabek\Train\6271F\toei6000-6277.animated
+;.FreeObj(552) KRL Jabodetabek\Train\6271F\toei6000-6276.animated
+;.FreeObj(553) KRL Jabodetabek\Train\6271F\toei6000-6275.animated
+;.FreeObj(554) KRL Jabodetabek\Train\6271F\toei6000-6272.animated
+;.FreeObj(555) KRL Jabodetabek\Train\6271F\toei6000-6271.animated
+
+;.FreeObj(560) KRL Jabodetabek\Train\6281F\toei6000-6288.animated
+;.FreeObj(561) KRL Jabodetabek\Train\6281F\toei6000-6287.animated
+;.FreeObj(562) KRL Jabodetabek\Train\6281F\toei6000-6286.animated
+;.FreeObj(563) KRL Jabodetabek\Train\6281F\toei6000-6285.animated
+;.FreeObj(564) KRL Jabodetabek\Train\6281F\toei6000-6282.animated
+;.FreeObj(565) KRL Jabodetabek\Train\6281F\toei6000-6281.animated
+
+;Lohan
+;.FreeObj(570) KRL Jabodetabek\Train\6187F\toei6000-6187.animated
+;.FreeObj(571) KRL Jabodetabek\Train\6187F\toei6000-6125.animated
+;.FreeObj(572) KRL Jabodetabek\Train\6187F\toei6000-6186.animated
+;.FreeObj(573) KRL Jabodetabek\Train\6187F\toei6000-6267.animated
+;.FreeObj(574) KRL Jabodetabek\Train\6187F\toei6000-6195.animated
+;.FreeObj(575) KRL Jabodetabek\Train\6187F\toei6000-6227.animated
+
+;Rakitan
+;.FreeObj(580) KRL Jabodetabek\Train\6187F\toei6000-6182.animated
+;.FreeObj(581) KRL Jabodetabek\Train\6187F\toei6000-6236.animated
+;.FreeObj(582) KRL Jabodetabek\Train\6187F\toei6000-6255.animated
+;.FreeObj(583) KRL Jabodetabek\Train\6187F\toei6000-6152.animated
+;.FreeObj(584) KRL Jabodetabek\Train\6187F\toei6000-6185.animated
+;.FreeObj(585) KRL Jabodetabek\Train\6187F\toei6000-6217.animated
+
+;Espas
+;.FreeObj(590) KRL Jabodetabek\Train\6187F\toei6000-6126.animated
+;.FreeObj(591) KRL Jabodetabek\Train\6187F\toei6000-6235.animated
+;.FreeObj(592) KRL Jabodetabek\Train\6187F\toei6000-6202.animated
+;.FreeObj(593) KRL Jabodetabek\Train\6187F\toei6000-6265.animated
+;.FreeObj(594) KRL Jabodetabek\Train\6187F\toei6000-6232.animated
+;.FreeObj(595) KRL Jabodetabek\Train\6187F\toei6000-6177.animated
+
+;// Tokyo Metro 5000
+;.FreeObj(600) KRL Jabodetabek\Train\5809F\TM5000-5809.animated
+;.FreeObj(601) KRL Jabodetabek\Train\5809F\TM5000-5313.animated
+;.FreeObj(602) KRL Jabodetabek\Train\5809F\TM5000-5631.animated
+;.FreeObj(603) KRL Jabodetabek\Train\5809F\TM5000-5314.animated
+;.FreeObj(604) KRL Jabodetabek\Train\5809F\TM5000-5607.animated
+;.FreeObj(605) KRL Jabodetabek\Train\5809F\TM5000-5215.animated
+;.FreeObj(606) KRL Jabodetabek\Train\5809F\TM5000-5326.animated
+;.FreeObj(607) KRL Jabodetabek\Train\5809F\TM5000-5009.animated
+
+;.FreeObj(610) KRL Jabodetabek\Train\5816F\TM5000-5816.animated
+;.FreeObj(611) KRL Jabodetabek\Train\5816F\TM5000-5245.animated
+;.FreeObj(612) KRL Jabodetabek\Train\5816F\TM5000-5630.animated
+;.FreeObj(613) KRL Jabodetabek\Train\5816F\TM5000-5383.animated
+;.FreeObj(614) KRL Jabodetabek\Train\5816F\TM5000-5688.animated
+;.FreeObj(615) KRL Jabodetabek\Train\5816F\TM5000-5905.animated
+;.FreeObj(616) KRL Jabodetabek\Train\5816F\TM5000-5247.animated
+;.FreeObj(617) KRL Jabodetabek\Train\5816F\TM5000-5016.animated
+
+;.FreeObj(620) KRL Jabodetabek\Train\5817F\TM5000-5816.animated
+;.FreeObj(621) KRL Jabodetabek\Train\5817F\TM5000-5245.animated
+;.FreeObj(622) KRL Jabodetabek\Train\5817F\TM5000-5630.animated
+;.FreeObj(623) KRL Jabodetabek\Train\5817F\TM5000-5383.animated
+;.FreeObj(624) KRL Jabodetabek\Train\5817F\TM5000-5688.animated
+;.FreeObj(625) KRL Jabodetabek\Train\5817F\TM5000-5905.animated
+;.FreeObj(626) KRL Jabodetabek\Train\5817F\TM5000-5247.animated
+;.FreeObj(627) KRL Jabodetabek\Train\5817F\TM5000-5016.animated
+
+;.FreeObj(620) KRL Jabodetabek\Train\5817F\TM5000-5817.animated
+;.FreeObj(621) KRL Jabodetabek\Train\5817F\TM5000-5246.animated
+;.FreeObj(622) KRL Jabodetabek\Train\5817F\TM5000-5632.animated
+;.FreeObj(623) KRL Jabodetabek\Train\5817F\TM5000-5359.animated
+;.FreeObj(624) KRL Jabodetabek\Train\5817F\TM5000-5127.animated
+;.FreeObj(625) KRL Jabodetabek\Train\5817F\TM5000-5927.animated
+;.FreeObj(626) KRL Jabodetabek\Train\5817F\TM5000-5251.animated
+;.FreeObj(627) KRL Jabodetabek\Train\5817F\TM5000-5017.animated
+
+;// Toyo Rapid 1000
+;.FreeObj(630) KRL Jabodetabek\Train\1061F\TR1000-1061.animated
+;.FreeObj(631) KRL Jabodetabek\Train\1061F\TR1000-1062.animated
+;.FreeObj(632) KRL Jabodetabek\Train\1061F\TR1000-1063.animated
+;.FreeObj(633) KRL Jabodetabek\Train\1061F\TR1000-1064.animated
+;.FreeObj(634) KRL Jabodetabek\Train\1061F\TR1000-1065.animated
+;.FreeObj(635) KRL Jabodetabek\Train\1061F\TR1000-1066.animated
+;.FreeObj(636) KRL Jabodetabek\Train\1061F\TR1000-1069.animated
+;.FreeObj(637) KRL Jabodetabek\Train\1061F\TR1000-1060.animated
+
+;.FreeObj(640) KRL Jabodetabek\Train\1081F\TR1000-1081.animated
+;.FreeObj(641) KRL Jabodetabek\Train\1081F\TR1000-1082.animated
+;.FreeObj(642) KRL Jabodetabek\Train\1081F\TR1000-1083.animated
+;.FreeObj(643) KRL Jabodetabek\Train\1081F\TR1000-1084.animated
+;.FreeObj(644) KRL Jabodetabek\Train\1081F\TR1000-1085.animated
+;.FreeObj(645) KRL Jabodetabek\Train\1081F\TR1000-1086.animated
+;.FreeObj(646) KRL Jabodetabek\Train\1081F\TR1000-1089.animated
+;.FreeObj(647) KRL Jabodetabek\Train\1081F\TR1000-1080.animated
+
+;.FreeObj(650) KRL Jabodetabek\Train\1091F\TR1000-1091.animated
+;.FreeObj(651) KRL Jabodetabek\Train\1091F\TR1000-1092.animated
+;.FreeObj(652) KRL Jabodetabek\Train\1091F\TR1000-1093.animated
+;.FreeObj(653) KRL Jabodetabek\Train\1091F\TR1000-1094.animated
+;.FreeObj(654) KRL Jabodetabek\Train\1091F\TR1000-1095.animated
+;.FreeObj(655) KRL Jabodetabek\Train\1091F\TR1000-1096.animated
+;.FreeObj(656) KRL Jabodetabek\Train\1091F\TR1000-1099.animated
+;.FreeObj(657) KRL Jabodetabek\Train\1091F\TR1000-1090.animated
+
+;// Tokyu 8000
+;.FreeObj(800) KRL Jabodetabek\Train\8003F\tokyu8000-8003.animated
+;.FreeObj(801) KRL Jabodetabek\Train\8003F\tokyu8000-8202.animated
+;.FreeObj(802) KRL Jabodetabek\Train\8003F\tokyu8000-8104.animated
+;.FreeObj(803) KRL Jabodetabek\Train\8003F\tokyu8000-8263.animated
+;.FreeObj(804) KRL Jabodetabek\Train\8003F\tokyu8000-8142.animated
+;.FreeObj(805) KRL Jabodetabek\Train\8003F\tokyu8000-8213.animated
+;.FreeObj(806) KRL Jabodetabek\Train\8003F\tokyu8000-8103.animated
+;.FreeObj(807) KRL Jabodetabek\Train\8003F\tokyu8000-8004.animated
+
+;.FreeObj(810) KRL Jabodetabek\Train\8007F\tokyu8000-8003.animated
+;.FreeObj(811) KRL Jabodetabek\Train\8007F\tokyu8000-8245.animated
+;.FreeObj(812) KRL Jabodetabek\Train\8007F\tokyu8000-8107.animated
+;.FreeObj(813) KRL Jabodetabek\Train\8007F\tokyu8000-8260.animated
+;.FreeObj(814) KRL Jabodetabek\Train\8007F\tokyu8000-8137.animated
+;.FreeObj(815) KRL Jabodetabek\Train\8007F\tokyu8000-8204.animated
+;.FreeObj(816) KRL Jabodetabek\Train\8007F\tokyu8000-8108.animated
+;.FreeObj(817) KRL Jabodetabek\Train\8007F\tokyu8000-8008.animated
+
+;.FreeObj(820) KRL Jabodetabek\Train\8039F\tokyu8000-8039.animated
+;.FreeObj(821) KRL Jabodetabek\Train\8039F\tokyu8000-8248.animated
+;.FreeObj(822) KRL Jabodetabek\Train\8039F\tokyu8000-8158.animated
+;.FreeObj(823) KRL Jabodetabek\Train\8039F\tokyu8000-8218.animated
+;.FreeObj(824) KRL Jabodetabek\Train\8039F\tokyu8000-8164.animated
+;.FreeObj(825) KRL Jabodetabek\Train\8039F\tokyu8000-8249.animated
+;.FreeObj(826) KRL Jabodetabek\Train\8039F\tokyu8000-8159.animated
+;.FreeObj(827) KRL Jabodetabek\Train\8039F\tokyu8000-8040.animated
+
+;// Tokyu 8500
+;.FreeObj(830) KRL Jabodetabek\Train\8604F\tokyu8500-8604.animated
+;.FreeObj(831) KRL Jabodetabek\Train\8604F\tokyu8500-8704.animated
+;.FreeObj(832) KRL Jabodetabek\Train\8604F\tokyu8500-8904.animated
+;.FreeObj(833) KRL Jabodetabek\Train\8604F\tokyu8500-8825.animated
+;.FreeObj(834) KRL Jabodetabek\Train\8604F\tokyu8500-8719.animated
+;.FreeObj(835) KRL Jabodetabek\Train\8604F\tokyu8500-8909.animated
+;.FreeObj(836) KRL Jabodetabek\Train\8604F\tokyu8500-8804.animated
+;.FreeObj(837) KRL Jabodetabek\Train\8604F\tokyu8500-8504.animated
+
+;.FreeObj(840) KRL Jabodetabek\Train\8607F\tokyu8500-8607.animated
+;.FreeObj(841) KRL Jabodetabek\Train\8607F\tokyu8500-8707.animated
+;.FreeObj(842) KRL Jabodetabek\Train\8607F\tokyu8500-8948.animated
+;.FreeObj(843) KRL Jabodetabek\Train\8607F\tokyu8500-8828.animated
+;.FreeObj(844) KRL Jabodetabek\Train\8607F\tokyu8500-8743.animated
+;.FreeObj(845) KRL Jabodetabek\Train\8607F\tokyu8500-8924.animated
+;.FreeObj(846) KRL Jabodetabek\Train\8607F\tokyu8500-8808.animated
+;.FreeObj(847) KRL Jabodetabek\Train\8607F\tokyu8500-8508.animated
+
+;.FreeObj(850) KRL Jabodetabek\Train\8608F\tokyu8500-8608.animated
+;.FreeObj(851) KRL Jabodetabek\Train\8608F\tokyu8500-8708.animated
+;.FreeObj(852) KRL Jabodetabek\Train\8608F\tokyu8500-8949.animated
+;.FreeObj(853) KRL Jabodetabek\Train\8608F\tokyu8500-8829.animated
+;.FreeObj(854) KRL Jabodetabek\Train\8608F\tokyu8500-8744.animated
+;.FreeObj(855) KRL Jabodetabek\Train\8608F\tokyu8500-8925.animated
+;.FreeObj(856) KRL Jabodetabek\Train\8608F\tokyu8500-8808.animated
+;.FreeObj(857) KRL Jabodetabek\Train\8608F\tokyu8500-8508.animated
+
+;.FreeObj(860) KRL Jabodetabek\Train\8610F\tokyu8500-8610.animated
+;.FreeObj(861) KRL Jabodetabek\Train\8610F\tokyu8500-8710.animated
+;.FreeObj(862) KRL Jabodetabek\Train\8610F\tokyu8500-8951.animated
+;.FreeObj(863) KRL Jabodetabek\Train\8610F\tokyu8500-0815.animated
+;.FreeObj(864) KRL Jabodetabek\Train\8610F\tokyu8500-0715.animated
+;.FreeObj(865) KRL Jabodetabek\Train\8610F\tokyu8500-8927.animated
+;.FreeObj(866) KRL Jabodetabek\Train\8610F\tokyu8500-8810.animated
+;.FreeObj(867) KRL Jabodetabek\Train\8610F\tokyu8500-8510.animated
+
+;.FreeObj(870) KRL Jabodetabek\Train\8611F\tokyu8500-8611.animated
+;.FreeObj(871) KRL Jabodetabek\Train\8611F\tokyu8500-8711.animated
+;.FreeObj(872) KRL Jabodetabek\Train\8611F\tokyu8500-8911.animated
+;.FreeObj(873) KRL Jabodetabek\Train\8611F\tokyu8500-8832.animated
+;.FreeObj(874) KRL Jabodetabek\Train\8611F\tokyu8500-8735.animated
+;.FreeObj(875) KRL Jabodetabek\Train\8611F\tokyu8500-8928.animated
+;.FreeObj(876) KRL Jabodetabek\Train\8611F\tokyu8500-8811.animated
+;.FreeObj(877) KRL Jabodetabek\Train\8611F\tokyu8500-8511.animated
+
+;.FreeObj(880) KRL Jabodetabek\Train\8612F\tokyu8500-8612.animated
+;.FreeObj(881) KRL Jabodetabek\Train\8612F\tokyu8500-8712.animated
+;.FreeObj(882) KRL Jabodetabek\Train\8612F\tokyu8500-8912.animated
+;.FreeObj(883) KRL Jabodetabek\Train\8612F\tokyu8500-0817.animated
+;.FreeObj(884) KRL Jabodetabek\Train\8612F\tokyu8500-0717.animated
+;.FreeObj(885) KRL Jabodetabek\Train\8612F\tokyu8500-8929.animated
+;.FreeObj(886) KRL Jabodetabek\Train\8612F\tokyu8500-8812.animated
+;.FreeObj(887) KRL Jabodetabek\Train\8612F\tokyu8500-8512.animated
+
+;.FreeObj(890) KRL Jabodetabek\Train\8613F\tokyu8500-8613.animated
+;.FreeObj(891) KRL Jabodetabek\Train\8613F\tokyu8500-8713.animated
+;.FreeObj(892) KRL Jabodetabek\Train\8613F\tokyu8500-8913.animated
+;.FreeObj(893) KRL Jabodetabek\Train\8613F\tokyu8500-0800.animated
+;.FreeObj(894) KRL Jabodetabek\Train\8613F\tokyu8500-8796.animated
+;.FreeObj(895) KRL Jabodetabek\Train\8613F\tokyu8500-8930.animated
+;.FreeObj(896) KRL Jabodetabek\Train\8613F\tokyu8500-8813.animated
+;.FreeObj(897) KRL Jabodetabek\Train\8613F\tokyu8500-8513.animated
+
+;.FreeObj(900) KRL Jabodetabek\Train\8618F\tokyu8500-8618.animated
+;.FreeObj(901) KRL Jabodetabek\Train\8618F\tokyu8500-8724.animated
+;.FreeObj(902) KRL Jabodetabek\Train\8618F\tokyu8500-8935.animated
+;.FreeObj(903) KRL Jabodetabek\Train\8618F\tokyu8500-8855.animated
+;.FreeObj(904) KRL Jabodetabek\Train\8618F\tokyu8500-8753.animated
+;.FreeObj(905) KRL Jabodetabek\Train\8618F\tokyu8500-8954.animated
+;.FreeObj(906) KRL Jabodetabek\Train\8618F\tokyu8500-0811.animated
+;.FreeObj(907) KRL Jabodetabek\Train\8618F\tokyu8500-8518.animated
+
+;// Tokyo Metro 7000
+;.FreeObj(700) KRL Jabodetabek\Train\7017F\TM7000-7017.animated
+;.FreeObj(701) KRL Jabodetabek\Train\7017F\TM7000-7917.animated
+;.FreeObj(702) KRL Jabodetabek\Train\7017F\TM7000-7617.animated
+;.FreeObj(703) KRL Jabodetabek\Train\7017F\TM7000-7517.animated
+;.FreeObj(704) KRL Jabodetabek\Train\7017F\TM7000-7417.animated
+;.FreeObj(705) KRL Jabodetabek\Train\7017F\TM7000-7317.animated
+;.FreeObj(706) KRL Jabodetabek\Train\7017F\TM7000-7217.animated
+;.FreeObj(707) KRL Jabodetabek\Train\7017F\TM7000-7117.animated
+
+;.FreeObj(710) KRL Jabodetabek\Train\7021F\TM7000-7021.animated
+;.FreeObj(711) KRL Jabodetabek\Train\7021F\TM7000-7921.animated
+;.FreeObj(712) KRL Jabodetabek\Train\7021F\TM7000-7621.animated
+;.FreeObj(713) KRL Jabodetabek\Train\7021F\TM7000-7521.animated
+;.FreeObj(714) KRL Jabodetabek\Train\7021F\TM7000-7421.animated
+;.FreeObj(715) KRL Jabodetabek\Train\7021F\TM7000-7321.animated
+;.FreeObj(716) KRL Jabodetabek\Train\7021F\TM7000-7221.animated
+;.FreeObj(717) KRL Jabodetabek\Train\7021F\TM7000-7121.animated
+
+;.FreeObj(720) KRL Jabodetabek\Train\7022F\TM7000-7022.animated
+;.FreeObj(721) KRL Jabodetabek\Train\7022F\TM7000-7922.animated
+;.FreeObj(722) KRL Jabodetabek\Train\7022F\TM7000-7622.animated
+;.FreeObj(723) KRL Jabodetabek\Train\7022F\TM7000-7522.animated
+;.FreeObj(724) KRL Jabodetabek\Train\7022F\TM7000-7422.animated
+;.FreeObj(725) KRL Jabodetabek\Train\7022F\TM7000-7322.animated
+;.FreeObj(726) KRL Jabodetabek\Train\7022F\TM7000-7222.animated
+;.FreeObj(727) KRL Jabodetabek\Train\7022F\TM7000-7122.animated
+
+;.FreeObj(730) KRL Jabodetabek\Train\7023F\TM7000-7023.animated
+;.FreeObj(731) KRL Jabodetabek\Train\7023F\TM7000-7923.animated
+;.FreeObj(732) KRL Jabodetabek\Train\7023F\TM7000-7623.animated
+;.FreeObj(733) KRL Jabodetabek\Train\7023F\TM7000-7523.animated
+;.FreeObj(734) KRL Jabodetabek\Train\7023F\TM7000-7423.animated
+;.FreeObj(735) KRL Jabodetabek\Train\7023F\TM7000-7323.animated
+;.FreeObj(736) KRL Jabodetabek\Train\7023F\TM7000-7223.animated
+;.FreeObj(737) KRL Jabodetabek\Train\7023F\TM7000-7123.animated
+
+;// Tokyo Metro 05
+
+;// Tokyo Metro 6000
+
+;// KRL-I
+
+;// Rheostatik stainless
+
+;// Rheostatik mild steel
+
+;// Holec
+
+;// Hitachi
+
+;// ----- Tekstur latar belakang -----
+
+With Texture
+.Background(0) KRL Jabodetabek\Back_Fine.bmp
+
+;// Bagian jalur
+
+With Track
+0
+.Limit 110
+.Accuracy 2
+.Adhesion 150
+.Ground 1
+.Back 0
+.RailType 0;0
+.Height 0.6
+
+;---- Bagian rel & peron stasiun Bogor ----
+;1. Rel utama
+.Rail 1; -5.4; 0; 0
+.Rail 2; 5.4; 0; 0
+.Rail 81; 11.8; 0; 0
+.Rail 3; -8.8; 0; 0
+.Rail 4; -14.2; 0; 0
+.Rail 5; -17.6; 0; 0
+.Rail 6; -23; 0; 0
+.Rail 7; -26.4; 0; 0
+
+;---- Tiang LAA -----
+.Pole 0; 3; -0.25; 15; 0
+.Pole 4; 2; -0.25; 15; 1
+.Pole 7; 2; 0; 15; 1
+
+;2. Penunjuk stasiun
+.Sta BOGOR; 06.0400; 06.0500; 0; B; 1; 0; ; ; ; KRL Jabodetabek\Dept.wav;
+.Form 0; 2; 1; 10
+.Form 2; 81; 1; 10
+.Form 0; 1; 0; 0
+.Form 3; 4; 0; 0
+.Form 5; 6; 0; 0
+.Form 7; L; 0; 0
+.Form 81; R; 1; 10
+25
+.Form 0; 2; 1; 10
+.Form 2; 81; 1; 10
+.Form 0; 1; 0; 0
+.Form 3; 4; 0; 0
+.Form 5; 6; 0; 0
+.Form 7; L; 0; 0
+.Form 81; R; 1; 10
+50
+.Form 0; 2; 1; 10
+.Form 2; 81; 1; 10
+.Form 0; 1; 0; 0
+.Form 3; 4; 0; 0
+.Form 5; 6; 0; 0
+.Form 7; L; 0; 0
+.Form 81; R; 1; 10
+75
+.Form 0; 2; 1; 10
+.Form 0; 1; 0; 0
+.Form 3; 4; 0; 0
+.Form 5; 6; 0; 0
+.Form 7; L; 0; 0
+80
+.Rail 80; 5.4; 0; 0
+85
+.FreeObj 0; 200
+100
+.Form 0; 2; 1; 10
+.Form 0; 1; 0; 0
+.Form 3; 4; 0; 0
+.Form 5; 6; 0; 0
+.Form 7; L; 0; 0
+.Rail 80; 7.8; 0; 0
+.Rail 82; 7.8; 0; 0
+.Rail 83; 11.8; 0; 0
+125
+.Form 0; 2; 1; 10
+.Form 0; 1; 0; 0
+.Form 3; 4; 0; 0
+.Form 5; 6; 0; 0
+.Form 7; L; 0; 0
+.FreeObj 0; 201
+140
+.Rail 80; 10.2; 0; 0
+.Rail 82; 9.0; 0; 0
+.Rail 83; 12.9; 0; 0
+150
+.Form 0; 2; 1; 10
+.Form 0; 1; 0; 0
+.Form 3; 4; 0; 0
+.Form 5; 6; 0; 0
+.Form 7; L; 0; 0
+160
+.Rail 80; 12.6; 0; 0
+.Rail 82; 10.4; 0; 0
+.Rail 83; 14.2; 0; 0
+165
+.Stop 0
+.FreeObj 0; 202
+175
+.Crack 0; 1; 0
+.Crack 0; 2; 0
+.Crack 1; 3; 0
+.Crack 3; 4; 0
+180
+.Rail 80; 15.0; 0; 0
+.RailEnd 82; 11.8; 0
+.Rail 83; 15.8; 0; 0
+200
+.Signal 3; ; 2.5; 4.8
+.FreeObj 0; 3; 2.5; 0
+.FreeObj 2; 2; 2.5; 0
+.FreeObj 2; 11; 2.5; 4.8
+.FreeObj 1; 3; 2.5; 0
+.FreeObj 1; 11; 2.5; 4.8
+.FreeObj 3; 11; -2.6; 4.8
+.FreeObj 4; 3; 2.5; 0
+.FreeObj 4; 11; 2.2; 4.8
+.Rail 80; 17.4; 0; 0
+.RailEnd 83; 17.4; 0
+.Pole 80; 0; 0.8; 25; 3
+220
+.Rail 2; 5.0; 0; 0
+230
+.Rail 2; 4.6; 0; 0
+240
+.Rail 80; 19.8; 0; 0
+.Rail 2; 4.6; 0; 0
+.Rail 5; -17.6; 0; 0
+250
+.Rail 2; 3.2; 0; 0
+.Rail 1; -6.0; 0; 0
+.Rail 5; -18.8; 0; 0
+260
+.Rail 2; 3.2; 0; 0
+.Rail 1; -6.0; 0; 0
+.Rail 5; -18.8; 0; 0
+.Rail 80; 22.2; 0; 0
+275
+.Rail 2; 1.8; 0; 0
+.Rail 1; -6.4; 0; 0
+.Rail 5; -20.4; 0; 0
+280
+.Rail 80; 24.6; 0; 0
+290
+.Rail 2; 1.8; 0; 0
+.Rail 1; -6.4; 0; 0
+.Rail 5; -20.4; 0; 0
+300
+.Rail 70; 7; 0; 2
+.Wall 70; -1; 3
+.Rail 80; 27.0; 0; 0
+310
+.RailEnd 2; 0.08; 0; 0
+.Rail 1; -7.2; 0; 0
+.Rail 5; -21.8; 0; 0
+330
+.Rail 1; -8.0; 0; 0
+.Rail 7; -26.4; 0; 0
+.RailEnd 5; -23; 0; 0
+340
+.Rail 80; 29.4; 0; 0
+350
+.Rail 1; -8.77; 0; 0
+.RailEnd 3; -8.8; 0; 0
+.Rail 7; -26.2; 0; 0
+360
+.Rail 80; 31.8; 0; 0
+370
+.Rail 1; -8.77; 0; 0
+.Rail 7; -26.2; 0; 0
+.Rail 6; -24.4; 0; 0
+.Pole 7; 0; -0.1; 10; 2
+380
+.Rail 80; 34.2; 0; 0
+390
+.Rail 1; -10.0; 0; 0
+.Rail 7; -25.9; 0; 0
+.RailEnd 6; -25.8; 0; 0
+400
+.Rail 80; 36.6; 0; 0
+.Rail 84; 36.6; 0; 0
+.RailEnd 81
+.FreeObj 0; 75; 11.8
+410
+.Rail 1; -11.1; 0; 0
+.Rail 7; -24.7; 0; 0
+430
+.Rail 1; -12.0; 0; 0
+.Rail 7; -23.4; 0; 0
+440
+.Rail 80; 39.0; 0; 0
+.Rail 85; 36.6; 0; 0
+450
+.Rail 1; -12.7; 0; 0
+.Rail 7; -22.3; 0; 0
+460
+.Rail 80; 41.4; 0; 0
+.Rail 85; 34.2; 0; 0
+470
+.Rail 1; -12.7; 0; 0
+.Rail 7; -22.3; 0; 0
+480
+.Rail 80; 43.8; 0; 0
+.Rail 85; 31.8; 0; 0
+.Rail 86; 31.8; 0; 0
+490
+.Rail 1; -13.5; 0; 0
+.Rail 7; -21; 0; 0
+500
+.Rail 80; 46.2; 0; 0
+.Rail 85; 29.4; 0; 0
+.Rail 90; 58.2; 0; 0
+.Rail 91; 63.0; 0; 0
+.PoleEnd 0
+.Pole 0; 0; 0.8; 10; 3
+510
+.Rail 1; -14.2; 0; 0
+.RailEnd 4; -14.2; 0; 0
+.Rail 7; -19.8; 0; 0
+520
+.Pole 85; 2; -0.2; 25; 0
+.Pole 90; 1; -0.2; 25; 0
+530
+.Rail 1; -15.6; 0; 0
+.Rail 7; -18.6; 0; 0
+540
+.Rail 80; 48.6; 0; 0
+.Rail 85; 27.0; 0; 0
+.Rail 88; 48.6; 0; 0
+.Pole 88; 0; -0.2; 25; 3
+560
+.Rail 80; 51.0; 0; 0
+.PoleEnd 80
+570
+.Rail 1; -17.55; 0; 0
+.RailEnd 7; -17.55; 0; 0
+.PoleEnd 7
+580
+.Rail 1; -16.8; 0; 0
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 0
+.Rail 80; 53.4; 0; 0
+.Rail 89; 48.6; 0; 0
+600
+.Rail 1; -16; 0; 0
+.Rail 80; 55.8; 0; 0
+.Rail 89; 46.2; 0; 0
+620
+.Rail 1; -16; 0; 0
+.Pole 89; 0; -0.2; 25; 3
+.PoleEnd 88
+640
+.Rail 1; -15; 0; 0
+.Pitch -1
+.Rail 50; 0; 0
+.Rail 80; 58.2; 0; 0
+.Rail 89; 43.8; 0; 0
+.Pole 89; 1; -0.2; 25; 0
+660
+.Rail 1; -14; 0; 0
+.Rail 50; -1.5; 0; 0
+.Rail 80; 60.6; 0; 0
+680
+.Rail 1; -13; 0; 0
+.Rail 50; -3.0; 0; 0
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 11; -2.8; 4.8; 180
+.Rail 80; 63.0; 0; 0
+.RailEnd 91
+700
+.Rail 1; -12; 0; 0
+.Rail 50; -4.5; 0; 0
+740
+.Rail 1; -11; 0; 0
+.Rail 50; -6.0; 0; 0
+760
+.Rail 1; -10; 0; 0
+.Rail 50; -7.5; 0; 0
+780
+.Rail 1; -9; 0; 0
+.RailEnd 50; -8.95; 0
+800
+.Rail 1; -8; 0; 0
+.PoleEnd 85
+.PoleEnd 89
+.PoleEnd 90
+.RailEnd 80
+.RailEnd 84
+.RailEnd 85
+.RailEnd 86
+.RailEnd 88
+.RailEnd 89
+.RailEnd 90
+800.5
+.FreeObj 0; 86; 26.1
+.FreeObj 0; 86; 33.7
+.FreeObj 0; 86; 41.2
+.FreeObj 0; 86; 48.8
+.FreeObj 0; 86; 56.37
+.FreeObj 0; 86; 63.97
+820
+.Rail 1; -8; 0; 0
+840
+.Rail 1; -7; 0; 0
+.Pitch -1
+845
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+860
+.Rail 1; -5.4; 0; 0
+880
+.Rail 1; -3.8; 0; 0
+.Rail 50; -3.8; 0; 0
+900
+.Rail 50; -2.6; 0; 0
+940
+.WallEnd 70
+.RailEnd 70
+.Rail 50; -1.4; 0; 0
+959
+.FreeObj 0; 1002; 3.8; 0; 180
+960
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+.RailEnd 50; -0.03; 0
+967
+.FreeObj 1; 1002; -3.8; 0
+990
+.FreeObj 0; 1100; 3.8; -1.5
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+1000
+.Curve 600; 15
+.RailType 0; 13
+.RailType 1; 13
+1020
+.PoleEnd 1
+.Pole 0; 0; 0.8; 10; 0
+.Pole 1; 0; -0.8; 10; 3
+.Pitch -1
+1030
+.Curve 0; 0
+.RailType 0; 0
+.RailType 1; 0
+1050
+.Pitch -3
+1200
+.Curve 4000; 0
+1210
+.Marker KRL Jabodetabek\90.bmp; 10
+.Limit 90; 1
+1270
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+1300
+.Pole 0; 0; 0.8; 10; 3
+.Pole 1; 0; -0.8; 10; 3
+1450
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+1500
+.Curve 0; 0
+1560
+.Marker KRL Jabodetabek\110.bmp; 10
+.Limit 110; 1
+1630
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+1675
+.Ground 2
+.RailType 0; 5
+.RailType 1; 5
+1700
+.Ground 4
+.RailType 0; 19
+.RailType 1; 19
+;.Dike 0; 1; 0
+;.Dike 1; -1; 0
+.Pitch -1
+1710
+.Ground 0
+.RailType 0; 0
+.RailType 1; 0
+1850
+.Curve -3000; 10
+.Marker KRL Jabodetabek\90.bmp; 10
+.Limit 90; 1
+1880
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+2000
+.Curve 0; 0
+.Marker KRL Jabodetabek\110.bmp; 10
+.Limit 110; 1
+2045
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+2145
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+2295
+.Marker KRL Jabodetabek\90.bmp; 10
+.Limit 90; 1
+2300
+.Curve 1000; 20
+.RailType 0; 16
+.RailType 1; 16
+2330
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+2500
+.Pole 1; 0; -0.8; 10; 1
+.Pole 0; 0; 0.8; 10; 2
+.Pitch -3
+2645
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+2665
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+2700
+.Curve 1500; 20
+.RailType 0; 17
+.RailType 1; 17
+2840
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+3000
+.Pole 1; 0; -0.8; 10; 3
+.Pole 0; 0; 0.8; 10; 3
+3065
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+3100
+.Curve 1000; 20
+.RailType 0; 16
+.RailType 1; 16
+3145
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+3475
+.Ground 2
+.RailType 0; 5
+.RailType 1; 5
+3500
+.Ground 4
+.RailType 0; 19
+.RailType 1; 19
+;.Dike 0; 1; 0
+;.Dike 1; -1; 0
+3510
+.Ground 0
+.RailType 0; 16
+.RailType 1; 16
+3600
+.Pitch -3
+3630
+.FreeObj 0; 68; 9.2; 0
+3665
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+3700
+.Pole 1; 0; -0.8; 10; 2
+.Pole 0; 0; 0.8; 10; 2
+3715
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+3840
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+4000
+.Curve 0; 0
+.RailType 0; 0
+.RailType 1; 0
+.Pole 0; 0; 0.8; 10; 3
+.Pole 1; 0; -0.8; 10; 3
+4165
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+4200
+.Curve -1500; 20
+.RailType 0; 27
+.RailType 1; 27
+
+4440
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+4600
+.Curve -1000; 20
+.RailType 0; 26
+.RailType 1; 26
+
+4665
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+4755
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+4840
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+5000
+.Curve -800; 20
+.RailType 0; 24
+.RailType 1; 24
+
+5115
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+5165
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+5340
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+5400
+.Curve -600; 20
+.RailType 0; 23
+.RailType 1; 23
+.Pitch -2
+
+5475
+.Ground 2
+.RailType 0; 5
+.RailType 1; 5
+
+5500
+.Ground 4
+.RailType 0; 19
+.RailType 1; 19
+;.Dike 0; 1; 0
+;.Dike 1; -1; 0
+
+5510
+.Ground 0
+.RailType 0; 23
+.RailType 1; 23
+
+5555
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+5665
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+5700
+.Curve 0; 0
+.Marker KRL Jabodetabek\110.bmp; 10
+.Limit 110; 1
+.RailType 0; 0
+.RailType 1; 0
+
+
+5760
+.FreeObj 0; 68; 9.2; 0
+
+5840
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+5795
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+6165
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+6135
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+6552
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+6665
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+6840
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+7000
+.Curve 1500; 20
+.Marker KRL Jabodetabek\90.bmp; 10
+.Limit 90; 1
+.RailType 0; 17
+.RailType 1; 17
+
+7115
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+7165
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+7200
+.Curve 0; 0
+.RailType 0; 0
+.RailType 1; 0
+
+7250
+.Marker KRL Jabodetabek\110.bmp; 10
+.Limit 110; 1
+
+7340
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+7435
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+7500
+.Pitch -2
+
+7665
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+7840
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+7975
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+8165
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+8440
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+8555
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+8665
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+8740
+.Rail 1; -4; 0; 0
+
+8760
+.Rail 1; -4.5; 0; 0
+
+8780
+.Rail 1; -5; 0; 0
+.PoleEnd 0
+.PoleEnd 1
+.Pole 1; 1; -0.25; 10; 0
+
+8800
+.Rail 1; -5.3; 0; 0
+
+8850
+.Rail 1; -5.5; 0; 0
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+8880
+.Rail 50; 0; 0; 0
+
+8900
+.Rail 50; -1.8; 0; 0
+
+8920
+.Rail 50; -1.8; 0; 0
+
+8940
+.Rail 50; -3.6; 0; 0
+
+8950
+.RailEnd 50; -5.45; 0; 0
+
+8960
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+;----- Stasiun Cilebut -----
+9000
+.Sta CILEBUT; ; ; 0; -1; 1; 0; ; ; ; KRL Jabodetabek\Dept.wav;
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+9025
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+9050
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+9075
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+9100
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+9125
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+9150
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+9175
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+9185
+.FreeObj 0; 200
+
+9200
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+9225
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+.FreeObj 0; 201
+
+9250
+.Form 1; L; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+
+9265
+.Stop 0
+.FreeObj 0; 202
+
+9280
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+9320
+.Rail 51; -5.5; 0; 0
+
+9340
+.Rail 51; -3.6; 0; 0
+
+9360
+.Rail 51; -1.8; 0; 0
+
+9380
+.RailEnd 51; -0.05; 0; 0
+
+9395
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+9400
+.Rail 1; -5.3; 0; 0
+
+9420
+.Rail 1; -5.3; 0; 0
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+9440
+.Rail 1; -5; 0; 0
+
+9460
+.Rail 1; -4.5; 0; 0
+
+9480
+.Rail 1; -4; 0; 0
+
+9500
+.Rail 1; -3.8; 0; 0
+.PoleEnd 0
+.PoleEnd 1
+.Pole 0; 0; 0.8; 10; 0
+.Pole 1; 0; -0.8; 10; 3
+
+9780
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+9825
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+10000
+.Pitch -3
+
+10010
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+10280
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+10305
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+10500
+.Curve -1500; 20
+.RailType 0; 27
+.RailType 1; 27
+
+10524
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+10780
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+10835
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+10982
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+11000
+.Curve -1500; 20
+.RailType 0; 27
+.RailType 1; 27
+.Pole 0; 0; 0.8; 10; 3
+.Pole 1; 0; -0.8; 10; 3
+
+11280
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+11315
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+11460
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+11500
+.Curve 0; 0
+.RailType 0; 0
+.RailType 1; 0
+
+11780
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+11835
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+12034
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+12280
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+12305
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+12500
+.Curve 1500; 20
+.RailType 0; 17
+.RailType 1; 17
+
+12614
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+12700
+.Curve -800; 20
+.RailType 0; 24
+.RailType 1; 24
+
+12780
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+12825
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+13144
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+13280
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+13335
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+13468
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+13500
+.Curve -6000; 20
+.RailType 0; 0
+.RailType 1; 0
+
+13600
+.Curve 0; 0
+
+13780
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+13865
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+14070
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+14280
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+14325
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+14500
+.Curve -7000; 20
+
+14562
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+14700
+.Curve 8000; 20
+
+14780
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+14945
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+15024
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+15280
+.Signal 3; ; 2.8; 4.8
+.FreeObj 0; 2; 2.8; 0
+
+15300
+.Curve 0; 0
+
+15444
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+15700
+.PoleEnd 0
+.PoleEnd 1
+.Pole 1; 1; 0; 10; 0
+
+15705
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+15738
+.FreeObj 0; 1100; -7.8; -1.5; 180
+15759
+.FreeObj 0; 1002; 3.8; 0; 180
+15760
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+15767
+.FreeObj 1; 1002; -3.8; 0
+
+15780
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+.FreeObj 0; 2; 2.8; 0
+.Curve 3000; 20
+
+15800
+.Rail 1; -4; 0; 0
+
+15840
+.Rail 1; -4.3; 0; 0
+
+15860
+.Rail 1; -4.7; 0; 0
+
+15880
+.Rail 1; -5; 0; 0
+.Rail 50; 0; 0; 0
+
+15900
+.Rail 1; -5.5; 0; 0
+.Rail 50; -1.8; 0; 0
+
+15920
+.Rail 1; -5.5; 0; 0
+.Rail 50; -1.8; 0; 0
+
+15940
+.Rail 1; -6; 0; 0
+.Pole 1; 1; -0.3; 10; 0
+.Rail 50; -3.8; 0; 0
+
+15960
+.RailEnd 50; -5.92; 0; 0
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 11; -2.5; 4.8; 180
+.FreeObj 1; 13; -3.1; 4.8; 180
+
+;----- Stasiun Bojonggede -----
+16000
+.Sta BOJONGGEDE; ; ; 0; B; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16020
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+.Curve 0; 0
+
+16040
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16060
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16080
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16095
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16100
+.FreeObj 0; 370
+.FreeObj 1; 370
+.FreeObj 1; 370; -5.9; 0
+
+16106
+.FreeObj 0; 68; 9.2; 0
+
+16110.3
+.FreeObj 0; 68; 9.2; 0
+
+16114.6
+.FreeObj 0; 68; 9.2; 0
+
+16119
+.FreeObj 0; 68; 9.2; 0
+
+16120
+.FreeObj 0; 369
+.FreeObj 1; 369
+.FreeObj 1; 369; -5.8; 0
+
+16130
+.FreeObj 0; 200
+
+16140
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16160
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16170
+.FreeObj 0; 201
+
+16180
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16200
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16210
+.Stop 0
+.FreeObj 0; 202
+
+16220
+.Form 0; R; 2; 0
+.Form 0; 1; 0; 0
+.Form 1; 0; 0; 0
+.Form 1; L; 1; 0
+
+16240
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+
+16260
+.Rail 51; -6; 0; 0
+
+16280
+.Rail 51; -3.8; 0; 0
+
+16300
+.Rail 51; -1.8; 0; 0
+
+16320
+.Rail 51; -1.8; 0; 0
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+16340
+.RailEnd 51; -0.07; 0; 0
+
+16300
+.Rail 1; -5.6; 0; 0
+
+16320
+.Rail 1; -5.6; 0; 0
+
+16340
+.Rail 1; -5.2; 0; 0
+
+16360
+.Rail 1; -4.8; 0; 0
+
+16380
+.Rail 1; -4.4; 0; 0
+
+16400
+.Rail 1; -3.8; 0; 0
+.PoleEnd 1
+.Pole 0; 0; 0.8; 10; 2
+.Pole 1; 0; -0.8; 10; 2
+
+16384
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+16480
+.Pole 0; 0; 0.8; 10; 3
+.Pole 1; 0; -0.8; 10; 3
+
+16800
+.Curve 8500; 20
+
+17225
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+17240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+17400
+.Curve 6000; 20
+
+17611
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+17635
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+17740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+17800
+.Curve 0; 0
+
+17994
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+18175
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+18240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+18534
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+18697
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+18740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+18942
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+18800
+.Curve -5000; 20
+
+19113
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+19240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+19400
+.Curve 0; 0
+
+19486
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+19717
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+19740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+19944
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+20193
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+20240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+20514
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+20600
+.Curve -6000; 0
+
+20695
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+20700
+.Curve 0; 0
+
+20710
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+20725
+.Ground 2
+.RailType 0; 5
+.RailType 1; 5
+
+20750
+.Ground 4
+.RailType 0; 19
+.RailType 1; 19
+;.Dike 0; 1; 0
+;.Dike 1; -1; 0
+
+20760
+.Ground 0
+.RailType 0; 0
+.RailType 1; 0
+
+20974
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+21220
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+21229
+.FreeObj 0; 1002; 3.8; 0; 180
+21230
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+21237
+.FreeObj 1; 1002; -3.8; 0
+21260
+.FreeObj 0; 1100; 3.8; -1.5
+
+21269
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+21477
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+21740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+21761
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+21824
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+22240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+22275
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+22454
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+22740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+22785
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+22500
+.Curve 6000; 20
+
+23000
+.Curve 0; 0
+
+; ----- Jalur Nambo -----
+22300
+.Rail 15; 24.0; 0; 15
+
+22340
+.Rail 15; 22.5; 0; 15
+
+22360
+.Rail 15; 21.0; 0; 15
+
+22380
+.Rail 15; 19.5; 0; 15
+
+22400
+.Rail 15; 18.0; 0; 15
+
+22440
+.Rail 15; 16.5; 0; 15
+
+22460
+.Rail 15; 15.0; 0; 15
+
+22480
+.Rail 15; 13.5; 0; 15
+
+22500
+.Rail 15; 12.0; 0; 15
+
+22540
+.Rail 15; 10.5; 0; 15
+
+22560
+.Rail 15; 9.0; 0; 15
+
+22580
+.Rail 15; 7.5; 0; 15
+
+22600
+.Rail 15; 6.5; 0; 15
+
+22640
+.Rail 15; 5.9; 0; 15
+
+22660
+.Rail 15; 5.3; 0; 15
+
+22940
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+22980
+.Rail 15; 4.5; 0; 15
+
+23000
+.Rail 15; 4.0; 0; 15
+
+23040
+.Rail 15; 3.5; 0; 15
+
+23060
+.PoleEnd 0
+.PoleEnd 1
+.Rail 15; 3.0; 0; 15
+
+23080
+.Rail 15; 2.5; 0; 15
+
+23100
+.Rail 15; 2.0; 0; 15
+
+23140
+.Rail 15; 1.5; 0; 15
+
+23160
+.Rail 15; 1.0; 0; 15
+
+23180
+.Rail 15; 0.5; 0; 15
+.Pole 0; 0; 0.8; 10; 3
+.Pole 1; 0; -0.8; 10; 3
+
+23200
+.RailEnd 15; 0; 0
+
+23240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+23255
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+; ----- Akhir jalur Nambo -----
+
+23330
+.Rail 50; 0; 0; 0
+
+23350
+.Rail 50; -1.3; 0; 0 
+
+23370
+.Rail 50; -1.3; 0; 0
+
+23390
+.Rail 50; -2.6; 0; 0
+
+23410
+.RailEnd 50; -3.75; 0; 0
+
+23440
+.Pitch 0
+
+23474
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+; ----- PJL Citayam -----
+
+23529
+.FreeObj 0; 1002; 3.8; 0; 180
+23530
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+23537
+.FreeObj 1; 1002; -3.8; 0
+23560
+.FreeObj 0; 1100; 3.8; -1.5
+
+; ------------------------
+
+23680
+.Rail 50; -3.8; 0; 0
+
+23700
+.Rail 50; -2.6; 0; 0 
+
+23720
+.Rail 50; -2.6; 0; 0
+
+23740
+.Rail 50; -1.3; 0; 0
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+
+23750
+.RailEnd 50; -0.05; 0; 0
+
+23800
+.Rail 1; -4; 0; 0
+
+23840
+.Rail 1; -4.3; 0; 0
+
+23860
+.Rail 1; -4.7; 0; 0
+
+23880
+.Rail 1; -5; 0; 0
+
+23884
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+23900
+.Rail 1; -5.5; 0; 0
+
+23920
+.Rail 1; -5.5; 0; 0
+
+23940
+.Rail 1; -6; 0; 0
+.PoleEnd 0
+.Pole 1; 1; -0.3; 10; 0
+
+;----- Stasiun Citayam -----
+24000
+.Sta CITAYAM; ; ; 0; B; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Rail 3; -10.5; 1.7; 2
+.Wall 3; -1; 4 
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+.FreeObj 0; 340; 3.7; 0
+.FreeObj 1; 340; -3.7; 0
+.FreeObj 0; 344; 5.9; 0; 0
+.FreeObj 1; 344; -6.1; 0; 0
+.FreeObj 0; 344; -3.01; 0; 0
+
+24020
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+24040
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+24060
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+24080
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+24100
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+24110
+.FreeObj 0; 200
+
+24120
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+24140
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+24150
+.FreeObj 0; 201
+
+24160
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+24180
+.Form 0; R; 1; 0
+.Form 0; 1; 2; 0
+.Form 1; 0; 2; 0
+.Form 1; L; 1; 0
+
+24192
+.FreeObj 0; 368
+.FreeObj 1; 367
+
+24200
+.FreeObj 1; 370
+.WallEnd 3
+.RailEnd 3
+
+24214
+.FreeObj 0; 68; 9.2; 0
+
+24190
+.Stop 0
+.FreeObj 0; 202
+
+24234
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+
+24260
+.Rail 51; 0; 0; 0
+
+24280
+.Rail 51; -1.8; 0; 0
+
+24300
+.Rail 1; -5.6; 0; 0
+.Rail 51; -3.5; 0; 0
+
+24320
+.Rail 1; -5.6; 0; 0
+.Rail 51; -3.5; 0; 0
+
+24333
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 11; -2.5; 4.8; 180
+.FreeObj 1; 13; -3.1; 4.8; 180
+
+24340
+.Rail 1; -5.2; 0; 0
+.RailEnd 51; -5.125; 0; 0
+
+24360
+.Rail 1; -4.8; 0; 0
+
+24380
+.Rail 1; -4.4; 0; 0
+
+24396
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+24400
+.Rail 1; -3.8; 0; 0
+.PoleEnd 1
+.Pole 0; 0; 0.8; 10; 3
+.Pole 1; 0; -0.8; 10; 3
+.Pitch -3
+
+24740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+24775
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+24994
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+25000
+.Curve 8000; 20
+
+25040
+.Curve 0; 0
+
+25240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+25255
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+25464
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+25740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+25767
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+25938
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+26240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+26279
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+26514
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+26440
+.Pitch 0
+
+; ----- PJL Citayam -----
+
+26529
+.FreeObj 0; 1002; 3.8; 0; 180
+26530
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+26537
+.FreeObj 1; 1002; -3.8; 0
+26560
+.FreeObj 0; 1100; 3.8; -1.5
+
+26740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+.Pitch -3
+
+26759
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+26936
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+; ----- Dipo Depok -----
+27240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+27259
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+27434
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+27740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+27759
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+27938
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+28240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+28259
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+28512
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+28740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+28759
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+28960
+.Rail 60; -15.4; 0; 0
+.Wall 60; 0; 3 
+28980
+.Rail 60; -14.0; 0; 0
+28994
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+29000
+.Rail 60; -12.6; 0; 0
+29020
+.Rail 60; -12.6; 0; 0
+.Pole 60; 0; -0.8; 10; 3
+29040
+.Rail 60; -11.2; 0; 0
+.Rail 61; -11.2; 0; 0
+.WallEnd 60
+.Wall 60; 1; 3
+.Wall 61; -1; 3
+29060
+.Rail 60; -9.8; 0; 0
+29080
+.Rail 60; -8.4; 0; 0
+.WallEnd 60
+.WallEnd 61
+.PoleEnd 0
+.PoleEnd 1
+.PoleEnd 60
+29100
+.Rail 60; -7.0; 0; 0
+.Pole 1; 3; 2; 10; 0
+29120
+.Rail 60; -7.0; 0; 0
+29140
+.Rail 60; -5.6; 0; 0
+29160
+.Rail 60; -4.2; 0; 0
+.Pole 1; 3; 2; 10; 0
+29180
+.Rail 60; -2.8; 0; 0
+29199
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 11; -2.5; 4.8; 180
+.FreeObj 1; 13; -3.1; 4.8; 180
+29200
+.Rail 60; -1.4; 0; 0
+29220
+.Rail 60; -1.4; 0; 0
+29240
+.RailEnd 60; -0.05; 0; 0
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+29341
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+29373
+.FreeObj 1; 75; -7.5
+
+29380
+.RailEnd 61; -11.2; 0; 0
+
+29420
+.PoleEnd 0
+.Pole 0; 0; 0.8; 10; 3
+.Pole 1; 0; -0.8; 10; 3
+
+29440
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+
+; ----- Wesel Depok Lama -----
+29460
+.Rail 1; -4.0; 0; 0
+.Rail 2; 0; 0; 0
+29480
+.Rail 1; -4.2; 0; 0
+.Rail 2; -1.5; 0; 0
+.Rail 52; -17; 0; 0
+.Pole 52; 0; -0.8; 10; 3
+.Pole 0; 2; 1.8; 15; 0
+29475
+.FreeObj 1; 73; -12.7
+29520
+.Rail 1; -4.6; 0; 0
+.Rail 2; -3.0; 0; 0
+.PoleEnd 0
+.PoleEnd 1
+29540
+.Rail 1; -5.0; 0; 0
+.Rail 2; -4.5; 0; 0
+29560
+.Rail 1; -5.2; 0; 0
+.Rail 2; -6.0; 0; 0
+.Pole 0; 2; 1.8; 15; 0
+29580
+.Rail 1; -5.6; 0; 0
+.Rail 2; -7.5; 0; 0
+29600
+.Rail 1; -6.0; 0; 0
+29613
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+29620
+.Rail 1; -6.0; 0; 0
+.Rail 2; -9; 0; 0
+.Rail 3; -9; 0; 0
+.Pole 0; 3; 3; 15; 0
+29640
+.Rail 1; -6.3; 0; 0
+.Rail 2; -10.5; 0; 0
+.Rail 3; -10.5; 0; 0
+
+29660
+.Rail 1; -6.5; 0; 0
+.Rail 3; -12; 0; 0
+.Pole 0; 1; 1.31; 10; 0
+.Pole 52; 1; -0.32; 10; 0
+
+
+29680
+.Rail 3; -13.5; 0; 0
+29720
+.Rail 3; -14.8; 0; 0
+29740
+.Rail 3; -16; 0; 0
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+29760
+.Rail 3; -17; 0; 0
+.RailEnd 52; -17; 0; 0
+.PoleEnd 52
+.Pole 3; 1; -0.32; 10; 0
+
+29980
+.FreeObj 1; 3; -2; 0
+.FreeObj 2; 3; -2.8; 0
+.FreeObj 3; 1; -2.8; 0
+.FreeObj 1; 11; -2; 4.8; 180
+.FreeObj 2; 11; -2.8; 4.8; 180
+.FreeObj 3; 11; -2.8; 4.8; 180
+
+29994
+.FreeObj 0; 68; 4.0; 0
+
+29995
+.FreeObj 1; 369
+.FreeObj 3; 369
+
+;----- Stasiun Depok Lama -----
+30000
+.Sta DEPOK; ; ; 0; -1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Wall 0; 1; 3
+.Wall 3; -1; 3
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30020
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30040
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30060
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30080
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30100
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30120
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30130
+.FreeObj 0; 200
+.FreeObj 1; 200
+
+30140
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30160
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30170
+.FreeObj 0; 201
+.FreeObj 1; 201
+
+30180
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30200
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30210
+.Stop 0
+.FreeObj 0; 202
+.FreeObj 1; 202
+
+30220
+.Form 0; 1; 2; 0
+.Form 3; 2; 2; 0
+
+30225.2
+.FreeObj 0; 344; -3.23; 0; 0
+.FreeObj 3; 344; 3.23; 0; 0
+
+30240
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 1; 3; 2.8; 0
+.FreeObj 2; 3; 2; 0
+.Signal 3; ; 2.8; 4.8
+.FreeObj 1; 11; 2.8; 4.8
+.FreeObj 2; 11; 2; 4.8
+.WallEnd 0
+.WallEnd 3
+
+30300
+.Rail 70; -10.5; 0; 0
+.Rail 71; -6.5; 0; 0
+
+30320
+.Rail 2; -10.5; 0; 0
+.Rail 1; -6.5; 0; 0
+
+30340
+.Rail 2; -9.5; 0; 0
+.Rail 1; -7.5; 0; 0
+
+30350
+.PoleEnd 0
+.PoleEnd 2
+.Pole 0; 0; 0.8; 10; 3
+.Pole 3; 0; -0.8; 10; 3
+.Pole 1; 1; 0.5; 10; 0
+
+30360
+.Rail 2; -8.5; 0; 0
+.Rail 1; -8.5; 0; 0
+
+30380
+.Rail 2; -7.5; 0; 0
+.Rail 1; -9.5; 0; 0
+
+30400
+.Rail 2; -6.55; 0
+.Rail 1; -10.5; 0
+.RailEnd 70
+.RailEnd 71
+.Pole 0; 0; 0.8; 10; 3
+.Pole 3; 0; -0.8; 10; 3
+
+30420
+.Pole 1; 1; 0; 10; 0
+.Rail 3; -16.1; 0; 0
+
+
+30440
+.Rail 2; -5.5; 0; 0
+.Pole 1; 0; -0.8; 10; 3
+.Pole 2; 0; 0.8; 10; 3
+.Rail 3; -14.9; 0; 0
+
+30450
+.Pole 1; 0; 0.8; 10; 3
+.Pole 2; 0; -0.8; 10; 3
+
+30460
+.Rail 2; -4.5; 0; 0
+.Rail 3; -13.5; 0; 0
+
+30480
+.Rail 2; -3.5; 0; 0
+.Rail 3; -12.0; 0; 0
+
+30500
+.Rail 2; -2.5; 0; 0
+.PoleEnd 3
+.RailEnd 3; -10.55; 0
+.Pole 1; 0; -0.8; 10; 3
+
+30515
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 11; -2.5; 4.8; 180
+.FreeObj 1; 13; -3.1; 4.8; 180
+
+30540
+.Rail 2; -1.5; 0; 0
+.Rail 1; -9; 0; 0
+
+30560
+.Rail 2; -0.7; 0; 0
+.Rail 1; -7.5; 0; 0
+
+30580
+.PoleEnd 2
+.RailEnd 2; -0.03; 0
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+.Rail 1; -6.3; 0; 0
+
+30600
+.Rail 1; -5.2; 0; 0
+
+30640
+.Rail 1; -4.5; 0; 0
+
+30660
+.Rail 1; -3.8; 0; 0
+
+30700
+.Pole 0; 0; 0.8; 10; 0
+.Pole 1; 0; -0.8; 10; 2
+
+30760
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+.Pitch 0
+
+30779
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+; ----- PJL Depok Lama -----
+
+30722
+.FreeObj 0; 1004; 3.8; 0; 180
+30730
+.FreeObj 0; 1000; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+30738
+.FreeObj 1; 1004; -3.8; 0
+30760
+.FreeObj 0; 1100; 3.8; -1.5
+
+;----------------------------
+
+30994
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+31000
+.Pitch -1
+
+31240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+31250
+.Pitch -2
+
+31255
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+31440
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+31500
+.Pole 0; 0; 0.8; 10; 3
+.Pole 1; 0; -0.8; 10; 3
+
+31550
+.Pitch -3
+
+31700
+.Pole 1; 0; -0.8; 10; 2
+
+31740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+31761
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+31900
+.Curve 6000; 10
+
+32086
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+32200
+.Curve 0; 0
+
+32240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+32334
+.FreeObj 0; 113; 2.5
+.Relay 2.5; 4.5; 0; 0; 0
+
+;----- Wesel Depok Baru -----
+32400
+.Rail 1; -4.8; 0; 0
+
+32420
+.Pitch -5
+
+32440
+.Rail 1; -5.8; 0; 0
+
+32460
+.Rail 1; -6.8; 0; 0
+
+32480
+.Rail 1; -7.8; 0; 0
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+
+32500
+.Pole 1; 0; -0.8; 10; 2
+.Rail 1; -8.8; 0; 0
+.Rail 2; 0; 0; 0
+.Rail 50; -8.8; 0; 0
+
+32540
+.Rail 1; -9.8; 0; 0
+.Rail 2; -1; 0; 0
+.Rail 50; -7.5; 0; 0
+
+32560
+.Rail 1; -10.8; 0; 0
+.Rail 2; -2; 0; 0
+.Rail 50; -6.3; 0; 0
+
+32580
+.Rail 1; -11.8; 0; 0
+.Rail 2; -3; 0; 0
+.Rail 50; -5.2; 0; 0
+.Pole 0; 1; 1.14; 10; 0
+
+32600
+.Rail 2; -4; 0; 0
+.RailEnd 50; -4.05; 0
+
+32780
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 11; -2.8; 4.8; 180
+.FreeObj 2; 1; -2.8; 0
+.FreeObj 2; 11; -2.8; 4.8; 180
+
+;----- Stasiun Depok Baru -----
+32800
+.Sta DEPOK BARU; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+32820
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+32840
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+32860
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+32880
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+32900
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+32910
+.FreeObj 0; 200
+
+32920
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+32940
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+32950
+.FreeObj 0; 201
+
+32960
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+32980
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+.FreeObj 0; 211; 3.0; 0.3
+.FreeObj 2; 212; -3.0; 0.3
+.FreeObj 1; 213; -3.0; 0.3
+
+32990
+.Stop 0
+.FreeObj 0; 202
+
+33000
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+
+33020
+.Form 0; R; 2; 0
+.Form 1; 2; 2; 19
+.Form 1; L; 2; 0
+.FreeObj 0; 2; 2; 0
+.Signal 3; ; 2; 4.8
+.FreeObj 2; 1; -2; 0
+.FreeObj 2; 11; -2; 4.8
+
+33120
+.Rail 2; -4; 0; 0
+.Rail 50; -4; 0; 0
+
+33140
+.Rail 2; -3; 0; 0
+.Rail 50; -5; 0; 0
+
+33160
+.Rail 2; -2; 0; 0
+.Rail 50; -6; 0; 0
+
+
+33180
+.Rail 2; -1; 0; 0
+.Rail 50; -7; 0; 0
+.Rail 1; -10.8; 0; 0
+
+33200
+.RailEnd 2; -0.05
+.Rail 50; -8; 0; 0
+.Pole 50; 0; 0.8; 10; 3
+.Pole 0; 0; 0.8; 10; 3
+.Pole 1; 0; -0.8; 10; 3
+.Rail 1; -9.8; 0; 0
+
+33220
+.Rail 1; -9.8; 0; 0
+.Rail 50; -8; 0
+
+33237
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 11; -2.5; 4.8; 180
+.FreeObj 1; 13; -3.1; 4.8; 180
+
+33240
+.Rail 1; -8.8; 0; 0
+.PoleEnd 50
+.RailEnd 50; -8.75; 0; 0
+
+33260
+.Rail 1; -7.8; 0; 0
+
+33280
+.Rail 1; -6.8; 0; 0
+
+33300
+.Rail 1; -5.8; 0; 0
+
+33340
+.Rail 1; -4.8; 0; 0
+
+33360
+.Rail 1; -3.8; 0; 0
+
+33740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+33747
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+
+34000
+.Curve 1000; 10
+.RailType 0; 16
+.RailType 1; 16
+
+34200
+.Curve 0; 0
+.RailType 0; 0
+.RailType 1; 0
+
+34240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+34273
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+34600
+.Curve -4000; 10
+
+34740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+34759
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+
+34800
+.Curve 0; 0
+
+35240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+35280
+.Pole 0; 1; 1; 10; 0
+.PoleEnd 1
+
+35350
+.Pitch 0
+
+35457
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+35475
+.FreeObj 0; 366
+.FreeObj 1; 365
+
+35485
+.FreeObj 0; 68; 9.2; 0
+
+;----- Stasiun Pondok Cina -----
+35500
+.Sta PONDOK CINA; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Rail 2; 4.5; 1.7; 2
+.Rail 3; -8.5; 1.7; 2
+.Wall 2; 1; 4
+.Wall 3; -1; 4
+
+35520
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35540
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35560
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35580
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35600
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35620
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35630
+.FreeObj 0; 200
+
+35640
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35660
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35670
+.FreeObj 0; 201
+
+35680
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35700
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+35710
+.Stop 0
+.FreeObj 0; 202
+.FreeObj 0; 211; 3.0; -0.3
+.FreeObj 1; 212; -3.0; -0.3
+
+35740
+.WallEnd 2
+.RailEnd 2
+.WallEnd 3
+.RailEnd 3
+.WallEnd 1
+
+35717
+.FreeObj 0; 368
+.FreeObj 1; 367
+
+35739
+.FreeObj 0; 68; 9.2; 0
+
+35760
+.Wall 0; 1; 4
+.Wall 1; -1; 4
+
+;----- PJL Pondok Cina -----
+35840
+.WallEnd 0
+.WallEnd 1
+
+35830
+.FreeObj 0; 1002; 3.8; 0; 180
+35831
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+35838
+.FreeObj 1; 1002; -3.8; 0
+35861
+.FreeObj 0; 1100; 3.8; -1.5
+
+35860
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+;----------------------------
+
+35900
+.Pole 1; 0; -0.8; 10; 1
+.Pole 0; 0; 0.8; 10; 2
+
+35950
+.Curve -2000; 0
+
+36150
+.Curve 0; 0
+
+36348
+.FreeObj 1; 5001; 0; 0
+36350
+.Pole 1; 0; -0.8; 10; 3
+
+36380
+.Pole 0; 1; 1; 10; 0
+.PoleEnd 1
+
+36480
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 0; 11; 2.5; 4.8
+.Signal 3; ; 3.1; 4.8
+
+;----- Wesel UI -----
+36500
+.Rail 50; 0; 0
+.Rail 51; -3.8; 0
+
+36540
+.Rail 50; -1.3; 0; 0
+.Rail 51; -2.6; 0; 0
+
+36560
+.Rail 50; -2.6; 0; 0
+.Rail 51; -1.3; 0; 0
+
+36580
+.RailEnd 50; -3.75; 0; 0
+.RailEnd 51; -0.05; 0; 0
+
+36770
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+36775
+.FreeObj 0; 366
+.FreeObj 1; 365
+
+36785
+.FreeObj 0; 68; 9.2; 0
+
+36800
+.Sta UNIVERSITAS INDONESIA; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Rail 2; 4.5; 1.7; 2
+.Rail 3; -8.5; 1.7; 2
+.Wall 2; 1; 4
+.Wall 3; -1; 4
+
+36820
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+36840
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+36860
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+36880
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+36900
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+.Curve 4000; 10
+
+36920
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+36930
+.FreeObj 0; 200
+
+36940
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+36960
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+36970
+.FreeObj 0; 201
+
+36980
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+37000
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+37010
+.Stop 0
+.FreeObj 0; 202
+.FreeObj 0; 211; 3.0; -0.3
+.FreeObj 1; 212; -3.0; -0.3
+
+37020
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+37025
+.FreeObj 0; 340; 3.7; 0
+.FreeObj 1; 340; -3.7; 0
+.FreeObj 0; 344; 5.9; 0; 0
+.FreeObj 1; 344; -6.1; 0; 0
+
+37040
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+.WallEnd 2
+.WallEnd 3
+.RailEnd 2
+.RailEnd 3
+
+37060
+.Curve 3000; 10
+
+37150
+.Pole 1; 0; -0.8; 10; 2
+.Pole 0; 0; 0.8; 10; 0
+
+37160
+.Rail 70; 7; 0.045; 30
+.Rail 71; -11.5; 0.045; 30
+
+37248
+.FreeObj 0; 5003; 0.4; 0; 180
+
+37270
+;Jembatan PJL non sebidang
+.FreeObj 0; 35; -2; 0
+
+37300
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+.Curve 4000; 10
+
+37500
+.Curve 0; 0 
+
+37680
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+37695
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+;PJL Universitas Pancasila
+37957
+.FreeObj 0; 1005; 3.8; 0; 180
+37960
+.FreeObj 0; 68; 9.2; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+37967
+.FreeObj 0; 68; 9.2; 0
+37970
+.FreeObj 1; 1005; -3.8; 0
+37991
+.FreeObj 0; 1100; -7.5; -1.5
+
+38000
+.Rail 70; 7.2; 0.045; 30
+.Rail 71; -11.7; 0.045; 30
+
+38030
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 0
+
+38040
+.Rail 70; 8.8; 0.045; 30
+.Rail 71; -12.7; 0.045; 30
+
+38060
+.Rail 70; 9.0; 0.045; 30
+.Rail 71; -12.9; 0.045; 30
+
+38080
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+.Rail 70; 9.2; 0.045; 30
+.Rail 71; -13.1; 0.045; 30
+
+38100
+.Rail 70; 9.4; 0.045; 30
+.Rail 71; -13.3; 0.045; 30
+
+38140
+.Pole 0; 1; 1; 25; 0
+.PoleEnd 1
+.Rail 70; 9.6; 0.045; 30
+.Rail 71; -13.5; 0.045; 30
+
+38160
+.Rail 70; 9.8; 0.045; 30
+.Rail 71; -13.7; 0.045; 30
+
+38180
+.Rail 70; 10.0; 0.045; 30
+.Rail 71; -13.9; 0.045; 30
+
+38188
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+
+;Stasiun Universitas Pancasila
+
+38200
+.Sta UNIVERSITAS PANCASILA; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Rail 2; 4.5; 1.7; 2
+.Rail 3; -8.5; 1.7; 2
+.Wall 2; 1; 4
+.Wall 3; -1; 4
+.FreeObj 0; 340; 3.7; 0
+.FreeObj 1; 340; -3.7; 0
+.FreeObj 0; 344; 5.9; 0; 0
+.FreeObj 1; 344; -6.1; 0; 0
+
+38220
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38240
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38260
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38280
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38300
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38320
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38330
+.FreeObj 0; 200
+
+38340
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38360
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38370
+.FreeObj 0; 201
+
+38380
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38400
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+38410
+.Stop 0
+.FreeObj 0; 202
+
+38417
+.FreeObj 0; 368
+.FreeObj 1; 367
+
+38439
+.FreeObj 0; 68; 9.2; 0
+
+38440
+.WallEnd 2
+.WallEnd 3
+.RailEnd 2
+.RailEnd 3
+
+38460
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+.Wall 0; 1; 7
+.Wall 1; -1; 7
+
+38500
+.Curve -6000; 10
+
+38580
+.WallEnd 0
+.WallEnd 1
+
+38700
+.Curve 0; 0
+
+38600
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+
+38820
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+38860
+.Pole 1; 0; -0.8; 10; 1
+.Pole 0; 0; 0.8; 10; 2
+
+38950
+.Pole 0; 1; 1; 25; 0
+.PoleEnd 1
+
+38965
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+38975
+.FreeObj 0; 366
+.FreeObj 1; 365
+
+38985
+.FreeObj 0; 68; 9.2; 0
+
+;Stasiun Lenteng Agung
+39000
+.Sta LENTENG AGUNG; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Wall 0; 1; 12
+.Wall 1; -1; 12
+.FreeObj 0; 344; 5.9; 0; 0
+.FreeObj 1; 344; -6.1; 0; 0
+
+39020
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39040
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39060
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39080
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39100
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39120
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39130
+.FreeObj 0; 200
+
+39140
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39160
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39170
+.FreeObj 0; 201
+
+39180
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39200
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39210
+.Stop 0
+.FreeObj 0; 202
+
+39220
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+39225
+.FreeObj 0; 340; 3.7; 0
+.FreeObj 1; 340; -3.7; 0
+.FreeObj 0; 344; 5.9; 0; 0
+.FreeObj 1; 344; -6.1; 0; 0
+
+39240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+.Curve 7000; 20
+.WallEnd 0
+.WallEnd 1
+
+39300
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+
+39410
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+39435
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+39570
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+39583
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+39757
+.FreeObj 0; 1005; 3.8; 0; 180
+39760
+.FreeObj 0; 68; 9.2; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+39763
+.FreeObj 1; 1005; -3.8; 0
+39773
+.FreeObj 0; 1100; -7.8; -1.5
+
+39785
+.Curve 0; 0
+
+39810
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+39827
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+40300
+.Pole 0; 1; 1; 25; 0
+.PoleEnd 1
+
+40385
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+;Stasiun Tanjung Barat
+
+40400
+.Sta TANJUNG BARAT; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.FreeObj 0; 340; 3.7; 0
+.FreeObj 1; 340; -3.7; 0
+.FreeObj 0; 344; 5.9; 0; 0
+.FreeObj 1; 344; -6.1; 0; 0
+.Rail 2; 4.5; 1.7; 2
+.Rail 3; -8.5; 1.7; 2
+.Wall 2; 1; 4
+.Wall 3; -1; 4
+
+40420
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40440
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40460
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40480
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40500
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40520
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40530
+.FreeObj 0; 200
+
+40540
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40560
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40570
+.FreeObj 0; 201
+
+40580
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40600
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40610
+.Stop 0
+.FreeObj 0; 202
+
+40617
+.FreeObj 0; 368
+.FreeObj 1; 367
+
+40639
+.FreeObj 0; 68; 9.2; 0
+
+40620
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+40640
+.WallEnd 2
+.WallEnd 3
+.RailEnd 2
+.RailEnd 3
+
+40664
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+40670
+.Wall 0; 1; 7
+.Wall 1; -1; 7
+
+40750
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+
+40788
+.FreeObj 0; 36; 3.95; 0
+
+40797
+.FreeObj 0; 36; 3.95; 0
+
+40800
+.WallEnd 0
+.WallEnd 1
+
+40812
+.FreeObj 0; 36; 3.95; 0
+
+40821
+.FreeObj 0; 36; 3.95; 0
+
+;----- PJL Pasar Minggu 1 -----
+40811
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+40818
+.FreeObj 1; 1002; -3.8; 0
+40841
+.FreeObj 0; 1100; -7.4; -1.5
+
+41010
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+;----- PJL Pasar Minggu 2 -----
+41020
+.FreeObj 0; 1002; 3.8; 0; 180
+41021
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+41051
+.FreeObj 0; 1100; -7.8; -1.5
+
+41037
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+41040
+.Wall 0; 1; 2
+.Wall 1; -1; 2
+
+41100
+.Curve 5000; 20
+
+41400
+.Curve 0; 0
+
+41500
+.WallEnd 0
+.WallEnd 1
+
+41514
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+41551
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+41560
+.RailEnd 70
+.RailEnd 71
+.Wall 0; 1; 3
+.Wall 1; -1; 3
+
+;----- PJL Pasar Minggu 3 -----
+41531
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+41538
+.FreeObj 1; 1002; -3.8; 0
+41561
+.FreeObj 0; 1100; -7.8; -1.5
+
+41640
+.Wall 3; -1; 3
+
+41650
+.Pole 0; 2; 1.5; 25; 0
+.PoleEnd 1
+
+41660
+.WallEnd 0
+.WallEnd 1
+
+;----- Wesel Pasar Minggu -----
+41560
+.Rail 50; 0; 0; 0
+.Rail 51; -3.8; 0; 0
+
+41580
+.Rail 50; -1.4; 0; 0
+.Rail 51; -2.6; 0; 0
+
+41600
+.Rail 50; -2.6; 0; 0
+.Rail 51; -1.4; 0; 0
+
+41640
+.RailEnd 50; -3.75; 0
+.RailEnd 51; -0.06; 0
+
+41660
+.Rail 2; 0; 0; 0
+.Rail 3; -3.8; 0; 0
+.Pole 0; 3; 2; 25; 0
+.Wall 3; -1; 3
+
+41680
+.Rail 2; 1.0; 0; 0
+.Rail 3; -4.8; 0; 0
+
+41700
+.Rail 2; 2.0; 0; 0
+.Rail 3; -5.8; 0; 0
+
+41740
+.Rail 2; 3.0; 0; 0
+.Rail 3; -6.8; 0; 0
+
+41760
+.Rail 2; 4.0; 0; 0
+.Rail 3; -7.8; 0; 0
+
+41780
+.Rail 2; 5.0; 0; 0
+.Rail 3; -8.8; 0; 0
+
+41800
+.Rail 2; 6.0; 0; 0
+.Rail 3; -9.8; 0; 0
+.Pole 0; 1; 1; 25; 0
+
+41810
+.Pole 3; 0; -0.8; 25; 3
+.Pole 2; 0; 0.8; 25; 3
+
+41840
+.Rail 2; 7.0; 0; 0
+.Rail 3; -10.8; 0; 0
+
+41890
+.FreeObj 1; 1; -2; 0
+.FreeObj 3; 1; -2.8; 0
+.FreeObj 1; 11; -2; 4.8; 180
+.FreeObj 3; 11; -2.8; 4.8; 180
+
+;----- Stasiun Pasar Minggu -----
+41900
+.Sta PASAR MINGGU; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+
+41920
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+41940
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+41960
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+41980
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+42000
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+42010
+.FreeObj 0; 200
+.FreeObj 2; 200
+
+42020
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+42040
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+42060
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+42080
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+42090
+.Stop 0
+.FreeObj 0; 202
+.FreeObj 2; 202
+.FreeObj 0; 213; 3.0; 0.3
+.FreeObj 1; 212; -3.0; 0.3
+.FreeObj 2; 214; -3.0; 0.3
+.FreeObj 3; 211; 3.0; 0.3
+
+42100
+.Form 0; 2; 2; 0
+.Form 3; 1; 2; 0
+
+42140
+.FreeObj 0; 2; 2.8; 0
+.FreeObj 2; 2; 2; 0
+.Signal 3; ; 2.8; 4.8
+.FreeObj 2; 11; 2; 4.8
+
+42240
+.Rail 2; 6.0; 0; 0
+.Rail 3; -9.8; 0; 0
+.Pole 0; 3; 2; 25; 0
+.PoleEnd 2
+.PoleEnd 3
+
+
+42260
+.Rail 2; 5.0; 0; 0
+.Rail 3; -8.8; 0; 0
+
+42280
+.Rail 2; 4.0; 0; 0
+.Rail 3; -7.8; 0; 0
+
+42300
+.Rail 2; 3.0; 0; 0
+.Rail 3; -6.8; 0; 0
+
+42340
+.Rail 2; 2.0; 0; 0
+.Rail 3; -5.8; 0; 0
+
+42360
+.Rail 2; 1.0; 0; 0
+.Rail 3; -4.8; 0; 0
+
+42380
+.PoleEnd 2
+.PoleEnd 3
+.WallEnd 3
+.RailEnd 2; 0.03; 0
+.RailEnd 3; -3.83; 0
+
+42400
+.Pole 0; 1; 1; 25; 0
+
+42420
+.Rail 50; 0; 0; 0
+.Rail 51; -3.8; 0; 0
+
+42440
+.Rail 50; -1.4; 0; 0
+.Rail 51; -2.6; 0; 0
+
+42460
+.Rail 50; -2.6; 0; 0
+.Rail 51; -1.4; 0; 0
+
+42480
+.RailEnd 50; -3.77; 0
+.RailEnd 51; -0.03; 0
+
+42487
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+42520
+.Pole 1; 0; -0.8; 25; 2
+.Pole 0; 0; 0.8; 25; 3
+
+42540
+.Curve 1000; 0
+.RailType 0; 16
+.RailType 1; 16
+
+42887
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+42894
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+42706
+.FreeObj 0; 1002; 3.8; 0; 180
+42707
+.FreeObj 0; 1001; -3.87; -0.05
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+42714
+.FreeObj 1; 1002; -3.8; 0
+42720
+.Rail 70; 10; 0; 32
+42721
+.FreeObj 0; 1100; 3.8; -1.5
+
+42740
+.Wall 0; 2; 3
+.Wall 1; -2; 3
+
+42750
+.Curve 0; 0
+.RailType 0; 0
+.RailType 1; 0
+
+43133
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+43140
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+43400
+.Pole 0; 1; 1; 25; 0
+.PoleEnd 1
+
+43479
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+;----- Stasiun Pasar Minggu Baru -----
+43500
+.Sta PASARMINGGU BARU; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.WallEnd 0
+.WallEnd 1
+.Rail 2; 4.5; 1.7; 2
+.Rail 3; -8.5; 1.7; 2
+.Wall 2; 1; 4
+.Wall 3; -1; 4
+
+43520
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43540
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43560
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43580
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43600
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43620
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43630
+.FreeObj 0; 200
+
+43640
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43660
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43680
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43700
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+43710
+.Stop 0
+.FreeObj 0; 202
+
+43717
+.FreeObj 0; 368
+.FreeObj 1; 367
+
+43739
+.FreeObj 0; 68; 9.2; 0
+
+43740
+.WallEnd 2
+.RailEnd 2
+.WallEnd 3
+.RailEnd 3
+
+43760
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+43860
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+
+44040
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+44055
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+44400
+.Pole 0; 1; 1; 25; 0
+.PoleEnd 1
+
+44439
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+;PJL Duren Kalibata
+44444
+.FreeObj 0; 1005; 3.8; 0; 180
+44447
+.FreeObj 0; 69; 9.2; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+44445
+.FreeObj 0; 36
+44453
+.FreeObj 0; 36
+44468
+.FreeObj 0; 69; 9.2; 0
+44471
+.FreeObj 1; 1005; -3.8; 0
+
+44475
+.FreeObj 0; 366
+.FreeObj 1; 365
+
+44480
+.Rail 71; -14.5; 0; 30
+
+44485
+.FreeObj 0; 68; 9.2; 0
+
+;----- Stasiun Duren Kalibata -----
+44500
+.Sta DUREN KALIBATA; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Rail 2; 4.5; 1.7; 2
+.Rail 3; -8.5; 1.7; 2
+.Wall 2; 1; 4
+.Wall 3; -1; 4
+
+44520
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44540
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44560
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44580
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44600
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44620
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44630
+.FreeObj 0; 200
+
+44640
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44660
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44680
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44700
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44710
+.Stop 0
+.FreeObj 0; 202
+
+44720
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+44725
+.FreeObj 0; 340; 3.7; 0
+.FreeObj 1; 340; -3.7; 0
+.FreeObj 0; 344; 5.9; 0; 0
+.FreeObj 1; 344; -6.1; 0; 0
+
+44740
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+.RailEnd 2
+.RailEnd 3
+
+44860
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+
+44880
+.FreeObj 0; 1002; 3.8; 0; 180
+44881
+.FreeObj 0; 1001; -3.8; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+44888
+.FreeObj 1; 1002; -3.8; 0
+44911
+.FreeObj 0; 1100; 3.8; -1.5
+
+44960
+.Curve -1500; 10
+.RailType 0; 27
+
+44965
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+.RailType 1; 27
+
+45000
+.Curve -1000; 10
+.RailType 0; 26
+.RailType 1; 26
+
+45200
+.Curve 0; 0
+.RailType 0; 0
+.RailType 1; 0
+
+45240
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+45340
+.Pole 0; 1; 1; 25; 0
+.PoleEnd 1
+
+45348
+.FreeObj 0; 35; -6; 0
+.RailEnd 70
+
+45358
+.FreeObj 0; 35; -6; 0
+
+45375
+.FreeObj 0; 366
+.FreeObj 1; 365
+
+45377
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+45380
+
+45385
+.FreeObj 0; 68; 9.2; 0
+
+;----- Stasiun Cawang -----
+45400
+.Sta CAWANG; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Rail 2; 4.5; 1.7; 2
+.Rail 3; -8.5; 1.7; 2
+.Wall 2; 1; 4
+.Wall 3; -1; 4
+
+45420
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45440
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45460
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45480
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45500
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45520
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45530
+.FreeObj 0; 200
+
+45540
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45560
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45570
+.FreeObj 0; 201
+
+45580
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45600
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45610
+.Stop 0
+.FreeObj 0; 202
+
+45620
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+45625
+.FreeObj 0; 340; 3.7; 0
+.FreeObj 1; 340; -3.7; 0
+.FreeObj 0; 344; 5.9; 0; 0
+.FreeObj 1; 344; -6.1; 0; 0
+
+45640
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+.WallEnd 2
+.WallEnd 3
+.RailEnd 2
+.RailEnd 3
+
+45860
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+45877
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+45660
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+
+46800
+.Pole 0; 1; 1; 25; 0
+.PoleEnd 1
+
+46480
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+46497
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+46983
+.FreeObj 1; 1; -2.8; 0
+.FreeObj 1; 13; -2.8; 4.8; 180
+
+;----- Stasiun Tebet -----
+47000
+.Sta TEBET; ; ; 0; 1; 1; 0; ; ; ;KRL Jabodetabek\Dept.wav;
+.Rail 2; 4.5; 1.7; 2
+.Rail 3; -8.5; 1.7; 2
+.Wall 2; 1; 4
+.Wall 3; -1; 4
+.FreeObj 0; 340; 3.7; 0
+.FreeObj 1; 340; -3.7; 0
+.FreeObj 0; 344; 5.9; 0; 0
+.FreeObj 1; 344; -6.1; 0; 0
+
+47020
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47040
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47060
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47080
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47100
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47120
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47130
+.FreeObj 0; 200
+
+47140
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47160
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47180
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47200
+.Form 0; R; 1; 0
+.Form 1; L; 1; 0
+
+47210
+.Stop 0
+.FreeObj 0; 202
+
+47217
+.FreeObj 0; 368
+.FreeObj 1; 367
+
+47239
+.FreeObj 0; 68; 9.2; 0
+
+47240
+.WallEnd 2
+.RailEnd 2
+.WallEnd 3
+.RailEnd 3
+
+47254
+.FreeObj 0; 2; 2.8; 0
+.Signal 3; ; 2.8; 4.8
+
+;PJL Tebet
+47260
+.FreeObj 0; 1005; 3.8; 0; 180
+47263
+.FreeObj 0; 69; 9.2; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+47261
+.FreeObj 0; 36
+47269
+.FreeObj 0; 36
+47280
+.RailEnd 71
+47284
+.FreeObj 0; 69; 9.2; 0
+47287
+.FreeObj 1; 1005; -3.8; 0
+
+47320
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+
+47380
+.Curve -1500; 20
+.RailType 0; 27
+.RailType 1; 27
+
+47620
+.Pole 1; 0; -0.8; 25; 2
+.Pole 0; 0; 0.8; 25; 0
+
+47760
+.Pole 1; 0; -0.8; 25; 3
+.Pole 0; 0; 0.8; 25; 3
+
+47880
+.Curve 0; 0
+.RailType 0; 0
+.RailType 1; 0
+
+;Wesel arah Bukit Duri
+
+47840
+.Rail 3; 23.2; 0; 0
+.Pole 3; 0; 0.8; 25; 3
+
+47860
+.Rail 3; 17.8; 0; 0
+
+47880
+.Rail 3; 12.8; 0; 10
+
+47900
+.Rail 3; 9.4; 0; 0
+
+47940
+.Rail 3; 8.0; 0; 0
+
+47960
+.Rail 3; 6.6; 0; 0
+
+47980
+.Rail 3; 5.2; 0; 0
+
+48000
+.Rail 3; 3.8; 0
+.Pole 0; 2; 1.0; 25; 0
+.PoleEnd 1
+.PoleEnd 3
+
+48028
+.FreeObj 0; 1003; 6.8; 0; 180
+48030
+.FreeObj 0; 68; 12.0; 0
+.Doppler KRL Jabodetabek\PJL.wav;0;0
+48034
+.FreeObj 0; 68; 12.0; 0
+48036
+.FreeObj 1; 1003; -3.8; 0
+48061
+.FreeObj 0; 1100; 7.8; -1.5
+
+48500
+.Rail 3; 4.2; 0; 0
+
+48540
+.Rail 3; 4.6; 0; 0
+
+48560
+.Rail 3; 5.0; 0; 0
+
+48580
+.Rail 3; 5.4; 0; 0
+.Pole 0; 1; 1; 25; 0
+
+48600
+.Rail 3; 5.8; 0; 0
+
+48640
+.Rail 3; 6.2; 0; 0
+
+48660
+.Rail 3; 6.6; 0; 0
+
+48680
+.Rail 3; 7.0; 0; 0
+
+48700
+.Rail 1; -4.2; 0; 0
+
+48740
+.Rail 1; -4.6; 0; 0

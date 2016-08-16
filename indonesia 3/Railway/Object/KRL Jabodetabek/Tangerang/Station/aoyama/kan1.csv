@@ -1,0 +1,15 @@
+
+CreateMeshBuilder
+Addvertex,5.5,2.5,-20
+Addvertex,5.5,4.5,-20
+Addvertex,5.5,4.5,-5
+Addvertex,5.5,2.5,-5
+AddFace,0,3,2,1
+GenerateNormals
+
+LoadTexture,kan1.bmp
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+

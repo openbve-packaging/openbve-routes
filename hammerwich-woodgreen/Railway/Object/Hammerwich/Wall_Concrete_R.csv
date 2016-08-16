@@ -1,0 +1,30 @@
+;A Hammerwich - Wood Green object
+;--------------------------------------
+;(c) Steve Green  2002.
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+
+CreateMeshBuilder,
+AddVertex,1.9, -0.3, 0,
+AddVertex,2.5, -0.3, 0,
+AddVertex,2.5, 6, 0,
+AddVertex,1.9, -0.3, 26,
+AddVertex,2.5, -0.3, 26,
+AddVertex,2.5, 6, 26,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+SetColor,130,130,130,,
+
+GenerateNormals,
+
+LoadTexture,00brick.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0.75,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 1,
+SetTextureCoordinates,4, 1, 0.75,
+SetTextureCoordinates,5, 1, 0,

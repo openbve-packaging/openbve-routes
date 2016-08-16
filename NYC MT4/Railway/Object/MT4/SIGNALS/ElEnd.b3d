@@ -1,0 +1,31 @@
+[MeshBuilder]
+Vertex -0.3, 0, -0.4
+Vertex 0.3, 0, -0.4
+Vertex 0.3, -1.1, -0.4
+Vertex -0.3, -1.1, -0.4
+Face 0, 1, 2, 3
+
+[Texture]
+Load ElEnd.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[meshbuilder]
+
+vertex -0.21,-0.10,-0.2
+vertex -0.21,-0.10,-0.4
+vertex -0.21,-1.05,-0.4
+vertex -0.21,-1.05,-0.2
+vertex  0.21,-0.10,-0.2
+vertex  0.21,-0.10,-0.4
+vertex  0.21,-1.05,-0.4
+vertex  0.21,-1.05,-0.2
+Face2 0,1,2,3
+Face2 2,6,7,3
+face2 5,4,7,6
+face2 0,4,7,3
+color 13,13,13 
+

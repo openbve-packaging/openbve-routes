@@ -1,0 +1,164 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green. 
+
+CreateMeshBuilder
+AddVertex,35, -0.3, 26.3
+AddVertex,9, -0.8, 26.3
+AddVertex,9, -0.8, 0
+AddVertex,35, -0.3, 0
+AddFace,3,2,1,0
+SetColor,200,200,200
+GenerateNormals
+LoadTexture,../concrete.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+CreateMeshBuilder
+AddVertex,35, -0.3, 0
+AddVertex,35, -0.3, 26
+AddVertex,35,11.4, 26
+AddVertex,35, 11.4, 0
+AddFace,0,1,2,3
+GenerateNormals
+setcolor,100,100,100
+LoadTexture,tw_brick5.png,
+SetTextureCoordinates,0, 1, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 1, 0
+CreateMeshBuilder
+AddVertex,21, 4.5, 0
+AddVertex,21, 4.5, 26.2
+AddVertex,21,16, 26.2
+AddVertex,21, 16, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,tw_brick8.png
+SetTextureCoordinates,0, 3, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 3, 0
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder
+AddVertex,21, -1, 0
+AddVertex,21, -1, 26.2
+AddVertex,21,4.55, 26.2
+AddVertex,21, 4.55, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,tw_brick9.png
+SetTextureCoordinates,0, 2, 0
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 0, 1
+SetTextureCoordinates,3, 2, 1
+CreateMeshBuilder,
+AddVertex,21.03,11.4,0
+AddVertex,36,11.4,0
+AddVertex,36,-0.3,0
+AddVertex,21.03.,-0.3,0
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,tw_brick7.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,128,128,128
+CreateMeshBuilder,
+AddVertex,21.03,15.8,4.5
+AddVertex,36,15.8,4.5
+AddVertex,36,11.3,0
+AddVertex,21.03.,11.3,0
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../00roof.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+CreateMeshBuilder,
+AddVertex,21.03,15.8,13.3
+AddVertex,36,15.8,13.3
+AddVertex,36,11.3,9
+AddVertex,21.03.,11.3,9
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../00roof.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+CreateMeshBuilder,
+AddVertex,21.03,15.8,21.7
+AddVertex,36,15.8,21.7
+AddVertex,36,11.3,17.7
+AddVertex,21.03.,11.3,17.7
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../00roof.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+CreateMeshBuilder
+AddVertex,40, -0.3, 0
+AddVertex,40, -0.3, 26.2
+AddVertex,40,20, 26.2
+AddVertex,40, 20, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../edg_stn_side.png
+SetTextureCoordinates,0, 1, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 1, 0
+
+CreateMeshBuilder
+AddVertex,40, 19.9, 0
+AddVertex,40, 19.9, 26.2
+AddVertex,51,23.4, 26.2
+AddVertex,51, 23.4, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../00roof.png
+SetTextureCoordinates,0, 1, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 1, 0
+
+CreateMeshBuilder,
+AddVertex,40,23.5,0
+AddVertex,62,23.5,0
+AddVertex,62,-0.3,0
+AddVertex,40,-0.3,0
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../gor_stn_gable.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder
+AddVertex,8, 2.4, 0
+AddVertex,8, 2.4, 25.8
+AddVertex,8,0, 25.8
+AddVertex,8, 0 0
+AddFace,3,2,1,0
+SetColor,100,100,100,80
+GenerateNormals
+CreateMeshBuilder
+AddVertex,8, 3.1, 0
+AddVertex,8, 3.1, 25.8
+AddVertex,8,0, 25.8
+AddVertex,8, 0, 0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../Fence.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 5, 0
+SetTextureCoordinates,2, 5, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0

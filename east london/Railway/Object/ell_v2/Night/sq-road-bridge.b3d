@@ -1,0 +1,263 @@
+; bridge flat bit
+
+[MeshBuilder]
+Vertex 20,4.5,13.5
+Vertex 20,4.5,0
+Vertex -20,4.5,0
+Vertex -20,4.5,13.5
+Face 3,2,1,0
+Color 150,150,150
+[Texture]
+load stonea.bmp
+Coordinates 0,40,0
+Coordinates 1,30,14
+Coordinates 2,0,14
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 20,7.5,0
+Vertex 20,4.5,0
+Vertex -20,4.5,0
+Vertex -20,7.5,0
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,40,0
+Coordinates 1,40,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -3,4.5,13.5
+Vertex -3,-0.405,13.5
+Vertex -3,-0.405,0
+Vertex -3,4.5,0
+Face2 0,1,2,3
+Color 128,128,128
+[Texture]
+load ..\bluegirder.bmp
+Coordinates 0,9,0
+Coordinates 1,9,3.25
+Coordinates 2,0,3.25
+Coordinates 3,0,0
+Transparent 255,0,255
+
+;[Meshbuilder]
+;Vertex 7,4.5,13.5
+;Vertex 7,-0.405,13.5
+;Vertex 7,-0.405,0
+;Vertex 7,4.5,0
+;Face2 3,2,1,0
+;[Texture]
+;load bluegirder.bmp
+;Coordinates 0,9,0
+;Coordinates 1,9,3.25
+;Coordinates 2,0,3.25
+;Coordinates 3,0,0
+;Transparent 255,0,255
+
+[Meshbuilder]
+Vertex -3.2,4.49,0
+Vertex -3.2,3,0
+Vertex -3.2,1.5,0
+Vertex -3.2,0,0
+Vertex -3.2,0,1.5
+Vertex -3.2,0,3
+Vertex -3.2,0,4.5
+Vertex -3.2,0,6
+Vertex -3.2,0,7.5
+Vertex -3.2,0,9
+Vertex -3.2,0,10.5
+Vertex -3.2,0,12
+Vertex -3.2,0,13.5
+Vertex -3.2,1.5,13.5
+Vertex -3.2,3,13.5
+Vertex -3.2,4.49,13.5
+Vertex -3.2,4.49,12
+Vertex -3.2,4.49,10.5
+Vertex -3.2,4.49,9
+Vertex -3.2,4.49,7.5
+Vertex -3.2,4.49,6
+Vertex -3.2,4.49,4.5
+Vertex -3.2,4.49,3
+Vertex -3.2,4.49,1.5
+
+Vertex -2.8,4.49,0
+Vertex -2.8,3,0
+Vertex -2.8,1.5,0
+Vertex -2.8,0,0
+Vertex -2.8,0,1.5
+Vertex -2.8,0,3
+Vertex -2.8,0,4.5
+Vertex -2.8,0,6
+Vertex -2.8,0,7.5
+Vertex -2.8,0,9
+Vertex -2.8,0,10.5
+Vertex -2.8,0,12
+Vertex -2.8,0,13.5
+Vertex -2.8,1.5,13.5
+Vertex -2.8,3,13.5
+Vertex -2.8,4.49,13.5
+Vertex -2.8,4.49,12
+Vertex -2.8,4.49,10.5
+Vertex -2.8,4.49,9
+Vertex -2.8,4.49,7.5
+Vertex -2.8,4.49,6
+Vertex -2.8,4.49,4.5
+Vertex -2.8,4.49,3
+Vertex -2.8,4.49,1.5
+
+Face2 38,25,1,14
+Face2 37,26,2,13
+Face2 36,27,3,12
+Face2 39,24,0,15
+Face2 0,3,27,24
+Face 47,28,4,23
+Face 46,29,5,22
+Face 45,30,6,21
+Face 44,31,7,20
+Face 43,32,8,19
+Face 42,33,9,18
+Face 41,34,10,17
+Face 40,35,11,16
+Face 39,36,12,15
+
+Color 35,40,105
+
+;[Meshbuilder]
+;Vertex 6.8,4.49,0
+;Vertex 6.8,3,0
+;Vertex 6.8,1.5,0
+;Vertex 6.8,0,0
+;Vertex 6.8,0,1.5
+;Vertex 6.8,0,3
+;Vertex 6.8,0,4.5
+;Vertex 6.8,0,6
+;Vertex 6.8,0,7.5
+;Vertex 6.8,0,9
+;Vertex 6.8,0,10.5
+;Vertex 6.8,0,12
+;Vertex 6.8,0,13.5
+;Vertex 6.8,1.5,13.5
+;Vertex 6.8,3,13.5
+;Vertex 6.8,4.49,13.5
+;Vertex 6.8,4.49,12
+;Vertex 6.8,4.49,10.5
+;Vertex 6.8,4.49,9
+;Vertex 6.8,4.49,7.5
+;Vertex 6.8,4.49,6
+;Vertex 6.8,4.49,4.5
+;Vertex 6.8,4.49,3
+;Vertex 6.8,4.49,1.5
+
+;Vertex 7.2,4.49,0
+;Vertex 7.2,3,0
+;Vertex 7.2,1.5,0
+;Vertex 7.2,0,0
+;Vertex 7.2,0,1.5
+;Vertex 7.2,0,3
+;Vertex 7.2,0,4.5
+;Vertex 7.2,0,6
+;Vertex 7.2,0,7.5
+;Vertex 7.2,0,9
+;Vertex 7.2,0,10.5
+;Vertex 7.2,0,12
+;Vertex 7.2,0,13.5
+;Vertex 7.2,1.5,13.5
+;Vertex 7.2,3,13.5
+;Vertex 7.2,4.49,13.5
+;Vertex 7.2,4.49,12
+;Vertex 7.2,4.49,10.5
+;Vertex 7.2,4.49,9
+;Vertex 7.2,4.49,7.5
+;Vertex 7.2,4.49,6
+;Vertex 7.2,4.49,4.5
+;Vertex 7.2,4.49,3
+;Vertex 7.2,4.49,1.5
+
+;Face2 38,25,1,14
+;Face2 37,26,2,13
+;Face2 36,27,3,12
+;Face2 39,24,0,15
+;Face2 0,3,27,24
+;Face 47,28,4,23
+;Face 46,29,5,22
+;Face 45,30,6,21
+;Face 44,31,7,20
+;Face 43,32,8,19
+;Face 42,33,9,18
+;Face 41,34,10,17
+;Face 40,35,11,16
+;Face 39,36,12,15
+
+;Color 70,80,211
+
+; The concrete blocks it sits on
+
+[Meshbuilder]
+Vertex -2.6,-0.01,13.7
+Vertex -2.6,-0.01,-0.2
+Vertex -3.4,-0.01,-0.2
+Vertex -3.4,-0.01,13.7
+Vertex -2.6,-0.5,13.7
+Vertex -2.6,-0.5,-0.2
+Face 0,1,2,3
+Face 4,5,1,0
+Color 90,90,90
+[Texture]
+load stonewall.bmp
+Coordinates 0,1,0
+Coordinates 1,1,14
+Coordinates 2,0,14
+Coordinates 3,0,0
+Coordinates 4,2,0
+Coordinates 5,2,14
+
+[Meshbuilder]
+Vertex -2.6,-0.01,-0.2
+Vertex -2.6,-0.5,-0.2
+Vertex -3.4,-0.5,-0.2
+Vertex -3.4,-0.01,-0.2
+Face 0,1,2,3
+Color 90,90,90
+[Texture]
+load stonewall.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+; right side
+
+;[Meshbuilder]
+;Vertex 7.4,-0.01,13.7
+;Vertex 7.4,-0.01,-0.2
+;Vertex 6.6,-0.01,-0.2
+;Vertex 6.6,-0.01,13.7
+;Vertex 6.6,-0.5,13.7
+;Vertex 6.6,-0.5,-0.2
+;Face 0,1,2,3
+;Face 3,2,5,4
+;Color 180,180,180
+;[Texture]
+;load stonewall.bmp
+;Coordinates 0,1,0
+;Coordinates 1,1,14
+;Coordinates 2,0,14
+;Coordinates 3,0,0
+;Coordinates 4,2,0
+;Coordinates 5,2,14
+
+;[Meshbuilder]
+;Vertex 7.4,-0.01,-0.2
+;Vertex 7.4,-0.5,-0.2
+;Vertex 6.6,-0.5,-0.2
+;Vertex 6.6,-0.01,-0.2
+;Face 0,1,2,3
+;Color 180,180,180
+;[Texture]
+;load stonewall.bmp
+;Coordinates 0,1,0
+;Coordinates 1,1,1
+;Coordinates 2,0,1
+;Coordinates 3,0,0

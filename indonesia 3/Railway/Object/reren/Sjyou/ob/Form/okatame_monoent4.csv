@@ -1,0 +1,113 @@
+CreateMeshBuilder,
+AddVertex,-14.6, 6.3, -100,
+AddVertex,-5.75,6.3, 50,
+AddVertex,-5.75,-0.9,50,
+AddVertex,-14.6, -0.9, -100,
+AddVertex, 18.3, 6.3, -100,
+AddVertex, 11.1,6.3, 50,
+AddVertex, 11.1,-0.9,50,
+AddVertex, 18.3, -0.9, -100,
+ADdFace2,0,1,2,3,
+ADdFace2,7,6,5,4,
+LoadTexture,../../Road/tollgatewall1.bmp
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0.2,
+SetTextureCoordinates,2, 0, 0.2,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 1, 0.2,
+SetTextureCoordinates,6, 0, 0.2,
+SetTextureCoordinates,7, 0, 1,
+GenerateNormals,
+Setcolor,71,87,89
+SetEmissiveColor,21,27,29,
+
+CreateMeshBuilder
+AddVertex,-17.5, 11.0, 50
+AddVertex,-17.5, 11.0, 100
+AddVertex,-10.0, 11.0, 100
+AddVertex,-10.0,-1.5, 100
+AddVertex,-12.0,-1.5, 100
+AddVertex,-12.0,-1.5, 50
+AddVertex,12.5, 11.0, 100
+AddVertex,62.0, 11.0, 100
+AddVertex,62.0,-1.5, 100
+AddVertex,12.0,-1.5, 100
+AddFace2,0,1,4,5,
+AddFace2,1,2,3,4,
+AddFace2,6,7,8,9,
+LoadTexture,../../Tree/Tree4_3.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1.6, 0,
+SetTextureCoordinates,3, 1.6, 1,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 0, 1,
+SetTextureCoordinates,6, 0, 0,
+SetTextureCoordinates,7, 1.9, 0,
+SetTextureCoordinates,8, 1.9, 1,
+SetTextureCoordinates,9, 0, 1,
+Translate,0,0,-0.5
+Setcolor,100,120,110
+SetDecalTransparentColor,255,0,0
+
+CreateMeshBuilder
+AddVertex,-5.8, 11.0, 50
+AddVertex,-17.5, 11.0, 50
+AddVertex,-12.5,-0.9, 50
+AddVertex,-5.8,-0.9, 50
+
+AddVertex, 11.2, 11.0, 50
+AddVertex, 62.0, 11.0, 50
+AddVertex, 62.0, 11.0, 100
+AddVertex, 62.0,-0.9, 100
+AddVertex, 62.0,-0.9, 50
+AddVertex, 11.2,-0.9, 50
+AddFace2,0,1,2,3,
+AddFace2,4,5,8,9,
+AddFace2,5,6,7,8,
+LoadTexture,../../Tree/Tree4_3.bmp
+SetTextureCoordinates,0, 0.9, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0.9, 1,
+SetTextureCoordinates,4, 0, 0,
+SetTextureCoordinates,5, 2, 0,
+SetTextureCoordinates,6, 3.9, 0,
+SetTextureCoordinates,7, 3.9, 1,
+SetTextureCoordinates,8, 2, 1,
+SetTextureCoordinates,9, 0, 1,
+Translate,0,0,-0.5
+Setcolor,100,120,110
+SetDecalTransparentColor,255,0,0
+
+
+CreateMeshBuilder
+AddVertex,-17.0,-1.0, 50
+AddVertex,-17.0,-1.0, 100
+AddVertex,62.0,-1.0, 100
+AddVertex,62.0,-1.0, 50
+AddFace,0,1,2,3,
+LoadTexture,../../ground5.bmp
+SetTextureCoordinates,0, 3, 0,
+SetTextureCoordinates,1, 3, 3,
+SetTextureCoordinates,2, 0, 3,
+SetTextureCoordinates,3, 0, 0,
+Translate,0,0.1,-0.5
+
+
+
+CreateMeshBuilder,
+AddVertex,-5.1, 10.88, 75.0
+AddVertex, 5.1, 10.88, 75.0
+AddVertex, 5.1,-1.0, 75.0
+AddVertex,-5.1,-1.0, 75.0
+AddFace2,0,1,2,3
+LoadTexture,../tree_D1.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,255,255,255,
+GenerateNormals,
+Translate,15,

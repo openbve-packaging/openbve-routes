@@ -1,0 +1,105 @@
+;bal fal
+[MeshBuilder]
+vertex -4.65,3.5,0
+vertex -4.65,3.5,25
+vertex -4.65,1.1,25
+vertex -4.65,1.1,0
+face 0,1,2,3
+Load Bfal.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+;jobb fal
+[MeshBuilder]
+vertex 2, 3.2,25
+vertex 2,-0.2,25
+vertex 2, 3.2,0
+vertex 2,-0.2,0
+face 3,1,0,2
+Load Jfal.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,2,0
+coordinates 3,2,1
+
+;alagút
+[MeshBuilder]
+Vertex 2.0,-0.2,0
+Vertex 2.0, 3.5,0
+Vertex 2.5, 3.5,0
+Vertex 2.5,-0.2,0
+Face 0,1,2,3
+color 30,30,30
+
+;peron
+
+;széle lent
+[MeshBuilder]
+Vertex -1.7,-0.3,0
+Vertex -1.7, 0.9,0
+Vertex -5.0, 0.9,0
+Vertex -5.0,-0.3,0
+Face 3,2,1,0
+color 50,50,50
+
+;széle fent
+[MeshBuilder]
+Vertex -5.00,0.9,0
+Vertex -5.00,1.1,0
+Vertex -1.45,1.1,0
+Vertex -1.45,0.9,0
+Face 0,1,2,3
+color 64,64,64
+
+;Déli tábla
+;szöveg
+[MeshBuilder]
+Vertex -4.55,3.2,-1
+Vertex -4.55,3.5,-1
+Vertex -4.55,3.5, 1
+Vertex -4.55,3.2, 1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FDelir.bmp
+Coordinates 0,0.18,1
+Coordinates 1,0.18,0
+Coordinates 2,0.82,0
+Coordinates 3,0.82,1
+translate 0,0,22
+
+[MeshBuilder]
+Vertex -4.55,3.2,-1
+Vertex -4.55,3.5,-1
+Vertex -4.65,3.2,-1
+Vertex -4.65,3.5,-1
+Vertex -4.55,3.2, 1
+Vertex -4.65,3.2, 1
+face 2,3,1,0
+face 5,2,0,4
+color 0,0,0
+translate 0,0,22
+
+;-------------------
+
+;belépni tilos tábla
+[MeshBuilder]
+Vertex -2.36,1.4,0
+Vertex -2.36,2.2,0
+Vertex -1.66,2.2,0
+Vertex -1.66,1.4,0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2b.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+translate 0,0,1
+
+[MeshBuilder]
+cube 0.04,0.55,0.04
+color 153,0,0
+translate -2.38,1.65,1

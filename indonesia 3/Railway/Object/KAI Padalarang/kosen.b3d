@@ -1,0 +1,270 @@
+[MeshBuilder]
+Vertex -2, 3.5, 0
+Vertex -2, 8, 8
+Vertex -2, 5.5, 8
+Vertex -2, 1, 0
+face 0,1,2,3
+[Texture]
+Load kosen.bmp
+Coordinates 0, 0, 0.75
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 0, 01 
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex -4.5, 3.5, 0
+Vertex -4.5, 8, 8
+Vertex -4.5, 5.5, 8
+Vertex -4.5, 1, 0
+face 0,1,2,3
+[Texture]
+Load kosen.bmp
+Coordinates 0, 0, 0.75
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 0, 01 
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex -4.6, 8, 8
+Vertex -1.9, 8, 8
+Vertex -1.9, 3.5, 0
+Vertex -4.6, 3.5, 0
+face 0,1,2,3
+color 87,87,87
+
+[MeshBuilder]
+Vertex -4.5, 6, 8
+Vertex -2, 6, 8
+Vertex -2, 1, 0
+Vertex -4.5, 1, 0
+face 0,1,2,3
+
+[Texture]
+Load kosen1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 1, 1  ;kaidan
+
+
+[MeshBuilder]
+Vertex 10, 3.5, 0
+Vertex 10, 8, 8
+Vertex 10, 5.5, 8
+Vertex 10, 1, 0
+face 1,0,3,2
+[Texture]
+Load kosen.bmp
+Coordinates 0, 0, 0.75
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 0, 01 
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 7.5, 3.5, 0
+Vertex 7.5, 8, 8
+Vertex 7.5, 5.5, 8
+Vertex 7.5, 1, 0
+face 1,0,3,2
+[Texture]
+Load kosen.bmp
+Coordinates 0, 0, 0.75
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 0, 01 
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 10.1, 8, 8
+Vertex 7.4, 8, 8
+Vertex 7.4, 3.5, 0
+Vertex 10.1, 3.5, 0
+face 1,0,3,2
+color 87,87,87
+
+[MeshBuilder]
+Vertex 10, 6, 8
+Vertex 7.5, 6, 8
+Vertex 7.5, 1, 0
+Vertex 10, 1, 0
+face 1,0,3,2
+
+[Texture]
+Load kosen1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 1, 1 
+
+[MeshBuilder]
+Vertex -2, 8, 8
+Vertex 7.5, 8, 8
+Vertex 7.5, 5.5, 8
+Vertex -2, 5.5, 8
+face 0,1,2,3
+
+[Texture]
+Load kosen2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0 
+
+[MeshBuilder]
+Vertex -4.5, 5.5, 8
+Vertex 10, 5.5, 8
+Vertex 10, 5.5, 10.5
+Vertex -4.5, 5.5, 10.5
+face 0,1,2,3
+color 100,100,100
+
+[MeshBuilder]
+Vertex -4.5, 8.5, 9.25
+Vertex 10, 8.5, 9.25
+Vertex 10, 7.95, 8
+Vertex -4.5, 7.95, 8
+face 0,1,2,3
+face 3,2,1,0
+color 100,100,100
+
+[MeshBuilder]
+Vertex -4.5, 6, 8
+Vertex -4.3, 6, 8
+Vertex -4.3, 0, 8
+Vertex -4.5, 0, 8
+Vertex -4.3, 6, 8.2
+Vertex -4.3, 0, 8.2
+Face 0,1,2,3
+Face 1,4,5,2
+color 200,200,200
+
+[MeshBuilder]
+Vertex -2.2, 6, 8
+Vertex -2.0, 6, 8
+Vertex -2.0,0, 8
+Vertex -2.2, 0, 8
+Vertex -2.0, 6, 8.2
+Vertex -2.0, 0, 8.2
+Face 0,1,2,3
+Face 1,4,5,2
+color 200,200,200
+
+[MeshBuilder]
+Vertex -4.5, 6, 10.3
+Vertex -4.3, 6, 10.3
+Vertex -4.3, 0, 10.3
+Vertex -4.5, 0, 10.3
+Vertex -4.3, 6, 10.5
+Vertex -4.3, 0, 10.5
+Face 0,1,2,3
+Face 1,4,5,2
+color 200,200,200
+
+[MeshBuilder]
+Vertex -2.2, 6, 10.3
+Vertex -2.0, 6, 10.3
+Vertex -2.0, 0, 10.3
+Vertex -2.2, 0, 10.3
+Vertex -2.0, 6, 10.5
+Vertex -2.0, 1, 10.5
+Face 0,1,2,3
+Face 1,4,5,2
+color 200,200,200   
+
+
+[MeshBuilder]
+Vertex -4.5, 4, 8
+Vertex -2.0, 4, 8
+Vertex -2.0, 3.8, 8
+Vertex -4.5, 3.8, 8
+Vertex -2.0, 4, 10.5
+Vertex -2.0, 3.8, 10.5
+Face 0,1,2,3
+Face 1,4,5,2
+color 200,200,200     ;ç∂ë´
+
+[MeshBuilder]
+Vertex -4.3, 4, 8
+Vertex -4.3, 4, 10.3
+Vertex -4.3, 3.8, 10.3
+Vertex -4.3, 3.8, 8
+Vertex -2.0, 4, 10.3
+Vertex -2.0, 3.8, 10.3
+Face 0,1,2,3
+Face 1,4,5,2
+color 200,200,200     ;ç∂ë´
+
+
+
+[MeshBuilder]
+Vertex 7.7, 6, 8
+Vertex 7.5, 6, 8
+Vertex 7.5, 0, 8
+Vertex 7.7, 0, 8
+Vertex 7.5, 6, 8.2
+Vertex 7.5, 0, 8.2
+Face 1,0,3,2
+Face 4,1,2,5
+color 200,200,200
+
+[MeshBuilder]
+Vertex 10, 6, 8
+Vertex 9.8, 6, 8
+Vertex 9.8, 0, 8
+Vertex 10, 0, 8
+Vertex 9.8, 6, 8.2
+Vertex 9.8, 0, 8.2
+Face 1,0,3,2
+Face 4,1,2,5
+color 200,200,200
+
+[MeshBuilder]
+Vertex 7.7, 6, 10.3
+Vertex 7.5, 6, 10.3
+Vertex 7.5, 0, 10.3
+Vertex 7.7, 0, 10.3
+Vertex 7.5, 6, 10.5
+Vertex 7.5, 0, 10.5
+Face 1,0,3,2
+Face 4,1,2,5
+color 200,200,200
+
+[MeshBuilder]
+Vertex 10, 6, 10.3
+Vertex 9.8, 6, 10.3
+Vertex 9.8, 0, 10.3
+Vertex 10, 0, 10.3
+Vertex 9.8, 6, 10.5
+Vertex 9.8, 0, 10.5
+Face 1,0,3,2
+Face 4,1,2,5
+color 200,200,200  ;ç∂ë´
+
+[MeshBuilder]
+Vertex 7.5, 4, 10.5
+Vertex 7.5, 4, 8
+Vertex 7.5, 3.8, 8
+Vertex 7.5, 3.8, 10.5
+Vertex 10, 4, 8
+Vertex 10, 3.8, 8
+Face 0,1,2,3
+Face 1,4,5,2
+color 200,200,200
+
+[MeshBuilder]
+Vertex 7.5, 4, 10.3
+Vertex 9.8, 4, 10.3
+Vertex 9.8, 3.8, 10.3
+Vertex 7.5, 3.8, 10.3
+Vertex 9.8, 4, 8
+Vertex 9.8, 3.8, 8
+Face 0,1,2,3
+Face 1,4,5,2
+color 200,200,200
+
+
+ 

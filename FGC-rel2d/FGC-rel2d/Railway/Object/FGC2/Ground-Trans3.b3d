@@ -1,0 +1,31 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Terreno in salita - per tratto diritto
+; monte a sinistra - valle a destra
+; transizione dal 40 al 20 per mille
+
+[MeshBuilder] ; - valle a destra
+vertex 5.5 , -2.2 , -1.5 ;  alto inzio
+vertex 10.5 , -3.0 ,15 ; alto fine
+vertex 6.5 , -0.2 ,15 ; basso fine *
+vertex 2.5 , -0.4 ,-1.5  ;basso inizio *
+vertex 1.4 ,-0.2 ,15.5 ; basso max fine
+vertex 1.4 ,-0.5 ,-1.5  ;basso max inizio
+vertex 280,   -100   ,15 ;alto max fine 
+vertex 280,   -100   ,-1.5  ; alto max inizio
+Face2 0,1,2,3
+Face2 3,2,4,5
+Face2 7,6,1,0
+; rotate 1,0,0,-1.4
+[texture]
+load Grass3.bmp
+coordinates 0, 0,   0
+coordinates 1, 1, 0
+coordinates 2, 1, 0.5
+coordinates 3, 0,   0.5
+coordinates 4, 1, 1
+coordinates 5, 0,   1
+coordinates 6, 1, 30
+coordinates 7, 0,   30

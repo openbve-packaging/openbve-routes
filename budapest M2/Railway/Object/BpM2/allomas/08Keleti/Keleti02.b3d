@@ -1,0 +1,1154 @@
+;Keleti pályaudvar állomás, bal 2
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;peron sáv
+[MeshBuilder]
+Vertex -2.245,1.1,0
+Vertex -2.245,1.1,25
+Vertex -2.355,1.1,25
+Vertex -2.355,1.1,0
+Face 3,2,1,0
+color 192,192,192
+
+[MeshBuilder]
+Vertex -4.05,1.1,0
+Vertex -4.05,1.1,25
+Vertex -2.35,1.1,25
+Vertex -2.35,1.1,0
+Vertex -7.45,1.1,13
+Vertex -7.45,1.1,16
+Vertex -4.05,1.1,16
+Vertex -4.05,1.1,13
+Vertex -7.45,1.1,19
+Vertex -7.45,1.1,22
+Vertex -4.05,1.1,22
+Vertex -4.05,1.1,19
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+[Texture]
+Load Keleti_peron1.bmp
+Coordinates 0,0,25
+Coordinates 1,0,0
+Coordinates 2,2,0
+Coordinates 3,2,25
+Coordinates 4,0,3
+Coordinates 5,0,0
+Coordinates 6,4,0
+Coordinates 7,4,3
+Coordinates 8,0,3
+Coordinates 9,0,0
+Coordinates 10,4,0
+Coordinates 11,4,3
+
+[MeshBuilder]
+Vertex -8.00,1.1,0
+Vertex -8.00,1.1,13
+Vertex -4.04,1.1,13
+Vertex -4.04,1.1,0
+Vertex -8.00,1.1,16
+Vertex -8.00,1.1,19
+Vertex -4.04,1.1,19
+Vertex -4.04,1.1,16
+Vertex -8.00,1.1,22
+Vertex -8.00,1.1,25
+Vertex -4.04,1.1,25
+Vertex -4.04,1.1,22
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+[Texture]
+Load Keleti_peron2.bmp
+Coordinates 0,8,13
+Coordinates 1,8,0
+Coordinates 2,0,0
+Coordinates 3,0,13
+Coordinates 4,8,3
+Coordinates 5,8,0
+Coordinates 6,0,0
+Coordinates 7,0,3
+Coordinates 8,8,3
+Coordinates 9,8,0
+Coordinates 10,0,0
+Coordinates 11,0,3
+
+;világítás
+[MeshBuilder]
+vertex -2.15,4.082,-1.5
+vertex -2.15,4.082,24.5
+vertex -3.35,4.082,24.5
+vertex -3.35,4.082,-1.5
+face 0,1,2,3
+Load Keleti_vilagitas.bmp
+coordinates 0,00,0
+coordinates 1,13,0
+coordinates 2,13,1
+coordinates 3,00,1
+
+;--------------------------------------------------
+
+;Falak
+
+;Jobb oldal
+
+[MeshBuilder]
+Vertex 1.7,-0.2,0
+Vertex 1.8, 1.0,0
+Vertex 1.8, 1.0,25
+Vertex 1.7,-0.2,25
+Face 3,2,1,0
+[Texture]
+Load Keleti_fal_J_01.bmp
+Coordinates 0, 00.0,1
+Coordinates 1, 00.0,0
+Coordinates 2, 22.5,0
+Coordinates 3, 22.5,1
+
+[MeshBuilder]
+Vertex 1.8,1.0,1.111
+Vertex 1.8,3.2,1.111
+Vertex 1.8,3.2,7.222
+Vertex 1.8,1.0,7.222
+Vertex 1.8,1.0,9.444
+Vertex 1.8,3.2,9.444
+Vertex 1.8,3.2,15.556
+Vertex 1.8,1.0,15.556
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load Keleti_fal_J_02.bmp
+Coordinates 0,11,1
+Coordinates 1,11,0
+Coordinates 2,00,0
+Coordinates 3,00,1
+Coordinates 4,11,1
+Coordinates 5,11,0
+Coordinates 6,00,0
+Coordinates 7,00,1
+
+[MeshBuilder]
+Vertex 1.8,1.0,-10.556
+Vertex 1.8,3.2,-10.556
+Vertex 1.8,3.2,1.111
+Vertex 1.8,1.0,1.111
+Face 3,2,1,0
+[Texture]
+Load Keleti_kep_J_06.bmp
+Coordinates 0,0.954,1
+Coordinates 1,0.954,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 1.8,1.0,7.222
+Vertex 1.8,3.2,7.222
+Vertex 1.8,3.2,9.444
+Vertex 1.8,1.0,9.444
+Face 3,2,1,0
+[Texture]
+Load Keleti_kep_J_05.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;jobb irány
+[MeshBuilder]
+vertex 1.65,3.5,4
+vertex 1.80,3.2,4
+vertex 1.65,3.5,-21
+vertex 1.80,3.2,-21
+face 3,1,0,2
+Load Keleti_iranyB.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,1,0
+coordinates 3,1,1
+[MeshBuilder]
+vertex 1.65,3.5,25
+vertex 1.80,3.2,25
+vertex 1.65,3.5,4
+vertex 1.80,3.2,4
+face 3,1,0,2
+color 255,0,0
+
+;------------------------------
+
+;Bal oldal
+
+[MeshBuilder]
+vertex -4.252,1.1,0.1
+vertex -4.252,3.4,0.1
+vertex -4.252,1.1,4.9
+vertex -4.252,3.4,4.9
+face 0,1,3,2
+Load Keleti_fal_B_01.bmp
+coordinates 0,00,1
+coordinates 1,00,0.12
+coordinates 2,05,1
+coordinates 3,05,0.12
+
+[MeshBuilder]
+vertex -4.550,1.100,5
+vertex -4.622,1.390,5
+vertex -4.668,1.685,5
+vertex -4.687,1.983,5
+vertex -4.680,2.282,5
+vertex -4.646,2.578,5
+vertex -4.586,2.871,5
+vertex -4.499,3.157,5
+vertex -4.388,3.434,5
+vertex -4.252,3.700,5
+vertex -4.550,1.100,12.9
+vertex -4.622,1.390,12.9
+vertex -4.668,1.685,12.9
+vertex -4.687,1.983,12.9
+vertex -4.680,2.282,12.9
+vertex -4.646,2.578,12.9
+vertex -4.586,2.871,12.9
+vertex -4.499,3.157,12.9
+vertex -4.388,3.434,12.9
+vertex -4.252,3.700,12.9
+;
+vertex -4.550,1.100,16.1
+vertex -4.622,1.390,16.1
+vertex -4.668,1.685,16.1
+vertex -4.687,1.983,16.1
+vertex -4.680,2.282,16.1
+vertex -4.646,2.578,16.1
+vertex -4.586,2.871,16.1
+vertex -4.499,3.157,16.1
+vertex -4.388,3.434,16.1
+vertex -4.252,3.700,16.1
+vertex -4.550,1.100,18.9
+vertex -4.622,1.390,18.9
+vertex -4.668,1.685,18.9
+vertex -4.687,1.983,18.9
+vertex -4.680,2.282,18.9
+vertex -4.646,2.578,18.9
+vertex -4.586,2.871,18.9
+vertex -4.499,3.157,18.9
+vertex -4.388,3.434,18.9
+vertex -4.252,3.700,18.9
+;
+vertex -4.550,1.100,22.1
+vertex -4.622,1.390,22.1
+vertex -4.668,1.685,22.1
+vertex -4.687,1.983,22.1
+vertex -4.680,2.282,22.1
+vertex -4.646,2.578,22.1
+vertex -4.586,2.871,22.1
+vertex -4.499,3.157,22.1
+vertex -4.388,3.434,22.1
+vertex -4.252,3.700,22.1
+vertex -4.550,1.100,24.9
+vertex -4.622,1.390,24.9
+vertex -4.668,1.685,24.9
+vertex -4.687,1.983,24.9
+vertex -4.680,2.282,24.9
+vertex -4.646,2.578,24.9
+vertex -4.586,2.871,24.9
+vertex -4.499,3.157,24.9
+vertex -4.388,3.434,24.9
+vertex -4.252,3.700,24.9
+;
+Face 01,11,10,00
+Face 02,12,11,01
+Face 03,13,12,02
+Face 04,14,13,03
+Face 05,15,14,04
+Face 06,16,15,05
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,19,18,08
+;
+Face 21,31,30,20
+Face 22,32,31,21
+Face 23,33,32,22
+Face 24,34,33,23
+Face 25,35,34,24
+Face 26,36,35,25
+Face 27,37,36,26
+Face 28,38,37,27
+Face 29,39,38,28
+;
+Face 41,51,50,40
+Face 42,52,51,41
+Face 43,53,52,42
+Face 44,54,53,43
+Face 45,55,54,44
+Face 46,56,55,45
+Face 47,57,56,46
+Face 48,58,57,47
+Face 49,59,58,48
+;
+[Texture]
+Load Keleti_fal_B_02.bmp
+coordinates 00,0,1.00
+coordinates 01,0,0.89
+coordinates 02,0,0.78
+coordinates 03,0,0.67
+coordinates 04,0,0.56
+coordinates 05,0,0.44
+coordinates 06,0,0.33
+coordinates 07,0,0.22
+coordinates 08,0,0.11
+coordinates 09,0,0.00
+coordinates 10,8,1.00
+coordinates 11,8,0.89
+coordinates 12,8,0.78
+coordinates 13,8,0.67
+coordinates 14,8,0.56
+coordinates 15,8,0.44
+coordinates 16,8,0.33
+coordinates 17,8,0.22
+coordinates 18,8,0.11
+coordinates 19,8,0.00
+;
+coordinates 20,0,1.00
+coordinates 21,0,0.89
+coordinates 22,0,0.78
+coordinates 23,0,0.67
+coordinates 24,0,0.56
+coordinates 25,0,0.44
+coordinates 26,0,0.33
+coordinates 27,0,0.22
+coordinates 28,0,0.11
+coordinates 29,0,0.00
+coordinates 30,3,1.00
+coordinates 31,3,0.89
+coordinates 32,3,0.78
+coordinates 33,3,0.67
+coordinates 34,3,0.56
+coordinates 35,3,0.44
+coordinates 36,3,0.33
+coordinates 37,3,0.22
+coordinates 38,3,0.11
+coordinates 39,3,0.00
+;
+coordinates 40,0,1.00
+coordinates 41,0,0.89
+coordinates 42,0,0.78
+coordinates 43,0,0.67
+coordinates 44,0,0.56
+coordinates 45,0,0.44
+coordinates 46,0,0.33
+coordinates 47,0,0.22
+coordinates 48,0,0.11
+coordinates 49,0,0.00
+coordinates 50,3,1.00
+coordinates 51,3,0.89
+coordinates 52,3,0.78
+coordinates 53,3,0.67
+coordinates 54,3,0.56
+coordinates 55,3,0.44
+coordinates 56,3,0.33
+coordinates 57,3,0.22
+coordinates 58,3,0.11
+coordinates 59,3,0.00
+
+[MeshBuilder]
+vertex -4.752,1.1,0
+vertex -4.252,1.1,0
+vertex -4.252,1.1,0.1
+vertex -4.752,3.7,0
+vertex -4.252,3.7,0
+vertex -4.252,3.7,0.1
+face 0,3,4,1
+face 1,4,5,2
+Load Keleti_fal_B_03.bmp
+coordinates 0,0.0,1
+coordinates 1,2,1
+coordinates 2,3,1
+coordinates 3,0,0
+coordinates 4,2,0
+coordinates 5,3,0
+Translate 0,0,0
+
+[MeshBuilder]
+vertex -4.252,1.1,4.9
+vertex -4.252,3.7,4.9
+vertex -4.252,1.1,5
+vertex -4.252,3.7,5
+face 0,1,3,2
+Load Keleti_fal_B_03.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,1
+coordinates 3,1,0
+
+[MeshBuilder]
+vertex -4.550,1.100,12.9
+vertex -4.622,1.390,12.9
+vertex -4.668,1.685,12.9
+vertex -4.687,1.983,12.9
+vertex -4.680,2.282,12.9
+vertex -4.646,2.578,12.9
+vertex -4.586,2.871,12.9
+vertex -4.499,3.157,12.9
+vertex -4.388,3.434,12.9
+vertex -4.252,3.700,12.9
+vertex -4.550,1.100,13
+vertex -4.622,1.390,13
+vertex -4.668,1.685,13
+vertex -4.687,1.983,13
+vertex -4.680,2.282,13
+vertex -4.646,2.578,13
+vertex -4.586,2.871,13
+vertex -4.499,3.157,13
+vertex -4.388,3.434,13
+vertex -4.252,3.700,13
+;
+vertex -4.550,1.100,16
+vertex -4.622,1.390,16
+vertex -4.668,1.685,16
+vertex -4.687,1.983,16
+vertex -4.680,2.282,16
+vertex -4.646,2.578,16
+vertex -4.586,2.871,16
+vertex -4.499,3.157,16
+vertex -4.388,3.434,16
+vertex -4.252,3.700,16
+vertex -4.550,1.100,16.1
+vertex -4.622,1.390,16.1
+vertex -4.668,1.685,16.1
+vertex -4.687,1.983,16.1
+vertex -4.680,2.282,16.1
+vertex -4.646,2.578,16.1
+vertex -4.586,2.871,16.1
+vertex -4.499,3.157,16.1
+vertex -4.388,3.434,16.1
+vertex -4.252,3.700,16.1
+;
+vertex -4.550,1.100,18.9
+vertex -4.622,1.390,18.9
+vertex -4.668,1.685,18.9
+vertex -4.687,1.983,18.9
+vertex -4.680,2.282,18.9
+vertex -4.646,2.578,18.9
+vertex -4.586,2.871,18.9
+vertex -4.499,3.157,18.9
+vertex -4.388,3.434,18.9
+vertex -4.252,3.700,18.9
+vertex -4.550,1.100,19
+vertex -4.622,1.390,19
+vertex -4.668,1.685,19
+vertex -4.687,1.983,19
+vertex -4.680,2.282,19
+vertex -4.646,2.578,19
+vertex -4.586,2.871,19
+vertex -4.499,3.157,19
+vertex -4.388,3.434,19
+vertex -4.252,3.700,19
+;
+vertex -4.550,1.100,22
+vertex -4.622,1.390,22
+vertex -4.668,1.685,22
+vertex -4.687,1.983,22
+vertex -4.680,2.282,22
+vertex -4.646,2.578,22
+vertex -4.586,2.871,22
+vertex -4.499,3.157,22
+vertex -4.388,3.434,22
+vertex -4.252,3.700,22
+vertex -4.550,1.100,22.1
+vertex -4.622,1.390,22.1
+vertex -4.668,1.685,22.1
+vertex -4.687,1.983,22.1
+vertex -4.680,2.282,22.1
+vertex -4.646,2.578,22.1
+vertex -4.586,2.871,22.1
+vertex -4.499,3.157,22.1
+vertex -4.388,3.434,22.1
+vertex -4.252,3.700,22.1
+;
+vertex -4.550,1.100,24.9
+vertex -4.622,1.390,24.9
+vertex -4.668,1.685,24.9
+vertex -4.687,1.983,24.9
+vertex -4.680,2.282,24.9
+vertex -4.646,2.578,24.9
+vertex -4.586,2.871,24.9
+vertex -4.499,3.157,24.9
+vertex -4.388,3.434,24.9
+vertex -4.252,3.700,24.9
+vertex -4.550,1.100,25
+vertex -4.622,1.390,25
+vertex -4.668,1.685,25
+vertex -4.687,1.983,25
+vertex -4.680,2.282,25
+vertex -4.646,2.578,25
+vertex -4.586,2.871,25
+vertex -4.499,3.157,25
+vertex -4.388,3.434,25
+vertex -4.252,3.700,25
+;
+Face 01,11,10,00
+Face 02,12,11,01
+Face 03,13,12,02
+Face 04,14,13,03
+Face 05,15,14,04
+Face 06,16,15,05
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,19,18,08
+;
+Face 21,31,30,20
+Face 22,32,31,21
+Face 23,33,32,22
+Face 24,34,33,23
+Face 25,35,34,24
+Face 26,36,35,25
+Face 27,37,36,26
+Face 28,38,37,27
+Face 29,39,38,28
+;
+Face 41,51,50,40
+Face 42,52,51,41
+Face 43,53,52,42
+Face 44,54,53,43
+Face 45,55,54,44
+Face 46,56,55,45
+Face 47,57,56,46
+Face 48,58,57,47
+Face 49,59,58,48
+;
+Face 61,71,70,60
+Face 62,72,71,61
+Face 63,73,72,62
+Face 64,74,73,63
+Face 65,75,74,64
+Face 66,76,75,65
+Face 67,77,76,66
+Face 68,78,77,67
+Face 69,79,78,68
+;
+Face 81,91,90,80
+Face 82,92,91,81
+Face 83,93,92,82
+Face 84,94,93,83
+Face 85,95,94,84
+Face 86,96,95,85
+Face 87,97,96,86
+Face 88,98,97,87
+Face 89,99,98,88
+;
+[Texture]
+Load Keleti_fal_B_03.bmp
+coordinates 00,0,1.00
+coordinates 01,0,0.89
+coordinates 02,0,0.78
+coordinates 03,0,0.67
+coordinates 04,0,0.56
+coordinates 05,0,0.44
+coordinates 06,0,0.33
+coordinates 07,0,0.22
+coordinates 08,0,0.11
+coordinates 09,0,0.00
+coordinates 10,1,1.00
+coordinates 11,1,0.89
+coordinates 12,1,0.78
+coordinates 13,1,0.67
+coordinates 14,1,0.56
+coordinates 15,1,0.44
+coordinates 16,1,0.33
+coordinates 17,1,0.22
+coordinates 18,1,0.11
+coordinates 19,1,0.00
+;
+coordinates 20,0,1.00
+coordinates 21,0,0.89
+coordinates 22,0,0.78
+coordinates 23,0,0.67
+coordinates 24,0,0.56
+coordinates 25,0,0.44
+coordinates 26,0,0.33
+coordinates 27,0,0.22
+coordinates 28,0,0.11
+coordinates 29,0,0.00
+coordinates 30,1,1.00
+coordinates 31,1,0.89
+coordinates 32,1,0.78
+coordinates 33,1,0.67
+coordinates 34,1,0.56
+coordinates 35,1,0.44
+coordinates 36,1,0.33
+coordinates 37,1,0.22
+coordinates 38,1,0.11
+coordinates 39,1,0.00
+;
+coordinates 40,0,1.00
+coordinates 41,0,0.89
+coordinates 42,0,0.78
+coordinates 43,0,0.67
+coordinates 44,0,0.56
+coordinates 45,0,0.44
+coordinates 46,0,0.33
+coordinates 47,0,0.22
+coordinates 48,0,0.11
+coordinates 49,0,0.00
+coordinates 50,1,1.00
+coordinates 51,1,0.89
+coordinates 52,1,0.78
+coordinates 53,1,0.67
+coordinates 54,1,0.56
+coordinates 55,1,0.44
+coordinates 56,1,0.33
+coordinates 57,1,0.22
+coordinates 58,1,0.11
+coordinates 59,1,0.00
+;
+coordinates 60,0,1.00
+coordinates 61,0,0.89
+coordinates 62,0,0.78
+coordinates 63,0,0.67
+coordinates 64,0,0.56
+coordinates 65,0,0.44
+coordinates 66,0,0.33
+coordinates 67,0,0.22
+coordinates 68,0,0.11
+coordinates 69,0,0.00
+coordinates 70,1,1.00
+coordinates 71,1,0.89
+coordinates 72,1,0.78
+coordinates 73,1,0.67
+coordinates 74,1,0.56
+coordinates 75,1,0.44
+coordinates 76,1,0.33
+coordinates 77,1,0.22
+coordinates 78,1,0.11
+coordinates 79,1,0.00
+;
+coordinates 80,0,1.00
+coordinates 81,0,0.89
+coordinates 82,0,0.78
+coordinates 83,0,0.67
+coordinates 84,0,0.56
+coordinates 85,0,0.44
+coordinates 86,0,0.33
+coordinates 87,0,0.22
+coordinates 88,0,0.11
+coordinates 89,0,0.00
+coordinates 90,1,1.00
+coordinates 91,1,0.89
+coordinates 92,1,0.78
+coordinates 93,1,0.67
+coordinates 94,1,0.56
+coordinates 95,1,0.44
+coordinates 96,1,0.33
+coordinates 97,1,0.22
+coordinates 98,1,0.11
+coordinates 99,1,0.00
+
+[MeshBuilder]
+vertex -8.000,1.100,16
+vertex -8.000,3.700,16
+vertex -4.252,3.700,16
+vertex -4.388,3.434,16
+vertex -4.499,3.157,16
+vertex -4.586,2.871,16
+vertex -4.646,2.578,16
+vertex -4.680,2.282,16
+vertex -4.687,1.983,16
+vertex -4.668,1.685,16
+vertex -4.622,1.390,16
+vertex -4.550,1.100,16
+;
+vertex -8.000,1.100,22
+vertex -8.000,3.700,22
+vertex -4.252,3.700,22
+vertex -4.388,3.434,22
+vertex -4.499,3.157,22
+vertex -4.586,2.871,22
+vertex -4.646,2.578,22
+vertex -4.680,2.282,22
+vertex -4.687,1.983,22
+vertex -4.668,1.685,22
+vertex -4.622,1.390,22
+vertex -4.550,1.100,22
+;
+Face 0,1,2,3
+Face 0,3,4
+Face 0,4,5
+Face 0,5,6
+Face 0,6,7
+Face 0,7,8
+Face 0,8,9
+Face 0,9,10
+Face 0,10,11
+;
+Face 12,13,14,15
+Face 12,15,16
+Face 12,16,17
+Face 12,17,18
+Face 12,18,19
+Face 12,19,20
+Face 12,20,21
+Face 12,21,22
+Face 12,22,23
+;
+[texture]
+Load Keleti_fal_B_03.bmp
+coordinates  0,0.000,1.000
+coordinates  1,0.000,0.000
+coordinates  2,6.442,0.000
+coordinates  3,6.188,0.107
+coordinates  4,5.979,0.218
+coordinates  5,5.819,0.332
+coordinates  6,5.705,0.449
+coordinates  7,5.642,0.568
+coordinates  8,5.629,0.687
+coordinates  9,5.665,0.806
+coordinates 10,5.750,0.924
+coordinates 11,5.833,1.000
+;
+coordinates 12,0.000,1.000
+coordinates 13,0.000,0.000
+coordinates 14,6.442,0.000
+coordinates 15,6.188,0.107
+coordinates 16,5.979,0.218
+coordinates 17,5.819,0.332
+coordinates 18,5.705,0.449
+coordinates 19,5.642,0.568
+coordinates 20,5.629,0.687
+coordinates 21,5.665,0.806
+coordinates 22,5.750,0.924
+coordinates 23,5.833,1.000
+
+[MeshBuilder]
+vertex -4.252,3.4,0.1
+vertex -4.252,3.7,0.1
+vertex -4.252,3.4,4.9
+vertex -4.252,3.7,4.9
+face 0,1,3,2
+Load Keleti_fal_B_04.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,3,1
+coordinates 3,3,0
+
+[MeshBuilder]
+vertex -4.252,3.700,0
+vertex -4.039,4.028,0
+vertex -4.039,4.028,13.51
+vertex -4.252,3.700,13.51
+vertex -4.252,3.700,15.5
+vertex -4.039,4.028,15.5
+vertex -4.039,4.028,19.51
+vertex -4.252,3.700,19.51
+vertex -4.252,3.700,21.5
+vertex -4.039,4.028,21.5
+vertex -4.039,4.028,25
+vertex -4.252,3.700,25
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+color 255,0,0
+
+;áttöréstetõ
+[MeshBuilder]
+Vertex -8.000,3.7,13
+Vertex -8.000,3.7,22
+Vertex -4.252,3.7,22
+Vertex -4.252,3.7,13
+Face 3,2,1,0
+color 183,169,152
+
+;Korlát
+[MeshBuilder]
+Vertex -4.65,1.85,5.2
+Vertex -4.65,2.05,5.2
+Vertex -4.65,2.05,12.7
+Vertex -4.65,1.85,12.7
+Vertex -4.65,1.85,16.3
+Vertex -4.65,2.05,16.3
+Vertex -4.65,2.05,18.7
+Vertex -4.65,1.85,18.7
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load Keleti_korlat.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,0,1
+Coordinates 5,0,0
+Coordinates 6,1,0
+Coordinates 7,1,1
+
+;segélykérõ
+[MeshBuilder]
+Vertex 0.0,1.20,0.00
+Vertex 0.0,3.40,0.00
+Vertex 0.0,3.40,0.65
+Vertex 0.0,1.20,0.65
+Vertex 0.1,1.20,0.10
+Vertex 0.1,3.24,0.10
+Vertex 0.1,3.24,0.55
+Vertex 0.1,1.20,0.55
+Vertex 0.0,3.40,0.10
+Vertex 0.0,3.40,0.55
+Face 0,1,5,4
+Face 4,5,6,7
+Face 2,3,7,6
+Face 8,9,6,5
+Face 1,8,5
+Face 2,6,9
+[Texture]
+Load ..\skero_02.bmp
+Coordinates 0,0.00,1.00
+Coordinates 1,0.00,0.00
+Coordinates 2,1.00,0.00
+Coordinates 3,1.00,1.00
+Coordinates 4,0.21,1.00
+Coordinates 5,0.21,0.05
+Coordinates 6,0.79,0.05
+Coordinates 7,0.79,1.00
+Coordinates 8,0.21,0.00
+Coordinates 9,0.79,0.00
+Translate -4.403,0,23.175
+
+[MeshBuilder]
+Vertex -4.700,1.20,23.175
+Vertex -4.700,3.40,23.175
+Vertex -4.403,3.40,23.175
+Vertex -4.403,1.20,23.175
+Face 0,1,2,3
+[Texture]
+Load ..\skero_02.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,0.05,0
+Coordinates 3,0.05,1
+
+[MeshBuilder]
+vertex -4.55,1.1,23.225
+vertex -4.37,1.1,23.225
+vertex -4.37,1.1,23.775
+vertex -4.55,1.3,23.225
+vertex -4.37,1.3,23.225
+vertex -4.37,1.3,23.775
+face 0,3,4,1
+face 1,4,5,2
+[Texture]
+Load Keleti_fal_B_01.bmp
+coordinates 0,0,1
+coordinates 1,1,1
+coordinates 2,2,1
+coordinates 3,0,0.96
+coordinates 4,1,0.96
+coordinates 5,2,0.96
+
+;--------------------------------------------------
+
+;térkép
+
+[MeshBuilder]
+cube 0.04,1.00,0.04
+color 192,36,14
+translate 0.04,2.30,0.00
+translate -4.252,0.05,0.65
+[MeshBuilder]
+cube 0.04,1.00,0.04
+color 192,36,14
+translate 0.04,2.30,1.42
+translate -4.252,0.05,0.65
+[MeshBuilder]
+cube 0.04,0.04,0.67
+color 192,36,14
+translate 0.04,3.26,0.71
+translate -4.252,0.05,0.65
+[MeshBuilder]
+cube 0.04,0.04,0.67
+color 192,36,14
+translate 0.04,1.34,0.71
+translate -4.252,0.05,0.65
+[MeshBuilder]
+Vertex 0.04,01.38,0.04
+Vertex 0.04,03.22,0.04
+Vertex 0.04,03.22,1.38
+Vertex 0.04,01.38,1.38
+Face 00,01,02,03
+[Texture]
+Load ..\terkep_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 01.00
+translate -4.252,0.05,0.65
+
+[MeshBuilder]
+cube 0.04,1.00,0.04
+color 192,36,14
+translate 0.04,2.30,0.00
+translate -4.252,0.05,2.85
+[MeshBuilder]
+cube 0.04,1.00,0.04
+color 192,36,14
+translate 0.04,2.30,1.42
+translate -4.252,0.05,2.85
+[MeshBuilder]
+cube 0.04,0.04,0.67
+color 192,36,14
+translate 0.04,3.26,0.71
+translate -4.252,0.05,2.85
+[MeshBuilder]
+cube 0.04,0.04,0.67
+color 192,36,14
+translate 0.04,1.34,0.71
+translate -4.252,0.05,2.85
+[MeshBuilder]
+Vertex 0.04,01.38,0.04
+Vertex 0.04,03.22,0.04
+Vertex 0.04,03.22,1.38
+Vertex 0.04,01.38,1.38
+Face 00,01,02,03
+[Texture]
+Load ..\terkep_03.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 01.00
+translate -4.252,0.05,2.85
+
+;--------------------------------------------------
+
+;Keleti felirat
+;szöveg
+[MeshBuilder]
+vertex -4.251,3.700,-2
+vertex -4.038,4.028,-2
+vertex -4.038,4.028,-0.5
+vertex -4.251,3.700,-0.5
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FKeleti.bmp
+Coordinates 0,0.15,1
+Coordinates 1,0.15,0
+Coordinates 2,0.85,0
+Coordinates 3,0.85,1
+
+;nyíl
+[MeshBuilder]
+vertex -4.251,3.700,-0.5
+vertex -4.038,4.028,-0.5
+vertex -4.038,4.028,0
+vertex -4.251,3.700,0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil22.bmp
+Coordinates 0,0.1,1
+Coordinates 1,0.1,0
+Coordinates 2,0.9,0
+Coordinates 3,0.9,1
+
+;-------------------------
+
+;Keleti felirat áttörésnél
+;1-es kijárat felé
+;szöveg
+[MeshBuilder]
+vertex -4.251,3.700,13.5
+vertex -4.038,4.028,13.5
+vertex -4.038,4.028,15
+vertex -4.251,3.700,15
+vertex -4.251,3.700,19.5
+vertex -4.038,4.028,19.5
+vertex -4.038,4.028,21
+vertex -4.251,3.700,21
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load ..\tabla\FKeleti.bmp
+Coordinates 0,0.15,1
+Coordinates 1,0.15,0
+Coordinates 2,0.85,0
+Coordinates 3,0.85,1
+Coordinates 4,0.15,1
+Coordinates 5,0.15,0
+Coordinates 6,0.85,0
+Coordinates 7,0.85,1
+
+;nyíl
+[MeshBuilder]
+vertex -4.251,3.700,15
+vertex -4.038,4.028,15
+vertex -4.038,4.028,15.5
+vertex -4.251,3.700,15.5
+vertex -4.251,3.700,21
+vertex -4.038,4.028,21
+vertex -4.038,4.028,21.5
+vertex -4.251,3.700,21.5
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load ..\tabla\nyil23.bmp
+Coordinates 0,0.9,1
+Coordinates 1,0.9,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,1
+Coordinates 4,0.9,1
+Coordinates 5,0.9,0
+Coordinates 6,0.1,0
+Coordinates 7,0.1,1
+
+;-------------------------
+
+;Keleti felirat áttörésnél
+;2-es kijárat felé
+;[MeshBuilder]
+;vertex -4.251,3.700,14
+;vertex -4.038,4.028,14
+;vertex -4.038,4.028,15.5
+;vertex -4.251,3.700,15.5
+;vertex -4.251,3.700,20
+;vertex -4.038,4.028,20
+;vertex -4.038,4.028,21.5
+;vertex -4.251,3.700,21.5
+;Face 0,1,2,3
+;Face 4,5,6,7
+;[Texture]
+;Load ..\tabla\FKeleti.bmp
+;Coordinates 0,0.15,1
+;Coordinates 1,0.15,0
+;Coordinates 2,0.85,0
+;Coordinates 3,0.85,1
+;Coordinates 4,0.15,1
+;Coordinates 5,0.15,0
+;Coordinates 6,0.85,0
+;Coordinates 7,0.85,1
+
+;nyíl
+;[MeshBuilder]
+;vertex -4.251,3.700,13.5
+;vertex -4.038,4.028,13.5
+;vertex -4.038,4.028,14
+;vertex -4.251,3.700,14
+;vertex -4.251,3.700,19.5
+;vertex -4.038,4.028,19.5
+;vertex -4.038,4.028,20
+;vertex -4.251,3.700,20
+;Face 0,1,2,3
+;Face 4,5,6,7
+;[Texture]
+;Load ..\tabla\nyil23.bmp
+;Coordinates 0,0.1,1
+;Coordinates 1,0.1,0
+;Coordinates 2,0.9,0
+;Coordinates 3,0.9,1
+;Coordinates 4,0.1,1
+;Coordinates 5,0.1,0
+;Coordinates 6,0.9,0
+;Coordinates 7,0.9,1
+
+;-------------------------
+
+;Exit felirat
+[MeshBuilder]
+Vertex -4.251,3.700,6.75
+Vertex -4.038,4.028,6.75
+Vertex -4.038,4.028,7.25
+Vertex -4.251,3.700,7.25
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Exit2.bmp
+Coordinates 0,0,0.8
+Coordinates 1,0,0.2
+Coordinates 2,1,0.2
+Coordinates 3,1,0.8
+
+;-------------------------
+
+;kijárat tábla
+
+[MeshBuilder]
+Vertex -0.25,0.2,0.0
+Vertex  0.60,0.2,0.0
+Vertex  0.60,0.0,0.0
+Vertex -0.25,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijarat1.bmp
+Coordinates 0,0.00,0
+Coordinates 1,0.75,0
+Coordinates 2,0.75,1
+Coordinates 3,0.00,1
+translate -2.75,3.882,14.4
+
+;nyíl
+[MeshBuilder]
+Vertex -0.60,0.2,0.0
+Vertex -0.25,0.2,0.0
+Vertex -0.25,0.0,0.0
+Vertex -0.60,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil12a.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+translate -2.75,3.882,14.4
+
+;szélek
+[MeshBuilder]
+Vertex  0.6,0.0,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.2,0.2
+Vertex  0.6,0.0,0.2
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.0,0.2
+face 0,1,2,3
+face 5,4,0,3
+color 128,128,128
+translate -2.75,3.882,14.4
+
+;Irány Déli
+
+;szöveg
+[MeshBuilder]
+Vertex -0.60,0.2,0.0
+Vertex  0.25,0.2,0.0
+Vertex  0.25,0.0,0.0
+Vertex -0.60,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\IDeli1.bmp
+Coordinates 0,0.12,0
+Coordinates 1,0.88,0
+Coordinates 2,0.88,1
+Coordinates 3,0.12,1
+translate -2.75,3.882,20.4
+
+;nyíl
+[MeshBuilder]
+Vertex 0.25,0.2,0.0
+Vertex 0.60,0.2,0.0
+Vertex 0.60,0.0,0.0
+Vertex 0.25,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil12b.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate -2.75,3.882,20.4
+
+;szélek
+[MeshBuilder]
+Vertex  0.6,0.0,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.2,0.2
+Vertex  0.6,0.0,0.2
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.0,0.2
+face 0,1,2,3
+face 5,4,0,3
+color 128,128,128
+translate -2.75,3.882,20.4

@@ -1,0 +1,60 @@
+[MeshBuilder]
+Vertex -1.7, -0.3, 0
+Vertex -1.7, -0.3, 26
+Vertex -3, -0.3, 26
+Vertex -3, -0.3, 0
+face 3,2,1,0
+[Texture]
+Load grass8.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 5, 0
+Coordinates 2, 5, 1
+Coordinates 3, 0, 1
+
+
+[meshbuilder]
+Vertex -3, -0.3, 0
+Vertex -3, -0.3, 26
+Vertex -50.9, -30.3, 26
+Vertex -50.9, -30.3, 0
+face 3,2,1,0
+[Texture]
+Load grass8.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 4
+Coordinates 3, 0, 4
+
+[MeshBuilder]
+Vertex -4,0,25
+Vertex -4,-4,25
+Vertex -8,-4,25
+Vertex -8,0,25
+Face 3,2,1,0
+Face2 0,1,2,3
+
+[Texture]
+Load shrub29.bmp
+Coordinates 0,00,0
+Coordinates 1,00,1
+Coordinates 2,01,1
+Coordinates 3,01,0
+Transparent 000,000,255
+
+[MeshBuilder]
+Vertex -15,-5,6
+Vertex -15,-13,6
+Vertex -21,-13,6
+Vertex -21,-5,6
+Face 3,2,1,0
+Face2 0,1,2,3
+
+[Texture]
+Load shrub17a.bmp
+Coordinates 0,00,0
+Coordinates 1,00,1
+Coordinates 2,01,1
+Coordinates 3,01,0
+Transparent 000,000,255
+
+

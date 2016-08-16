@@ -1,0 +1,16 @@
+CreateMeshbuilder,,,,
+addvertex,-35,0,0,
+addvertex,-35,10,0,
+addvertex,0,10,0,
+addvertex,0,0,0,
+addface,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,buil03.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransParentColor,0,0,0
+
+

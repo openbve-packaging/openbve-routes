@@ -1,0 +1,13 @@
+;Stop Sign
+CreateMeshBuilder,
+AddVertex,0.7,0.7,0
+AddVertex,0,0.7,0
+AddVertex,0,0,0
+AddVertex,0.7,0,0
+AddFace,0,3,2,1
+LoadTexture,sign.png
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,1,1
+Translate,-2.55,2,-0.3

@@ -1,0 +1,25 @@
+CreateMeshBuilder,
+Addvertex,-2.5, 5.9, 0,
+Addvertex,-1.5, 5.9, 0,
+Addvertex,-1.5, 4.3, 0,
+Addvertex,-2.5, 4.3, 0,
+Addface2,1,2,3,0,
+GenerateNormals,
+
+LoadTexture,lampione.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder, ; palo
+cylinder, 6,0.04,0.04,6
+translate, -2.0,2.1,0
+SetColor, 226, 226, 226,
+
+CreateMeshBuilder, ; palo
+cylinder, 6,0.05,0.05,0.5
+translate, 5.5,2,0
+Rotate,0,0,1,90
+SetColor, 180, 230, 230,

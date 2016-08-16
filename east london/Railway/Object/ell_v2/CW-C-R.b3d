@@ -1,0 +1,77 @@
+[MeshBuilder] ; side of platform down to track
+Vertex -2,1.2,29
+Vertex -2,-0.3,29
+Vertex -2,-0.3,0
+Vertex -2,1.2,0
+Face 0,1,2,3
+[Texture]
+load concrete.bmp
+Coordinates 0,16,0
+Coordinates 1,16,1.5
+Coordinates 2,0,1.5
+Coordinates 3,0,0
+
+[MeshBuilder] ; Platform Edge
+Vertex -2,1.2,29
+Vertex -2,1.2,0
+Vertex -3.2,1.2,0
+Vertex -3.2,1.2,29
+Face 0,1,2,3
+[Texture]
+Load FormL-CW.bmp
+Coordinates 0,1,0
+Coordinates 1,1,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+
+[Meshbuilder] ; Platform Centre
+Vertex -3.2,1.2,29
+Vertex -3.2,1.2,0
+Vertex -28,1.2,0
+Vertex -28,1.2,29
+Face 0,1,2,3
+[Texture]
+load FormC-CW.bmp
+Coordinates 0,25,0
+Coordinates 1,25,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+
+[Meshbuilder] ; Platform wall
+Vertex -28,5,29
+Vertex -28,1.2,29
+Vertex -28,1.2,0
+Vertex -28,5,0
+Face 0,1,2,3
+[Texture]
+load cw-tile.bmp
+Coordinates 0,16,0
+Coordinates 1,16,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+
+[Meshbuilder] ; platform ceiling
+Vertex -2,5,29
+Vertex -2,5,0
+Vertex -28,5,0
+Vertex -28,5,29
+Face 3,2,1,0
+[Texture]
+Load cw-ceiling.bmp
+Coordinates 0,7,0
+Coordinates 1,7,7
+Coordinates 2,0,7
+Coordinates 3,0,0
+
+[Meshbuilder] ; platform horizontal wall
+Vertex -28,5,0
+Vertex -28,1.2,0
+Vertex -6,1.2,0
+Vertex -6,5,0
+Face 0,1,2,3
+[Texture]
+load cw-tile.bmp
+Coordinates 0,28,0
+Coordinates 1,28,4
+Coordinates 2,0,4
+Coordinates 3,0,0

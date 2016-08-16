@@ -1,0 +1,236 @@
+
+
+;ajtó
+
+
+
+
+[MeshBuilder]
+Vertex -0.2,0,25.31
+Vertex 0.2,0,25.31
+Vertex 0.2,0,23.67
+Vertex -0.2,0,23.67
+Face 0,1,2,3
+[Texture]
+Load FloorsRegular0250_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[MeshBuilder]
+Vertex -0.2,0,20.48
+Vertex 0.2,0,20.48
+Vertex 0.2,0,18.84
+Vertex -0.2,0,18.84
+Face 0,1,2,3
+[Texture]
+Load FloorsRegular0250_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[MeshBuilder]
+Vertex -0.2,0,12
+Vertex 0.2,0,12
+Vertex 0.2,0,10.38
+Vertex -0.2,0,10.38
+Face 0,1,2,3
+[Texture]
+Load FloorsRegular0250_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[MeshBuilder]
+Vertex -0.2,0,2.62
+Vertex 0.2,0,2.62
+Vertex 0.2,0,1
+Vertex -0.2,0,1
+Face 0,1,2,3
+[Texture]
+Load FloorsRegular0250_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex -0.2,0,-2.62
+Vertex 0.2,0,-2.62
+Vertex 0.2,0,-1
+Vertex -0.2,0,-1
+Face 3,2,1,0
+[Texture]
+Load FloorsRegular0250_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[MeshBuilder]
+Vertex -0.2,0,-12
+Vertex 0.2,0,-12
+Vertex 0.2,0,-10.38
+Vertex -0.2,0,-10.38
+Face 3,2,1,0
+[Texture]
+Load FloorsRegular0250_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[MeshBuilder]
+Vertex -0.2,0,-20.48
+Vertex 0.2,0,-20.48
+Vertex 0.2,0,-18.84
+Vertex -0.2,0,-18.84
+Face 3,2,1,0
+[Texture]
+Load FloorsRegular0250_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[MeshBuilder]
+Vertex -0.2,0,-25.31
+Vertex 0.2,0,-25.31
+Vertex 0.2,0,-23.67
+Vertex -0.2,0,-23.67
+Face 3,2,1,0
+[Texture]
+Load FloorsRegular0250_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+;ajtó között
+
+[MeshBuilder] ;1 előtt
+Vertex -0.2,0,27
+Vertex 0.2,0,27
+Vertex 0.2,0,25.31
+Vertex -0.2,0,25.31
+Face 0,1,2,3
+[Texture]
+Load FloorsRegular0249_1_S.jpg
+Coordinates 0,2,0
+Coordinates 1,2,1.1
+Coordinates 2,0,1.1
+Coordinates 3,0,0
+
+[MeshBuilder] ;1-2
+Vertex -0.2,0,23.67
+Vertex 0.2,0,23.67
+Vertex 0.2,0,20.48
+Vertex -0.2,0,20.48
+Face 0,1,2,3
+[Texture]
+Load FloorsRegular0249_1_S.jpg
+Coordinates 0,4,0
+Coordinates 1,4,1.1
+Coordinates 2,0,1.1
+Coordinates 3,0,0
+
+[MeshBuilder] ;2-3
+Vertex -0.2,0,18.84
+Vertex 0.2,0,18.84
+Vertex 0.2,0,12
+Vertex -0.2,0,12
+Face 0,1,2,3
+[Texture]
+Load FloorsRegular0249_1_S.jpg
+Coordinates 0,7,0
+Coordinates 1,7,1.1
+Coordinates 2,0,1.1
+Coordinates 3,0,0
+
+[MeshBuilder] ;3-4
+Vertex -0.2,0,10.38
+Vertex 0.2,0,10.38
+Vertex 0.2,0,2.62
+Vertex -0.2,0,2.62
+Face 0,1,2,3
+[Texture]
+Load FloorsRegular0249_1_S.jpg
+Coordinates 0,7,0
+Coordinates 1,7,1.1
+Coordinates 2,0,1.1
+Coordinates 3,0,0
+
+
+
+[MeshBuilder] ;KÖZÉPEN
+Vertex -0.2,0,1
+Vertex 0.2,0,1
+Vertex 0.2,0,-1
+Vertex -0.2,0,-1
+Face 0,1,2,3
+[Texture]
+Load FloorsRegular0249_1_S.jpg
+Coordinates 0,2.5,0
+Coordinates 1,2.5,1.1
+Coordinates 2,0,1.1
+Coordinates 3,0,0
+
+
+
+[MeshBuilder] ;3-4
+Vertex -0.2,0,-10.38
+Vertex 0.2,0,-10.38
+Vertex 0.2,0,-2.62
+Vertex -0.2,0,-2.62
+Face 3,2,1,0
+[Texture]
+Load FloorsRegular0249_1_S.jpg
+Coordinates 0,7,0
+Coordinates 1,7,1.1
+Coordinates 2,0,1.1
+Coordinates 3,0,0
+
+[MeshBuilder] ;2-3
+Vertex -0.2,0,-18.84
+Vertex 0.2,0,-18.84
+Vertex 0.2,0,-12
+Vertex -0.2,0,-12
+Face 3,2,1,0
+[Texture]
+Load FloorsRegular0249_1_S.jpg
+Coordinates 0,7,0
+Coordinates 1,7,1.1
+Coordinates 2,0,1.1
+Coordinates 3,0,0
+
+[MeshBuilder] ;1-2
+Vertex -0.2,0,-23.67
+Vertex 0.2,0,-23.67
+Vertex 0.2,0,-20.48
+Vertex -0.2,0,-20.48
+Face 3,2,1,0
+[Texture]
+Load FloorsRegular0249_1_S.jpg
+Coordinates 0,4,0
+Coordinates 1,4,1.1
+Coordinates 2,0,1.1
+Coordinates 3,0,0
+
+[MeshBuilder] ;1 előtt
+Vertex -0.2,0,-27
+Vertex 0.2,0,-27
+Vertex 0.2,0,-25.31
+Vertex -0.2,0,-25.31
+Face 3,2,1,0
+[Texture]
+Load FloorsRegular0249_1_S.jpg
+Coordinates 0,2,0
+Coordinates 1,2,1.1
+Coordinates 2,0,1.1
+Coordinates 3,0,0
+
+
+
+
+
+

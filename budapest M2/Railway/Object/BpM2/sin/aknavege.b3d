@@ -1,0 +1,16 @@
+;aknás vágány, lezáró elem
+;Készítette: http://www.bvemetro.hu/
+
+[MeshBuilder]
+vertex -0.425, -01.70,0
+vertex -0.425, -00.17,0
+vertex  0.425, -00.17,0
+vertex  0.425, -01.70,0
+face2 0,1,2,3
+color 144,144,144
+[texture]
+load aljzat_150.bmp
+coordinates 0, 0.0, 0.25
+coordinates 1, 0.0, 0.0
+coordinates 2, 0.25, 0.0
+coordinates 3, 0.25, 0.25

@@ -1,0 +1,37 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Signora su panchina con micio
+[meshbuilder]
+Vertex 0.0, 1.7, 0
+Vertex 1.0, 1.7, 0
+Vertex 1.0, 0.1, 0
+Vertex 0.0, 0.1, 0
+Face 0,1,2,3
+[texture]
+Load Fg03-SignoraSed.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 24,16,16
+Translate -0.8,0.14,0
+
+; Micio in braccio alla signora
+[meshbuilder]
+Vertex 0.0,  0.45, 0
+Vertex 0.45, 0.45, 0
+Vertex 0.45, 0.0, 0
+Vertex 0.0, 0.0, 0
+Face 0,1,2,3
+[texture]
+Load Fg07-Micio.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 137,126,130
+Rotate 0,1,0,20
+Translate -0.6,1.00,0
+

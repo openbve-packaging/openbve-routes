@@ -1,0 +1,555 @@
+;M2 Pillangó utca megállóhely 4
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;jobb oldali peron
+
+;peron széle felül
+[MeshBuilder]
+Vertex  01.460, 00.90, -00.10
+Vertex  01.460, 01.10, -00.10
+Vertex  01.513, 00.90, 05.00
+Vertex  01.513, 01.10, 05.00
+Vertex  01.544, 00.90, 10.00
+Vertex  01.544, 01.10, 10.00
+Vertex  01.544, 00.90, 15.00
+Vertex  01.544, 01.10, 15.00
+Vertex  01.513, 00.90, 20.00
+Vertex  01.513, 01.10, 20.00
+Vertex  01.460, 00.90, 25.10
+Vertex  01.460, 01.10, 25.10
+Face 2,3,1,0
+Face 4,5,3,2
+Face 6,7,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+[Texture]
+Load pill_peronszel_2.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 03.60, 01.00
+Coordinates 3, 03.60, 00.00
+Coordinates 4, 07.20, 01.00
+Coordinates 5, 07.20, 00.00
+Coordinates 6, 10.80, 01.00
+Coordinates 7, 10.80, 00.00
+Coordinates 8, 14.40, 01.00
+Coordinates 9, 14.40, 00.00
+Coordinates 10, 18.00, 01.00
+Coordinates 11, 18.00, 00.00
+
+;peron széle alul
+[MeshBuilder]
+Vertex  01.900, -00.30, -00.10
+Vertex  01.900, 00.90, -00.10
+Vertex  01.963, -00.30, 05.00
+Vertex  01.963, 00.90, 05.00
+Vertex  01.994, -00.30, 10.00
+Vertex  01.994, 00.90, 10.00
+Vertex  01.994, -00.30, 15.00
+Vertex  01.994, 00.90, 15.00
+Vertex  01.963, -00.30, 20.00
+Vertex  01.963, 00.90, 20.00
+Vertex  01.900, -00.30, 25.10
+Vertex  01.900, 00.90, 25.10
+Face 2,3,1,0
+Face 4,5,3,2
+Face 6,7,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+[Texture]
+Load pill_peronszel_1.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 05.00, 01.00
+Coordinates 3, 05.00, 00.00
+Coordinates 4, 10.00, 01.00
+Coordinates 5, 10.00, 00.00
+Coordinates 6, 15.00, 01.00
+Coordinates 7, 15.00, 00.00
+Coordinates 8, 20.00, 01.00
+Coordinates 9, 20.00, 00.00
+Coordinates 10, 25.00, 01.00
+Coordinates 11, 25.00, 00.00
+
+;peron járófelület 1
+[MeshBuilder]
+Vertex  01.450, 01.10, -00.20
+Vertex  02.250, 01.10, -00.20
+Vertex  01.513, 01.10, 05.00
+Vertex  02.313, 01.10, 05.00
+Vertex  01.544, 01.10, 10.00
+Vertex  02.344, 01.10, 10.00
+Vertex  01.544, 01.10, 15.00
+Vertex  02.344, 01.10, 15.00
+Vertex  01.513, 01.10, 20.00
+Vertex  02.313, 01.10, 20.00
+Vertex  01.450, 01.10, 25.20
+Vertex  02.250, 01.10, 25.20
+Face 2,3,1,0
+Face 4,5,3,2
+Face 6,7,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+[Texture]
+Load pill_peronteto_1.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 06.00, 01.00
+Coordinates 3, 06.00, 00.00
+Coordinates 4, 12.00, 01.00
+Coordinates 5, 12.00, 00.00
+Coordinates 6, 18.00, 01.00
+Coordinates 7, 18.00, 00.00
+Coordinates 8, 24.00, 01.00
+Coordinates 9, 24.00, 00.00
+Coordinates 10, 30.00, 01.00
+Coordinates 11, 30.00, 00.00
+
+;peron járófelület 2
+[MeshBuilder]
+Vertex  02.250, 01.10, -00.20
+Vertex  02.400, 01.10, -00.20
+Vertex  02.313, 01.10, 05.00
+Vertex  02.463, 01.10, 05.00
+Vertex  02.344, 01.10, 10.00
+Vertex  02.494, 01.10, 10.00
+Vertex  02.344, 01.10, 15.00
+Vertex  02.494, 01.10, 15.00
+Vertex  02.313, 01.10, 20.00
+Vertex  02.463, 01.10, 20.00
+Vertex  02.250, 01.10, 25.20
+Vertex  02.400, 01.10, 25.20
+Face 2,3,1,0
+Face 4,5,3,2
+Face 6,7,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+color 255,255,255
+
+;peron járófelület 3
+[MeshBuilder]
+Vertex  02.400, 01.10, -00.20
+Vertex  04.600, 01.10, -00.20
+Vertex  02.463, 01.10, 05.00
+Vertex  04.600, 01.10, 05.00
+Vertex  02.494, 01.10, 10.00
+Vertex  04.600, 01.10, 10.00
+Vertex  02.494, 01.10, 15.00
+Vertex  04.600, 01.10, 15.00
+Vertex  02.463, 01.10, 20.00
+Vertex  04.600, 01.10, 20.00
+Vertex  02.400, 01.10, 25.20
+Vertex  04.600, 01.10, 25.20
+Face 2,3,1,0
+Face 4,5,3,2
+Face 6,7,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+[Texture]
+Load pill_peronteto_2.bmp
+Coordinates 0, 00.00, 05.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 06.00, 05.00
+Coordinates 3, 06.00, 00.00
+Coordinates 4, 12.00, 05.00
+Coordinates 5, 12.00, 00.00
+Coordinates 6, 18.00, 05.00
+Coordinates 7, 18.00, 00.00
+Coordinates 8, 24.00, 05.00
+Coordinates 9, 24.00, 00.00
+Coordinates 10, 30.00, 05.00
+Coordinates 11, 30.00, 00.00
+
+;bal oldali peron
+
+;peron széle felül
+[MeshBuilder]
+Vertex -05.300, 00.90, 00.00
+Vertex -05.300, 01.10, 00.00
+Vertex -05.237, 00.90, 05.00
+Vertex -05.237, 01.10, 05.00
+Vertex -05.206, 00.90, 10.00
+Vertex -05.206, 01.10, 10.00
+Vertex -05.206, 00.90, 15.00
+Vertex -05.206, 01.10, 15.00
+Vertex -05.237, 00.90, 20.00
+Vertex -05.237, 01.10, 20.00
+Vertex -05.300, 00.90, 25.00
+Vertex -05.300, 01.10, 25.00
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 8,9,11,10
+[Texture]
+Load pill_peronszel_2.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 03.60, 01.00
+Coordinates 3, 03.60, 00.00
+Coordinates 4, 07.20, 01.00
+Coordinates 5, 07.20, 00.00
+Coordinates 6, 10.80, 01.00
+Coordinates 7, 10.80, 00.00
+Coordinates 8, 14.40, 01.00
+Coordinates 9, 14.40, 00.00
+Coordinates 10, 18.00, 01.00
+Coordinates 11, 18.00, 00.00
+
+;peron széle alul
+[MeshBuilder]
+Vertex -05.750, -00.30, 00.00
+Vertex -05.750, 00.90, 00.00
+Vertex -05.687, -00.30, 05.00
+Vertex -05.687, 00.90, 05.00
+Vertex -05.656, -00.30, 10.00
+Vertex -05.656, 00.90, 10.00
+Vertex -05.656, -00.30, 15.00
+Vertex -05.656, 00.90, 15.00
+Vertex -05.687, -00.30, 20.00
+Vertex -05.687, 00.90, 20.00
+Vertex -05.750, -00.30, 25.00
+Vertex -05.750, 00.90, 25.00
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 8,9,11,10
+[Texture]
+Load pill_peronszel_1.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 05.00, 01.00
+Coordinates 3, 05.00, 00.00
+Coordinates 4, 10.00, 01.00
+Coordinates 5, 10.00, 00.00
+Coordinates 6, 15.00, 01.00
+Coordinates 7, 15.00, 00.00
+Coordinates 8, 20.00, 01.00
+Coordinates 9, 20.00, 00.00
+Coordinates 10, 25.00, 01.00
+Coordinates 11, 25.00, 00.00
+
+;peron járófelület 1
+[MeshBuilder]
+Vertex -05.300, 01.10, 00.00
+Vertex -06.100, 01.10, 00.00
+Vertex -05.237, 01.10, 05.00
+Vertex -06.037, 01.10, 05.00
+Vertex -05.206, 01.10, 10.00
+Vertex -06.006, 01.10, 10.00
+Vertex -05.206, 01.10, 15.00
+Vertex -06.006, 01.10, 15.00
+Vertex -05.237, 01.10, 20.00
+Vertex -06.037, 01.10, 20.00
+Vertex -05.300, 01.10, 25.00
+Vertex -06.100, 01.10, 25.00
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 8,9,11,10
+[Texture]
+Load pill_peronteto_1.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 06.00, 01.00
+Coordinates 3, 06.00, 00.00
+Coordinates 4, 12.00, 01.00
+Coordinates 5, 12.00, 00.00
+Coordinates 6, 18.00, 01.00
+Coordinates 7, 18.00, 00.00
+Coordinates 8, 24.00, 01.00
+Coordinates 9, 24.00, 00.00
+Coordinates 10, 30.00, 01.00
+Coordinates 11, 30.00, 00.00
+
+;peron járófelület 2
+[MeshBuilder]
+Vertex -06.100, 01.10, 00.00
+Vertex -06.250, 01.10, 00.00
+Vertex -06.037, 01.10, 05.00
+Vertex -06.187, 01.10, 05.00
+Vertex -06.006, 01.10, 10.00
+Vertex -06.156, 01.10, 10.00
+Vertex -06.006, 01.10, 15.00
+Vertex -06.156, 01.10, 15.00
+Vertex -06.037, 01.10, 20.00
+Vertex -06.187, 01.10, 20.00
+Vertex -06.100, 01.10, 25.00
+Vertex -06.250, 01.10, 25.00
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 8,9,11,10
+color 255,255,255
+
+;peron járófelület 3
+[MeshBuilder]
+Vertex -06.250, 01.10, 00.00
+Vertex -08.450, 01.10, 00.00
+Vertex -06.187, 01.10, 05.00
+Vertex -08.450, 01.10, 05.00
+Vertex -06.156, 01.10, 10.00
+Vertex -08.450, 01.10, 10.00
+Vertex -06.156, 01.10, 15.00
+Vertex -08.450, 01.10, 15.00
+Vertex -06.187, 01.10, 20.00
+Vertex -08.450, 01.10, 20.00
+Vertex -06.250, 01.10, 25.00
+Vertex -08.450, 01.10, 25.00
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 6,7,9,8
+Face 8,9,11,10
+[Texture]
+Load pill_peronteto_2.bmp
+Coordinates 0, 00.00, 05.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 06.00, 05.00
+Coordinates 3, 06.00, 00.00
+Coordinates 4, 12.00, 05.00
+Coordinates 5, 12.00, 00.00
+Coordinates 6, 18.00, 05.00
+Coordinates 7, 18.00, 00.00
+Coordinates 8, 24.00, 05.00
+Coordinates 9, 24.00, 00.00
+Coordinates 10, 30.00, 05.00
+Coordinates 11, 30.00, 00.00
+
+;--------------------------------------------------
+
+;Falak
+
+;jobb oldali fal (korlát)
+[MeshBuilder]
+Vertex  04.45, 01.10, -00.10
+Vertex  04.45, 02.10, -00.10
+Vertex  04.45, 02.10, 25.10
+Vertex  04.45, 01.10, 25.10
+Face 3,2,1,0
+[Texture]
+Load pill_korlat_01.bmp
+Coordinates 0, 08.00, 01.00
+Coordinates 1, 08.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Transparent 0,0,255
+
+;bal oldali fal (korlát)
+[MeshBuilder]
+Vertex -08.30, 01.10, 00.00
+Vertex -08.30, 02.10, 00.00
+Vertex -08.30, 02.10, 25.00
+Vertex -08.30, 01.10, 25.00
+Face2 0,1,2,3
+[Texture]
+Load pill_korlat_01.bmp
+Coordinates 0, 08.00, 01.00
+Coordinates 1, 08.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Transparent 0,0,255
+
+;--------------------------------------
+
+;Lámpák
+
+;Jobb oldal
+;1
+[meshbuilder]
+cube 00.03, 02.27, 00.03
+color 0,0,0
+translate 04.45, 03.35, 03.05
+[meshbuilder]
+cube 00.03, 00.51, 00.03
+color 0,0,0
+rotate 0,0,1,60
+translate 04.017, 05.85, 03.05
+[meshbuilder]
+cube 00.03, 00.150, 00.03
+color 0,0,0
+rotate 0,0,1,90
+translate 03.434, 06.10, 03.05
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 180,180,180
+translate 03.184, 06.10, 03.05
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 225,255,200,100
+translate 03.184, 06.00, 03.05
+
+;2
+[meshbuilder]
+cube 00.03, 02.27, 00.03
+color 0,0,0
+translate 04.45, 03.35, 12.50
+[meshbuilder]
+cube 00.03, 00.51, 00.03
+color 0,0,0
+rotate 0,0,1,60
+translate 04.017, 05.85, 12.50
+[meshbuilder]
+cube 00.03, 00.150, 00.03
+color 0,0,0
+rotate 0,0,1,90
+translate 03.434, 06.10, 12.50
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 180,180,180
+translate 03.184, 06.10, 12.50
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 225,255,200,100
+translate 03.184, 06.00, 12.50
+
+;3
+[meshbuilder]
+cube 00.03, 02.27, 00.03
+color 0,0,0
+translate 04.45, 03.35, 21.95
+[meshbuilder]
+cube 00.03, 00.51, 00.03
+color 0,0,0
+rotate 0,0,1,60
+translate 04.017, 05.85, 21.95
+[meshbuilder]
+cube 00.03, 00.150, 00.03
+color 0,0,0
+rotate 0,0,1,90
+translate 03.434, 06.10, 21.95
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 180,180,180
+translate 03.184, 06.10, 21.95
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 225,255,200,100
+translate 03.184, 06.00, 21.95
+
+;Bal oldal
+;1
+[meshbuilder]
+cube 00.03, 02.27, 00.03
+color 0,0,0
+translate -08.30, 03.35, 03.125
+[meshbuilder]
+cube 00.03, 00.51, 00.03
+color 0,0,0
+rotate 0,0,1,-60
+translate -07.867, 05.85, 03.125
+[meshbuilder]
+cube 00.03, 00.150, 00.03
+color 0,0,0
+rotate 0,0,1,90
+translate -07.284, 06.10, 03.125
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 180,180,180
+translate -07.034, 06.10, 03.125
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 225,255,200,100
+translate -07.034, 06.00, 03.125
+
+;2
+[meshbuilder]
+cube 00.03, 02.27, 00.03
+color 0,0,0
+translate -08.30, 03.35, 12.50
+[meshbuilder]
+cube 00.03, 00.51, 00.03
+color 0,0,0
+rotate 0,0,1,-60
+translate -07.867, 05.85, 12.50
+[meshbuilder]
+cube 00.03, 00.150, 00.03
+color 0,0,0
+rotate 0,0,1,90
+translate -07.284, 06.10, 12.50
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 180,180,180
+translate -07.034, 06.10, 12.50
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 225,255,200,100
+translate -07.034, 06.00, 12.50
+
+;3
+[meshbuilder]
+cube 00.03, 02.27, 00.03
+color 0,0,0
+translate -08.30, 03.35, 21.875
+[meshbuilder]
+cube 00.03, 00.51, 00.03
+color 0,0,0
+rotate 0,0,1,-60
+translate -07.867, 05.85, 21.875
+[meshbuilder]
+cube 00.03, 00.150, 00.03
+color 0,0,0
+rotate 0,0,1,90
+translate -07.284, 06.10, 21.875
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 180,180,180
+translate -07.034, 06.10, 21.875
+[meshbuilder]
+cube 0.25, 0.05, 0.18
+color 225,255,200,100
+translate -07.034, 06.00, 21.875
+
+;--------------------------------------
+
+;Pillangó utca tábla
+
+[MeshBuilder]
+;jobb oldal
+Vertex  04.45, 02.20, 15.97
+Vertex  04.45, 02.58, 15.97
+Vertex  04.45, 02.58, 18.47
+Vertex  04.45, 02.20, 18.47
+;bal oldal
+Vertex -08.30, 02.20, 15.97
+Vertex -08.30, 02.58, 15.97
+Vertex -08.30, 02.58, 18.47
+Vertex -08.30, 02.20, 18.47
+Face 3,2,1,0
+Face2 4,5,6,7
+[Texture]
+Load pill_tabla_01.bmp
+Coordinates 0, 01.00, 01.00
+Coordinates 1, 01.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 00.00, 01.00
+Coordinates 5, 00.00, 00.00
+Coordinates 6, 01.00, 00.00
+Coordinates 7, 01.00, 01.00
+
+[MeshBuilder]
+cube 0.02, 0.25, 0.02
+color 0,0,0
+translate 04.46, 2.33, 15.96
+[MeshBuilder]
+cube 0.02, 0.25, 0.02
+color 0,0,0
+translate 04.46, 2.33, 18.48
+[MeshBuilder]
+cube 0.02, 0.25, 0.02
+color 0,0,0
+translate -08.31, 2.33, 15.96
+[MeshBuilder]
+cube 0.02, 0.25, 0.02
+color 0,0,0
+translate -08.31, 2.33, 18.47
+
+;--------------------------------------------------

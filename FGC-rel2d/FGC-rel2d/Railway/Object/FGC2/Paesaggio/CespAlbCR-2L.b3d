@@ -1,0 +1,196 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Vegetazione sulla sinistra
+; ========= SINISTRA ===============
+
+;Cespuglio lungo 10 metri a sinistra
+[MeshBuilder]
+Vertex 0.0, 4.0, 0
+Vertex 0.0, 3.5,  10
+Vertex 0.5,   0  ,  10
+Vertex 0.5,   0.5  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,4
+Translate -5.5,0,2
+[texture]
+load ..\Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+[MeshBuilder]
+Vertex 0.0, 4.0, 0
+Vertex 0.0, 4.0,  10
+Vertex 0.5,   0  ,  10
+Vertex 0.5,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,4
+Translate -5,0,15
+[texture]
+
+load ..\Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+
+
+[MeshBuilder] ; Alberello sulla sinistra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-36
+Translate -6.8, 1.5 ,0
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero sulla sinistra
+Vertex 0, 13, 0
+Vertex 10, 13, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -10,2,0
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 10, 18, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -20,5,-5
+[texture]
+load ..\Alberi\Pino1.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 90,0,255
+
+[MeshBuilder] ; Alberello sulla sinistra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-36
+Translate -6.5, 1.5 ,9
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero sulla sinistra
+Vertex 0, 12, 0
+Vertex 8.0, 12, 0
+Vertex 8.0, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -9 ,1.9,13
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Alberello sulla sinistra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-36
+Translate -6.5, 1.5 ,18
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 10, 18, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -20,5,8
+[texture]
+load ..\Alberi\Pino1.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 90,0,255
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 15, 18, 0
+Vertex 15, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-55
+Translate -40,10,0
+[texture]
+load ..\Alberi\Castagno.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 15, 18, 0
+Vertex 15, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-55
+Translate -40,10,20
+[texture]
+load ..\Alberi\Castagno.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+

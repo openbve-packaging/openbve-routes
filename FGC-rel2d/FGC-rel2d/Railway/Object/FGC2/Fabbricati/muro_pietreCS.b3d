@@ -1,0 +1,102 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Muro di pietre su lato sinistro (dritto o in curva a sinistra)
+[MeshBuilder] ; Muro interrato
+vertex -3.3 , 3 , -0.1
+vertex -3.3 , 3 , 12
+vertex -2.7 ,-0.1 , 12
+vertex -2.7 ,-0.1 ,-0.1
+vertex -2.2 ,-0.3 , 12
+vertex -2.2 ,-0.3 ,-0.1
+vertex -3.8 ,3 , 12
+vertex -3.8 ,3 ,-0.1
+Face 0,1,2,3
+Face 3,2,4,5
+Face 7,6,1,0
+Translate 0,0,0
+Rotate 0,1,0,6
+
+[texture]
+load muro_pietre1.bmp
+coordinates 0, 0, 0
+coordinates 1, 0.5, 0
+coordinates 2, 0.5, 0.92
+coordinates 3, 0, 0.92
+coordinates 4, 0.5, 1
+coordinates 5, 0, 1
+coordinates 6, 0.5, 0.18
+coordinates 7, 0, 0.18
+
+[MeshBuilder]; Ghiaia a copertura
+Vertex -1.4, -0.29, 12
+Vertex  0.3, -0.29, 12
+Vertex -1.0, -0.29, 0
+Vertex -2.7, -0.29, 0
+Face 0,1,2,3
+[texture]
+load ..\Rails\Trav-gray.bmp
+Coordinates 0, 0.4,0
+Coordinates 1, 0,  0
+Coordinates 2, 0, 10
+Coordinates 3, 0.4, 10
+
+; Secondo tratto
+; Muro di pietre su lato sinistro (dritto o in curva a sinistra)
+[MeshBuilder] ; Muro interrato
+vertex -3.3 , 3 , -0.1
+vertex -3.3 , 3 , 12
+vertex -2.7 ,-0.1 , 12
+vertex -2.7 ,-0.1 ,-0.1
+vertex -2.2 ,-0.3 , 12
+vertex -2.2 ,-0.3 ,-0.1
+vertex -3.8 ,3 , 12
+vertex -3.8 ,3 ,-0.1
+Face 0,1,2,3
+Face 3,2,4,5
+Face 7,6,1,0
+Translate 2.51,0,12.1
+Rotate 0,1,0,-5.7
+
+[texture]
+load muro_pietre1.bmp
+coordinates 0, 0.5, 0
+coordinates 1, 1.0, 0
+coordinates 2, 1.0, 0.92
+coordinates 3, 0.5, 0.92
+coordinates 4, 1, 1
+coordinates 5, 0.5, 1
+coordinates 6, 1, 0.18
+coordinates 7, 0.5, 0.18
+
+[MeshBuilder]; Ghiaia a copertura
+Vertex -2.7, -0.29, 24
+Vertex -1.0, -0.29, 24
+Vertex 0.2,  -0.29, 12
+Vertex -1.4, -0.29, 12
+Face 0,1,2,3
+[texture]
+load ..\Rails\Trav-gray.bmp
+Coordinates 0, 0.4,0
+Coordinates 1, 0,  0
+Coordinates 2, 0, 10
+Coordinates 3, 0.4, 10
+
+[MeshBuilder] ; Albero sulla sinistra
+Vertex 0, 12, 0
+Vertex 8.0, 12, 0
+Vertex 8.0, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -10 ,3.6,0
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+

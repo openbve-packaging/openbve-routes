@@ -1,0 +1,312 @@
+;SD 40 GENERIC MODEL. SF LIVERY
+;(c) STEVE GREEN 2002
+;
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+
+
+[MeshBuilder]
+Vertex -3.2, -0.1, 27.5,
+Vertex 1.2, -0.1, 24.5,
+Vertex 1.2, -0.1, 0.25,
+Vertex -3.2, -0.1, 3.25,
+Face 0,1,2,3,
+Color 40,40,40,80,
+
+[Meshbuilder]
+Vertex  -1.41,4.67,2.5
+Vertex   1.41,4.67, 2.5
+Vertex   1.41,1.2, 2.5
+Vertex  -1.41,1.2, 2.5
+Face 0,1,2,3
+
+[Texture]
+Load sd40_cabfront.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0, 0, 0
+
+[Meshbuilder]
+Vertex  -1.41,4.68,5
+Vertex   1.41,4.68, 5
+Vertex   1.41,1.2, 5
+Vertex  -1.41,1.2, 5
+Face 0,1,2,3
+
+[Texture]
+Load sd40_centre.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0, 0, 0
+
+;rear side r
+[MeshBuilder]
+Vertex 0, 4.67, 5	
+Vertex 1.2, 4.66, 5	
+Vertex 1.2, 4.4, 5	
+Vertex 1, 4.0, 5	
+Vertex 1, 1.2, 5
+Vertex 0, 4.67, 22	
+Vertex 0.9, 4.66, 22	
+Vertex 1, 4.5, 22   
+Vertex 1.1, 4.2, 22      
+Vertex 1, 1.2, 22   
+Face 6,1,0,5
+Face 7,2,1,6
+Face 8,3,2,7
+Face 9,4,3,8
+
+[Texture]
+Load sd40_rear_2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 1
+Coordinates 5, 1, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 0
+Coordinates 8, 1, 0
+Coordinates 9, 1, 1
+
+;rear side l
+[MeshBuilder]
+Vertex -0, 4.67, 5	
+Vertex -1.2, 4.66, 5	
+Vertex -1.2, 4.4, 5	
+Vertex -1, 4.0, 5	
+Vertex -1, 1.2, 5	
+Vertex -0, 4.67, 22	
+Vertex -0.9, 4.66, 22	
+Vertex -1, 4.5, 22  
+Vertex -1.1, 4.2, 22      
+Vertex -1, 1.2, 22   
+Face 5,0,1,6
+Face 6,1,2,7
+Face 7,2,3,8
+Face 8,3,4,9
+
+[Texture]
+Load sd40_rear.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0
+Coordinates 4, 1, 1
+Coordinates 5, 0, 0
+Coordinates 6, 0, 0
+Coordinates 7, 0, 0
+Coordinates 8, 0, 0
+Coordinates 9, 0, 1
+
+;Cab side r
+[MeshBuilder]
+Vertex 0, 4.62, 2.5	
+Vertex 0.7, 4.62, 2.5	
+Vertex 1.4, 3.99, 2.5	
+Vertex 1.4, 3.99, 2.5	
+Vertex 1.4, 1.2, 2.5
+Vertex 0, 4.62, 5	
+Vertex 0.7, 4.62, 5	
+Vertex 1.4, 3.99, 5   
+Vertex 1.4, 3.99, 5      
+Vertex 1.4, 1.2, 5 
+Face 6,1,0,5
+Face 7,2,1,6
+Face 8,3,2,7
+Face 9,4,3,8
+
+[Texture]
+Load sd40_cabside2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 0
+Coordinates 4, 0, 1
+Coordinates 5, 1, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 0
+Coordinates 8, 1, 0
+Coordinates 9, 1, 1
+
+;Cab side l
+[MeshBuilder]
+Vertex -0, 4.62, 2.5	
+Vertex -0.7, 4.62, 2.5	
+Vertex -1.4, 3.99, 2.5	
+Vertex -1.4, 3.99, 2.5	
+Vertex -1.4, 1.2, 2.5
+Vertex -0, 4.62, 5	
+Vertex -0.7, 4.62, 5	
+Vertex -1.4, 3.99, 5   
+Vertex -1.4, 3.99, 5      
+Vertex -1.4, 1.2, 5  
+Face 5,0,1,6
+Face 6,1,2,7
+Face 7,2,3,8
+Face 8,3,4,9
+
+[Texture]
+Load sd40_cabside.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 0
+Coordinates 4, 1, 1
+Coordinates 5, 0, 0
+Coordinates 6, 0, 0
+Coordinates 7, 0, 0
+Coordinates 8, 0, 0
+Coordinates 9, 0, 1
+
+;hood
+[MeshBuilder]
+Vertex 0.9, 1.2, 1	
+Vertex 0.9, 3.1, 1	
+Vertex 0, 3.12, 0.75	
+Vertex -0.9, 3.1, 1	
+Vertex -0.9, 1.2, 1
+Vertex 0.9, 1.2, 2.5	
+Vertex 0.9, 3.3, 2.5	
+Vertex 0, 3.3, 2.5   
+Vertex -0.9, 3.3, 2.5     
+Vertex -0.9, 1.2, 2.5  
+Face 5,0,1,6
+Face 6,1,2,7
+Face 7,2,3,8
+Face 8,3,4,9
+
+[Texture]
+Load sd40_hoodside.bmp
+Coordinates 0, 1, 0.9
+Coordinates 1, 1, 0.02
+Coordinates 2, 1, 0.02
+Coordinates 3, 1, 0.02
+Coordinates 4, 1, 0.9
+Coordinates 5, 0, 0.9
+Coordinates 6, 0, 0.02
+Coordinates 7, 0, 0.02
+Coordinates 8, 0, 0.02
+Coordinates 9, 0, 0.9
+
+;hood front
+[Meshbuilder]
+Vertex -0.9,1.1, 1
+Vertex -0.9,3.1,1
+Vertex 0,3.12,0.75
+Vertex 0,1.1,0.75
+Vertex 0.9,3.1, 1
+Vertex 0.9,1.1, 1
+Face 0,1,2,3,
+Face 3,2,4,5,
+
+[Texture]
+Load sd40_hoodfront.bmp,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 0.5,
+Coordinates 3, 0, 0.5,
+Coordinates 4, 1, 1,
+Coordinates 5, 0, 1,
+
+;side rails l
+[MeshBuilder]
+Vertex -1.55,0.3,24.75
+Vertex -1.55,3.3,24.75
+Vertex -1.55,3.3,0
+Vertex -1.55,0.3,0
+Face2 0,1,2,3
+[Texture]
+Load sd40_railside.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,0
+
+;side rails r
+[MeshBuilder]
+Vertex 1.55,0.3,24.75
+Vertex 1.55,3.3,24.75
+Vertex 1.55,3.3,0
+Vertex 1.55,0.3,0
+Face2 0,1,2,3
+[Texture]
+Load sd40_railside.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,0
+
+
+;Chassis Left
+[MeshBuilder]
+Vertex -0.73,0,24.75
+Vertex -0.73,1.3,24.75
+Vertex -0.73,1.3,0
+Vertex -0.73,0,0
+Face2 0,1,2,3
+
+[Texture]
+Load sd40_underframe.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,0
+
+;Chassis Right
+[MeshBuilder]
+Vertex 0.73,0,24.75
+Vertex 0.73,1.3,24.75
+Vertex 0.73,1.3,0
+Vertex 0.73,0,0
+Face2 3,2,1,0
+
+[Texture]
+Load sd40_underframe.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,0
+
+[Meshbuilder]
+Vertex  -1.55,2.5,0
+Vertex   1.55,2.5, 0
+Vertex   1.55,0.1, 0
+Vertex  -1.55,0.1, 0
+Face 0,1,2,3
+
+[Texture]
+Load sd40_buffer.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0, 0, 0
+
+[MeshBuilder]
+Vertex -1,3.75,7
+Vertex -3,9,8
+Vertex 1.6,9,8
+Vertex 0.6,3.75,7
+Face 0,1,2,3,
+Color 255,255,255,20,
+
+[Texture]
+Load ../Clag2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,0

@@ -1,0 +1,151 @@
+CreateMeshBuilder,,,,
+AddVertex,-6.6,5.9,0
+AddVertex,-6.6,8.9,0,
+AddVertex,16 ,8.9,0,
+AddVertex,16  ,5.9,0
+
+AddVertex,-2.6,5.9,5
+AddVertex,-2.6,8.9,5,
+AddVertex,-2.6 ,4.1,15,
+AddVertex,-2.6  ,1.1,15
+
+AddVertex,12,5.9,5
+AddVertex,12,8.9,5,
+AddVertex,12 ,4.1,15,
+AddVertex,12  ,1.1,15
+
+AddFace,0,1,2,3
+AddFace,4,5,6,7
+AddFace,11,10,9,8
+GenerateNormals,,,,
+LoadTexture,kosen.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,5,0,
+SetTextureCoordinates,3,5,1,
+
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,0,0,
+SetTextureCoordinates,6,2,0,
+SetTextureCoordinates,7,2,1,
+
+SetTextureCoordinates,8,0,1,
+SetTextureCoordinates,9,0,0,
+SetTextureCoordinates,10,2,0,
+SetTextureCoordinates,11,2,1,
+
+CreateMeshBuilder,,,,
+AddVertex,-6.6,5.9,0
+AddVertex,-6.6,5.9,5,
+AddVertex,16  ,5.9,5,
+AddVertex,16  ,5.9,0
+AddFace,3,2,1,0
+GenerateNormals,,,,
+LoadTexture,kawara2.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,4.5,0,
+SetTextureCoordinates,3,4.5,1,
+Setcolor,10,10,10
+
+CreateMeshBuilder,,,,
+AddVertex,-6.6,0.1,0
+AddVertex,-6.6,0.1,5,
+AddVertex,17  ,0.1,5,
+AddVertex,17  ,0.1,0
+AddFace,0,1,2,3
+GenerateNormals,,,,
+Setcolor,0,0,0[,100]
+
+CreateMeshBuilder,,,,
+AddVertex,9,.75,0
+AddVertex,9,.75,5,
+AddVertex,17.6  ,.75,5,
+AddVertex,17.6  ,.75,0
+AddFace,0,1,2,3
+GenerateNormals,,,,
+Setcolor,0,0,0[,100]
+
+CreateMeshBuilder,,,,
+AddVertex,-10,.75,0
+AddVertex,-10,.75,5,
+AddVertex,-1.5  ,.75,5,
+AddVertex,-1.5  ,.75,0
+AddFace,0,1,2,3
+GenerateNormals,,,,
+Setcolor,0,0,0[,100]
+
+CreateMeshBuilder,,,,
+AddVertex,-6.6,5.9,5
+AddVertex,-6.6,1.1,15,
+AddVertex,-2.6  ,1.1,15,
+AddVertex,-2.6  ,5.9,5
+
+AddVertex,12,5.9,5
+AddVertex,12,1.1,15,
+AddVertex,16  ,1.1,15,
+AddVertex,16  ,5.9,5
+
+AddFace,3,2,1,0
+AddFace,7,6,5,4
+GenerateNormals,,,,
+LoadTexture,kawara2.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,4.5,0,
+SetTextureCoordinates,3,4.5,1,
+Setcolor,130,130,130
+
+CreateMeshBuilder,,,,
+AddVertex,13.2,.7,0
+AddVertex,13.2,5.9,0,
+AddVertex,16 ,5.9,0,
+AddVertex,16  ,.7,0
+AddVertex,13.2,.7,5
+AddVertex,13.2,5.9,5,
+AddVertex,16 ,5.9,5,
+AddVertex,16  ,.7,5
+AddFace,0,1,2,3
+AddFace,4,5,1,0
+AddFace,2,3,7,6
+GenerateNormals,,,,
+LoadTexture,kosen_asi.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,-1,1,
+SetTextureCoordinates,5,-1,0,
+SetTextureCoordinates,6,2,0,
+SetTextureCoordinates,7,2,1,
+Setcolor,200,200,200
+SetDecalTransparentColor, 0,0,255
+
+CreateMeshBuilder,,,,
+AddVertex,-6.6,.7,0
+AddVertex,-6.6,5.9,0,
+AddVertex,-3.6 ,5.9,0,
+AddVertex,-3.6  ,.7,0
+AddVertex,-6.6,.7,5
+AddVertex,-6.6,5.9,5,
+
+AddVertex,-3.6 ,5.9,5,
+AddVertex,-3.6  ,.7,5
+AddFace,0,1,2,3
+AddFace,0,1,5,4
+AddFace,6,7,3,2
+GenerateNormals,,,,
+LoadTexture,kosen_asi.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,-1,1,
+SetTextureCoordinates,5,-1,0,
+SetTextureCoordinates,6,2,0,
+SetTextureCoordinates,7,2,1,
+Setcolor,200,200,200
+SetDecalTransparentColor, 0,0,255
+
+
+

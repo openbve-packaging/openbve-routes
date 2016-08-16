@@ -1,0 +1,1247 @@
+;Nyugati Pályaudvar megállóhely peron, falak, födém, oszlopok, világítás
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;bal oldali peron
+
+;peron széle felül
+[MeshBuilder]
+Vertex -1.45,0.90,0
+Vertex -1.45,0.90,25
+Vertex -1.45,1.10,25
+Vertex -1.45,1.10,0
+face 3,2,1,0
+color 54,54,54
+
+;peron széle alul
+[MeshBuilder]
+Vertex -1.60,-0.20,0
+Vertex -1.60,-0.20,25
+Vertex -1.60, 0.90,25
+Vertex -1.60, 0.90,0
+face 3,2,1,0
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0,00,1
+Coordinates 1,25,1
+Coordinates 2,25,0.15
+Coordinates 3,00,0.15
+
+;peron járófelület1
+[MeshBuilder]
+Vertex -01.45,1.1,0
+Vertex -01.45,1.1,25
+Vertex -02.25,1.1,25
+Vertex -02.25,1.1,0
+Vertex -21.75,1.1,0
+Vertex -21.75,1.1,25
+Vertex -22.55,1.1,25
+Vertex -22.55,1.1,0
+face 3,2,1,0
+face 7,6,5,4
+[Texture]
+Load mh_13_ny_peronteto_1.bmp
+Coordinates 0,24,600
+Coordinates 1,24,0
+Coordinates 2,00,0
+Coordinates 3,00,600
+Coordinates 4,24,600
+Coordinates 5,24,0
+Coordinates 6,00,0
+Coordinates 7,00,600
+
+;peron járófelület 2
+[MeshBuilder]
+Vertex -02.25,1.1,0
+Vertex -02.25,1.1,25
+Vertex -21.75,1.1,25
+Vertex -21.75,1.1,0
+face 3,2,1,0
+[Texture]
+Load mh_13_ny_peronteto_2.bmp
+Coordinates 0,30.25,42
+Coordinates 1,30.25,0
+Coordinates 2,00.75,0
+Coordinates 3,00.75,42
+
+;--------------------------------------------------
+
+;Falak
+
+;jobb oldali fal (külsõ)
+[MeshBuilder]
+Vertex  01.625,-00.200,0
+Vertex  02.019, 00.225,0
+Vertex  02.019, 00.225,25
+Vertex  01.625,-00.200,25
+Vertex -25.625,-00.200,0
+Vertex -26.019, 00.225,0
+Vertex -26.019, 00.225,25
+Vertex -25.625,-00.200,25
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_13_ny_oldalfal_01.bmp
+Coordinates 0,25.0,1
+Coordinates 1,25.0,0
+Coordinates 2,00.0,0
+Coordinates 3,00.0,1
+Coordinates 0,25.0,1
+Coordinates 1,25.0,0
+Coordinates 2,00.0,0
+Coordinates 3,00.0,1
+
+[MeshBuilder]
+vertex 2.165,2.950,0
+vertex 2.307,2.663,0
+vertex 2.411,2.360,0
+vertex 2.476,2.046,0
+vertex 2.500,1.726,0
+vertex 2.483,1.406,0
+vertex 2.425,1.091,0
+vertex 2.327,0.786,0
+vertex 2.191,0.495,0
+vertex 2.019,0.225,0
+vertex 2.165,2.950,25
+vertex 2.307,2.663,25
+vertex 2.411,2.360,25
+vertex 2.476,2.046,25
+vertex 2.500,1.726,25
+vertex 2.483,1.406,25
+vertex 2.425,1.091,25
+vertex 2.327,0.786,25
+vertex 2.191,0.495,25
+vertex 2.019,0.225,25
+;
+vertex -26.165,2.950,0
+vertex -26.307,2.663,0
+vertex -26.411,2.360,0
+vertex -26.476,2.046,0
+vertex -26.500,1.726,0
+vertex -26.483,1.406,0
+vertex -26.425,1.091,0
+vertex -26.327,0.786,0
+vertex -26.191,0.495,0
+vertex -26.019,0.225,0
+vertex -26.165,2.950,25
+vertex -26.307,2.663,25
+vertex -26.411,2.360,25
+vertex -26.476,2.046,25
+vertex -26.500,1.726,25
+vertex -26.483,1.406,25
+vertex -26.425,1.091,25
+vertex -26.327,0.786,25
+vertex -26.191,0.495,25
+vertex -26.019,0.225,25
+;
+Face 01,11,10,00
+Face 02,12,11,01
+Face 03,13,12,02
+Face 04,14,13,03
+Face 05,15,14,04
+Face 06,16,15,05
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,19,18,08
+;
+Face 20,30,31,21
+Face 21,31,32,22
+Face 22,32,33,23
+Face 23,33,34,24
+Face 24,34,35,25
+Face 25,35,36,26
+Face 26,36,37,27
+Face 27,37,38,28
+Face 28,38,39,29
+;
+Load mh_13_ny_oldalfal_02.bmp
+coordinates 00,20,0.00
+coordinates 01,20,0.11
+coordinates 02,20,0.22
+coordinates 03,20,0.33
+coordinates 04,20,0.44
+coordinates 05,20,0.56
+coordinates 06,20,0.67
+coordinates 07,20,0.78
+coordinates 08,20,0.89
+coordinates 09,20,1.00
+coordinates 10,00,0.00
+coordinates 11,00,0.11
+coordinates 12,00,0.22
+coordinates 13,00,0.33
+coordinates 14,00,0.44
+coordinates 15,00,0.56
+coordinates 16,00,0.67
+coordinates 17,00,0.78
+coordinates 18,00,0.89
+coordinates 19,00,1.00
+;
+coordinates 20,20,0.00
+coordinates 21,20,0.11
+coordinates 22,20,0.22
+coordinates 23,20,0.33
+coordinates 24,20,0.44
+coordinates 25,20,0.56
+coordinates 26,20,0.67
+coordinates 27,20,0.78
+coordinates 28,20,0.89
+coordinates 29,20,1.00
+coordinates 30,00,0.00
+coordinates 31,00,0.11
+coordinates 32,00,0.22
+coordinates 33,00,0.33
+coordinates 34,00,0.44
+coordinates 35,00,0.56
+coordinates 36,00,0.67
+coordinates 37,00,0.78
+coordinates 38,00,0.89
+coordinates 39,00,1.00
+
+;--------------------------------------------------
+
+;Födém
+
+;vízszintes síkú födém
+[MeshBuilder]
+Vertex -22.425,3.68,0
+Vertex -01.575,3.68,0
+Vertex -01.575,3.68,25
+Vertex -22.425,3.68,25
+Face 0,1,2,3
+[Texture]
+Load mh_13_ny_fodem_1.bmp
+Coordinates 0,1,30
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+[MeshBuilder]
+Vertex -1.575,3.68,0
+Vertex -1.575,3.78,0
+Vertex -1.387,3.78,0
+Vertex -1.575,3.68,25
+Vertex -1.575,3.78,25
+Vertex -1.387,3.78,25
+Face 0,1,4,3
+Face 1,2,5,4
+Color 79,78,59
+
+[MeshBuilder]
+Cylinder 8,0.05,0.05,25
+Rotate 1,0,0,90
+Translate -1.5,3.730,12.5
+Color 132,129,109
+
+;íves födém
+[MeshBuilder]
+vertex -1.387,3.780,0
+vertex -1.018,3.983,0
+vertex -0.620,4.122,0
+vertex -0.205,4.192,0
+vertex  0.217,4.191,0
+vertex  0.632,4.119,0
+vertex  1.029,3.978,0
+vertex  1.397,3.773,0
+vertex  1.725,3.509,0
+vertex  2.005,3.193,0
+vertex -1.387,3.780,25
+vertex -1.018,3.983,25
+vertex -0.620,4.122,25
+vertex -0.205,4.192,25
+vertex  0.217,4.191,25
+vertex  0.632,4.119,25
+vertex  1.029,3.978,25
+vertex  1.397,3.773,25
+vertex  1.725,3.509,25
+vertex  2.005,3.193,25
+;
+vertex -22.613,3.780,0
+vertex -22.982,3.983,0
+vertex -23.380,4.122,0
+vertex -23.795,4.192,0
+vertex -24.217,4.191,0
+vertex -24.632,4.119,0
+vertex -25.029,3.978,0
+vertex -25.397,3.773,0
+vertex -25.725,3.509,0
+vertex -26.005,3.193,0
+vertex -22.613,3.780,25
+vertex -22.982,3.983,25
+vertex -23.380,4.122,25
+vertex -23.795,4.192,25
+vertex -24.217,4.191,25
+vertex -24.632,4.119,25
+vertex -25.029,3.978,25
+vertex -25.397,3.773,25
+vertex -25.725,3.509,25
+vertex -26.005,3.193,25
+;
+Face 01,11,10,00
+Face 02,12,11,01
+Face 03,13,12,02
+Face 04,14,13,03
+Face 05,15,14,04
+Face 06,16,15,05
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,19,18,08
+;
+Face 20,30,31,21
+Face 21,31,32,22
+Face 22,32,33,23
+Face 23,33,34,24
+Face 24,34,35,25
+Face 25,35,36,26
+Face 26,36,37,27
+Face 27,37,38,28
+Face 28,38,39,29
+;
+Load mh_13_ny_fodem_2.bmp
+coordinates 00,00,00.00
+coordinates 01,00,01.44
+coordinates 02,00,02.89
+coordinates 03,00,04.33
+coordinates 04,00,05.78
+coordinates 05,00,07.22
+coordinates 06,00,08.67
+coordinates 07,00,10.11
+coordinates 08,00,11.56
+coordinates 09,00,13.00
+coordinates 10,20,00.00
+coordinates 11,20,01.44
+coordinates 12,20,02.89
+coordinates 13,20,04.33
+coordinates 14,20,05.78
+coordinates 15,20,07.22
+coordinates 16,20,08.67
+coordinates 17,20,10.11
+coordinates 18,20,11.56
+coordinates 19,20,13.00
+;
+coordinates 20,00,00.00
+coordinates 21,00,01.44
+coordinates 22,00,02.89
+coordinates 23,00,04.33
+coordinates 24,00,05.78
+coordinates 25,00,07.22
+coordinates 26,00,08.67
+coordinates 27,00,10.11
+coordinates 28,00,11.56
+coordinates 29,00,13.00
+coordinates 30,20,00.00
+coordinates 31,20,01.44
+coordinates 32,20,02.89
+coordinates 33,20,04.33
+coordinates 34,20,05.78
+coordinates 35,20,07.22
+coordinates 36,20,08.67
+coordinates 37,20,10.11
+coordinates 38,20,11.56
+coordinates 39,20,13.00
+
+;--------------------------------------------------
+
+;Feliratok
+
+[MeshBuilder]
+vertex -26.005,3.194,0
+vertex -26.165,2.950,0
+vertex -26.005,3.194,25
+vertex -26.165,2.950,25
+Face 2,3,1,0
+Load mh_13_ny_fodem_2.bmp
+coordinates 0,00,0
+coordinates 1,00,1
+coordinates 2,20,0
+coordinates 3,20,1
+
+;--------------------------------------------------
+
+;oszlopok
+
+[MeshBuilder]
+vertex -0.260,1.10,-0.130
+vertex -0.195,1.10,-0.147
+vertex -0.147,1.10,-0.195
+vertex -0.130,1.10,-0.260
+vertex  0.130,1.10,-0.260
+vertex  0.140,1.10,-0.210
+vertex  0.168,1.10,-0.168
+vertex  0.210,1.10,-0.140
+vertex  0.260,1.10,-0.130
+vertex  0.260,1.10, 0.130
+vertex  0.210,1.10, 0.140
+vertex  0.168,1.10, 0.168
+vertex  0.140,1.10, 0.210
+vertex  0.130,1.10, 0.260
+vertex -0.130,1.10, 0.260
+vertex -0.147,1.10, 0.195
+vertex -0.195,1.10, 0.147
+vertex -0.260,1.10, 0.130
+vertex -0.260,3.68,-0.130
+vertex -0.195,3.68,-0.147
+vertex -0.147,3.68,-0.195
+vertex -0.130,3.68,-0.260
+vertex  0.130,3.68,-0.260
+vertex  0.140,3.68,-0.210
+vertex  0.168,3.68,-0.168
+vertex  0.210,3.68,-0.140
+vertex  0.260,3.68,-0.130
+vertex  0.260,3.68, 0.130
+vertex  0.210,3.68, 0.140
+vertex  0.168,3.68, 0.168
+vertex  0.140,3.68, 0.210
+vertex  0.130,3.68, 0.260
+vertex -0.130,3.68, 0.260
+vertex -0.147,3.68, 0.195
+vertex -0.195,3.68, 0.147
+vertex -0.260,3.68, 0.130
+Face 00,18,19,01
+Face 01,19,20,02
+Face 02,20,21,03
+Face 03,21,22,04
+Face 04,22,23,05
+Face 05,23,24,06
+Face 06,24,25,07
+Face 07,25,26,08
+Face 08,26,27,09
+Face 09,27,28,10
+Face 10,28,29,11
+Face 11,29,30,12
+Face 12,30,31,13
+Face 13,31,32,14
+Face 14,32,33,15
+Face 15,33,34,16
+Face 16,34,35,17
+Face 17,35,18,0
+color 46,50,87
+translate -2.85,0,2.50
+
+[MeshBuilder]
+[MeshBuilder]
+vertex -0.260,1.10,-0.130
+vertex -0.195,1.10,-0.147
+vertex -0.147,1.10,-0.195
+vertex -0.130,1.10,-0.260
+vertex  0.130,1.10,-0.260
+vertex  0.140,1.10,-0.210
+vertex  0.168,1.10,-0.168
+vertex  0.210,1.10,-0.140
+vertex  0.260,1.10,-0.130
+vertex  0.260,1.10, 0.130
+vertex  0.210,1.10, 0.140
+vertex  0.168,1.10, 0.168
+vertex  0.140,1.10, 0.210
+vertex  0.130,1.10, 0.260
+vertex -0.130,1.10, 0.260
+vertex -0.147,1.10, 0.195
+vertex -0.195,1.10, 0.147
+vertex -0.260,1.10, 0.130
+vertex -0.260,3.68,-0.130
+vertex -0.195,3.68,-0.147
+vertex -0.147,3.68,-0.195
+vertex -0.130,3.68,-0.260
+vertex  0.130,3.68,-0.260
+vertex  0.140,3.68,-0.210
+vertex  0.168,3.68,-0.168
+vertex  0.210,3.68,-0.140
+vertex  0.260,3.68,-0.130
+vertex  0.260,3.68, 0.130
+vertex  0.210,3.68, 0.140
+vertex  0.168,3.68, 0.168
+vertex  0.140,3.68, 0.210
+vertex  0.130,3.68, 0.260
+vertex -0.130,3.68, 0.260
+vertex -0.147,3.68, 0.195
+vertex -0.195,3.68, 0.147
+vertex -0.260,3.68, 0.130
+Face 00,18,19,01
+Face 01,19,20,02
+Face 02,20,21,03
+Face 03,21,22,04
+Face 04,22,23,05
+Face 05,23,24,06
+Face 06,24,25,07
+Face 07,25,26,08
+Face 08,26,27,09
+Face 09,27,28,10
+Face 10,28,29,11
+Face 11,29,30,12
+Face 12,30,31,13
+Face 13,31,32,14
+Face 14,32,33,15
+Face 15,33,34,16
+Face 16,34,35,17
+Face 17,35,18,0
+color 46,50,87
+translate -2.85,0,7.50
+
+[MeshBuilder]
+[MeshBuilder]
+vertex -0.260,1.10,-0.130
+vertex -0.195,1.10,-0.147
+vertex -0.147,1.10,-0.195
+vertex -0.130,1.10,-0.260
+vertex  0.130,1.10,-0.260
+vertex  0.140,1.10,-0.210
+vertex  0.168,1.10,-0.168
+vertex  0.210,1.10,-0.140
+vertex  0.260,1.10,-0.130
+vertex  0.260,1.10, 0.130
+vertex  0.210,1.10, 0.140
+vertex  0.168,1.10, 0.168
+vertex  0.140,1.10, 0.210
+vertex  0.130,1.10, 0.260
+vertex -0.130,1.10, 0.260
+vertex -0.147,1.10, 0.195
+vertex -0.195,1.10, 0.147
+vertex -0.260,1.10, 0.130
+vertex -0.260,3.68,-0.130
+vertex -0.195,3.68,-0.147
+vertex -0.147,3.68,-0.195
+vertex -0.130,3.68,-0.260
+vertex  0.130,3.68,-0.260
+vertex  0.140,3.68,-0.210
+vertex  0.168,3.68,-0.168
+vertex  0.210,3.68,-0.140
+vertex  0.260,3.68,-0.130
+vertex  0.260,3.68, 0.130
+vertex  0.210,3.68, 0.140
+vertex  0.168,3.68, 0.168
+vertex  0.140,3.68, 0.210
+vertex  0.130,3.68, 0.260
+vertex -0.130,3.68, 0.260
+vertex -0.147,3.68, 0.195
+vertex -0.195,3.68, 0.147
+vertex -0.260,3.68, 0.130
+Face 00,18,19,01
+Face 01,19,20,02
+Face 02,20,21,03
+Face 03,21,22,04
+Face 04,22,23,05
+Face 05,23,24,06
+Face 06,24,25,07
+Face 07,25,26,08
+Face 08,26,27,09
+Face 09,27,28,10
+Face 10,28,29,11
+Face 11,29,30,12
+Face 12,30,31,13
+Face 13,31,32,14
+Face 14,32,33,15
+Face 15,33,34,16
+Face 16,34,35,17
+Face 17,35,18,0
+color 46,50,87
+translate -2.85,0,12.50
+
+[MeshBuilder]
+[MeshBuilder]
+vertex -0.260,1.10,-0.130
+vertex -0.195,1.10,-0.147
+vertex -0.147,1.10,-0.195
+vertex -0.130,1.10,-0.260
+vertex  0.130,1.10,-0.260
+vertex  0.140,1.10,-0.210
+vertex  0.168,1.10,-0.168
+vertex  0.210,1.10,-0.140
+vertex  0.260,1.10,-0.130
+vertex  0.260,1.10, 0.130
+vertex  0.210,1.10, 0.140
+vertex  0.168,1.10, 0.168
+vertex  0.140,1.10, 0.210
+vertex  0.130,1.10, 0.260
+vertex -0.130,1.10, 0.260
+vertex -0.147,1.10, 0.195
+vertex -0.195,1.10, 0.147
+vertex -0.260,1.10, 0.130
+vertex -0.260,3.68,-0.130
+vertex -0.195,3.68,-0.147
+vertex -0.147,3.68,-0.195
+vertex -0.130,3.68,-0.260
+vertex  0.130,3.68,-0.260
+vertex  0.140,3.68,-0.210
+vertex  0.168,3.68,-0.168
+vertex  0.210,3.68,-0.140
+vertex  0.260,3.68,-0.130
+vertex  0.260,3.68, 0.130
+vertex  0.210,3.68, 0.140
+vertex  0.168,3.68, 0.168
+vertex  0.140,3.68, 0.210
+vertex  0.130,3.68, 0.260
+vertex -0.130,3.68, 0.260
+vertex -0.147,3.68, 0.195
+vertex -0.195,3.68, 0.147
+vertex -0.260,3.68, 0.130
+Face 00,18,19,01
+Face 01,19,20,02
+Face 02,20,21,03
+Face 03,21,22,04
+Face 04,22,23,05
+Face 05,23,24,06
+Face 06,24,25,07
+Face 07,25,26,08
+Face 08,26,27,09
+Face 09,27,28,10
+Face 10,28,29,11
+Face 11,29,30,12
+Face 12,30,31,13
+Face 13,31,32,14
+Face 14,32,33,15
+Face 15,33,34,16
+Face 16,34,35,17
+Face 17,35,18,0
+color 46,50,87
+translate -2.85,0,17.50
+
+[MeshBuilder]
+[MeshBuilder]
+vertex -0.260,1.10,-0.130
+vertex -0.195,1.10,-0.147
+vertex -0.147,1.10,-0.195
+vertex -0.130,1.10,-0.260
+vertex  0.130,1.10,-0.260
+vertex  0.140,1.10,-0.210
+vertex  0.168,1.10,-0.168
+vertex  0.210,1.10,-0.140
+vertex  0.260,1.10,-0.130
+vertex  0.260,1.10, 0.130
+vertex  0.210,1.10, 0.140
+vertex  0.168,1.10, 0.168
+vertex  0.140,1.10, 0.210
+vertex  0.130,1.10, 0.260
+vertex -0.130,1.10, 0.260
+vertex -0.147,1.10, 0.195
+vertex -0.195,1.10, 0.147
+vertex -0.260,1.10, 0.130
+vertex -0.260,3.68,-0.130
+vertex -0.195,3.68,-0.147
+vertex -0.147,3.68,-0.195
+vertex -0.130,3.68,-0.260
+vertex  0.130,3.68,-0.260
+vertex  0.140,3.68,-0.210
+vertex  0.168,3.68,-0.168
+vertex  0.210,3.68,-0.140
+vertex  0.260,3.68,-0.130
+vertex  0.260,3.68, 0.130
+vertex  0.210,3.68, 0.140
+vertex  0.168,3.68, 0.168
+vertex  0.140,3.68, 0.210
+vertex  0.130,3.68, 0.260
+vertex -0.130,3.68, 0.260
+vertex -0.147,3.68, 0.195
+vertex -0.195,3.68, 0.147
+vertex -0.260,3.68, 0.130
+Face 00,18,19,01
+Face 01,19,20,02
+Face 02,20,21,03
+Face 03,21,22,04
+Face 04,22,23,05
+Face 05,23,24,06
+Face 06,24,25,07
+Face 07,25,26,08
+Face 08,26,27,09
+Face 09,27,28,10
+Face 10,28,29,11
+Face 11,29,30,12
+Face 12,30,31,13
+Face 13,31,32,14
+Face 14,32,33,15
+Face 15,33,34,16
+Face 16,34,35,17
+Face 17,35,18,0
+color 46,50,87
+translate -2.85,0,22.50
+
+;--------------------------------------------------
+
+;világítás
+
+;1.sor
+[MeshBuilder]
+vertex -7.050,3.56,01.125
+vertex -7.050,3.56,01.375
+vertex -1.835,3.56,01.375
+vertex -1.835,3.56,01.125
+vertex -7.050,3.56,03.625
+vertex -7.050,3.56,03.875
+vertex -1.835,3.56,03.875
+vertex -1.835,3.56,03.625
+vertex -7.050,3.56,06.125
+vertex -7.050,3.56,06.375
+vertex -1.835,3.56,06.375
+vertex -1.835,3.56,06.125
+vertex -7.050,3.56,08.625
+vertex -7.050,3.56,08.875
+vertex -1.835,3.56,08.875
+vertex -1.835,3.56,08.625
+vertex -7.050,3.56,11.125
+vertex -7.050,3.56,11.375
+vertex -1.835,3.56,11.375
+vertex -1.835,3.56,11.125
+vertex -7.050,3.56,13.625
+vertex -7.050,3.56,13.875
+vertex -1.835,3.56,13.875
+vertex -1.835,3.56,13.625
+vertex -7.050,3.56,16.125
+vertex -7.050,3.56,16.375
+vertex -1.835,3.56,16.375
+vertex -1.835,3.56,16.125
+vertex -7.050,3.56,18.625
+vertex -7.050,3.56,18.875
+vertex -1.835,3.56,18.875
+vertex -1.835,3.56,18.625
+vertex -7.050,3.56,21.125
+vertex -7.050,3.56,21.375
+vertex -1.835,3.56,21.375
+vertex -1.835,3.56,21.125
+vertex -7.050,3.56,23.625
+vertex -7.050,3.56,23.875
+vertex -1.835,3.56,23.875
+vertex -1.835,3.56,23.625
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+Face 15,14,13,12
+Face 19,18,17,16
+Face 23,22,21,20
+Face 27,26,25,24
+Face 31,30,29,28
+Face 35,34,33,32
+Face 39,38,37,36
+[Texture]
+Load mh_13_ny_vilagitas_01.bmp
+Coordinates 0, 4.0, 1.0
+Coordinates 1, 4.0, 0.0
+Coordinates 2, 0.0, 0.0
+Coordinates 3, 0.0, 1.0
+Coordinates 4, 4.0, 1.0
+Coordinates 5, 4.0, 0.0
+Coordinates 6, 0.0, 0.0
+Coordinates 7, 0.0, 1.0
+Coordinates 8, 4.0, 1.0
+Coordinates 9, 4.0, 0.0
+Coordinates 10, 0.0, 0.0
+Coordinates 11, 0.0, 1.0
+Coordinates 12, 4.0, 1.0
+Coordinates 13, 4.0, 0.0
+Coordinates 14, 0.0, 0.0
+Coordinates 15, 0.0, 1.0
+Coordinates 16, 4.0, 1.0
+Coordinates 17, 4.0, 0.0
+Coordinates 18, 0.0, 0.0
+Coordinates 19, 0.0, 1.0
+Coordinates 20, 4.0, 1.0
+Coordinates 21, 4.0, 0.0
+Coordinates 22, 0.0, 0.0
+Coordinates 23, 0.0, 1.0
+Coordinates 24, 4.0, 1.0
+Coordinates 25, 4.0, 0.0
+Coordinates 26, 0.0, 0.0
+Coordinates 27, 0.0, 1.0
+Coordinates 28, 4.0, 1.0
+Coordinates 29, 4.0, 0.0
+Coordinates 30, 0.0, 0.0
+Coordinates 31, 0.0, 1.0
+Coordinates 32, 4.0, 1.0
+Coordinates 33, 4.0, 0.0
+Coordinates 34, 0.0, 0.0
+Coordinates 35, 0.0, 1.0
+Coordinates 36, 4.0, 1.0
+Coordinates 37, 4.0, 0.0
+Coordinates 38, 0.0, 0.0
+Coordinates 39, 0.0, 1.0
+
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+
+Color 117,34,30
+Translate 0,0,1.25
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,1.10
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,1.40
+;
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+Color 117,34,30
+Translate 0,0,3.75
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,3.60
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,3.90
+;
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+Color 117,34,30
+Translate 0,0,6.25
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,6.10
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,6.40
+;
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+Color 117,34,30
+Translate 0,0,8.75
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,8.60
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,8.90
+;
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+Color 117,34,30
+Translate 0,0,11.25
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,11.10
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,11.40
+;
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+Color 117,34,30
+Translate 0,0,13.75
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,13.60
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,13.90
+;
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+Color 117,34,30
+Translate 0,0,16.25
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,16.10
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,16.40
+;
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+Color 117,34,30
+Translate 0,0,18.75
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,18.60
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,18.90
+;
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+Color 117,34,30
+Translate 0,0,21.25
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,21.10
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,21.40
+;
+[MeshBuilder]
+Vertex -1.835,3.550,-0.175
+Vertex -1.585,3.550,-0.175
+Vertex -1.530,3.565,-0.175
+Vertex -1.490,3.605,-0.175
+Vertex -1.475,3.660,-0.175
+Vertex -1.475,3.680,-0.175
+Vertex -1.835,3.550, 0.175
+Vertex -1.585,3.550, 0.175
+Vertex -1.530,3.565, 0.175
+Vertex -1.490,3.605, 0.175
+Vertex -1.475,3.660, 0.175
+Vertex -1.475,3.680, 0.175
+Vertex -1.835,3.660,-0.175
+Vertex -1.585,3.660,-0.175
+Vertex -1.571,3.666,-0.175
+Vertex -1.565,3.680,-0.175
+Vertex -1.835,3.660, 0.175
+Vertex -1.585,3.660, 0.175
+Vertex -1.571,3.666, 0.175
+Vertex -1.565,3.680, 0.175
+Face 00,01,07,06
+Face 01,02,08,07
+Face 02,03,09,08
+Face 03,04,10,09
+Face 04,05,11,10
+;
+Face 00,12,13,01
+Face 01,13,14,02
+Face 02,14,03
+Face 03,14,04
+Face 04,14,15,05
+;
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,18,08
+Face 10,18,09
+Face 11,19,18,10
+Color 117,34,30
+Translate 0,0,23.75
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,23.60
+[MeshBuilder]
+Cube 2.608,0.055,0.025
+Color 117,34,30
+Translate -4.443,3.605,23.90

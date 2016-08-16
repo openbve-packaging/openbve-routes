@@ -1,0 +1,166 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshBuilder,
+Addvertex,-10.2, 5.4, 0,
+Addvertex,-10.2, 5.4, 25.3,
+Addvertex,-10.2  ,6.8, 25.3,
+Addvertex,-10.2  ,6.8, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,../bush1.png,
+SetTextureCoordinates,0, 1,5,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 5,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-10, 5.3, 0,
+AddVertex,-10, 5.3, 25,
+AddVertex,-10 ,7.5, 25,
+AddVertex,-10, 7.5, 0,
+AddFace,3,2,1,0,
+SetColor,100,100,100,80,
+CreateMeshBuilder,
+AddVertex,-10,12,20,
+AddVertex,-10,3,20,
+AddVertex,-14,3,17,
+AddVertex,-14,12,17,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../tree2.png,
+SetTextureCoordinates,0,00,0,
+SetTextureCoordinates,1,00,1,
+SetTextureCoordinates,2,01,1,
+SetTextureCoordinates,3,01,0,
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-10, 5.3, 0,
+AddVertex,-10, 5.3, 25,
+AddVertex,-10 ,8.3, 25,
+AddVertex,-10, 8.3, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,../Fence.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 5, 1,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-5.3,1.45,0,
+AddVertex,-6.2,3,0,
+AddVertex,-10.2,5.5,0,
+AddVertex,-5.3,1.45,26,
+AddVertex,-6.2,3,26,
+AddVertex,-10.2,5.5,26,
+AddFace,0,1,4,3,
+AddFace,1,2,5,4,
+GenerateNormals,
+LoadTexture,Soil.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,2,1,
+SetTextureCoordinates,4,2,0.5,
+SetTextureCoordinates,5,2,0,
+
+
+CreateMeshBuilder
+AddVertex,-35,16,0
+AddVertex,-35,16,25
+AddVertex,-30,12.7,25
+AddVertex,-30,12.7,0
+AddVertex,-30,4,25
+AddVertex,-30,4,0
+AddFace,0,1,2,3
+AddFace,4,5,3,2
+GenerateNormals
+LoadTexture,terrace1.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,2,0
+SetTextureCoordinates,2,2,0.2
+SetTextureCoordinates,3,0,0.2
+SetTextureCoordinates,4,2,1
+SetTextureCoordinates,5,0,1
+CreateMeshBuilder
+AddVertex,-33,15,12
+AddVertex,-33,18,12
+AddVertex,-35,18,12
+AddVertex,-35,15,12
+AddFace,3,2,1,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../chimney.png
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,255,0
+CreateMeshBuilder
+AddVertex,-33,15,13
+AddVertex,-33,18,13
+AddVertex,-35,18,13
+AddVertex,-35,15,13
+AddFace,3,2,1,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../chimney.png
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,255,0
+
+
+CreateMeshBuilder
+AddVertex,-26,16,12.5
+AddVertex,-35,16,12.5
+AddVertex,-35,12.7,10
+AddVertex,-26,12.7,10
+AddVertex,-35,4,10
+AddVertex,-26,4,10
+AddFace,3,2,1,0
+AddFace,2,3,5,4
+GenerateNormals
+LoadTexture,terrace1.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,0.2
+SetTextureCoordinates,3,0,0.2
+SetTextureCoordinates,4,1,1
+SetTextureCoordinates,5,0,1
+CreateMeshBuilder
+AddVertex,-26,16,12.5
+AddVertex,-26,16,12.5
+AddVertex,-26,12.7,15
+AddVertex,-26,12.7,10
+AddVertex,-26,4,15
+AddVertex,-26,4,10
+AddFace,0,1,2,3
+AddFace,3,2,4,5
+GenerateNormals
+LoadTexture,../terraceside.png
+SetTextureCoordinates,0,2,0
+SetTextureCoordinates,1,2,0
+SetTextureCoordinates,2,4,2.5
+SetTextureCoordinates,3,0,2.5
+SetTextureCoordinates,4,4,6
+SetTextureCoordinates,5,0,6
+CreateMeshBuilder
+AddVertex,-35,16.0,30
+AddVertex,-12,12.0,26
+AddVertex,-35,-0.3,30
+AddVertex,-12,-0.3,26
+AddFace,0,1,3,2,
+GenerateNormals
+LoadTexture,../trees1.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,0
+
+

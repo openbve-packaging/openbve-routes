@@ -1,0 +1,893 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+;;;;casa 3
+
+CreateMeshBuilder,
+AddVertex,0, 0, -28,
+AddVertex,0, 14, -28,
+AddVertex,15, 14, -28,
+AddVertex,15, 0, -28,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,fvpieve.bmp,
+SetTextureCoordinates,0, 0.32, 1,
+SetTextureCoordinates,1, 0.32, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+
+CreateMeshBuilder,
+AddVertex,15, 0, 0,
+AddVertex,15, 14.1, 0,
+AddVertex,0, 14, 0,
+AddVertex,0, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,fvpieve.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.32, 0,
+SetTextureCoordinates,3, 0.32, 1,
+
+
+CreateMeshBuilder,
+AddVertex,15, 0, 0,
+AddVertex,15, 14, 0,
+AddVertex,15, 14, -28,
+AddVertex,15, 0, -28,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,fvpieve.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, -1, 0,
+SetTextureCoordinates,3,-1, 1,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Tetto
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;Perpendicolari binario
+
+CreateMeshBuilder,
+AddVertex,-0.7, 13.63,-28.7,
+AddVertex,5.5, 17, -24,
+AddVertex,9.5, 17, -24,
+AddVertex,15.7, 13.63,-28.7,
+AddFace2,0, 1, 2, 3
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.3, 0,
+SetTextureCoordinates,3, 0.9, 1,
+setcolor,120,125,120
+
+CreateMeshBuilder,
+AddVertex,-0.7, 13.63,0.7,
+AddVertex,5.5, 17, -4,
+AddVertex,9.5, 17, -4,
+AddVertex,15.7, 13.63,0.7,
+AddFace2,3, 2, 1, 0
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.3, 0,
+SetTextureCoordinates,3, 0.9, 1,
+setcolor,120,125,120
+
+
+
+;;;lati parall binario
+
+CreateMeshBuilder,
+AddVertex,5.5, 17,-24,
+AddVertex,-0.7, 13.63, -28.7,
+AddVertex,-0.7, 13.63, 0.7,
+AddVertex,5.5, 17, -4,
+AddFace2,0, 1, 2, 3
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.3, 0,
+SetTextureCoordinates,3, 0.9, 1,
+setcolor,120,125,120
+
+CreateMeshBuilder,
+AddVertex,15.7, 13.63,-28.7,
+AddVertex,9.5, 17, -24,
+AddVertex,9.5, 17, -4,
+AddVertex,15.7, 13.63, 0.7,
+AddFace2,0, 1, 2, 3
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.3, 0,
+SetTextureCoordinates,3, 0.9, 1,
+setcolor,120,125,120
+
+translateall,,,-0.25
+
+
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;PASSAGGIO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+;;;;;;;;;;;PILASTRI
+CreateMeshBuilder,
+AddVertex,28.4, 0, -13.1,
+AddVertex,28.4, 5.85, -13.1,
+AddVertex,28.9, 5.85, -13.1,
+AddVertex,28.9, 0, -13.1,
+AddFace,3, 2, 1, 0,
+translate,0.1,,-0.1
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -13.6,
+AddVertex,28.4, 5.85, -13.6,
+AddVertex,28.9, 5.85, -13.6,
+AddVertex,28.9, 0, -13.6,
+AddFace,0, 1, 2, 3,
+translate,0.1,,-0.1
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -13.6,
+AddVertex,28.4, 5.85, -13.6,
+AddVertex,28.4, 5.85, -13.1,
+AddVertex,28.4, 0, -13.1,
+AddFace,3, 2, 1, 0,
+translate,0.1,,-0.1
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.9, 0, -13.6,
+AddVertex,28.9, 5.85, -13.6,
+AddVertex,28.9, 5.85, -13.1,
+AddVertex,28.9, 0, -13.1,
+AddFace,0, 1, 2, 3,
+translate,0.1,,-0.1
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+;;;;;;;;;;;;PILASTRO DIETRO DX
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -13.1,
+AddVertex,29.4, 5.85, -13.1,
+AddVertex,29.9, 5.85, -13.1,
+AddVertex,29.9, 0, -13.1,
+AddFace,3, 2, 1, 0,
+translate,-0.1,,-0.1
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -13.6,
+AddVertex,29.4, 5.85, -13.6,
+AddVertex,29.9, 5.85, -13.6,
+AddVertex,29.9, 0, -13.6,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,-0.1
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -13.6,
+AddVertex,29.4, 5.85, -13.6,
+AddVertex,29.4, 5.85, -13.1,
+AddVertex,29.4, 0, -13.1,
+AddFace,3, 2, 1, 0,
+translate,-0.1,,-0.1
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.9, 0, -13.6,
+AddVertex,29.9, 5.85, -13.6,
+AddVertex,29.9, 5.85, -13.1,
+AddVertex,29.9, 0, -13.1,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,-0.1
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;PILASTRI AVANTI
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;PILASTRO SX
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -14.5,
+AddVertex,28.4, 5.85, -14.5,
+AddVertex,28.9, 5.85, -14.5,
+AddVertex,28.9, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,0.1,,0.2
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -15,
+AddVertex,28.4, 5.85, -15,
+AddVertex,28.9, 5.85, -15,
+AddVertex,28.9, 0, -15,
+AddFace,0, 1, 2, 3,
+translate,0.1,,0.2
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -15,
+AddVertex,28.4, 5.85, -15,
+AddVertex,28.4, 5.85, -14.5,
+AddVertex,28.4, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,0.1,,0.2
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.9, 0, -15,
+AddVertex,28.9, 5.85, -15,
+AddVertex,28.9, 5.85, -14.5,
+AddVertex,28.9, 0, -14.5,
+AddFace,0, 1, 2, 3,
+translate,0.1,,0.2
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+
+;;;;;;;;;;;;PILASTRO DX
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -14.5,
+AddVertex,29.4, 5.85, -14.5,
+AddVertex,29.9, 5.85, -14.5,
+AddVertex,29.9, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,-0.1,,0.2
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -15,
+AddVertex,29.4, 5.85, -15,
+AddVertex,29.9, 5.85, -15,
+AddVertex,29.9, 0, -15,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,0.2
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -15,
+AddVertex,29.4, 5.85, -15,
+AddVertex,29.4, 5.85, -14.5,
+AddVertex,29.4, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,-0.1,,0.2
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.9, 0, -15,
+AddVertex,29.9, 5.85, -15,
+AddVertex,29.9, 5.85, -14.5,
+AddVertex,29.9, 0, -14.5,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,0.2
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;PILASTRI AVANTI AVANTI
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;PILASTRO SX
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -14.5,
+AddVertex,28.4, 3.2, -14.5,
+AddVertex,28.9, 3.2, -14.5,
+AddVertex,28.9, 0, -14.5,
+translate,0.1,,-5
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -15,
+AddVertex,28.4, 3.2, -15,
+AddVertex,28.9, 3.2, -15,
+AddVertex,28.9, 0, -15,
+AddFace,0, 1, 2, 3,
+translate,0.1,,-5
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -15,
+AddVertex,28.4, 3.2, -15,
+AddVertex,28.4, 3.2, -14.5,
+AddVertex,28.4, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,0.1,,-5
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.9, 0, -15,
+AddVertex,28.9, 3.2, -15,
+AddVertex,28.9, 3.2, -14.5,
+AddVertex,28.9, 0, -14.5,
+AddFace,0, 1, 2, 3,
+translate,0.1,,-5
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+
+;;;;;;;;;;;;PILASTRO DX
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -14.5,
+AddVertex,29.4, 3.2, -14.5,
+AddVertex,29.9, 3.2, -14.5,
+AddVertex,29.9, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,-0.1,,-5
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -15,
+AddVertex,29.4, 3.2, -15,
+AddVertex,29.9, 3.2, -15,
+AddVertex,29.9, 0, -15,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,-5
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -15,
+AddVertex,29.4, 3.2, -15,
+AddVertex,29.4, 3.2, -14.5,
+AddVertex,29.4, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,-0.1,,-5
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.9, 0, -15,
+AddVertex,29.9, 3.2, -15,
+AddVertex,29.9, 3.2, -14.5,
+AddVertex,29.9, 0, -14.5,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,-5
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;PILASTRI AVANTI AVANTI
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;PILASTRO SX
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -14.5,
+AddVertex,28.4, 3.2, -14.5,
+AddVertex,28.9, 3.2, -14.5,
+AddVertex,28.9, 0, -14.5,
+translate,0.1,,6.55
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -15,
+AddVertex,28.4, 3.2, -15,
+AddVertex,28.9, 3.2, -15,
+AddVertex,28.9, 0, -15,
+AddFace,0, 1, 2, 3,
+translate,0.1,,6.55
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0, -15,
+AddVertex,28.4, 3.2, -15,
+AddVertex,28.4, 3.2, -14.5,
+AddVertex,28.4, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,0.1,,6.55
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.9, 0, -15,
+AddVertex,28.9, 3.2, -15,
+AddVertex,28.9, 3.2, -14.5,
+AddVertex,28.9, 0, -14.5,
+AddFace,0, 1, 2, 3,
+translate,0.1,,6.55
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+
+;;;;;;;;;;;;PILASTRO DX
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -14.5,
+AddVertex,29.4, 3.2, -14.5,
+AddVertex,29.9, 3.2, -14.5,
+AddVertex,29.9, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,-0.1,,6.55
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -15,
+AddVertex,29.4, 3.2, -15,
+AddVertex,29.9, 3.2, -15,
+AddVertex,29.9, 0, -15,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,6.55
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.4, 0, -15,
+AddVertex,29.4, 3.2, -15,
+AddVertex,29.4, 3.2, -14.5,
+AddVertex,29.4, 0, -14.5,
+AddFace,3, 2, 1, 0,
+translate,-0.1,,6.55
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.9, 0, -15,
+AddVertex,29.9, 3.2, -15,
+AddVertex,29.9, 3.2, -14.5,
+AddVertex,29.9, 0, -14.5,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,6.55
+GenerateNormals,
+LoadTexture,pieve3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;SOPRA;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,15, 5.855, -13,
+AddVertex,15, 8.25, -13,
+AddVertex,28.4, 8.25, -13,
+AddVertex,28.4, 5.855, -13,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+setcolor,255,245,200
+LoadTexture,ringhieraponte.png,
+SetTextureCoordinates,0, 0, 0.82,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.5, 0,
+SetTextureCoordinates,3, 1.5, 0.82,
+setdecaltransparentcolor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,15, 5.85, -15,
+AddVertex,15, 8.25, -15,
+AddVertex,28.4, 8.25, -15,
+AddVertex,28.4, 5.85, -15,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+setcolor,255,245,200
+
+LoadTexture,ringhieraponte.png,
+SetTextureCoordinates,0, 0, 0.82,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.5, 0,
+SetTextureCoordinates,3, 1.5, 0.82,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.9, 5.85, -15,
+AddVertex,29.9, 8.25, -15,
+AddVertex,29.9, 8.25, -13,
+AddVertex,29.9, 5.85, -13,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+setcolor,255,245,200
+LoadTexture,ringhieraponte.png,
+SetTextureCoordinates,0, 0, 0.82,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.125, 0,
+SetTextureCoordinates,3, 0.125, 0.82,
+setdecaltransparentcolor,0,0,0,
+
+
+
+
+CreateMeshBuilder,
+AddVertex,15, 5.85, -15,
+AddVertex,15, 5.85, -13,
+AddVertex,29.9, 5.85, -13,
+AddVertex,29.9, 5.85, -15,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+setcolor,85,75,50
+
+CreateMeshBuilder,
+AddVertex,15, 6.8, -15,
+AddVertex,15, 6.8, -13,
+AddVertex,29.9, 6.8, -13,
+AddVertex,29.9, 6.8, -15,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\Ter\asfalto.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 3, 0,
+SetTextureCoordinates,3, 3, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;SCALE AVANTI
+;;;;;;;;;;;;;;;;;;
+
+
+CreateMeshBuilder,
+AddVertex,28.4, 0.5, -15,
+AddVertex,28.4, 8.03, -15,
+AddVertex,28.4, 8.03, -25,
+AddVertex,28.4, 0.5, -25,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,pieve2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,29.9, 0.5, -15,
+AddVertex,29.9, 8.03, -15,
+AddVertex,29.9, 8.03, -25,
+AddVertex,29.9, 0.5, -25,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,pieve2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,28.4, 0.5, -24,
+AddVertex,28.4, 5.85, -15,
+AddVertex,29.9, 5.85, -15,
+AddVertex,29.9, 0.5, -24,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+setcolor,85,75,50
+
+
+CreateMeshBuilder,
+AddVertex,28.4, 0.8, -25,
+AddVertex,28.4, 6.8, -15,
+AddVertex,29.9, 6.8, -15,
+AddVertex,29.9, 0.8, -25,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,pieve1.bmp,
+SetTextureCoordinates,0, 0, 7.5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 7.5,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0.5, -25,
+AddVertex,28.4, 0.8, -25,
+AddVertex,29.9, 0.8, -25,
+AddVertex,29.9, 0.5, -25,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,pieve1.bmp,
+SetTextureCoordinates,0, 0, 0.18,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 0.18,
+setdecaltransparentcolor,0,0,0,
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;SCALE INDIETRO
+;;;;;;;;;;;;;;;;;;
+
+
+CreateMeshBuilder,
+AddVertex,28.4, 0.5, -15,
+AddVertex,28.4, 8.03, -15,
+AddVertex,28.4, 8.03, -5,
+AddVertex,28.4, 0.5, -5,
+AddFace2,3, 2, 1, 0,
+translate,,, 2
+GenerateNormals,
+LoadTexture,pieve2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,29.9, 0.5, -15,
+AddVertex,29.9, 8.03, -15,
+AddVertex,29.9, 8.03, -5,
+AddVertex,29.9, 0.5, -5,
+AddFace2,3, 2, 1, 0,
+translate,,, 2
+GenerateNormals,
+LoadTexture,pieve2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,28.4, 0.5, -6,
+AddVertex,28.4, 5.85, -15,
+AddVertex,29.9, 5.85, -15,
+AddVertex,29.9, 0.5, -6,
+AddFace2,3, 2, 1, 0,
+translate,,, 2
+GenerateNormals,
+setcolor,95,85,60
+
+
+CreateMeshBuilder,
+AddVertex,28.4, 0.8, -5,
+AddVertex,28.4, 6.8, -15,
+AddVertex,29.9, 6.8, -15,
+AddVertex,29.9, 0.8, -5,
+AddFace2,3, 2, 1, 0,
+translate,,, 2
+GenerateNormals,
+LoadTexture,pieve1.bmp,
+SetTextureCoordinates,0, 0, 7.5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 7.5,
+setdecaltransparentcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,28.4, 0.5, -5,
+AddVertex,28.4, 0.8, -5,
+AddVertex,29.9, 0.8, -5,
+AddVertex,29.9, 0.5, -5,
+AddFace2,3, 2, 1, 0,
+translate,,, 2
+GenerateNormals,
+LoadTexture,pieve1.bmp,
+SetTextureCoordinates,0, 0, 0.18,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 0.18,
+setdecaltransparentcolor,0,0,0,

@@ -1,0 +1,30 @@
+CreateMeshBuilder 
+AddVertex, -6, 6, 0 
+AddVertex, 0, 6 ,0 
+AddVertex, 0, 6 ,8 
+AddVertex, -6, 0 ,0
+AddVertex, 0 ,0 ,0 
+AddVertex, 0 ,0, 8 
+AddFace ,0 ,1 ,4 ,3 
+AddFace ,1 ,2 ,5 ,4 
+GenerateNormals 
+LoadTexture, house2.bmp 
+SetTextureCoordinates, 0, 0.1, 0
+SetTextureCoordinates, 1, 1, .1
+SetTextureCoordinates, 2, 1.1, 0 
+SetTextureCoordinates, 3, 0.1, 1 
+SetTextureCoordinates, 4, 1, 1
+SetTextureCoordinates, 5, 1.1 ,1
+Translate,-7.2,0,0
+  
+CreateMeshBuilder 
+AddVertex ,0.6, 5.8 ,8.6 
+AddVertex ,0.6, 5.8 ,-0.6 
+AddVertex ,-6.6, 5.8, -0.6 
+AddVertex ,-5 ,7.5, 4
+AddVertex ,-1.2 ,7.5, 4 
+AddFace, 1, 2, 3,4
+AddFace, 0, 1, 4,
+Setcolor,70,70,70 
+Translate,-7.2,0,0
+GenerateNormals 

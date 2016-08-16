@@ -1,0 +1,23 @@
+CreateMeshBuilder,
+AddVertex,-15.0, 13.0, 0
+AddVertex,-3.0, 13.0, 0
+AddVertex,-3.0, 13.0, 15
+AddVertex,-15.0, 13.0, 15
+AddVertex,-15.0, 0.0, 15
+AddVertex,-3.0, 0.0, 15
+AddVertex,-3.0, 0.0, 0
+AddVertex,-15.0, 0.0, 0
+AddFace,0,1,6,7
+AddFace,1,2,5,6
+AddFace,2,3,4,5,
+LoadTexture,../PicBill_D.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,-1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,1,
+SetTextureCoordinates,5,0,1,
+SetTextureCoordinates,6,-1,1,
+SetTextureCoordinates,7,0,1,
+SetEmissiveColor,80,80,80,
+GenerateNormals,

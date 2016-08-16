@@ -1,0 +1,13 @@
+[MeshBuilder]
+Vertex -30,-10, 50
+Vertex 30, -10, 50
+Vertex 30, -10, 0
+Vertex -30,-10, 0
+Face 0, 1, 2, 3
+[Texture]
+Load verde.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 15, 0
+Coordinates 2, 15, 15
+Coordinates 3, 0, 15
+

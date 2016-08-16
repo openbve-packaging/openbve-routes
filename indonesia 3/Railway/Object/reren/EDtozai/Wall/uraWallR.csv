@@ -1,0 +1,44 @@
+CreateMeshBuilder
+AddVertex,7.2, 1.1, 0
+AddVertex,7.2, 4.875, 0
+AddVertex,7.2, 4.875, 25.2
+AddVertex,7.2, 1.1, 25.2
+AddFace,3,2,1,0
+GenerateNormals
+Loadtexture,uraWall2.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+
+CreateMeshBuilder
+AddVertex,7.18, 3.91, 11.2
+AddVertex,7.18, 4.20, 11.2
+AddVertex,7.18, 4.20, 13.6
+AddVertex,7.18, 3.91, 13.6
+AddFace,3,2,1,0
+LoadTexture,../sta\ura.bmp
+GenerateNormals
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+Translate,0,0.335,0
+
+CreateMeshBuilder
+AddVertex,7.2, 1.2, 0
+AddVertex,6.8, 1.2, 0
+AddVertex,6.8, 1.0, 0
+AddVertex,6.8, 1.0, 25.1
+AddVertex,6.8, 1.2, 25.1
+AddVertex,7.2, 1.2, 25.1
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,boadwall1.bmp
+SetTextureCoordinates,0,   0,1
+SetTextureCoordinates,1,   0,0.5
+SetTextureCoordinates,2,   0,0
+SetTextureCoordinates,3,   1,0
+SetTextureCoordinates,4,   1,0.5
+SetTextureCoordinates,5,   1,1
+GenerateNormals

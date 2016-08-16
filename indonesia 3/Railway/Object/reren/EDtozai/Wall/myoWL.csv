@@ -1,0 +1,91 @@
+;ï«
+CreateMeshBuilder,
+AddVertex,-2.51, 6.5, 0,
+AddVertex,-2.51, 4.0, 0,
+AddVertex,-2.31, 4.0, 0,
+AddVertex,-2.31, 1.25, 0,
+AddVertex,-2.49, 1.25, 0,
+AddVertex,-2.49,-0.17, 0,
+AddVertex,-2.49,-0.17, 25.2,
+AddVertex,-2.49, 1.25, 25.2,
+AddVertex,-2.31, 1.25, 25.2,
+AddVertex,-2.31, 4.0, 25.2,
+AddVertex,-2.51, 4.0, 25.2,
+AddVertex,-2.51, 6.5, 25.2,
+AddFace,11,10,1,0,
+AddFace,10,9,2,1,
+AddFace,9,8,3,2,
+AddFace,8,7,4,3,
+AddFace,7,6,5,4,
+LoadTexture,myowall.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 0.4,
+SetTextureCoordinates,2, 0, 0.41,
+SetTextureCoordinates,3, 0, 0.8,
+SetTextureCoordinates,4, 0, 0.805,
+SetTextureCoordinates,5, 0, 1,
+SetTextureCoordinates,6, 10, 1,
+SetTextureCoordinates,7, 10, 0.805,
+SetTextureCoordinates,8, 10, 0.8,
+SetTextureCoordinates,9, 10, 0.41,
+SetTextureCoordinates,10, 10, 0.4,
+SetTextureCoordinates,11, 10, 0,
+GenerateNormals,
+
+;É{Å[
+CreateMeshBuilder,
+Addvertex,-2.51, 4.2, 0
+AddVertex,-1.9, 4.73, 0
+Addvertex,25.45, 4.73, 0
+Addvertex,25.45, 4.53, 0
+Addvertex,-1.77, 4.53, 0
+Addvertex,-2.51, 3.9, 0
+Addface,0,1,4,5
+Addface,1,2,3,4
+Loadtexture,mFroof_A.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,5,0,
+SetTextureCoordinates,3,5,1,
+SetTextureCoordinates,4,1,1,
+SetTextureCoordinates,5,0,1,
+GenerateNormals,
+Translate,0,1.2,0,
+
+CreateMeshBuilder,
+Addvertex,-2.51, 4.2, 0
+AddVertex,-1.9, 4.73, 0
+Addvertex,25.45, 4.73, 0
+Addvertex,25.45, 4.53, 0
+Addvertex,-1.77, 4.53, 0
+Addvertex,-2.51, 3.9, 0
+Addface,0,1,4,5
+Addface,1,2,3,4
+Loadtexture,mFroof_A.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,5,0,
+SetTextureCoordinates,3,5,1,
+SetTextureCoordinates,4,1,1,
+SetTextureCoordinates,5,0,1,
+GenerateNormals,
+Translate,0,1.2,8.4,
+
+CreateMeshBuilder,
+Addvertex,-2.51, 4.2, 0
+AddVertex,-1.9, 4.73, 0
+Addvertex,25.45, 4.73, 0
+Addvertex,25.45, 4.53, 0
+Addvertex,-1.77, 4.53, 0
+Addvertex,-2.51, 3.9, 0
+Addface,0,1,4,5
+Addface,1,2,3,4
+Loadtexture,mFroof_A.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,5,0,
+SetTextureCoordinates,3,5,1,
+SetTextureCoordinates,4,1,1,
+SetTextureCoordinates,5,0,1,
+GenerateNormals,
+Translate,0,1.2,16.8,

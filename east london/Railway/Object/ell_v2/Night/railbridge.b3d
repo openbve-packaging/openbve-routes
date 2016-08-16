@@ -1,0 +1,94 @@
+; This is the Greenwhich/New Cross to London Bridge railway bridge
+[MeshBuilder]
+Vertex 180,7.8,-45
+Vertex 180,6.8,-45
+Vertex -40,6.8,10
+Vertex -40,7.8,10
+Face 0,1,2,3
+[Texture]
+load fence.bmp
+Coordinates 0,80,0
+Coordinates 1,80,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[MeshBuilder]
+Vertex 180,6.8,-45
+Vertex 180,4.95,-45
+Vertex -40,4.95,10
+Vertex -40,6.8,10
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,80,0
+Coordinates 1,80,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 6.7,5,-1.675
+Vertex 6.7,5,18.33
+Vertex -2.7,5,20.675
+Vertex -2.7,5,0.675
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,10,0
+Coordinates 1,10,20
+Coordinates 2,0,20
+Coordinates 3,0,0
+
+
+[Meshbuilder]
+Vertex -2.7,5,0.675
+Vertex -2.7,-0.3,0.675
+Vertex -40,-0.3,10
+Vertex -40,5,10
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,42,0
+Coordinates 1,42,6
+Coordinates 2,0,6
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 180,5,-45
+Vertex 180,-0.3,-45
+Vertex 6.7,-0.3,-1.675
+Vertex 6.7,5,-1.675
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,42,0
+Coordinates 1,42,6
+Coordinates 2,0,6
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -2.7,5,20.675
+Vertex -2.7,-0.3,20.675
+Vertex -2.7,-0.3,0.675
+Vertex -2.7,5,0.675
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,20,0
+Coordinates 1,20,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 6.7,6,18.325
+Vertex 6.7,-0.3,18.325
+Vertex 6.7,-0.3,-1.675
+Vertex 6.7,6,-1.675
+Face 3,2,1,0
+[Texture]
+load stonea.bmp
+Coordinates 0,20,0
+Coordinates 1,20,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+

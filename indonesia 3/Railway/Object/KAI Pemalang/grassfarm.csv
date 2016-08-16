@@ -1,0 +1,17 @@
+CreateMeshBuilder,,,,
+AddVertex,-300,0,0,
+AddVertex,-300,0,25,
+AddVertex,300,0,25,
+AddVertex,300,0,0,
+AddVertex,-300,0,-24.5,
+AddVertex,300,-1,-24.5,
+AddFace,0,1,2,3
+AddFace,0,3,5,4
+GenerateNormals,,,,
+LoadTexture,Grassfarm.bmp,,,
+SetTextureCoordinates,0,0,0.45,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,8,0,
+SetTextureCoordinates,3,8,0.45,
+SetTextureCoordinates,4,0,0.9,
+SetTextureCoordinates,5,8,0.9

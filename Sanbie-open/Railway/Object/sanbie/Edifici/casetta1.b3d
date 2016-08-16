@@ -1,0 +1,97 @@
+;house front
+
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,2,0
+Vertex 2,2,0
+Vertex 2,0,0
+Face2 0,1,2,3
+[Texture]
+Load conc_wall2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,0
+
+; casa retro
+
+[MeshBuilder]
+Vertex 0,0,-2
+Vertex 0,2,-2
+Vertex 2,2,-2
+Vertex 2,0,-2
+Face2 0,1,2,3
+[Texture]
+Load Conc_wall2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,0
+
+
+;house LATO SX
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,2.4,0
+Vertex 0,2.4,-2
+Vertex 0,0,-2
+Face2 0,1,2,3,
+
+[Texture]
+Load Conc_wall1.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,255
+
+;House LATO DX
+[MeshBuilder]
+Vertex 2,0,0
+Vertex 2,2.4,0
+Vertex 2,2.4,-2
+Vertex 2,0,-2
+Face2 0,1,2,3,
+
+[Texture]
+Load Conc_wall1.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,255
+
+;roof side 1
+[MeshBuilder]
+Vertex -0.2,1.9,0.2
+Vertex -0.2,2.5,-1 
+Vertex 2.2,2.5,-1
+Vertex 2.2,1.9,0.2
+Face2 0,1,2,3
+[Texture]
+Load edifdomo_r.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 255, 255, 255
+
+
+;roof side 2
+[MeshBuilder]
+Vertex -0.2,1.9,-2.2
+Vertex -0.2,2.5,-1 
+Vertex 2.2,2.5,-1
+Vertex 2.2,1.9,-2.2
+Face2 0,1,2,3
+[Texture]
+Load edifdomo_r.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 160, 160, 160
+
+

@@ -1,0 +1,83 @@
+
+
+
+[MeshBuilder]
+Vertex -2,0,25.5
+Vertex -3,3,25.5
+Vertex -3,3,-0.5
+Vertex -2,0,-0.5
+Face 3,2,1,0
+[Texture]
+Load erbetta.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[MeshBuilder]
+Vertex -3,3,25.5
+Vertex -23,5,25.5
+Vertex -23,5,-0.5
+Vertex -3,3,-0.5
+Face 3,2,1,0
+[Texture]
+Load erbetta.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;----- alberi
+[meshbuilder]
+vertex -12, 12, 3
+vertex -4,  12, 3
+vertex -4,   3.5, 3
+vertex -12,  3.5, 3
+face 1,2,3,0
+[texture]
+load albero1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+[meshbuilder]
+vertex -10, 12, 7
+vertex -5,  12, 7
+vertex -5,   3.5, 7
+vertex -10,  3.5, 7
+face 1,2,3,0
+[texture]
+load albero1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+
+
+[meshbuilder]
+vertex -10, 14, 9
+vertex -3,  14, 9
+vertex -3,   3.5, 9
+vertex -10,  3.5, 9
+face 1,2,3,0
+[texture]
+load albero2.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+
+[meshbuilder]
+vertex -10, 17, 19
+vertex -3,  17, 19
+vertex -3,   3.5, 19
+vertex -10,  3.5, 19
+face 1,2,3,0
+[texture]
+load albero3.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0

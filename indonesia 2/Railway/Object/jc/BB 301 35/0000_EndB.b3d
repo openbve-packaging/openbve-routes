@@ -1,0 +1,622 @@
+;Coupler Assembly,For Use With Locos,AAR TypeE 1880
+;Cplr Body Centered At 33.00inch Above Rail Per AAR
+;Top Operated LockLift ProtoTypical For Locomotives
+;Cplr EndB Assy,Rotated 180deg,Set @ -0.5*CarLength
+;With ANIMATED [INCLUDE] POSITION DimZ, Then Adjust
+;So This Positioner Plate Sits Just Behind BulkHead
+
+
+
+
+[MESHBUILDER]                      ;Cplr_Shnk
+Cube 0.102,0.083,0.463
+Color 000,000,000
+Translate +0.000,+0.838,-0.570
+
+[MESHBUILDER]                      ;Cplr_Body
+Vertex -0.206,+0.140,-0.251
+Vertex -0.206,+0.140,+0.161
+Vertex +0.206,+0.140,+0.161
+Vertex +0.206,+0.140,-0.251
+Face2 0,1,2,3
+Load Bod5.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.130,-0.251
+Vertex -0.206,+0.130,+0.161
+Vertex +0.206,+0.130,+0.161
+Vertex +0.206,+0.130,-0.251
+Face2 0,1,2,3
+Load Bod4.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.120,-0.251
+Vertex -0.206,+0.120,+0.161
+Vertex +0.206,+0.120,+0.161
+Vertex +0.206,+0.120,-0.251
+Face2 0,1,2,3
+Load Bod3.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.110,-0.251
+Vertex -0.206,+0.110,+0.161
+Vertex +0.206,+0.110,+0.161
+Vertex +0.206,+0.110,-0.251
+Face2 0,1,2,3
+Load Bod2.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.100,-0.251
+Vertex -0.206,+0.100,+0.161
+Vertex +0.206,+0.100,+0.161
+Vertex +0.206,+0.100,-0.251
+Face2 0,1,2,3
+Load Bod1.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.090,-0.251
+Vertex -0.206,+0.090,+0.161
+Vertex +0.206,+0.090,+0.161
+Vertex +0.206,+0.090,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.080,-0.251
+Vertex -0.206,+0.080,+0.161
+Vertex +0.206,+0.080,+0.161
+Vertex +0.206,+0.080,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.070,-0.251
+Vertex -0.206,+0.070,+0.161
+Vertex +0.206,+0.070,+0.161
+Vertex +0.206,+0.070,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.060,-0.251
+Vertex -0.206,+0.060,+0.161
+Vertex +0.206,+0.060,+0.161
+Vertex +0.206,+0.060,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.050,-0.251
+Vertex -0.206,+0.050,+0.161
+Vertex +0.206,+0.050,+0.161
+Vertex +0.206,+0.050,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.040,-0.251
+Vertex -0.206,+0.040,+0.161
+Vertex +0.206,+0.040,+0.161
+Vertex +0.206,+0.040,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.030,-0.251
+Vertex -0.206,+0.030,+0.161
+Vertex +0.206,+0.030,+0.161
+Vertex +0.206,+0.030,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.020,-0.251
+Vertex -0.206,+0.020,+0.161
+Vertex +0.206,+0.020,+0.161
+Vertex +0.206,+0.020,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.010,-0.251
+Vertex -0.206,+0.010,+0.161
+Vertex +0.206,+0.010,+0.161
+Vertex +0.206,+0.010,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,+0.000,-0.251
+Vertex -0.206,+0.000,+0.161
+Vertex +0.206,+0.000,+0.161
+Vertex +0.206,+0.000,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.010,-0.251
+Vertex -0.206,-0.010,+0.161
+Vertex +0.206,-0.010,+0.161
+Vertex +0.206,-0.010,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.020,-0.251
+Vertex -0.206,-0.020,+0.161
+Vertex +0.206,-0.020,+0.161
+Vertex +0.206,-0.020,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.030,-0.251
+Vertex -0.206,-0.030,+0.161
+Vertex +0.206,-0.030,+0.161
+Vertex +0.206,-0.030,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.040,-0.251
+Vertex -0.206,-0.040,+0.161
+Vertex +0.206,-0.040,+0.161
+Vertex +0.206,-0.040,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.050,-0.251
+Vertex -0.206,-0.050,+0.161
+Vertex +0.206,-0.050,+0.161
+Vertex +0.206,-0.050,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.060,-0.251
+Vertex -0.206,-0.060,+0.161
+Vertex +0.206,-0.060,+0.161
+Vertex +0.206,-0.060,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.070,-0.251
+Vertex -0.206,-0.070,+0.161
+Vertex +0.206,-0.070,+0.161
+Vertex +0.206,-0.070,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.080,-0.251
+Vertex -0.206,-0.080,+0.161
+Vertex +0.206,-0.080,+0.161
+Vertex +0.206,-0.080,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.090,-0.251
+Vertex -0.206,-0.090,+0.161
+Vertex +0.206,-0.090,+0.161
+Vertex +0.206,-0.090,-0.251
+Face2 0,1,2,3
+Load Bod0.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.100,-0.251
+Vertex -0.206,-0.100,+0.161
+Vertex +0.206,-0.100,+0.161
+Vertex +0.206,-0.100,-0.251
+Face2 0,1,2,3
+Load Bod1.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.110,-0.251
+Vertex -0.206,-0.110,+0.161
+Vertex +0.206,-0.110,+0.161
+Vertex +0.206,-0.110,-0.251
+Face2 0,1,2,3
+Load Bod2.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.120,-0.251
+Vertex -0.206,-0.120,+0.161
+Vertex +0.206,-0.120,+0.161
+Vertex +0.206,-0.120,-0.251
+Face2 0,1,2,3
+Load Bod3.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,-001.5
+Rotate 0,0,1,-001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.130,-0.251
+Vertex -0.206,-0.130,+0.161
+Vertex +0.206,-0.130,+0.161
+Vertex +0.206,-0.130,-0.251
+Face2 0,1,2,3
+Load Bod4.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Rotate 1,0,0,+001.5
+Rotate 0,0,1,+001.5
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]
+Vertex -0.206,-0.140,-0.251
+Vertex -0.206,-0.140,+0.161
+Vertex +0.206,-0.140,+0.161
+Vertex +0.206,-0.140,-0.251
+Face2 0,1,2,3
+Load Bod5.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate +0.000,+0.838,+0.072
+
+[MESHBUILDER]                      ;Cplr_Lock,Uppr_Lift
+Vertex -0.010,+0.290,-0.025
+Vertex -0.010,+0.290,-0.200
+Vertex -0.010,-0.060,-0.200
+Vertex -0.010,-0.060,-0.025
+Face2 0,1,2,3
+Load Lock.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate +0.000,+0.838,+0.037
+
+[MESHBUILDER]
+Vertex -0.015,+0.290,-0.025
+Vertex -0.015,+0.290,-0.200
+Vertex -0.015,-0.060,-0.200
+Vertex -0.015,-0.060,-0.025
+Face2 0,1,2,3
+Load Lock.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate +0.000,+0.838,+0.037
+
+[MESHBUILDER]
+Vertex -0.020,+0.290,-0.025
+Vertex -0.020,+0.290,-0.200
+Vertex -0.020,-0.060,-0.200
+Vertex -0.020,-0.060,-0.025
+Face2 0,1,2,3
+Load Lock.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate +0.000,+0.838,+0.037
+
+[MESHBUILDER]                      ;Cplr_Levr,Uppr_Lift,Tabs
+Vertex -1.059,+0.34,-0.250
+Vertex -1.059,+0.34,-0.380
+Vertex -1.059,+0.21,-0.380
+Vertex -1.059,+0.21,-0.250
+Face2 0,1,2,3
+Load Levr.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate +0.000,+0.838,+0.082
+
+[MESHBUILDER]
+Vertex -0.334,+0.34,-0.250
+Vertex -0.334,+0.34,-0.380
+Vertex -0.334,+0.21,-0.380
+Vertex -0.334,+0.21,-0.250
+Face2 0,1,2,3
+Load Levr.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate +0.000,+0.838,+0.082
+
+[MESHBUILDER]
+Vertex +0.334,+0.34,-0.250
+Vertex +0.334,+0.34,-0.380
+Vertex +0.334,+0.21,-0.380
+Vertex +0.334,+0.21,-0.250
+Face2 0,1,2,3
+Load Levr.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate +0.000,+0.838,+0.082
+
+[MESHBUILDER]
+Vertex +1.059,+0.34,-0.250
+Vertex +1.059,+0.34,-0.380
+Vertex +1.059,+0.21,-0.380
+Vertex +1.059,+0.21,-0.250
+Face2 0,1,2,3
+Load Levr.gif
+Transparent 000,255,000
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate +0.000,+0.838,+0.082
+
+[MESHBUILDER]                      ;Cplr_Levr,Uppr_Lift,Rods
+Cylinder 09,0.012,0.012,0.430
+Color 255,000,000
+Rotate 0,0,1,+090.0
+Translate +0.000,+1.101,-0.055
+
+[MESHBUILDER]
+Cylinder 09,0.012,0.012,0.2
+Color 255,000,000
+Rotate 1,0,0,+095.3
+Rotate 0,1,0,+0.10.0
+Translate -0.21,+1.11,-0.145
+
+[MESHBUILDER]
+Cylinder 09,0.012,0.012,0.2
+Color 255,000,000
+Rotate 1,0,0,+095.3
+Rotate 0,1,0,-0.10.0
+Translate +0.21,+1.11,-0.145
+
+[MESHBUILDER]
+Cylinder 09,0.010,0.010,0.885
+Color 255,000,000
+Rotate 0,0,1,+090.0
+Translate -0.645,+1.12,-0.23
+
+[MESHBUILDER]
+Cylinder 09,0.010,0.010,0.885
+Color 255,000,000
+Rotate 0,0,1,+090.0
+Translate +0.645,+1.12,-0.23
+
+[MESHBUILDER]
+Cylinder 09,0.012,0.012,0.260
+Color 255,000,000
+Rotate 0,0,0,+00.0
+Translate -1.085,+1.00,-0.23
+
+[MESHBUILDER]
+Cylinder 09,0.012,0.012,0.260
+Color 255,000,000
+Rotate 0,0,0,+00.0
+Translate +1.085,1.00,-0.23
+
+
+
+
+
+ROTATEALL 0,1,0,+180.0

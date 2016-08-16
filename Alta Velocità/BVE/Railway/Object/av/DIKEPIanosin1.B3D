@@ -1,0 +1,32 @@
+
+[MeshBuilder]
+Vertex  -2.0,  0,24.7
+Vertex  -140,  0,24.7
+Vertex  -140,  0,-0.3
+Vertex  -2.0,  0,-0.3
+Face 3,2,1,0
+[Texture]
+Load verde.bmp
+Coordinates 0,0,50
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,50
+
+
+
+
+
+[MeshBuilder]
+Vertex  -1.8,  0.3,24.7
+Vertex  -2.2, 0.3,24.7
+Vertex  -2.2, 0.3,-0.3
+Vertex  -1.8,  0.3,-0.3
+Face 3,2,1,0
+color 130,130,130
+[MeshBuilder]
+Vertex  -1.8,  -0.3 ,24.7
+Vertex  -1.8,   0.3,24.7
+Vertex  -1.8,   0.3,-0.3
+Vertex  -1.8,  -0.3 ,-0.3
+Face 3,2,1,0
+color 130,130,130

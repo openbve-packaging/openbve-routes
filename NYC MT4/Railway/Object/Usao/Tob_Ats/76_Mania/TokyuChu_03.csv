@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,-0.45,1.8,-0.5,
+AddVertex,0.45,1.8,-0.5,
+AddVertex,0.45,0,-0.5,
+AddVertex,-0.45,0,-0.5,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,TokyuChu_03.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,

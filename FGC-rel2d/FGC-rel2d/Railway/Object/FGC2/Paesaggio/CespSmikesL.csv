@@ -1,0 +1,71 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Terreno in salita - per tratto diritto
+; monte a sinistra - valle a destra
+
+CreateMeshbuilder ; Cespuglio
+AddVertex, -8 , 6 ,0 ;  alto inzio
+AddVertex, -5  , 6 ,1 ; alto fine
+AddVertex, -5  , 2 ,1 ; basso fine *
+AddVertex, -8 , 2 ,0  ;basso inizio *
+AddFace, 0,1,2,3
+translate, 0,-0.6,0
+GenerateNormals,
+SetColor,185,200,200,240
+LoadTexture, ..\Smikes\bush2.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0, 1 , 0 
+SetTextureCoordinates,1, 0 , 0 
+SetTextureCoordinates,2, 0 , 1 
+SetTextureCoordinates,3, 1 , 1
+
+CreateMeshbuilder ; Cespuglio
+AddVertex, -7 , 5 ,0 ;  alto inzio
+AddVertex, -5  , 5 ,2 ; alto fine
+AddVertex, -5  , 2 ,2 ; basso fine *
+AddVertex, -7 , 2 ,0  ;basso inizio *
+AddFace, 0,1,2,3
+translate, 0,-1.9, 10
+GenerateNormals,
+SetColor,150,170,170,240
+LoadTexture, ..\Smikes\dtree4f.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0, 1 , 0 
+SetTextureCoordinates,1, 0 , 0 
+SetTextureCoordinates,2, 0 , 1 
+SetTextureCoordinates,3, 1 , 1
+
+CreateMeshbuilder ; Cespuglio
+AddVertex, -11 , 8 ,0 ;  alto inzio
+AddVertex, -8  , 8 ,2 ; alto fine
+AddVertex, -8  , 4 ,2 ; basso fine *
+AddVertex, -11 , 4 ,0  ;basso inizio *
+AddFace, 0,1,2,3
+translate, 0,-1.9,4
+GenerateNormals,
+SetColor,185,200,200,240
+LoadTexture, ..\Smikes\dtree4f.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0, 1 , 0 
+SetTextureCoordinates,1, 0 , 0 
+SetTextureCoordinates,2, 0 , 1 
+SetTextureCoordinates,3, 1 , 1
+
+
+CreateMeshbuilder ; Cespuglio
+AddVertex, -8 , 6 ,0 ;  alto inzio
+AddVertex, -5  , 6 ,1 ; alto fine
+AddVertex, -5  , 2 ,1 ; basso fine *
+AddVertex, -8 , 2 ,0  ;basso inizio *
+AddFace, 0,1,2,3
+translate,-6, 1.5,15
+GenerateNormals,
+SetColor,165,200,200,240
+LoadTexture, ..\Smikes\bush2.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0, 1 , 0 
+SetTextureCoordinates,1, 0 , 0 
+SetTextureCoordinates,2, 0 , 1 
+SetTextureCoordinates,3, 1 , 1

@@ -1,0 +1,83 @@
+; Canada water enter-right/leave-left platform
+; Length is 15m
+; Tile wall extends from 2m in to 4m in over 15m
+; 0.1 m higher than other platforms
+
+[MeshBuilder] ; side of platform down to track
+Vertex 2,1.2,10
+Vertex 2,-0.3,10
+Vertex 2,-0.3,0
+Vertex 2,1.2,0
+Face 3,2,1,0
+[Texture]
+load concrete.bmp
+Coordinates 0,16,0
+Coordinates 1,16,1.5
+Coordinates 2,0,1.5
+Coordinates 3,0,0
+
+[MeshBuilder] ; Platform Edge
+Vertex 2,1.2,10
+Vertex 2,1.2,0
+Vertex 3.2,1.2,0
+Vertex 3.2,1.2,10
+Face 3,2,1,0
+[Texture]
+Load FormL-CW.bmp
+Coordinates 0,1,0
+Coordinates 1,1,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+
+[Meshbuilder] ; Platform Centre
+Vertex 3.2,1.2,10
+Vertex 3.2,1.2,0
+Vertex 6,1.2,0
+Vertex 6,1.2,10
+Face 3,2,1,0
+[Texture]
+load FormC-CW.bmp
+Coordinates 0,2,0
+Coordinates 1,2,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+
+[Meshbuilder] ; Platform wall
+Vertex 6,5,10
+Vertex 6,1.2,10
+Vertex 6,1.2,0
+Vertex 6,5,0
+Face 3,2,1,0
+[Texture]
+load cw-tile.bmp
+Coordinates 0,16,0
+Coordinates 1,16,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+
+[Meshbuilder] ; seal off the end
+Vertex 2,1.2,0
+Vertex 2,-0.3,0
+Vertex 6,-0.3,0
+Vertex 6,1.2,0
+Face 3,2,1,0
+[Texture]
+load concrete.bmp
+Coordinates 0,4,0
+Coordinates 1,4,2
+Coordinates 2,0,2
+Coordinates 3,0,0
+
+[Meshbuilder] ; platform ceiling
+Vertex 2,5,10
+Vertex 2,5,0
+Vertex 6,5,0
+Vertex 6,5,10
+Face 0,1,2,3
+[Texture]
+Load cw-ceiling.bmp
+Coordinates 0,1,0
+Coordinates 1,1,4
+Coordinates 2,0,4
+Coordinates 3,0,0
+

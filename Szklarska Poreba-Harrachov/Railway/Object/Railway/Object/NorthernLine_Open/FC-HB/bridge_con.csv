@@ -1,0 +1,131 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Anthony Bowden, Modified heavily by Steve Green 
+
+;Modified from:
+;
+;Birmingham Cross-City BVE Route Object
+;Cross-City South
+;--------------------------------------
+;(c) Anthony Bowden, 2002.
+;www.railsimroutes.co.uk
+;
+;Please seek permission before using
+;any X-City files in your own route.
+;
+;See 'Readme.txt'.
+;
+;With thanks. S.Green Northern Line
+
+
+CreateMeshBuilder,
+AddVertex,-110.26, 8.6, 0.2,
+AddVertex,110.26, 8.6, 0.2,
+AddVertex,110.26, 5.0, 0.2,
+AddVertex,-110.26, 5.0, 0.2,
+AddVertex,110, 5.5, 31,
+AddVertex,-110.26, 5.5, 31,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+GenerateNormals,
+LoadTexture,Bridge5.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 30, 0,
+SetTextureCoordinates,2, 30, 0.888,
+SetTextureCoordinates,3, 0, 0.888,
+SetTextureCoordinates,4, 30, 1,
+SetTextureCoordinates,5, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-20.26, 5.85, 0.5,
+AddVertex,-20.26, -0.3, 0.5,
+AddVertex,-10.0, -0.3, 0.5,
+AddVertex,-10.0, 5.85, 0.5,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,../Brick_2.png,
+SetTextureCoordinates,0, 5, 0,
+SetTextureCoordinates,1, 5, 1,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder,
+AddVertex,-10, 5.0, 0.3,
+AddVertex,-10, -0.3, 0.3,
+AddVertex,-8.0, -0.3, .3,
+AddVertex,-8.0, 5.0, 0.3,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,Bridge5.png,
+SetTextureCoordinates,0, 0.3, 0,
+SetTextureCoordinates,1, 0.3, 1,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0, 0,
+SetColor,160,160,190,
+
+CreateMeshBuilder,
+AddVertex,-8.0, 5.0, 0.2,
+AddVertex,-8.0, 5.0, 31,
+AddVertex,-8.0, -0.3, 31,
+AddVertex,-8.0, -0.3, 0.2,
+AddFace,0,1,2,3,
+SetColor,160,160,190,
+GenerateNormals,
+LoadTexture,Bridge5.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,15.1, 5.0, 0.3,
+AddVertex,15.1, -0.3, 0.3,
+AddVertex,17.1, -0.3, .3,
+AddVertex,17.1, 5.0, 0.3,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,Bridge5.png,
+SetTextureCoordinates,0, 0.3, 0,
+SetTextureCoordinates,1, 0.3, 1,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0, 0,
+SetColor,160,160,190,
+
+CreateMeshBuilder,
+AddVertex,30.26, 5.6, 0.5,
+AddVertex,30.26, -0.3, 0.5,
+AddVertex,17.1, -0.3, 0.5,
+AddVertex,17.1, 5.6, 0.5,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../Brick_2.png,
+SetTextureCoordinates,0, 5, 0,
+SetTextureCoordinates,1, 5, 1,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder,
+AddVertex,15.1, 5.0, 0.3,
+AddVertex,15.1, 5.0, 31,
+AddVertex,15.1, -0.3, 31,
+AddVertex,15.1, -0.3, 0.3,
+AddFace,3,2,1,0,
+SetColor,160,160,190,
+GenerateNormals,
+LoadTexture,Bridge5.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-7.9, 0.1, 30,
+AddVertex,15.9, 0.1, 30,
+AddVertex,15.9, 0.1, 1.0,
+AddVertex,-7.9, 0.1, 1.0,
+AddVertex,15.9, -0.3, 0.0,
+AddVertex,-7.9, -0.3, 0.0,
+AddFace,0,1,2,3,
+AddFace,3,2,4,5,
+SetColor,10,10,10,150,
+GenerateNormals,

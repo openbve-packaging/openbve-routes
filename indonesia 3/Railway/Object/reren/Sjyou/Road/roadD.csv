@@ -1,0 +1,76 @@
+CreateMeshBuilder,
+AddVertex,4.4, 0.11, -25.0,
+AddVertex,4.4, 0.11,  25.0,
+ADdVertex,4.4,-4.11,  25.0,
+AddVertex,4.4,-4.11, -25.0,
+AddVertex,-4.4, 0.11, -25.0,
+AddVertex,-4.4, 0.11,  25.0,
+ADdVertex,-4.4,-4.11,  25.0,
+AddVertex,-4.4,-4.11, -25.0,
+AddFace2,0,1,2,3,
+AddFace2,4,5,6,7,
+LoadTexture,bridge_c.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,3,0
+SetTextureCoordinates,2,3,1
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,3,0
+SetTextureCoordinates,6,3,1
+SetTextureCoordinates,7,0,1
+GenerateNormals,
+
+
+CreateMeshBuilder,
+AddVertex,-3.2, 0.11, -25.5,
+AddVertex,-3.2, 0.11, 25.0,
+AddVertex, 3.2, 0.11, 25.0,
+AddVertex, 3.2, 0.11, -25.5,
+AddFace,0,1,2,3,
+LoadTexture,roadA.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,5.5
+SetTextureCoordinates,2,1,5.5
+SetTextureCoordinates,3,1,0
+Setcolor,190,190,190
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-4.4, 0.01, -25.0,
+AddVertex,-4.4, 0.01, 25.0,
+AddVertex,4.4, 0.01,  25.0,
+AddVertex,4.4, 0.01, -25.0,
+AddFace,0,1,2,3,
+LoadTexture,../Form/FormF.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,2.5
+SetTextureCoordinates,2,7,2.5
+SetTextureCoordinates,3,7,0
+GenerateNormals,
+Setcolor,255,227,200,
+
+CreateMeshBuilder,
+AddVertex,-4.4, 2.11, -25.0,
+AddVertex,-4.4, 2.11,  25.0,
+ADdVertex,-4.4, 0.11,  25.0,
+AddVertex,-4.4, 0.11, -25.0,
+
+AddVertex,4.4, 2.11, -25.0,
+AddVertex,4.4, 2.11,  25.0,
+ADdVertex,4.4, 0.11,  25.0,
+AddVertex,4.4, 0.11, -25.0,
+AddFace2,0,1,2,3,
+AddFace2,4,5,6,7,
+LoadTexture,../bridge/saku1.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,10
+SetTextureCoordinates,2,1,10
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,4,0,0
+SetTextureCoordinates,5,0,10
+SetTextureCoordinates,6,1,10
+SetTextureCoordinates,7,1,0
+Setcolor,100,100,100
+SetDecalTransparentColor,0,0,0
+GenerateNormals,
+

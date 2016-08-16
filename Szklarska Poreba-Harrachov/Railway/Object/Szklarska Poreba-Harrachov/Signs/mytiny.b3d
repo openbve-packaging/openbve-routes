@@ -1,0 +1,37 @@
+﻿[MeshBuilder]
+Cylinder 32,0.05,0.05,4
+Rotate 0,0,0,0
+Color 100,30,0
+Translate 0.7,-1,0.05
+[MeshBuilder]
+Cylinder 32,0.05,0.05,4
+Rotate 0,0,0,0
+Color 100,30,0
+Translate -0.7,-1,0.05
+
+[MeshBuilder]
+Vertex 0.75, 1, 0
+Vertex 0.75, 0, 0
+Vertex -0.75, 0, 0
+Vertex -0.75, 1, 0
+Face 0,1,2,3
+[Texture]
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Load mytiny.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 0.75, 1, 0
+Vertex 0.75, 0, 0
+Vertex -0.75, 0, 0
+Vertex -0.75, 1, 0
+Face 3,2,1,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load znak1_tyl.png
+Transparent 0,0,255

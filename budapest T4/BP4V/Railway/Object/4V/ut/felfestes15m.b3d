@@ -1,0 +1,15 @@
+;Készítette: mamutsegg
+
+[Meshbuilder]
+Vertex -6.05, -0.025, 15.5
+Vertex 6.05, -0.025, 15.5
+Vertex 6.05, -0.025, -0.5
+Vertex -6.05, -0.025, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load felfestesfolyamatos.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.21875
+Coordinates 3, 0, 0.21875
+Transparent 0, 0, 255

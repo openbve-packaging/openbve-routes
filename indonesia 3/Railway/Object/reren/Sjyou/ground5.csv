@@ -1,0 +1,36 @@
+CreateMeshBuilder,
+AddVertex,-15, 0, 24.5
+AddVertex,-1.5, 0, 24.5
+AddVertex,-1.5, 0, 0.5,
+AddVertex,-15, 0, 0.5
+AddFace,0,1,2,3
+Loadtexture,ground5.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-15, 1.9, 24.5
+AddVertex,-1.5, 1.9, 24.5
+AddVertex,-1.5, 0.0, 24.5
+AddVertex,-15, 0.0, 24.5
+AddVertex,-15, 0.0, 0.5
+AddVertex,-1.5, 0.0, 0.5
+AddVertex,-1.5, 1.9, 0.5
+AddVertex,-15, 1.9, 0.5
+AddFace,0,1,2,3
+AddFace,7,0,3,4
+AddFace,7,6,5,4
+LoadTexture,Wall/saku2.bmp
+SetTextureCoordinates,0,  0, 0
+SetTextureCoordinates,1,  3, 0
+SetTextureCoordinates,2,  3, 3
+SetTextureCoordinates,3,  0, 4
+SetTextureCoordinates,4,  3, 4
+SetTextureCoordinates,5,  0, 3
+SetTextureCoordinates,6,  0, 0
+SetTextureCoordinates,7,  3, 0
+GenerateNormals,
+SetDecalTransparentColor,0,0,255

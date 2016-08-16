@@ -1,0 +1,59 @@
+;; serbatoi tintura
+
+;1
+CreateMeshBuilder ; struttura portante
+Cylinder,8,1,1,3
+Translate,-23,6.0,0
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,8,0.5,1,0.5
+Translate,-23,7.75,0
+SetColor,160,160,160
+
+;2
+CreateMeshBuilder ; struttura portante
+Cylinder,8,1,1,3
+Translate,-23,6.0,3
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,8,0.5,1,0.5
+Translate,-23,7.75,3
+SetColor,160,160,160
+
+
+;3
+CreateMeshBuilder ; struttura portante
+Cylinder,8,1,1,3
+Translate,-23,6.0,6
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,8,0.5,1,0.5
+Translate,-23,7.75,6
+SetColor,160,160,160
+
+;4
+CreateMeshBuilder ; struttura portante
+Cylinder,8,1,1,3
+Translate,-23,6.0,9
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,8,0.5,1,0.5
+Translate,-23,7.75,9
+SetColor,160,160,160
+
+;5
+CreateMeshBuilder ; struttura portante
+Cylinder,8,1,1,3
+Translate,-23,6.0,12
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,8,0.5,1,0.5
+Translate,-23,7.75,12
+SetColor,160,160,160
+
+

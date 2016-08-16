@@ -1,0 +1,102 @@
+CreateMeshBuilder
+AddVertex, -125, 9, 0.7
+AddVertex, -125, 6, 0.7
+AddVertex, 55, 10, 0.7
+AddVertex, 55, 13, 0.7
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, hasi1.bmp
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 10, 0
+SetTextureCoordinates, 1, 10, 1
+
+
+
+CreateMeshBuilder
+AddVertex, -125, 11, 0
+AddVertex, -125, 8, 0
+AddVertex, 55, 12, 0
+AddVertex, 55, 15, 0
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, muko-hasi.bmp
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 140, 0
+SetTextureCoordinates, 1, 140, 1
+SetDecalTransparentColor, 0,0,255
+
+
+CreateMeshBuilder
+AddVertex, -125, 6, 22.
+AddVertex, -125, 6, 0.7
+AddVertex, 55, 10, 0.7
+AddVertex, 55, 10, 22.
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, takatukihasi1.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetColor, 100, 100, 40 
+
+
+CreateMeshBuilder
+AddVertex, -70, -4.1, 22.
+AddVertex, -70, -4.1, 0.7
+AddVertex, -5, -4.1, 0.7
+AddVertex, -5, -4.1, 22.
+AddFace, 3,2,1,0
+GenerateNormals
+SetColor, 10, 10, 10[,100] 
+
+CreateMeshBuilder
+AddVertex, -3, .1, 22.
+AddVertex, -3, .1, 0.7
+AddVertex, 5, .1, 0.7
+AddVertex, 5, .1, 22.
+AddFace, 3,2,1,0
+GenerateNormals
+SetColor, 10, 10, 10[,100] 
+
+CreateMeshBuilder
+AddVertex, 2.5, 1.5, 22.
+AddVertex, 2.5, 1.5 0.7
+AddVertex, 9, 1.9, 0.7
+AddVertex, 9, 1.9, 22.
+
+
+AddVertex, 10, 2.5, 22.
+AddVertex, 9, 2.5 0.7
+AddVertex, 27, 2.9, 0.7
+AddVertex, 30, 2.9, 22.
+AddFace, 3,2,1,0
+AddFace, 7,6,5,4
+AddFace, 2,3,4,5
+GenerateNormals
+SetColor, 10, 10, 10[,100]  
+
+
+CreateMeshBuilder
+AddVertex, -125, 9.2, 0.2
+AddVertex, -125, 7.9, 0.2
+AddVertex, 55, 11.9, 0.2
+AddVertex, 55, 13.2, 0.2
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, ../Wall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,209 @@
+:(c) STEVE GREEN 2002
+;
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+
+
+[MeshBuilder]
+Vertex -1.4, -0.3, 0
+Vertex -1.4, -0.28, 26
+Vertex -3.3, 0.32, 26
+Vertex -3.3, 0.3, 0
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load Emb.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;no 2
+
+[MeshBuilder]
+Vertex -3.3, 0.3, 0
+Vertex -3.3, 0.32, 26
+Vertex -4, 1.02, 26
+Vertex -4, 1, 0
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load Emb.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;no 3
+
+
+[MeshBuilder]
+Vertex -4, 1, 0
+Vertex -4, 1.02, 26
+Vertex -7, 2.82, 26
+Vertex -7, 2.8, 0
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load Emb.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;top
+
+[MeshBuilder]
+Vertex -7, 2.65, 0
+Vertex -7, 2.65, 26
+Vertex -10.2, 15.02, 26
+Vertex -10.2, 15, 0
+Face 0,1,2,3
+Face 1,0,3,2
+color 90,10,0
+
+[Texture]
+Load ..\rock2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+;trees ============
+
+[MeshBuilder]
+Vertex -4,7,12
+Vertex -4,2,12
+Vertex -8,2,12
+Vertex -8,7,12
+Face 0,1,2,3
+
+[Texture]
+Load ..\wood.bmp
+Coordinates 0,00,0
+Coordinates 1,00,1
+Coordinates 2,01,1
+Coordinates 3,01,0
+Transparent 000,000,000
+
+
+;Bush 2
+[MeshBuilder]
+Vertex -3.5,4,2
+Vertex -3.5,.5,2
+Vertex -7.5,.5,5
+Vertex -7.5,4,5
+Face 0,1,2,3
+
+[Texture]
+Load ..\wood2.bmp
+Coordinates 0,00,0
+Coordinates 1,00,1
+Coordinates 2,01,1
+Coordinates 3,01,0
+Transparent 000,000,000
+
+;==================================
+;Front l
+[MeshBuilder]
+Vertex -80.0, -5.3, 0
+Vertex -10.0, 14.6, 0
+Vertex -10.0, -5.3, -15
+Face 0,1,2
+Face 2,1,0
+color 90,10,0
+
+[Texture]
+Load ..\rock1.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 1, 1
+
+
+[MeshBuilder]
+;Sec1
+Vertex -1.4, -5.3, -15
+Vertex -1.5, -0.3, 0
+Vertex -3.3, 0.3, 0
+Vertex -3.3, -5.3, -15
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load Emb.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+
+[MeshBuilder]
+Vertex -3.3, -5.3, -15
+Vertex -3.3, 0.3, 0
+Vertex -4, 1, 0
+Vertex -4, -5.3, -15
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load Emb.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -4, -5.3, -15
+Vertex -4, 1, 0
+Vertex -7, 2.8, 0
+Vertex -7, -5.3, -15
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load Emb.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -7, -5.3, -15
+Vertex -7 ,2.8, 0
+Vertex -10, 14.6, 0
+Vertex -10, -5.3, -15
+Face 0,1,2,3
+Face 1,0,3,2
+color 90,10,0
+
+
+[Texture]
+Load ..\rock1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -10, -5.3, -15
+Vertex -10, 5, 0
+Vertex -11, 4.9, 0
+Vertex -11, -5.3, -15
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load Emb.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+

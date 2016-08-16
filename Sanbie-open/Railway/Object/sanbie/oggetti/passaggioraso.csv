@@ -1,0 +1,277 @@
+;inclinato
+CreateMeshBuilder,
+AddVertex,1.5, 0.1, 2,
+AddVertex,1.5, 0.1, 0.5,
+AddVertex,0.8, 0, 0.5,
+AddVertex,0.8, 0, 2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 3, 0,
+SetTextureCoordinates,2, 3, 1,
+SetTextureCoordinates,3, 0, 1,
+
+; riempimento inclinato
+CreateMeshBuilder,
+AddVertex,1.5, 0.1, 0,
+AddVertex,1.5, -0.2, 0,
+AddVertex,0.8, -0.2, 0,
+AddVertex,0.8, -0, 0,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, -0.2, 0,
+SetTextureCoordinates,2, -0.2, 1,
+SetTextureCoordinates,3, 0, 1,
+
+
+
+;bianco
+CreateMeshBuilder,
+AddVertex,1.5, 0.1, 0.5,
+AddVertex,1.5, 0.1, 0,
+AddVertex,0.8, 0, 0,
+AddVertex,0.8, 0, 0.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,1.5, 0.1, 2.5,
+AddVertex,1.5, 0.1, 2,
+AddVertex,0.8, 0, 2,
+AddVertex,0.8, 0, 2.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+
+
+
+
+
+;; piano sopra binario
+CreateMeshBuilder,
+AddVertex,0.7, 0, 2,
+AddVertex,0.7, 0, 0.5,
+AddVertex,-0.7, 0, 0.5,
+AddVertex,-0.7, 0, 2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 3, 0,
+SetTextureCoordinates,2, 3, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;bianco
+CreateMeshBuilder,
+AddVertex,0.7, 0, 0.5,
+AddVertex,0.7, 0, 0,
+AddVertex,-0.7, 0, 0,
+AddVertex,-0.7, 0, 0.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,0.7, 0, 2.5,
+AddVertex,0.7, 0, 2,
+AddVertex,-0.7, 0, 2,
+AddVertex,-0.7, 0, 2.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+
+
+;fra i binari
+CreateMeshBuilder,
+AddVertex,-0.8, 0, 2,
+AddVertex,-0.8, 0, 0.5,
+AddVertex,-3.8, 0, 0.5,
+AddVertex,-3.8, 0, 2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 3, 0,
+SetTextureCoordinates,2, 3, 3,
+SetTextureCoordinates,3, 0, 3,
+
+
+;bianco
+CreateMeshBuilder,
+AddVertex,-0.8, 0, 0.5,
+AddVertex,-0.8, 0, 0,
+AddVertex,-3.8, 0, 0,
+AddVertex,-3.8, 0, 0.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 3,
+SetTextureCoordinates,3, 0, 3,
+
+CreateMeshBuilder,
+AddVertex,-0.8, 0, 2.5,
+AddVertex,-0.8, 0, 2,
+AddVertex,-3.8, 0, 2,
+AddVertex,-3.8, 0, 2.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 1, 3,
+SetTextureCoordinates,1, 0, 3,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+
+;riempimento
+CreateMeshBuilder,
+AddVertex,0.8, 0, 0,
+AddVertex,0.8, -0.2, 0,
+AddVertex,-5.3, -0.2, 0,
+AddVertex,-5.3, 0, 0,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, -0.25, 0,
+SetTextureCoordinates,2, -0.25, 5,
+SetTextureCoordinates,3, 0, 5,
+
+
+
+
+;sopra secondo binario
+;; piano sopra binario
+CreateMeshBuilder,
+AddVertex,-3.9, 0, 2,
+AddVertex,-3.9, 0, 0.5,
+AddVertex,-5.3, 0, 0.5,
+AddVertex,-5.3, 0, 2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 3, 0,
+SetTextureCoordinates,2, 3, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;bianco
+CreateMeshBuilder,
+AddVertex,-3.9, 0, 0.5,
+AddVertex,-3.9, 0, 0,
+AddVertex,-5.3, 0, 0,
+AddVertex,-5.3, 0, 0.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-3.9, 0, 2.5,
+AddVertex,-3.9, 0, 2,
+AddVertex,-5.3, 0, 2,
+AddVertex,-5.3, 0, 2.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+
+
+;inclinato fondo
+CreateMeshBuilder,
+AddVertex,-5.4, 0, 2,
+AddVertex,-5.4, 0, 0.5,
+AddVertex,-6.1, 0.1, 0.5,
+AddVertex,-6.1, 0.1, 2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 3, 0,
+SetTextureCoordinates,2, 3, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;bianco
+CreateMeshBuilder,
+AddVertex,-5.4, 0, 0.5,
+AddVertex,-5.4, 0, 0,
+AddVertex,-6.1, 0.1, 0,
+AddVertex,-6.1, 0.1, 0.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-5.4, 0, 2.5,
+AddVertex,-5.4, 0, 2,
+AddVertex,-6.1, 0.1, 2,
+AddVertex,-6.1, 0.1, 2.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+
+; riempimento inclinato
+CreateMeshBuilder,
+AddVertex,-6.1, 0.1, 0,
+AddVertex,-6.1, -0.2, 0,
+AddVertex,-5.4, -0.2, 0,
+AddVertex,-5.4, -0, 0,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,piastrella1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, -0.2, 0,
+SetTextureCoordinates,2, -0.2, 1,
+SetTextureCoordinates,3, 0, 1,

@@ -1,0 +1,86 @@
+[MeshBuilder]
+Vertex -1.35, -0.17, -0.5
+Vertex -1.35, -0.175, 25.5
+Vertex 1.35, -0.175, 25.5
+Vertex 1.35, -0.17, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load ..\schwellen1.bmp
+Coordinates 0, -0.02, 10
+Coordinates 1, -0.02, 0
+Coordinates 2, 1.02, 0
+Coordinates 3, 1.02, 10
+
+[MeshBuilder]
+Vertex -2.8, -0.4, -0.5
+Vertex -2.8, -0.405, 25.5
+Vertex -1.35, -0.175, 25.5
+Vertex -1.35, -0.17, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load ..\schotter1.bmp
+Coordinates 0, 0, 10
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 10
+
+[MeshBuilder]
+Vertex 1.35, -0.175, 25.5
+Vertex 2.8, -0.405, 25.5
+Vertex 2.8, -0.4, -0.5
+Vertex 1.35, -0.17, -0.5
+Face 0,1,2,3
+[Texture]
+Load ..\schotter1.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 10
+Coordinates 3, 0, 10
+
+[MeshBuilder]
+Vertex -0.8, 0, -0.4
+Vertex -0.8, 0, 25.4
+Vertex -0.72, 0, 25.4
+Vertex -0.72, 0, -0.4
+Face 0, 1, 2, 3
+Color 159,87,87
+
+[MeshBuilder]
+Vertex 0.72, 0, -0.3
+Vertex 0.72, 0, 25.3
+Vertex 0.8, 0, 25.3
+Vertex 0.8, 0, -0.3
+Face 0, 1, 2, 3
+Color 159,87,87
+
+[meshbuilder]
+vertex 0.76, 0, 25.3
+vertex 0.76, 0, -0.3
+vertex 0.76, -0.17, -0.3
+vertex 0.76, -0.17, 25.3
+face 0,1,2,3
+face 1,0,3,2
+color 108,36,36
+
+[meshbuilder]
+vertex -0.76, 0, -0.3
+vertex -0.76, 0, 25.3
+vertex -0.76, -0.17, 25.3
+vertex -0.76, -0.17, -0.3
+face 0,1,2,3
+face 1,0,3,2
+color 108,36,36
+
+[Meshbuilder]
+Vertex 0,0.8,0
+Vertex 0,-0.3,0
+Vertex 0,-0.3,25
+Vertex 0,0.8,25
+Face 0,1,2,3
+[Texture]
+load ..\track-weeds.bmp
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

@@ -1,0 +1,83 @@
+CreateMeshBuilder,
+AddVertex,-14.5, 6.3, -25,
+AddVertex,-14.5, 6.3, 25,
+AddVertex,-14.5,-1.0, 25,
+AddVertex,-14.5,-1.0, -25,
+
+AddVertex,18.3, 6.3, -25,
+AddVertex,18.3, 6.3, 25,
+AddVertex,18.3,-1.0, 25,
+AddVertex,18.3,-1.0, -25,
+AddFace2,0,1,2,3,
+AddFace2,7,6,5,4,
+LoadTexture,../../Road/tollgatewall1.bmp
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0.2,
+SetTextureCoordinates,2, 0, 0.2,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 1, 0.2,
+SetTextureCoordinates,6, 0, 0.2,
+SetTextureCoordinates,7, 0, 1,
+Setcolor,71,87,89
+SetEmissiveColor,21,27,29,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-14.5, 6.3, -25,
+ADdVertex,-14.5, 6.3, 25,
+AddVertex, 18.3, 6.3, 25,
+AddVertex, 18.3, 6.3, -25,
+AddFace,3,2,1,0,
+LoadTexture,../../Roof/RoofB.bmp
+SetTextureCoordinates,0, 0,-0.1,
+SetTextureCoordinates,1, 1,-0.1,
+SetTextureCoordinates,2, 1, 0.95,
+SetTextureCoordinates,3, 0, 0.95,
+GenerateNormals,
+SetEmissiveColor,255,255,255,
+
+CreateMeshBuilder,
+ADdVertex,-2.8, 5.5, 20.5
+AddVertex,-2.5, 5.6, 20.5
+AddVertex,-2.5, 5.6, -25
+AddVertex,-2.8, 5.5, -25
+
+ADdVertex,10.8, 5.5, 20.5
+AddVertex,10.5, 5.6, 20.5
+AddVertex,10.5, 5.6, -25
+AddVertex,10.8, 5.5, -25
+
+ADdVertex, 7.6, 5.5, 20.5
+AddVertex, 7.3, 5.6, 20.5
+AddVertex, 7.3, 5.6, -25
+AddVertex, 7.6, 5.5, -25
+
+ADdVertex,-6.6, 5.5, 20.5
+AddVertex,-6.3, 5.6, 20.5
+AddVertex,-6.3, 5.6, -25
+AddVertex,-6.6, 5.5, -25
+ADdFace2,3,2,1,0
+ADdFace2,4,5,6,7,
+ADdFace2,8,9,10,11
+ADdFace2,12,13,14,15,
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,12,0
+SetTextureCoordinates,3  ,12,1
+SetTextureCoordinates,4  ,0,1
+SetTextureCoordinates,5  ,0,0
+SetTextureCoordinates,6  ,12,0
+SetTextureCoordinates,7  ,12,1
+SetTextureCoordinates,8  ,0,1
+SetTextureCoordinates,9  ,0,0
+SetTextureCoordinates,10  ,12,0
+SetTextureCoordinates,11  ,12,1
+SetTextureCoordinates,12  ,0,1
+SetTextureCoordinates,13  ,0,0
+SetTextureCoordinates,14  ,12,0
+SetTextureCoordinates,15  ,12,1
+GenerateNormals,
+SetEmissiveColor,255,255,255,
+SetBlendMode,Additive,

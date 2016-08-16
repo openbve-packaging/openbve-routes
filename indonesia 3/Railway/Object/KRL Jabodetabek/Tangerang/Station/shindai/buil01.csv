@@ -1,0 +1,15 @@
+
+CreateMeshBuilder
+Addvertex,-55,-6.0,-20
+Addvertex,-55,12.0,-20
+Addvertex,-10,12.0,-2
+Addvertex,-10,-6.0,-2
+AddFace,0,1,2,3
+GenerateNormals
+
+LoadTexture,buil01.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransParentcolor,0,0,0

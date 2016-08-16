@@ -1,0 +1,121 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;;;;;traversa
+CreateMeshBuilder,
+AddVertex,-0.8, -0.16, -0.2,
+AddVertex,-0.8, -0.16, 0,
+AddVertex,0.8, -0.16,0,
+AddVertex,0.8, -0.16, -0.2,
+
+AddFace,0, 1, 2, 3,
+
+LoadTexture, rtb2.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+;;;;;;;;;;;1
+
+
+;;laterale
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.2
+AddVertex,0, 0.13, 0.2,
+AddVertex,0, 0.13, ,
+Translate, -1.1,-0.179,-0.20,
+AddFace,0, 1, 2, 3,
+
+LoadTexture, rtb.bmp
+SetTextureCoordinates,0, 0, 0.1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.1, 0,
+SetTextureCoordinates,3, 0.1, 0.1,
+
+;;;avanti
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0.3, 0, 0,
+AddVertex,0.3, 0.13, 0,
+AddVertex,0, 0.13, ,
+Translate, -1.1,-0.179,-0.20,
+AddFace,3, 2, 1, 0,
+setcolor, 180,180,120
+
+;;;dietro
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0.3, 0, 0,
+AddVertex,0.3, 0.13, 0,
+AddVertex,0, 0.13, ,
+Translate, -1.1,-0.179,0.0,
+AddFace,0, 1, 2, 3,
+setcolor, 180,180,120
+
+;;parte superiore 
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.2,
+AddVertex,0.3, 0, 0.2,
+AddVertex,0.3, 0, ,
+Translate, -1.1,-0.05,-0.20,
+AddFace,0, 1, 2, 3,
+
+LoadTexture, rtb.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, -1, 0,
+SetTextureCoordinates,3, -1, 1,
+;;;;;;;;;;;rtb 1
+
+
+;;laterale
+
+
+;;laterale
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.2,
+AddVertex,0, 0.13, 0.2,
+AddVertex,0, 0.13, ,
+Translate, 1.1,-0.179,-0.20,
+AddFace,3, 2, 1, 0,
+setcolor, 180,180,120
+
+;;;avanti
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0.3, 0, 0,
+AddVertex,0.3, 0.13, 0,
+AddVertex,0, 0.13, ,
+Translate, 0.8,-0.179,-0.20,
+AddFace,3, 2, 1, 0,
+setcolor, 180,180,120
+
+;;;dietro
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0.3, 0, 0,
+AddVertex,0.3, 0.13, 0,
+AddVertex,0, 0.13, ,
+Translate, 0.8,-0.179,0.0,
+AddFace,0, 1, 2, 3,
+setcolor, 180,180,120
+
+;;parte superiore 
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.2,
+AddVertex,0.3, 0, 0.2,
+AddVertex,0.3, 0, ,
+Translate, 0.8,-0.05,-0.20,
+AddFace,0, 1, 2, 3,
+
+LoadTexture, rtb.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,

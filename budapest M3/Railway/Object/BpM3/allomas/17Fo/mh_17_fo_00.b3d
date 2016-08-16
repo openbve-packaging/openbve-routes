@@ -1,0 +1,673 @@
+;Forgách utca megállóhely peron,födém
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;jobb oldali peron
+
+;peron széle felül
+[MeshBuilder]
+Vertex 01.45, 00.90, -01.00
+Vertex 01.45, 00.90, 24.00
+Vertex 01.45, 01.10, 24.00
+Vertex 01.45, 01.10, -01.00
+Vertex -05.85, 00.90, -01.00
+Vertex -05.85, 00.90, 24.00
+Vertex -05.85, 01.10, 24.00
+Vertex -05.85, 01.10, -01.00
+Face 0,1,2,3
+Face 7,6,5,4
+color 48,48,48
+
+;peron széle alul
+[MeshBuilder]
+Vertex 01.60, -00.20, -01.00
+Vertex 01.60, -00.20, 24.00
+Vertex 01.60, 00.90, 24.00
+Vertex 01.60, 00.90, -01.00
+Vertex -06.00, -00.20, -01.00
+Vertex -06.00, -00.20, 24.00
+Vertex -06.00, 00.90, 24.00
+Vertex -06.00, 00.90, -01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 25.00, 1.00
+Coordinates 2, 25.00, 0.15
+Coordinates 3, 00.00, 0.15
+Coordinates 4, 00.00, 1.00
+Coordinates 5, 25.00, 1.00
+Coordinates 6, 25.00, 0.15
+Coordinates 7, 00.00, 0.15
+
+;peron járófelület
+[MeshBuilder]
+Vertex 01.45, 01.10, -01.00
+Vertex 01.45, 01.10, 24.00
+Vertex 02.25, 01.10, 24.00
+Vertex 02.25, 01.10, -01.00
+Vertex -05.85, 01.10, -01.00
+Vertex -05.85, 01.10, 24.00
+Vertex -06.65, 01.10, 24.00
+Vertex -06.65, 01.10, -01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peron_sav.bmp
+Coordinates 0, 24.00, 600.00
+Coordinates 1, 24.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 600.00
+Coordinates 4, 24.00, 600.00
+Coordinates 5, 24.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 600.00
+
+[MeshBuilder]
+Vertex 02.25, 01.10, -01.00
+Vertex 02.25, 01.10, 24.00
+Vertex 21.15, 01.10, 24.00
+Vertex 21.15, 01.10, -01.00
+Vertex -06.65, 01.10, -01.00
+Vertex -06.65, 01.10, 24.00
+Vertex -25.55, 01.10, 24.00
+Vertex -25.55, 01.10, -01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load mh_17_fo_peronteto_1.bmp
+Coordinates 0, 24.00, 40.00
+Coordinates 1, 24.00, 00.00
+Coordinates 2, 0.00, 00.00
+Coordinates 3, 0.00, 40.00
+Coordinates 4, 24.00, 70.00
+Coordinates 5, 24.00, 00.00
+Coordinates 6, 0.00, 00.00
+Coordinates 7, 0.00, 70.00
+
+;--------------------------------------------------
+
+;Födém
+
+[MeshBuilder]
+;jobb peron
+;jobb szélsõ íves rész
+Vertex 05.40, 03.50, -01.00
+Vertex 05.33, 03.75, -01.00
+Vertex 05.15, 03.93, -01.00
+Vertex 04.90, 04.00, -01.00
+Vertex 04.60, 04.00, -01.00
+Vertex 05.40, 03.50, 24.00
+Vertex 05.33, 03.75, 24.00
+Vertex 05.15, 03.93, 24.00
+Vertex 04.90, 04.00, 24.00
+Vertex 04.60, 04.00, 24.00
+;világítási rész
+Vertex 02.60, 04.00, -01.00
+Vertex 02.60, 04.00, 24.00
+Vertex 04.60, 04.00, 24.00
+Vertex 04.60, 04.00, -01.00
+;bal szélsõ íves rész
+Vertex 01.80, 03.50, -01.00
+Vertex 01.87, 03.75, -01.00
+Vertex 02.05, 03.93, -01.00
+Vertex 02.30, 04.00, -01.00
+Vertex 02.60, 04.00, -01.00
+Vertex 01.80, 03.50, 24.00
+Vertex 01.87, 03.75, 24.00
+Vertex 02.05, 03.93, 24.00
+Vertex 02.30, 04.00, 24.00
+Vertex 02.60, 04.00, 24.00
+;sáv feletti rész
+Vertex 01.45, 03.50, -01.00
+Vertex 01.45, 03.50, 24.00
+Vertex 01.80, 03.50, 24.00
+Vertex 01.80, 03.50, -01.00
+;sáv oldalsó rész
+Vertex 01.45, 03.50, -01.00
+Vertex 01.45, 03.50, 24.00
+Vertex 01.45, 04.60, 24.00
+Vertex 01.45, 04.60, -01.00
+;bal peron
+;jobb szélsõ íves rész
+Vertex -09.80, 03.50, -01.00
+Vertex -09.73, 03.75, -01.00
+Vertex -09.55, 03.93, -01.00
+Vertex -09.30, 04.00, -01.00
+Vertex -09.00, 04.00, -01.00
+Vertex -09.80, 03.50, 24.00
+Vertex -09.73, 03.75, 24.00
+Vertex -09.55, 03.93, 24.00
+Vertex -09.30, 04.00, 24.00
+Vertex -09.00, 04.00, 24.00
+;világítási rész
+Vertex -07.00, 04.00, -01.00
+Vertex -07.00, 04.00, 24.00
+Vertex -09.00, 04.00, 24.00
+Vertex -09.00, 04.00, -01.00
+;bal szélsõ íves rész
+Vertex -06.20, 03.50, -01.00
+Vertex -06.27, 03.75, -01.00
+Vertex -06.45, 03.93, -01.00
+Vertex -06.70, 04.00, -01.00
+Vertex -07.00, 04.00, -01.00
+Vertex -06.20, 03.50, 24.00
+Vertex -06.27, 03.75, 24.00
+Vertex -06.45, 03.93, 24.00
+Vertex -06.70, 04.00, 24.00
+Vertex -07.00, 04.00, 24.00
+;sáv feletti rész
+Vertex -05.85, 03.50, -01.00
+Vertex -05.85, 03.50, 24.00
+Vertex -06.20, 03.50, 24.00
+Vertex -06.20, 03.50, -01.00
+;sáv oldalsó rész
+Vertex -05.85, 03.50, -01.00
+Vertex -05.85, 03.50, 24.00
+Vertex -05.85, 04.60, 24.00
+Vertex -05.85, 04.60, -01.00
+Face 5,6,1,0
+Face 6,7,2,1
+Face 7,8,3,2
+Face 8,9,4,3
+Face 13,12,11,10
+Face 14,15,20,19
+Face 15,16,21,20
+Face 16,17,22,21
+Face 17,18,23,22
+Face 27,26,25,24
+Face 28,29,30,31
+face 32,33,38,37
+face 33,34,39,38
+face 34,35,40,39
+face 35,36,41,40
+Face 42,43,44,45
+face 51,52,47,46
+face 52,53,48,47
+face 53,54,49,48
+face 54,55,50,49
+Face 56,57,58,59
+Face 63,62,61,60
+[Texture]
+Load mh_17_fo_fodem_01.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 00.25, 00.00
+Coordinates 2, 00.50, 00.00
+Coordinates 3, 00.75, 00.00
+Coordinates 4, 01.00, 00.00
+Coordinates 5, 00.00, 50.00
+Coordinates 6, 00.25, 50.00
+Coordinates 7, 00.50, 50.00
+Coordinates 8, 00.75, 50.00
+Coordinates 9, 01.00, 50.00
+Coordinates 10, 00.00, 00.00
+Coordinates 11, 00.00, 50.00
+Coordinates 12, 01.00, 50.00
+Coordinates 13, 01.00, 00.00
+Coordinates 14, 00.00, 00.00
+Coordinates 15, 00.25, 00.00
+Coordinates 16, 00.50, 00.00
+Coordinates 17, 00.75, 00.00
+Coordinates 18, 01.00, 00.00
+Coordinates 19, 00.00, 50.00
+Coordinates 20, 00.25, 50.00
+Coordinates 21, 00.50, 50.00
+Coordinates 22, 00.75, 50.00
+Coordinates 23, 01.00, 50.00
+Coordinates 24, 00.00, 00.00
+Coordinates 25, 00.00, 50.00
+Coordinates 26, 01.00, 50.00
+Coordinates 27, 01.00, 00.00
+Coordinates 28, 00.00, 00.00
+Coordinates 29, 00.00, 50.00
+Coordinates 30, 01.00, 50.00
+Coordinates 31, 01.00, 00.00
+Coordinates 32, 00.00, 00.00
+Coordinates 33, 00.25, 00.00
+Coordinates 34, 00.50, 00.00
+Coordinates 35, 00.75, 00.00
+Coordinates 36, 01.00, 00.00
+Coordinates 37, 00.00, 50.00
+Coordinates 38, 00.25, 50.00
+Coordinates 39, 00.50, 50.00
+Coordinates 40, 00.75, 50.00
+Coordinates 41, 01.00, 50.00
+Coordinates 42, 00.00, 00.00
+Coordinates 43, 00.00, 50.00
+Coordinates 44, 01.00, 50.00
+Coordinates 45, 01.00, 00.00
+Coordinates 46, 00.00, 00.00
+Coordinates 47, 00.25, 00.00
+Coordinates 48, 00.50, 00.00
+Coordinates 49, 00.75, 00.00
+Coordinates 50, 01.00, 00.00
+Coordinates 51, 00.00, 50.00
+Coordinates 52, 00.25, 50.00
+Coordinates 53, 00.50, 50.00
+Coordinates 54, 00.75, 50.00
+Coordinates 55, 01.00, 50.00
+Coordinates 56, 00.00, 00.00
+Coordinates 57, 00.00, 50.00
+Coordinates 58, 01.00, 50.00
+Coordinates 59, 01.00, 00.00
+Coordinates 60, 00.00, 00.00
+Coordinates 61, 00.00, 50.00
+Coordinates 62, 01.00, 50.00
+Coordinates 63, 01.00, 00.00
+
+;----------------------------------
+
+;Födém
+
+;födémgerendák
+
+[MeshBuilder]
+Vertex -5.85, 04.60, -01.25
+Vertex  1.45, 04.60, -01.25
+Vertex -5.85, 03.98, -01.25
+Vertex  1.45, 03.98, -01.25
+Vertex -5.85, 04.60, -00.75
+Vertex  1.45, 04.60, -00.75
+Vertex -5.85, 03.98, -00.75
+Vertex  1.45, 03.98, -00.75
+
+Vertex -5.85, 04.60,  00.00
+Vertex  1.45, 04.60,  00.00
+Vertex -5.85, 04.00,  00.00
+Vertex  1.45, 04.00,  00.00
+Vertex -5.85, 04.60,  00.50
+Vertex  1.45, 04.60,  00.50
+Vertex -5.85, 04.00,  00.50
+Vertex  1.45, 04.00,  00.50
+
+Vertex -5.85, 04.60,  01.25
+Vertex  1.45, 04.60,  01.25
+Vertex -5.85, 04.00,  01.25
+Vertex  1.45, 04.00,  01.25
+Vertex -5.85, 04.60,  01.75
+Vertex  1.45, 04.60,  01.75
+Vertex -5.85, 04.00,  01.75
+Vertex  1.45, 04.00,  01.75
+
+Vertex -5.85, 04.60,  02.50
+Vertex  1.45, 04.60,  02.50
+Vertex -5.85, 04.00,  02.50
+Vertex  1.45, 04.00,  02.50
+Vertex -5.85, 04.60,  03.00
+Vertex  1.45, 04.60,  03.00
+Vertex -5.85, 04.00,  03.00
+Vertex  1.45, 04.00,  03.00
+
+Vertex -5.85, 04.60,  03.75
+Vertex  1.45, 04.60,  03.75
+Vertex -5.85, 04.00,  03.75
+Vertex  1.45, 04.00,  03.75
+Vertex -5.85, 04.60,  04.25
+Vertex  1.45, 04.60,  04.25
+Vertex -5.85, 04.00,  04.25
+Vertex  1.45, 04.00,  04.25
+
+Vertex -5.85, 04.60,  05.00
+Vertex  1.45, 04.60,  05.00
+Vertex -5.85, 04.00,  05.00
+Vertex  1.45, 04.00,  05.00
+Vertex -5.85, 04.60,  05.50
+Vertex  1.45, 04.60,  05.50
+Vertex -5.85, 04.00,  05.50
+Vertex  1.45, 04.00,  05.50
+
+Vertex -5.85, 04.60,  06.25
+Vertex  1.45, 04.60,  06.25
+Vertex -5.85, 04.00,  06.25
+Vertex  1.45, 04.00,  06.25
+Vertex -5.85, 04.60,  06.75
+Vertex  1.45, 04.60,  06.75
+Vertex -5.85, 04.00,  06.75
+Vertex  1.45, 04.00,  06.75
+
+Vertex -5.85, 04.60,  07.50
+Vertex  1.45, 04.60,  07.50
+Vertex -5.85, 04.00,  07.50
+Vertex  1.45, 04.00,  07.50
+Vertex -5.85, 04.60,  08.00
+Vertex  1.45, 04.60,  08.00
+Vertex -5.85, 04.00,  08.00
+Vertex  1.45, 04.00,  08.00
+
+Vertex -5.85, 04.60,  08.75
+Vertex  1.45, 04.60,  08.75
+Vertex -5.85, 04.00,  08.75
+Vertex  1.45, 04.00,  08.75
+Vertex -5.85, 04.60,  09.25
+Vertex  1.45, 04.60,  09.25
+Vertex -5.85, 04.00,  09.25
+Vertex  1.45, 04.00,  09.25
+
+Vertex -5.85, 04.60,  10.00
+Vertex  1.45, 04.60,  10.00
+Vertex -5.85, 04.00,  10.00
+Vertex  1.45, 04.00,  10.00
+Vertex -5.85, 04.60,  10.50
+Vertex  1.45, 04.60,  10.50
+Vertex -5.85, 04.00,  10.50
+Vertex  1.45, 04.00,  10.50
+
+Vertex -5.85, 04.60,  11.25
+Vertex  1.45, 04.60,  11.25
+Vertex -5.85, 04.00,  11.25
+Vertex  1.45, 04.00,  11.25
+Vertex -5.85, 04.60,  11.75
+Vertex  1.45, 04.60,  11.75
+Vertex -5.85, 04.00,  11.75
+Vertex  1.45, 04.00,  11.75
+
+Vertex -5.85, 04.60,  12.50
+Vertex  1.45, 04.60,  12.50
+Vertex -5.85, 04.00,  12.50
+Vertex  1.45, 04.00,  12.50
+Vertex -5.85, 04.60,  13.00
+Vertex  1.45, 04.60,  13.00
+Vertex -5.85, 04.00,  13.00
+Vertex  1.45, 04.00,  13.00
+
+Vertex -5.85, 04.60,  13.75
+Vertex  1.45, 04.60,  13.75
+Vertex -5.85, 04.00,  13.75
+Vertex  1.45, 04.00,  13.75
+Vertex -5.85, 04.60,  14.25
+Vertex  1.45, 04.60,  14.25
+Vertex -5.85, 04.00,  14.25
+Vertex  1.45, 04.00,  14.25
+
+Vertex -5.85, 04.60,  15.00
+Vertex  1.45, 04.60,  15.00
+Vertex -5.85, 04.00,  15.00
+Vertex  1.45, 04.00,  15.00
+Vertex -5.85, 04.60,  15.50
+Vertex  1.45, 04.60,  15.50
+Vertex -5.85, 04.00,  15.50
+Vertex  1.45, 04.00,  15.50
+
+Vertex -5.85, 04.60,  16.25
+Vertex  1.45, 04.60,  16.25
+Vertex -5.85, 04.00,  16.25
+Vertex  1.45, 04.00,  16.25
+Vertex -5.85, 04.60,  16.75
+Vertex  1.45, 04.60,  16.75
+Vertex -5.85, 04.00,  16.75
+Vertex  1.45, 04.00,  16.75
+
+Vertex -5.85, 04.60,  17.50
+Vertex  1.45, 04.60,  17.50
+Vertex -5.85, 04.00,  17.50
+Vertex  1.45, 04.00,  17.50
+Vertex -5.85, 04.60,  18.00
+Vertex  1.45, 04.60,  18.00
+Vertex -5.85, 04.00,  18.00
+Vertex  1.45, 04.00,  18.00
+
+Vertex -5.85, 04.60,  18.75
+Vertex  1.45, 04.60,  18.75
+Vertex -5.85, 04.00,  18.75
+Vertex  1.45, 04.00,  18.75
+Vertex -5.85, 04.60,  19.25
+Vertex  1.45, 04.60,  19.25
+Vertex -5.85, 04.00,  19.25
+Vertex  1.45, 04.00,  19.25
+
+Vertex -5.85, 04.60,  20.00
+Vertex  1.45, 04.60,  20.00
+Vertex -5.85, 04.00,  20.00
+Vertex  1.45, 04.00,  20.00
+Vertex -5.85, 04.60,  20.50
+Vertex  1.45, 04.60,  20.50
+Vertex -5.85, 04.00,  20.50
+Vertex  1.45, 04.00,  20.50
+
+Vertex -5.85, 04.60,  21.25
+Vertex  1.45, 04.60,  21.25
+Vertex -5.85, 04.00,  21.25
+Vertex  1.45, 04.00,  21.25
+Vertex -5.85, 04.60,  21.75
+Vertex  1.45, 04.60,  21.75
+Vertex -5.85, 04.00,  21.75
+Vertex  1.45, 04.00,  21.75
+
+Vertex -5.85, 04.60,  22.50
+Vertex  1.45, 04.60,  22.50
+Vertex -5.85, 04.00,  22.50
+Vertex  1.45, 04.00,  22.50
+Vertex -5.85, 04.60,  23.00
+Vertex  1.45, 04.60,  23.00
+Vertex -5.85, 04.00,  23.00
+Vertex  1.45, 04.00,  23.00
+
+Vertex -5.85, 04.60,  23.75
+Vertex  1.45, 04.60,  23.75
+Vertex -5.85, 03.98,  23.75
+Vertex  1.45, 03.98,  23.75
+Vertex -5.85, 04.60,  24.25
+Vertex  1.45, 04.60,  24.25
+Vertex -5.85, 03.98,  24.25
+Vertex  1.45, 03.98,  24.25
+
+face 000,001,003,002
+face 008,009,011,010
+face 016,017,019,018
+face 024,025,027,026
+face 032,033,035,034
+face 040,041,043,042
+face 048,049,051,050
+face 056,057,059,058
+face 064,065,067,066
+face 072,073,075,074
+face 080,081,083,082
+face 088,089,091,090
+face 096,097,099,098
+face 104,105,107,106
+face 112,113,115,114
+face 120,121,123,122
+face 128,129,131,130
+face 136,137,139,138
+face 144,145,147,146
+face 152,153,155,154
+face 160,161,163,162
+
+face 004,006,007,005
+face 012,014,015,013
+face 020,022,023,021
+face 028,030,031,029
+face 036,038,039,037
+face 044,046,047,045
+face 052,054,055,053
+face 060,062,063,061
+face 068,070,071,069
+face 076,078,079,077
+face 084,086,087,085
+face 092,094,095,093
+face 100,102,103,101
+face 108,110,111,109
+face 116,118,119,117
+face 124,126,127,125
+face 132,134,135,133
+face 140,142,143,141
+face 148,150,151,149
+face 156,158,159,157
+face 164,166,167,165
+
+face 002,003,007,006
+face 010,011,015,014
+face 018,019,023,022
+face 026,027,031,030
+face 034,035,039,038
+face 042,043,047,046
+face 050,051,055,054
+face 058,059,063,062
+face 066,067,071,070
+face 074,075,079,078
+face 082,083,087,086
+face 090,091,095,094
+face 098,099,103,102
+face 106,107,111,110
+face 114,115,119,118
+face 122,123,127,126
+face 130,131,135,134
+face 138,139,143,142
+face 146,147,151,150
+face 154,155,159,158
+face 162,163,167,166
+
+color 130,130,120
+
+;--------------------------------------------------
+
+;világítótestek
+
+;jobb
+[MeshBuilder]
+Vertex 02.80, 03.97, -01.00
+Vertex 02.80, 03.97, 24.00
+Vertex 04.40, 03.97, 24.00
+Vertex 04.40, 03.97, -01.00
+Vertex -07.20, 03.97, -01.00
+Vertex -07.20, 03.97, 24.00
+Vertex -08.80, 03.97, 24.00
+Vertex -08.80, 03.97, -01.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_17_fo_vilagitas_01.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 00.00, 10.00
+Coordinates 2, 01.00, 10.00
+Coordinates 3, 01.00, 00.00
+Coordinates 4, 00.00, 00.00
+Coordinates 5, 00.00, 10.00
+Coordinates 6, 01.00, 10.00
+Coordinates 7, 01.00, 00.00
+transparent 0,0,255
+
+[MeshBuilder]
+vertex 01.53, 03.48, -01.00
+vertex 01.53, 03.50, -01.00
+vertex 01.53, 03.50, 24.00
+vertex 01.53, 03.48, 24.00
+vertex 01.53, 03.48, -01.00
+vertex 01.72, 03.48, -01.00
+vertex 01.72, 03.48, 24.00
+vertex 01.53, 03.48, 24.00
+vertex -05.93, 03.48, -01.00
+vertex -05.93, 03.50, -01.00
+vertex -05.93, 03.50, 24.00
+vertex -05.93, 03.48, 24.00
+vertex -05.93, 03.48, -01.00
+vertex -06.12, 03.48, -01.00
+vertex -06.12, 03.48, 24.00
+vertex -05.93, 03.48, 24.00
+Face 3,2,1,0
+Face 4,5,6,7
+Face 8,9,10,11
+Face 15,14,13,12
+[Texture]
+Load mh_17_fo_vilagitas_02.bmp
+Coordinates 0, 20.00, 01.00
+Coordinates 1, 20.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 20.00, 01.00
+Coordinates 5, 20.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 01.00
+Coordinates 8, 20.00, 01.00
+Coordinates 9, 20.00, 00.00
+Coordinates 10, 00.00, 00.00
+Coordinates 11, 00.00, 01.00
+Coordinates 12, 20.00, 01.00
+Coordinates 13, 20.00, 00.00
+Coordinates 14, 00.00, 00.00
+Coordinates 15, 00.00, 01.00
+
+;--------------------------------------------------
+
+;Oszlopok
+
+;vágányok között
+[MeshBuilder]
+cube 0.25, 1.85, 0.25
+color 57,69,121
+translate -2.20, 1.65, 1.5 
+
+[MeshBuilder]
+cube 0.25, 1.85, 0.25
+color 57,69,121
+translate -2.20, 1.65, 6.5 
+
+[MeshBuilder]
+cube 0.25, 1.85, 0.25
+color 57,69,121
+translate -2.20, 1.65, 11.5 
+
+[MeshBuilder]
+cube 0.25, 1.85, 0.25
+color 57,69,121
+translate -2.20, 1.65, 16.5 
+
+[MeshBuilder]
+cube 0.25, 1.85, 0.25
+color 57,69,121
+translate -2.20, 1.65, 21.5 
+
+;oszlopok közötti korlát
+
+[MeshBuilder]
+Vertex -2.20, -0.17, 01.75
+Vertex -2.20,  1.00, 01.75
+Vertex -2.20,  1.00, 06.25
+Vertex -2.20, -0.17, 06.25
+Vertex -2.20, -0.17, 06.75
+Vertex -2.20,  1.00, 06.75
+Vertex -2.20,  1.00, 11.25
+Vertex -2.20, -0.17, 11.25
+Vertex -2.20, -0.17, 11.75
+Vertex -2.20,  1.00, 11.75
+Vertex -2.20,  1.00, 16.25
+Vertex -2.20, -0.17, 16.25
+Vertex -2.20, -0.17, 16.75
+Vertex -2.20,  1.00, 16.75
+Vertex -2.20,  1.00, 21.25
+Vertex -2.20, -0.17, 21.25
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+Face2 12,13,14,15
+[Texture]
+Load mh_17_fo_oldalfal_06.bmp
+Coordinates 0, 4.00, 1.00
+Coordinates 1, 4.00, 0.00
+Coordinates 2, 0.00, 0.00
+Coordinates 3, 0.00, 1.00
+Coordinates 4, 4.00, 1.00
+Coordinates 5, 4.00, 0.00
+Coordinates 6, 0.00, 0.00
+Coordinates 7, 0.00, 1.00
+Coordinates 8, 4.00, 1.00
+Coordinates 9, 4.00, 0.00
+Coordinates 10, 0.00, 0.00
+Coordinates 11, 0.00, 1.00
+Coordinates 12, 4.00, 1.00
+Coordinates 13, 4.00, 0.00
+Coordinates 14, 0.00, 0.00
+Coordinates 15, 0.00, 1.00
+transparent 0,0,255
+
+;--------------------------------------------------
+
+;Oszlopok fölötti gerenda
+[MeshBuilder]
+cube 0.27, 0.25, 12.50
+color 120,120,120
+translate -2.20, 3.75, 11.50 

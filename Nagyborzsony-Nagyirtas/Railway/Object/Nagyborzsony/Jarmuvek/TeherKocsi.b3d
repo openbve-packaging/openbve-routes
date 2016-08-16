@@ -1,0 +1,360 @@
+;--- INITRND:894135511
+[MeshBuilder]
+Cylinder 4, 0.1, 0.05, 0.15
+Rotate 0, 1, 0, 45
+Rotate 1, 0, 0, 90
+Translate 0, 0, -0.075
+Translate 0, 0.36, 2.5
+Color 30, 30, 30
+[MeshBuilder]
+Cylinder 6, 0.05, 0.05, 0.3
+Rotate 1, 0, 0, 90
+Translate 0, 0, -0.15
+Translate 0, 0.36, 2.5
+Color 30, 30, 30
+[MeshBuilder]
+Cylinder 4, 0.1, 0.05, 0.15
+Rotate 0, 1, 0, 45
+Rotate 1, 0, 0, 90
+Translate 0, 0, -0.075
+Rotate 1, 0, 0, 180
+Translate 0, 0.36, -2.5
+Color 30, 30, 30
+[MeshBuilder]
+Cylinder 6, 0.05, 0.05, 0.3
+Rotate 1, 0, 0, 90
+Translate 0, 0, -0.15
+Rotate 1, 0, 0, 180
+Translate 0, 0.36, -2.5
+Color 30, 30, 30
+[MeshBuilder]
+Vertex -0.6, 0.35, 0
+Vertex 0.6, 0.35, 0
+Vertex 0.6, 0.105, 0
+Vertex -0.6, 0.105, 0
+Face 0,1,2,3
+Rotate 0, 1, 0, 90
+Translate -0.53, 0, 0
+Translate 0, 0, 1.5
+[Texture]
+Load ../Jarmuvek/bmp/ForgoZsamoly.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+[MeshBuilder]
+Vertex -0.6, 0.35, 0
+Vertex 0.6, 0.35, 0
+Vertex 0.6, 0.105, 0
+Vertex -0.6, 0.105, 0
+Vertex -0.6, 0.35, 0.1
+Vertex 0.6, 0.35, 0.1
+Vertex 0.6, 0.105, 0.1
+Vertex -0.6, 0.105, 0.1
+Face 7,6,5,4
+Face 1,5,6,2
+Face 7,3,2,6
+Face 4,0,3,7
+Color 20, 20, 20
+Rotate 0, 1, 0, 90
+Translate -0.53, 0, 0
+Translate 0, 0, 1.5
+[MeshBuilder]
+Vertex -0.6, 0.35, 0
+Vertex 0.6, 0.35, 0
+Vertex 0.6, 0.105, 0
+Vertex -0.6, 0.105, 0
+Face 0,1,2,3
+Rotate 0, 1, 0, -90
+Translate 0.53, 0, 0
+Translate 0, 0, 1.5
+[Texture]
+Load ../Jarmuvek/bmp/ForgoZsamoly.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+[MeshBuilder]
+Vertex -0.6, 0.35, 0
+Vertex 0.6, 0.35, 0
+Vertex 0.6, 0.105, 0
+Vertex -0.6, 0.105, 0
+Vertex -0.6, 0.35, 0.1
+Vertex 0.6, 0.35, 0.1
+Vertex 0.6, 0.105, 0.1
+Vertex -0.6, 0.105, 0.1
+Face 7,6,5,4
+Face 1,5,6,2
+Face 7,3,2,6
+Face 4,0,3,7
+Color 20, 20, 20
+Rotate 0, 1, 0, -90
+Translate 0.53, 0, 0
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cylinder 6, 0.025, 0.025, 0.76
+Color 30, 30, 30
+Rotate 0, 0, 1, 90
+Translate 0, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cylinder 12, 0.15, 0.15, 0.08
+Color 70, 70, 70
+Rotate 0, 0, 1, 90
+Translate 0.37, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cylinder 12, 0.15, 0.15, 0.08
+Color 70, 70, 70
+Rotate 0, 0, 1, 90
+Translate -0.37, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cube 0.1, 0.045, 0.045
+Color 62, 55, 47
+Translate 0.48, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cube 0.1, 0.045, 0.045
+Color 62, 55, 47
+Translate -0.48, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cylinder 6, 0.025, 0.025, 0.76
+Color 30, 30, 30
+Rotate 0, 0, 1, 90
+Translate 0, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cylinder 12, 0.15, 0.15, 0.08
+Color 70, 70, 70
+Rotate 0, 0, 1, 90
+Translate 0.37, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cylinder 12, 0.15, 0.15, 0.08
+Color 70, 70, 70
+Rotate 0, 0, 1, 90
+Translate -0.37, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cube 0.1, 0.045, 0.045
+Color 62, 55, 47
+Translate 0.48, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Cube 0.1, 0.045, 0.045
+Color 62, 55, 47
+Translate -0.48, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, 1.5
+[MeshBuilder]
+Vertex -0.6, 0.35, 0
+Vertex 0.6, 0.35, 0
+Vertex 0.6, 0.105, 0
+Vertex -0.6, 0.105, 0
+Face 0,1,2,3
+Rotate 0, 1, 0, 90
+Translate -0.53, 0, 0
+Translate 0, 0, -1.5
+[Texture]
+Load ../Jarmuvek/bmp/ForgoZsamoly.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+[MeshBuilder]
+Vertex -0.6, 0.35, 0
+Vertex 0.6, 0.35, 0
+Vertex 0.6, 0.105, 0
+Vertex -0.6, 0.105, 0
+Vertex -0.6, 0.35, 0.1
+Vertex 0.6, 0.35, 0.1
+Vertex 0.6, 0.105, 0.1
+Vertex -0.6, 0.105, 0.1
+Face 7,6,5,4
+Face 1,5,6,2
+Face 7,3,2,6
+Face 4,0,3,7
+Color 20, 20, 20
+Rotate 0, 1, 0, 90
+Translate -0.53, 0, 0
+Translate 0, 0, -1.5
+[MeshBuilder]
+Vertex -0.6, 0.35, 0
+Vertex 0.6, 0.35, 0
+Vertex 0.6, 0.105, 0
+Vertex -0.6, 0.105, 0
+Face 0,1,2,3
+Rotate 0, 1, 0, -90
+Translate 0.53, 0, 0
+Translate 0, 0, -1.5
+[Texture]
+Load ../Jarmuvek/bmp/ForgoZsamoly.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+[MeshBuilder]
+Vertex -0.6, 0.35, 0
+Vertex 0.6, 0.35, 0
+Vertex 0.6, 0.105, 0
+Vertex -0.6, 0.105, 0
+Vertex -0.6, 0.35, 0.1
+Vertex 0.6, 0.35, 0.1
+Vertex 0.6, 0.105, 0.1
+Vertex -0.6, 0.105, 0.1
+Face 7,6,5,4
+Face 1,5,6,2
+Face 7,3,2,6
+Face 4,0,3,7
+Color 20, 20, 20
+Rotate 0, 1, 0, -90
+Translate 0.53, 0, 0
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cylinder 6, 0.025, 0.025, 0.76
+Color 30, 30, 30
+Rotate 0, 0, 1, 90
+Translate 0, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cylinder 12, 0.15, 0.15, 0.08
+Color 70, 70, 70
+Rotate 0, 0, 1, 90
+Translate 0.37, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cylinder 12, 0.15, 0.15, 0.08
+Color 70, 70, 70
+Rotate 0, 0, 1, 90
+Translate -0.37, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cube 0.1, 0.045, 0.045
+Color 62, 55, 47
+Translate 0.48, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cube 0.1, 0.045, 0.045
+Color 62, 55, 47
+Translate -0.48, 0.15, 0
+Translate 0, 0, 0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cylinder 6, 0.025, 0.025, 0.76
+Color 30, 30, 30
+Rotate 0, 0, 1, 90
+Translate 0, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cylinder 12, 0.15, 0.15, 0.08
+Color 70, 70, 70
+Rotate 0, 0, 1, 90
+Translate 0.37, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cylinder 12, 0.15, 0.15, 0.08
+Color 70, 70, 70
+Rotate 0, 0, 1, 90
+Translate -0.37, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cube 0.1, 0.045, 0.045
+Color 62, 55, 47
+Translate 0.48, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Cube 0.1, 0.045, 0.045
+Color 62, 55, 47
+Translate -0.48, 0.15, 0
+Translate 0, 0, -0.4
+Translate 0, 0, -1.5
+[MeshBuilder]
+Vertex -0.6, 0.05, -2.2
+Vertex 0.6, 0.05, -2.2
+Vertex 0.6, -0.05, -2.2
+Vertex -0.6, -0.05, -2.2
+Vertex -0.6, 0.05, 2.2
+Vertex 0.6, 0.05, 2.2
+Vertex 0.6, -0.05, 2.2
+Vertex -0.6, -0.05, 2.2
+Face 0,1,2,3
+Face 5,4,7,6
+Face 4,0,3,7
+Face 1,5,6,2
+Face 3,2,6,7
+Translate 0, 0.36, 0
+Color 158,158,158
+[MeshBuilder]
+Vertex -0.6, 0.05, 2.2
+Vertex 0.6, 0.05, 2.2
+Vertex 0.6, 0.05, -2.2
+Vertex -0.6, 0.05, -2.2
+Face 0,1,2,3
+Translate 0, 0.36, 0
+[Texture]
+Load ../Jarmuvek/bmp/PoreTeto.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 30
+Coordinates 3, 0, 30
+[MeshBuilder]
+Vertex -0.6, 1.21, -2.2
+Vertex 0.6, 1.21, -2.2
+Vertex 0.6, 0.41, -2.2
+Vertex -0.6, 0.41, -2.2
+Vertex -0.6, 1.21, 2.2
+Vertex 0.6, 1.21, 2.2
+Vertex 0.6, 0.41, 2.2
+Vertex -0.6, 0.41, 2.2
+Face2 0,1,2,3
+Face2 5,4,7,6
+[Texture]
+Load ../Jarmuvek/bmp/TeherOldal.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Coordinates 5, 0, 0
+Coordinates 4, 1, 0
+Coordinates 7, 1, 1
+Coordinates 6, 0, 1
+[MeshBuilder]
+Vertex -0.6, 1.21, -2.2
+Vertex 0.6, 1.21, -2.2
+Vertex 0.6, 0.41, -2.2
+Vertex -0.6, 0.41, -2.2
+Vertex -0.6, 1.21, 2.2
+Vertex 0.6, 1.21, 2.2
+Vertex 0.6, 0.41, 2.2
+Vertex -0.6, 0.41, 2.2
+Face2 4,0,3,7
+Face2 1,5,6,2
+[Texture]
+Load ../Jarmuvek/bmp/TeherOldal.bmp
+Coordinates 4, 0, 0
+Coordinates 0, 4, 0
+Coordinates 3, 4, 1
+Coordinates 7, 0, 1
+Coordinates 1, 0, 0
+Coordinates 5, 4, 0
+Coordinates 6, 4, 1
+Coordinates 2, 0, 1

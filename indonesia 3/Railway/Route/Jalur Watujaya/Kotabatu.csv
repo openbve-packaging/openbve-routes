@@ -1,0 +1,3237 @@
+Route.Comment Lokal Watujaya-Kotabatu,
+Route.Timetable Berhenti di setiap stasiun,
+Route.Change 1,
+Route.Gauge 1067,
+Route.Signal(1) 25,
+Route.Signal(2) 55,
+Route.Signal(3) 75,
+Route.DeveloperID 223kei,
+Train.Folder KRL Hitachi,
+;Train.Folder DC120,
+;Train.Folder DC120,
+Train.Run(0) 0,
+Train.Flange(0) 0,
+Train.Run(1) 2,
+Train.Flange(1) 0,
+Train.Run(2) 2,
+Train.Flange(1) 0,
+Train.Run(40) 0,
+Train.Flange(40) 0,
+Train.Run(44) 0,
+Train.Flange(44) 0,
+Train.Run(60) 0,
+Train.Flange(60) 0,
+Train.Run(66) 0,
+Train.Flange(66) 0,
+Train.Run(80) 0,
+Train.Flange(0) 0,
+Train.Run(88) 0,
+Train.Flange(88) 0,
+,
+Texture.Background(0) kasuga\back.bmp,
+Texture.Background(1) kasuga\back10.bmp,
+Texture.Background(2) kasuga\back_high.bmp,
+,
+,
+,
+With Track,
+0,
+,.back 1;
+,.Sta Watujaya;07.0245;07.0400;0;-1;0;0;;60;125;Dept.wav
+,.rail 1;4.3;0;0
+,.height 0.7;
+,.rail 5;18.2;0;0
+,.rail 6;22.5;0;0
+;.Fog 300; 1000;255; 220; 180; ,
+,.Form 1;5;1;0
+,.Form 6;R;1;0
+25,
+,.rail 3;-10;0;0
+,.rail 4;-14.3;0;0
+,
+,.Form 0;3;1;0
+,.Form 1;5;1;0
+,.Form 6;R;1;0
+,
+50,
+,.stop 0;
+,
+,.FreeObj 0;21;;;0
+,
+,.ground 0;
+,.Accuracy 1.5
+,
+,.rail 3;-10;0;0
+,.rail 4;-14.3;0;0
+,.Form 0;3;1;0
+,.Form 1;5;1;0
+,.Form 6;R;1;0
+,
+,.FreeObj 1;100;0;0
+,.FreeObj 0;101;0;0
+,.wall 3;1;10
+,
+52,
+,.FreeObj 0;102;0;0;0
+60,
+.FreeObj 1;20;-.3;-.5;0,
+.Tr 0;0;0,
+75,
+,.rail 3;-8.9;0;0
+,.rail 4;-13.2;0;0
+,.Crack 3;0;0
+,.Crack 1;5;0
+,
+,.Form 0;3;0;0
+,.Form 1;5;1;0
+,.Form 6;R;1;0
+,
+,.FreeObj 1;100;0;0
+,.FreeObj 0;90;0;0
+,.FreeObj 1;90;-.1;0
+80,
+,.Tr 1;0;0
+83,
+,.FreeObj 0;22;-2;0
+87,
+,.Relay 7.2;3.8;
+.Tr 1;0;0,
+93,
+,.Freeobj 0;1000;0;0
+100,
+,.curve 600;25
+,.railtype 0;60
+,.rail 1;4.3;0;80
+,.rail 2;4.3;0;0
+,.rail 3;-7.6;0;80
+,.rail 4;-11.9;0;60
+,.rail 5;18.2;0;0
+,.rail 6;22.5;0;0
+,.rail 7;22.5;0;0
+,.Crack 3;0;0
+,.Crack 1;5;0
+,.Form 6;R;1;0
+,.wallend 3;
+,
+102,
+,.FreeObj 0;90;0;0
+,.FreeObj 1;90;-.1;0
+,.FreeObj 3;90;0;0
+,.FreeObj 4;90;-.3;0
+108,
+,.FreeObj 0;200;-3;0
+,.FreeObj 0;200;-5;-1;0
+,.FreeObj 0;203;-5;3.5;0;
+,.Sig 3;èo;-3;4.5;3;
+116,
+,.FreeObj 0;23;-1;0;0
+120,
+,.FreeObj 1;200;3.3;0;0
+,.FreeObj 1;202;3.3;4.5;0;0
+125,
+,.rail 1;4.3;0;80
+,.rail 2;3.8;0;0 
+,.rail 3;-6.3;0;80
+,.rail 4;-10.6;0;40
+,.rail 5;17.8;0;0
+,.rail 6;22.1;0;0
+,.rail 7;21.5;0;0
+,.Crack 3;0;0
+,.Crack 1;5;0
+,.Form 6;R;1;0
+,.FreeObj 6;100;0;0
+,.FreeObj 6;99;
+150,
+,.curve 0;
+,.railtype 0;0
+,.rail 1;4;0;80
+,.rail 2;2.2;0;40
+,.rail 3;-5;0;0
+,.rail 4;-8.8;0;40
+,.rail 5;16.4;0;0
+,.rail 6;20.7;0;0
+,.rail 7;18.1;0;0
+,.Crack 1;5;0
+173,
+,.freeobj 5;1002;1.2;0
+175,
+,.rail 1;3.8;0;0
+,.rail 2;0.6;0;40
+,.rail 3;-3.7;0;0
+,.rail 4;-5.6;0;44
+,.rail 5;14.3;0;0
+,.rail 6;18.6;0;0
+,.rail 7;14.7;0;0
+,.Crack 1;5;0
+,
+,.Freeobj 4;1001;0;0
+,
+200,
+,.railend 2;0;0;0;
+,.rail 3;-2.4;0;0
+,.railend 4;-2.4;0;0
+,.rail 5;12.2;0;0
+,.rail 6;16.5;0;0
+,.railend 7;12.2;0;0
+,.Pitch 3.3
+,.Crack 1;5;0
+225,
+,.rail 3;-1.1;0;88
+,.rail 5;10.1;0;0
+,.rail 6;14.4;0;0
+,.Crack 1;5;0
+,.Freeobj 3;1001;0;0
+230,
+,.FreeObj 5;200;1.9;0;0
+,.FreeObj 5;202;1.9;4.5;0
+235,
+,.FreeObj 5;200;1.9;0;0
+,.FreeObj 5;202;1.9;4.5;0
+250,
+,.railend 3;0;0;0
+,.rail 5;8;0;0
+,.rail 6;12.3;0;0
+,.FreeObj 0;92;0;0
+,.FreeObj 0;91;0;0
+,.FreeObj 1;91;0;0
+,.FreeObj 5;91;0;0
+,.FreeObj 6;91;0;0
+,.FreeObj 6;93;0;0
+,
+.Doppler Crossing.wav; -1; 2.5,
+,
+,
+275,
+,.curve -600;20
+,.rail 1;3.8;0;66
+,.rail 5;5.9;0;0
+,.rail 6;10.1;0;0
+,.railtype 0;66 
+.wall 0;-1;11,
+300,
+,.rail 1;3.8;0;66
+,.rail 5;4.3;0;0
+,.rail 6;8.4;0;0
+,.rail 7;8.4;0;60
+,
+,.pole 0;2;0;50;1
+312,
+,.FreeObj 0;105;-4.5;0
+325,
+,.curve -1200;10
+,.rail 1;3.8;0;0
+,.rail 4;3.8;0;40
+,.railend 5;3.8;0;0
+,.rail 6;7.8;0;0
+,.railend 7;10.3;0;0
+,.railtype 0;0
+330,
+,
+,.FreeObj 6;103;5;0
+350,
+,.curve 325;20
+,.railtype 0;40
+,.rail 2;0;0;0
+,.rail 4;4.8;0;0
+,.Pitch 7.2
+,.wallend 0;
+,.limit 45;-1;1;
+,.wall 2;-1;11
+364,
+,.FreeObj 6;30;3;0;0
+367,
+,.FreeObj 6;104;-25;;-10
+375,
+,.curve 0
+,.railtype 0;0
+,.rail 1;3;0;0
+,.rail 4;5.8;0;44
+,.rail 6;7;0;0
+,.rail 2;-.8;0;0
+400,
+,.curve -325;20
+,.rail 1;1.1;0;0
+,.rail 4;5;0;17
+,.rail 6;5;0;0
+,.rail 2;-2.7;0;0
+,.railtype 0;44
+,.pole 0;2;1;50;1
+425,
+,.curve 0;0
+,.railtype 0;0
+,.railend 1;0;0;0
+,.rail 6;3.8;0;0
+,.rail 2;-3.8;0;0
+,.rail 4;1.9;0;16
+,.wallend 2;
+441,
+,.FreeObj 0;105;-8.8;0;0
+450,
+,.railend 4;0;0
+,.Curve -800;22
+,.Pitch 10
+,.railtype 0;88
+,.rail 2;-3.8;0;88
+,.rail 6;3.8;0;88
+,.limit 65;-1;0
+475,
+,.Curve -400;56
+,.railtype 0;44
+,.rail 2;-3.8;0;44
+,.rail 6;3.8;0;44
+485,
+,.FreeObj 2;105;-5;0
+500,
+,.FreeObj 6;103;5;0;0
+525,
+,.rail 3;0;0;0
+535,
+,.FreeObj 2;105;-5;0;0
+550,
+,.rail 3;.9;0;44
+,.FreeObj 6;104;-25;0;0
+555,
+,.FreeObj 6;30;3;0
+,.FreeObj 2;31;-3;0
+575,
+,.rail 3;2.3;0;44
+593,
+,.FreeObj 2;40;0;0
+600,
+,.railend 3;3.8;0;0
+,.rail 2;-3.8;0;254
+,
+625,
+,.railend 2;-3.8;0;0
+,.FreeObj 0;94;0;0
+,.FreeObj 6;94;0;0
+,.FreeObj 0;95;0;0
+,.FreeObj 6;96;0;0
+630,
+,.FreeObj 0;41;0;0
+650,
+,.poleend 0
+,.FreeObj 0;108;0;0
+,
+655,
+,
+,.FreeObj 6;104;-25;-5;
+675,
+,.limit 0;-1;0
+,.pole 0;0;-1;25;1
+,.pole 6;0;1;25;1
+,.FreeObj 6;500;-.2;-.2;
+,.FreeObj 0;108;0;0
+700,
+,.FreeObj 6;500;2.4;2;
+,.pitch 10
+,
+,.pole 0;0;-1;50;1
+,.pole 6;0;1;50;1
+,.FreeObj 0;108;0;0
+705,
+,.FreeObj 0;23;0;-.7;0
+715,
+,.Tr 0;0;0
+723,
+,.FreeObj 0;31;-1.8;0;0
+,.FreeObj 6;30;1.8;0;0
+725,
+,.FreeObj 6;501;2.4;2
+,
+,.Rail 15;-6.7;-0.2;253;
+,.FreeObj 6;701;31;4.5;0
+740,
+,.FreeObj 0;710;-10;0;0
+750,
+,.FreeObj 6;700;;4.5;30
+,
+,.Dike 0;-1;0
+,.Dike 6;1;0
+,
+,.height 0.7
+,.FreeObj 6;501;2.4;2
+,.Rail 15;-7;0.2;253;
+,
+760,
+,.FreeObj 0;32;-4.5;-.5
+768,
+,.FreeObj 6;701;21;4.5;86
+770,
+,.FreeObj 0;711;-5;0;0
+775,
+,.FreeObj 6;501;2.4;2
+,.Rail 15;-7.5;1.2;253;
+,
+800,
+,.FreeObj 6;501;2.4;2
+,.FreeObj 6;700;;4.5;30
+,.FreeObj 0;710;-10;0;0
+815,
+,.FreeObj 6;701;21;4.5;86
+825,
+,.FreeObj 6;502;2.4;2
+,.FreeObj 0;712;-10;0;0
+846,
+,.FreeObj 0;89;-3;0;70
+848,
+,.FreeObj 0;89;8;0;70
+,
+850,
+,.height 0.5
+,.railend 15;-6.7;0;253
+,.FreeObj 0;94;0;0;2
+,.FreeObj 6;94;0;0;2
+,.FreeObj 0;95;0;0;2
+,.FreeObj 6;96;0;0;2
+,.FreeObj 0;750;-12;0;0
+.Doppler Crossing.wav; -1; 2.5,
+853,
+,.FreeObj 0;89;-3;0;70
+855,
+,.FreeObj 0;89;8;0;70
+860,
+,.FreeObj 6;712;8;0;90
+890,
+,.FreeObj 6;710;15;-3;90
+900,
+,.Rail 15;7;-3;255
+,.Wall 15;1;12
+,.FreeObj 0;711;-15;-2;0
+,
+913,
+,.FreeObj 6;205;2.9;;;
+939,
+,.FreeObj 0;710;-27;-4;
+,.FreeObj 6;711;23;-4;90
+1000,
+,.Curve 0;0
+,.railtype 0;0
+,.rail 6;3.8;0;0 
+,
+,.Wallend 15;
+,.railend 15;7;-3;255
+,.FreeObj -1;711;-20;
+1050,
+,.FreeObj -1;720;15;;90 
+,.FreeObj -1;710;-19;0;0
+1075,
+,.railtype 0;1
+,.rail 6;3.8;0;1
+,
+1100,
+,.railtype 0;0
+,.rail 6;3.8;0;0
+,.FreeObj 0;752;-11;-6;0
+1150,
+,.FreeObj -1;711;-10;
+,.pitch 5
+1165,
+,.FreeObj 0;31;-2.9;0;
+1200,
+,.pitch 0
+,.height 15;
+.Doppler Crossing.wav; -1; 2.5,
+1208,
+,.FreeObj 6;33;2.9;0;0
+1212,
+,
+,.FreeObj 0;94;0;0
+,.FreeObj 6;94;0;0
+,.FreeObj 0;95;0;0
+,.FreeObj 6;96;0;0
+,.FreeObj 0;503;-3;0
+,.FreeObj 6;504;3;0
+1225,
+,.Railtype 0;2
+,.rail 6;3.8;0;2
+,.Dikeend 0
+,.Dikeend 6
+,.Wall 0;-1;9
+,.Wall 6;1;9
+1247,
+,.FreeObj 0;89;-4;0;90
+,.FreeObj 6;89;4;0;90
+1250,
+,.Railtype 0;0
+,.rail 6;3.8;0;0
+,.wallend 0
+,.Wallend 6
+,.Dike 0;-1;0
+,.Dike 6;1;0
+,.pitch -7.6;
+,
+,.FreeObj 0;94;0;0
+,.FreeObj 6;94;0;0
+,.FreeObj 0;95;0;0
+,.FreeObj 6;96;0;0
+,
+,
+,.FreeObj 0;505;-3;0
+,.FreeObj 6;506;3;0
+,
+1253,
+,.FreeObj 0;89;-4;0;90
+,.FreeObj 6;89;4;0;90
+,
+1257,
+,.FreeObj 0;750;35;-1.5;
+,.FreeObj 0;750;25;-1;
+,.FreeObj 0;750;15;-.5;
+,.FreeObj 0;750;-10;-.5;
+,.FreeObj 0;750;-20;-1;
+,.FreeObj 0;750;-30;-1.5;
+1275,
+,.Rail 15;-17;-10;253
+,
+1300,
+,.pitch -15.2
+1310,
+,.FreeObj -1;712;-20;
+1315,
+,.Sig 3;?Q;-2.9;4.5;1
+,.FreeObj 0;200;-2.9;0;0
+1325,
+,.Railtype 0;1
+,.Rail 6;3.8;0;1
+,.Tr 0;0;0
+1330,
+,.FreeObj -1;710;-20;
+1350,
+,.Rail 15;-17;-9;253
+,.rail 14;15;-9;253
+,.Railtype 0;0
+,.Rail 6;3.8;0;0
+1353,
+,.FreeObj -1;711;-13;
+1373,
+,.FreeObj -1;712;-20;
+1375,
+,.Rail 15;-17;-8;253
+,.rail 14;25;-8;253
+1400,
+,.Railend 15;-17;-7.5;253
+,.rail 14;35;-7.5;253
+,.FreeObj -1;710;20;0;90
+1425,
+,.railend 14;45;-7;253
+,.FreeObj -1;710;35;0;90
+1450,
+1525,
+,.FreeObj 0;34;-2.9;0
+,.FreeObj 6;35;2.9;0
+1575,
+,.FreeObj -1;720;-30;-5;30
+,.FreeObj -1;701;65;;10
+,.FreeObj -1;701;30;;10
+,.FreeObj -1;751;15;
+1588,
+,.FreeObj -1;751;12.5;
+1600,
+,.FreeObj -1;751;10;
+,.pitch -7.6;
+,.height .8;
+,.wall 0;-1;12
+1602,
+,.FreeObj -1;712;-7;0;
+1610,
+,.FreeObj -1;711;20;;90
+1622,
+,.FreeObj -1;710;-7;0;0
+1630,
+,.FreeObj -1;711;20;;90
+1644,
+,.FreeObj -1;710;-7;0;0
+1650,
+,.pitch 0;
+,.FreeObj -1;711;20;;90
+,.FreeObj -1;710;-7;0;0
+1670,
+,.FreeObj -1;710;-7;0;0
+1690,
+,
+,.FreeObj -1;710;-7;0;0
+1700,
+,.pitch 3;
+,.wall 0;-1;11
+,.dikeend 0;
+,.dikeend 6;
+,.height 0.5;
+1725,
+,.wallend 0;
+,.FreeObj 0;91;0;0
+,.FreeObj 6;91;0;0
+,.FreeObj 0;92;0;0
+,.FreeObj 6;93;0;0 
+.Doppler Crossing.wav; -1; 2.5,
+1731,
+,.FreeObj 6;96;0;0
+1738,
+,.FreeObj 6;89;4;0;90 
+1740,
+,.FreeObj 0;89;-4;0;90
+,
+1742,
+,.FreeObj 0;95;0;0
+,
+1747,
+,.FreeObj 0;89;-4;0;90
+,.FreeObj 6;89;4;0;90
+1748,
+,.FreeObj 6;97;3;0.7;70
+1750,
+,.Wall 6;1;12;
+1780,
+,.FreeObj 6;712;14;0;90
+1800,
+,.pitch 6.1
+,.Curve 600;54
+,.railtype 0;60
+,.rail 6;3.8;0;60
+,
+1820,
+,.FreeObj 6;712;14;0;90
+1830,
+,.FreeObj 0;103;-10;-12;-90
+1850,
+,.Wallend 6;
+,.FreeObj -1;507;5;0;
+1855,
+,.FreeObj -1;711;0;0;0
+1875,
+,.FreeObj -1;710;-7;0;0
+,.FreeObj -1;508;5;0;0
+,
+1895,
+,.FreeObj -1;710;-7;0;0
+,.FreeObj 6;700;0;1.3;0
+1900,
+,.FreeObj -1;502;5;;0
+,.Rail 14;15;2;252
+,.Rail 15;-30;0;253
+,
+1925,
+,.Sig 4;?P;-3.4;4.5;1
+,.FreeObj 0;200;-3.4;0;
+,.railend 14;13;0;252
+,.rail 15;-20;0;253;
+,.FreeObj 0;104;-15;-33;-80
+1935,
+,.Tr 0;0;0
+1940,
+,.FreeObj -1;700;-48;0;0
+,
+1943,
+,.FreeObj 0;94;0;0;0
+,.FreeObj 6;94;0;0;0
+,.FreeObj 0;95;0;0;0
+,.FreeObj 6;96;0;0;0
+,
+1949,
+,.FreeObj 6;97;3;0.7;70
+,.FreeObj 0;97;-3;0.7;0
+,.FreeObj 0;89;-4;0;90
+,.FreeObj 6;89;4;0;90
+1950,
+,.railend 15;-6;0;253;
+,.rail 15;10;-.5;253; 
+,.FreeObj -1;509;5;1.3;0
+,.FreeObj -1;511;-2;1.3;0
+.Doppler Crossing.wav; -1; 2.5,
+1975,
+,.railend 15;20;3;253
+,.FreeObj -1;510;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+1989,
+,.FreeObj 6;710;7;2.2;90
+1995,
+,.FreeObj 0;31;-2.9;0
+2000,
+,.FreeObj -1;510;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+2010,
+,.FreeObj 0;711;-1;1.2;
+2025,
+,.FreeObj -1;510;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+,
+,
+2050,
+,.FreeObj -1;510;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+,.FreeObj 0;36;0;0;0
+,.FreeObj 0;103;-10;-10;-90
+,.Rail 15;-30;4;251
+2070,
+,.FreeObj 6;700;-2;1.3;50;
+2075,
+,.FreeObj -1;510;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+2100,
+,.FreeObj -1;510;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+2125,
+,.FreeObj -1;510;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+2150,
+,.FreeObj -1;510;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+2175,
+,.FreeObj -1;510;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+,.Rail 15;-30;4.4;251
+2200,
+,.FreeObj -1;500;5;1.2;0
+,.FreeObj -1;512;-2;1.2;0
+,.poleend 6
+,.pole 0;3;1;50;1
+,.Rail 15;-30;5.2;251
+2210,
+,.FreeObj 0;31;-2.9;0;0
+2225,
+,.FreeObj -1;512;-2;1.2;
+,.FreeObj -1;511;-2.4;4.8;-2
+,.FreeObj -1;500;7;3;-2
+,.Rail 15;-30;6;251
+2250,
+,.Curve 0;
+,.Pitch 10.0
+,.railtype 0;0
+,.rail 6;3.8;0;0
+,.FreeObj 6;513;0;0
+,.FreeObj 0;514;0;0;
+,.poleend 0
+,.FreeObj 0;1003;-3.8;0;0
+,.FreeObj 6;205;2.9;0;0
+,.Rail 15;-30;6.8;251
+2275,
+,.FreeObj 6;513;0;0
+,.FreeObj 0;514;0;0;
+,.Rail 15;-29;7.6;251
+2295,
+,.FreeObj 6;710;13;6;90;
+2300,
+,.FreeObj 6;513;0;0
+,.FreeObj 0;514;0;0;
+,.FreeObj 0;753;40;2;0
+,.FreeObj 0;753;59;2;0
+,.FreeObj 0;1003;-3.8;0;0
+,.Rail 15;-28;8.4;251
+2310,
+,.FreeObj 6;712;13;6;90;
+2325,
+,.FreeObj 6;513;0;0
+,.FreeObj 0;514;0;0;
+,.FreeObj 0;753;40;2;0
+,.Rail 15;-26;9.2;251
+2350,
+,.FreeObj 6;513;0;0
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;700;2;6;60;
+,.Rail 15;-24;10;251
+,.FreeObj 0;1003;-3.8;0;0
+2367,
+,.FreeObj 0;31;-2.9;0;0
+2375,
+,.FreeObj 6;513;0;0
+,.FreeObj 0;514;0;0;
+,.Rail 15;-22;10;251
+,.FreeObj 0;42;0;0
+2400,
+,.FreeObj 6;513;0;0
+,.FreeObj 0;514;0;0;
+,.Rail 15;-21;10;251
+,.FreeObj 0;1003;-3.8;0;0
+,.pitch 5
+,
+2425,
+,.Rail 15;-22;10;251
+,.FreeObj 6;513;0;0
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;710;13;6;90;
+2450,
+,.Rail 15;-24;10;251
+,.FreeObj 6;513;0;0
+,.FreeObj 0;514;0;0;
+,.pitch 0
+,.FreeObj 0;1003;-3.8;0;0
+2474,
+,.FreeObj 0;34;-2.9;0;0
+,.FreeObj 6;35;2.9;0;0
+2475,
+,.Rail 15;-26;10;251
+,.FreeObj 0;42;0;0
+,.FreeObj 6;515;0;0
+,.FreeObj 0;514;0;0;
+,
+2500,
+,.Rail 15;-28;10;251
+,
+,.FreeObj 0;753;40;2;0
+,
+,.FreeObj 6;515;0;0
+,.FreeObj 0;514;0;0;
+,.pitch -5.4
+,.FreeObj 0;1003;-3.8;0;0
+2505,
+,.Tr 1;0;0
+2516,
+,.FreeObj 6;710;13;6;90;
+2525,
+,.FreeObj 6;515;0;0
+,.FreeObj 0;514;0;0;
+,.Sig -4;è?;-4.4;5;0;2
+,.FreeObj 0;200;-4;0;0
+,.FreeObj 0;206;-3.7;4.5;0
+,
+,.FreeObj 0;753;40;2;0
+2550,
+,.FreeObj 6;515;0;0
+,.FreeObj 0;514;0;0;
+,.FreeObj 0;1003;-3.8;0;0
+,
+,.FreeObj 0;753;40;2;0
+,.Rail 6;3.8;0;80
+2560,
+,.FreeObj 6;710;13;6;90;
+2575,
+,
+,
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;516;0;0
+,
+,.FreeObj 0;753;40;2;0
+,.FreeObj 0;753;18;2;0
+,
+,.rail 6;4.4;0;0
+,.Crack 0;6;0
+,.height .8
+2600,
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;517;0;2;
+,.FreeObj 0;753;18;2;0
+,.rail 6;5.6;
+,.Crack 0;6;0
+,.pole 0;3;1;50;1
+2625,
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;518;0;0;
+,.FreeObj 0;753;18;2;0
+,.rail 6;6.8;0;0
+,.Crack 0;6;0
+,
+,
+,
+2650,
+,.FreeObj 0;45;-.2;0;0
+,
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;518;0;0;
+,.FreeObj 0;753;20;2;0
+;?|?C?Åg?g,
+,.rail 2;0;0;40
+,.rail 6;8;0;0
+,.Sta Pasarlama(Mati);p;;0;-1;0;0;;;;
+,.stop 0;
+,.Crack 0;6;0
+,
+2675,
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;518;0;0;
+,.FreeObj 0;753;22;2;0
+,.rail 2;1.1;0;0
+,.rail 6;9.2;0;0
+,.Crack 2;6;0
+2700,
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;518;0;0;
+,.FreeObj 0;753;24;2;0
+,.rail 2;2.7;0;44
+,.rail 6;10.4;0;0
+,.Crack 2;6;0
+,.pole 0;3;0;50;1
+,.FreeObj 0;752;-20;6;
+2725,
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;518;0;0;
+,.rail 2;3.8;0;0
+,.rail 6;11.6;0;0
+,.Curve -2400;12
+,.pitch -5;
+,.Crack 2;6;0
+,.FreeObj 0;752;-23;6;
+,.FreeObj 0;753;24;2;0
+2740,
+,.FreeObj 0;34;-2.9;0;0
+2750,
+,.FreeObj 0;514;0;0;
+,.FreeObj 6;518;0;0;
+,.rail 2;3.8;0;0
+,.rail 6;12.8;0;0
+,.Crack 2;6;0
+,.railtype 0;121
+,
+2756,
+,.FreeObj 2;34;3.4;0.3;0 
+2775,
+,.rail 6;14;0;0
+,.Curve -1200;43
+,.pitch -10
+,.Crack 2;6;0
+,
+,.FreeObj 0;42;0;0
+,.FreeObj 0;514;0;0
+,.FreeObj 6;519;0;0
+2800,
+,.rail 2;4.2;0;0
+,.rail 6;15.2;0;0
+,.Crack 2;6;0
+,.FreeObj 0;514;0;0
+,.FreeObj 6;520;0;0
+,.poleend 0
+,.FreeObj 0;1001;0;0
+,.FreeObj 2;43;.7;0;0
+2825,
+,.rail 2;4.6;0;0
+,.Crack 2;6;0
+,.FreeObj 6;520;0;0
+,.FreeObj 0;514;0;0
+,.FreeObj 2;43;.7;0;0
+,
+2850,
+,.rail 2;5;0;0
+,.FreeObj 6;520;0;0
+,.FreeObj 0;514;0;0
+,.Crack 0;2;0
+,.Crack 2;6;0
+,
+,.pole 0;0;-1;50;1
+,.pole 2;0;1;50;1
+,.pole 6;0;1;50;1
+,
+,.FreeObj 2;43;.7;0;0
+,.Rail 15;-27;9;
+2875,
+,.rail 2;5.4;0.2;0
+,.FreeObj 6;520;0;0
+,.FreeObj 0;514;0;0
+,.Crack 0;2;0
+,.Crack 2;6;0
+,.FreeObj 2;43;.7;0;0
+,.Rail 15;-25;8;250
+,
+,.FreeObj 2;37;4.5;2;0
+2900,
+,.FreeObj 6;520;0;0
+,.FreeObj 0;521;0;0
+,.Crack 0;2;0
+,.Crack 2;6;0
+,.FreeObj 2;43;.7;0;0
+,.Rail 15;-23;7;
+2925,
+,.FreeObj 6;520;0;0
+,.FreeObj 0;521;0;-1;
+,.Crack 0;2;0
+,.Crack 2;6;0
+,.Rail 15;-21;6;
+,.Tr 0;0;0
+2950,
+,.FreeObj 6;520;0;0
+,.FreeObj 0;521;0;-2;
+,.rail 6;14.7;0.2;0
+,.Crack 0;2;0
+,.Crack 2;6;0
+,.Rail 15;-19;5;
+2975,
+,.FreeObj 6;520;0;0
+,.rail 6;13.3;0.3;0
+,.rail 5;17.1;0.3;0
+,.Crack 0;2;0
+,.Crack 2;6;0
+,.Rail 15;-17;4;
+,.FreeObj 2;200;3.5;0;0
+,.FreeObj 2;207;3.5;4.5;
+3000,
+,
+,.rail 2;5.4;0.4;0
+,.rail 3;5.4;0.4;0
+,.rail 6;11.2;0.4;0
+,.rail 5;15;0.4;0
+,.Crack 0;2;0
+,.Crack 2;6;0
+,.Rail 15;-15;3.7;
+,.poleend 2
+,.poleend 6
+,.poleend 0
+,.FreeObj 0;1001;0;0;0 
+,.FreeObj 0;44;.6;-.3;-3
+3025,
+,
+,.rail 2;6.6;0.5;0
+,.rail 3;4.2;0.5;0
+,.rail 6;9.5;0.5;0
+,.rail 5;14;0.5;0
+,.Rail 15;-13;3.5;
+,
+,.FreeObj 15;514;-30;3;
+,.FreeObj 0;44;-.5;-.3;
+3050,
+,.rail 2;8.9;0.6;0
+,.rail 6;8.4;0.6;0
+,.railend 3;4.2;0.3;
+,.rail 4;4.5;0;249
+,
+,.rail 5;14;0.6;0
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 0;1001;0;0;0 
+,
+,.rail 15;-12;3.3;
+3053,
+,.FreeObj 5;753;5;0;0
+,.FreeObj 5;753;20;0;0
+,.FreeObj 5;753;35;3;
+3075,
+,.rail 2;10.7;0.7;0
+,.rail 6;7.8;0.7;0
+,.rail 5;15.3;0.7;0
+,.rail 4;4.5;1;249
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,
+,.rail 15;-11;3.1;
+3100,
+,.rail 6;7.7;0.8;0
+,.rail 2;11.5;0.8;0
+,
+,.FreeObj 15;753;-60;;
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,.FreeObj 0;1001;0;0;0 
+,
+,.rail 15;-10;2.9;
+3125,
+,.rail 6;8.2;0.8;0
+,.rail 2;12;0.8;0 
+,.rail 5;15.8;0.8;0
+,
+,
+,.FreeObj 15;753;-60;;
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,.FreeObj 5;205;3;0;
+,
+,.rail 15;-9;2.7;
+3150,
+,.curve 0;0
+,.railtype 0;0
+,.rail 6;9.2;0.8;0
+,.rail 2;13;0.8;0
+,.rail 5;16.8;0.8;0
+,
+,
+,.FreeObj 15;753;-60;;
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,
+,.rail 15;-9;2.5;
+,
+,.pole 6;2;0;50;1
+,.pole 0;0;-1;50;1
+3175,
+,.rail 6;9.7;0.8;0
+,.rail 2;13.5;0.8;0
+,.rail 5;17.3;0.8;0
+,
+,
+,.FreeObj 15;753;-60;;
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+3200,
+,.pitch -15.2
+,.rail 6;9.3;0.8;0
+,.rail 2;13.9;0.8;0
+,.rail 5;17.7;0.8;0
+,
+,
+,.FreeObj 15;753;-60;;
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,
+,.Crack 6;2;0
+3204,
+,.FreeObj 2;105;-5;0
+,.FreeObj 5;105;0;0
+3225,
+,
+,
+,.rail 6;8.9;0.8;0
+,.rail 2;14.3;0.8;0
+,.rail 5;18.1;0.8;0
+,
+,
+,.FreeObj 15;753;-60;;
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,.Crack 6;2;0
+,
+,
+,.FreeObj 0;38;0;0
+3247,
+,.FreeObj 2;105;-5;0
+,.FreeObj 5;105;0;0
+3250,
+,.rail 6;8.5;0.8;0
+,.FreeObj 15;753;-60;;
+,.FreeObj 15;514;-30;3;
+,.pole 6;0;1;50;1
+,.Crack 6;2;0
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,
+,.FreeObj 2;1002;.5;0
+,
+3275,
+,
+,.FreeObj 15;753;-60;;
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,.rail 6;8.1;0.8;0
+,.Crack 6;2;0
+3300,
+,
+,.FreeObj 15;753;-60;;
+,.FreeObj 15;514;-30;3;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,.rail 6;7.7;0.8;0
+,.FreeObj 2;1002;1;0;
+,.Crack 6;2;0
+3310,
+,.FreeObj 6;46;2;0;90
+3325,
+,
+,.FreeObj 15;753;-60;;
+,
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,
+,.rail 6;7.3;0.8;0
+,.Crack 6;2;0
+3350,
+,
+,.FreeObj 15;753;-60;;
+,
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,.pitch -7.6
+,.rail 6;6.9;0.8;0
+,.Crack 6;2;0
+,.FreeObj 2;1004;0;0
+3375,
+,.rail 6;6.5;;0
+,
+,.FreeObj 15;753;-60;;
+,
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,.Crack 6;2;0
+3400,
+,.FreeObj 15;753;-60;;
+,.FreeObj 5;43;3;-1;0
+,.FreeObj 5;753;5;0;0
+,.pitch 0;
+,.Curve 800;42
+.railtype 0;80,
+,.rail 6;6.1;;0
+,
+,.rail 15;-9.2;2.5;
+,.height .8
+,.ground 0
+,.Crack 6;2;0
+,.limit 70;0;0;
+,.FreeObj 2;1004;0;0
+3425,
+,.FreeObj 15;753;-55;;
+,.FreeObj 5;753;5;-1;0
+,.FreeObj 5;43;3;-1;0
+,
+,.Curve 400;89
+,.railtype 0;40
+,.rail 6;6;;40
+,
+,.rail 2;14.1;1;0
+,.rail 5;17.9;1;0
+,
+,.rail 15;-9.6;2.1;
+,.Crack 6;2;0
+,
+,.dike 5;1;0
+,.dike 0;-1;0
+,.FreeObj 15;47;3.5;0.5;
+3430,
+,.FreeObj 0;34;-3;0
+3450,
+,.FreeObj 15;753;-50;;
+,.FreeObj 5;753;5;-1.3;0
+,.FreeObj 5;43;3;-1;0
+,
+,.rail 6;6;;40
+,
+,.rail 2;14.4;1.3;0
+,.rail 5;18.2;1.3;0
+,
+,.rail 15;-10.4;1.7;
+,.Crack 6;2;0
+,.FreeObj 2;1004;0;0
+,.FreeObj 15;47;3.5;0.5;
+3475,
+,.FreeObj 15;753;-45;;
+,.rail 6;6;;40
+,.FreeObj 5;753;5;-1.8;0
+,.rail 2;14.9;1.3;0
+,.rail 5;18.7;1.3;0
+,.rail 15;-11.2;1.3;
+,.Crack 6;2;0
+,.FreeObj 15;47;3.5;0.5;
+3500,
+,.FreeObj 15;753;-40;;
+,.rail 6;6;;40
+,.FreeObj 5;753;5;-2.3;0
+,.rail 2;15.4;1.3;0
+,.rail 5;19.2;1.3;0
+,.rail 15;-12.8;.9;
+,.Crack 6;2;0
+,.pole 2;1;0;50;2
+,.FreeObj 15;47;3.5;0.5;
+3505,
+,.Tr 1;0;0
+3525,
+,.FreeObj 15;753;-40;;
+,.FreeObj 5;753;5;-2.8;0
+,.rail 6;6;;40
+,
+,.rail 2;15.9;1.3;0
+,.rail 5;19.7;1.3;0
+,.rail 15;-15;.5;
+,.Crack 6;2;0
+,.FreeObj 15;47;3.5;0.5;
+,.Sig 3;?O;-3;4.5;2
+,.FreeObj 0;200;-3;0;0
+3550,
+,.rail 6;6;;40
+,.FreeObj 5;753;5;-3.3;0
+,.rail 2;16.4;1.3;0
+,.rail 5;20.2;1.3;0
+,.rail 15;-18;.1;
+,.FreeObj 15;753;-40;;
+,.height  5
+,.Crack 6;2;0
+,.FreeObj 15;47;3.5;0.5;
+,.pitch -5;
+3575,
+,.rail 6;6;0.7;40
+,.FreeObj 5;753;5;-3.8;0
+,.rail 2;16.9;1.3;0
+,.rail 5;20.7;1.3;0
+,.rail 15;-21.7;-.3;
+,.FreeObj 15;753;-40;;
+,.Crack 6;2;0
+,.FreeObj 15;47;3.5;0.5;
+3600,
+,.rail 6;6;0.8;40
+,
+,.rail 2;17.4;1.3;0
+,.rail 5;21.2;1.3;0
+,.rail 15;-27;-.7;
+,.FreeObj 15;753;-40;;
+,.Crack 6;2;0
+,.Crack 0;4;0
+,.FreeObj 15;47;3.5;0.5;
+,.FreeObj 5;753;5;-1.8;0
+,.FreeObj 0;39;;;
+,.pitch -10;
+,.rail 4;4.8
+3610,
+,.FreeObj 0;34;-2;0
+3625,
+,.rail 6;6;0.9;40
+,.rail 2;17.9;1.3;0
+,.rail 5;21.7;1.3;0
+,.rail 15;-33;-1.1;
+,.FreeObj 15;753;-40;;
+,.FreeObj 5;753;5;-1.8;0
+,.FreeObj 15;47;3.5;0.5;
+,.rail 4;5.2;
+,.Crack 6;2;0
+,.Crack 0;4;0
+3650,
+,.rail 6;6;1;40
+,
+,.rail 2;18.4;1.3;0
+,.rail 5;22.2;1.3;0
+,.rail 15;-39;-1.5;
+,.FreeObj 5;753;5;-1.8;0
+,.FreeObj 15;753;-40;;
+,.FreeObj 15;47;3.5;0.5;
+,.FreeObj 0;36;0
+,.rail 4;5.6;1
+,.Crack 6;2;0
+,.Crack 0;4;0
+3675,
+,.FreeObj 5;753;5;-1.8;0
+,.rail 6;6;1.1;40
+,
+,.rail 2;18.9;1.3;0
+,.rail 5;22.7;1.3;0
+,.rail 15;-45;-1.9;
+,.FreeObj 5;753;5;-1.8;0
+,.FreeObj 15;753;-40;;
+,.FreeObj 15;47;3.5;0.5;
+,.Crack 0;4;0
+,.Crack 6;2;0
+3687,
+,
+3700,
+,.FreeObj 5;753;5;-1.8;0
+,.rail 6;6;1.2;40
+,.rail 2;19.4;1.3;0
+,.rail 5;23.2;1.3;0
+,.rail 15;-51;-2.3;
+,.FreeObj 15;753;-40;;
+,.FreeObj 15;47;3.5;0.5;
+,.rail 4;5.6;1.2
+,.Crack 0;4;0
+,.Crack 6;2;0
+3712,
+,.FreeObj 15;753;-40;;
+3725,
+,.FreeObj 5;753;5;-1.8;0
+,.rail 6;6;1.3;40
+,.rail 2;19.9;1.3;0
+,.rail 5;23.7;1.3;0
+,.FreeObj 15;753;-40;;
+,.FreeObj 15;47;3.5;0.5;
+,.rail 15;-57;-2.7;
+,
+,.rail 4;5.6;1.3;
+,.Crack 0;4;0
+,.Crack 6;2;0
+3737,
+,.FreeObj 15;753;-40;;
+3750,
+,.FreeObj 5;753;5;-1.8;0
+,.rail 6;6;1.4;40
+,.rail 4;5.6;1.4;
+,.rail 2;20.4;1.3;0
+,.rail 5;24.2;1.3;0
+,.rail 15;-63;-3.3;
+,.FreeObj 15;753;-40;;
+,.FreeObj 15;47;3.5;0.5;
+,.Crack 0;4;0
+,.Crack 6;2;0
+,.Rail 14;10;1.3;254
+,
+,.dike 14;-1;0
+,
+3763,
+,.FreeObj 15;753;-40;;
+3775,
+,.rail 6;6;1.7;40
+,.rail 4;5.6;1.9;
+,.FreeObj 15;753;-40;;
+,.FreeObj 15;47;3.5;0.5;
+,.rail 2;20.9;1.8;0
+,.rail 5;24.7;1.8;0
+,.rail 14;11;1.8;
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+,.FreeObj 14;522;0;0
+3800,
+,.FreeObj 15;753;-40;;
+,.FreeObj 15;47;3.5;0.5;
+,.rail 2;21.4;2.3;0
+,.rail 5;25.2;2.3;0
+,.rail 14;12;2.3;
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+,
+,.FreeObj 0;106;0;0.3;
+,.FreeObj 0;106;-40;-0.5;
+,.FreeObj 0;106;-80;-.8;
+,.FreeObj 0;107;14;0.6;0
+,.FreeObj 14;522;0;0
+,.pole 0;0;-1;25;1
+,.pole 6;0;1;25;1
+,.FreeObj 0;48;0;0
+3825,
+,.FreeObj 15;753;-40;;
+,.FreeObj 15;47;3.5;0.5;
+,
+,.rail 6;6;1.7;40
+,.FreeObj 14;522;0;0
+,.rail 2;22.4;2.8;0
+,.rail 5;26.2;2.8;0
+,.rail 14;13;2.8;
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+,.height 5
+,.FreeObj -1;108;-4; 
+3837,
+,
+,.FreeObj 15;753;-40;;
+3848,
+,.FreeObj -1;720;-17;0;
+3850,
+,.FreeObj -1;108;-4; 
+,.rail 2;22.9;3.3;0
+,.rail 5;26.7;3.3;0
+,.rail 14;14;3.3;
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+,.FreeObj 15;753;-40;;
+,.FreeObj 15;47;3.5;0.5;
+,.FreeObj 14;522;0;0
+,
+3863,
+,.FreeObj 15;753;-40;;
+3870,
+,
+3875,
+,.FreeObj -1;108;-4; 
+,.FreeObj 15;753;-40;;
+,.FreeObj 14;522;0;0
+,.railend 15;
+,.rail 2;23.4;3.8;0
+,.rail 5;27.2;3.8;0
+,.rail 6;5.8;1.9
+,.rail 4;5.7;2.1
+,.rail 14;15;3.8;
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+,
+,.FreeObj -1;711;-2;0
+3885,
+,
+,.FreeObj -1;711;-2;0
+,.Tr 0;0;0
+3890,
+,
+3900,
+,.FreeObj -1;108;-3.5; 
+,.FreeObj 14;522;0;0
+,.rail 2;23.9;4.5;0
+,.rail 5;27.7;4.5;0
+,.rail 14;16;4.5;
+,.rail 6;5.6;1.9
+,.rail 4;5.5;2.1
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+,.poleend 6
+,.pole 0;1;0;25;1
+3910,
+,
+3925,
+,.FreeObj -1;108;-3; 
+,.FreeObj 14;522;0;0
+,.rail 2;24.4;5.2;0
+,.rail 5;28.2;5.2;0
+,.rail 14;17;5.2;
+,.rail 6;5.4;1.7;
+,.rail 4;5.3;1.9
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+,.FreeObj 14;46;0;;90
+3928,
+,.FreeObj 0;34;-2;0;0
+,.FreeObj 6;35;2;0
+3930,
+,.FreeObj -1;711;-2;0
+3940,
+,.FreeObj -1;751;-12;0
+3950,
+,.FreeObj -1;108;-3; 
+,.FreeObj 14;522;0;0
+,.FreeObj 14;522;-4;-2
+,.FreeObj -1;751;-12;0
+,.rail 2;24.9;5.9;0
+,.rail 5;28.7;5.9;0
+,.rail 14;18;5.9;
+,.rail 6;5.2;1.5;
+,.rail 4;5.1;1.7
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+3960,
+,.FreeObj -1;751;-12;0
+3970,
+,.FreeObj -1;751;-12;0
+3975,
+,.FreeObj -1;108;-2.5; 
+,.FreeObj 14;522;0;0
+,.FreeObj 14;522;-4;-2
+,.rail 2;25.4;6.5;0
+,.railend 5;29.2;6.5;0
+,.rail 14;19;6.5;
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+,.Curve 1600;40
+,.railtype 0;0
+,.rail 6;5;1.3;0
+,.rail 4;4.9;1.5
+,.FreeObj 14;750;0;-2
+3980,
+,.FreeObj -1;751;-12;0
+3987,
+,.FreeObj 14;750;0;-2
+,.FreeObj 6;205;2.5;0
+3990,
+,.FreeObj -1;751;-12;0
+4000,
+,.rail 6;4.7;1.1
+,.rail 4;4.6;1.3
+,.pole 0;0;-1;50;1
+,.pole 6;0;1;50;1
+,.FreeObj 14;522;0;0
+,.FreeObj 14;522;-4;-2
+,.FreeObj -1;108;-2; 
+,.FreeObj -1;751;-12;0
+,.rail 2;25.9;7.2;0
+,.rail 14;20;7.2;
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Crack 14;2;0
+,.Curve 0;0
+,.Railtype 0;0
+,.FreeObj 14;750;0;-2
+,.height 1
+,.limit 0;0;0
+4010,
+,.FreeObj -1;751;-12;0
+4012,
+,.FreeObj 14;750;0;-2
+4020,
+,.FreeObj -1;751;-12;0
+4025,
+,.FreeObj 14;522;0;0
+,.FreeObj 14;522;-4;-2
+,.FreeObj 0;108;-2; 
+,.railend 2;26.4;7.9;0
+,.poleend 2 
+,.rail 14;20;7.9;
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.FreeObj 14;750;0;-2
+4030,
+,.FreeObj -1;751;-12;0
+4037,
+,.FreeObj 14;750;0;-2
+4040,
+,.FreeObj -1;751;-12;0
+4050,
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.FreeObj -1;751;-12;0
+,.FreeObj 14;522;0;0
+,.FreeObj 14;522;-4;-2
+,.rail 14;20;8.4;
+,.FreeObj 0;108;-2; 
+,.FreeObj 14;750;0;-2
+4060,
+,.FreeObj -1;751;-12;0
+4062,
+,.FreeObj 14;750;0;-2
+4070,
+,.FreeObj -1;751;-12;0
+4075,
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+4080,
+,.FreeObj -1;751;-12;0
+4087,
+,.FreeObj 14;750;0;-2
+4090,
+,.FreeObj -1;751;-12;0
+4100,
+,.FreeObj -1;751;-12;0
+,.FreeObj 0;108;-2; 
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.FreeObj 14;750;0;-2
+,.Announce kasuga\pasarbaru.wav 
+4110,
+,.FreeObj -1;751;-12;0
+4112,
+,.FreeObj 14;750;0;-2
+4120,
+,.FreeObj -1;751;-12;0
+4125,
+,.FreeObj 0;108;-2; 
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.FreeObj 14;750;0;-2
+4130,
+,.FreeObj -1;751;-12;0
+4137,
+,.FreeObj 14;750;0;-2
+4140,
+,.FreeObj -1;751;-12;0
+4150,
+,.FreeObj 0;108;-2; 
+,.FreeObj -1;751;-12;0
+,.FreeObj 14;750;0;-2
+,.Crack 0;4;0
+,.Crack 6;14;0
+4160,
+,.FreeObj -1;751;-12;0
+4162,
+,.FreeObj 14;750;0;-2
+4170,
+,.FreeObj -1;751;-12;0
+4175,
+,.FreeObj 0;108;-2; 
+,.FreeObj 14;750;0;-2
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.Sta Pasarbaru;07.0930;07.1000;0;-1;0;0;;15;60;kasuga\dept.wav
+4180,
+,.FreeObj -1;751;-12;0
+4187,
+,.FreeObj 14;750;0;-2
+4190,
+,.FreeObj -1;751;-12;0
+4200,
+,.FreeObj 14;750;0;-2
+,.FreeObj -1;751;-12;0
+,.FreeObj 0;108;-2; 
+,.Crack 0;4;0
+,.Crack 6;14;0
+4212,
+,.FreeObj 14;750;0;-2
+4223,
+,.FreeObj 0;49;-4.5;0;
+,.FreeObj 6;49;0;0;
+4225,
+,.FreeObj 14;750;0;-2
+,.Crack 0;4;0
+,.Crack 6;14;0
+,
+,.FreeObj 0;110;0;0
+,.FreeObj 6;111;0;0
+,.FreeObj 0;108;-1;1.5; 
+,.FreeObj 6;108;9;1.5; 
+,.FreeObj 0;112;-1;1.5;0
+,.FreeObj 6;112;7;1.5;0
+4237,
+,.FreeObj 14;750;0;-2
+4250,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;110;0;0
+,.FreeObj 6;111;0;0
+,.FreeObj 0;108;-1;1.5; 
+,.FreeObj 6;108;9;1.5; 
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.poleend 6
+,.pole 0;1;0;50;2
+4262,
+,.FreeObj 14;750;0;-2
+4275,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;110;0;0
+,.FreeObj 6;111;0;0
+,.FreeObj 0;108;-1;1.5; 
+,.FreeObj 6;108;9;1.5; 
+,.Crack 0;4;0
+,.Crack 6;14;0
+4287,
+,.FreeObj 14;750;0;-2
+4290,
+,.freeObj 0;130;-4;0
+,.freeObj 6;130;4;0
+4300,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;110;0;0
+,.FreeObj 6;111;0;0
+,.FreeObj 0;108;-1;1.5; 
+,.FreeObj 6;108;9;1.5; 
+,.Crack 0;4;0
+,.Crack 6;14;0
+4312,
+,.FreeObj 14;750;0;-2
+4325,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;110;0;0
+,.FreeObj 6;111;0;0
+,.FreeObj 0;108;-1;1.5; 
+,.FreeObj 6;108;9;1.5; 
+,.Crack 0;4;0
+,.Crack 6;14;0
+4337,
+,.FreeObj 14;750;0;-2
+4350,
+,.FreeObj 14;750;0;-2
+,.Form 0;L;1;1
+,.Form 6;R;1;1
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.FreeObj 0;108;-3;1.5; 
+,.FreeObj 6;108;10;1.5; 
+,.FreeObj 0;112;-3;1.5;0
+,.FreeObj 6;112;9;1.5;0
+4362,
+,.FreeObj 14;750;0;-2
+4375,
+,.FreeObj 14;750;0;-2
+,.Form 0;L;1;1
+,.Form 6;R;1;1
+,.FreeObj 0;108;-3;1.5; 
+,.FreeObj 6;108;10;1.5; 
+,.Crack 0;4;0
+,.Crack 6;14;0
+,.FreeObj 0;113;0;0;0
+4387,
+,.FreeObj 14;750;0;-2
+4399,
+,.FreeObj 0;2000;-.7;3;0
+4400,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;110;0;0
+,.FreeObj 6;111;0;0
+,.FreeObj 0;108;-1;1.5; 
+,.FreeObj 6;108;9;1.5; 
+,.FreeObj 0;112;-3;1.5;0
+,.FreeObj 6;112;9;1.5;0
+,.Crack 0;4;0
+,.Crack 6;14;0
+,
+,
+4412,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;22;-1;0
+,.stop 0
+4425,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;110;0;0
+,.FreeObj 6;111;0;0
+,.FreeObj 0;108;-1;1.5; 
+,.FreeObj 6;108;9;1.5; 
+,.Crack 0;4;0
+,.Crack 6;14;0
+,
+4437,
+,.FreeObj 14;750;0;-2
+4440,
+,.FreeObj 0;22;-1;0
+,
+4450,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;112;-1;1.5;0
+,.FreeObj 6;112;7;1.5;0
+,.FreeObj 0;108;-2; 
+,
+4460,
+,.FreeObj -1;720;-20;0;
+4467,
+,.FreeObj 14;750;0;-2
+4475,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+,.Tr 1;0;0
+4487,
+,.FreeObj 14;750;0;-2
+4495,
+,.Sig 3;èo;-3;4.5;3
+,.FreeObj 0;200;-3;
+,
+,.FreeObj 14;522;-4;-2;
+4500,
+,.FreeObj 14;750;0;-2
+,.pole 0;0;-1;50;1
+,.pole 6;0;1;50;1
+,.FreeObj 0;108;-2; 
+4512,
+,.FreeObj 14;750;0;-2
+,.FreeObj 14;522;-4;-2;
+4525,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+4537,
+,.FreeObj 14;750;0;-2
+,.FreeObj 14;522;-4;-2;
+4550,
+,.FreeObj 14;750;0;-2
+,.Curve -800;43
+,.railtype 0;88
+,.FreeObj 0;108;-2; 
+,.FreeObj 0;701;-50;
+4555,
+,.FreeObj 14;522;-4;-2;
+4562,
+,.FreeObj 14;750;0;-2
+4575,
+,.FreeObj 14;750;0;-2
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 0;108;-2; 
+4587,
+,.FreeObj 14;750;0;-2
+,.FreeObj 14;522;-4;-2;
+4600,
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+,.Curve -400;89
+,.railtype 0;44
+,.rail 6;4.7;1.1;44
+4612,
+,.FreeObj 14;750;0;-2
+,.FreeObj 14;522;-4;-2;
+4625,
+,.FreeObj 14;750;0;-2
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 0;108;-2; 
+4637,
+,.FreeObj 14;750;0;-2
+4650,
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+4662,
+,.FreeObj 14;750;0;-2
+4675,
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+4687,
+,.FreeObj 14;750;0;-2
+4700,
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+,
+4712,
+,.FreeObj 14;750;0;-2
+4725,
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+,.FreeObj 6;205;3;0
+4737,
+,.FreeObj 14;750;0;-2
+4750,
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+4762,
+,.FreeObj 14;750;0;-2
+4775,
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+,.FreeObj 0;720;-25;-4.4
+4787,
+,.FreeObj 14;750;0;-2
+4800,
+,.FreeObj 14;522;-4;-2;
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+,.FreeObj 0;104;-20;-34;-90
+4812,
+,.FreeObj 14;750;0;-2
+,
+4825,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+,
+4837,
+,.FreeObj 14;750;0;-2
+4850,
+,.FreeObj 14;750;0;-2
+,.FreeObj 0;108;-2; 
+,.railend 14;23;9
+,.FreeObj 0;753;12;0;
+,.FreeObj 0;753;35;10;
+,.FreeObj 0;753;57;18;
+,.FreeObj 0;753;57;8;
+,.FreeObj 0;753;88;13;
+,.Dike 6;1;0
+4875,
+,.FreeObj 0;108;-2; 
+,.FreeObj 0;753;12;0;
+,.FreeObj 0;701;-50;
+,.FreeObj 0;711;-13;
+4900,
+,
+,
+,.FreeObj 0;108;-2; 
+,.FreeObj 0;753;12;0;
+,.Curve -800;47
+,.Railtype 0;88
+,.Rail 6;4.7;1.1;88
+4913,
+,.FreeObj 0;712;-23;
+4925,
+,.FreeObj 0;710;-18;
+,.FreeObj 0;108;-2; 
+,.FreeObj 0;753;12;0;
+4950,
+,.FreeObj 0;108;-2; 
+,.Curve 0;
+,.FreeObj 0;753;12;0;
+,.railtype 0;0
+,.rail 6;4.7;1.1;0
+,
+4975,
+,.FreeObj 0;753;12;0;
+,.FreeObj -1;801;-5;
+5000,
+,.FreeObj 0;753;12;0;
+,
+,.FreeObj -1;801;-5;
+,
+5025,
+,.FreeObj 0;753;12;0;
+,.FreeObj -1;801;-5;
+5050,
+,.FreeObj -1;801;-5;
+,.FreeObj 0;753;12;0;
+5075,
+,.FreeObj -1;801;-5;
+,.FreeObj 0;753;12;0;
+5100,
+,.FreeObj -1;801;-5;
+,.FreeObj 0;753;12;0;
+,.rail 6;4.7;1.1;0
+,.rail 4;4.6;1.3;
+,.FreeObj 0;109;-50;
+5125,
+,.FreeObj -1;801;-5;
+,.rail 6;4.55;1.0;0
+,.FreeObj 0;753;13;0;
+,.rail 4;4.45;1.1;
+,
+5150,
+,.FreeObj -1;801;-5;
+,.rail 6;4.4;.8;0
+,.rail 4;4.3;.9;
+,
+,.rail 14;20;3;255;
+,.Dike 14;-1;1
+,.rail 15;30;5;255
+,.Dike 15;-1;2;
+,.FreeObj 0;753;35;0;
+5175,
+,.FreeObj -1;801;-5;
+,.rail 6;4.25;.6;0
+,.rail 4;4.15;.7;
+,.rail 14;20;2.5;255;
+,.FreeObj 0;753;35;0;
+5200,
+,.FreeObj -1;801;-5;
+,.rail 6;4.1;.4;0
+,.rail 4;4;.5;
+,.rail 14;20;2;255;
+,.FreeObj 0;753;35;0;
+5225,
+,.rail 6;3.95;.2;0
+,.rail 4;3.85;.2;
+,.rail 14;20;1.5;255;
+,.FreeObj 0;753;35;0;
+,.FreeObj 0;522;-7;
+5250,
+,.rail 6;3.8;0.1
+,.railend  4;3.7;.1;
+,.FreeObj 0;753;35;0;
+,.rail 14;20;1;255;
+,.FreeObj 0;522;-7;
+5275,
+,
+,.rail 6;3.8;0;
+,.railend 14;20;0.5;255;
+,.FreeObj 0;753;35;0;
+,.wallend 14;
+,.dikeend 14;
+,.railend 15;
+,.wallend 15;
+,.dikeend 15;
+,.FreeObj 0;522;-7;
+5300,
+,.FreeObj 0;522;-7;
+,.FreeObj 0;753;7;-2;
+,.FreeObj 0;753;24;0;
+,
+,.FreeObj 0;109;-50;0;0
+5315,
+,.FreeObj 0;750;-20;-3;
+5325,
+,.FreeObj 0;753;7;-2;
+,.FreeObj 0;523;-10;
+,.FreeObj 0;522;-7;
+5350,
+,
+,.Curve 1200;56
+,.railtype 0;120;
+,.rail 6;3.8;0;120
+,.FreeObj 0;753;7;-2;
+,.FreeObj 0;523;-10;
+,.FreeObj 0;522;-7;
+5375,
+,.FreeObj 0;753;7;-2;
+,.FreeObj 0;523;-10;
+,.FreeObj 0;522;-7;
+5400,
+,.FreeObj 0;523;-10;
+,.FreeObj 0;522;-7;
+,.FreeObj 0;753;7;-2;
+,
+5425,
+,.FreeObj 0;523;-10;
+,.FreeObj 0;522;-7;
+,.FreeObj 0;753;7;-2;
+5450,
+,.FreeObj 0;523;-10;
+,.FreeObj 0;522;-7;
+,.FreeObj 0;753;7;-2;
+5475,
+,.FreeObj 0;523;-15;
+,.FreeObj 0;752;-12;-5;
+,.FreeObj 0;514;-1;-.5;
+,.FreeObj 6;524;2;-.9;
+,.FreeObj 6;753;13;
+5487,
+,.FreeObj 0;752;-15;-3;
+5500,
+,.FreeObj 0;752;-15;-7;
+,.FreeObj 0;523;-20;
+,.FreeObj 0;514;-1;-.5;
+,.FreeObj 6;524;2;-.9;
+,.FreeObj 6;753;13;
+5517,
+,.FreeObj 0;752;-15;-3;
+,
+5525,
+,.FreeObj 0;752;-15;-7;
+,
+,.FreeObj 0;514;-1;-.5;
+,.FreeObj 6;524;2;-.9;
+,.FreeObj 6;753;13;
+5537,
+,.FreeObj 0;752;-13;-7;
+,
+5550,
+,.FreeObj 0;131;0;0
+,.marker kasuga\marker\taiphone.bmp;50
+5551,
+,.FreeObj 0;2001;-2;0;0
+5600,
+,.height 1
+,.FreeObj 6;525;20;1;0
+,.FreeObj -1;526;-10;
+5625,
+,.height 5
+,.FreeObj 6;525;20;1;0
+,.FreeObj -1;526;-10;
+5650,
+,.FreeObj 6;525;20;1;0
+,.FreeObj -1;526;-10;
+,.Tr 0;0;0
+5675,
+,.FreeObj 6;525;20;1;0
+,.FreeObj -1;526;-10;
+5700,
+,.FreeObj 6;525;20;1;0
+,.FreeObj -1;526;-10;
+5725,
+,.FreeObj 6;525;20;1;0
+,.FreeObj -1;526;-10;
+5750,
+,.FreeObj 6;525;20;1;0
+,
+5765,
+,.FreeObj -1;710;-12;0;
+,.FreeObj -1;109;-50;
+5775,
+,.FreeObj -1;526;-10;
+,.FreeObj 6;525;20;1;0
+,.Curve 0
+,.Railtype 0;1
+,.rail 6;3.8;0;1
+,.FreeObj 6;205;2;0;0
+5800,
+,.FreeObj -1;526;-10;
+,.FreeObj 6;525;20;1;0
+,.Railtype 0;0
+,.rail 6;3.8;0;0
+5825,
+,
+,.FreeObj 6;525;20;1;0
+5835,
+,.FreeObj -1;712;-14;0;30
+,.FreeObj -1;109;-50;
+5850,
+,.FreeObj -1;526;-10;
+,.FreeObj 6;525;20;1;0
+5875,
+,.FreeObj -1;526;-10;
+,.FreeObj 6;525;20;1;0
+5900,
+,.FreeObj -1;526;-10;
+,.FreeObj 6;525;20;1;0
+,.pitch -5
+5925,
+,.FreeObj 6;525;20;1;0
+5950,
+,.FreeObj 6;525;20;1;0
+,.pitch 0
+5963,
+,.FreeObj 0;2003;-2;0
+,.FreeObj 6;2002;2;0;0
+,
+5975,
+,.FreeObj 6;525;20;1;0
+6005,
+,.FreeObj -1;710;-8;0;0
+,.FreeObj -1;109;-50;
+,
+6025,
+,.Rail 15;-21;-2;253
+6050,
+,.Rail 15;-16;-1.2;253
+,.FreeObj 15;108;6;-1
+,.FreeObj 15;108;1;-1
+,.Railtype 0;1
+,.rail 6;3.8;0;1
+,.height 2
+,.rail 14;35;3;253;
+,.wall 14;1;13
+,.FreeObj 6;753;30;-10
+,.FreeObj 6;753;10;-15
+,.FreeObj 6;753;50;0
+,.FreeObj 6;753;70;5
+6070,
+,.FreeObj 0;701;30;5;50
+6075,
+,.Rail 15;-8;-.5;253
+,.FreeObj 15;108;6;-1
+,.FreeObj 15;108;1;-1
+,.Railtype 0;0
+,.rail 6;3.8;0;0
+,.rail 14;20;1;253;
+,
+6087,
+,.FreeObj 0;700;;5;
+6095,
+,.FreeObj 0;700;-3;5;
+6100,
+,.height 1;
+,.pitch 5
+,.rail 14;10;0;253;
+,.rail 13;10;0;248;
+,.dike 13;-1;0
+,.Crack 13;14;0
+,.FreeObj 0;701;30;10;50
+,.FreeObj 0;710;14;5;90
+,
+,.FreeObj 6;753;50;5
+,.FreeObj 6;753;70;8
+6105,
+,.FreeObj 0;94;0;0
+,.FreeObj 6;94;0;0
+,.FreeObj 0;95;0;0
+,.FreeObj 6;96;0;0
+6125,
+,.FreeObj 0;710;18;5;90
+,.FreeObj 6;753;30;8
+,.FreeObj 6;753;50;15
+,.height 3
+,.Crack 14;13;1
+6150,
+,
+,.Crack 14;13;1
+,.rail 14;20;5;253;
+,.rail 13;15;5;248;
+,.FreeObj 6;753;30;8
+,.FreeObj 6;753;50;15
+,
+,.rail 15;-13;-2.5;253;
+,.pitch 10
+,.Sig -4;?Q;-3;4.5;1
+,.FreeObj 0;200;-3;0
+6175,
+,.FreeObj 6;753;30;8;0
+,.FreeObj 0;710;18;7;90
+,.Crack 14;13;1
+,.rail 14;30;8;253;
+,.rail 13;18;8;248;
+,.FreeObj 0;31;-2;0;
+,.FreeObj 6;30;2;0;0
+,
+,.rail 15;-20;-2.5;253;
+,
+6200,
+,.FreeObj 6;753;10;5;0
+,.FreeObj 6;753;30;10;0
+,.wallend 14;
+,.railend 14;30;8;253
+,.railend 15;-30;-2.5;253;
+,.rail 13;20;10;248;
+,
+6225,
+,.railend 13;15;5;248;
+,.FreeObj 6;753;8;0;0
+,.FreeObj 6;501;4;2;
+,.FreeObj 0;2001;-.6;0
+,.marker kasuga\marker\taiphone.bmp;50
+,.Tr 0;0;0
+6250,
+,.height 5
+,.FreeObj 6;753;5;0;0
+,.FreeObj 6;502;4;2;
+,.curve 1200;56
+,.railtype 0;120
+,.rail 6;3.8;0;120
+,.rail 15;-60;0;248
+,.dike 15;0;0
+6275,
+,.FreeObj 6;753;5;-2;0
+,.rail 15;-40;0;248
+6300,
+,.FreeObj 6;753;5;-2;0
+,.rail 15;-20;0;248
+6312,
+,.FreeObj 0;750;-8;-4;0
+6325,
+,.rail 15;-5;0;248
+,.FreeObj 15;522;0;0
+,.FreeObj 6;132;2.5;0;-5
+,.FreeObj 6;753;13;6;0
+6350,
+,.FreeObj 15;527;0;0
+,.FreeObj 6;132;0;0;0
+,.FreeObj 6;753;13;6;0
+6375,
+,.FreeObj 6;132;;0;
+,.FreeObj 15;527;0;0
+,.FreeObj 6;753;13;6;0
+,.Curve 0;
+,.railtype 0;0
+,.rail 6;3.8;0;0
+6400,
+,
+,.FreeObj 15;527;0;0
+6410,
+,.FreeObj 6;753;4;-4;0
+6426,
+,.FreeObj 0;89;-4;0;90
+6427,
+,.FreeObj 0;97;-2;0.7;90
+,.FreeObj 6;97;2;0.7;-90
+6430,
+,.FreeObj 0;90;0;0
+,.FreeObj 6;90;0;0
+6431,
+,.FreeObj 0;89;-4;0;90
+6432,
+,.FreeObj 0;97;-2;0.7;90
+,.FreeObj 6;97;2;0.7;-90
+,
+,
+6450,
+,.Rail 14;10;0;248
+,.Dike 14;-1;0
+,.FreeObj 6;753;5;-3;
+,.FreeObj 15;522;0;0
+,.pitch 11.1
+6462,
+,.FreeObj 0;31;-2;0;0
+,.FreeObj 6;30;2;0;0
+6475,
+,.FreeObj 15;527;0;0
+,.Rail 14;14;4;248
+,
+6490,
+,.FreeObj 6;710;10;6;90
+,
+6500,
+,.Rail 14;18;8;248
+,
+,.poleend 6
+,.pole 0;1;0;50;1
+,.FreeObj 15;527;0;0
+,.FreeObj 6;753;5;-3;
+6525,
+,.railend 15;
+,.dikeend 15;
+,.rail 14;14;4;248
+,
+6550,
+,.pole 0;0;-1;50;1
+,.pole 6;0;1;50;1
+,.height 7
+,.rail 14;10;0;248
+,.rail 15;-20;-6.5;253;
+6575,
+,.railend 14;3.8;0;0
+,.dikeend 14;
+,
+,.railtype 0;1
+,.rail 6;3.8;0;1
+,.rail 15;-10;-6.5;253
+6595,
+,.FreeObj 6;750;4;-3;
+6600,
+,.railtype 0;0
+,.rail 6;3.8;0;0
+,
+,.pitch 5.5
+,.freeObj -1;712;-20;0;0
+,.rail 14;60;-7.2;247;
+6625,
+,.rail 14;45;-8.4;247;
+6650,
+,.pitch 0
+,.rail 14;30;-9.5;247;
+,.height 10
+6666,
+,.FreeObj 0;35;-2;0;0
+,.FreeObj 6;34;2;0;0
+,
+6675,
+,.railtype 0;2
+,.rail 6;3.8;0;2
+,.railend 15;;-6.7
+,.dikeend 0
+,.dikeend 6
+,.Wall 0;-1;19
+,.wall 6;1;19
+,.rail 14;15;-9.5;247;
+,.freeObj -1;711;20;0;90
+6700,
+,.wallend 0;19
+,.wallend 6;19
+,.pitch -7.6
+,.railtype 0;0
+,.rail 6;3.8;0;0
+,.dike 0;-1;0
+,.dike 6;1;0
+,.FreeObj 0;530;0;0
+,.FreeObj 6;531;0;0
+,.rail 14;-15;-9.5;247;
+6725,
+,.railend 14;-65;-9.5;247;
+,.railtype 0;2
+,.rail 6;3.8;0;2
+,.railend 15;;-6.7
+,.dikeend 0
+,.dikeend 6
+,.Wall 0;-1;9
+,.wall 6;1;9
+,.FreeObj 0;503;0;-.3
+,.FreeObj 6;504;0;-.3
+,
+6750,
+,
+,.railtype 0;0
+,.rail 6;3.8;0;0
+,.dike 0;-1;0
+,.dike 6;1;0
+,.pitch -15.2
+,.wallend 0;9
+,.wallend 6;9
+,.rail 14;3.8;-2;255
+,.rail 15;50;-2;248
+,.crack 14;15;1
+6752,
+,.FreeObj 0;505;0;-.3
+,.FreeObj 6;506;0;-.3
+,
+,.FreeObj 0;94;0;
+,.FreeObj 6;94;0;
+,.FreeObj 0;95;0;
+,.FreeObj 6;96;0;
+6765,
+,.FreeObj 0;35;-2;0;0
+,.FreeObj 6;34;2;0;0
+6775,
+,.crack 14;15;1
+6800,
+,.Curve -1200;32
+,.Railtype 0;121
+,.rail 6;3.8;0;121
+,.crack 14;15;1
+6825,
+,.Sig -4;?P;-3;4.5;1
+,.FreeObj 0;200;-3;0;0
+,.Curve -600;67
+,.Railtype 0;66
+,.rail 6;3.8;0;66
+,.freeObj -1;532;100;0
+,.crack 14;15;1
+6850,
+,.freeObj -1;532;70;0
+,.crack 14;15;1
+6875,
+,.freeObj -1;532;60;0
+,.crack 14;15;1
+6900,
+,.crack 14;15;1
+,.freeObj -1;532;80;0
+,.Tr 0;0;0
+6912,
+,.FreeObj 0;522;-4;-2;
+6925,
+,.crack 14;15;1
+,.freeObj -1;532;50;0
+,.FreeObj 0;522;-4;-1;
+6950,
+,.crack 14;15;1
+,.freeObj -1;532;80;0
+,.FreeObj 0;522;-4;-.5;
+6975,
+,.crack 14;15;1
+,.FreeObj 0;522;-4;-.5;
+,.freeObj -1;532;60;0
+7000,
+,.crack 14;15;1
+,.freeObj -1;532;80;0
+,.FreeObj 0;522;-4;-1;
+,.freeObj -1;753;50;0
+,.freeObj -1;753;60;10
+,.freeObj -1;753;40;10
+,.freeObj -1;753;40;0
+,.rail 13;30;-5;255
+,.wall 13;1;13
+7025,
+,.freeObj -1;753;30;0
+,.freeObj -1;753;30;5
+,.crack 14;15;1
+,.FreeObj 0;522;-4;-1;
+,.rail 13;20;-5;255
+,
+7050,
+,.freeObj -1;753;20;0
+,.FreeObj 0;36;0;0
+,.railend 14;
+,.railend 15;
+,.rail 13;10;-5;255
+,
+7065,
+,.Relay 6;-1;0
+7080,
+,.FreeObj 0;50;0;0
+,.FreeObj 0;51;-7;-1.3
+,.FreeObj 0;51;-27;-2.9
+,.FreeObj 0;51;-47;-4.5
+,.FreeObj 0;51;-67;-6.1
+7089,
+,.FreeObj 0;51;11;-1.3;180
+,.FreeObj 0;51;31;-2.9;180
+7095,
+,.freeObj -1;753;-20;0
+,
+7100,
+,.freeObj -1;753;20;0
+,.FreeObj 6;522;4;-1;
+,.Curve -1000;0
+,.railtype 0;101
+,.rail 6;3.8;0;101
+,.height 2
+,.FreeObj -1;526;-5;
+,.FreeObj 0;522;-4;-1
+,.rail 15;20;3;255
+,.Dike 15;-1;0
+,.Announce kasuga\kotabatu.wav 
+7125,
+,.FreeObj 6;522;4;-1;
+,.railend 13;140;-5;255
+,.wallend 13;
+,.FreeObj -1;526;-5;
+,.FreeObj 0;522;-4;-1
+7150,
+,.FreeObj 6;522;4;-1;
+,.pitch -7.6
+,.FreeObj -1;526;-5;
+,.FreeObj 0;522;-4;-1
+7175,
+,.FreeObj 6;522;4;-1;
+,.FreeObj -1;526;-5;
+,.FreeObj 0;522;-4;-1
+,.height 2
+,.railend 15
+,.dikeend 15
+7200,
+,.FreeObj 6;522;4;-1;
+,.pitch -3.3
+,.Curve 0;0
+,.railtype 0;0
+,.rail 6;3.8;0;0
+,.height 8
+7205,
+,.Tr 1;0;0
+7210,
+,.FreeObj -1;52;-60;0;70
+7225,
+,.FreeObj -1;52;-10;0;0
+,.FreeObj 6;522;4;-1;
+,.Sig 3;è?;6.5;4.5;2
+,.FreeObj 0;200;6;0;
+,.FreeObj 0;202;5.5;4;
+,
+,.FreeObj 0;200;7.5;-.5; 
+,.FreeObj 0;202;7.5;4;
+,
+7250,
+,.FreeObj -1;52;-10;0;0
+,.FreeObj -1;52;-15;4;0
+,.Rail 1;8.2;-.6;10
+,.dike 1;1;0
+,.FreeObj 1;40;0;0
+7266,
+,.FreeObj 0;2001;-.6;0
+,.marker kasuga\marker\taiphone.bmp;50
+7275,
+,.FreeObj -1;52;-10;0;0
+,.FreeObj -1;52;-15;6;0
+,.rail 1;8;-.4;10
+7300,
+,.FreeObj -1;52;-12;0;0
+,
+,.rail 1;7.8;-.2;10
+,.poleend 6
+,.pole 0;2;0;50;1
+7305,
+,.Tr 0;0;0
+7325,
+,.rail 1;7.6;0;10
+,.FreeObj 0;94;0;0
+,.FreeObj 6;94;0;0
+,.FreeObj 1;94;0;0
+,.FreeObj 0;95;0;0
+,.FreeObj 1;96;0;0
+,.dikeend 0
+7350,
+,
+,.height 1
+,.dikeend 6
+,.Curve 700;25
+,.railtype 0;80
+,.rail 1;7.6;0;61
+;1Å®6?÷?ÃÅgn??ê?,
+,.rail 2;7.6;0;44
+,
+,.rail 3;-4.5;0;10
+,.rail 4;-8.3;0;10
+,.FreeObj 3;40;0;0
+,.FreeObj 4;40;0;0
+7375,
+,.rail 1;8.1;0;61
+,.height 0.5
+,.curve 0;
+,.railtype 0;0
+,.rail 2;7;0;10
+,.rail 3;-4.9;0;10
+,.rail 4;-8.7;0;10
+,.crack 3;0;0
+7400,
+,.rail 1;9.3;0;10
+,.rail 2;4.8;0;24
+,
+,.rail 3;-5.8;0;10
+,.rail 4;-9.6;0;10
+,.crack 6;1;0
+,.crack 3;0;0
+7425,
+,.crack 6;1;0
+,.crack 3;0;0
+,.rail 1;11;0;10
+,.railend 2;3.8;0;10
+,
+,.rail 3;-6.7;0;10
+,.rail 4;-10.5;0;10
+,
+,.dikeend 5
+;X???VÅ[?T?X,
+,.rail 5;0;0;40
+,.rail 7;3.8;0;44
+7450,
+,.crack 6;1;0
+,.crack 3;0;0
+,.poleend 0
+,.FreeObj 0;1001;0;0
+,.rail 3;-7.6;0;10
+,.rail 4;-11.4;0;10
+,
+,.rail 1;12.7;0;10
+,
+;X???VÅ[?T?X,
+,.rail 5;0.9;0;0
+,.rail 7;2.9;0;0
+7475,
+,.crack 6;1;0
+,.crack 3;0;0
+,.rail 1;14.4;0;10
+,.rail 3;-8.5;0;10
+,.rail 4;-12.3;0;10
+,
+;X???VÅ[?T?X,
+,.rail 5;2.9;0;44
+,.rail 7;.9;0;40
+7495,
+,.FreeObj 0;45;-2;-1;0
+7500,
+,.crack 6;1;0
+,.crack 3;0;0
+,.rail 1;16.1;0;10
+,.rail 3;-9.5;0;10
+,.rail 4;-13.3;0;10
+,.rail 8;3.8;0;40
+,.rail 9;0;0;44;
+,.Sta Kotabatu;07.1410;t;0;-1;0;0;kasuga\yokosoholec.wav;;;
+,
+;X???VÅ[?T?X,
+,.railend 5;3.8;0;24
+,.railend 7;0;0;25
+,.turn 0.01
+,.pole 0;2;0;25;1
+7525,
+,.rail 9;-1.6;0;44
+,.rail 8;5.2;0;60
+,.railend 1;17.8;0;10
+,.dikeend 1
+,.rail 3;-10.7;0;10
+,.railend 4;-10.7;0;10
+,.rail 6;3.8;0;80
+,.crack 3;0;0
+,.pole 0;3;0;25;1
+7550,
+,.poleend 0
+,.rail 9;-4.9;0;0
+,.rail 3;-11.1;0;10
+,.rail 4;-11.1;0;10
+,.rail 8;8;0;0
+,.rail 6;4.4;0;0;
+,.crack 0;6;0
+,.crack 6;8;0
+,.crack 3;0;0
+7565,
+,.FreeObj 0;90;0;0
+,.freeObj 3;90;0;0
+,.FreeObj 4;90;0;0
+,.FreeObj 0;90;3.8;0
+,.FreeObj 0;90;7.6;0
+,.FreeObj 0;90;11.4;0
+,.FreeObj 0;90;-3.8;0
+,.FreeObj 0;90;-7.6;0
+,
+7575,
+,.pole 0;1;0;25;1
+,.FreeObj 3;1005;.6;0
+,.FreeObj 0;1006;0;0
+,.rail 9;-8.9;0;40
+,.rail 3;-11.4;0;10
+,.rail 4;-12.2;0;10
+,.rail 8;11.3;0;0
+,.rail 6;5.7;0;0;
+,.crack 0;6;0
+,.crack 6;8;0
+,.crack 3;0;0
+7600,
+,.pitch -1.6
+,.poleend 0
+,.railend 9;-11.4;0;40
+,.rail 3;-11.4;0;0
+,.rail 4;-13.8;0;10
+,.crack 0;6;0
+,.crack 6;8;0
+,.rail 8;14.6;0;0
+,.rail 6;7;0;0;
+,.Curve -700;20
+,.Railtype 0;88
+,.crack 3;0;0
+,.FreeObj 3;205;2;0
+7605,
+,.FreeObj 0;23;-1;0;0
+7625,
+,.FreeObj 4;1005;0;0
+,.FreeObj 0;1006;-1.9;0
+,.rail 8;18.3;0;66
+,.rail 6;8.7;0;88;
+,.rail 4;-15.2;0;10
+,.rail 9;-11.4;0;17
+,.Curve 0;0
+,.railtype 0;0
+,.poleend 0;
+,.FreeObj 0;1007;0;0
+,.crack 0;6;0
+,.crack 6;8;0
+,.crack 3;0;0
+,.pole 8;0;1;25;2
+7630,
+,.FreeObj -1;133;0;0
+,.FreeObj 8;205;3;0;0
+7650,
+,.pitch 0
+,.poleend 0
+,.poleend 8
+,.rail 6;10.2;0;88;
+,.rail 8;21.2;0;88
+,.rail 9;-13.3;0;16
+,.crack 0;6;0
+,.crack 6;8;0
+,.crack 3;0;0
+,
+7675,
+,.FreeObj 3;135;0;0
+,.pole 8;0;1;25;2
+,.FreeObj 0;134;-2.4;0
+,.crack 0;6;0
+,.crack 6;8;0
+,
+,.railend 9;-15.1;0;0
+,.rail 6;10.8;0;0;
+,.rail 8;22.2;0;0
+,.Form 0;3;0;2
+,.FreeObj 0;136;0;0
+7700,
+,.rail 6;11.4;0;0;
+,.rail 8;22.8;0;0
+,.poleend 8
+,.crack 0;6;0
+,.crack 6;8;0
+,.Form 0;3;0;2
+7705,
+,.FreeObj 3;2070;0;0;
+7720,
+,.FreeObj 6;751;4;-4;
+7725,
+,.Form 0;3;0;2
+,.crack 0;6;0
+,.crack 6;8;0
+,.FreeObj 0;1001;-1.2;0
+,.FreeObj 8;135;-.5;;180
+,.Freeobj 3;1006;12;0;180 
+,.Freeobj 3;1006;14;0;180 
+,
+,.FreeObj 6;111;0;0
+,.FreeObj 6;108;9;1;0
+,.FreeObj 3;1030;0;0;
+7735,
+,.FreeObj 0;130;-5;
+7740,
+,.FreeObj 0;750;-7;-5
+,
+7750,
+,.crack 0;6;0
+,.crack 6;8;0
+,.Form 0;3;0;2
+,.FreeObj 6;111;0;0
+,.FreeObj 6;108;9;1;0
+,
+,.FreeObj 0;137;0;0
+7765,
+,
+,.FreeObj 3;2072;0;0;
+7775,
+,.crack 0;6;0
+,.crack 6;8;0
+,.Form 0;3;0;2
+,.Form 6;8;0;2
+,.FreeObj 0;1001;-1.2;0
+,.FreeObj 8;135;-.5;;180
+,.FreeObj 0;138;0;0
+7780,
+,
+,.FreeObj 8;22;0;0;
+,.FreeObj 6;22;0;0;180
+7785,
+,.FreeObj 3;2071;0;0;
+7800,
+,.crack 0;6;0
+,.crack 6;8;0
+,.FreeObj 0;138;0;0
+,.Form 0;3;0;2
+,.Form 6;8;0;2
+,.FreeObj 8;137;0;0
+7805,
+,.FreeObj 3;2072;0;0;
+7820,
+,.FreeObj 4;40;0;0
+7825,
+,.FreeObj 3;2073;0;0
+,.FreeObj 0;1001;-1.2;0
+,.FreeObj 8;135;-.5;;180
+,.FreeObj 0;138;0;0
+,.crack 0;6;0
+,.crack 6;8;0
+,.Form 0;3;0;2
+,.Form 6;8;0;2
+,.FreeObj 8;138;0;0
+,.railend 4;
+,
+,
+7850,
+,.crack 0;6;0
+,.crack 6;8;0
+,
+,.Form 0;3;0;0
+,.Form 6;8;0;2
+,.FreeObj 8;138;0;0
+,.FreeObj 0;139;0;0
+,.FreeObj 0;2004;0;3
+,.stop 0;
+7860,
+,.FreeObj 0;139;0;0
+7875,
+,.FreeObj 0;1001;-1.2;0
+,.FreeObj 8;135;-.5;;180
+,.FreeObj 8;138;0;0
+,
+,.Form 0;3;0;0
+,.Form 6;8;0;2
+,.crack 0;6;0
+,.crack 6;8;0
+,.rail 4;-11.4;0;0
+7900,
+,.rail 3;-9.5;0;0
+,.Form 6;8;0;2
+,.crack 0;6;0
+,.crack 6;8;0
+,.Crack 3;0;0
+,.Crack 4;3;0
+,.FreeObj 8;138;0;0
+,.FreeObj 6;20;;
+,.pole 3;0;1;50;2
+,.pole 4;0;-1;50;2
+,
+7905,
+,.Tr 1;0;0
+7912,
+,.FreeObj 4;200;2;0;0
+,.FreeObj 4;201;1.5;4.5;
+,.FreeObj 4;203;2.5;4;0
+7925,
+,.pole 3;0;-1;25;2
+,.Freeobj 0;1006;4;0;180
+,.Crack 3;0;0
+,.rail 3;-6;0;0
+,.FreeObj 0;134;0
+,.Form 6;8;0;0
+,.crack 0;6;0
+,.crack 6;8;0
+,.Crack 4;3;0
+,.FreeObj 0;211;1.8;5.9;0
+,.FreeObj 6;211;-2;5.2;0
+,.Sig 3;èo;2.3;7;3
+,.FreeObj 0;203;1.8;6.2;
+,.FreeObj 6;203;-2;6.2;
+,.FreeObj 6;202;-1.5;6.8;
+,.FreeObj 8;135;-.5;;180
+,.rail 4;-11.4;0;17
+,.FreeObj 6;45;0;0
+,.rail 5;11.4;0;88
+,.rail 8;22.1;0;0
+7931,
+,
+7950,
+,.poleend 3
+,.rail 4;-13.3;0;17
+,.Crack 3;0;0
+,.crack 0;6;0
+,.rail 3;-3;0;44
+,.Form 6;8;0;0
+,.pole 4;0;1;50;2
+,.rail 5;11.1;0;0
+,.rail 8;21.1;0;0
+7975,
+,.crack 0;6;0
+,.rail 4;-18.2;0;44
+,.rail 3;-.7;0;44
+,.FreeObj 0;1001;-1.2;0
+,.FreeObj 8;135;2;;180
+,.rail 5;10.1;0;0
+,.rail 8;20.1;0;0
+,.Crack 6;8;0
+8000,
+,.crack 0;6;0
+,.Crack 6;8;0
+,.rail 4;-26.7;0;0
+,.rail 3;0;0;44
+,.rail 5;8.8;0;0
+,.rail 6;11.4;0;0
+,.rail 8;19.1;0;0
+8020,
+,
+,.FreeObj 0;45;-1;0;0
+8025,
+,.crack 0;6;0
+,.Crack 6;8;0
+,.rail 6;11.4;0;0
+,.pole 0;3;0;25;1
+,.rail 4;-36.7;0;44
+,.rail 3;-.7;0;44
+,.rail 5;7.5;0;0
+,.rail 8;18.1;0;0
+8050,
+,.crack 0;6;0
+,.Crack 6;8;0
+,.rail 6;11.4;0;0
+,.railend 3;-3.1;0;0
+,.poleend 0
+,.railend 4;-47.7;0;0
+,.poleend 4
+,
+,.rail 1;0;0;0
+,.rail 5;5.7;0;0
+,.Curve 370;15
+,.railtype 0;40
+,.rail 8;17.2;0;0
+,.limit 45;0
+8075,
+,.crack 0;6;0
+,.Crack 6;8;0
+,.rail 6;10.4;0;0
+,.rail 1;-.9;0;0
+,.rail 5;2.9;0;0
+,.curve 0;0
+,.railtype 0;0
+,.rail 8;15.5;0;0
+8100,
+,.crack 0;6;0
+,.Crack 6;8;0
+,.rail 6;8.7;0;0
+,.rail 1;-2.7;0;66
+,.rail 5;-.9;0;0
+,.rail 8;12.9;0;0
+8125,
+,.crack 0;6;0
+,.Crack 6;8;0
+,.Curve 500;46
+,.railtype 0;50
+,.rail 6;7;0;40
+,.railend 1;-4.9;0;0
+,.rail 5;-4.9;0;0
+,.rail 8;10.3;0;0
+,.height 0.5
+8150,
+,.height 5
+,.dike 0;-1;0
+,.dike 5;0;0;0
+,.dike 6;1;0
+,.crack 0;6;0
+,.Crack 6;8;0
+,.rail 5;-9.7;0;0
+,.rail 6;5.3;0;0
+,.rail 8;7.2;0;40
+8175,
+,.rail 5;-15.9;0;0
+,.rail 6;3.9;0;0
+,.railend 8;3.9;0;0
+8200,
+,.rail 5;-23.6;0;60
+,.curve 0;0
+,.railtype 0;0
+,.rail 6;1.3;0;16
+8225,
+,.rail 5;-30.6;0;60
+,.railend 6;0;0;0
+,.Curve 500;46
+,.railtype 0;50
+,.dike 0;0;0
+8250,
+,.rail 5;-36.6;0;0
+8275,
+,.rail 5;-43.4;0;44
+8300,
+,.rail 5;-53.6;0;44
+8325,
+,.rail 5;-68.6;0;44
+8350,
+,.railend 5;-90.6;0;44
+,
+,
+With Structure,
+.Rail(0) kasuga\rail\ballast.csv,
+.Rail(1) kasuga\rail\mini_bridge.csv,
+.Rail(2) kasuga\rail\BridgeRail.csv,
+.Rail(10) kasuga\rail\kballast.csv,
+.Rail(16) kasuga\rail\ballast(165).csv,
+.Rail(17) kasuga\rail\ballast(-165).csv,
+.Rail(24) kasuga\rail\kballast(238).csv,
+.Rail(25) kasuga\rail\kballast(-238).csv,
+.Rail(40) kasuga\rail\ballast(400).csv,
+.Rail(44) kasuga\rail\ballast(-400).csv,
+.Rail(60) kasuga\rail\ballast(600).csv,
+.Rail(61) kasuga\rail\kballast(600).csv,
+.Rail(66) kasuga\rail\ballast(-600).csv,
+.Rail(80) kasuga\rail\ballast(800).csv,
+.Rail(88) kasuga\rail\ballast(-800).csv,
+.Rail(100) kasuga\rail\ballast(1000).csv,
+.Rail(101) kasuga\rail\ballast(-1000).csv,
+.Rail(120) kasuga\rail\ballast(1200).csv,
+.Rail(121) kasuga\rail\ballast(-1200).csv,
+,
+.Rail(247) kasuga\tikei\kansendou.csv,
+.Rail(248) kasuga\rail\grassrail.csv,
+.Rail(249) kasuga\rail\Nullrail_saho.csv,
+.Rail(250) kasuga\tikei\kousoku2.csv,
+.Rail(251) kasuga\tikei\kousoku.csv,
+.Rail(252) kasuga\gardrail.csv,
+.Rail(253) kasuga\tikei\sodou.csv,
+.Rail(254) kasuga\rail\Nullrail.csv,
+.Rail(255) Null.csv,
+;CrackSection,
+.CrackL(0) kasuga\rail\CraBalL.csv,
+.CrackR(0) kasuga\rail\CraBalR.csv,
+,
+.CrackL(1) kasuga\rail\CraGraL.csv,
+.CrackR(1) kasuga\rail\CraGraR.csv,
+,
+;Form&RoofSection,
+.FormR(0) kasuga\form\FormR_nara.csv,
+.FormL(0) kasuga\form\FormL_nara.csv,
+.FormCR(0) kasuga\form\FormCR_nara.csv,
+.FormCL(0) kasuga\form\FormCL_nara.csv,
+,
+.FormL(1) kasuga\form\yamaFormL2.csv,
+.FormR(1) kasuga\form\yamaFormR2.csv,
+,
+.FormL(2) kasuga\form\kiduFormL.csv,
+.FormR(2) kasuga\form\kiduFormR.csv,
+.FormCR(2) kasuga\form\FormCR_kidu.csv,
+.FormCL(2) kasuga\form\FormCL_kidu.csv,
+,
+,
+.RoofCR(0) RoofCR.csv,
+.RoofCL(0) RoofCL.csv,
+.RoofR(1) RoofR.csv,
+.RoofL(1) RoofL.csv,
+,
+,
+.RoofCR(1) RoofCR.csv,
+.RoofCL(1) RoofCL.csv,
+,
+.Pole(0;1) kasuga\pole\pole1_a.csv,
+.Pole(1;1) kasuga\pole\pole2.csv,
+.Pole(2;1) kasuga\pole\pole3.csv,
+.Pole(3;1) kasuga\pole\pole4.csv,
+,
+.Pole(0;2) kasuga\pole\pole_kidu2.csv,
+.Pole(1;2) kasuga\pole\pole2_-.csv,
+,
+.WallL(9) kasuga\wall\garterL.csv    ;ê‘?KÅ[?^Å[,
+.WallR(9) kasuga\wall\garterR.csv,
+.WallR(10) kasuga\wall\nara_eki.csv   ;Ågﬁ?«ÅÒw?zÅ[?Ä,
+.WallL(11) kasuga\wall\conc1.csv ,
+,
+.WallR(12) kasuga\wall\fence_gR.csv,
+,
+.WallR(13) kasuga\wall\kidu_temae.csv,
+,
+,
+.WallL(19) kasuga\wall\garterL_green.csv    ;?Œ?KÅ[?^Å[,
+.WallR(19) kasuga\wall\garterR_green.csv,
+,
+,
+.DikeL(0) kasuga\DikeL.csv,
+.DikeR(0) kasuga\DikeR.csv,
+,
+.DikeL(1) kasuga\ConcL.csv,
+,
+.DikeL(2) kasuga\iwaL.csv,
+,
+.Ground(0) kasuga\grass.csv,
+;.Ground(0) kasuga\Ground.csv,
+.Ground(1) kasuga\iwa_Ground.csv,
+;.Ground(2) kasuga\Ground_road.csv,
+,
+;Marker 20~39,
+.FreeObj(20) kasuga\marker\mark1.csv       ;?W?Ø,
+.FreeObj(21) kasuga\marker\teimoku_x.csv    ;Åf??~? Åfu?⁄?W,
+.FreeObj(22) kasuga\marker\teimoku_nara.csv   ;Ågﬁ?«ÅÒwÅf??⁄,
+.FreeObj(23) kasuga\marker\mark2.csv        ;?~?‹??ÅÒE???µç∂???µ,
+.FreeObj(30) kasuga\marker\up.csv           ;è?????Åhz?\ÅÒE,
+.FreeObj(31) kasuga\marker\upL.csv          ;è?????Åhz?\ç∂,
+.FreeObj(32) kasuga\marker\siro_sankaku.csv ;?∆???†?¶?∏Å¢,
+.FreeObj(33) kasuga\marker\Lhyou.csv        ;L?ÃÅÒEÅe§,
+.FreeObj(34) kasuga\marker\downL.csv        ;ÅÒ∫????Åhz?\ç∂,
+.FreeObj(35) kasuga\marker\downR.csv        ;ÅÒ∫????Åhz?\ÅÒE,
+.FreeObj(36) kasuga\marker\att.csv          ;Åf??‘è?ê⁄?ﬂ,
+.FreeObj(37) kasuga\marker\yellow.csv,
+.FreeObj(38) kasuga\marker\70_y.csv,
+.FreeObj(39) kasuga\marker\att2.csv,
+,
+;komono40~79,
+.FreeObj(40) kasuga\kurumadome.csv          ;?‘?~?ﬂ,
+.FreeObj(41) kasuga\rikkyou1.csv            ;?§?¥???¬?⁄,
+.FreeObj(42) kasuga\hasi1.csv,
+.FreeObj(43) kasuga\saho\saho.csv            ;ç≤?€(êM),
+.FreeObj(44) kasuga\wall\wall_shortR.csv,
+,
+,
+,
+;exception!,
+.FreeObj(45) kasuga\marker\45R.csv        ;êß?¿?S?Têi?HR,
+.FreeObj(46) kasuga\const\koya.csv        ;è¨ÅÒÆ,
+.FreeObj(47) kasuga\gardrail2.csv         ;?KÅ[?h??Å[??,
+.FreeObj(48) kasuga\rikkyou2.csv,
+.FreeObj(49) kasuga\form\hasigo.csv,
+.FreeObj(50) kasuga\rikkyou4.csv             ;?§?¥?S?¬?⁄,
+.FreeObj(51) kasuga\suspend_single.csv,
+.FreeObj(52) kasuga\factroy.csv,
+,
+;cross80~99,
+.FreeObj(89) kasuga\cross_saku.csv,
+,
+.FreeObj(90) kasuga\cross.csv    ;ç\Åg?Ågn??Åh¬,
+.FreeObj(91) kasuga\crosslong.csv ;Åg•?›êÿ??Åh¬25?ç,
+.FreeObj(92) kasuga\TollBarDL.csv ;?’Åff?@ç∂,
+.FreeObj(93) kasuga\TollBarDR.csv ;?’Åff?@ÅÒE,
+,
+.FreeObj(94) kasuga\cross_6.csv   ;Åg•?›êÿ??Åh¬12m,
+.FreeObj(95) TollBarDL.csv,
+.FreeObj(96) TollBarDR.csv,
+.FreeObj(97) kasuga\cross\mark.csv,
+,
+.FreeObj(99) kasuga\nara_eki.csv   ,
+;Nara 100~110,
+.FreeObj(100) kasuga\nara\tumeR.csv    ;Ågﬁ?«ÅÒw?lè?,
+.FreeObj(101) kasuga\nara\wc.csv       ;Ågﬁ?«ÅÒw?÷è?,
+.FreeObj(102) kasuga\nara\ekisya.csv   ;Ågﬁ?«ÅÒw?◊ê??¥,
+.FreeObj(103) kasuga\nara\bill1.csv    ;?r??,
+.FreeObj(104) kasuga\nara\bill2.csv    ;?r??,
+.FreeObj(105) kasuga\nara\asiba.csv    ;Åe´è?,
+.FreeObj(106) kasuga\suspend.csv,
+.FreeObj(107) kasuga\suspend(M).csv,
+.FreeObj(108) kasuga\wall\fence_g.csv,
+.FreeObj(109) kasuga\tettou\te50\tettou1-35m.csv,
+,
+,
+;Narayama 110~120,
+.FreeObj(110) kasuga\form\yamaFormL.csv,
+.FreeObj(111) kasuga\form\yamaFormR.csv,
+.FreeObj(112) kasuga\wall\fence_g_temae.csv,
+.FreeObj(113) kasuga\nara\narayama_ekisya.csv,
+,
+;Kidu130~140,
+.FreeObj(130) kasuga\name\yama_tati.csv,
+.FreeObj(131) kasuga\rikkyou3.csv,
+.FreeObj(132) kasuga\tikei\kidu3R.csv,
+.FreeObj(133) kasuga\kidu\tume.csv,
+.FreeObj(134) kasuga\pole\pole_kidu3.csv,
+.FreeObj(135) kasuga\pole\pole_kidu4.csv,
+.FreeObj(136) kasuga\form\kiduFormhasi.csv,
+.FreeObj(137) kasuga\kidu\kiduRoofhasi.csv,
+.FreeObj(138) kasuga\kidu\kiduRoof.csv,
+.FreeObj(139) kasuga\nara\tumeL.csv,
+,
+;sig 200~230,
+.FreeObj(200) kasuga\sig\pole.csv,
+.FreeObj(201) kasuga\sig\sig3_g.csv,
+.FreeObj(202) kasuga\sig\sig3_r.csv,
+.FreeObj(203) kasuga\sig\sig3_r.csv,
+,
+.FreeObj(205) kasuga\sig\back_sig.csv   ;???????´êMçÅı,
+,
+.FreeObj(206) kasuga\sig\sig4_y.csv,
+.FreeObj(207) kasuga\sig\sig4_yy.csv,
+.FreeObj(211) kasuga\sig\SigBase1.csv,
+,
+;tikei500~550,
+.FreeObj(500) kasuga\tikei\nara1.csv   ,
+.FreeObj(501) kasuga\tikei\nara2.csv,
+.FreeObj(502) kasuga\tikei\nara3.csv,
+.FreeObj(503) kasuga\tikei\kisi1L.csv,
+.FreeObj(504) kasuga\tikei\kisi1R.csv,
+.FreeObj(505) kasuga\tikei\kisi2L.csv,
+.FreeObj(506) kasuga\tikei\kisi2R.csv,
+.FreeObj(507) kasuga\tikei\nara4.csv,
+.FreeObj(508) kasuga\tikei\nara5.csv,
+.FreeObj(509) kasuga\tikei\nara6_1.csv,
+.FreeObj(510) kasuga\tikei\nara6.csv,
+.FreeObj(511) kasuga\tikei\nara6_1L.csv,
+.FreeObj(512) kasuga\tikei\nara6L.csv,
+.FreeObj(513) kasuga\tikei\nara2_2.csv,
+.FreeObj(514) kasuga\tikei\nara2_2R.csv,
+.FreeObj(515) kasuga\tikei\nara2_3.csv,
+.FreeObj(516) kasuga\tikei\nara2_2Lup.csv,
+.FreeObj(517) kasuga\tikei\nara2_2Lup2.csv,
+.FreeObj(518) kasuga\tikei\sahoL1.csv,
+.FreeObj(519) kasuga\tikei\sahoL2.csv,
+.FreeObj(520) kasuga\tikei\sahoL3.csv,
+.FreeObj(521) kasuga\tikei\nara2_2Rdown.csv,
+.FreeObj(522) kasuga\tikei\zassou1.csv,
+.FreeObj(523) kasuga\tikei\pond.csv,
+.FreeObj(524) kasuga\tikei\kidu1R.csv,
+.FreeObj(525) kasuga\tikei\kidu2R.csv,
+.FreeObj(526) kasuga\tikei\tanbo.csv,
+.FreeObj(527) kasuga\green\zassou2.csv,
+.FreeObj(530) kasuga\tikei\kisi3L.csv,
+.FreeObj(531) kasuga\tikei\kisi3R.csv,
+.FreeObj(532) kasuga\green\mountain1.csv,
+,
+,
+;house(ita),
+.FreeObj(700) kasuga\const\ita1.csv,
+.FreeObj(701) kasuga\const\ita2.csv,
+,
+.FreeObj(710) kasuga\const\house1.csv,
+.FreeObj(711) kasuga\const\house2.csv,
+.FreeObj(712) kasuga\const\house3.csv,
+,
+.FreeObj(720) kasuga\const\ita6.csv,
+,
+.FreeObj(750) kasuga\tree3.csv,
+.FreeObj(751) kasuga\tree4.csv,
+.FreeObj(752) kasuga\tree4_big.csv,
+.FreeObj(753) kasuga\trees.csv,
+.FreeObj(754) kasuga\tree5.csv   ;20m?AÅe±,
+,
+;green800~850,
+.FreeObj(800) kasuga\green\g3.csv,
+.FreeObj(801) kasuga\tikei\hatake.csv,
+,
+;OridinalPole1000~1020,
+.FreeObj(1000) kasuga\pole\pole4_ll.csv,
+.FreeObj(1001) kasuga\pole\pole5.csv,
+.FreeObj(1002) kasuga\pole\pole2.csv,
+.FreeObj(1003) kasuga\pole\pole4_-.csv,
+.FreeObj(1004) kasuga\pole\ooska_pole2.csv,
+.FreeObj(1005) kasuga\pole\pole2_-.csv,
+.FreeObj(1006) kasuga\pole\pole_kidu1.csv,
+.FreeObj(1007) kasuga\pole\pole2_3.csv,
+,
+.FreeObj(1030) kasuga\6000\T2.csv,
+,
+,
+,
+,
+;221?n,
+.FreeObj(2070) kasuga\6000\Tc.csv,
+.FreeObj(2071) kasuga\6000\T.csv,
+.FreeObj(2072) kasuga\6000\M.csv,
+.FreeObj(2073) kasuga\6000\Tc2.csv,
+,
+;Marker2000~2050,
+.FreeObj(2000) kasuga\marker\2_teimoku.csv,
+.FreeObj(2001) kasuga\marker\taiphone.csv,
+.FreeObj(2002) kasuga\marker\L_R.csv           ;??Åhz?»?µ?\ÅÒE,
+.FreeObj(2003) kasuga\marker\L_L.csv          ;??Åhz?»?µ?\ç∂,
+.FreeObj(2004) kasuga\marker\x_teimoku.csv,

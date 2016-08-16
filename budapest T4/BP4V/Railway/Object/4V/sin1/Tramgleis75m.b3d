@@ -1,0 +1,68 @@
+﻿;--Tramgleis 75m (als freeobj)--
+
+[MeshBuilder]
+Vertex -2, -0.04, 0
+Vertex -2, -0.04, 175.2
+Vertex  2, -0.04, 175.2
+Vertex  2, -0.04, 0
+Face 0, 1, 2, 3
+[Texture]
+Load macskako.bmp
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,30
+
+;-----Kante vorn-------
+
+[MeshBuilder]
+Vertex -1.75, -0.30, 0
+Vertex -1.75, -0.04, 0
+Vertex  1.75, -0.04, 0
+Vertex  1.75, -0.30, 0
+Face 0,1,2,3
+Color 128,128,128
+
+;--- linke Schiene ---
+
+[MeshBuilder]
+Vertex -0.80,0,0
+Vertex -0.80,0,175.2
+Vertex -0.72,0,175.2
+Vertex -0.72,0,0
+Face 0,1,2,3
+Color 255,255,255
+[MeshBuilder]
+Vertex -0.81,-0.02,0
+Vertex -0.81,-0.02,175.2
+Vertex -0.60,-0.02,175.2
+Vertex -0.60,-0.02,0
+Face 0,1,2,3
+Color 0,0,0
+
+;--- rechte Schiene ---
+
+[MeshBuilder]
+Vertex 0.72,0,0
+Vertex 0.72,0,175.2
+Vertex 0.80,0,175.2
+Vertex 0.80,0,0
+Face 0,1,2,3
+Color 255,255,255
+[MeshBuilder]
+Vertex 0.60,-0.02,0
+Vertex 0.60,-0.02,175.2
+Vertex 0.81,-0.02,175.2
+Vertex 0.81,-0.02,0
+Face 0,1,2,3
+Color 0,0,0
+
+;----------Oberleitung-----------
+
+[MeshBuilder];-Fahrleitung-
+Vertex  0.02, 6, 0
+Vertex  0.02, 6, 175.2
+Vertex -0.02, 6, 175.2
+Vertex -0.02, 6, 0
+Face2 0,1,2,3
+Color 48,40,32

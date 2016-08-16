@@ -1,0 +1,113 @@
+;jobb fal
+[MeshBuilder]
+vertex 2.2,4.00,-0.8;0
+vertex 2.2,3.90,-0.8;1
+vertex 2.2,3.80,-0.8;2
+vertex 2.2,3.46,-0.8;3
+vertex 2.2,2.98,-0.8;4
+vertex 2.2,2.41,-0.8;5
+vertex 2.2,1.80,-0.8;6
+vertex 2.2,1.20,-0.8;7
+vertex 2.2,0.63,-0.8;8
+vertex 2.2,0.14,-0.8;9
+vertex 2.2,-0.24,-0.8;10
+vertex 2.2,-0.47,-0.8;11
+vertex 2.2,-0.55,-0.8;12
+
+vertex 2.2,4.00,25.3;13
+vertex 2.2,3.90,25.3;14
+vertex 2.2,3.80,25.3;15
+vertex 2.2,3.46,25.3;16
+vertex 2.2,2.98,25.3;17
+vertex 2.2,2.41,25.3;18
+vertex 2.2,1.80,25.3;19
+vertex 2.2,1.20,25.3;20
+vertex 2.2,0.63,25.3;21
+vertex 2.2,0.14,25.3;22
+vertex 2.2,-0.24,25.3;23
+vertex 2.2,-0.47,25.3;24
+vertex 2.2,-0.55,25.3;25
+face2 1,14,13,0
+face2 2,15,14,1
+face2 3,16,15,2
+face2 4,17,16,3
+face2 5,18,17,4
+face2 6,19,18,5
+face2 7,20,19,6
+face2 8,21,20,7
+face2 9,22,21,8
+face2 10,23,22,9
+face2 11,24,23,10
+face2 12,25,24,11
+Load mely.bmp
+coordinates 0,0,0
+coordinates 1,0,0.05
+coordinates 2,0,0.10
+coordinates 3,0,0.17
+coordinates 4,0,0.24
+coordinates 5,0,0.29
+coordinates 6,0,0.43
+coordinates 7,0,0.61
+coordinates 8,0,0.83
+coordinates 9,0,0.88
+coordinates 10,0,0.91
+coordinates 11,0,0.98
+coordinates 12,0,1
+coordinates 13,2,0
+coordinates 14,2,0.05
+coordinates 15,2,0.10
+coordinates 16,2,0.17
+coordinates 17,2,0.24
+coordinates 18,2,0.29
+coordinates 19,2,0.43
+coordinates 20,2,0.61
+coordinates 21,2,0.83
+coordinates 22,2,0.88
+coordinates 23,2,0.91
+coordinates 24,2,0.98
+coordinates 25,2,1
+
+[MeshBuilder]
+vertex 2.21,4.00,0
+vertex 2.21,4.00,25.3
+vertex -2.2,4.00,25.3
+vertex -2.2,4.00,0
+;1-2 vágány közötti fal
+vertex 2.2,-0.55,-0.8
+vertex 2.2,4.00,-0.8
+vertex 3.14,4.00,-0.8
+vertex 3.14,-0.55,-0.8
+;3-4 vágány közötti fal
+vertex -7.0,-0.55,0.33
+vertex -7.0,4.00,0.33
+vertex -6.14,4.00,0.33
+vertex -6.14,-0.55,0.33
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+Load melyteto.bmp
+Coordinates 0,0,1
+Coordinates 1,2,1
+Coordinates 2,2,0
+Coordinates 3,0,0
+Coordinates 4,0,1
+Coordinates 5,2,1
+Coordinates 6,2,0
+Coordinates 7,0,0
+Coordinates 8,0,1
+Coordinates 9,2,1
+Coordinates 10,2,0
+Coordinates 11,0,0
+;lámpák
+[MeshBuilder]
+cube 0.03,0.1,0.5
+translate 2.17,2.60,4.5
+color 72,72,72
+[MeshBuilder]
+cube 0.03,0.1,0.5
+translate 2.17,2.60,12.5
+color 72,72,72
+[MeshBuilder]
+cube 0.03,0.1,0.5
+translate 2.17,2.60,20.5
+color 72,72,72

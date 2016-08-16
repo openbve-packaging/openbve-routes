@@ -1,0 +1,14 @@
+[meshbuilder]
+vertex -0.5,1.2,0
+vertex 0.5,1.2,0
+vertex 0.5,-0.2,0
+vertex -0.5,-0.2,0
+face 0,1,2,3
+[texture]
+load pw_worker6.png
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+emissivecolor 255,255,255
+transparent 0,0,255

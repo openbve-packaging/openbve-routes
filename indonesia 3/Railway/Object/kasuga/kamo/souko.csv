@@ -1,0 +1,36 @@
+CreateMeshBuilder,,,,
+AddVertex,-11.6,0.1,0
+AddVertex,-11.6,4.9,0,
+AddVertex,-3  ,4.9,0,
+AddVertex,-3  ,0.1,0
+AddVertex,-3  ,6.4,2.5,
+AddVertex,-3  ,0.1,2.5
+AddVertex,-3  ,4.9,5,
+AddVertex,-3  ,0.1,5
+AddFace,0,1,2,3
+AddFace,4,5,3,2
+AddFace,6,7,5,4
+GenerateNormals,,,,
+LoadTexture,conc1.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,2,0,
+SetTextureCoordinates,5,2,1,
+SetTextureCoordinates,6,3,0,
+SetTextureCoordinates,7,3,1,
+
+CreateMeshBuilder,,,,
+AddVertex,-11.6,4.9,0
+AddVertex,-11.6,6.4,2.5,
+AddVertex,-3  ,6.4,2.5
+AddVertex,-3  ,4.9,0
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,kawara2.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+Setcolor,101,82,54

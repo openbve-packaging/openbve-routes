@@ -1,0 +1,64 @@
+
+;Sign
+[meshbuilder]
+vertex 0.0000,-0.3048,0.0000 ;0
+vertex 0.0000,-0.3048,4.9097 ;1
+vertex 0.0254,-0.3048,4.9097 ;2
+vertex 0.0254,-0.3048,0.0000 ;3
+
+vertex 0.0000,-0.3048,0.0000 ;4
+vertex 0.0254,-0.3048,0.0000 ;5
+vertex 0.0254,-0.8096,0.0000 ;6
+vertex 0.0000,-0.8096,0.0000 ;7
+
+vertex 0.0000,-0.3048,4.9097 ;8
+vertex 0.0000,-0.3048,0.0000 ;9
+vertex 0.0000,-0.8096,0.0000 ;10
+vertex 0.0000,-0.8096,4.9097 ;11
+
+vertex 0.0254,-0.3048,4.9097 ;12
+vertex 0.0000,-0.3048,4.9097 ;13
+vertex 0.0000,-0.8096,4.9097 ;14
+vertex 0.0254,-0.8096,4.9097 ;15
+
+vertex 0.0254,-0.3048,0.0000 ;16
+vertex 0.0254,-0.3048,4.9097 ;17
+vertex 0.0254,-0.8096,4.9097 ;18
+vertex 0.0254,-0.8096,0.0000 ;19
+
+vertex 0.0000,-0.8096,4.9097 ;20
+vertex 0.0000,-0.8096,0.0000 ;21
+vertex 0.0254,-0.8096,0.0000 ;22
+vertex 0.0254,-0.8096,4.9097 ;23
+
+face 0,1,2,3     ; top face
+face 4,5,6,7     ; front face
+face 8,9,10,11   ; text-bearing face
+face 12,13,14,15 ; back face
+face 16,17,18,19 ; text-bearing face
+face 20,21,22,23 ; bottom face
+
+color 255,255,255
+
+[texture]
+load Greenpoint.bmp
+
+coordinates 4,0.0000,0
+coordinates 5,0.0039,0
+coordinates 6,0.0039,1
+coordinates 7,0.0000,1
+
+coordinates  8,0,0
+coordinates  9,1,0
+coordinates 10,1,1
+coordinates 11,0,1
+
+coordinates 12,0.0000,0
+coordinates 13,0.0039,0
+coordinates 14,0.0039,1
+coordinates 15,0.0000,1
+
+coordinates 16,0,0
+coordinates 17,1,0
+coordinates 18,1,1
+coordinates 19,0,1

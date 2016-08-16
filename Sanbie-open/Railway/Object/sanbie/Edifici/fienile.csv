@@ -1,0 +1,34 @@
+CreateMeshBuilder, ; tetto
+AddVertex,-8,2.3,-1,
+AddVertex,-8,7,5.5,
+AddVertex,8,7,5.5,
+Addvertex,8,2.3,-1,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,tetto1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 2,
+SetTextureCoordinates,2, 3, 2,
+SetTextureCoordinates,3, 3, 0,
+
+
+CreateMeshBuilder,  ;colonna
+cube,0.5,1.5,0.5,
+translate, -6.5,1,0
+
+
+CreateMeshBuilder,  ;colonna
+cube,0.5,1.5,0.5,
+translate, 6.5,1,0
+
+
+CreateMeshBuilder, ; fondo
+AddVertex,-8,0,5.5,
+AddVertex,-8,7,5.5,
+AddVertex,8,7,5.5,
+Addvertex,8,0,5.5,
+Addface2, 0,1,2,3
+GenerateNormals,
+SetColor, 176, 176, 176
+

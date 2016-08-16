@@ -1,0 +1,18 @@
+; StaccionataSX.b3d by Luigi Cartello (cartello.luigi@tiscali.it)
+
+; Oggetto BVE costituito da un tratto di staccionata FS in cemento
+; lungo mt.25 posizionato a sinistra
+
+[MeshBuilder]       ; Pilastrino 0
+Vertex -3, 1.6, 26
+Vertex -3, 1.6, -1
+Vertex -3, -0.3, 26
+Vertex -3, -0.3, -1
+Face2 2,3,1,0
+
+load staccionata1.bmp,
+Coordinates 0, 10, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 10, 0.93,
+Coordinates 3, 0, 0.93,
+Transparent 255,255,255,

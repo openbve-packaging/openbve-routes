@@ -1,0 +1,39 @@
+[MeshBuilder]
+Vertex -1.35, -0.18, -0.5
+Vertex -1.35, -0.185, 25.5
+Vertex 1.35, -0.185, 25.5
+Vertex 1.35, -0.18, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load grass.bmp
+Coordinates 0, -0.02, 10
+Coordinates 1, -0.02, 0
+Coordinates 2, 1.02, 0
+Coordinates 3, 1.02, 10
+
+[MeshBuilder]
+Vertex -2.8, -0.4, -0.5
+Vertex -2.8, -0.405, 25.5
+Vertex -1.35, -0.185, 25.5
+Vertex -1.35, -0.18, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load grass.bmp
+Coordinates 0, 0, 10
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 10
+
+[MeshBuilder]
+Vertex 1.35, -0.185, 25.5
+Vertex 2.8, -0.405, 25.5
+Vertex 2.8, -0.4, -0.5
+Vertex 1.35, -0.18, -0.5
+Face 0,1,2,3
+[Texture]
+Load grass.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 10
+Coordinates 3, 0, 10
+

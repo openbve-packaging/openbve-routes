@@ -1,0 +1,107 @@
+;âÆç™íå
+CreateMeshBuilder,
+AddVertex,-7.20, 4.5, 0.0
+AddVertex,-6.90, 4.5, 0.0
+AddVertex,-6.90, 1.1, 0.0
+AddVertex,-7.20, 1.1, 0.0
+AddFace,0,1,2,3
+Loadtexture,gyopole.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+Translate,0,0,8.5
+
+;âÆç™
+CreateMeshBuilder,
+AddVertex,-7.2, 4.5, 0,
+AddVertex,-7.2, 4.5, 25.3,
+AddVertex, 0.7, 5.75, 25.3,
+AddVertex, 0.7, 5.75, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,RoofA.bmp,
+SetTextureCoordinates,0, 1.5, 0,
+SetTextureCoordinates,1, 1.5, 5,
+SetTextureCoordinates,2, 0, 5,
+SetTextureCoordinates,3, 0, 0,
+SetColor,200,200,200
+
+CreateMeshBuilder,
+AddVertex, 0.7, 5.8, 25.3,
+AddVertex, 0.7, 5.8, 0,
+AddVertex, 0.7, 5.3, 0,
+AddVertex, 0.7, 5.3, 25.3,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,kasai_R.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 9, 0,
+SetTextureCoordinates,2, 9, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex, 0.7, 5.80, 8.0,
+AddVertex, 1.9, 6.15, 8.0,
+AddVertex, 3.1, 5.80, 8.0,
+AddVertex, 3.1, 5.30, 8.0,
+AddVertex, 1.9, 5.60, 8.0,
+AddVertex, 0.7, 5.30, 8.0,
+AddFace,0,1,4,5
+addface,1,2,3,4
+LoadTexture,FRoof_A.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 2, 0,
+SetTextureCoordinates,3, 2, 1,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 0, 1,
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex, 0.7, 5.80, 18.0,
+AddVertex, 1.9, 6.15, 18.0,
+AddVertex, 3.1, 5.80, 18.0,
+AddVertex, 3.1, 5.30, 18.0,
+AddVertex, 1.9, 5.60, 18.0,
+AddVertex, 0.7, 5.30, 18.0,
+AddFace,0,1,4,5
+addface,1,2,3,4
+LoadTexture,FRoof_A.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 2, 0,
+SetTextureCoordinates,3, 2, 1,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 0, 1,
+GenerateNormals,
+CreateMeshBuilder,
+addvertex, 1.9, 5.8, 18.0
+addvertex, 1.9, 5.8,  8.0
+addvertex, 1.9, 5.6,  8.0
+addvertex, 1.9, 5.6, 18.0
+addface,0,1,2,3
+setcolor,80,80,80
+
+;åuåıìî
+CreateMeshBuilder,
+ADdVertex,-2.8, 4.4, 24.5
+AddVertex,-2.6, 4.5, 24.5
+AddVertex,-2.6, 4.5, 0.5
+AddVertex,-2.8, 4.4, 0.5
+ADdFace,3,2,1,0
+LoadTexture,../Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1.5, 0.05, 24
+AddVertex, 1.7, 0.05, 25
+AddVertex, 1.7, 0.05, 0
+ADdvertex,-1.5, 0.05, -1
+AddFace,0,1,2,3
+SetColor,20,20,20,100,
+GenerateNormals,

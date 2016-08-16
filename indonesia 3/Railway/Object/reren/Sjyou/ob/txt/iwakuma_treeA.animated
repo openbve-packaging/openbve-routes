@@ -1,0 +1,158 @@
+[Object]
+Position = 10.5, 1.38, 130
+States = ../tree/tree_D.csv
+RotateZDirection = 0, 0, 1
+RotateZFunction = sin[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+
+[Object]
+Position = 10.5, -1.38, 60
+States = ../tree/tree_D.csv
+RotateZDirection = 0, 0, 1
+RotateZFunction = sin[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = 10.5, -1.38, 5
+States = ../tree/tree_D.csv
+RotateZDirection = 0, 0, 1
+RotateZFunction = sin[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = -6.0, -1.6, 6.0
+States = ../tree/tree_D.csv
+RotateZDirection = 0, 0, 1
+RotateZFunction = cos[time] * 0.008
+;RotateZDamping = 10, 10.4
+[Object]
+Position = -6.0, -1.6, 6.1
+States = ../tree/tree_D.csv
+RotateZDirection = 0, 0, 1
+RotateZFunction = cos[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = -6.0, -1.6, 96.1
+States = ../tree/tree_D.csv
+RotateZDirection = 0, 0, 1
+RotateZFunction = cos[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+
+;------------------------
+
+[Object]
+Position = -2.9, -1.8, 0
+States = ../../tree/RT2_L.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = cos[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = -2.9, -1.5, 25
+States = ../../tree/RT2_L.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = cos[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = -2.9, -1.2, 50
+States = ../../tree/RT2_L.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = cos[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = -2.9, -0.7, 75
+States = ../../tree/RT2_L.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = cos[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = -2.6, -0.2, 100
+States = ../../tree/RT2_L.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = cos[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+
+
+[Object]
+Position = 6.4, -1.8, 0
+States = ../../tree/RT2_R.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = sin[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = 6.4, -1.5, 25
+States = ../../tree/RT2_R.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = sin[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = 6.4, -1.2, 50
+States = ../../tree/RT2_R.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = sin[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = 6.4, -0.7, 75
+States = ../../tree/RT2_R.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = sin[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+[Object]
+Position = 6.8, -0.2, 100
+States = ../../tree/RT2_R.csv
+RotateZDirection = 0, 0, 2
+RotateZFunction = sin[time] * 0.008
+;RotateZDamping = 10, 10.4
+
+
+;------------------------
+
+
+[Object]
+Position = -14.8, -0.2, 85
+States = ../Road/(R)signal.csv , ../Road/(G)signal.csv 
+StateFunction = if[trackdistance<5, 1 ,0]
+;StateFunctionRPN = trackdistance 50 > 1 *
+
+[Object]
+Position = -14.8, -0.2, 75
+States = ../Road/(R)signal.csv , ../Road/(G)signal.csv 
+StateFunction = if[trackdistance<5, 1 ,0]
+
+
+[Object]
+Position = 17.5, 0, -30
+States = ../car/bus_A.csv
+TranslateZFunction = mod[time*7,120]
+RotateZDirection = 0, 0, 1
+RotateZFunction = sin[time] * 0.008
+;RotateZDamping = 1, 1.4
+
+;------------------------
+
+
+[Object]
+Position = -13.9, -2.57, 41.95
+States = ../mark\right_yellow.csv, ../../../Null.csv
+StateFunction = floor[mod[time*1.9,2]]
+
+[Object]
+Position = -11.9, -2.57, 41.95
+States = ../mark\right_yellow.csv, ../../../Null.csv
+StateFunction = floor[mod[time*1.9,2]]
+
+[Object]
+Position = -11.65, -2.57, 49.95
+States = ../mark\right_yellow.csv, ../../../Null.csv
+StateFunction = floor[mod[time*1.9,2]]

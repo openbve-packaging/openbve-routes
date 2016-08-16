@@ -1,0 +1,52 @@
+CreateMeshBuilder
+AddVertex,1.5, 1.1, 0
+AddVertex,1.5, 1.1, 25.3
+AddVertex,3.0, 1.11, 25.3
+AddVertex,3.0, 1.11, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,Tform2.bmp
+SetTextureCoordinates,0, 0, 25
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 25
+
+CreateMeshBuilder
+AddVertex,1.5, -0.45, 0
+AddVertex,1.5, -0.45, 25.3
+AddVertex,1.5, 1.1, 25.3
+AddVertex,1.5, 1.1, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,tozaiform_ye.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 5, 1
+SetTextureCoordinates,2, 5, 0
+SetTextureCoordinates,3, 0, 0
+
+CreateMeshBuilder
+AddVertex,1.5, -0.45, 0
+AddVertex,1.5, 1.1, 0
+AddVertex,3.0, 1.11, 0
+AddVertex,3.0, -0.45, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,FormWallB.bmp,
+SetTextureCoordinates,0, 0.5, 1
+SetTextureCoordinates,1, 0.5, 0
+SetTextureCoordinates,2, 0.7, 0
+SetTextureCoordinates,3, 0.7, 1
+
+CreateMeshBuilder
+AddVertex,1.49, 0.90, 0
+AddVertex,1.49, 1.08, 0
+AddVertex,1.49, 1.08, 25
+AddVertex,1.49, 0.90, 25
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../Retu1.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 4, 0
+SetTextureCoordinates,3, 4, 1
+SetDecalTransparentColor,255,255,255

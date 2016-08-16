@@ -1,0 +1,98 @@
+
+CreateMeshBuilder,
+AddVertex,-120, -2, 25,
+AddVertex,-120, -2, 0,
+AddVertex,-120, -3, -25,
+AddVertex,-2, -2, 25,
+AddVertex,-2, -2, 0,
+AddVertex,-2, -3, -25,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\linea\strada.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 5,
+SetTextureCoordinates,2, 0, 20,
+SetTextureCoordinates,3, 100, 0,
+SetTextureCoordinates,4, 100, 5,
+SetTextureCoordinates,5, 100, 20,
+
+
+CreateMeshBuilder,
+AddVertex,2, -0.4, 25,
+AddVertex,2, -0.4, 0,
+AddVertex,2, -1.4, -25,
+AddVertex,60, -0.4, 25,
+AddVertex,60, -0.4, 0,
+AddVertex,60, -1.4, -25,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\binsca\schotter2.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 5,
+SetTextureCoordinates,2, 0, 15,
+SetTextureCoordinates,3, 20, 0,
+SetTextureCoordinates,4, 20, 5,
+SetTextureCoordinates,5, 20, 15,
+
+CreateMeshBuilder,
+AddVertex,60, -0.4, 25,
+AddVertex,60, -0.4, 0,
+AddVertex,60, -1.4, -25,
+AddVertex,70, -0.4, 25,
+AddVertex,70, -0.4, 0,
+AddVertex,70, -1.4, -25,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 2,
+SetTextureCoordinates,2, 0, 5,
+SetTextureCoordinates,3, 10, 0,
+SetTextureCoordinates,4, 10, 2,
+SetTextureCoordinates,5, 10, 5,
+
+
+;nuovi alberi dx
+
+CreateMeshBuilder,
+AddVertex,70,-1.5,-25,
+AddVertex,70,15,-25,
+AddVertex,70,15,25,
+AddVertex,70,-0.5,25,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,tree3.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,2,
+SetTextureCoordinates,3,0,2,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,65,-1.5,-25,
+AddVertex,65,3,-25,
+AddVertex,65,3,25,
+AddVertex,65,-0.5,25,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\oggetti\conc_wall.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,2,
+SetTextureCoordinates,3,0,2,
+

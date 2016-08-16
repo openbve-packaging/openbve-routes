@@ -1,0 +1,288 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Terreno in salita - per curva a destra
+; monte a sinistra - valle a destra
+
+[MeshBuilder] ; 1o tratto - monte a sinistra
+vertex -4.8 , -2.5 ,-1.5 ;  alto inzio
+vertex -6.1 , 4.5 ,13 ; alto fine
+vertex -4.8 , 2.8 ,13 ; basso fine *
+vertex -3.5 , -3.8 ,-1.0  ;basso inizio *
+vertex -4.0 , 0.1 ,13 ; basso max fine
+vertex -2.7 , -4.2 ,-0.7  ;basso max inizio
+vertex -80,   30  ,13 ;alto max fine 
+vertex -80,   30  ,-20.5  ; alto max inizio
+vertex -1.1 ,-0.3 ,13 ; basso max fine
+vertex -0.2 ,-5.5 ,-0.5  ;basso max inizio
+Face 0,1,2,3
+Face 3,2,4,5
+Face 7,6,1,0
+Face 5,4,8,9
+
+rotate 1,0,0,-1.9
+[texture]
+load Grass3.bmp
+coordinates 0, 0.5,   0
+coordinates 1, 1, 0
+coordinates 2, 1, 0.5
+coordinates 3, 0.5,   0.5
+coordinates 4, 1, 1
+coordinates 5, 0.5,   1
+coordinates 6, 1, 10
+coordinates 7, 0.5,   10
+coordinates 8, 1, -0.001
+coordinates 9, 0.5,-0.001
+
+[MeshBuilder] ;  ; 2o tratto - monte a sinistra
+vertex -6.1 , 4.5 ,12 ;  alto inzio
+vertex -4.8 , 4.7 ,26 ; alto fine
+vertex -3.5 , 3.1 ,25.7 ; basso fine *
+vertex -4.8 , 2.8 ,12  ;basso inizio *
+vertex -2.7 , 0.25 ,25.5 ; basso max fine
+vertex -4.0 , 0.25 ,12  ;basso max inizio
+vertex -80  ,30   ,45.5 ;alto max fine 
+vertex -80  ,30   ,12  ; alto max inizio
+vertex -1.4 ,-0.3 ,25.3 ; basso max fine
+vertex -2.7 ,-0.3 ,12  ;basso max inizio
+Face 0,1,2,3
+Face 3,2,4,5
+Face 7,6,1,0
+Face 5,4,8,9
+rotate 1,0,0,-1.9
+[texture]
+load Grass3.bmp
+coordinates 0, 0,   0
+coordinates 1, 0.5, 0
+coordinates 2, 0.5, 0.5
+coordinates 3, 0,   0.5
+coordinates 4, 0.5, 1
+coordinates 5, 0,   1
+coordinates 6, 0.5, 10
+coordinates 7, 0,   10
+coordinates 8, 1, -0.001
+coordinates 9, 0.5,-0.001
+
+
+[MeshBuilder] ; 1o tratto - valle a destra
+vertex 5.5 , -7.5 , 0 ;  alto inzio
+vertex 4.2 , -2.5 ,12 ; alto fine
+vertex 1.2 , -0.1 ,12 ; basso fine *
+vertex 2.5 , -6.5 ,0  ;basso inizio *
+vertex -1.2 ,-0.2 ,12; basso max fine
+vertex -0.2 ,-5.2 ,0  ;basso max inizio
+vertex 80,   -30   ,12 ;alto max fine 
+vertex 80,   -30   ,0  ; alto max inizio
+Face2 0,1,2,3
+Face2 3,2,4,5
+Face2 7,6,1,0
+rotate 1,0,0,-2.2
+[texture]
+load Grass3.bmp
+coordinates 0, 0.5,   0
+coordinates 1, 1, 0
+coordinates 2, 1, 0.5
+coordinates 3, 0.5,   0.5
+coordinates 4, 1, 1
+coordinates 5, 0.5,   1
+coordinates 6, 1, 10
+coordinates 7, 0.5,   10
+
+
+[MeshBuilder] ; 2o tratto - valle a destra
+vertex 4.2 , -2.5 , 11.5 ;  alto inzio
+vertex 5.5 , -2.5 , 25 ; alto fine
+vertex 2.5 , -0.1 , 25 ; basso fine *
+vertex 0.1 , -0.1 ,11.5  ;basso inizio *
+vertex 1.4 ,-0.2 , 25 ; basso max fine
+vertex 0.1 ,-0.2 , 11.5  ;basso max inizio
+vertex 80,   -30   ,25 ;alto max fine 
+vertex 80,   -30   ,11.5  ; alto max inizio
+Face2 0,1,2,3
+Face2 3,2,4,5
+Face2 7,6,1,0
+rotate 1,0,0,-2.0
+[texture]
+load Grass3.bmp
+coordinates 0, 0.5,   0
+coordinates 1, 1, 0
+coordinates 2, 1, 0.5
+coordinates 3, 0.5,   0.5
+coordinates 4, 1, 1
+coordinates 5, 0.5,   1
+coordinates 6, 1, 10
+coordinates 7, 0.5,   10
+
+
+; Vegetazione sulla sinistra
+; ========= SINISTRA ===============
+[MeshBuilder] ; Alberello sulla sinistra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-36
+Translate -6.8, -2.5 ,0
+[texture]
+load Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero sulla sinistra
+Vertex 0, 13, 0
+Vertex 10, 13, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -12,1,2
+[texture]
+load Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 10, 18, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -20,3,-5
+[texture]
+load Alberi\Pino1.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 90,0,255
+
+[MeshBuilder] ; Alberello sulla sinistra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-36
+Translate -7.5, -0 ,6
+[texture]
+load Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero sulla sinistra
+Vertex 0, 12, 0
+Vertex 8.0, 12, 0
+Vertex 8.0, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -10 ,-1,15
+[texture]
+load Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Alberello sulla sinistra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-36
+Translate -7.5, 1.0 ,19
+[texture]
+load Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 10, 18, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate -20,7,8
+[texture]
+load Alberi\Pino1.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 90,0,255
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 15, 18, 0
+Vertex 15, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-55
+Translate -40,14,0
+[texture]
+load Alberi\Castagno.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Albero in alto
+Vertex 0, 18, 0
+Vertex 15, 18, 0
+Vertex 15, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-55
+Translate -40,14,20
+[texture]
+load Alberi\Castagno.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Alberello sulla destra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,10
+Translate 2, -4.0 ,9
+[texture]
+load Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0

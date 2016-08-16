@@ -1,0 +1,70 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (c) Anthony Bowden Modified by Steve Green
+
+CreateMeshBuilder,
+Cube, 0.4,0.4,0.5,
+Translate, -2.83,-0.7,-3.20,
+SetColor,100,95,95
+
+CreateMeshBuilder,
+AddVertex,-3.1, 1.325, -3.6,
+AddVertex,-3.1, -0.3, -3.6,
+AddVertex,-3.1, -0.3, -2.8,
+AddVertex,-3.1, 1.325, -2.8,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,RelayCab1aFrnt.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,-2.6, 1.325, -3.6,
+AddVertex,-2.6, -0.3, -3.6,
+AddVertex,-2.6, -0.3, -2.8,
+AddVertex,-2.6, 1.325, -2.8,
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,RelayCab1aFrnt.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,-2.6, 1.325, -3.6,
+AddVertex,-2.85, 1.38, -3.6,
+AddVertex,-3.1, 1.325, -3.6,
+AddVertex,-3.1, -0.3, -3.6,
+AddVertex,-2.6, -0.3, -3.6,
+AddFace,1,0,4,3,2,
+SetColor,182,170,170
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.6, 1.325, -2.8,
+AddVertex,-2.85, 1.39, -2.8,
+AddVertex,-3.1, 1.325, -2.8,
+AddVertex,-3.1, -0.3, -2.8,
+AddVertex,-2.6, -0.3, -2.8,
+AddFace,0,1,2,3,4,
+SetColor,182,170,170
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.57, 1.318, -3.63,
+AddVertex,-2.57, 1.318, -2.77,
+AddVertex,-2.83, 1.39, -2.77,
+AddVertex,-2.83, 1.39, -3.63,
+AddVertex,-3.14, 1.318, -2.77,
+AddVertex,-3.14, 1.318, -3.63,
+AddFace,3,2,1,0,
+AddFace,2,3,5,4,
+SetColor,142,130,130
+GenerateNormals,

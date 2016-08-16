@@ -1,0 +1,29 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Robert Glass with Permission
+
+CreateMeshBuilder,;front main
+Addvertex,-7.2, 15, 0,
+Addvertex,-7.2, 15, 25,
+Addvertex,-7.2, 0.6, 25,
+Addvertex,-7.2, 0.6, 0,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+LoadTexture,colin_office.png,
+SetTextureCoordinates,0,5,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,2,
+SetTextureCoordinates,3,5,2,
+CreateMeshBuilder,;side main
+AddVertex,-30.2, 0.6, 0,
+AddVertex,-30.2, 15, 0,
+AddVertex,-7.2, 15, 0,
+AddVertex,-7.2, 0.6, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,colin_office.png,
+SetTextureCoordinates,0,0,2,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,5,0,
+SetTextureCoordinates,3,5,2,

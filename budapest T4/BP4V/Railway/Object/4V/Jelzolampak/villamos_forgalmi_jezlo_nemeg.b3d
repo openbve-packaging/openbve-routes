@@ -1,0 +1,159 @@
+;(c) pre-zli
+
+[Meshbuilder]
+Vertex -0.1, 2.65, -0.106
+Vertex 0.1, 2.65, -0.106
+Vertex 0.1, 2.45, -0.106
+Vertex -0.1, 2.45, -0.106
+Face 0, 1, 2, 3
+[Texture]
+Load forgalmi_jelzofeny.bmp
+Coordinates 0, 0, 0.5
+Coordinates 1, 0.5, 0.5
+Coordinates 2, 0.5, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 0
+
+[Meshbuilder]
+Vertex -0.1, 2.4, -0.106
+Vertex 0.1, 2.4, -0.106
+Vertex 0.1, 2.2, -0.106
+Vertex -0.1, 2.2, -0.106
+Face 0, 1, 2, 3
+[Texture]
+Load forgalmi_jelzofeny.bmp
+Coordinates 0, 0, 0.5
+Coordinates 1, 0.5, 0.5
+Coordinates 2, 0.5, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 0
+
+[Meshbuilder]
+Cube 0.18, 0.1, 0.18
+Color 128, 128, 128
+Translate 0, -0.1, 0
+
+[Meshbuilder]
+Cube 0.165, 0.025, 0.165
+Color 96, 96, 96
+Translate 0, 0.025, 0
+
+[Meshbuilder]
+Cylinder 16, 0.15, 0.15, 0.55
+Color 96, 96, 96
+Translate 0, 0.325, 0
+
+[Meshbuilder]
+Cylinder 16, 0.05, 0.15, 0.2
+Color 96, 96, 96
+Translate 0, 0.7, 0
+
+[Meshbuilder]
+Cylinder 16, 0.05, 0.05, 1.7
+Color 164, 164, 164
+Translate 0, 1.41, 0
+
+[Meshbuilder]
+Cylinder 16, 0.12, 0.12, 0.18
+Color 128, 128, 128
+Rotate 1, 0, 0, 90
+Translate 0, 2.35, 0
+
+[Meshbuilder]
+Cube 0.12, 0.075, 0.09
+Color 128, 128, 128
+Translate 0, 2.425, 0
+
+[Meshbuilder]
+Cylinder 16, 0.12, 0.12, 0.18
+Color 128, 128, 128
+Rotate 1, 0, 0, 90
+Translate 0, 2.5, 0
+
+[Meshbuilder]
+Vertex -0.2, 2.725, -0.105
+Vertex 0.2, 2.725, -0.105
+Vertex 0.2, 2.125, -0.105
+Vertex -0.2, 2.125, -0.105
+Face 0, 1, 2, 3
+[Texture]
+Load forgalmi_jelzolap.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex 0.2, 2.725, -0.104
+Vertex -0.2, 2.725, -0.104
+Vertex -0.2, 2.125, -0.104
+Vertex 0.2, 2.125, -0.104
+Face 0, 1, 2, 3
+[Texture]
+Load forgalmi_jelzolaphat.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex -0.1, 2.5, -0.103
+Vertex -0.1, 2.55, -0.103
+Vertex -0.1, 2.55, -0.18
+Vertex -0.085, 2.6, -0.24
+Vertex -0.085, 2.6, -0.103
+Vertex -0.06, 2.63, -0.103
+Vertex -0.06, 2.63, -0.28
+Vertex -0.03, 2.65, -0.3
+Vertex -0.03, 2.65, -0.103
+Vertex 0.03, 2.65, -0.103
+Vertex 0.03, 2.65, -0.3
+Vertex 0.06, 2.63, -0.28
+Vertex 0.06, 2.63, -0.103
+Vertex 0.085, 2.6, -0.103
+Vertex 0.085, 2.6, -0.24
+Vertex 0.1, 2.55, -0.18
+Vertex 0.1, 2.55, -0.103
+Vertex 0.1, 2.5, -0.103
+Face2 0, 1, 2
+Face2 1, 2, 3, 4
+Face2 3, 4, 5, 6
+Face2 5, 6, 7, 8
+Face2 7, 8, 9, 10
+Face2 9, 10, 11, 12
+Face2 11, 12, 13, 14
+Face2 13, 14, 15, 16
+Face2 15, 16, 17
+Color 64, 64, 64
+
+[Meshbuilder]
+Vertex -0.1, 2.25, -0.103
+Vertex -0.1, 2.3, -0.103
+Vertex -0.1, 2.3, -0.18
+Vertex -0.085, 2.35, -0.24
+Vertex -0.085, 2.35, -0.103
+Vertex -0.06, 2.38, -0.103
+Vertex -0.06, 2.38, -0.28
+Vertex -0.03, 2.4, -0.3
+Vertex -0.03, 2.4, -0.103
+Vertex 0.03, 2.4, -0.103
+Vertex 0.03, 2.4, -0.3
+Vertex 0.06, 2.38, -0.28
+Vertex 0.06, 2.38, -0.103
+Vertex 0.085, 2.35, -0.103
+Vertex 0.085, 2.35, -0.24
+Vertex 0.1, 2.3, -0.18
+Vertex 0.1, 2.3, -0.103
+Vertex 0.1, 2.25, -0.103
+Face2 0, 1, 2
+Face2 1, 2, 3, 4
+Face2 3, 4, 5, 6
+Face2 5, 6, 7, 8
+Face2 7, 8, 9, 10
+Face2 9, 10, 11, 12
+Face2 11, 12, 13, 14
+Face2 13, 14, 15, 16
+Face2 15, 16, 17
+Color 64, 64, 64

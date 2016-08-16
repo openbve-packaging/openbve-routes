@@ -1,0 +1,24 @@
+;Staccionata verde a destra lunga mt. 10
+
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,2.5,-0.1,0 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,2.5,-0.1,-5 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,2.5,-0.1,-10 
+
+CreateMeshBuilder,
+cube,0.04,0.05,5.1
+SetColor,19,60,26
+translate,2.5,0.1,-5
+
+CreateMeshBuilder,
+cube,0.04,0.05,5.1
+SetColor,19,60,26
+translate,2.5,0.6,-5

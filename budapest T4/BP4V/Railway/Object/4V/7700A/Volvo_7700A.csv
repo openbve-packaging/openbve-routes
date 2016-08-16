@@ -1,0 +1,664 @@
+;Készítette : Alex
+;Volvo 7700A BKV
+;Fájlméret csökkentés : 10.6 KB
+
+;-Kijelzõk------------------------------------------------------------------------------------
+CreateMeshBuilder, ;Jobb oldalról, 2.rész/kijelzõ
+AddVertex, 1.223,2.610,2.920
+AddVertex, 1.223,2.610,4.852
+AddVertex, 1.241,2.422,4.852
+AddVertex, 1.241,2.422,2.920
+AddVertex, 1.175,2.740,2.920
+AddVertex, 1.175,2.740,4.852
+AddFace, 0,1,2,3 ;1
+AddFace, 4,5,1,0 ;2
+GenerateNormals,
+LoadTexture, Felirat_K_2.bmp,
+SetTextureCoordinates, 0,0,0.344
+SetTextureCoordinates, 1,1,0.344
+SetTextureCoordinates, 2,1,1.00000
+SetTextureCoordinates, 3,0,1.00000
+SetTextureCoordinates, 4,0,0.00000
+SetTextureCoordinates, 5,1,0.00000
+
+CreateMeshBuilder, ;Jobb oldalról, 1.rész/kijelzõ
+AddVertex, 1.223,2.610,14.290
+AddVertex, 1.223,2.610,16.222
+AddVertex, 1.241,2.422,16.222
+AddVertex, 1.241,2.422,14.290
+AddVertex, 1.175,2.740,14.290
+AddVertex, 1.175,2.740,16.222
+AddFace, 0,1,2,3 ;1
+AddFace, 4,5,1,0 ;2
+GenerateNormals,
+LoadTexture, Felirat_K_1.bmp,
+SetTextureCoordinates, 0,0,0.344
+SetTextureCoordinates, 1,1,0.344
+SetTextureCoordinates, 2,1,1.00000
+SetTextureCoordinates, 3,0,1.00000
+SetTextureCoordinates, 4,0,0.00000
+SetTextureCoordinates, 5,1,0.00000
+
+CreateMeshBuilder, ;Homlokfal kijelzõ
+AddVertex, 1.055,2.745,18.012
+AddVertex, 1.015,2.745,18.021
+AddVertex, 1.015,2.385,18.021
+AddVertex, 1.055,2.385,18.012 
+AddVertex, 0.790,2.745,18.044
+AddVertex, 0.790,2.385,18.044
+AddVertex, -0.767,2.745,18.044
+AddVertex, -0.767,2.385,18.044
+AddVertex, -0.993,2.745,18.021
+AddVertex, -0.993,2.385,18.021
+AddVertex, -1.033,2.745,18.012
+AddVertex, -1.033,2.385,18.012
+AddFace, 0,1,2,3   ;2
+AddFace, 1,4,5,2   ;3
+AddFace, 4,6,7,5   ;középrõl
+AddFace, 6,8,9,7   ;5
+AddFace, 8,10,11,9 ;6
+GenerateNormals,
+LoadTexture, Felirat_K_E.bmp,
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0.018,0
+SetTextureCoordinates, 2,0.018,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0.125,0
+SetTextureCoordinates, 5,0.125,1
+SetTextureCoordinates, 6,0.875,0
+SetTextureCoordinates, 7,0.875,1
+SetTextureCoordinates, 8,0.982,0
+SetTextureCoordinates, 9,0.982,1
+SetTextureCoordinates, 10,1,0
+SetTextureCoordinates, 11,1,1
+
+CreateMeshBuilder, ;Hátulról/Kijelzõ
+AddVertex, 0.000,2.660,-0.001
+AddVertex, 0.335,2.660,-0.001
+AddVertex, 0.335,2.430,-0.001
+AddVertex, 0.000,2.430,-0.001
+AddFace, 0,1,2,3
+GenerateNormals,
+LoadTexture, Szam_K.bmp,
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;-Volvo 7700A feliratos kijelzõk-----------------
+
+CreateMeshBuilder, ;Jobb oldalról, 2.rész/kijelzõ/Volvo 7700A felirat
+AddVertex, 1.223,2.610,2.920 ;1
+AddVertex, 1.223,2.610,4.852
+AddVertex, 1.241,2.422,4.852
+AddVertex, 1.241,2.422,2.920
+AddVertex, 1.175,2.740,2.920 ;2
+AddVertex, 1.175,2.740,4.852
+;AddFace, 0,1,2,3 ;1
+;AddFace, 4,5,1,0 ;2
+GenerateNormals,
+LoadTexture, Volvo_K.bmp,
+SetTextureCoordinates, 0,0,0.344
+SetTextureCoordinates, 1,1,0.344
+SetTextureCoordinates, 2,1,1.00000
+SetTextureCoordinates, 3,0,1.00000
+SetTextureCoordinates, 4,0,0.00000
+SetTextureCoordinates, 5,1,0.00000
+
+CreateMeshBuilder, ;Jobb oldalról, 1.rész/kijelzõ/Volvo 7700A felirat
+AddVertex, 1.223,2.610,14.290 ;1
+AddVertex, 1.223,2.610,16.222
+AddVertex, 1.241,2.422,16.222
+AddVertex, 1.241,2.422,14.290
+AddVertex, 1.175,2.740,14.290 ;2
+AddVertex, 1.175,2.740,16.222
+;AddFace, 0,1,2,3 ;1
+;AddFace, 4,5,1,0 ;2
+GenerateNormals,
+LoadTexture, Volvo_K.bmp,
+SetTextureCoordinates, 0,0,0.344
+SetTextureCoordinates, 1,1,0.344
+SetTextureCoordinates, 2,1,1.00000
+SetTextureCoordinates, 3,0,1.00000
+SetTextureCoordinates, 4,0,0.00000
+SetTextureCoordinates, 5,1,0.00000
+
+CreateMeshBuilder, ;Homlokfal kijelzõ/Volvo 7700A felirat
+AddVertex, 1.055,2.745,18.012
+AddVertex, 1.015,2.745,18.021
+AddVertex, 1.015,2.385,18.021
+AddVertex, 1.055,2.385,18.012 
+AddVertex, 0.790,2.745,18.044
+AddVertex, 0.790,2.385,18.044
+AddVertex, -0.767,2.745,18.044
+AddVertex, -0.767,2.385,18.044
+AddVertex, -0.993,2.745,18.021
+AddVertex, -0.993,2.385,18.021
+AddVertex, -1.033,2.745,18.012
+AddVertex, -1.033,2.385,18.012
+;AddFace, 0,1,2,3   ;2
+;AddFace, 1,4,5,2   ;3
+;AddFace, 4,6,7,5   ;középrõl
+;AddFace, 6,8,9,7   ;5
+;AddFace, 8,10,11,9 ;6
+GenerateNormals,
+LoadTexture, Volvo_K.bmp,
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,0.018,0
+SetTextureCoordinates, 2,0.018,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0.125,0
+SetTextureCoordinates, 5,0.125,1
+SetTextureCoordinates, 6,0.875,0
+SetTextureCoordinates, 7,0.875,1
+SetTextureCoordinates, 8,0.982,0
+SetTextureCoordinates, 9,0.982,1
+SetTextureCoordinates, 10,1,0
+SetTextureCoordinates, 11,1,1
+
+;-Karosszéria---------------------------------------------------------------------------------
+
+CreateMeshBuilder, ;Jobb oldalról, 2. rész
+AddVertex, 1.241,2.389,0.000
+AddVertex, 1.241,2.389,7.505
+AddVertex, 1.241,0.000,7.505
+AddVertex, 1.241,0.000,0.000
+AddVertex, 1.219,2.614,0.000
+AddVertex, 1.219,2.614,7.505
+AddVertex, 1.151,2.794,0.000
+AddVertex, 1.151,2.794,7.505
+AddFace, 0,1,2,3 ;1
+AddFace, 4,5,1,0 ;2
+AddFace, 6,7,5,4 ;3
+GenerateNormals,
+
+LoadTexture, 2_resz_J.bmp,
+SetTextureCoordinates, 0,0,0.145
+SetTextureCoordinates, 1,1,0.145
+SetTextureCoordinates, 2,1,0.998
+SetTextureCoordinates, 3,0,0.998
+SetTextureCoordinates, 4,0,0.064
+SetTextureCoordinates, 5,1,0.064
+SetTextureCoordinates, 6,0,0.002
+SetTextureCoordinates, 7,1,0.002
+SetDecalTransparentColor, 255,0,255
+
+CreateMeshBuilder, ;Jobb oldalról, csukló
+AddVertex, 1.219,2.389,7.372
+AddVertex, 1.219,2.389,9.263
+AddVertex, 1.219,0.000,9.263
+AddVertex, 1.219,0.000,7.372
+AddVertex, 1.196,2.614,7.372
+AddVertex, 1.196,2.614,9.263
+AddVertex, 1.128,2.794,7.372
+AddVertex, 1.128,2.794,9.263
+AddFace, 0,1,2,3 ;1
+AddFace, 4,5,1,0 ;2
+AddFace, 6,7,5,4 ;3
+GenerateNormals,
+
+LoadTexture, Csuklo.bmp,
+SetTextureCoordinates, 0,0,0.145
+SetTextureCoordinates, 1,1,0.145
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0,0.064
+SetTextureCoordinates, 5,1,0.064
+SetTextureCoordinates, 6,0,0
+SetTextureCoordinates, 7,1,0
+SetDecalTransparentColor, 255,0,255
+
+CreateMeshBuilder, ;Jobb oldalról, 1.rész
+AddVertex, 1.241,2.389, 9.102
+AddVertex, 1.241,2.389,17.884
+AddVertex, 1.241,0.000,17.884
+AddVertex, 1.241,0.000, 9.102
+AddVertex, 1.219,2.614, 9.102
+AddVertex, 1.219,2.614,17.884
+AddVertex, 1.145,2.800, 9.102
+AddVertex, 1.145,2.800,17.884
+AddFace, 0,1,2,3 ;1
+AddFace, 4,5,1,0 ;2
+AddFace, 6,7,5,4 ;3
+GenerateNormals,
+
+LoadTexture, 1_resz_J.bmp,
+SetTextureCoordinates, 0,0,0.145
+SetTextureCoordinates, 1,0.999,0.145
+SetTextureCoordinates, 2,0.999,0.998
+SetTextureCoordinates, 3,0,0.998
+SetTextureCoordinates, 4,0,0.064
+SetTextureCoordinates, 5,1,0.064
+SetTextureCoordinates, 6,0,0.002
+SetTextureCoordinates, 7,1,0.002
+SetDecalTransparentColor, 255,0,255
+
+CreateMeshBuilder, ;Homlokfal
+AddVertex, 1.241,2.389,17.884
+AddVertex, 1.124,2.389,18.002
+AddVertex, 1.124,0.000,18.002
+AddVertex, 1.241,0.000,17.884
+AddVertex, 1.219,2.610,17.884
+AddVertex, 1.124,2.610,18.002
+AddVertex, 1.151,2.794,17.884
+AddVertex, 1.124,2.794,18.002
+AddVertex, 1.128,2.794,17.998
+AddVertex, 1.015,2.794,18.021
+AddVertex, 1.015,0.000,18.021
+AddVertex, 1.128,0.000,17.998
+AddVertex, 0.790,2.794,18.044
+AddVertex, 0.790,0.000,18.044
+AddVertex, -0.767,2.794,18.044
+AddVertex, -0.767,0.000,18.044
+AddVertex, -0.993,2.794,18.021
+AddVertex, -0.993,0.000,18.021
+AddVertex, -1.106,2.794,17.998
+AddVertex, -1.106,0.000,17.998
+AddVertex, -1.102,2.389,18.002
+AddVertex, -1.219,2.389,17.884
+AddVertex, -1.219,0.000,17.884
+AddVertex, -1.102,0.000,18.002
+AddVertex, -1.102,2.614,18.002
+AddVertex, -1.196,2.614,17.884
+AddVertex, -1.102,2.794,18.002
+AddVertex, -1.128,2.794,17.884
+AddFace, 0,1,2,3     ;1/1
+AddFace, 4,5,1,0     ;1/2
+AddFace, 6,7,5,4     ;1/3
+AddFace, 8,9,10,11   ;2
+AddFace, 9,12,13,10  ;3
+AddFace, 12,14,15,13 ;4
+AddFace, 14,16,17,15 ;5
+AddFace, 16,18,19,17 ;6
+AddFace, 20,21,22,23 ;7/1
+AddFace, 24,25,21,20 ;7/2
+AddFace, 26,27,25,24 ;7/3
+GenerateNormals,
+
+LoadTexture, Elolrol.bmp,
+SetTextureCoordinates, 0,0.001,0.146
+SetTextureCoordinates, 1,0.047,0.146
+SetTextureCoordinates, 2,0.047,0.998
+SetTextureCoordinates, 3,0.001,0.998
+SetTextureCoordinates, 4,0,0.066
+SetTextureCoordinates, 5,0.047,0.066
+SetTextureCoordinates, 6,0,0
+SetTextureCoordinates, 7,0.047,0
+SetTextureCoordinates, 8,0.047,0
+SetTextureCoordinates, 9,0.091,0
+SetTextureCoordinates, 10,0.091,0.998
+SetTextureCoordinates, 11,0.047,0.998
+SetTextureCoordinates, 12,0.184,0
+SetTextureCoordinates, 13,0.184,0.998
+SetTextureCoordinates, 14,0.816,0
+SetTextureCoordinates, 15,0.816,0.998
+SetTextureCoordinates, 16,0.908,0
+SetTextureCoordinates, 17,0.908,0.998
+SetTextureCoordinates, 18,0.953,0
+SetTextureCoordinates, 19,0.953,0.998
+SetTextureCoordinates, 20,0.953,0.146
+SetTextureCoordinates, 21,0.998,0.146
+SetTextureCoordinates, 22,0.998,0.998
+SetTextureCoordinates, 23,0.953,0.998
+SetTextureCoordinates, 24,0.953,0.066
+SetTextureCoordinates, 25,0.998,0.066
+SetTextureCoordinates, 26,0.953,0
+SetTextureCoordinates, 27,0.998,0
+SetDecalTransparentColor, 255,0,255
+
+CreateMeshBuilder, ;Bal oldalról, 2. rész
+AddVertex, -1.219,2.389,0.000
+AddVertex, -1.219,2.389,7.505
+AddVertex, -1.219,0.000,7.505
+AddVertex, -1.219,0.000,0.000
+AddVertex, -1.196,2.614,0.000
+AddVertex, -1.196,2.614,7.505
+AddVertex, -1.128,2.794,0.000
+AddVertex, -1.128,2.794,7.505
+AddFace, 3,2,1,0 ;1
+AddFace, 0,2,5,4 ;2
+AddFace, 4,5,7,6 ;3
+GenerateNormals,
+
+LoadTexture, 2_resz_B.bmp,
+SetTextureCoordinates, 0,1,0.145
+SetTextureCoordinates, 1,0,0.145
+SetTextureCoordinates, 2,0,0.998
+SetTextureCoordinates, 3,1,0.998
+SetTextureCoordinates, 4,1,0.064
+SetTextureCoordinates, 5,0,0.064
+SetTextureCoordinates, 6,1,0.002
+SetTextureCoordinates, 7,0,0.002
+SetDecalTransparentColor, 255,0,255
+
+CreateMeshBuilder, ;Bal oldalról, csukló
+AddVertex, -1.196,2.389,7.372
+AddVertex, -1.196,2.389,9.263
+AddVertex, -1.196,0.000,9.263
+AddVertex, -1.196,0.000,7.372
+AddVertex, -1.173,2.614,7.372
+AddVertex, -1.173,2.614,9.263
+AddVertex, -1.106,2.794,7.372
+AddVertex, -1.106,2.794,9.263
+AddFace, 3,2,1,0 ;1
+AddFace, 0,1,5,4 ;2
+AddFace, 4,5,7,6 ;3
+GenerateNormals,
+
+LoadTexture, Csuklo.bmp,
+SetTextureCoordinates, 0,0,0.145
+SetTextureCoordinates, 1,1,0.145
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0,0.064
+SetTextureCoordinates, 5,1,0.064
+SetTextureCoordinates, 6,0,0
+SetTextureCoordinates, 7,1,0
+SetDecalTransparentColor, 255,0,255
+
+CreateMeshBuilder, ;Bal oldalról, 1.rész/1
+AddVertex, -1.219,2.389, 9.102
+AddVertex, -1.219,2.389,17.884
+AddVertex, -1.219,0.000,17.884
+AddVertex, -1.219,0.000, 9.102
+AddVertex, -1.196,2.614, 9.102
+AddVertex, -1.196,2.614,17.884
+AddVertex, -1.128,2.794, 9.102
+AddVertex, -1.128,2.794,17.884
+AddFace, 3,2,1,0 ;1
+AddFace, 0,1,5,4 ;2
+AddFace, 4,5,7,6 ;3
+GenerateNormals,
+
+LoadTexture, 1_resz_B.bmp,
+SetTextureCoordinates, 0,1,0.145
+SetTextureCoordinates, 1,0.001,0.145
+SetTextureCoordinates, 2,0.001,0.998
+SetTextureCoordinates, 3,1,0.998
+SetTextureCoordinates, 4,1,0.064
+SetTextureCoordinates, 5,0,0.064
+SetTextureCoordinates, 6,1,0.002
+SetTextureCoordinates, 7,0,0.002
+SetDecalTransparentColor, 255,0,255
+
+CreateMeshBuilder, ;Hátulról/1
+AddVertex, -1.219,2.389,0.000
+AddVertex,  1.241,2.389,0.000
+AddVertex,  1.241,0.000,0.000
+AddVertex, -1.219,0.000,0.000
+AddVertex, -1.196,2.614,0.000
+AddVertex,  1.219,2.614,0.000
+AddVertex, -1.128,2.794,0.000
+AddVertex,  1.151,2.794,0.000
+AddFace, 0,1,2,3 ;1
+AddFace, 4,5,1,0 ;2
+AddFace, 6,7,5,4 ;3
+GenerateNormals,
+
+LoadTexture, Hatulrol.bmp,
+SetTextureCoordinates, 0,0,0.145
+SetTextureCoordinates, 1,1,0.145
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0.009,0.064
+SetTextureCoordinates, 5,0.992,0.064
+SetTextureCoordinates, 6,0.036,0
+SetTextureCoordinates, 7,0.966,0
+SetDecalTransparentColor, 255,0,255
+
+CreateMeshBuilder, ;Felülrõl, 2.rész
+AddVertex, -1.128,2.791,-0.001
+AddVertex, -1.128,2.794, 7.505
+AddVertex,  1.151,2.794, 7.505
+AddVertex,  1.151,2.791,-0.001
+AddFace, 0,1,2,3
+SetColor, 204,209,206
+GenerateNormals,
+
+CreateMeshBuilder, ;Felülrõl, csukló
+AddVertex, -1.133,2.793,7.372
+AddVertex, -1.133,2.793,9.263
+AddVertex,  1.150,2.793,9.263
+AddVertex,  1.150,2.793,7.372
+AddFace, 0,1,2,3
+GenerateNormals,
+
+LoadTexture, Csuklo.bmp,
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,0.5
+SetTextureCoordinates, 3,0,0.5
+SetDecalTransparentColor, 255,0,255
+
+CreateMeshBuilder, ;Felülrõl, 1.rész
+AddVertex, -1.128,2.794, 9.102
+AddVertex, -1.128,2.794,17.884
+AddVertex,  1.151,2.794,17.884
+AddVertex,  1.151,2.794, 9.102
+AddVertex, -1.102,2.794,18.002
+AddVertex,  1.124,2.794,18.002
+AddVertex, -0.767,2.794,18.044
+AddVertex,  0.790,2.794,18.044
+AddFace, 0,1,2,3   ;1
+AddFace, 1,4,5,2   ;2
+AddFace, 4,6,7,5   ;3
+SetColor, 204,209,206
+GenerateNormals,
+
+CreateMeshBuilder, ;Felölrõl, 1.rész
+AddVertex, -1.000,2.795,15.000
+AddVertex,  1.000,2.795,15.000
+AddVertex,  1.000,2.795,14.000
+AddVertex, -1.000,2.795,14.000
+AddFace, 0,1,2,3   ;1
+GenerateNormals,
+
+LoadTexture, vedjegy.bmp,
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+CreateMeshBuilder, ;Alulról
+AddVertex, -1.219,0.280, 1.305
+AddVertex, -1.219,0.413,-0.001
+AddVertex,  1.241,0.410,-0.001
+AddVertex,  1.241,0.243, 1.205
+AddVertex, -1.219,0.250,7.505
+AddVertex,  1.241,0.300,7.505
+AddVertex, -1.219,0.290,9.102
+AddVertex,  1.241,0.290,9.102
+AddVertex, -1.219,0.290,17.654
+AddVertex,  1.241,0.300,17.620
+AddVertex, -1.219,0.380,17.884
+AddVertex,  1.241,0.380,17.884
+AddVertex, -1.102,0.380,18.002
+AddVertex,  1.124,0.380,18.002
+AddVertex, -0.767,0.380,18.044
+AddVertex,  0.790,0.380,18.044
+AddFace, 0,1,2,3     ;2/1
+AddFace, 4,0,3,5     ;2/2
+AddFace, 6,4,5,7     ;csukló
+AddFace, 8,6,7,9     ;1/1
+AddFace, 10,8,9,11   ;1/2
+AddFace, 12,10,11,13 ;1/3
+AddFace, 14,12,13,15 ;1/4
+SetColor, 0,0,0
+GenerateNormals,
+
+CreateMeshBuilder, ;Alulról
+AddVertex, -1.000,0.279,15.000
+AddVertex,  1.000,0.279,15.000
+AddVertex,  1.000,0.279,14.000
+AddVertex, -1.000,0.279,14.000
+AddFace, 3,2,1,0   ;1
+GenerateNormals,
+
+LoadTexture, vedjegy.bmp,
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,-1,0
+SetTextureCoordinates, 2,-1,1
+SetTextureCoordinates, 3,0,1
+
+CreateMeshBuilder, ;Jobb oldal, 3/1. kerék
+Cylinder, 20,.48,.48,.316
+SetColor, 60,65,61
+Rotate, 0,0,90,90
+Translate, 1.08,.48,3.400
+
+CreateMeshBuilder, ;Jobb oldal, 3/2. kerék
+Cylinder, 20,.48,.48,.316
+SetColor, 60,65,61
+Rotate, 0,0,90,90
+Translate, 0.65,.48,3.400
+
+CreateMeshBuilder, ;Jobb oldal, 2. kerék
+Cylinder, 20,.48,.48,.316
+SetColor, 60,65,61
+Rotate, 0,0,90,90
+Translate, 1.08,.48,10.24
+
+CreateMeshBuilder, ;Jobb oldal, 1. kerék
+Cylinder, 20,.46,.46,.316
+SetColor, 60,65,61
+Rotate, 0,0,90,90
+Translate, 1.08,.48,15.48
+
+CreateMeshBuilder, ;Bal oldal, 3/1. kerék
+Cylinder, 20,.48,.48,.316
+SetColor, 60,65,61
+Rotate, 0,0,90,90
+Translate, -1.06,.48,3.475
+
+CreateMeshBuilder, ;Bal oldal, 3/2. kerék
+Cylinder, 20,.48,.48,.316
+SetColor, 60,65,61
+Rotate, 0,0,90,90
+Translate, -0.65,.48,3.475
+
+CreateMeshBuilder, ;Bal oldal, 2. kerék
+Cylinder, 20,.48,.48,.316
+SetColor, 60,65,61
+Rotate, 0,0,90,90
+Translate, -1.06,.48,10.17
+
+CreateMeshBuilder, ;Bal oldal, 1. kerék
+Cylinder, 20,0.48,.48,.316
+SetColor, 60,65,61
+Rotate, 0,0,90,90
+Translate, -1.06,.48,15.41
+
+;Visszapillantó tükrök
+;Jobb oldal
+CreateMeshBuilder,
+Cube, 0.034,0.08,0.03
+Translate, 1.27,2.33,17.725
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder,
+Cylinder, 4,0.02,0.02,0.75
+Rotate, 1,0,0,90
+Translate, 1.28,2.385,18.1
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder,
+Cylinder, 4,0.02,0.02,0.1875
+Rotate, 1,0,0,90
+Translate, 1.28,2.27,17.848875
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder,
+Cylinder, 4,0.02,0.02,0.23
+Translate, 0,0.04,0
+Rotate, 1,0,0,60
+Translate, 1.28,2.305,17.997
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder,
+Cylinder, 4,0.02,0.02,0.15
+Translate, 1.28,2.33,18.475
+SetColor, 41,48,58
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 1.1895,2.300,18.338 ;0
+AddVertex, 1.3705,2.300,18.338 ;1
+AddVertex, 1.3705,1.893,18.338 ;2
+AddVertex, 1.1895,1.893,18.338 ;3
+AddVertex, 1.2800,2.300,18.520 ;4
+AddVertex, 1.2800,1.893,18.520 ;5
+AddVertex, 1.35625,2.30,18.460 ;6
+AddVertex, 1.35625,1.893,18.46 ;7
+AddVertex, 1.20375,2.30,18.460 ;8
+AddVertex, 1.20375,1.893,18.46 ;9
+AddFace, 1,6,7,2 ;j/1
+AddFace, 6,4,5,7 ;j/2
+AddFace, 8,0,3,9 ;b/1
+AddFace, 4,8,9,5 ;b/2
+AddFace, 4,6,1,0,8 ;felülrõl
+AddFace, 5,9,3,2,7 ;alulról
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder, ;tükör
+AddVertex, 1.1895,2.300,18.338 ;0
+AddVertex, 1.3705,2.300,18.338 ;1
+AddVertex, 1.3705,1.893,18.338 ;2
+AddVertex, 1.1895,1.893,18.338 ;3
+AddFace, 0,1,2,3
+
+;Bal oldal
+CreateMeshBuilder,
+Cube, 0.034,0.08,0.03
+Translate, -1.25,2.25,17.8
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder,
+Cylinder, 4,0.02,0.02,0.125
+Rotate, 0,0,1,90
+Translate, -1.345,2.3,17.8
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder,
+Cylinder, 4,0.02,0.02,0.085
+Translate, 0.03,-0.0025,0
+Rotate, 0,0,1,-50
+Translate, -1.445,2.3,17.8
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder,
+Cylinder, 4,0.02,0.02,0.175
+Rotate, 0,0,1,90
+Translate, -1.37,2.2,17.8
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder,
+Cylinder, 4,0.02,0.02,0.125
+Translate, -1.455,2.2,17.8
+SetColor, 41,48,58
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, -1.3645,2.140,17.663 ;0
+AddVertex, -1.5455,2.140,17.663 ;1
+AddVertex, -1.5455,1.733,17.663 ;2
+AddVertex, -1.3645,1.733,17.663 ;3
+AddVertex, -1.4550,2.140,17.845 ;4
+AddVertex, -1.4550,1.733,17.845 ;5
+AddVertex, -1.53125,2.14,17.785 ;6
+AddVertex, -1.53125,1.733,17.785 ;7
+AddVertex, -1.37875,2.14,17.785 ;8
+AddVertex, -1.37875,1.733,17.785 ;9
+AddFace, 2,7,6,1 ;j/1
+AddFace, 7,5,4,6 ;j/2
+AddFace, 9,3,0,8 ;b/1
+AddFace, 5,9,8,4 ;b/2
+AddFace, 8,0,1,6,4 ;felülrõl
+AddFace, 7,2,3,9,5 ;alulról
+SetColor, 41,48,58
+GenerateNormals,
+CreateMeshBuilder, ;tükör
+AddVertex, -1.3645,2.140,17.663 ;0
+AddVertex, -1.5455,2.140,17.663 ;1
+AddVertex, -1.5455,1.733,17.663 ;2
+AddVertex, -1.3645,1.733,17.663 ;3
+AddFace, 3,2,1,0

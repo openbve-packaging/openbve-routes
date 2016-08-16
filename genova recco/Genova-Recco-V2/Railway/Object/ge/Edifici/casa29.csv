@@ -1,0 +1,517 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;casa 25
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 16, 0,
+AddVertex,25, 16, 0,
+AddVertex,25, 0, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,25, 0, -25,
+AddVertex,25, 16,-25,
+AddVertex,0, 16, -25,
+AddVertex,0, 0, -25,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,0, 0, -25,
+AddVertex,0, 16, -25,
+AddVertex,0, 16, 0,
+AddVertex,0, 0, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+
+CreateMeshBuilder,
+AddVertex,25, 0, -25,
+AddVertex,25, 16, -25,
+AddVertex,25, 16, 0,
+AddVertex,25, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+
+
+;;tetto
+CreateMeshBuilder,
+AddVertex,0, 16, -25,
+AddVertex,25, 16, -25,
+AddVertex,25, 16, 0,
+AddVertex,0, 16, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+setcolor,70,35,30
+
+CreateMeshBuilder,
+cube,13, 0.25, 13,
+translate, 12.5, 16.25, -12.5
+GenerateNormals,
+
+setcolor,160,155,140
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;BALCONI
+;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;ALTO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -12.1,
+AddVertex,-1, 14.5, -12.1,
+AddVertex,3, 14.5, -12.1,
+AddVertex,3, 13.1, -12.1,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.07, 0.18,
+SetTextureCoordinates,1, 0.07, 0.096,
+SetTextureCoordinates,2, 0.51, 0.096,
+SetTextureCoordinates,3,0.51, 0.18,
+
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -23.4,
+AddVertex,-1, 14.5, -23.4,
+AddVertex,3, 14.5, -23.4,
+AddVertex,3, 13.1, -23.4,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.07, 0.18,
+SetTextureCoordinates,1, 0.07, 0.096,
+SetTextureCoordinates,2, 0.51, 0.096,
+SetTextureCoordinates,3,0.51, 0.18,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -12.1,
+AddVertex,-1, 14.5, -12.1,
+AddVertex,-1, 14.5, -23.4,
+AddVertex,-1, 13.1, -23.4,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.07, 0.18,
+SetTextureCoordinates,1, 0.07, 0.096,
+SetTextureCoordinates,2, 0.51, 0.096,
+SetTextureCoordinates,3,0.51, 0.18,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -23.4,
+AddVertex,3, 13.1, -23.4,
+AddVertex,3, 13.1, -12.1,
+AddVertex,-1, 13.1, -12.1,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+translate,,
+setcolor,25,20,20
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;MEDIO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -12.1,
+AddVertex,-1, 14.5, -12.1,
+AddVertex,3, 14.5, -12.1,
+AddVertex,3, 13.1, -12.1,
+AddFace2,3, 2, 1, 0,
+translate, ,-3.2
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.07, 0.375
+SetTextureCoordinates,1, 0.07, 0.296,
+SetTextureCoordinates,2, 0.51, 0.296,
+SetTextureCoordinates,3,0.51, 0.375
+
+
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -23.4,
+AddVertex,-1, 14.5, -23.4,
+AddVertex,3, 14.5, -23.4,
+AddVertex,3, 13.1, -23.4,
+AddFace2,3, 2, 1, 0,
+translate, ,-3.2
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.07, 0.375
+SetTextureCoordinates,1, 0.07, 0.296,
+SetTextureCoordinates,2, 0.51, 0.296,
+SetTextureCoordinates,3,0.51, 0.375
+
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -12.1,
+AddVertex,-1, 14.5, -12.1,
+AddVertex,-1, 14.5, -23.4,
+AddVertex,-1, 13.1, -23.4,
+AddFace2,3, 2, 1, 0,
+translate, ,-3.2
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.07, 0.375
+SetTextureCoordinates,1, 0.07, 0.296,
+SetTextureCoordinates,2, 0.51, 0.296,
+SetTextureCoordinates,3,0.51, 0.375
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -23.4,
+AddVertex,3, 13.1, -23.4,
+AddVertex,3, 13.1, -12.1,
+AddVertex,-1, 13.1, -12.1,
+AddFace2,3, 2, 1, 0,
+translate, ,-3.2
+GenerateNormals,
+translate,,
+setcolor,25,20,20
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;BASSO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -12.1,
+AddVertex,-1, 14.5, -12.1,
+AddVertex,3, 14.5, -12.1,
+AddVertex,3, 13.1, -12.1,
+AddFace2,3, 2, 1, 0,
+translate, ,-6.4
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.07, 0.18,
+SetTextureCoordinates,1, 0.07, 0.096,
+SetTextureCoordinates,2, 0.51, 0.096,
+SetTextureCoordinates,3,0.51, 0.18,
+
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -23.4,
+AddVertex,-1, 14.5, -23.4,
+AddVertex,3, 14.5, -23.4,
+AddVertex,3, 13.1, -23.4,
+AddFace2,3, 2, 1, 0,
+translate, ,-6.4
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.07, 0.18,
+SetTextureCoordinates,1, 0.07, 0.096,
+SetTextureCoordinates,2, 0.51, 0.096,
+SetTextureCoordinates,3,0.51, 0.18,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -12.1,
+AddVertex,-1, 14.5, -12.1,
+AddVertex,-1, 14.5, -23.4,
+AddVertex,-1, 13.1, -23.4,
+AddFace2,3, 2, 1, 0,
+translate, ,-6.4
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.07, 0.18,
+SetTextureCoordinates,1, 0.07, 0.096,
+SetTextureCoordinates,2, 0.51, 0.096,
+SetTextureCoordinates,3,0.51, 0.18,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -23.4,
+AddVertex,3, 13.1, -23.4,
+AddVertex,3, 13.1, -12.1,
+AddVertex,-1, 13.1, -12.1,
+AddFace2,3, 2, 1, 0,
+translate, ,-6.4
+GenerateNormals,
+translate,,
+setcolor,25,20,20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;ALTO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -1.6,
+AddVertex,-1, 14.5, -1.6,
+AddVertex,3, 14.5, -1.6,
+AddVertex,3, 13.1, -1.6,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.93, 0.18,
+SetTextureCoordinates,1, 0.93, 0.096,
+SetTextureCoordinates,2, 0.80, 0.096,
+SetTextureCoordinates,3,0.80, 0.18,
+
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -8.2,
+AddVertex,-1, 14.5, -8.2,
+AddVertex,3, 14.5, -8.2,
+AddVertex,3, 13.1, -8.2,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.93, 0.18,
+SetTextureCoordinates,1, 0.93, 0.096,
+SetTextureCoordinates,2, 0.80, 0.096,
+SetTextureCoordinates,3,0.80, 0.18,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -1.6,
+AddVertex,-1, 14.5, -1.6,
+AddVertex,-1, 14.5, -8.2,
+AddVertex,-1, 13.1, -8.2,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.94, 0.18,
+SetTextureCoordinates,1, 0.94, 0.096,
+SetTextureCoordinates,2, 0.672, 0.096,
+SetTextureCoordinates,3,0.672, 0.18,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -8.2,
+AddVertex,3, 13.1, -8.2,
+AddVertex,3, 13.1, -1.6,
+AddVertex,-1, 13.1, -1.6,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+translate,,
+setcolor,25,20,20
+
+
+
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;MEDIO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -1.6,
+AddVertex,-1, 14.5, -1.6,
+AddVertex,3, 14.5, -1.6,
+AddVertex,3, 13.1, -1.6,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+translate, ,-3.2
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.93, 0.18,
+SetTextureCoordinates,1, 0.93, 0.096,
+SetTextureCoordinates,2, 0.80, 0.096,
+SetTextureCoordinates,3,0.80, 0.18,
+
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -8.2,
+AddVertex,-1, 14.5, -8.2,
+AddVertex,3, 14.5, -8.2,
+AddVertex,3, 13.1, -8.2,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+translate, ,-3.2
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.93, 0.18,
+SetTextureCoordinates,1, 0.93, 0.096,
+SetTextureCoordinates,2, 0.80, 0.096,
+SetTextureCoordinates,3,0.80, 0.18,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -1.6,
+AddVertex,-1, 14.5, -1.6,
+AddVertex,-1, 14.5, -8.2,
+AddVertex,-1, 13.1, -8.2,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+translate, ,-3.2
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.94, 0.375,
+SetTextureCoordinates,1, 0.94, 0.296,
+SetTextureCoordinates,2, 0.672, 0.296,
+SetTextureCoordinates,3,0.672, 0.375,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -8.2,
+AddVertex,3, 13.1, -8.2,
+AddVertex,3, 13.1, -1.6,
+AddVertex,-1, 13.1, -1.6,
+AddFace2,3, 2, 1, 0,
+translate, ,-3.2
+GenerateNormals,
+translate,,
+setcolor,25,20,20
+
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;BASSO
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -1.6,
+AddVertex,-1, 14.5, -1.6,
+AddVertex,3, 14.5, -1.6,
+AddVertex,3, 13.1, -1.6,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+translate, ,-6.4
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.93, 0.18,
+SetTextureCoordinates,1, 0.93, 0.096,
+SetTextureCoordinates,2, 0.80, 0.096,
+SetTextureCoordinates,3,0.80, 0.18,
+
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -8.2,
+AddVertex,-1, 14.5, -8.2,
+AddVertex,3, 14.5, -8.2,
+AddVertex,3, 13.1, -8.2,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+translate, ,-6.4
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.93, 0.18,
+SetTextureCoordinates,1, 0.93, 0.096,
+SetTextureCoordinates,2, 0.80, 0.096,
+SetTextureCoordinates,3,0.80, 0.18,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -1.6,
+AddVertex,-1, 14.5, -1.6,
+AddVertex,-1, 14.5, -8.2,
+AddVertex,-1, 13.1, -8.2,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+translate, ,-6.4
+LoadTexture,casa29.bmp,
+SetTextureCoordinates,0, 0.94, 0.18,
+SetTextureCoordinates,1, 0.94, 0.096,
+SetTextureCoordinates,2, 0.672, 0.096,
+SetTextureCoordinates,3,0.672, 0.18,
+
+CreateMeshBuilder,
+AddVertex,-1, 13.1, -8.2,
+AddVertex,3, 13.1, -8.2,
+AddVertex,3, 13.1, -1.6,
+AddVertex,-1, 13.1, -1.6,
+AddFace2,3, 2, 1, 0,
+translate, ,-6.4
+GenerateNormals,
+translate,,
+setcolor,25,20,20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+
+[MeshBuilder]
+Vertex -2.6, 8, 26
+Vertex  6.6, 8, 26
+Vertex  6.6, 8, 0
+Vertex -2.6, 8, 0
+Face2 3,2,1,0
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,4,0
+Coordinates 2,4,4
+Coordinates 3,0,4
+
+[Meshbuilder] 
+Vertex -2.2,8,0
+Vertex -2.2,8,26
+Vertex -2.2,-1,26
+Vertex -2.2,-1,0
+Face 0,1,2,3
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,4,0
+Coordinates 2,4,4
+Coordinates 3,0,4
+
+[Meshbuilder] 
+Vertex 6.0,8,0
+Vertex 6.0,8,26
+Vertex 6.0,-1,26
+Vertex 6.0,-1,0
+Face 3,2,1,0
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,4,0
+Coordinates 2,4,4
+Coordinates 3,0,4

@@ -1,0 +1,67 @@
+[MeshBuilder]
+Vertex 6, 7, 25
+Vertex 5.9, -0.405, 25
+Vertex 5.9, -0.405, 0
+Vertex 6, 7, 0
+Face 3,2,1,0
+[Texture]
+Load stone-arch.bmp
+Coordinates 0,10,0
+Coordinates 1,10,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 6, 9, 25
+Vertex 6, 7, 25
+Vertex 6, 7, 0
+Vertex 6, 9, 0
+Face 3,2,1,0
+[Texture]
+load sandstone.bmp
+Coordinates 0,10,0
+Coordinates 1,10,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 5.95, 10, 25
+Vertex 5.95, 8.8, 25
+Vertex 5.95, 8.8, 0
+Vertex 5.95, 10, 0
+Face 3,2,1,0
+[Texture]
+load fence.bmp
+Coordinates 0,20,0
+Coordinates 1,20,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+
+[MeshBuilder]
+Vertex 2,0,25
+Vertex 2,-0.405,0
+Vertex 5.9,-0.405,0
+Vertex 5.9,0,25
+Face 3,2,1,0
+[Texture]
+Load schotter2.bmp
+Coordinates 0,5,0
+Coordinates 1,5,30
+Coordinates 2,0,30
+Coordinates 3,0,0
+
+[Meshbuilder] ; More cables???
+Vertex 5.8,3,25
+Vertex 5.8,2,25
+Vertex 5.8,2,0
+Vertex 5.8,3,0
+Face 3,2,1,0
+[Texture]
+load side-cables.bmp
+Coordinates 0,25,0
+Coordinates 1,25,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

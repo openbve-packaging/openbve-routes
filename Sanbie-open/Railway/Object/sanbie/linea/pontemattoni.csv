@@ -1,0 +1,388 @@
+
+;lato destro
+
+CreateMeshBuilder,
+Addvertex,2.35, -10, 0,
+Addvertex,2.35, -0.3, 0,
+Addvertex,2.35, -0.3, 25,
+Addvertex,2.35, -10,  25,
+AddFace2,0,1,2,3,
+GenerateNormals,
+LoadTexture,pontemattoni.bmp,,
+SetTextureCoordinates,0,0,1,,
+SetTextureCoordinates,1,0,0,,
+SetTextureCoordinates,2,1,0,,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+
+
+;lato sinistro
+CreateMeshBuilder,
+Addvertex,-2.35, -10, 0,
+Addvertex,-2.35, -0.3, 0,
+Addvertex,-2.35, -0.3, 25,
+Addvertex,-2.35, -10,  25,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,pontemattoni.bmp,,
+SetTextureCoordinates,0,0,1,,
+SetTextureCoordinates,1,0,0,,
+SetTextureCoordinates,2,1,0,,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+
+
+;CreateMeshBuilder,
+;AddVertex,0.699, 0, 0,,
+;AddVertex,0.699, 0, 25.5,,
+;AddVertex,0.767, 0, 25.5,,
+;AddVertex,0.767, 0, 0,,
+;AddFace,0, 1, 2, 3,,
+;GenerateNormals,
+;SetColor,180, 190, 200,,
+
+
+
+
+;CreateMeshBuilder,
+;AddVertex,-0.762, 0, 0,,
+;AddVertex,-0.762, 0, 25.5,,
+;AddVertex,-0.694, 0, 25.5,,
+;AddVertex,-0.694, 0, 0,,
+;AddFace,0, 1, 2, 3,,
+;SetColor,224, 224, 224,,
+
+
+
+
+
+CreateMeshBuilder,
+Addvertex,-2.3, -10.0, 0.6,
+Addvertex,-2.3,  -6.0, 0.6,
+Addvertex,2.3,  -6.0, 0.6,
+Addvertex,2.3, -10.0, 0.6,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3,  -6.0, 0.6,
+Addvertex,-2.3,  -4.5, 1.8,
+Addvertex,2.3,  -4.5, 1.8,
+Addvertex,2.3,  -6.0, 0.6,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3,  -4.5, 1.8,
+Addvertex,-2.3,  -3.0, 3,
+Addvertex,2.3,  -3.0, 3,
+Addvertex,2.3,  -4.5, 1.8,
+AddFace2,0,1,2,3,
+;---------
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3, -10.0, 11.8,
+Addvertex,-2.3,  -6.0, 11.8,
+Addvertex,2.3,  -6.0, 11.8,
+Addvertex,2.3, -10.0, 11.8,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3,  -6.0, 11.8,
+Addvertex,-2.3,  -4.5, 10.6,
+Addvertex,2.3,  -4.5, 10.6,
+Addvertex,2.3,  -6.0, 11.8,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3,  -4.5, 10.6,
+Addvertex,-2.3,  -3.0,  9.4,
+Addvertex,2.3,  -3.0,  9.4,
+Addvertex,2.3,  -4.5, 10.6,
+AddFace2,0,1,2,3,
+;==================
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3, -10.0, 13.2,
+Addvertex,-2.3,  -6.0, 13.2,
+Addvertex,2.3,  -6.0, 13.2,
+Addvertex,2.3, -10.0, 13.2,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3,  -6.0, 13.2,
+Addvertex,-2.3,  -4.5, 14.4,
+Addvertex,2.3,  -4.5, 14.4,
+Addvertex,2.3,  -6.0, 13.2,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3,  -4.5, 14.4,
+Addvertex,-2.3,  -3.0, 15.6,
+Addvertex,2.3,  -3.0, 15.6,
+Addvertex,2.3,  -4.5, 14.4,
+AddFace2,0,1,2,3,
+;------------------
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3, -10.0, 24.2,
+Addvertex,-2.3,  -6.0, 24.2,
+Addvertex,2.3,  -6.0, 24.2,
+Addvertex,2.3, -10.0, 24.2,
+AddFace2,0,1,2,3,
+SetColor,50,50,50,
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-2.3,  -6.0, 24.2,
+Addvertex,-2.3,  -4.5, 23,
+Addvertex,2.3,  -4.5, 23,
+Addvertex,2.3,  -6.0, 24.2,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,50,50,50,
+
+CreateMeshBuilder,
+Addvertex,-2.3,  -4.5, 23,
+Addvertex,-2.3,  -3.0, 21.8,
+Addvertex,2.3,  -3.0, 21.8,
+Addvertex,2.3,  -4.5, 23,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,50,50,50,
+
+; parapetto
+
+CreateMeshBuilder,,,,
+AddVertex,-3.55,-0.75,0,
+AddVertex,-1.9,-0.75,0,
+AddVertex,-1.9,-1.5,0,
+AddVertex,1.9,-1.5,0,
+AddVertex,-3.55,-0.75,25,
+AddVertex,-1.9,-0.75,25,
+AddVertex,-1.9,-1.5,25,
+AddVertex,1.9,-1.5,25,
+AddFace2,0,1,5,4
+AddFace2,1,2,6,5
+AddFace2,2,3,7,6
+GenerateNormals,,,,
+LoadTexture,Bottom.bmp,,,
+SetTextureCoordinates,0,6,0,
+SetTextureCoordinates,1,6,0.25,
+SetTextureCoordinates,2,6,0.5,
+SetTextureCoordinates,3,6,1,
+SetTextureCoordinates,4,0,0,
+SetTextureCoordinates,5,0,0.25,
+SetTextureCoordinates,6,0,0.5,
+SetTextureCoordinates,7,0,1,
+
+,,,
+CreateMeshBuilder,,,
+AddVertex,-2.5,0.75,0
+AddVertex,-2.5,1.2,0
+AddVertex,-3.4,1.2,0
+AddVertex,-3.4,0.75,0
+AddVertex,-2.5,0.75,25
+AddVertex,-2.5,1.2,25
+AddVertex,-3.4,1.2,25,
+AddVertex,-3.4,0.75,25,
+AddFace,0,1,5,4
+AddFace,1,2,6,5
+AddFace,2,3,7,6
+GenerateNormals,,,,
+LoadTexture,..\Oggetti\Wall.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,0.01,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,5,1,
+SetTextureCoordinates,5,5,0,
+SetTextureCoordinates,6,5,0.01,
+SetTextureCoordinates,7,5,1,
+
+CreateMeshBuilder,,,,
+AddVertex,-2.5,0.75,0,
+AddVertex,-2.65,0.75,0,
+AddVertex,-2.35,-0.75,0,
+AddVertex,-2.5,0.75,25,
+AddVertex,-2.65,0.75,25,
+AddVertex,-2.35,-0.75,25,
+AddFace,1,0,3,4
+AddFace,2,1,4,5
+GenerateNormals,,,,
+LoadTexture,..\oggetti\mattoni.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,0.01,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,0,
+SetTextureCoordinates,4,5,0.01,
+SetTextureCoordinates,5,5,1,
+
+CreateMeshBuilder,,,,
+AddVertex,-3.4,0.75,0,
+AddVertex,-3.25,0.75,0,
+AddVertex,-3.55,-0.75,0,
+AddVertex,-3.4,0.75,25,
+AddVertex,-3.25,0.75,25,
+AddVertex,-3.55,-0.75,25,
+AddFace,0,1,4,3
+AddFace,1,2,5,4
+GenerateNormals,,,,
+LoadTexture,..\oggetti\mattoni.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,0.01,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,0,
+SetTextureCoordinates,4,5,0.01,
+SetTextureCoordinates,5,5,1,
+
+
+;; fronte L
+CreateMeshBuilder,,,,
+AddVertex,-2.5,1.2,0,
+AddVertex,-2.5,0.75,0,
+AddVertex,-2.65,0.75,0,
+AddVertex,-2.35,-0.75,0,
+AddVertex,-3.4,1.2,0,
+AddVertex,-3.4,0.75,0,
+AddVertex,-3.25,0.75,0,
+AddVertex,-3.55,-0.75,0,
+AddFace,5,4,0,1
+AddFace,7,6,2,3
+GenerateNormals,,,,
+LoadTexture,..\oggetti\mattoni.bmp,
+SetTextureCoordinates,0,0.875,0
+SetTextureCoordinates,1,0.875,0.231
+SetTextureCoordinates,2,0.75,0.231
+SetTextureCoordinates,3,1,1
+SetTextureCoordinates,4,0.125,0
+SetTextureCoordinates,5,0.125,0.231
+SetTextureCoordinates,6,0.25,0.231
+SetTextureCoordinates,7,0,1
+
+
+; parapetto R
+
+CreateMeshBuilder,,,,
+AddVertex,3.55,-0.75,0,
+AddVertex,1.9,-0.75,0,
+AddVertex,1.9,-1.5,0,
+AddVertex,-1.9,-1.5,0,
+AddVertex,3.55,-0.75,25,
+AddVertex,1.9,-0.75,25,
+AddVertex,1.9,-1.5,25,
+AddVertex,-1.9,-1.5,25,
+AddFace2,1,0,4,5
+AddFace2,2,1,5,6
+AddFace2,3,2,6,7
+GenerateNormals,,,,
+LoadTexture,Bottom.bmp,,,
+SetTextureCoordinates,0,6,0,
+SetTextureCoordinates,1,6,0.25,
+SetTextureCoordinates,2,6,0.5,
+SetTextureCoordinates,3,6,1,
+SetTextureCoordinates,4,0,0,
+SetTextureCoordinates,5,0,0.25,
+SetTextureCoordinates,6,0,0.5,
+SetTextureCoordinates,7,0,1,
+
+,,,
+CreateMeshBuilder,,,
+AddVertex,2.5,0.75,0
+AddVertex,2.5,1.2,0
+AddVertex,3.4,1.2,0
+AddVertex,3.4,0.75,0
+AddVertex,2.5,0.75,25
+AddVertex,2.5,1.2,25
+AddVertex,3.4,1.2,25,
+AddVertex,3.4,0.75,25,
+AddFace,1,0,4,5
+AddFace,2,1,5,6
+AddFace,3,2,6,7
+GenerateNormals,,,,
+LoadTexture,..\Oggetti\Wall.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,0.01,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,5,1,
+SetTextureCoordinates,5,5,0,
+SetTextureCoordinates,6,5,0.01,
+SetTextureCoordinates,7,5,1,
+
+CreateMeshBuilder,,,,
+AddVertex,2.5,0.75,0,
+AddVertex,2.65,0.75,0,
+AddVertex,2.35,-0.75,0,
+AddVertex,2.5,0.75,25,
+AddVertex,2.65,0.75,25,
+AddVertex,2.35,-0.75,25,
+AddFace,0,1,4,3
+AddFace,1,2,5,4
+GenerateNormals,,,,
+LoadTexture,..\oggetti\mattoni.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,0.01,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,0,
+SetTextureCoordinates,4,5,0.01,
+SetTextureCoordinates,5,5,1,
+
+CreateMeshBuilder,,,,
+AddVertex,3.4,0.75,0,
+AddVertex,3.25,0.75,0,
+AddVertex,3.55,-0.75,0,
+AddVertex,3.4,0.75,25,
+AddVertex,3.25,0.75,25,
+AddVertex,3.55,-0.75,25,
+AddFace,1,0,3,4
+AddFace,2,1,4,5
+GenerateNormals,,,,
+LoadTexture,..\oggetti\mattoni.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,0.01,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,0,
+SetTextureCoordinates,4,5,0.01,
+SetTextureCoordinates,5,5,1,
+
+
+;; fronte dx
+CreateMeshBuilder,,,,
+AddVertex,2.5,1.2,0,
+AddVertex,2.5,0.75,0,
+AddVertex,2.65,0.75,0,
+AddVertex,2.35,-0.75,0,
+AddVertex,3.4,1.2,0,
+AddVertex,3.4,0.75,0,
+AddVertex,3.25,0.75,0,
+AddVertex,3.55,-0.75,0,
+AddFace,4,5,1,0
+AddFace,6,7,3,2
+GenerateNormals,,,,
+LoadTexture,..\oggetti\mattoni.bmp,
+SetTextureCoordinates,0,0.875,0
+SetTextureCoordinates,1,0.875,0.231
+SetTextureCoordinates,2,0.75,0.231
+SetTextureCoordinates,3,1,1
+SetTextureCoordinates,4,0.125,0
+SetTextureCoordinates,5,0.125,0.231
+SetTextureCoordinates,6,0.25,0.231
+SetTextureCoordinates,7,0,1

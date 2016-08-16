@@ -1,0 +1,26 @@
+CreateMeshBuilder,
+AddVertex,-8.0, 11.0, 0
+AddVertex,-2.95, 11.0, 0
+AddVertex,-2.95, 0.0, 0
+AddVertex,-8.0, 0.0, 0
+AddFace,0,1,2,3
+LoadTexture,ManBill_B2.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1.025,
+SetTextureCoordinates,3,0,1.025,
+GenerateNormals,
+SetDecalTransparentColor,255,,0,
+
+CreateMeshBuilder,
+AddVertex,-3.0, 11.0, 0
+AddVertex,-3.0, 11.0, 15
+AddVertex,-3.0, 0.0,  15
+AddVertex,-3.0, 0.0, 0
+AddFace,0,1,2,3
+LoadTexture,ManBill_B1.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,

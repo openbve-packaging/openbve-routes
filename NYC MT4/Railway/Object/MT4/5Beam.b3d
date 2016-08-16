@@ -1,0 +1,136 @@
+[MeshBuilder]
+Vertex    .125,5,0    ;4     ; Left facing track
+Vertex    .125,0,0    ;5
+Vertex  -0.125,0,0    ;6
+Vertex  -0.125,5,0    ;7
+
+Vertex  -0.125,0,0     ;3 
+Vertex  -0.125,0,0.25  ;2  
+Vertex  -0.125,5,0.25  ;1
+Vertex  -0.125,5,0     ;0  
+
+Vertex  0.125,5,0     ;0  
+Vertex  0.125,5,0.25  ;1
+Vertex  0.125,0,0.25  ;2  
+Vertex  0.125,0,0     ;3 
+
+Vertex  -0.125,5,0.25    ;7
+Vertex  -0.125,0,0.25    ;6
+Vertex    .125,0,0.25    ;5
+Vertex    .125,5,0.25    ;4     ; Left facing track
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Left
+Face 8,9,10,11    ; Right
+Face 12,13,14,15  ; back
+
+Color 77,77,77  ;  Dark Grey
+
+[MeshBuilder]
+Vertex    .125,5,5    ;4     ; Left facing track
+Vertex    .125,0,5    ;5
+Vertex  -0.125,0,5    ;6
+Vertex  -0.125,5,5    ;7
+
+Vertex  -0.125,0,5     ;3 
+Vertex  -0.125,0,5.25  ;2  
+Vertex  -0.125,5,5.25  ;1
+Vertex  -0.125,5,5     ;0  
+
+Vertex  0.125,5,5     ;0  
+Vertex  0.125,5,5.25  ;1
+Vertex  0.125,0,5.25  ;2  
+Vertex  0.125,0,5     ;3 
+
+Vertex  -0.125,5,5.25    ;7
+Vertex  -0.125,0,5.25    ;6
+Vertex    .125,0,5.25    ;5
+Vertex    .125,5,5.25    ;4     ; Left facing track
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Left
+Face 8,9,10,11    ; Right
+Face 12,13,14,15  ; back
+
+Color 77,77,77  ;  Dark Grey
+[MeshBuilder]
+Vertex    .125,5,10    ;4     ; Left facing track
+Vertex    .125,0,10    ;5
+Vertex  -0.125,0,10    ;6
+Vertex  -0.125,5,10    ;7
+
+Vertex  -0.125,0,10     ;3 
+Vertex  -0.125,0,10.25  ;2  
+Vertex  -0.125,5,10.25  ;1
+Vertex  -0.125,5,10     ;0  
+
+Vertex  0.125,5,10     ;0  
+Vertex  0.125,5,10.25  ;1
+Vertex  0.125,0,10.25  ;2  
+Vertex  0.125,0,10     ;3 
+
+Vertex  -0.125,5,10.25    ;7
+Vertex  -0.125,0,10.25    ;6
+Vertex    .125,0,10.25    ;5
+Vertex    .125,5,10.25    ;4     ; Left facing track
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Left
+Face 8,9,10,11    ; Right
+Face 12,13,14,15  ; back
+
+Color 77,77,77  ;  Dark Grey
+[MeshBuilder]
+Vertex    .125,5,15    ;4     ; Left facing track
+Vertex    .125,0,15    ;5
+Vertex  -0.125,0,15    ;6
+Vertex  -0.125,5,15    ;7
+
+Vertex  -0.125,0,15     ;3 
+Vertex  -0.125,0,15.25  ;2  
+Vertex  -0.125,5,15.25  ;1
+Vertex  -0.125,5,15     ;0  
+
+Vertex  0.125,5,15     ;0  
+Vertex  0.125,5,15.25  ;1
+Vertex  0.125,0,15.25  ;2  
+Vertex  0.125,0,15     ;3 
+
+Vertex  -0.125,5,15.25    ;7
+Vertex  -0.125,0,15.25    ;6
+Vertex    .125,0,15.25    ;5
+Vertex    .125,5,15.25    ;4     ; Left facing track
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Left
+Face 8,9,10,11    ; Right
+Face 12,13,14,15  ; back
+
+Color 77,77,77  ;  Dark Grey
+[MeshBuilder]
+Vertex    .125,5,20    ;4     ; Left facing track
+Vertex    .125,0,20    ;5
+Vertex  -0.125,0,20    ;6
+Vertex  -0.125,5,20    ;7
+
+Vertex  -0.125,0,20     ;3 
+Vertex  -0.125,0,20.25  ;2  
+Vertex  -0.125,5,20.25  ;1
+Vertex  -0.125,5,20     ;0  
+
+Vertex  0.125,5,20     ;0  
+Vertex  0.125,5,20.25  ;1
+Vertex  0.125,0,20.25  ;2  
+Vertex  0.125,0,20     ;3 
+
+Vertex  -0.125,5,20.25    ;7
+Vertex  -0.125,0,20.25    ;6
+Vertex    .125,0,20.25    ;5
+Vertex    .125,5,20.25    ;4     ; Left facing track
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Left
+Face 8,9,10,11    ; Right
+Face 12,13,14,15  ; back
+
+Color 77,77,77  ;  Dark Grey

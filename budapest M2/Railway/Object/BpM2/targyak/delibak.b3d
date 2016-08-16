@@ -1,0 +1,98 @@
+;ütközõbak
+;Készítette: http://www.bvemetro.hu/
+
+;fal
+[meshbuilder]
+cube 01.45,00.3,00.15
+color 72,72,72
+[meshbuilder]
+cube 01.45,00.60,00.15
+color 160,160,160
+translate 0,0.90,0
+
+;hengerek
+[meshbuilder]
+cylinder 16, 0.1,0.1,0.5
+rotate 1,0,0,90
+translate -0.76,1.15,-0.25
+color 64,64,64
+[meshbuilder]
+cylinder 16, 0.1,0.1,0.5
+rotate 1,0,0,90
+translate 0.76,1.15,-0.25
+color 64,64,64
+
+;ütközõ
+[meshbuilder]
+cube 01.20,00.10,00.10
+color 60,60,60
+translate 0,1.15,-00.55
+
+;jelzõ oszlop
+[meshbuilder]
+cube 0.02,0.7,0.02
+translate -0.13,1.6,0.68
+color 12,12,12
+[meshbuilder]
+cube 0.02,0.7,0.02
+translate 0.13,1.6,0.68
+color 12,12,12
+[meshbuilder]
+cube 0.15,0.25,0.02
+translate 0.0,1.5,0.68
+color 12,12,12
+[meshbuilder]
+cube 0.15,0.02,0.02
+translate 0.0,2.1,0.68
+color 12,12,12
+
+[Meshbuilder]
+Vertex -0.15, 0.30, 0.62
+Vertex -0.05, 0.38, 0.62
+Vertex  0.05, 0.38, 0.62
+Vertex  0.15, 0.30, 0.62
+Vertex -0.15, 0.30, 0.74
+Vertex -0.05, 0.38, 0.74
+Vertex  0.05, 0.38, 0.74
+Vertex  0.15, 0.30, 0.74
+Face 0,1,2,3
+Face 4,5,1,0
+Face 3,2,6,7
+Face 1,5,6,2
+color 12,12,12
+translate 0,2.4,0
+
+[Meshbuilder]; also
+Vertex -0.15, 2.4, 0.62
+Vertex -0.15, 2.7, 0.62
+Vertex  0.15, 2.7, 0.62
+Vertex  0.15, 2.4, 0.62
+Face 0, 1, 2, 3
+[Texture]
+Load voros.bmp
+coordinates 0,0.15,0.85
+coordinates 1,0.15,0.15
+coordinates 2,0.85,0.15
+coordinates 3,0.85,0.85
+
+[Meshbuilder]
+Vertex -0.15, 2.3, 0.74
+Vertex -0.15, 2.7, 0.74
+Vertex -0.15, 2.7, 0.62
+Vertex -0.15, 2.3, 0.62
+Vertex  0.15, 2.3, 0.74
+Vertex  0.15, 2.7, 0.74
+Vertex  0.15, 2.7, 0.62
+Vertex  0.15, 2.3, 0.62
+Face 0,1,2,3
+Face 7,6,5,4
+color 12,12,12
+
+;fehér
+[Meshbuilder]
+Vertex -0.15, 2.3, 0.62
+Vertex -0.15, 2.4, 0.62
+Vertex 0.15, 2.4, 0.62
+Vertex 0.15, 2.3, 0.62
+Face 0,1,2,3
+color 200,200,200

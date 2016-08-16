@@ -1,0 +1,65 @@
+;‰®ª’Œ
+CreateMeshBuilder
+AddVertex,7.2, 4.5, 0.0
+AddVertex,6.9, 4.5, 0.0
+AddVertex,6.9, 1.1, 0.0
+AddVertex,7.2, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,gyopole.bmp,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,8.5
+
+;‰®ª
+CreateMeshBuilder,
+AddVertex,7.2, 4.5, 0,
+AddVertex,7.2, 4.5, 25.3,
+AddVertex,-0.7, 5.75, 25.3,
+AddVertex,-0.7, 5.75, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,RoofA.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 5,
+SetTextureCoordinates,2, 0, 5,
+SetTextureCoordinates,3, 0, 0,
+SetColor,200,200,200
+
+CreateMeshBuilder
+AddVertex,-0.7, 5.8, 25.3
+AddVertex,-0.7, 5.8, 0
+AddVertex,-0.7, 5.3, 0
+AddVertex,-0.7, 5.3, 25.3
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,kasai_R.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 9, 0,
+SetTextureCoordinates,2, 9, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;ŒuŒõ“”
+CreateMeshBuilder,
+ADdVertex, 2.9, 4.7, 24.5
+AddVertex, 2.7, 4.8, 24.5
+AddVertex, 2.7, 4.8, 0.5
+AddVertex, 2.9, 4.7, 0.5
+ADdFace,0,1,2,3
+LoadTexture,../Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1.5, 0.05, 25
+AddVertex,1.5, 0.05, 26
+AddVertex,1.5, 0.05, 1
+ADdvertex,-1.5, 0.05, 0
+AddFace,0,1,2,3
+SetColor,20,20,20,100,
+GenerateNormals,

@@ -1,0 +1,22 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Lambretta
+[meshbuilder]
+Vertex 0.0, 1.5, 0
+Vertex 1.8, 1.7, 0
+Vertex 1.8, 0.1, 0
+Vertex 0.0, 0.1, 0
+Face 0,1,2,3
+[texture]
+Load Fg08-Lambretta.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 24,24,24
+Rotate 0,0,1,-4
+Rotate 0,1,0,-20
+Translate 0,-0.30,
+

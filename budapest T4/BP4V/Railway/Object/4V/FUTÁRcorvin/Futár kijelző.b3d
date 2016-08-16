@@ -1,0 +1,185 @@
+﻿;Futár kijelző. Szabadon módosítható és terjeszthető a nevem feltüntetése mellett. Eredetileg a Széll Kálmán téri 4-6-os villamos megállójába lett tervezve.
+[Meshbuilder]
+Cylinder 50,0.08,0.08,3.50
+Color 130,130,130
+
+[Meshbuilder]
+Cylinder 50,0.085,0.085,0.025
+Color 140,140,140
+Translate 0,1.74,0
+
+[Meshbuilder]
+Vertex -0.03,1.7,0
+Vertex 0.03,1.7,0
+Vertex 0.03,1.7,1.46
+Vertex -0.03,1.7,1.46
+Face2 0,1,2,3
+Color 150,150,150
+
+[Meshbuilder]
+Vertex -0.03,1.66,0
+Vertex 0.03,1.66,0
+Vertex 0.03,1.66,1.46
+Vertex -0.03,1.66,1.46
+Face2 0,1,2,3
+Color 150,150,150
+
+[Meshbuilder]
+Vertex 0.03,1.66,1.46
+Vertex 0.03,1.7,1.46
+Vertex -0.03,1.7,1.46
+Vertex -0.03,1.66,1.46
+Face2 0,1,2,3
+Color 130,130,130
+
+[Meshbuilder]
+Vertex 0.03,1.66,1.46
+Vertex 0.03,1.66,0
+Vertex 0.03,1.7,0
+Vertex 0.03,1.7,1.46
+Face2 0,1,2,3
+Color 130,130,130
+
+[Meshbuilder]
+Vertex -0.03,1.66,1.46
+Vertex -0.03,1.7,1.46
+Vertex -0.03,1.7,0
+Vertex -0.03,1.66,0
+Face2 0,1,2,3
+Color 130,130,130
+
+[Meshbuilder]
+Vertex 0.175,1.66,0.14
+Vertex -0.175,1.66,0.14
+Vertex -0.175,1.66,1.5
+Vertex 0.175,1.66,1.5
+Face2 0,1,2,3
+Color 51,14,71
+
+[Meshbuilder]
+Vertex 0.175,1.66,1.5
+Vertex 0.175,1.66,0.14
+Vertex 0.075,1.3,0.14
+Vertex 0.075,1.3,1.5
+Face2 0,1,2,3
+Color 51,14,71
+
+[Meshbuilder]
+Vertex -0.175,1.66,1.5
+Vertex -0.175,1.66,0.14
+Vertex -0.075,1.3,0.14
+Vertex -0.075,1.3,1.5
+Face2 0,1,2,3
+Color 51,14,71
+
+[Meshbuilder]
+Vertex -0.075,1.3,0.14
+Vertex -0.075,1.3,1.5
+Vertex 0.075,1.3,1.5
+Vertex 0.075,1.3,0.14
+Face2 0,1,2,3
+Color 51,14,71
+
+[Meshbuilder]
+Vertex -0.075,1.3,1.5
+Vertex 0.075,1.3,1.5
+Vertex 0.175,1.66,1.5
+Vertex -0.175,1.66,1.5
+Face2 0,1,2,3
+Color 51,14,71
+
+[Meshbuilder]
+Vertex -0.075,1.3,0.14
+Vertex 0.075,1.3,0.14
+Vertex 0.175,1.66,0.14
+Vertex -0.175,1.66,0.14
+Face2 0,1,2,3
+Color 51,14,71
+
+[Meshbuilder]
+Vertex 0.175,1.66,1.5
+Vertex 0.195,1.68,1.52
+Vertex 0.195,1.68,0.12
+Vertex 0.175,1.66,0.14
+Face2 0,1,2,3
+Color 0,0,0
+
+[Meshbuilder]
+Vertex 0.175,1.66,1.5
+Vertex 0.195,1.68,1.52
+Vertex 0.095,1.28,1.52
+Vertex 0.075,1.30,1.5
+Face2 0,1,2,3
+Color 0,0,0
+
+[Meshbuilder]
+Vertex 0.095,1.28,1.52
+Vertex 0.075,1.30,1.5
+Vertex 0.075,1.30,0.14
+Vertex 0.095,1.28,0.12
+Face2 0,1,2,3
+Color 0,0,0
+
+[Meshbuilder]
+Vertex 0.075,1.30,0.14
+Vertex 0.095,1.28,0.12
+Vertex 0.195,1.68,0.12
+Vertex 0.175,1.66,0.14
+Face2 0,1,2,3
+Color 0,0,0
+
+[Meshbuilder]
+Vertex -0.075,1.30,0.14
+Vertex -0.095,1.28,0.12
+Vertex -0.195,1.68,0.12
+Vertex -0.175,1.66,0.14
+Face2 0,1,2,3
+Color 0,0,0
+
+[Meshbuilder]
+Vertex -0.095,1.28,1.52
+Vertex -0.075,1.30,1.5
+Vertex -0.075,1.30,0.14
+Vertex -0.095,1.28,0.12
+Face2 0,1,2,3
+Color 0,0,0
+
+[Meshbuilder]
+Vertex -0.175,1.66,1.5
+Vertex -0.195,1.68,1.52
+Vertex -0.095,1.28,1.52
+Vertex -0.075,1.30,1.5
+Face2 0,1,2,3
+Color 0,0,0
+
+[Meshbuilder]
+Vertex -0.175,1.66,1.5
+Vertex -0.195,1.68,1.52
+Vertex -0.195,1.68,0.12
+Vertex -0.175,1.66,0.14
+Face2 0,1,2,3
+Color 0,0,0
+
+[Meshbuilder]
+Vertex 0.095,1.28,0.12
+Vertex 0.195,1.68,0.12
+Vertex 0.195,1.68,1.52
+Vertex 0.095,1.28,1.52
+Face2 0,1,2,3
+Load futar_kijelzo1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+
+[Meshbuilder]
+Vertex -0.095,1.28,0.12
+Vertex -0.195,1.68,0.12
+Vertex -0.195,1.68,1.52
+Vertex -0.095,1.28,1.52
+Face2 0,1,2,3
+Load futar_kijelzo2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0

@@ -1,0 +1,63 @@
+[Meshbuilder] ; right rail
+Vertex 1.09,-0.02,2
+Vertex 1.11,0.05,0
+Vertex 1.21,0.05,0
+Vertex 1.23,-0.02,2
+Face 3,2,1,0
+Color 110,110,110
+
+[Meshbuilder]
+Vertex 1.16,0.05,0
+Vertex 1.16,-0.1,0
+Vertex 1.16,-0.1,2
+Vertex 1.16,-0.02,2
+Face2 0,1,2,3
+Color 60,60,60
+
+[Meshbuilder]
+Vertex 1.11,-0.1,2
+Vertex 1.11,-0.1,0
+Vertex 1.21,-0.1,0
+Vertex 1.21,-0.1,2
+Face 3,2,1,0
+Color 60,60,60
+
+[Meshbuilder] ; right live rail (+420V fyi)
+Vertex -1.11,0.05,0
+Vertex -1.09,-0.02,-2
+Vertex -1.23,-0.02,-2
+Vertex -1.21,0.05,0
+Face 0,1,2,3
+Color 110,110,110
+
+[Meshbuilder]
+Vertex -1.16,-0.02,-2
+Vertex -1.16,-0.1,-2
+Vertex -1.16,-0.1,0
+Vertex -1.16,0.05,0
+Face2 0,1,2,3
+Color 60,60,60
+
+[Meshbuilder]
+Vertex -1.11,-0.1,0
+Vertex -1.11,-0.1,-2
+Vertex -1.21,-0.1,-2
+Vertex -1.21,-0.1,0
+Face 0,1,2,3
+Color 60,60,60
+
+[Meshbuilder] ; Rail insulators
+Vertex -1.01,-0.1,-1
+Vertex -0.96,-0.17,-1
+Vertex -1.36,-0.17,-1
+Vertex -1.31,-0.1,-1
+
+Vertex 1.01,-0.1,1
+Vertex 0.96,-0.17,1
+Vertex 1.36,-0.17,1
+Vertex 1.31,-0.1,1
+
+Face 0,1,2,3
+Face 7,6,5,4
+
+Color 180,180,180

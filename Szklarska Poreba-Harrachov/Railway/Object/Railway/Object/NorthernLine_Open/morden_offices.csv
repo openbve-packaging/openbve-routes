@@ -1,0 +1,14 @@
+CreateMeshBuilder,;face
+AddVertex,-40.25, 52.26,0,
+AddVertex,60.1, 52.26, 20,
+AddVertex,60.1, 11.9, 20,
+AddVertex,-40.25, 11.9, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,morden_offices.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 4,
+SetTextureCoordinates,3, 0, 4,
+
+

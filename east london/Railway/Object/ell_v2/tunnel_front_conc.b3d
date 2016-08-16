@@ -1,0 +1,90 @@
+[MeshBuilder]
+Vertex -4.4,0,0 	;0
+Vertex -4.6,1.6,0	;1
+Vertex -4.4,3.0,0	;2
+Vertex -4,3.8,0		;3
+Vertex -3,5,0		;4
+Vertex -2,5.8,0		;5
+Vertex -1,6,0		;6
+Vertex 0,6.2,0		;7
+Vertex 1,6,0		;8
+Vertex 2,5.8,0		;9
+Vertex 3,5.2,0		;10
+Vertex 4,3.8,0		;11
+Vertex 4.4,3,0		;12
+Vertex 4.6,1.6,0	;13
+Vertex 4.2,0,0		;14
+
+Vertex -6.2,0,0		; bottom left corner
+Vertex -6.2,9,0		; top left corner
+
+Vertex -4.6,9,0		;17
+Vertex -4.4,9,0		;18
+Vertex -4,9,0		;19
+Vertex -3,9,0		;20
+Vertex -2,9,0		;21
+Vertex -1,9,0		;22
+Vertex 0,9,0		;23
+Vertex 1,9,0		;24
+Vertex 2,9,0		;25
+Vertex 3,9,0		;26
+Vertex 4,9,0		;27
+Vertex 4.4,9,0		;28
+Vertex 4.6,9,0		;29
+
+Vertex 10.2,9,0		; Top right corner
+Vertex 10.2,0,0		; bottom right corner
+
+Face 17,1,15,16
+Face 1,0,15
+Face 30,31,13,28
+Face 13,31,14
+
+Face 29,13,12,28
+Face 28,12,11,27
+Face 27,11,10,26
+Face 26,10,9,25
+Face 25,9,8,24
+Face 24,8,7,23
+Face 23,7,6,22
+Face 22,6,5,21
+Face 21,5,4,20
+Face 20,4,3,19
+Face 19,3,2,18
+Face 18,2,1,17
+
+Color 100,100,100
+[Texture]
+Load stonewall.bmp
+Coordinates 0,1.6,9
+Coordinates 1,1.4,7.4
+Coordinates 2,1.6,6
+Coordinates 3,2.2,5.2
+Coordinates 4,3,4
+Coordinates 5,4,3.2
+Coordinates 6,5,3
+Coordinates 7,6,2.8
+Coordinates 8,7,3
+Coordinates 9,8,3.2
+Coordinates 10,9,3.8
+Coordinates 11,10,5.2
+Coordinates 12,10.4,6
+Coordinates 13,10.6,7.4
+Coordinates 14,10.2,9
+Coordinates 15,0,9
+Coordinates 16,0,0
+Coordinates 17,1.4,0
+Coordinates 18,1.6,0
+Coordinates 19,2,0
+Coordinates 20,3,0
+Coordinates 21,4,0
+Coordinates 22,5,0
+Coordinates 23,6,0
+Coordinates 24,7,0
+Coordinates 25,8,0
+Coordinates 26,9,0
+Coordinates 27,10,0
+Coordinates 28,10.4,0
+Coordinates 29,10.6,0
+Coordinates 30,12,0
+Coordinates 31,12,9

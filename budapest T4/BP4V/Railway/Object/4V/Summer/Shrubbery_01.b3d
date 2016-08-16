@@ -1,0 +1,38 @@
+[MeshBuilder]
+Vertex 0,1.2,5
+Vertex 0,0,5
+Vertex 0,0,-5
+Vertex 0,1.2,-5
+Face2 0,1,2,3
+[Texture]
+Load Shrubbery_01.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 0.4,1.2,5
+Vertex -0.4,0,5
+Vertex -0.4,0,-5
+Vertex 0.4,1.2,-5
+Face2 0,1,2,3
+[Texture]
+Load Shrubbery_01.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex -0.4,1.2,5
+Vertex 0.4,0,5
+Vertex 0.4,0,-5
+Vertex -0.4,1.2,-5
+Face2 0,1,2,3
+[Texture]
+Load Shrubbery_01.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0

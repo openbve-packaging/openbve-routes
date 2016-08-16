@@ -1,0 +1,32 @@
+[MeshBuilder]
+Cylinder 6,0.04,0.04,2.16
+Color 165,158,162
+Translate 0,1.09,-0.2
+
+[MeshBuilder]
+Vertex -0.25,2.2,-0.25
+Vertex 0.25,2.2,-0.25
+Vertex 0.25,1.7,-0.25
+Vertex -0.25,1.7,-0.25
+Face 0,1,2,3
+[Texture]
+Load utk1.bmp
+Coordinates 0,0,0
+Coordinates 1,0.5,0
+Coordinates 2,0.5,1
+Coordinates 3,0,1
+Transparent 4,2,252
+
+[MeshBuilder]
+Vertex 0.25,2.2,-0.26
+Vertex -0.25,2.2,-0.26
+Vertex -0.25,1.7,-0.26
+Vertex 0.25,1.7,-0.26
+Face 0,1,2,3
+[Texture]
+Load utk1.bmp
+Coordinates 0,0.5,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0.5,1
+Transparent 4,2,252

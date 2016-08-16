@@ -1,0 +1,28 @@
+CreateMeshBuilder,
+AddVertex,-2.55, 5.0, 5,
+AddVertex, 4.0, 5.5, 4,
+AddVertex, 4.0,-0.05, 4, 
+AddVertex,-2.9,-1.0, 5,
+AddFace,0,1,2,3,
+LoadTexture,tollgatetop.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+Translate,0,1.22,0
+
+CreateMeshBuilder,
+AddVertex,-2.5, 4.3, 20
+AddVertex,-2.5, 4.3, 5
+AddVertex,-2.5,-0.6, 5
+AddVertex,-2.5,-0.6, 20
+ADdFace,0,1,2,3,
+LoadTexture,tollgatewall3.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+GenerateNormals,
+Translate,0,1,0

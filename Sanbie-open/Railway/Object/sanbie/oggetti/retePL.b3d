@@ -1,0 +1,206 @@
+; StaccionataSX.b3d by Luigi Cartello (cartello.luigi@tiscali.it)
+
+; Oggetto BVE costituito da un tratto di staccionata FS in cemento
+; lungo mt.25 posizionato a destra
+
+[MeshBuilder]       ; Pilastrino 0
+Vertex 3.5, 2.3, 0.25
+Vertex 45, 2.3, 0.25
+Vertex 3.5, 0.5, 0.25
+Vertex 45, 0.5, 0.25
+Face2 2,3,1,0
+
+load ..\Alberi\fence2.bmp,
+Coordinates 0, 20, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 20, 0.93,
+Coordinates 3, 0, 0.93,
+Transparent 0,0,0,
+
+; muretto
+
+[MeshBuilder]       
+Vertex 3.25, 0.5, 0
+Vertex 45, 0.5, 0
+Vertex 45, 0.5, 0.5
+Vertex 3.25, 0.5, 0.5
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[MeshBuilder]       
+Vertex 45, 0.5, 0
+Vertex 45, -0.4, 0
+Vertex 3.25, 0.5, 0
+Vertex 3.25, -0.4, 0
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[MeshBuilder]       
+Vertex 3.5, 0.5, 0,
+Vertex 3.5, 0.5, 0.5,
+Vertex 3.5, -0.4, 0.5,
+Vertex 3.5, -0.4, 0,
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+;;lato sx
+
+[MeshBuilder]       ; Pilastrino 0
+Vertex -3, 2.3, 0.25
+Vertex -6, 2.3, 0.25
+Vertex -3, 0.5, 0.25
+Vertex -6, 0.5, 0.25
+Face2 2,3,1,0
+
+load ..\Alberi\fence2.bmp,
+Coordinates 0, 2, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 2, 0.93,
+Coordinates 3, 0, 0.93,
+Transparent 0,0,0,
+
+; muretto
+
+[MeshBuilder]       
+Vertex -3, 0.5, 0
+Vertex -6, 0.5, 0
+Vertex -6, 0.5, 0.5
+Vertex -3, 0.5, 0.5
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[MeshBuilder]       
+Vertex -6, 0.5, 0
+Vertex -6, -0.4, 0
+Vertex -3, 0.5, 0
+Vertex -3, -0.4, 0
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[MeshBuilder]       
+Vertex -3, 0.5, 0,
+Vertex -3, 0.5, 0.5,
+Vertex -3, -0.4, 0.5,
+Vertex -3, -0.4, 0,
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+
+;; sx diag
+
+[MeshBuilder]       ; Pilastrino 0
+Vertex -6, 2.3, 0.25
+Vertex -20, 2.3, 10.25
+Vertex -6, 0.5, 0.25
+Vertex -20, 0.5, 10.25
+Face2 2,3,1,0
+
+load ..\Alberi\fence2.bmp,
+Coordinates 0, 5, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 5, 0.93,
+Coordinates 3, 0, 0.93,
+Transparent 0,0,0,
+
+; muretto
+
+[MeshBuilder]       
+Vertex -6, 0.5, 0
+Vertex -20, 0.5, 10
+Vertex -20, 0.5, 10.5
+Vertex -6, 0.5, 0.5
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[MeshBuilder]       
+Vertex -20, 0.5, 10
+Vertex -20, -0.4, 10
+Vertex -6, 0.5, 0
+Vertex -6, -0.4, 0
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+
+;; lato lungo
+
+[MeshBuilder]       ; Pilastrino 0
+Vertex 3.5, 2.3, 23.5
+Vertex 3.5, 2.3, 0
+Vertex 3.5, 0.5, 23.5
+Vertex 3.5, 0.5, 0
+Face2 2,3,1,0
+
+load ..\Alberi\fence2.bmp,
+Coordinates 0, 7, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 7, 0.93,
+Coordinates 3, 0, 0.93,
+Transparent 0,0,0,
+
+; muretto
+
+[MeshBuilder]       
+Vertex 3.25, 0.5, 23.5
+Vertex 3.85, 0.5, 23.5
+Vertex 3.85, 0.5, 0
+Vertex 3.25, 0.5, 0
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+
+[MeshBuilder]       
+Vertex 3.25, 0.5, 23.5
+Vertex 3.25, -0.4, 23.5
+Vertex 3.25, 0.5, 0
+Vertex 3.25, -0.4, 0
+Face2 2,3,1,0
+
+load concrete.bmp,
+Coordinates 0, 1, 0,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,

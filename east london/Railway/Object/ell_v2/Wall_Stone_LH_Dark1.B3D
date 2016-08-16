@@ -1,0 +1,53 @@
+[Meshbuilder]
+Vertex -2.7,4,25.3
+Vertex -2.7,-0.405,25.3
+Vertex -2.7,-0.405,-0.2
+Vertex -2.7,4,-0.2
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,25,0
+Coordinates 1,25,7
+Coordinates 2,0,7
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 0,-0.405,25.3
+Vertex 0,-0.405,-0.2
+Vertex -2.7,-0.405,-0.2
+Vertex -2.7,-0.405,25.3
+Face 0,1,2,3
+Color 64,64,64
+[Texture]
+load stonewall.bmp
+Coordinates 0,2,0
+Coordinates 1,2,25
+COordinates 2,0,25
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -2.6,2.8,25.3
+Vertex -2.6,1.8,25.3
+Vertex -2.6,0,-0.3
+Vertex -2.6,0.5,-0.3
+Face 0,1,2,3
+[Texture]
+load side-cables.bmp
+Coordinates 0,25,0
+Coordinates 1,25,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder]
+Vertex 2,4,-0.2
+Vertex 2,4,25
+Vertex -2.8,4,25
+Vertex -2.8,4,-0.2
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,5,0
+Coordinates 1,5,25
+Coordinates 2,0,25
+Coordinates 3,0,0

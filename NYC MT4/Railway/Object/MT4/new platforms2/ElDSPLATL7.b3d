@@ -1,0 +1,790 @@
+[meshbuilder]
+
+vertex -2.7,1.1,0.0
+vertex -2.7,1.1,5.0
+vertex -4.0,1.1,5.0
+vertex -4.0,1.1,0.0
+
+face2 0,1,2,3
+[Texture]
+Load new concrete.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[meshbuilder]
+
+vertex -2.7,1.1,5.0
+vertex -2.7,1.1,20.0
+vertex -6.3,1.1,20.0
+vertex -6.3,1.1,5.0
+
+face2 0,1,2,3
+[Texture]
+Load new concrete.bmp
+Coordinates 0, 1, 3
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 3
+
+[MeshBuilder]
+
+Vertex  -2.7, 1.1, 0
+Vertex  -2.7, 1.1, 25.3
+Vertex  -1.5, 1.1, 25.3
+Vertex  -1.5, 1.1, 0
+
+Face2 3,2,1,0
+
+[Texture]
+Load StaForm11.bmp
+Coordinates 0, 0, 5
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 5
+
+[MeshBuilder]
+Vertex -1.5,  0.8375, 0
+Vertex -1.5,  0.8375, 25.3
+Vertex -1.5,  1.1, 25.3
+Vertex -1.5,  1.1, 0
+Face 3, 2, 1, 0
+[Texture]
+Load FormSide.bmp
+Coordinates 0, 12, 0.375
+Coordinates 1,  0, 0.375
+Coordinates 2,  0, 0
+Coordinates 3, 12, 0
+
+[meshbuilder]
+
+vertex -6.2,0.0,0.0
+vertex -6.2,1.1,0.0
+vertex -6.2,1.1,5.0
+vertex -6.2,0.0,5.0
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.9,5.0
+vertex -6.2,1.1,5.0
+vertex -4.0,1.1,5.0
+vertex -4.0,0.9,5.0
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.9,4.8
+vertex -6.2,0.9,5.0
+vertex -4.0,0.9,5.0
+vertex -4.0,0.9,4.8
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.7,4.8
+vertex -6.2,0.9,4.8
+vertex -4.0,0.9,4.8
+vertex -4.0,0.7,4.8
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.7,4.6
+vertex -6.2,0.7,4.8
+vertex -4.0,0.7,4.8
+vertex -4.0,0.7,4.6
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.5,4.6
+vertex -6.2,0.7,4.6
+vertex -4.0,0.7,4.6
+vertex -4.0,0.5,4.6
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.5,4.4
+vertex -6.2,0.5,4.6
+vertex -4.0,0.5,4.6
+vertex -4.0,0.5,4.4
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.3,4.4
+vertex -6.2,0.5,4.4
+vertex -4.0,0.5,4.4
+vertex -4.0,0.3,4.4
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.3,4.2
+vertex -6.2,0.3,4.4
+vertex -4.0,0.3,4.4
+vertex -4.0,0.3,4.2
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.1,4.2
+vertex -6.2,0.3,4.2
+vertex -4.0,0.3,4.2
+vertex -4.0,0.1,4.2
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,0.1,4.0
+vertex -6.2,0.1,4.2
+vertex -4.0,0.1,4.2
+vertex -4.0,0.1,4.0
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,-0.1,4.0
+vertex -6.2,0.1,4.0
+vertex -4.0,0.1,4.0
+vertex -4.0,-0.1,4.0
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.2,-0.1,3.8
+vertex -6.2,-0.1,4.0
+vertex -4.0,-0.1,4.0
+vertex -4.0,-0.1,3.8
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.05,0.2,2.8
+vertex -6.05,0.3,2.8
+vertex -6.05,2.5,5.0
+vertex -6.05,2.4,5.0
+
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -6.15,0.3,2.8
+vertex -6.15,2.5,5.0
+vertex -6.05,2.5,5.0
+vertex -6.05,0.3,2.8
+
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -6.15,0.2,2.8
+vertex -6.15,2.4,5.0
+vertex -6.05,2.4,5.0
+vertex -6.05,0.2,2.8
+
+face2 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -4.05,0.2,2.8
+vertex -4.05,0.3,2.8
+vertex -4.05,2.5,5.0
+vertex -4.05,2.4,5.0
+
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -4.15,0.3,2.8
+vertex -4.15,2.5,5.0
+vertex -4.05,2.5,5.0
+vertex -4.05,0.3,2.8
+
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -4.15,0.2,2.8
+vertex -4.15,2.4,5.0
+vertex -4.05,2.4,5.0
+vertex -4.05,0.2,2.8
+
+face2 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -2.7,1.1,20.0
+vertex -2.7,1.1,25.3
+vertex -4.0,1.1,25.3
+vertex -4.0,1.1,20.0
+
+face2 0,1,2,3
+[Texture]
+Load new concrete.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[meshbuilder]
+
+vertex -6.2,0.0,20.0
+vertex -6.2,1.1,20.0
+vertex -6.2,1.1,25.0
+vertex -6.2,0.0,25.0
+
+face 0,1,2,3
+color 200,200,200
+
+[meshbuilder]
+
+vertex -6.05,0.3,22.2
+vertex -6.05,0.2,22.2
+vertex -6.05,2.4,20.0
+vertex -6.05,2.5,20.0
+
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -6.15,2.5,20.0
+vertex -6.15,0.3,22.2
+vertex -6.05,0.3,22.2
+vertex -6.05,2.5,20.0
+
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -6.15,2.4,20.0
+vertex -6.15,0.2,22.2
+vertex -6.05,0.2,22.2
+vertex -6.05,2.4,20.0
+
+face2 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -4.05,0.3,22.2
+vertex -4.05,0.2,22.2
+vertex -4.05,2.4,20.0
+vertex -4.05,2.5,20.0
+
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -4.15,2.5,20.0
+vertex -4.15,0.3,22.2
+vertex -4.05,0.3,22.2
+vertex -4.05,2.5,20.0
+
+face 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex -4.15,2.4,20.0
+vertex -4.15,0.2,22.2
+vertex -4.05,0.2,22.2
+vertex -4.05,2.4,20.0
+
+face2 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+vertex -4.00,1.1,0.0
+vertex -4.10,1.1,0.0
+vertex -4.10,2.5,0.0
+vertex -4.00,2.5,0.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.30,1.1,0.0
+vertex -4.40,1.1,0.0
+vertex -4.40,2.5,0.0
+vertex -4.30,2.5,0.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.60,1.1,0.0
+vertex -4.70,1.1,0.0
+vertex -4.70,2.5,0.0
+vertex -4.60,2.5,0.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.90,1.1,0.0
+vertex -5.00,1.1,0.0
+vertex -5.00,2.5,0.0
+vertex -4.90,2.5,0.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -5.20,1.1,0.0
+vertex -5.30,1.1,0.0
+vertex -5.30,2.5,0.0
+vertex -5.20,2.5,0.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -5.50,1.1,0.0
+vertex -5.60,1.1,0.0
+vertex -5.60,2.5,0.0
+vertex -5.50,2.5,0.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -5.80,1.1,0.0
+vertex -5.90,1.1,0.0
+vertex -5.90,2.5,0.0
+vertex -5.80,2.5,0.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -6.10,1.1,0.0
+vertex -6.15,1.1,0.0
+vertex -6.15,2.5,0.0
+vertex -6.10,2.5,0.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,2.5,0.0
+vertex -6.2,2.5,0.0
+vertex -6.2,2.4,0.0
+vertex -4.0,2.4,0.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.00,1.1,25.0
+vertex -4.10,1.1,25.0
+vertex -4.10,2.5,25.0
+vertex -4.00,2.5,25.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.30,1.1,25.0
+vertex -4.40,1.1,25.0
+vertex -4.40,2.5,25.0
+vertex -4.30,2.5,25.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.60,1.1,25.0
+vertex -4.70,1.1,25.0
+vertex -4.70,2.5,25.0
+vertex -4.60,2.5,25.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.90,1.1,25.0
+vertex -5.00,1.1,25.0
+vertex -5.00,2.5,25.0
+vertex -4.90,2.5,25.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -5.20,1.1,25.0
+vertex -5.30,1.1,25.0
+vertex -5.30,2.5,25.0
+vertex -5.20,2.5,25.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -5.50,1.1,25.0
+vertex -5.60,1.1,25.0
+vertex -5.60,2.5,25.0
+vertex -5.50,2.5,25.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -5.80,1.1,25.0
+vertex -5.90,1.1,25.0
+vertex -5.90,2.5,25.0
+vertex -5.80,2.5,25.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -6.10,1.1,25.0
+vertex -6.15,1.1,25.0
+vertex -6.15,2.5,25.0
+vertex -6.10,2.5,25.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,2.5,25.0
+vertex -6.2,2.5,25.0
+vertex -6.2,2.4,25.0
+vertex -4.0,2.4,25.0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,0.00
+vertex -4.0,1.1,0.10
+vertex -4.0,2.5,0.10
+vertex -4.0,2.5,0.00
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,0.30
+vertex -4.0,1.1,0.40
+vertex -4.0,2.5,0.40
+vertex -4.0,2.5,0.30
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,0.60
+vertex -4.0,1.1,0.70
+vertex -4.0,2.5,0.70
+vertex -4.0,2.5,0.60
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,0.90
+vertex -4.0,1.1,1.00
+vertex -4.0,2.5,1.00
+vertex -4.0,2.5,0.90
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,1.20
+vertex -4.0,1.1,1.30
+vertex -4.0,2.5,1.30
+vertex -4.0,2.5,1.20
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,1.50
+vertex -4.0,1.1,1.60
+vertex -4.0,2.5,1.60
+vertex -4.0,2.5,1.50
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,1.80
+vertex -4.0,1.1,1.90
+vertex -4.0,2.5,1.90
+vertex -4.0,2.5,1.80
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,2.10
+vertex -4.0,1.1,2.20
+vertex -4.0,2.5,2.20
+vertex -4.0,2.5,2.10
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,2.40
+vertex -4.0,1.1,2.50
+vertex -4.0,2.5,2.50
+vertex -4.0,2.5,2.40
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,2.70
+vertex -4.0,1.1,2.80
+vertex -4.0,2.5,2.80
+vertex -4.0,2.5,2.70
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,3.00
+vertex -4.0,1.1,3.10
+vertex -4.0,2.5,3.10
+vertex -4.0,2.5,3.00
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,3.30
+vertex -4.0,1.1,3.40
+vertex -4.0,2.5,3.40
+vertex -4.0,2.5,3.30
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,3.60
+vertex -4.0,1.1,3.70
+vertex -4.0,2.5,3.70
+vertex -4.0,2.5,3.60
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,3.90
+vertex -4.0,1.1,4.00
+vertex -4.0,2.5,4.00
+vertex -4.0,2.5,3.90
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,4.20
+vertex -4.0,1.1,4.30
+vertex -4.0,2.5,4.30
+vertex -4.0,2.5,4.20
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,4.50
+vertex -4.0,1.1,4.60
+vertex -4.0,2.5,4.60
+vertex -4.0,2.5,4.50
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,4.80
+vertex -4.0,1.1,4.90
+vertex -4.0,2.5,4.90
+vertex -4.0,2.5,4.80
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,5.00
+vertex -4.0,1.1,5.05
+vertex -4.0,2.5,5.05
+vertex -4.0,2.5,5.00
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,2.5,0
+vertex -4.0,2.5,5.05
+vertex -4.0,2.4,5.05
+vertex -4.0,2.4,0
+face2 0,1,2,3
+color 0,0,0
+
+
+[meshbuilder]
+vertex -4.0,1.1,20.00
+vertex -4.0,1.1,20.10
+vertex -4.0,2.5,20.10
+vertex -4.0,2.5,20.00
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,20.30
+vertex -4.0,1.1,20.40
+vertex -4.0,2.5,20.40
+vertex -4.0,2.5,20.30
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,20.60
+vertex -4.0,1.1,20.70
+vertex -4.0,2.5,20.70
+vertex -4.0,2.5,20.60
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,20.90
+vertex -4.0,1.1,21.00
+vertex -4.0,2.5,21.00
+vertex -4.0,2.5,20.90
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,21.20
+vertex -4.0,1.1,21.30
+vertex -4.0,2.5,21.30
+vertex -4.0,2.5,21.20
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,21.50
+vertex -4.0,1.1,21.60
+vertex -4.0,2.5,21.60
+vertex -4.0,2.5,21.50
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,21.80
+vertex -4.0,1.1,21.90
+vertex -4.0,2.5,21.90
+vertex -4.0,2.5,21.80
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,22.10
+vertex -4.0,1.1,22.20
+vertex -4.0,2.5,22.20
+vertex -4.0,2.5,22.10
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,22.40
+vertex -4.0,1.1,22.50
+vertex -4.0,2.5,22.50
+vertex -4.0,2.5,22.40
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,22.70
+vertex -4.0,1.1,22.80
+vertex -4.0,2.5,22.80
+vertex -4.0,2.5,22.70
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,23.00
+vertex -4.0,1.1,23.10
+vertex -4.0,2.5,23.10
+vertex -4.0,2.5,23.00
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,23.30
+vertex -4.0,1.1,23.40
+vertex -4.0,2.5,23.40
+vertex -4.0,2.5,23.30
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,23.60
+vertex -4.0,1.1,23.70
+vertex -4.0,2.5,23.70
+vertex -4.0,2.5,23.60
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,23.90
+vertex -4.0,1.1,24.00
+vertex -4.0,2.5,24.00
+vertex -4.0,2.5,23.90
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,24.20
+vertex -4.0,1.1,24.30
+vertex -4.0,2.5,24.30
+vertex -4.0,2.5,24.20
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,24.50
+vertex -4.0,1.1,24.60
+vertex -4.0,2.5,24.60
+vertex -4.0,2.5,24.50
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,24.80
+vertex -4.0,1.1,24.90
+vertex -4.0,2.5,24.90
+vertex -4.0,2.5,24.80
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,1.1,25.00
+vertex -4.0,1.1,25.05
+vertex -4.0,2.5,25.05
+vertex -4.0,2.5,25.00
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -4.0,2.5,20
+vertex -4.0,2.5,25.05
+vertex -4.0,2.4,25.05
+vertex -4.0,2.4,20
+face2 0,1,2,3
+color 0,0,0
+
+
+
+
+
+
+
+

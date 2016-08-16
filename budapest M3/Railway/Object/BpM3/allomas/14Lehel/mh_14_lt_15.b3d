@@ -1,0 +1,653 @@
+;Lehel tér állomás 15
+;Bal vágány
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;Peron
+
+;peron széle felül 
+[MeshBuilder]
+Vertex  -01.45,  00.90,  00.00
+Vertex  -01.45,  00.90,  25.00
+Vertex  -01.45,  01.10,  25.00
+Vertex  -01.45,  01.10,  00.00
+Vertex  -02.45,  00.90,  00.00
+Vertex  -01.45,  00.90,  00.00
+Vertex  -01.45,  01.10,  00.00
+Vertex  -02.45,  01.10,  00.00
+Face 3,2,1,0
+Face 7,6,5,4
+color 64,64,64
+
+;peron széle alul
+[MeshBuilder]
+Vertex  -01.60, -00.20,  00.00
+Vertex  -01.60, -00.20,  25.00
+Vertex  -01.60,  00.90,  25.00
+Vertex  -01.60,  00.90,  00.00
+Face 3,2,1,0
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 25.00, 1.00
+Coordinates 2, 25.00, 0.15
+Coordinates 3, 00.00, 0.15
+
+;peron széle szemben alul
+[MeshBuilder]
+Vertex  -02.45, -00.20,  00.00
+Vertex  -01.60, -00.20,  00.00
+Vertex  -01.60,  00.90,  00.00
+Vertex  -02.45,  00.90,  00.00
+Face2 0,1,2,3
+[Texture]
+Load ..\peron\peronszel_a2.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.85, 01.00
+Coordinates 2, 00.85, 00.15
+Coordinates 3, 00.00, 00.15
+
+;peron járófelület (sáv)
+[MeshBuilder]
+Vertex  -01.45, 01.10,  00.00
+Vertex  -01.45, 01.10,  25.00
+Vertex  -02.25, 01.10,  25.00
+Vertex  -02.25, 01.10,  00.00
+Vertex  -07.05, 01.10,  00.00
+Vertex  -08.37, 01.10,  25.00
+Vertex  -09.17, 01.10,  25.00
+Vertex  -07.85, 01.10,  00.00
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peron_sav.bmp
+Coordinates 0, 24.00, 600.00
+Coordinates 1, 24.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 600.00
+Coordinates 4, 24.00, 600.00
+Coordinates 5, 24.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 600.00
+
+;peron járófelület (kõ)
+[MeshBuilder]
+Vertex  -02.25, 01.10,  00.00
+Vertex  -02.25, 01.10,  25.00
+Vertex  -08.37, 01.10,  25.00
+Vertex  -07.05, 01.10,  00.00
+Face 3,2,1,0
+[Texture]
+Load mh_14_lt_peronteto_1.bmp
+Coordinates 0, 00.00, 42.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 10.277, 00.00
+Coordinates 3, 08.061, 42.00
+
+;--------------------------------------------------
+
+;Falak
+[MeshBuilder]
+Vertex   02.10, -00.20,  00.00
+Vertex   02.10,  04.20,  00.00
+Vertex   02.10,  04.20,  25.00
+Vertex   02.10, -00.20,  25.00
+Vertex  -11.40, -00.20,  00.00
+Vertex  -11.40,  04.20,  00.00
+Vertex  -12.72,  04.20,  25.00
+Vertex  -12.72, -00.20,  25.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_14_lt_oldalfal_01.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 25.00, 00.00
+Coordinates 3, 25.00, 01.00
+Coordinates 4, 25.00, 01.00
+Coordinates 5, 25.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 01.00
+
+[MeshBuilder]
+Vertex   02.10, -00.20,  00.00
+Vertex   02.10,  03.98,  00.00
+Vertex   02.20,  03.98,  00.00
+Vertex   02.20, -00.20,  00.00
+Face2 0,1,2,3
+color 80,80,80
+
+;--------------------------------------------------
+
+;Födém
+
+[MeshBuilder]
+Vertex   02.10,  04.20,  00.00
+Vertex   02.10,  04.20,  16.00
+Vertex  -13.15,  04.20,  16.00
+Vertex  -13.15,  04.20,  00.00
+Vertex   02.100, 04.20,  15.90
+Vertex   02.100, 04.20,  25.10
+Vertex  -03.525, 04.20,  25.10
+Vertex  -03.525, 04.20,  15.90
+Vertex  -07.525, 04.20,  15.90
+Vertex  -07.525, 04.20,  25.10
+Vertex  -13.150, 04.20,  25.10
+Vertex  -13.150, 04.20,  15.90
+Vertex  -03.525, 04.20,  16.00
+Vertex  -03.525, 05.00,  16.00
+Vertex  -07.525, 05.00,  16.00
+Vertex  -07.525, 04.20,  16.00
+Vertex  -03.525, 04.20,  16.00
+Vertex  -03.525, 05.00,  16.00
+Vertex  -03.525, 05.00,  25.00
+Vertex  -03.525, 04.20,  25.00
+Vertex  -07.525, 04.20,  16.00
+Vertex  -07.525, 05.00,  16.00
+Vertex  -07.525, 05.00,  25.00
+Vertex  -07.525, 04.20,  25.00
+Vertex  -03.525, 04.20,  25.00
+Vertex  -03.525, 05.00,  25.00
+Vertex  -07.525, 05.00,  25.00
+Vertex  -07.525, 04.20,  25.00
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 12,13,14,15
+Face 19,18,17,16
+Face 20,21,22,23
+Face 27,26,25,24
+[Texture]
+Load mh_14_lt_fodem_01.bmp
+Coordinates 0, 01.00,  02.00
+Coordinates 1, 01.00,  00.00
+Coordinates 2, 00.00,  00.00
+Coordinates 3, 00.00,  02.00
+Coordinates 4, 01.00,  01.00
+Coordinates 5, 01.00,  00.00
+Coordinates 6, 00.00,  00.00
+Coordinates 7, 00.00,  01.00
+Coordinates 8, 01.00,  08.00
+Coordinates 9, 01.00,  00.00
+Coordinates 10, 00.00,  00.00
+Coordinates 11, 00.00,  08.00
+Coordinates 12, 01.00,  01.00
+Coordinates 13, 01.00,  00.00
+Coordinates 14, 00.00,  00.00
+Coordinates 15, 00.00,  01.00
+Coordinates 16, 01.00,  01.00
+Coordinates 17, 01.00,  00.00
+Coordinates 18, 00.00,  00.00
+Coordinates 19, 00.00,  01.00
+Coordinates 20, 01.00,  01.00
+Coordinates 21, 01.00,  00.00
+Coordinates 22, 00.00,  00.00
+Coordinates 23, 00.00,  01.00
+Coordinates 24, 01.00,  01.00
+Coordinates 25, 01.00,  00.00
+Coordinates 26, 00.00,  00.00
+Coordinates 27, 00.00,  01.00
+
+[MeshBuilder]
+Vertex  -20.00,  08.00,  00.00
+Vertex  -20.00,  08.00,  25.00
+Vertex   10.00,  08.00,  25.00
+Vertex   10.00,  08.00,  00.00
+Face 3,2,1,0
+[Texture]
+Load mh_14_lt_fodem_02.bmp
+Coordinates 0, 00.00,  00.00
+Coordinates 1, 00.00,  10.00
+Coordinates 2, 01.00,  10.00
+Coordinates 3, 01.00,  00.00
+
+;Benyúló alagútfödémet eltakaró darab
+
+[MeshBuilder]
+Vertex   02.10,  03.98,  00.00
+Vertex   02.10,  04.00,  00.00
+Vertex  -02.50,  04.00,  00.00
+Vertex  -02.50,  03.98,  00.00
+Face 3,2,1,0
+color 0,0,0
+
+[MeshBuilder]
+Vertex   02.20,  03.98,  00.00
+Vertex   02.20,  03.98,  01.00
+Vertex  -02.50,  03.98,  01.00
+Vertex  -02.50,  03.98,  00.00
+Face 0,1,2,3
+[Texture]
+Load mh_14_lt_fodem_01.bmp
+Coordinates 0, 01.00,  02.00
+Coordinates 1, 01.00,  00.00
+Coordinates 2, 00.00,  00.00
+Coordinates 3, 00.00,  02.00
+
+;-----------------------------------
+
+;Padok
+
+;1
+[MeshBuilder]
+Vertex -0.52,0.0,-0.25
+Vertex -0.52,0.9,-0.25
+Vertex  0.00,0.0,-0.25
+Vertex  0.00,0.9,-0.25
+Vertex  0.52,0.0,-0.25
+Vertex  0.52,0.9,-0.25
+Vertex -0.52,0.0,0.25
+Vertex -0.52,0.9,0.25
+Vertex  0.00,0.0,0.25
+Vertex  0.00,0.9,0.25
+Vertex  0.52,0.0,0.25
+Vertex  0.52,0.9,0.25
+Face 0,1,3,2
+Face 2,3,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+[Texture]
+Load mh_14_lt_pad_01.bmp
+Coordinates 00,1.00,1
+Coordinates 01,1.00,0
+Coordinates 02,0.15,1
+Coordinates 03,0.15,0
+Coordinates 04,1.00,1
+Coordinates 05,1.00,0
+Coordinates 06,1.00,1
+Coordinates 07,1.00,0
+Coordinates 08,0.15,1
+Coordinates 09,0.15,0
+Coordinates 10,1.00,1
+Coordinates 11,1.00,0
+Transparent 0,0,255
+Translate -5.525,1.1,24.5
+
+[MeshBuilder]
+Vertex -0.253,0.000,-0.31
+Vertex -0.222,0.103,-0.31
+Vertex -0.304,0.143,-0.31
+Vertex -0.379,0.195,-0.31
+Vertex -0.445,0.259,-0.31
+Vertex -0.500,0.332,-0.31
+Vertex -0.510,0.368,-0.31
+Vertex -0.493,0.401,-0.31
+Vertex -0.457,0.413,-0.31
+Vertex -0.215,0.396,-0.31
+Vertex -0.153,0.410,-0.31
+Vertex -0.107,0.454,-0.31
+Vertex -0.090,0.516,-0.31
+Vertex -0.090,0.810,-0.31
+Vertex -0.073,0.863,-0.31
+Vertex -0.028,0.896,-0.31
+Vertex  0.028,0.896,-0.31
+Vertex  0.073,0.863,-0.31
+Vertex  0.090,0.810,-0.31
+Vertex  0.090,0.516,-0.31
+Vertex  0.107,0.454,-0.31
+Vertex  0.153,0.410,-0.31
+Vertex  0.215,0.396,-0.31
+Vertex  0.457,0.413,-0.31
+Vertex  0.493,0.401,-0.31
+Vertex  0.510,0.368,-0.31
+Vertex  0.500,0.332,-0.31
+Vertex  0.445,0.259,-0.31
+Vertex  0.379,0.195,-0.31
+Vertex  0.304,0.143,-0.31
+Vertex  0.222,0.103,-0.31
+Vertex  0.253,0.000,-0.31
+Vertex -0.253,0.000,0.31
+Vertex -0.222,0.103,0.31
+Vertex -0.304,0.143,0.31
+Vertex -0.379,0.195,0.31
+Vertex -0.445,0.259,0.31
+Vertex -0.500,0.332,0.31
+Vertex -0.510,0.368,0.31
+Vertex -0.493,0.401,0.31
+Vertex -0.457,0.413,0.31
+Vertex -0.215,0.396,0.31
+Vertex -0.153,0.410,0.31
+Vertex -0.107,0.454,0.31
+Vertex -0.090,0.516,0.31
+Vertex -0.090,0.810,0.31
+Vertex -0.073,0.863,0.31
+Vertex -0.028,0.896,0.31
+Vertex  0.028,0.896,0.31
+Vertex  0.073,0.863,0.31
+Vertex  0.090,0.810,0.31
+Vertex  0.090,0.516,0.31
+Vertex  0.107,0.454,0.31
+Vertex  0.153,0.410,0.31
+Vertex  0.215,0.396,0.31
+Vertex  0.457,0.413,0.31
+Vertex  0.493,0.401,0.31
+Vertex  0.510,0.368,0.31
+Vertex  0.500,0.332,0.31
+Vertex  0.445,0.259,0.31
+Vertex  0.379,0.195,0.31
+Vertex  0.304,0.143,0.31
+Vertex  0.222,0.103,0.31
+Vertex  0.253,0.000,0.31
+Face 01,00,32,33
+Face 02,01,33,34
+Face 03,02,34,35
+Face 04,03,35,36
+Face 05,04,36,37
+Face 06,05,37,38
+Face 07,06,38,39
+Face 08,07,39,40
+Face 09,08,40,41
+Face 10,09,41,42
+Face 11,10,42,43
+Face 12,11,43,44
+Face 13,12,44,45
+Face 14,13,45,46
+Face 15,14,46,47
+Face 16,15,47,48
+Face 17,16,48,49
+Face 18,17,49,50
+Face 19,18,50,51
+Face 20,19,51,52
+Face 21,20,52,53
+Face 22,21,53,54
+Face 23,22,54,55
+Face 24,23,55,56
+Face 25,24,56,57
+Face 26,25,57,58
+Face 27,26,58,59
+Face 28,27,59,60
+Face 29,28,60,61
+Face 30,29,61,62
+Face 31,30,62,63
+[Texture]
+Load mh_14_lt_pad_02.bmp
+Coordinates 00,0,0.99
+Coordinates 01,0,0.94
+Coordinates 02,0,0.88
+Coordinates 03,0,0.83
+Coordinates 04,0,0.78
+Coordinates 05,0,0.73
+Coordinates 06,0,0.67
+Coordinates 07,0,0.62
+Coordinates 08,0,0.57
+Coordinates 09,0,0.52
+Coordinates 10,0,0.46
+Coordinates 11,0,0.41
+Coordinates 12,0,0.36
+Coordinates 13,0,0.31
+Coordinates 14,0,0.25
+Coordinates 15,0,0.20
+Coordinates 16,0,0.20
+Coordinates 17,0,0.25
+Coordinates 18,0,0.31
+Coordinates 19,0,0.36
+Coordinates 20,0,0.41
+Coordinates 21,0,0.46
+Coordinates 22,0,0.52
+Coordinates 23,0,0.57
+Coordinates 24,0,0.62
+Coordinates 25,0,0.67
+Coordinates 26,0,0.73
+Coordinates 27,0,0.78
+Coordinates 28,0,0.83
+Coordinates 29,0,0.88
+Coordinates 30,0,0.94
+Coordinates 31,0,0.99
+Coordinates 32,1,0.99
+Coordinates 33,1,0.94
+Coordinates 34,1,0.88
+Coordinates 35,1,0.83
+Coordinates 36,1,0.78
+Coordinates 37,1,0.73
+Coordinates 38,1,0.67
+Coordinates 39,1,0.62
+Coordinates 40,1,0.57
+Coordinates 41,1,0.52
+Coordinates 42,1,0.46
+Coordinates 43,1,0.41
+Coordinates 44,1,0.36
+Coordinates 45,1,0.31
+Coordinates 46,1,0.25
+Coordinates 47,1,0.20
+Coordinates 48,1,0.20
+Coordinates 49,1,0.25
+Coordinates 50,1,0.31
+Coordinates 51,1,0.36
+Coordinates 52,1,0.41
+Coordinates 53,1,0.46
+Coordinates 54,1,0.52
+Coordinates 55,1,0.57
+Coordinates 56,1,0.62
+Coordinates 57,1,0.67
+Coordinates 58,1,0.73
+Coordinates 59,1,0.78
+Coordinates 60,1,0.83
+Coordinates 61,1,0.88
+Coordinates 62,1,0.94
+Coordinates 63,1,0.99
+Transparent 0,0,255
+Translate -5.525,1.1,24.5
+
+;2
+[MeshBuilder]
+Vertex -0.52,0.0,-0.25
+Vertex -0.52,0.9,-0.25
+Vertex  0.00,0.0,-0.25
+Vertex  0.00,0.9,-0.25
+Vertex  0.52,0.0,-0.25
+Vertex  0.52,0.9,-0.25
+Vertex -0.52,0.0,0.25
+Vertex -0.52,0.9,0.25
+Vertex  0.00,0.0,0.25
+Vertex  0.00,0.9,0.25
+Vertex  0.52,0.0,0.25
+Vertex  0.52,0.9,0.25
+Face 0,1,3,2
+Face 2,3,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+[Texture]
+Load mh_14_lt_pad_01.bmp
+Coordinates 00,1.00,1
+Coordinates 01,1.00,0
+Coordinates 02,0.15,1
+Coordinates 03,0.15,0
+Coordinates 04,1.00,1
+Coordinates 05,1.00,0
+Coordinates 06,1.00,1
+Coordinates 07,1.00,0
+Coordinates 08,0.15,1
+Coordinates 09,0.15,0
+Coordinates 10,1.00,1
+Coordinates 11,1.00,0
+Transparent 0,0,255
+Translate -5.525,1.1,23.5
+
+[MeshBuilder]
+Vertex -0.253,0.000,-0.31
+Vertex -0.222,0.103,-0.31
+Vertex -0.304,0.143,-0.31
+Vertex -0.379,0.195,-0.31
+Vertex -0.445,0.259,-0.31
+Vertex -0.500,0.332,-0.31
+Vertex -0.510,0.368,-0.31
+Vertex -0.493,0.401,-0.31
+Vertex -0.457,0.413,-0.31
+Vertex -0.215,0.396,-0.31
+Vertex -0.153,0.410,-0.31
+Vertex -0.107,0.454,-0.31
+Vertex -0.090,0.516,-0.31
+Vertex -0.090,0.810,-0.31
+Vertex -0.073,0.863,-0.31
+Vertex -0.028,0.896,-0.31
+Vertex  0.028,0.896,-0.31
+Vertex  0.073,0.863,-0.31
+Vertex  0.090,0.810,-0.31
+Vertex  0.090,0.516,-0.31
+Vertex  0.107,0.454,-0.31
+Vertex  0.153,0.410,-0.31
+Vertex  0.215,0.396,-0.31
+Vertex  0.457,0.413,-0.31
+Vertex  0.493,0.401,-0.31
+Vertex  0.510,0.368,-0.31
+Vertex  0.500,0.332,-0.31
+Vertex  0.445,0.259,-0.31
+Vertex  0.379,0.195,-0.31
+Vertex  0.304,0.143,-0.31
+Vertex  0.222,0.103,-0.31
+Vertex  0.253,0.000,-0.31
+Vertex -0.253,0.000,0.31
+Vertex -0.222,0.103,0.31
+Vertex -0.304,0.143,0.31
+Vertex -0.379,0.195,0.31
+Vertex -0.445,0.259,0.31
+Vertex -0.500,0.332,0.31
+Vertex -0.510,0.368,0.31
+Vertex -0.493,0.401,0.31
+Vertex -0.457,0.413,0.31
+Vertex -0.215,0.396,0.31
+Vertex -0.153,0.410,0.31
+Vertex -0.107,0.454,0.31
+Vertex -0.090,0.516,0.31
+Vertex -0.090,0.810,0.31
+Vertex -0.073,0.863,0.31
+Vertex -0.028,0.896,0.31
+Vertex  0.028,0.896,0.31
+Vertex  0.073,0.863,0.31
+Vertex  0.090,0.810,0.31
+Vertex  0.090,0.516,0.31
+Vertex  0.107,0.454,0.31
+Vertex  0.153,0.410,0.31
+Vertex  0.215,0.396,0.31
+Vertex  0.457,0.413,0.31
+Vertex  0.493,0.401,0.31
+Vertex  0.510,0.368,0.31
+Vertex  0.500,0.332,0.31
+Vertex  0.445,0.259,0.31
+Vertex  0.379,0.195,0.31
+Vertex  0.304,0.143,0.31
+Vertex  0.222,0.103,0.31
+Vertex  0.253,0.000,0.31
+Face 01,00,32,33
+Face 02,01,33,34
+Face 03,02,34,35
+Face 04,03,35,36
+Face 05,04,36,37
+Face 06,05,37,38
+Face 07,06,38,39
+Face 08,07,39,40
+Face 09,08,40,41
+Face 10,09,41,42
+Face 11,10,42,43
+Face 12,11,43,44
+Face 13,12,44,45
+Face 14,13,45,46
+Face 15,14,46,47
+Face 16,15,47,48
+Face 17,16,48,49
+Face 18,17,49,50
+Face 19,18,50,51
+Face 20,19,51,52
+Face 21,20,52,53
+Face 22,21,53,54
+Face 23,22,54,55
+Face 24,23,55,56
+Face 25,24,56,57
+Face 26,25,57,58
+Face 27,26,58,59
+Face 28,27,59,60
+Face 29,28,60,61
+Face 30,29,61,62
+Face 31,30,62,63
+[Texture]
+Load mh_14_lt_pad_02.bmp
+Coordinates 00,0,0.99
+Coordinates 01,0,0.94
+Coordinates 02,0,0.88
+Coordinates 03,0,0.83
+Coordinates 04,0,0.78
+Coordinates 05,0,0.73
+Coordinates 06,0,0.67
+Coordinates 07,0,0.62
+Coordinates 08,0,0.57
+Coordinates 09,0,0.52
+Coordinates 10,0,0.46
+Coordinates 11,0,0.41
+Coordinates 12,0,0.36
+Coordinates 13,0,0.31
+Coordinates 14,0,0.25
+Coordinates 15,0,0.20
+Coordinates 16,0,0.20
+Coordinates 17,0,0.25
+Coordinates 18,0,0.31
+Coordinates 19,0,0.36
+Coordinates 20,0,0.41
+Coordinates 21,0,0.46
+Coordinates 22,0,0.52
+Coordinates 23,0,0.57
+Coordinates 24,0,0.62
+Coordinates 25,0,0.67
+Coordinates 26,0,0.73
+Coordinates 27,0,0.78
+Coordinates 28,0,0.83
+Coordinates 29,0,0.88
+Coordinates 30,0,0.94
+Coordinates 31,0,0.99
+Coordinates 32,1,0.99
+Coordinates 33,1,0.94
+Coordinates 34,1,0.88
+Coordinates 35,1,0.83
+Coordinates 36,1,0.78
+Coordinates 37,1,0.73
+Coordinates 38,1,0.67
+Coordinates 39,1,0.62
+Coordinates 40,1,0.57
+Coordinates 41,1,0.52
+Coordinates 42,1,0.46
+Coordinates 43,1,0.41
+Coordinates 44,1,0.36
+Coordinates 45,1,0.31
+Coordinates 46,1,0.25
+Coordinates 47,1,0.20
+Coordinates 48,1,0.20
+Coordinates 49,1,0.25
+Coordinates 50,1,0.31
+Coordinates 51,1,0.36
+Coordinates 52,1,0.41
+Coordinates 53,1,0.46
+Coordinates 54,1,0.52
+Coordinates 55,1,0.57
+Coordinates 56,1,0.62
+Coordinates 57,1,0.67
+Coordinates 58,1,0.73
+Coordinates 59,1,0.78
+Coordinates 60,1,0.83
+Coordinates 61,1,0.88
+Coordinates 62,1,0.94
+Coordinates 63,1,0.99
+Transparent 0,0,255
+Translate -5.525,1.1,23.5
+
+;-----------------------------------
+
+;Belépni tilos táblák
+
+;jobb
+[MeshBuilder]
+Vertex -0.35,1.1,0.0
+Vertex -0.35,2.4,0.0
+Vertex  0.35,2.4,0.0
+Vertex  0.35,1.1,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2l1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+color 100,100,100
+translate -02.00,00.00,00.50
+
+;--------------------------------------------------

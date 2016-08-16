@@ -1,0 +1,76 @@
+CreateMeshBuilder,
+AddVertex,-3.5,0,-1,
+AddVertex,-3.5,3,-1,
+AddVertex,3.5,3,-1,
+AddVertex,3.5,0,-1,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,HAPAG.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+;Container front
+CreateMeshBuilder,
+AddVertex,3.5,0,1.5,
+AddVertex,3.5,3,1.5,
+AddVertex,3.5,3,-1,
+AddVertex,3.5,0,-1,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,HAPAG.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+
+
+;Container side 2 
+CreateMeshBuilder,
+AddVertex,-3.5,0,1.5,
+AddVertex,-3.5,3,1.5,
+AddVertex,3.5,3,1.5,
+AddVertex,3.5,0,1.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,HAPAG.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+
+
+CreateMeshBuilder,
+AddVertex,-3.5,0,1.5,
+AddVertex,-3.5,3,1.5,
+AddVertex,-3.5,3,-1,
+AddVertex,-3.5,0,-1,
+AddFace2,1,0,3,2,
+GenerateNormals,
+
+LoadTexture,HAPAG.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+
+
+;roof
+CreateMeshBuilder,
+AddVertex,-3.5,3,-1,
+AddVertex,3.5,3,-1,
+AddVertex,3.5,3,1.5,
+AddVertex,-3.5,3,1.5,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture, hapag.BMP ,
+SetTextureCoordinates, 3,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 1,0.99375,0.341667,
+SetTextureCoordinates, 0,0.01875,0.325,
+SetDecalTransparentColor,  0, 0, 255 ,

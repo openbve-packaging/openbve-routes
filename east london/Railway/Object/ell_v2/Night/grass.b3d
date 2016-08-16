@@ -1,0 +1,12 @@
+[MeshBuilder]
+Vertex 240,-0.3,26
+Vertex 240,-3.3,0
+Vertex -240,-3.3,0
+Vertex -240,-0.3,26
+Face 0,1,2,3
+[Texture]
+Load grass.bmp
+Coordinates 0,240,0
+Coordinates 1,240,15
+Coordinates 2,0,15
+Coordinates 3,0,0

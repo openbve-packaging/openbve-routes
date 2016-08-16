@@ -1,0 +1,154 @@
+;Originally a Birmingham Cross-City BVE Route Object
+;Cross-City South
+;--------------------------------------
+;(c) Robert Glass & Anthony Bowden, 2002.
+;New Fragonset Textures by Steve Green
+;
+;www.scotrailsim.cjb.net
+;www.railsimroutes.co.uk
+;www.trainsimcentral.co.uk
+;
+;Please seek permission before using
+;any X-City files in your own route.
+;
+;See 'Readme.txt'.
+
+CreateMeshBuilder,
+AddVertex,-1.2,0,19,
+AddVertex,-1.2,2.6,19,
+AddVertex,-1.2,3.4,18.8,
+AddVertex,-1.2,3.4,0.2,
+AddVertex,-1.2,2.6,0,
+AddVertex,-1.2,0,0,
+AddFace,0,1,4,5,
+AddFace,1,2,3,4,
+GenerateNormals,
+
+
+LoadTexture,CL47_s2_frag.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.2,
+SetTextureCoordinates,2,0.01,0,
+SetTextureCoordinates,3,0.99,0,
+SetTextureCoordinates,4,1,0.2,
+SetTextureCoordinates,5,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+
+AddVertex,1.2,0,0,
+AddVertex,1.2,2.6,0,
+AddVertex,1.2,3.4,0.2,
+AddVertex,1.2,3.4,18.8,
+AddVertex,1.2,2.6,19,
+AddVertex,1.2,0,19,
+AddFace,0,1,4,5,
+AddFace,1,2,3,4,
+GenerateNormals,
+
+
+LoadTexture,CL47_s2_frag.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.2,
+SetTextureCoordinates,2,0.01,0,
+SetTextureCoordinates,3,0.99,0,
+SetTextureCoordinates,4,1,0.2,
+SetTextureCoordinates,5,1,1,
+SetDecalTransparentColor,0,0,0,
+
+
+;CL47 FGW side 1 part 2a
+CreateMeshBuilder,
+AddVertex,1.2,3.35,18.8,
+AddVertex,0.6,3.75,18.7,
+AddVertex,0.6,3.75,0.3,
+AddVertex,1.2,3.35,0.2,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,CL47_s1.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0.01,0,
+SetTextureCoordinates,2,0.99,0,
+SetTextureCoordinates,3,1,1,
+
+CreateMeshBuilder,
+AddVertex,-1.2,3.35,18.8,
+AddVertex,-0.6,3.75,18.7,
+AddVertex,-0.6,3.75,0.3,
+AddVertex,-1.2,3.35,0.2,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,CL47_s1.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0.01,0,
+SetTextureCoordinates,2,0.99,0,
+SetTextureCoordinates,3,1,1,
+
+;CL47 FGW front 1 part 1
+CreateMeshBuilder,
+AddVertex,-1.2,0.3,0,
+AddVertex,-1.2,2.5,0,
+AddVertex,1.2,2.5,0,
+AddVertex,1.2,0.3,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,CL47_f2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+;CL47 FGW front 1 part 2
+CreateMeshBuilder,
+AddVertex,-1.2,2.5,0,
+AddVertex,-1.2,3.4,0.2,
+AddVertex,-0.6,3.75,0.3,
+AddVertex,0.6,3.75,0.3,
+AddVertex,1.2,3.4,0.2,
+AddVertex,1.2,2.5,0,
+AddFace,0,1,4,5,
+AddFace,1,2,3,4,
+GenerateNormals,
+
+LoadTexture,CL47_f1.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.4,
+SetTextureCoordinates,2,0.3,0,
+SetTextureCoordinates,3,0.7,0,
+SetTextureCoordinates,4,1,0.4,
+SetTextureCoordinates,5,1,1,
+
+CreateMeshBuilder,
+AddVertex,-3.2, -0.1, 22.5,
+AddVertex,1.2, -0.1, 19.5,
+AddVertex,1.2, -0.1, 0.25,
+AddVertex,-3.2, -0.1, 3.25,
+AddFace,0,1,2,3,
+SetColor,40,40,40,80,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1,3.75,8,
+AddVertex,-2,7,8,
+AddVertex,1.6,7,8,
+AddVertex,0.6,3.75,8,
+AddFace,0,1,2,3,
+SetColor,255,255,255,20,;140
+GenerateNormals,
+
+LoadTexture,Clag.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+Cylinder,6,0.08,2.5,45
+Rotate,0,0,0,84,
+Translate,0.22,-0.70,-21.5,
+SetColor,220,220,220,80,
+GenerateNormals,

@@ -1,0 +1,153 @@
+CreateMeshBuilder
+AddVertex,-0.25,-1.23,-0.4
+AddVertex,-0.25,0.0,-0.4
+AddVertex,0.25,0.0,-0.4
+AddVertex,0.25,-1.23,-0.4
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,combi_outside.png
+
+CreateMeshBuilder
+AddVertex,-0.18,-0.18,-0.405
+AddVertex,-0.18,0.18,-0.405
+AddVertex,0.18,0.18,-0.405
+AddVertex,0.18,-0.18,-0.405
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,graphics\light_red.png
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive
+Translate,0,-.51,0, 
+
+CreateMeshBuilder
+AddVertex,-0.53,-0.53,-0.408
+AddVertex,-0.53,0.53,-0.408
+AddVertex,0.53,0.53,-0.408
+AddVertex,0.53,-0.53,-0.408
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,graphics\glow_red.png
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,220,DivideExponent2
+Translate,0,-.51,0, 
+
+CreateMeshBuilder,
+AddVertex, 0.135, -0.19, -0.65 ,
+AddVertex, 0.135, -0.24, -0.4 ,
+AddVertex, 0.11, -0.16, -0.4 ,
+AddVertex, 0.11, -0.16, -0.67 ,
+AddVertex, 0.07, -0.13, -0.69 ,
+AddVertex, 0.07, -0.13, -0.4 ,
+AddVertex, 0.03, -0.12, -0.4 ,
+AddVertex, 0.03, -0.12, -0.7 ,
+AddVertex, -0.03, -0.12, -0.7 ,
+AddVertex, -0.03, -0.12, -0.4 ,
+AddVertex, -0.07, -0.13, -0.4 ,
+AddVertex, -0.07, -0.13, -0.69 ,
+AddVertex, -0.10, -0.16, -0.67 ,
+AddVertex, -0.10, -0.16, -0.4,
+AddVertex, -0.135, -0.24, -0.4 ,
+AddVertex, -0.135, -0.19, -0.65 ,
+AddFace2,  0,1,2,3,
+AddFace2,  5,4,3,2,
+AddFace2,  4,5,6,7,
+AddFace2,  9,8,7,6,
+AddFace2,  8,9,10,11
+AddFace2,  13,12,11,10,
+AddFace2,  12,13,14,15,
+SetColor, 44,49,55,
+GenerateNormals,
+translate,0,-0.04,0,
+
+CreateMeshBuilder,
+AddVertex, 0.135, -0.19, -0.65 ,
+AddVertex, 0.135, -0.24, -0.4 ,
+AddVertex, 0.11, -0.16, -0.4 ,
+AddVertex, 0.11, -0.16, -0.67 ,
+AddVertex, 0.07, -0.13, -0.69 ,
+AddVertex, 0.07, -0.13, -0.4 ,
+AddVertex, 0.03, -0.12, -0.4 ,
+AddVertex, 0.03, -0.12, -0.7 ,
+AddVertex, -0.03, -0.12, -0.7 ,
+AddVertex, -0.03, -0.12, -0.4 ,
+AddVertex, -0.07, -0.13, -0.4 ,
+AddVertex, -0.07, -0.13, -0.69 ,
+AddVertex, -0.10, -0.16, -0.67 ,
+AddVertex, -0.10, -0.16, -0.4,
+AddVertex, -0.135, -0.24, -0.4 ,
+AddVertex, -0.135, -0.19, -0.65 ,
+AddFace2,  0,1,2,3,
+AddFace2,  5,4,3,2,
+AddFace2,  4,5,6,7,
+AddFace2,  9,8,7,6,
+AddFace2,  8,9,10,11
+AddFace2,  13,12,11,10,
+AddFace2,  12,13,14,15,
+SetColor, 44,49,55,
+GenerateNormals,
+Translate,0,-0.27,0,
+
+CreateMeshBuilder,
+AddVertex, 0.135, -0.19, -0.65 ,
+AddVertex, 0.135, -0.24, -0.4 ,
+AddVertex, 0.11, -0.16, -0.4 ,
+AddVertex, 0.11, -0.16, -0.67 ,
+AddVertex, 0.07, -0.13, -0.69 ,
+AddVertex, 0.07, -0.13, -0.4 ,
+AddVertex, 0.03, -0.12, -0.4 ,
+AddVertex, 0.03, -0.12, -0.7 ,
+AddVertex, -0.03, -0.12, -0.7 ,
+AddVertex, -0.03, -0.12, -0.4 ,
+AddVertex, -0.07, -0.13, -0.4 ,
+AddVertex, -0.07, -0.13, -0.69 ,
+AddVertex, -0.10, -0.16, -0.67 ,
+AddVertex, -0.10, -0.16, -0.4,
+AddVertex, -0.135, -0.24, -0.4 ,
+AddVertex, -0.135, -0.19, -0.65 ,
+AddFace2,  0,1,2,3,
+AddFace2,  5,4,3,2,
+AddFace2,  4,5,6,7,
+AddFace2,  9,8,7,6,
+AddFace2,  8,9,10,11
+AddFace2,  13,12,11,10,
+AddFace2,  12,13,14,15,
+SetColor, 44,49,55,
+GenerateNormals,
+Translate,0,-.5,0,
+
+CreateMeshBuilder,
+AddVertex, 0.135, -0.19, -0.65 ,
+AddVertex, 0.135, -0.24, -0.4 ,
+AddVertex, 0.11, -0.16, -0.4 ,
+AddVertex, 0.11, -0.16, -0.67 ,
+AddVertex, 0.07, -0.13, -0.69 ,
+AddVertex, 0.07, -0.13, -0.4 ,
+AddVertex, 0.03, -0.12, -0.4 ,
+AddVertex, 0.03, -0.12, -0.7 ,
+AddVertex, -0.03, -0.12, -0.7 ,
+AddVertex, -0.03, -0.12, -0.4 ,
+AddVertex, -0.07, -0.13, -0.4 ,
+AddVertex, -0.07, -0.13, -0.69 ,
+AddVertex, -0.10, -0.16, -0.67 ,
+AddVertex, -0.10, -0.16, -0.4,
+AddVertex, -0.135, -0.24, -0.4 ,
+AddVertex, -0.135, -0.19, -0.65 ,
+AddFace2,  0,1,2,3,
+AddFace2,  5,4,3,2,
+AddFace2,  4,5,6,7,
+AddFace2,  9,8,7,6,
+AddFace2,  8,9,10,11
+AddFace2,  13,12,11,10,
+AddFace2,  12,13,14,15,
+SetColor, 44,49,55,
+GenerateNormals,
+Translate,0,-.74,0,

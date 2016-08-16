@@ -1,0 +1,25 @@
+CreateMeshBuilder,
+AddVertex,-1.95, 0, 5
+AddVertex,-150.95, -15, 5
+AddVertex,-150.95, -15, 0
+AddVertex,-1.95, 0, 0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,douro.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+
+CreateMeshBuilder,
+AddVertex,-1.95, 0, 0
+AddVertex,-150.95, -15, 0
+AddVertex,2.95, -15, -5
+AddVertex,2.95, 0, 0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,grass.bmp
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 2, 1
+SetTextureCoordinates,0, 2, 1

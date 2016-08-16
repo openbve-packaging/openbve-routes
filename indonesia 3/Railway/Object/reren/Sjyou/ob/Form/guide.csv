@@ -1,0 +1,39 @@
+CreateMeshBuilder,
+AddVertex, 2.05, 1.0, 17.0
+AddVertex, 2.0,  1.0, 17.0
+AddVertex, 2.0,  1.0, 17.03
+AddVertex, 2.0,  3.0, 17.03
+AddVertex, 2.0,  3.0, 17.0
+AddVertex, 2.05, 3.0, 17.0
+AddFace2,0,1,4,5
+AddFace2,1,2,3,4
+Setcolor,50,50,50
+SetEmissiveColor,25,25,20,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 2.0, 3.0, 19.2
+AddVertex, 2.0, 3.0, 17.03
+AddVertex, 2.0, 2.0, 17.03
+AddVertex, 2.0, 2.0, 19.2
+AddFace2,0,1,2,3
+LoadTexture,../guide.png
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+SetEmissiveColor,65,65,60,
+
+CreateMeshBuilder,
+AddVertex, 2.05, 1.0, 19.2
+AddVertex, 2.0,  1.0, 19.2
+AddVertex, 2.0,  1.0, 19.23
+AddVertex, 2.0,  3.0, 19.23
+AddVertex, 2.0,  3.0, 19.2
+AddVertex, 2.05, 3.0, 19.2
+AddFace2,0,1,4,5
+AddFace2,1,2,3,4
+Setcolor,50,50,50
+SetEmissiveColor,25,25,20,
+GenerateNormals,

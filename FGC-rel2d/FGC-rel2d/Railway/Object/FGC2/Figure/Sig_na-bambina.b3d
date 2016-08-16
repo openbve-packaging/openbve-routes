@@ -1,0 +1,38 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Signorina con bambina
+[meshbuilder]
+Vertex 0.0, 1.5, 0
+Vertex 0.65, 1.5, 0
+Vertex 0.65, 0.1, 0
+Vertex 0.0, 0.1, 0
+Face2 0,1,2,3
+[texture]
+Load Fg05-Bambina.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+Rotate 0,1,0,20
+Translate 0.3,0.20,-0.4
+
+; Signorina
+[meshbuilder]
+Vertex 0.0, 1.9, 0
+Vertex 0.8, 1.9, 0
+Vertex 0.8, 0.1, 0
+Vertex 0.0, 0.1, 0
+Face2 0,1,2,3
+[texture]
+Load Fg02-Signorina.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+Rotate 0,1,0,20
+Translate 0,0.20,0
+

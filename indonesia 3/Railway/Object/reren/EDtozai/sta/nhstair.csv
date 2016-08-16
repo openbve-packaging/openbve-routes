@@ -1,0 +1,45 @@
+CreateMeshBuilder,
+AddVertex, 0, 4.4, 10,
+AddVertex, 0, 4.4, 0,
+AddVertex, 1, 4.4, 0,
+AddVertex, 1, 1.1, 0,
+AddVertex, 0, 1.1, 0,
+AddVertex, 0, 1.1, 10,
+AddVertex, 5, 4.4, 10,
+AddVertex, 5, 4.4, 0,
+AddVertex, 6, 4.4, 0,
+AddVertex, 6, 1.1, 0,
+AddVertex, 5, 1.1, 0,
+AddVertex, 5, 1.1, 10,
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+AddFace,6,7,10,11
+AddFace,7,8,9,10
+Setcolor,249,241,238
+LoadTexture,../Wall/nihonwall3.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,8,0
+SetTextureCoordinates,2  ,10,0
+SetTextureCoordinates,3  ,10,1
+SetTextureCoordinates,4  ,8,1
+SetTextureCoordinates,5  ,0,1
+SetTextureCoordinates,6  ,0,0
+SetTextureCoordinates,7  ,8,0
+SetTextureCoordinates,8  ,10,0
+SetTextureCoordinates,9  ,10,1
+SetTextureCoordinates,10  ,8,1
+SetTextureCoordinates,11  ,0,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 1, 4.4, 8.5,
+AddVertex, 5, 4.4, 8.5,
+AddVertex, 5, 1.1, 2.5,
+AddVertex, 1, 1.1, 2.5, 
+AddFace,0,1,2,3
+LoadTexture,stairB.bmp
+SetTextureCoordinates,0,0,0.5,
+SetTextureCoordinates,1,1,0.5,
+SetTextureCoordinates,2,1,2,
+SetTextureCoordinates,3,0,2,
+GenerateNormals,

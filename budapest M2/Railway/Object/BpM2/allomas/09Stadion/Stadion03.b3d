@@ -1,0 +1,498 @@
+;Stadionok állomás 3
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+[MeshBuilder]
+vertex 2.1, 4.00,7
+vertex 2.1, 4.30,7
+vertex 2.1, 4.30,0
+vertex 2.1, 4.00,0
+vertex 2.1, 4.00,25
+vertex 2.1, 4.30,25
+vertex 2.1, 4.30,20
+vertex 2.1, 4.00,20
+vertex -27.6, 4.00,7
+vertex -27.6, 4.30,7
+vertex -27.6, 4.30,0
+vertex -27.6, 4.00,0
+vertex -27.6, 4.00,25
+vertex -27.6, 4.30,25
+vertex -27.6, 4.30,20
+vertex -27.6, 4.00,20
+face 0,1,2,3
+face 4,5,6,7
+face 11,10,9,8
+face 15,14,13,12
+color 255,0,0
+
+[MeshBuilder]
+vertex 2.1, 4.00,20
+vertex 2.1, 4.30,20
+vertex 2.1, 4.30,7
+vertex 2.1, 4.00,7
+face 0,1,2,3
+Load Stadion_iranyJ.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[MeshBuilder]
+vertex -27.6, 4.00,20
+vertex -27.6, 4.30,20
+vertex -27.6, 4.30,7
+vertex -27.6, 4.00,7
+face 3,2,1,0
+Load Stadion_iranyB.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+
+;---------------------------------
+
+;segélykérõ/ülõhely
+
+;j1
+[MeshBuilder]
+Vertex -0.19,1.10,-0.775
+Vertex -0.19,1.10,-0.835
+Vertex -0.11,1.10,-0.875
+Vertex  0.11,1.10,-0.875
+Vertex  0.19,1.10,-0.835
+Vertex  0.19,1.10,-0.775
+Vertex -0.19,3.95,-0.775
+Vertex -0.19,3.95,-0.835
+Vertex -0.11,3.95,-0.875
+Vertex  0.11,3.95,-0.875
+Vertex  0.19,3.95,-0.835
+Vertex  0.19,3.95,-0.775
+Vertex -0.19,1.10,0.775
+Vertex -0.19,1.10,0.835
+Vertex -0.11,1.10,0.875
+Vertex  0.11,1.10,0.875
+Vertex  0.19,1.10,0.835
+Vertex  0.19,1.10,0.775
+Vertex -0.19,3.95,0.775
+Vertex -0.19,3.95,0.835
+Vertex -0.11,3.95,0.875
+Vertex  0.11,3.95,0.875
+Vertex  0.19,3.95,0.835
+Vertex  0.19,3.95,0.775
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+Face 19,18,12,13
+Face 20,19,13,14
+Face 21,20,14,15
+Face 22,21,15,16
+Face 23,22,16,17
+[Texture]
+Load Stadion_b_01.bmp
+Coordinates 00,0.00,1
+Coordinates 01,0.12,1
+Coordinates 02,0.29,1
+Coordinates 03,0.71,1
+Coordinates 04,0.88,1
+Coordinates 05,1.00,1
+Coordinates 06,0.00,0
+Coordinates 07,0.05,0
+Coordinates 08,0.09,0
+Coordinates 09,0.91,0
+Coordinates 10,0.95,0
+Coordinates 11,1.00,0
+Coordinates 12,0.00,1
+Coordinates 13,0.12,1
+Coordinates 14,0.29,1
+Coordinates 15,0.71,1
+Coordinates 16,0.88,1
+Coordinates 17,1.00,1
+Coordinates 18,0.00,0
+Coordinates 19,0.05,0
+Coordinates 20,0.09,0
+Coordinates 21,0.91,0
+Coordinates 22,0.95,0
+Coordinates 23,1.00,0
+Translate -5.375,0,15.625
+[MeshBuilder]
+Vertex  0.19,1.10,-0.775
+Vertex  0.19,1.48,-0.775
+Vertex  0.19,1.48, 0.775
+Vertex  0.19,1.10, 0.775
+Vertex -0.19,1.10,-0.775
+Vertex -0.19,1.48,-0.775
+Vertex -0.19,1.48, 0.775
+Vertex -0.19,1.10, 0.775
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load Stadion_b_02.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+Coordinates 6,0,0
+Coordinates 7,0,1
+Translate -5.375,0,15.625
+[MeshBuilder]
+Vertex -0.19,3.633,-0.78
+Vertex -0.19,3.950,-0.78
+Vertex -0.19,3.950, 0.78
+Vertex -0.19,3.633, 0.78
+Face 3,2,1,0
+[Texture]
+Load Stadion_b_03.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Translate -5.375,0,15.625
+[MeshBuilder]
+Vertex 0.19,3.633,-0.78
+Vertex 0.19,3.950,-0.78
+Vertex 0.19,3.950, 0.78
+Vertex 0.19,3.633, 0.78
+Face 0,1,2,3
+[Texture]
+Load Stadion_b_04.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Translate -5.375,0,15.625
+[MeshBuilder]
+Vertex -0.19,1.479,-0.78
+Vertex -0.19,3.634,-0.78
+Vertex -0.19,3.634, 0.78
+Vertex -0.19,1.479, 0.78
+Face 3,2,1,0
+[Texture]
+Load Stadion_b_11.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Translate -5.375,0,15.625
+[MeshBuilder]
+Vertex 0.19,1.478,-0.78
+Vertex 0.19,3.634,-0.78
+Vertex 0.19,3.634, 0.78
+Vertex 0.19,1.478, 0.78
+Face 0,1,2,3
+[Texture]
+Load Stadion_b_12.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Translate -5.375,0,15.625
+[MeshBuilder]
+Vertex -0.225,1.50,-0.185
+Vertex -0.185,1.50,-0.225
+Vertex  0.185,1.50,-0.225
+Vertex  0.225,1.50,-0.185
+Vertex  0.225,1.50, 0.185
+Vertex  0.185,1.50, 0.225
+Vertex -0.185,1.50, 0.225
+Vertex -0.225,1.50, 0.185
+Vertex -0.225,1.47,-0.185
+Vertex -0.185,1.47,-0.225
+Vertex  0.185,1.47,-0.225
+Vertex  0.225,1.47,-0.185
+Vertex  0.225,1.47, 0.185
+Vertex  0.185,1.47, 0.225
+Vertex -0.185,1.47, 0.225
+Vertex -0.225,1.47, 0.185
+Face 00,01,09,08
+Face 01,02,10,09
+Face 02,03,11,10
+Face 03,04,12,11
+Face 04,05,13,12
+Face 05,06,14,13
+Face 06,07,15,14
+Face 7,6,5,4,3,2,1,0
+Color 100,100,100
+Rotate 0,1,0,180
+Translate -5.8,0,15.075
+[MeshBuilder]
+Vertex -0.225,1.50,-0.185
+Vertex -0.185,1.50,-0.225
+Vertex  0.185,1.50,-0.225
+Vertex  0.225,1.50,-0.185
+Vertex  0.225,1.50, 0.185
+Vertex  0.185,1.50, 0.225
+Vertex -0.185,1.50, 0.225
+Vertex -0.225,1.50, 0.185
+Vertex -0.225,1.47,-0.185
+Vertex -0.185,1.47,-0.225
+Vertex  0.185,1.47,-0.225
+Vertex  0.225,1.47,-0.185
+Vertex  0.225,1.47, 0.185
+Vertex  0.185,1.47, 0.225
+Vertex -0.185,1.47, 0.225
+Vertex -0.225,1.47, 0.185
+Face 00,01,09,08
+Face 01,02,10,09
+Face 02,03,11,10
+Face 03,04,12,11
+Face 04,05,13,12
+Face 05,06,14,13
+Face 06,07,15,14
+Face 7,6,5,4,3,2,1,0
+Color 100,100,100
+Rotate 0,1,0,180
+Translate -5.8,0,15.625
+[MeshBuilder]
+Vertex -0.225,1.50,-0.185
+Vertex -0.185,1.50,-0.225
+Vertex  0.185,1.50,-0.225
+Vertex  0.225,1.50,-0.185
+Vertex  0.225,1.50, 0.185
+Vertex  0.185,1.50, 0.225
+Vertex -0.185,1.50, 0.225
+Vertex -0.225,1.50, 0.185
+Vertex -0.225,1.47,-0.185
+Vertex -0.185,1.47,-0.225
+Vertex  0.185,1.47,-0.225
+Vertex  0.225,1.47,-0.185
+Vertex  0.225,1.47, 0.185
+Vertex  0.185,1.47, 0.225
+Vertex -0.185,1.47, 0.225
+Vertex -0.225,1.47, 0.185
+Face 00,01,09,08
+Face 01,02,10,09
+Face 02,03,11,10
+Face 03,04,12,11
+Face 04,05,13,12
+Face 05,06,14,13
+Face 06,07,15,14
+Face 7,6,5,4,3,2,1,0
+Color 100,100,100
+Rotate 0,1,0,180
+Translate -5.8,0,16.175
+
+;b1
+[MeshBuilder]
+Vertex -0.19,1.10,-0.775
+Vertex -0.19,1.10,-0.835
+Vertex -0.11,1.10,-0.875
+Vertex  0.11,1.10,-0.875
+Vertex  0.19,1.10,-0.835
+Vertex  0.19,1.10,-0.775
+Vertex -0.19,3.95,-0.775
+Vertex -0.19,3.95,-0.835
+Vertex -0.11,3.95,-0.875
+Vertex  0.11,3.95,-0.875
+Vertex  0.19,3.95,-0.835
+Vertex  0.19,3.95,-0.775
+Vertex -0.19,1.10,0.775
+Vertex -0.19,1.10,0.835
+Vertex -0.11,1.10,0.875
+Vertex  0.11,1.10,0.875
+Vertex  0.19,1.10,0.835
+Vertex  0.19,1.10,0.775
+Vertex -0.19,3.95,0.775
+Vertex -0.19,3.95,0.835
+Vertex -0.11,3.95,0.875
+Vertex  0.11,3.95,0.875
+Vertex  0.19,3.95,0.835
+Vertex  0.19,3.95,0.775
+Face 1,0,6,7
+Face 2,1,7,8
+Face 3,2,8,9
+Face 4,3,9,10
+Face 5,4,10,11
+Face 19,18,12,13
+Face 20,19,13,14
+Face 21,20,14,15
+Face 22,21,15,16
+Face 23,22,16,17
+[Texture]
+Load Stadion_b_01.bmp
+Coordinates 00,0.00,1
+Coordinates 01,0.12,1
+Coordinates 02,0.29,1
+Coordinates 03,0.71,1
+Coordinates 04,0.88,1
+Coordinates 05,1.00,1
+Coordinates 06,0.00,0
+Coordinates 07,0.05,0
+Coordinates 08,0.09,0
+Coordinates 09,0.91,0
+Coordinates 10,0.95,0
+Coordinates 11,1.00,0
+Coordinates 12,0.00,1
+Coordinates 13,0.12,1
+Coordinates 14,0.29,1
+Coordinates 15,0.71,1
+Coordinates 16,0.88,1
+Coordinates 17,1.00,1
+Coordinates 18,0.00,0
+Coordinates 19,0.05,0
+Coordinates 20,0.09,0
+Coordinates 21,0.91,0
+Coordinates 22,0.95,0
+Coordinates 23,1.00,0
+Translate -20.125,0,15.625
+[MeshBuilder]
+Vertex  0.19,1.10,-0.775
+Vertex  0.19,1.48,-0.775
+Vertex  0.19,1.48, 0.775
+Vertex  0.19,1.10, 0.775
+Vertex -0.19,1.10,-0.775
+Vertex -0.19,1.48,-0.775
+Vertex -0.19,1.48, 0.775
+Vertex -0.19,1.10, 0.775
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load Stadion_b_02.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+Coordinates 6,0,0
+Coordinates 7,0,1
+Translate -20.125,0,15.625
+[MeshBuilder]
+Vertex -0.19,3.633,-0.78
+Vertex -0.19,3.950,-0.78
+Vertex -0.19,3.950, 0.78
+Vertex -0.19,3.633, 0.78
+Face 3,2,1,0
+[Texture]
+Load Stadion_b_03.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Translate -20.125,0,15.625
+[MeshBuilder]
+Vertex 0.19,3.633,-0.78
+Vertex 0.19,3.950,-0.78
+Vertex 0.19,3.950, 0.78
+Vertex 0.19,3.633, 0.78
+Face 0,1,2,3
+[Texture]
+Load Stadion_b_04.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Translate -20.125,0,15.625
+[MeshBuilder]
+Vertex -0.19,1.479,-0.78
+Vertex -0.19,3.634,-0.78
+Vertex -0.19,3.634, 0.78
+Vertex -0.19,1.479, 0.78
+Face 3,2,1,0
+[Texture]
+Load Stadion_b_12.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Translate -20.125,0,15.625
+[MeshBuilder]
+Vertex 0.19,1.478,-0.78
+Vertex 0.19,3.634,-0.78
+Vertex 0.19,3.634, 0.78
+Vertex 0.19,1.478, 0.78
+Face 0,1,2,3
+[Texture]
+Load Stadion_b_11.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Translate -20.125,0,15.625
+[MeshBuilder]
+Vertex -0.225,1.50,-0.185
+Vertex -0.185,1.50,-0.225
+Vertex  0.185,1.50,-0.225
+Vertex  0.225,1.50,-0.185
+Vertex  0.225,1.50, 0.185
+Vertex  0.185,1.50, 0.225
+Vertex -0.185,1.50, 0.225
+Vertex -0.225,1.50, 0.185
+Vertex -0.225,1.47,-0.185
+Vertex -0.185,1.47,-0.225
+Vertex  0.185,1.47,-0.225
+Vertex  0.225,1.47,-0.185
+Vertex  0.225,1.47, 0.185
+Vertex  0.185,1.47, 0.225
+Vertex -0.185,1.47, 0.225
+Vertex -0.225,1.47, 0.185
+Face 00,01,09,08
+Face 01,02,10,09
+Face 02,03,11,10
+Face 03,04,12,11
+Face 04,05,13,12
+Face 05,06,14,13
+Face 06,07,15,14
+Face 7,6,5,4,3,2,1,0
+Color 100,100,100
+Translate -19.7,0,15.075
+[MeshBuilder]
+Vertex -0.225,1.50,-0.185
+Vertex -0.185,1.50,-0.225
+Vertex  0.185,1.50,-0.225
+Vertex  0.225,1.50,-0.185
+Vertex  0.225,1.50, 0.185
+Vertex  0.185,1.50, 0.225
+Vertex -0.185,1.50, 0.225
+Vertex -0.225,1.50, 0.185
+Vertex -0.225,1.47,-0.185
+Vertex -0.185,1.47,-0.225
+Vertex  0.185,1.47,-0.225
+Vertex  0.225,1.47,-0.185
+Vertex  0.225,1.47, 0.185
+Vertex  0.185,1.47, 0.225
+Vertex -0.185,1.47, 0.225
+Vertex -0.225,1.47, 0.185
+Face 00,01,09,08
+Face 01,02,10,09
+Face 02,03,11,10
+Face 03,04,12,11
+Face 04,05,13,12
+Face 05,06,14,13
+Face 06,07,15,14
+Face 7,6,5,4,3,2,1,0
+Color 100,100,100
+Translate -19.7,0,15.625
+[MeshBuilder]
+Vertex -0.225,1.50,-0.185
+Vertex -0.185,1.50,-0.225
+Vertex  0.185,1.50,-0.225
+Vertex  0.225,1.50,-0.185
+Vertex  0.225,1.50, 0.185
+Vertex  0.185,1.50, 0.225
+Vertex -0.185,1.50, 0.225
+Vertex -0.225,1.50, 0.185
+Vertex -0.225,1.47,-0.185
+Vertex -0.185,1.47,-0.225
+Vertex  0.185,1.47,-0.225
+Vertex  0.225,1.47,-0.185
+Vertex  0.225,1.47, 0.185
+Vertex  0.185,1.47, 0.225
+Vertex -0.185,1.47, 0.225
+Vertex -0.225,1.47, 0.185
+Face 00,01,09,08
+Face 01,02,10,09
+Face 02,03,11,10
+Face 03,04,12,11
+Face 04,05,13,12
+Face 05,06,14,13
+Face 06,07,15,14
+Face 7,6,5,4,3,2,1,0
+Color 100,100,100
+Translate -19.7,0,16.175
+
+;---------------------------------

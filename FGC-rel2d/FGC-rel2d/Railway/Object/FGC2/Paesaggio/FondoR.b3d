@@ -1,0 +1,27 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+[MeshBuilder]
+Vertex -200,    -50, 125 
+Vertex  -25,    -50, 30
+Vertex   25,    -50, 30
+Vertex  400,    -50, 125
+Vertex -200,-50.01, -100
+Vertex -25, -50.01, -5
+Vertex 25,  -50.01, -5
+Vertex 400, -50.01, -100
+Face 0,1,5,4
+Face 1,2,6,5
+Face 2,3,7,6
+
+
+Load ..\Grass3.bmp
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,6,0
+Coordinates 3,8,0
+Coordinates 4,0,6
+Coordinates 5,2,6
+Coordinates 6,6,6
+Coordinates 7,16,6

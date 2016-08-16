@@ -1,0 +1,125 @@
+CreateMeshBuilder, ; base 
+AddVertex,2.2,0,0.2,
+AddVertex,2.2,1.5,0.2,
+AddVertex,2.2,1.5,0.5,
+Addvertex,2.2,0,0.5,
+Addface2, 0,1,2,3
+GenerateNormals,
+SetColor, 190, 190, 190,
+
+
+CreateMeshBuilder, ; base 
+AddVertex,2.4,0,0.2,
+AddVertex,2.4,1.5,0.2,
+AddVertex,2.4,1.5,0.5,
+Addvertex,2.4,0,0.5,
+Addface2, 0,1,2,3
+GenerateNormals,
+SetColor, 176, 176, 176,
+
+
+CreateMeshBuilder, ; base 
+AddVertex,2.2,0,0.2,
+AddVertex,2.2,1.5,0.2,
+AddVertex,2.4,1.5,0.2,
+Addvertex,2.4,0,0.2,
+Addface2, 0,1,2,3
+GenerateNormals,
+SetColor, 176, 176, 176,
+
+CreateMeshBuilder, ; base cabina
+AddVertex,2,1.5,0,
+AddVertex,2,1.5,0.7,
+AddVertex,2.6,1.5,0.7,
+Addvertex,2.6,1.5,0,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,cabintel.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+
+CreateMeshBuilder, ; lato sx
+AddVertex,2,1.5,0,
+AddVertex,2,1.5,0.7,
+AddVertex,2,2.0,1,
+Addvertex,2,2.3,1,
+Addvertex,2,2.3,0,
+Addface2, 0,1,2,3,4
+GenerateNormals,
+
+LoadTexture,cabintel.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+
+CreateMeshBuilder, ; lato dx
+AddVertex,2.6,1.5,0,
+AddVertex,2.6,1.5,0.7,
+AddVertex,2.6,2.0,1,
+Addvertex,2.6,2.3,1,
+Addvertex,2.6,2.3,0,
+Addface2, 0,1,2,3,4
+GenerateNormals,
+
+LoadTexture,cabintel.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,0.5,0.5,
+
+
+
+CreateMeshBuilder, ; retro
+AddVertex,2,1.5,0,
+AddVertex,2.0,2.3,0,
+AddVertex,2.6,2.3,0,
+Addvertex,2.6,1.5,0,
+Addface2, 0,1,2,3,
+GenerateNormals,
+
+LoadTexture,cabintel.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+
+CreateMeshBuilder, ; retro
+AddVertex,2,1.5,0.1,
+AddVertex,2.0,2.3,0.1,
+AddVertex,2.6,2.3,0.1,
+Addvertex,2.6,1.5,0.1,
+Addface2, 0,1,2,3,
+GenerateNormals,
+LoadTexture,telefono.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+
+
+CreateMeshBuilder, ; sopra
+AddVertex,2,2.3,0,
+AddVertex,2,2.3,1,
+AddVertex,2.6,2.3,1,
+Addvertex,2.6,2.3,0,
+Addface2, 0,1,2,3,
+GenerateNormals,
+
+LoadTexture,cabintel.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+

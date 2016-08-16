@@ -1,0 +1,27 @@
+CreateMeshBuilder
+AddVertex,-2,4.4,0
+AddVertex, 2,4.4,0
+AddVertex, 2,4.0,0
+AddVertex,-2,4.0,0
+AddFace,0,1,2,3
+GenerateNormals,
+Loadtexture,EA_exit.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+
+CreateMeshBuilder,
+AddVertex, 2.0, 4.4, 0.0
+AddVertex, 2.0, 4.4, 0.2
+AddVertex, 2.0, 4.0, 0.2
+AddVertex,-2.0, 4.0, 0.2
+AddVertex,-2.0, 4.0, 0.0
+AddVertex, 2.0, 4.0, 0.0
+AddVertex,-2.0, 4.4, 0.2
+AddVertex,-2.0, 4.4, 0.0
+AddFace,0,1,2,5
+AddFace,2,3,4,5
+AddFace,6,7,4,3
+Setcolor,180,180,180
+GenerateNormals,

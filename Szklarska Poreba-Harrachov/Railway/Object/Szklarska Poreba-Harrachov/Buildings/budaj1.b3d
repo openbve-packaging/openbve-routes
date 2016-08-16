@@ -1,0 +1,133 @@
+[MeshBuilder];
+Vertex 0 ,0,0
+Vertex 0 ,4.5,0
+Vertex 0 ,4.5,7
+Vertex 0 ,0,7
+Face2 0,1,2,3
+[Texture]
+Load buda_j_sciana.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 10 ,0,0
+Vertex 10 ,4.5,0
+Vertex 10 ,4.5,7
+Vertex 10 ,0,7
+Face2 0,1,2,3
+[Texture]
+Load buda_j_sciana.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0 ,0,7
+Vertex 0 ,4,7
+Vertex 10 ,4,7
+Vertex 10 ,0,7
+Face2 0,1,2,3
+[Texture]
+Load buda_j_sciana.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0 ,0,0
+Vertex 0 ,4,0
+Vertex 10 ,4,0
+Vertex 10 ,0,0
+Face2 0,1,2,3
+[Texture]
+Load buda_j_front.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;----------------DACH----------------;
+[MeshBuilder];
+Vertex 0 ,4,0
+Vertex 0 ,4.5,0
+Vertex 5 ,5,0
+Vertex 5 ,4,0
+Face2 3,2,1,0
+[Texture]
+Load buda_j_deski.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 5 ,4,0
+Vertex 5 ,5,0
+Vertex 10 ,4.5,0
+Vertex 10 ,4,0
+Face2 3,2,1,0
+[Texture]
+Load buda_j_deski.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;-
+[MeshBuilder];
+Vertex 0 ,4,7
+Vertex 0 ,4.5,7
+Vertex 5 ,5,7
+Vertex 5 ,4,7
+Face2 3,2,1,0
+[Texture]
+Load buda_j_deski.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 5 ,4,7
+Vertex 5 ,5,7
+Vertex 10 ,4.5,7
+Vertex 10 ,4,7
+Face2 3,2,1,0
+[Texture]
+Load buda_j_deski.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;-------------DACH2---------------------;
+[MeshBuilder];
+Vertex 0 ,4.5,0
+Vertex 0 ,4.5,7
+Vertex 5 ,5,7
+Vertex 5 ,5,0
+Face2 3,2,1,0
+[Texture]
+Load buda_j_deski.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 5 ,5,0
+Vertex 5 ,5,7
+Vertex 10 ,4.5,7
+Vertex 10 ,4.5,0
+Face2 3,2,1,0
+[Texture]
+Load buda_j_deski.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255

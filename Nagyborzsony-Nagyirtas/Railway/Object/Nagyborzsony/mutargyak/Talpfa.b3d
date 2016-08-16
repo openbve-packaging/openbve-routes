@@ -1,0 +1,26 @@
+;--- INITRND:82205511
+[MeshBuilder]
+Vertex -0.2, 0.1, 1.225
+Vertex 0.2, 0.1, 1.225
+Vertex 0.2, 0.1, -1.225
+Vertex -0.2, 0.1, -1.225
+Vertex -0.2, -0.1, 1.225
+Vertex 0.2, -0.1, 1.225
+Vertex 0.2, -0.1, -1.225
+Vertex -0.2, -0.1, -1.225
+Face 0,1,2,3
+Face 7,6,5,4
+Face 0,3,7,4
+Face 1,5,6,2
+Face 3,2,6,7
+Face 0,4,5,1
+[Texture]
+Load ../mutargyak/bmp/Deszka.bmp
+Coordinates 0, 0.07, 0
+Coordinates 1, 0.23, 0
+Coordinates 2, 0.23, 0.98
+Coordinates 3, 0.07, 0.98
+Coordinates 4, -0.01, 0
+Coordinates 5, 0.31, 0
+Coordinates 6, 0.31, 0.98
+Coordinates 7, -0.01, 0.98

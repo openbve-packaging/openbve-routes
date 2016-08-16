@@ -1,0 +1,353 @@
+;fili lunghi
+
+CreateMeshBuilder,
+AddVertex,-0.10, 6.8, 0,
+AddVertex,-0.04,  6.8, 0,
+AddVertex,-0.04,  6.8, 25.3,
+AddVertex,-0.10, 6.8, 25.3,
+AddFace,2,3,0,1,
+SetColor,32,32,32,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.10, 6.82, 0,
+AddVertex,-0.04,  6.82, 0,
+AddVertex,-0.04,  6.82, 25.3,
+AddVertex,-0.10, 6.82, 25.3,
+AddFace,2,3,0,1,
+SetColor,32,32,32,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.10, 5.1, 0,
+AddVertex,-0.04,  5.1, 0,
+AddVertex,-0.04,  5.1, 25.3,
+AddVertex,-0.10, 5.1, 25.3,
+AddFace,2,3,0,1,
+SetColor,128,48,24,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.10, 5.12, 0,
+AddVertex,-0.04,  5.12, 0,
+AddVertex,-0.04,  5.12, 25.3,
+AddVertex,-0.10, 5.12, 25.3,
+AddFace,2,3,0,1,
+SetColor,128,48,24,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 5,
+AddVertex,-0.06, 5.1, 5,
+AddVertex,-0.06, 5.1, 5.05,
+AddVertex,-0.06, 6.8, 5.05,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 5.05,
+AddVertex,-0.06, 5.1, 5.05,
+AddVertex,-0.06, 5.1, 5.1,
+AddVertex,-0.06, 6.8, 5.1,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 15,
+AddVertex,-0.06, 5.1, 15,
+AddVertex,-0.06, 5.1, 15.05,
+AddVertex,-0.06, 6.8, 15.05,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 15.05,
+AddVertex,-0.06, 5.1, 15.05,
+AddVertex,-0.06, 5.1, 15.1,
+AddVertex,-0.06, 6.8, 15.1,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 25,
+AddVertex,-0.06, 5.1, 25,
+AddVertex,-0.06, 5.1, 25.05,
+AddVertex,-0.06, 6.8, 25.05,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.06, 6.8, 25.05,
+AddVertex,-0.06, 5.1, 25.05,
+AddVertex,-0.06, 5.1, 25.1,
+AddVertex,-0.06, 6.8, 25.1,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+;Converted from B3D by BVE FILE CONVERTER
+ 
+; PaloFS.b3d by Luigi Cartello luigi.cartello@tiscali.it
+
+
+; 1 - Basamento
+CreateMeshBuilder,
+Cube, 0.3, 0.45, 0.3,
+Translate, -2.6, -0.5, 0,
+SetColor, 176, 176, 176,
+
+; 3 - Mensola
+CreateMeshBuilder,
+Cylinder, 3, 0.06, 0.06, 3.5,
+Rotate, 0, 0, 1, 90,
+Translate, -0.8 , 6.2, 0,
+SetColor, 146, 146, 162,
+
+; 4 - Tirante
+CreateMeshBuilder,
+Cylinder, 3, 0.02, 0.02, 2.1,
+Rotate, 0, 0, 1, 68,
+Translate, -1.6, 6.6, 0,
+SetColor, 128, 128, 128,
+
+
+CreateMeshBuilder,
+AddVertex,  -0.3, 6.65, 0 ; right,
+AddVertex,   1.3, 6.65, 0 ; right,
+AddVertex,   1.3, 5.15, 0 ; right,
+AddVertex,  -0.3, 5.15, 0 ; right,
+AddFace2,  0,1,3,2,
+GenerateNormals,
+LoadTexture, ZampaFS.bmp,
+SetDecalTransparentColor,  255,255,255,
+SetTextureCoordinates, 0,0,0 ; right ,
+SetTextureCoordinates, 1,1,0  ; right ,
+SetTextureCoordinates, 2,1,0.95 ; right,
+SetTextureCoordinates, 3,0,0.95 ; right,
+Translate, 0.17,0.29,0,
+
+;palo
+; Palo iniziale
+
+CreateMeshBuilder  ; fianco sin e lato ant
+AddVertex, -0.07,7.7 ,  0.05
+AddVertex, -0.07,7.7 , -0.05
+AddVertex, -0.15,-0.3, -0.07
+AddVertex, -0.15,-0.3 , 0.07
+AddVertex,  0.07,7.7 , -0.05
+AddVertex,  0.15,-0.3 ,-0.07
+AddFace2, 0,1,2,3
+AddFace2, 1,4,5,2
+GenerateNormals
+LoadTexture, Traliccio.bmp
+SetDecalTransparentColor, 0,0,255,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0.22, 0
+SetTextureCoordinates, 2, 0.22, 7
+SetTextureCoordinates, 3, 0, 7
+SetTextureCoordinates, 4, 1, 0
+SetTextureCoordinates, 5, 1, 7
+translate, -2.65,0,0
+
+CreateMeshBuilder ; fianco ant e lato post
+AddVertex, 0.07,7.7 , -0.05
+AddVertex, 0.07,7.7 ,  0.05
+AddVertex, 0.15,-0.3,  0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddVertex,-0.07,7.7 ,  0.05
+AddVertex,-0.15,-0.3 , 0.07
+AddFace2, 0,1,2,3
+AddFace2, 1,4,5,2
+GenerateNormals
+LoadTexture, Traliccio.bmp
+SetDecalTransparentColor, 0,0,255,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0.22, 0
+SetTextureCoordinates, 2, 0.22, 7
+SetTextureCoordinates, 3, 0, 7
+SetTextureCoordinates, 4, 1, 0
+SetTextureCoordinates, 5, 1, 7
+translate, -2.65,0,0
+
+
+;;palo gemello dx
+;fili lunghi
+
+CreateMeshBuilder,
+AddVertex,7.10, 6.8, 0,
+AddVertex,7.04,  6.8, 0,
+AddVertex,7.04,  6.8, 25.3,
+AddVertex,7.10, 6.8, 25.3,
+AddFace,2,3,0,1,
+SetColor,32,32,32,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,7.10, 6.82, 0,
+AddVertex,7.04,  6.82, 0,
+AddVertex,7.04,  6.82, 25.3,
+AddVertex,7.10, 6.82, 25.3,
+AddFace,2,3,0,1,
+SetColor,32,32,32,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,7.10, 5.1, 0,
+AddVertex,7.04,  5.1, 0,
+AddVertex,7.04,  5.1, 25.3,
+AddVertex,7.10, 5.1, 25.3,
+AddFace,2,3,0,1,
+SetColor,128,48,24,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,7.10, 5.12, 0,
+AddVertex,7.04,  5.12, 0,
+AddVertex,7.04,  5.12, 25.3,
+AddVertex,7.10, 5.12, 25.3,
+AddFace,2,3,0,1,
+SetColor,128,48,24,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,7.06, 6.8, 5,
+AddVertex,7.06, 5.1, 5,
+AddVertex,7.06, 5.1, 5.05,
+AddVertex,7.06, 6.8, 5.05,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,7.06, 6.8, 5.05,
+AddVertex,7.06, 5.1, 5.05,
+AddVertex,7.06, 5.1, 5.1,
+AddVertex,7.06, 6.8, 5.1,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,7.06, 6.8, 15,
+AddVertex,7.06, 5.1, 15,
+AddVertex,7.06, 5.1, 15.05,
+AddVertex,7.06, 6.8, 15.05,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,7.06, 6.8, 15.05,
+AddVertex,7.06, 5.1, 15.05,
+AddVertex,7.06, 5.1, 15.1,
+AddVertex,7.06, 6.8, 15.1,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,7.06, 6.8, 25,
+AddVertex,7.06, 5.1, 25,
+AddVertex,7.06, 5.1, 25.05,
+AddVertex,7.06, 6.8, 25.05,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,7.06, 6.8, 25.05,
+AddVertex,7.06, 5.1, 25.05,
+AddVertex,7.06, 5.1, 25.1,
+AddVertex,7.06, 6.8, 25.1,
+AddFace2,2,3,0,1,
+SetColor,128,128,128,
+GenerateNormals,
+
+;Converted from B3D by BVE FILE CONVERTER
+ 
+; PaloFS.b3d by Luigi Cartello luigi.cartello@tiscali.it
+
+
+; 1 - Basamento
+CreateMeshBuilder,
+Cube, 0.3, 0.45, 0.3,
+Translate, 9.6, -0.5, 0,
+SetColor, 176, 176, 176,
+
+; 3 - Mensola
+CreateMeshBuilder,
+Cylinder, 3, 0.06, 0.06, 3.5,
+Rotate, 0, 0, 1, 90,
+Translate, 7.8 , 6.2, 0,
+SetColor, 146, 146, 162,
+
+; 4 - Tirante
+CreateMeshBuilder,
+Cylinder, 3, 0.02, 0.02, 2.1,
+Rotate, 0, 0, 1, -68,
+Translate, 8.6, 6.6, 0,
+SetColor, 128, 128, 128,
+
+
+CreateMeshBuilder,
+AddVertex,  7.3, 6.65, 0 ; right,
+AddVertex,   5.7, 6.65, 0 ; right,
+AddVertex,   5.7, 5.15, 0 ; right,
+AddVertex,  7.3, 5.15, 0 ; right,
+AddFace2,  0,1,3,2,
+GenerateNormals,
+LoadTexture, ZampaFS.bmp,
+SetDecalTransparentColor,  255,255,255,
+SetTextureCoordinates, 0,0,0 ; right ,
+SetTextureCoordinates, 1,1,0  ; right ,
+SetTextureCoordinates, 2,1,0.95 ; right,
+SetTextureCoordinates, 3,0,0.95 ; right,
+Translate, 0.17,0.29,0,
+
+;palo
+; Palo iniziale
+
+CreateMeshBuilder  ; fianco sin e lato ant
+AddVertex, -0.07,7.7 ,  0.05
+AddVertex, -0.07,7.7 , -0.05
+AddVertex, -0.15,-0.3, -0.07
+AddVertex, -0.15,-0.3 , 0.07
+AddVertex,  0.07,7.7 , -0.05
+AddVertex,  0.15,-0.3 ,-0.07
+AddFace2, 0,1,2,3
+AddFace2, 1,4,5,2
+GenerateNormals
+LoadTexture, Traliccio.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0.22, 0
+SetTextureCoordinates, 2, 0.22, 7
+SetTextureCoordinates, 3, 0, 7
+SetTextureCoordinates, 4, 1, 0
+SetTextureCoordinates, 5, 1, 7
+translate, 9.65,0,0
+
+CreateMeshBuilder ; fianco ant e lato post
+AddVertex, 0.07,7.7 , -0.05
+AddVertex, 0.07,7.7 ,  0.05
+AddVertex, 0.15,-0.3,  0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddVertex,-0.07,7.7 ,  0.05
+AddVertex,-0.15,-0.3 , 0.07
+AddFace2, 0,1,2,3
+AddFace2, 1,4,5,2
+GenerateNormals
+LoadTexture, Traliccio.bmp
+SetDecalTransparentColor, 0,0,255,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0.22, 0
+SetTextureCoordinates, 2, 0.22, 7
+SetTextureCoordinates, 3, 0, 7
+SetTextureCoordinates, 4, 1, 0
+SetTextureCoordinates, 5, 1, 7
+translate, 9.65,0,0

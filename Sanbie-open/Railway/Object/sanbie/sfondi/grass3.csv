@@ -1,0 +1,27 @@
+;; Sanbie
+
+CreateMeshBuilder,
+AddVertex,-120, 0, 25,
+AddVertex,-120, 0, 0,
+AddVertex,-120, -1, -25,
+AddVertex,120, 0, 25,
+AddVertex,120, 0, 0,
+AddVertex,120, -1, -25,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 5,
+SetTextureCoordinates,3, 30, 0,
+SetTextureCoordinates,4, 30, 1,
+SetTextureCoordinates,5, 30, 5,
+
+
+
+
+

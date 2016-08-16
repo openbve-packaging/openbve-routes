@@ -1,0 +1,134 @@
+[MeshBuilder]
+
+Vertex  -0.5,4.8,5
+Vertex     0,4.8,5
+Vertex     0,0,5
+Vertex  -0.5,0,5
+
+Vertex   0,4.8,5
+Vertex   0,4.8,6.5
+Vertex   0,0,6.5
+Vertex   0,0,5
+
+Vertex   -0.5,4.8,5
+Vertex   -0.5,4.8,6.5
+Vertex   -0.5,0,6.5
+Vertex   -0.5,0,5
+
+Vertex   -0.5,4.8,6.5
+Vertex    0,4.8,6.5
+Vertex    0,0,6.5
+Vertex   -0.5,0,6.5
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Right
+Face 11,10,9,8    ; Left
+Face 15,14,13,12  ; Back
+
+Color 31,31,31
+
+
+[MeshBuilder]
+
+Vertex  -0.5,4.8,18.5
+Vertex     0,4.8,18.5
+Vertex     0,0,18.5
+Vertex  -0.5,0,18.5
+
+Vertex   0,4.8,18.5
+Vertex   0,4.8,20
+Vertex   0,0,20
+Vertex   0,0,18.5
+
+Vertex   -0.5,4.8,18.5
+Vertex   -0.5,4.8,20
+Vertex   -0.5,0,20
+Vertex   -0.5,0,18.5
+
+Vertex   -0.5,4.8,20
+Vertex    0,4.8,20
+Vertex    0,0,20
+Vertex   -0.5,0,20
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Right
+Face 11,10,9,8    ; Left
+Face 15,14,13,12  ; Back
+
+Color 31,31,31
+
+[MeshBuilder]
+
+Vertex  0,2.65,0
+Vertex  0,2.65,25
+Vertex  0,2.15,25
+Vertex  0,2.15,0
+
+Vertex   0,2.65,0
+Vertex -.5,2.65,0
+Vertex -.5,2.65,25
+Vertex   0,2.65,25
+
+Vertex  -.5,2.65,25
+Vertex  -.5,2.65,0
+Vertex  -.5,2.15,0
+Vertex  -.5,2.15,25
+
+Vertex   -.5,2.15,25
+Vertex   -.5,2.15,0
+Vertex    0,2.15,0
+Vertex    0,2.15,25
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Right
+Face 8,9,10,11    ; Left
+Face 12,13,14,15  ; Back
+
+Color 31,31,31
+
+[MeshBuilder]
+
+Vertex  0,2.15,6.5
+Vertex  0,2.15,18.5
+Vertex  0,0,18.5
+Vertex  0,0,6.5
+
+Vertex -.5,2.15,18.5
+Vertex -.5,2.15,6.5
+Vertex -.5,0,6.5
+Vertex -.5,0,18.5
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Right
+
+Color 31,31,31
+
+[MeshBuilder]
+
+Vertex  0.01,1.2274,5
+Vertex  0.01,1.2274,20
+Vertex  0.01,0.9226,20
+Vertex  0.01,0.9226,5
+
+Vertex  -.51,1.2274,20
+Vertex  -.51,1.2274,5
+Vertex  -.51,0.9226,5
+Vertex  -.51,0.9226,20
+
+Face 0,1,2,3
+Face 4,5,6,7
+
+[Texture]
+Load nc.bmp
+
+Coordinates  0  ,0,0
+Coordinates  1  ,30,0
+Coordinates  2  ,30,1
+Coordinates  3  ,0,1
+
+Coordinates  4  ,0,0
+Coordinates  5  ,30,0
+Coordinates  6  ,30,1
+Coordinates  7  ,0,1
+
+

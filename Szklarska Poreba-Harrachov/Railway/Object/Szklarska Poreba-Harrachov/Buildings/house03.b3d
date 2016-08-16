@@ -1,0 +1,87 @@
+[MeshBuilder]
+Vertex 0,0,9
+Vertex 0,3,9
+Vertex 0,3,0
+Vertex 0,0,0
+Face2 0,1,2,3
+[Texture]
+Load house03.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+[MeshBuilder]
+Vertex 4,0,9
+Vertex 4,3,9
+Vertex 4,3,0
+Vertex 4,0,0
+Face2 0,1,2,3
+[Texture]
+Load house03.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+;-
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,3,0
+Vertex 4,3,0
+Vertex 4,0,0
+Face2 0,1,2,3
+[Texture]
+Load house01.png
+Coordinates 0,0.6,1
+Coordinates 1,0.6,0.2
+Coordinates 2,0.4,0.2
+Coordinates 3,0.4,1
+[MeshBuilder]
+Vertex 0,0,9
+Vertex 0,3,9
+Vertex 4,3,9
+Vertex 4,0,9
+Face2 0,1,2,3
+[Texture]
+Load house01.png
+Coordinates 0,0.6,1
+Coordinates 1,0.6,0.2
+Coordinates 2,0.4,0.2
+Coordinates 3,0.4,1
+;-------------------------
+[MeshBuilder]
+Vertex 0,3,9.5
+Vertex 2,6,9.5
+Vertex 2,6,-0.5
+Vertex 0,3,-0.5
+Face2 0,1,2,3
+[Texture]
+Load house03_dach.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+[MeshBuilder]
+Vertex 4,3,9.5
+Vertex 2,6,9.5
+Vertex 2,6,-0.5
+Vertex 4,3,-0.5
+Face2 0,1,2,3
+[Texture]
+Load house03_dach.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+;--------------------------
+[MeshBuilder]
+Vertex 0,3,0
+Vertex 2,6,0
+Vertex 2,6,0
+Vertex 4,3,0
+Face2 0,1,2,3
+[Texture]
+Load house01.png
+Coordinates 0,0.6,1
+Coordinates 1,0.6,0.2
+Coordinates 2,0.4,0.2
+Coordinates 3,0.4,1

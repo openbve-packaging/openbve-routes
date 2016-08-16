@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex,-0.9,2.5,-1.35,
+AddVertex,-0.9,3.0,-1.35,
+AddVertex,-0.9,3.0,1.35,
+AddVertex,-0.9,2.5,1.35,
+AddFace2,0,1,2,3,
+LoadTexture,S904-7200Strap.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,3,0
+SetTextureCoordinates,3,3,1
+SetEmissiveColor,185,185,185
+SetDecalTransparentColor,255,0,0
+Translate,0.9,-2.9,0

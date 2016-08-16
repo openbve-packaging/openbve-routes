@@ -1,0 +1,71 @@
+[MeshBuilder]
+Vertex -1.22, -0.144, 0
+Vertex -1.22, -0.144, 25.2
+Vertex 1.22, -0.144, 25.2
+Vertex 1.22, -0.144, 0
+Face 0, 1, 2, 3
+Color 96,96,96
+
+[Texture]
+Load ..\Slab.bmp
+Coordinates 0, 0, 5
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 5
+
+[MeshBuilder]
+Vertex -1.22, -0.144, 0
+Vertex -1.22, -0.3, 0
+Vertex -1.9, -0.3, 0
+Vertex -1.22, -0.144, 25.2
+Vertex -1.22, -0.3, 25.2
+Vertex -1.9, -0.3, 25.2
+Face 0, 1, 4, 3
+Face 1, 2, 5, 4
+Color 96,96,96
+
+[Texture]
+Load ..\Slab2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0.1, 1
+Coordinates 2, 1, 1
+Coordinates 3, 0, 0
+Coordinates 4, 0.1, 0
+Coordinates 5, 1, 0
+
+[MeshBuilder]
+Vertex 1.22, -0.144, 0
+Vertex 1.22, -0.3, 0
+Vertex 1.9, -0.3, 0
+Vertex 1.22, -0.144, 25.2
+Vertex 1.22, -0.3, 25.2
+Vertex 1.9, -0.3, 25.2
+Face 1, 0, 3, 4
+Face 2, 1, 4, 5
+Color 96,96,96
+
+[Texture]
+Load ..\Slab2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0.1, 1
+Coordinates 2, 1, 1
+Coordinates 3, 0, 0
+Coordinates 4, 0.1, 0
+Coordinates 5, 1, 0
+
+[MeshBuilder]
+Vertex -0.746, 0, 0
+Vertex -0.746, 0, 25.5
+Vertex -0.686, 0, 25.5
+Vertex -0.686, 0, 0
+Face 0, 1, 2, 3
+Color 224,224,224
+
+[MeshBuilder]
+Vertex 0.686, 0, 0
+Vertex 0.686, 0, 25.5
+Vertex 0.746, 0, 25.5
+Vertex 0.746, 0, 0
+Face 0, 1, 2, 3
+Color 224,224,224
+

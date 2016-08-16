@@ -1,0 +1,26 @@
+[MeshBuilder]
+Vertex -20, -10, 0
+Vertex -20, 9, 0
+Vertex 30, 9, 0
+Vertex 30, -10, 0
+Face 0, 1, 2, 3
+[Texture]
+Load TunnEntquad.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0, 0, 0
+[MeshBuilder]
+Vertex -30, 9, 0
+Vertex -30, 12, 0
+Vertex 40, 12, 0
+Vertex 40, 9, 0
+Face 0, 1, 2, 3
+[Texture]
+Load verdelargo.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 10, 0
+Coordinates 3, 10, 1
+Transparent 0, 0, 0

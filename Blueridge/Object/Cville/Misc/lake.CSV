@@ -1,0 +1,16 @@
+CreateMeshbuilder,
+AddVertex,-20,0,-173,
+AddVertex,0,0,50,
+AddVertex,150,0,0,
+AddVertex,90,0,-175,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,lake.bmp
+SetTextureCoordinates,0,0,.8,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,.8,
+SetDecalTransparentColor,0,0,255,
+Rotate,0,0,1,0,
+Translate,0,1.5,150,
+

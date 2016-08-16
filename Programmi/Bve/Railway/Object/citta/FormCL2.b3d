@@ -1,0 +1,65 @@
+[MeshBuilder]
+Vertex -7.2, 0.6, 0
+Vertex -7.2, 0.6, 25.3
+Vertex -2.7, 0.6, 25.3
+Vertex -2.7, 0.6, 0
+Face 0, 1, 2, 3
+[Texture]
+Load FormC2.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -7.2, -0.3, 0
+Vertex -7.2, 0.6, 0
+Vertex -2.7, 0.6, 0
+Vertex -2.7, -0.3, 0
+Face 0, 1, 2, 3
+[Texture]
+Load FormSide2.bmp
+Coordinates 0, 3, 1
+Coordinates 1, 3, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -3.2,0.6,2.525
+Vertex -3.2,2.9,2.525
+Vertex -2,  2.9,3.725
+Vertex -2,  0.6,3.725
+Face 0,1,2,3
+[texture]
+Load People20.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex -3.4,0.6,12.525
+Vertex -3.4,2.9,12.525
+Vertex -2.2,2.9,13.725
+Vertex -2.2,0.6,13.725
+Face 0,1,2,3
+[texture]
+Load People21.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex -3.4,0.6,20.525
+Vertex -3.4,2.9,20.525
+Vertex -2.2,2.9,22.725
+Vertex -2.2,0.6,22.725
+Face 0,1,2,3
+[texture]
+Load People22.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255

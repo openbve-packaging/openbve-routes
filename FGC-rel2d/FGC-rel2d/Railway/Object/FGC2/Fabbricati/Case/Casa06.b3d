@@ -1,0 +1,596 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Casa scura con balconi
+; --------- Parete rontale ------------
+[MeshBuilder] ; Muro interrato
+Vertex 0, 0, -2
+Vertex 24, 0, -2
+Vertex 24, -4, -2
+Vertex 0, -4, -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load muro6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 6, 0
+Coordinates 2, 6, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; 1a fila Finestre P.t-P1
+Vertex 0, 7, -2
+Vertex 4, 7, -2
+Vertex 4, 0,  -2
+Vertex 0, 0,  -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load Fin-casa6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+[MeshBuilder] ; 1a fila Finestre P.2-P3
+Vertex 0, 14, -2
+Vertex 4, 14, -2
+Vertex 4, 7,  -2
+Vertex 0, 7,  -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load Fin-casa6a.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+[MeshBuilder] ; 2a fila Finestre P.t-P1
+Vertex 4, 7, -2
+Vertex 8, 7, -2
+Vertex 8, 0,  -2
+Vertex 4, 0,  -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load Fin-casa6L.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+[MeshBuilder] ; 2a fila Finestre P.2-P3
+Vertex 4, 14, -2
+Vertex 8, 14, -2
+Vertex 8, 7,  -2
+Vertex 4, 7,  -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load Fin-casa6aL.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+[MeshBuilder] ; 3a e 4a fila Finestre P.t
+Vertex 8, 3.5, -2
+Vertex 16, 3.5, -2
+Vertex 16, 0,  -2
+Vertex 8, 0,  -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load Fin-casa6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; 3a fila Finestre P.1-3
+Vertex 8, 14, -2
+Vertex 12, 14, -2
+Vertex 12, 3.5,  -2
+Vertex 8, 3.5,  -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load Fin-casa6a.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 3
+Coordinates 3, 0, 3
+
+[MeshBuilder] ; 4a fila Finestre P.1-3
+Vertex 12, 14, -2
+Vertex 16, 14, -2
+Vertex 16, 3.5,  -2
+Vertex 12, 3.5,  -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load Fin-casa6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 3
+Coordinates 3, 0, 3
+
+[MeshBuilder] ; 5a fila Finestre P.t-3
+Vertex 16, 14, -2
+Vertex 20, 14, -2
+Vertex 20, 0,  -2
+Vertex 16, 0,  -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load Fin-casa6L.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 4
+Coordinates 3, 0, 4
+
+[MeshBuilder] ; 6a fila Finestre P.t-3
+Vertex 20, 14, -2
+Vertex 24, 14, -2
+Vertex 24, 0,  -2
+Vertex 20, 0,  -2
+Face 0,1,2,3
+;translate 0,0,-25
+[texture]
+load Fin-casa6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 4
+Coordinates 3, 0, 4
+
+; --------------- Balconi --------------------
+
+; Piano terra ----------------
+[MeshBuilder] ; p.t.
+Cube 5.5,0.1,1
+color 238,226,211
+translate 6,0,-2.8
+[MeshBuilder] ; Ringhiera
+Vertex 0.5, 1, 2
+Vertex 0.5, 0, 2
+Vertex 0.5, 1, 0
+Vertex 0.5, 0, 0
+Vertex 11.5,  1, 0
+Vertex 11.5,  0, 0
+Vertex 11.52,  1, 2
+Vertex 11.5,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+[texture]
+load RingBalc.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 9, 0
+Coordinates 5, 9, 1
+Coordinates 6, 10, 0
+Coordinates 7, 10, 1
+translate 0,0.1,-3.8
+[MeshBuilder] ; Sfondo Ringhiera
+Vertex 0.51, 1, 1.99
+Vertex 0.51, 0, 1.99
+Vertex 0.51, 1, 0
+Vertex 0.51, 0, 0
+Vertex 11.49,  1, 0
+Vertex 11.49,  0, 0
+Vertex 11.49,  1, 2
+Vertex 11.49,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+color 127,127,127,58
+translate 0,0.1,-3.7
+
+[MeshBuilder]
+Cube 5.5,0.1,1
+color 238,226,211
+translate 18,0,-2.8
+[MeshBuilder] ; Ringhiera
+Vertex 0.5, 1, 2
+Vertex 0.5, 0, 2
+Vertex 0.5, 1, 0
+Vertex 0.5, 0, 0
+Vertex 11.5,  1, 0
+Vertex 11.5,  0, 0
+Vertex 11.52,  1, 2
+Vertex 11.5,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+[texture]
+load RingBalc.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 9, 0
+Coordinates 5, 9, 1
+Coordinates 6, 10, 0
+Coordinates 7, 10, 1
+translate 12,0.1,-3.8
+[MeshBuilder] ; Sfondo Ringhiera
+Vertex 0.51, 1, 1.99
+Vertex 0.51, 0, 1.99
+Vertex 0.51, 1, 0
+Vertex 0.51, 0, 0
+Vertex 11.49,  1, 0
+Vertex 11.49,  0, 0
+Vertex 11.49,  1, 2
+Vertex 11.49,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+color 127,127,127,58
+translate 12,0.1,-3.7
+
+; Piano primo ----------------
+[MeshBuilder] ; p.1
+Cube 5.5,0.1,1
+color 238,226,211
+translate 6,3.5,-2.8
+[MeshBuilder] ; Ringhiera
+Vertex 0.5, 1, 2
+Vertex 0.5, 0, 2
+Vertex 0.5, 1, 0
+Vertex 0.5, 0, 0
+Vertex 11.5,  1, 0
+Vertex 11.5,  0, 0
+Vertex 11.52,  1, 2
+Vertex 11.5,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+[texture]
+load RingBalc.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 9, 0
+Coordinates 5, 9, 1
+Coordinates 6, 10, 0
+Coordinates 7, 10, 1
+translate 0,3.6,-3.8
+[MeshBuilder] ; Sfondo Ringhiera
+Vertex 0.51, 1, 1.99
+Vertex 0.51, 0, 1.99
+Vertex 0.51, 1, 0
+Vertex 0.51, 0, 0
+Vertex 11.49,  1, 0
+Vertex 11.49,  0, 0
+Vertex 11.49,  1, 2
+Vertex 11.49,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+color 127,127,127,58
+translate 0,3.6,-3.7
+
+[MeshBuilder]
+Cube 5.5,0.1,1
+color 238,226,211
+translate 18,3.5,-2.8
+[MeshBuilder] ; Ringhiera
+Vertex 0.5, 1, 2
+Vertex 0.5, 0, 2
+Vertex 0.5, 1, 0
+Vertex 0.5, 0, 0
+Vertex 11.5,  1, 0
+Vertex 11.5,  0, 0
+Vertex 11.52,  1, 2
+Vertex 11.5,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+[texture]
+load RingBalc.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 9, 0
+Coordinates 5, 9, 1
+Coordinates 6, 10, 0
+Coordinates 7, 10, 1
+translate 12,3.6,-3.8
+[MeshBuilder] ; Sfondo Ringhiera
+Vertex 0.51, 1, 1.99
+Vertex 0.51, 0, 1.99
+Vertex 0.51, 1, 0
+Vertex 0.51, 0, 0
+Vertex 11.49,  1, 0
+Vertex 11.49,  0, 0
+Vertex 11.49,  1, 2
+Vertex 11.49,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+color 127,127,127,58
+translate 12,3.6,-3.7
+
+
+
+
+
+
+
+
+
+
+
+; Piano secondo ----------------
+[MeshBuilder] ; p.2
+Cube 5.5,0.1,1
+color 238,226,211
+translate 6,7,-2.8
+[MeshBuilder] ; Ringhiera
+Vertex 0.5, 1, 2
+Vertex 0.5, 0, 2
+Vertex 0.5, 1, 0
+Vertex 0.5, 0, 0
+Vertex 11.5,  1, 0
+Vertex 11.5,  0, 0
+Vertex 11.52,  1, 2
+Vertex 11.5,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+[texture]
+load RingBalc.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 9, 0
+Coordinates 5, 9, 1
+Coordinates 6, 10, 0
+Coordinates 7, 10, 1
+translate 0,7.1,-3.8
+[MeshBuilder] ; Sfondo Ringhiera
+Vertex 0.51, 1, 1.99
+Vertex 0.51, 0, 1.99
+Vertex 0.51, 1, 0
+Vertex 0.51, 0, 0
+Vertex 11.49,  1, 0
+Vertex 11.49,  0, 0
+Vertex 11.49,  1, 2
+Vertex 11.49,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+color 127,127,127,58
+translate 0,7.1,-3.7
+
+[MeshBuilder]
+Cube 5.5,0.1,1
+color 238,226,211
+translate 18,7,-2.8
+[MeshBuilder] ; Ringhiera
+Vertex 0.5, 1, 2
+Vertex 0.5, 0, 2
+Vertex 0.5, 1, 0
+Vertex 0.5, 0, 0
+Vertex 11.5,  1, 0
+Vertex 11.5,  0, 0
+Vertex 11.52,  1, 2
+Vertex 11.5,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+[texture]
+load RingBalc.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 9, 0
+Coordinates 5, 9, 1
+Coordinates 6, 10, 0
+Coordinates 7, 10, 1
+translate 12,7.1,-3.8
+[MeshBuilder] ; Sfondo Ringhiera
+Vertex 0.51, 1, 1.99
+Vertex 0.51, 0, 1.99
+Vertex 0.51, 1, 0
+Vertex 0.51, 0, 0
+Vertex 11.49,  1, 0
+Vertex 11.49,  0, 0
+Vertex 11.49,  1, 2
+Vertex 11.49,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+color 127,127,127,58
+translate 12,7.1,-3.7
+
+; Piano terzo ----------------
+[MeshBuilder] ; p.3
+Cube 5.5,0.1,1
+color 238,226,211
+translate 6,10.5,-2.8
+[MeshBuilder] ; Ringhiera
+Vertex 0.5, 1, 2
+Vertex 0.5, 0, 2
+Vertex 0.5, 1, 0
+Vertex 0.5, 0, 0
+Vertex 11.5,  1, 0
+Vertex 11.5,  0, 0
+Vertex 11.52,  1, 2
+Vertex 11.5,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+[texture]
+load RingBalc.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 9, 0
+Coordinates 5, 9, 1
+Coordinates 6, 10, 0
+Coordinates 7, 10, 1
+translate 0,10.6,-3.8
+[MeshBuilder] ; Sfondo Ringhiera
+Vertex 0.51, 1, 1.99
+Vertex 0.51, 0, 1.99
+Vertex 0.51, 1, 0
+Vertex 0.51, 0, 0
+Vertex 11.49,  1, 0
+Vertex 11.49,  0, 0
+Vertex 11.49,  1, 2
+Vertex 11.49,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+color 127,127,127,58
+translate 0,10.6,-3.7
+
+[MeshBuilder]
+Cube 5.5,0.1,1
+color 238,226,211
+translate 18,10.5,-2.8
+[MeshBuilder] ; Ringhiera
+Vertex 0.5, 1, 2
+Vertex 0.5, 0, 2
+Vertex 0.5, 1, 0
+Vertex 0.5, 0, 0
+Vertex 11.5,  1, 0
+Vertex 11.5,  0, 0
+Vertex 11.52,  1, 2
+Vertex 11.5,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+[texture]
+load RingBalc.bmp
+transparent 0,0,255
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 9, 0
+Coordinates 5, 9, 1
+Coordinates 6, 10, 0
+Coordinates 7, 10, 1
+translate 12,10.6,-3.8
+[MeshBuilder] ; Sfondo Ringhiera
+Vertex 0.51, 1, 1.99
+Vertex 0.51, 0, 1.99
+Vertex 0.51, 1, 0
+Vertex 0.51, 0, 0
+Vertex 11.49,  1, 0
+Vertex 11.49,  0, 0
+Vertex 11.49,  1, 2
+Vertex 11.49,  0, 2
+Face2 0,2,3,1
+Face2 2,4,5,3
+Face2 4,6,7,5
+color 127,127,127,58
+translate 12,10.6,-3.7
+
+
+; -------- Parete laterale sinistra --------
+[MeshBuilder] 
+Vertex 0, 14, 8
+Vertex 0, 14, -2
+Vertex 0, -4, -2
+Vertex 0, -4, 8
+Face 0,1,2,3
+[texture]
+load Muro6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 3, 0
+Coordinates 2, 3, 5
+Coordinates 3, 0, 5
+
+; -------- Parete laterale destra --------
+[MeshBuilder] ; Muro
+Vertex 24, 14, 8
+Vertex 24, 14, -2
+Vertex 24, -4, -2
+Vertex 24, -4, 8
+Face 3,2,1,0
+[texture]
+load Muro6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 3, 0
+Coordinates 2, 3, 5
+Coordinates 3, 0, 5
+
+[MeshBuilder] ; Finestre
+Vertex 24.05, 14, 7
+Vertex 24.05, 14, -1
+Vertex 24.05, 0, -1
+Vertex 24.05, 0, 7
+Face 3,2,1,0
+[texture]
+load Fin-casa6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 4
+Coordinates 3, 0, 4
+
+; Montanti lungo la facciata
+[MeshBuilder]
+Cube 0.05,7, 0.05
+color 215,208,210
+translate 0.5,7.1,-3.8
+[MeshBuilder]
+Cube 0.05,7, 0.05
+color 215,208,210
+translate 4.0,7.1,-3.8
+[MeshBuilder]
+Cube 0.05,7, 0.05
+color 215,208,210
+translate 8.0,7.1,-3.8
+[MeshBuilder]
+Cube 0.05,7, 0.05
+color 215,208,210
+translate 11.5,7.1,-3.8
+
+[MeshBuilder]
+Cube 0.05,7, 0.05
+color 215,208,210
+translate 12.5,7.1,-3.8
+[MeshBuilder]
+Cube 0.05,7, 0.05
+color 215,208,210
+translate 16,7.1,-3.8
+[MeshBuilder]
+Cube 0.05,7, 0.05
+color 215,208,210
+translate 20,7.1,-3.8
+[MeshBuilder]
+Cube 0.05,7, 0.05
+color 215,208,210
+translate 23.5,7.1,-3.8
+
+
+; --------- Tetto -------
+[MeshBuilder]
+Cube 12.4,0.14, 6.5
+color 238,226,211
+translate 12,14,2.5
+
+[MeshBuilder] ; vano ascensore
+Cube 1.2,1.1,1.6
+color 255,255,226
+translate 12,15.0,5.5
+[MeshBuilder]
+Cube 1.5,0.08,1.9
+color 238,226,211
+translate 12,16.0,5.5

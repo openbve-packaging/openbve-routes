@@ -1,0 +1,14 @@
+;Készítette: mamutsegg
+
+[Meshbuilder]
+Vertex -6.05, -0.03, 25.5
+Vertex 6.05, -0.03, 25.5
+Vertex 6.05, -0.03, -0.5
+Vertex -6.05, -0.03, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load macskako.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 6, 0
+Coordinates 2, 6, 13
+Coordinates 3, 0, 13

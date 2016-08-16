@@ -1,0 +1,89 @@
+[Meshbuilder]
+vertex 35,0,10;0
+vertex 35,20,10;1
+vertex 40,20,10;2
+vertex 40,0,10;3
+face 0,1,2,3
+
+[texture]
+Load ..\wood6.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,0
+
+[Meshbuilder]
+vertex 37,0,5;0
+vertex 37,17,5;1
+vertex 42,17,5;2
+vertex 42,0,5;3
+face 0,1,2,3,
+
+[texture]
+Load ..\wood3.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,0
+
+;rf
+[meshbuilder]
+vertex 32,4,8
+vertex 5,4,8
+vertex 32,-3,8
+vertex 5,-3,8
+face 2,3,1,0
+
+[texture]
+Load koya6.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+;rs
+[meshbuilder]
+vertex 5,4,8
+vertex 5,4,20
+vertex 5,-3,8
+vertex 5,-3,20
+face 2,3,1,0
+
+[texture]
+Load ..\hnaby.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+;rf
+[meshbuilder]
+vertex 36,4,-10
+vertex 22,4,-10
+vertex 36,-3,-10
+vertex 22,-3,-10
+face 2,3,1,0
+
+[texture]
+Load koya.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+
+;rs
+[meshbuilder]
+vertex 22,4,-10
+vertex 22,4,0
+vertex 22,-3,-10
+vertex 22,-3,0
+face 2,3,1,0
+
+[texture]
+Load ..\hnaby.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Coordinates 3,1,1

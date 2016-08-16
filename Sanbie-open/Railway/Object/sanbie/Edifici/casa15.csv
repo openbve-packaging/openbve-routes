@@ -1,0 +1,77 @@
+;laterale
+CreateMeshBuilder,
+AddVertex,-15,20,0.6,
+AddVertex,1,20,0.6,
+AddVertex,0,0,0.6,
+AddVertex,-15,0,0.6,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,casa15a.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+;fronte
+CreateMeshBuilder,
+AddVertex,0,20,-1.1,
+AddVertex,0,20,31,
+AddVertex,0,0,31,
+AddVertex,0,0,-1.1,
+AddFace2,3,2,1,0
+GenerateNormals,
+
+LoadTexture,casa15.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+
+;tetto
+CreateMeshBuilder,
+Cube, 7.5,0.5,15.1,
+Translate, -7,20,15
+GenerateNormals,
+Setcolor,100,60,0,
+
+;tetto
+CreateMeshBuilder,
+Cube, 7,0.25,12,
+Translate, -7,20.75,15
+GenerateNormals,
+Setcolor,100,100,120,
+
+;parte piatta tetto
+CreateMeshBuilder,
+AddVertex,-14,21,0.6,
+AddVertex,0,21,0.6,
+AddVertex,0,21,30,
+AddVertex,-14,21,30,
+AddFace2,3,2,1,0
+GenerateNormals,
+Setcolor,100,100,120,
+
+;spiovente tetto
+CreateMeshBuilder,
+AddVertex,-14,21,0.6,
+AddVertex,0,21,0.6,
+AddVertex,-7,23,5,
+AddVertex,-7.01,23,5,
+AddFace2,3,2,1,0
+GenerateNormals,
+Setcolor,100,100,120,
+
+;spiovente tetto
+CreateMeshBuilder,
+AddVertex,0,21,0.6,
+AddVertex,-7,23,5,
+AddVertex,-7.01,23,25.6,
+AddVertex,0,21,30,
+
+AddFace2,3,2,1,0
+GenerateNormals,
+Setcolor,100,100,120,

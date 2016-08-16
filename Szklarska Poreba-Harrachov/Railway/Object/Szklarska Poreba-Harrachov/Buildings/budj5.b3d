@@ -1,0 +1,146 @@
+[meshbuilder]
+vertex 0, 0, 0
+vertex 0, 3, 0
+vertex 0, 3, 10	
+vertex 0, 0, 10
+face2 0,1,2,3
+[Texture]
+Load budj5_sciana.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 3, 0, 0
+vertex 3, 3, 0
+vertex 0, 3, 0	
+vertex 0, 0, 0
+face2 0,1,2,3
+[Texture]
+Load budj5_sciana2.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 3, 0, 10
+vertex 3, 3, 10
+vertex 0, 3, 10	
+vertex 0, 0, 10
+face2 3,2,1,0
+[Texture]
+Load budj5_sciana3.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 3, 3, 10
+vertex 1.5, 5, 10
+vertex 1.5, 5, 10	
+vertex 0, 3, 10
+face2 3,2,1,0
+[Texture]
+Load budj5_sciana3.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 3, 3, 0
+vertex 1.5, 5, 0
+vertex 1.5, 5, 0	
+vertex 0, 3, 0
+face2 3,2,1,0
+[Texture]
+Load budj5_sciana3.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+;------------------------------
+[meshbuilder]
+vertex 0, 3, -1
+vertex 1.5, 5, -1
+vertex 1.5, 5, 11	
+vertex 0, 3, 11
+face2 3,2,1,0
+[Texture]
+Load budj5_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 3, 3, -1
+vertex 1.5, 5, -1
+vertex 1.5, 5, 11	
+vertex 3, 3, 11
+face2 0,1,2,3
+[Texture]
+Load budj5_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+;-----WIEZYCZKA-----------
+[meshbuilder]
+vertex 0, 3, 3
+vertex 0, 5, 4.85
+vertex 0, 5, 4.85
+vertex 0, 3, 6.7
+face2 0,1,2,3
+[Texture]
+Load budj5_dach.png
+Coordinates 0, 0.35, 1
+Coordinates 1, 0.35, 0
+Coordinates 2, 0.2, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 3, 3
+vertex 0, 5, 4.85
+vertex 3, 5, 4.85
+vertex 3, 3, 3
+face2 0,1,2,3
+[Texture]
+Load budj5_dach.png
+Coordinates 0, 0.5, 1
+Coordinates 1, 0.5, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 3, 6.7
+vertex 0, 5, 4.85
+vertex 3, 5, 4.85
+vertex 3, 3, 6.7
+face2 3,2,1,0
+[Texture]
+Load budj5_dach.png
+Coordinates 0, 0.5, 1
+Coordinates 1, 0.5, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[meshbuilder]
+vertex -0.01, 3.5, 4.3
+vertex -0.01, 4.3, 4.3
+vertex -0.01, 4.3, 5.4
+vertex -0.01, 3.5, 5.4
+face2 0,1,2,3
+[Texture]
+Load kpn.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255

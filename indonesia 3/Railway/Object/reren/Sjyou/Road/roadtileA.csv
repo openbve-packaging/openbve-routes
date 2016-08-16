@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+ADDVertex,-30, 0, 0,
+AddVertex,  0, 0, 0,
+AddVertex,  0, 0,-150,
+AddVertex,-30, 0,-150,
+AddFace,0,1,2,3,
+LoadTexture,roadA.bmp
+SetTextureCoordinates,0, 0.2, 0,
+SetTextureCoordinates,1, 0.45, 0,
+SetTextureCoordinates,2, 0.45, 2,
+SetTextureCoordinates,3, 0.2, 2,
+Setcolor,155,150,150,
+GenerateNormals,

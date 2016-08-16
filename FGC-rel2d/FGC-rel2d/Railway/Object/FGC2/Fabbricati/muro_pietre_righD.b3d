@@ -1,0 +1,348 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Muro di pietre su lato destro in curva con alberi e cespugli
+; lunghezza mt 50
+
+[MeshBuilder] ; Muro interrato - tratto 5
+vertex 0 ,  0.4 , 2.5
+vertex 0 ,  0.4 , -2.5
+vertex 0 , -1.4 , -2.5
+vertex 0 , -1.4 , 2.5
+vertex 0.8 , 0.4 , 2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , 2.5
+vertex 0.8 , -1.4 , -2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+rotate 0,1,0,-11
+
+[MeshBuilder] ; Muro interrato - tratto 4
+vertex 0 ,  0.4 , 2.5
+vertex 0 ,  0.4 , -2.5
+vertex 0 , -1.4 , -2.5
+vertex 0 , -1.4 , 2.5
+vertex 0.8 , 0.4 , 2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , 2.5
+vertex 0.8 , -1.4 , -2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+rotate 0,1,0,-7
+translate -0.78,0,4.9
+
+[MeshBuilder] ; Muro interrato - tratto 3
+vertex 0 ,  0.4 , 2.5
+vertex 0 ,  0.4 , -2.5
+vertex 0 , -1.4 , -2.5
+vertex 0 , -1.4 , 2.5
+vertex 0.8 , 0.4 , 2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , 2.5
+vertex 0.8 , -1.4 , -2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+rotate 0,1,0,-2
+translate -1.15,0,9.8
+
+[MeshBuilder] ; Muro interrato - tratto 2
+vertex 0 ,  0.4 , 2.5
+vertex 0 ,  0.4 , -2.5
+vertex 0 , -1.4 , -2.5
+vertex 0 , -1.4 , 2.5
+vertex 0.8 , 0.4 , 2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , 2.5
+vertex 0.8 , -1.4 , -2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+rotate 0,1,0,2
+translate -1.15,0,14.7
+
+[MeshBuilder] ; Muro interrato - tratto 1
+vertex 0 ,  0.4 , 2.5
+vertex 0 ,  0.4 , -2.5
+vertex 0 , -1.4 , -2.5
+vertex 0 , -1.4 , 2.5
+vertex 0.8 , 0.4 , 2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , 2.5
+vertex 0.8 , -1.4 , -2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+rotate 0,1,0,7
+translate -0.78,0,19.6
+
+[MeshBuilder] ; Muro interrato - tratto 6
+vertex 0 ,  0.4 , 2.5
+vertex 0 ,  0.4 , -2.5
+vertex 0 , -1.4 , -2.5
+vertex 0 , -1.4 , 2.5
+vertex 0.8 , 0.4 , 2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , 2.5
+vertex 0.8 , -1.4 , -2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+rotate 0,1,0,-15
+translate 1.11,0,-4.8
+
+[MeshBuilder] ; Muro interrato - tratto 7
+vertex 0 ,  0.4 , 2.5
+vertex 0 ,  0.4 , -2.5
+vertex 0 , -1.4 , -2.5
+vertex 0 , -1.4 , 2.5
+vertex 0.8 , 0.4 , 2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , 2.5
+vertex 0.8 , -1.4 , -2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+rotate 0,1,0,-20
+translate 2.6,0,-9.5
+
+[MeshBuilder] ; Muro interrato - tratto 8
+vertex 0 ,  0.4 , 2.5
+vertex 0 ,  0.4 , -2.5
+vertex 0 , -1.4 , -2.5
+vertex 0 , -1.4 , 2.5
+vertex 0.8 , 0.4 , 2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , 2.5
+vertex 0.8 , -1.4 , -2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+rotate 0,1,0,-25
+translate 4.5,0,-14.1
+
+[MeshBuilder] ; Muro interrato - tratto 9
+vertex 0 ,  0.4 , 2.5
+vertex 0 ,  0.4 , -2.5
+vertex 0 , -1.4 , -2.5
+vertex 0 , -1.4 , 2.5
+vertex 0.8 , 0.4 , 2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , 2.5
+vertex 0.8 , -1.4 , -2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 1, 0.33
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 1, 0.52
+coordinates 6, 0, 1
+coordinates 7, 1, 1
+rotate 0,1,0,-30
+translate 6.8,0,-18.5
+
+
+[MeshBuilder] ; Inizio muro interrato
+vertex 0 ,  0.4 , -2.5
+vertex 0.8 , 0.4 , -2.5
+vertex 0.8 , -1.4 , -2.5
+vertex 0 , -1.4 , -2.5
+Face 0,1,2,3
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.16
+coordinates 1, 0.2, 0.16
+coordinates 2, 0.2, 1
+coordinates 3, 0, 1
+rotate 0,1,0,-30
+translate 6.8,0,-18.5
+
+[MeshBuilder] ; Cespuglio
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,-55
+Translate 12.6,-1.0,-22
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Cespuglio
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,-55
+Translate 8.6,-1.0,-15
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Cespuglio
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,0
+Translate 3.6,-1.0,0
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Cespuglio
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,-45
+Translate 4.5,-1.0,-5
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Cespuglio
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,-35
+Translate 2.5,-1.0,7
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Cespuglio
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,-30
+Translate 2.5,-1.0,17
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+
+
+
+
+

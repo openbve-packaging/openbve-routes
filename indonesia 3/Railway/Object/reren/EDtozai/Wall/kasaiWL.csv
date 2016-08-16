@@ -1,0 +1,43 @@
+CreateMeshBuilder,
+AddVertex,-7.2, 1.4, 0,
+AddVertex,-7.2, 4.5, 0,
+AddVertex,-7.2, 4.5, 25.2,
+AddVertex,-7.2, 1.4, 25.2,
+AddFace,0,1,2,3,
+GenerateNormals,
+Loadtexture,kasaiWa.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,-7.17, 3.19, 4.2,
+AddVertex,-7.17, 3.58, 4.2,
+AddVertex,-7.17, 3.58, 6.6,
+AddVertex,-7.17, 3.19, 6.6,
+AddFace,0,1,2,3
+LoadTexture,../sta\kasai2.bmp
+GenerateNormals,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,-7.2, 1.4, 0
+AddVertex,-6.8, 1.4, 0
+AddVertex,-6.8, 1.0, 0
+AddVertex,-6.8, 1.0, 25.1
+AddVertex,-6.8, 1.4, 25.1
+AddVertex,-7.2, 1.4, 25.1
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+LoadTexture,boadwall.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,1,1,
+GenerateNormals,

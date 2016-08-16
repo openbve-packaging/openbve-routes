@@ -1,0 +1,44 @@
+CreateMeshBuilder
+AddVertex,5.5, 1.1, 0
+AddVertex,5.5, 4.7, 0
+AddVertex,5.5, 4.7, 25.2
+AddVertex,5.5, 1.1, 25.2
+AddFace,3,2,1,0
+LoadTexture,kudanWall1.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 22, 0
+SetTextureCoordinates,3, 22, 1
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,5.48, 3.5, 15.5
+AddVertex,5.48, 3.5, 18.5
+AddVertex,5.48, 2.8, 18.5
+AddVertex,5.48, 2.8, 15.5
+AddFace,3,2,1,0
+LoadTexture,../Fpanel\kudan.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,0.3, 1.1, 0.2
+AddVertex,0, 1.1, 0.2
+AddVertex,0, 1.1, 2.2
+AddVertex,0, 3.8, 2.2
+AddVertex,0, 3.8, 0.2
+AddVertex,0.3, 3.8, 0.2
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,../sta/kyoutupole.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0.65
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetTextureCoordinates,4,1,0.65
+SetTextureCoordinates,5,1,1
+GenerateNormals
+Translate,5.2,0,0

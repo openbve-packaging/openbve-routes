@@ -1,0 +1,237 @@
+;Nagyvárad tér állomás 22
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;peron fölötti födém
+[MeshBuilder]
+;vízszintes síkú rész
+Vertex   3.0, 4.0, -0.10
+Vertex   3.0, 4.0, 25.10
+Vertex  -4.0, 4.0, 25.10
+Vertex  -4.0, 4.0, -0.10
+Vertex -12.035, 4.0, -0.10
+Vertex -13.022, 4.0, 25.10
+Vertex -20.000, 4.0, 25.10
+Vertex -20.000, 4.0, -0.10
+;függõleges síkú rész
+Vertex  -4.0, 4.00, -0.10
+Vertex  -4.0, 4.00, 25.10
+Vertex  -4.0, 4.40, 25.10
+Vertex  -4.0, 4.40, -0.10
+Vertex -12.035, 4.00, -0.10
+Vertex -13.022, 4.00, 25.10
+Vertex -13.022, 4.40, 25.10
+Vertex -12.035, 4.40, -0.10
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 15,14,13,12
+[Texture]
+Load mh_06_nv_fodem_01.bmp
+Coordinates 0, 1.0, 3.0
+Coordinates 1, 1.0, 0.0
+Coordinates 2, 0.0, 0.0
+Coordinates 3, 0.0, 3.0
+Coordinates 4, 1.0, 3.0
+Coordinates 5, 1.0, 0.0
+Coordinates 6, 0.0, 0.0
+Coordinates 7, 0.0, 3.0
+Coordinates 8, 1.0, 3.0
+Coordinates 9, 1.0, 0.0
+Coordinates 10, 0.0, 0.0
+Coordinates 11, 0.0, 3.0
+Coordinates 12, 1.0, 2.0
+Coordinates 13, 1.0, 0.0
+Coordinates 14, 0.0, 0.0
+Coordinates 15, 0.0, 2.0
+
+;--------------------------------------------------
+
+;felsõ födém
+
+[MeshBuilder]
+Vertex  3.0, 7.40, -1.50
+Vertex  3.0, 7.40, 24.50
+Vertex -20.0, 7.40, 24.50
+Vertex -20.0, 7.40, -1.50
+Face 0,1,2,3
+color 100,100,100
+
+;--------------------------------------------------
+
+;világítás
+;merõleges
+[MeshBuilder]
+Vertex -2.40, 3.97, 00.60
+Vertex -2.40, 3.97, 25.60
+Vertex -1.60, 3.97, 25.60
+Vertex -1.60, 3.97, 00.60
+Vertex -3.60, 3.97, 0.60
+Vertex -3.60, 3.97, 25.60
+Vertex -2.80, 3.97, 25.60
+Vertex -2.80, 3.97, 0.60
+Vertex -13.64, 3.97, 0.60
+Vertex -14.63, 3.97, 25.60
+Vertex -15.43, 3.97, 25.60
+Vertex -14.44, 3.97, 0.60
+Vertex -12.44, 3.97, 0.60
+Vertex -13.43, 3.97, 25.60
+Vertex -14.23, 3.97, 25.60
+Vertex -13.24, 3.97, 0.60
+Face 3,2,1,0
+Face 7,6,5,4
+Face 8,9,10,11
+Face 12,13,14,15
+[Texture]
+Load mh_06_nv_vilagitas_01.bmp
+Coordinates 0, 0.0, 0.0
+Coordinates 1, 0.0, 15.0
+Coordinates 2, 1.0, 15.0
+Coordinates 3, 1.0, 0.0
+Coordinates 4, 0.0, 0.0
+Coordinates 5, 0.0, 15.0
+Coordinates 6, 1.0, 15.0
+Coordinates 7, 1.0, 0.0
+Coordinates 8, 0.0, 0.0
+Coordinates 9, 0.0, 15.0
+Coordinates 10, 1.0, 15.0
+Coordinates 11, 1.0, 0.0
+Coordinates 12, 0.0, 0.0
+Coordinates 13, 0.0, 15.0
+Coordinates 14, 1.0, 15.0
+Coordinates 15, 1.0, 0.0
+transparent 0,0,255
+
+;--------------------------------------------------
+
+;korlátok
+
+;jobb
+[MeshBuilder]
+Vertex -4.0, 4.40, 00.0
+Vertex -4.0, 5.40, 00.0
+Vertex -4.0, 5.40, 25.0
+Vertex -4.0, 4.40, 25.0
+Vertex -12.035, 4.40, 00.0
+Vertex -12.035, 5.40, 00.0
+Vertex -13.022, 5.40, 25.0
+Vertex -13.022, 4.40, 25.0
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_06_nv_korlat_01.bmp
+Coordinates 0, 0.0, 1.0
+Coordinates 1, 0.0, 0.0
+Coordinates 2,20.0, 0.0
+Coordinates 3,20.0, 1.0
+Coordinates 4, 0.0, 1.0
+Coordinates 5, 0.0, 0.0
+Coordinates 6,20.0, 0.0
+Coordinates 7,20.0, 1.0
+Transparent 0,0,255
+
+;üveg
+[MeshBuilder]
+Vertex -3.98, 4.50, 0.0
+Vertex -3.98, 5.40, 0.0
+Vertex -3.98, 5.40, 25.0
+Vertex -3.98, 4.50, 25.0
+Vertex -12.055, 4.50, 0.0
+Vertex -12.055, 5.40, 0.0
+Vertex -13.042, 5.40, 25.0
+Vertex -13.042, 4.50, 25.0
+Face 3,2,1,0
+Face 4,5,6,7
+color 133,133,133,128
+
+;--------------------------------------------------
+
+;térkép
+
+[Meshbuilder]
+cube 0.04, 1.145, 0.04
+color 128,130,104
+translate -7.0, 2.265, 11.21
+
+[Meshbuilder]
+cube 0.04, 1.145, 0.04
+color 128,130,104
+translate -7.0, 2.265, 13.79
+
+[Meshbuilder]
+cube 0.04, 0.04, 1.25
+color 128,130,104
+translate -7.0, 1.50, 12.50
+
+[Meshbuilder]
+cube 0.04, 0.04, 1.25
+color 128,130,104
+translate -7.0, 3.37, 12.50
+
+[Meshbuilder]
+Vertex -6.96, 1.54, 11.25
+Vertex -6.96, 1.54, 13.75
+Vertex -6.96, 3.34, 13.75
+Vertex -6.96, 3.34, 11.25
+Vertex -7.04, 1.54, 11.25
+Vertex -7.04, 1.54, 13.75
+Vertex -7.04, 3.34, 13.75
+Vertex -7.04, 3.34, 11.25
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load ..\terkep_02.bmp
+Coordinates 0, 0.0, 1.0
+Coordinates 1, 1.0, 1.0
+Coordinates 2, 1.0, 0.0
+Coordinates 3, 0.0, 0.0
+Coordinates 4, 1.0, 1.0
+Coordinates 5, 0.0, 1.0
+Coordinates 6, 0.0, 0.0
+Coordinates 7, 1.0, 0.0
+
+;--------------------------------------------------
+
+;tûzcsap
+
+[Meshbuilder]
+Vertex -6.96, 1.10, 13.83
+Vertex -6.96, 1.10, 14.43
+Vertex -6.96, 3.45, 14.43
+Vertex -6.96, 3.45, 13.83
+Vertex -7.96, 1.10, 13.83
+Vertex -7.96, 1.10, 14.43
+Vertex -7.96, 3.45, 14.43
+Vertex -7.96, 3.45, 13.83
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_06_nv_oldalfal_05.bmp
+Coordinates 0, 0.0, 1.0
+Coordinates 1, 1.0, 1.0
+Coordinates 2, 1.0, 0.0
+Coordinates 3, 0.0, 0.0
+Coordinates 4, 0.0, 1.0
+Coordinates 5, 1.0, 1.0
+Coordinates 6, 1.0, 0.0
+Coordinates 7, 0.0, 0.0
+
+[Meshbuilder]
+Vertex -6.96, 1.10, 13.83
+Vertex -7.96, 1.10, 13.83
+Vertex -7.96, 3.45, 13.83
+Vertex -6.96, 3.45, 13.83
+Vertex -6.96, 1.10, 14.43
+Vertex -7.96, 1.10, 14.43
+Vertex -7.96, 3.45, 14.43
+Vertex -6.96, 3.45, 14.43
+Face 0,1,2,3
+Face 7,6,5,4
+color 128,130,104
+
+;--------------------------------------------------
+
+;táblák
+
+

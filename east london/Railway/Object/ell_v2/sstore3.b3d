@@ -1,0 +1,12 @@
+[MeshBuilder]
+Vertex 100,5,0
+Vertex 100,-0.5,0
+Vertex 8,-0.5,0
+Vertex 8,5,0
+Face 0,1,2,3
+[Texture]
+load stone.bmp
+Coordinates 0,100,0
+Coordinates 1,100,4
+Coordinates 2,0,4
+Coordinates 3,0,0

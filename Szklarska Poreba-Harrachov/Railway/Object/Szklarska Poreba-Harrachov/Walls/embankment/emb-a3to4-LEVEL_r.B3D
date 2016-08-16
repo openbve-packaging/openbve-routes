@@ -1,0 +1,137 @@
+;description=created for Route Builder 
+;author=p barnett..."The Barn"
+;copyright= The Barn at www.class50-hoover-bashers.com
+;created with Milkshape 3d and generated using MS3D-CSV Converter by David White at http://homepage.ntlworld.com/zerosignal/bve
+;also using SMACES "object converter" to mirror,move and convert
+;June 2005
+
+[MeshBuilder]
+Vertex  7.42 , -4.67 ,  24.94 
+Vertex  7.42 , -4.67 ,  0.02 
+Vertex  6.24 , -2.71 ,  24.94 
+Vertex  6.24 , -2.71 ,  0.02 
+Vertex  5.25 , -1.53 ,  0.02 
+Vertex  5.25 , -1.53 ,  24.94 
+Vertex  4.46 , -0.87 ,  24.94 
+Vertex  4.46 , -0.87 ,  0.02 
+Vertex  3.41 , -0.36 ,  0.02 
+Vertex  3.41 , -0.36 ,  24.94 
+Vertex  1.95 , -0.36 ,  24.94 
+Vertex  1.95 , -0.36 ,  0.02 
+Vertex  6.24 , -2.71 ,  0.02 
+Vertex  7.42 , -4.67 ,  0.02 
+Vertex  7.42 , -5.62 , -0.32 
+Vertex  6.24 , -3.67 , -0.32 
+Vertex  5.25 , -1.53 ,  0.02 
+Vertex  5.25 , -2.49 , -0.32 
+Vertex  4.46 , -0.87 ,  0.02 
+Vertex  4.46 , -1.82 , -0.32 
+Vertex  3.41 , -0.36 ,  0.02 
+Vertex  3.41 , -1.31 , -0.32 
+Vertex  1.95 , -0.36 ,  0.02 
+Vertex  1.95 , -1.31 , -0.32 
+Face  0, 1, 2, 
+Face  1, 3, 2, 
+Face  2, 3, 4, 
+Face  2, 4, 5, 
+Face  5, 4, 6, 
+Face  4, 7, 6, 
+Face  6, 7, 8, 
+Face  6, 8, 9, 
+Face  9, 8, 10, 
+Face  8, 11, 10, 
+Face  12, 13, 14, 
+Face  14, 15, 12, 
+Face  16, 12, 15, 
+Face  15, 17, 16, 
+Face  18, 16, 17, 
+Face  17, 19, 18, 
+Face  20, 18, 19, 
+Face  19, 21, 20, 
+Face  22, 20, 21, 
+Face  21, 23, 22, 
+
+[Texture]
+Load  grass-acx.bmp, 
+Color  204, 204, 204, 255, 
+Coordinates  0,0.36,0
+Coordinates  1,0.36,1
+Coordinates  2,0.5,0
+Coordinates  3,0.5,1
+Coordinates  4,0.62,1
+Coordinates  5,0.62,0
+Coordinates  6,0.71,0
+Coordinates  7,0.71,1
+Coordinates  8,0.83,1
+Coordinates  9,0.83,0
+Coordinates  10,1,0
+Coordinates  11,1,1
+Coordinates  12,0.5,0.25
+Coordinates  13,0.36,0.45
+Coordinates  14,0.36,0.55
+Coordinates  15,0.5,0.35
+Coordinates  16,0.62,0.12
+Coordinates  17,0.62,0.22
+Coordinates  18,0.71,0.05
+Coordinates  19,0.71,0.15
+Coordinates  20,0.83,0
+Coordinates  21,0.83,0.1
+Coordinates  22,1,0
+Coordinates  23,1,0.1
+[MeshBuilder]
+Vertex  106.71 , -4.9 ,  24.94 
+Vertex  106.71 , -4.9 ,  0.02 
+Vertex  8.4 , -4.9 ,  24.94 
+Vertex  8.4 , -4.9 ,  0.02 
+Vertex  8.4 , -4.9 ,  24.94 
+Vertex  8.4 , -4.9 ,  0.02 
+Vertex  7.86 , -4.85 ,  0.02 
+Vertex  7.86 , -4.85 ,  24.94 
+Vertex  7.41 , -4.67 ,  24.94 
+Vertex  7.41 , -4.67 ,  0.02 
+Vertex  8.4 , -4.9 ,  0.02 
+Vertex  106.71 , -4.9 ,  0.02 
+Vertex  106.71 , -5.9 , -3.28 
+Vertex  8.4 , -5.9 , -0.28 
+Vertex  7.86 , -4.85 ,  0.02 
+Vertex  8.4 , -4.9 ,  0.02 
+Vertex  8.4 , -5.9 , -0.28 
+Vertex  7.86 , -5.85 , -0.28 
+Vertex  7.41 , -4.67 ,  0.02 
+Vertex  7.41 , -5.62 , -0.28 
+Face  0, 1, 2, 
+Face  1, 3, 2, 
+Face  4, 5, 6, 
+Face  4, 6, 7, 
+Face  7, 6, 8, 
+Face  6, 9, 8, 
+Face  10, 11, 12, 
+Face  12, 13, 10, 
+Face  14, 15, 16, 
+Face  16, 17, 14, 
+Face  18, 14, 17, 
+Face  17, 19, 18, 
+
+[Texture]
+Load  grass-acx.bmp, 
+Color  204, 204, 204, 255, 
+Coordinates  0,-3.29,0.01
+Coordinates  1,-3.29,1.01
+Coordinates  2,0.99,0
+Coordinates  3,0.99,1
+Coordinates  4,0.91,0
+Coordinates  5,0.91,1
+Coordinates  6,0.94,1
+Coordinates  7,0.94,0
+Coordinates  8,0.98,0
+Coordinates  9,0.98,1
+Coordinates  10,3.43,0.7
+Coordinates  11,0,0.7
+Coordinates  12,0,0.73
+Coordinates  13,3.43,0.73
+Coordinates  14,0.87,0.63
+Coordinates  15,0.83,0.63
+Coordinates  16,0.83,0.68
+Coordinates  17,0.87,0.68
+Coordinates  18,0.91,0.62
+Coordinates  19,0.91,0.67

@@ -1,0 +1,467 @@
+;Deák Ferenc tér állomás 03
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;Falak
+
+;Jobb és bal oldali fal felirat sáv
+[MeshBuilder]
+Vertex  02.058,1.01,-1
+Vertex  02.058,3.01,-1
+Vertex  02.058,3.01,15
+Vertex  02.058,1.01,15
+Face 3,2,1,0
+[Texture]
+Load mh_11_dt_oldalfal_02ij.bmp
+Coordinates 0,01,1.00
+Coordinates 1,01,0.00
+Coordinates 2,00,0.00
+Coordinates 3,00,1.00
+
+[MeshBuilder]
+Vertex -26.928,1.01,1
+Vertex -26.928,3.01,1
+Vertex -26.928,3.01,-15
+Vertex -26.928,1.01,-15
+Face 3,2,1,0
+[Texture]
+Load mh_11_dt_oldalfal_02ib.bmp
+Coordinates 0,01,1.00
+Coordinates 1,01,0.00
+Coordinates 2,00,0.00
+Coordinates 3,00,1.00
+
+;Jobb és bal oldali fal felirat sáv
+[MeshBuilder]
+Vertex  02.058,1.01,15
+Vertex  02.058,3.01,15
+Vertex  02.058,3.01,25
+Vertex  02.058,1.01,25
+Vertex -26.928,1.01,1
+Vertex -26.928,3.01,1
+Vertex -26.928,3.01,25
+Vertex -26.928,1.01,25
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_11_dt_oldalfal_02.bmp
+Coordinates 0,10,1.00
+Coordinates 1,10,0.00
+Coordinates 2,00,0.00
+Coordinates 3,00,1.00
+Coordinates 4,24,1.00
+Coordinates 5,24,0.00
+Coordinates 6,00,0.00
+Coordinates 7,00,1.00
+
+[MeshBuilder]
+;bal oldali fal 1/1
+Vertex -08.10,1.1,18
+Vertex -08.10,3.4,18
+Vertex -08.10,3.4,18.8
+Vertex -08.10,1.1,18.8
+;szemközti fal
+Vertex -16.77,1.1,18
+Vertex -16.77,3.4,18
+Vertex -08.10,3.4,18
+Vertex -08.10,1.1,18
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load mh_11_dt_oldalfal_04.bmp
+Coordinates 0,01,6
+Coordinates 1,01,0
+Coordinates 2,00,0
+Coordinates 3,00,6
+Coordinates 4,13,6
+Coordinates 5,13,0
+Coordinates 6,00,0
+Coordinates 7,00,6
+
+;bal oldali fal 1/2
+[MeshBuilder]
+Vertex -08.10,1.1,18.8
+Vertex -08.10,3.4,18.8
+Vertex -08.10,3.4,23
+Vertex -08.10,1.1,23
+Face 0,1,2,3
+[Texture]
+Load mh_11_dt_oldalfal_06.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;szemközti fal
+[MeshBuilder]
+Vertex -16.770,3.4,18
+Vertex -16.770,3.7,18
+Vertex -13.985,3.7,18
+Vertex -13.985,3.4,18
+Vertex -10.185,3.4,18
+Vertex -10.185,3.7,18
+Vertex -08.100,3.7,18
+Vertex -08.100,3.4,18
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load mh_11_dt_oldalfal_11.bmp
+Coordinates 0, 9,1
+Coordinates 1, 9,0
+Coordinates 2, 0,0
+Coordinates 3, 0,1
+Coordinates 4, 7,1
+Coordinates 5, 7,0
+Coordinates 6, 0,0
+Coordinates 7, 0,1
+
+;felirat 1
+[MeshBuilder]
+Vertex -13.985,3.4,18
+Vertex -13.985,3.7,18
+Vertex -12.715,3.7,18
+Vertex -12.715,3.4,18
+Face 0,1,2,3
+[Texture]
+Load atszallo_m2a.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;felirat 2
+[MeshBuilder]
+Vertex -12.715,3.4,18
+Vertex -12.715,3.7,18
+Vertex -10.185,3.7,18
+Vertex -10.185,3.4,18
+Face 0,1,2,3
+[Texture]
+Load atszallo_m2b.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;-------------------------------
+
+;korlát
+[MeshBuilder]
+Vertex -10.10,1.1,7.5
+Vertex -10.10,2.1,7.5
+Vertex -10.10,2.1,19
+Vertex -10.10,1.1,19
+Vertex -14.77,1.1,7.5
+Vertex -14.77,2.1,7.5
+Vertex -14.77,2.1,19
+Vertex -14.77,1.1,19
+Face2 0,1,2,3
+Face2 4,5,6,7
+[Texture]
+Load mh_11_dt_korlat_01.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,1.2,0
+Coordinates 3,1.2,1
+Coordinates 4,0.0,1
+Coordinates 5,0.0,0
+Coordinates 6,1.2,0
+Coordinates 7,1.2,1
+Transparent 0,0,255
+
+;üveg
+[MeshBuilder]
+Vertex -10.105,1.3,7.5
+Vertex -10.105,2.0,7.5
+Vertex -10.105,2.0,19
+Vertex -10.105,1.3,19
+Vertex -14.775,1.3,7.5
+Vertex -14.775,2.0,7.5
+Vertex -14.775,2.0,19
+Vertex -14.775,1.3,19
+Face2 0,1,2,3
+Face2 4,5,6,7
+color 133,133,133,128
+
+;-----------------------------
+
+;mozgólépcsõ
+[MeshBuilder]
+Vertex -10.185,1.10,10.00
+Vertex -10.185,1.17,09.75
+Vertex -10.185,1.35,09.57
+Vertex -10.185,1.60,09.50
+Vertex -10.185,1.85,09.57
+Vertex -10.185,2.03,09.75
+Vertex -10.185,2.10,10.00
+Vertex -10.185,2.10,19.00
+Vertex -10.185,1.10,19.00
+
+Vertex -10.885,1.10,10.00
+Vertex -10.885,1.17,09.75
+Vertex -10.885,1.35,09.57
+Vertex -10.885,1.60,09.50
+Vertex -10.885,1.85,09.57
+Vertex -10.885,2.03,09.75
+Vertex -10.885,2.10,10.00
+Vertex -10.885,2.10,19.00
+Vertex -10.885,1.10,19.00
+Face 0,1,2,3,4,5,6,7,8
+Face 17,16,15,14,13,12,11,10,9
+Face 15,16,7,6
+Face 9,10,1,0
+Face 10,11,2,1
+Face 11,12,3,2
+Face 12,13,4,3
+Face 13,14,5,4
+Face 14,15,6,5
+color 160,160,160
+
+[MeshBuilder]
+Vertex -12.085,1.10,10.00
+Vertex -12.085,1.17,09.75
+Vertex -12.085,1.35,09.57
+Vertex -12.085,1.60,09.50
+Vertex -12.085,1.85,09.57
+Vertex -12.085,2.03,09.75
+Vertex -12.085,2.10,10.00
+Vertex -12.085,2.10,19.00
+Vertex -12.085,1.10,19.00
+Vertex -12.785,1.10,10.00
+Vertex -12.785,1.17,09.75
+Vertex -12.785,1.35,09.57
+Vertex -12.785,1.60,09.50
+Vertex -12.785,1.85,09.57
+Vertex -12.785,2.03,09.75
+Vertex -12.785,2.10,10.00
+Vertex -12.785,2.10,19.00
+Vertex -12.785,1.10,19.00
+Face 0,1,2,3,4,5,6,7,8
+Face 17,16,15,14,13,12,11,10,9
+Face 15,16,7,6
+Face 9,10,1,0
+Face 10,11,2,1
+Face 11,12,3,2
+Face 12,13,4,3
+Face 13,14,5,4
+Face 14,15,6,5
+color 160,160,160
+
+[MeshBuilder]
+Vertex -13.985,1.10,10.00
+Vertex -13.985,1.17,09.75
+Vertex -13.985,1.35,09.57
+Vertex -13.985,1.60,09.50
+Vertex -13.985,1.85,09.57
+Vertex -13.985,2.03,09.75
+Vertex -13.985,2.10,10.00
+Vertex -13.985,2.10,19.00
+Vertex -13.985,1.10,19.00
+Vertex -14.685,1.10,10.00
+Vertex -14.685,1.17,09.75
+Vertex -14.685,1.35,09.57
+Vertex -14.685,1.60,09.50
+Vertex -14.685,1.85,09.57
+Vertex -14.685,2.03,09.75
+Vertex -14.685,2.10,10.00
+Vertex -14.685,2.10,19.00
+Vertex -14.685,1.10,19.00
+Face 0,1,2,3,4,5,6,7,8
+Face 17,16,15,14,13,12,11,10,9
+Face 15,16,7,6
+Face 9,10,1,0
+Face 10,11,2,1
+Face 11,12,3,2
+Face 12,13,4,3
+Face 13,14,5,4
+Face 14,15,6,5
+color 160,160,160
+
+;-----------------------------
+
+;táblák
+
+;Deák F. tér tábla
+
+[MeshBuilder]
+Vertex -0.10, 0.00, -0.80
+Vertex -0.10, 0.30, -0.80
+Vertex  0.10, 0.30, -0.80
+Vertex  0.10, 0.00, -0.80
+Vertex -0.10, 0.00, 0.80
+Vertex -0.10, 0.30, 0.80
+Vertex  0.10, 0.30, 0.80
+Vertex  0.10, 0.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 0,3,7,4
+translate -7.10,3.40,2.50
+color 48,48,48
+
+[MeshBuilder]
+Vertex 0.1, 0.00, -0.80
+Vertex 0.1, 0.30, -0.80
+Vertex 0.1, 0.30,  0.80
+Vertex 0.1, 0.00,  0.80
+Vertex -0.1, 0.00, -0.80
+Vertex -0.1, 0.30, -0.80
+Vertex -0.1, 0.30,  0.80
+Vertex -0.1, 0.00,  0.80
+Face 0,1,2,3
+Face 7,6,5,4
+translate -7.10,3.40,2.50
+[Texture]
+Load mh_tabla_deak_ferenc_ter.bmp
+Coordinates 0, 0.15, 1
+Coordinates 1, 0.15, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+Coordinates 4, 0.85, 1
+Coordinates 5, 0.85, 0
+Coordinates 6, 0.15, 0
+Coordinates 7, 0.15, 1
+
+;Deák F. tér tábla
+
+[MeshBuilder]
+Vertex -0.10, 0.00, -0.80
+Vertex -0.10, 0.30, -0.80
+Vertex  0.10, 0.30, -0.80
+Vertex  0.10, 0.00, -0.80
+Vertex -0.10, 0.00, 0.80
+Vertex -0.10, 0.30, 0.80
+Vertex  0.10, 0.30, 0.80
+Vertex  0.10, 0.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 0,3,7,4
+translate -17.77,3.40,2.50
+color 48,48,48
+
+[MeshBuilder]
+Vertex 0.1, 0.00, -0.80
+Vertex 0.1, 0.30, -0.80
+Vertex 0.1, 0.30,  0.80
+Vertex 0.1, 0.00,  0.80
+Vertex -0.1, 0.00, -0.80
+Vertex -0.1, 0.30, -0.80
+Vertex -0.1, 0.30,  0.80
+Vertex -0.1, 0.00,  0.80
+Face 0,1,2,3
+Face 7,6,5,4
+translate -17.77,3.40,2.50
+[Texture]
+Load mh_tabla_deak_ferenc_ter.bmp
+Coordinates 0, 0.15, 1
+Coordinates 1, 0.15, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+Coordinates 4, 0.85, 1
+Coordinates 5, 0.85, 0
+Coordinates 6, 0.15, 0
+Coordinates 7, 0.15, 1
+
+;---
+
+;Deák F. tér tábla
+
+[MeshBuilder]
+Vertex -0.10, 0.00, -0.80
+Vertex -0.10, 0.30, -0.80
+Vertex  0.10, 0.30, -0.80
+Vertex  0.10, 0.00, -0.80
+Vertex -0.10, 0.00, 0.80
+Vertex -0.10, 0.30, 0.80
+Vertex  0.10, 0.30, 0.80
+Vertex  0.10, 0.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 0,3,7,4
+translate -7.10,3.40,22.50
+color 48,48,48
+
+[MeshBuilder]
+Vertex 0.1, 0.00, -0.80
+Vertex 0.1, 0.30, -0.80
+Vertex 0.1, 0.30,  0.80
+Vertex 0.1, 0.00,  0.80
+Vertex -0.1, 0.00, -0.80
+Vertex -0.1, 0.30, -0.80
+Vertex -0.1, 0.30,  0.80
+Vertex -0.1, 0.00,  0.80
+Face 0,1,2,3
+Face 7,6,5,4
+translate -7.10,3.40,22.50
+[Texture]
+Load mh_tabla_deak_ferenc_ter.bmp
+Coordinates 0, 0.15, 1
+Coordinates 1, 0.15, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+Coordinates 4, 0.85, 1
+Coordinates 5, 0.85, 0
+Coordinates 6, 0.15, 0
+Coordinates 7, 0.15, 1
+
+;Deák F. tér tábla
+
+[MeshBuilder]
+Vertex -0.10, 0.00, -0.80
+Vertex -0.10, 0.30, -0.80
+Vertex  0.10, 0.30, -0.80
+Vertex  0.10, 0.00, -0.80
+Vertex -0.10, 0.00, 0.80
+Vertex -0.10, 0.30, 0.80
+Vertex  0.10, 0.30, 0.80
+Vertex  0.10, 0.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 0,3,7,4
+translate -17.77,3.40,22.50
+color 48,48,48
+
+[MeshBuilder]
+Vertex 0.1, 0.00, -0.80
+Vertex 0.1, 0.30, -0.80
+Vertex 0.1, 0.30,  0.80
+Vertex 0.1, 0.00,  0.80
+Vertex -0.1, 0.00, -0.80
+Vertex -0.1, 0.30, -0.80
+Vertex -0.1, 0.30,  0.80
+Vertex -0.1, 0.00,  0.80
+Face 0,1,2,3
+Face 7,6,5,4
+translate -17.77,3.40,22.50
+[Texture]
+Load mh_tabla_deak_ferenc_ter.bmp
+Coordinates 0, 0.15, 1
+Coordinates 1, 0.15, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+Coordinates 4, 0.85, 1
+Coordinates 5, 0.85, 0
+Coordinates 6, 0.15, 0
+Coordinates 7, 0.15, 1
+
+;---
+
+;9.oszlop
+
+;kis kijárat háttal
+
+[MeshBuilder]
+Vertex -0.4, 0.00,-0.1
+Vertex -0.4, 0.30,-0.1
+Vertex -0.4, 0.30, 0.1
+Vertex -0.4, 0.00, 0.1
+Vertex  0.4, 0.00,-0.1
+Vertex  0.4, 0.30,-0.1
+Vertex  0.4, 0.30, 0.1
+Vertex  0.4, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+face 0,1,5,4
+color 48,48,48
+translate -7.2,3.40,18

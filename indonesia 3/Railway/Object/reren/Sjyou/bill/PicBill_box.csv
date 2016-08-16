@@ -1,0 +1,45 @@
+CreateMeshBuilder,
+AddVertex,-10.5, 7.5, 0
+ADdVertex, 1.5, 7.5, 0
+AddVertex, 1.5, 0.0, 0
+AddVertex,-10.5, 0.0, 0
+AddFace,0,1,2,3,
+LoadTexture,PicBill_R1.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,254
+
+CreateMeshBuilder,
+AddVertex,-9.8, 5.0, 25
+AddVertex,-9.8, 5.0, 0
+AddVertex,-9.8, 0.0, 0
+AddVertex,-9.8, 0.0, 25
+ADdFace,0,1,2,3,
+LoadTexture,PicBill_R2.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+
+CreateMeshBuilder,
+addvertex,-11.5, 4.28, 25,
+addvertex, -5.0, 8.1, 25,
+addvertex,  2.6, 4.28, 25,
+addvertex,  2.6, 4.18,-2
+addvertex, -5.0, 8.0,-2
+addvertex,-11.5, 4.18,-2
+addface,0,1,4,5,
+addface,4,3,2,1,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+SetTextureCoordinates,4,1,1,
+SetTextureCoordinates,5,0,1,
+LoadTexture,../Wall/Wall2.bmp
+Setcolor,90,80,80
+GenerateNormals,

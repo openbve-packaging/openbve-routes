@@ -1,0 +1,12 @@
+CreateMeshBuilder,,,,
+AddVertex,-4,0.9,0,
+AddVertex,-4,2.6,0,
+AddVertex,-4,2.6,25,
+AddVertex,-4,0.9,25,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,Tr1_Wall.bmp,,,
+SetTextureCoordinates,0,-0.05,1,
+SetTextureCoordinates,1,-0.05,0,
+SetTextureCoordinates,2,7.05,0,
+SetTextureCoordinates,3,7.05,1,

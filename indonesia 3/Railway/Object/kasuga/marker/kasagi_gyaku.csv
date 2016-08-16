@@ -1,0 +1,39 @@
+CreateMeshBuilder
+AddVertex,0.5, 4,0
+AddVertex,0.5, .7,0
+AddVertex,0.4, .7,0
+AddVertex,0.4, 4,0
+AddFace,0,1,2,3
+GenerateNormals
+Setcolor,200,200,200
+Translate,4,0,0
+
+CreateMeshBuilder
+AddVertex,0.5, 3,0
+AddVertex,0.5, 2.9,0
+AddVertex,-1.9, 2.9,0
+AddVertex,-1.9, 3,0
+AddFace,0,1,2,3
+GenerateNormals
+Setcolor,200,200,200
+Translate,4,0,0
+
+CreateMeshBuilder
+AddVertex,0.5, 4,0
+AddVertex,-1.4, 3,0
+AddVertex,-1.5,3,0
+AddVertex,.4, 4,0
+AddFace,0,1,2,3
+GenerateNormals
+Setcolor,200,200,200
+Translate,4,0,0
+
+CreateMeshBuilder
+AddVertex,-1.55, 3.05,0
+AddVertex,-1.4, 2.9,0
+AddVertex,-1.55, 2.75,0
+AddVertex,-1.7, 2.9,0
+AddFace,0,1,2,3
+GenerateNormals
+Setcolor,0,0,0
+Translate,3.8,0.05,0.05

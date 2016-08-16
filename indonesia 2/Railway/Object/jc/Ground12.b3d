@@ -1,0 +1,186 @@
+;Base
+
+[MeshBuilder]
+Vertex -120, -0.3, 30
+Vertex 120, -0.3, 30
+Vertex 120, -0.31, 0
+Vertex -120, -0.31, 0
+Face 0, 1, 2, 3
+Color 200,200,200
+
+[Texture]
+Load grass8.bmp
+Coordinates 0, 0, 15
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 15
+
+
+; left fall
+[MeshBuilder]
+Vertex -120, -10.0, -15
+Vertex -120, 10, 0
+Vertex -20, 0, -0
+Vertex -20, 0, -1
+Face 0, 1, 2, 3
+Color 355,355,355
+
+[Texture]
+Load ggrass.bmp
+Coordinates 1, 1, 0
+Coordinates 2, 1, 3
+Coordinates 3, 1, 0
+
+;right fall
+[MeshBuilder]
+Vertex 120, -10.0, -15
+Vertex 120, 10, 0
+Vertex 20, 0, -0
+Vertex 20, 0, -1
+Face 3,2,1,0
+Color 200,200,200
+
+[Texture]
+Load emb2.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 3
+Coordinates 2, 1, 1
+
+
+
+;Down hill
+
+[MeshBuilder]
+Vertex -120, -0.3, 0
+Vertex 120, -0.3, 0
+Vertex 120, -5.31, -10
+Vertex -120, -5.31, -10
+Face 0, 1, 2, 3
+Color 205,205,206
+
+
+[Texture]
+Load grass.bmp
+Coordinates 0, 0, 6
+Coordinates 1, 1, 2
+Coordinates 2, 1, 6
+Coordinates 3, 0, 2
+
+
+;Elevation Mesh
+
+;Left
+[MeshBuilder]
+Vertex -120, 12, 30
+Vertex -20, -0.3, 30
+Vertex -20, -0.31, 0
+Vertex -120, 10, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load grass.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;Right
+[MeshBuilder]
+Vertex 120, 12, 30
+Vertex 20, -0.3, 30
+Vertex 20, -0.31, 0
+Vertex 120, 10, 0
+Face 3,2,1,0
+Color 200,200,200
+
+[Texture]
+Load grass.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;=================================
+
+
+[MeshBuilder]
+Vertex -120, 14, 0
+Vertex -20, 3, 0
+Vertex -20, -1, 0
+Vertex -120, 10, 0
+Face 0,1,2,3
+
+[Texture]
+Load bush1.bmp
+Coordinates 0,00,0
+Coordinates 1,00,1.5
+Coordinates 2,01,1.5
+Coordinates 3,01,0
+Transparent 000,000,000
+
+
+
+;=================================
+
+
+[MeshBuilder]
+Vertex 30, 4, 0
+Vertex 80, 10.5, 30
+Vertex 80, 6.5, 30
+Vertex 30, 0, 0
+Face 0,1,2,3
+Face 3,2,1,0
+
+[Texture]
+Load bush1.bmp
+Coordinates 0,00,0
+Coordinates 1,00,1.5
+Coordinates 2,01,1.5
+Coordinates 3,01,0
+Transparent 000,000,000
+
+;=================================
+
+
+[MeshBuilder]
+Vertex 80, 10, 30
+Vertex 120, 16, 30
+Vertex 120, 12, 30
+Vertex 80, 7, 30
+Face 0,1,2,3
+
+[Texture]
+Load bush1.bmp
+Coordinates 0,00,0
+Coordinates 1,00,0.9
+Coordinates 2,1,0.9
+Coordinates 3,1,0
+Transparent 000,000,000
+
+;=================================
+
+[MeshBuilder]
+Vertex 80, 10, 30
+Vertex 120, 16, 30
+Vertex 120, 12, 30
+Vertex 80, 7, 30
+Face 0,1,2,3
+
+[Texture]
+Load tree19.bmp
+Coordinates 0,00,0
+Coordinates 1,00,0.9
+Coordinates 2,1,0.9
+Coordinates 3,1,0
+Transparent 000,000,000
+
+
+
+
+
+
+
+
+
+
+

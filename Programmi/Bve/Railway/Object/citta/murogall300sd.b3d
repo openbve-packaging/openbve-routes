@@ -1,0 +1,185 @@
+;---------------------------muro--------------
+[meshbuilder]
+vertex 2.755, 0, -0.5
+vertex 2.755, 6, -0.5
+vertex 2.923, 6, 4.966
+vertex 2.923, 0, 4.966
+face2 0,1,2,3
+[Texture]
+Load murogall2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[meshbuilder]
+vertex 2.923, 0, 4.966
+vertex 2.923, 6, 4.966
+vertex 3.003, 6, 9.967
+vertex 3.003, 0, 9.967
+face2 0,1,2,3
+[Texture]
+Load murogall2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[meshbuilder]
+vertex 3.003, 0, 9.967
+vertex 3.003, 6, 9.967
+vertex 3.000, 6, 14.972
+vertex 3.000, 0, 14.972
+face2 0,1,2,3
+[Texture]
+Load murogall2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[meshbuilder]
+vertex 3.000, 0, 14.972
+vertex 3.000, 6, 14.972
+vertex 2.914, 6, 19.979
+vertex 2.914, 0, 19.979
+face2 0,1,2,3
+[Texture]
+Load murogall2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[meshbuilder]
+vertex 2.914, 0, 19.979
+vertex 2.914, 6, 19.979
+vertex 2.748, 6, 25.590
+vertex 2.748, 0, 25.590
+face2 0,1,2,3
+[Texture]
+Load murogall2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;------------------------muretto-----
+[meshbuilder]
+vertex 2.355, -0.9, -0.131
+vertex 2.355, 0.5, -0.131
+vertex 2.523, 0.5, 4.966
+vertex 2.523, -0.9, 4.966
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+[meshbuilder]
+vertex 2.523, -0.9, 4.966
+vertex 2.523, 0.5, 4.966
+vertex 2.603, 0.5, 9.967
+vertex 2.603, -0.9, 9.967
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+[meshbuilder]
+vertex 2.603, -0.9, 9.967
+vertex 2.603, 0.5, 9.967
+vertex 2.600, 0.5, 14.972
+vertex 2.600, -0.9, 14.972
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+[meshbuilder]
+vertex 2.600, -0.9, 14.972
+vertex 2.600, 0.5, 14.972
+vertex 2.514, 0.5, 19.979
+vertex 2.514, -0.9, 19.979
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+[meshbuilder]
+vertex 2.514, -0.9, 19.979
+vertex 2.514, 0.5, 19.979
+vertex 2.348, 0.5, 25.090
+vertex 2.348, -0.9, 25.090
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+;-------------passerella
+[meshbuilder]
+vertex 2.355, 0.5, -0.131
+vertex 2.755, 0.5, -0.131
+vertex 2.923, 0.5, 4.966
+vertex 2.523, 0.5, 4.966
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 55,55,55
+[meshbuilder]
+vertex 2.523, 0.5, 4.966
+vertex 2.923, 0.5, 4.966
+vertex 3.003, 0.5, 9.967
+vertex 2.603, 0.5, 9.967
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 55,55,55
+[meshbuilder]
+vertex 2.603, 0.5, 9.967
+vertex 3.003, 0.5, 9.967
+vertex 3.000, 0.5, 14.972
+vertex 2.600, 0.5, 14.972
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 55,55,55
+[meshbuilder]
+vertex 2.600, 0.5, 14.972
+vertex 3.000, 0.5, 14.972
+vertex 2.914, 0.5, 19.979
+vertex 2.514, 0.5, 19.979
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 55,55,55
+[meshbuilder]
+vertex 2.514, 0.5, 19.979
+vertex 2.914, 0.5, 19.979
+vertex 2.748, 0.5, 25.090
+vertex 2.348, 0.5, 25.090
+face2 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 55,55,55
+;-------------
+[MeshBuilder]
+Vertex -3.70, 6, -1,
+Vertex -3.70, 6, 26.2,
+Vertex  3.70, 6, 26.2,
+Vertex  3.70, 6, -1,
+Face2 0, 1, 2, 3,
+Coordinates 0, 0, 9,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 9,
+color 48,48,32

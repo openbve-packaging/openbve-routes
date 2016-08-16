@@ -1,0 +1,64 @@
+CreateMeshBuilder,
+AddVertex,-2.51, 4.2, 26,
+AddVertex,-1.90, 5.4, 26,
+AddVertex, 3.00, 5.4, 26,
+AddVertex, 3.00, 5.4, 0,
+AddVertex,-1.90, 5.4, 0,
+AddVertex,-2.51, 4.2, 0,
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+LoadTexture,roofB1.bmp,
+SetTextureCoordinates,0, -0.3, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.1, 0,
+SetTextureCoordinates,3, 1.1, 6,
+SetTextureCoordinates,4, 0, 6,
+SetTextureCoordinates,5, -0.3, 6,
+Setcolor,200,200,200
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.51,  4.2, 0
+AddVertex,-2.51,  4.2, 25.3
+AddVertex,-2.51, -0.1, 25.3
+AddVertex,-2.10, -0.29, 25.3
+AddVertex,-2.10, -0.29, 0
+AddVertex,-2.51, -0.1, 0
+AddFace,0,1,2,5,
+AddFace,5,2,3,4,
+LoadTexture,minawall.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 0,5
+SetTextureCoordinates,2, 0.96,5
+SetTextureCoordinates,3, 1,5
+SetTextureCoordinates,4, 1,0
+SetTextureCoordinates,5, 0.96,0
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.51, -0.29, 0,
+AddVertex,-2.51, -0.29, 25.4,
+AddVertex,-1.71, -0.29, 25.4,
+AddVertex,-1.71, -0.29, 0,
+AddFace,0,1,2,3,
+LoadTexture,minawall.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 5,
+SetTextureCoordinates,2, -0.04, 5,
+SetTextureCoordinates,3, -0.04, 0,
+GenerateNormals,
+
+;èÊç~à íuïWéØ1
+CreateMeshBuilder,
+AddVertex,-2.49, 0.6, 25.0,
+AddVertex,-2.49, 0.6, 0,
+AddVertex,-2.49, 0.4, 0,
+AddVertex,-2.49, 0.4, 25.0,
+AddFace,3,2,1,0
+GenerateNormals,
+LoadTexture,../Retu1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,255,255,255

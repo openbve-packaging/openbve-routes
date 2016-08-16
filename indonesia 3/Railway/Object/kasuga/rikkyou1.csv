@@ -1,0 +1,354 @@
+CreateMeshBuilder
+AddVertex, -25, 8, 0.7
+AddVertex, -25, 6, 0.7
+AddVertex, 25, 6, 0.7
+AddVertex, 25, 8, 0.7
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, rikkyou.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+
+CreateMeshBuilder
+AddVertex, -25, 11, 0
+AddVertex, -25, 8, 0
+AddVertex, 25, 8, 0
+AddVertex, 25, 11, 0
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, muko-hasi.bmp
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 40, 0
+SetTextureCoordinates, 1, 40, 1
+SetDecalTransparentColor, 0,0,255
+
+CreateMeshBuilder
+AddVertex, -25, 11, 22
+AddVertex, -25, 8, 22
+AddVertex, 25, 8, 22
+AddVertex, 25, 11, 22
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, muko-hasi.bmp
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 40, 0
+SetTextureCoordinates, 1, 40, 1
+SetDecalTransparentColor, 0,0,255
+
+CreateMeshBuilder
+AddVertex, -25, 6, 22.
+AddVertex, -25, 6, 0.7
+AddVertex, 25, 6, 0.7
+AddVertex, 25, 6, 22.
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, takatukihasi1.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetColor, 100, 100, 40 
+
+CreateMeshBuilder
+AddVertex, -65, 4.5, 22.
+AddVertex, -65, 4.5, 0.7
+AddVertex, -25, 7, 0.7
+AddVertex, -25, 7, 22.
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, takatukihasi1.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetColor, 100, 100, 40 
+
+CreateMeshBuilder
+AddVertex, 25, 7, 22.
+AddVertex, 25, 7, 0.7
+AddVertex, 65, 4.5, 0.7
+AddVertex, 65, 4.5, 22.
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, takatukihasi1.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetColor, 100, 100, 40 
+
+CreateMeshBuilder
+AddVertex, -105, 0, 22.
+AddVertex, -105, 0, 0.7
+AddVertex, -65, 4.5, 0.7
+AddVertex, -65, 4.5, 22.
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, takatukihasi1.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetColor, 100, 100, 40 
+
+CreateMeshBuilder
+AddVertex, 65, 4.5, 22.
+AddVertex, 65, 4.5, 0.7
+AddVertex, 105, 0, 0.7
+AddVertex, 105, 0, 22.
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, takatukihasi1.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetColor, 100, 100, 40 
+
+CreateMeshBuilder
+AddVertex, -105, .1, 22.
+AddVertex, -105, .1, 0.7
+AddVertex, 105, .1, 0.7
+AddVertex, 105, .1, 22.
+AddFace, 3,2,1,0
+GenerateNormals
+SetColor, 0, 0, 0[,100] 
+
+
+
+CreateMeshBuilder
+AddVertex, -25, 9.2, 0.2
+AddVertex, -25, 7.9, 0.2
+AddVertex, 25, 7.9, 0.2
+AddVertex, 25, 9.2, 0.2
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, ../Wall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+
+CreateMeshBuilder
+AddVertex, -65, 6, 0.7
+AddVertex, -65, 4.3, 0.7
+AddVertex, -25, 6, 0.7
+AddVertex, -25, 8, 0.7
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, rikkyou.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+CreateMeshBuilder
+AddVertex, 65, 6, 0.7
+AddVertex, 65, 4.3, 0.7
+AddVertex, 25, 6, 0.7
+AddVertex, 25, 8, 0.7
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, rikkyou.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+CreateMeshBuilder
+AddVertex, -65, 7, 0.7
+AddVertex, -65, 6, 0.7
+AddVertex, -25, 8, 0.7
+AddVertex, -25, 9, 0.7
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, ../Wall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+
+
+CreateMeshBuilder
+AddVertex, 65, 7, 0.2
+AddVertex, 65, 6, 0.2
+AddVertex, 25, 8, 0.2
+AddVertex, 25, 9, 0.2
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, ../Wall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+ 
+
+CreateMeshBuilder
+AddVertex, -105, 1.5, 0.7
+AddVertex, -105, 0, 0.7
+AddVertex, -65, 4.5, 0.7
+AddVertex, -65, 6, 0.7
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, rikkyou.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+CreateMeshBuilder
+AddVertex, 105, 1.5, 0.7
+AddVertex, 105, 0, 0.7
+AddVertex, 65, 4.5, 0.7
+AddVertex, 65, 6, 0.7
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, rikkyou.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+CreateMeshBuilder
+AddVertex, -105, 2.5, 0.2
+AddVertex, -105, 1.5, 0.2
+AddVertex, -65, 6, 0.2
+AddVertex, -65, 7, 0.2
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, ../Wall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+CreateMeshBuilder
+AddVertex, 105, 2.5, 0.2
+AddVertex, 105, 1.5, 0.2
+AddVertex, 65, 6, 0.2
+AddVertex, 65, 7, 0.2
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, ../Wall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+CreateMeshBuilder
+Cube, .7 [, .7, 10]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, -25,5. 2, 11
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, -25,3, 3
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, -25,3, 19
+
+
+CreateMeshBuilder
+Cube, .7 [, .7, 10]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, -5,5. 2, 11
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, -5,3, 3
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, -5,3, 19
+
+
+CreateMeshBuilder
+Cube, .7 [, .7, 10]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, 10,5. 2, 11
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, 10,3, 3
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, 10,3, 19
+
+
+
+
+CreateMeshBuilder
+Cube, .7 [, .7, 10]
+GenerateNormals
+ SetColor, 60, 92, 140 
+Translate, -65, 4, 11
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, -65,3, 3
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, -65,3, 19
+
+
+CreateMeshBuilder
+Cube, .7 [, .7, 10]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, 25, 5.2, 11
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, 25,3, 3
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, 25,3, 19
+
+
+
+CreateMeshBuilder
+Cube, .7 [, .7, 10]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, 65, 4, 11
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, 65,3, 3
+CreateMeshBuilder
+Cube, .7 [, 3, .6]
+GenerateNormals
+SetColor, 60, 92, 140 
+Translate, 65,3, 19

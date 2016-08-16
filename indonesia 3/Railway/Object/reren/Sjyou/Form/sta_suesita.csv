@@ -1,0 +1,40 @@
+CreateMeshBuilder,
+AddVertex,1.9, 3.0, 0.0,
+AddVertex,1.9, 3.0, 1.5,
+AddVertex,1.9, 2.2, 1.5,
+AddVertex,1.9, 2.2, 0.0,
+AddFace2,0,1,2,3,
+LoadTexture,sta_suesita.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,1.9, 14.4, 0.8,
+AddVertex,1.9, 14.4, 0.7,
+AddVertex,1.9,  3.0, 0.7,
+AddVertex,1.9,  3.0, 0.8,
+AddFace2,0,1,2,3,
+LoadTexture,../Roof/Spole.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,1.9, 3.0, 25,
+AddVertex,1.9, 3.0, 1.5,
+AddVertex,1.9, 2.2, 1.5,
+AddVertex,1.9, 2.2, 25,
+AddFace,0,1,2,3,
+LoadTexture,sta_Pwall.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,4,4,4
+Setcolor,100,204,204,100

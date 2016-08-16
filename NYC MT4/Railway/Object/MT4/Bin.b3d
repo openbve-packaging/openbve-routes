@@ -1,0 +1,35 @@
+[meshbuilder]
+
+vertex -0.5,1.1,0.0
+vertex -0.5,2.2,0.0
+vertex  0.5,2.2,0.0
+vertex  0.5,1.1,0.0
+vertex  0.5,2.2,2.0
+vertex  0.5,1.1,2.0
+vertex -0.5,2.2,2.0
+vertex -0.5,1.1,2.0
+vertex -0.3,2.2,0.3
+vertex -0.3,2.6,0.3
+vertex  0.0,2.7,0.3
+vertex  0.3,2.6,0.3
+vertex  0.3,2.2,0.3
+vertex  0.3,2.6,1.7
+vertex  0.3,2.2,1.7
+vertex  0.0,2.7,1.7
+vertex -0.3,2.6,1.7
+vertex -0.3,2.2,1.7
+vertex  0.0,2.2,0.3
+vertex  0.0,2.2,1.7
+face2 0,1,2,3
+face2 3,2,4,5
+face2 0,1,6,7
+face2 7,6,4,5
+face2 1,6,4,2
+face2 8,9,10,18
+face2 18,10,11,12
+face2 12,11,13,14
+face2 8,9,16,17
+face2 17,16,13,14
+face2 9,16,15,10
+face2 10,15,13,11
+color 13,13,13    

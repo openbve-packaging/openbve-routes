@@ -1,0 +1,106 @@
+CreateMeshBuilder,
+AddVertex,2.0, 6.5, 1.2
+AddVertex,2.0, 6.5, 0.2
+AddVertex,2.8, 6.5, 0.2
+AddVertex,2.8, 6.5, 1.2
+AddVertex,2.8,-0.5, 1.2
+AddVertex,2.8,-0.5, 0.2
+AddVertex,2.0,-0.5, 0.2
+AddVertex,2.0,-0.5, 1.2
+AddFace2,7,6,1,0
+AddFace2,6,5,2,1
+AddFace2,5,4,3,2
+AddFace2,7,4,3,0
+Setcolor,65,65,65
+LoadTexture,../Wall5.png
+SetEmissiveColor,19,19,14,
+SetTextureCoordinates,0,  0.0, 0
+SetTextureCoordinates,1,  0.5, 0
+SetTextureCoordinates,2,  1.0, 0
+SetTextureCoordinates,3,  1.5, 0
+SetTextureCoordinates,4,  1.5, 1
+SetTextureCoordinates,5,  1.0, 1
+SetTextureCoordinates,6,  0.5, 1
+SetTextureCoordinates,7,  0.0, 1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,2.0, 6.5, 1.2
+AddVertex,2.0, 6.5, 0.2
+AddVertex,2.8, 6.5, 0.2
+AddVertex,2.8, 6.5, 1.2
+AddVertex,2.8,-0.5, 1.2
+AddVertex,2.8,-0.5, 0.2
+AddVertex,2.0,-0.5, 0.2
+AddVertex,2.0,-0.5, 1.2
+AddFace2,7,6,1,0
+AddFace2,6,5,2,1
+AddFace2,5,4,3,2
+AddFace2,7,4,3,0
+Setcolor,65,65,65
+LoadTexture,../Wall5.png
+SetEmissiveColor,19,19,14,
+SetTextureCoordinates,0,  0.0, 0
+SetTextureCoordinates,1,  0.5, 0
+SetTextureCoordinates,2,  1.0, 0
+SetTextureCoordinates,3,  1.5, 0
+SetTextureCoordinates,4,  1.5, 1
+SetTextureCoordinates,5,  1.0, 1
+SetTextureCoordinates,6,  0.5, 1
+SetTextureCoordinates,7,  0.0, 1
+GenerateNormals,
+Translate,0,0,6.25
+
+CreateMeshBuilder,
+AddVertex,2.0, 6.5, 1.2
+AddVertex,2.0, 6.5, 0.2
+AddVertex,2.8, 6.5, 0.2
+AddVertex,2.8, 6.5, 1.2
+AddVertex,2.8,-0.5, 1.2
+AddVertex,2.8,-0.5, 0.2
+AddVertex,2.0,-0.5, 0.2
+AddVertex,2.0,-0.5, 1.2
+AddFace2,7,6,1,0
+AddFace2,6,5,2,1
+AddFace2,5,4,3,2
+AddFace2,7,4,3,0
+Setcolor,65,65,65
+LoadTexture,../Wall5.png
+SetEmissiveColor,19,19,14,
+SetTextureCoordinates,0,  0.0, 0
+SetTextureCoordinates,1,  0.5, 0
+SetTextureCoordinates,2,  1.0, 0
+SetTextureCoordinates,3,  1.5, 0
+SetTextureCoordinates,4,  1.5, 1
+SetTextureCoordinates,5,  1.0, 1
+SetTextureCoordinates,6,  0.5, 1
+SetTextureCoordinates,7,  0.0, 1
+GenerateNormals,
+Translate,0,0,12.5
+
+CreateMeshBuilder,
+AddVertex,2.0, 6.5, 1.2
+AddVertex,2.0, 6.5, 0.2
+AddVertex,2.8, 6.5, 0.2
+AddVertex,2.8, 6.5, 1.2
+AddVertex,2.8,-0.5, 1.2
+AddVertex,2.8,-0.5, 0.2
+AddVertex,2.0,-0.5, 0.2
+AddVertex,2.0,-0.5, 1.2
+AddFace2,7,6,1,0
+AddFace2,6,5,2,1
+AddFace2,5,4,3,2
+AddFace2,7,4,3,0
+Setcolor,65,65,65
+LoadTexture,../Wall5.png
+SetEmissiveColor,19,19,14,
+SetTextureCoordinates,0,  0.0, 0
+SetTextureCoordinates,1,  0.5, 0
+SetTextureCoordinates,2,  1.0, 0
+SetTextureCoordinates,3,  1.5, 0
+SetTextureCoordinates,4,  1.5, 1
+SetTextureCoordinates,5,  1.0, 1
+SetTextureCoordinates,6,  0.5, 1
+SetTextureCoordinates,7,  0.0, 1
+GenerateNormals,
+Translate,0,0,18.75

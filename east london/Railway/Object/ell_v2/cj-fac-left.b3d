@@ -1,0 +1,23 @@
+; Object that appears on the northern side of Canal Street
+[MeshBuilder]
+Vertex -6,3.5,0
+Vertex -6,-0.3,0
+Vertex -25,-0.3,0
+Vertex -25,3.5,0
+Vertex -6,3.5,10
+Vertex -6,-0.3,10
+Vertex -35,-0.3,-25
+Vertex -35,3.5,-25
+Face 0,1,2,3
+Face 4,5,1,0
+Face 3,2,6,7
+[Texture]
+load factoryside.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Coordinates 4,6,0
+Coordinates 5,6,1
+Coordinates 6,-5,1
+Coordinates 7,-5,0

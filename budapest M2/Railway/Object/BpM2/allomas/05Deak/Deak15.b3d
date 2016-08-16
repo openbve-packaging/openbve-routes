@@ -1,0 +1,498 @@
+;Deák tér állomás, jobb 5
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;Jobb oldali fal
+[MeshBuilder]
+Vertex  01.512, -00.20,  00.00
+Vertex  01.800,  00.26,  00.00
+Vertex  01.800,  00.90,  00.00
+Vertex  01.800,  00.90,  25.00
+Vertex  01.800,  00.26,  25.00
+Vertex  01.512, -00.20,  25.00
+Face 5,4,1,0
+Face 4,3,2,1
+[Texture]
+Load deak_fal_J_01.bmp
+Coordinates 0, 37.00, 01.00
+Coordinates 1, 37.00, 00.42
+Coordinates 2, 37.00, 00.00
+Coordinates 3, 00.00, 00.00
+Coordinates 4, 00.00, 00.42
+Coordinates 5, 00.00, 01.00
+
+[MeshBuilder]
+Vertex  01.800,  00.90,  00.00
+Vertex  01.800,  03.35,  00.00
+Vertex  01.800,  03.35,  25.00
+Vertex  01.800,  00.90,  25.00
+Face 3,2,1,0
+[Texture]
+Load deak_fal_J_02.bmp
+Coordinates 0, 37.00, 01.00
+Coordinates 1, 37.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+
+;jobb irány
+[MeshBuilder]
+vertex 1.655,3.675,12.5
+vertex 1.800,3.35,12.5
+vertex 1.655,3.675,-12.5
+vertex 1.800,3.35,-12.5
+face 3,1,0,2
+Load deak_iranyJ.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,1,0
+coordinates 3,1,1
+
+;jobb irány piros
+[MeshBuilder]
+vertex 1.655,3.675,25
+vertex 1.800,3.35,25
+vertex 1.655,3.675,12.4
+vertex 1.800,3.35,12.4
+face 3,1,0,2
+color 255,0,0
+
+;------------------------------
+
+;Bal oldali fal
+[MeshBuilder]
+Vertex -04.550,  01.10,  00.00
+Vertex -04.550,  01.20,  00.00
+Vertex -04.550,  01.20,  19.00
+Vertex -04.550,  01.10,  19.00
+Vertex -02.600,  01.10,  20.00
+Vertex -02.600,  01.20,  20.00
+Vertex -02.600,  01.20,  25.00
+Vertex -02.600,  01.10,  25.00
+Vertex -02.600,  01.10,  24.50
+Vertex -02.600,  01.22,  24.50
+Vertex -02.100,  01.22,  24.50
+Vertex -02.100,  01.10,  24.50
+Vertex -02.100,  01.10,  24.50
+Vertex -02.100,  01.22,  24.50
+Vertex -02.100,  01.22,  25.00
+Vertex -02.100,  01.10,  25.00
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Face 12,13,14,15
+color 70,70,70
+
+[MeshBuilder]
+Vertex -04.550,  01.20,  00.00
+Vertex -04.550,  03.70,  00.00
+Vertex -04.550,  03.70,  15.60
+Vertex -04.550,  01.20,  15.60
+Vertex -04.550,  01.20,  16.25
+Vertex -04.550,  03.70,  16.25
+Vertex -04.550,  03.70,  17.75
+Vertex -04.550,  01.20,  17.75
+Vertex -04.550,  01.20,  18.50
+Vertex -04.550,  03.70,  18.50
+Vertex -04.550,  03.70,  19.00
+Vertex -04.550,  01.20,  19.00
+Vertex -04.550,  03.40,  15.60
+Vertex -04.550,  03.70,  15.60
+Vertex -04.550,  03.70,  16.25
+Vertex -04.550,  03.40,  16.25
+Vertex -04.550,  03.40,  17.75
+Vertex -04.550,  03.70,  17.75
+Vertex -04.550,  03.70,  18.50
+Vertex -04.550,  03.40,  18.50
+Face 00,01,02,03
+Face 04,05,06,07
+Face 08,09,10,11
+Face 12,13,14,15
+Face 16,17,18,19
+[Texture]
+Load deak_fal_B_01.bmp
+Coordinates  0, 30.00, 01.00
+Coordinates  1, 30.00, 00.00
+Coordinates  2, 00.00, 00.00
+Coordinates  3, 00.00, 01.00
+Coordinates  4, 03.00, 01.00
+Coordinates  5, 03.00, 00.00
+Coordinates  6, 00.00, 00.00
+Coordinates  7, 00.00, 01.00
+Coordinates  8, 01.00, 01.00
+Coordinates  9, 01.00, 00.00
+Coordinates 10, 00.00, 00.00
+Coordinates 11, 00.00, 01.00
+Coordinates 12, 01.00, 00.12
+Coordinates 13, 01.00, 00.00
+Coordinates 14, 00.00, 00.00
+Coordinates 15, 00.00, 00.12
+Coordinates 16, 01.00, 00.12
+Coordinates 17, 01.00, 00.00
+Coordinates 18, 00.00, 00.00
+Coordinates 19, 00.00, 00.12
+
+[MeshBuilder]
+Vertex -04.550,  01.10,  19.00
+Vertex -04.550,  03.70,  19.00
+Vertex -04.550,  03.70,  20.00
+Vertex -04.550,  01.10,  20.00
+Face 00,01,02,03
+[Texture]
+Load deak_ajto_01.bmp
+Coordinates  0, 01.00, 01.00
+Coordinates  1, 01.00, 00.00
+Coordinates  2, 00.00, 00.00
+Coordinates  3, 00.00, 01.00
+
+[MeshBuilder]
+Vertex -02.600,  01.22,  24.50
+Vertex -02.600,  04.22,  24.50
+Vertex -02.100,  04.22,  24.50
+Vertex -02.100,  01.22,  24.50
+Vertex -02.100,  01.22,  24.50
+Vertex -02.100,  04.22,  24.50
+Vertex -02.100,  04.22,  25.00
+Vertex -02.100,  01.22,  25.00
+Face 00,01,02,03
+Face 04,05,06,07
+[Texture]
+Load deak_fal_B_01.bmp
+Coordinates 00, 01.00, 01.00
+Coordinates 01, 01.00, 00.00
+Coordinates 02, 00.00, 00.00
+Coordinates 03, 00.00, 01.00
+Coordinates 04, 01.00, 01.00
+Coordinates 05, 01.00, 00.00
+Coordinates 06, 00.00, 00.00
+Coordinates 07, 00.00, 01.00
+Color 200,200,200
+
+;tûzcsap
+[MeshBuilder]
+Vertex -04.550,  01.20,  17.75
+Vertex -04.550,  03.40,  17.75
+Vertex -04.550,  03.40,  18.50
+Vertex -04.550,  01.20,  18.50
+Face 00,01,02,03
+[Texture]
+Load ..\tuzcsap_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 01.00
+
+;segélykérõ
+[MeshBuilder]
+Vertex -04.55,  01.18,  15.60
+Vertex -04.55,  03.40,  15.60
+Vertex -04.55,  03.40,  16.25
+Vertex -04.55,  01.18,  16.25
+Vertex -04.45,  01.18,  15.70
+Vertex -04.45,  03.30,  15.70
+Vertex -04.45,  03.30,  16.15
+Vertex -04.45,  01.18,  16.15
+Vertex -04.55,  03.40,  15.70
+Vertex -04.55,  03.40,  16.15
+Face 0,1,5,4
+Face 4,5,6,7
+Face 2,3,7,6
+Face 8,9,6,5
+Face 1,8,5
+Face 2,6,9
+[Texture]
+Load ..\skero_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 01.00
+Coordinates  4, 00.21, 01.00
+Coordinates  5, 00.21, 00.05
+Coordinates  6, 00.79, 00.05
+Coordinates  7, 00.79, 01.00
+Coordinates  8, 00.21, 00.00
+Coordinates  9, 00.79, 00.00
+
+;------------------------------
+
+;Indító fülke és szemközti fal
+
+[MeshBuilder]
+Vertex -04.550,  01.10,  20.00
+Vertex -04.550,  03.70,  20.00
+Vertex -02.600,  03.70,  20.00
+Vertex -02.600,  01.10,  20.00
+Face 00,01,02,03
+[Texture]
+Load deak_if_ors_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 01.00
+
+[MeshBuilder]
+Vertex -02.600,  01.20,  20.00
+Vertex -02.600,  04.00,  20.00
+Vertex -02.600,  04.00,  24.50
+Vertex -02.600,  01.20,  24.50
+Face 00,01,02,03
+[Texture]
+Load deak_if_02.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 05.00, 00.00
+Coordinates  3, 05.00, 01.00
+Color 228,215,187
+
+[MeshBuilder]
+Vertex -04.550,  03.70,  20.00
+Vertex -04.550,  04.00,  20.00
+Vertex -02.600,  04.00,  20.00
+Vertex -02.600,  03.70,  20.00
+Vertex -04.550,  04.00,  20.00
+Vertex -04.550,  06.00,  20.00
+Vertex  02.000,  06.00,  20.00
+Vertex  02.000,  04.00,  20.00
+Face 00,01,02,03
+Face 04,05,06,07
+[Texture]
+Load deak_fal_SZ_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 01.00
+Coordinates  4, 00.00, 01.00
+Coordinates  5, 00.00, 00.00
+Coordinates  6, 01.00, 00.00
+Coordinates  7, 01.00, 01.00
+
+;--------------------------------------------------
+
+;Alagút bejárat szemben lévõ fal
+
+[MeshBuilder]
+Vertex -2.370,2.321,24.98
+Vertex -2.370,4.000,24.98
+Vertex -0.844,4.000,24.98
+Vertex -1.201,3.836,24.98
+Vertex -1.527,3.616,24.98
+Vertex -1.813,3.348,24.98
+Vertex -2.053,3.037,24.98
+Vertex -2.240,2.691,24.98
+;
+Vertex  0.844,4.000,24.98
+Vertex  1.790,4.000,24.98
+Vertex  1.790,3.373,24.98
+Vertex  1.508,3.631,24.98
+Vertex  1.191,3.841,24.98
+Face 0,1,7
+Face 1,6,7
+Face 1,5,6
+Face 1,4,5
+Face 1,3,4
+Face 1,2,3
+Face 9,10,11
+Face 9,11,12
+Face 9,12,8
+color 114,108,90
+
+;--------------------------------------------------
+
+;Tetõ
+
+[MeshBuilder]
+Vertex -02.600,  04.00,  20.00
+Vertex  01.416,  04.00,  20.00
+Vertex  01.416,  04.00,  24.90
+Vertex -02.600,  04.00,  24.90
+Face 00,01,02,03
+[Texture]
+Load deak_teto_03.bmp
+Coordinates  0, 00.00, 25.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 23.00, 00.00
+Coordinates  3, 23.00, 25.00
+
+[MeshBuilder]
+Vertex -02.600,  04.00,  24.90
+Vertex  01.416,  04.00,  24.90
+Vertex  01.416,  04.00,  25.00
+Vertex -02.600,  04.00,  25.00
+Face 00,01,02,03
+Color 192,174,137
+
+;--------------------------------------------------
+
+;Világítás
+
+;tartó
+[MeshBuilder]
+vertex -1.7,4.4,0
+vertex -1.7,4.4,20
+vertex -1.7,4.0,20
+vertex -1.7,4.0,0
+face 0,1,2,3
+color 100,100,100
+
+;világítás
+[MeshBuilder]
+vertex -1.70,4.00,0
+vertex -1.70,4.00,20
+vertex -2.90,4.00,20
+vertex -2.90,4.00,0
+face 0,1,2,3
+Load deak_vilagitas.bmp
+coordinates 0,0,0
+coordinates 1,8,0
+coordinates 2,8,1
+coordinates 3,0,1
+
+;--------------------------------------------------
+
+;Tükör
+
+[meshbuilder]
+cylinder 8, 0.04, 0.04, 01.00
+color 112,97,80
+translate  -02.35, 01.60, 18.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -02.35, 02.10, 18.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -02.35, 03.30, 18.00
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -02.773, 02.70, 17.846
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -01.927, 02.70, 18.154
+
+[meshbuilder]
+cube 0.20,0.01,0.20
+color 112,97,80
+rotate 0,1,0,0
+translate  -02.35, 01.10, 18.000
+
+[MeshBuilder]
+vertex -2.773,2.30,17.846
+vertex -2.773,3.30,17.846
+vertex -1.927,3.30,18.154
+vertex -1.927,2.30,18.154
+face 0,1,2,3
+Load ..\peron\tukor.bmp
+coordinates 0,0,0.8
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.8
+
+;Deák tér felirat
+[MeshBuilder]
+vertex -2.773,2.10,17.846
+vertex -2.773,2.30,17.846
+vertex -1.927,2.30,18.154
+vertex -1.927,2.10,18.154
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FDeak.bmp
+Coordinates 0,0.1,1
+Coordinates 1,0.1,0
+Coordinates 2,0.9,0
+Coordinates 3,0.9,1
+
+;--------------------------------------------------
+
+;Belépni tilos tábla
+
+[meshbuilder]
+cylinder 8, 0.04, 0.04, 01.00
+color 112,97,80
+;color 145,130,91
+translate  -02.50, 01.60, 19.80
+
+[meshbuilder]
+cylinder 8, 0.02, 0.02, 00.60
+color 112,97,80
+rotate 0,0,1,90
+translate  -02.20, 02.04, 19.80
+
+[meshbuilder]
+cylinder 8, 0.02, 0.02, 00.60
+color 112,97,80
+rotate 0,0,1,90
+translate  -02.20, 01.96, 19.80
+
+[MeshBuilder]
+Vertex -2.02,1.70,19.80
+Vertex -2.02,2.30,19.80
+Vertex -1.42,2.30,19.80
+Vertex -1.42,1.70,19.80
+Face 0,1,2,3
+[Texture]
+Load ..\Tabla\tilos1b.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 51,51,51
+
+;--------------------------------------------------
+
+;pályára aljzatpótlék
+[MeshBuilder]
+vertex -0.425, -00.40, 25.00
+vertex -0.425, -00.17, 25.00
+vertex 0.425, -00.17, 25.00
+vertex 0.425, -00.40, 25.00
+face 0,1,2,3
+color 216,216,216
+[texture]
+load ../../sin/aljzat_150.bmp
+coordinates 0, 0.0, 0.25
+coordinates 1, 0.0, 0.0
+coordinates 2, 0.25, 0.0
+coordinates 3, 0.25, 0.25
+
+;--------------------------------------------------
+
+;Exit felirat
+[MeshBuilder]
+Vertex -4.550,3.7,8.5
+Vertex -4.364,4.0,8.5
+Vertex -4.364,4.0,9
+Vertex -4.550,3.7,9
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Exit1.bmp
+Coordinates 0,0,0.8
+Coordinates 1,0,0.2
+Coordinates 2,1,0.2
+Coordinates 3,1,0.8
+
+;piros sáv
+[MeshBuilder]
+vertex -4.550,3.7,00
+vertex -4.364,4.0,00
+vertex -4.364,4.0,08.50
+vertex -4.550,3.7,08.50
+vertex -4.550,3.7,09
+vertex -4.364,4.0,09
+vertex -4.364,4.0,25
+vertex -4.550,3.7,25
+face 0,1,2,3
+face 4,5,6,7
+color 255,0,0

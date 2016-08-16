@@ -1,0 +1,18 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+CreateMeshBuilder,;;lato dx
+AddVertex,-2.2, -0.45, -0.1,
+AddVertex,-2.2, -0.45, 25.1,
+AddVertex,-2.2, 1.5, 25.1,
+AddVertex,-2.2, 1.5, -0.1,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,reteA.bmp,
+SetTextureCoordinates,0, 0, 5,
+SetTextureCoordinates,1, 28, 5,
+SetTextureCoordinates,2, 28, 0,
+SetTextureCoordinates,3, 0, 0,
+setdecaltransparentcolor,,,,

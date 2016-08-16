@@ -1,0 +1,201 @@
+; 1 - Basamento
+CreateMeshBuilder
+Cube, 0.3, 0.3, 0.3
+Translate, 0, -0.3, 0
+SetColor, 176, 176, 176
+
+; 2- palo
+CreateMeshBuilder,
+cylinder, 6,0.08,0.08,5.3
+translate, 0,2.65,0
+Setcolor,200,200,200,
+
+; 2a - palo nero
+CreateMeshBuilder,
+cylinder, 6,0.09,0.09,1.5
+translate, 0,0.75,0
+Setcolor,0,0,0,
+
+; 3 - parapetto
+CreateMeshBuilder, 
+cube, 0.4,0.025,0.025
+translate, 0.1,4.3,-0.05
+Setcolor,200,200,200,
+
+CreateMeshBuilder, 
+cube, 0.025,0.025,0.5
+translate, -0.28,4.3,-0.52
+Setcolor,200,200,200,
+
+CreateMeshBuilder, 
+cube, 0.025,0.025,0.5
+translate, 0.5,4.3,-0.52
+Setcolor,200,200,200,
+
+CreateMeshBuilder, 
+cube, 0.4,0.025,0.025
+translate, 0.1,4.3,-1
+Setcolor,200,200,200,
+
+
+; 4 - 2° parapetto
+CreateMeshBuilder, ; 
+cube, 0.4,0.025,0.025
+translate, 0.1,3.5,-0.05
+Setcolor,200,200,200,
+
+CreateMeshBuilder, 
+cube, 0.025,0.025,0.6
+translate, -0.28,3.5,-0.62
+Setcolor,200,200,200,
+
+CreateMeshBuilder, 
+cube, 0.025,0.025,0.6
+translate, 0.5,3.5,-0.62
+Setcolor,200,200,200,
+
+CreateMeshBuilder, 
+cube, 0.4,0.025,0.025
+translate, 0.1,3.5,-1.2
+Setcolor,200,200,200,
+
+; 5 - mensola
+CreateMeshBuilder, 
+AddVertex,-0.025, 4.7, 0.03,
+AddVertex,-0.625, 4.7, 0.03,
+AddVertex,-0.025, 4.45,0.03
+Addface2, 0,1,2
+GenerateNormals,
+Setcolor,200,200,200,
+
+CreateMeshBuilder, ; 
+AddVertex,-0.025,4.7, -0.03,
+AddVertex,-0.625,4.7,-0.03,
+AddVertex,-0.025,4.45,-0.03
+Addface2, 0,1,2
+GenerateNormals,
+Setcolor,200,200,200,
+
+; 7  - supporto
+CreateMeshBuilder, ; supporto
+Cylinder, 6,0.05,0.05,0.1
+; Rotate, 0,0,0
+translate, -0.55,4.72,0.0,
+Setcolor,200,200,200,
+
+; 9  -scatola sengale
+CreateMeshBuilder, ; scatola segnale
+Cube, 0.2,0.22,0.1,
+translate, -0.55,4.95,0.025,
+Setcolor,150,150,150,
+
+; 12 - segnale
+CreateMeshBuilder, 
+AddVertex,-0.9,4.7,0.15,
+AddVertex,-0.2,4.7,0.15,
+AddVertex,-0.2,5.4,0.15,
+AddVertex,-0.9,5.4,0.15,
+Addface2, 0,1,2,3,
+Setcolor,255,255,170,
+
+CreateMeshBuilder, 
+AddVertex,-0.9,4.7,0.13,
+AddVertex,-0.2,4.7,0.13,
+AddVertex,-0.2,5.4,0.13,
+AddVertex,-0.9,5.4,0.13,
+Addface2, 0,1,2,3,
+Setcolor,200,200,200,
+
+CreateMeshBuilder, 
+AddVertex,-0.85,4.75,0.16,
+AddVertex,-0.25,4.75,0.16,
+AddVertex,-0.25,5.35,0.16,
+AddVertex,-0.85,5.35,0.16,
+Addface2, 0,1,2,3,
+Setcolor,0,0,0,
+
+
+
+; 13 - base scala
+CreateMeshBuilder
+Cube, 0.35, 0.05, 0.3
+Translate, 0.1, 3, -0.4
+SetColor, 176, 176, 176
+
+CreateMeshBuilder, 
+cube, 0.025,0.68,0.025
+translate, -0.25,3.65,-0.6
+Setcolor,200,200,200,
+
+CreateMeshBuilder, 
+cube, 0.025,0.68,0.025
+translate, 0.46,3.65,-0.6
+Setcolor,200,200,200,
+
+
+; 14 -scala
+CreateMeshBuilder
+Addvertex, -0.1,-0.4,-1.1
+Addvertex, -0.1,3,-0.7
+Addvertex, 0.3,3,-0.7
+Addvertex, 0.3,-0.4,-1.1
+Addface2, 0,1,2,3
+Generatenormals
+
+Loadtexture, scala.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 10, 0,
+SetTextureCoordinates,2, 10, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+; 15 -reggiscala
+CreateMeshBuilder, 
+cube, 0.3,0.025,0.025
+translate, 0.1,1.7,-0.05
+Setcolor,200,200,200,
+
+CreateMeshBuilder, 
+cube, 0.3,0.025,0.025
+translate, 0.1,0.2,-0.05
+Setcolor,200,200,200,
+
+; 16 - reggiscala orizz
+CreateMeshBuilder
+Addvertex, -0.2,0.21,-0.05
+Addvertex, -0.1,0.21,-1.05
+Addvertex, -0.1,0.17,-1.05
+Addvertex, -0.2,0.17,-0.05
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,200,200,200,
+
+CreateMeshBuilder
+Addvertex, 0.4,0.21,-0.05
+Addvertex, 0.3,0.21,-1.05
+Addvertex, 0.3,0.17,-1.05
+Addvertex, 0.4,0.17,-0.05
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,200,200,200,
+
+
+CreateMeshBuilder
+Addvertex, -0.2,1.71,-0.05
+Addvertex, -0.1,1.71,-0.85
+Addvertex, -0.1,1.67,-0.86
+Addvertex, -0.2,1.67,-0.05
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,200,200,200,
+
+CreateMeshBuilder
+Addvertex, 0.4,1.71,-0.05
+Addvertex, 0.3,1.71,-0.85
+Addvertex, 0.3,1.67,-0.86
+Addvertex, 0.4,1.67,-0.05
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,200,200,200,
+
+

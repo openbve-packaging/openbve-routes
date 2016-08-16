@@ -1,0 +1,110 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; --- Cespugli e alberi per curve a destra
+
+; ========= DESTRA ===============
+;Cespuglio lungo 10 metri
+[MeshBuilder]
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,-30
+Translate 5.5,-1.5,23
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+;Cespuglio lungo 10 metri
+[MeshBuilder]
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3.5,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,-30
+Translate 5.9,-1.0,17
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+;Cespuglio lungo 10 metri
+[MeshBuilder]
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3.2,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,-30
+Translate 5.5,-1.0,11
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+;Cespuglio lungo 10 metri
+[MeshBuilder]
+Vertex 0.5, 2.5, -5
+Vertex 0.5, 3.2,  5
+Vertex 0, 0  ,  5
+Vertex 0, -1  , -5
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate 5.3,-1.0,4
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255
+
+; ========= DESTRA ===============
+[MeshBuilder] ; Albero sulla destra
+Vertex 0, 13, 0
+Vertex 10, 13, 0
+Vertex 10, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,-26
+Translate 5,-4,15
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+
+[MeshBuilder] ; Alberello sulla destra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,0
+Translate 3.0, -1.5 ,0
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+transparent 0,0,0
+

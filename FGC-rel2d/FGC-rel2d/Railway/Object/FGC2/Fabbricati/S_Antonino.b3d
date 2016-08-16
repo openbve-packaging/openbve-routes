@@ -1,0 +1,521 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; --------- S.Antonino fermata  ------------
+
+; ========== Casello =========
+[meshbuilder] ; pareti
+vertex 0,3,0
+vertex 0,0,0
+vertex 0,3,-0.3
+vertex 0,0,-0.3
+vertex 0.1,3,-0.3
+vertex 0.1,0,-0.3
+vertex 0.1,3,-2.7
+vertex 0.1,0,-2.7
+vertex 0,3,-2.7
+vertex 0,0,-2.7
+vertex 0,3,-3
+vertex 0,0,-3
+vertex 0.3,3,-3
+vertex 0.3,0,-3
+vertex 0.3,3,-2.9
+vertex 0.3,0,-2.9
+vertex 2.7,3,-2.9
+vertex 2.7,0,-2.9
+vertex 2.7,3,-3
+vertex 2.7,0,-3
+vertex 3.0,3,-3
+vertex 3.0,0,-3
+
+Face 0,2,3,1
+Face 2,4,5,3
+Face 4,6,7,5
+Face 6,8,9,7
+Face 8,10,11,9
+Face 10,12,13,11
+Face 12,14,15,13
+Face 14,16,17,15
+Face 16,18,19,17
+Face 18,20,21,19
+
+[Texture]
+load S_Antonino_cas.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.05,0
+Coordinates 3,0.05,1
+Coordinates 4,0.06,0
+Coordinates 5,0.06,1
+Coordinates 6,0.50,0
+Coordinates 7,0.50,1
+Coordinates 8,0.51,0
+Coordinates 9,0.51,1
+Coordinates 10,0.55,0
+Coordinates 11,0.55,1
+Coordinates 12,0.59,0
+Coordinates 13,0.59,1
+Coordinates 14,0.6,0
+Coordinates 15,0.6,1
+Coordinates 16,0.95,0
+Coordinates 17,0.95,1
+Coordinates 18,0.96,0
+Coordinates 19,0.96,1
+Coordinates 20,1,0
+Coordinates 21,1,1
+Transparent 255,255,255
+translate 2.4,-0.1,-4
+
+[meshbuilder] ; tetto
+cube 2.2,0.09,2.0
+color 220,213,182
+rotate 0,0,1,-10
+translate 3.6,2.65,-5.4
+
+;[meshbuilder] ; pavimento
+;cube 1.8,0.3,3.50
+;color 95,104,95
+;translate 2.0,-0.410,-2.2
+;
+
+; Palo LS di fronte al casello
+; ==================================
+[meshbuilder]  ; fianco sin e lato ant
+vertex -0.15,9.2 ,  0.07
+vertex -0.15,9.2 , -0.07
+vertex -0.15,-0.3, -0.07
+vertex -0.15,-0.3 , 0.07
+vertex  0.15,9.2 , -0.07
+vertex  0.15,-0.3 ,-0.07
+face2 0,1,2,3
+face2 1,4,5,2
+translate 3.0,-0.8,-7.5
+
+[texture]
+load ..\Poles\Traliccio.bmp
+transparent 0,0,255
+coordinates 0, 0, 0
+coordinates 1, 0.22, 0
+coordinates 2, 0.22, 8
+coordinates 3, 0, 8
+coordinates 4, 1, 0
+coordinates 5, 1, 8
+
+[meshbuilder] ; fianco ant e lato post
+vertex  0.15,9.2 , -0.07
+vertex  0.15,9.2 ,  0.07
+vertex  0.15,-0.3,  0.07
+vertex  0.15,-0.3 ,-0.07
+vertex -0.15,9.2 ,  0.07
+vertex -0.15,-0.3 , 0.07
+face2 0,1,2,3
+face2 1,4,5,2
+translate 3.0,-0.8,-7.5
+
+[texture]
+load ..\Poles\Traliccio.bmp
+transparent 0,0,255
+coordinates 0, 0, 0
+coordinates 1, 0.22, 0
+coordinates 2, 0.22, 8
+coordinates 3, 0, 8
+coordinates 4, 1, 0
+coordinates 5, 1, 8
+
+[meshbuilder] ; Mensola
+cylinder 3, 0.05, 0.05, 4.2
+color 157,165,165
+rotate 0,0,1,90
+translate 1.115,5.2,-7.5
+
+[meshbuilder] ; Tirante
+cylinder 3, 0.01, 0.01, 2.5
+color 57,65,65
+rotate 0,0,1,-65
+translate 1.70,5.75,-7.5
+
+[meshbuilder] ; Zampa di ragno right
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+[texture]
+load ..\Poles\Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+translate 0,-0.8,-7.5
+
+
+; Palo LS a fine curva
+; ==================================
+[meshbuilder]  ; fianco sin e lato ant
+vertex -0.15,9.2 ,  0.07
+vertex -0.15,9.2 , -0.07
+vertex -0.15,-0.3, -0.07
+vertex -0.15,-0.3 , 0.07
+vertex  0.15,9.2 , -0.07
+vertex  0.15,-0.3 ,-0.07
+face2 0,1,2,3
+face2 1,4,5,2
+translate 3.0,-0.8,-32.5
+
+[texture]
+load ..\Poles\Traliccio.bmp
+transparent 0,0,255
+coordinates 0, 0, 0
+coordinates 1, 0.22, 0
+coordinates 2, 0.22, 8
+coordinates 3, 0, 8
+coordinates 4, 1, 0
+coordinates 5, 1, 8
+
+[meshbuilder] ; fianco ant e lato post
+vertex  0.15,9.2 , -0.07
+vertex  0.15,9.2 ,  0.07
+vertex  0.15,-0.3,  0.07
+vertex  0.15,-0.3 ,-0.07
+vertex -0.15,9.2 ,  0.07
+vertex -0.15,-0.3 , 0.07
+face2 0,1,2,3
+face2 1,4,5,2
+translate 3.0,-0.8,-32.5
+
+[texture]
+load ..\Poles\Traliccio.bmp
+transparent 0,0,255
+coordinates 0, 0, 0
+coordinates 1, 0.22, 0
+coordinates 2, 0.22, 8
+coordinates 3, 0, 8
+coordinates 4, 1, 0
+coordinates 5, 1, 8
+
+[meshbuilder] ; Mensola
+cylinder 3, 0.05, 0.05, 4.2
+color 157,165,165
+rotate 0,0,1,90
+translate 1.115,5.2,-32.5
+
+[meshbuilder] ; Tirante
+cylinder 3, 0.01, 0.01, 2.5
+color 57,65,65
+rotate 0,0,1,-65
+translate 1.70,5.75,-32.5
+
+[meshbuilder] ; Zampa di ragno right
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+[texture]
+load ..\Poles\Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+translate 0,-0.8,-32.5
+
+[meshbuilder] ; Marciapiedi tratto finale
+vertex 1.2,-0.3,8
+vertex 1.2,-0.3,5
+vertex 1.2,-0.3,8
+vertex 1.2, 0.1,5
+vertex 4.0,-0.3,8
+vertex 4.0, 0.1,5
+Face 0,2,3,1
+Face 2,4,5,3
+
+[Texture]
+load ..\Marciapiede2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.18,0
+Coordinates 3,0.18,1
+Coordinates 4,1,0
+Coordinates 5,1,1
+
+[meshbuilder] ; mancorrente
+vertex 3.8,0.9,4.5
+vertex 3.8,0.9,-4.0
+vertex 3.8, 0 ,-4.0
+vertex 3.81, 0 ,4.5
+Face 0,1,2,3
+[texture]
+load MancorrenteBN1.bmp
+Coordinates 0,-0.06,0
+Coordinates 1,4, 0
+Coordinates 2,4, 1
+Coordinates 3,-0.06,1
+transparent 255,255,255
+
+[meshbuilder] ; Marciapiedi tratto intermedio
+vertex 1.2,-0.3,5
+vertex 1.2,-0.3,-30
+vertex 1.2, 0.1,5
+vertex 1.2, 0.1,-30
+vertex 4.0,0.1,5
+vertex 4.0,0.1,-30
+Face 0,2,3,1
+Face 2,4,5,3
+
+[Texture]
+load ..\Marciapiede2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,0.18,0
+Coordinates 3,0.18,10
+Coordinates 4,1,0
+Coordinates 5,1,10
+
+[meshbuilder] ; mancorrente
+vertex 3.8,0.9,-7.5
+vertex 3.8,0.9,-31
+vertex 3.8, 0 ,-31
+vertex 3.81, 0,-7.5
+Face 0,1,2,3
+[texture]
+load MancorrenteBN1.bmp
+Coordinates 0,-0.06,0
+Coordinates 1,12, 0
+Coordinates 2,12, 1
+Coordinates 3,-0.06,1
+transparent 255,255,255
+
+[meshbuilder] ; Marciapiedi tratto inziale
+vertex 1.2,-0.3,-30
+vertex 1.2,-0.3,-34
+vertex 1.2, 0.1,-30
+vertex 1.2,-0.3,-34
+vertex 4.0, 0.1,-30
+vertex 4.0,-0.3,-34
+Face 0,2,3,1
+Face 2,4,5,3
+
+[Texture]
+load ..\Marciapiede2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0.18,0
+Coordinates 3,0.18,1
+Coordinates 4,1,0
+Coordinates 5,1,1
+
+[meshbuilder] ; fine viottolo
+vertex 1.2,-0.3,-33
+vertex 0.2,-0.3,-46
+vertex 1.7,-0.1,-33
+vertex 0.7,-0.1,-46
+vertex 3.7,-0.1,-33
+vertex 2.5,-0.1,-46
+Face 0,2,3,1
+Face 2,4,5,3
+Rotate 0,0,1,4
+translate 0,-0.24,0
+[Texture]
+load ..\Marciapiede2.bmp
+Coordinates 0,0.2,0
+Coordinates 1,0.2,4
+Coordinates 2,0.3,0
+Coordinates 3,0.3,4
+Coordinates 4,1,0
+Coordinates 5,1,4
+
+[meshbuilder] ; mancorrente
+vertex 3.8,0.9,-31
+vertex 2.1,0.9,-47
+vertex 2.1, 0 ,-47
+vertex 3.8, 0,-31
+Face 0,1,2,3
+Rotate 1,0,0,-0.9
+translate 0,0.5,0
+[texture]
+load MancorrenteBN1.bmp
+Coordinates 0,-0.06,0
+Coordinates 1,8, 0
+Coordinates 2,8, 1
+Coordinates 3,-0.06,1
+transparent 255,255,255
+
+[meshbuilder] ; Viottolo
+vertex  0.2,-0.3,-46
+vertex -1.2,-0.3,-58
+vertex 0.7,-0.1,-46
+vertex -0.8,-0.1,-58
+vertex 2.5,-0.1,-46
+vertex 0.7,-0.1,-58
+Face 0,2,3,1
+Face 2,4,5,3
+Rotate 0,0,1,4
+translate 0,-0.24,0
+[Texture]
+load ..\Marciapiede2.bmp
+Coordinates 0,0.2,0
+Coordinates 1,0.2,4
+Coordinates 2,0.3,0
+Coordinates 3,0.3,4
+Coordinates 4,1,0
+Coordinates 5,1,4
+
+[meshbuilder] ; mancorrente
+vertex 2.1,0.9,-47
+vertex 0.6,0.9,-58
+vertex 0.6, 0 ,-58
+vertex 2.1, 0,-47
+Face 0,1,2,3
+Rotate 1,0,0,-0.9
+translate 0,0.5,0
+[texture]
+load MancorrenteBN1.bmp
+Coordinates 0,-0.06,0
+Coordinates 1,6, 0
+Coordinates 2,6, 1
+Coordinates 3,-0.06,1
+transparent 255,255,255
+
+; ===============================
+;        Vegetazione
+; ===============================
+
+;Cespuglio lungo 50 metri
+[MeshBuilder]
+Vertex 0.5, 4.0, -27
+Vertex 0.5, 4.0,  25
+Vertex 0,   0  ,  25
+Vertex 0,   0  , -27
+Face2 0,1,2,3
+Rotate 0,1,0,0
+Translate 5.5,-0.5,-10
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 4, 0
+Coordinates 2, 4, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+;Cespuglio lungo 50 metri
+[MeshBuilder]
+Vertex 0.5, 4.0, -20
+Vertex 0.5, 4.0,  25
+Vertex 0,   0  ,  25
+Vertex 0,   0  , -20
+Face2 0,1,2,3
+Rotate 1,0,0,-1
+Rotate 0,1,0,5
+Translate 3.8,-1.5,-40
+[texture]
+load ..\Alberi\Cesp_01.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 4, 0
+Coordinates 2, 4, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+[MeshBuilder] ; Alberello sulla destra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,30
+Translate 4, -1.5 ,0
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Alberello sulla destra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,30
+Translate 4, -1.5 ,-12
+[texture]
+load ..\Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+
+; ==================== Cartellone =========
+[meshbuilder] ; Paletti
+cylinder 3,0.03,0.03,3.6
+color 41,64,38
+translate 3.6,1.24,-12
+[meshbuilder]
+cylinder 3,0.03,0.03,3.6
+color 41,64,38
+translate 3.6,1.24,-13.05
+[meshbuilder] ; Riquadro
+cylinder 3,0.02,0.02,0.5
+color 41,64,38
+rotate 0,1,0,90
+translate 3.6,2,-12.05
+[meshbuilder]
+cylinder 3,0.02,0.02,0.5
+color 41,64,38
+rotate 0,1,0,90
+translate 3.6,2,-13.0
+[meshbuilder]
+cylinder 3,0.02,0.02,0.94
+color 41,64,38
+rotate 1,0,0,90
+translate 3.6,2.25,-12.525
+[meshbuilder]
+cylinder 3,0.02,0.02,0.94
+color 41,64,38
+rotate 1,0,0,90
+translate 3.6,1.75,-12.525
+
+[meshbuilder] ; Nome della stazione
+vertex 0,0.3,0
+vertex 0.9,0.3,0
+vertex 0.9,0.0,0
+vertex 0,0.0,0
+Face 0,1,2,3
+[texture]
+load S_Antonino_nome.bmp
+Coordinates 0, 0 , 0
+Coordinates 1, 1 , 0
+Coordinates 2, 1 , 1
+Coordinates 3, 0 , 1
+rotate 0,1,0,90
+translate 3.6,2.9,-12.07
+
+[meshbuilder] ; Riquadro superiore
+vertex 0,0.5,0
+vertex 1.0,0.5,0
+vertex 1.0,0.0,0
+vertex 0,0.0,0
+Face 0,1,2,3
+color 170,170,170
+rotate 0,1,0,90
+translate 3.605,2.9,-12.00
+[meshbuilder] ; Riquadro inferiore
+vertex 0,1.5,0
+vertex 1.0,1.5,0
+vertex 1.0,0.0,0
+vertex 0,0.0,0
+Face 0,1,2,3
+[texture]
+load Logo75-1.bmp
+Coordinates 0, 0 , 0
+Coordinates 1, 1 , 0
+Coordinates 2, 1 , 1
+Coordinates 3, 0 , 1
+rotate 0,1,0,90
+;color 170,170,170
+translate 3.605,0.15,-12.00

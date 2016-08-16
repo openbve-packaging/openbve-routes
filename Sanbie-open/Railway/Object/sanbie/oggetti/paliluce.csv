@@ -1,0 +1,138 @@
+;; primo palo sx
+CreateMeshBuilder,
+AddVertex,-4.7, 6.5, 8.5,
+AddVertex,-6.1, 6.5, 8.5,
+AddVertex,-6.1, -0.5, 8.5,
+AddVertex,-4.7, -0.5, 8.5,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Pole1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+AddVertex,-5.4, 6.5,  8.150,
+AddVertex,-5.4, 6.5,   9,
+AddVertex,-5.4, -0.5,  9,
+AddVertex,-5.4, -0.5, 8.150,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Pole1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+
+;secondo palo sx
+CreateMeshBuilder,
+AddVertex,-24.7, 6.5, 8.5,
+AddVertex,-26.1, 6.5, 8.5,
+AddVertex,-26.1, -0.5, 8.5,
+AddVertex,-24.7, -0.5, 8.5,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Pole1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;;face
+CreateMeshBuilder,
+AddVertex,-25.4, 6.5,  8.150,
+AddVertex,-25.4, 6.5,   9,
+AddVertex,-25.4, -0.5,  9,
+AddVertex,-25.4, -0.5, 8.150,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Pole1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+
+
+;terzo palo sx
+CreateMeshBuilder,
+AddVertex,-44.7, 6.5, 8.5,
+AddVertex,-46.1, 6.5, 8.5,
+AddVertex,-46.1, -0.5, 8.5,
+AddVertex,-44.7, -0.5, 8.5,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Pole1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+AddVertex,-45.4, 6.5,  8.150,
+AddVertex,-45.4, 6.5,   9,
+AddVertex,-45.4, -0.5,  9,
+AddVertex,-45.4, -0.5, 8.150,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Pole1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+
+; fili sx
+
+CreateMeshBuilder, ; filo 
+AddVertex,-5.5,6.5,8.5,
+AddVertex,-5.5,5,8.5,
+AddVertex,-25.5,5,8.5,
+Addvertex,-25.5,6.5,8.5,
+Addface2, 2,3,1,0,
+GenerateNormals,
+
+Loadtexture, hv_wires.bmp
+setTextureCoordinates, 0,1,0
+setTextureCoordinates, 1,1,1
+setTextureCoordinates, 2,0,1
+setTextureCoordinates, 3,0,0
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder, ; filo 
+AddVertex,-25.5,6.5,8.5,
+AddVertex,-25.5,5,8.5,
+AddVertex,-45.5,5,8.5,
+Addvertex,-45.5,6.5,8.5,
+Addface2, 2,3,1,0,
+GenerateNormals,
+
+Loadtexture, hv_wires.bmp
+setTextureCoordinates, 0,1,0
+setTextureCoordinates, 1,1,1
+setTextureCoordinates, 2,0,1
+setTextureCoordinates, 3,0,0
+SetDecalTransparentColor,0,0,255,
+
+
+

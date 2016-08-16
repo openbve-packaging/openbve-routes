@@ -1,0 +1,18 @@
+CreateMeshBuilder,
+AddVertex,-12.0, 24, -5.0
+AddVertex,-3.0, 24, -5.0
+AddVertex,-3.0, 24, 25.0
+AddVertex,-3.0, 2, 25.0
+AddVertex,-3.0, 2, -5.0
+AddVertex,-12.0, 2, -5.0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+Setcolor,230,230,230
+Loadtexture,Workbill_A1.bmp,,,,,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1.2,0
+SetTextureCoordinates,2,6.2,0
+SetTextureCoordinates,3,6.2,-6
+SetTextureCoordinates,4,1.2,-6
+SetTextureCoordinates,5,0,-6
+GenerateNormals,

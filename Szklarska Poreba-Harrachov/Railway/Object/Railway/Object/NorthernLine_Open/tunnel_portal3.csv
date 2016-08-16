@@ -1,0 +1,18 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green
+
+CreateMeshBuilder,,,,
+AddVertex,-11.2,11.2,0,
+AddVertex,10.8,11.2,0,
+AddVertex,10.8,-0.6,0,
+AddVertex,-11.2,-0.6,0,
+AddFace2,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,tunnel_portal3.png,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0
+SetColor,100,100,100

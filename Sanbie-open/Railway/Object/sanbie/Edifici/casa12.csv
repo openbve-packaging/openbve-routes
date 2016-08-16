@@ -1,0 +1,182 @@
+CreateMeshBuilder,
+AddVertex,3,0,25,
+AddVertex,3,8,25,
+AddVertex,3,8,0.1,
+AddVertex,3,0,0.1,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,casa12.bmp,
+SetTextureCoordinates,0, 0,1,
+SetTextureCoordinates,1, 0,0,
+SetTextureCoordinates,2, 1,0,
+SetTextureCoordinates,3, 1, 1,
+
+
+;;parte centrale
+CreateMeshBuilder,
+AddVertex,3,0,25,
+AddVertex,3,5.6,25,
+AddVertex,3,5.6,30,
+AddVertex,3,0,30,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,casa12.bmp,
+SetTextureCoordinates,0, 0,0.8,
+SetTextureCoordinates,1, 0,0,
+SetTextureCoordinates,2, 0.25,0,
+SetTextureCoordinates,3, 0.25,0.8,
+
+;portico
+CreateMeshBuilder,
+AddVertex,0,0,25,
+AddVertex,0,2.6,25,
+AddVertex,3,3.5,25,
+AddVertex,3,0,25,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,casa12.bmp,
+SetTextureCoordinates,0, 0,0.1,
+SetTextureCoordinates,1, 0,0,
+SetTextureCoordinates,2, 0.01,0,
+SetTextureCoordinates,3, 0.01,0.1,
+
+CreateMeshBuilder,
+AddVertex,0,0,30,
+AddVertex,0,2.6,30,
+AddVertex,3,3.5,30,
+AddVertex,3,0,30,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,casa12.bmp,
+SetTextureCoordinates,0, 0,0.1,
+SetTextureCoordinates,1, 0,0,
+SetTextureCoordinates,2, 0.01,0,
+SetTextureCoordinates,3, 0.01,0.1,
+
+
+
+;; seconda parte
+CreateMeshBuilder,
+AddVertex,3,0,55,
+AddVertex,3,8,55,
+AddVertex,3,8,30,
+AddVertex,3,0,30,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,casa12.bmp,
+SetTextureCoordinates,0, 0,1,
+SetTextureCoordinates,1, 0,0,
+SetTextureCoordinates,2, 1,0,
+SetTextureCoordinates,3, 1, 1,
+
+;retro
+CreateMeshBuilder,
+AddVertex,15,0,0.1,
+AddVertex,15,8,0.1,
+AddVertex,15,8,55,
+AddVertex,15,0,55,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,casa12a.bmp,
+SetTextureCoordinates,0, 0,1,
+SetTextureCoordinates,1, 0,0,
+SetTextureCoordinates,2, 6,0,
+SetTextureCoordinates,3, 6,1,
+
+
+;laterale
+CreateMeshBuilder,
+AddVertex,3,0,55,
+AddVertex,3,8,55,
+AddVertex,9,10.5,55,
+AddVertex,15,8,55,
+AddVertex,15,0,55,
+AddFace2,0,1,2,3,4
+GenerateNormals,
+setcolor, 160,105,105
+
+CreateMeshBuilder,
+AddVertex,3,0,25,
+AddVertex,3,8,25,
+AddVertex,9,10.5,25,
+AddVertex,15,8,25,
+AddVertex,15,0,25,
+AddFace2,0,1,2,3,4
+GenerateNormals,
+setcolor, 160,105,105
+
+CreateMeshBuilder,
+AddVertex,3,0,0.1,
+AddVertex,3,8,0.1,
+AddVertex,9,10.5,0.1,
+AddVertex,15,8,0.1,
+AddVertex,15,0,0.1,
+AddFace2,0,1,2,3,4
+GenerateNormals,
+setcolor, 170,170,50
+
+
+
+;; tetto lungo
+CreateMeshBuilder,
+AddVertex,2,7.6,25,
+AddVertex,9,10.5,25,
+AddVertex,9,10.5,0.1,
+AddVertex,2,7.6,0.1,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,48, 48, 48,
+
+
+;;tetto parte centrale
+CreateMeshBuilder,
+AddVertex,2,4.6,25,
+AddVertex,9,7.5,25,
+AddVertex,9,7.5,30,
+AddVertex,2,4.6,30,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,48, 48, 48,
+
+
+CreateMeshBuilder,
+AddVertex,0,2.6,25,
+AddVertex,3,3.5,25,
+AddVertex,3,3.5,30,
+AddVertex,0,2.6,30,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,48, 48, 48,
+
+;seconda parte del tetto
+CreateMeshBuilder,
+AddVertex,2,7.6,55,
+AddVertex,9,10.5,55,
+AddVertex,9,10.5,30,
+AddVertex,2,7.6,30,
+AddFace2,0,1,2,3,
+GenerateNormals,
+SetColor,48, 48, 48,
+
+
+;
+CreateMeshBuilder,
+AddVertex,15.5,7.7,0,
+AddVertex,9,10.5,0,
+AddVertex,9,10.5,55,
+AddVertex,15.5,7.7,55,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,tile1a.bmp,
+SetTextureCoordinates,0, 0,2,
+SetTextureCoordinates,1, 0,0,
+SetTextureCoordinates,2, 16,0,
+SetTextureCoordinates,3, 16,2,
+
+
+

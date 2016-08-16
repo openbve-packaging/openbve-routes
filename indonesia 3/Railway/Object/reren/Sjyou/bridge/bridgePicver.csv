@@ -1,0 +1,26 @@
+CreateMeshBuilder,
+AddVertex,-25, 9.3, 0,
+AddVertex, 20, 9.3, 0,
+AddVertex, 20, 5.62, 0,
+AddVertex,-25, 5.62, 0,
+AddFace,0,1,2,3,
+LoaDtexture,bridgePicver.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, -25, 5.65, 0,
+AddVertex, 20, 5.65, 0,
+AddVertex, 20, 5.65, 50,
+AddVertex, -25, 5.65, 50,
+AddFace,0,1,2,3
+Loadtexture,../../EDtozai/bridge/kiyo_under.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 2,
+SetTextureCoordinates,3, 0, 2,
+GenerateNormals,
+Setcolor,70,90,100,

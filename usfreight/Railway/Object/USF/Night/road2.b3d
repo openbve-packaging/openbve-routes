@@ -1,0 +1,88 @@
+[MeshBuilder]
+Vertex -3.2,+0.2,-2.5
+Vertex -3.2,+0.2,27.5
+Vertex +3.2,+0.2,27.5
+Vertex +3.2,+0.3,-2.5
+Vertex -3.5,0,-2.5
+Vertex -3.5,0,27.5
+Vertex +3.5,0,27.5
+Vertex +3.5,0,-2.5
+Face 0,1,2,3
+Face 4,5,1,0
+Face 6,7,3,2
+color 130,130,130
+
+[Texture]
+Load ..\road.bmp
+Coordinates 0, 4, 0.05
+Coordinates 1, 00, 0.05
+Coordinates 2, 00, 0.95
+Coordinates 3, 4, 0.95
+Coordinates 4, 4, 0.00
+Coordinates 5, 00, 0.00
+Coordinates 6, 00, 1.00
+Coordinates 7, 4, 1.00
+
+[MeshBuilder]
+Vertex -2.9, 0, -2
+Vertex -4, 0, -2
+Vertex -12, -9, -2
+Vertex -2.9, 0, 27
+Vertex -4, 0, 27
+Vertex -12, -9, 27
+Face 0, 1, 4, 3
+Face 1, 2, 5, 4
+color 90,10,0
+
+[Texture]
+Load ..\emb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.75
+Coordinates 2, 0, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1, 0.75
+Coordinates 5, 1, 0
+
+[MeshBuilder]
+Vertex 2.9, 0, -2
+Vertex 4, 0, -2
+Vertex 12, -9, -2
+Vertex 2.9, -0.3, 27
+Vertex 4, 0, 27
+Vertex 12, -9, 27
+Face 1, 0, 3, 4
+Face 2, 1, 4, 5
+color 90,10,0
+
+[Texture]
+Load ..\emb.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.75
+Coordinates 2, 0, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1, 0.75
+Coordinates 5, 1, 0
+
+[MeshBuilder]
+Vertex -4, 0, -2
+Vertex 4, 0, -2
+Vertex 12, -9, -2
+Vertex -4, -9, -2
+Vertex -12,-9,7
+Face 0,1,2,3
+Face 4,0,3
+color 90,10,0
+
+[Texture]
+Load ..\fumiconcrete.bmp
+Coordinates 0, 0.25, 0
+Coordinates 1, 0.75, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+
+
+
+
+
+

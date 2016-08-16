@@ -1,0 +1,54 @@
+CreateMeshBuilder
+AddVertex,-0.25,-1.0,-0.35
+AddVertex,-0.25, 1.0,-0.35
+AddVertex, 0.25, 1.0,-0.35
+AddVertex, 0.25,-1.0,-0.35
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,Signal_44t_0.bmp
+SetEmissiveColor,128,128,128
+
+CreateMeshBuilder
+AddVertex,-0.25,-1.0,-0.4
+AddVertex,-0.25, 1.0,-0.4
+AddVertex, 0.25, 1.0,-0.4
+AddVertex, 0.25,-1.0,-0.4
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,Signal_44t_0.bmp
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,25,DivideExponent4
+
+CreateMeshBuilder
+AddVertex,-0.25,-1.0,-0.7
+AddVertex,-0.25, 1.0,-0.7
+AddVertex, 0.25, 1.0,-0.7
+AddVertex, 0.25,-1.0,-0.7
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,Signal_44t_0.bmp
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,75,DivideExponent4
+
+CreateMeshBuilder
+AddVertex,-0.25,-1.0,-1.0
+AddVertex,-0.25, 1.0,-1.0
+AddVertex, 0.25, 1.0,-1.0
+AddVertex, 0.25,-1.0,-1.0
+AddFace,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,Signal_44t_0.bmp
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,200,DivideExponent2

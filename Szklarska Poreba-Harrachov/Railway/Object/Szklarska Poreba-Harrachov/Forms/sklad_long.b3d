@@ -1,0 +1,68 @@
+﻿; Author: phontanka
+; Free to use, modify and redistribute
+; Texture: HLJ's platform pack
+
+;TETEJE
+[Meshbuilder]
+Vertex -8.15,0.1,26.00
+Vertex 4.15,0.1,26.00
+Vertex 4.15,0.1,-0.75
+Vertex -8.15,0.1,-0.75
+Face 0,1,2,3
+Load zwir.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,5
+Coordinates 3,0,5
+
+;JOBB OLDALA
+[Meshbuilder]
+Vertex 4.15,0.1,-0.75
+Vertex 4.15,0.1,26.00
+Vertex 4.15,-0.5,26.00
+Vertex 4.15,-0.5,-0.75
+Face 0,1,2,3
+Load 1a.bmp
+Coordinates 0,0,0
+Coordinates 1,3,0
+Coordinates 2,3,1
+Coordinates 3,0,1
+
+;BAL OLDALA
+[Meshbuilder]
+Vertex -1.15,0.1,-0.75
+Vertex -1.15,0.1,26.00
+Vertex -1.15,-0.5,26.00
+Vertex -1.15,-0.5,-0.75
+Face 3,2,1,0
+Load 1a.bmp
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+
+;ELÜLSŐ ZÁRÓELEM
+[Meshbuilder]
+Vertex 4.15,0.1,26.00
+Vertex -1.15,0.1,26.00
+Vertex -1.15,-0.5,26.00
+Vertex 4.15,-0.5,26.00
+Face 0,1,2,3
+Load 1a.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;HÁTSÓ ZÁRÓELEM
+[Meshbuilder]
+Vertex -1.15,0.1,-0.75
+Vertex 4.15,0.1,-0.75
+Vertex 4.15,-0.5,-0.75
+Vertex -1.15,-0.5,-0.75
+Face 0,1,2,3
+Load 1a.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1

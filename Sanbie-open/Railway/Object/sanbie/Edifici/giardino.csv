@@ -1,0 +1,217 @@
+; muretto
+
+CreateMeshBuilder,,,,
+AddVertex,-13.6,2,0.4,
+AddVertex,-5.6,2,17,
+AddVertex,-5.6,-0,17,
+AddVertex,-13.6,-0,0.4,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,muretto1.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,8,0,
+SetTextureCoordinates,2,8,1,
+SetTextureCoordinates,3,0,1,
+
+
+CreateMeshBuilder,,,,
+AddVertex,-6,2,17,
+AddVertex,-5.6,2,17,
+AddVertex,-13.6,2,0.4,
+AddVertex,-14,2,0.4,
+AddVertex,-14,-0,0.4,
+AddVertex,-13.6,-0,0.4,
+AddFace,0,1,2,3
+AddFace,3,2,5,4
+GenerateNormals,,,,
+SetColor,60,60,60,
+
+
+;;  casetta
+
+CreateMeshBuilder,
+AddVertex,-4.5,0.5,5,
+AddVertex,-4.5,5,5,
+AddVertex,-7.5,5,5,
+AddVertex,-7.5,0.5,5,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,casetta_sa.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,
+
+
+;roof side 1
+CreateMeshBuilder,
+AddVertex,-4,3.7,4.5,
+AddVertex,-4,3.7,9.5,
+AddVertex,-6,5,9.5,
+AddVertex,-6,5,4.5,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,edifre_r.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+;roof side 2
+CreateMeshBuilder,
+AddVertex,-8,3.7,4.5,
+AddVertex,-8,3.7,9.5,
+AddVertex,-6,5,9.5,
+AddVertex,-6,5,4.5,
+AddFace2,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,edifre_r.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+;; fronte
+
+CreateMeshBuilder,
+AddVertex,-4.5,0.5,5,
+AddVertex,-4.5,4,5,
+AddVertex,-4.5,4,9,
+AddVertex,-4.5,0.5,9,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,casetta_f.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+;; albero
+
+CreateMeshBuilder,;ä”è‹é˜6
+AddVertex,-5, 6.9, 13,
+AddVertex,-9, 6.9, 13,
+AddVertex,-9, 0.5, 13,
+AddVertex,-5, 0.5, 13,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,wood3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+; siepe
+
+CreateMeshBuilder,
+AddVertex,-3, 2.6, 4.5,
+AddVertex,-5.5, 2.6, 4.5,
+AddVertex,-5.5, 0.5, 4.5,
+AddVertex,-3, 0.5, 4.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Alberi\shrub28.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;; 2
+
+CreateMeshBuilder,
+AddVertex,-3, 2.8, 6.5,
+AddVertex,-5, 2.8, 6.5,
+AddVertex,-5, 0.5, 6.5,
+AddVertex,-3, 0.5, 6.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Alberi\shrub28.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;; 3
+
+
+CreateMeshBuilder,
+AddVertex,-3, 3.0, 8,
+AddVertex,-6, 3.0, 8,
+AddVertex,-6, 0.5, 8,
+AddVertex,-3, 0.5, 8,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Alberi\shrub36.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;; 4
+
+
+CreateMeshBuilder,
+AddVertex,-3.3, 3, 9.5,
+AddVertex,-5.0, 3, 9.5,
+AddVertex,-5.0, 0.5, 9.5,
+AddVertex,-3.3, 0.5, 9.5,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Alberi\shrub28.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;; prato
+
+CreateMeshBuilder,,,,
+AddVertex,-5,0.55,0,
+AddVertex,-13.6,0.55,0,
+AddVertex,-3.5,0.55,17,
+AddVertex,-5.5,0.55,17,
+AddFace,3,2,0,1,
+
+GenerateNormals,,,,
+
+LoadTexture,..\Alberi\grass3.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+;; marciapiede
+
+;marciapiede
+
+CreateMeshBuilder,
+AddVertex,-16, 0.5, -5,
+AddVertex,-5, 0.5, 17,
+AddVertex,-3.8, 0.5, 17,
+AddVertex,-3.8, 0.5, -5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Linea\marcstaz2.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+

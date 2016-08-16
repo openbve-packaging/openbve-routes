@@ -1,0 +1,119 @@
+;Base
+
+[MeshBuilder]
+Vertex -120, -0.3, 30
+Vertex 120, -0.3, 30
+Vertex 120, -0.31, 0
+Vertex -120, -0.31, 0
+Face 0, 1, 2, 3
+Color 200,200,200
+
+[Texture]
+Load grass8.bmp
+Coordinates 0, 0, 15
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 15
+
+
+; left fall
+[MeshBuilder]
+Vertex -120, -10.0, -15
+Vertex -120, 8, 0
+Vertex -20, 0, -0
+Vertex -20, 0, -1
+Face 0, 1, 2, 3
+Color 355,355,355
+
+[Texture]
+Load grass8.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 3
+Coordinates 2, 1, 0
+
+;right fall
+[MeshBuilder]
+Vertex 120, -10.0, -15
+Vertex 120, 8, 0
+Vertex 20, 0, -0
+Vertex 20, 0, -1
+Face 3,2,1,0
+Color 200,200,200
+
+[Texture]
+Load emb2.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 3
+Coordinates 2, 1, 0
+
+
+;Down hill
+
+[MeshBuilder]
+Vertex -120, -0.3, 0
+Vertex 120, -0.3, 0
+Vertex 120, -5.31, -10
+Vertex -120, -5.31, -10
+Face 0, 1, 2, 3
+Color 200,200,200
+
+[Texture]
+Load emb2.bmp
+Coordinates 0, 0, 6
+Coordinates 1, 1, 2
+Coordinates 2, 1, 6
+Coordinates 3, 0, 2
+
+;Elev
+
+;Left
+[MeshBuilder]
+Vertex -120, 10, 30
+Vertex -20, -0.3, 30
+Vertex -20, -0.31, 0
+Vertex -120, 8, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load emb2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;Right
+[MeshBuilder]
+Vertex 120, 10, 30
+Vertex 20, -0.3, 30
+Vertex 20, -0.31, 0
+Vertex 120, 8, 0
+Face 3,2,1,0
+Color 200,200,200
+
+[Texture]
+Load emb2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+
+;;===trees right===
+
+[Meshbuilder]
+vertex 40,0,10;0
+vertex 40,20,10;1
+vertex 35,20,10;2
+vertex 35,0,10;3
+face 3,2,1,0
+
+[texture]
+load tree19.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+transparent 0,0,0
+
+
+

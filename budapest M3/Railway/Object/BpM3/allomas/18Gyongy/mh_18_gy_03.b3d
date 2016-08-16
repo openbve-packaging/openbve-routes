@@ -1,0 +1,308 @@
+;Gyöngyösi utca állomás 3
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;oszlopok közötti korlát
+
+[MeshBuilder]
+Vertex -2.20, -0.17,-01.25
+Vertex -2.20,  1.00,-01.25
+Vertex -2.20,  1.00, 03.25
+Vertex -2.20, -0.17, 03.25
+Face2 0,1,2,3
+[Texture]
+Load mh_18_gy_oldalfal_06.bmp
+Coordinates 0, 4.00, 1.00
+Coordinates 1, 4.00, 0.00
+Coordinates 2, 0.00, 0.00
+Coordinates 3, 0.00, 1.00
+transparent 0,0,255
+
+;Falak és födém
+
+;jobb oldali fal
+[MeshBuilder]
+Vertex 05.40, 01.10, 00.00
+Vertex 05.40, 03.50, 00.00
+Vertex 05.40, 03.50, 25.00
+Vertex 05.40, 01.10, 25.00
+Vertex -09.80, 01.10, 00.00
+Vertex -09.80, 03.50, 00.00
+Vertex -09.80, 03.50, 25.00
+Vertex -09.80, 01.10, 25.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_18_gy_oldalfal_03.bmp
+Coordinates 0, 10.00, 01.00
+Coordinates 1, 10.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 10.00, 01.00
+Coordinates 5, 10.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 01.00
+
+;--------------------------------------------------
+
+;táblák
+
+;Gyöngyösi utca tábla a jobb oldalon
+
+[MeshBuilder]
+Vertex 00.00, 00.00,-0.80
+Vertex 00.00, 00.30,-0.80
+Vertex 00.10, 00.30,-0.80
+Vertex 00.10, 00.00,-0.80
+Vertex 00.00, 00.00, 0.80
+Vertex 00.00, 00.30, 0.80
+Vertex 00.10, 00.30, 0.80
+Vertex 00.10, 00.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,0,3,7
+translate 5.30,2.95,2.5
+color 160,160,160
+
+[MeshBuilder]
+Vertex 00.00, 00.00, 0.80
+Vertex 00.00, 00.30, 0.80
+Vertex 00.00, 00.30,-0.80
+Vertex 00.00, 00.00,-0.80
+Face 0,1,2,3
+[Texture]
+Load mh_tabla_gyongyosi.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate 5.30,2.95,2.5
+
+;Gyöngyösi utca tábla a jobb oldalon
+
+[MeshBuilder]
+Vertex 00.00, 00.00,-0.80
+Vertex 00.00, 00.30,-0.80
+Vertex 00.10, 00.30,-0.80
+Vertex 00.10, 00.00,-0.80
+Vertex 00.00, 00.00, 0.80
+Vertex 00.00, 00.30, 0.80
+Vertex 00.10, 00.30, 0.80
+Vertex 00.10, 00.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,0,3,7
+translate 5.30,2.95,20
+color 160,160,160
+
+[MeshBuilder]
+Vertex 00.00, 00.00, 0.80
+Vertex 00.00, 00.30, 0.80
+Vertex 00.00, 00.30,-0.80
+Vertex 00.00, 00.00,-0.80
+Face 0,1,2,3
+[Texture]
+Load mh_tabla_gyongyosi.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate 5.30,2.95,20
+
+;Gyöngyösi utca tábla a bal oldalon
+
+[MeshBuilder]
+Vertex -00.10, 00.00,-0.80
+Vertex -00.10, 00.30,-0.80
+Vertex  00.00, 00.30,-0.80
+Vertex  00.00, 00.00,-0.80
+Vertex -00.10, 00.00, 0.80
+Vertex -00.10, 00.30, 0.80
+Vertex  00.00, 00.30, 0.80
+Vertex  00.00, 00.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,0,3,7
+translate -9.70,2.95,2.5
+color 160,160,160
+
+[MeshBuilder]
+Vertex 00.00, 00.00,-0.80
+Vertex 00.00, 00.30,-0.80
+Vertex 00.00, 00.30, 0.80
+Vertex 00.00, 00.00, 0.80
+Face 0,1,2,3
+[Texture]
+Load mh_tabla_gyongyosi.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate -9.70,2.95,2.5
+
+;Gyöngyösi utca tábla a bal oldalon
+
+[MeshBuilder]
+Vertex -00.10, 00.00,-0.80
+Vertex -00.10, 00.30,-0.80
+Vertex  00.00, 00.30,-0.80
+Vertex  00.00, 00.00,-0.80
+Vertex -00.10, 00.00, 0.80
+Vertex -00.10, 00.30, 0.80
+Vertex  00.00, 00.30, 0.80
+Vertex  00.00, 00.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,0,3,7
+translate -9.70,2.95,20
+color 160,160,160
+
+[MeshBuilder]
+Vertex 00.00, 00.00,-0.80
+Vertex 00.00, 00.30,-0.80
+Vertex 00.00, 00.30, 0.80
+Vertex 00.00, 00.00, 0.80
+Face 0,1,2,3
+[Texture]
+Load mh_tabla_gyongyosi.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+translate -9.70,2.95,20
+
+;--------------------------------------------------
+
+;óra
+
+[MeshBuilder]
+Vertex -00.60, 00.00,-0.1
+Vertex -00.60, 00.30,-0.1
+Vertex  00.60, 00.30,-0.1
+Vertex  00.60, 00.00,-0.1
+Vertex -00.60, 00.00, 0.1
+Vertex -00.60, 00.30, 0.1
+Vertex  00.60, 00.30, 0.1
+Vertex  00.60, 00.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\ora_030_1.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1, 1
+Coordinates 5, 1, 0
+Coordinates 6, 0, 0
+Coordinates 7, 0, 1
+translate 3.6,3.70,22.5
+
+[MeshBuilder]
+Vertex  0.60,0.00,-0.1
+Vertex  0.60,0.00, 0.1
+Vertex -0.60,0.00,-0.1
+Vertex -0.60,0.30,-0.1
+Vertex -0.60,0.30, 0.1
+Vertex -0.60,0.00, 0.1
+face 5,4,3,2
+face 5,2,0,1
+color 48,48,48
+translate 3.6,3.70,22.5
+
+;óra
+
+[MeshBuilder]
+Vertex -00.60, 00.00,-0.1
+Vertex -00.60, 00.30,-0.1
+Vertex  00.60, 00.30,-0.1
+Vertex  00.60, 00.00,-0.1
+Vertex -00.60, 00.00, 0.1
+Vertex -00.60, 00.30, 0.1
+Vertex  00.60, 00.30, 0.1
+Vertex  00.60, 00.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\ora_030_1.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 1, 1
+Coordinates 5, 1, 0
+Coordinates 6, 0, 0
+Coordinates 7, 0, 1
+translate -8.0,3.70,22.5
+
+[MeshBuilder]
+Vertex  0.60,0.00,-0.1
+Vertex  0.60,0.00, 0.1
+Vertex -0.60,0.00,-0.1
+Vertex -0.60,0.30,-0.1
+Vertex -0.60,0.30, 0.1
+Vertex -0.60,0.00, 0.1
+face 5,4,3,2
+face 5,2,0,1
+color 48,48,48
+translate -8.0,3.70,22.5
+;kis kijárat
+
+[MeshBuilder]
+Vertex -0.40, 0.00,0.1
+Vertex -0.40, 0.30,0.1
+Vertex  0.40, 0.30,0.1
+Vertex  0.40, 0.00,0.1
+Face 3,2,1,0
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0, 0.402, 1
+Coordinates 1, 0.402, 0
+Coordinates 2, 0.070, 0
+Coordinates 3, 0.070, 1
+translate 4.1,3.70,7.5
+
+[MeshBuilder]
+Vertex -0.4, 0.00,-0.1
+Vertex -0.4, 0.30,-0.1
+Vertex -0.4, 0.30, 0.1
+Vertex -0.4, 0.00, 0.1
+Vertex  0.4, 0.00,-0.1
+Vertex  0.4, 0.30,-0.1
+Vertex  0.4, 0.30, 0.1
+Vertex  0.4, 0.00, 0.1
+face 3,2,1,0
+face 3,0,4,7
+face 0,1,5,4
+color 48,48,48
+translate 4.1,3.70,7.5
+
+[MeshBuilder]
+Vertex -0.40, 0.00,0.1
+Vertex -0.40, 0.30,0.1
+Vertex  0.40, 0.30,0.1
+Vertex  0.40, 0.00,0.1
+Face 3,2,1,0
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0, 0.402, 1
+Coordinates 1, 0.402, 0
+Coordinates 2, 0.070, 0
+Coordinates 3, 0.070, 1
+translate -8.5,3.70,7.5
+
+[MeshBuilder]
+Vertex -0.4, 0.00,-0.1
+Vertex -0.4, 0.30,-0.1
+Vertex -0.4, 0.30, 0.1
+Vertex -0.4, 0.00, 0.1
+Vertex  0.4, 0.00,-0.1
+Vertex  0.4, 0.30,-0.1
+Vertex  0.4, 0.30, 0.1
+Vertex  0.4, 0.00, 0.1
+face 4,5,6,7
+face 3,0,4,7
+face 0,1,5,4
+color 48,48,48
+translate -8.5,3.70,7.5

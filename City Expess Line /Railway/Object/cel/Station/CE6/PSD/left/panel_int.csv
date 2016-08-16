@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+AddVertex,0.003,2,139.25
+AddVertex,0.003,3.83,139.25
+AddVertex,0.003,3.83,-9.65
+AddVertex,0.003,2,-9.65
+AddFace,0,3,2,1
+LoadTexture,panel_int.png
+SetTextureCoordinates,0,0,2
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,100,0
+SetTextureCoordinates,3,100,2
+SetDecalTransparentColor,0,0,255
+
+
+TranslateAll,0,0,0.9

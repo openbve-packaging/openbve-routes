@@ -1,0 +1,37 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;casa 1
+
+CreateMeshBuilder,
+AddVertex,0, -0.4, 0,
+AddVertex,0, 10, 0,
+AddVertex,, 10, -125,
+AddVertex,, -0.4, -125,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,murosanmartino.bmp,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 8,0,
+SetTextureCoordinates,3, 8,2,
+
+
+;;;massicciata
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,-3, 0, ,
+AddVertex,-3, 0, -125
+AddVertex,, 0, -125,
+AddFace,3, 2, 1, 0,
+translate,,-0.4
+GenerateNormals,
+
+LoadTexture,..\Ter\schotter2.bmp,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 60,0,
+SetTextureCoordinates,3, 60,2,

@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,-20, 12.1, 0.1,
+AddVertex,35, 12.1, 0.1,
+AddVertex,35, 0.0, 0.1,
+AddVertex,-20, 0.0, 0.1,
+ADdFace,0,1,2,3,
+LoadTexture,roadB_wa.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4.5, 0,
+SetTextureCoordinates,2, 4.5, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,255,0,0

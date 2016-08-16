@@ -1,0 +1,17 @@
+
+
+CreateMeshBuilder
+AddVertex,0, 0.5, 0
+AddVertex,-50, 0.5, 0
+AddVertex,-50, 0.5, 27
+AddVertex,0, 0.5, 27
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture, tanbo.bmp
+SetTextureCoordinates, 1, 0, 5
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 10, 0
+SetTextureCoordinates, 0, 10, 5
+
+
+

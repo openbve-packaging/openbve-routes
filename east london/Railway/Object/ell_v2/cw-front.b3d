@@ -1,0 +1,180 @@
+; End of Canada water platforms (platforms not included)
+[MeshBuilder] ; Left frontal wall (tiled)
+Vertex -3.1,5,0
+Vertex -3.1,1.2,0
+Vertex -6,1.2,0
+Vertex -6,5,0
+Face 0,1,2,3
+[Texture]
+load cw-tile.bmp
+Coordinates 0,4,0
+Coordinates 1,4,4
+Coordinates 2,0,4
+Coordinates 3,0,0
+
+[MeshBuilder] ; right frontal wall (tiled)
+Vertex 7.1,5,0
+Vertex 7.1,1.2,0
+Vertex 10,1.2,0
+Vertex 10,5,0
+Face 3,2,1,0
+[Texture]
+load cw-tile.bmp
+Coordinates 0,4,0
+Coordinates 1,4,4
+Coordinates 2,0,4
+Coordinates 3,0,0
+
+[Meshbuilder] ; Concrete at end of recess
+Vertex 7.1,6,0
+Vertex 7.1,5.0,0
+Vertex -3.1,5.0,0
+Vertex -3.1,6,0
+Face 0,1,2,3
+Color 140,140,140
+[Texture]
+load stonewall.bmp
+Coordinates 0,8,0
+Coordinates 1,8,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; Left concrete tunnel wall
+Vertex -3.1,5,10
+Vertex -3.1,-0.405,10
+Vertex -3.1,-0.405,0
+Vertex -3.1,5,0
+Face 0,1,2,3
+Color 100,100,100
+[Texture]
+load stonewall.bmp
+Coordinates 0,10,0
+Coordinates 1,10,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+
+[Meshbuilder] ; 30mph speed limit sign
+Vertex -1.5,4.8,9.8
+Vertex -1.5,3.8,9.8
+Vertex -2.5,3.8,9.8
+Vertex -2.5,4.8,9.8
+Face 0,1,2,3
+[Texture]
+load 30mph.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; Right concrete tunnel wall
+Vertex 7.1,5,10
+Vertex 7.1,-0.405,10
+Vertex 7.1,-0.405,0
+Vertex 7.1,5,0
+Face 3,2,1,0
+Color 100,100,100
+[Texture]
+load stonewall.bmp
+Coordinates 0,10,0
+Coordinates 1,10,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+
+[Meshbuilder] ; Concrete tunnel roof
+Vertex 7.1,5.0,0
+Vertex 7.1,5.0,10
+Vertex -3.1,5.0,10
+Vertex -3.1,5.0,0
+Face 0,1,2,3
+Color 100,100,100
+[Texture]
+load stonewall.bmp
+Coordinates 0,8,0
+Coordinates 1,8,10
+Coordinates 2,0,10
+Coordinates 3,0,0
+
+[Meshbuilder] ; left cables
+Vertex -1.8,2.8,9.9
+Vertex -2.3,1.8,9.9
+Vertex -3.0,1.8,9.9
+Vertex -3.0,2.8,9.9
+Face 0,1,2,3
+[Texture]
+load side-cables.bmp
+Coordinates 0,1,0
+Coordinates 1,0.55,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; left wall cables horizontal
+Vertex -3.0,2.8,9.9
+Vertex -3.0,1.8,9.9
+Vertex -3.0,1.8,5.4
+Vertex -3.0,2.8,6.4
+Face 0,1,2,3
+[Texture]
+load side-cables.bmp
+Coordinates 0,5,0
+Coordinates 1,5,1
+Coordinates 2,0,1
+Coordinates 3,1,0
+Transparent 255,0,255
+
+[Meshbuilder] ; Left wall cables vertical
+Vertex -3.0,2.8,6.4
+Vertex -3.0,1.8,5.4
+Vertex -3.0,5,5.4
+Vertex -3.0,5,6.4
+Face 0,1,2,3
+[Texture]
+load side-cables.bmp
+Coordinates 0,4,0
+Coordinates 1,5.8,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; right cables
+Vertex 5.8,2.8,9.9
+Vertex 6.3,1.8,9.9
+Vertex 7.0,1.8,9.9
+Vertex 7.0,2.8,9.9
+Face 3,2,1,0
+[Texture]
+load side-cables.bmp
+Coordinates 0,1,0
+Coordinates 1,0.55,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; right wall cables horizontal
+Vertex 7.0,2.8,9.9
+Vertex 7.0,1.8,9.9
+Vertex 7.0,1.8,5.4
+Vertex 7.0,2.8,6.4
+Face 3,2,1,0
+[Texture]
+load side-cables.bmp
+Coordinates 0,5,0
+Coordinates 1,5,1
+Coordinates 2,0,1
+Coordinates 3,1,0
+Transparent 255,0,255
+
+[Meshbuilder] ; Right wall cables vertical
+Vertex 7.0,2.8,6.4
+Vertex 7.0,1.8,5.4
+Vertex 7.0,5,5.4
+Vertex 7.0,5,6.4
+Face 3,2,1,0
+[Texture]
+load side-cables.bmp
+Coordinates 0,4,0
+Coordinates 1,5.8,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

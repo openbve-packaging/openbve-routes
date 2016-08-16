@@ -1,0 +1,53 @@
+CreateMeshBuilder,
+AddVertex,22.95, 0, 0
+AddVertex,22.95, 0, 32
+AddVertex,1.95, 0, 32
+AddVertex,1.95, 0, 0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,Grass.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+
+CreateMeshBuilder,
+AddVertex,52.95, 14, 0
+AddVertex,52.95, 14, 32
+AddVertex,22.95, 0, 32
+AddVertex,22.95, 0, 0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,Grass.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+
+
+CreateMeshBuilder,
+AddVertex,1.95, 0, 0
+AddVertex,1.95, 0, 32
+AddVertex,1.95, -6, 32
+AddVertex,1.95, -6, 0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,conc.bmp
+SetTextureCoordinates,3, 0, 1
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 5, 0
+SetTextureCoordinates,2, 5, 1
+
+CreateMeshBuilder 
+AddVertex, 2.9, 1.5, 26.5 
+AddVertex, 2.9, 0 ,26.5 
+AddVertex, 2.9, 0,0
+AddVertex, 2.9, 1 .5,0
+AddFace,3,2,1,0
+Generatenormals 
+LoadTexture, gardrail2.bmp 
+SetTextureCoordinates, 2, 0, 1 
+SetTextureCoordinates, 3, 0, 0 
+SetTextureCoordinates, 0, -5, 0 
+SetTextureCoordinates, 1, -5, 1 
+SetDecalTransparentColor, 0,0,255

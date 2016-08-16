@@ -1,0 +1,15 @@
+CreateMeshbuilder,                   ;;tunnel
+AddVertex,-6.12,-.5,0,
+AddVertex,-6.12,13,0,
+AddVertex,6,13,0,
+AddVertex,6,-.5,0,
+AddFace,0,1,2,3,
+SetColor,40,40,40,
+GenerateNormals,
+LoadTexture,..\RR\tunnel2.bmp
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,
+Translate,0,0,0,

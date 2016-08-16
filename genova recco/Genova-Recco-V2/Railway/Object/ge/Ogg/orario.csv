@@ -1,0 +1,58 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;base
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 2, 0,
+AddVertex,0.1, 2, 0,
+AddVertex,0.1, 0, 0,
+addface,0, 1, 2, 3,
+GenerateNormals,
+setcolor,80,65,55
+CreateMeshBuilder,
+AddVertex,0.1,0, 1.4,
+AddVertex,0.1, 2, 1.4,
+AddVertex,0, 2, 1.4,
+AddVertex,0, 0, 1.4,
+addface,0, 1, 2, 3,
+GenerateNormals,
+setcolor,80,65,55
+
+
+CreateMeshBuilder,
+AddVertex,0, 0, 1.4,
+AddVertex,0, 2, 1.4,
+AddVertex,0, 2, 0,
+AddVertex,0, 0, 0,
+addface,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,orario.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,0.1, 0, 1.4,
+AddVertex,0.1, 2, 1.4,
+AddVertex,0.1, 2, 0,
+AddVertex,0.1, 0, 0,
+addface,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,orario.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, , 0,
+SetTextureCoordinates,3, , 1,
+
+CreateMeshBuilder,
+AddVertex,0, 2, 1.4,
+AddVertex,0.1,2, 1.4,
+AddVertex,0.1, 2, 0,
+AddVertex,0, 2, 0,
+addface,0, 1, 2, 3,
+GenerateNormals,
+setcolor,80,65,55

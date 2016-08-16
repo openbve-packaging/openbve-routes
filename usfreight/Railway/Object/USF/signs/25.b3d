@@ -1,0 +1,36 @@
+:(c) STEVE GREEN 2002
+;
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+[MeshBuilder]
+Vertex 2.6,2.4,1
+Vertex 2,  2.4,1
+Vertex 2,1.7,1
+Vertex 2.6,1.7,1
+Face 3,2,1,0,
+
+[Texture]
+Load 25.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+
+[MeshBuilder]
+Vertex 2.35,1.7, 1
+Vertex 2.25,1.7, 1
+Vertex 2.25,-1,1
+Vertex 2.35,-1,1
+Face 3,2,1,0,
+Color 150,100,100
+
+[Texture]
+Load post.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

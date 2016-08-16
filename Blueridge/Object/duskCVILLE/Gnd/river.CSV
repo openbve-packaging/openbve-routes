@@ -1,0 +1,16 @@
+
+CreateMeshbuilder,
+AddVertex,-40,-6,0,
+AddVertex,-40,-6,25.2, 
+Addvertex,30,-6,25.2, 
+AddVertex,30,-6,0, 
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture,rivera.bmp
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,-1,0,
+SetTextureCoordinates, 3,-1,1,
+Rotate,1,0,0,-2,
+
+

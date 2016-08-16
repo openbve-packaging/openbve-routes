@@ -1,0 +1,287 @@
+;piazzale
+
+CreateMeshBuilder,
+AddVertex,-37.5, -5, -60,
+AddVertex,-37.5, -5, 0,
+AddVertex,-6.5, -5, 0,
+AddVertex,-6.5, -5, -60,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\linea\autobloccanti1.bmp,
+SetTextureCoordinates,0, 50, 50,
+SetTextureCoordinates,1, 50, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 50,
+
+
+;lavaggio camion
+CreateMeshBuilder,
+AddVertex,-8, 0, -45
+AddVertex,-8, 0, -55,
+AddVertex,-8, -5, -55,
+AddVertex,-8, -5, -45,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\edifici\autolavaggio.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0,
+
+;2
+CreateMeshBuilder,
+AddVertex,-13, 0, -45
+AddVertex,-13, 0, -55,
+AddVertex,-13, -5, -55,
+AddVertex,-13, -5, -45,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\edifici\autolavaggio.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0,
+
+;3
+CreateMeshBuilder,
+AddVertex,-18, 0, -45
+AddVertex,-18, 0, -55,
+AddVertex,-18, -5, -55,
+AddVertex,-18, -5, -45,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\edifici\autolavaggio.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0,
+
+;4
+CreateMeshBuilder,
+AddVertex,-23, 0, -45
+AddVertex,-23, 0, -55,
+AddVertex,-23, -5, -55,
+AddVertex,-23, -5, -45,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\edifici\autolavaggio.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0,
+
+;5
+CreateMeshBuilder,
+AddVertex,-28, 0, -45
+AddVertex,-28, 0, -55,
+AddVertex,-28, -5, -55,
+AddVertex,-28, -5, -45,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\edifici\autolavaggio.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0,
+
+;staccionata
+;laterale
+CreateMeshBuilder,
+AddVertex,-6.5,-3,0,
+AddVertex,-6.5,-3,-60,
+AddVertex,-6.5,-5,-60,
+AddVertex,-6.5,-5,0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\alberi\fence2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,15,0,
+SetTextureCoordinates,2,15,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-36.5,-3,0,
+AddVertex,-6.5,-3,0,
+AddVertex,-6.5,-5,0,
+AddVertex,-36.5,-5,0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\alberi\fence2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,15,0,
+SetTextureCoordinates,2,15,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+;lavaggio auto
+CreateMeshBuilder,
+AddVertex,-25, -2, -15
+AddVertex,-25, -2, -40,
+AddVertex,-25, -5, -40,
+AddVertex,-25, -5, -15,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\edifici\autolavaggio1.bmp,
+SetTextureCoordinates,0, 4, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 4, 1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-30, -2, -40
+AddVertex,-25, -2, -40,
+AddVertex,-25, -5, -40,
+AddVertex,-30, -5, -40,
+AddFace2,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\edifici\autolavaggio.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,-30, -2, -40
+AddVertex,-25, -2, -40,
+AddVertex,-25, -2, -15,
+AddVertex,-30, -2, -15,
+AddFace2,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\edifici\cabinr.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 4
+SetTextureCoordinates,3, 1, 4,
+
+;alberi
+CreateMeshBuilder,
+AddVertex,-6, -1, -5
+AddVertex,-6, -1, -55,
+AddVertex,-6, -5, -55,
+AddVertex,-6, -5, -5,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\alberi\2trees.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 5, 1,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0,
+
+;aiuole
+;1
+CreateMeshBuilder,
+AddVertex,-17, -3.5, -15
+AddVertex,-17, -3.5, -40,
+AddVertex,-17, -5, -40,
+AddVertex,-17, -5, -15,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,ginestre1.bmp,
+SetTextureCoordinates,0, 5, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 5, 1,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,-17.22, -4.89, -39.4,
+AddVertex,-16.78, -4.89, -39.4,
+AddVertex,-16.78, -4.89, -15.6
+AddVertex,-17.22, -4.89, -15.6,
+AddFace2,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\alberi\grass2.bmp,
+SetTextureCoordinates,0, 0.5, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 8,
+SetTextureCoordinates,3, 0.5, 8,
+
+CreateMeshBuilder,
+Cube, 0.25,0.05,12,
+Translate, -17,-4.95,-27.5
+GenerateNormals,
+Setcolor,200,200,200,
+
+
+;2
+CreateMeshBuilder,
+AddVertex,-30, -4, -8
+AddVertex,-17, -4, -8,
+AddVertex,-17, -5, -8,
+AddVertex,-30, -5, -8,
+AddFace2,3,2,1,0
+GenerateNormals,
+
+LoadTexture,ginestre1.bmp,
+SetTextureCoordinates,0, 5, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 5, 1,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+Cube, 6.7,0.05,0.25,
+Translate, -23.5,-4.95,-8
+GenerateNormals,
+Setcolor,200,200,200,
+
+;3
+CreateMeshBuilder,
+AddVertex,-37, -3.5, -10
+AddVertex,-37, -3.5, -60,
+AddVertex,-37, -5, -60,
+AddVertex,-37, -5, -10,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,ginestre1.bmp,
+SetTextureCoordinates,0, 10, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 10, 1,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,-37.22, -4.89, -59.4,
+AddVertex,-36.78, -4.89, -59.4,
+AddVertex,-36.78, -4.89, -10.6
+AddVertex,-37.22, -4.89, -10.6,
+AddFace2,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\alberi\grass2.bmp,
+SetTextureCoordinates,0, 0.5, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 8,
+SetTextureCoordinates,3, 0.5, 8,
+
+CreateMeshBuilder,
+Cube, 0.25,0.05,24.5,
+Translate, -37,-4.95,-35
+GenerateNormals,
+Setcolor,200,200,200,
+

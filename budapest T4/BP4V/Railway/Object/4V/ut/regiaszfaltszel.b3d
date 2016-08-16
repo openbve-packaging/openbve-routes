@@ -1,0 +1,17 @@
+;Készítette: mamutsegg
+
+[Meshbuilder]
+Vertex -2.5, -0.03, -0.5
+Vertex -2.5, -0.03, 25.5
+Vertex 2.5, -0.03, 25.5
+Vertex 2.5, -0.03, -0.5
+Face 0, 1, 2, 3
+[Texture]
+Load regiaszfalt.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 5, 0
+Coordinates 2, 5, 1.3
+Coordinates 3, 0, 1.3
+
+
+

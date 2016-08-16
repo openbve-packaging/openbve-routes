@@ -1,0 +1,24 @@
+[MeshBuilder]
+cylinder 6, 0.05 , 0.05 , 2
+translate -2.3, 0, 0.1
+color 200,200,200
+[MeshBuilder]
+cylinder 6, 0.05 , 0.05 , 2
+translate -1.8, 0, 0.1
+color 200,200,200
+
+
+[MeshBuilder]
+Vertex -2.5, 1, 0
+vertex -2.5, 2.5,0
+Vertex -1.6, 2.5, 0
+Vertex -1.6, 1,0
+Face 0,1,2,3
+[Texture]
+Load l190.BMP
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+

@@ -1,0 +1,76 @@
+;Stadionok állomás, bal vágány 5
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;falak eleje
+;25 méternél Pillangó felõl nézve
+
+;1 és 4 vágány külsõ oldala alsó rész
+[MeshBuilder]
+vertex 2.0,-0.20,25
+vertex 2.0, 0.90,25
+vertex 2.2, 0.90,25
+vertex 2.2,-0.20,25
+vertex -27.5,-0.20,25
+vertex -27.5, 0.90,25
+vertex -27.7, 0.90,25
+vertex -27.7,-0.20,25
+face 3,2,1,0
+face 4,5,6,7
+color 78,78,78
+
+;1 és 4 vágány külsõ oldala felsõ rész
+[MeshBuilder]
+vertex 1.9, 1.10,25
+vertex 1.9, 0.90,25
+vertex 2.2, 1.10,25
+vertex 2.2, 0.90,25
+vertex -27.4, 1.10,25
+vertex -27.4, 0.90,25
+vertex -27.7, 1.10,25
+vertex -27.7, 0.90,25
+face 3,2,0,1
+face 6,7,5,4
+color 32,32,32
+
+;felsõ vízszintes szürke szegély
+[MeshBuilder]
+vertex -27.7, 4.00,24.8
+vertex -27.7, 4.00,24.6
+vertex   2.2, 4.00,24.6
+vertex   2.2, 4.00,24.8
+face 0,1,2,3
+color 160,160,160
+
+;4vg peron eleje
+[MeshBuilder]
+Vertex -16.20, 0.9,25
+Vertex -16.20, 1.1,25
+Vertex -24.05, 1.1,25
+Vertex -24.05, 0.9,25
+Vertex -16.45,-0.3,25
+Vertex -16.45, 0.9,25
+Vertex -23.80, 0.9,25
+Vertex -23.80,-0.3,25
+Face 0,1,2,3
+Face 4,5,6,7
+color 40,40,40
+
+;2-3vg között peron eleje
+[MeshBuilder]
+vertex -13.3,0.9,25
+vertex -13.3,1.1,25
+vertex -12.2,1.1,25
+vertex -12.2,0.9,25
+vertex -13.05,-0.2,25
+vertex -13.05, 0.9,25
+vertex -12.45, 0.9,25
+vertex -12.45,-0.2,25
+face 3,2,1,0
+face 7,6,5,4
+color 24,24,24
+
+;-------------------------------
+
+;feliratok

@@ -1,0 +1,369 @@
+; PaloFS.csv by Luigi Cartello luigi.cartello@tiscali.it
+
+; Oggetto BVE costituito interamente con le istruzioni Cube e Cylinder
+; esclusive del formato CSV
+
+
+; 1 - Basamento
+CreateMeshBuilder
+Cube, 0.3, 0.3, 0.3
+Translate, -2.6, -0.3, 0
+SetColor, 176, 176, 176
+
+; 2 - Palo
+CreateMeshBuilder
+Cylinder, 6, 0.20, 0.18, 10.1
+Translate, -2.6, 4.45, 0
+SetColor, 176, 176, 192
+
+
+; 3 - passerella
+CreateMeshBuilder
+Cube, 2.25,0.1,0.25
+translate, -0.1,7.1,0
+setcolor, 176,176,192
+
+; 4 parapetto
+CreateMeshBuilder
+Addvertex, -2.2,8.05,-0.25
+Addvertex,  2.2,8.05,-0.25
+Addvertex,  2.2,7.05,-0.25
+Addvertex, -2.2,7.05,-0.25
+Addface2, 0,1,2,3
+
+Generatenormals
+
+Loadtexture, handrail_s.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 3, 0,
+SetTextureCoordinates,2, 3, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+; 5 parapetto 2
+CreateMeshBuilder
+Addvertex, -2.2,8,0.25
+Addvertex,  2.2,8,0.25
+Addvertex,  2.2,7,0.25
+Addvertex, -2.2,7,0.25
+Addface2, 0,1,2,3
+
+Generatenormals
+
+Loadtexture, handrail_s.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 3, 0,
+SetTextureCoordinates,2, 3, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+; 6 supporto segnale
+CreateMeshBuilder
+Addvertex, -2.1,7,-0.25
+Addvertex, -1.5,7,-0.25
+Addvertex, -1.5,5,-0.25
+Addvertex, -2.1,5,-0.25
+Addface2, 0,1,2,3
+
+Generatenormals
+
+Loadtexture, handrail_f.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 2,
+SetTextureCoordinates,3, 0, 2,
+SetDecalTransparentColor,0,0,0,
+
+; 7 supporto segnale 2
+CreateMeshBuilder
+Addvertex, 1.6,7,-0.25
+Addvertex, 2.2,7,-0.25
+Addvertex, 2.2,5,-0.25
+Addvertex, 1.6,5,-0.25
+Addface2, 0,1,2,3
+
+Generatenormals
+
+Loadtexture, handrail_f.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 2,
+SetTextureCoordinates,3, 0, 2,
+SetDecalTransparentColor,0,0,0,
+
+; 8 cartello precedenza
+CreateMeshBuilder
+Addvertex, -2.1,5.2,-0.25
+Addvertex, -1.5,5.2,-0.25
+Addvertex, -1.8,4.68,-0.25
+Addface, 0,1,2,
+Generatenormals
+setcolor, 0,0,0 ;;nero
+
+CreateMeshBuilder
+Addvertex, -1.99,5.13,-0.26
+Addvertex, -1.61,5.13,-0.26
+Addvertex, -1.8,4.8,-0.26
+Addface2, 0,1,2,
+Generatenormals
+setcolor, 255,255,255 ;;bianco
+
+
+; 9 cartello precedenza 2
+CreateMeshBuilder
+Addvertex, 1.6,6.2,-0.26
+Addvertex, 2.2,6.2,-0.26
+Addvertex, 1.9,5.68,-0.26
+Addface, 0,1,2,
+Generatenormals
+setcolor, 0,0,0 ;;nero
+
+CreateMeshBuilder
+Addvertex, 1.71,6.13,-0.27
+Addvertex, 2.09,6.13,-0.27
+Addvertex, 1.9,5.8,-0.27
+Addface2, 0,1,2,
+Generatenormals
+setcolor, 255,255,255 ;;bianco
+
+CreateMeshBuilder, ; segnale fronte rosso
+Cylinder, 64,0.10,0.10,0.01
+Rotate, 1,0,0,90
+translate, 1.9,6.6,-0.4,
+Setcolor,255,0,0,
+
+; 10 cartello
+CreateMeshBuilder
+Addvertex, 1.7,5.5,-0.25
+Addvertex, 2.1,5.5,-0.25
+Addvertex, 2.1,5,-0.25
+Addvertex, 1.7,5,-0.25
+Addface2, 0,1,2,3
+
+Generatenormals
+setcolor,0,0,0
+
+; 11 scaletta laterale
+
+CreateMeshBuilder
+Addvertex, -3.1,1.5,0
+Addvertex, -3.1,8.55,0
+Addvertex, -2.7,8.55,0
+Addvertex, -2.7,1.5,0
+
+Addface2, 0,1,2,3
+
+Generatenormals
+
+Loadtexture, handrail_s.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 10, 0,
+SetTextureCoordinates,2, 10, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+;; segnale 
+;***************************************,
+; Alex_80                               ,
+; http://www.infinito.it/utenti/alex_80 ,
+; E-mail: Alex_80@Infinito.it           ,
+;***************************************,
+
+
+
+;[VELA]
+
+CreateMeshBuilder,
+Cylinder, 100, 0.350, 0.350, 0.030,
+Rotate, 1, 0, 0, 90,
+Translate, -1.8, 5.7, -0.350,
+SetColor, 180, 180, 180,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder, 100, 0.350, 0.350, 0.002,
+Rotate, 1, 0, 0, 90,
+Translate, -1.8, 5.7, -0.366,
+SetColor, 255, 255, 255,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder, 100, 0.295, 0.295, 0.002,
+Rotate, 1, 0, 0, 90,
+Translate, -1.8, 5.7, -0.368,
+SetColor, 15, 15, 15,
+GenerateNormals,
+
+
+;[PARASOLE]
+
+CreateMeshBuilder,
+Cylinder, 16, 0.105, 0.105, 0.500,
+Rotate, 1, 0, 0, 90,
+Translate, -1.8, 5.7, -0.615,
+SetColor, 0, 0, 0, 1,
+AddFace2, 10, 11,  9,  8,
+AddFace2, 12, 13, 11, 10,
+AddFace2, 14, 15, 13, 12,
+AddFace2, 16, 17, 15, 14,
+AddFace2, 18, 19, 17, 16,
+AddFace2, 20, 21, 19, 18,
+AddFace2, 22, 23, 21, 20,
+AddFace2, 24, 25, 23, 22,
+GenerateNormals,
+LoadTexture, .\Sunshade.bmp
+SetTextureCoordinates,  8,     0,     0,
+SetTextureCoordinates,  9, 0.781,     0, 
+SetTextureCoordinates, 10,     0, 0.060,
+SetTextureCoordinates, 11, 0.781, 0.060,
+SetTextureCoordinates, 12,     0, 0.121,
+SetTextureCoordinates, 13, 0.781, 0.121,
+SetTextureCoordinates, 14,     0, 0.181,
+SetTextureCoordinates, 15, 0.781, 0.181,
+SetTextureCoordinates, 16,     0, 0.242,
+SetTextureCoordinates, 17, 0.781, 0.242, 
+SetTextureCoordinates, 18,     0, 0.302,
+SetTextureCoordinates, 19, 0.781, 0.302,
+SetTextureCoordinates, 20,     0, 0.363,
+SetTextureCoordinates, 21, 0.781, 0.363,
+SetTextureCoordinates, 22,     0, 0.423,
+SetTextureCoordinates, 23, 0.781, 0.423,
+SetTextureCoordinates, 24,     0, 0.484,
+SetTextureCoordinates, 25, 0.781, 0.484,
+SetDecalTransparentColor, 255, 255, 255,
+
+CreateMeshBuilder,
+Cylinder, 16, 0.105, 0.105, 0.500,
+Rotate, 1, 0, 0, 90,
+Translate, -1.8, 5.7, -0.615,
+SetColor, 0, 0, 0, 1,
+AddFace2, 26, 27, 25, 24,
+AddFace2, 28, 29, 27, 26,
+AddFace2, 30, 31, 29, 28,
+AddFace2,  0,  1, 31, 30,
+AddFace2,  2,  3,  1,  0,
+AddFace2,  4,  5,  3,  2,
+AddFace2,  6,  7,  5,  4,
+AddFace2,  8,  9,  7,  6,
+GenerateNormals,
+LoadTexture, .\Sunshade.bmp
+SetTextureCoordinates, 9, 0.781,     0,
+SetTextureCoordinates, 8,     0,     0, 
+SetTextureCoordinates, 7, 0.781, 0.060,
+SetTextureCoordinates, 6,     0, 0.060,
+SetTextureCoordinates, 5, 0.781, 0.121,
+SetTextureCoordinates, 4,     0, 0.121,
+SetTextureCoordinates, 3, 0.781, 0.181,
+SetTextureCoordinates, 2,     0, 0.181,
+SetTextureCoordinates, 1, 0.781, 0.242,
+SetTextureCoordinates, 0,     0, 0.242, 
+SetTextureCoordinates, 31,0.781, 0.302,
+SetTextureCoordinates, 30,    0, 0.302,
+SetTextureCoordinates, 29,0.781, 0.363,
+SetTextureCoordinates, 28,    0, 0.363,
+SetTextureCoordinates, 27,0.781, 0.423,
+SetTextureCoordinates, 26,    0, 0.423,
+SetTextureCoordinates, 25,0.781, 0.484,
+SetTextureCoordinates, 24,    0, 0.484,
+SetDecalTransparentColor, 255, 255, 255,
+
+
+;; vela2
+
+;[VELA]
+
+CreateMeshBuilder,
+Cylinder, 100, 0.350, 0.350, 0.030,
+Rotate, 1, 0, 0, 90,
+Translate, 1.9, 6.6, -0.350,
+SetColor, 180, 180, 180,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder, 100, 0.350, 0.350, 0.002,
+Rotate, 1, 0, 0, 90,
+Translate, 1.9, 6.6, -0.366,
+SetColor, 255, 255, 255,
+GenerateNormals,
+
+CreateMeshBuilder,
+Cylinder, 100, 0.295, 0.295, 0.002,
+Rotate, 1, 0, 0, 90,
+Translate, 1.9, 6.6, -0.368,
+SetColor, 15, 15, 15,
+GenerateNormals,
+
+
+;[PARASOLE]
+
+CreateMeshBuilder,
+Cylinder, 16, 0.105, 0.105, 0.500,
+Rotate, 1, 0, 0, 90,
+Translate, 1.9, 6.6, -0.615,
+SetColor, 0, 0, 0, 1,
+AddFace2, 10, 11,  9,  8,
+AddFace2, 12, 13, 11, 10,
+AddFace2, 14, 15, 13, 12,
+AddFace2, 16, 17, 15, 14,
+AddFace2, 18, 19, 17, 16,
+AddFace2, 20, 21, 19, 18,
+AddFace2, 22, 23, 21, 20,
+AddFace2, 24, 25, 23, 22,
+GenerateNormals,
+LoadTexture, .\Sunshade.bmp
+SetTextureCoordinates,  8,     0,     0,
+SetTextureCoordinates,  9, 0.781,     0, 
+SetTextureCoordinates, 10,     0, 0.060,
+SetTextureCoordinates, 11, 0.781, 0.060,
+SetTextureCoordinates, 12,     0, 0.121,
+SetTextureCoordinates, 13, 0.781, 0.121,
+SetTextureCoordinates, 14,     0, 0.181,
+SetTextureCoordinates, 15, 0.781, 0.181,
+SetTextureCoordinates, 16,     0, 0.242,
+SetTextureCoordinates, 17, 0.781, 0.242, 
+SetTextureCoordinates, 18,     0, 0.302,
+SetTextureCoordinates, 19, 0.781, 0.302,
+SetTextureCoordinates, 20,     0, 0.363,
+SetTextureCoordinates, 21, 0.781, 0.363,
+SetTextureCoordinates, 22,     0, 0.423,
+SetTextureCoordinates, 23, 0.781, 0.423,
+SetTextureCoordinates, 24,     0, 0.484,
+SetTextureCoordinates, 25, 0.781, 0.484,
+SetDecalTransparentColor, 255, 255, 255,
+
+CreateMeshBuilder,
+Cylinder, 16, 0.105, 0.105, 0.500,
+Rotate, 1, 0, 0, 90,
+Translate, 1.9, 6.6, -0.615,
+SetColor, 0, 0, 0, 1,
+AddFace2, 26, 27, 25, 24,
+AddFace2, 28, 29, 27, 26,
+AddFace2, 30, 31, 29, 28,
+AddFace2,  0,  1, 31, 30,
+AddFace2,  2,  3,  1,  0,
+AddFace2,  4,  5,  3,  2,
+AddFace2,  6,  7,  5,  4,
+AddFace2,  8,  9,  7,  6,
+GenerateNormals,
+LoadTexture, .\Sunshade.bmp
+SetTextureCoordinates, 9, 0.781,     0,
+SetTextureCoordinates, 8,     0,     0, 
+SetTextureCoordinates, 7, 0.781, 0.060,
+SetTextureCoordinates, 6,     0, 0.060,
+SetTextureCoordinates, 5, 0.781, 0.121,
+SetTextureCoordinates, 4,     0, 0.121,
+SetTextureCoordinates, 3, 0.781, 0.181,
+SetTextureCoordinates, 2,     0, 0.181,
+SetTextureCoordinates, 1, 0.781, 0.242,
+SetTextureCoordinates, 0,     0, 0.242, 
+SetTextureCoordinates, 31,0.781, 0.302,
+SetTextureCoordinates, 30,    0, 0.302,
+SetTextureCoordinates, 29,0.781, 0.363,
+SetTextureCoordinates, 28,    0, 0.363,
+SetTextureCoordinates, 27,0.781, 0.423,
+SetTextureCoordinates, 26,    0, 0.423,
+SetTextureCoordinates, 25,0.781, 0.484,
+SetTextureCoordinates, 24,    0, 0.484,
+SetDecalTransparentColor, 255, 255, 255,
+

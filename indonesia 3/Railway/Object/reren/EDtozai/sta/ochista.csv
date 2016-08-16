@@ -1,0 +1,258 @@
+;;;;;;;;;;;;;;2î‘ï«;;;;;;;;;;;;;;;
+CreateMeshBuilder,
+AddVertex,-2.51, 0.0, 0,
+AddVertex,-2.51, 4.2, 0,
+AddVertex,-2.51, 4.2, 25.2,
+AddVertex,-2.51, 0.0, 25.2,
+AddFace,0,1,2,3,
+LoadTexture,../Wall/ochi5.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 6, 0,
+SetTextureCoordinates,3, 6, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.31, -0.3, 0
+AddVertex,-2.31, -0.3, 25.2
+AddVertex,-2.51,  0.0, 25.2
+AddVertex,-2.51,  0.0, 0
+AddFace,3,2,1,0
+LoadTexture,../Roof1/SideWall2.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 26,0
+SetTextureCoordinates,2, 26,0.09
+SetTextureCoordinates,3, 0,0.09
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-2.31, -0.3, 25.2
+AddVertex,-1.90, -0.3, 25.2
+AddVertex,-1.90, -0.3, 0
+AddVertex,-2.31, -0.3, 0
+AddFace,0,1,2,3
+LoadTexture,../Roof1/SideWall2.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 0,0.07
+SetTextureCoordinates,2, 5,0.07
+SetTextureCoordinates,3, 5,0
+Setcolor,255,255,190
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.5, 3.0, 11.0,
+AddVertex,-2.5, 3.0, 14.0,
+AddVertex,-2.5, 2.2, 14.0,
+AddVertex,-2.5, 2.2, 11.0,
+AddFace,0,1,2,3,
+LoadTexture,../Fpanel/ochi.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+;;;;;;;;;;;;;;âÆç™;;;;;;;;;;;;;;;
+CreateMeshBuilder
+AddVertex,1.50, 4.7, 25.0
+AddVertex,8.30, 4.7, 25.0
+AddVertex,8.30, 4.7, 0.0
+AddVertex,1.50, 4.7, 0.0
+AddFace,3,2,1,0
+LoadTexture,../Roof1/MSRoof.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 15, 0
+SetTextureCoordinates,3, 15, 1
+GenerateNormals,
+
+CreateMeshBuilder
+AddVertex,1.5, 5.4,25.0
+AddVertex,1.5, 5.4, 0.0
+AddVertex,1.5, 4.7, 0.0
+AddVertex,1.5, 4.7,25.0
+AddFAce,0,1,2,3
+LoadTexture,../Wall\boadwall.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+Setcolor,110,110,110
+GenerateNormals
+
+CreateMeshBuilder,
+AddVertex,-2.51, 4.2, 25,
+AddVertex,-1.90, 5.4, 25,
+AddVertex, 2.00, 5.4, 25,
+AddVertex, 2.00, 5.4, 0,
+AddVertex,-1.90, 5.4, 0,
+AddVertex,-2.51, 4.2, 0,
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+LoadTexture,../Roof1/roofB1.bmp,
+SetTextureCoordinates,0, -0.3, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.1, 0,
+SetTextureCoordinates,3, 1.1, 6,
+SetTextureCoordinates,4, 0, 6,
+SetTextureCoordinates,5, -0.3, 6,
+Setcolor,180,180,180
+GenerateNormals,
+
+CreateMeshBuilder
+AddVertex,1.5, 4.7, 0
+AddVertex,1.5, 5.4, 0
+AddVertex,8.3, 5.4, 0
+AddVertex,8.3, 4.7, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,../Wall/boadwall.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 5, 0
+SetTextureCoordinates,3, 5, 1
+Setcolor,100,100,100
+
+;;;;;;;;;;;;;;1î‘ï«;;;;;;;;;;;;;;;;
+CreateMeshBuilder,
+AddVertex,12.5,  4.2, 27
+AddVertex,12.5,  4.2, 0
+AddVertex,12.5, -0.0, 0
+AddVertex,12.5, -0.0, 27
+AddFace,0,1,2,3
+LoadTexture,../Wall\ochi5.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 6,0
+SetTextureCoordinates,2, 6,1
+SetTextureCoordinates,3, 0,1
+GenerateNormals,
+
+CreateMeshBuilder
+AddVertex,12.31, -0.3, 0
+AddVertex,12.31, -0.3, 25.2
+AddVertex,12.51,  0.0, 25.2
+AddVertex,12.51,  0.0, 0
+AddFace,0,1,2,3
+LoadTexture,../Roof1/SideWall2.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 26,0
+SetTextureCoordinates,2, 26,0.09
+SetTextureCoordinates,3, 0,0.09
+GenerateNormals
+CreateMeshBuilder
+AddVertex,12.31, -0.3, 25.2
+AddVertex,11.9, -0.3, 25.2
+AddVertex,11.9, -0.3, 0
+AddVertex,12.31, -0.3, 0
+AddFace,3,2,1,0
+LoadTexture,../Roof1/SideWall2.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 0,0.07
+SetTextureCoordinates,2, 5,0.07
+SetTextureCoordinates,3, 5,0
+Setcolor,255,255,190
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,12.49, 2.5, 11.5
+AddVertex,12.49, 2.5, 14.5
+AddVertex,12.49, 1.8, 14.5
+AddVertex,12.49, 1.8, 11.5
+AddFace,3,2,1,0
+LoadTexture,../Fpanel/ochi.bmp,
+SetTextureCoordinates,0, 1, 0
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 0, 1
+SetTextureCoordinates,3, 1, 1
+GenerateNormals,
+
+;;;;;;;;;;;;;1î‘âÆç™;;;;;;;;;;;;;;
+CreateMeshBuilder
+AddVertex,12.51, 4.2, 25
+AddVertex,11.9, 5.4, 25
+AddVertex, 8, 5.4, 25
+AddVertex, 8, 5.4, 0
+AddVertex,11.9, 5.4, 0
+AddVertex,12.51, 4.2, 0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,../Roof1/wall_B1.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.3, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 5
+SetTextureCoordinates,4, 0.3, 5
+SetTextureCoordinates,5, 0, 5
+Setcolor,150,150,150
+GenerateNormals
+
+
+;;;;;;;;;;;;;íÜêSâ~íå;;;;;;;;;;;;;;
+CreateMeshBuilder,
+AddVertex, 4.22, 4.7, 0.0,
+AddVertex, 5.12, 4.7, 0.0,
+AddVertex, 5.12, 1.1, 0.0,
+AddVertex, 4.22, 1.1, 0.0,
+AddFace,0,1,2,3,
+LoadTexture,../Pole/station_pole/ochiP4.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+Translate,0,0,3,
+
+CreateMeshBuilder,
+AddVertex, 4.2, 4.7, 0.0,
+AddVertex, 5.1, 4.7, 0.0,
+AddVertex, 5.1, 1.1, 0.0,
+AddVertex, 4.2, 1.1, 0.0,
+AddFace,0,1,2,3,
+LoadTexture,../Pole/station_pole/ochiP4.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+Translate,0,0,8,
+
+CreateMeshBuilder,
+AddVertex, 4.2, 4.7, 0.0,
+AddVertex, 5.1, 4.7, 0.0,
+AddVertex, 5.1, 1.1, 0.0,
+AddVertex, 4.2, 1.1, 0.0,
+AddFace,0,1,2,3,
+LoadTexture,../Pole/station_pole/ochiP4.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+Translate,0,0,13,
+
+CreateMeshBuilder,
+AddVertex, 4.2, 4.7, 0.0,
+AddVertex, 5.1, 4.7, 0.0,
+AddVertex, 5.1, 1.1, 0.0,
+AddVertex, 4.2, 1.1, 0.0,
+AddFace,0,1,2,3,
+LoadTexture,../Pole/station_pole/ochiP4.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+Translate,0,0,18,
+
+CreateMeshBuilder,
+AddVertex, 4.2, 4.7, 0.0,
+AddVertex, 5.1, 4.7, 0.0,
+AddVertex, 5.1, 1.1, 0.0,
+AddVertex, 4.2, 1.1, 0.0,
+AddFace,0,1,2,3,
+LoadTexture,../Pole/station_pole/ochiP4.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+Translate,0,0,23,

@@ -1,0 +1,48 @@
+﻿[Meshbuilder]
+Vertex -2, 0, 0
+Vertex 2, 0, 0
+Vertex 2, 0, 4
+Vertex -2,0, 4
+Face 3, 2, 1, 0
+[Texture]
+Load keresztezodes.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;Overhead line:
+
+[meshbuilder]
+vertex -0.02, 6.000, 0
+vertex 0.02, 6.000, 0
+vertex 0.008, 6.000, 4
+vertex -0.032, 6.000, 4
+face 0,1,2,3
+face 3,2,1,0
+color 0,0,0
+
+[meshbuilder]
+vertex -0.01, 6.001, 0
+vertex 0.01, 6.001, 0
+vertex -0.002, 6.001, 4
+vertex -0.022, 6.001, 4
+face 0,1,2,3
+face 3,2,1,0
+
+[meshbuilder]
+vertex -2.02, 6.000, 2
+vertex -2.02, 6.000, 2
+vertex 2.002, 6.000, 2
+vertex 2.002, 6.000, 2
+face 0,1,2,3
+face 3,2,1,0
+color 0,0,0
+
+[meshbuilder]
+vertex -2.01, 6.001, 2
+vertex -2.01, 6.001, 2
+vertex 2.002, 6.001, 2
+vertex 2.002, 6.001, 2
+face 0,1,2,3
+face 3,2,1,0

@@ -1,0 +1,29 @@
+;keretalagút, fal a bal oldalon
+;Készítette: http://www.bvemetro.hu/
+
+;bal fal
+[MeshBuilder]
+vertex -2.2,-0.665,-0.3
+vertex -2.2, 4.000,-0.3
+vertex -2.2, 4.000,10
+vertex -2.2,-0.665,10
+face2 0,1,2,3
+Load fal_keret_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0.041
+coordinates 2,2,0.041
+coordinates 3,2,1
+
+[MeshBuilder]
+vertex  8.00,4.00,-0.3
+vertex  8.00,4.00,10
+vertex -2.21,4.00,10
+vertex -2.21,4.00,-0.3
+face 0,1,2,3
+Load melyteto.bmp
+Coordinates 0,0,1
+Coordinates 1,2,1
+Coordinates 2,2,0
+Coordinates 3,0,0
+
+;--------------------------------------

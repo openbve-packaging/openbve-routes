@@ -1,0 +1,252 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Casa Gialla chiara
+; --------- Fronte ------------
+[MeshBuilder] ; Muro interrato
+Vertex 0, 0, -2
+Vertex 11, 0, -2
+Vertex 11, -4, -2
+Vertex 0, -4, -2
+Face 0,1,2,3
+[texture]
+load muro3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 3, 0
+Coordinates 2, 3, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.t
+Vertex 0, 4, -2
+Vertex 5, 4, -2
+Vertex 5, 0, -2
+Vertex 0, 0, -2
+Face 0,1,2,3
+[texture]
+load Fin-casa3a.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.1
+Vertex 0, 8, -2
+Vertex 5, 8, -2
+Vertex 5, 4, -2
+Vertex 0, 4, -2
+Face 0,1,2,3
+[texture]
+load Fin-casa3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.2
+Vertex 0, 12,-2
+Vertex 5, 12,-2
+Vertex 5, 8, -2
+Vertex 0, 8, -2
+Face 0,1,2,3
+[texture]
+load Fin-casa3c.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.3
+Vertex 0, 16, -2
+Vertex 5, 16, -2
+Vertex 5, 12, -2
+Vertex 0, 12, -2
+Face 0,1,2,3
+[texture]
+load Fin-casa3a.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Muro senza finestre
+Vertex 5, 16, -2
+Vertex 11, 16,-2
+Vertex 11, 0, -2
+Vertex 5, 0,  -2
+Face 0,1,2,3
+[texture]
+load muro3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 4
+Coordinates 3, 0, 4
+
+; --------- Lato - parte anteriore ------------
+[MeshBuilder] ; Finestre P.0
+Vertex 0, 4.05, 22
+Vertex 0, 4.05, 13.95
+Vertex 0, 0   , 13.95
+Vertex 0, 0   , 22
+Face 0,1,2,3    
+[texture]       
+load Fin-casa3a.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.1 chiusa
+Vertex 0, 8.05, 22
+Vertex 0, 8.05, 17.95
+Vertex 0, 4   , 17.95
+Vertex 0, 4   , 22
+Face 0,1,2,3
+[texture]
+load Fin-casa3c.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.1 c/panni
+Vertex 0, 8.05, 18
+Vertex 0, 8.05, 13.95
+Vertex 0, 4   , 13.95
+Vertex 0, 4   , 18
+Face 0,1,2,3
+[texture]
+load Fin-casa3cp.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestre P.2-3
+Vertex 0, 16, 22
+Vertex 0, 16, 13.95
+Vertex 0, 8 , 13.95
+Vertex 0, 8 , 22
+Face 0,1,2,3    
+[texture]       
+load Fin-casa3.bmp
+Coordinates 0, 2, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 2
+Coordinates 3, 2, 2
+
+; -------- Lato - parte centrale
+[MeshBuilder] ; Finestra Bagni-scala
+Vertex 0.001, 16, 14
+Vertex 0.001, 16, 9.95
+Vertex 0.001, 0, 9.95
+Vertex 0.001, 0, 14
+Face 0,1,2,3
+[texture]
+load Fin-casa3as.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 4
+Coordinates 3, 0, 4
+[MeshBuilder] ; Finestra Bagni-scala
+Vertex 0.001, 16, 10
+Vertex 0.001, 16, 5.95
+Vertex 0.001, 0, 5.95
+Vertex 0.001, 0, 10
+Face 0,1,2,3
+[texture]
+load Fin-casa3as.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 4
+Coordinates 3, 1, 4
+
+; -------- Lato - parte anteriore
+[MeshBuilder] ; Finestre P.2-3
+Vertex 0, 16, 6
+Vertex 0, 16, -2
+Vertex 0, 8 , -2
+Vertex 0, 8 , 6
+Face 0,1,2,3    
+[texture]       
+load Fin-casa3.bmp
+Coordinates 0, 2, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 2
+Coordinates 3, 2, 2
+
+[MeshBuilder] ; Finestre P.0
+Vertex 0, 4.05, 6
+Vertex 0, 4.05, -2
+Vertex 0, 0   , -2
+Vertex 0, 0   , 6
+Face 0,1,2,3    
+[texture]       
+load Fin-casa3.bmp
+Coordinates 0, 2, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 2, 1
+
+[MeshBuilder] ; Finestra P.1 c/panni
+Vertex 0, 8.05, 6
+Vertex 0, 8.05, 1.95
+Vertex 0, 4   , 1.95
+Vertex 0, 4   , 6
+Face 0,1,2,3
+[texture]
+load Fin-casa3cp.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.1 chiusa
+Vertex 0, 8.05, 2
+Vertex 0, 8.05, -2
+Vertex 0, 4   , -2
+Vertex 0, 4   , 2
+Face 0,1,2,3
+[texture]
+load Fin-casa3c.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+; ---- Zoccolo ----
+[MeshBuilder]
+Cube 0.2, 1, 11.99
+color 127,127,127
+translate 0,-1,10
+
+;[MeshBuilder]; Ghiaia a copertura
+;Vertex -2, -0.90, 22.5
+;Vertex  0.1, -1, 22.5
+;Vertex  0.1, -1, -20.7
+;Vertex -2, -0.90, -20.7
+;Face 0,1,2,3
+;[texture]
+;load ..\..\Rails\Trav-gray.bmp
+;Coordinates 0, 0.5, 0
+;Coordinates 1, 0,0
+;Coordinates 2, 0,   25
+;Coordinates 3, 0.5,   25
+;rotate 1,0,0,-2.2
+
+; ---- Tetto -------
+[MeshBuilder]
+Cube 6.0,0.1, 13.2
+color 179,206,206
+translate 5.5,16,10
+
+[MeshBuilder]
+Vertex -0.4, 16.1, 22.4
+Vertex 5.5, 19,   19
+Vertex 5.5, 19,   1.2
+Vertex -0.4, 16.1, -2.1
+Vertex 11.4, 16.1, -2.1
+
+Face 0,1,2,3
+Face 3,2,4
+color 137,163,176

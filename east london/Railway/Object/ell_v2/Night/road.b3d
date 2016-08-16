@@ -1,0 +1,312 @@
+[MeshBuilder] ; Forward wall
+Vertex 200,-4,21
+Vertex -200,-4,21
+Vertex -200,-0.3,21
+Vertex 200,-0.3,21
+Face 0,1,2,3
+Color 100,100,100
+[Texture]
+load ..\concrete2.bmp
+Coordinates 0,15,0
+Coordinates 1,15,400
+Coordinates 2,0,400
+Coordinates 3,0,0
+
+
+[MeshBuilder] ; Forward wall top
+Vertex -3,-0.3,21
+Vertex -200,-0.3,21
+Vertex -200,0,21
+Vertex -3,0,21
+Vertex 200,-0.3,21
+Vertex 7,-0.3,21
+Vertex 7,0,21
+Vertex 200,0,21
+Face 0,1,2,3
+Face 4,5,6,7
+Color 100,100,100
+[Texture]
+load ..\concrete2.bmp
+Coordinates 0,15,0
+Coordinates 1,15,193
+Coordinates 2,0,193
+Coordinates 3,0,0
+Coordinates 4,15,203
+Coordinates 5,15,400
+Coordinates 6,0,400
+Coordinates 7,0,203
+
+
+[Meshbuilder] ; pavement top
+Vertex 200,-4,21
+Vertex 200,-4,17.5
+Vertex -200,-4,17.5
+Vertex -200,-4,21
+Face 0,1,2,3
+Color 128,128,128
+[Texture]
+load stonewall.bmp
+Coordinates 0,400,0
+Coordinates 1,400,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+
+[Meshbuilder] ; pavement top
+Vertex 200,-4,7.5
+Vertex 200,-4,4
+Vertex -200,-4,4
+Vertex -200,-4,7.5
+Face 0,1,2,3
+Color 128,128,128
+
+[Texture]
+load stonewall.bmp
+Coordinates 0,400,0
+Coordinates 1,400,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+
+[Meshbuilder] ; pavement side
+Vertex 200,-4,17.5
+Vertex 200,-4.3,17.5
+Vertex -200,-4.3,17.5
+Vertex -200,-4,17.5
+Face 0,1,2,3
+Color 128,128,128
+[Texture]
+load stonewall.bmp
+Coordinates 0,400,0
+Coordinates 1,400,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+[Meshbuilder] ; the road
+Vertex 200,-4.3,7.5
+Vertex -200,-4.3,7.5
+Vertex -200,-4.3,17.5
+Vertex 200,-4.3,17.5
+Face 0,1,2,3
+Color 180,180,180
+[Texture]
+load road.bmp
+Coordinates 0,1,0
+Coordinates 1,1,40
+Coordinates 2,0,40
+Coordinates 3,0,0
+
+;[Meshbuilder] ; Bridge "barrier" tops
+;Vertex -2,0.6,25
+;Vertex -2,0.6,0
+;Vertex -3,0.6,0
+;Vertex -3,0.6,25
+
+;Vertex 3,0.6,25
+;Vertex 3,0.6,0
+;Vertex 2,0.6,0
+;Vertex 2,0.6,25
+
+;Vertex 8,0.6,25
+;Vertex 8,0.6,0
+;Vertex 7,0.6,0
+;Vertex 7,0.6,25
+
+;Vertex -3,-0.3,0
+;Vertex -2,-0.3,0
+
+;Vertex 2,-0.3,0
+;Vertex 3,-0.3,0
+
+;Vertex 7,-0.3,0
+;Vertex 8,-0.3,0
+
+;Face 0,1,2,3
+;Face 4,5,6,7
+;Face 8,9,10,11
+
+;Face 1,13,12,2
+;Face 5,15,14,6
+;Face 9,17,16,10
+
+;[Texture]
+;load metal1.bmp
+;Coordinates 0,-2,0
+;Coordinates 1,-2,35
+;Coordinates 2,-3,35
+;Coordinates 3,-3,0
+
+;Coordinates 4,3,0
+;Coordinates 5,3,35
+;Coordinates 6,2,35
+;Coordinates 7,2,0
+
+;Coordinates 8,8,0
+;Coordinates 9,8,35
+;Coordinates 10,7,35
+;Coordinates 11,7,0
+
+;Coordinates 12,-3,36
+;Coordinates 13,-2,36
+
+;Coordinates 14,2,36
+;Coordinates 15,3,36
+
+;Coordinates 16,7,36
+;Coordinates 17,8,36
+
+;[Meshbuilder]
+;Vertex -2,0.6,25
+;Vertex -2,-0.3,25
+;Vertex -2,-0.3,0
+;Vertex -2,0.6,0
+;Face 0,1,2,3
+;[Texture]
+;load metal1.bmp
+;Coordinates 0,35,0
+;Coordinates 1,35,1
+;Coordinates 2,0,1
+;Coordinates 3,0,0
+
+;[Meshbuilder]
+;Vertex 2,0.6,25
+;Vertex 2,-0.3,25
+;Vertex 2,-0.3,0
+;Vertex 2,0.6,0
+;Face 3,2,1,0
+;[Texture]
+;load metal1.bmp
+;Coordinates 0,35,0
+;Coordinates 1,35,1
+;Coordinates 2,0,1
+;Coordinates 3,0,0
+
+;[Meshbuilder]
+;Vertex 7,0.6,25
+;Vertex 7,-0.3,25
+;Vertex 7,-0.3,0
+;Vertex 7,0.6,0
+;Face 3,2,1,0
+;[Texture]
+;load metal1.bmp
+;Coordinates 0,35,0
+;Coordinates 1,35,1
+;Coordinates 2,0,1
+;Coordinates 3,0,0
+
+
+[MeshBuilder]
+Vertex 7,-0.3,25
+Vertex 7,-0.3,0
+Vertex -3,-0.3,0
+Vertex -3,-0.3,25
+Face 0,1,2,3
+[Texture]
+Load ..\schotter1.bmp
+Coordinates 0,6.8,0
+Coordinates 1,6.8,10
+Coordinates 2,0,10
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -3,-0.3,25
+Vertex -3,-0.3,21
+Vertex -50,-0.3,21
+Vertex -50,-0.3,25
+Vertex -3,-0.3,4
+Vertex -3,-0.3,0
+Vertex -50,-0.3,0
+Vertex -50,-0.3,4
+Face 0,1,2,3
+Face 4,5,6,7
+Color 90,90,90
+[Texture]
+load stonewall.bmp
+Coordinates 0,45,0
+Coordinates 1,45,25
+Coordinates 2,0,25
+Coordinates 3,0,0
+Coordinates 4,45,0
+Coordinates 5,45,25
+Coordinates 6,0,25
+Coordinates 7,0,0
+
+[Meshbuilder]
+Vertex 7,-0.3,25
+Vertex 7,-0.3,21
+Vertex 50,-0.3,21
+Vertex 50,-0.3,25
+Vertex 7,-0.3,4
+Vertex 7,-0.3,0
+Vertex 50,-0.3,0
+Vertex 50,-0.3,4
+Face 3,2,1,0
+Face 7,6,5,4
+Color 90,90,90
+[Texture]
+load stonewall.bmp
+Coordinates 0,45,0
+Coordinates 1,45,25
+Coordinates 2,0,25
+Coordinates 3,0,0
+Coordinates 4,45,0
+Coordinates 5,45,25
+Coordinates 6,0,25
+Coordinates 7,0,0
+
+; Cables ;)
+
+[Meshbuilder]
+Vertex -1.8,0.8,25.3
+Vertex -1.8,-0.6,25.3
+Vertex -1.8,-0.6,-0.3
+Vertex -1.8,0.8,-0.3
+Face 0,1,2,3
+[Texture]
+load ..\track-cables.bmp
+Coordinates 0,15,0
+Coordinates 1,15,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder]
+Vertex 6.8,0.8,25.3
+Vertex 6.8,-0.6,25.3
+Vertex 6.8,-0.6,-0.3
+Vertex 6.8,0.8,-0.3
+Face 3,2,1,0
+[Texture]
+load ..\track-cables.bmp
+Coordinates 0,15,0
+Coordinates 1,15,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+; Sideways cables
+[Meshbuilder]
+Vertex -1.8,0.8,-0.3
+Vertex -1.8,-0.6,-0.3
+Vertex -2.8,-0.6,-0.3
+Vertex -2.8,0.8,-0.3
+Face 0,1,2,3
+[Texture]
+load ..\track-cables.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder]
+Vertex -1.8,0.8,25.3
+Vertex -1.8,-0.6,25.3
+Vertex -2.8,-0.6,25.3
+Vertex -2.8,0.8,25.3
+Face 0,1,2,3
+[Texture]
+load ..\track-cables.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

@@ -1,0 +1,299 @@
+;M3 alagút kivezetés 500 m sugarú bal ívben 1.rész
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;Alagútfal
+[MeshBuilder]
+;jobb oldalfal belsõ síkja
+Vertex   02.170, -00.200, -00.20
+Vertex   02.170,  05.250, -00.20
+Vertex   02.300, -00.200,  05.00
+Vertex   02.300,  05.205,  05.00
+Vertex   02.350, -00.200,  10.00
+Vertex   02.350,  05.160,  10.00
+Vertex   02.350, -00.200,  15.00
+Vertex   02.350,  05.115,  15.00
+Vertex   02.300, -00.200,  20.00
+Vertex   02.300,  05.070,  20.00
+Vertex   02.200, -00.200,  25.10
+Vertex   02.200,  05.025,  25.10
+
+;bal oldalfal belsõ síkja
+Vertex  -02.170, -00.200, -00.20
+Vertex  -02.170,  05.250, -00.20
+Vertex  -02.100, -00.200,  05.00
+Vertex  -02.100,  05.205,  05.00
+Vertex  -02.050, -00.200,  10.00
+Vertex  -02.050,  05.160,  10.00
+Vertex  -02.050, -00.200,  15.00
+Vertex  -02.050,  05.115,  15.00
+Vertex  -02.100, -00.200,  20.00
+Vertex  -02.100,  05.070,  20.00
+Vertex  -02.200, -00.200,  25.10
+Vertex  -02.200,  05.025,  25.10
+
+;jobb felsõ sík
+Vertex   02.200,  05.250, -00.10
+Vertex   02.800,  05.250, -00.10
+Vertex   02.300,  05.205,  05.00
+Vertex   02.900,  05.205,  05.00
+Vertex   02.350,  05.160,  10.00
+Vertex   02.950,  05.160,  10.00
+Vertex   02.350,  05.115,  15.00
+Vertex   02.950,  05.115,  15.00
+Vertex   02.300,  05.070,  20.00
+Vertex   02.900,  05.070,  20.00
+Vertex   02.200,  05.025,  25.10
+Vertex   02.800,  05.025,  25.10
+
+;bal felsõ sík
+Vertex  -02.200,  05.250, -00.10
+Vertex  -02.800,  05.250, -00.10
+Vertex  -02.100,  05.205,  05.00
+Vertex  -02.700,  05.205,  05.00
+Vertex  -02.050,  05.160,  10.00
+Vertex  -02.650,  05.160,  10.00
+Vertex  -02.050,  05.115,  15.00
+Vertex  -02.650,  05.115,  15.00
+Vertex  -02.100,  05.070,  20.00
+Vertex  -02.700,  05.070,  20.00
+Vertex  -02.200,  05.025,  25.10
+Vertex  -02.800,  05.025,  25.10
+
+Face 2,3,1,0
+Face 4,5,3,2
+Face 6,7,5,4
+Face 8,9,7,6
+Face 10,11,9,8
+
+Face 12,13,15,14
+Face 14,15,17,16
+Face 16,17,19,18
+Face 18,19,21,20
+Face 20,21,23,22
+
+Face 24,26,27,25
+Face 26,28,29,27
+Face 28,30,31,29
+Face 30,32,33,31
+Face 32,34,35,33
+
+Face 36,37,39,38
+Face 38,39,41,40
+Face 40,41,43,42
+Face 42,43,45,44
+Face 44,45,47,46
+
+[Texture]
+Load alagut_bev_fal.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 02.00, 01.00
+Coordinates  3, 02.00, 00.00
+Coordinates  4, 04.00, 01.00
+Coordinates  5, 04.00, 00.00
+Coordinates  6, 06.00, 01.00
+Coordinates  7, 06.00, 00.00
+Coordinates  8, 08.00, 01.00
+Coordinates  9, 08.00, 00.00
+Coordinates 10, 10.00, 01.00
+Coordinates 11, 10.00, 00.00
+
+Coordinates 12, 00.00, 01.00
+Coordinates 13, 00.00, 00.00
+Coordinates 14, 02.00, 01.00
+Coordinates 15, 02.00, 00.00
+Coordinates 16, 04.00, 01.00
+Coordinates 17, 04.00, 00.00
+Coordinates 18, 06.00, 01.00
+Coordinates 19, 06.00, 00.00
+Coordinates 20, 08.00, 01.00
+Coordinates 21, 08.00, 00.00
+Coordinates 22, 10.00, 01.00
+Coordinates 23, 10.00, 00.00
+
+Coordinates 24, 00.00, 01.00
+Coordinates 25, 00.00, 00.00
+Coordinates 26, 02.00, 01.00
+Coordinates 27, 02.00, 00.00
+Coordinates 28, 04.00, 01.00
+Coordinates 29, 04.00, 00.00
+Coordinates 30, 06.00, 01.00
+Coordinates 31, 06.00, 00.00
+Coordinates 32, 08.00, 01.00
+Coordinates 33, 08.00, 00.00
+Coordinates 34, 10.00, 01.00
+Coordinates 35, 10.00, 00.00
+
+Coordinates 36, 00.00, 01.00
+Coordinates 37, 00.00, 00.00
+Coordinates 38, 02.00, 01.00
+Coordinates 39, 02.00, 00.00
+Coordinates 40, 04.00, 01.00
+Coordinates 41, 04.00, 00.00
+Coordinates 42, 06.00, 01.00
+Coordinates 43, 06.00, 00.00
+Coordinates 44, 08.00, 01.00
+Coordinates 45, 08.00, 00.00
+Coordinates 46, 10.00, 01.00
+Coordinates 47, 10.00, 00.00
+
+;--------------------------------------
+
+;fal és födém darab a kilépési pontnál
+
+[MeshBuilder]
+Vertex   02.170, -00.200, -00.20
+Vertex   02.170,  05.250, -00.20
+Vertex   02.220,  05.250, -00.20
+Vertex   02.220, -00.200, -00.20
+Vertex  -02.220, -00.200, -00.20
+Vertex  -02.220,  05.250, -00.20
+Vertex  -02.170,  05.250, -00.20
+Vertex  -02.170, -00.200, -00.20
+Vertex  -02.220,  03.970, -00.20
+Vertex  -02.220,  03.970,  00.30
+Vertex   02.220,  03.970,  00.30
+Vertex   02.220,  03.970, -00.20
+Vertex  -02.220,  03.970, -00.20
+Vertex  -02.220,  04.000, -00.20
+Vertex   02.220,  04.000, -00.20
+Vertex   02.220,  03.970, -00.20
+Face 0,1,2,3
+Face 4,5,6,7
+Face 11,10,9,8
+Face 12,13,14,15
+color 60,60,60,
+
+;--------------------------------------
+
+;korlát
+
+[MeshBuilder]
+;jobb oldal
+Vertex   02.500,  05.250, -00.10
+Vertex   02.500,  06.250, -00.10
+Vertex   02.600,  05.205,  05.00
+Vertex   02.600,  06.205,  05.00
+Vertex   02.650,  05.160,  10.00
+Vertex   02.650,  06.160,  10.00
+Vertex   02.650,  05.115,  15.00
+Vertex   02.650,  06.115,  15.00
+Vertex   02.600,  05.070,  20.00
+Vertex   02.600,  06.070,  20.00
+Vertex   02.500,  05.025,  25.10
+Vertex   02.500,  06.025,  25.10
+
+;bal oldal
+Vertex  -02.500,  05.250, -00.10
+Vertex  -02.500,  06.250, -00.10
+Vertex  -02.400,  05.205,  05.00
+Vertex  -02.400,  06.205,  05.00
+Vertex  -02.350,  05.160,  10.00
+Vertex  -02.350,  06.160,  10.00
+Vertex  -02.350,  05.115,  15.00
+Vertex  -02.350,  06.115,  15.00
+Vertex  -02.400,  05.070,  20.00
+Vertex  -02.400,  06.070,  20.00
+Vertex  -02.500,  05.025,  25.10
+Vertex  -02.500,  06.025,  25.10
+
+Face2 2,3,1,0
+Face2 4,5,3,2
+Face2 6,7,5,4
+Face2 8,9,7,6
+Face2 10,11,9,8
+
+Face 12,13,15,14
+Face 14,15,17,16
+Face 16,17,19,18
+Face 18,19,21,20
+Face 20,21,23,22
+
+[Texture]
+Load alagut_bev_korlat.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 02.00, 01.00
+Coordinates  3, 02.00, 00.00
+Coordinates  4, 04.00, 01.00
+Coordinates  5, 04.00, 00.00
+Coordinates  6, 06.00, 01.00
+Coordinates  7, 06.00, 00.00
+Coordinates  8, 08.00, 01.00
+Coordinates  9, 08.00, 00.00
+Coordinates 10, 10.00, 01.00
+Coordinates 11, 10.00, 00.00
+
+Coordinates 12, 00.00, 01.00
+Coordinates 13, 00.00, 00.00
+Coordinates 14, 02.00, 01.00
+Coordinates 15, 02.00, 00.00
+Coordinates 16, 04.00, 01.00
+Coordinates 17, 04.00, 00.00
+Coordinates 18, 06.00, 01.00
+Coordinates 19, 06.00, 00.00
+Coordinates 20, 08.00, 01.00
+Coordinates 21, 08.00, 00.00
+Coordinates 22, 10.00, 01.00
+Coordinates 23, 10.00, 00.00
+
+transparent 0,0,255
+
+;--------------------------------------
+
+;lámpa
+
+[meshbuilder]
+cylinder 8, 0.07, 0.10, 10.00
+color 180,180,180
+translate  00.00, 04.85, 00.00
+translate  03.30, 04.808, 12.50
+
+[meshbuilder]
+cylinder 8, 0.05, 0.05, 01.00
+color 180,180,180
+rotate 0, 0, 1, 85
+translate  -00.50, 09.75, 00.00
+translate  03.30, 04.808, 12.50
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 180,180,180
+rotate 0, 0, 1, -5
+translate -01.50, 09.85, 00.00
+translate  03.30, 04.808, 12.50
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 225,255,200,100
+rotate 0, 0, 1, -5
+translate -01.50, 09.75, 00.00
+translate  03.30, 04.808, 12.50
+
+[meshbuilder]
+cylinder 8, 0.05, 0.05, 01.00
+color 180,180,180
+rotate 0, 0, 1, 85
+translate  -00.50, 03.75, 00.00
+translate  03.30, 04.808, 12.50
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 180,180,180
+rotate 0, 0, 1, -5
+translate -01.50, 03.85, 00.00
+translate  03.30, 04.808, 12.50
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 225,255,200,100
+rotate 0, 0, 1, -5
+translate -01.50, 03.75, 00.00
+translate  03.30, 04.808, 12.50
+
+[meshbuilder]
+cube 0.4, 0.01, 0.4
+translate  00.00, 0.02, 00.00
+translate  03.30, 04.808, 12.50
+color 180,180,180
+
+;--------------------------------------
+

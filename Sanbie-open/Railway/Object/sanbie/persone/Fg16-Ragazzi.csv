@@ -1,0 +1,15 @@
+CreateMeshBuilder,; Gruppo di 3 ragazzi
+AddVertex,0.0 , 2, 0,
+AddVertex,1.6, 2, 0,
+AddVertex,1.6, 0, 0,
+AddVertex,0.0, 0, 0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,Fg16-Ragazzi.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+

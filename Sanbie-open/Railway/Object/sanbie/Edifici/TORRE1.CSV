@@ -1,0 +1,109 @@
+; Torre1.csv by Luigi Cartello cartello.luigi@tiscali.it
+
+; Oggetto BVE costruito interamente con l'istruzione Cylinder
+; esclusiva del formato CSV.
+; Dimostrazione di oggetto cylinder con applicata texture
+; Gli oggetti costruiti in questo modo possono essere collocati
+; in qualsiasi posizione.
+
+; --------------------------------------------------------
+; Corpo principale della torre
+; Diam. mt. 8 - Altezza mt. 25
+; La texture utilizzate sono simmetriche
+
+CreateMeshBuilder
+Cylinder,16,1,3,35
+
+Translate,0,12,0 ; (0,5 mt restano "interrati")
+
+LoadTexture,mattoni3.bmp
+
+; Essendo il cylinder definito con 16 facce, sono stati
+; automaticamente creati da BVE 32 vertici (da 0 a 31)
+; N.B.: i vertici con numeri pari sono in alto
+; La texture si applica nella misura di 0.8 volte in larghezza
+; per ogni lato e di 4 volte in altezza per tutti i lati
+
+SetTextureCoordinates, 0,0  ,0
+SetTextureCoordinates, 1,0  ,4
+SetTextureCoordinates, 2,0.8,0
+SetTextureCoordinates, 3,0.8,4
+SetTextureCoordinates, 4,1.6,0
+SetTextureCoordinates, 5,1.6,4
+SetTextureCoordinates, 6,2.4,0
+SetTextureCoordinates, 7,2.4,4 
+SetTextureCoordinates, 8,3.2,0
+SetTextureCoordinates, 9,3.2,4 
+SetTextureCoordinates,10,4  ,0
+SetTextureCoordinates,11,4  ,4 
+SetTextureCoordinates,12,4.8,0
+SetTextureCoordinates,13,4.8,4 
+SetTextureCoordinates,14,5.6,0
+SetTextureCoordinates,15,5.6,4 
+
+SetTextureCoordinates,16,6.4,0
+SetTextureCoordinates,17,6.4,4
+SetTextureCoordinates,18,5.6,0
+SetTextureCoordinates,19,5.6,4
+SetTextureCoordinates,20,4.8,0
+SetTextureCoordinates,21,4.8,4
+SetTextureCoordinates,22,4  ,0
+SetTextureCoordinates,23,4  ,4
+SetTextureCoordinates,24,3.2,0
+SetTextureCoordinates,25,3.2,4
+SetTextureCoordinates,26,2.4,0
+SetTextureCoordinates,27,2.4,4
+SetTextureCoordinates,28,1.6,0
+SetTextureCoordinates,29,1.6,4
+SetTextureCoordinates,30,0.8,0
+SetTextureCoordinates,31,0.8,4
+
+; --------------------------------------------------------
+; Parapetto superiore della torre
+; Diam. mt. 8,6 - Altezza mt. 1,5
+CreateMeshBuilder
+Cylinder,16,1.3,1.3,1.5
+
+Translate,0,30,0
+
+LoadTexture,mattoni2.bmp
+
+; Come per il corpo principale, il cylinder è definito con
+; 16 facce, quindi anche qui BVE ha creato 32 vertici (da 0 a 31)
+; N.B.: i vertici con numeri pari sono in alto
+; La texture si applica nella misura di 0,5 volte in larghezza
+; per ogni lato e di 0,5 volte in altezza per tutti i lati
+
+SetTextureCoordinates, 0,0  ,0
+SetTextureCoordinates, 1,0  ,0.5
+SetTextureCoordinates, 2,0.5,0
+SetTextureCoordinates, 3,0.5,0.5
+SetTextureCoordinates, 4,1  ,0
+SetTextureCoordinates, 5,1  ,0.5
+SetTextureCoordinates, 6,1.5,0
+SetTextureCoordinates, 7,1.5,0.5 
+SetTextureCoordinates, 8,2  ,0
+SetTextureCoordinates, 9,2  ,0.5 
+SetTextureCoordinates,10,2.5,0
+SetTextureCoordinates,11,2.5,0.5 
+SetTextureCoordinates,12,3  ,0
+SetTextureCoordinates,13,3  ,0.5 
+SetTextureCoordinates,14,3.5,0
+SetTextureCoordinates,15,3.5,0.5 
+
+SetTextureCoordinates,16,4  ,0
+SetTextureCoordinates,17,4  ,0.5
+SetTextureCoordinates,18,3.5,0
+SetTextureCoordinates,19,3.5,0.5
+SetTextureCoordinates,20,3  ,0
+SetTextureCoordinates,21,3  ,0.5
+SetTextureCoordinates,22,2.5,0
+SetTextureCoordinates,23,2.5,0.5
+SetTextureCoordinates,24,2  ,0
+SetTextureCoordinates,25,2  ,0.5
+SetTextureCoordinates,26,1.5,0
+SetTextureCoordinates,27,1.5,0.5
+SetTextureCoordinates,28,1  ,0
+SetTextureCoordinates,29,1  ,0.5
+SetTextureCoordinates,30,0.5,0
+SetTextureCoordinates,31,0.5,0.5

@@ -1,0 +1,226 @@
+CreateMeshBuilder,
+Addvertex,-1.5, 1.0, 0, 
+AddVertex,-1.5, 3.8, 4,
+Addvertex,-1.5, 3.8, 5,
+Addvertex,-1.5, 6.3, 9,
+AddVertex, 1.2, 6.3, 9,
+AddVertex, 1.2, 3.8, 5,
+Addvertex, 1.2, 3.8, 4,
+Addvertex, 1.2, 1.0, 0
+AddFace,0,1,6,7,
+AddFace,1,2,5,6,
+AddFace,2,3,4,5,
+LoadTexture,hodoukyou2.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1.05, 0,
+SetTextureCoordinates,3, 2, 0,
+SetTextureCoordinates,4, 2, 1,
+SetTextureCoordinates,5, 1.05, 1,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1.5, 2.0, 0,
+AddVertex,-1.5, 4.8, 4,
+AddVertex,-1.5, 4.8, 5,
+AddVertex,-1.5, 7.3, 9,
+AddVertex,-1.5, 6.3, 9,
+AddVertex,-1.5, 3.8, 5,
+AddVertex,-1.5, 3.8, 4,
+AddVertex,-1.5, 1.0, 0,
+AddFace2,0,1,6,7,
+AddFace2,1,2,5,6,
+AddFace2,2,3,4,5,
+LoadTexture,hodoukyouA.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 6.5, 0,
+SetTextureCoordinates,3, 11, 0,
+SetTextureCoordinates,4, 11, 1,
+SetTextureCoordinates,5, 6.5, 1,
+SetTextureCoordinates,6, 5, 1,
+SetTextureCoordinates,7, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255
+CreateMeshBuilder,
+AddVertex,-1.5, 2.0, 0,
+AddVertex,-1.5, 4.8, 4,
+AddVertex,-1.5, 4.8, 5,
+AddVertex,-1.5, 7.3, 9,
+AddVertex,-1.5, 6.3, 9,
+AddVertex,-1.5, 3.8, 5,
+AddVertex,-1.5, 3.8, 4,
+AddVertex,-1.5, 1.0, 0,
+AddFace2,0,1,6,7,
+AddFace2,1,2,5,6,
+AddFace2,2,3,4,5,
+LoadTexture,hodoukyouA.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 6.5, 0,
+SetTextureCoordinates,3, 11, 0,
+SetTextureCoordinates,4, 11, 1,
+SetTextureCoordinates,5, 6.5, 1,
+SetTextureCoordinates,6, 5, 1,
+SetTextureCoordinates,7, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255
+Translate,2.7
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex, 1.2, 7.3, 9,
+AddVertex, 12.5, 7.3, 9,
+AddVertex, 12.5, 6.3, 9,
+AddVertex, 1.2, 6.3, 9,
+AddFace,0,1,2,3,
+LoadTexture,hodoukyouA.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 12, 0,
+SetTextureCoordinates,2, 12, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex, -1.5, 6.3, 9,
+AddVertex, -1.5, 6.3, 14,
+AddVertex, 15.2, 6.3, 14,
+AddVertex, 15.2, 6.3, 9,
+AddFace,3,2,1,0,
+Loadtexture,../../EDtozai/bridge/kiyo_under.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 2,
+SetTextureCoordinates,3, 0, 2,
+GenerateNormals,
+Setcolor,100,120,130,
+
+CreateMeshBuilder,
+AddVertex,-1.5, 7.3, 9,
+AddVertex,-1.5, 7.3, 14,
+AddVertex,15.2, 7.3, 14,
+AddVertex,15.2, 7.3, 9,
+AddVertex,15.2, 6.3, 9,
+AddVertex,15.2, 6.3, 14,
+AddVertex,-1.5, 6.3, 14,
+AddVertex,-1.5, 6.3, 9,
+AddFace,0,1,6,7,
+AddFace,1,2,5,6,
+AddFace,2,3,4,5,
+LoadTexture,hodoukyouA.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 18, 0,
+SetTextureCoordinates,3, 23, 0,
+SetTextureCoordinates,4, 23, 1,
+SetTextureCoordinates,5, 18, 1,
+SetTextureCoordinates,6, 5, 1,
+SetTextureCoordinates,7, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CreateMeshBuilder,
+Addvertex,-1.5, 1.0, 0, 
+AddVertex,-1.5, 3.8, 4,
+Addvertex,-1.5, 3.8, 5,
+Addvertex,-1.5, 6.3, 9,
+AddVertex, 1.2, 6.3, 9,
+AddVertex, 1.2, 3.8, 5,
+Addvertex, 1.2, 3.8, 4,
+Addvertex, 1.2, 1.0, 0
+AddFace,0,1,6,7,
+AddFace,1,2,5,6,
+AddFace,2,3,4,5,
+LoadTexture,hodoukyou2.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1.05, 0,
+SetTextureCoordinates,3, 2, 0,
+SetTextureCoordinates,4, 2, 1,
+SetTextureCoordinates,5, 1.05, 1,
+SetTextureCoordinates,6, 1, 1,
+SetTextureCoordinates,7, 0, 1,
+GenerateNormals,
+Translate,14
+
+CreateMeshBuilder,
+AddVertex,-1.5, 2.0, 0,
+AddVertex,-1.5, 4.8, 4,
+AddVertex,-1.5, 4.8, 5,
+AddVertex,-1.5, 7.3, 9,
+AddVertex,-1.5, 6.3, 9,
+AddVertex,-1.5, 3.8, 5,
+AddVertex,-1.5, 3.8, 4,
+AddVertex,-1.5, 1.0, 0,
+AddFace2,0,1,6,7,
+AddFace2,1,2,5,6,
+AddFace2,2,3,4,5,
+LoadTexture,hodoukyouA.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 6.5, 0,
+SetTextureCoordinates,3, 11, 0,
+SetTextureCoordinates,4, 11, 1,
+SetTextureCoordinates,5, 6.5, 1,
+SetTextureCoordinates,6, 5, 1,
+SetTextureCoordinates,7, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255
+Translate,14
+CreateMeshBuilder,
+AddVertex,-1.5, 2.0, 0,
+AddVertex,-1.5, 4.8, 4,
+AddVertex,-1.5, 4.8, 5,
+AddVertex,-1.5, 7.3, 9,
+AddVertex,-1.5, 6.3, 9,
+AddVertex,-1.5, 3.8, 5,
+AddVertex,-1.5, 3.8, 4,
+AddVertex,-1.5, 1.0, 0,
+AddFace2,0,1,6,7,
+AddFace2,1,2,5,6,
+AddFace2,2,3,4,5,
+LoadTexture,hodoukyouA.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 6.5, 0,
+SetTextureCoordinates,3, 11, 0,
+SetTextureCoordinates,4, 11, 1,
+SetTextureCoordinates,5, 6.5, 1,
+SetTextureCoordinates,6, 5, 1,
+SetTextureCoordinates,7, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255
+Translate,16.7
+
+CreateMeshBuilder,
+AddVertex,0,6.3,11
+AddVertex,1,6.3,11
+AddVertex,1,1.1,11
+AddVertex,0,1.1,11
+AddFace,0,1,2,3,
+LoadTexture,../../EDtozai/Pole/station_pole/nbasiwall.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals,
+setcolor,50,54,70,
+
+CreateMeshBuilder,
+AddVertex,0,6.3,11
+AddVertex,1,6.3,11
+AddVertex,1,1.1,11
+AddVertex,0,1.1,11
+AddFace,0,1,2,3,
+LoadTexture,../../EDtozai/Pole/station_pole/nbasiwall.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals,
+setcolor,50,54,70,
+Translate,13

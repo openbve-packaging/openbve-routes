@@ -1,0 +1,27 @@
+[MeshBuilder]
+
+Vertex 0.0,4.0,0.0
+Vertex 4.0,4.0,0.0
+Vertex 4.0,0.0,0.0
+Vertex 0.0,0.0,0.0
+Face2 0,1,2,3
+[Texture]
+Load flushing end wall.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+
+Vertex 0.0,4.8,0.0
+Vertex 0.0,4.0,0.0
+Vertex 4.0,4.0,0.0
+Vertex 4.0,4.8,0.0
+Face2 3,2,1,0
+[Texture]
+Load tile.bmp
+Coordinates  0,0,0
+Coordinates  1,0,3
+Coordinates  2,1,3
+Coordinates  3,1,0

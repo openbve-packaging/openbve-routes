@@ -1,0 +1,938 @@
+
+; bal oszlop
+
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 10
+Translate 0, 5, 0
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.15, 0.15, 0.1
+Translate 0, 3, 0
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.15, 0.15, 0.1
+Translate 0, 6, 0
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.15, 0.15, 0.1
+Translate 0, 9, 0
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.35, 0.1, 0.3
+Translate 0, 10, 0
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0, 0.35, 0.4
+Translate 0, 10.35, 0
+Color 0, 64, 0
+
+
+
+
+
+
+; jobb oszlop
+
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 10
+Translate 10, 5, 0
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.15, 0.15, 0.1
+Translate 10, 3, 0
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.15, 0.15, 0.1
+Translate 10, 6, 0
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.15, 0.15, 0.1
+Translate 10, 9, 0
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.35, 0.1, 0.3
+Translate 10, 10, 0
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0, 0.35, 0.4
+Translate 10, 10.35, 0
+Color 0, 64, 0
+
+
+
+
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 2
+Translate 9, 1, 0
+Rotate 0, 0, 1, 90
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.5
+Translate -1.8, 8.8, 0
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.01, 0.3, 0.5
+Translate -1.8, 8.35, 0
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.1, 0.2
+Translate -1.8, 8, 0
+Color 160, 160, 160
+
+
+
+
+; jobb oldali talapzat
+
+
+[MeshBuilder]
+Cube 0.25, 0.25, 12.5
+Translate 7, 0.4, 12.5
+Color 160, 160, 160
+
+
+
+
+
+; jobb oldali kerítés
+
+
+
+[MeshBuilder]
+Cylinder 6, 0.05, 0.05, 25
+Translate 7, 12.5, -1.15
+Rotate 0, 0, 0, 90
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 6, 0.05, 0.05, 25
+Translate 7, 12.5, -0.9
+Rotate 0, 0, 0, 90
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 7, 0.6, 0
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 7, 1.3, 0
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.5
+Translate 7, 1, 1.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 7, 0.8, 0
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 7, 0.6, 3
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 7, 1.3, 3
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.5
+Translate 7, 1, 4.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 7, 0.8, 3
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 7, 0.6, 6
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 7, 1.3, 6
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.5
+Translate 7, 1, 7.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 7, 0.8, 6
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 7, 0.6, 9
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 7, 1.3, 9
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.5
+Translate 7, 1, 10.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 7, 0.8, 9
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 7, 0.6, 12
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 7, 1.3, 12
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.5
+Translate 7, 1, 13.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 7, 0.8, 12
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 7, 0.6, 15
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 7, 1.3, 15
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.5
+Translate 7, 1, 16.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 7, 0.8, 15
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 7, 0.6, 18
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 7, 1.3, 18
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.5
+Translate 7, 1, 19.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 7, 0.8, 18
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 7, 0.6, 21
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 7, 1.3, 21
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.5
+Translate 7, 1, 23
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 7, 0.8, 21
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 7, 0.6, 25
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 7, 1.3, 25
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 7, 0.8, 25
+Color 0, 64, 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; bal oldali talapzat
+
+
+[MeshBuilder]
+Cube 0.25, 0.25, 12.5
+Translate 0.3, 0.4, 12.5
+Color 160, 160, 160
+
+
+
+
+
+; bal oldali kerítés
+
+
+[MeshBuilder]
+Cylinder 6, 0.05, 0.05, 25
+Translate 0.3, 12.5, -1.15
+Rotate 0, 0, 0, 90
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 6, 0.05, 0.05, 25
+Translate 0.3, 12.5, -0.9
+Rotate 0, 0, 0, 90
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 6, 0.05, 0.05, 25
+Translate 0.3, 12.5, -1.4
+Rotate 0, 0, 0, 90
+Color 0, 64, 0
+
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 0.3, 0.85, 0
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 0.3, 1.55, 0
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.75
+Translate 0.3, 1.125, 1.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 0.3, 0.8, 0
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 0.3, 0.85, 3
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 0.3, 1.55, 3
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.75
+Translate 0.3, 1.125, 4.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 0.3, 0.8, 3
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 0.3, 0.85, 6
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 0.3, 1.55, 6
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.75
+Translate 0.3, 1.125, 7.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 0.3, 0.8, 6
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 0.3, 0.85, 9
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 0.3, 1.55, 9
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.75
+Translate 0.3, 1.125, 10.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 0.3, 0.8, 9
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 0.3, 0.85, 12
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 0.3, 1.55, 12
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.75
+Translate 0.3, 1.125, 13.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 0.3, 0.8, 12
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 0.3, 0.85, 15
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 0.3, 1.55, 15
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.75
+Translate 0.3, 1.125, 16.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 0.3, 0.8, 15
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 0.3, 0.85, 18
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 0.3, 1.55, 18
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.75
+Translate 0.3, 1.125, 19.5
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 0.3, 0.8, 18
+Color 0, 64, 0
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 0.3, 0.85, 21
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 0.3, 1.55, 21
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.03, 0.03, 0.75
+Translate 0.3, 1.125, 23
+Color 0, 64, 0
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 0.3, 0.8, 21
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Translate 0.3, 0.85, 25
+Color 0, 64, 0
+
+[MeshBuilder]
+Cube 0.07, 0.07, 0.07
+Translate 0.3, 1.55, 25
+Color 0, 64, 0
+
+
+[MeshBuilder]
+Cylinder 8, 0.05, 0.1, 0.3
+Translate 0.3, 0.8, 25
+Color 0, 64, 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; drót
+
+
+
+
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.02, 0.02, 10
+Translate 6, -5, 0
+Rotate 0, 0, 1, 90
+Color 0, 0, 0
+
+
+
+
+
+
+
+
+
+
+
+; utcai lámpák
+
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.15, 0.15, 1.5
+Translate 10, 0.75, 5
+Color 109, 84, 56
+
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 5
+Translate 10, 3, 5
+Color 109, 84, 56
+
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 1
+Translate 5.5, -4, 10.6
+Rotate 0, 0, 1, 90
+Rotate 0, 1, 0, 45
+Color 109, 84, 56
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 1
+Translate 5.5, -10, -3.5
+Rotate 0, 0, 1, 90
+Rotate 0, 1, 0, -45
+Color 109, 84, 56
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 1
+Translate 10, 5.5, -5.5
+Rotate 0, 0, 0, 90
+Color 109, 84, 56
+
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.1, 0.1
+Translate 9.2, 4.9, 4.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.2, 0.1
+Translate 9.2, 5, 4.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.3, 0.1
+Translate 9.2, 5.1, 4.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.3, 0.1
+Translate 9.2, 5.2, 4.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.2, 0.1
+Translate 9.2, 5.3, 4.3
+Color 160, 160, 160
+
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.1, 0.1
+Translate 10.7, 4.9, 4.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.2, 0.1
+Translate 10.7, 5, 4.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.3, 0.1
+Translate 10.7, 5.1, 4.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.3, 0.1
+Translate 10.7, 5.2, 4.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.2, 0.1
+Translate 10.7, 5.3, 4.3
+Color 160, 160, 160
+
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.1, 0.1
+Translate 10, 4.9, 6
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.2, 0.1
+Translate 10, 5, 6
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.3, 0.1
+Translate 10, 5.1, 6
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.3, 0.1
+Translate 10, 5.2, 6
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.2, 0.1
+Translate 10, 5.3, 6
+Color 160, 160, 160
+
+
+
+
+[MeshBuilder]
+Cylinder 16, 0.5, 0.5, 0.4
+Translate 10, 0.2, 5
+Color 120, 80, 80
+
+[MeshBuilder]
+Cylinder 16, 0.8, 0.8, 0.5
+Translate 10, 0.1, 5
+Color 120, 120, 120
+
+
+
+
+
+
+
+[MeshBuilder]
+Cylinder 8, 0.15, 0.15, 1.5
+Translate 15, 0.75, 20
+Color 109, 84, 56
+
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 5
+Translate 15, 3, 20
+Color 109, 84, 56
+
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 1
+Translate 5.5, 3, 24.7
+Rotate 0, 0, 1, 90
+Rotate 0, 1, 0, 45
+Color 109, 84, 56
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 1
+Translate 5.5, -24.2, 3.5
+Rotate 0, 0, 1, 90
+Rotate 0, 1, 0, -45
+Color 109, 84, 56
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.1, 1
+Translate 15, 20.3, -5.5
+Rotate 0, 0, 0, 90
+Color 109, 84, 56
+
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.1, 0.1
+Translate 14.2, 4.9, 19.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.2, 0.1
+Translate 14.2, 5, 19.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.3, 0.1
+Translate 14.2, 5.1, 19.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.3, 0.1
+Translate 14.2, 5.2, 19.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.2, 0.1
+Translate 14.2, 5.3, 19.3
+Color 160, 160, 160
+
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.1, 0.1
+Translate 15.7, 4.9, 19.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.2, 0.1
+Translate 15.7, 5, 19.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.3, 0.1
+Translate 15.7, 5.1, 19.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.3, 0.1
+Translate 15.7, 5.2, 19.3
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.2, 0.1
+Translate 15.7, 5.3, 19.3
+Color 160, 160, 160
+
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.1, 0.1
+Translate 15, 4.9, 21
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.2, 0.1
+Translate 15, 5, 21
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.3, 0.3, 0.1
+Translate 15, 5.1, 21
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.2, 0.3, 0.1
+Translate 15, 5.2, 21
+Color 160, 160, 160
+
+[MeshBuilder]
+Cylinder 8, 0.1, 0.2, 0.1
+Translate 15, 5.3, 21
+Color 160, 160, 160
+
+
+
+
+[MeshBuilder]
+Cylinder 16, 0.5, 0.5, 0.4
+Translate 15, 0.2, 20
+Color 120, 80, 80
+
+[MeshBuilder]
+Cylinder 16, 0.8, 0.8, 0.5
+Translate 15, 0.1, 20
+Color 120, 120, 120
+
+
+
+
+
+
+
+
+
+; fák
+
+[MeshBuilder]
+Cylinder 16, 0.2, 0.2, 2.5
+Translate 14.5, 1, 6
+Color 106, 53, 0
+
+
+[MeshBuilder]
+Cylinder 16, 0.8, 0.8, 0.02
+Translate 14.5, -0.1, 6
+Color 106, 53, 0
+
+
+
+
+[Meshbuilder]
+Vertex 12, 2, 3
+Vertex 12, 7, 3
+Vertex 17, 7, 9
+Vertex 17, 2, 9
+Face 0, 1, 2, 3
+Face 3, 2, 1, 0
+[Texture]
+Load fa2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+
+[Meshbuilder]
+Vertex 12, 2, 9
+Vertex 12, 7, 9
+Vertex 17, 7, 3
+Vertex 17, 2, 3
+Face 0, 1, 2, 3
+Face 3, 2, 1, 0
+[Texture]
+Load fa2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255

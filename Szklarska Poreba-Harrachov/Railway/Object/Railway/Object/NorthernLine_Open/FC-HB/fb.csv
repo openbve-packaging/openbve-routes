@@ -1,0 +1,126 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshBuilder,
+AddVertex,-20, 6.6, -20,
+AddVertex,-20, 9.6, -20,
+AddVertex,-7, 10.6, -15,
+AddVertex,-7, 7.6, -15,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,fb_fb1.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-20, 6.6, -18,
+AddVertex,-20, 9.6, -18,
+AddVertex,-7, 10.6, -13,
+AddVertex,-7, 7.6, -13,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,fb_fb1.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-20, 6.7, -20,
+AddVertex,-20, 6.7, -18,
+AddVertex,-7, 7.7, -13,
+AddVertex,-7, 7.7, -15,
+AddFace,3,2,1,0,
+SetColor,100,100,100
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-7.8, 0, -13.3,
+AddVertex,-7.8, 7.6, -13.3,
+AddVertex,-6.8, 7.6, -13.3,
+AddVertex,-6.8, 0, -13.3,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,support2.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,-7.8, 0, -14.7,
+AddVertex,-7.8, 7.6, -14.7,,
+AddVertex,-6.8, 7.6, -14.7,
+AddVertex,-6.8, 0, -14.7,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,support2.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,-7, 7.6, -13,
+AddVertex,-7, 11, -13,
+AddVertex,30, 11, -13,
+AddVertex,30, 7.6, -13,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,fb_fb1.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,5,0,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-7, 9.6, -14.9,
+AddVertex,-7, 11,-14.9,
+AddVertex,30, 11, -14.9,
+AddVertex,30, 9.6, -14.9,
+AddFace,0,1,2,3
+GenerateNormals,
+SetColor,100,100,150,70
+
+CreateMeshBuilder,
+AddVertex,-7, 7.6, -15,
+AddVertex,-7, 11, -15,
+AddVertex,30, 11, -15,
+AddVertex,30, 7.6, -15,
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,fb_fb1.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,5,0,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,;roof
+AddVertex,-7, 11, -15,
+AddVertex,-7, 11.3, -13,
+AddVertex,30, 11.3, -13,
+AddVertex,30, 11, -15,
+AddFace,3,2,1,0
+GenerateNormals,
+SetColor,100,100,150,70
+CreateMeshBuilder,;bottom
+AddVertex,-7, 7.7, -15,
+AddVertex,-7, 7.7, -13,
+AddVertex,30, 7.7, -13,
+AddVertex,30, 7.7, -15,
+AddFace,3,2,1,0,
+SetColor,100,100,100
+GenerateNormals,
+
+
+
+
+

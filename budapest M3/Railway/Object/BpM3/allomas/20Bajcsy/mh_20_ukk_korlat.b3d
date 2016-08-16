@@ -1,0 +1,122 @@
+;Bajcsy kihúzó, egyenes korlát
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;korlát
+;sárga-fekete
+[MeshBuilder]
+vertex -0.02,-0.02,-00.05
+vertex -0.02, 0.02,-00.05
+vertex  0.02, 0.02,-00.05
+vertex  0.02,-0.02,-00.05
+
+vertex -0.02,-0.02,25.05
+vertex -0.02, 0.02,25.05
+vertex  0.02, 0.02,25.05
+vertex  0.02,-0.02,25.05
+face 1,5,6,2
+face 2,6,7,3
+face 3,7,4,0
+face 0,4,5,1
+translate 0,2.1,0
+[texture]
+load mh_20_ukk_kihuzo_korlat.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,0,1
+Coordinates 4,24,0
+Coordinates 5,24,1
+Coordinates 6,24,0
+Coordinates 7,24,1
+
+[MeshBuilder]
+vertex -0.02,-0.02,-00.05
+vertex -0.02, 0.02,-00.05
+vertex  0.02, 0.02,-00.05
+vertex  0.02,-0.02,-00.05
+translate 0,2.1,0
+face 0,1,2,3
+color 60,60,60
+[MeshBuilder]
+vertex -0.02,-0.02,-00.05
+vertex -0.02, 0.02,-00.05
+vertex  0.02, 0.02,-00.05
+vertex  0.02,-0.02,-00.05
+translate 0,1.65,0
+face 0,1,2,3
+color 60,60,60
+
+;szürke
+[MeshBuilder]
+vertex -0.02,-0.02,-00.06
+vertex -0.02, 0.02,-00.06
+vertex  0.02, 0.02,-00.06
+vertex  0.02,-0.02,-00.06
+
+vertex -0.02,-0.02,25.06
+vertex -0.02, 0.02,25.06
+vertex  0.02, 0.02,25.06
+vertex  0.02,-0.02,25.06
+face 1,5,6,2
+face 2,6,7,3
+face 3,7,4,0
+face 0,4,5,1
+translate 0,1.65,0
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,0.05
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,2.5
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,5
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,7.5
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,10
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,12.5
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,15
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,17.5
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,20
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,22.5
+color 60,60,60
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,24.95
+color 60,60,60

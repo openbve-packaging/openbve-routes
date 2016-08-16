@@ -1,0 +1,46 @@
+; fák
+
+[MeshBuilder]
+Cylinder 16, 0.2, 0.2, 2.5
+Translate 14.5, 1, 6
+Color 106, 53, 0
+
+
+[MeshBuilder]
+Cylinder 16, 0.8, 0.8, 0.02
+Translate 14.5, -0.1, 6
+Color 106, 53, 0
+
+
+
+
+[Meshbuilder]
+Vertex 12, 2, 3
+Vertex 12, 7, 3
+Vertex 17, 7, 9
+Vertex 17, 2, 9
+Face 0, 1, 2, 3
+Face 3, 2, 1, 0
+[Texture]
+Load fa2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+
+[Meshbuilder]
+Vertex 12, 2, 9
+Vertex 12, 7, 9
+Vertex 17, 7, 3
+Vertex 17, 2, 3
+Face 0, 1, 2, 3
+Face 3, 2, 1, 0
+[Texture]
+Load fa2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255

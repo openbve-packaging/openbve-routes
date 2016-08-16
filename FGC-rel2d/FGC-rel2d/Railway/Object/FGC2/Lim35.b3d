@@ -1,0 +1,27 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Rallentamento 35 (al palo)
+
+[meshbuilder]
+vertex -0.2 , 2 , -0.16
+vertex  0.2 , 2 , -0.16
+vertex  0.2 , 1.5 , -0.16
+vertex -0.2 , 1.5 , -0.16
+face 0,1,2,3
+[texture]
+load lim35.bmp
+transparent 0,0,255
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+
+[meshbuilder]
+vertex -0.2 , 2 ,-0.155
+vertex  0.2 , 2 ,-0.155
+vertex  0.2 , 1.5 ,-0.155
+vertex -0.2 , 1.5 ,-0.155
+face2 3,2,1,0
+color 24,40,37

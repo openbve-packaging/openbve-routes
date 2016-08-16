@@ -1,0 +1,12 @@
+CreateMeshBuilder,
+AddVertex,-170, 0, 17
+AddVertex, 170, 0, 17
+AddVertex, 170, 5, 25
+AddVertex,-170, 5, 25
+AddFace,3,2,1,0
+LoadTexture,../LeveeS.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 20,0
+SetTextureCoordinates,2, 20,1
+SetTextureCoordinates,3, 0,1
+GenerateNormals, 

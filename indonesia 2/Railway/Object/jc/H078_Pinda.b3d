@@ -1,0 +1,536 @@
+
+;;;front wall
+[MeshBuilder]
+Vertex -4, 4.15,  -13    
+Vertex  0, 4.150, -13    ;peak
+Vertex  4, 4.15,  -13
+Vertex  4, -1.2,  -13
+Vertex -4, -1.2,  -13
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+[Texture]
+Load h213Pinda2.bmp
+Coordinates 0, 0.0, 0.15
+Coordinates 1, 0.5, 0
+Coordinates 2, 1.0, 0.15
+Coordinates 3, 1.0, 1
+Coordinates 4, 0.0, 1
+
+;;;;;left wall
+[MeshBuilder]
+Vertex -4, 4.15,  13
+Vertex -4, 4.15,  -13
+Vertex -4, -1.2, -13
+Vertex -4, -1.2, 13
+Face 0,1,2,3
+[Texture]
+Load h213Pinda.bmp
+Coordinates 0, 0, 0.231
+Coordinates 1, 1, 0.231
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;right wall
+[MeshBuilder]
+Vertex 4, 4.15, -13
+Vertex 4, 4.15,  13
+Vertex 4, -1.2,  13
+Vertex 4, -1.2, -13
+Face 0,1,2,3
+Color 160,170,180
+[Texture]
+Load h213pinda.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 1, 0.31
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;back wall, main
+[MeshBuilder]
+Vertex  4,  4.5,  13    ;peak
+Vertex  0,  6.0,  13
+Vertex -4,  4.5,  13
+Vertex -4, -1.2,  13
+Vertex  4, -1.2,  13
+Face 0,1,2
+Face 0,2,3,4
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+;;back wall, lower
+[MeshBuilder]
+Vertex 7.35, 1.2,  13.1    
+Vertex 0,   1.2,  13.1      ;value 2 is peak or vertex
+Vertex 3.00,  1.2,  13.1
+Vertex 3.00, -1.420, 13.1
+Vertex 7.35, -1.420, 13.1
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+color 100,100,110
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+
+;;used as main gate;;;
+[MeshBuilder]
+Vertex 7.00, 1.82,  -13.1    
+Vertex 0,    1.82,  -13.1      ;value 2 is peak or vertex
+Vertex 4.00,  1.82,  -13.1
+Vertex 4.00, -1.120, -13.1
+Vertex 7.00, -1.120, -13.1
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+[Texture]
+Load h101_pinda_gate.bmp
+Coordinates 0, 0, 0.000
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.000
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Transparent 0,0,0
+
+
+
+
+
+;;;;;==========roof=================================
+;roof center
+[MeshBuilder]
+Vertex -5, 4.05,  13.4    
+Vertex  0, 6.10,  13.4
+Vertex  5, 4.05,  13.4
+
+Vertex  5, 4.05, -13.4
+Vertex  0, 6.10, -10.6
+Vertex -5, 4.05, -13.4
+Face 0,1,4,5
+Face 1,2,3,4
+Face 5,4,1,0
+Face 4,3,2,1
+Color 140,140,150
+[Texture]
+Load Roof_french.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 2, 0
+Coordinates 2, 0, 3
+Coordinates 3, 10, 3
+Coordinates 4, 8, 0
+Coordinates 5, 10, 3
+
+;;;;;
+;roof front
+[MeshBuilder]
+Vertex -5, 4.05, -13.4      ;;-2.00 dif
+Vertex  0, 6.10, -10.6
+Vertex  5, 4.05, -13.4
+Face 0,1,2
+Face 2,1,0
+Color 150,160,160
+[Texture]
+Load Roof_french.bmp
+Coordinates 0, 0, 2
+Coordinates 1, 6, 0
+Coordinates 2, 12, 2
+
+;;shelter
+[MeshBuilder]
+Vertex  4.0, 4.16, -14.0     
+Vertex  8.0, 2.90, -14.0    
+Vertex  8.0, 2.90,  14.0     
+Vertex  4.0, 4.16,  14.0
+Face 0,1,2,3
+Face 3,2,1,0
+Color 140,150,160
+[Texture]
+Load roof_french.bmp
+Coordinates 0,0,2
+Coordinates 1,0,0
+Coordinates 2,8,0
+Coordinates 3,8,2
+
+;;border 1 
+[MeshBuilder]
+Vertex 8.0, 3.00,  14.05       
+Vertex 8.0, 3.00, -14.0
+Vertex 8.0, 2.65, -14.0
+Vertex 8.0, 2.65,  14.05
+Face 0,1,2,3
+Face 3,2,1,0
+Color 150,150,150
+[Texture]
+Load roof_french.bmp
+Coordinates 0, 0, 0.13
+Coordinates 1, 1, 0.13
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+;;;;;2
+[MeshBuilder]
+Vertex 5.0, 3.80,  14.05       
+Vertex 5.0, 3.80, -14.0
+Vertex 5.0, 4.10, -14.0
+Vertex 5.0, 4.10,  14.05
+Face 0,1,2,3
+Face 3,2,1,0
+Color 150,150,150
+[Texture]
+Load roof_french.bmp
+Coordinates 0, 0, 0.13
+Coordinates 1, 1, 0.13
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+
+
+
+
+;;;;;=====second lower right wall  
+;right wall
+[MeshBuilder]
+Vertex 7.4, 3, -13
+Vertex 7.4, 3,  13
+Vertex 7.4, -1.6,  13
+Vertex 7.4, -1.6, -13
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load h213pinda1.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 1, 0.31
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;;=====ground, floor
+[MeshBuilder]
+Vertex -7.500,-1, -13    
+Vertex  7.5, -1, -13    
+Vertex  7.5, -1,  14
+Vertex -7.500,-1,  14    
+Face 3,2,1,0
+Face 0,1,2,3
+[Texture]
+Load formC.bmp  
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;;side brick wall
+[MeshBuilder]
+Vertex -11.00, 2.10,  -13.1    
+Vertex  0,    2.10,  -13.1      ;value 2 is peak or vertex
+Vertex -3.90,  2.10,  -13.1
+Vertex -3.90, -1.120, -13.1
+Vertex -11.00, -1.120, -13.1
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.000
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.000
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Transparent 0,0,0
+
+
+
+
+
+
+
+
+
+
+;;;;;shrubs
+[MeshBuilder]
+Vertex 7, -0.5,  -2
+Vertex 10, -0.5, -2
+Vertex 10, -2,   -2
+Vertex 7,  -2,   -2
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load shrub28.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 7, -0.5,   -5
+Vertex 10, -0.5,  -5
+Vertex 10, -2,   -5
+Vertex 7,  -2,   -5
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load shrub28.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 7, -0.5,   -8
+Vertex 10, -0.5,  -8
+Vertex 10, -2,   -8
+Vertex 7,  -2,   -8
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load shrub28.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 7, -0.5,   -10
+Vertex 10, -0.5,  -10
+Vertex 10, -2.0,  -10
+Vertex 7,  -2.0,  -10
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load shrub28.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 7, -0.5,   -12
+Vertex 10, -0.5,  -12
+Vertex 10, -2,   -12
+Vertex 7,  -2,   -12
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load shrub28.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 7, 0,   1
+Vertex 10, 0,  1
+Vertex 10, -2, 1
+Vertex 7,  -2, 1
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load shrub28.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 7, -0.5,   4
+Vertex 10, -0.5,  4
+Vertex 10, -2,   4
+Vertex 7,  -2,   4
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load shrub28.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+;;========================
+
+;;;=====pillars
+;01
+[MeshBuilder]
+Vertex 7.0,  3.0,  -13    
+Vertex  0,    3.0,  -13      ;;vertices
+Vertex  7.40,  3.0,  -13
+Vertex  7.40, -1.52,  -13
+Vertex 7.0,  -1.52,  -13
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+Color 180,190,180
+[Texture]
+Load wall.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+
+;;02
+[MeshBuilder]
+Vertex 7.0,  3.0,  -9.87    
+Vertex  0,    3.0,  -9.87      ;;vertice
+Vertex  7.40,  3.0,  -9.87
+Vertex  7.40, -1.52,  -9.87
+Vertex 7.0,  -1.52,  -9.87
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+color 180,180,180
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+;;03
+[MeshBuilder]
+Vertex 7.0,   3.00,  -7.23    
+Vertex 0.0,   3.00,  -7.23      ;;vertice
+Vertex 7.40,  3.00,  -7.23
+Vertex 7.40, -1.52,  -7.23
+Vertex 7.0,  -1.52,  -7.23
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+color 180,180,180
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+;;04
+[MeshBuilder]
+Vertex 7.0,  3.0,  -4.60    
+Vertex  0,    3.0,  -4.60      ;;vertice
+Vertex  7.40,  3.0,  -4.60
+Vertex  7.40, -1.52,  -4.60
+Vertex 7.0,  -1.52,  -4.60
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+color 210,200,210
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+;;05
+[MeshBuilder]
+Vertex 7.0,  3.0,  -1.87    
+Vertex  0,    3.0,  -1.87      ;;vertice
+Vertex  7.40,  3.0,  -1.87
+Vertex  7.40, -1.52,  -1.87
+Vertex 7.0,  -1.52,  -1.87
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+color 200,210,220
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+;;06
+[MeshBuilder]
+Vertex 7.0,  3.0,  1.0    
+Vertex  0,    3.0,  1.0      ;;vertice
+Vertex  7.40,  3.0,  1.0
+Vertex  7.40, -1.52,  1.0
+Vertex 7.0,  -1.52,  1.0
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+color 200,210,220
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+;;07
+[MeshBuilder]
+Vertex 7.0,  3.0,  3.7587    
+Vertex  0,    3.0,  3.7587      ;;vertice
+Vertex  7.40,  3.0,  3.7587
+Vertex  7.40, -1.52,  3.7587
+Vertex 7.0,  -1.52,  3.7587
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+color 200,210,220
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

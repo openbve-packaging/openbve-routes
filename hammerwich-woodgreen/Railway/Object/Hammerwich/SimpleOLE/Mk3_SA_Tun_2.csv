@@ -1,0 +1,50 @@
+;A Hammerwich - Wood Green object,
+;--------------------------------------,
+;,
+;www.trainsimcentral.co.uk,
+;,
+;,
+;Modified with permission by Steve Green ,
+;from an object originally by Anthony Bowden,
+;from his Birmingham Cross-City BVE Route ,
+;,
+;--------------------------------------,
+;(c) Anthony Bowden, 2002. [Modified by S.Green]
+;www.railsimroutes.co.uk,
+;,
+;Please seek permission before using,
+;any X-City files in your own route.,
+;,,,,
+;See 'Readme.txt'.,,,,
+
+CreateMeshBuilder,,,,
+AddVertex,2.67,6.65,0,
+AddVertex,-0.73,6.65,0,
+AddVertex,-0.73,4.85,0,
+AddVertex,2.67,4.85,0,
+AddFace,3,2,1,0
+SetColor,110,110,110,
+GenerateNormals,,,,
+
+LoadTexture, Mk3_Tunnel.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,198,198,198,
+
+CreateMeshBuilder,,,,
+AddVertex,1.4,6.65,0.4,
+AddVertex,4.64,6.65,0.4,
+AddVertex,4.64,4.85,0.4,
+AddVertex,1.4,4.85,0.4,
+AddFace,0,1,2,3
+SetColor,110,110,110,
+GenerateNormals,,,,
+
+LoadTexture, Mk3_Tunnel.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,198,198,198

@@ -1,0 +1,253 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Muro di contenimento in cemento sinistro mt12.6(dritto o in curva a sinistra)
+[MeshBuilder] ; Muro interrato
+vertex -3.7 , 1.5 , -0.3
+vertex -3.7 , 1.5 , 12.8
+vertex -3.0 ,-0.3 , 13
+vertex -3.0 ,-0.3 ,-0.3
+vertex -4.2 ,1.5 , 13
+vertex -4.2 ,1.5 ,-0.3
+vertex -3.8 ,-0.3 ,-0.3
+vertex -4.2 ,1.5 ,-0.3
+Face 0,1,2,3
+Face 5,4,1,0
+Face 7,0,3,6
+Translate 0.9,0,0
+[texture]
+load Formside.bmp
+coordinates 0, 0.1, 0.25
+coordinates 1, 0.9, 0.25
+coordinates 2, 0.9, 0.95
+coordinates 3, 0.1, 0.95
+coordinates 4, 0.9, 0.35
+coordinates 5, 0.1, 0.35
+coordinates 6, 0.2, 1.0
+coordinates 7, 0.2, 0.25
+
+[MeshBuilder]; Ghiaia a copertura
+Vertex -2.7, -0.25, 12.8
+Vertex -1.0, -0.25, 12.8
+Vertex -1.0, -0.25, -0.3
+Vertex -2.7, -0.25, -0.3
+Face 0,1,2,3
+Translate 0.6,0,0
+[texture]
+load ..\Rails\Trav-gray.bmp
+Coordinates 0, 0.4,0
+Coordinates 1, 0,  0
+Coordinates 2, 0, 10
+Coordinates 3, 0.4, 10
+
+
+[MeshBuilder] ; Paletto
+vertex -3.1 , 3.5 , 0
+vertex -3.05 , 3.5 , 0.06
+vertex -3.05 , 1.3 , 0.06
+vertex -3.1 , 1.3 , 0
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 0, 1 
+coordinates 1, 0, 0 
+coordinates 2, 1, 0 
+coordinates 3, 1, 1 
+Translate 0,0,0
+
+[MeshBuilder] ; Paletto
+vertex -3.1 , 3.5 , 0
+vertex -3.05 , 3.5 , 0.06
+vertex -3.05 , 1.3 , 0.06
+vertex -3.1 , 1.3 , 0
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 0, 1 
+coordinates 1, 0, 0 
+coordinates 2, 1, 0 
+coordinates 3, 1, 1 
+Translate 0,0,1.5
+
+[MeshBuilder] ; Paletto
+vertex -3.1 , 3.5 , 0
+vertex -3.05 , 3.5 , 0.06
+vertex -3.05 , 1.3 , 0.06
+vertex -3.1 , 1.3 , 0
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 0, 1 
+coordinates 1, 0, 0 
+coordinates 2, 1, 0 
+coordinates 3, 1, 1 
+Translate 0,0,3
+
+[MeshBuilder] ; Paletto
+vertex -3.1 , 3.5 , 0
+vertex -3.05 , 3.5 , 0.06
+vertex -3.05 , 1.3 , 0.06
+vertex -3.1 , 1.3 , 0
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 0, 1 
+coordinates 1, 0, 0 
+coordinates 2, 1, 0 
+coordinates 3, 1, 1 
+Translate 0,0,4.5
+
+[MeshBuilder] ; Paletto
+vertex -3.1 , 3.5 , 0
+vertex -3.05 , 3.5 , 0.06
+vertex -3.05 , 1.3 , 0.06
+vertex -3.1 , 1.3 , 0
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 0, 1 
+coordinates 1, 0, 0 
+coordinates 2, 1, 0 
+coordinates 3, 1, 1 
+Translate 0,0,6
+
+[MeshBuilder] ; Paletto
+vertex -3.1 , 3.5 , 0
+vertex -3.05 , 3.5 , 0.06
+vertex -3.05 , 1.3 , 0.06
+vertex -3.1 , 1.3 , 0
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 0, 1 
+coordinates 1, 0, 0 
+coordinates 2, 1, 0 
+coordinates 3, 1, 1 
+Translate 0,0,7.5
+
+[MeshBuilder] ; Paletto
+vertex -3.1 , 3.5 , 0
+vertex -3.05 , 3.5 , 0.06
+vertex -3.05 , 1.3 , 0.06
+vertex -3.1 , 1.3 , 0
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 0, 1 
+coordinates 1, 0, 0 
+coordinates 2, 1, 0 
+coordinates 3, 1, 1 
+Translate 0,0,9
+
+[MeshBuilder] ; Paletto
+vertex -3.1 , 3.5 , 0
+vertex -3.05 , 3.5 , 0.06
+vertex -3.05 , 1.3 , 0.06
+vertex -3.1 , 1.3 , 0
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 0, 1 
+coordinates 1, 0, 0 
+coordinates 2, 1, 0 
+coordinates 3, 1, 1 
+Translate 0,0,10.5
+
+[MeshBuilder] ; Paletto
+vertex -3.1 , 3.5 , 0
+vertex -3.05 , 3.5 , 0.06
+vertex -3.05 , 1.3 , 0.06
+vertex -3.1 , 1.3 , 0
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 0, 1 
+coordinates 1, 0, 0 
+coordinates 2, 1, 0 
+coordinates 3, 1, 1 
+Translate 0,0,12
+
+[MeshBuilder] ; Ferro orizzontale
+vertex -3.070 , 1.56 , -0.3
+vertex -3.070 , 1.56 , 12.8
+vertex -3.080 , 1.5 , 12.8
+vertex -3.080 , 1.5 , -0.3
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 1, 0 
+coordinates 1, 0, 0 
+coordinates 2, 0, 1 
+coordinates 3, 1, 1 
+Translate 0,0.2,0
+
+[MeshBuilder] ; Ferro orizzontale
+vertex -3.070 , 1.56 , -0.3
+vertex -3.070 , 1.56 , 12.8
+vertex -3.080 , 1.5 , 12.8
+vertex -3.080 , 1.5 , -0.3
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 1, 0 
+coordinates 1, 0, 0 
+coordinates 2, 0, 1 
+coordinates 3, 1, 1 
+Translate 0,0.45,0
+
+[MeshBuilder] ; Ferro orizzontale
+vertex -3.070 , 1.56 , -0.3
+vertex -3.070 , 1.56 , 12.8
+vertex -3.080 , 1.5 , 12.8
+vertex -3.080 , 1.5 , -0.3
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 1, 0 
+coordinates 1, 0, 0 
+coordinates 2, 0, 1 
+coordinates 3, 1, 1 
+Translate 0,0.7,0
+
+[MeshBuilder] ; Ferro orizzontale
+vertex -3.070 , 1.56 , -0.3
+vertex -3.070 , 1.56 , 12.8
+vertex -3.080 , 1.5 , 12.8
+vertex -3.080 , 1.5 , -0.3
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 1, 0 
+coordinates 1, 0, 0 
+coordinates 2, 0, 1 
+coordinates 3, 1, 1 
+Translate 0,0.95,0
+
+[MeshBuilder] ; Ferro orizzontale
+vertex -3.070 , 1.56 , -0.3
+vertex -3.070 , 1.56 , 12.8
+vertex -3.080 , 1.5 , 12.8
+vertex -3.080 , 1.5 , -0.3
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 1, 0 
+coordinates 1, 0, 0 
+coordinates 2, 0, 1 
+coordinates 3, 1, 1 
+Translate 0,1.20,0
+
+[MeshBuilder] ; Ferro orizzontale
+vertex -3.070 , 1.56 , -0.3
+vertex -3.070 , 1.56 , 12.8
+vertex -3.080 , 1.5 , 12.8
+vertex -3.080 , 1.5 , -0.3
+Face 0,1,2,3
+[texture]
+load Ferro1.bmp
+coordinates 0, 1, 0 
+coordinates 1, 0, 0 
+coordinates 2, 0, 1 
+coordinates 3, 1, 1 
+Translate 0,1.45,0

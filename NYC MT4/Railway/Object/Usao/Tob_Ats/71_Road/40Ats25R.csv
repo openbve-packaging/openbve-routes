@@ -1,0 +1,17 @@
+CreateMeshBuilder
+AddVertex,4.2,-0.66,-1
+AddVertex,4.2,-0.65,26
+AddVertex,5.2,-0.4,26
+AddVertex,5.2,-0.41,-1
+AddVertex,9.2,-0.41,-1
+AddVertex,9.2,-0.4,26
+AddFace,0,1,2,3
+AddFace,5,4,3,2
+GenerateNormals
+LoadTexture,Road_Ats.bmp
+SetTextureCoordinates,0,0.8,2
+SetTextureCoordinates,1,0.8,0
+SetTextureCoordinates,2,0.52,0
+SetTextureCoordinates,3,0.52,2
+SetTextureCoordinates,4,0.005,2
+SetTextureCoordinates,5,0.005,0

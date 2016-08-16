@@ -1,0 +1,459 @@
+;Converted from B3D by BVE FILE CONVERTER
+ 
+;description= Cargo FS - Italy
+;author= X - Repaint: http://utenti.lycos.it/bob1270/index.htm
+;copyright=open source
+
+
+;lato sinistro
+CreateMeshBuilder,
+AddVertex, -1.3,0,12.5,
+AddVertex, -1.3,4,12.5,
+AddVertex, -1.3,4,0,
+AddVertex, -1.3,0,0,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, carro02b.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor,  0,0,255,
+
+;lato destro 
+CreateMeshBuilder,
+AddVertex, 1.3,0,12.5,
+AddVertex, 1.3,4,12.5,
+AddVertex, 1.3,4,0,
+AddVertex, 1.3,0,0,
+AddFace2,  3,2,1,0,
+GenerateNormals,
+LoadTexture, carro02b.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor,  0,0,255,
+;--------------------------------------
+
+
+CreateMeshBuilder,
+AddVertex, -1.3,1.0,  0.8,
+AddVertex, -1.3,1.4,  0.8,
+AddVertex,  1.3,1.4,  0.8,
+AddVertex,  1.3,1.0,  0.8,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,1.38,0.8,
+AddVertex, -1.3,1.38,12.25,
+AddVertex,  1.3,1.38,12.25,
+AddVertex,  1.3,1.38,0.8,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,1.38,  2.7,
+AddVertex, -1.3,2.2,   3.4,
+AddVertex,  1.3,2.2,   3.4,
+AddVertex,  1.3,1.38,  2.7,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,2.2,  3.4,
+AddVertex, -1.3,2.6,   3.4,
+AddVertex,  1.3,2.6,   3.4,
+AddVertex,  1.3,2.2,  3.4,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+
+CreateMeshBuilder,
+AddVertex, -1.3,2.6,  3.4,
+AddVertex, -1.3,3.9,   2.2,
+AddVertex,  1.3,3.9,   2.2,
+AddVertex,  1.3,2.6,  3.4,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,3.85,  2.25,
+AddVertex, -1.3,3.85,  1.45,
+AddVertex,  1.3,3.85,  1.45,
+AddVertex,  1.3,3.85,  2.25,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,3.85,  1.45,
+AddVertex, -1.3,4.0,  1.45,
+AddVertex,  1.3,4.0,  1.45,
+AddVertex,  1.3,3.85,  1.45,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+;--------------
+CreateMeshBuilder,
+AddVertex, -1.3,2.2,  9.1,
+AddVertex, -1.3,1.38, 9.8,
+AddVertex,  1.3,1.38, 9.8,
+AddVertex,  1.3,2.2,  9.1,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,2.2,  9.1,
+AddVertex, -1.3,2.6,   9.1,
+AddVertex,  1.3,2.6,   9.1,
+AddVertex,  1.3,2.2,  9.1,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,3.9,  10.4,
+AddVertex, -1.3,2.6,   9.1,
+AddVertex,  1.3,2.6,   9.1,
+AddVertex,  1.3,3.9,  10.4,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,3.9,  11.15,
+AddVertex, -1.3,3.9,  10.4,
+AddVertex,  1.3,3.9,  10.4,
+AddVertex,  1.3,3.9,  11.15,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,4.0,  11.15,
+AddVertex, -1.3,3.9,  11.15,
+AddVertex,  1.3,3.9,  11.15,
+AddVertex,  1.3,4.0,  11.15,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+;=====================================================================================
+;lato sinistro
+CreateMeshBuilder,
+AddVertex, -1.3,0,12.5,
+AddVertex, -1.3,4,12.5,
+AddVertex, -1.3,4,0,
+AddVertex, -1.3,0,0,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, carro02b.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor,  0,0,255,
+
+;lato destro 
+CreateMeshBuilder,
+AddVertex, 1.3,0,12.5,
+AddVertex, 1.3,4,12.5,
+AddVertex, 1.3,4,0,
+AddVertex, 1.3,0,0,
+AddFace2,  3,2,1,0,
+Translate, 0,0,12.5,
+LoadTexture, carro02b.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor,  0,0,255,
+;--------------------------------------
+
+
+CreateMeshBuilder,
+AddVertex, -1.3,1.0,  0.8,
+AddVertex, -1.3,1.4,  0.8,
+AddVertex,  1.3,1.4,  0.8,
+AddVertex,  1.3,1.0,  0.8,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,1.38,0.8,
+AddVertex, -1.3,1.38,12.25,
+AddVertex,  1.3,1.38,12.25,
+AddVertex,  1.3,1.38,0.8,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,1.38,  2.7,
+AddVertex, -1.3,2.2,   3.4,
+AddVertex,  1.3,2.2,   3.4,
+AddVertex,  1.3,1.38,  2.7,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,2.2,  3.4,
+AddVertex, -1.3,2.6,   3.4,
+AddVertex,  1.3,2.6,   3.4,
+AddVertex,  1.3,2.2,  3.4,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+
+CreateMeshBuilder,
+AddVertex, -1.3,2.6,  3.4,
+AddVertex, -1.3,3.9,   2.2,
+AddVertex,  1.3,3.9,   2.2,
+AddVertex,  1.3,2.6,  3.4,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,3.85,  2.25,
+AddVertex, -1.3,3.85,  1.45,
+AddVertex,  1.3,3.85,  1.45,
+AddVertex,  1.3,3.85,  2.25,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,3.85,  1.45,
+AddVertex, -1.3,4.0,  1.45,
+AddVertex,  1.3,4.0,  1.45,
+AddVertex,  1.3,3.85,  1.45,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+;--------------
+CreateMeshBuilder,
+AddVertex, -1.3,2.2,  9.1,
+AddVertex, -1.3,1.38, 9.8,
+AddVertex,  1.3,1.38, 9.8,
+AddVertex,  1.3,2.2,  9.1,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,2.2,  9.1,
+AddVertex, -1.3,2.6,   9.1,
+AddVertex,  1.3,2.6,   9.1,
+AddVertex,  1.3,2.2,  9.1,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,3.9,  10.4,
+AddVertex, -1.3,2.6,   9.1,
+AddVertex,  1.3,2.6,   9.1,
+AddVertex,  1.3,3.9,  10.4,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,3.9,  11.15,
+AddVertex, -1.3,3.9,  10.4,
+AddVertex,  1.3,3.9,  10.4,
+AddVertex,  1.3,3.9,  11.15,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+CreateMeshBuilder,
+AddVertex, -1.3,4.0,  11.15,
+AddVertex, -1.3,3.9,  11.15,
+AddVertex,  1.3,3.9,  11.15,
+AddVertex,  1.3,4.0,  11.15,
+AddFace2,  0,1,2,3,
+Translate, 0,0,12.5,
+LoadTexture, beige.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+
+
+; Carrello posteriore
+; ------------------
+CreateMeshBuilder ; Ruota ant sin
+cylinder,16, 0.476, 0.490,0.15 
+SetColor,50,50,50
+rotate,0,0,1,90
+translate,-1.2, 0.476, 23.65
+
+CreateMeshBuilder ; Motore ant
+cylinder,6, 0.15, 0.15 ,2.6 
+SetColor,50,50,50
+rotate,0,0,1,-90
+translate, 0, 0.526, 23.65
+
+CreateMeshBuilder ; Ruota ant des (+3.9)
+cylinder,16, 0.490, 0.476,0.15  
+SetColor,50,50,50
+rotate,0,0,1,-90
+translate, 1.2, 0.476, 23.65
+
+
+; Carrello anteriore
+; ------------------
+CreateMeshBuilder ; Ruota ant sin
+cylinder,16, 0.476, 0.490,0.15 
+SetColor,50,50,50
+rotate,0,0,1,90
+translate,-1.2, 0.476, 14
+
+CreateMeshBuilder ; Motore ant
+cylinder,6, 0.15, 0.15 ,2.6 
+SetColor,50,50,50
+rotate,0,0,1,-90
+translate, 0, 0.526, 14
+CreateMeshBuilder ; Ruota ant des 
+cylinder,16, 0.490, 0.476,0.15  
+SetColor,50,50,50
+rotate,0,0,1,-90
+translate, 1.2, 0.476, 14
+
+
+CreateMeshBuilder ; Ruota post sin
+cylinder,16, 0.47, 0.47,0.10 
+SetColor,50,50,50
+rotate,0,0,1,90
+translate,-0.75, 0.476, 1.3
+
+CreateMeshBuilder ; Ruota post sin 
+cylinder,16, 0.52, 0.52,0.05  
+SetColor,50,50,50
+rotate,0,0,1,-90
+translate, -0.7, 0.476, 1.3
+
+
+CreateMeshBuilder ; Motore post
+cylinder,6, 0.15, 0.15 ,1.6 
+SetColor,50,50,50
+rotate,0,0,1,-90
+translate, 0, 0.526, 1.3
+
+CreateMeshBuilder ; Ruota post des 
+cylinder,16, 0.47, 0.47,0.10  
+SetColor,50,50,50
+rotate,0,0,1,-90
+translate, 0.75, 0.476, 1.3
+
+CreateMeshBuilder ; Ruota post des 
+cylinder,16, 0.52, 0.52,0.05  
+SetColor,50,50,50
+rotate,0,0,1,-90
+translate, 0.7, 0.476, 1.3
+

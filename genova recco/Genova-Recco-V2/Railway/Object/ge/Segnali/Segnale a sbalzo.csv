@@ -1,0 +1,1123 @@
+; File creato da Francesco Alois "mikros"
+; PARZIALMENTE MODIFICATO DA 
+; Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+; per la route Genova-Recco
+
+;; 2 - Traliccio
+CreateMeshBuilder ;; fianco sin e lato ant
+AddVertex, -0.45, 9.2, 0.07
+AddVertex, -0.45, 9.2,-0.07
+AddVertex, -0.45,-0.3,-0.07
+AddVertex, -0.45,-0.3, 0.07
+AddVertex,  0.45, 9.2,-0.07
+AddVertex,  0.45,-0.3,-0.07
+AddFace2, 3, 2, 1, 0
+AddFace2, 1, 4, 5, 2
+Translate, 0, 0, -2.5
+Rotate, 0, 1, 0, 90
+
+LoadTexture, Traliccio.bmp
+SetDecalTransparentColor, 0,0,0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, -0., 0
+SetTextureCoordinates, 2, -0., 8
+SetTextureCoordinates, 3, 0, 8
+SetTextureCoordinates, 4, -0.78, 0
+SetTextureCoordinates, 5, -0.78,8
+
+CreateMeshBuilder ;; fianco ant e lato post
+AddVertex,  0.45,9.2 , -0.07
+AddVertex,  0.45,9.2 ,  0.07
+AddVertex,  0.45,-0.3,  0.07
+AddVertex,  0.45,-0.3 ,-0.07
+AddVertex, -0.45,9.2 ,  0.07
+AddVertex, -0.45,-0.3 , 0.07
+AddFace2, 0,1,2,3
+AddFace2, 1,4,5,2
+Translate, 0,0,-2.5
+Rotate, 0, 1, 0, 90
+
+LoadTexture, Traliccio.bmp
+SetDecalTransparentColor, 0,0,0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0.22, 0
+SetTextureCoordinates, 2, 0.22, 8
+SetTextureCoordinates, 3, 0, 8
+SetTextureCoordinates, 4, 1, 0
+SetTextureCoordinates, 5, 1, 8
+
+
+
+;; 3b - Trave a traliccio passerella dietro
+CreateMeshBuilder
+AddVertex, -2.45, 7.1, 0.45
+AddVertex, -2.45, 7.25, 0.45
+AddVertex, 2.2, 7.25, 0.45
+AddVertex, 2.2, 7.1, 0.45
+AddFace2, 0, 1, 2, 3
+
+LoadTexture, cemento.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,5,0
+SetTextureCoordinates,3,5,1
+
+
+;; alto
+CreateMeshBuilder
+AddVertex, -2.45, 7.85, 0.45
+AddVertex, -2.45, 7.9, 0.45
+AddVertex, 2.2, 7.9, 0.45
+AddVertex, 2.2, 7.85, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+
+;; medio
+CreateMeshBuilder
+AddVertex, -2.45, 7.50, 0.45
+AddVertex, -2.45, 7.55, 0.45
+AddVertex, 2.2, 7.55, 0.45
+AddVertex, 2.2, 7.50, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+;; verticale da piantana
+CreateMeshBuilder
+AddVertex, -2.45, 7.1, 0.45
+AddVertex, -2.45, 7.85, 0.45
+AddVertex, -2.4, 7.85, 0.45
+AddVertex, -2.4, 7.1, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -1.55, 7.1, 0.45
+AddVertex, -1.55, 7.85, 0.45
+AddVertex, -1.5, 7.85, 0.45
+AddVertex, -1.5, 7.1, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -0.65, 7.1, 0.45
+AddVertex, -0.65, 7.85, 0.45
+AddVertex, -0.6, 7.85, 0.45
+AddVertex, -0.6, 7.1, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 0.3, 7.1, 0.45
+AddVertex, 0.3, 7.85, 0.45
+AddVertex, 0.35, 7.85, 0.45
+AddVertex, 0.35, 7.1, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.2, 7.1, 0.45
+AddVertex, 1.2, 7.85, 0.45
+AddVertex, 1.25, 7.85, 0.45
+AddVertex, 1.25, 7.1, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 2.15, 7.1, 0.45
+AddVertex, 2.15, 7.85, 0.45
+AddVertex, 2.2, 7.85, 0.45
+AddVertex, 2.2, 7.1, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+;;;;;;;;;;;;;;;;;;;;oblique
+;; verticale da piantana
+CreateMeshBuilder
+AddVertex, -2.4, 7.82, 0.45
+AddVertex, -2.4, 7.87, 0.45
+AddVertex, -1.55, 7.27, 0.45
+AddVertex, -1.55, 7.22, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+CreateMeshBuilder
+AddVertex, -1.50, 7.82, 0.45
+AddVertex, -1.50, 7.87, 0.45
+AddVertex, -.65, 7.27, 0.45
+AddVertex, -.65, 7.22, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+
+
+CreateMeshBuilder
+AddVertex, -0.6, 7.82, 0.45
+AddVertex, -.6, 7.87, 0.45
+AddVertex, .3, 7.27, 0.45
+AddVertex, .3, 7.22, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 0.35, 7.82, 0.45
+AddVertex, .35, 7.87, 0.45
+AddVertex, 1.2, 7.27, 0.45
+AddVertex, 1.2, 7.22, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.25, 7.82, 0.45
+AddVertex, 1.25, 7.87, 0.45
+AddVertex, 2.15, 7.27, 0.45
+AddVertex, 2.15, 7.22, 0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder
+AddVertex, -2.45, 7.1, -0.45
+AddVertex, -2.45, 7.25, -0.45
+AddVertex, 2.2, 7.25, -0.45
+AddVertex, 2.2, 7.1, -0.45
+AddFace2, 0, 1, 2, 3
+
+LoadTexture, cemento.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,5,0
+SetTextureCoordinates,3,5,1
+
+
+;; alto
+CreateMeshBuilder
+AddVertex, -2.45, 7.85, -0.45
+AddVertex, -2.45, 7.9, -0.45
+AddVertex, 2.2, 7.9, -0.45
+AddVertex, 2.2, 7.85, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+
+;; medio
+CreateMeshBuilder
+AddVertex, -2.45, 7.50, -0.45
+AddVertex, -2.45, 7.55, -0.45
+AddVertex, 2.2, 7.55, -0.45
+AddVertex, 2.2, 7.50, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+;; verticale da piantana
+CreateMeshBuilder
+AddVertex, -2.45, 7.1, -0.45
+AddVertex, -2.45, 7.85, -0.45
+AddVertex, -2.4, 7.85, -0.45
+AddVertex, -2.4, 7.1, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -1.55, 7.1, -0.45
+AddVertex, -1.55, 7.85, -0.45
+AddVertex, -1.5, 7.85, -0.45
+AddVertex, -1.5, 7.1, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -0.65, 7.1, -0.45
+AddVertex, -0.65, 7.85, -0.45
+AddVertex, -0.6, 7.85, -0.45
+AddVertex, -0.6, 7.1, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 0.3, 7.1, -0.45
+AddVertex, 0.3, 7.85, -0.45
+AddVertex, 0.35, 7.85, -0.45
+AddVertex, 0.35, 7.1, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.2, 7.1, -0.45
+AddVertex, 1.2, 7.85, -0.45
+AddVertex, 1.25, 7.85, -0.45
+AddVertex, 1.25, 7.1, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 2.15, 7.1, -0.45
+AddVertex, 2.15, 7.85, -0.45
+AddVertex, 2.2, 7.85, -0.45
+AddVertex, 2.2, 7.1, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+;;;;;;;;;;;;;;;;;;;;oblique
+;; verticale da piantana
+CreateMeshBuilder
+AddVertex, -2.4, 7.82, -0.45
+AddVertex, -2.4, 7.87, -0.45
+AddVertex, -1.55, 7.27, -0.45
+AddVertex, -1.55, 7.22, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+CreateMeshBuilder
+AddVertex, -1.50, 7.82, -0.45
+AddVertex, -1.50, 7.87, -0.45
+AddVertex, -.65, 7.27, -0.45
+AddVertex, -.65, 7.22, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+
+
+CreateMeshBuilder
+AddVertex, -0.6, 7.82, -0.45
+AddVertex, -.6, 7.87, -0.45
+AddVertex, .3, 7.27, -0.45
+AddVertex, .3, 7.22, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 0.35, 7.82, -0.45
+AddVertex, .35, 7.87, -0.45
+AddVertex, 1.2, 7.27, -0.45
+AddVertex, 1.2, 7.22, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.25, 7.82, -0.45
+AddVertex, 1.25, 7.87, -0.45
+AddVertex, 2.15, 7.27, -0.45
+AddVertex, 2.15, 7.22, -0.45
+AddFace2, 0, 1, 2, 3
+
+SetColor, 180, 180, 172
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;
+
+;; 4 - Passerella avanti
+CreateMeshBuilder
+AddVertex, -2.45, 7.1, 0.45
+AddVertex, 2.2, 7.1, 0.45
+AddVertex, 2.2, 7.1, -0.45
+AddVertex, -2.45, 7.1, -0.45
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+setcolor,100,100,100
+LoadTexture, cemento.bmp
+SetTextureCoordinates,0,0,4
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,4
+
+
+
+;; 7a - Supporto segnale 2 avanti
+
+CreateMeshBuilder
+AddVertex, 2.15,7.1,-0.45
+AddVertex, 2.2,7.1,-0.45
+AddVertex, 2.2,5,-0.45
+AddVertex, 2.15,5,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,7.1,-0.45
+AddVertex, 1.65,7.1,-0.45
+AddVertex, 1.65,5,-0.45
+AddVertex, 1.6,5,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,7.1,-0.45
+AddVertex, 2.2,7.1,-0.45
+AddVertex, 2.2,7.02,-0.45
+AddVertex, 1.6,7.02,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,6.4,-0.45
+AddVertex, 2.2,6.4,-0.45
+AddVertex, 2.2,6.32,-0.45
+AddVertex, 1.6,6.32,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,5.8,-0.45
+AddVertex, 2.2,5.8,-0.45
+AddVertex, 2.2,5.72,-0.45
+AddVertex, 1.6,5.72,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,5.07,-0.45
+AddVertex, 2.2,5.07,-0.45
+AddVertex, 2.2,5.0,-0.45
+AddVertex, 1.6,5.,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+;; 7a - Supporto segnale 2 dietro
+
+CreateMeshBuilder
+AddVertex, 2.15,7.1,0.45
+AddVertex, 2.2,7.1,0.45
+AddVertex, 2.2,5,0.45
+AddVertex, 2.15,5,0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,7.1,0.45
+AddVertex, 1.65,7.1,0.45
+AddVertex, 1.65,5,0.45
+AddVertex, 1.6,5,0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,7.1,0.45
+AddVertex, 2.2,7.1,0.45
+AddVertex, 2.2,7.02,0.45
+AddVertex, 1.6,7.02,0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,6.4,0.45
+AddVertex, 2.2,6.4,0.45
+AddVertex, 2.2,6.32,0.45
+AddVertex, 1.6,6.32,0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,5.8,0.45
+AddVertex, 2.2,5.8,0.45
+AddVertex, 2.2,5.72,0.45
+AddVertex, 1.6,5.72,0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,5.07,0.45
+AddVertex, 2.2,5.07,0.45
+AddVertex, 2.2,5.0,0.45
+AddVertex, 1.6,5.,0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+;; 7b - Supporto segnale 2 laterale sinistro
+
+CreateMeshBuilder
+AddVertex, 2.2,7.1,-0.45
+AddVertex, 2.2,7.1,-0.4
+AddVertex, 2.2,5,-0.4
+AddVertex, 2.2,5,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 2.2,7.1,0.4
+AddVertex, 2.2,7.1,0.45
+AddVertex, 2.2,5,0.45
+AddVertex, 2.2,5,0.4
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 2.2,7.1,-0.45
+AddVertex, 2.2,7.1,0.45
+AddVertex, 2.2,7.02,0.45
+AddVertex, 2.2,7.02,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 2.2,6.4,-0.45
+AddVertex, 2.2,6.4,0.45
+AddVertex, 2.2,6.32,0.45
+AddVertex, 2.2,6.32,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 2.2,5.8,-0.45
+AddVertex, 2.2,5.8,0.45
+AddVertex, 2.2,5.72,0.45
+AddVertex, 2.2,5.72,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 2.2,5.07,-0.45
+AddVertex, 2.2,5.07,0.45
+AddVertex, 2.2,5.0,0.45
+AddVertex, 2.2,5.,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+;; 7a - Supporto segnale lato dx
+
+CreateMeshBuilder
+AddVertex, 1.6,7.1,-0.45
+AddVertex, 1.6,7.1,-0.4
+AddVertex, 1.6,5,-0.4
+AddVertex, 1.6,5,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,7.1,0.4
+AddVertex, 1.6,7.1,0.45
+AddVertex, 1.6,5,0.45
+AddVertex, 1.6,5,0.4
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,7.1,-0.45
+AddVertex, 1.6,7.1,0.45
+AddVertex, 1.6,7.02,0.45
+AddVertex, 1.6,7.02,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,6.4,-0.45
+AddVertex, 1.6,6.4,0.45
+AddVertex, 1.6,6.32,0.45
+AddVertex, 1.6,6.32,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,5.8,-0.45
+AddVertex, 1.6,5.8,0.45
+AddVertex, 1.6,5.72,0.45
+AddVertex, 1.6,5.72,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 1.6,5.07,-0.45
+AddVertex, 1.6,5.07,0.45
+AddVertex, 1.6,5.0,0.45
+AddVertex, 1.6,5.,-0.45
+AddFace2, 0,1,2,3
+GenerateNormals,
+SetColor, 180, 180, 172
+
+;; 4 - Passerella avanti
+CreateMeshBuilder
+AddVertex, 1.6,5.0,-0.45
+AddVertex, 1.6,5.0,0.45
+AddVertex, 2.2,5.0,0.45
+AddVertex, 2.2,5.,-0.45
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+setcolor,100,100,100
+LoadTexture, cemento.bmp
+SetTextureCoordinates,0,0,4
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,4
+
+
+;; 11 scaletta laterale-lato davanti
+CreateMeshBuilder
+AddVertex, -3.1,1.5,0
+AddVertex, -3.1,8.55,0
+AddVertex, -3.15,8.55,0
+AddVertex, -3.15,1.5,0
+AddFace2, 3,2,1,0
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -2.95,1.5,0
+AddVertex, -2.95,8.55,0
+AddVertex, -3,8.55,0
+AddVertex, -3,1.5,0
+AddFace2, 3,2,1,0
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+;;;orizz
+CreateMeshBuilder
+AddVertex, -3.1,8.50,0
+AddVertex, -3.1,8.55,0
+AddVertex, -2.7,8.55,0
+AddVertex, -2.7,8.50,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,7.80,0
+AddVertex, -3.1,7.85,0
+AddVertex, -2.7,7.85,0
+AddVertex, -2.7,7.80,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,7.10,0
+AddVertex, -3.1,7.15,0
+AddVertex, -2.7,7.15,0
+AddVertex, -2.7,7.10,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,6.40,0
+AddVertex, -3.1,6.45,0
+AddVertex, -2.7,6.45,0
+AddVertex, -2.7,6.40,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,5.70,0
+AddVertex, -3.1,5.75,0
+AddVertex, -2.7,5.75,0
+AddVertex, -2.7,5.70,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,5.0,0
+AddVertex, -3.1,5.05,0
+AddVertex, -2.7,5.05,0
+AddVertex, -2.7,5.0,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -3.1,4.30,0
+AddVertex, -3.1,4.35,0
+AddVertex, -2.7,4.35,0
+AddVertex, -2.7,4.30,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -3.1,3.40,0
+AddVertex, -3.1,3.45,0
+AddVertex, -2.7,3.45,0
+AddVertex, -2.7,3.40,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,2.80,0
+AddVertex, -3.1,2.85,0
+AddVertex, -2.7,2.85,0
+AddVertex, -2.7,2.80,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -3.1,2.10,0
+AddVertex, -3.1,2.15,0
+AddVertex, -2.7,2.15,0
+AddVertex, -2.7,2.10,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -3.1,1.50,0
+AddVertex, -3.1,1.55,0
+AddVertex, -2.7,1.55,0
+AddVertex, -2.7,1.50,0
+AddFace2, 0,1,2,3
+translate,0.2,,-0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+
+
+
+
+;; 11 scaletta laterale-lato dietro
+CreateMeshBuilder
+AddVertex, -3.1,1.5,0
+AddVertex, -3.1,8.55,0
+AddVertex, -3.15,8.55,0
+AddVertex, -3.15,1.5,0
+AddFace2, 3,2,1,0
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -2.95,1.5,0
+AddVertex, -2.95,8.55,0
+AddVertex, -3,8.55,0
+AddVertex, -3,1.5,0
+AddFace2, 3,2,1,0
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+;;;orizz
+CreateMeshBuilder
+AddVertex, -3.1,8.50,0
+AddVertex, -3.1,8.55,0
+AddVertex, -2.7,8.55,0
+AddVertex, -2.7,8.50,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,7.80,0
+AddVertex, -3.1,7.85,0
+AddVertex, -2.7,7.85,0
+AddVertex, -2.7,7.80,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,7.10,0
+AddVertex, -3.1,7.15,0
+AddVertex, -2.7,7.15,0
+AddVertex, -2.7,7.10,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,6.40,0
+AddVertex, -3.1,6.45,0
+AddVertex, -2.7,6.45,0
+AddVertex, -2.7,6.40,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,5.70,0
+AddVertex, -3.1,5.75,0
+AddVertex, -2.7,5.75,0
+AddVertex, -2.7,5.70,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,5.0,0
+AddVertex, -3.1,5.05,0
+AddVertex, -2.7,5.05,0
+AddVertex, -2.7,5.0,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -3.1,4.30,0
+AddVertex, -3.1,4.35,0
+AddVertex, -2.7,4.35,0
+AddVertex, -2.7,4.30,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -3.1,3.40,0
+AddVertex, -3.1,3.45,0
+AddVertex, -2.7,3.45,0
+AddVertex, -2.7,3.40,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, -3.1,2.80,0
+AddVertex, -3.1,2.85,0
+AddVertex, -2.7,2.85,0
+AddVertex, -2.7,2.80,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -3.1,2.10,0
+AddVertex, -3.1,2.15,0
+AddVertex, -2.7,2.15,0
+AddVertex, -2.7,2.10,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+CreateMeshBuilder
+AddVertex, -3.1,1.50,0
+AddVertex, -3.1,1.55,0
+AddVertex, -2.7,1.55,0
+AddVertex, -2.7,1.50,0
+AddFace2, 0,1,2,3
+translate,0.2,,0.4
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+;;;;;;;;;;;,
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,supporto segnale attaccato allo stante
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 7a - Supporto segnale 2 avanti
+
+CreateMeshBuilder
+AddVertex, 6.15,7.1,-0.45
+AddVertex, 6.2,7.1,-0.45
+AddVertex, 6.2,5,-0.45
+AddVertex, 6.15,5,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,7.1,-0.45
+AddVertex, 5.65,7.1,-0.45
+AddVertex, 5.65,5,-0.45
+AddVertex, 5.6,5,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,7.1,-0.45
+AddVertex, 6.2,7.1,-0.45
+AddVertex, 6.2,7.02,-0.45
+AddVertex, 5.6,7.02,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,6.4,-0.45
+AddVertex, 6.2,6.4,-0.45
+AddVertex, 6.2,6.32,-0.45
+AddVertex, 5.6,6.32,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,5.8,-0.45
+AddVertex, 6.2,5.8,-0.45
+AddVertex, 6.2,5.72,-0.45
+AddVertex, 5.6,5.72,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,5.07,-0.45
+AddVertex, 6.2,5.07,-0.45
+AddVertex, 6.2,5.0,-0.45
+AddVertex, 5.6,5.,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+;; 7a - Supporto segnale 2 dietro
+
+CreateMeshBuilder
+AddVertex, 6.15,7.1,0.45
+AddVertex, 6.2,7.1,0.45
+AddVertex, 6.2,5,0.45
+AddVertex, 6.15,5,0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,7.1,0.45
+AddVertex, 5.65,7.1,0.45
+AddVertex, 5.65,5,0.45
+AddVertex, 5.6,5,0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,7.1,0.45
+AddVertex, 6.2,7.1,0.45
+AddVertex, 6.2,7.02,0.45
+AddVertex, 5.6,7.02,0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,6.4,0.45
+AddVertex, 6.2,6.4,0.45
+AddVertex, 6.2,6.32,0.45
+AddVertex, 5.6,6.32,0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,5.8,0.45
+AddVertex, 6.2,5.8,0.45
+AddVertex, 6.2,5.72,0.45
+AddVertex, 5.6,5.72,0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 5.6,5.07,0.45
+AddVertex, 6.2,5.07,0.45
+AddVertex, 6.2,5.0,0.45
+AddVertex, 5.6,5.,0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+;; 7b - Supporto segnale 2 laterale sinistro
+
+CreateMeshBuilder
+AddVertex, 6.2,7.1,-0.45
+AddVertex, 6.2,7.1,-0.4
+AddVertex, 6.2,5,-0.4
+AddVertex, 6.2,5,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 6.2,7.1,0.4
+AddVertex, 6.2,7.1,0.45
+AddVertex, 6.2,5,0.45
+AddVertex, 6.2,5,0.4
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 6.2,7.1,-0.45
+AddVertex, 6.2,7.1,0.45
+AddVertex, 6.2,7.02,0.45
+AddVertex, 6.2,7.02,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 6.2,6.4,-0.45
+AddVertex, 6.2,6.4,0.45
+AddVertex, 6.2,6.32,0.45
+AddVertex, 6.2,6.32,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 6.2,5.8,-0.45
+AddVertex, 6.2,5.8,0.45
+AddVertex, 6.2,5.72,0.45
+AddVertex, 6.2,5.72,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+CreateMeshBuilder
+AddVertex, 6.2,5.07,-0.45
+AddVertex, 6.2,5.07,0.45
+AddVertex, 6.2,5.0,0.45
+AddVertex, 6.2,5.,-0.45
+AddFace2, 0,1,2,3
+translate,-8.05
+GenerateNormals,
+SetColor, 180, 180, 172
+
+
+
+
+;; 4 - Passerella avanti
+CreateMeshBuilder
+AddVertex, 5.6,5.0,-0.45
+AddVertex, 5.6,5.0,0.45
+AddVertex, 6.2,5.0,0.45
+AddVertex, 6.2,5.,-0.45
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+translate,-8.05
+setcolor,100,100,100
+LoadTexture, cemento.bmp
+SetTextureCoordinates,0,0,4
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,4
+
+
+
+
+
+
+
+;; Portale semaforico
+CreateMeshBuilder,
+AddVertex, -0.615, -0.25, -0.915,
+AddVertex,  0.815, -0.25, -0.915,
+AddVertex,  0.815, -0.25,  0.815,
+AddVertex, -0.615, -0.25,  0.815,
+AddVertex, -0.025,     0, -0.625,  ;;;
+AddVertex,  0.225,     0, -0.625,
+AddVertex,  0.225,     0,  0.425, ;;;
+AddVertex, -0.025,     0,  0.425, ;;;
+translate,-2.6,-0.15,0.1
+AddFace, 3, 2, 6, 7,
+AddFace, 4, 5, 1, 0,
+AddFace, 0, 3, 7, 4,
+AddFace, 5, 6, 2, 1,
+AddFace, 7, 6, 5, 4,
+setcolor,134,132,120
+GenerateNormals,
+
+
+
+
+
+
+
+

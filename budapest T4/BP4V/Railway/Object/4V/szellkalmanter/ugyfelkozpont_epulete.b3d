@@ -1,0 +1,686 @@
+
+
+
+;elöl összekötő
+
+[MeshBuilder];elöl
+Vertex 0,0,0
+Vertex 0,3.7,0
+Vertex -5.9,3.45,2.65
+Vertex -5.9,0,2.65
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+
+;TETŐ-PLAFON
+
+;tető
+
+[MeshBuilder];elöl
+Vertex 0,5.65,62.2
+Vertex -7.2,4.4,24
+Vertex -5.9,3.45,2.65
+Vertex 0,3.7,0
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];hátul-3szög
+Vertex 0,5.65,62.2
+Vertex -7.2,4.4,24
+Vertex -14.3,4.95,37.15
+Face 0,1,2
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,0
+
+;fű
+
+[MeshBuilder];elöl
+Vertex -0.15,5.655,61.6
+Vertex -7.05,4.405,24.1
+Vertex -5.75,3.465,2.75
+Vertex -0.15,3.705,0.25
+Face 3,2,1,0
+[Texture]
+Load Grass0052_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,2,2
+Coordinates 2,-1,2
+Coordinates 3,-1,0
+
+[MeshBuilder];elöl
+Vertex -0.15,5.655,61.6
+Vertex -7.05,4.405,24.1
+Vertex -14.15,4.95,37.15
+Face 0,1,2
+[Texture]
+Load Grass0052_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,2,2
+Coordinates 2,0,0
+
+;plafon
+
+[MeshBuilder];elöl
+Vertex 0,4.65,62.2
+Vertex -7.2,3.4,24
+Vertex -5.9,2.5,2.65
+Vertex 0,2.8,0
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,2,2
+Coordinates 2,0,2
+Coordinates 3,0,0
+Color 200,200,200
+
+[MeshBuilder];hátul-3szög
+Vertex 0,4.65,62.2
+Vertex -7.2,3.4,24
+Vertex -14.3,3.8,37.15
+Face 2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,2,2
+Coordinates 2,0,0
+Color 200,200,200
+
+
+
+
+
+
+;JOBB OLDAL
+
+
+[MeshBuilder];felső látszóbeton
+Vertex 0,0,1.3
+Vertex 0,2.85,1.3
+Vertex 0,2.8,0
+Vertex 0,0,0
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,0.3,0
+Coordinates 1,0.3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];elöl
+Vertex 0,5.65,62.2
+Vertex 0,4.65,62.2
+Vertex 0,2.8,0
+Vertex 0,3.7,0
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,10,0
+Coordinates 1,10,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+[MeshBuilder];hátul
+Vertex 0,0,62.2
+Vertex 0,4.65,62.2
+Vertex 0,4.52,57.6
+Vertex 0,0,57.6
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+;sötétebb látszóbeton
+
+[MeshBuilder];elöl
+Vertex 0,0,1.3
+Vertex 0,2.85,1.3
+Vertex 0,3.34,18
+Vertex 0,0,18
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,10,0
+Coordinates 1,10,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];ablak felett
+Vertex 0,2.2,24.15
+Vertex 0,3.52,24.15
+Vertex 0,3.34,18
+Vertex 0,2.2,18
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,4,0
+Coordinates 1,4,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+
+;ablak
+
+[MeshBuilder];elöl
+Vertex 0,2.2,24.15
+Vertex 0,0,24.15
+Vertex 0,0,18
+Vertex 0,2.2,18
+Face 0,1,2,3
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+
+
+
+;ÁTJÁRÓ UTÁN
+
+
+
+;sötétebb látszóbeton
+
+[MeshBuilder];elöl
+Vertex 0,1.15,27.4
+Vertex 0,0,27.4
+Vertex 0,0,36.75
+Vertex 0,2.5,36.75
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,6,0.6
+Coordinates 1,6,1
+Coordinates 2,0,1
+Coordinates 3,0,0.3
+
+[MeshBuilder];hosszú hátra
+Vertex 0,2.5,57.6
+Vertex 0,0,57.6
+Vertex 0,0,36.75
+Vertex 0,2.5,36.75
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,13,0.3
+Coordinates 1,13,1
+Coordinates 2,0,1
+Coordinates 3,0,0.3
+
+
+
+
+;ablak
+
+[MeshBuilder];elöl
+Vertex 0,1.15,27.4
+Vertex 0,3.62,27.4
+Vertex 0,3.9,36.75
+Vertex 0,2.5,36.75
+Face 0,1,2,3
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];sötét
+Vertex 0,2.5,39.75
+Vertex 0,3.99,39.75
+Vertex 0,3.9,36.75
+Vertex 0,2.5,36.75
+Face 3,2,1,0
+[Texture]
+Load HighRiseGlass0105_S_2.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];hátul hosszú
+Vertex 0,2.5,39.75
+Vertex 0,3.99,39.75
+Vertex 0,4.52,57.6
+Vertex 0,2.5,57.6
+Face 0,1,2,3
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,8,0
+Coordinates 1,8,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+
+
+
+
+
+
+;BAL OLDAL
+
+
+[MeshBuilder];felső
+Vertex -7.2,4.4,24
+Vertex -7.2,3.4,24
+Vertex -5.9,2.5,2.65
+Vertex -5.9,3.45,2.65
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,7,0
+Coordinates 1,7,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+[MeshBuilder];elöl
+Vertex -5.98,0,3.95
+Vertex -5.98,2.56,3.95
+Vertex -5.9,2.5,2.65
+Vertex -5.9,0,2.65
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,0.3,0
+Coordinates 1,0.3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];felső-közép
+Vertex -7.2,4.4,24
+Vertex -7.2,3.4,24
+Vertex -14.3,3.8,37.15
+Vertex -14.3,4.95,37.15
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,7,0
+Coordinates 1,7,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+[MeshBuilder];felső-hátsó
+Vertex 0,5.65,62.2
+Vertex 0,4.65,62.2
+Vertex -14.3,3.8,37.15
+Vertex -14.3,4.95,37.15
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,7,0
+Coordinates 1,7,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+
+
+
+;sötétebb látszóbeton
+
+
+[MeshBuilder];elöl
+Vertex -5.98,2.555,3.95
+Vertex -5.98,2.2,3.95
+Vertex -5.75,2.2,21.8
+Vertex -5.75,3.36,21.8
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,11,0
+Coordinates 1,11,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+[MeshBuilder];folyosó
+Vertex 0,3.52,24.15
+Vertex 0,2.2,24.15
+Vertex -5.75,2.2,21.8
+Vertex -5.75,3.36,21.8
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,4,0
+Coordinates 1,4,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+
+
+;ablak
+
+[MeshBuilder];elöl
+Vertex -5.98,0,3.95
+Vertex -5.98,2.2,3.95
+Vertex -5.75,2.2,21.8
+Vertex -5.75,0,21.8
+Face 3,2,1,0
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,8,0
+Coordinates 1,8,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];folyosó
+Vertex 0,0,24.15
+Vertex 0,2.2,24.15
+Vertex -5.75,2.2,21.8
+Vertex -5.75,0,21.8
+Face 0,1,2,3
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+;ÁTJÁRÓ UTÁN
+
+
+[MeshBuilder];leghátul
+Vertex 0,0,62.2
+Vertex 0,4.65,62.2
+Vertex -1.825,4.55,59
+Vertex -1.825,0,59
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[MeshBuilder];hátul-ferde
+Vertex -1.85,0,58
+Vertex -1.85,4.51,58
+Vertex -1.825,4.55,59
+Vertex -1.825,0,59
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,0.2,0
+Coordinates 1,0.2,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;sötétebb látszóbeton
+
+[MeshBuilder];átjáró
+Vertex 0,1.15,27.4
+Vertex 0,0,27.4
+Vertex -5.75,0,24.85
+Vertex -5.75,0.15,24.85
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,3,0.1
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0.3
+
+
+[MeshBuilder];hátul
+Vertex -11.5,1.4,35.7
+Vertex -11.5,0,35.7
+Vertex -8.3,0,29.65
+Vertex -8.3,0.15,29.65
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+
+
+
+
+;ablak
+
+[MeshBuilder];átjáró
+Vertex 0,1.15,27.4
+Vertex 0,3.62,27.4
+Vertex -5.75,3.45,24.85
+Vertex -5.75,0.15,24.85
+Face 3,2,1,0
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];elöl alul
+Vertex -8.3,0,29.65
+Vertex -8.3,2.5,29.65
+Vertex -5.75,2.5,24.85
+Vertex -5.75,0,24.85
+Face 0,1,2,3
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+[MeshBuilder];elöl felül
+Vertex -8.3,3.58,29.65
+Vertex -8.3,2.5,29.65
+Vertex -5.75,2.5,24.85
+Vertex -5.75,3.45,24.85
+Face 3,2,1,0
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];hátul
+Vertex -11.5,1.4,35.7
+Vertex -11.5,3.77,35.7
+Vertex -8.3,3.58,29.65
+Vertex -8.3,0.15,29.65
+Face 0,1,2,3
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+;FOGAS.VÁ.
+
+;sötétebb látszóbeton
+
+[MeshBuilder];elöl-felfele
+Vertex -11.5,1.4,35.7
+Vertex -11.5,0,35.7
+Vertex -9.21,0,41
+Vertex -9.21,2.5,41
+Face 0,1,2,3
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];közép
+Vertex -1.85,2.5,58
+Vertex -1.85,0,58
+Vertex -9.21,0,41
+Vertex -9.21,2.5,41
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0031_1_S.jpg
+Coordinates 0,9,0
+Coordinates 1,9,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+
+;ablak
+
+[MeshBuilder];elöl-felfele
+Vertex -11.5,1.4,35.7
+Vertex -11.5,3.77,35.7
+Vertex -9.21,3.95,41
+Vertex -9.21,2.5,41
+Face 3,2,1,0
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];közép
+Vertex -8.387,2.49,42.9
+Vertex -8.387,4.01,42.9
+Vertex -9.21,3.95,41
+Vertex -9.21,2.5,41
+Face 0,1,2,3
+[Texture]
+Load HighRiseGlass0105_S_2.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];hátul
+Vertex -8.387,2.49,42.9
+Vertex -8.387,4.01,42.9
+Vertex -1.85,4.51,58
+Vertex -1.85,2.5,58
+Face 3,2,1,0
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,8,0
+Coordinates 1,8,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+
+
+;BAL OLDALI ÉPÜLET...........................................................................................
+
+
+
+
+
+;BAL OLDAL
+
+
+[MeshBuilder];hossz
+Vertex -15.35,4.8,35.2
+Vertex -15.35,3.5,35.2
+Vertex -28.2,-0.5,12.7
+Vertex -28.2,0.85,12.7
+Face2 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,10,0
+Coordinates 1,10,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+
+
+
+;ablak
+
+[MeshBuilder];sötét
+Vertex -26.6,0,15.5
+Vertex -26.6,0.01,15.5
+Vertex -24.6,0.63,19
+Vertex -24.6,0,19
+Face2 0,1,2,3
+[Texture]
+Load HighRiseGlass0105_S_2.jpg
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[MeshBuilder];hossz
+Vertex -15.35,0,35.2
+Vertex -15.35,3.5,35.2
+Vertex -24.6,0.63,19
+Vertex -24.6,0,19
+Face2 0,1,2,3
+[Texture]
+Load HighRiseGlass0105_S.jpg
+Coordinates 0,9,0
+Coordinates 1,9,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+

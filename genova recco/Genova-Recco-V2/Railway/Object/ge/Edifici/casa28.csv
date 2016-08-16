@@ -1,0 +1,98 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com 
+
+;;;;casa 3
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 13, 0,
+AddVertex,9, 13, 0,
+AddVertex,9, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa28.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+CreateMeshBuilder,
+AddVertex,9, 0, 15,
+AddVertex,9, 13, 15,
+AddVertex,0, 13, 15,
+AddVertex,0, 0, 15,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa28.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, -1, 0,
+SetTextureCoordinates,3, -1, 1,
+setdecaltransparentcolor,0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 13, 0,
+AddVertex,0,13, 15,
+AddVertex,0, 0, 15,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa28b.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+CreateMeshBuilder,
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Tetto
+CreateMeshBuilder,
+AddVertex,, 13,0,
+AddVertex,3.35, 15, 7.5,
+AddVertex,6.7, 13,0,
+AddFace2,0, 1, 2, 
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, , 1,
+SetTextureCoordinates,1, 0.5, ,
+SetTextureCoordinates,2, 1, 1,
+
+
+
+CreateMeshBuilder,
+AddVertex,, 13, 15,
+AddVertex,3.35, 15, 7.5,
+AddVertex,6.7, 13, 15,
+AddFace,0, 2, 1, 
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, , 1,
+SetTextureCoordinates,1, 0.5, ,
+SetTextureCoordinates,2, 1, 1,
+
+
+
+CreateMeshBuilder,
+AddVertex,, 13,0,
+AddVertex,3.35, 15, 7.5,
+AddVertex,, 13, 15,
+AddFace,2, 1, 0, 
+GenerateNormals,
+LoadTexture,tetto2.png,
+SetTextureCoordinates,0, , 1,
+SetTextureCoordinates,1, 0.5, ,
+SetTextureCoordinates,2, 1, 1,
+
+
+
+
+

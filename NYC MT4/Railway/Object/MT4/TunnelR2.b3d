@@ -1,0 +1,148 @@
+[MeshBuilder]
+Vertex 2.5, 3.4, 0
+Vertex 1.9, 4.0, 0
+Vertex -10.5, 4.0, 0
+Vertex 2.5, 3.4, 25.5
+Vertex 1.9, 4.0, 25.5
+Vertex -10.5, 4.0, 25.5
+Face 1, 0, 3, 4
+Face 2, 1, 4, 5
+Color 20,20,20
+[Texture]
+Load Concrete.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.7
+Coordinates 2, 0, 0.4
+Coordinates 5, 12, 0.3
+Coordinates 4, 12, 0.4
+Coordinates 3, 12, 0.7
+
+[MeshBuilder]
+Vertex 2.5, -0.3, 0
+Vertex 2.5, 3.4, 0
+Vertex 2.6, 3.4, 0
+Vertex 2.6, -0.3, 0
+Face 0, 1, 2, 3
+Color 20,20,20
+
+[MeshBuilder]
+Vertex 1.9, -0.3, 0
+Vertex 2.5, -0.3, 0
+Vertex 2.5, 3.4, 0
+Vertex 2.6, 3.4, 0
+Vertex 2.6, -0.6, 0
+Vertex 1.9, -0.3, 25.5
+Vertex 2.5, -0.3, 25.5
+Vertex 2.5, 3.4, 25.5
+Vertex 2.6, 3.4, 25.5
+Vertex 2.6, -0.6, 25.5
+Face 1, 0, 5, 6
+Face 2, 1, 6, 7
+Face 3, 2, 7, 8
+Face 4, 3, 8, 9
+Color 20,20,20
+[Texture]
+Load Concrete.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.7
+Coordinates 2, 0, 0.4
+Coordinates 3, 0, 0.3
+Coordinates 4, 0, 0
+Coordinates 9, 12, 0
+Coordinates 8, 12, 0.3
+Coordinates 7, 12, 0.4
+Coordinates 6, 12, 0.7
+Coordinates 5, 12, 1
+
+[meshbuilder]
+
+vertex 2.3,2.5,5.90
+vertex 2.5,2.5,5.90
+vertex 2.5,2.3,5.90
+vertex 2.3,2.3,5.90
+face2 0,1,2,3
+[texture]
+Load tunlight.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+Transparent 31,31,31
+
+[meshbuilder]
+
+vertex 2.3,2.5,5.90
+vertex 2.5,2.5,5.90
+vertex 2.5,2.0,5.90
+vertex 2.0,2.0,5.90
+face2 0,1,2,3
+color 251,225,125,40
+
+[meshbuilder]
+
+vertex 2.3,2.5,18.90
+vertex 2.5,2.5,18.90
+vertex 2.5,2.3,18.90
+vertex 2.3,2.3,18.90
+face2 0,1,2,3
+[texture]
+Load tunlight.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+Transparent 31,31,31
+
+[meshbuilder]
+
+vertex 2.3,2.5,18.90
+vertex 2.5,2.5,18.90
+vertex 2.5,2.0,18.90
+vertex 2.0,2.0,18.90
+face2 0,1,2,3
+color 251,225,125,40
+
+[meshbuilder]
+
+vertex 1.65,-0.3,0
+vertex 1.65,1.1,0
+vertex 1.65,1.1,25.5
+vertex 1.65,-0.3,25.5
+face2 0,1,2,3
+color 20,20,20
+
+[meshbuilder]
+
+vertex 1.65,1.1,0
+vertex 2.5,1.1,0
+vertex 2.5,1.1,25.5
+vertex 1.65,1.1,25.5
+face2 0,1,2,3
+color 20,20,20
+
+[meshbuilder]
+
+vertex 1.65,-0.3,0
+vertex 2.5,-0.3,0
+vertex 2.5,1.1,0
+vertex 1.65,1.1,0
+face2 0,1,2,3
+color 20,20,20
+
+[meshbuilder]
+
+vertex 2.45,1.9,0
+vertex 2.45,2,0
+vertex 2.45,2,25.5
+vertex 2.45,1.9,25.5
+face2 0,1,2,3
+color 249,255,15
+
+[meshbuilder]
+
+vertex 2.125,-0.50,0
+vertex 2.125,-6.75,0
+vertex 2.125,-6.75,25.2
+vertex 2.125,-0.50,25.2
+face2 0,1,2,3
+color 20,20,20

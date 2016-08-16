@@ -1,0 +1,83 @@
+;;fattoria
+;;SANBIE
+
+;; lato sx
+CreateMeshBuilder,
+AddVertex,-3,6.3,15,
+AddVertex,-3,-0.4,15,
+AddVertex,-3,6.3,0,
+AddVertex,-3,-0.4,0,
+AddFace2,2,0,1,3,
+GenerateNormals,
+
+;LoadTexture,fattoria.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetColor,202,202,191,
+
+
+;;fronte
+CreateMeshBuilder,
+AddVertex,-3,6.3,15,
+AddVertex,0,7.8,15,
+AddVertex,3,6.3,15,
+AddVertex,3,-0.4,15,
+AddVertex,-3,-0.4,15,
+AddFace2,0,1,2,3,4,
+GenerateNormals,
+SetColor,202,202,191,
+
+;;fronte
+CreateMeshBuilder,
+AddVertex,-3,6.3,0,
+AddVertex,0,7.8,0,
+AddVertex,3,6.3,0,
+AddVertex,3,-0.4,0,
+AddVertex,-3,-0.4,0,
+AddFace2,0,1,2,3,4,
+GenerateNormals,
+SetColor,202,202,191,
+
+
+
+;; lato dx
+CreateMeshBuilder,
+AddVertex,3,6.3,15,
+AddVertex,3,6.3,0,
+AddVertex,3,-0.4,0
+AddVertex,3,-0.4,15,
+AddFace2, 0,1,2,3,
+GenerateNormals,
+
+loadTexture,fattoria.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+
+
+
+;;tetto
+CreateMeshBuilder,
+AddVertex,0,7.8,15.5,
+AddVertex,0,7.8,-0.25,
+AddVertex,3.6,6,-0.25,
+AddVertex,3.6,6,15.5,
+AddVertex,-3.6,6,-0.25,
+AddVertex,-3.6,6,15.5,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+AddFace,0,1,4,5,
+AddFace,5,4,1,0,
+GenerateNormals,
+SetColor,180,105,105,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 2, 1,
+SetTextureCoordinates,5, 0, 1,

@@ -1,0 +1,23 @@
+
+[MeshBuilder]
+Vertex -60, 7,  25
+Vertex -60, 7, -0.3
+Vertex  60, 7, -0.3
+Vertex  60, 7,  25
+Face 0,1,2,3
+[Texture]
+Load tettopensilina.bmp
+Coordinates 0,0,5
+Coordinates 1,0,0
+Coordinates 2,60,0
+Coordinates 3,60,5
+transparent 0,0,255
+
+
+[MeshBuilder]
+Vertex -60, 7,  25
+Vertex -60, 7, -0.3
+Vertex  60, 7, -0.3
+Vertex  60, 7,  25
+Face 0,1,2,3
+color 0,0,0,99

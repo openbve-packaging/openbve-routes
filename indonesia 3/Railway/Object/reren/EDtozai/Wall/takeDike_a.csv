@@ -1,0 +1,127 @@
+CreateMeshBuilder,
+AddVertex, 1.5, 0.0, 0.0
+AddVertex, 1.5, 0.5, 0.0
+AddVertex, 2.2, 0.5, 0.0
+AddVertex, 2.2, 0.5,25.0
+AddVertex, 1.5, 0.5,25.0
+AddVertex, 1.5, 0.0,25.0
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+Setcolor,220,220,200,
+LoadTexture,boadwall1.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,1,1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 1.5, 4.5, 3.0
+AddVertex, 1.5, 4.5, 1.0
+AddVertex, 2.2, 4.5, 1.0
+AddVertex, 2.2, 0.5, 1.0
+AddVertex, 1.5, 0.5, 1.0
+AddVertex, 1.5, 0.5, 3.0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,takeDIke2.bmp
+SetTextureCoordinates,0,  0,-0.2,
+SetTextureCoordinates,1,  0,0,
+SetTextureCoordinates,2,  0,1,
+SetTextureCoordinates,3,  1,1,
+SetTextureCoordinates,4,  1,0,
+SetTextureCoordinates,5,  1,-0.2,
+GenerateNormals,
+Translate,0,0,0.9
+
+CreateMeshBuilder,
+AddVertex, 1.5, 4.5, 4.0
+AddVertex, 1.5, 4.5, 2.0
+AddVertex, 2.2, 4.5, 2.0
+AddVertex, 2.2, 0.5, 2.0
+AddVertex, 1.5, 0.5, 2.0
+AddVertex, 1.5, 0.5, 4.0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,takeDIke2.bmp
+SetTextureCoordinates,0,  0,-0.2,
+SetTextureCoordinates,1,  0,0,
+SetTextureCoordinates,2,  0,1,
+SetTextureCoordinates,3,  1,1,
+SetTextureCoordinates,4,  1,0,
+SetTextureCoordinates,5,  1,-0.2,
+GenerateNormals,
+Translate,,,6.15
+
+CreateMeshBuilder,
+AddVertex, 1.5, 4.5, 4.0
+AddVertex, 1.5, 4.5, 2.0
+AddVertex, 2.2, 4.5, 2.0
+AddVertex, 2.2, 0.5, 2.0
+AddVertex, 1.5, 0.5, 2.0
+AddVertex, 1.5, 0.5, 4.0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,takeDIke2.bmp
+SetTextureCoordinates,0,  0,-0.2,
+SetTextureCoordinates,1,  0,0,
+SetTextureCoordinates,2,  0,1,
+SetTextureCoordinates,3,  1,1,
+SetTextureCoordinates,4,  1,0,
+SetTextureCoordinates,5,  1,-0.2,
+GenerateNormals,
+Translate,,,12.4
+
+CreateMeshBuilder,
+AddVertex, 1.5, 4.5, 4.0
+AddVertex, 1.5, 4.5, 2.0
+AddVertex, 2.2, 4.5, 2.0
+AddVertex, 2.2, 0.5, 2.0
+AddVertex, 1.5, 0.5, 2.0
+AddVertex, 1.5, 0.5, 4.0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,takeDIke2.bmp
+SetTextureCoordinates,0,  0,-0.2,
+SetTextureCoordinates,1,  0,0,
+SetTextureCoordinates,2,  0,1,
+SetTextureCoordinates,3,  1,1,
+SetTextureCoordinates,4,  1,0,
+SetTextureCoordinates,5,  1,-0.2,
+GenerateNormals,
+Translate,,,18.65
+
+CreateMeshBuilder,
+AddVertex, 1.4, 7.5, 25.0
+AddVertex, 1.4, 7.5, 0.0
+AddVertex, 1.4, 4.5, 0.0
+AddVertex, 2.3, 4.5, 0.0
+AddVertex, 2.3, 4.5, 25.0
+AddVertex, 1.4, 4.5, 25.0
+AddFace,0,1,2,5
+AddFace,2,3,4,5
+LoadTexture,boadwall.bmp
+Setcolor,170,170,140
+SetTextureCoordinates,0,  0,0,
+SetTextureCoordinates,1,  0,1.5,
+SetTextureCoordinates,2,  1,1.5,
+SetTextureCoordinates,3,  6,1.5,
+SetTextureCoordinates,4,  6,0,
+SetTextureCoordinates,5,  1,0,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 1.48, 0.88, 0,
+AddVertex, 1.48, 1.1, 0,
+AddVertex, 1.48, 1.1, 25,
+AddVertex, 1.48, 0.88, 25,
+AddFace,3,2,1,0
+GenerateNormals,
+LoadTexture,../Retu1.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 4, 0,
+SetTextureCoordinates,3, 4, 1,
+SetDecalTransparentColor,255,255,255

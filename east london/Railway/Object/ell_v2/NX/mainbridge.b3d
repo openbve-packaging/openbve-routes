@@ -1,0 +1,219 @@
+; This object is the mainline over the single track of the 
+; NX branch
+
+; because this bridge/short tunnel is curved, we're going 
+; to do it in stages
+
+; The first part is the flat part over the track
+[MeshBuilder] ; The top part
+Vertex 3,6,6
+Vertex 3,4.5,6
+Vertex -3,4.5,-8
+Vertex -3,6,-8
+Face 0,1,2,3
+[Texture]
+load ..\stone.bmp
+Coordinates 0,6,0
+Coordinates 1,6,1.5
+Coordinates 2,0,1.5
+Coordinates 3,0,0
+
+[Meshbuilder] ; Left wall
+Vertex -3,4.5,19
+Vertex -3,-1.5,19
+Vertex -3,-1.5,-8
+Vertex -3,4.5,-8
+Face 0,1,2,3
+[Texture]
+load ..\stonea.bmp
+Coordinates 0,22,0
+Coordinates 1,22,4.5
+Coordinates 2,0,4.5
+Coordinates 3,0,0
+
+[Meshbuilder] ; Right wall
+Vertex 3,4.5,6
+Vertex 3,-1.5,6
+Vertex 3,-1.5,25
+Vertex 3,4.5,25
+Face 0,1,2,3
+[Texture]
+load ..\stonea.bmp
+Coordinates 0,22,0
+Coordinates 1,22,4.5
+Coordinates 2,0,4.5
+Coordinates 3,0,0
+
+[Meshbuilder] ; roof
+Vertex 3,4.5,6
+Vertex 3,4.5,25
+Vertex -3,4.5,19
+Vertex -3,4.5,-8
+Face 0,1,2,3
+[Texture]
+load ..\stonea.bmp
+Coordinates 0,6,0
+Coordinates 1,6,21
+Coordinates 2,0,21
+Coordinates 3,0,0
+
+[Meshbuilder] ; right side
+Vertex 50,6,80
+Vertex 50,-6.5,80
+Vertex 3,-6.5,6
+Vertex 3,6,6
+Face 0,1,2,3
+[Texture]
+load ..\stone.bmp
+Coordinates 0,50,0
+Coordinates 1,50,6
+Coordinates 2,0,6
+Coordinates 3,0,0
+
+[Meshbuilder] ; Left side
+Vertex -3,6,-8
+Vertex -3,-6.5,-8
+Vertex -25,-6.5,-37
+Vertex -25,6,-37
+
+Vertex -50,-6.5,-90
+Vertex -50,6,-90
+
+Vertex -75,-6.5,-150
+Vertex -75,6,-150
+
+Vertex -100,-6.5,-200
+Vertex -100,6,-200
+
+Face 0,1,2,3
+Face 3,2,4,5
+Face 5,4,6,7
+Face 7,6,8,9
+
+[Texture]
+load ..\stone.bmp
+Coordinates 0,100,0
+Coordinates 1,100,6
+Coordinates 2,75,6
+Coordinates 3,75,0
+Coordinates 4,50,6
+Coordinates 5,50,0
+Coordinates 6,25,6
+Coordinates 7,25,0
+Coordinates 8,0,6
+Coordinates 9,0,0
+
+; Now the fences
+
+[Meshbuilder] ; Left side
+Vertex -3,7,-8
+Vertex -3,6,-8
+Vertex -25,6,-37
+Vertex -25,7,-37
+
+Vertex -50,6,-90
+Vertex -50,7,-90
+
+Vertex -75,6,-150
+Vertex -75,7,-150
+
+Vertex -100,6,-200
+Vertex -100,7,-200
+
+Face 0,1,2,3
+Face 3,2,4,5
+Face 5,4,6,7
+Face 7,6,8,9
+
+[Texture]
+load ..\fence.bmp
+Coordinates 0,100,0
+Coordinates 1,100,1
+Coordinates 2,75,1
+Coordinates 3,75,0
+Coordinates 4,50,1
+Coordinates 5,50,0
+Coordinates 6,25,1
+Coordinates 7,25,0
+Coordinates 8,0,1
+Coordinates 9,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; right side
+Vertex 50,7,80
+Vertex 50,6,80
+Vertex 3,6,6
+Vertex 3,7,6
+Face 0,1,2,3
+[Texture]
+load ..\fence.bmp
+Coordinates 0,50,0
+Coordinates 1,50,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[MeshBuilder] ; The middle part
+Vertex 3,7,6
+Vertex 3,6,6
+Vertex -3,6,-8
+Vertex -3,7,-8
+Face 0,1,2,3
+[Texture]
+load ..\fence.bmp
+Coordinates 0,6,0
+Coordinates 1,6,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+; And some trees...
+
+[Meshbuilder] ; Left side
+Vertex -3,5,-8
+Vertex -3,-6.4,-8
+Vertex -25,-6.4,-38
+Vertex -25,5,-38
+
+Vertex -50,-6.4,-91
+Vertex -50,5,-91
+
+Vertex -75,-6.4,-151
+Vertex -75,5,-151
+
+Vertex -100,-6.4,-201
+Vertex -100,5,-201
+
+Face 0,1,2,3
+Face 3,2,4,5
+Face 5,4,6,7
+Face 7,6,8,9
+
+[Texture]
+load treeu.bmp
+Coordinates 0,45,0
+Coordinates 1,45,-1
+Coordinates 2,37.5,-1
+Coordinates 3,37.5,0
+Coordinates 4,25,-1
+Coordinates 5,25,0
+Coordinates 6,12.5,-1
+Coordinates 7,12.5,0
+Coordinates 8,0,-1
+Coordinates 9,0,0
+Transparent 0,0,0
+
+[Meshbuilder] ; right side
+Vertex 50,5,79
+Vertex 50,-6.4,79
+Vertex 4,-6.4,6.5
+Vertex 4,5,6.5
+Face 0,1,2,3
+[Texture]
+load treeu.bmp
+Coordinates 0,12,0
+Coordinates 1,12,-1
+Coordinates 2,0,-1
+Coordinates 3,0,0
+Transparent 0,0,0
+

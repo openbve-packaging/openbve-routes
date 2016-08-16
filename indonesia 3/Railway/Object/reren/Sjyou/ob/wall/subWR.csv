@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,7.2, 1.1, 0,
+AddVertex,7.2, 4.7, 0,
+AddVertex,7.2, 4.7, 25.1,
+AddVertex,7.2, 1.1, 25.1,
+AddFace2,3,2,1,0,
+Loadtexture,../../Wall\subW2.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 5, 1,
+GenerateNormals,
+SetEmissiveColor,65,65,65,

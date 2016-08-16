@@ -1,0 +1,57 @@
+:(c) STEVE GREEN 2002
+;
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+[MeshBuilder]
+Vertex +120,-0.5,2   
+Vertex +120,-0.5,8
+Vertex -120,-0.5,8
+Vertex -120,-0.5,2
+Face 3,2,1,0
+color 130,130,130
+
+[Texture]
+Load ..\road2.bmp
+Coordinates 0,00,0
+Coordinates 1,00,1
+Coordinates 2,8,1
+Coordinates 3,8,0
+
+
+[MeshBuilder]
+Vertex -120,-0.5,2
+Vertex 120,-0.5,2
+Vertex 120,-0.5,1
+Vertex -120,-0.5,1
+Face 0,1,2,3
+color 90,10,0
+
+[Texture]
+Load ..\emb.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex -120,-0.5,1
+Vertex 120,-0.5,1
+Vertex 120,-5,-3
+Vertex -120,-5,-3
+Face 0,1,2,3
+color 90,10,0
+
+[Texture]
+Load ..\emb.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+
+
+
+

@@ -1,0 +1,38 @@
+[MeshBuilder]
+
+
+Vertex 0.0,4,0
+Vertex 10.0,4,0
+Vertex 10.0.0,0
+Vertex 0.0,0,0
+
+Face 0,1,2,3  ; Front
+
+
+[Texture]
+Load Seneca.BMP
+
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+
+Vertex 0,4.8,0  ;19
+Vertex 0,4,0   ;16  ; Left  (facing Right Track)
+Vertex 5,4,0    ;17
+Vertex 5,4.8,0  ;18
+
+
+Face 3,2,1,0  ; Left
+
+
+[Texture]
+Load tile.bmp
+
+
+Coordinates  0  ,0,0
+Coordinates  1  ,0,3
+Coordinates  2  ,1,3
+Coordinates  3  ,1,0

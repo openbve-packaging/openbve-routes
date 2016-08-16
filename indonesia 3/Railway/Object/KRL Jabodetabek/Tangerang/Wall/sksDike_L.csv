@@ -1,0 +1,13 @@
+CreateMeshbuilder,,,,
+addvertex,-3.8,-16,0,
+addvertex,-3.8,-2,0,
+addvertex,-3.8,-2,26,
+addvertex,-3.8,-16,26,
+addface,0,3,2,1
+GenerateNormals,,,,
+
+LoadTexture,nii_sin.bmp,,,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,

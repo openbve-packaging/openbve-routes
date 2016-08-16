@@ -1,0 +1,80 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Italian pole type LS right
+; Palo singolo destro con zampa a sinistra posizionato a 2,5 mt da asse del binario
+
+[meshbuilder]  ; fianco sin e lato ant
+vertex -0.15,9.2 ,  0.07
+vertex -0.15,9.2 , -0.07
+vertex -0.15,-0.3, -0.07
+vertex -0.15,-0.3 , 0.07
+vertex  0.15,9.2 , -0.07
+vertex  0.15,-0.3 ,-0.07
+face2 0,1,2,3
+face2 1,4,5,2
+translate 2.5,-0.8,0
+
+[texture]
+load Traliccio.bmp
+transparent 0,0,255
+coordinates 0, 0, 0
+coordinates 1, 0.22, 0
+coordinates 2, 0.22, 8
+coordinates 3, 0, 8
+coordinates 4, 1, 0
+coordinates 5, 1, 8
+
+[meshbuilder] ; fianco ant e lato post
+vertex  0.15,9.2 , -0.07
+vertex  0.15,9.2 ,  0.07
+vertex  0.15,-0.3,  0.07
+vertex  0.15,-0.3 ,-0.07
+vertex -0.15,9.2 ,  0.07
+vertex -0.15,-0.3 , 0.07
+face2 0,1,2,3
+face2 1,4,5,2
+translate 2.5,-0.8,0
+
+[texture]
+load Traliccio.bmp
+transparent 0,0,255
+coordinates 0, 0, 0
+coordinates 1, 0.22, 0
+coordinates 2, 0.22, 8
+coordinates 3, 0, 8
+coordinates 4, 1, 0
+coordinates 5, 1, 8
+
+[meshbuilder] ; Mensola
+cylinder 3, 0.05, 0.05, 4
+color 157,165,165
+rotate 0,0,1,90
+translate 0.615,5.2,0
+
+[meshbuilder] ; Tirante
+cylinder 3, 0.01, 0.01, 2.2
+color 57,65,65
+rotate 0,0,1,-65
+translate 1.35,5.70,0
+
+[meshbuilder] ; Basamento
+cube 0.4
+color 190,190,190
+translate 2.5,-0.6,0
+
+[meshbuilder] ; Zampa di ragno left
+vertex  -1.3, 6.55, 0 ; left
+vertex   0.3, 6.55, 0 ; left
+vertex   0.3, 5.15, 0 ; left
+vertex  -1.3, 5.15, 0 ; left
+face2 0,1,3,2
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0, 1.05, 0.1 
+coordinates 1, -0.05, 0.1 
+coordinates 2, 0.0, 0.89
+coordinates 3, 1.0, 0.89
+translate 0,-0.8,0

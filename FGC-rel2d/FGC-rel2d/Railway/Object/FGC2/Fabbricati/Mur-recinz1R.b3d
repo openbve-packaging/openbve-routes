@@ -1,0 +1,102 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Muretto con recinzione bianca
+; Elemento ripetitivo lungh mt.25
+
+[Meshbuilder]; Staccionata bianca - tratto 1
+Vertex 3.0, 0.9, 26
+Vertex 3.0, 1.1, 21
+Vertex 3.0, -0.4, 21
+Vertex 3.0, -0.6, 26
+face2 0,1,2,3
+[Texture]
+load ..\StaccionBianca3.bmp
+coordinates 0,2,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,2,0
+transparent 128,128,128
+[MeshBuilder]; Muretto
+Cube 0.12, 0.4, 2.5
+color 147,147,147
+rotate 1,0,1,2.5
+translate 3.0,-0.9,23.5
+
+[Meshbuilder]; Staccionata bianca - tratto 2
+Vertex 3.0, 0.9, 21
+Vertex 3.0, 1.1, 16
+Vertex 3.0, -0.4, 16
+Vertex 3.0, -0.6, 21
+face2 0,1,2,3
+[Texture]
+load ..\StaccionBianca3.bmp
+coordinates 0,2,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,2,0
+transparent 128,128,128
+[MeshBuilder]; Muretto
+Cube 0.12, 0.4, 2.5
+color 147,147,147
+rotate 1,0,1,2.5
+translate 3.0,-0.9,18.5
+
+[Meshbuilder]; Staccionata bianca - tratto 3
+Vertex 3.0, 0.9, 16
+Vertex 3.0, 1.1, 11
+Vertex 3.0, -0.4, 11
+Vertex 3.0, -0.6, 16
+face2 0,1,2,3
+[Texture]
+load ..\StaccionBianca3.bmp
+coordinates 0,2,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,2,0
+transparent 128,128,128
+[MeshBuilder]; Muretto
+Cube 0.12, 0.4, 2.5
+color 147,147,147
+rotate 1,0,1,2.5
+translate 3.0,-0.9,13.5
+
+[Meshbuilder]; Staccionata bianca - tratto 4
+Vertex 3.0, 0.9, 11
+Vertex 3.0, 1.1, 6
+Vertex 3.0, -0.4, 6
+Vertex 3.0, -0.6, 11
+face2 0,1,2,3
+[Texture]
+load ..\StaccionBianca3.bmp
+coordinates 0,2,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,2,0
+transparent 128,128,128
+[MeshBuilder]; Muretto
+Cube 0.12, 0.4, 2.5
+color 147,147,147
+rotate 1,0,1,2.5
+translate 3.0,-0.9,8.5
+
+[Meshbuilder]; Staccionata bianca - tratto 5
+Vertex 3.0, 0.9, 6
+Vertex 3.0, 1.1, 1
+Vertex 3.0, -0.4, 1
+Vertex 3.0, -0.6, 6
+face2 0,1,2,3
+[Texture]
+load ..\StaccionBianca3.bmp
+coordinates 0,2,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,2,0
+transparent 128,128,128
+[MeshBuilder]; Muretto
+Cube 0.12, 0.4, 2.5
+color 147,147,147
+rotate 1,0,1,2.5
+translate 3.0,-0.9,3.5
+

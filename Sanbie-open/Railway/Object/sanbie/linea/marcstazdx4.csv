@@ -1,0 +1,175 @@
+
+;; piano sopra 1°parte
+CreateMeshBuilder,
+AddVertex,1.5, 0.3, -41.2,
+AddVertex,1.5, 0.3, 3.8,
+AddVertex,2.5, 0.3, 3.8,
+AddVertex,2.5, 0.3, -41.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,marcstaz1.bmp,
+SetTextureCoordinates,0, 0, 5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 5,
+
+;; scalino 1° parte
+CreateMeshBuilder,
+AddVertex,1.5, -0.5, -41.2,
+AddVertex,1.5, -0.5, 3.8,
+AddVertex,1.5, 0.3, 3.8,
+AddVertex,1.5, 0.3, -41.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,altmarciap1.bmp,
+SetTextureCoordinates,0, 6, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 6, 0,
+
+
+
+;; finale
+CreateMeshBuilder,
+AddVertex,1.5, 0, -44.2,
+AddVertex,1.5, 0.3, -41.2,
+AddVertex,2.5, 0.3, -41.2,
+AddVertex,2.5, 0, -44.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,marcstaz1.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,6.5, 0, -44.2,
+AddVertex,6.5, 0.3, -41.2,
+AddVertex,5.5, 0.3, -41.2,
+AddVertex,5.5, 0, -44.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,marcstaz1.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+
+;marciapiede centrale
+CreateMeshBuilder,
+AddVertex,2.5, 0, -44.2,
+AddVertex,2.5, 0.3, -41.2,
+AddVertex,5.5, 0.3, -41.2,
+AddVertex,5.5, 0, -44.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,autobloccanti1.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 3, 0,
+SetTextureCoordinates,3, 3, 3,
+
+CreateMeshBuilder,
+AddVertex,2.5, 0.3, -41.2,
+AddVertex,2.5, 0.3, -21.2,
+AddVertex,5.5, 0.3, -21.2,
+AddVertex,5.5, 0.3, -41.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,autobloccanti1.bmp,
+SetTextureCoordinates,0, 0, 8,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 5, 8,
+
+
+
+;; marciapiede laterale
+CreateMeshBuilder,
+AddVertex,1.5, -0.5, -44.2,
+AddVertex,1.5, -0.5, -41.2,
+AddVertex,1.5, 0.3, -41.2,
+AddVertex,1.5, -0, -44.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,altmarciap1.bmp,
+SetTextureCoordinates,0, 2, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 2, 0,
+
+CreateMeshBuilder,
+AddVertex,6.5, -0.5, -44.2,
+AddVertex,6.5, -0.5, -41.2,
+AddVertex,6.5, 0.3, -41.2,
+AddVertex,6.5, 0, -44.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,altmarciap1.bmp,
+SetTextureCoordinates,0, 2, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 2, 0,
+
+
+CreateMeshBuilder,
+AddVertex,2.3, 0.05, -43.8,
+AddVertex,5.7, 0.05, -43.8,
+AddVertex,5.7, -0.2, -45,
+AddVertex,2.3, -0.2, -45,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,marcstaz1.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0, 0,
+
+;parte bianca
+CreateMeshBuilder,
+AddVertex,1.5, 0.0, -44.2,
+AddVertex,2.3, 0.0, -44.2,
+AddVertex,1.5, -0.2, -45,
+AddVertex,2.3, -0.2, -45,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+Setcolor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,1.5, 0.0, -44.2,
+AddVertex,1.5, -0.2, -45,
+AddVertex,1.5, -0.5, -45,
+AddVertex,1.5, -0.5, -44.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+Setcolor,255,255,255,
+
+
+CreateMeshBuilder,
+AddVertex,5.65, 0.0, -44.2,
+AddVertex,6.5, 0.0, -44.2,
+AddVertex,5.65, -0.2, -45,
+AddVertex,6.5, -0.2, -45,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+Setcolor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,6.5, 0.0, -44.2,
+AddVertex,6.5, -0.2, -45,
+AddVertex,6.5, -0.5, -45,
+AddVertex,6.5, -0.5, -44.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+Setcolor,255,255,255,

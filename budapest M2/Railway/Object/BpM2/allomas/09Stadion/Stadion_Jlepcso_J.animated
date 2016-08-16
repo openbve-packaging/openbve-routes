@@ -1,0 +1,11 @@
+﻿[Object]
+States = Stadion15.b3d
+
+[Object]
+States = Stadion_Jlepcso_J.b3d
+
+[Object]
+Position = 0,-0.2,-0.3
+States = Stadion_Jlepcso_J_mgl.b3d
+TranslateXDirection = 0, 0.2, 0.3
+TranslateXFunction = (mod[time, 1] - 0.5) * 1

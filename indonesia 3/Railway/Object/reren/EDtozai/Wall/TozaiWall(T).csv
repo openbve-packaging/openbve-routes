@@ -1,0 +1,60 @@
+CreateMeshBuilder,,,,
+AddVertex,-1.7,-0.340, 0,
+AddVertex,-1.7,-0.174, 0,
+AddVertex,-2.5,-0.174, 0,
+AddVertex,-2.5,-0.174, 7.0,
+AddVertex,-1.7,-0.174, 7.0,
+AddVertex,-1.7,-0.340, 7.0,
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,../../Con3.bmp,,
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0.65
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,2,0
+SetTextureCoordinates,4,2,0.65
+SetTextureCoordinates,5,2,1
+Setcolor,210,200,210
+Rotate,0,1,0,90
+Translate,0,0,-2
+GenerateNormals,,,
+
+CreateMeshBuilder,,,
+AddVertex,-2.5,-0.174, 0
+AddVertex,-2.5, 1.200, 0
+AddVertex,-2.6, 1.200, 0
+AddVertex,-2.6,-0.600, 0
+AddVertex,-2.5,-0.174, 7.0
+AddVertex,-2.5, 1.200, 7.0
+AddVertex,-2.6, 1.200, 7.0,
+AddVertex,-2.6,-0.600, 7.0,
+AddFace,0,1,5,4
+AddFace,1,2,6,5
+AddFace,2,3,7,6
+LoadTexture,TozaiWall3.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,0.01,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,1.5,1,
+SetTextureCoordinates,5,1.5,0,
+SetTextureCoordinates,6,1.5,0.01,
+SetTextureCoordinates,7,1.5,1,
+Rotate,0,1,0,90
+Translate,0,0,-2
+GenerateNormals,,,
+setcolor,255,240,230
+
+CreateMeshBuilder,,,,
+AddVertex,-1.9,-0.450,0,
+AddVertex,-1.9,-0.144,0,
+AddVertex,-2.5,-0.144,0,
+AddVertex,-2.5, 1.200,0,
+AddVertex,-2.6, 1.200,0,
+AddVertex,-2.6,-0.450,0,
+AddFace,0,1,2,5
+AddFace,2,3,4,5
+SetColor,160,158,152,
+Rotate,0,1,0,90
+Translate,0,0,-2
+GenerateNormals,,,,

@@ -1,0 +1,921 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Gruppo pali M20 piazzale genova
+; da posizionale a 250
+
+; Palo 12 - ultimo M20 a Genova 
+; ===========================================
+[meshbuilder] ; Palo 1o tratto - 330x6000
+cylinder 6, 0.165, 0.165, 6
+color 157,165,165
+translate 3.0,1.45,0
+[meshbuilder] ; Palo 2o tratto - 300x3550
+cylinder 6, 0.15, 0.15, 3.55
+color 157,165,165
+translate 3.0,6.2,0
+[meshbuilder] ; Palo 2o tratto - 270x1450
+cylinder 6, 0.135, 0.135, 1.45
+color 157,165,165
+translate 3.0,8.7,0
+[meshbuilder] ; Mensola 
+cylinder 3, 0.05, 0.05, 4
+color 157,165,165
+rotate 0,0,1,90
+;rotate 0,1,0,-20
+translate 0.90,5.2,-0
+[meshbuilder] ; Tirante
+cylinder 3, 0.01, 0.01, 2.8
+color 57,65,65
+rotate 0,0,1,-65
+translate 1.6,5.84,0
+[meshbuilder] ; Zampa di ragno
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+rotate 0,1,0,-20
+translate 0,-0.8,0
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+
+[meshbuilder] ; Conduttore a tronchino 
+cube 0.02,0.005,12.50
+rotate 0,1,0,-9.5
+translate 2.2,4.7,-37.6
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate 1.1,5.1,-31
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate 2.2,5.1,-37.6
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate 3.5,5.1,-45.2
+color 0,0,0
+[meshbuilder] ; Fune portante a trochino
+cube 0.01,0.005,12.50
+rotate 0,1,0,-9.5
+translate 2.2,5.52,-37.6
+color 0,0,0
+
+; Palo 11 - a fine scambio tronchino
+; ===========================================
+[meshbuilder] ; Palo 1o tratto - 330x6000
+cylinder 6, 0.165, 0.165, 6
+color 157,165,165
+translate 3.0,1.45,-25
+[meshbuilder] ; Palo 2o tratto - 300x3550
+cylinder 6, 0.15, 0.15, 3.55
+color 157,165,165
+translate 3.0,6.2,-25
+[meshbuilder] ; Palo 2o tratto - 270x1450
+cylinder 6, 0.135, 0.135, 1.45
+color 157,165,165
+translate 3.0,8.7,-25
+[meshbuilder] ; Mensola 
+cylinder 3, 0.05, 0.05, 4
+color 157,165,165
+rotate 0,0,1,90
+;rotate 0,1,0,-20
+translate 0.90,5.2,-25
+[meshbuilder] ; Tirante
+cylinder 3, 0.01, 0.01, 2.8
+color 57,65,65
+rotate 0,0,1,-65
+translate 1.6,5.84,-25
+[meshbuilder] ; Zampa di ragno destra
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+;rotate 0,1,0,-20
+translate 0.20,-0.8,-25
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+[meshbuilder] ; Zampa di ragno sinistra
+vertex  -1.3, 6.55, 0 ; left
+vertex   0.3, 6.55, 0 ; left
+vertex   0.3, 5.15, 0 ; left
+vertex  -1.3, 5.15, 0 ; left
+face2 0,1,3,2
+translate 0,-0.8,-25
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0, 1.05, 0.1 
+coordinates 1, -0.05, 0.1 
+coordinates 2, 0.0, 0.89
+coordinates 3, 1.0, 0.89
+
+[meshbuilder]  ; Ghiaia sulla destra
+vertex  1.2 , -0.2 , 27
+vertex  2.8 , -0.3 , 27
+vertex  2.8 , -0.3 , -25
+vertex  1.2 , -0.2 , -25
+face 0,1,2,3
+[texture]
+load ..\Rails\Trav-gray.bmp
+coordinates 0, 0, 0
+coordinates 1, 0.49, 0
+coordinates 2, 0.49, 30
+coordinates 3, 0, 30
+
+
+
+
+[meshbuilder]  ; Ghiaia sulla destra
+vertex  1.2 , -0.2 , -25
+vertex  2.8 , -0.3 , -25
+vertex  4.8 , -0.3 , -40
+vertex  3.2 , -0.2 , -40
+face 0,1,2,3
+[texture]
+load ..\Rails\Trav-gray.bmp
+coordinates 0, 0, 0
+coordinates 1, 0.49, 0
+coordinates 2, 0.49, 10
+coordinates 3, 0, 10
+
+[meshbuilder]  ; Erba
+vertex  2.5 , -0.2 , -25
+vertex  5.8 , -0.2 , -25
+vertex  7.8 , -0.2 , -40
+vertex  4.5 ,  -0.2 , -40
+face 0,1,2,3
+[texture]
+load ..\Grass2.bmp
+coordinates 0, 0.6, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 1
+coordinates 3, 0.6, 1
+
+
+
+; Palo 10 - a fine scambio binario 1
+; ===========================================
+[meshbuilder] ; Palo 1o tratto - 330x6000
+cylinder 6, 0.165, 0.165, 6
+color 157,165,165
+translate 2.2,1.45,-50
+[meshbuilder] ; Palo 2o tratto - 300x3550
+cylinder 6, 0.15, 0.15, 3.55
+color 157,165,165
+translate 2.2,6.2,-50
+[meshbuilder] ; Palo 2o tratto - 270x1450
+cylinder 6, 0.135, 0.135, 1.45
+color 157,165,165
+translate 2.2,8.7,-50
+[meshbuilder] ; Mensola 
+cylinder 3, 0.05, 0.05, 8
+color 157,165,165
+rotate 0,0,1,90
+;rotate 0,1,0,-20
+translate 2.2,5.2,-50
+[meshbuilder] ; Tirante  sinistro
+cylinder 3, 0.01, 0.01, 2.8
+color 57,65,65
+rotate 0,0,1,-40
+translate 1.3,6.3,-50
+[meshbuilder] ; Tirante  denstro
+cylinder 3, 0.01, 0.01, 2.8
+color 57,65,65
+rotate 0,0,1,40
+translate 3.1,6.3,-50
+[meshbuilder] ; Zampa di ragno destra
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+;rotate 0,1,0,-20
+translate 0,-0.8,-50
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+[meshbuilder] ; Zampa di ragno destra binario 2
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+;rotate 0,1,0,-20
+translate 4.2,-0.8,-50
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+[meshbuilder] ; Zampa di ragno sinistra binario 1
+vertex  -1.3, 6.55, 0 ; left
+vertex   0.3, 6.55, 0 ; left
+vertex   0.3, 5.15, 0 ; left
+vertex  -1.3, 5.15, 0 ; left
+face2 0,1,3,2
+translate -0.2,-0.8,-50
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0, 1.05, 0.1 
+coordinates 1, -0.05, 0.1 
+coordinates 2, 0.0, 0.89
+coordinates 3, 1.0, 0.89
+
+[meshbuilder]  ; Erba
+vertex  4.5 , -0.2 , -40
+vertex  7.8 , -0.2 , -40
+vertex  8.8 ,  0.0 , -55
+vertex  5.5 ,  -0.2 , -55
+face 0,1,2,3
+[texture]
+load ..\Grass2.bmp
+coordinates 0, 0.6, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 2
+coordinates 3, 0.6, 2
+
+[meshbuilder]  ; Erba
+vertex  5.5 , -0.2 , -55
+vertex  8.8 ,  0.0 , -55
+vertex  8.8 ,  0.6 , -100
+vertex  5.5 ,  -0.2 , -100
+face 0,1,2,3
+[texture]
+load ..\Grass2.bmp
+coordinates 0, 0.6, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 5
+coordinates 3, 0.6, 5
+
+
+
+[meshbuilder] ; Conduttore a binario 1
+cube 0.02,0.005,12.50
+rotate 0,1,0,8.2
+translate -2.0,4.7,-62.6
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -1.1,5.1,-56
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -2.0,5.1,-62.6
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -3.1,5.1,-70.2
+color 0,0,0
+[meshbuilder] ; Fune portante a binario 1
+cube 0.01,0.005,12.50
+rotate 0,1,0,8.2
+translate -2.0,5.52,-62.6
+color 0,0,0
+
+; Palo 9 - scambio officina
+; ===========================================
+[meshbuilder] ; Palo 1o tratto - 330x6000
+cylinder 6, 0.165, 0.165, 6
+color 157,165,165
+translate 2.2,1.45,-75
+[meshbuilder] ; Palo 2o tratto - 300x3550
+cylinder 6, 0.15, 0.15, 3.55
+color 157,165,165
+translate 2.2,6.2,-75
+[meshbuilder] ; Palo 2o tratto - 270x1450
+cylinder 6, 0.135, 0.135, 1.45
+color 157,165,165
+translate 2.2,8.7,-75
+[meshbuilder] ; Mensola 
+cylinder 3, 0.05, 0.05, 11
+color 157,165,165
+rotate 0,0,1,90
+;rotate 0,1,0,-20
+translate -0.2,5.2,-75
+[meshbuilder] ; Tirante  sinistro corto
+cylinder 3, 0.01, 0.01, 2.8
+color 57,65,65
+rotate 0,0,1,-40
+translate 1.3,6.3,-75
+[meshbuilder] ; Tirante  sinistro lungo
+cylinder 3, 0.01, 0.01, 6.4
+color 57,65,65
+rotate 0,0,1,-60
+translate -0.5,6.8,-75
+[meshbuilder] ; Tirante  denstro
+cylinder 3, 0.01, 0.01, 2.8
+color 57,65,65
+rotate 0,0,1,40
+translate 3.1,6.3,-75
+[meshbuilder] ; Zampa di ragno destra binario 2
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+;rotate 0,1,0,-20
+translate 0,-0.8,-75
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+[meshbuilder] ; Zampa di ragno destra tronchino
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+;rotate 0,1,0,-20
+translate 4.2,-0.8,-75
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+[meshbuilder] ; Zampa di ragno destra binario 1
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+;rotate 0,1,0,-20
+translate -3.8,-0.8,-75
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+[meshbuilder] ; Zampa di ragno sinistra officina
+vertex  -1.3, 6.55, 0 ; left
+vertex   0.3, 6.55, 0 ; left
+vertex   0.3, 5.15, 0 ; left
+vertex  -1.3, 5.15, 0 ; left
+face2 0,1,3,2
+translate -4.0,-0.8,-75
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0, 1.05, 0.1 
+coordinates 1, -0.05, 0.1 
+coordinates 2, 0.0, 0.89
+coordinates 3, 1.0, 0.89
+
+; Palo 8 - lato officina 
+; ===========================================
+[meshbuilder] ; Palo 1o tratto - 330x6000
+cylinder 6, 0.165, 0.165, 6
+color 157,165,165
+translate -9.0,1.45,-85
+[meshbuilder] ; Palo 2o tratto - 300x3550
+cylinder 6, 0.15, 0.15, 3.55
+color 157,165,165
+translate -9.0,6.2,-85
+[meshbuilder] ; Palo 2o tratto - 270x1450
+cylinder 6, 0.135, 0.135, 1.45
+color 157,165,165
+translate -9.0,8.7,-85
+[meshbuilder] ; Mensola 
+cylinder 3, 0.05, 0.05, 4
+color 157,165,165
+rotate 0,0,1,90
+rotate 0,1,0,8
+translate -6.90,5.2,-85.4
+[meshbuilder] ; Tirante
+cylinder 3, 0.01, 0.01, 3.2
+color 57,65,65
+rotate 0,0,1,65
+rotate 0,1,0,6
+translate -7.40,5.84,-85.3
+[meshbuilder] ; Zampa di ragno
+vertex  -0.3, 6.55, 0 ; right
+vertex   1.3, 6.55, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+rotate 0,1,0,6
+translate -5.8,-0.8,-85.6
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0,-0.05, 0.1 ; right 
+coordinates 1, 1.0, 0.1  ; right 
+coordinates 2, 1.0, 0.89 ; right
+coordinates 3, 0.0, 0.89 ; right
+
+[meshbuilder] ; Conduttore entrata officina
+cube 0.02,0.005,12.50
+rotate 0,1,0,9.5
+translate -6.0,4.7,-87.5
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -5.1,5.1,-82
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -6.33,5.9,-89.5
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -7.1,5.1,-94
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -7.75,5.1,-98
+color 0,0,0
+[meshbuilder] ; Fune portante a binario 1
+cube 0.01,0.005,12.50
+rotate 0,1,0,9.5
+translate -6.0,5.52,-87.5
+color 0,0,0
+
+; Palo 7 - inizio tronchino
+; ===========================================
+[meshbuilder] ; Palo 1o tratto - 330x6000
+cylinder 6, 0.165, 0.165, 6
+color 157,165,165
+translate 5.0,1.45,-100
+[meshbuilder] ; Palo 2o tratto - 300x3550
+cylinder 6, 0.15, 0.15, 3.55
+color 157,165,165
+translate 5.0,6.2,-100
+[meshbuilder] ; Palo 2o tratto - 270x1450
+cylinder 6, 0.135, 0.135, 1.45
+color 157,165,165
+translate 5.0,8.7,-100
+[meshbuilder] ; Mensola 
+cylinder 3, 0.05, 0.05, 10
+color 157,165,165
+rotate 0,0,1,90
+;rotate 0,1,0,-20
+translate 0,5.2,-100
+[meshbuilder] ; Tirante  sinistro corto
+cylinder 3, 0.01, 0.01, 2.8
+color 57,65,65
+rotate 0,0,1,-40
+translate 3.95,6.3,-100
+[meshbuilder] ; Tirante  sinistro medio
+cylinder 3, 0.01, 0.01, 5.8
+color 57,65,65
+rotate 0,0,1,-55
+translate 2.6,6.9,-100
+[meshbuilder] ; Tirante  sinistro lungo
+cylinder 3, 0.01, 0.01, 8.8
+color 57,65,65
+rotate 0,0,1,-68
+translate 0.8,6.9,-100
+[meshbuilder] ; Zampa di ragno sin inizio tronchino
+vertex  -1.3, 6.55, 0 ; left
+vertex   0.3, 6.55, 0 ; left
+vertex   0.3, 5.15, 0 ; left
+vertex  -1.3, 5.15, 0 ; left
+face2 0,1,3,2
+translate 4.2,-0.8,-100
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0, 1.05, 0.1 
+coordinates 1, -0.05, 0.1 
+coordinates 2, 0.0, 0.89
+coordinates 3, 1.0, 0.89
+[meshbuilder] ; Zampa di ragno binario 1
+vertex  -1.3, 6.55, 0 ; left
+vertex   0.3, 6.55, 0 ; left
+vertex   0.3, 5.15, 0 ; left
+vertex  -1.3, 5.15, 0 ; left
+face2 0,1,3,2
+translate -3.8,-0.8,-100
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0, 1.05, 0.1 
+coordinates 1, -0.05, 0.1 
+coordinates 2, 0.0, 0.89
+coordinates 3, 1.0, 0.89
+[meshbuilder] ; Zampa di ragno sin binario 2
+vertex  -1.3, 6.55, 0 ; left
+vertex   0.3, 6.55, 0 ; left
+vertex   0.3, 5.15, 0 ; left
+vertex  -1.3, 5.15, 0 ; left
+face2 0,1,3,2
+translate 0,-0.8,-100
+[texture]
+load Zampa.bmp
+transparent 0,0,255
+coordinates 0, 1.05, 0.1 
+coordinates 1, -0.05, 0.1 
+coordinates 2, 0.0, 0.89
+coordinates 3, 1.0, 0.89
+
+[meshbuilder] ; Conduttore binario 1 lato officina
+cube 0.02,0.005,13.0
+rotate 0,1,0,-5.1
+translate -2.63,4.7,-113.1
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -3.35,5.1,-105
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -2.90,5.1,-110
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -2.45,5.1,-115
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate -2.02,5.1,-120
+color 0,0,0
+[meshbuilder] ; Fune portante a binario 1
+cube 0.01,0.005,13.0
+rotate 0,1,0,-5.1
+translate -2.63,5.52,-113.1
+color 0,0,0
+
+[meshbuilder] ; Conduttore binario 2 lato officina
+cube 0.02,0.005,12.5
+rotate 0,1,0,-5.1
+translate 1.1,4.7,-112.5
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate 0.50,5.1,-106
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate 0.89,5.1,-110
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate 1.32,5.1,-115
+color 0,0,0
+[meshbuilder] ; pendino
+cube 0.01,0.4,0.004
+translate 1.78,5.1,-120
+color 0,0,0
+[meshbuilder] ; Fune portante a binario 1
+cube 0.01,0.005,12.5
+rotate 0,1,0,-5.1
+translate 1.1,5.52,-112.5
+color 0,0,0
+
+[meshbuilder]  ; Tratto marciapiede lato destro
+vertex 0.2 , 0.1 , 3.1
+vertex 0 , 0.1 ,-10.1
+vertex 0 ,-0.3 ,-10.1
+vertex 0.2 ,-0.3 , 3.1
+vertex 3.9 , 0.1 , 3.1
+vertex 1.9 , 0.1 ,-10.1
+vertex 3.9, 2.5 , 3.1
+vertex 1.9, 2.5 ,-10.1
+face 0,1,2,3
+face 0,4,5,1
+face2 6,7,5,4
+[texture]
+load ..\Marciapiede1.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 1
+coordinates 2, 0.0, 1
+coordinates 3, 0.0, 0
+coordinates 4, 0.5, 0
+coordinates 5, 0.5, 1
+coordinates 6, 1, 0
+coordinates 7, 1, 1
+transparent 0,0,255
+rotate 0,1,0,-4
+rotate 1,0,0, 1.4
+translate 1.5,-0.25,-102.3
+
+[meshbuilder]  ; Tratto marciapiede lato destro
+vertex 0 , 0.1 , 0.1
+vertex 0 , 0.1 ,-10.1
+vertex 0 ,-0.3 ,-10.1
+vertex 0 ,-0.3 , 0.1
+vertex 1.9 , 0.1 , 0.1
+vertex 1.5 , 0.1 ,-10.1
+vertex 1.9, 2.5 , 0.1
+vertex 1.5, 2.5 ,-10.1
+face 0,1,2,3
+face 0,4,5,1
+face2 6,7,5,4
+[texture]
+load ..\Marciapiede1.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 1
+coordinates 2, 0.0, 1
+coordinates 3, 0.0, 0
+coordinates 4, 0.5, 0
+coordinates 5, 0.5, 1
+coordinates 6, 1, 0
+coordinates 7, 1, 1
+transparent 0,0,255
+rotate 0,1,0,-7
+translate 2.2,0,-112.2
+
+[meshbuilder]  ; Tratto ringhiera lato destro
+vertex 0.6 , 1.2 , 0.1
+vertex 0 , 1.2 ,-10.1
+vertex 0 , 0.1 ,-10.1
+vertex 0.6 , 0.1 , 0.1
+face 0,1,2,3
+[texture]
+load RighieraVerde.bmp
+coordinates 0, 0, 0
+coordinates 1, 7, 0
+coordinates 2, 7, 1
+coordinates 3, 0, 1
+transparent 0,0,255
+rotate 0,1,0,-7
+translate 3.6,0,-112.2
+
+[meshbuilder]  ; Tratto marciapiede lato destro
+vertex 0 , 0.1 , 0.1
+vertex 0 , 0.1 ,-7.6
+vertex 0 ,-0.3 ,-7.6
+vertex 0 ,-0.3 , 0.1
+vertex 1.5 , 0.1 , 0.1
+vertex 1.5 , 0.1 ,-7.6
+vertex 1.5, 2.5 , 0.1
+vertex 1.5, 2.5 ,-7.6
+face 0,1,2,3
+face 0,4,5,1
+face2 6,7,5,4
+[texture]
+load ..\Marciapiede1.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 1
+coordinates 2, 0.0, 1
+coordinates 3, 0.0, 0
+coordinates 4, 0.5, 0
+coordinates 5, 0.5, 1
+coordinates 6, 1, 0
+coordinates 7, 1, 1
+transparent 0,0,255
+rotate 0,1,0,-15
+translate 3.45,0,-122.3
+
+[meshbuilder]  ; Tratto ringhiera lato destro
+vertex 0 , 1.2 , 0.1
+vertex 0 , 1.2 ,-7.6
+vertex 0 , 0.1 ,-7.6
+vertex 0 , 0.1 , 0.1
+face 0,1,2,3
+[texture]
+load RighieraVerde.bmp
+coordinates 0, 0, 0
+coordinates 1, 5, 0
+coordinates 2, 5, 1
+coordinates 3, 0, 1
+transparent 0,0,255
+rotate 0,1,0,-15
+translate 4.85,0,-122.3
+
+[meshbuilder]  ; Tratto marciapiede lato destro
+vertex 0 , 0.1 , 0.1
+vertex 0 , 0.1 ,-7.6
+vertex 0 ,-0.3 ,-7.6
+vertex 0 ,-0.3 , 0.1
+vertex 1.5 , 0.1 , 0.1
+vertex 1.5 , 0.1 ,-7.6
+vertex 1.5, 2.5 , 0.1
+vertex 1.5, 2.5 ,-7.6
+face 0,1,2,3
+face 0,4,5,1
+face2 6,7,5,4
+[texture]
+load ..\Marciapiede1.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 1
+coordinates 2, 0.0, 1
+coordinates 3, 0.0, 0
+coordinates 4, 0.5, 0
+coordinates 5, 0.5, 1
+coordinates 6, 1, 0
+coordinates 7, 1, 1
+transparent 0,0,255
+rotate 0,1,0,-23
+translate 5.45,0,-129.7
+
+[meshbuilder]  ; Tratto ringhiera lato destro
+vertex 0 , 1.2 , 0.1
+vertex 0 , 1.2 ,-7.6
+vertex 0 , 0.1 ,-7.6
+vertex 0 , 0.1 , 0.1
+face 0,1,2,3
+[texture]
+load RighieraVerde.bmp
+coordinates 0, 0, 0
+coordinates 1, 5, 0
+coordinates 2, 5, 1
+coordinates 3, 0, 1
+transparent 0,0,255
+rotate 0,1,0,-23
+translate 6.85,0,-129.7
+
+[meshbuilder]  ; Tratto marciapiede lato destro
+vertex 0 , 0.1 , 0.1
+vertex 0 , 0.1 ,-5.6
+vertex 0 ,-0.3 ,-5.6
+vertex 0 ,-0.3 , 0.1
+vertex 1.5 , 0.1 , 0.1
+vertex 1.5 , 0.1 ,-5.6
+vertex 1.5, 2.5 , 0.1
+vertex 1.5, 2.5 ,-5.6
+face 0,1,2,3
+face 0,4,5,1
+face2 6,7,5,4
+[texture]
+load ..\Marciapiede1.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 1
+coordinates 2, 0.0, 1
+coordinates 3, 0.0, 0
+coordinates 4, 0.5, 0
+coordinates 5, 0.5, 1
+coordinates 6, 1, 0
+coordinates 7, 1, 1
+transparent 0,0,255
+rotate 0,1,0,-31
+translate 8.07,0,-136.0
+
+[meshbuilder]  ; Tratto ringhiera lato destro
+vertex 0 , 1.2 , 0.1
+vertex 0 , 1.2 ,-5.6
+vertex 0 , 0.1 ,-5.6
+vertex 0 , 0.1 , 0.1
+face 0,1,2,3
+[texture]
+load RighieraVerde.bmp
+coordinates 0, 0, 0
+coordinates 1, 4, 0
+coordinates 2, 4, 1
+coordinates 3, 0, 1
+transparent 0,0,255
+rotate 0,1,0,-31
+translate 9.47,0,-136.0
+
+[meshbuilder]  ; Tratto marciapiede lato destro
+vertex 0 , 0.1 , 0.1
+vertex 0 , 0.1 ,-10.1
+vertex 0 ,-0.3 ,-10.1
+vertex 0 ,-0.3 , 0.1
+vertex 1.5 , 0.1 , 0.1
+vertex 1.5 , 0.1 ,-10.1
+vertex 1.5, 2.5 , 0.1
+vertex 1.5, 2 ,-10.1
+face 0,1,2,3
+face 0,4,5,1
+face2 6,7,5,4
+[texture]
+load ..\Marciapiede1.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 1
+coordinates 2, 0.0, 1
+coordinates 3, 0.0, 0
+coordinates 4, 0.5, 0
+coordinates 5, 0.5, 1
+coordinates 6, 1, 0
+coordinates 7, 1, 1
+transparent 0,0,255
+rotate 0,1,0,-36
+translate 10.9,0,-140.7
+
+[meshbuilder]  ; Tratto ringhiera lato destro
+vertex 0 , 1.2 , 0.1
+vertex 0 , 1.2 ,-10.1
+vertex 0 , 0.1 ,-10.1
+vertex 0 , 0.1 , 0.1
+face 0,1,2,3
+[texture]
+load RighieraVerde.bmp
+coordinates 0, 0, 0
+coordinates 1, 7, 0
+coordinates 2, 7, 1
+coordinates 3, 0, 1
+transparent 0,0,255
+rotate 0,1,0,-36
+translate 12.3,0,-140.7
+
+
+
+
+[meshbuilder] ; Albero 
+vertex -3.5 , 9 , 0
+vertex 3.5 ,  9 , 0 
+vertex 3.5 , 0 , 0
+vertex -3.5, 0 , 0
+face 0,1,2,3
+load ..\Alberi\Pini-maritt.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,30
+translate 8.3,-0.5,-100
+
+[meshbuilder] ; Albero 
+vertex -3.5 , 8 , 0
+vertex 3.5 ,  8 , 0 
+vertex 3.5 , 0 , 0
+vertex -3.5, 0 , 0
+face 0,1,2,3
+load ..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,30
+translate 7,0,-123
+
+[meshbuilder] ; Albero 
+vertex -4 , 9 , 0
+vertex 4 ,  9 , 0 
+vertex 4 , 0 , 0
+vertex -4, 0 , 0
+face 0,1,2,3
+load ..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,20
+translate 11,0,-136
+
+[meshbuilder] ; Albero 
+vertex -4 , 6 , 0
+vertex 4 ,  6 , 0 
+vertex 4 , 0 , 0
+vertex -4, 0 , 0
+face 0,1,2,3
+load ..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,10
+translate 20,0,-148
+
+[meshbuilder] ; Albero 
+vertex -4 , 12 , 0
+vertex 4 ,  12 , 0 
+vertex 4 , 0 , 0
+vertex -4, 0 , 0
+face 0,1,2,3
+load ..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,10
+translate 32,0,-162
+
+[meshbuilder] ; Albero 
+vertex -3.5 , 10 , 0
+vertex 3.5 ,  10 , 0 
+vertex 3.5 , 0 , 0
+vertex -3.5, 0 , 0
+face 0,1,2,3
+load ..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,0
+translate 43,0,-170

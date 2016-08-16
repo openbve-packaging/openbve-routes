@@ -1,0 +1,25 @@
+[MeshBuilder]
+Vertex -300,-5,-12
+Vertex -300, 8,-12
+Vertex  -13, 8,0
+Vertex  -13,-5,0
+Face 0,1,2,3
+[Texture]
+Load ..\terep\terep_020.bmp
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,5
+Coordinates 3,0,5
+
+[MeshBuilder]
+Vertex  10,-5,-12
+Vertex  10, 8,-12
+Vertex 300, 8,0
+Vertex 300,-5,0
+Face 0,1,2,3
+[Texture]
+Load ..\terep\terep_020.bmp
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,5
+Coordinates 3,0,5

@@ -1,0 +1,66 @@
+;colonna
+;lato 
+[MeshBuilder]
+Vertex 2,-2,15
+Vertex 2,8,15
+Vertex 2,8,13
+Vertex 2,-2,13
+Face 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+;fronte
+[MeshBuilder]
+Vertex 2, -2,13
+Vertex 2, 8,13
+Vertex 4, 8,13
+Vertex 4, -2,13
+Face 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+
+;muretto
+;lato 
+[MeshBuilder]
+Vertex 2.8,-2,25.5
+Vertex 2.8,2,25.5
+Vertex 2.8,2,0
+Vertex 2.8,-2,0
+Face 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+;fronte
+[MeshBuilder]
+Vertex 2.8, -2,0
+Vertex 2.8, 2,0
+Vertex 3.2, 2,0
+Vertex 3.2, -2,0
+Face 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+;sopra
+[MeshBuilder]
+Vertex 2.8, -2,25.5
+Vertex 3.2, 2,25.5
+Vertex 3.2, 2,0
+Vertex 2.8, -2,0
+Face 0,1,2,3
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Color 48,48,32
+
+
+

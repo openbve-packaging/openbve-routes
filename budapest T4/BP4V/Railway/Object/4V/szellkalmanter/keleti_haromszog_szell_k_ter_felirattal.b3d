@@ -1,0 +1,161 @@
+
+
+
+;felirat
+
+[MeshBuilder];elöl
+Vertex 3.34,1.15,6
+Vertex 3.34,0.4,6
+Vertex 0.295,0.4,0.5
+Vertex 0.295,1.15,0.5
+Face2 0,1,2,3
+[Texture]
+Load szellkalmanter.png
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+
+
+
+
+;TETEJE
+
+
+[MeshBuilder];elöl
+Vertex 0,0.75,32.75
+Vertex 8.85,0.85,16
+Vertex 0,1.35,0
+Face 0,1,2
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,0.3
+Coordinates 2,0,0
+
+[MeshBuilder];hátul
+Vertex 0,0.75,32.75
+Vertex 8.85,0.85,16
+Vertex 0.5,0.1,53.3
+Vertex -1.8,0.1,54.7
+Face 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+
+;FŰ
+
+[MeshBuilder];elöl
+Vertex 0.1,0.75,32.75
+Vertex 8.75,0.86,16
+Vertex 0.1,1.35,0.5
+Face 0,1,2
+[Texture]
+Load Grass0052_1_S.jpg
+Coordinates 0,4,0
+Coordinates 1,2,2
+Coordinates 2,0,0
+
+[MeshBuilder];hátul
+Vertex 0.1,0.75,32.75
+Vertex 8.75,0.86,16
+Vertex 0.4,0.11,53.2
+Vertex -1.7,0.11,54.5
+Face 3,2,1,0
+[Texture]
+Load Grass0052_1_S.jpg
+Coordinates 0,2,0
+Coordinates 1,2,4
+Coordinates 2,-0.2,2
+Coordinates 3,0.2,0
+
+
+
+
+
+
+;JOBB OLDAL
+
+[MeshBuilder];elöl
+Vertex 8.85,0.85,16
+Vertex 8.85,0,16
+Vertex 0,0,0
+Vertex 0,1.35,0
+Face2 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+[MeshBuilder];HÁTUL
+Vertex 8.85,0.85,16
+Vertex 8.85,0,16
+Vertex 0.5,0,53.3
+Vertex 0.5,0.1,53.3
+Face2 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+
+
+
+
+
+;BAL OLDAL
+
+
+[MeshBuilder];elöl
+Vertex 0,0.75,32.75
+Vertex 0,0,32.75
+Vertex 0,0,0
+Vertex 0,1.35,0
+Face2 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,5,0
+Coordinates 1,5,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+[MeshBuilder];hátul
+Vertex 0,0.75,32.75
+Vertex 0,0,32.75
+Vertex -1.8,0,54.7
+Vertex -1.8,0.1,54.7
+Face2 0,1,2,3
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+
+[MeshBuilder];hátul összekötő
+Vertex 0.5,0.1,53.3
+Vertex 0.5,0,53.3
+Vertex -1.8,0,54.7
+Vertex -1.8,0.1,54.7
+Face2 3,2,1,0
+[Texture]
+Load ConcreteNew0008_1_S.jpg
+Coordinates 0,3,0
+Coordinates 1,3,0.3
+Coordinates 2,0,0.3
+Coordinates 3,0,0
+
+
+
+

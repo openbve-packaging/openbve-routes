@@ -1,0 +1,83 @@
+
+;ñ{èF
+CreateMeshBuilder
+AddVertex,0, 0.5, 0
+AddVertex,-10, 0.5, 0
+AddVertex,-10, 0.5, 38
+AddVertex,0, 0.5, 38
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture, river.bmp
+SetTextureCoordinates, 1, 0, 1
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 1, 0
+SetTextureCoordinates, 0, 1, 1
+
+;ç∂ä›
+CreateMeshBuilder
+AddVertex,-9, 2, 0
+AddVertex,-12, 2, 0
+AddVertex,-12,2, 38
+AddVertex,-9, 2, 38
+AddVertex,-13, 0, 0
+AddVertex,-13,0, 38
+AddFace,0,1,2,3
+AddFace,4,5,2,1
+GenerateNormals
+LoadTexture, Grass.bmp
+SetTextureCoordinates, 1, 0, 1
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 1, 0
+SetTextureCoordinates, 0, 1, 1
+SetTextureCoordinates, 4, -1, 0
+SetTextureCoordinates, 5, -1, 1
+
+
+CreateMeshBuilder
+AddVertex,-9, 2, 0
+AddVertex,-9, 2, 38
+AddVertex,-8, -1, 38
+AddVertex,-8,-1, 0
+AddFace,0,1,2,3
+
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 1, 0, -1
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, -1, 0
+SetTextureCoordinates, 0, -1, -1
+
+;âEä›
+CreateMeshBuilder
+AddVertex,-1, 2, 0
+AddVertex,2, 2, 0
+AddVertex,2,2, 38
+AddVertex,-1, 2, 38
+AddVertex,3, -1, 0
+AddVertex,3,-1, 38
+AddFace,3,2,1,0
+AddFace,1,2,5,4
+GenerateNormals
+LoadTexture, Grass.bmp
+SetTextureCoordinates, 1, 0, 1
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 1, 0
+SetTextureCoordinates, 0, 1, 1
+SetTextureCoordinates, 4, -1, 0
+SetTextureCoordinates, 5, -1, 1
+
+
+CreateMeshBuilder
+AddVertex,-1, 2, 0
+AddVertex,-1, 2, 38
+AddVertex,-2, -1, 38
+AddVertex,-2,-1, 0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 1, 0, -1
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, -1, 0
+SetTextureCoordinates, 0, -1, -1
+
+

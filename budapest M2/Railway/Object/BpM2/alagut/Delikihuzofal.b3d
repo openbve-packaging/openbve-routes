@@ -1,0 +1,73 @@
+[MeshBuilder]
+vertex 7.60,4.15,0
+vertex -7.828,4.150,0;1
+vertex -7.071,4.030,0;2
+vertex -6.388,3.682,0;3
+vertex -5.846,3.140,0;4
+vertex -5.498,2.457,0;5
+vertex -5.378,1.700,0;6
+vertex -5.498,0.943,0;7
+vertex -5.846,0.26,0;8
+vertex -6.222,-0.17,0;9
+vertex -7.578,-0.40,0;10
+;LHS Depth
+vertex 7.60,4.150,0;11
+vertex 0.0,4.150,0;12
+vertex -0.757,4.030,0;13
+vertex -1.440,3.682,0;14
+vertex -1.982,3.140,0;15
+vertex -2.330,2.457,0;16
+vertex -2.450,1.700,0;17
+vertex -2.330,0.943,0;18
+vertex -1.982,0.26,0;19
+vertex -1.606,-0.17,0;20
+vertex -0.250,-0.40,0;21
+face 0,11,12,1
+face 1,12,13,2
+face 2,13,14,3
+face 3,14,15,4
+face 4,15,16,5
+face 5,16,17,6
+face 6,17,18,7
+face 7,18,19,8
+face 8,19,20,9
+face 9,20,21,10
+Load melyteto.bmp
+coordinates 0,0,0
+coordinates 1,0,0.05
+coordinates 2,0,0.10
+coordinates 3,0,0.17
+coordinates 4,0,0.24
+coordinates 5,0,0.29
+coordinates 6,0,0.43
+coordinates 7,0,0.61
+coordinates 8,0,0.83
+coordinates 9,0,0.91
+coordinates 10,0,1.00
+coordinates 11,0,0
+coordinates 12,0.4,0.05
+coordinates 13,0.4,0.10
+coordinates 14,0.4,0.17
+coordinates 15,0.4,0.24
+coordinates 16,0.4,0.29
+coordinates 17,0.4,0.43
+coordinates 18,0.4,0.61
+coordinates 19,0.4,0.83
+coordinates 20,0.4,0.91
+coordinates 21,0.4,1.00
+
+;--------------------------------------
+
+;vasbeton pályalemez
+[meshbuilder]
+vertex -4.20, -00.17, -07.00
+vertex -2.50, -00.17, -07.00
+vertex -2.50, -00.17, 00.00
+vertex -5.20, -00.17, 00.00
+face 3,2,1,0
+[texture]
+load ..\sin\aljzat_151.bmp
+coordinates 0, 0, 5
+coordinates 1, 0.25, 5
+coordinates 2, 0.25, 0
+coordinates 3, 0, 0

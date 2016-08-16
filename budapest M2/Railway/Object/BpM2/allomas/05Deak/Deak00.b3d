@@ -1,0 +1,225 @@
+;Deák tér állomás peron és tetõ
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;perontetõ
+[MeshBuilder]
+Vertex -20.25,1.1,0
+Vertex -20.25,1.1,25
+Vertex -2.37,1.1,25
+Vertex -2.37,1.1,0
+Face 0,1,2,3
+[Texture]
+Load deak_peronteto_1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,30
+Coordinates 2,8,30
+Coordinates 3,8,0
+;sáv
+[MeshBuilder]
+Vertex -1.45,1.1,0
+Vertex -1.45,1.1,25
+Vertex -2.25,1.1,25
+Vertex -2.25,1.1,0
+Face 3,2,1,0
+[Texture]
+Load deak_peron_sav.bmp
+Coordinates 0,0,600
+Coordinates 1,0,0
+Coordinates 2,24,0
+Coordinates 3,24,600
+
+[MeshBuilder]
+Vertex -2.245,1.1,0
+Vertex -2.245,1.1,25
+Vertex -2.375,1.1,25
+Vertex -2.375,1.1,0
+Face 3,2,1,0
+[Texture]
+Load deak_peronteto_2.bmp
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,30
+
+[MeshBuilder]
+Vertex -1.7,-0.3,0
+Vertex -1.7,-0.3,25
+Vertex -1.7,1.09,25
+Vertex -1.7,1.09,0
+Face 3,2,1,0
+[Texture]
+Load deak_peron_oldal.bmp
+Coordinates 0,12,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,12,0
+
+;oldalszéle
+[MeshBuilder]
+Vertex -1.45,1.1,0
+Vertex -1.45,1.1,25
+Vertex -1.45,.9,25
+Vertex -1.45,.9,0
+Face 0,1,2,3
+color 64,64,64
+
+;--------------------------------------------------
+
+;Tetõ
+
+[MeshBuilder]
+vertex -4.364,4.0,00
+vertex -4.364,4.0,25
+vertex -4.150,4.0,25
+vertex -4.150,4.0,00
+face 3,2,1,0
+color 96,96,96
+
+;bal tetõ
+[MeshBuilder]
+vertex -2.750,5.437,00.00
+vertex -2.750,5.070,00.00
+vertex -3.280,4.801,00.00
+vertex -3.752,4.441,00.00
+vertex -4.150,4.000,00.00
+vertex -2.750,5.437,25.00
+vertex -2.750,5.070,25.00
+vertex -3.280,4.801,25.00
+vertex -3.752,4.441,25.00
+vertex -4.150,4.000,25.00
+Face 0,5,6,1
+Face 1,6,7,2
+Face 2,7,8,3
+Face 3,8,9,4
+Load deak_teto_01.bmp
+coordinates 0,00,0.00
+coordinates 1,00,0.25
+coordinates 2,00,0.50
+coordinates 3,00,0.75
+coordinates 4,00,1.00
+coordinates 5,10,0.00
+coordinates 6,10,0.25
+coordinates 7,10,0.50
+coordinates 8,10,0.75
+coordinates 9,10,1.00
+
+;jobb tetõ
+[MeshBuilder]
+vertex  1.655,3.675,00.00
+vertex  1.060,4.519,00.00
+vertex  0.250,5.160,00.00
+vertex -0.709,5.544,00.00
+vertex -1.737,5.639,00.00
+vertex -2.750,5.437,00.00
+vertex  1.655,3.675,25.00
+vertex  1.060,4.519,25.00
+vertex  0.250,5.160,25.00
+vertex -0.709,5.544,25.00
+vertex -1.737,5.639,25.00
+vertex -2.750,5.437,25.00
+Face 00,06,07,01
+Face 01,07,08,02
+Face 02,08,09,03
+Face 03,09,10,04
+Face 04,10,11,05
+Load deak_teto_02.bmp
+coordinates 0,00,0.00
+coordinates 1,00,0.20
+coordinates 2,00,0.40
+coordinates 3,00,0.60
+coordinates 4,00,0.80
+coordinates 5,00,1.00
+coordinates 6,20,0.00
+coordinates 7,20,0.20
+coordinates 8,20,0.40
+coordinates 9,20,0.60
+coordinates 10,20,0.80
+coordinates 11,20,1.00
+
+;--------------------------------------------------
+
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,1.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,3.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,6.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,8.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,11.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,13.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,16.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,18.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,21.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.00,4.882,23.75
+color 96,96,96
+
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,1.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,3.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,6.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,8.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,11.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,13.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,16.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,18.75
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,21.25
+color 96,96,96
+[MeshBuilder]
+cube 0.02,0.85,0.02
+translate -2.60,4.882,23.75
+color 96,96,96

@@ -1,0 +1,20 @@
+﻿BKV IKARUS 415 - VISZONYLATJELZO TABLA CSEREJE
+
+A viszonylatjelzo tabla atirasahoz modosítsd a csomagban talalhato ik415_tabla.bmp fajlt.
+A kép felbontasan lehetoleg ne valtoztass, de mindenkepp maradjon 2 hatvanyok szorzata.
+A vetitett kep merete 90.5cm*21cm, ennek megfeleloen javaslom, hogy a tablat 181*42
+pixeles BMP fajlkent szerkeszd meg, es ugy "torzitsd" bele a 128*32-es felbontasba.
+
+Ez a Microsoft Paint-ben egyszeruen megoldhato. A "default" 16-os busz tabla szerkesztesehez
+az alabbiakat alkalmaztam:
+
+181*42 pixeles eredeti kep
+230;0;230 RGB osszetetelu szurke hatterszin
+Fekete Arial felkover 8-as betutipus a vegallomasoknak
+Feketa Arial Black felkover 20-as betutipus a szamnak
+
+>Mindet kijelol
+>Kijelolt kep jobb also sarkat felhuz 128*32 felbontasig
+>Ctrl+W
+>128*32 pixel felbontast beallit
+>elment "ik415_tabla.bmp" fajlba

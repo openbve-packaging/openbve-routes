@@ -1,0 +1,64 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;base
+CreateMeshBuilder
+cylinder, 3, 0.0650, 0.110, 8.7,
+translate, -4.1,3.8, ,    
+setcolor,135,135,120
+GenerateNormals,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder ; Mensola
+cylinder, 3, 0.05, 0.05, 4.9,
+rotate, 0,0,1,90
+translate, -1.6,6,
+setcolor,135,135,120
+GenerateNormals,
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder ; Tirante centro
+cylinder, 3, 0.02, 0.02, 3
+rotate, 0,0,1,75
+translate, -2.59,6.4,
+setcolor,135,135,120
+GenerateNormals,
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder ; Zampa di ragno destra
+Addvertex,  -1.55, 5.99, 0
+Addvertex,   0.15, 5.99, 0
+Addvertex,   0.15, 5, 0
+Addvertex,  -1.55, 5, 0
+Addface2, 0,1,2,3
+translate,-0.22
+GenerateNormals,
+loadtexture, mensola.bmp
+SetDecaltransparentColor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+
+
+
+CreateMeshBuilder ; sosp
+Addvertex,  -0.15, 6.7, 0
+Addvertex,   0.15, 6.7, 0
+Addvertex,   0.15, 6, 0
+Addvertex,  -0.15, 6, 0
+Addface2, 0,1,2,3
+translate,-0.22
+GenerateNormals,
+loadtexture, sosp.bmp
+SetDecaltransparentColor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1

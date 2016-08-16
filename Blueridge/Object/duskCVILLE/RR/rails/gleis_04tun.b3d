@@ -1,0 +1,75 @@
+[MeshBuilder]
+Vertex -1.35, -0.17, 0
+Vertex -1.35, -0.175, 25.5
+Vertex 1.35, -0.175, 25.5
+Vertex 1.35, -0.17, 0
+Face 0, 1, 2, 3
+Color 20,20,20
+[Texture]
+Load schwellen4.bmp
+Coordinates 0, -0.02, 10
+Coordinates 1, -0.02, 0
+Coordinates 2, 1.02, 0
+Coordinates 3, 1.02, 10
+
+[MeshBuilder]
+Vertex -2.8, -0.4, 0
+Vertex -2.8, -0.405, 25.5
+Vertex -1.35, -0.175, 25.5
+Vertex -1.35, -0.17, 0
+Face 0, 1, 2, 3
+Color 20,20,20
+[Texture]
+Load schotter4.bmp
+Coordinates 0, 0, 10
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 10
+
+[MeshBuilder]
+Vertex 1.35, -0.175, 25.5
+Vertex 2.8, -0.405, 25.5
+Vertex 2.8, -0.4, 0
+Vertex 1.35, -0.17, 0
+Face 0,1,2,3
+Color 20,20,20
+[Texture]
+Load schotter4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1,10
+Coordinates 3, 0,10
+
+[MeshBuilder]
+Vertex -0.8, .005, -0.4
+Vertex -0.8, .005, 24.6
+Vertex -0.72, .005, 24.6
+Vertex -0.72, .005, -0.4
+Face 0, 1, 2, 3
+Color 20,20,20
+[Meshbuilder]
+Vertex 0.72,.005, -0.3
+Vertex 0.72, .005, 24.75
+Vertex 0.8, .005, 24.75
+Vertex 0.8, .005, -0.3
+Face 0, 1, 2, 3
+Color 20,20,20
+[meshbuilder]
+vertex 0.76, 0, 25.3
+vertex 0.76, 0, -0.3
+vertex 0.76, -0.17, -0.3
+vertex 0.76, -0.17, 25.3
+face 0,1,2,3
+face 1,0,3,2
+Color 28,17,2
+
+[meshbuilder]
+vertex -0.76, 0, -0.3
+vertex -0.76, 0, 25.3
+vertex -0.76, -0.17, 25.3
+vertex -0.76, -0.17, -0.3
+face 0,1,2,3
+face 1,0,3,2
+Color 28,17,2
+
+;(c) 2001 Rüdiger Hülsmann

@@ -1,0 +1,57 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshBuilder
+AddVertex,14.2, -3, 0
+AddVertex,14.2, -3, 26
+AddVertex,14.2,6, 26
+AddVertex,14.2, 6, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../trees1.png
+SetTextureCoordinates,0, 1, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 1, 0
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,10,6,6
+AddVertex,10,-3,6
+AddVertex,14,-3,3
+AddVertex,14,6,3
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../tree2.png
+SetTextureCoordinates,0,00,0
+SetTextureCoordinates,1,00,1
+SetTextureCoordinates,2,01,1
+SetTextureCoordinates,3,01,0
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+Addvertex,5.2, 1.2, 0
+Addvertex,5.2, 1.2, 25.3
+Addvertex,5.2  ,3, 25.3
+Addvertex,5.2  ,3, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../bush1.png
+SetTextureCoordinates,0, 1,5
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 0, 5
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,5.7, 2.0, 0
+AddVertex,5.7, 2.0, 25.3
+AddVertex,5.7,4.0, 25.3
+AddVertex,5.7, 4.0, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../cables3.png
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 11, 1
+SetTextureCoordinates,2, 11, 0
+SetTextureCoordinates,3, 0, 0
+SetDecalTransparentColor,0,0,0
+

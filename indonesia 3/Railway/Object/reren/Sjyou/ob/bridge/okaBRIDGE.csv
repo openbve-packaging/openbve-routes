@@ -1,0 +1,219 @@
+CreateMeshBuilder,
+AddVertex,-600, -25, 10,
+AddVertex,600, -25, 10,
+AddVertex,600, -25, -300,
+AddVertex,-600, -25, -300,
+AddFace,0, 1, 2, 3,
+SetColor,52,52,30,158,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-600, -10, 10,
+AddVertex, 600, -10, 10,
+AddVertex,-600, -25, 0,
+AddVertex, 600, -25, 0,
+AddVertex,-600, -40, 10,
+AddVertex, 600, -40, 10,
+AddFace,0, 1, 3, 2,
+AddFace,2, 3, 5, 4,
+LoadTexture,../../LeveeS.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 20, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 20, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 20, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-600, -3.6, -300,
+AddVertex, 600, -3.6, -300,
+AddVertex,-600, -25, -290,
+AddVertex, 600, -25, -290,
+AddVertex,-600, -40, -300,
+AddVertex, 600, -40, -300,
+AddFace2,0, 1, 3, 2,
+AddFace2,2, 3, 5, 4,
+LoadTexture,../../LeveeS.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 20, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 20, 0,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 20, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.5, -1.0, 2.5
+AddVertex, 2.5, -1.0, 2.5
+AddVertex, 2.5, -1.0, -2.5
+AddVertex,-2.5, -1.0, -2.5
+AddVertex,-6.5,-35.0, 6.5
+AddVertex, 6.5,-35.0, 6.5
+AddVertex, 6.5,-35.0, -6.5
+AddVertex,-6.5,-35.0, -6.5
+AddFace,4,5,1,0,
+AddFace,5,6,2,1,
+AddFace,6,7,3,2,
+AddFace,7,4,0,3,
+LoadTexture,../../con2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 2, 0,
+SetTextureCoordinates,5, 2, 1,
+SetTextureCoordinates,6, 2, 0,
+SetTextureCoordinates,7, 2, 1,
+GenerateNormals,
+Translate,0,0,-75
+CreateMeshBuilder,
+AddVertex,-2.5, -1.0, 2.5
+AddVertex, 2.5, -1.0, 2.5
+AddVertex, 2.5, -1.0, -2.5
+AddVertex,-2.5, -1.0, -2.5
+AddVertex,-6.5,-35.0, 6.5
+AddVertex, 6.5,-35.0, 6.5
+AddVertex, 6.5,-35.0, -6.5
+AddVertex,-6.5,-35.0, -6.5
+AddFace,4,5,1,0,
+AddFace,5,6,2,1,
+AddFace,6,7,3,2,
+AddFace,7,4,0,3,
+LoadTexture,../../con2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 2, 0,
+SetTextureCoordinates,5, 2, 1,
+SetTextureCoordinates,6, 2, 0,
+SetTextureCoordinates,7, 2, 1,
+GenerateNormals,
+Translate,0,0,-150
+CreateMeshBuilder,
+AddVertex,-2.5, -1.0, 2.5
+AddVertex, 2.5, -1.0, 2.5
+AddVertex, 2.5, -1.0, -2.5
+AddVertex,-2.5, -1.0, -2.5
+AddVertex,-6.5,-35.0, 6.5
+AddVertex, 6.5,-35.0, 6.5
+AddVertex, 6.5,-35.0, -6.5
+AddVertex,-6.5,-35.0, -6.5
+AddFace,4,5,1,0,
+AddFace,5,6,2,1,
+AddFace,6,7,3,2,
+AddFace,7,4,0,3,
+LoadTexture,../../con2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 2, 0,
+SetTextureCoordinates,5, 2, 1,
+SetTextureCoordinates,6, 2, 0,
+SetTextureCoordinates,7, 2, 1,
+GenerateNormals,
+Translate,0,0,-225
+
+CreateMeshBuilder,,,,
+AddVertex,-600, 0.50, -310,
+AddVertex, 600, 0.50, -310,
+AddVertex, 600,-3.6, -300,
+AddVertex,-600,-3.6, -300,
+AddVertex,-600, 0.50, -315,
+AddVertex, 600, 0.50, -315,
+AddVertex,-600,-3.60, -317,
+AddVertex, 600,-3.60, -317,
+AddVertex,-600,-3.60, -327,
+AddVertex, 600,-3.60, -327,
+AddFace,3,2,1,0,
+AddFace,0,1,5,4,
+AddFace,4,5,7,6,
+AddFace,6,7,9,8,
+LoadTexture,../../con2.bmp,,,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 50, 0,
+SetTextureCoordinates,2, 50, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 50, 1,
+SetTextureCoordinates,6, 0, 0,
+SetTextureCoordinates,7, 50, 0
+SetTextureCoordinates,8, 0, 1,
+SetTextureCoordinates,9, 50, 1
+Setcolor,180,170,160,
+
+CreateMeshBuilder,
+AddVertex,-600, 0.50, -310,
+AddVertex, 600, 0.50, -310,
+AddVertex, 600, 1.80, -310,
+AddVertex,-600, 1.80, -310,
+AddFace2,0,1,2,3,
+LoadTexture,../../road\bridge_c.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 200, 1,
+SetTextureCoordinates,2, 200, 0,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder,
+AddVertex,-600,0.55, -310,
+AddVertex, 600,0.55, -310,
+AddVertex, 600,0.55, -315,
+AddVertex,-600,0.55, -315,
+AddFace2,0,1,2,3,
+LoadTexture,../../road\roadA.bmp
+SetTextureCoordinates,0, 0.45, 0,
+SetTextureCoordinates,1, 0.45, 200,
+SetTextureCoordinates,2, 0, 200,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder,,,,
+AddVertex,-600, 0.50, 24,
+AddVertex, 600, 0.50, 24,
+AddVertex, 600, 3.6, 25,
+AddVertex,-600, 3.6, 25,
+AddVertex,-600, 0.50, 20,
+AddVertex, 600, 0.50, 20,
+AddVertex,-600,-5.00, 10,
+AddVertex, 600,-5.00, 10,
+AddFace,3,2,1,0,
+AddFace,0,1,5,4,
+AddFace,4,5,7,6,
+LoadTexture,../../con2.bmp,,,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 50, 0,
+SetTextureCoordinates,2, 50, 1,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 50, 1,
+SetTextureCoordinates,6, 0, 0,
+SetTextureCoordinates,7, 50, 0
+Setcolor,180,170,160,
+Translate,0,-5,0,
+
+CreateMeshBuilder,
+AddVertex,-600, 0.50, 20,
+AddVertex, 600, 0.50, 20,
+AddVertex, 600, 1.90, 20,
+AddVertex,-600, 1.90, 20,
+AddFace2,0,1,2,3,
+LoadTexture,../../road\guardrail3.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 200, 1,
+SetTextureCoordinates,2, 200, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,255
+Translate,0,-5,0,
+CreateMeshBuilder,
+AddVertex,-600,0.50, 24,
+AddVertex, 600,0.50, 24,
+AddVertex, 600,0.50, 20,
+AddVertex,-600,0.50, 20,
+AddFace2,0,1,2,3,
+LoadTexture,../../road\roadA.bmp
+SetTextureCoordinates,0, 0.45, 0,
+SetTextureCoordinates,1, 0.45, 200,
+SetTextureCoordinates,2, 0, 200,
+SetTextureCoordinates,3, 0, 0,
+Translate,0,-4.9,0,

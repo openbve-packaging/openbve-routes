@@ -1,0 +1,53 @@
+CreateMeshBuilder,
+AddVertex,-2.5, -0.22, 60,  
+AddVertex,-1.9,    0, 60,
+AddVertex,1.9,    0, 60,
+AddVertex,2.5, -0.22, 60,
+AddVertex,2.5, -0.22, -20,
+AddVertex,1.9,    0, -20,
+AddVertex,-1.9,    0, -20,
+AddVertex,-2.5, -0.22, -20,
+
+AddFace,0, 1, 6, 7,
+AddFace,1, 2, 5, 6,
+AddFace,2, 3, 4, 5,
+GenerateNormals,
+
+LoadTexture,strada2.bmp,
+SetTextureCoordinates,0,   0, 0,
+SetTextureCoordinates,1, 0.2, 0,
+SetTextureCoordinates,2, 0.8, 0,
+SetTextureCoordinates,3,   1, 0,
+SetTextureCoordinates,4,   1, 2,
+SetTextureCoordinates,5, 0.8, 2,
+SetTextureCoordinates,6, 0.2, 2,
+SetTextureCoordinates,7,   0, 2,
+
+;; strada traverso
+
+CreateMeshBuilder,
+
+AddVertex,0.9, -0.22, 30,  
+AddVertex,0.9,    0, 30.6,
+AddVertex,0.9,    0, 33.4,
+AddVertex,0.9, -0.22, 34,
+AddVertex,50, -1.22, 34,
+AddVertex,50,    1, 33.4,
+AddVertex,50,    1, 30.6,
+AddVertex,50, -1.22, 30,
+
+AddFace2,0, 1, 6, 7,
+AddFace2,1, 2, 5, 6,
+AddFace2,2, 3, 4, 5,
+GenerateNormals,
+
+LoadTexture,strada2.bmp,
+
+SetTextureCoordinates,0,   0, 0,
+SetTextureCoordinates,1, 0.2, 0,
+SetTextureCoordinates,2, 0.8, 0,
+SetTextureCoordinates,3,   1, 0,
+SetTextureCoordinates,4,   1, 2,
+SetTextureCoordinates,5, 0.8, 2,
+SetTextureCoordinates,6, 0.2, 2,
+SetTextureCoordinates,7,   0, 2,

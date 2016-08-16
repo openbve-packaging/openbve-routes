@@ -1,0 +1,232 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Terreno in piano - per tratto diritto
+; monte a sinistra - valle a destra
+; transizione dal 40 al 20 per mille
+
+[MeshBuilder] ; 1o tratto - monte a sinistra
+vertex -14 , 4.2 ,-0.5 ;  alto inzio
+vertex -14 , 4.2 ,25.3 ; alto fine
+vertex -11 ,-0.2 ,25.3 ; basso fine *
+vertex -11 ,-0.2 ,-0.5  ;basso inizio *
+vertex -6 , -0.2 ,25.3 ; basso max fine
+vertex -6 , -0.2 ,-0.5  ;basso max inizio
+vertex -80,   30   ,30 ;alto max fine 
+vertex -80,   30   ,-5  ; alto max inizio
+vertex -0 ,-0.2 ,25.3 ; basso max fine
+vertex -0 ,-0.2 ,-0.5  ;basso max inizio
+Face 0,1,2,3
+Face 3,2,4,5
+Face 7,6,1,0
+Face 5,4,8,9
+translate 0,-0.20 ,0
+[texture]
+load Grass2.bmp
+coordinates 0, 0,   0
+coordinates 1, 1, 0
+coordinates 2, 1, 0.5
+coordinates 3, 0,   0.5
+coordinates 4, 1, 1
+coordinates 5, 0,   1
+coordinates 6, 1, 10
+coordinates 7, 0,   10
+coordinates 8, 1, -0.05
+coordinates 9, 0, -0.05
+
+[MeshBuilder] ; 1o tratto - valle a destra
+vertex 10.5 , -4.65 , -1.5 ;  alto inzio
+vertex 10.5 , -4.65 ,26 ; alto fine
+vertex 6.5 , -0.2 ,26 ; basso fine *
+vertex 6.5 , -0.2 ,-1.0  ;basso inizio *
+vertex 1.4 ,-0.2 ,25 ; basso max fine
+vertex 1.4 ,-0.2 ,-0.3  ;basso max inizio
+vertex 280,   -100   ,30 ;alto max fine 
+vertex 280,   -100   ,-10.5  ; alto max inizio
+Face2 0,1,2,3
+Face2 3,2,4,5
+Face2 7,6,1,0
+translate 0,-0.20 ,0
+[texture]
+load Grass2.bmp
+coordinates 0, 0,   0
+coordinates 1, 1, 0
+coordinates 2, 1, 0.5
+coordinates 3, 0,   0.5
+coordinates 4, 1, 1
+coordinates 5, 0,   1
+coordinates 6, 1, 30
+coordinates 7, 0,   30
+
+
+[MeshBuilder] ; Alberello sulla destra
+Vertex 0, 8, 0
+Vertex 5, 8, 0
+Vertex 5, 0, 0
+Vertex 0, 0, 0
+Face2 0,1,2,3
+Rotate 0,1,0,30
+Translate 4, -1.5 ,0
+[texture]
+load Alberi\Ontano04.bmp
+transparent 0,0,0
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+
+;Cespuglio lungo 25 metri
+[MeshBuilder]
+Vertex 0.5, 4.0, -2
+Vertex 0.5, 4.0,  25
+Vertex 0,   0  ,  25
+Vertex 0,   0  , -2
+Face2 0,1,2,3
+Rotate 0,1,0,0
+Translate 6.5,-0.5,0
+[texture]
+load Alberi\Cesp_01.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1.5, 0
+Coordinates 2, 1.5, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+
+
+;Cespuglio lungo 10 metri a destra
+[MeshBuilder]
+Vertex 0.5, 4.0, 0
+Vertex 0.5, 4.0,  10
+Vertex 0,   0  ,  10
+Vertex 0,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,-12
+Translate 5.5,-1,-2
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+;Cespuglio lungo 10 metri a destra
+[MeshBuilder]
+Vertex 0.5, 4.0, 0
+Vertex 0.5, 4.0,  10
+Vertex 0,   0  ,  10
+Vertex 0,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,-12
+Translate 5.5,-1,10
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+;Cespuglio lungo 10 metri a sinistra
+[MeshBuilder]
+Vertex 0.0, 4.0, 0
+Vertex 0.0, 4.0,  10
+Vertex 0.5,   0  ,  10
+Vertex 0.5,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,6
+Translate -10.5,-0.5,-2
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+;Cespuglio lungo 10 metri a sinistra
+[MeshBuilder]
+Vertex 0.0, 4.0, 0
+Vertex 0.0, 4.0,  10
+Vertex 0.5,   0  ,  10
+Vertex 0.5,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,6
+Translate -10.5,-0.5,10
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+;Cespuglio lungo 10 metri a sinistra
+[MeshBuilder]
+Vertex 0.0, 4.0, 0
+Vertex 0.0, 4.0,  10
+Vertex 0.5,   0  ,  10
+Vertex 0.5,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,4
+Translate -10.5,-0.5,18
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+
+;Cespuglio lungo 10 metri a sinistra in alto
+[MeshBuilder]
+Vertex 0.0, 4.0, 0
+Vertex 0.0, 4.0,  10
+Vertex 0.5,   0  ,  10
+Vertex 0.5,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,6
+Translate -14.0,2.5,0
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+;Cespuglio lungo 10 metri a sinistra in alto
+[MeshBuilder]
+Vertex 0.0, 4.0, 0
+Vertex 0.0, 4.0,  10
+Vertex 0.5,   0  ,  10
+Vertex 0.5,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,6
+Translate -14.0,2.5,12
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0
+
+;Cespuglio lungo 10 metri a sinistra in alto
+[MeshBuilder]
+Vertex 0.0, 4.0, 0
+Vertex 0.0, 4.0,  10
+Vertex 0.5,   0  ,  10
+Vertex 0.5,   0  , 0
+Face2 0,1,2,3
+Rotate 0,1,0,4
+Translate -14.0,2.5,20
+[texture]
+load Alberi\CespuglioC.bmp
+Coordinates 0, 0.3, 0
+Coordinates 1, 0.85, 0
+Coordinates 2, 0.85, 1
+Coordinates 3, 0.3, 1
+transparent 0,0,0

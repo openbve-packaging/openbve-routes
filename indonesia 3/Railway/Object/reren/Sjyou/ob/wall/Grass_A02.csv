@@ -1,0 +1,96 @@
+CreateMeshBuilder
+AddVertex,-55.0, 8.5, -0.2
+AddVertex,-15.0, 8.5, -0.2
+AddVertex,-10.0, 6.5, -0.2
+AddVertex,-12.0, 6.5, 5
+AddVertex,-15.0, 8.5, 5
+AddVertex,-55.0, 8.5, 5
+AddFace2,5,4,1,0,
+AddFace2,4,3,2,1,
+LoadTexture,../../ground5.bmp,
+SetTextureCoordinates,0,0,0.0,
+SetTextureCoordinates,1,0,3.0,
+SetTextureCoordinates,2,0,3.7,
+SetTextureCoordinates,3,0.4,3.7,
+SetTextureCoordinates,4,0.4,3.0,
+SetTextureCoordinates,5,0.4,0.0,
+
+CreateMeshBuilder
+AddVertex,-10.0, 6.5, -0.2
+AddVertex,-12.0, 6.5, 5
+AddVertex,-10.0, -3.9, 5
+AddVertex,-8.0, -3.9, -0.2
+AddFace,0,1,2,3,
+LoadTexture,../dike_A01.png
+SetTextureCoordinates,0,1.0,0.0,
+SetTextureCoordinates,1,1.0,0.4,
+SetTextureCoordinates,2,0.0,0.4,
+SetTextureCoordinates,3,0.0,0.0,
+
+
+CreateMeshBuilder
+AddVertex,-12.0, 6.5, 5
+AddVertex,-15.0, 8.5, 5
+AddVertex,-15.0, 8.5, 12
+AddVertex,-10.0, 6.5, 12
+AddVertex,-8.0, -3.9, 12
+AddVertex,-15.0, -3.9, 12
+AddVertex,-15.0, -3.9, 5
+AddVertex,-10.0, -3.9, 5
+AddFace,0,1,6,7,
+AddFace,1,2,5,6,
+AddFace,2,3,4,5,
+LoadTexture,../dike_A01.png
+SetTextureCoordinates,0,1.0,0.0,
+SetTextureCoordinates,1,1.0,0.5,
+SetTextureCoordinates,2,1.0,1.0,
+SetTextureCoordinates,3,1.0,1.5,
+SetTextureCoordinates,4,0.0,1.5,
+SetTextureCoordinates,5,0.0,1.0,
+SetTextureCoordinates,6,0.0,0.5,
+SetTextureCoordinates,7,0.0,0.0,
+
+
+CreateMeshBuilder
+AddVertex,-55.0, 8.5, 12
+AddVertex,-15.0, 8.5, 12
+AddVertex,-10.0, 6.5, 12
+AddVertex,-10.0, 6.5, 25.4
+AddVertex,-15.0, 8.5, 25.4
+AddVertex,-55.0, 8.5, 25.4
+AddFace2,5,4,1,0,
+AddFace2,4,3,2,1,
+LoadTexture,../../ground5.bmp,
+SetTextureCoordinates,0,0,0.0,
+SetTextureCoordinates,1,0,3.0,
+SetTextureCoordinates,2,0,3.7,
+SetTextureCoordinates,3,1.6,3.7,
+SetTextureCoordinates,4,1.6,3.0,
+SetTextureCoordinates,5,1.6,0.0,
+
+CreateMeshBuilder
+AddVertex,-10.0, 6.5, 12
+AddVertex,-10.0, 6.5, 25.4
+AddVertex,-8.0, -3.9, 25.4
+AddVertex,-8.0, -3.9, 12
+AddFace,0,1,2,3,
+LoadTexture,../dike_A01.png
+SetTextureCoordinates,0,1,0.0,
+SetTextureCoordinates,1,1.0,1.6,
+SetTextureCoordinates,2,0.0,1.6,
+SetTextureCoordinates,3,0,0.0,
+
+
+
+CreateMeshBuilder
+AddVertex,-15.5, 14.0, 3
+AddVertex,-15.5, 14.0, 22
+AddVertex,-15.5, 8.5, 22
+AddVertex,-15.5, 8.5, 3
+AddFace2,0,1,2,3,
+LoadTexture,../../Road\guardrail4.bmp
+SetTextureCoordinates,0,0,0.0,
+SetTextureCoordinates,1,0,2.0,
+SetTextureCoordinates,2,1,2.0,
+SetTextureCoordinates,3,1,0.0,
+SetDecalTransparentColor,0,0,255

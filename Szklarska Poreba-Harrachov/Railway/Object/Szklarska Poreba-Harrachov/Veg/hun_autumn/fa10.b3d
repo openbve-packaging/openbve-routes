@@ -1,0 +1,33 @@
+;-----------------------------------
+;---------------Fa------------------
+;-----------------------------------
+
+;fa
+
+[Meshbuilder]
+vertex  5,0, 2.5
+vertex -5,0, 2.5
+vertex -5,19,2.5
+vertex  5,19,2.5
+face2 0,1,2,3
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  8
+vertex 0,0, -3
+vertex 0,19,-3
+vertex 0,19, 8
+face2 0,1,2,3
+
+load fira.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,

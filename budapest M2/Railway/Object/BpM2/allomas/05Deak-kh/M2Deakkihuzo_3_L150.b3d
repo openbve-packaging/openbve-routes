@@ -1,0 +1,96 @@
+;Deák kihúzó peron, 150 méter bal ívben
+;Készítette: http://www.bvemetro.hu/
+
+[MeshBuilder]
+vertex 1.589,1.1,-0.162
+vertex 3.139,1.1,-0.162
+vertex 1.874,1.1,4.928
+vertex 3.474,1.1,4.928
+vertex 2.135,1.1,9.931
+vertex 3.635,1.1,9.931
+vertex 2.279,1.1,14.949
+vertex 3.629,1.1,14.949
+vertex 2.056,1.1,19.980
+vertex 3.456,1.1,19.980
+vertex 1.574,1.1,25.324
+vertex 3.124,1.1,25.324
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+face 8,9,7,6
+face 10,11,9,8
+[Texture]
+Load de_kihuzo_1.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,2
+Coordinates 3,1,2
+Coordinates 4,0,4
+Coordinates 5,1,4
+Coordinates 6,0,6
+Coordinates 7,1,6
+Coordinates 8,0,8
+Coordinates 9,1,8
+Coordinates 10,0,10
+Coordinates 11,1,10
+
+[MeshBuilder]
+vertex 1.589,0.9,-0.162
+vertex 1.589,1.1,-0.162
+vertex 1.874,0.9,4.928
+vertex 1.874,1.1,4.928
+vertex 2.135,0.9,9.931
+vertex 2.135,1.1,9.931
+vertex 2.279,0.9,14.949
+vertex 2.279,1.1,14.949
+vertex 2.056,0.9,19.980
+vertex 2.056,1.1,19.980
+vertex 1.574,0.9,25.324
+vertex 1.574,1.1,25.324
+vertex 3.139,0.9,-0.162
+vertex 3.139,1.1,-0.162
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+face 8,9,7,6
+face 10,11,9,8
+face 0,1,13,12
+color 36,36,36
+
+[MeshBuilder]
+vertex 1.739,-0.3,-0.162
+vertex 1.739, 0.9,-0.162
+vertex 2.024,-0.3,4.928
+vertex 2.024, 0.9,4.928
+vertex 2.285,-0.3,9.931
+vertex 2.285, 0.9,9.931
+vertex 2.429,-0.3,14.949
+vertex 2.429, 0.9,14.949
+vertex 2.206,-0.3,19.980
+vertex 2.206, 0.9,19.980
+vertex 1.724,-0.3,25.324
+vertex 1.724, 0.9,25.324
+vertex 3.139,-0.3,-0.162
+vertex 3.139, 0.9,-0.162
+face 2,3,1,0
+face 4,5,3,2
+face 6,7,5,4
+face 8,9,7,6
+face 10,11,9,8
+face 0,1,13,12
+[Texture]
+Load de_kihuzo_2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,2,1
+Coordinates 3,2,0
+Coordinates 4,4,1
+Coordinates 5,4,0
+Coordinates 6,6,1
+Coordinates 7,6,0
+Coordinates 8,8,1
+Coordinates 9,8,0
+Coordinates 10,10,1
+Coordinates 11,10,0
+Coordinates 12,1,1
+Coordinates 13,1,0

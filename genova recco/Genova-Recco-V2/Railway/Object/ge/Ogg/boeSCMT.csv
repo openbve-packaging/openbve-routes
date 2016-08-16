@@ -1,0 +1,120 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;;;;;;;;Boa 1
+
+
+;;laterale
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.4,
+AddVertex,0, 0.08, 0.4,
+AddVertex,0, 0.08, ,
+Translate, -0.299,-0.179,-0.20,
+AddFace,0, 1, 2, 3,
+setcolor,180,170,120
+
+;;laterale
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.4,
+AddVertex,0, 0.08, 0.4,
+AddVertex,0, 0.08, ,
+Translate, 0.299,-0.179,-0.20,
+AddFace,3, 2, 1, 0,
+setcolor,180,170,120
+
+;;;avanti
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0.6, 0, 0,
+AddVertex,0.6, 0.08, 0,
+AddVertex,0, 0.08, ,
+Translate, -0.299,-0.179,-0.20,
+AddFace,3, 2, 1, 0,
+setcolor,180,170,120
+
+;;;dietro
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0.6, 0, 0,
+AddVertex,0.6, 0.08, 0,
+AddVertex,0, 0.08, ,
+Translate, -0.299,-0.179,0.20,
+AddFace,0, 1, 2, 3,
+setcolor,180,170,120
+
+;;parte superiore 
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.4,
+AddVertex,0.6, 0, 0.4,
+AddVertex,0.6, 0, ,
+Translate, -0.3,-0.099,-0.20,
+AddFace,0, 1, 2, 3,
+
+LoadTexture, boa.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+
+;;;;;;;;;;;Boa 2
+
+;;laterale
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.4,
+AddVertex,0, 0.08, 0.4,
+AddVertex,0, 0.08, ,
+Translate, -0.299,-0.179,2.8,
+AddFace,0, 1, 2, 3,
+setcolor,180,170,120
+
+;;laterale
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.4,
+AddVertex,0, 0.08, 0.4,
+AddVertex,0, 0.08, ,
+Translate, 0.299,-0.179,2.8,
+AddFace,3, 2, 1, 0,
+setcolor,180,170,120
+
+;;;avanti
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0.6, 0, 0,
+AddVertex,0.6, 0.08, 0,
+AddVertex,0, 0.08, ,
+Translate, -0.299,-0.179,2.8,
+AddFace,3, 2, 1, 0,
+setcolor,180,170,120
+
+;;;dietro
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0.6, 0, 0,
+AddVertex,0.6, 0.08, 0,
+AddVertex,0, 0.08, ,
+Translate, -0.299,-0.179,3.2,
+AddFace,0, 1, 2, 3,
+setcolor,180,170,120
+
+;;parte superiore 
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 0, 0.4,
+AddVertex,0.6, 0, 0.4,
+AddVertex,0.6, 0, ,
+Translate, -0.3,-0.099,2.8,
+AddFace,0, 1, 2, 3,
+
+LoadTexture, boa.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,

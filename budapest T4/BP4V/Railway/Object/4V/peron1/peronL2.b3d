@@ -1,0 +1,63 @@
+﻿; (c) pre-zli
+
+[Meshbuilder]
+Vertex -1.4, 0.3, 25
+Vertex -1.4, 0.3, -10
+Vertex -1.4, -0.3, -10
+Vertex -1.4, -0.3, 25
+Vertex -1.5, 0.3, 25
+Vertex -1.5, 0.3, -10
+Face 3, 2, 1, 0
+Face 1, 5, 4, 0
+[Texture]
+Load peronszel0.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 70, 1
+Coordinates 2, 70, 3
+Coordinates 3, 0, 3
+Coordinates 4, 0, 0
+Coordinates 5, 70, 0
+
+[Meshbuilder]
+Vertex -1.4, 0.3, -10
+Vertex -5, 0.3, -10
+Vertex -5, -0.3, -10
+Vertex -1.4, -0.3, -10
+Vertex -1.4, 0.3, -9.9
+Vertex -5, 0.3, -9.9
+Face 3, 2, 1, 0
+Face 0, 1, 5, 4
+[Texture]
+Load peronszel0.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 6, 1
+Coordinates 2, 6, 3
+Coordinates 3, 0, 3
+Coordinates 4, 0, 0
+Coordinates 5, 6, 0
+
+[Meshbuilder]
+Vertex -5, 0.3, 25
+Vertex -5, 0.3, -10
+Vertex -4.9, 0.3, -10
+Vertex -4.9, 0.3, 25
+Face 3, 2, 1, 0
+[Texture]
+Load peronszel0.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 70, 0
+Coordinates 2, 70, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex -1.5, 0.3, 25
+Vertex -4.9, 0.3, 25
+Vertex -4.9, 0.3, -9.9
+Vertex -1.5, 0.3, -9.9
+Face 3, 2, 1, 0
+[Texture]
+Load beton0.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 17
+Coordinates 3, 0, 17

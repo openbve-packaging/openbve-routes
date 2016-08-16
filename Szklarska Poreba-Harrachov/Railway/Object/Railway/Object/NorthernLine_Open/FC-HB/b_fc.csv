@@ -1,0 +1,78 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshBuilder,
+Addvertex,-3.0, 9, -20
+Addvertex,-2.5, 9, -25
+Addvertex,-2.5, -0.6, -25
+Addvertex,-3.0, -0.6, -20
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,b_fc4.png
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,1,1
+CreateMeshBuilder,;side main
+AddVertex,-8.2, -0.6, -25
+AddVertex,-8.2, 9, -25
+AddVertex,-2.5, 9, -25
+AddVertex,-2.5, -0.6, -25
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,b_fc3.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+CreateMeshBuilder,
+Addvertex,-1.8, 9, -20
+Addvertex,-2.8, 9, -10
+Addvertex,-2.8, -0.6, -10
+Addvertex,-1.8, -0.6, -20
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,b_fc4.png
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,0.5,1
+CreateMeshBuilder,
+AddVertex,-3, -0.6, -20
+AddVertex,-3, 9, -20
+AddVertex,-1.8, 9, -20
+AddVertex,-1.8, -0.6,-20
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,b_fc4.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0.9,0
+SetTextureCoordinates,3,0.9,1
+CreateMeshBuilder,
+AddVertex,-5,11,-26,
+AddVertex,-5,-0.5,-26
+AddVertex,-14,-0.5,-30
+AddVertex,-14,11,-30
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../tree2.png,
+SetTextureCoordinates,0,00,0,
+SetTextureCoordinates,1,00,1,
+SetTextureCoordinates,2,01,1,
+SetTextureCoordinates,3,01,0,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,0,3,-26,
+AddVertex,0,-0.5,-26
+AddVertex,-6,-0.5,-30
+AddVertex,-6,3,-30
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../tree2.png,
+SetTextureCoordinates,0,00,0,
+SetTextureCoordinates,1,00,1,
+SetTextureCoordinates,2,01,1,
+SetTextureCoordinates,3,01,0,
+SetDecalTransparentColor,0,0,0,

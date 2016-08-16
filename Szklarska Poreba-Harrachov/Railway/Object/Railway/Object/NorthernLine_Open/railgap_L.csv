@@ -1,0 +1,19 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (c) Steve Green
+
+CreateMeshBuilder,
+AddVertex,-1.63, 0.87, 0.5,
+AddVertex,-2.03, 0.87, 0.5,
+AddVertex,-2.03, 0.47, 0.5,
+AddVertex,-1.63, 0.47, 0.5,
+AddFace,3,2,1,0,
+SetColor,230,230,230,
+GenerateNormals,
+LoadTexture,railgap.png,
+SetTextureCoordinates,1, 0, -0.98,
+SetTextureCoordinates,0, 1, -0.98,
+SetTextureCoordinates,3, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetDecalTransparentColor,0,0,255,
+

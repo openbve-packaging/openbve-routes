@@ -1,0 +1,37 @@
+[meshbuilder]
+
+vertex -7.0,0.1,0.000
+vertex  7.0,0.1,0.000
+vertex  7.0,0.1,-25.5
+vertex -7.0,0.1,-25.5
+face2 0,1,2,3
+[texture]
+Load road02.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,0
+coordinates 3,0,0
+
+[meshbuilder]
+
+vertex -30.0,0.1,0.000
+vertex  -7.0,0.1,0.000
+vertex  -7.0,0.1,-25.5
+vertex -30.0,0.1,-25.5 
+
+vertex   7.0,0.1,0.000   
+vertex  30.0,0.1,0.000
+vertex  30.0,0.1,-25.5
+vertex   7.0,0.1,-25.5
+face 0,1,2,3
+face 4,5,6,7
+[texture]
+Load road01.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+coordinates 4,0,0
+coordinates 5,1,0
+coordinates 6,1,1
+coordinates 7,0,1   

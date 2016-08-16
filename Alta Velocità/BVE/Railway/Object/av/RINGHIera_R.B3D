@@ -1,0 +1,116 @@
+;----------------- ringhiera destra
+[MeshBuilder]
+Vertex 2,0.0,0
+Vertex 2,0.0,25.5
+Vertex 1.4,0.0,25.5
+Vertex 1.4,0.0,0
+Face 3,2,1,0
+translate 1.5,0,0,0
+color 41,135,49
+[MeshBuilder]
+Vertex 1.4,0.0,25.5
+Vertex 1.4,0.0,0
+Vertex 1.4,-0.5,0
+Vertex 1.4,-0.5,25.5
+Face 2,3,0,1
+translate 1.5,0,0,0
+color 41,135,49
+[MeshBuilder]
+Vertex 2,0.0,25.5
+Vertex 2,0.0,0
+Vertex 2,-0.5,0
+Vertex 2,-0.5,25.5
+Face2 1,0,3,2
+translate 1.5,0,0,0
+color 41,135,49
+
+[Meshbuilder]
+cylinder 6,0.05,0.05,25
+rotate 90,0,0,90
+translate 3.2,1.8,12.5
+color 41,135,49
+[Meshbuilder]
+cylinder 6,0.05,0.05,25
+rotate 90,0,0,90
+translate 3.2,1.4,12.5
+color 41,135,49
+[Meshbuilder]
+cylinder 6,0.05,0.05,25
+rotate 90,0,0,90
+translate 3.2,1.0,12.5
+color 41,135,49
+[Meshbuilder]
+cylinder 6,0.05,0.05,25
+rotate 90,0,0,90
+translate 3.2,0.6,12.5
+color 41,135,49
+
+[Meshbuilder]
+cylinder 6,0.07,0.07,2.25
+rotate 90,0,1,0
+translate 3.2,0.75,2.5
+color 41,135,49
+[Meshbuilder]
+cylinder 6,0.07,0.07,2.25
+rotate 90,0,1,0
+translate 3.2,0.75,7.5
+color 41,135,49
+[Meshbuilder]
+cylinder 6,0.07,0.07,2.25
+rotate 90,0,1,0
+translate 3.2,0.75,12.5
+color 41,135,49
+[Meshbuilder]
+cylinder 6,0.07,0.07,2.25
+rotate 90,0,1,0
+translate 3.2,0.75,17.5
+color 41,135,49
+[Meshbuilder]
+cylinder 6,0.07,0.07,2.25
+rotate 90,0,1,0
+translate 3.2,0.75,22.5
+color 41,135,49
+;-------------------------
+[MeshBuilder]
+Vertex  -3.5,  -1.5,25
+Vertex  -3.5, -0.5,25
+Vertex  -3.5, -0.5,-0.3
+Vertex  -3.5,  -1.5,-0.3
+Face 0,1,2,3
+color 192,192,192
+[MeshBuilder]
+Vertex  -2.5,  -2.5,25
+Vertex  -3.5, -1.5,25
+Vertex  -3.5, -1.5,-0.3
+Vertex  -2.5,  -2.5,-0.3
+Face 0,1,2,3
+color 192,192,192
+
+[MeshBuilder]
+Vertex  6.5,  -2.5,25
+Vertex  -2.5, -2.5,25
+Vertex  -2.5, -2.5,-0.3
+Vertex  6.5,  -2.5,-0.3
+Face 0,1,2,3
+color 192,192,192
+
+[MeshBuilder]
+Vertex  7.5,  -1.5,25
+Vertex  7.5, -0.5,25
+Vertex  7.5, -0.5,-0.3
+Vertex  7.5,  -1.5,-0.3
+Face 3,2,1,0
+color 192,192,192
+[MeshBuilder]
+Vertex   6.5,  -2.5,25
+Vertex   7.5,  -1.5,25
+Vertex   7.5,  -1.5,-0.3
+Vertex   6.5,  -2.5,-0.3
+Face 3,2,1,0
+color 192,192,192
+
+[Meshbuilder]
+cylinder  6,1,1,30
+rotate 90,0,1,0
+translate 2,-17,12
+color 192,192,192

@@ -1,0 +1,81 @@
+CreateMeshBuilder,
+AddVertex,-1.35, -0.17, -0.5,
+AddVertex,-1.35, -0.175, 25.5,
+AddVertex,1.35, -0.175, 25.5,
+AddVertex,1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,Schwellen2.bmp,
+SetTextureCoordinates,0, -0.02, 10,
+SetTextureCoordinates,1, -0.02, 0,
+SetTextureCoordinates,2, 1.02, 0,
+SetTextureCoordinates,3, 1.02, 10,
+
+;dike s
+
+CreateMeshBuilder,
+AddVertex,-2.8, -0.4, -0.5,
+AddVertex,-2.8, -0.405, 25.5,
+AddVertex,-1.35, -0.175, 25.5,
+AddVertex,-1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 0, 10,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 10,
+
+; dike d
+
+CreateMeshBuilder,
+AddVertex,1.35, -0.175, 25.5,
+AddVertex,2.8, -0.405, 25.5,
+AddVertex,2.8, -0.4, -0.5,
+AddVertex,1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 10,
+SetTextureCoordinates,3, 0, 10,
+
+
+;; tipo rotaie
+CreateMeshBuilder,
+AddVertex,-0.8, 0, -0.4,
+AddVertex,-0.8, 0, 25.5,
+AddVertex,-0.72, 0, 25.5,
+AddVertex,-0.72, 0, -0.4,
+AddFace,0, 1, 2, 3,
+SetColor,80, 50, 50,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.72, 0, -0.3,
+AddVertex,0.72, 0, 25.5,
+AddVertex,0.8, 0, 25.5,
+AddVertex,0.8, 0, -0.3,
+AddFace,0, 1, 2, 3,
+;SetColor,224, 224, 224,
+SetColor,80, 50, 50,
+
+GenerateNormals,
+
+CreateMeshBuilder ; Anime delle rotaie
+Addvertex, -0.76,0.00,-0.30
+Addvertex, -0.76,-0.17,-0.30
+Addvertex, -0.76,0.00,25.5
+Addvertex, -0.76,-0.17,25.5
+Addvertex, 0.76,0.00,-0.30
+Addvertex, 0.76,-0.17,-0.30
+Addvertex, 0.76,0.00,25.5
+Addvertex, 0.76,-0.17,25.5
+Addface2, 2, 3, 1, 0
+Addface2, 6, 7, 5 ,4
+Setcolor, 85,50,50

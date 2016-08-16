@@ -1,0 +1,39 @@
+; NSL object files
+; HHPSD component 
+; By and © Flip
+; You may freely implement this is any of your routes if you retain this header. 
+; For details and implementation details in your own route contact the NSL team. 
+
+CreateMeshBuilder,
+AddVertex,0,0,0
+AddVertex,0,2,0
+AddVertex,0,2,0.9
+AddVertex,0,0,0.9
+AddFace,0,3,2,1
+LoadTexture,psd_door.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,0.001,0,0
+AddVertex,0.001,1.47,0
+AddVertex,0.001,1.47,0.9
+AddVertex,0.001,0,0.9
+AddFace2,0,3,2,1
+SetColor,0,0,0,16
+
+CreateMeshBuilder,
+AddVertex,0.002,0,0
+AddVertex,0.002,2,0
+AddVertex,0.002,2,1.5
+AddVertex,0.002,0,1.5
+AddFace,1,2,3,0
+LoadTexture,psd_door_int.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,255

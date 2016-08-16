@@ -1,0 +1,155 @@
+
+CreateMeshBuilder
+AddVertex,-2.42, 8.0, -0.16
+AddVertex,-1.20, 8.0, -0.16
+AddVertex,-1.20, 8.0,  0.15
+AddVertex,-1.20, 7.35, 0.15
+AddVertex,-1.20, 7.35,-0.16
+AddVertex,-2.42, 7.35, -0.16,
+;;;;;;;;;;;;;;
+AddVertex, 20.20, 8.0,  0.15
+AddVertex, 20.20, 8.0, -0.16
+AddVertex, 21.42, 8.0, -0.16
+AddVertex, 21.42, 7.35,-0.16
+AddVertex, 20.20, 7.35,-0.16
+AddVertex, 20.20, 7.35, 0.15
+AddFace2,0,1,4,5
+AddFace2,1,2,3,4
+AddFace2,6,7,10,11
+AddFace2,7,8,9,10
+Setcolor,120,120,120
+GenerateNormals,
+Translate,0,-0.2,0
+
+;POLE_4LINE----------------------(No1)
+CreateMeshBuilder
+Cube, 0.2, 0.45, 0.3
+LoadTexture,../Wall\mopole1.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,1,1
+SetTextureCoordinates,2  ,1,0.65
+SetTextureCoordinates,3  ,0,0.65
+SetTextureCoordinates,4  ,0,0.65
+SetTextureCoordinates,5  ,1,0.65
+SetTextureCoordinates,6  ,1,1
+SetTextureCoordinates,7  ,0,1
+Translate, -2.3, -0.15, 0
+SetColor,240,234,232
+CreateMeshBuilder
+Cube, 0.2, 0.45, 0.3
+LoadTexture,../Wall\mopole1.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,1,1
+SetTextureCoordinates,2  ,1,0.65
+SetTextureCoordinates,3  ,0,0.65
+SetTextureCoordinates,4  ,0,0.65
+SetTextureCoordinates,5  ,1,0.65
+SetTextureCoordinates,6  ,1,1
+SetTextureCoordinates,7  ,0,1
+Translate, 21.3, -0.15, 0
+SetColor,240,234,232
+
+;POLE_4LINE(FRONT1)
+CreateMeshBuilder,
+AddVertex,-2.42, 8.8, -0.15
+AddVertex,-2.15, 8.8, -0.15
+AddVertex,-2.15,-0.2, -0.15
+AddVertex,-2.42,-0.2, -0.15
+AddFace2,0,1,2,3
+LoadTexture,../Pole/Topole4.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,14
+SetTextureCoordinates,3  ,0,14
+SetDecalTransparentColor,0,0,142,
+GenerateNormals,
+Translate, -0.0, 0, 0
+CreateMeshBuilder,
+AddVertex,-2.42,-0.2, 0.15,
+AddVertex,-2.42, 8.8, 0.15,
+AddVertex,-2.15, 8.8, 0.15,
+AddVertex,-2.15,-0.2, 0.15,
+AddFace2,0,1,2,3
+LoadTexture,../Pole/Topole4.bmp
+SetTextureCoordinates,0  ,0,14
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,-1,0
+SetTextureCoordinates,3  ,-1,14
+SetDecalTransparentColor,0,0,142,
+GenerateNormals,
+Translate, -0.0, 0, 0
+;POLE_4LINE(FRONT2)
+CreateMeshBuilder,
+AddVertex, 5.93, 8.8, -0.15
+AddVertex, 6.20, 8.8, -0.15
+AddVertex, 6.20,-0.2, -0.15
+AddVertex, 5.93,-0.2, -0.15
+AddFace2,0,1,2,3
+LoadTexture,../Pole/Topole4.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,14
+SetTextureCoordinates,3  ,0,14
+SetDecalTransparentColor,0,0,142,
+GenerateNormals,
+Translate,15.2, 0, 0
+CreateMeshBuilder,
+AddVertex, 5.93, 8.8,  0.15
+AddVertex, 6.20, 8.8,  0.15
+AddVertex, 6.20,-0.2,  0.15
+AddVertex, 5.93,-0.2,  0.15
+AddFace2,0,1,2,3
+LoadTexture,../Pole/Topole4.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,14
+SetTextureCoordinates,3  ,0,14
+SetDecalTransparentColor,0,0,142,
+GenerateNormals,
+Translate,15.2, 0, 0
+CreateMeshBuilder
+AddVertex,-2.4, 8.0, -0.1
+AddVertex, 21.4, 8.0, -0.1
+AddVertex, 21.4, 7.35, -0.1
+AddVertex,-2.4, 7.35, -0.1
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,../Pole/Topole4.bmp
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,1,22
+SetTextureCoordinates,2,0,22
+SetTextureCoordinates,3,0,0
+SetDecalTransparentColor, 0, 0, 142
+Translate, -0.0, -0.2, 0
+
+
+CreateMeshBuilder
+AddVertex, 9.0, 8.8, -0.1
+AddVertex, 12.0, 8.8, -0.1
+AddVertex, 12.0, 8.0, -0.1
+AddVertex, 9.0, 8.0, -0.1
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,../Pole/pole_d.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+Setcolor,200,200,220
+SetDecalTransparentColor, 0, 0, 255
+Translate, -0.7, -0.2, 0
+
+CreateMeshBuilder,
+AddVertex, 5.55, 6.25, 0
+AddVertex, 5.55, 8.0, 0
+AddVertex,-1.85, 8.0, 0
+AddVertex,-1.85, 6.25, 0
+AddFace2,3,2,1,0
+GenerateNormals
+LoadTexture,../Pole/poleA3.bmp
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor, 255, 0, 0
+Translate,8.0, -0.6, 0,

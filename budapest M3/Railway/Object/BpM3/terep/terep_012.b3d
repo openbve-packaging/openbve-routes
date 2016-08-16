@@ -1,0 +1,22 @@
+;terep_010
+[MeshBuilder]
+Vertex -20, -0.20, -1.00
+Vertex  20, -0.20, -1.00
+Vertex  20, -0.20, 26.00
+Vertex -20, -0.20, 26.00
+Vertex -20, -0.20, -1.00
+Vertex  20, -0.20, -1.00
+Vertex  20, -2.00, -10.00
+Vertex -20, -2.00, -10.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load terep_010.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 00.00, 20.00
+Coordinates 2, 25.00, 20.00
+Coordinates 3, 25.00, 00.00
+Coordinates 4, 00.00, 00.00
+Coordinates 5, 00.00, 20.00
+Coordinates 6, 10.00, 20.00
+Coordinates 7, 10.00, 00.00

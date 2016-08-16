@@ -1,0 +1,49 @@
+CreateMeshBuilder
+AddVertex,3.2, 0.11, 0
+AddVertex,3.2, 0.10, 27.3
+AddVertex,-3.2, 0.10, 27.3
+AddVertex,-3.2, 0.11, 0
+AddFace,3,2,1,0
+LoadTexture,roadA.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,5
+SetTextureCoordinates,2,1,5
+SetTextureCoordinates,3,1,0
+Setcolor,190,190,190,
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,3.2, 0.01, 0
+AddVertex,3.2, 0.38, 0
+ADdVertex,7.9,0.38, 0
+AddVertex,7.9,0.38, 27.2
+AddVertex,3.2, 0.38, 27.2
+AddVertex,3.2, 0.01, 27.2
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+LoadTexture,roadC.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0.5
+SetTextureCoordinates,2,0,0.3
+SetTextureCoordinates,3,1,0.3
+SetTextureCoordinates,4,1,0.5
+SetTextureCoordinates,5,1,1
+GenerateNormals
+
+CreateMeshBuilder,
+AddVertex,-3.2, 0.01, 0,
+AddVertex,-3.2, 0.38, 0,
+ADdVertex,-30.2,0.38, 0,
+AddVertex,-30.2,0.38, 27.2,
+AddVertex,-3.2, 0.38, 27.2,
+AddVertex,-3.2, 0.01, 27.2,
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,roadC.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,1,1,
+GenerateNormals,

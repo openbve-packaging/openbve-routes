@@ -1,0 +1,53 @@
+[MeshBuilder]
+Vertex   0   ,5,0    ;0     ; Left facing track
+Vertex   0   ,0,0    ;1
+Vertex  -0.25,0,0    ;2
+Vertex  -0.25,5,0    ;3
+
+Vertex   0,5,0      ;4
+Vertex   0,5,0.25   ;5
+Vertex   0,0,0.25   ;6
+Vertex   0,0,0      ;7
+
+Vertex  -0.25,5,0.25    ;8
+Vertex  -0.25,0,0.25    ;9
+Vertex   0   ,0,0.25    ;10
+Vertex   0   ,5,0.25    ;11     ; Left facing track
+
+Vertex  -.25,0,0      ;12
+Vertex  -.25,0,0.25   ;13
+Vertex  -.25,5,0.25   ;14
+Vertex  -.25,5,0      ;15
+
+
+Face 0,1,2,3      ; Front
+Face 4,5,6,7      ; Right
+Face 8,9,10,11    ; back
+Face 12,13,14,15  ; left
+
+
+[Texture]
+Load StaBeamGC.bmp
+
+Coordinates  0  ,0  ,0
+Coordinates  1  ,0  ,1
+Coordinates  2  ,0.5,1
+Coordinates  3  ,0.5,0
+
+Coordinates  4  ,0  ,0
+Coordinates  5  ,0.5,0
+Coordinates  6  ,0.5,1
+Coordinates  7  ,0  ,1
+
+Coordinates  8  ,0  ,0
+Coordinates  9  ,0  ,1
+Coordinates  10 ,0.5,1
+Coordinates  11 ,0.5,0
+
+Coordinates  12 ,0  ,1
+Coordinates  13 ,0.5,1
+Coordinates  14 ,0.5,0
+Coordinates  15 ,0  ,0
+
+
+

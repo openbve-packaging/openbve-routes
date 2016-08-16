@@ -1,0 +1,45 @@
+; PaloFS.b3d by Luigi Cartello luigi.cartello@tiscali.it
+
+
+; 1 - Basamento
+[meshbuilder]
+Cube 0.3, 0.45, 0.3
+Translate -2.6, -0.5, 0
+Color 176, 176, 176
+
+; 2 - Palo
+[meshbuilder]
+Cylinder 6, 0.12, 0.15, 8.1
+Translate -2.6, 3.45, 0
+Color 176, 176, 192
+
+
+; 3 - Mensola
+[meshbuilder]
+Cylinder 3, 0.06, 0.06, 3.5
+Rotate 0, 0, 1, 90
+Translate -0.8 , 6.2, 0
+Color 146, 146, 162
+
+; 4 - Tirante
+[meshbuilder]
+Cylinder 3, 0.02, 0.02, 2.1
+Rotate 0, 0, 1, 68
+Translate -1.6, 6.6, 0
+Color 128, 128, 128
+
+
+[meshbuilder] ; Zampa di ragno right
+vertex  -0.3, 6.65, 0 ; right
+vertex   1.3, 6.65, 0 ; right
+vertex   1.3, 5.15, 0 ; right
+vertex  -0.3, 5.15, 0 ; right
+face2 0,1,3,2
+[texture]
+load ZampaFS.bmp
+transparent 255,255,255
+coordinates 0,0,0 ; right 
+coordinates 1,1,0  ; right 
+coordinates 2,1,0.95 ; right
+coordinates 3,0,0.95 ; right
+translate 0.17,0.29,0

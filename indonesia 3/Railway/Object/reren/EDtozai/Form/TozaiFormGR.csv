@@ -1,0 +1,73 @@
+CreateMeshBuilder
+AddVertex,1.5, 1.1, 0
+AddVertex,1.5, 1.1, 25.3
+AddVertex,3, 1.11, 25.3
+AddVertex,3, 1.11, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,(U)FormG.bmp
+SetTextureCoordinates,0, 0, 12
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 12
+
+CreateMeshBuilder
+AddVertex,2.1, -0.45, 0
+AddVertex,2.1, 0.7, 0
+AddVertex,1.5, 0.9, 0
+AddVertex,1.5, 1.1, 0
+AddVertex,1.5, 1.1, 25.3
+AddVertex,1.5, 0.9, 25.3
+AddVertex,2.1, 0.7, 25.3
+AddVertex,2.1, -0.45, 25.3
+AddFace,7,6,1,0
+AddFace,6,5,2,1
+AddFace,5,4,3,2
+GenerateNormals
+LoadTexture,FormWallC.bmp
+SetTextureCoordinates,0, 5, 1
+SetTextureCoordinates,1, 5, 0.2
+SetTextureCoordinates,2, 5, 0.15
+SetTextureCoordinates,3, 5, 0
+SetTextureCoordinates,4, 0, 0
+SetTextureCoordinates,5, 0, 0.15
+SetTextureCoordinates,6, 0, 0.2
+SetTextureCoordinates,7, 0, 1
+
+CreateMeshBuilder
+AddVertex,2.1, -0.45, 0
+AddVertex,2.1, 0.7, 0
+AddVertex,1.5, 0.9, 0
+AddVertex,3, 0.9, 0
+AddVertex,3, -0.45, 0
+AddFace2,4,3,1,0
+AddFace2,3,2,1
+Setcolor,30,30,30
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,1.5, 0.9, 0
+AddVertex,1.5, 1.1, 0
+AddVertex,3, 1.1, 0
+AddVertex,3, 0.9, 0
+AddFace2,3,2,1,0
+GenerateNormals
+LoadTexture,FormWallB.bmp
+SetTextureCoordinates,0, 0.5, .1
+SetTextureCoordinates,1, 0.5, 0
+SetTextureCoordinates,2, 0.7, 0
+SetTextureCoordinates,3, 0.7, .1
+
+CreateMeshBuilder
+AddVertex,1.49, 0.88, 0
+AddVertex,1.49, 1.1, 0
+AddVertex,1.49, 1.1, 25
+AddVertex,1.49, 0.88, 25
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../Retu1.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 4, 0
+SetTextureCoordinates,3, 4, 1
+SetDecalTransparentColor,255,255,255

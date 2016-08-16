@@ -1,0 +1,128 @@
+;--------------muro------------------
+[meshbuilder]
+vertex -2.9, 0, -0.5
+vertex -2.9, 8, -0.5
+vertex -2.923, 8, 4.966
+vertex -2.923, 0, 4.966
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[meshbuilder]
+vertex -2.923, 0, 4.966
+vertex -2.923, 8, 4.966
+vertex -3.003, 8, 9.967
+vertex -3.003, 0, 9.967
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[meshbuilder]
+vertex -3.003, 0, 9.967
+vertex -3.003, 8, 9.967
+vertex -3.000, 8, 14.972
+vertex -3.000, 0, 14.972
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[meshbuilder]
+vertex -3.000, 0, 14.972
+vertex -3.000, 8, 14.972
+vertex -2.914, 8, 19.979
+vertex -2.914, 0, 19.979
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[meshbuilder]
+vertex -2.914, 0, 19.979
+vertex -2.914, 8, 19.979
+vertex -2.9, 8, 25.590
+vertex -2.9, 0, 25.590
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;-------------gradino
+[meshbuilder]
+vertex -2.355, 0, -0.131
+vertex -2.955, 0, -0.131
+vertex -2.923, 0, 4.966
+vertex -2.523, 0, 4.966
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[meshbuilder]
+vertex -2.523, 0, 4.966
+vertex -2.923, 0, 4.966
+vertex -3.003, 0, 9.967
+vertex -2.603, 0, 9.967
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[meshbuilder]
+vertex -2.603, 0, 9.967
+vertex -3.003, 0, 9.967
+vertex -3.000, 0, 14.972
+vertex -2.600, 0, 14.972
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[meshbuilder]
+vertex -2.600, 0, 14.972
+vertex -3.000, 0, 14.972
+vertex -2.914, 0, 19.979
+vertex -2.514, 0, 19.979
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[meshbuilder]
+vertex -2.514, 0, 19.979
+vertex -3.0, 0, 19.979
+vertex -2.948, 0, 25.090
+vertex -2.348, 0, 25.090
+face2 3,2,1,0
+[Texture]
+Load contenimento2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+

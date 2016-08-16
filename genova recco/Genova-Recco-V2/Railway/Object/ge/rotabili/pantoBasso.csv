@@ -1,0 +1,261 @@
+; Oggetto compatibile openBVE
+; Locomotiva E464 XMPR Trenitalia
+; Texture ricavate da foto varie scaricate da internet
+; Nota:
+; Per inversione senso di marcia dell'oggetto e utilizzo nella vista esterna
+; del treno in corsa openBVE vedere varianti previste al fondo del file
+; Luigi Cartello 6-1-2009
+; 
+
+; ====================================
+;Pantografo anteriore abbassato
+; ====================================
+;Isolatori ---------------------
+CreateMeshBuilder, ; ---- Ant sx
+Cylinder,4,0.057,0.087,0.091;
+SetColor,200,200,200;
+rotate,0,1,0,45;
+translate,-0.540,3.79,0.900;
+CreateMeshBuilder,;
+Cylinder,6,0.028,0.129,0.068;
+SetColor,200,200,200;
+translate,-0.540,3.870,0.900;
+CreateMeshBuilder, ; ---- Ant dx
+Cylinder,4,0.057,0.087,0.091;
+SetColor,200,200,200;
+rotate,0,1,0,45;
+translate,0.540,3.79,0.900;
+CreateMeshBuilder,;
+Cylinder,6,0.028,0.129,0.068;
+SetColor,200,200,200;
+translate,0.540,3.870,0.900;
+CreateMeshBuilder, ; ---- Post sx
+Cylinder,4,0.057,0.087,0.091;
+SetColor,200,200,200;
+rotate,0,1,0,45;
+translate,-0.540,3.79,-0.900;
+CreateMeshBuilder,;
+Cylinder,6,0.028,0.129,0.068;
+SetColor,200,200,200;
+translate,-0.540,3.870,-0.900;
+CreateMeshBuilder, ; ---- Post dx
+Cylinder,4,0.057,0.087,0.091;
+SetColor,200,200,200;
+rotate,0,1,0,45;
+translate,0.540,3.79,-0.900;
+CreateMeshBuilder,;
+Cylinder,6,0.028,0.129,0.068;
+SetColor,200,200,200;
+translate,0.540,3.870,-0.900;
+
+; Telaio di base ----------
+CreateMeshBuilder,;
+AddVertex,-1.11,3.9,0.95,;
+AddVertex,-1.11,3.9,-0.95,;
+AddVertex,0.85,3.9,0.950,;
+AddVertex,0.85,3.9,-0.95,;
+AddFace2,1,0,2,3,;
+GenerateNormals,;
+LoadTexture,Panto52-base.bmp,;
+SetTextureCoordinates, 0,1,0;
+SetTextureCoordinates, 1,0,0;
+SetTextureCoordinates, 2,1,1;
+SetTextureCoordinates, 3,0,1;
+SetDecalTransparentColor,0,0,0;
+
+;Albero anteriore -----------
+CreateMeshBuilder,;
+Cylinder,7,0.050,0.050,1.54;
+rotate,0,0,1,90;
+SetColor,165,0,0;
+translate,0,3.950,0.600;
+;Albero posteriore -------------
+CreateMeshBuilder,;
+Cylinder,7,0.050,0.050,1.54;
+rotate,0,0,1,90;
+SetColor,165,0,0;
+translate,0,3.950,-0.600;
+
+;Biella sx -----------
+CreateMeshBuilder,;
+Cube,0.01,0.01,0.610;
+SetColor,165,0,0;
+rotate,1,0,0,5.5;
+translate,-0.75,3.95,0;
+;Biella dx ----------
+CreateMeshBuilder,;
+Cube,0.01,0.01,0.610;
+SetColor,165,0,0;
+rotate,1,0,0,-5.5;
+translate,0.75,3.95,0;
+
+;Cilindro sx ----------
+CreateMeshBuilder,;
+Cylinder,9,0.10,0.10,0.40;
+rotate,1,0,0,90;
+SetColor,165,0,0;
+translate,-0.2,4.02,0;
+CreateMeshBuilder,;
+Cylinder,5,0.020,0.020,0.45;
+rotate,1,0,0,90;
+SetColor,165,0,0;
+translate,-0.2,4.02,-0.4;
+
+;Cilindro dx ----------
+CreateMeshBuilder,;
+Cylinder,9,0.10,0.10,0.40;
+rotate,1,0,0,90;
+SetColor,165,0,0;
+translate,0.2,4.02,0;
+CreateMeshBuilder,;
+Cylinder,5,0.020,0.020,0.45;
+rotate,1,0,0,90;
+SetColor,165,0,0;
+translate,0.2,4.02,0.4;
+
+; Supporto cilindri ----------
+CreateMeshBuilder,;
+Cube,0.72,0.07,0.3;
+SetColor,108,135,136;
+translate,0,3.829,0;
+
+; ====== inizio diff. panto abbassato ==========
+; Braccio inf sx ant
+CreateMeshBuilder,;
+Cube,0.01,0.035,0.610;
+SetColor,165,0,0;
+translate,-0.75,3.950,1.2;
+; Braccio inf dx ant
+CreateMeshBuilder,;
+Cube,0.01,0.035,0.610;
+SetColor,165,0,0;
+translate,0.75,3.950,1.2;
+; Braccio inf sx post
+CreateMeshBuilder,;
+Cube,0.01,0.035,0.610;
+SetColor,165,0,0;
+translate,-0.75,3.950,-1.2;
+; Braccio inf dx post
+CreateMeshBuilder,;
+Cube,0.01,0.035,0.610;
+SetColor,165,0,0;
+translate,0.75,3.950,-1.2;
+
+; Braccio sup sx ant
+CreateMeshBuilder,;
+Cylinder,5,0.015,0.015,1.78;
+SetColor,165,0,0;
+rotate,1,0,0,-86;
+rotate,0,1,0,-1.5;
+translate,-0.705,4.02,0.925;
+; Braccio sup dx ant
+CreateMeshBuilder,;
+Cylinder,5,0.015,0.015,1.78;
+SetColor,165,0,0;
+rotate,1,0,0,-86;
+rotate,0,1,0,1.5;
+translate,0.705,4.02,0.925;
+; Braccio sup sx pos
+CreateMeshBuilder,;
+Cylinder,5,0.015,0.015,1.78;
+SetColor,165,0,0;
+rotate,1,0,0,86;
+rotate,0,1,0,1.5;
+translate,-0.705,4.02,-0.925;
+; Braccio sup dx pos
+CreateMeshBuilder,;
+Cylinder,5,0.015,0.015,1.78;
+SetColor,165,0,0;
+rotate,1,0,0,86;
+rotate,0,1,0,-1.5;
+translate,0.705,4.02,-0.925;
+
+; Travesa braccio ant
+CreateMeshBuilder,;
+Cylinder,5,0.012,0.012,2.1;
+SetColor,165,0,0;
+rotate,1,0,0,-86.8;
+rotate,0,1,0,42;
+translate,0.02,4.02,0.925;
+
+; Travesa braccio POST
+CreateMeshBuilder,;
+Cylinder,5,0.012,0.012,2.1;
+SetColor,165,0,0;
+rotate,1,0,0,86.8;
+rotate,0,1,0,42;
+translate,-0.02,4.02,-0.925;
+
+; Strisciante
+CreateMeshBuilder,;
+AddVertex,-0.9, 3.98 ,0.15,;
+AddVertex,-0.9, 3.98 ,-0.15, ;
+AddVertex,-0.8, 4.09 ,0.15,
+AddVertex,-0.8, 4.09 ,-0.15, 
+AddVertex,-0.6 , 4.15 ,0.15,
+AddVertex,-0.6,  4.15 ,-0.15, 
+AddVertex,-0.4 , 4.18 ,0.15,
+AddVertex,-0.4,  4.18 ,-0.15, 
+AddVertex,0.4 , 4.18  ,0.15,
+AddVertex,0.4,  4.18  ,-0.15, 
+AddVertex,0.6 , 4.15  ,0.15,
+AddVertex,0.6,  4.15  ,-0.15, 
+AddVertex,0.8, 4.09  ,0.15,
+AddVertex,0.8, 4.09  ,-0.15, 
+AddVertex,0.9, 3.98  ,0.15,
+AddVertex,0.9, 3.98  ,-0.15, 
+AddFace2,1,0,2,3,
+AddFace2,3,2,4,5,
+AddFace2,5,4,6,7,
+AddFace2,7,6,8,9,
+AddFace2,9,8,10,11,
+AddFace2,11,10,12,13,
+AddFace2,13,12,14,15,
+GenerateNormals,
+LoadTexture,Strisciante.bmp,
+SetTextureCoordinates,0,0.999,-1.00,
+SetTextureCoordinates,1,0.001,-1.00,
+SetTextureCoordinates,2,0.999,-0.85,
+SetTextureCoordinates,3,0.001,-0.85,
+SetTextureCoordinates,4,0.999,-0.75,
+SetTextureCoordinates,5,0.001,-0.75,
+SetTextureCoordinates,6,0.999,-0.55,
+SetTextureCoordinates,7,0.001,-0.55,
+SetTextureCoordinates,8,0.999,-0.45,
+SetTextureCoordinates,9,0.001,-0.45,;
+SetTextureCoordinates,10,0.999,-0.25,;
+SetTextureCoordinates,11,0.001,-0.25,;
+SetTextureCoordinates,12,0.999,-0.15,;
+SetTextureCoordinates,13,0.001,-0.15,;
+SetTextureCoordinates,14,0.999,0,;
+SetTextureCoordinates,15,0.001,0,;
+SetDecalTransparentColor,255,0,0;
+
+; Fissaggio strisciante sx
+CreateMeshBuilder,;
+Cylinder,4,0.015,0.015,0.16;
+SetColor,127,106,55;
+translate,-0.685,4.052,0;
+; Fissaggio strisciante dx
+CreateMeshBuilder,;
+Cylinder,4,0.015,0.015,0.16;
+SetColor,127,106,55;
+translate,0.685,4.052,0;
+
+; ====== fine diff. panto ant abbassato ==========
+translateall,0,0,4.4;
+; ==============================================
+
+; ==================================================
+; Varianti 
+; ==================================================
+; Per invertire il senso di marcia
+; togliere il commento alle 2 righe seguenti
+;RotateAll,0,1,0,180
+;TranslateAll,0,0,15.7
+;TranslateAll,0,0,15.7
+
+; Per utilizzo dell'oggetto nella vista esterna del treno in corsa openBVE
+; togliere il commento alle righe seguenti
+;RotateAll,0,1,0,180
+;TranslateAll,0,0, 7.9

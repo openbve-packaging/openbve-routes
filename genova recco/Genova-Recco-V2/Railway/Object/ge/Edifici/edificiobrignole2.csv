@@ -1,0 +1,610 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+;;;;casa 1
+
+CreateMeshBuilder,
+AddVertex,0, -0.4, 0,
+AddVertex,0, 10, 0,
+AddVertex,0, 10, -100
+AddVertex,0, -0.4, -100,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,edificiobrignole3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 8,0,
+SetTextureCoordinates,3, 8,1,
+
+
+;;;;;;;;;;;;;;;;;;Fronte fondo
+CreateMeshBuilder,;;;fronte
+AddVertex,0, -0.4, 0,
+AddVertex,0, 10, 0,
+AddVertex,2.3, 10, 0,
+AddVertex,2.3, -0.4, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,edificiobrignole3.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.06, 0,
+SetTextureCoordinates,3, 0.06, 1,
+
+
+;;;;casa 1
+
+CreateMeshBuilder,
+AddVertex,0, -0.4, -100,
+AddVertex,0, 10, -100,
+AddVertex,0, 10, -200
+AddVertex,0, -0.4, -200,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,edificiobrignole2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 10,0,
+SetTextureCoordinates,3, 10,1,
+
+;;;massicciata
+CreateMeshBuilder,
+AddVertex,-5, 0, 0,
+AddVertex,-5, 0, -200,
+AddVertex,0, 0, -200,
+AddVertex,0, 0, 0,
+AddFace,3, 2, 1, 0,
+translate,0,-0.4
+GenerateNormals,
+
+LoadTexture,..\Ter\schotter2.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,90,0,
+SetTextureCoordinates,2,90,2,
+SetTextureCoordinates,3,0,2,
+
+
+
+;;;terrazzino 1
+
+CreateMeshBuilder,
+AddVertex,8, 6, -1,
+AddVertex,8, 8, -1,
+AddVertex,5, 8, -1,
+AddVertex,5, 6, -1,
+rotate,0,1,0,90
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 8, 0,
+AddVertex,8, 8, -1,
+AddVertex,8, 6, -1,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0.5, 1,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 6, -1,
+AddVertex,5,8, -1,
+AddVertex,5, 8, 0,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.5, 0,
+SetTextureCoordinates,3,0.5, 1,
+
+;;basso
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 6, -1,
+AddVertex,5, 6, -1,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+GenerateNormals,
+setcolor,20,20,20
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;terrazzino 2
+
+CreateMeshBuilder,
+AddVertex,8, 6, -1,
+AddVertex,8, 8, -1,
+AddVertex,5, 8, -1,
+AddVertex,5, 6, -1,
+rotate,0,1,0,90
+translate,0,0,-12.5
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 8, 0,
+AddVertex,8, 8, -1,
+AddVertex,8, 6, -1,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-12.5
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0.5, 1,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 6, -1,
+AddVertex,5,8, -1,
+AddVertex,5, 8, 0,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-12.5
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.5, 0,
+SetTextureCoordinates,3,0.5, 1,
+
+;;basso
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 6, -1,
+AddVertex,5, 6, -1,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-12.5
+GenerateNormals,
+setcolor,20,20,20
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;terrazzino 3
+
+CreateMeshBuilder,
+AddVertex,8, 6, -1,
+AddVertex,8, 8, -1,
+AddVertex,5, 8, -1,
+AddVertex,5, 6, -1,
+rotate,0,1,0,90
+translate,0,0,-25
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 8, 0,
+AddVertex,8, 8, -1,
+AddVertex,8, 6, -1,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-25
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0.5, 1,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 6, -1,
+AddVertex,5,8, -1,
+AddVertex,5, 8, 0,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-25
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.5, 0,
+SetTextureCoordinates,3,0.5, 1,
+
+;;basso
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 6, -1,
+AddVertex,5, 6, -1,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-25
+GenerateNormals,
+setcolor,20,20,20
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;terrazzino 4
+
+CreateMeshBuilder,
+AddVertex,8, 6, -1,
+AddVertex,8, 8, -1,
+AddVertex,5, 8, -1,
+AddVertex,5, 6, -1,
+rotate,0,1,0,90
+translate,0,0,-37.5
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 8, 0,
+AddVertex,8, 8, -1,
+AddVertex,8, 6, -1,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-37.5
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0.5, 1,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 6, -1,
+AddVertex,5,8, -1,
+AddVertex,5, 8, 0,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-37.5
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.5, 0,
+SetTextureCoordinates,3,0.5, 1,
+
+;;basso
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 6, -1,
+AddVertex,5, 6, -1,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-37.5
+GenerateNormals,
+setcolor,20,20,20
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;terrazzino 5
+
+CreateMeshBuilder,
+AddVertex,8, 6, -1,
+AddVertex,8, 8, -1,
+AddVertex,5, 8, -1,
+AddVertex,5, 6, -1,
+rotate,0,1,0,90
+translate,0,0,-50
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 8, 0,
+AddVertex,8, 8, -1,
+AddVertex,8, 6, -1,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-50
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0.5, 1,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 6, -1,
+AddVertex,5,8, -1,
+AddVertex,5, 8, 0,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-50
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.5, 0,
+SetTextureCoordinates,3,0.5, 1,
+
+;;basso
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 6, -1,
+AddVertex,5, 6, -1,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-50
+GenerateNormals,
+setcolor,20,20,20
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;terrazzino 6
+
+CreateMeshBuilder,
+AddVertex,8, 6, -1,
+AddVertex,8, 8, -1,
+AddVertex,5, 8, -1,
+AddVertex,5, 6, -1,
+rotate,0,1,0,90
+translate,0,0,-62.5
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 8, 0,
+AddVertex,8, 8, -1,
+AddVertex,8, 6, -1,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-62.5
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0.5, 1,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 6, -1,
+AddVertex,5,8, -1,
+AddVertex,5, 8, 0,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-62.5
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.5, 0,
+SetTextureCoordinates,3,0.5, 1,
+
+;;basso
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 6, -1,
+AddVertex,5, 6, -1,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-62.5
+GenerateNormals,
+setcolor,20,20,20
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;terrazzino 7
+
+CreateMeshBuilder,
+AddVertex,8, 6, -1,
+AddVertex,8, 8, -1,
+AddVertex,5, 8, -1,
+AddVertex,5, 6, -1,
+rotate,0,1,0,90
+translate,0,0,-75
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 8, 0,
+AddVertex,8, 8, -1,
+AddVertex,8, 6, -1,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-75
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0.5, 1,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 6, -1,
+AddVertex,5,8, -1,
+AddVertex,5, 8, 0,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-75
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.5, 0,
+SetTextureCoordinates,3,0.5, 1,
+
+;;basso
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 6, -1,
+AddVertex,5, 6, -1,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-75
+GenerateNormals,
+setcolor,20,20,20
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;terrazzino 8
+
+CreateMeshBuilder,
+AddVertex,8, 6, -1,
+AddVertex,8, 8, -1,
+AddVertex,5, 8, -1,
+AddVertex,5, 6, -1,
+rotate,0,1,0,90
+translate,0,0,-87.5
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 8, 0,
+AddVertex,8, 8, -1,
+AddVertex,8, 6, -1,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-87.5
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0.5, 1,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 6, -1,
+AddVertex,5,8, -1,
+AddVertex,5, 8, 0,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-87.5
+GenerateNormals,
+
+LoadTexture,edificiobrignole3terrazz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.5, 0,
+SetTextureCoordinates,3,0.5, 1,
+
+;;basso
+CreateMeshBuilder,
+AddVertex,8, 6, 0,
+AddVertex,8, 6, -1,
+AddVertex,5, 6, -1,
+AddVertex,5, 6, 0,
+AddFace,3, 2, 1, 0,
+rotate,0,1,0,90
+translate,0,0,-87.5
+GenerateNormals,
+setcolor,20,20,20
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;muro
+CreateMeshBuilder,;;copertura
+AddVertex,-0.3, 1.4, -200,
+AddVertex,-0.3,1.4,0,
+AddVertex,0, 1.4, 0,
+AddVertex,0, 1.4, -200,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,60,55,45
+
+CreateMeshBuilder,;;lato sx
+AddVertex,-0.3, -0.45, -200,
+AddVertex,-0.3, -0.45, 0,
+AddVertex,-0.3, 1.4, 0,
+AddVertex,-0.3, 1.4, -200,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,murobasso.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 60, 1,
+SetTextureCoordinates,2, 60, 0,
+SetTextureCoordinates,3, 0, 0,
+
+
+CreateMeshBuilder,;;;fronte
+AddVertex,-0.3, -0.45, 0,
+AddVertex,-0.3, 1.4, 0,
+AddVertex,0, 1.4, 0,
+AddVertex,0, -0.45, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+setcolor,60,55,45
+
+

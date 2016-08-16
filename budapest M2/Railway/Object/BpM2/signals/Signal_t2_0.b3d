@@ -1,0 +1,27 @@
+[MeshBuilder]
+Vertex -0.25,-1.0,-0.35
+Vertex -0.25, 1.0,-0.35
+Vertex  0.25, 1.0,-0.35
+Vertex  0.25,-1.0,-0.35
+Face 0,1,2,3
+[Texture]
+Load Signal_p2_0.bmp
+Coordinates 0,0.0,1.0
+Coordinates 1,0.0,0.0
+Coordinates 2,1.0,0.0
+Coordinates 3,1.0,1.0
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -0.25,-1.0,-0.35
+Vertex -0.25, 1.0,-0.35
+Vertex  0.25, 1.0,-0.35
+Vertex  0.25,-1.0,-0.35
+Face 3,2,1,0
+[Texture]
+Load signal_h_p2.bmp
+Coordinates 0,0.0,1.0
+Coordinates 1,0.0,0.0
+Coordinates 2,1.0,0.0
+Coordinates 3,1.0,1.0
+Transparent 255,0,0

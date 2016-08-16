@@ -1,0 +1,17 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+;Ghiaia fra le rotaie a destra
+[MeshBuilder]
+Vertex 3.0, -0.2, -0.3
+Vertex 3.0, -0.2, 25.3
+Vertex 0.5, -0.2, 25.3
+Vertex 0.5, -0.2, -0.3
+Face 3,2,1,0
+[texture]
+load Rails\Trav-gray.bmp
+Coordinates 0, 0.5, 10
+Coordinates 1, 0.5, 0
+Coordinates 2, 0,   0
+Coordinates 3, 0,   10

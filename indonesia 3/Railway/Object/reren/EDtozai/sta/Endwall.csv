@@ -1,0 +1,40 @@
+CreateMeshBuilder,
+AddVertex, 2.4, 4.4, 0,
+AddVertex,10.5, 4.4, 0,
+AddVertex,10.5, 1.1, 0,
+AddVertex, 2.4, 1.1, 0,
+AddFace,0,1,2,3
+LoadTexture,../Pole\station_pole/MSpole3.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,10,0
+SetTextureCoordinates,2  ,10,1
+SetTextureCoordinates,3  ,0,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 1.9, 2.1, 0,
+AddVertex, 2.4, 2.1, 0,
+AddVertex, 2.4, 1.1, 0,
+AddVertex, 1.9, 1.1, 0,
+AddFace,0,1,2,3
+LoadTexture,saku4.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+GenerateNormals,
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder,
+AddVertex,10.5, 2.1, 0,
+AddVertex,11.0, 2.1, 0,
+AddVertex,11.0, 1.1, 0,
+AddVertex,10.5, 1.1, 0,
+AddFace,0,1,2,3
+LoadTexture,saku4.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+GenerateNormals,
+SetDecalTransparentColor,0,0,255

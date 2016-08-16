@@ -1,0 +1,68 @@
+﻿; Author: phontanka
+; Free to use, modify and redistribute
+; Texture: HLJ's platform pack
+
+;TETEJE
+[Meshbuilder]
+Vertex -1.4,0.1,25
+Vertex 1.4,0.1,25
+Vertex 1.4,0.1,0
+Vertex -1.4,0.1,0
+Face 0,1,2,3
+Load peronuj1.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,80
+Coordinates 3,0,80
+
+;JOBB OLDALA
+[Meshbuilder]
+Vertex 1.4,0.1,0
+Vertex 1.4,0.1,25
+Vertex 1.4,-0.4,25
+Vertex 1.4,-0.4,0
+Face 0,1,2,3
+Load 1a.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+
+;BAL OLDALA
+[Meshbuilder]
+Vertex -1.4,0.1,0
+Vertex -1.4,0.1,25
+Vertex -1.4,-0.4,25
+Vertex -1.4,-0.4,0
+Face 3,2,1,0
+Load 1a.bmp
+Coordinates 0,0,0
+Coordinates 1,40,0
+Coordinates 2,40,1
+Coordinates 3,0,1
+
+;ELÜLSŐ ZÁRÓELEM
+[Meshbuilder]
+Vertex 1.4,0.1,25
+Vertex -1.4,0.1,25
+Vertex -1.4,-0.4,25
+Vertex 1.4,-0.4,25
+Face 0,1,2,3
+Load 1a.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;HÁTSÓ ZÁRÓELEM
+[Meshbuilder]
+Vertex -1.4,0.1,0
+Vertex 1.4,0.1,0
+Vertex 1.4,-0.4,0
+Vertex -1.4,-0.4,0
+Face 0,1,2,3
+Load 1a.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1

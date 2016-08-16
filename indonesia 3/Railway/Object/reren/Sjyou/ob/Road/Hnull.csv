@@ -1,0 +1,39 @@
+CreateMeshBuilder,
+AddVertex,-3, 0.3, 0.2
+AddVertex,-3,  6.3, 0.2
+AddVertex, 0.3,  6.3, 0.2
+AddVertex, 0.3, 0.3, 0.2
+AddFace2,0,1,2,3
+LoadTexture,../../Road/right2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+Setcolor,120,120,120,
+SetDecalTransparentColor,0,0,0
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.50, 6.5, 0.18
+AddVertex, 0.50, 6.5, 0.18
+AddVertex, 0.50, 5.5, 0.18
+AddVertex,-0.50, 5.5, 0.18
+AddVertex,-0.50, 6.5, 0.22
+AddVertex, 0.50, 6.5, 0.22
+AddVertex, 0.50, 5.5, 0.22
+AddVertex,-0.50, 5.5, 0.22
+AddFace,0,1,2,3
+AddFace,7,6,5,4,
+LoadTexture,../../Road/Hnull.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetTextureCoordinates,4  ,1,0
+SetTextureCoordinates,5  ,0,0
+SetTextureCoordinates,6  ,0,1
+SetTextureCoordinates,7  ,1,1
+GenerateNormals,
+SetEmissiveColor,110,120,70,
+SetDecalTransparentColor,0,0,0,
+Translate,-0.3

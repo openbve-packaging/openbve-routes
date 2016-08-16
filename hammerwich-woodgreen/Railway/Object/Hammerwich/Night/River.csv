@@ -1,0 +1,117 @@
+;A Hammerwich - Wood Green object
+;--------------------------------------
+;(c) Steve Green  2002.
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+
+
+
+CreateMeshBuilder,
+AddVertex,-120, -3, 20,
+AddVertex,120, -3, 20,
+AddVertex,120, -3, 0,
+AddVertex,-120, -3, 0,
+AddFace,0, 1, 2, 3,
+SetColor,32,24,16,128,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-120, -3.05, -48,
+AddVertex,-120, -6, 25,
+AddVertex,120, -6, 25,
+AddVertex,120, -3.05, -48,
+AddFace,0, 1, 2, 3,
+SetColor,150,150,150,
+GenerateNormals,
+
+LoadTexture,../River.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,-120, -3, 20,
+AddVertex,-120, 2, 25,
+AddVertex,120, 2, 25,
+AddVertex,120, -3, 20,
+AddFace,0, 1, 2, 3,
+SetColor,150,150,150,
+GenerateNormals,
+
+LoadTexture,../Grass.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 4, 0,
+SetTextureCoordinates,3, 4, 1,
+
+CreateMeshBuilder,
+AddVertex,-120, -3, 20,
+AddVertex,-120, -6, 25,
+AddVertex,120, -6, 25,
+AddVertex,120, -3, 20,
+AddFace,3, 2, 1, 0,
+SetColor,150,150,150,
+GenerateNormals,
+
+LoadTexture,../Grass.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 4, 0,
+SetTextureCoordinates,3, 4, 1,
+
+
+CreateMeshBuilder,
+AddVertex,-120, -15, -50,
+AddVertex,-120, -2.5, -48,
+AddVertex,120, -2.5, -48,
+AddVertex,120, -15, -50,
+AddFace,0, 1, 2, 3,
+SetColor,150,150,150,
+GenerateNormals,
+
+LoadTexture,../Grass.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 4, 0,
+SetTextureCoordinates,3, 4, 1,
+
+
+CreateMeshBuilder,
+AddVertex,-120, 1, 24.5,
+AddVertex,-120, 6.5, 24.5,
+AddVertex,-5, 6.5, 24.5,
+AddVertex,-5, 1, 24.5,
+AddFace,0, 1, 2, 3,
+SetColor,150,150,150,
+GenerateNormals,
+
+LoadTexture,../Bushes_tall.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 5, 1,
+SetDecalTransparentColor,000,000,000,
+
+CreateMeshBuilder,
+AddVertex,10, 1, 24.5,
+AddVertex,10, 6.5, 24.5,
+AddVertex,120, 6.5, 24.5,
+AddVertex,120, 1, 24.5,
+AddFace,0, 1, 2, 3,
+SetColor,150,150,150,
+GenerateNormals,
+
+LoadTexture,../Bushes_tall.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 4, 0,
+SetTextureCoordinates,3, 4, 1,
+SetDecalTransparentColor,000,000,000,
+
+

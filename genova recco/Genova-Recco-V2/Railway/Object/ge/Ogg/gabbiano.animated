@@ -1,0 +1,6 @@
+
+[Object]
+States = gabbiano.csv
+RotatexDirection = 1, -1,1
+RotatexFunction = sin[time] * 0.1
+TextureShiftXFunction = -0.1 * time

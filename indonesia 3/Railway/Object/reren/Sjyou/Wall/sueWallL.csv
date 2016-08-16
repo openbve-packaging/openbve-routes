@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,-7.2, 1.1, 0,
+AddVertex,-7.2, 4.7, 0,
+AddVertex,-7.2, 4.7, 25.1,
+AddVertex,-7.2, 1.1, 25.1,
+AddFace,0,1,2,3,
+Loadtexture,sueWall2.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+GenerateNormals,
+Setcolor,220,220,220

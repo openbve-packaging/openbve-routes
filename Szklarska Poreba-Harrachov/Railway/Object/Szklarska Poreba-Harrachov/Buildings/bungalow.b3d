@@ -1,0 +1,199 @@
+[meshbuilder]
+vertex 0.5, 0, 0
+vertex 0.5, 2, 0
+vertex -0.5, 2, 0
+vertex -0.5, 0, 0
+face2 0,1,2,3
+[Texture]
+Load bungalow.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex -1, 0, 0.5
+vertex -1, 2, 0.5
+vertex -0.5, 2, 0
+vertex -0.5, 0, 0
+face2 0,1,2,3
+[Texture]
+Load bungalow.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 1, 0, 0.5
+vertex 1, 2, 0.5
+vertex 0.5, 2, 0
+vertex 0.5, 0, 0
+face2 3,2,1,0
+[Texture]
+Load bungalow.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex -1, 0, 0.5
+vertex -1, 2, 0.5
+vertex -1, 2, 1.5
+vertex -1, 0, 1.5
+face2 0,1,2,3
+[Texture]
+Load bungalow.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 1, 0, 0.5
+vertex 1, 2, 0.5
+vertex 1, 2, 1.5
+vertex 1, 0, 1.5
+face2 3,2,1,0
+[Texture]
+Load bungalow.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+;---TYL---------------
+[meshbuilder]
+vertex 0.5, 0, 2
+vertex 0.5, 2, 2
+vertex -0.5, 2, 2
+vertex -0.5, 0, 2
+face2 3,2,1,0
+[Texture]
+Load bungalow2.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex -1, 0, 1.5
+vertex -1, 2, 1.5
+vertex -0.5, 2, 2
+vertex -0.5, 0, 2
+face2 0,1,2,3
+[Texture]
+Load bungalow2.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 1, 0, 1.5
+vertex 1, 2, 1.5
+vertex 0.5, 2, 2
+vertex 0.5, 0, 2
+face2 3,2,1,0
+[Texture]
+Load bungalow2.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+;------DACH-------------
+[meshbuilder]
+vertex 0, 2.5, 1
+vertex -0.5, 2, -0.4
+vertex 0.5, 2, -0.4
+face2 2,1,0
+[Texture]
+Load bungalow_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 2.5, 1
+vertex -0.5, 2, 2.4
+vertex 0.5, 2, 2.4
+face2 0,1,2
+[Texture]
+Load bungalow_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Transparent 0,0,255
+;-
+[meshbuilder]
+vertex 0, 2.5, 1
+vertex -1.4, 2, 0.4
+vertex -0.5, 2, -0.4
+face2 2,1,0
+[Texture]
+Load bungalow_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 2.5, 1
+vertex 1.4, 2, 0.4
+vertex 0.5, 2, -0.4
+face2 0,1,2
+[Texture]
+Load bungalow_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Transparent 0,0,255
+;-
+[meshbuilder]
+vertex 0, 2.5, 1
+vertex -1.4, 2, 1.5
+vertex -1.4, 2, 0.4
+face2 2,1,0
+[Texture]
+Load bungalow_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 2.5, 1
+vertex 1.4, 2, 1.5
+vertex 1.4, 2, 0.4
+face2 0,1,2
+[Texture]
+Load bungalow_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Transparent 0,0,255
+;-
+;-
+[meshbuilder]
+vertex 0, 2.5, 1
+vertex -1.4, 2, 1.5
+vertex -0.5, 2, 2.4
+face2 0,1,2
+[Texture]
+Load bungalow_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 2.5, 1
+vertex 1.4, 2, 1.5
+vertex 0.5, 2, 2.4
+face2 2,1,0
+[Texture]
+Load bungalow_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Transparent 0,0,255

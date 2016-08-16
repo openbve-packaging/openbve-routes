@@ -1,0 +1,145 @@
+;Pöttyös utca megállóhely 0 (peron, födém, világítás)
+;Készítette: http://bvemetro.hu/
+
+;--------------------------------------------------
+
+;Peron
+
+;jobb oldali peron
+
+;peron széle felül
+[MeshBuilder]
+Vertex  1.45, 0.90,-01.00
+Vertex  1.45, 0.90, 24.00
+Vertex  1.45, 1.10, 24.00
+Vertex  1.45, 1.10,-01.00
+Vertex -4.85, 0.90,-01.00
+Vertex -4.85, 0.90, 24.00
+Vertex -4.85, 1.10, 24.00
+Vertex -4.85, 1.10,-01.00
+Face 0,1,2,3
+Face 7,6,5,4
+color 48,48,48
+
+[MeshBuilder]
+;peron széle alul
+Vertex  1.60,-0.20,-01.00
+Vertex  1.60,-0.20, 24.00
+Vertex  1.60, 0.90, 24.00
+Vertex  1.60, 0.90,-01.00
+Vertex -5.00,-0.20,-01.00
+Vertex -5.00,-0.20, 24.00
+Vertex -5.00, 0.90, 24.00
+Vertex -5.00, 0.90,-01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 25.00, 1.00
+Coordinates 2, 25.00, 0.15
+Coordinates 3, 00.00, 0.15
+Coordinates 4, 00.00, 1.00
+Coordinates 5, 25.00, 1.00
+Coordinates 6, 25.00, 0.15
+Coordinates 7, 00.00, 0.15
+
+;peron járófelület
+[MeshBuilder]
+Vertex  1.45, 1.10,-01.00
+Vertex  1.45, 1.10, 24.00
+Vertex  2.25, 1.10, 24.00
+Vertex  2.25, 1.10,-01.00
+Vertex -4.85, 1.10,-01.00
+Vertex -4.85, 1.10, 24.00
+Vertex -5.65, 1.10, 24.00
+Vertex -5.65, 1.10,-01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load mh_03_po_peronteto_1.bmp
+Coordinates 0, 24.00, 600.00
+Coordinates 1, 24.00, 000.00
+Coordinates 2, 00.00, 000.00
+Coordinates 3, 00.00, 600.00
+Coordinates 4, 24.00, 600.00
+Coordinates 5, 24.00, 000.00
+Coordinates 6, 00.00, 000.00
+Coordinates 7, 00.00, 600.00
+
+;peron járófelület
+[MeshBuilder]
+Vertex  2.25, 1.10,-01.00
+Vertex  2.25, 1.10, 24.00
+Vertex  6.15, 1.10, 24.00
+Vertex  6.15, 1.10,-01.00
+Vertex -5.65, 1.10,-01.00
+Vertex -5.65, 1.10, 24.00
+Vertex -9.55, 1.10, 24.00
+Vertex -9.55, 1.10,-01.00
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load mh_03_po_peronteto_2.bmp
+Coordinates 0, 6.25, 42.00
+Coordinates 1, 6.25, 00.00
+Coordinates 2, 0.00, 00.00
+Coordinates 3, 0.00, 42.00
+Coordinates 4, 6.25, 42.00
+Coordinates 5, 6.25, 00.00
+Coordinates 6, 0.00, 00.00
+Coordinates 7, 0.00, 42.00
+
+;--------------------------------------------------
+
+;Födém
+
+[MeshBuilder]
+Vertex -9.55, 4.00, 24.00
+Vertex -9.55, 4.00,-01.00
+Vertex -5.50, 4.00,-01.00
+Vertex -5.50, 4.00, 24.00
+Vertex 2.10, 4.00, 24.00
+Vertex 2.10, 4.00,-01.00
+Vertex 6.15, 4.00, 24.00
+Vertex 6.15, 4.00,-01.00
+Face 0,1,2,3
+Face 5,4,3,2
+Face 7,6,4,5
+[Texture]
+Load mh_03_po_fodem.bmp
+Coordinates 0, 0.0, 00.0
+Coordinates 1, 0.0, 50.0
+Coordinates 2, 1.0, 50.0
+Coordinates 3, 1.0, 00.0
+Coordinates 4, 3.0, 00.0
+Coordinates 5, 3.0, 50.0
+Coordinates 6, 4.0, 00.0
+Coordinates 7, 4.0, 50.0
+
+;--------------------------------------------------
+
+;világítótestek
+
+[MeshBuilder]
+Vertex 2.10, 3.97,-01.00
+Vertex 2.10, 3.97, 24.00
+Vertex 6.15, 3.97, 24.00
+Vertex 6.15, 3.97,-01.00
+Vertex -5.50, 3.97,-01.00
+Vertex -5.50, 3.97, 24.00
+Vertex -9.55, 3.97, 24.00
+Vertex -9.55, 3.97,-01.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_03_po_vilagitas_01.bmp
+Coordinates 0, 0.0, 00.0
+Coordinates 1, 0.0, 10.0
+Coordinates 2, 3.0, 10.0
+Coordinates 3, 3.0, 00.0
+Coordinates 4, 0.0, 00.0
+Coordinates 5, 0.0, 10.0
+Coordinates 6, 3.0, 10.0
+Coordinates 7, 3.0, 00.0
+transparent 0,0,255

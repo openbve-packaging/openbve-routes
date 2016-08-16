@@ -1,0 +1,38 @@
+[MeshBuilder]
+Cylinder 16,0.02,0.02,0.94
+Color 128,0,0
+Rotate 0,0,1,90
+Translate 0.45,0,0
+
+;henger
+
+[MeshBuilder]
+Cylinder 16,0.011,0.015,0.13
+Color 128,0,0
+Rotate 1,0,0,20
+Translate 0,0.05,0.02
+
+[MeshBuilder]
+Cylinder 16,0.011,0.015,0.13
+Color 128,0,0
+Rotate 1,0,0,-20
+Translate 0,0.05,-0.02
+
+
+
+[MeshBuilder]
+cube 0.02,0.01,0.045
+Color 128,0,0
+Rotate 1,0,0,-60
+Translate 0,0.14,-0.02
+
+[MeshBuilder]
+cube 0.02,0.01,0.045
+Color 128,0,0
+Rotate 1,0,0,60
+Translate 0,0.14,0.02
+
+[MeshBuilder]
+cube 0.02,0.002,0.01
+Color 128,0,0
+Translate 0,0.182

@@ -1,0 +1,84 @@
+;M3 alagút bevezetés 550 m sugarú jobb ívben 1.rész
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;terep
+
+[MeshBuilder]
+;vízszintes
+Vertex  -50.00, -0.200, -00.50
+Vertex  -02.50, -0.200, -00.50
+Vertex  -02.50, -0.200,  25.50
+Vertex  -50.00, -0.200,  25.50
+Vertex   50.00, -0.200, -00.50
+Vertex   02.50, -0.200, -00.50
+Vertex   02.50, -0.200,  25.00
+Vertex   50.00, -0.200,  25.00
+;függõleges
+Vertex  -50.00, -0.200, -00.50
+Vertex  -02.50, -0.200, -00.50
+Vertex  -02.50, -0.700, -00.50
+Vertex  -50.00, -0.700, -00.50
+Vertex   50.00, -0.200, -00.50
+Vertex   02.50, -0.200, -00.50
+Vertex   02.50, -0.700, -00.50
+Vertex   50.00, -0.700, -00.50
+Face 3,2,1,0
+Face 4,5,6,7
+Face 8,9,10,11
+Face 15,14,13,12
+[Texture]
+Load alagut_bev_terep.bmp
+Coordinates 0,  00.00,  00.00
+Coordinates 1,  00.00,  50.00
+Coordinates 2,  25.00,  50.00
+Coordinates 3,  25.00,  00.00
+Coordinates 4,  00.00,  00.00
+Coordinates 5,  00.00,  50.00
+Coordinates 6,  25.00,  50.00
+Coordinates 7,  25.00,  00.00
+
+Coordinates  8,  00.00,  00.00
+Coordinates  9,  00.00,  50.00
+Coordinates 10,  00.50,  50.00
+Coordinates 11,  00.50,  00.00
+Coordinates 12,  00.00,  00.00
+Coordinates 13,  00.00,  50.00
+Coordinates 14,  00.50,  50.00
+Coordinates 15,  00.50,  00.00
+
+;--------------------------------------
+
+;aljzat
+
+[MeshBuilder]
+Vertex  -02.20, -0.180,  00.00
+Vertex  -02.20, -0.180,  25.00
+Vertex  -02.46,  0.034,  25.00
+Face 2,1,0
+[Texture]
+Load alagut_bev_aljzat.bmp
+Coordinates 0,  00.00,  25.00
+Coordinates 1,  00.00,  00.00
+Coordinates 2,  00.25,  00.00
+
+;--------------------------------------
+
+;kerítés
+
+[MeshBuilder]
+;jobb oldal
+Vertex   06.000, -00.200, -00.10
+Vertex   06.000,  02.300, -00.10
+Vertex   08.462,  02.300,  25.10
+Vertex   08.462, -00.200,  25.10
+Face 3,2,1,0
+[Texture]
+Load kerites_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 10.00, 00.00
+Coordinates  3, 10.00, 01.00
+
+;--------------------------------------

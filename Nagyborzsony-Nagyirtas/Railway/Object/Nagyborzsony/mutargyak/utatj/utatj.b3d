@@ -1,0 +1,35 @@
+; *************************************
+;
+;   Útátjáró jelzõ BVE objektum
+;
+;   Modell   : Krisz
+;   Textúrák : Krisz
+;
+; *************************************
+[MeshBuilder]
+Cylinder 6,0.03,0.03,1.4
+Color 190,190,190
+Translate 0,0.7,-0.03
+
+[MeshBuilder]
+Vertex -0.15,1.5,-0.07
+Vertex 0.15,1.5,-0.07
+Vertex 0.15,0.5,-0.07
+Vertex -0.15,0.5,-0.07
+Face 0,1,2,3
+
+[Texture]
+Load utatj0.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 0.15,1.5,-0.07
+Vertex -0.15,1.5,-0.07
+Vertex -0.15,0.5,-0.07
+Vertex 0.15,0.5,-0.07
+Face 0,1,2,3
+Color 160,160,160
+

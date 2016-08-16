@@ -1,0 +1,16 @@
+
+
+[MeshBuilder]
+Vertex -2.4375,0,-0.4
+Vertex -2.4375,7,-0.4
+Vertex 2.4375,7,-0.4
+Vertex 2.4375,0,-0.4
+Face 0,1,2,3
+
+[Texture]
+Load shrub09a.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255

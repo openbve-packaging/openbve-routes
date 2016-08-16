@@ -1,0 +1,24 @@
+CreateMeshBuilder
+AddVertex,0.3, 0.15,0 
+AddVertex,0.3, -.15,0
+AddVertex,0, -.15,0
+AddVertex,0, 0.15,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture, taiphone.bmp
+SetTextureCoordinates, 2, -1, 1
+SetTextureCoordinates, 3, -1, 0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0, 1
+Translate,-2.15,1,0
+
+
+CreateMeshBuilder
+AddVertex,0.05, 1,0.1 
+AddVertex,0.05, -.5,0.1
+AddVertex,0, -.5,0.1
+AddVertex,0, 1,0.1
+AddFace,1,2,3,0
+GenerateNormals
+SetColor ,20,20,20
+Translate,-2,

@@ -1,0 +1,54 @@
+[MeshBuilder]
+Vertex 2,7.5,25.5
+Vertex 2,-0.5,25.5
+Vertex 2,-0.5,-0.5
+Vertex 2,7.5,-0.5
+Face 3,2,1,0
+[Texture]
+load stonea.bmp
+Coordinates 0,25,0
+Coordinates 1,25,6
+Coordinates 2,0,6
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 2.2,13,25.5
+Vertex 2.2,7,25.5
+Vertex 2.2,7,13.5
+Vertex 2.2,13,13.5
+Face 3,2,1,0
+[Texture]
+load tree.bmp
+Coordinates 0,10,0
+Coordinates 1,10,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 0,0,0
+
+[Meshbuilder]
+Vertex 10,13,13.5
+Vertex 10,7,13.5
+Vertex 2,7,13.5
+Vertex 2,13,13.5
+Face 0,1,2,3
+[Texture]
+load tree.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 0,0,0
+
+[Meshbuilder]
+Vertex 1.8,9,25.5
+Vertex 1.8,7,25.5
+Vertex 1.8,7,13.5
+Vertex 1.8,9,13.5
+Face 3,2,1,0
+[Texture]
+load fence.bmp
+Coordinates 0,10,0
+Coordinates 1,10,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

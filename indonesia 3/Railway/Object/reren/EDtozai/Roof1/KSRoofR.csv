@@ -1,0 +1,97 @@
+;‰®ª’Œ
+CreateMeshBuilder
+AddVertex,3.25, 4.5, 0.0
+AddVertex,3.05, 4.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,KSpole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,0.1
+CreateMeshBuilder
+AddVertex,7.2, 4.5, 0.0
+AddVertex,6.95, 4.5, 0.0
+AddVertex,6.95, 1.1, 0.0
+AddVertex,7.2, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,KSpole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,8.5
+CreateMeshBuilder
+AddVertex,3.25, 4.5, 0.0
+AddVertex,3.05, 4.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace,3,2,1,0
+Loadtexture,KSpole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,12.5
+
+;‰®ª1
+CreateMeshBuilder
+AddVertex,1.5, 5.05, 25.3
+AddVertex,1.5, 5.05, 0
+AddVertex,1.5, 4.7, 0
+AddVertex,1.5, 4.7, 25.3
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,RoofA2.bmp
+SetTextureCoordinates,0, 0, 7
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 7
+
+;‰®ª2
+CreateMeshBuilder
+AddVertex,7.2, 4.5, 0
+AddVertex,7.2, 4.5, 25.3
+AddVertex,1.5, 5.05, 25.3
+AddVertex,1.5, 5.05, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,RoofA.bmp
+SetTextureCoordinates,0, 1.5, 0
+SetTextureCoordinates,1, 1.5, 5
+SetTextureCoordinates,2, 0, 5
+SetTextureCoordinates,3, 0, 0
+SetColor,200,200,200
+
+;‰®ª’Œã
+CreateMeshBuilder
+AddVertex,3.05, 4.81, 0
+AddVertex,3.05, 4.81, 25.1
+AddVertex,3.05, 4.50, 25.1
+AddVertex,3.05, 4.50, 0
+AddVertex,3.25, 4.50, 0
+AddVertex,3.25, 4.50, 25.1
+AddFace,3,2,1,0
+AddFace,2,3,4,5
+SetColor,59,39,33
+GenerateNormals
+
+;ŒuŒõ“”
+CreateMeshBuilder,
+ADdVertex, 3.8, 5.3, 24.5
+AddVertex, 3.7, 5.4, 24.5
+AddVertex, 3.7, 5.4, 0.5
+AddVertex, 3.8, 5.3, 0.5
+ADdFace,0,1,2,3
+LoadTexture,../Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals,
+Translate,-0.8,-0.9

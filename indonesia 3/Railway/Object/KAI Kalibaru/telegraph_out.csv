@@ -1,0 +1,59 @@
+;(c) STEVE GREEN 2002
+;
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+CreateMeshBuilder,
+AddVertex,-4, 6.0, -0.3,
+AddVertex,-12, 17, 25.3,
+AddVertex,-12, 18.4, 25.3,
+AddVertex,-4, 7.4, -0.3,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,telegraph.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+SetDecalTransparentColor,0, 0, 0,
+
+CreateMeshBuilder,
+AddVertex,-5.5, 6.0, -0.3,
+AddVertex,-13.5, 17, 25.3,
+AddVertex,-13.5, 18.4, 25.3,
+AddVertex,-5.5, 7.4, -0.3,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,telegraph.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+SetDecalTransparentColor,0, 0, 0,
+
+CreateMeshBuilder,
+Cylinder,7,0.10,0.10,14.6
+Rotate,0,00,00,0,
+Translate,-4.8,0,0,
+SetColor,100,50,0,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-5.5, 7.4, 0,
+AddVertex,-4, 7.4, 0,
+AddVertex,-4, 6.0, 0,
+AddVertex,-5.5, 6.0, 0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,telegraph_2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,

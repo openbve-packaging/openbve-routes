@@ -1,0 +1,187 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+;;;;MM Recco
+
+CreateMeshBuilder,
+AddVertex,2.5, 1, -25,
+AddVertex,2.5, 5.07, -25,
+AddVertex,7, 5.07, -25,
+AddVertex,7, 1, -25,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,mmreccofronte.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,7, 1, 0,
+AddVertex,7, 5.07, 0,
+AddVertex,2.5, 5.07, 0,
+AddVertex,2.5, 1, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,mmreccofronte.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+setdecaltransparentcolor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,2.5, 1, -25,
+AddVertex,2.5, 4.65, -25,
+AddVertex,2.5,4.65, 0,
+AddVertex,2.5, 1, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,mmrecco.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 3, 0,
+SetTextureCoordinates,3, 3, 1,
+
+CreateMeshBuilder,
+AddVertex,7, 1, -25,
+AddVertex,7, 4.65, -25,
+AddVertex,7, 4.65, 0,
+AddVertex,7, 1, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,mmrecco.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 3, 0,
+SetTextureCoordinates,3, 3, 1,
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Tetto
+
+CreateMeshBuilder,
+AddVertex,-0.2, 4.99, 4.7,
+AddVertex,-0.2, 4.61, 7.2,
+AddVertex,25.2, 4.61, 7.2,
+AddVertex,25.2, 4.99, 4.7,
+AddFace2,0, 1, 2, 3,
+rotate,0,1,0,90
+GenerateNormals,
+setcolor,33,17,5
+
+CreateMeshBuilder,
+AddVertex,-0.2, 4.99, 4.7,
+AddVertex,-0.2, 4.61, 2.2,
+AddVertex,25.2, 4.61, 2.2,
+AddVertex,25.2, 4.99, 4.7,
+AddFace2,3, 2, 1, 0,
+rotate,0,1,0,90
+GenerateNormals,
+setcolor,33,17,5
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;base
+CreateMeshBuilder,
+AddVertex,-1.7, -0.3, -75,
+AddVertex,-1.7, 1, -75,
+AddVertex,8, 1, -75,
+AddVertex,8, -0.3, -75,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\muri\muroalto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 2, 0,
+SetTextureCoordinates,3, 2, 1,
+
+CreateMeshBuilder,
+AddVertex,8, -0.3, 1,
+AddVertex,8,1, 1,
+AddVertex,1.5, 1, 1,
+AddVertex,1.5, -0.3, 1,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\muri\muroalto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 2, 0,
+SetTextureCoordinates,3, 2, 1,
+
+CreateMeshBuilder,
+AddVertex,8, -0.3, -75,
+AddVertex,8, 1, -75,
+AddVertex,8, 1, 1,
+AddVertex,8, -0.3, 1,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\muri\muroalto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 10, 0,
+SetTextureCoordinates,3, 10, 1,
+
+
+CreateMeshBuilder,
+AddVertex,1.5, -0.3, -47.5,
+AddVertex,1.5, 1, -47.5,
+AddVertex,1.5, 1, 1,
+AddVertex,1.5, -0.3, 1,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\muri\muroalto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 20, 0,
+SetTextureCoordinates,3, 20, 1,
+
+CreateMeshBuilder,
+AddVertex,-1.7, -0.3, -75,
+AddVertex,-1.7, 1, -75,
+AddVertex,-1.7, 1, -47.5,
+AddVertex,-1.7, -0.3, -47.5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,..\muri\muroalto2.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 10, 0,
+SetTextureCoordinates,3, 10, 1,
+
+
+;;pavimento
+CreateMeshBuilder,
+AddVertex,1.5, 1, -47.5,
+AddVertex,1.5, 1, 1,
+AddVertex,8, 1, 1,
+AddVertex,8, 1, -47.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor, 140,140,140
+LoadTexture,..\Ter\asfalto.png,
+SetTextureCoordinates,0, 0, 4,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 4,
+
+CreateMeshBuilder,
+AddVertex,-1.7, 1, -75,
+AddVertex,-1.7, 1, -47.5,
+AddVertex,8, 1, -47.5,
+AddVertex,8, 1, -75,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,..\Ter\asfalto.png,
+setcolor, 140,140,140
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 2, 0,
+SetTextureCoordinates,3, 2, 2,

@@ -1,0 +1,59 @@
+
+
+[MeshBuilder]
+Vertex -15,0,0
+Vertex -15,5,0
+Vertex -10,6,0
+Vertex -5,5,0
+Vertex -5,0,0
+Vertex -5,5,25
+Vertex -5,0,25
+Face 0,1,2,3,4
+Face 4,3,5,6
+color 256,256,256
+[Texture]
+Load a4.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.2
+Coordinates 2, 1, 0
+Coordinates 3, 2, 0.2
+Coordinates 4, 2, 1
+Coordinates 5, 5, 0.2
+Coordinates 6, 5, 1
+[MeshBuilder]
+Vertex -10,6,-0.4
+Vertex -10,6,25.4
+Vertex -4.6,4.92,25.4
+Vertex -4.6,4.92,-0.4
+Vertex -4.6,4.62,25.4
+Vertex -4.6,4.62,-0.4
+Vertex -10,5.7,-0.4
+Face 0,1,2,3
+Face 3,2,1,0
+Face 3,2,4,5
+Face 0,3,5,6
+[Texture]
+Load a4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.4
+Coordinates 3, 0, 0.4
+Coordinates 4, 0, 0
+Coordinates 5, 0, 1
+Coordinates 6, 0, 0.4
+
+[MeshBuilder]
+Vertex -10,6,-0.4
+Vertex -10,5.7,-0.4
+Vertex -15.4,4.62,-0.4
+Vertex -15.4,4.92,-0.4
+Face 0,1,2,3
+[Texture]
+Load a4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.4
+Coordinates 3, 0, 0.4
+
+
+

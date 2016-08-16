@@ -1,0 +1,20 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Personale FGC
+[meshbuilder]
+Vertex 0.0, 2.2, 0
+Vertex 0.7, 2.2, 0
+Vertex 0.7, 0.1, 0
+Vertex 0.0, 0.1, 0
+Face 0,1,2,3
+[texture]
+Load Fg12-PersFGC3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255,255,255
+Rotate 0,1,0,-30
+Translate 0,-0.25,0

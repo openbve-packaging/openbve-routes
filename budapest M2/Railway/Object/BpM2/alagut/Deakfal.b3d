@@ -1,0 +1,80 @@
+;alagútfal szemben
+;Deák tér bal vágány speciális objektum
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;alagút jobb
+[meshbuilder]
+vertex -3.60,-0.300,-0.3
+vertex -3.60,-0.170,-0.3
+vertex -3.60, 0.260,-0.3
+vertex -3.60, 0.943,-0.3
+vertex -3.60, 1.700,-0.3
+vertex -3.60, 2.457,-0.3
+vertex -3.60, 3.140,-0.3
+vertex -3.60, 3.682,-0.3
+vertex -3.60, 4.030,-0.3
+vertex -3.60, 4.150,-0.3
+vertex -3.60, 4.150,-0.3
+
+vertex -0.250,-0.300,-0.3
+vertex -1.606,-0.170,-0.3
+vertex -1.982, 0.260,-0.3
+vertex -2.330, 0.943,-0.3
+vertex -2.450, 1.700,-0.3
+vertex -2.330, 2.457,-0.3
+vertex -1.982, 3.140,-0.3
+vertex -1.440, 3.682,-0.3
+vertex -0.757, 4.030,-0.3
+vertex -5.000, 4.150,-0.3
+vertex -5.000, 4.150,-0.3
+face 10,21,20,9
+face 9,20,19,8
+face 8,19,18,7
+face 7,18,17,6
+face 6,17,16,5
+face 5,16,15,4
+face 4,15,14,3
+face 3,14,13,2
+face 2,13,12,1
+face 1,12,11,0
+color 20,20,20
+
+;alagút jobb
+[meshbuilder]
+vertex 0.250,-0.300,-0.3
+vertex 1.606,-0.170,-0.3
+vertex 1.982, 0.260,-0.3
+vertex 2.330, 0.943,-0.3
+vertex 2.450, 1.700,-0.3
+vertex 2.330, 2.457,-0.3
+vertex 1.982, 3.140,-0.3
+vertex 1.440, 3.682,-0.3
+vertex 0.757, 4.030,-0.3
+vertex 0.000, 4.150,-0.3
+vertex 0.000, 4.150,-0.3
+
+vertex 2.90,-0.300,-0.3
+vertex 2.90,-0.170,-0.3
+vertex 2.90, 0.260,-0.3
+vertex 2.90, 0.943,-0.3
+vertex 2.90, 1.700,-0.3
+vertex 2.90, 2.457,-0.3
+vertex 2.90, 3.140,-0.3
+vertex 2.90, 3.682,-0.3
+vertex 2.90, 4.030,-0.3
+vertex 2.90, 4.150,-0.3
+vertex 2.90, 4.150,-0.3
+translate -6.25,0,0
+face 10,21,20,9
+face 9,20,19,8
+face 8,19,18,7
+face 7,18,17,6
+face 6,17,16,5
+face 5,16,15,4
+face 4,15,14,3
+face 3,14,13,2
+face 2,13,12,1
+face 1,12,11,0
+color 20,20,20

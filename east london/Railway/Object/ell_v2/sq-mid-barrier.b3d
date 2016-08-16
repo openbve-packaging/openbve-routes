@@ -1,0 +1,57 @@
+[MeshBuilder]
+Vertex -6.2,2.3,-0.05
+Vertex -4.8,2.3,-0.05
+Vertex -6.1,2.2,-0.05
+Vertex -4.9,2.2,-0.05
+Vertex -6.1,1.8,-0.05
+Vertex -4.9,1.8,-0.05
+Vertex -6.2,1.7,-0.05
+Vertex -4.8,1.7,-0.05
+
+Vertex -6.2,2.3,0.05
+Vertex -4.8,2.3,0.05
+Vertex -6.1,2.2,0.05
+Vertex -4.9,2.2,0.05
+Vertex -6.1,1.8,0.05
+Vertex -4.9,1.8,0.05
+Vertex -6.2,1.7,0.05
+Vertex -4.8,1.7,0.05
+
+Vertex -6.2,2.1,-0.05
+Vertex -6.2,1.9,-0.05
+Vertex -6.3,1.9,-0.05
+Vertex -6.3,2.1,-0.05
+Vertex -6.2,2.1,0.05
+Vertex -6.3,2.1,0.05
+
+Face 1,3,2,0
+Face 1,7,5,3
+Face 2,4,6,0
+Face 5,7,6,4
+
+Face 9,1,0,8
+Face 9,15,7,1
+Face 0,6,14,8
+
+Face 10,12,4,2
+Face 3,5,13,11
+Face 13,5,4,12
+Face 3,11,10,2
+
+Face 16,17,18,19
+Face 20,16,19,21
+
+Color 90,90,90
+
+[Meshbuilder]
+Vertex -4.9,2.2,0
+Vertex -4.9,1.8,0
+Vertex -6.1,1.8,0
+Vertex -6.1,2.2,0
+Face 0,1,2,3
+[Texture]
+load sq-safe.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0

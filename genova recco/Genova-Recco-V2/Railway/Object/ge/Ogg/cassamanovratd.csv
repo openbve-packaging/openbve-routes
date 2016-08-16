@@ -1,0 +1,450 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+
+;;;;;indicatore deviatoio
+;;supporto
+
+
+CreateMeshBuilder,
+AddVertex, , -0.1,
+AddVertex,-0.04,  -0.1, 0,
+AddVertex,-0.04, 0.2, 0,
+AddVertex,, 0.2, 0,
+AddFace2,0,1,2,3,
+translate, -2.2,-0.,-0.05
+GenerateNormals,
+SetColor,60,60,50,
+
+;;sopra
+CreateMeshBuilder,
+AddVertex,-2.25, 0.1, 0,
+AddVertex,-2.25, 0.1, 0.25,
+AddVertex,-2.0, 0.1, 0.25,
+AddVertex,-2.0, 0.1, 0,
+AddFace2,0,1,2,3,
+translate, -0.1,0.26,-0.1
+GenerateNormals,
+setcolor,50,54,53
+
+
+;;lati
+CreateMeshBuilder,
+AddVertex,-2, -0.05, 0,
+AddVertex,-2, -0.05, 0.25,
+AddVertex,-2, 0.2, 0.25,
+AddVertex,-2, 0.2, 0,
+AddFace2,0,1,2,3,
+translate, -0.1,0.16,-0.1
+GenerateNormals,
+
+LoadTexture,indicatoredeviatoio.bmp,
+SetTextureCoordinates,0,1,0.5,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,,1,
+SetTextureCoordinates,3,1,1,
+
+
+
+CreateMeshBuilder,
+AddVertex,-2, -0.05, 0,
+AddVertex,-2.25, -0.05, 0,
+AddVertex,-2.25, 0.2, 0,
+AddVertex,-2, 0.2, 0,
+AddFace2,0,1,2,3,
+translate, -0.1,0.16,-0.1
+GenerateNormals,
+
+LoadTexture,indicatoredeviatoio.bmp,
+SetTextureCoordinates,0,1,,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,,0.5,
+SetTextureCoordinates,3,1,0.5,
+
+
+
+CreateMeshBuilder,
+AddVertex,-2.25, -0.05, 0,
+AddVertex,-2.25, -0.05, 0.25,
+AddVertex,-2.25, 0.2, 0.25,
+AddVertex,-2.25, 0.2, 0,
+AddFace2,0,1,2,3,
+translate, -0.1,0.16,-0.1
+GenerateNormals,
+LoadTexture,indicatoredeviatoio.bmp,
+SetTextureCoordinates,0,1,0.5,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,,1,
+SetTextureCoordinates,3,1,1,
+
+
+
+CreateMeshBuilder,
+AddVertex,-2, -0.05, 0.25,
+AddVertex,-2.25, -0.05, 0.25,
+AddVertex,-2.25, 0.2, 0.25,
+AddVertex,-2, 0.2, 0.25,
+AddFace2,0,1,2,3,
+translate, -0.1,0.16,-0.1
+GenerateNormals,
+LoadTexture,indicatoredeviatoio.bmp,
+SetTextureCoordinates,0,1,,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,,0.5,
+SetTextureCoordinates,3,1,0.5,
+
+
+
+;cassa di manovra
+;Sopra
+
+CreateMeshBuilder,
+AddVertex,-2.4, 0.1, 0,
+AddVertex,-2.4, 0.1, 0.5,
+AddVertex,-2.0, 0.1, 0.5,
+AddVertex,-2.0, 0.1, 0,
+AddFace,0,1,2,3,
+translate, 0,-0.05,0
+GenerateNormals,
+
+LoadTexture,cassamanovra2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+;sopra inclinato
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.0, 0.1, 0,
+AddVertex,-2.0, 0.1, 0.5,
+AddVertex,-1.7, 0.05, 0.5,
+AddVertex,-1.7, 0.05, 0,
+AddFace2,0,1,2,3,
+translate, 0,-0.05,0
+
+GenerateNormals,
+
+LoadTexture,cassamanovra.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+;davanti
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.4, 0.1, 0,
+AddVertex,-2.4, -0.15, 0,
+AddVertex,-1.7,-0.15, 0,
+AddVertex,-1.7, 0.1, 0,
+AddFace,3,2,1,0,
+translate, 0,-0.05,0
+
+GenerateNormals,
+
+LoadTexture,cassamanovra4.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,1,0,
+SetDecalTransparentColor,  0,0,0,
+
+
+;dietro
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.4, 0.1, 0.5,
+AddVertex,-2.4, -0.15, 0.5,
+AddVertex,-1.7,-0.15, 0.5,
+AddVertex,-1.7, 0.1, 0.5,
+AddFace,0,1,2,3,
+translate, 0,-0.05,0
+
+GenerateNormals,
+
+LoadTexture,cassamanovra4.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,1,0,
+SetDecalTransparentColor,  0,0,0,
+
+
+
+
+
+;posteriore
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.4, 0.1, 0,
+AddVertex,-2.4, 0.1, 0.5,
+AddVertex,-2.4, -0.15, 0.5,
+AddVertex,-2.4, -0.15, 0,
+AddFace,3,2,1,0,
+translate, 0,-0.05,0
+
+GenerateNormals,
+
+LoadTexture,cassamanovra4.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0.5,0,
+SetTextureCoordinates,2,0.5,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,  0,0,0,
+
+
+
+CreateMeshBuilder,
+AddVertex,-1.7, 0.05, 0,
+AddVertex,-1.7, 0.05, 0.5,
+AddVertex,-1.7, -0.15, 0.5,
+AddVertex,-1.7, -0.15, 0,
+AddFace,0,1,2,3,
+translate, 0,-0.05,0
+
+GenerateNormals,
+
+LoadTexture,cassamanovra4.bmp,
+SetTextureCoordinates,0,0,0.2,
+SetTextureCoordinates,1,0.5,0.2,
+SetTextureCoordinates,2,0.5,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,  0,0,0,
+
+
+
+
+
+
+
+;;;Tiranti
+;;sopra
+CreateMeshBuilder,
+AddVertex,-1.4, -0.04, 0.1,
+AddVertex,-1.4, -0.04, 0.4,
+AddVertex,-1.2, -0.04, 0.4,
+AddVertex,-1.2, -0.04, 0.1,
+AddFace2,0,1,2,3,
+translate, 0.15,-0.09,0
+GenerateNormals,
+SetColor,85,60,50,
+;;1
+GenerateNormals,
+
+CreateMeshBuilder,
+cylinder,3,0.02,0.02,2.03,
+rotate,0,0,1,90
+translate, -0.7,-0.15,0.1
+SetColor,85,60,50,
+
+;;2
+GenerateNormals,
+
+CreateMeshBuilder,
+cylinder,3,0.02,0.02,0.67,
+rotate,0,0,1,90
+translate, -1.4,-0.15,0.2
+SetColor,85,60,50,
+
+;;3
+GenerateNormals,
+
+CreateMeshBuilder,
+cylinder,3,0.02,0.02,2.03,
+rotate,0,0,1,90
+translate, -0.7,-0.15,0.3
+SetColor,85,60,50,
+
+;;4
+GenerateNormals,
+
+CreateMeshBuilder,
+cylinder,3,0.02,0.02,0.67,
+rotate,0,0,1,90
+translate, -1.4,-0.15,0.4
+SetColor,85,60,50,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Copritiranti
+;;sopra
+CreateMeshBuilder,
+AddVertex,-1.7, -0.04, 0,
+AddVertex,-1.7, -0.04, 0.5,
+AddVertex,-1.2, -0.04, 0.5,
+AddVertex,-1.2, -0.04, 0,
+AddFace2,0,1,2,3,
+translate, 0,-0.05,0
+GenerateNormals,
+
+LoadTexture,copritiranti.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,3,0,
+SetTextureCoordinates,3,3,1,
+
+;;davanti
+CreateMeshBuilder,
+AddVertex,-1.7, -0.04, 0,
+AddVertex,-1.7, -0.1, 0,
+AddVertex,-1.2, -0.1, 0,
+AddVertex,-1.2, -0.04, 0,
+AddFace,3,2,1,0,
+translate, 0,-0.05,0
+GenerateNormals,
+setcolor,105,105,110
+
+;;Dietro
+CreateMeshBuilder,
+AddVertex,-1.7, -0.04, 0.5,
+AddVertex,-1.7, -0.1, 0.5,
+AddVertex,-1.2, -0.1, 0.5,
+AddVertex,-1.2, -0.04, 0.5,
+AddFace2,0,1,2,3,
+translate, 0,-0.05,0
+GenerateNormals,
+
+setcolor,105,105,110
+
+
+
+;;CEMENTO avanti
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.6, 0.06, -0.2,
+AddVertex,-2.6, -0.40, -0.2,
+AddVertex,-1.7, -0.40, -0.2,
+AddVertex,-1.7, 0.06, -0.2,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,h5a.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+CreateMeshBuilder,
+AddVertex,-2.6, 0.06, -0.14,
+AddVertex,-2.6, 0.06, -0.2,
+AddVertex,-1.7, 0.06, -0.2,
+AddVertex,-1.7, 0.06, -0.14,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,h5a.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+CreateMeshBuilder,
+AddVertex,-1.7, 0.06, -0.2,
+AddVertex,-1.7, 0.06, -0.14,
+AddVertex,-1.7, -0.40, -0.14,
+AddVertex,-1.7, -0.40,-0.2,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,h5a.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+;cemento lato
+CreateMeshBuilder,
+AddVertex,-2.6, 0.06, -0.2,
+AddVertex,-2.6, 0.06, 0.65,
+AddVertex,-2.6, -0.40, 0.65,
+AddVertex,-2.6, -0.40, -0.2,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,h5a.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+
+CreateMeshBuilder,
+AddVertex,-2.6, 0.06, -0.2,
+AddVertex,-2.6, 0.06, 0.65,
+AddVertex,-2.54, 0.06, 0.65,
+AddVertex,-2.54, 0.06, -0.2,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,h5a.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+;cemento dietro
+CreateMeshBuilder,
+AddVertex,-2.6, 0.06, 0.65,
+AddVertex,-2.6, -0.40, 0.65,
+AddVertex,-1.7, -0.40, 0.65,
+AddVertex,-1.7, 0.06, 0.65,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,h5a.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+
+CreateMeshBuilder,
+AddVertex,-2.6, 0.06, 0.65,
+AddVertex,-2.6, 0.06, 0.59,
+AddVertex,-1.7, 0.06, 0.59,
+AddVertex,-1.7, 0.06, 0.65,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,h5a.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+CreateMeshBuilder,
+AddVertex,-1.7, 0.06, 0.59,
+AddVertex,-1.7, 0.06, 0.65,
+AddVertex,-1.7, -0.40, 0.65,
+AddVertex,-1.7, -0.40, 0.59,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,h5a.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+

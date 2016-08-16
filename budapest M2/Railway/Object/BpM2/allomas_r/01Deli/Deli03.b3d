@@ -1,0 +1,210 @@
+;bal fal1
+[MeshBuilder]
+vertex -4.65,3.5,0
+vertex -4.65,3.2,0
+vertex -4.65,1.1,0
+vertex -4.65,3.5,10
+vertex -4.65,3.2,10
+vertex -4.65,1.1,10
+;
+vertex -4.65,3.2,0
+vertex -4.65,3.5,0
+vertex -4.65,3.5,25
+vertex -4.65,3.2,25
+face 0,3,4,1
+face 1,4,5,2
+face 6,7,8,9
+Load Bfal.bmp
+coordinates 0,0,0
+coordinates 1,0,0.125
+coordinates 2,0,1
+coordinates 3,0.4,0
+coordinates 4,0.4,0.125
+coordinates 5,0.4,1
+coordinates 6,0,0.125
+coordinates 7,0,0
+coordinates 8,1,0
+coordinates 9,1,0.125
+
+;bal fal2
+[MeshBuilder]
+vertex -4.65,1.1,13
+vertex -4.65,3.2,13
+vertex -4.65,3.2,16
+vertex -4.65,1.1,16
+vertex -4.65,1.1,19
+vertex -4.65,3.2,19
+vertex -4.65,3.2,22
+vertex -4.65,1.1,22
+face 0,1,2,3
+face 4,5,6,7
+Load Bfal.bmp
+coordinates 0,0.125,1
+coordinates 1,0.125,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0.125,1
+coordinates 5,0.125,0
+coordinates 6,1,0
+coordinates 7,1,1
+
+;áttörésfal
+[MeshBuilder]
+vertex -11,1.1,13
+vertex -11,3.2,13
+vertex -4.65,3.2,13
+vertex -4.65,1.1,13
+vertex -11,1.1,19
+vertex -11,3.2,19
+vertex -4.65,3.2,19
+vertex -4.65,1.1,19
+vertex -11,1.1,25
+vertex -11,3.2,25
+vertex -4.65,3.2,25
+vertex -4.65,1.1,25
+face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+Load Bfal.bmp
+coordinates 0,0.125,1
+coordinates 1,0.125,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 4,0.125,1
+coordinates 5,0.125,0
+coordinates 6,1,0
+coordinates 7,1,1
+coordinates 8,0.125,1
+coordinates 9,0.125,0
+coordinates 10,1,0
+coordinates 11,1,1
+
+;áttöréstetõ
+[MeshBuilder]
+Vertex -16.05,3.2,9
+Vertex -16.05,3.2,26
+vertex -4.65,3.2,26
+vertex -4.65,3.2,9
+face 3,2,1,0
+color 120,120,120
+
+;jobb fal
+[MeshBuilder]
+vertex 2,3.2,25
+vertex 2,-0.2,25
+vertex 2,3.2,0
+vertex 2,-0.2,0
+face 3,1,0,2
+Load Jfal.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,2,0
+coordinates 3,2,1
+
+;jobb fal
+[MeshBuilder]
+vertex 2,3.2,25
+vertex 2,-0.2,25
+vertex 2,3.2,0
+vertex 2,-0.2,0
+face 3,1,0,2
+Load Jfal.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,2,0
+coordinates 3,2,1
+
+;jobb irány
+;[MeshBuilder]
+;vertex 1.8,3.5,25
+;vertex 2,3.2,25
+;vertex 1.8,3.5,0
+;vertex 2,3.2,0
+;face 3,1,0,2
+;color 255,0,0
+
+;-------------------
+
+;Déli tábla
+;szöveg
+[MeshBuilder]
+Vertex -4.55,3.2,-1
+Vertex -4.55,3.5,-1
+Vertex -4.55,3.5, 1
+Vertex -4.55,3.2, 1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FDelir.bmp
+Coordinates 0,0.18,1
+Coordinates 1,0.18,0
+Coordinates 2,0.82,0
+Coordinates 3,0.82,1
+translate 0,0,8.5
+
+[MeshBuilder]
+Vertex -4.55,3.2,-1
+Vertex -4.55,3.5,-1
+Vertex -4.65,3.2,-1
+Vertex -4.65,3.5,-1
+Vertex -4.55,3.2, 1
+Vertex -4.65,3.2, 1
+face 2,3,1,0
+face 5,2,0,4
+color 0,0,0
+translate 0,0,8.5
+
+;kijárat
+;szöveg
+[MeshBuilder]
+Vertex -0.75,0.25,-0.1
+Vertex  0.75,0.25,-0.1
+Vertex  0.75,0.00,-0.1
+Vertex -0.75,0.00,-0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_bal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate -3.6,3.25,11
+
+[MeshBuilder]
+Vertex -0.75,0.00, 0.1
+Vertex -0.75,0.00,-0.1
+Vertex  0.75,0.00,-0.1
+Vertex  0.75,0.00, 0.1
+Vertex  0.75,0.25,-0.1
+Vertex  0.75,0.25, 0.1
+Face 0,1,2,3
+Face 2,4,5,3
+color 0,0,0
+translate -3.6,3.25,11
+
+;kijárat
+;szöveg
+[MeshBuilder]
+Vertex -0.75,0.25,-0.1
+Vertex  0.75,0.25,-0.1
+Vertex  0.75,0.00,-0.1
+Vertex -0.75,0.00,-0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_bal.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+translate -3.6,3.25,23
+
+[MeshBuilder]
+Vertex -0.75,0.00, 0.1
+Vertex -0.75,0.00,-0.1
+Vertex  0.75,0.00,-0.1
+Vertex  0.75,0.00, 0.1
+Vertex  0.75,0.25,-0.1
+Vertex  0.75,0.25, 0.1
+Face 0,1,2,3
+Face 2,4,5,3
+color 0,0,0
+translate -3.6,3.25,23

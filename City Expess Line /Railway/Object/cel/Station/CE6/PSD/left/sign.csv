@@ -1,0 +1,17 @@
+
+
+CreateMeshBuilder,
+AddVertex,-0.001,2.2,2.575
+AddVertex,-0.001,2.4,2.575
+AddVertex,-0.001,2.4,1.025
+AddVertex,-0.001,2.2,1.025
+AddFace2,1,2,3,0
+LoadTexture,ce6dest.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,255
+SetEmissiveColor,255,255,255,
+
+TranslateAll,0,0,0.9

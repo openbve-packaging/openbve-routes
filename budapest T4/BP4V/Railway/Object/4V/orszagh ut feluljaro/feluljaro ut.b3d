@@ -1,0 +1,64 @@
+﻿[Meshbuilder]
+Vertex 0, 7, 0
+Vertex 10, 7, 0
+Vertex 10, 7, -25
+Vertex 0,7,-25
+Face2 0, 1, 2, 3
+[Texture]
+Load aszfalthid.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+[Meshbuilder]
+Vertex 0, 7, -25
+Vertex 10, 7, -25
+Vertex 10, 5.25, -50
+Vertex 0,5.25,-50
+Face2 0, 1, 2, 3
+[Texture]
+Load aszfalthid.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+[Meshbuilder]
+Vertex 0, 5.25, -50
+Vertex 10, 5.25, -50
+Vertex 10, 3.5, -75
+Vertex 0,3.5,-75
+Face2 0, 1, 2, 3
+[Texture]
+Load aszfalthid.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+[Meshbuilder]
+Vertex 0, 3.5, -75
+Vertex 10, 3.5, -75
+Vertex 10, 1.75, -100
+Vertex 0,1.75,-100
+Face2 0, 1, 2, 3
+[Texture]
+Load aszfalthid.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+[Meshbuilder]
+Vertex 0, 1.75, -100
+Vertex 10, 1.75, -100
+Vertex 10, 0, -125
+Vertex 0,0,-125
+Face2 0, 1, 2, 3
+[Texture]
+Load aszfalthid.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2

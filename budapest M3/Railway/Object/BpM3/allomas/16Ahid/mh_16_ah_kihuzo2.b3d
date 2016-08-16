@@ -1,0 +1,125 @@
+;Árpád híd peron, 12 méter hosszú
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;peron teteje
+[MeshBuilder]
+Vertex -0.00,1.1,0
+Vertex -1.00,1.1,0
+Vertex -1.00,1.1,12
+Vertex -0.00,1.1,12
+Face 0,1,2,3
+[Texture]
+Load mh_16_ah_kihuzo_1.bmp
+Coordinates 0,2,1
+Coordinates 1,2,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[MeshBuilder]
+;szélei
+Vertex  0.00,0.9,0
+Vertex  0.00,0.9,12
+Vertex  0.00,1.1,12
+Vertex  0.00,1.1,0
+Vertex -1.00,0.9,0
+Vertex -1.00,0.9,12
+Vertex -1.00,1.1,12
+Vertex -1.00,1.1,0
+;eleje
+Vertex  0.00,0.9,0
+Vertex  0.00,1.1,0
+Vertex -1.00,1.1,0
+Vertex -1.00,0.9,0
+Face 3,2,1,0
+Face 4,5,6,7
+Face 11,10,9,8
+color 36,36,36
+
+;peronoldal
+[MeshBuilder]
+Vertex -0.25,-0.3,0
+Vertex -0.25,-0.3,12
+Vertex -0.25,0.9,12
+Vertex -0.25,0.9,0
+Vertex -0.70,-0.3,0
+Vertex -0.70,-0.3,12
+Vertex -0.70,0.9,12
+Vertex -0.70,0.9,0
+;eleje
+Vertex -0.25,-0.3,0
+Vertex -0.25,0.9,0
+Vertex -0.70,0.9,0
+Vertex -0.70,-0.3,0
+Face 3,2,1,0
+Face 4,5,6,7
+Face 11,10,9,8
+[Texture]
+Load mh_16_ah_kihuzo_2.bmp
+Coordinates 0,6,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,6,0
+Coordinates 4,6,1
+Coordinates 5,0,1
+Coordinates 6,0,0
+Coordinates 7,6,0
+Coordinates 8,0,1
+Coordinates 9,0,0
+Coordinates 10,1,0
+Coordinates 11,1,1
+
+;lámpatest 1
+;oldalak
+[MeshBuilder]
+vertex -0.70,3.90,-0.5
+vertex -0.70,4.00,-0.5
+vertex -0.40,4.00,-0.5
+vertex -0.40,3.90,-0.5
+vertex -0.70,3.90, 0.5
+vertex -0.70,4.00, 0.5
+vertex -0.40,4.00, 0.5
+vertex -0.40,3.90, 0.5
+Face 0,1,2,3
+Face 4,5,6,7
+Face 4,5,1,0
+Face 3,2,6,7
+color 55,55,55
+translate 0,0,3
+
+[MeshBuilder]
+vertex -0.70,3.90, 0.5
+vertex -0.70,3.90,-0.5
+vertex -0.40,3.90,-0.5
+vertex -0.40,3.90, 0.5
+Face 0,1,2,3
+color 255,255,255
+translate 0,0,3
+
+;lámpatest 2
+;oldalak
+[MeshBuilder]
+vertex -0.70,3.90,-0.5
+vertex -0.70,4.00,-0.5
+vertex -0.40,4.00,-0.5
+vertex -0.40,3.90,-0.5
+vertex -0.70,3.90, 0.5
+vertex -0.70,4.00, 0.5
+vertex -0.40,4.00, 0.5
+vertex -0.40,3.90, 0.5
+Face 0,1,2,3
+Face 4,5,6,7
+Face 4,5,1,0
+Face 3,2,6,7
+color 55,55,55
+translate 0,0,9
+
+[MeshBuilder]
+vertex -0.70,3.90, 0.5
+vertex -0.70,3.90,-0.5
+vertex -0.40,3.90,-0.5
+vertex -0.40,3.90, 0.5
+Face 0,1,2,3
+color 255,255,255
+translate 0,0,9

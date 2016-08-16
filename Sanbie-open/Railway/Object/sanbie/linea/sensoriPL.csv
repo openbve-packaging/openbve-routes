@@ -1,0 +1,236 @@
+;;basamento
+CreateMeshBuilder,
+Cube, 0.10,0.05,0.1,
+Translate, -0.58,-0.10,0.3,
+GenerateNormals,
+Setcolor,200,200,200,
+
+; coperchio
+CreateMeshBuilder
+Addvertex, -0.65,-0.04,0.38
+Addvertex, -0.5,-0.04,0.38
+Addvertex, -0.5,-0.04,0.22
+Addvertex, -0.65,-0.04,0.22
+Addface2, 0,1,2,3
+Generatenormals
+LoadTexture,..\oggetti\cabintel.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+;;basamento lato
+CreateMeshBuilder,
+Cube, 0.07,0.1,0.07,
+Translate, 2,-0.15,0.3,
+GenerateNormals,
+Setcolor,200,200,200,
+
+CreateMeshBuilder,
+cylinder, 4,0.06,0.08,0.15
+Translate, 2,-0.02,0.3,
+GenerateNormals,
+Setcolor,150,150,150
+
+; collegamento
+CreateMeshBuilder
+Addvertex, -0.68,-0.15,0.3
+Addvertex, -0.68,-0.15,0.35
+Addvertex, 2,-0.15,0.35
+Addvertex, 2,-0.15,0.3
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,100,100,100,
+
+
+
+; alette
+; 1
+CreateMeshBuilder
+Addvertex, -0.68,-0.05,0.15
+Addvertex, -0.5,-0.05,0.15
+Addvertex, -0.5,-0.1,0.15
+Addvertex, -0.68,-0.1,0.15
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+CreateMeshBuilder
+Addvertex, -0.5,-0.05,0.15
+Addvertex, -0.45,-0.05,0.1
+Addvertex, -0.45,-0.1,0.1
+Addvertex, -0.5,-0.1,0.15
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+; 2
+CreateMeshBuilder
+Addvertex, -0.68,-0.05,0.45
+Addvertex, -0.5,-0.05,0.45
+Addvertex, -0.5,-0.1,0.45
+Addvertex, -0.68,-0.1,0.45
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+CreateMeshBuilder
+Addvertex, -0.5,-0.05,0.45
+Addvertex, -0.45,-0.05,0.5
+Addvertex, -0.45,-0.1,0.5
+Addvertex, -0.5,-0.1,0.45
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+; 2- viti
+CreateMeshBuilder,
+cylinder, 6,0.015,0.015,0.15
+translate, -0.53,-0.10,0.17
+Setcolor,0,0,0,
+
+CreateMeshBuilder,
+cylinder, 6,0.015,0.015,0.15
+translate, -0.63,-0.10,0.17
+Setcolor,0,0,0,
+
+CreateMeshBuilder,
+cylinder, 6,0.015,0.015,0.15
+translate, -0.53,-0.10,0.43
+Setcolor,0,0,0,
+
+CreateMeshBuilder,
+cylinder, 6,0.015,0.015,0.15
+translate, -0.63,-0.10,0.43
+Setcolor,0,0,0,
+
+; base
+CreateMeshBuilder
+Addvertex, -0.68,-0.15,0.15
+Addvertex, -0.5,-0.15,0.15
+Addvertex, -0.5,-0.15,0.1
+Addvertex, -0.68,-0.15,0.1
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+
+;; seconda scatola
+
+
+;;basamento1
+CreateMeshBuilder,
+Cube, 0.10,0.05,0.1,
+Translate, 0.58,-0.10,1.5,
+GenerateNormals,
+Setcolor,200,200,200,
+
+; alette2
+; 1
+CreateMeshBuilder
+Addvertex, 0.68,-0.05,1.35
+Addvertex, 0.5,-0.05,1.35
+Addvertex, 0.5,-0.1,1.35
+Addvertex, 0.68,-0.1,1.35
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+CreateMeshBuilder
+Addvertex, 0.5,-0.05,1.35
+Addvertex, 0.45,-0.05,1.3
+Addvertex, 0.45,-0.1,1.3
+Addvertex, 0.5,-0.1,1.35
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+; 2
+CreateMeshBuilder
+Addvertex, 0.68,-0.05,1.65
+Addvertex, 0.5,-0.05,1.65
+Addvertex, 0.5,-0.1,1.65
+Addvertex, 0.68,-0.1,1.65
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+CreateMeshBuilder
+Addvertex, 0.5,-0.05,1.65
+Addvertex, 0.45,-0.05,1.7
+Addvertex, 0.45,-0.1,1.7
+Addvertex, 0.5,-0.1,1.65
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+; 2- viti
+CreateMeshBuilder,
+cylinder, 6,0.015,0.015,0.15
+translate, 0.53,-0.10,1.37
+Setcolor,0,0,0,
+
+CreateMeshBuilder,
+cylinder, 6,0.015,0.015,0.15
+translate, 0.63,-0.10,1.37
+Setcolor,0,0,0,
+
+CreateMeshBuilder,
+cylinder, 6,0.015,0.015,0.15
+translate, 0.53,-0.10,1.63
+Setcolor,0,0,0,
+
+CreateMeshBuilder,
+cylinder, 6,0.015,0.015,0.15
+translate, 0.63,-0.10,1.63
+Setcolor,0,0,0,
+
+; base2
+CreateMeshBuilder
+Addvertex, 0.68,-0.15,1.35
+Addvertex, 0.5,-0.15,1.35
+Addvertex, 0.5,-0.15,1.3
+Addvertex, 0.68,-0.15,1.3
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,0,0,0,
+
+; coperchio
+CreateMeshBuilder
+Addvertex, 0.65,-0.04,1.58
+Addvertex, 0.5,-0.04,1.58
+Addvertex, 0.5,-0.04,1.42
+Addvertex, 0.65,-0.04,1.42
+Addface2, 0,1,2,3
+Generatenormals
+LoadTexture,..\oggetti\cabintel.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+;;basamento lato
+CreateMeshBuilder,
+Cube, 0.07,0.1,0.07,
+Translate, 2,-0.15,1.5,
+GenerateNormals,
+Setcolor,200,200,200,
+
+CreateMeshBuilder,
+cylinder, 4,0.06,0.08,0.15
+Translate, 2,-0.02,1.5,
+GenerateNormals,
+Setcolor,150,150,150,
+
+; collegamento
+CreateMeshBuilder
+Addvertex, 0.5,-0.15,1.5
+Addvertex, 0.5,-0.15,1.55
+Addvertex, 2,-0.15,1.55
+Addvertex, 2,-0.15,1.5
+Addface2, 0,1,2,3
+Generatenormals
+Setcolor,100,100,100,
+

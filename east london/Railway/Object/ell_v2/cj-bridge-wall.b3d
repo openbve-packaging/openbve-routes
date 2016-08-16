@@ -1,0 +1,182 @@
+[MeshBuilder]
+Vertex 0.5,0.5,25
+Vertex 0.5,1,22.5
+Vertex 0.5,1.5,20
+Vertex 0.5,1.75,17.5
+Vertex 0.5,2,15
+Vertex 0.5,2,10
+Vertex 0.5,1.75,7.5
+Vertex 0.5,1.5,5
+Vertex 0.5,1,2.5
+Vertex 0.5,0.5,0
+
+Vertex -0.5,0.5,25
+Vertex -0.5,1,22.5
+Vertex -0.5,1.5,20
+Vertex -0.5,1.75,17.5
+Vertex -0.5,2,15
+Vertex -0.5,2,10
+Vertex -0.5,1.75,7.5
+Vertex -0.5,1.5,5
+Vertex -0.5,1,2.5
+Vertex -0.5,0.5,0
+
+Face2 0,1,11,10
+Face2 1,2,12,11
+Face2 2,3,13,12
+Face2 3,4,14,13
+Face2 4,5,15,14
+Face2 5,6,16,15
+Face2 6,7,17,16
+Face2 7,8,18,17
+Face2 8,9,19,18
+
+[Texture]
+load metal1.bmp
+Coordinates  0,1,0
+Coordinates  1,1,1
+Coordinates  2,1,2
+Coordinates  3,1,3
+Coordinates  4,1,4
+Coordinates  5,1,6
+Coordinates  6,1,7
+Coordinates  7,1,8
+Coordinates  8,1,9
+Coordinates  9,1,10
+Coordinates 10,0,0
+Coordinates 11,0,1
+Coordinates 12,0,2
+Coordinates 13,0,3
+Coordinates 14,0,4
+Coordinates 15,0,6
+Coordinates 16,0,7
+Coordinates 17,0,8
+Coordinates 18,0,9
+Coordinates 19,0,10
+
+[MeshBuilder]
+Vertex -0.3,0.5,25
+Vertex -0.3,1,22.5
+Vertex -0.3,1.5,20
+Vertex -0.3,1.75,17.5
+Vertex -0.3,2,15
+Vertex -0.3,2,10
+Vertex -0.3,1.75,7.5
+Vertex -0.3,1.5,5
+Vertex -0.3,1,2.5
+Vertex -0.3,0.5,0
+
+Vertex -0.3,0,25
+Vertex -0.3,0,22.5
+Vertex -0.3,0,20
+Vertex -0.3,0,17.5
+Vertex -0.3,0,15
+Vertex -0.3,0,10
+Vertex -0.3,0,7.5
+Vertex -0.3,0,5
+Vertex -0.3,0,2.5
+Vertex -0.3,0,0
+
+Face 1,11,10,0
+Face 2,12,11,1
+Face 3,13,12,2
+Face 4,14,13,3
+Face 5,15,14,4
+Face 6,16,15,5
+Face 7,17,16,6
+Face 8,18,17,7
+Face 9,19,18,8
+
+[Texture]
+load metal1.bmp
+Coordinates  0,0,0.5
+Coordinates  1,1,1
+Coordinates  2,2,1.5
+Coordinates  3,3,1.75
+Coordinates  4,4,2
+Coordinates  5,6,2
+Coordinates  6,7,1.75
+Coordinates  7,8,1.5
+Coordinates  8,9,1
+Coordinates  9,10,0.5
+
+Coordinates 10,0,0
+Coordinates 11,1,0
+Coordinates 12,2,0
+Coordinates 13,3,0
+Coordinates 14,4,0
+Coordinates 15,6,0
+Coordinates 16,7,0
+Coordinates 17,8,0
+Coordinates 18,9,0
+Coordinates 19,10,0
+
+[MeshBuilder]
+Vertex 0.3,0.5,25
+Vertex 0.3,1,22.5
+Vertex 0.3,1.5,20
+Vertex 0.3,1.75,17.5
+Vertex 0.3,2,15
+Vertex 0.3,2,10
+Vertex 0.3,1.75,7.5
+Vertex 0.3,1.5,5
+Vertex 0.3,1,2.5
+Vertex 0.3,0.5,0
+
+Vertex 0.3,0,25
+Vertex 0.3,0,22.5
+Vertex 0.3,0,20
+Vertex 0.3,0,17.5
+Vertex 0.3,0,15
+Vertex 0.3,0,10
+Vertex 0.3,0,7.5
+Vertex 0.3,0,5
+Vertex 0.3,0,2.5
+Vertex 0.3,0,0
+
+Face 0,10,11,1
+Face 1,11,12,2
+Face 2,12,13,3
+Face 3,13,14,4
+Face 4,14,15,5
+Face 5,15,16,6
+Face 6,16,17,7
+Face 7,17,18,8
+Face 8,18,19,9
+
+[Texture]
+load metal1.bmp
+Coordinates  0,0,0.5
+Coordinates  1,1,1
+Coordinates  2,2,1.5
+Coordinates  3,3,1.75
+Coordinates  4,4,2
+Coordinates  5,6,2
+Coordinates  6,7,1.75
+Coordinates  7,8,1.5
+Coordinates  8,9,1
+Coordinates  9,10,0.5
+
+Coordinates 10,0,0
+Coordinates 11,1,0
+Coordinates 12,2,0
+Coordinates 13,3,0
+Coordinates 14,4,0
+Coordinates 15,6,0
+Coordinates 16,7,0
+Coordinates 17,8,0
+Coordinates 18,9,0
+Coordinates 19,10,0
+
+[Meshbuilder]
+Vertex 0.3,0.5,0
+Vertex 0.3,0,0
+Vertex -0.3,0,0
+Vertex -0.3,0.5,0
+Face 0,1,2,3
+[Texture]
+load metal1.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0

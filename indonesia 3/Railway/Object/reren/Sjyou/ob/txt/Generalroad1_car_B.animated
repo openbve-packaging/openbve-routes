@@ -1,0 +1,19 @@
+[Object]
+Position = 0, 0, 1
+States = ../car/car_B.csv
+
+[Object]
+Position = -0.4, -2.3, 0.95
+States = ../mark\right_yellow.csv, ../../../Null.csv
+StateFunction = floor[mod[time*1.9,2]]
+
+;------------------------
+
+[Object]
+Position = 0.6, 0, -8
+States = ../car/car_A.csv
+
+[Object]
+Position = -0.4, -2.0, -8.05
+States = ../mark\right_yellow.csv, ../../../Null.csv
+StateFunction = floor[mod[time*2.2,2]]

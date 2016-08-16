@@ -1,0 +1,152 @@
+CreateMeshBuilder
+AddVertex,3.500,4,-25
+AddVertex,3.500,.1,-25
+AddVertex,3.500,.1,15.2
+AddVertex,3.500,4,15.2
+AddFace,0,1,2,3
+SetColor,200,200,200
+GenerateNormals
+LoadTexture,kasagi4.bmp
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,-2,1
+SetTextureCoordinates,3,-2,0
+SetTextureCoordinates,0,0,0
+
+CreateMeshBuilder
+AddVertex,00,1.5,-25
+AddVertex,00,.1,-25
+AddVertex,00,.1,15.2
+AddVertex,00,1.5,15.2
+AddFace,0,1,2,3
+SetColor,0,60,20[,150]
+GenerateNormals
+
+
+CreateMeshBuilder
+AddVertex,3.5,4,15
+AddVertex,3.5,4,-25
+AddVertex,0,3.3,-25
+AddVertex,0,3.3,15
+AddFace,0,1,2,3
+SetColor,200,200,200
+GenerateNormals
+LoadTexture, heri2.bmp
+SetTextureCoordinates, 1, 0, 10
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 1, 0
+SetTextureCoordinates, 0, 1, 10
+
+CreateMeshBuilder
+AddVertex,6,5.6,15
+AddVertex,6,5.6,-25
+AddVertex,3.5,4,-25
+AddVertex,3.5,4,15
+AddFace,0,1,2,3
+SetColor,160,60,60
+GenerateNormals
+LoadTexture, heri2.bmp
+SetTextureCoordinates, 1, 0, 10
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 1, 0
+SetTextureCoordinates, 0, 1, 10
+
+
+
+CreateMeshBuilder
+AddVertex,.1,3.3,0
+AddVertex,.1,.1,0
+AddVertex,0,.1,0
+AddVertex,0,3.3,0
+AddFace2,0,1,2,3
+SetColor,200,200,200
+
+CreateMeshBuilder
+AddVertex,.1,3.3,0
+AddVertex,.1,.1,0
+AddVertex,0,.1,0
+AddVertex,0,3.3,0
+AddFace2,0,1,2,3
+SetColor,200,200,200
+Translate,0,0,-25
+
+CreateMeshBuilder
+AddVertex,.1,3.3,0
+AddVertex,.1,.1,0
+AddVertex,0,.1,0
+AddVertex,0,3.3,0
+AddFace2,0,1,2,3
+SetColor,200,200,200
+Translate,0,0,-20
+
+CreateMeshBuilder
+AddVertex,.1,3.3,0
+AddVertex,.1,.1,0
+AddVertex,0,.1,0
+AddVertex,0,3.3,0
+AddFace2,0,1,2,3
+SetColor,200,200,200
+Translate,0,0,-15
+
+CreateMeshBuilder
+AddVertex,.1,3.3,0
+AddVertex,.1,.1,0
+AddVertex,0,.1,0
+AddVertex,0,3.3,0
+AddFace2,0,1,2,3
+SetColor,200,200,200
+Translate,0,0,-10
+
+CreateMeshBuilder
+AddVertex,.1,3.3,0
+AddVertex,.1,.1,0
+AddVertex,0,.1,0
+AddVertex,0,3.3,0
+AddFace2,0,1,2,3
+SetColor,200,200,200
+Translate,0,0,-5
+
+CreateMeshBuilder
+AddVertex,.1,3.3,0
+AddVertex,.1,.1,0
+AddVertex,0,.1,0
+AddVertex,0,3.3,0
+AddFace2,0,1,2,3
+SetColor,200,200,200
+Translate,0,0,5
+
+CreateMeshBuilder
+AddVertex,.1,3.3,0
+AddVertex,.1,.1,0
+AddVertex,0,.1,0
+AddVertex,0,3.3,0
+AddFace2,0,1,2,3
+SetColor,200,200,200
+Translate,0,0,10
+
+CreateMeshBuilder
+AddVertex,.1,3.3,0
+AddVertex,.1,.1,0
+AddVertex,0,.1,0
+AddVertex,0,3.3,0
+AddFace2,0,1,2,3
+SetColor,200,200,200
+Translate,0,0,15
+
+
+
+CreateMeshBuilder
+AddVertex,00,1.5s,-25
+AddVertex,00,.1,-25
+AddVertex,00,.1,15.2
+AddVertex,00,1.5,15.2
+AddFace,0,1,2,3
+SetColor,0,60,20
+GenerateNormals
+LoadTexture, hasigo.bmp
+SetTextureCoordinates, 1, 0, 10
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 1, 0
+SetTextureCoordinates, 0, 1, 10
+SetDecalTransparentColor, 0, 0, 255
+
+

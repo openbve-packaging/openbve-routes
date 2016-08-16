@@ -1,0 +1,62 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Muro di contenimento prefabbricato mt12.6(dritto o in curva a sinistra)
+[MeshBuilder] ; Muro interrato
+vertex -3.9 , 1.9 , -0.1
+vertex -3.9 , 1.9 , 12.5
+vertex -3.0 ,-0.3 , 12.5
+vertex -3.0 ,-0.3 ,-0.1
+vertex -4.2 ,1.9 , 12.5
+vertex -4.2 ,1.9 ,-0.1
+vertex -3.4 ,-0.3 ,-0.1
+vertex -4.2 ,1.9 ,-0.1
+Face 0,1,2,3
+Face 5,4,1,0
+Face 7,0,3,6
+Translate 0.9,0,0
+[texture]
+load MuroAperto.bmp
+coordinates 0, 0.45, 0.0
+coordinates 1, 6.55, 0.0
+coordinates 2, 6.55, 1.0
+coordinates 3, 0.45, 1.0
+coordinates 4, 6.55, 0.05
+coordinates 5, 0.45, 0.05
+coordinates 6, 0.55, 1.0
+coordinates 7, 0.55, 0.0
+transparent 0,0,255
+
+[MeshBuilder] ; Rete metallica
+vertex -4.0 , 3.4 , -0.1
+vertex -4.0 , 3.4 , 12.8
+vertex -4.0 , 1.9 , 12.8  
+vertex -4.0 , 1.9 ,-0.1 
+Face 0,1,2,3
+Translate 0.9,0,0
+[texture]
+load ..\fence1.bmp
+coordinates 0, 0, 0.0
+coordinates 1, 6, 0.0
+coordinates 2, 6, 1.0
+coordinates 3, 0, 1.0
+transparent 0,0,0
+
+
+
+[MeshBuilder]; Ghiaia a copertura
+Vertex -2.7, -0.25, 12.8
+Vertex -1.0, -0.25, 12.8
+Vertex -1.0, -0.25, -0.3
+Vertex -2.7, -0.25, -0.3
+Face 0,1,2,3
+Translate 0.6,0,0
+[texture]
+load ..\Rails\Trav-gray.bmp
+Coordinates 0, 0.4,0
+Coordinates 1, 0,  0
+Coordinates 2, 0, 10
+Coordinates 3, 0.4, 10
+
+

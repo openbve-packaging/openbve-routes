@@ -1,0 +1,51 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;pavimento
+CreateMeshBuilder,
+AddVertex,6.4, 0.25, -0.3,
+AddVertex,6.4, 0.25, 25,
+AddVertex,1.5, 0.25, 25,
+AddVertex,1.5, 0.25, -0.3,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 6,
+SetTextureCoordinates,2, 1, 6,
+SetTextureCoordinates,3, 1, 0,
+
+
+
+
+;;;bordo sinistro
+
+CreateMeshBuilder,
+AddVertex,1.5, -0.45, -0.3,
+AddVertex,1.5, -0.45, 25,
+AddVertex,1.5, 0.25, 25,
+AddVertex,1.5, 0.25, -0.3,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+;;;;bordo destro
+
+CreateMeshBuilder,
+AddVertex,6.4, -0.45, -0.3,
+AddVertex,6.4, -0.45, 25,
+AddVertex,6.4, 0.25, 25,
+AddVertex,6.4, 0.25, -0.3,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,

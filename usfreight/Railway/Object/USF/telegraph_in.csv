@@ -1,0 +1,38 @@
+;(c) STEVE GREEN 2002
+;
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+CreateMeshBuilder,
+AddVertex,-12, 14.0, -0.3,
+AddVertex,-4, 6, 25.3,
+AddVertex,-4, 7.4, 25.3,
+AddVertex,-12, 15.4, -0.3,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,telegraph.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+SetDecalTransparentColor,0, 0, 0,
+
+CreateMeshBuilder,
+AddVertex,-13.5, 14.0, -0.3,
+AddVertex,-5.5, 6, 25.3,
+AddVertex,-5.5, 7.4, 25.3,
+AddVertex,-13.5, 15.4, -0.3,
+AddFace2,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,telegraph.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+SetDecalTransparentColor,0, 0, 0,
+

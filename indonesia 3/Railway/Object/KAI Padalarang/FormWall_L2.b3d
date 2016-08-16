@@ -1,0 +1,77 @@
+
+
+[MeshBuilder]
+Vertex -5, 2.0,    0
+Vertex -5, 2.0, 25.3
+Vertex -5, 1.0, 25.3
+Vertex -5, 1.0,    0
+Face 0,1,2,3
+Face 1,0,3,2
+
+[Texture]
+Load FormWall2.bmp
+Coordinates 0,0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 0 ;çïÇìßâﬂ
+
+
+
+[MeshBuilder]      ;éxíå
+Vertex -4.6, 5, 12.5
+Vertex -4.606, 5, 12.46
+Vertex -4.63, 5, 12.43
+Vertex -4.66, 5, 12.406
+Vertex -4.7, 5, 12.4
+Vertex -4.74, 5, 12.406
+Vertex -4.77, 5, 12.43
+Vertex -4.794, 5, 12.46
+Vertex -4.8, 5, 12.5
+Vertex -4.6, 0, 12.5
+Vertex -4.606, 0, 12.46
+Vertex -4.63, 0, 12.43
+Vertex -4.66, 0, 12.406
+Vertex -4.7, 0, 12.4
+Vertex -4.74, 0, 12.406
+Vertex -4.77, 0, 12.43
+Vertex -4.794, 0, 12.46
+Vertex -4.8, 0, 12.5
+Face 1,0,9,10
+Face 2,1,10,11
+Face 3,2,11,12
+Face 4,3,12,13
+Face 5,4,13,14
+Face 6,5,14,15
+Face 7,6,15,16
+Face 8,7,16,17
+Color 148,148,148
+[MeshBuilder]       ;åuåıìî
+Vertex -4.5, 4.3, 12.4
+Vertex -4.5, 4.6, 12.4
+Vertex -4.6, 4.6, 12.4
+Vertex -4.6, 4.3, 12.4
+Vertex -4.5, 4.6, 12.6
+Vertex -4.5, 4.3, 12.6
+Vertex -4.6, 4.3, 12.6
+Face 1,0,3,2
+Face 1,4,5,0
+Face 0,5,6,3
+Color 200,200,200
+[MeshBuilder]
+Vertex -3.8, 5, 12.6
+Vertex -4.55, 4.7, 12.6
+Vertex -4.55, 4.6, 12.6
+Vertex -3.7, 4.9, 12.6
+Vertex -3.8, 5, 12.4
+Vertex -4.55, 4.7, 12.4
+Vertex -4.55, 4.6, 12.4
+Vertex -3.7, 4.9, 12.4
+Face 1,0,3,2
+Face 5,4,7,6
+Face 4,0,3,7
+Face 7,3,2,6
+color 192,192,192
+
+
+

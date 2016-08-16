@@ -1,0 +1,91 @@
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 3, 0,
+AddVertex,0, 3, 2.5,
+AddVertex,0, 0, 2.5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,front.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0, 0, 255,
+
+;right side
+CreateMeshBuilder,
+AddVertex,11, 3, 0,
+AddVertex,11, 0, 0,
+AddVertex,0, 0, 0,
+AddVertex,0, 3, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,rightside.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0, 0, 255,
+
+;left side
+CreateMeshBuilder,
+AddVertex,11, 3, 2.5,
+AddVertex,11, 0, 2.5,
+AddVertex,0, 0, 2.5,
+AddVertex,0, 3, 2.5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,leftside.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+SetDecalTransparentColor,0, 0, 255,
+
+;back
+CreateMeshBuilder,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,11, 0, 0,
+AddVertex,11, 3, 0,
+AddVertex,11, 3, 2.5,
+AddVertex,11, 0, 2.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,back.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0, 0, 255,
+
+;bottom
+CreateMeshBuilder,
+AddVertex,11, 0.5, 0,
+AddVertex,11, 0.5, 2.5,
+AddVertex,0, 0.5, 2.5,
+AddVertex,0, 0.5, 0,
+AddFace,0, 1, 2, 3,
+SetColor,10, 10, 10, 255,
+
+;top
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,11, 3, 0,
+AddVertex,11, 3, 2.5,
+AddVertex,0, 3, 2.5,
+AddVertex,0, 3, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,top.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,

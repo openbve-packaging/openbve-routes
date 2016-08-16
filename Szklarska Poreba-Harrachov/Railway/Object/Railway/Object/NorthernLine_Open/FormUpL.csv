@@ -1,0 +1,43 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green & Keith Hazelton
+;Thanks to Anthony Bowden for allowing adaptation of edge texture
+
+CreateMeshBuilder,
+AddVertex,-6.5, -0.2, 10,
+AddVertex,-6.5, 0.6, 25.5,
+AddVertex,-2.7, 0.6, 25.5,
+AddVertex,-2.7, -0.2, 10,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormC_hb.png,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+CreateMeshBuilder,
+AddVertex,-1.5, -0.2, 10,
+AddVertex,-1.5, 0.6, 25.5,
+AddVertex,-2.7, 0.6, 25.5,
+AddVertex,-2.7, -0.2, 10,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,Form_hb.png,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 2,
+CreateMeshBuilder,
+AddVertex,-1.5, -0.2, 10,
+AddVertex,-1.5, -0.2, 25.5,
+AddVertex,-1.5, 0.6, 25.5,
+AddVertex,-1.5, -0.2, 10,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,FormSide.png,
+SetTextureCoordinates,0, 12, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 12, 0,
+
+

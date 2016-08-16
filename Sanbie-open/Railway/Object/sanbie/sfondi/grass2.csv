@@ -1,0 +1,109 @@
+;; Sanbie
+;; lato sx
+CreateMeshBuilder,
+AddVertex,-50,-2, 25,
+AddVertex,-50, -2, 0,
+AddVertex,-50, -3, -12.5,
+AddVertex,-16, -2, 25,
+AddVertex,-16, -2, 0,
+AddVertex,-16, -3, -12.5,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 15, 0,
+SetTextureCoordinates,4, 15, 1,
+SetTextureCoordinates,5, 15, 2,
+
+CreateMeshBuilder,
+AddVertex,-15.5, -5.1, 25,
+AddVertex,-15.5, -5.1, 0,
+AddVertex,-15.5, -5.5, -2.5,
+AddVertex,-1.5, -5.1, 25,
+AddVertex,-1.5, -5.1, 0,
+AddVertex,-1.5, -5.5, -2.5,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 5, 0,
+SetTextureCoordinates,4, 5, 1,
+SetTextureCoordinates,5, 5, 2
+
+
+; lato dx
+CreateMeshBuilder,
+AddVertex,9.5, 0, 25,
+AddVertex,9.5, 0, 0,
+AddVertex,9.5, -1, -12.5,
+AddVertex,50, 0, 25,
+AddVertex,50, 0, 0,
+AddVertex,50, -1, -12.5,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 15, 0,
+SetTextureCoordinates,4, 15, 1,
+SetTextureCoordinates,5, 15, 2,
+
+;;sponda sx
+CreateMeshBuilder,
+AddVertex,-16, -2, 25,
+AddVertex,-16, -2, 0,
+AddVertex,-16, -3, -12.5,
+AddVertex,-12.3, -5, 25,
+AddVertex,-12.3, -5, 0,
+AddVertex,-12.3, -5.1, -12.5,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 1, 0,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 1, 2,
+
+; sponda dx
+CreateMeshBuilder,
+AddVertex,9.5, 0, 25,
+AddVertex,9.5, 0, 0,
+AddVertex,9.5, -1, -5.5,
+AddVertex,2.3, -5, 25,
+AddVertex,2.3, -5, 0,
+AddVertex,3.3, -5.1, -5.5,
+AddFace2,1, 0, 3, 4,
+AddFace2,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 1, 0,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 1, 2,

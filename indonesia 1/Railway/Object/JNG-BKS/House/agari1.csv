@@ -1,0 +1,12 @@
+CreateMeshBuilder,,,,
+AddVertex,0,2,0,
+AddVertex,0,-0.5,0,
+AddVertex,0,-0.5,25.2,
+AddVertex,0,2,25.2,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,agari1.bmp,,,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,0,0,

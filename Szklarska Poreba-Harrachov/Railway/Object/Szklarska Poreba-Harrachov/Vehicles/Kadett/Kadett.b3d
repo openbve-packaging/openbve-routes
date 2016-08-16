@@ -1,0 +1,175 @@
+;---------- Opel Kadett ----------
+;--------A.Lobach 07/2004---------
+;---www.bve-tram-neustadt.de.vu---
+
+[MeshBuilder];-r.Seite-
+Vertex 0.8,1.0,0
+Vertex 0.8,1.0,5
+Vertex 0.8,0.0,5
+Vertex 0.8,0.0,0
+Face2 0,1,2,3
+[Texture]
+Load Kadett_su.bmp
+Coordinates 0 0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder];-r.Seite-
+Vertex 0.55,1.60,0
+Vertex 0.55,1.60,5
+Vertex 0.86,0.41,5
+Vertex 0.86,0.41,0
+Face2 0,1,2,3
+[Texture]
+Load Kadett_so.bmp
+Coordinates 0 0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder];-l.Seite-
+Vertex -0.8,1.0,0
+Vertex -0.8,1.0,5
+Vertex -0.8,0.0,5
+Vertex -0.8,0.0,0
+Face2 0,1,2,3
+[Texture]
+Load Kadett_su.bmp
+Coordinates 0 0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder];-l.Seite-
+Vertex -0.55,1.60,0
+Vertex -0.55,1.60,5
+Vertex -0.86,0.41,5
+Vertex -0.86,0.41,0
+Face2 0,1,2,3
+[Texture]
+Load Kadett_so.bmp
+Coordinates 0 0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+
+[MeshBuilder];-vorn Lampen-
+Vertex -0.85,0.76,0.15
+Vertex  0.85,0.76,0.15
+Vertex  0.82,0.30,-0.1
+Vertex -0.82,0.30,-0.1
+Face2 0,1,2,3
+[Texture]
+Load Kadett_vu1.bmp
+Coordinates 0 0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder];-vorn Stoﬂstange-
+Vertex -0.8,0.55,0.0
+Vertex  0.8,0.55,0.0
+Vertex  0.8,0.08,0.2
+Vertex -0.8,0.08,0.2
+Face2 0,1,2,3
+[Texture]
+Load Kadett_vu2.bmp
+Coordinates 0 0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder];-Frontscheibe-
+Vertex -0.80,1.57,2.35
+Vertex  0.80,1.57,2.35
+Vertex  0.70,0.78,1.12
+Vertex -0.70,0.78,1.12
+Face2 0,1,2,3
+[Texture]
+Load Kadett_vo.bmp
+Coordinates 0 0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder];-Heck-
+Vertex -0.82,1.12,4.94
+Vertex  0.82,1.12,4.94
+Vertex  0.81,0.22,4.94
+Vertex -0.81,0.22,4.94
+Face2 3,2,1,0
+[Texture]
+Load Kadett_hu.bmp
+Coordinates 0 0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+[MeshBuilder];-Heckscheibe-
+Vertex -0.80,1.59,3.7
+Vertex  0.80,1.59,3.7
+Vertex  0.62,0.86,5.6
+Vertex -0.62,0.86,5.6
+Face2 0,1,2,3
+[Texture]
+Load Kadett_ho.bmp
+Coordinates 0 0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+
+
+[MeshBuilder];-Dach-
+Vertex -0.55,1.56, 2.35
+Vertex -0.55,1.59, 3.7
+Vertex  0.55,1.59, 3.7
+Vertex  0.55,1.56, 2.35
+Face2 0,1,2,3
+Color 30,44,71
+
+[MeshBuilder];-Motorhaube-
+Vertex -0.77,0.76, 0.15
+Vertex -0.71,0.93, 0.8
+Vertex  0.71,0.93, 0.8
+Vertex  0.77,0.76, 0.15
+Face2 0,1,2,3
+color 30,44,71
+[MeshBuilder];-Motorhaube-
+Vertex -0.71,0.93 , 0.8
+Vertex -0.71,1.02, 1.48
+Vertex  0.71,1.02, 1.48
+Vertex  0.71,0.93 , 0.8
+Face2 0,1,2,3
+color 30,44,71
+
+[MeshBuilder];-- Reifen--
+cylinder 50,0.38,0.38,0.16
+rotate 0,0,2,90
+translate -0.7,0.38,0.9
+color 70,70,70
+[MeshBuilder];-- Reifen--
+cylinder 50,0.38,0.38,0.16
+rotate 0,0,2,90
+translate 0.7,0.35,0.9
+color 70,70,70
+[MeshBuilder];-- Reifen--
+cylinder 50,0.38,0.38,0.16
+rotate 0,0,2,90
+translate -0.7,0.38,4.1
+color 70,70,70
+[MeshBuilder];-- Reifen--
+cylinder 50,0.38,0.38,0.16
+rotate 0,0,2,90
+translate 0.7,0.38,4.1
+color 70,70,70

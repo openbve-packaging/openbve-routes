@@ -1,0 +1,21 @@
+[MeshBuilder]
+Vertex 14,8,0
+Vertex 14,4,0
+Vertex -10,4,0
+Vertex -10,8,0
+face 0,1,2,3
+
+[Texture]
+Load concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,0,4
+Coordinates 2,10,4 
+Coordinates 3,10,0
+
+[MeshBuilder]
+Vertex -10,4,0
+Vertex 14,4,0
+Vertex 14,4,25
+Vertex -10,4,25
+face 0,1,2,3
+color 0,0,0

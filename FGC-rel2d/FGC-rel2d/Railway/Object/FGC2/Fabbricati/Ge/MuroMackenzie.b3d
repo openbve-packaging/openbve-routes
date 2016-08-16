@@ -1,0 +1,305 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+;Muro sotto al castello Mackenzie
+
+[meshbuilder] 
+vertex -3.0 , 5 , 0
+vertex -3.0 , 4.5 , 25.5
+vertex -2.55,-0.1 , 25.5
+vertex -2 ,  -0.3 , 0
+vertex -2.2 ,-0.3 , 25.1
+
+face 0,1,2,3
+Face 4,3,2
+
+[texture]
+load ..\muro_pietre.bmp
+coordinates 0, 0, 0
+coordinates 1, 1.5, 0
+coordinates 2, 1.5, 0.92
+coordinates 3, 0, 0.92
+coordinates 4, 1.5, 1
+
+transparent 0, 0, 255
+
+[MeshBuilder]; Ghiaia a copertura
+Vertex -2.7, -0.25, 25.5
+Vertex -1.0, -0.25, 25.5
+Vertex -1.0, -0.25, -0.5
+Vertex -2.7, -0.25, -0.5
+Face 0,1,2,3
+[texture]
+load ..\..\Rails\Trav-gray.bmp
+Coordinates 0, 0.4,0
+Coordinates 1, 0,  0
+Coordinates 2, 0, 21
+Coordinates 3, 0.4, 21
+
+[meshbuilder] 
+vertex -3.0 , 5 , 0
+vertex -3.0 , 5 , 25
+vertex -2 ,  -0.6 , 25
+vertex -2 ,  -0.6 , 0
+face 0,1,2,3
+[texture]
+load ..\muro_pietre.bmp
+coordinates 0, 0, 0
+coordinates 1, 1.5, 0
+coordinates 2, 1.5, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+translate 0.05,0,-25
+
+[MeshBuilder]; Ghiaia a copertura
+Vertex -2.7, -0.25, 25.5
+Vertex -1.0, -0.25, 25.5
+Vertex -1.0, -0.25, -0.5
+Vertex -2.7, -0.25, -0.5
+Face 0,1,2,3
+[texture]
+load ..\..\Rails\Trav-gray.bmp
+Coordinates 0, 0.4,0
+Coordinates 1, 0,  0
+Coordinates 2, 0, 21
+Coordinates 3, 0.4, 21
+translate 0,0,-25
+
+[meshbuilder] 
+vertex -3.0 , 5 , 0
+vertex -2.91 , 5 , 10
+vertex -1.91 ,  -0.6 , 10
+vertex -2 ,  -0.6 , 0
+face 0,1,2,3
+[texture]
+load ..\muro_pietre.bmp
+coordinates 0, 0, 0
+coordinates 1, 0.6, 0
+coordinates 2, 0.6, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,10
+translate -1.82,0,-34.8
+
+[meshbuilder] 
+vertex -3.0 , 5 , 0
+vertex -3.0 , 5 , 25
+vertex -2.0 ,-0.6 , 25
+vertex -2 ,  -0.6 , 0
+face 0,1,2,3
+[texture]
+load ..\muro_pietre.bmp
+coordinates 0, 0, 0
+coordinates 1, 1.5, 0
+coordinates 2, 1.5, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,12
+translate -7.08,0,-59.0
+
+[meshbuilder] 
+vertex -3.0 , 5 , 0
+vertex -3.0 , 5 , 25
+vertex -2 ,  -0.6 , 25
+vertex -2 ,  -0.6 , 0
+face 0,1,2,3
+[texture]
+load ..\muro_pietre.bmp
+coordinates 0, 0, 0
+coordinates 1, 1.5, 0
+coordinates 2, 1.5, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,12
+translate -12.08,0,-83.5
+
+;Muro bastione del castello
+[meshbuilder] 
+vertex -8.5 , 6 , 5
+vertex -6 ,  3 ,  5 
+vertex -10 , 15 , -60
+vertex -6 ,  3 , -64
+vertex -50 , 15 , -80
+vertex -50 ,  3 , -84
+face 0,1,3,2
+face 2,3,5,4
+[texture]
+load CastMackenzie1.bmp
+coordinates 0, 8, 0
+coordinates 1, 8, 1
+coordinates 2, 0, 0
+coordinates 3, 0, 1
+coordinates 4, -8, 0
+coordinates 5, -8, 1
+transparent 0, 0, 255
+rotate 0,1,0,5
+
+
+[meshbuilder] ;Castello
+vertex -8 , 34 , 0
+vertex 20 ,  34 , 0 
+vertex 20 , 0 , 0
+vertex -8, 0 , 0
+face 0,1,2,3
+load CastMackenzie2.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-25
+translate -45,14,-70
+
+[meshbuilder] ; Albero su muro castello 1
+vertex -5 , 10 , 0
+vertex 10 ,  10 , 0 
+vertex 10 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Castagno.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-35
+translate -27,14,-61.8
+
+[meshbuilder] ; Albero su muro castello 2
+vertex -5 , 10 , 0
+vertex 10 ,  10 , 0 
+vertex 10 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Castagno.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-35
+translate -20,12,-50
+
+[meshbuilder] ; Albero su muro castello 3
+vertex -5 , 10 , 0
+vertex 10 ,  10 , 0 
+vertex 10 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Castagno.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-35
+translate -18,9,-30
+
+[meshbuilder] ; Albero su muro castello 4
+vertex -5 , 10 , 0
+vertex 10 ,  10 , 0 
+vertex 10 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Castagno.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-35
+translate -16,6,-5
+
+[meshbuilder] ; Albero su muro castello 5
+vertex -5 , 10 , 0
+vertex 10 ,  10 , 0 
+vertex 10 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Castagno.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-35
+translate -14,3,20
+
+
+[meshbuilder] ; Pini marittimi
+vertex -5 , 20 , 0
+vertex 12 ,  20 , 0 
+vertex 12 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Pini-Maritt.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-35
+translate -57,8,-81.8
+
+[meshbuilder] ; Pini marittimi
+vertex -5 , 20 , 0
+vertex 12 ,  20 , 0 
+vertex 12 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Pini-Maritt.bmp
+coordinates 0, 0, 0
+coordinates 1, -1, 0
+coordinates 2, -1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-35
+translate -50,5,-98
+
+
+[meshbuilder] ; Pini marittimi
+vertex -5 , 20 , 0
+vertex 12 ,  20 , 0 
+vertex 12 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Pini-Maritt.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-35
+translate -57,3,-110
+
+[meshbuilder] ; Pini marittimi
+vertex -5 , 20 , 0
+vertex 12 ,  20 , 0 
+vertex 12 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Pini-Maritt.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-35
+translate -50,1,-128
+
+
+[meshbuilder] ; Pini marittimi
+vertex -5 , 20 , 0
+vertex 12 ,  20 , 0 
+vertex 12 , 0 , 0
+vertex -5, 0 , 0
+face 0,1,2,3
+load ..\..\Alberi\Pini-Maritt.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-45
+translate -57,1,-136

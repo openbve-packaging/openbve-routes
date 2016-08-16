@@ -1,0 +1,78 @@
+;***************************************,
+; Alex_80                               ,
+; http://www.infinito.it/utenti/alex_80 ,
+; E-mail: Alex_80@Infinito.it           ,
+;***************************************,
+; PARZIALMENTE MODIFICATO DA 
+; Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+; per la route Genova-Recco
+
+;[PALO SX]
+
+CreateMeshBuilder,
+Cylinder, 3, 0.05, 0.05, 5.25,
+Translate, -0.5, 1.425, 0,
+GenerateNormals,
+setcolor,155,150,150
+
+
+
+;[PALO DX]
+
+CreateMeshBuilder,
+Cylinder, 3, 0.05, 0.05, 5.25,
+Translate, 0.5, 1.425, 0,
+GenerateNormals,
+setcolor,155,150,150
+
+
+;;;RANGO A
+CreateMeshBuilder,
+AddVertex,  0.6, 0.9, -0.09,
+AddVertex,- 0.6, 0.9, -0.09,
+AddVertex, - 0.6, 0, -0.09,
+AddVertex,  0.6, 0, -0.09,
+AddFace, 0, 3, 2, 1,
+GenerateNormals,
+Translate, 0, 3.1, 
+
+LoadTexture,100.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, ,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentcolor, 0, 0, 0,
+
+;;;RANGO B
+CreateMeshBuilder,
+AddVertex,  0.6, 0.6, -0.09,
+AddVertex,- 0.6, 0.6, -0.09,
+AddVertex, - 0.6, 0, -0.09,
+AddVertex,  0.6, 0, -0.09,
+AddFace, 0, 3, 2, 1,
+GenerateNormals,
+Translate, 0, 2.45, 
+LoadTexture,110.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, ,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentcolor, 0, 0, 0,
+
+
+;;;RANGO C
+CreateMeshBuilder,
+AddVertex,  0.6, 0.6, -0.09,
+AddVertex,- 0.6, 0.6, -0.09,
+AddVertex, - 0.6, 0, -0.09,
+AddVertex,  0.6, 0, -0.09,
+AddFace, 0, 3, 2, 1,
+GenerateNormals,
+Translate, 0, 1.8, 
+LoadTexture,110.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, ,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentcolor, 0, 0, 0,

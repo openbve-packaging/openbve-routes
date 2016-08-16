@@ -1,0 +1,1164 @@
+;Lehel tér állomás 03
+;Bal és jobb vágány
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;Peron
+
+;peron széle felül 
+[MeshBuilder]
+Vertex -1.45, 0.90, 0.00
+Vertex -1.45, 0.90, 25.00
+Vertex -1.45, 1.10, 25.00
+Vertex -1.45, 1.10, 0.00
+Vertex -9.60, 0.90, 0.00
+Vertex -9.60, 0.90, 25.00
+Vertex -9.60, 1.10, 25.00
+Vertex -9.60, 1.10, 0.00
+Face 3,2,1,0
+Face 4,5,6,7
+color 64,64,64
+
+;peron széle alul
+[MeshBuilder]
+Vertex -1.60,-0.20, 0.00
+Vertex -1.60,-0.20, 25.00
+Vertex -1.60, 0.90, 25.00
+Vertex -1.60, 0.90, 0.00
+Vertex -9.45,-0.20, 0.00
+Vertex -9.45,-0.20, 25.00
+Vertex -9.45, 0.90, 25.00
+Vertex -9.45, 0.90, 0.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0, 0.00, 1.00
+Coordinates 1, 25.00, 1.00
+Coordinates 2, 25.00, 0.15
+Coordinates 3, 0.00, 0.15
+Coordinates 4, 0.00, 1.00
+Coordinates 5, 25.00, 1.00
+Coordinates 6, 25.00, 0.15
+Coordinates 7, 0.00, 0.15
+
+;peron járófelület1
+[MeshBuilder]
+Vertex -1.45, 1.10, 0.00
+Vertex -1.45, 1.10, 25.00
+Vertex -2.25, 1.10, 25.00
+Vertex -2.25, 1.10, 0.00
+Vertex -08.80, 1.10, 0.00
+Vertex -08.80, 1.10, 25.00
+Vertex -9.60, 1.10, 25.00
+Vertex -9.60, 1.10, 0.00
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peron_sav.bmp
+Coordinates 0, 24.00, 600.00
+Coordinates 1, 24.00, 0.00
+Coordinates 2, 0.00, 0.00
+Coordinates 3, 0.00, 600.00
+Coordinates 4, 24.00, 600.00
+Coordinates 5, 24.00, 0.00
+Coordinates 6, 0.00, 0.00
+Coordinates 7, 0.00, 600.00
+
+;peron járófelület2
+[MeshBuilder]
+Vertex -2.25, 1.10, 0.00
+Vertex -2.25, 1.10, 25.00
+Vertex -08.80, 1.10, 25.00
+Vertex -08.80, 1.10, 0.00
+Face 3,2,1,0
+[Texture]
+Load mh_14_lt_peronteto_1.bmp
+Coordinates 0, 11.00, 42.00
+Coordinates 1, 11.00, 0.00
+Coordinates 2, 0.00, 0.00
+Coordinates 3, 0.00, 42.00
+
+;--------------------------------------------------
+
+[MeshBuilder]
+;jobb oldali fal
+Vertex  02.10, 03.10, 0.00
+Vertex  02.10, 04.20, 0.00
+Vertex  02.10, 04.20, 25.00
+Vertex  02.10, 03.10, 25.00
+;bal oldali fal
+Vertex -13.15, -00.20, 0.00
+Vertex -13.15, 04.20, 0.00
+Vertex -13.15, 04.20, 25.00
+Vertex -13.15, -00.20, 25.00
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_14_lt_oldalfal_01.bmp
+Coordinates 0, 25.00, 00.25
+Coordinates 1, 25.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 00.25
+Coordinates 4, 25.00, 01.00
+Coordinates 5, 25.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 01.00
+
+[MeshBuilder]
+;jobb oldali fal
+Vertex  02.10, -00.20, 00.00
+Vertex  02.10,  02.55, 00.00
+Vertex  02.10,  02.55, 25.00
+Vertex  02.10, -00.20, 25.00
+Face 3,2,1,0
+[Texture]
+Load mh_14_lt_oldalfal_01.bmp
+Coordinates 0, 25.00, 01.00
+Coordinates 1, 25.00, 00.375
+Coordinates 2, 00.00, 00.375
+Coordinates 3, 00.00, 01.00
+
+[MeshBuilder]
+;jobb oldali fal
+Vertex  02.10, 02.549, 00.00
+Vertex  02.10, 03.101, 00.00
+Vertex  02.10, 03.101, 05.00
+Vertex  02.10, 02.549, 05.00
+Face 3,2,1,0
+[Texture]
+Load mh_14_lt_oldalfal_01.bmp
+Coordinates 0, 05.00, 00.375
+Coordinates 1, 05.00, 00.25
+Coordinates 2, 00.00, 00.25
+Coordinates 3, 00.00, 00.375
+
+[MeshBuilder]
+;jobb oldali fal
+Vertex  02.10, 02.549, 05.00
+Vertex  02.10, 03.101, 05.00
+Vertex  02.10, 03.101, 25.00
+Vertex  02.10, 02.549, 25.00
+Face 3,2,1,0
+[Texture]
+Load mh_14_lt_oldalfal_01i.bmp
+Coordinates 0, 01.00, 00.495
+Coordinates 1, 01.00, 00.005
+Coordinates 2, 00.00, 00.005
+Coordinates 3, 00.00, 00.495
+
+;--------------------------------------------------
+
+;Födém
+
+[MeshBuilder]
+Vertex 02.10, 4.20, 0.00
+Vertex 02.10, 4.20, 25.10
+Vertex -13.15, 4.20, 25.10
+Vertex -13.15, 4.20, 0.00
+Face 0,1,2,3
+[Texture]
+Load mh_14_lt_fodem_01.bmp
+Coordinates 0, 1.00, 08.00
+Coordinates 1, 1.00, 0.00
+Coordinates 2, 0.00, 0.00
+Coordinates 3, 0.00, 08.00
+
+[MeshBuilder]
+Vertex -20.00, 08.00, 0.00
+Vertex -20.00, 08.00, 25.00
+Vertex 10.00, 08.00, 25.00
+Vertex 10.00, 08.00, 0.00
+Face 3,2,1,0
+[Texture]
+Load mh_14_lt_fodem_02.bmp
+Coordinates 0, 0.00, 0.00
+Coordinates 1, 0.00, 10.00
+Coordinates 2, 1.00, 10.00
+Coordinates 3, 1.00, 0.00
+
+;--------------------------------------------------
+
+;Lépcsõk
+
+;D
+;lépcsõ homlokfelület
+[MeshBuilder]
+Vertex -3.775, 1.10, 0.00
+Vertex -7.275, 1.10, 0.00
+Vertex -3.775, 1.25, 0.00
+Vertex -7.275, 1.25, 0.00
+Vertex -3.775, 1.25, -0.30
+Vertex -7.275, 1.25, -0.30
+Vertex -3.775, 1.40, -0.30
+Vertex -7.275, 1.40, -0.30
+Vertex -3.775, 1.40, -0.60
+Vertex -7.275, 1.40, -0.60
+Vertex -3.775, 1.55, -0.60
+Vertex -7.275, 1.55, -0.60
+Vertex -3.775, 1.55, -0.90
+Vertex -7.275, 1.55, -0.90
+Vertex -3.775, 1.70, -0.90
+Vertex -7.275, 1.70, -0.90
+Vertex -3.775, 1.70, -1.20
+Vertex -7.275, 1.70, -1.20
+Vertex -3.775, 1.85, -1.20
+Vertex -7.275, 1.85, -1.20
+Vertex -3.775, 1.85, -1.50
+Vertex -7.275, 1.85, -1.50
+Vertex -3.775, 2.00, -1.50
+Vertex -7.275, 2.00, -1.50
+Vertex -3.775, 2.00, -1.80
+Vertex -7.275, 2.00, -1.80
+Vertex -3.775, 2.15, -1.80
+Vertex -7.275, 2.15, -1.80
+Vertex -3.775, 2.15, -2.10
+Vertex -7.275, 2.15, -2.10
+Vertex -3.775, 2.30, -2.10
+Vertex -7.275, 2.30, -2.10
+Vertex -3.775, 2.30, -2.40
+Vertex -7.275, 2.30, -2.40
+Vertex -3.775, 2.45, -2.40
+Vertex -7.275, 2.45, -2.40
+Vertex -3.775, 2.45, -2.70
+Vertex -7.275, 2.45, -2.70
+Vertex -3.775, 2.60, -2.70
+Vertex -7.275, 2.60, -2.70
+Vertex -3.775, 2.60, -3.00
+Vertex -7.275, 2.60, -3.00
+Vertex -3.775, 2.75, -3.00
+Vertex -7.275, 2.75, -3.00
+Vertex -3.775, 2.75, -3.30
+Vertex -7.275, 2.75, -3.30
+Vertex -3.775, 2.90, -3.30
+Vertex -7.275, 2.90, -3.30
+Vertex -3.775, 2.90, -3.60
+Vertex -7.275, 2.90, -3.60
+Vertex -3.775, 3.05, -3.60
+Vertex -7.275, 3.05, -3.60
+Vertex -3.775, 3.05, -3.90
+Vertex -7.275, 3.05, -3.90
+Vertex -3.775, 3.20, -3.90
+Vertex -7.275, 3.20, -3.90
+Vertex -3.775, 3.20, -4.20
+Vertex -7.275, 3.20, -4.20
+Vertex -3.775, 3.35, -4.20
+Vertex -7.275, 3.35, -4.20
+Vertex -3.775, 3.35, -4.50
+Vertex -7.275, 3.35, -4.50
+Vertex -3.775, 3.50, -4.50
+Vertex -7.275, 3.50, -4.50
+Vertex -3.775, 3.50, -4.80
+Vertex -7.275, 3.50, -4.80
+Vertex -3.775, 3.65, -4.80
+Vertex -7.275, 3.65, -4.80
+Vertex -3.775, 3.65, -5.10
+Vertex -7.275, 3.65, -5.10
+Vertex -3.775, 3.80, -5.10
+Vertex -7.275, 3.80, -5.10
+Vertex -3.775, 3.80, -5.40
+Vertex -7.275, 3.80, -5.40
+Vertex -3.775, 3.95, -5.40
+Vertex -7.275, 3.95, -5.40
+Vertex -3.775, 3.95, -5.70
+Vertex -7.275, 3.95, -5.70
+Vertex -3.775, 4.10, -5.70
+Vertex -7.275, 4.10, -5.70
+Vertex -3.775, 4.10, -6.00
+Vertex -7.275, 4.10, -6.00
+Vertex -3.775, 4.25, -6.00
+Vertex -7.275, 4.25, -6.00
+Vertex -3.775, 4.25, -6.30
+Vertex -7.275, 4.25, -6.30
+Vertex -3.775, 4.40, -6.30
+Vertex -7.275, 4.40, -6.30
+Vertex -3.775, 4.40, -6.60
+Vertex -7.275, 4.40, -6.60
+Vertex -3.775, 4.55, -6.60
+Vertex -7.275, 4.55, -6.60
+Vertex -3.775, 4.55, -6.90
+Vertex -7.275, 4.55, -6.90
+Vertex -3.775, 4.70, -6.90
+Vertex -7.275, 4.70, -6.90
+Vertex -3.775, 4.70, -7.20
+Vertex -7.275, 4.70, -7.20
+Vertex -3.775, 4.85, -7.20
+Vertex -7.275, 4.85, -7.20
+Vertex -3.775, 4.85, -7.50
+Vertex -7.275, 4.85, -7.50
+Vertex -3.775, 5.00, -7.50
+Vertex -7.275, 5.00, -7.50
+face 1,0,2,3
+face 5,4,6,7
+face 9,8,10,11
+face 13,12,14,15
+face 17,16,18,19
+face 21,20,22,23
+face 25,24,26,27
+face 29,28,30,31
+face 33,32,34,35
+face 37,36,38,39
+face 41,40,42,43
+face 45,44,46,47
+face 49,48,50,51
+face 53,52,54,55
+face 57,56,58,59
+face 61,60,62,63
+face 65,64,66,67
+face 69,68,70,71
+face 73,72,74,75
+face 77,76,78,79
+face 81,80,82,83
+face 85,84,86,87
+face 89,88,90,91
+face 93,92,94,95
+face 97,96,98,99
+face 101,100,102,103
+color 128,130,104
+;color 143,144,110
+
+;lépcsõ járófelület
+[MeshBuilder]
+Vertex -3.775, 1.10, 0.00
+Vertex -7.275, 1.10, 0.00
+Vertex -3.775, 1.25, 0.00
+Vertex -7.275, 1.25, 0.00
+Vertex -3.775, 1.25, -0.30
+Vertex -7.275, 1.25, -0.30
+Vertex -3.775, 1.40, -0.30
+Vertex -7.275, 1.40, -0.30
+Vertex -3.775, 1.40, -0.60
+Vertex -7.275, 1.40, -0.60
+Vertex -3.775, 1.55, -0.60
+Vertex -7.275, 1.55, -0.60
+Vertex -3.775, 1.55, -0.90
+Vertex -7.275, 1.55, -0.90
+Vertex -3.775, 1.70, -0.90
+Vertex -7.275, 1.70, -0.90
+Vertex -3.775, 1.70, -1.20
+Vertex -7.275, 1.70, -1.20
+Vertex -3.775, 1.85, -1.20
+Vertex -7.275, 1.85, -1.20
+Vertex -3.775, 1.85, -1.50
+Vertex -7.275, 1.85, -1.50
+Vertex -3.775, 2.00, -1.50
+Vertex -7.275, 2.00, -1.50
+Vertex -3.775, 2.00, -1.80
+Vertex -7.275, 2.00, -1.80
+Vertex -3.775, 2.15, -1.80
+Vertex -7.275, 2.15, -1.80
+Vertex -3.775, 2.15, -2.10
+Vertex -7.275, 2.15, -2.10
+Vertex -3.775, 2.30, -2.10
+Vertex -7.275, 2.30, -2.10
+Vertex -3.775, 2.30, -2.40
+Vertex -7.275, 2.30, -2.40
+Vertex -3.775, 2.45, -2.40
+Vertex -7.275, 2.45, -2.40
+Vertex -3.775, 2.45, -2.70
+Vertex -7.275, 2.45, -2.70
+Vertex -3.775, 2.60, -2.70
+Vertex -7.275, 2.60, -2.70
+Vertex -3.775, 2.60, -3.00
+Vertex -7.275, 2.60, -3.00
+Vertex -3.775, 2.75, -3.00
+Vertex -7.275, 2.75, -3.00
+Vertex -3.775, 2.75, -3.30
+Vertex -7.275, 2.75, -3.30
+Vertex -3.775, 2.90, -3.30
+Vertex -7.275, 2.90, -3.30
+Vertex -3.775, 2.90, -3.60
+Vertex -7.275, 2.90, -3.60
+Vertex -3.775, 3.05, -3.60
+Vertex -7.275, 3.05, -3.60
+Vertex -3.775, 3.05, -3.90
+Vertex -7.275, 3.05, -3.90
+Vertex -3.775, 3.20, -3.90
+Vertex -7.275, 3.20, -3.90
+Vertex -3.775, 3.20, -4.20
+Vertex -7.275, 3.20, -4.20
+Vertex -3.775, 3.35, -4.20
+Vertex -7.275, 3.35, -4.20
+Vertex -3.775, 3.35, -4.50
+Vertex -7.275, 3.35, -4.50
+Vertex -3.775, 3.50, -4.50
+Vertex -7.275, 3.50, -4.50
+Vertex -3.775, 3.50, -4.80
+Vertex -7.275, 3.50, -4.80
+Vertex -3.775, 3.65, -4.80
+Vertex -7.275, 3.65, -4.80
+Vertex -3.775, 3.65, -5.10
+Vertex -7.275, 3.65, -5.10
+Vertex -3.775, 3.80, -5.10
+Vertex -7.275, 3.80, -5.10
+Vertex -3.775, 3.80, -5.40
+Vertex -7.275, 3.80, -5.40
+Vertex -3.775, 3.95, -5.40
+Vertex -7.275, 3.95, -5.40
+Vertex -3.775, 3.95, -5.70
+Vertex -7.275, 3.95, -5.70
+Vertex -3.775, 4.10, -5.70
+Vertex -7.275, 4.10, -5.70
+Vertex -3.775, 4.10, -6.00
+Vertex -7.275, 4.10, -6.00
+Vertex -3.775, 4.25, -6.00
+Vertex -7.275, 4.25, -6.00
+Vertex -3.775, 4.25, -6.30
+Vertex -7.275, 4.25, -6.30
+Vertex -3.775, 4.40, -6.30
+Vertex -7.275, 4.40, -6.30
+Vertex -3.775, 4.40, -6.60
+Vertex -7.275, 4.40, -6.60
+Vertex -3.775, 4.55, -6.60
+Vertex -7.275, 4.55, -6.60
+Vertex -3.775, 4.55, -6.90
+Vertex -7.275, 4.55, -6.90
+Vertex -3.775, 4.70, -6.90
+Vertex -7.275, 4.70, -6.90
+Vertex -3.775, 4.70, -7.20
+Vertex -7.275, 4.70, -7.20
+Vertex -3.775, 4.85, -7.20
+Vertex -7.275, 4.85, -7.20
+Vertex -3.775, 4.85, -7.50
+Vertex -7.275, 4.85, -7.50
+Vertex -3.775, 05.00, -7.50
+Vertex -7.275, 05.00, -7.50
+face 3,2,4,5
+face 7,6,8,9
+face 11,10,12,13
+face 15,14,16,17
+face 19,18,20,21
+face 23,22,24,25
+face 27,26,28,29
+face 31,30,32,33
+face 35,34,36,37
+face 39,38,40,41
+color 60,60,60
+
+;lépcsõ oldalsó síkja
+[MeshBuilder]
+Vertex -3.775, 1.10, 0.00
+Vertex -7.275, 1.10, 0.00
+Vertex -3.775, 1.25, 0.00
+Vertex -7.275, 1.25, 0.00
+Vertex -3.775, 1.25, -0.30
+Vertex -7.275, 1.25, -0.30
+Vertex -3.775, 1.40, -0.30
+Vertex -7.275, 1.40, -0.30
+Vertex -3.775, 1.40, -0.60
+Vertex -7.275, 1.40, -0.60
+Vertex -3.775, 1.55, -0.60
+Vertex -7.275, 1.55, -0.60
+Vertex -3.775, 1.55, -0.90
+Vertex -7.275, 1.55, -0.90
+Vertex -3.775, 1.70, -0.90
+Vertex -7.275, 1.70, -0.90
+Vertex -3.775, 1.70, -1.20
+Vertex -7.275, 1.70, -1.20
+Vertex -3.775, 1.85, -1.20
+Vertex -7.275, 1.85, -1.20
+Vertex -3.775, 1.85, -1.50
+Vertex -7.275, 1.85, -1.50
+Vertex -3.775, 2.00, -1.50
+Vertex -7.275, 2.00, -1.50
+Vertex -3.775, 2.00, -1.80
+Vertex -7.275, 2.00, -1.80
+Vertex -3.775, 2.15, -1.80
+Vertex -7.275, 2.15, -1.80
+Vertex -3.775, 2.15, -2.10
+Vertex -7.275, 2.15, -2.10
+Vertex -3.775, 2.30, -2.10
+Vertex -7.275, 2.30, -2.10
+Vertex -3.775, 2.30, -2.40
+Vertex -7.275, 2.30, -2.40
+Vertex -3.775, 2.45, -2.40
+Vertex -7.275, 2.45, -2.40
+Vertex -3.775, 2.45, -2.70
+Vertex -7.275, 2.45, -2.70
+Vertex -3.775, 2.60, -2.70
+Vertex -7.275, 2.60, -2.70
+Vertex -3.775, 2.60, -3.00
+Vertex -7.275, 2.60, -3.00
+Vertex -3.775, 2.75, -3.00
+Vertex -7.275, 2.75, -3.00
+Vertex -3.775, 2.75, -3.30
+Vertex -7.275, 2.75, -3.30
+Vertex -3.775, 2.90, -3.30
+Vertex -7.275, 2.90, -3.30
+Vertex -3.775, 2.90, -3.60
+Vertex -7.275, 2.90, -3.60
+Vertex -3.775, 3.05, -3.60
+Vertex -7.275, 3.05, -3.60
+Vertex -3.775, 3.05, -3.90
+Vertex -7.275, 3.05, -3.90
+Vertex -3.775, 3.20, -3.90
+Vertex -7.275, 3.20, -3.90
+Vertex -3.775, 3.20, -4.20
+Vertex -7.275, 3.20, -4.20
+Vertex -3.775, 3.35, -4.20
+Vertex -7.275, 3.35, -4.20
+Vertex -3.775, 3.35, -4.50
+Vertex -7.275, 3.35, -4.50
+Vertex -3.775, 3.50, -4.50
+Vertex -7.275, 3.50, -4.50
+Vertex -3.775, 3.50, -4.80
+Vertex -7.275, 3.50, -4.80
+Vertex -3.775, 3.65, -4.80
+Vertex -7.275, 3.65, -4.80
+Vertex -3.775, 3.65, -5.10
+Vertex -7.275, 3.65, -5.10
+Vertex -3.775, 3.80, -5.10
+Vertex -7.275, 3.80, -5.10
+Vertex -3.775, 3.80, -5.40
+Vertex -7.275, 3.80, -5.40
+Vertex -3.775, 3.95, -5.40
+Vertex -7.275, 3.95, -5.40
+Vertex -3.775, 3.95, -5.70
+Vertex -7.275, 3.95, -5.70
+Vertex -3.775, 4.10, -5.70
+Vertex -7.275, 4.10, -5.70
+Vertex -3.775, 4.10, -6.00
+Vertex -7.275, 4.10, -6.00
+Vertex -3.775, 4.25, -6.00
+Vertex -7.275, 4.25, -6.00
+Vertex -3.775, 4.25, -6.30
+Vertex -7.275, 4.25, -6.30
+Vertex -3.775, 4.40, -6.30
+Vertex -7.275, 4.40, -6.30
+Vertex -3.775, 4.40, -6.60
+Vertex -7.275, 4.40, -6.60
+Vertex -3.775, 4.55, -6.60
+Vertex -7.275, 4.55, -6.60
+Vertex -3.775, 4.55, -6.90
+Vertex -7.275, 4.55, -6.90
+Vertex -3.775, 4.70, -6.90
+Vertex -7.275, 4.70, -6.90
+Vertex -3.775, 4.70, -7.20
+Vertex -7.275, 4.70, -7.20
+Vertex -3.775, 4.85, -7.20
+Vertex -7.275, 4.85, -7.20
+Vertex -3.775, 4.85, -7.50
+Vertex -7.275, 4.85, -7.50
+Vertex -3.775, 0.00, -7.50
+Vertex -7.275, 5.00, -7.50
+;jobb
+face 4,2,0
+face 8,6,4
+face 12,10,8
+face 16,14,12
+face 20,18,16
+face 24,22,20
+face 28,26,24
+face 32,30,28
+face 36,34,32
+face 40,38,36
+face 44,42,40
+face 48,46,44
+face 52,50,48
+face 56,54,52
+face 60,58,56
+face 64,62,60
+face 68,66,64
+face 72,70,68
+face 76,74,72
+face 80,78,76
+face 84,82,80
+face 88,86,84
+face 92,90,88
+face 96,94,92
+face 100,98,96
+;bal
+face 1,3,5
+face 5,7,9
+face 9,11,13
+face 13,15,17
+face 17,19,21
+face 21,23,25
+face 25,27,29
+face 29,31,33
+face 33,35,37
+face 37,39,41
+face 41,43,45
+face 45,47,49
+face 49,51,53
+face 53,55,57
+face 57,59,61
+face 61,63,65
+face 65,67,69
+face 69,71,73
+face 73,75,77
+face 77,79,81
+face 81,83,85
+face 85,87,89
+face 89,91,93
+face 93,95,97
+face 97,99,101
+color 165,164,155
+
+[MeshBuilder]
+Vertex -3.775, 1.10, 0.00
+Vertex -3.775, 1.10, -1.20
+Vertex -3.775, 1.40, -1.20
+Vertex -3.775, 4.20, -6.80
+Vertex -3.775, 4.20, -7.50
+Vertex -3.775, 4.85, -7.50
+;
+Vertex -7.275, 1.10, 0.00
+Vertex -7.275, 1.10, -1.20
+Vertex -7.275, 1.40, -1.20
+Vertex -7.275, 4.20, -6.80
+Vertex -7.275, 4.20, -7.50
+Vertex -7.275, 4.85, -7.50
+;
+face 0,1,2
+face 0,2,3
+face 0,3,5
+face 3,4,5
+;
+face 8,7,6
+face 9,8,6
+face 11,9,6
+face 11,10,9
+;
+color 165,164,155
+
+;lépcsõ alsó síkja
+;[MeshBuilder]
+;Vertex -3.775, 1.10, -1.20
+;Vertex -3.775, 1.40, -1.20
+;Vertex -7.275, 1.40, -1.20
+;Vertex -7.275, 1.10, -1.20
+;Vertex -3.775, 1.40, -1.20
+;Vertex -3.775, 4.20, -6.80
+;Vertex -7.275, 4.20, -6.80
+;Vertex -7.275, 1.40, -1.20
+;Vertex -3.775, 4.20, -6.80
+;Vertex -3.775, 4.20, -7.50
+;Vertex -7.275, 4.20, -7.50
+;Vertex -7.275, 4.20, -6.80
+;Face 3,2,1,0
+;Face 7,6,5,4
+;Face 11,10,9,8
+;[Texture]
+;Load mh_14_lt_fodem_01.bmp
+;Coordinates 0, 1.00, 1.00
+;Coordinates 1, 1.00, 0.00
+;Coordinates 2, 0.00, 0.00
+;Coordinates 3, 0.00, 1.00
+;Coordinates 4, 1.00, 1.00
+;Coordinates 5, 1.00, 0.00
+;Coordinates 6, 0.00, 0.00
+;Coordinates 7, 0.00, 1.00
+;Coordinates 8, 1.00, 1.00
+;Coordinates 9, 1.00, 0.00
+;Coordinates 10, 0.00, 0.00
+;Coordinates 11, 0.00, 1.00
+
+;-----------------------------
+
+;D
+;jobb
+[MeshBuilder]
+cube 0.025, 0.53, 0.06
+color 150,150,150
+translate -3.80, 1.60, 0.10
+[MeshBuilder]
+cube 0.025, 0.57, 0.06
+color 150,150,150
+translate -3.80, 05.50, -7.76
+[MeshBuilder]
+cube 0.05, 0.60, 0.025
+color 150,150,150
+translate -3.73, 2.90, -2.50
+[MeshBuilder]
+cube 0.05, 0.60, 0.025
+color 150,150,150
+translate -3.73, 4.20, -5.10
+[MeshBuilder]
+cube 0.025, 4.395, 0.06
+color 150,150,150
+rotate 1,0,0,-63.435
+translate -3.80, 4.05, -3.80
+[MeshBuilder]
+cube 0.025, 4.395, 0.06
+color 150,150,150
+rotate 1,0,0,-63.435
+translate -3.80, 3.55, -3.80
+;bal
+[MeshBuilder]
+cube 0.025, 0.53, 0.06
+color 150,150,150
+translate -7.25, 1.60, 0.10
+[MeshBuilder]
+cube 0.025, 0.57, 0.06
+color 150,150,150
+translate -7.25, 05.50, -7.76
+[MeshBuilder]
+cube 0.05, 0.60, 0.025
+color 150,150,150
+translate -7.32, 2.90, -2.50
+[MeshBuilder]
+cube 0.05, 0.60, 0.025
+color 150,150,150
+translate -7.32, 4.20, -5.10
+[MeshBuilder]
+cube 0.025, 4.395, 0.06
+color 150,150,150
+rotate 1,0,0,-63.435
+translate -7.25, 4.05, -3.80
+[MeshBuilder]
+cube 0.025, 4.395, 0.06
+color 150,150,150
+rotate 1,0,0,-63.435
+translate -7.25, 3.55, -3.80
+
+;--------------------------------------------------
+
+;lépcsõ alatti falak
+
+[MeshBuilder]
+Vertex -3.775, 1.10, -1.20
+Vertex -3.775, 1.10, -7.50
+Vertex -3.775, 4.20, -7.50
+Vertex -3.775, 4.20, -6.80
+Vertex -3.775, 1.40, -1.20
+Vertex -7.275, 1.10, -1.20
+Vertex -7.275, 1.10, -7.50
+Vertex -7.275, 4.20, -7.50
+Vertex -7.275, 4.20, -6.80
+Vertex -7.275, 1.40, -1.20
+Vertex -7.275, 1.10, -7.50
+Vertex -7.100, 1.10, -7.50
+Vertex -7.100, 3.20, -7.50
+Vertex -7.275, 3.20, -7.50
+Vertex -3.775, 1.10, -7.50
+Vertex -3.950, 1.10, -7.50
+Vertex -3.950, 3.20, -7.50
+Vertex -3.775, 3.20, -7.50
+face 0,1,2,3,4
+face 9,8,7,6,5
+face 13,12,11,10
+face 14,15,16,17
+color 200,200,200
+
+[MeshBuilder]
+Vertex -3.95, 1.10, -7.50
+Vertex -5.25, 1.10, -7.50
+Vertex -5.25, 3.20, -7.50
+Vertex -3.95, 3.20, -7.50
+Vertex -5.800, 1.10, -7.50
+Vertex -7.275, 1.10, -7.50
+Vertex -7.275, 3.20, -7.50
+Vertex -5.800, 3.20, -7.50
+face 0,1,2,3
+face 4,5,6,7
+[Texture]
+Load mh_14_lt_oldalfal_03.bmp
+Coordinates 0, 0.00, 1.00
+Coordinates 1, 10.00, 1.00
+Coordinates 2, 10.00, 0.00
+Coordinates 3, 0.00, 0.00
+Coordinates 4, 0.00, 1.00
+Coordinates 5, 10.00, 1.00
+Coordinates 6, 10.00, 0.00
+Coordinates 7, 0.00, 0.00
+
+
+[MeshBuilder]
+Vertex -3.775, 3.20, -7.50
+Vertex -5.250, 3.20, -7.50
+Vertex -5.250, 4.20, -7.50
+Vertex -3.775, 4.20, -7.50
+Vertex -7.275, 3.20, -7.50
+Vertex -5.800, 3.20, -7.50
+Vertex -5.800, 4.20, -7.50
+Vertex -7.275, 4.20, -7.50
+face 0,1,2,3
+face 7,6,5,4
+color 10,10,10
+
+;--------------------------------------------------
+
+;világítótestek
+
+;merõleges
+[MeshBuilder]
+Vertex -2.90, 4.17, 0.00
+Vertex -2.90, 4.17, 25.00
+Vertex -1.70, 4.17, 25.00
+Vertex -1.70, 4.17, 0.00
+Vertex -9.35, 4.17, 0.00
+Vertex -9.35, 4.17, 25.00
+Vertex -8.15, 4.17, 25.00
+Vertex -8.15, 4.17, 0.00
+Vertex -8.15, 4.17, 0.00
+Vertex -8.15, 4.17, 25.00
+Vertex -2.90, 4.17, 25.00
+Vertex -2.90, 4.17, 0.00
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+[Texture]
+Load mh_14_lt_vilagitas_01.bmp
+Coordinates 0, 0.00, 0.00
+Coordinates 1, 0.00,10.00
+Coordinates 2, 1.00,10.00
+Coordinates 3, 1.00, 0.00
+Coordinates 4, 0.00, 0.00
+Coordinates 5, 0.00,10.00
+Coordinates 6, 1.00,10.00
+Coordinates 7, 1.00, 0.00
+Coordinates 8, 0.00, 0.00
+Coordinates 9, 0.00,10.00
+Coordinates 10,4.00,10.00
+Coordinates 11,4.00, 0.00
+transparent 0,0,255
+
+;--------------------------------------------------
+
+;táblák
+
+;kis kijárat
+
+[MeshBuilder]
+Vertex -0.40, 0.00, 0.1
+Vertex -0.40, 0.30, 0.1
+Vertex  0.40, 0.30, 0.1
+Vertex  0.40, 0.00, 0.1
+Face 3,2,1,0
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0, 0.402, 1
+Coordinates 1, 0.402, 0
+Coordinates 2, 0.070, 0
+Coordinates 3, 0.070, 1
+translate -5.525,3.90,2
+
+[MeshBuilder]
+Vertex -0.4, 0.00,-0.1
+Vertex -0.4, 0.30,-0.1
+Vertex -0.4, 0.30, 0.1
+Vertex -0.4, 0.00, 0.1
+Vertex  0.4, 0.00,-0.1
+Vertex  0.4, 0.30,-0.1
+Vertex  0.4, 0.30, 0.1
+Vertex  0.4, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+face 0,1,5,4
+color 48,48,48
+translate -5.525,3.90,2
+
+;kis kijárat
+
+[MeshBuilder]
+Vertex -0.40, 0.00, -0.1
+Vertex -0.40, 0.30, -0.1
+Vertex  0.40, 0.30, -0.1
+Vertex  0.40, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_fel.bmp
+Coordinates 0, 0.070, 1
+Coordinates 1, 0.070, 0
+Coordinates 2, 0.402, 0
+Coordinates 3, 0.402, 1
+translate -5.525,3.90,23
+
+[MeshBuilder]
+Vertex -0.4, 0.00,-0.1
+Vertex -0.4, 0.30,-0.1
+Vertex -0.4, 0.30, 0.1
+Vertex -0.4, 0.00, 0.1
+Vertex  0.4, 0.00,-0.1
+Vertex  0.4, 0.30,-0.1
+Vertex  0.4, 0.30, 0.1
+Vertex  0.4, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+face 2,3,7,6
+color 48,48,48
+translate -5.525,3.90,23
+
+;irány
+
+[MeshBuilder]
+cube 0.02,0.05,0.02
+translate -2.2,4.15,12.5
+color 24,24,24
+[MeshBuilder]
+cube 0.02,0.05,0.02
+translate -3.0,4.15,12.5
+color 24,24,24
+
+[MeshBuilder]
+Vertex -0.80, 0.00, -0.1
+Vertex -0.80, 0.30, -0.1
+Vertex  0.51, 0.30, -0.1
+Vertex  0.51, 0.00, -0.1
+Vertex -0.80, 0.00, 0.1
+Vertex -0.80, 0.30, 0.1
+Vertex  0.51, 0.30, 0.1
+Vertex  0.51, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\Irany_UP2.bmp
+Coordinates 0, 0.1, 1
+Coordinates 1, 0.1, 0
+Coordinates 2, 0.9, 0
+Coordinates 3, 0.9, 1
+Coordinates 4, 0.9, 1
+Coordinates 5, 0.9, 0
+Coordinates 6, 0.1, 0
+Coordinates 7, 0.1, 1
+translate -2.6,3.80,12.5
+
+[MeshBuilder]
+Vertex 0.50, 0.00,-0.1
+Vertex 0.50, 0.30,-0.1
+Vertex 0.80, 0.30,-0.1
+Vertex 0.80, 0.00,-0.1
+Vertex 0.50, 0.00, 0.1
+Vertex 0.50, 0.30, 0.1
+Vertex 0.80, 0.30, 0.1
+Vertex 0.80, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\nyil21.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+translate -2.6,3.80,12.5
+
+[MeshBuilder]
+Vertex -0.80, 0.00,-0.1
+Vertex -0.80, 0.30,-0.1
+Vertex -0.80, 0.30, 0.1
+Vertex -0.80, 0.00, 0.1
+Vertex  0.80, 0.00,-0.1
+Vertex  0.80, 0.30,-0.1
+Vertex  0.80, 0.30, 0.1
+Vertex  0.80, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+color 128,128,128
+translate -2.6,3.80,12.5
+
+;irány
+
+[MeshBuilder]
+cube 0.02,0.05,0.02
+translate -8.05,4.15,7.5
+color 24,24,24
+[MeshBuilder]
+cube 0.02,0.05,0.02
+translate -8.85,4.15,7.5
+color 24,24,24
+
+[MeshBuilder]
+Vertex -0.51, 0.00,-0.1
+Vertex -0.51, 0.30,-0.1
+Vertex  0.80, 0.30,-0.1
+Vertex  0.80, 0.00,-0.1
+Vertex -0.51, 0.00, 0.1
+Vertex -0.51, 0.30, 0.1
+Vertex  0.80, 0.30, 0.1
+Vertex  0.80, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\Irany_KK1.bmp
+Coordinates 0, 0.1, 1
+Coordinates 1, 0.1, 0
+Coordinates 2, 0.9, 0
+Coordinates 3, 0.9, 1
+Coordinates 4, 0.9, 1
+Coordinates 5, 0.9, 0
+Coordinates 6, 0.1, 0
+Coordinates 7, 0.1, 1
+translate -8.45,3.80,7.5
+
+[MeshBuilder]
+Vertex -0.80, 0.00,-0.1
+Vertex -0.80, 0.30,-0.1
+Vertex -0.50, 0.30,-0.1
+Vertex -0.50, 0.00,-0.1
+Vertex -0.80, 0.00, 0.1
+Vertex -0.80, 0.30, 0.1
+Vertex -0.50, 0.30, 0.1
+Vertex -0.50, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\nyil11.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Coordinates 4, 1, 1
+Coordinates 5, 1, 0
+Coordinates 6, 0, 0
+Coordinates 7, 0, 1
+translate -8.45,3.80,7.5
+
+[MeshBuilder]
+Vertex -0.80, 0.00,-0.1
+Vertex -0.80, 0.30,-0.1
+Vertex -0.80, 0.30, 0.1
+Vertex -0.80, 0.00, 0.1
+Vertex  0.80, 0.00,-0.1
+Vertex  0.80, 0.30,-0.1
+Vertex  0.80, 0.30, 0.1
+Vertex  0.80, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+color 0,0,204
+translate -8.45,3.80,7.5
+
+;Lehel tér tábla
+
+[MeshBuilder]
+Vertex -0.05, 0.00,-0.80
+Vertex -0.05, 0.30,-0.80
+Vertex  0.05, 0.30,-0.80
+Vertex  0.05, 0.00,-0.80
+Vertex -0.05, 0.00, 0.80
+Vertex -0.05, 0.30, 0.80
+Vertex  0.05, 0.30, 0.80
+Vertex  0.05, 0.00, 0.80
+Face 0,1,2,3
+Face 7,6,5,4
+Face 0,3,7,4
+translate -5.525,3.90,10.0
+color 128,128,128
+
+[MeshBuilder]
+Vertex 0.05, 0.00, -0.80
+Vertex 0.05, 0.30, -0.80
+Vertex 0.05, 0.30,  0.80
+Vertex 0.05, 0.00,  0.80
+Vertex -0.05, 0.00, -0.80
+Vertex -0.05, 0.30, -0.80
+Vertex -0.05, 0.30,  0.80
+Vertex -0.05, 0.00,  0.80
+Face 0,1,2,3
+Face 7,6,5,4
+translate -5.525,3.90,10.0
+[Texture]
+Load mh_tabla_lehel.bmp
+Coordinates 0, 0.20, 1
+Coordinates 1, 0.20, 0
+Coordinates 2, 0.80, 0
+Coordinates 3, 0.80, 1
+Coordinates 4, 0.80, 1
+Coordinates 5, 0.80, 0
+Coordinates 6, 0.20, 0
+Coordinates 7, 0.20, 1
+
+;óra
+
+[MeshBuilder]
+cube 0.02,0.15,0.02
+translate -7.2,4.05,0.5
+color 24,24,24
+[MeshBuilder]
+cube 0.02,0.15,0.02
+translate -7.7,4.05,0.5
+color 24,24,24
+
+[MeshBuilder]
+Vertex -0.375, 0.00,-0.1
+Vertex -0.375, 0.50,-0.1
+Vertex  0.375, 0.50,-0.1
+Vertex  0.375, 0.00,-0.1
+Vertex -0.375, 0.00, 0.1
+Vertex -0.375, 0.50, 0.1
+Vertex  0.375, 0.50, 0.1
+Vertex  0.375, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\ora_030_f2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+Coordinates 6,0,0
+Coordinates 7,0,1
+translate -7.45,3.40,0.5
+
+[MeshBuilder]
+Vertex -0.375, 0.00,-0.1
+Vertex -0.375, 0.50,-0.1
+Vertex -0.375, 0.50, 0.1
+Vertex -0.375, 0.00, 0.1
+Vertex  0.375, 0.00,-0.1
+Vertex  0.375, 0.50,-0.1
+Vertex  0.375, 0.50, 0.1
+Vertex  0.375, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+color 24,24,24
+translate -7.45,3.40,0.5
+
+[MeshBuilder]
+cube 0.02,0.15,0.02
+translate -3.35,4.05,0.5
+color 24,24,24
+[MeshBuilder]
+cube 0.02,0.15,0.02
+translate -3.85,4.05,0.5
+color 24,24,24
+
+[MeshBuilder]
+Vertex -0.375, 0.00,-0.1
+Vertex -0.375, 0.50,-0.1
+Vertex  0.375, 0.50,-0.1
+Vertex  0.375, 0.00,-0.1
+Vertex -0.375, 0.00, 0.1
+Vertex -0.375, 0.50, 0.1
+Vertex  0.375, 0.50, 0.1
+Vertex  0.375, 0.00, 0.1
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load ..\tabla\ora_030_f1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+Coordinates 6,0,0
+Coordinates 7,0,1
+translate -3.6,3.40,0.5
+
+[MeshBuilder]
+Vertex -0.375, 0.00,-0.1
+Vertex -0.375, 0.50,-0.1
+Vertex -0.375, 0.50, 0.1
+Vertex -0.375, 0.00, 0.1
+Vertex  0.375, 0.00,-0.1
+Vertex  0.375, 0.50,-0.1
+Vertex  0.375, 0.50, 0.1
+Vertex  0.375, 0.00, 0.1
+face 3,2,1,0
+face 4,5,6,7
+face 3,0,4,7
+color 24,24,24
+translate -3.6,3.40,0.5

@@ -1,0 +1,27 @@
+CreateMeshBuilder
+AddVertex, 0.0, 4.37,0
+AddVertex,-0.7, 4.37,0
+AddVertex,-0.7, 3.97,0
+AddVertex, 0.0, 3.97,0
+AddFace,3,2,1,0
+GenerateNormals,
+Loadtexture,TRwatch6.bmp
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,1
+SetTextureCoordinates,3,1,1
+
+CreateMeshBuilder,
+AddVertex, 0.0, 4.37, 0.0
+AddVertex, 0.0, 4.37, 0.1
+AddVertex, 0.0, 3.97, 0.1
+AddVertex,-0.7, 3.97, 0.1
+AddVertex,-0.7, 3.97, 0.0
+AddVertex, 0.0, 3.97, 0.0
+AddVertex,-0.7, 4.37, 0.1
+AddVertex,-0.7, 4.37, 0.0
+AddFace,0,1,2,5
+AddFace,2,3,4,5
+AddFace,6,7,4,3
+Setcolor,79,78,66
+GenerateNormals,

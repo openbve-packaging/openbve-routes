@@ -1,0 +1,41 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green & Keith Hazelton
+
+CreateMeshBuilder
+AddVertex,-2.13,1, -0.4
+AddVertex,-2.13, 1, 0
+AddVertex,-2.15, 1.4, 0
+AddVertex,-2.15, 1.4,-0.4
+AddFace,3,2,1,0
+SetColor,241,241,1
+GenerateNormals
+LoadTexture,sigsign.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 1, 1
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 0, 0
+SetDecalTransparentColor,0,0,0
+
+
+
+CreateMeshBuilder,
+Cube, 0.07,0.14,0.13,
+Translate, -2.09,1.35,3.5,
+Setcolor,130,130,130,
+LoadTexture,RelayCab2.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder,
+Cube, 0.07,0.14,0.13,
+Translate, -2.09,1.35,2.7,
+Setcolor,130,130,130,
+LoadTexture,RelayCab2.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0, 0,
+

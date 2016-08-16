@@ -1,0 +1,169 @@
+;Converted from B3D by BVE FILE CONVERTER
+ 
+;house lato
+CreateMeshBuilder,
+AddVertex, 0,0,0,
+AddVertex, 0,2.0,0 ; mi sembra più ragionevole un'altezza di 2 mt anzichè solo 1,5,
+AddVertex, 2,2.0,0 ; idem come sopra,
+AddVertex, 2,0,0,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, nuovo-4.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,0,1,
+
+CreateMeshBuilder,
+AddVertex, 0,0,-1.5,
+AddVertex, 0,2.0,-1.5 ; mi sembra più ragionevole un'altezza di 2 mt anzichè solo 1,5,
+AddVertex, 2,2.0,-1.5 ; idem c.s.,
+AddVertex, 2,0,-1.5,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, nuovo-4.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,0,1,
+
+
+;house fronte1
+CreateMeshBuilder,
+AddVertex, 0,0,-1.5,
+AddVertex, 0,2.2,-1.5 ; variato in conseguenza alla modifica precedente,
+AddVertex, 0,2.2,0 ; idem come sopra,
+AddVertex, 0,0,0,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, nuovo-3.bmp,
+SetTextureCoordinates, 0,1,1,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,0,1,
+SetDecalTransparentColor,  0,0,255 ; E' su questo lato frontale che serve la trasparenza,
+
+;fronte2
+CreateMeshBuilder,
+AddVertex, 2,0,-1.5,
+AddVertex, 2,2.2,-1.5 ; variato in conseguenza alla modifica precedente,
+AddVertex, 2,2.2,0 ; idem come sopra,
+AddVertex, 2,0,0,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, nuovo-3.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor,  0,0,255 ; E' su questo lato frontale che serve la trasparenza,
+
+;tetto
+CreateMeshBuilder,
+AddVertex, -0.03, 1.99, 0.03 ; dati anche 3 cm (0,03 mt),
+AddVertex, -0.03, 2.19,-0.75  ; quale plausibile piccola,
+AddVertex,  2.03, 2.19,-0.75  ; sporgenza del tetto rispetto,
+AddVertex,  2.03, 1.99, 0.03 ; alle pareti,
+
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, nuovo-5.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,1,3,
+SetTextureCoordinates, 3,0,3,
+
+
+CreateMeshBuilder,
+AddVertex, -0.03, 1.99,-1.53  ; dati anche 3 cm (0,03 mt)   ,
+AddVertex, -0.03, 2.19,-0.75   ; quale plausibile piccola    ,
+AddVertex,  2.03, 2.19,-0.75   ; sporgenza del tetto rispetto,
+AddVertex,  2.03, 1.99,-1.53  ; alle pareti                 ,
+AddFace2,  0,1,2,3,
+
+GenerateNormals,
+LoadTexture, nuovo-5.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,1,3,
+SetTextureCoordinates, 3,0,3,
+
+
+;; scalino 1° parte
+CreateMeshBuilder,
+AddVertex,2.2, -0.8, -1.7,
+AddVertex,2.2, -0.8, 0.2,
+AddVertex,2.2, 0, 0.2,
+AddVertex,2.2, 0, -1.7,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\oggetti\altmarciap3.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,-0.2, -0.8, -1.7,
+AddVertex,-0.2, -0.8, 0.2,
+AddVertex,-0.2, 0, 0.2,
+AddVertex,-0.2, 0, -1.7,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\oggetti\altmarciap3.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+
+
+;; scalino fronte
+CreateMeshBuilder,
+AddVertex,-0.2, -0.8, -1.7,
+AddVertex,2.2, -0.8, -1.7,
+AddVertex,2.2, 0, -1.7,
+AddVertex,-0.2, 0, -1.7,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\oggetti\altmarciap3.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+
+
+CreateMeshBuilder,
+AddVertex,-0.2, -0.8, 0.2,
+AddVertex,2.2, -0.8, 0.2,
+AddVertex,2.2, 0, 0.2,
+AddVertex,-0.2, 0, 0.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\oggetti\altmarciap3.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+
+;piano
+CreateMeshBuilder,
+AddVertex,-0.2, 0, -1.7,
+AddVertex,2.2, 0, -1.7,
+AddVertex,2.2, 0, 0.2,
+AddVertex,-0.2, 0, 0.2,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\oggetti\altmarciap3.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 1, 0,
+

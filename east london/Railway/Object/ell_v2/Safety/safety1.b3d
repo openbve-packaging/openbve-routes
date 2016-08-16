@@ -1,0 +1,50 @@
+[MeshBuilder]
+Vertex 6.4,5.7,-0.5
+Vertex 6.4,4.2,-0.5
+Vertex -2.4,4.2,-0.5
+Vertex -2.4,5.7,-0.5
+
+Vertex 6.3,5.6,-0.5
+Vertex 6.3,4.3,-0.5
+Vertex -2.3,4.3,-0.5
+Vertex -2.3,5.6,-0.5
+
+Vertex 6.4,5.7,-0.3
+Vertex 6.4,4.2,-0.3
+Vertex -2.4,4.2,-0.3
+Vertex -2.4,5.7,-0.3
+
+Vertex 6.3,5.6,-0.3
+Vertex 6.3,4.3,-0.3
+Vertex -2.3,4.3,-0.3
+Vertex -2.3,5.6,-0.3
+
+Face 0,1,5,4
+Face 7,6,2,3
+Face 0,4,7,3
+Face 5,1,2,6
+
+Face 8,9,1,0
+Face 8,0,3,11
+Face 3,2,10,11
+Face 1,9,10,2
+
+Face 13,5,6,14
+Face 15,14,6,7
+Face 4,5,13,12
+Face 4,12,15,7
+
+Color 90,90,90
+
+[Meshbuilder]
+Vertex 6.3,5.6,-0.4
+Vertex 6.3,4.3,-0.4
+Vertex -2.3,4.3,-0.4
+Vertex -2.3,5.6,-0.4
+Face 0,1,2,3
+[Texture]
+load safety1.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0

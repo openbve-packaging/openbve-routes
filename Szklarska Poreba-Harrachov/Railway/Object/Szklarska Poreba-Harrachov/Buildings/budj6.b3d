@@ -1,0 +1,107 @@
+﻿[MeshBuilder]
+Vertex 6, 2.5, 0
+Vertex 6, 0, 0
+Vertex 0, 0, 0
+Vertex 0, 2.5, 0
+Face2 3,2,1,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load budj6_front.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 6, 2.5, 3
+Vertex 6, 0, 3
+Vertex 0, 0, 3
+Vertex 0, 2.5, 3
+Face2 3,2,1,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load budj6_front.png
+Transparent 0,0,255
+;-
+[MeshBuilder]
+Vertex 6, 2.5, 3
+Vertex 6, 0, 3
+Vertex 6, 0, 0
+Vertex 6, 2.5, 0
+Face2 3,2,1,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load budj6_sciana.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 0, 2.5, 3
+Vertex 0, 0, 3
+Vertex 0, 0, 0
+Vertex 0, 2.5, 0
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load budj6_sciana.png
+Transparent 0,0,255
+;---------DACH---------------
+[MeshBuilder]
+Vertex 5, 4, 1.5
+Vertex 6, 2.5, 0
+Vertex 0, 2.5, 0
+Vertex 1, 4, 1.5
+Face2 3,2,1,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load budj6_dach.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 5, 4, 1.5
+Vertex 6, 2.5, 3
+Vertex 0, 2.5, 3
+Vertex 1, 4, 1.5
+Face2 3,2,1,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load budj6_dach.png
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex 6, 2.5, 3
+Vertex 5, 4, 1.5
+Vertex 5,4,1.5
+Vertex 6, 2.5, 0
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load budj6_dach.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 0, 2.5, 3
+Vertex 1, 4, 1.5
+Vertex 1,4,1.5
+Vertex 0, 2.5, 0
+Face2 0,1,2,3
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load budj6_dach.png
+Transparent 0,0,255

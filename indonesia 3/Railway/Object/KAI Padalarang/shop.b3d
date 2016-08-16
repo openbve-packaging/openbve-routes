@@ -1,0 +1,46 @@
+[MeshBuilder]
+Vertex -12,0,0
+Vertex -12,6,0
+Vertex -4,6,0
+Vertex -4,0,0
+Vertex -4,6,10
+Vertex -4,0,10
+Vertex -6,6,10
+Vertex -6,0,10
+Vertex -5,5.5,10
+Vertex -5,0,10
+Vertex -5,5.5,18
+Vertex -5,0,18
+Vertex -6,6,18
+Vertex -6,0,18
+Vertex -4,6,18
+Vertex -4,0,18
+Vertex -4,6,25
+Vertex -4,0,25
+Face 0,1,2,3
+Face 3,2,4,5
+Face 5,4,6,7
+Face 9,8,10,11
+Face 13,12,14,15
+Face 15,14,16,17
+[Texture]
+Load a2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 0.15, 0
+Coordinates 3, 0.15, 1
+Coordinates 4, 0.37, 0
+Coordinates 5, 0.37, 1
+Coordinates 6, 0.39, 0
+Coordinates 7, 0.39, 1
+Coordinates 8, 0.4, 0
+Coordinates 9, 0.4, 1
+Coordinates 10, 0.68, 0
+Coordinates 11, 0.68, 1
+Coordinates 12, 0.68, 0
+Coordinates 13, 0.68, 1
+Coordinates 14, 0.72, 0
+Coordinates 15, 0.72, 1
+Coordinates 16, 0.9, 0
+Coordinates 17, 0.9, 1
+

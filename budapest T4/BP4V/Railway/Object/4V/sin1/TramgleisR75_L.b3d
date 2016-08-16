@@ -1,0 +1,132 @@
+﻿;Datei automatisch erstellt von SWITCH - (C) 2002 Ruediger Huelsmann
+
+;Bogendaten:
+;Radius: -75.000
+;X-Abweichung: -4.206
+;Winkel: -9.549
+;Rail(x)-Objekt: j
+;Oberleitung: nein
+
+;--angepaßt an Tramgleissystem Neustadt---
+
+[meshbuilder];-Kopf links-
+vertex -0.806, 0, 0.032
+vertex -0.727, 0, 0.019
+vertex -0.137, 0, 5.091
+vertex -0.058, 0, 5.078
+vertex 0.186, 0, 10.105
+vertex 0.265, 0, 10.092
+vertex 0.177, 0, 15.175
+vertex 0.256, 0, 15.162
+vertex -0.167, 0, 20.300
+vertex -0.088, 0, 20.287
+vertex -0.786, 0, 24.881
+vertex -0.707, 0, 24.868
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+color 180,190,200
+
+[meshbuilder];-Rille links-
+vertex -0.806, -0.02, 0.032
+vertex -0.627, -0.02, 0.019
+vertex -0.137, -0.02, 5.091
+vertex  0.042, -0.02, 5.078
+vertex  0.186, -0.02, 10.105
+vertex  0.365, -0.02, 10.092
+vertex  0.177, -0.02, 15.175
+vertex  0.356, -0.02, 15.162
+vertex -0.167, -0.02, 20.300
+vertex  0.012, -0.02, 20.287
+vertex -0.786, -0.02, 24.881
+vertex -0.607, -0.02, 24.868
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+color 0,0,0
+
+[meshbuilder];-Kopf rechts-
+vertex 0.694, 0, -0.216
+vertex 0.773, 0, -0.229
+vertex 1.363, 0, 4.842
+vertex 1.442, 0, 4.829
+vertex 1.686, 0, 9.857
+vertex 1.765, 0, 9.844
+vertex 1.677, 0, 14.927
+vertex 1.756, 0, 14.914
+vertex 1.332, 0, 20.052
+vertex 1.411, 0, 20.039
+vertex 0.663, 0, 25.332
+vertex 0.742, 0, 25.319
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+color 180,190,200
+
+[meshbuilder];-Rille rechts-
+vertex 0.594, -0.02, -0.216
+vertex 0.773, -0.02, -0.229
+vertex 1.263, -0.02, 4.842
+vertex 1.442, -0.02, 4.829
+vertex 1.586, -0.02, 9.857
+vertex 1.765, -0.02, 9.844
+vertex 1.577, -0.02, 14.927
+vertex 1.756, -0.02, 14.914
+vertex 1.232, -0.02, 20.052
+vertex 1.411, -0.02, 20.039
+vertex 0.563, -0.02, 25.332
+vertex 0.742, -0.02, 25.319
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+color 0,0,0
+[meshbuilder];---Pflaster---
+vertex -1.748, -0.04, 0.122
+vertex  1.716, -0.04, -0.319
+vertex -1.079, -0.04, 5.181
+vertex  2.385, -0.04, 4.739
+vertex -0.756, -0.04, 10.195
+vertex  2.707, -0.04, 9.754
+vertex -0.765, -0.04, 15.265
+vertex  2.699, -0.04, 14.824
+vertex -1.110, -0.04, 20.390
+vertex  2.354, -0.04, 19.949
+vertex -1.779, -0.04, 25.670
+vertex  1.685, -0.04, 25.229
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+[texture]
+load macskako.bmp
+coordinates 0, 1.02, 10
+coordinates 1, -0.02, 10
+coordinates 2, 1.02, 8
+coordinates 3, -0.02, 8
+coordinates 4, 1.02, 6
+coordinates 5, -0.02, 6
+coordinates 6, 1.02, 4
+coordinates 7, -0.02, 4
+coordinates 8, 1.02, 2
+coordinates 9, -0.02, 2
+coordinates 10, 1.02, 0
+coordinates 11, -0.02, 0
+
+;----------Oberleitung-----------
+
+[MeshBuilder];-Fahrleitung-
+Vertex  0.02, 6, 0
+Vertex  0.02, 6, 25
+Vertex -0.02, 6, 25
+Vertex -0.02, 6, 0
+Face2 0,1,2,3
+Color 48,40,32

@@ -1,0 +1,83 @@
+;casa5
+; luca Revello Sanbie
+
+[MeshBuilder]
+Vertex 10, 9.6, 0
+Vertex -2, 9.6, 0
+Vertex -2, -0.3, 0
+Vertex 10, -0.3, 0
+Face 3,2,1,0
+Color 250,230,230
+
+[Texture]
+load casa5_f.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 255,255,255
+
+
+[MeshBuilder]
+Vertex -2, 7.1, 17
+Vertex -2, 7.1, 0
+Vertex -2, -5.5, 0
+Vertex -2, -5.5, 17
+Face2 0,1,2,3
+Color 250,230,230
+
+[Texture]
+load casa17.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+Vertex 10, 7.1, 0
+Vertex 10, 7.1, 17
+Vertex 10, -0.3, 17
+Vertex 10, -0.3, 0
+Face 0,1,2,3
+Color 250,230,230
+
+[Texture]
+Load casa5_s.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+;;tetto sx
+[MeshBuilder]
+Vertex -2.5, 7, -0.5
+Vertex 4, 9.5, -0.5
+Vertex 4, 9.5, 17
+Vertex -2.5, 7, 17
+Face2 0,1,2,3
+Color 180,105,105,
+
+[Texture]
+load kawara.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+;; tetto dx
+[MeshBuilder]
+Vertex 10.5, 7, -0.5
+Vertex 4, 9.5, -0.5
+Vertex 4, 9.5, 17
+Vertex 10.5, 7, 17
+Face2 0,1,2,3
+Color 180,105,105,
+
+[Texture]
+Load kawara.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1

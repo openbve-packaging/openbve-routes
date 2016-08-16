@@ -1,0 +1,125 @@
+CreateMeshbuilder,
+AddVertex,2.5,.1,-.5,
+AddVertex,2.5,0,25.6,
+AddVertex,9.6,-3.5,25.6
+AddVertex,9.6,-3.5,-.5,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,grass2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+Rotate,1,0,0,-.9,
+
+
+CreateMeshbuilder,
+AddVertex,9.5,-3.5,-.5,
+AddVertex,9.5,-3.5,25.5,
+AddVertex,30,-3.2,25.5,
+AddVertex,30,-3.2,-.5,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture, grass1.bmp
+SetTextureCoordinates,0,2,1,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+Rotate,1,0,0,-1,
+
+CreateMeshbuilder,
+AddVertex,27.35,-3.7,0,
+AddVertex,27.35,-3.7,25.6,
+AddVertex,35.22,-3.7,25.6,
+AddVertex,35.22,-3.7,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,..\misc\road.bmp
+SetTextureCoordinates,0,0,6,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,6,
+Rotate,1,0,0,-1,
+Translate,0,.65,0,
+
+CreateMeshbuilder,
+AddVertex,-4,0,0,
+AddVertex,-11,0,0,
+AddVertex,-11,0,25.6,
+AddVertex,-4,0,25.6,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,grass2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+Rotate,1,0,0,-.5,
+
+CreateMeshbuilder,
+AddVertex,-9,0,0,
+AddVertex,-25,9,0,
+AddVertex,-25,9,25.6,
+AddVertex,-9,0,25.6,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,grass3.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,1,
+Rotate,1,0,0,-.5,
+
+CreateMeshbuilder,  ;;sidewalk
+AddVertex,34.5,-2.6,25.6,
+AddVertex,36.52,-2.55,25.6,
+AddVertex,36.92,-3,0,
+AddVertex,35,-3.05,0,
+AddFace,0,1,2,3,
+SetColor,250,250,170,
+
+CreateMeshbuilder,
+AddVertex,35.5,-2.7,25.6,
+AddVertex,80,-2.6,25.6,
+AddVertex,80,-3,0,
+AddVertex,35.5,-3.1,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,pavementd.bmp
+SetTextureCoordinates,0,0,4,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,4,
+
+
+
+CreateMeshBuilder,  ;;fence
+AddVertex, 0,0,0,
+AddVertex, .1,2,0,
+AddVertex, .1,2,25.6
+AddVertex, 0,0,25.6,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, ..\misc\fencewood.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,3,0,
+SetTextureCoordinates, 3,3,1,
+SetDecalTransparentColor,0,0,255,
+Rotate,1,0,0,-.7,
+Translate,-25,8.8,0,
+
+CreateMeshbuilder,
+AddVertex,80,-3,25.6,
+AddVertex,90,3,25.6,
+AddVertex,90,3,0,
+AddVertex,80,-3,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,ditch1.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+SetDecalTransparentColor,0,0,255,
+

@@ -1,0 +1,42 @@
+CreateMeshBuilder,
+AddVertex,2.1, 6.8, 25.0
+AddVertex,2.1, 6.8, 0.0
+AddVertex,2.1,-1.0, 0.0
+AddVertex,2.1,-1.0, 25.0
+AddFace,0,1,2,3,
+Setcolor,155,155,150
+LoadTexture,../../EDtozai\Wall3.bmp
+SetTextureCoordinates,0,  0.0, 0
+SetTextureCoordinates,1,  1.0, 0
+SetTextureCoordinates,2,  1.0, 0.6
+SetTextureCoordinates,3,  0.0, 0.6
+SetDecalTransparentColor,0,0,255,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,2.08, 3.5, 22,
+AddVertex,2.08, 3.5, 16,
+AddVertex,2.08, 2.0, 16,
+AddVertex,2.08, 2.0, 22,
+AddFace,0,1,2,3,
+LoadTexture,../../EDtozai/FPanel/Epost_G.bmp
+SetTextureCoordinates,0,  0.0, 0
+SetTextureCoordinates,1,  1.0, 0
+SetTextureCoordinates,2,  1.0, 1
+SetTextureCoordinates,3,  0.0, 1
+GenerateNormals,
+Translate,0,0,0.5
+
+CreateMeshBuilder,
+AddVertex,2.08, 3.0, 12.0,
+AddVertex,2.08, 3.0, 13.5,
+AddVertex,2.08, 2.2, 13.5,
+AddVertex,2.08, 2.2, 12.0,
+AddFace2,0,1,2,3,
+LoadTexture,../Form/sta_okatame.bmp
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+GenerateNormals,
+Translate,0,0.5,

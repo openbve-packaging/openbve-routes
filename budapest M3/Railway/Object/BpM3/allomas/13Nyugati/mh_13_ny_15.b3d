@@ -1,0 +1,297 @@
+;Nyugati pályaudvar megállóhely É-D-5
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;Feliratok
+
+[MeshBuilder]
+vertex  02.005,3.194,1.25
+vertex  02.165,2.950,1.25
+vertex  02.005,3.194,25
+vertex  02.165,2.950,25
+Face 0,1,3,2
+Load mh_13_ny_fodem_2.bmp
+coordinates 0,00,0
+coordinates 1,00,1
+coordinates 2,19,0
+coordinates 3,19,1
+
+[MeshBuilder]
+vertex  02.005,3.194,0
+vertex  02.165,2.950,0
+vertex  02.005,3.194,1.25
+vertex  02.165,2.950,1.25
+Face 0,1,3,2
+Load mh_13_ny_oldalfal_02ib.bmp
+coordinates 0,1,0
+coordinates 1,1,1
+coordinates 2,0.9,0
+coordinates 3,0.9,1
+
+[MeshBuilder]
+;bal oldali fal
+Vertex -7.05,1.10,0
+Vertex -7.05,3.48,0
+Vertex -7.05,3.48,9
+Vertex -7.05,1.10,9
+;szemben lévõ fal
+Vertex -7.05,1.10,25
+Vertex -7.05,3.48,25
+Vertex -5.85,3.48,25
+Vertex -5.85,1.10,25
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load mh_13_ny_oldalfal_03.bmp
+Coordinates 0,9.0,1
+Coordinates 1,9.0,0
+Coordinates 2,0.0,0
+Coordinates 3,0.0,1
+Coordinates 4,0.0,1
+Coordinates 5,0.0,0
+Coordinates 6,1.3,0
+Coordinates 7,1.3,1
+
+[MeshBuilder]
+Vertex -7.050,3.48,-5
+Vertex -7.050,3.48,25
+Vertex -1.755,3.48,25
+Vertex -7.050,3.68,-5
+Vertex -7.050,3.68,24.99
+Vertex -1.526,3.68,24.99
+Face 0,3,4,1
+Face 1,4,5,2
+color 26,32,53
+
+[MeshBuilder]
+Vertex -7.05,1.10,09
+Vertex -7.05,3.48,09
+Vertex -7.05,3.48,25
+Vertex -7.05,1.10,25
+;szemben lévõ fal
+Vertex -2.25,1.10,24.99
+Vertex -2.25,3.48,24.99
+Vertex -3.45,3.48,24.99
+Vertex -3.45,1.10,24.99
+Face 0,1,2,3
+Face 7,6,5,4
+[Texture]
+Load mh_13_ny_oldalfal_04.bmp
+Coordinates 0,29,03
+Coordinates 1,29,00
+Coordinates 2,00,00
+Coordinates 3,00,03
+Coordinates 4,02,03
+Coordinates 5,02,00
+Coordinates 6,00,00
+Coordinates 7,00,03
+
+[MeshBuilder]
+Vertex -5.85,1.10,25.00
+Vertex -5.85,3.48,25.00
+Vertex -4.65,3.48,25.00
+Vertex -4.65,1.10,25.00
+Vertex -4.65,1.10,25.00
+Vertex -4.65,3.48,25.00
+Vertex -3.45,3.48,24.99
+Vertex -3.45,1.10,24.99
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load mh_13_ny_oldalfal_05.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 4,1,1
+Coordinates 5,1,0
+Coordinates 6,0,0
+Coordinates 7,0,1
+
+;szemben lévõ fal
+[MeshBuilder]
+Vertex -2.250,2.789,24.99
+Vertex -2.112,3.038,24.99
+Vertex -1.946,3.269,24.99
+Vertex -1.755,3.480,24.99
+Vertex -2.250,3.480,24.99
+Face2 0,1,4
+Face2 1,2,4
+Face2 2,3,4
+[Texture]
+Load mh_13_ny_oldalfal_04.bmp
+Coordinates 0,0.00,0.87
+Coordinates 1,0.23,0.56
+Coordinates 2,0.51,0.26
+Coordinates 3,0.83,0.00
+Coordinates 4,0.00,0.00
+
+;--------------------------------------------------
+
+;táblák
+
+;Nyugati tábla
+
+[MeshBuilder]
+cube 0.02,0.05,0.02
+color 24,24,24
+translate -7.0,3.63,14.5
+
+[MeshBuilder]
+cube 0.02,0.05,0.02
+color 24,24,24
+translate -7.0,3.63,15.5
+
+[MeshBuilder]
+Vertex -0.1,0.0,-0.8
+Vertex -0.1,0.3,-0.8
+Vertex  0.1,0.3,-0.8
+Vertex  0.1,0.0,-0.8
+Vertex -0.1,0.0, 0.8
+Vertex  0.1,0.0, 0.8
+Face 0,1,2,3
+Face 0,3,5,4
+translate -6.95,3.28,15.00
+color 48,48,48
+
+[MeshBuilder]
+Vertex 0.1, 0.0,-0.8
+Vertex 0.1, 0.3,-0.8
+Vertex 0.1, 0.3, 0.8
+Vertex 0.1, 0.0, 0.8
+Face 0,1,2,3
+translate -6.95,3.28,15.00
+[Texture]
+Load mh_tabla_nyugati.bmp
+Coordinates 0,0.08,1
+Coordinates 1,0.08,0
+Coordinates 2,0.92,0
+Coordinates 3,0.92,1
+
+;--------------------------------------------------
+
+;térkép
+
+[Meshbuilder]
+cube 0.04,1.45,0.04
+color 117,34,30
+translate -7.0,2.55,2.46
+
+[Meshbuilder]
+cube 0.04,1.45,0.04
+color 117,34,30
+translate -7.0,2.55,5.04
+
+[Meshbuilder]
+cube 0.04,0.04,1.25
+color 117,34,30
+translate -7.0,1.50,3.75
+
+[Meshbuilder]
+cube 0.04,0.04,1.25
+color 117,34,30
+translate -7.0,3.38,3.75
+
+[Meshbuilder]
+Vertex -6.96,1.54,2.50
+Vertex -6.96,1.54,5.00
+Vertex -6.96,3.34,5.00
+Vertex -6.96,3.34,2.50
+Face2 0,1,2,3
+[Texture]
+Load ..\terkep_02.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+;--------------------------------------------------
+
+;pályára aljzatpótlék
+[MeshBuilder]
+vertex -0.425,-0.40,25
+vertex -0.425,-0.17,25
+vertex  0.425,-0.17,25
+vertex  0.425,-0.40,25
+face 0,1,2,3
+color 216,216,216
+[texture]
+load ../../sin/aljzat_150.bmp
+coordinates 0,0.00,0.25
+coordinates 1,0.00,0
+coordinates 2,0.25,0
+coordinates 3,0.25,0.25
+
+;--------------------------------------------------
+
+;Tükör
+
+[meshbuilder]
+cylinder 8, 0.04, 0.04, 01.00
+color 100,100,100
+translate  -02.35, 01.60, 24.00
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 100,100,100
+rotate 0,1,0,-20
+translate  -02.35, 02.10, 24.00
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 100,100,100
+rotate 0,1,0,-20
+translate  -02.35, 03.30, 24.00
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 100,100,100
+rotate 0,1,0,-20
+translate  -02.773, 02.70, 23.846
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 100,100,100
+rotate 0,1,0,-20
+translate  -01.927, 02.70, 24.154
+[meshbuilder]
+cube 0.20,0.01,0.20
+color 100,100,100
+rotate 0,1,0,0
+translate  -02.35, 01.10, 24.000
+[MeshBuilder]
+vertex -2.773,2.10,23.846
+vertex -2.773,3.30,23.846
+vertex -1.927,3.30,24.154
+vertex -1.927,2.10,24.154
+face 0,1,2,3
+Load ..\tukor.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+;--------------------------------------------------
+
+;Belépni tilos tábla
+
+[MeshBuilder]
+Vertex -0.25,1.3,0.0
+Vertex -0.25,1.9,0.0
+Vertex  0.25,1.9,0.0
+Vertex  0.25,1.3,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2f2.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,1.0,0
+Coordinates 3,1.0,1
+transparent 0,0,255
+translate -01.90,00.00,24.75
+
+[MeshBuilder]
+cube 0.015, 0.40, 0.01
+color 64,96,128
+translate -2.165, 1.50, 24.75
+
+;--------------------------------------------------

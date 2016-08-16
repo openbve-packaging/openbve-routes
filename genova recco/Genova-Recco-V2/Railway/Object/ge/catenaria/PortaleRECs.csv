@@ -1,0 +1,198 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;palo dietro sx
+;;base
+CreateMeshBuilder
+cylinder, 3, 0.0650, 0.110, 8.7,
+translate, -4.19,3.8, ,    
+GenerateNormals,
+
+LoadTexture,palo.bmp,
+SetTextureCoordinates,0, 0.5, 0,
+SetTextureCoordinates,1, 0.5, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1,0,
+SetTextureCoordinates,5, 1, 1,
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;palo dietro dx
+;;base
+CreateMeshBuilder
+cylinder, 3, 0.0650, 0.110, 8.7,
+translate, 12.48,3.8, 0,    
+GenerateNormals,
+
+LoadTexture,palo.bmp,
+SetTextureCoordinates,0, 0.5, 0,
+SetTextureCoordinates,1, 0.5, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1,0,
+SetTextureCoordinates,5, 1, 1,
+
+
+;;;;;;;;;MENSOLE 1
+CreateMeshBuilder ; Mensola
+cylinder, 3, 0.05, 0.05, 2.6,
+rotate, 0,0,1,90
+translate, -0.6,6,
+setcolor,135,135,120
+
+GenerateNormals,
+CreateMeshBuilder ; Mensola
+cylinder, 3, 0.05, 0.05, 2.2,
+translate, -1.9,6.7,
+setcolor,135,135,120
+GenerateNormals,
+
+;;;;;;;;;MENSOLE 2
+CreateMeshBuilder ; Mensola
+cylinder, 3, 0.05, 0.05, 2.6,
+rotate, 0,0,1,90
+translate, 3.3,6,
+setcolor,135,135,120
+
+GenerateNormals,
+CreateMeshBuilder ; Mensola
+cylinder, 3, 0.05, 0.05, 2.2,
+translate, 2,6.7,
+setcolor,135,135,120
+GenerateNormals,
+
+;;;;;;;;;MENSOLE 3
+CreateMeshBuilder ; Mensola
+cylinder, 3, 0.05, 0.05, 2.6,
+rotate, 0,0,1,90
+translate, 7.2,6,
+setcolor,135,135,120
+
+GenerateNormals,
+CreateMeshBuilder ; Mensola
+cylinder, 3, 0.05, 0.05, 2.2,
+translate, 5.9,6.7,
+setcolor,135,135,120
+GenerateNormals,
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;parte superiore
+
+
+
+CreateMeshBuilder ; traliccio avanti
+Addvertex,  -12.55, 6.7, -0.35
+Addvertex,   5.15, 6.7, -0.35
+Addvertex,   5.15, 6, -0.35
+Addvertex,  -12.55, 6, -0.35
+Addface2, 0,1,2,3
+translate,7.8,0.8,
+GenerateNormals,
+loadtexture, sbalzo.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 4,  
+SetTextureCoordinates, 2, 4, 1
+SetTextureCoordinates, 3, ,1, 
+
+
+CreateMeshBuilder ; traliccio indietro
+Addvertex,  -12.55, 6.7, 0.35
+Addvertex,   5.15, 6.7, 0.35
+Addvertex,   5.15, 6, 0.35
+Addvertex,  -12.55, 6, 0.35
+Addface2, 0,1,2,3
+translate,7.8,0.8,
+GenerateNormals,
+loadtexture, sbalzo.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 4,  
+SetTextureCoordinates, 2, 4, 1
+SetTextureCoordinates, 3, ,1, 
+
+
+CreateMeshBuilder ; traliccio suferiore
+Addvertex,  -12.55, 6.7, -0.35
+Addvertex,   5.15, 6.7, -0.35
+Addvertex,   5.15, 6.7, 0.35
+Addvertex,  -12.55, 6.7, 0.35
+Addface2, 0,1,2,3
+translate,7.8,0.8,
+GenerateNormals,
+loadtexture, sbalzo.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 4,  
+SetTextureCoordinates, 2, 4, 1
+SetTextureCoordinates, 3, ,1, 
+
+
+CreateMeshBuilder ; traliccio inferiore
+Addvertex,  -12.55, 6, -0.35
+Addvertex,   5.15, 6, -0.35
+Addvertex,   5.15, 6, 0.35
+Addvertex,  -12.55, 6, 0.35
+Addface2, 0,1,2,3
+translate,7.8,0.8,
+GenerateNormals,
+loadtexture, sbalzo.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 4,  
+SetTextureCoordinates, 2, 4, 1
+SetTextureCoordinates, 3, ,1, 
+
+
+CreateMeshBuilder ; Zampa di ragno sinistra
+Addvertex,  -1.55, 5.99, 0
+Addvertex,   0.15, 5.99, 0
+Addvertex,   0.15, 5, 0
+Addvertex,  -1.55, 5, 0
+Addface2, 0,1,2,3
+GenerateNormals,
+loadtexture, mensola.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+CreateMeshBuilder ; Zampa di ragno centro
+Addvertex,  -1.55, 5.99, 0
+Addvertex,   0.15, 5.99, 0
+Addvertex,   0.15, 5, 0
+Addvertex,  -1.55, 5, 0
+Addface2, 0,1,2,3
+GenerateNormals,
+translate,4,0,
+loadtexture, mensola.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+
+CreateMeshBuilder ; Zampa di ragno destra
+Addvertex,  -1.55, 5.99, 0
+Addvertex,   0.15, 5.99, 0
+Addvertex,   0.15, 5, 0
+Addvertex,  -1.55, 5, 0
+Addface2, 0,1,2,3
+translate,7.9,0,
+GenerateNormals,
+loadtexture, mensola.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+
+translateall,,,-0.5,

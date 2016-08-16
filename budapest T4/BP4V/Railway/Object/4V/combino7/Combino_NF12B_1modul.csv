@@ -1,0 +1,896 @@
+;Készítette: Alex
+;Siemens Combino NF12B 1. modul
+;A modellt pályákba 180 fokkal elforgatva kell betenni!
+
+CreateMeshBuilder, ;Lökhárító (0-33)
+AddVertex, -0.794,0.853,8.903 ;0
+AddVertex, -0.699,0.853,8.999 ;1
+AddVertex, -0.699,0.702,8.999 ;2
+AddVertex, -0.794,0.702,8.903 ;3
+AddVertex, -0.699,0.853,8.923 ;4
+AddVertex, -0.699,0.702,8.923 ;5
+AddVertex, -0.548,0.853,9.055 ;6
+AddVertex, -0.548,0.702,9.055 ;7
+AddVertex, -0.548,0.853,8.980 ;8
+AddVertex, -0.548,0.702,8.980 ;9
+AddVertex, -0.378,0.853,9.094 ;10
+AddVertex, -0.378,0.683,9.094 ;11
+AddVertex, -0.378,0.853,9.017 ;12
+AddVertex, -0.378,0.683,9.017 ;13
+AddVertex,  0.000,0.853,9.150 ;14
+AddVertex,  0.000,0.683,9.150 ;15
+AddVertex,  0.000,0.853,9.055 ;16
+AddVertex,  0.000,0.683,9.055 ;17
+AddVertex,  0.359,0.853,9.094 ;18
+AddVertex,  0.359,0.683,9.094 ;19
+AddVertex,  0.359,0.853,9.017 ;20
+AddVertex,  0.378,0.853,9.094 ;21
+AddVertex,  0.359,0.683,9.017 ;22
+AddVertex,  0.378,0.683,9.094 ;23
+AddVertex,  0.510,0.853,9.055 ;24
+AddVertex,  0.510,0.702,9.055 ;25
+AddVertex,  0.510,0.853,8.980 ;26
+AddVertex,  0.510,0.702,8.980 ;27
+AddVertex,  0.661,0.853,8.999 ;28
+AddVertex,  0.661,0.702,8.999 ;29
+AddVertex,  0.661,0.853,8.923 ;30
+AddVertex,  0.661,0.702,8.923 ;31
+AddVertex,  0.794,0.853,8.903 ;32
+AddVertex,  0.794,0.702,8.903 ;33
+;Bal oldalról/1.
+AddFace, 3,2,1,0 ;Elölrõl
+AddFace, 1,4,0   ;Felülrõl
+AddFace, 3,5,2   ;Alulról
+;Bal oldalról/2.
+AddFace, 2,7,6,1
+AddFace, 1,6,8,4
+AddFace, 5,9,7,2
+;Bal oldalról/3.
+AddFace, 7,11,10,6
+AddFace, 6,10,12,8
+AddFace, 9,13,11,7
+;Középrõl/1.
+AddFace, 11,15,14,10
+AddFace, 10,14,16,12
+AddFace, 13,17,15,11
+;Középrõl/2.
+AddFace, 15,19,18,14
+AddFace, 14,21,20,16
+AddFace, 17,22,23,15
+;Jobb oldalról/1.
+AddFace, 19,25,24,18
+AddFace, 21,24,26,20
+AddFace, 22,27,25,19
+;Jobb oldalról/2.
+AddFace, 25,29,28,24
+AddFace, 24,28,30,26
+AddFace, 27,31,29,25
+;Jobb oldalról/3.
+AddFace, 29,33,32,28
+AddFace, 28,32,30
+AddFace, 31,33,29
+SetColor, 0,0,0
+GenerateNormals,
+
+CreateMeshBuilder, ;HOMLOKFAL (0-149)
+;Bal oldalról
+AddVertex, -0.548,0.569,8.980 ;0
+AddVertex, -0.378,0.569,9.017 ;1
+AddVertex, -0.378,0.303,8.979 ;2
+AddVertex, -0.548,0.303,8.942 ;3
+AddVertex, -0.699,0.569,8.923 ;4
+AddVertex, -0.699,0.303,8.884 ;5
+AddVertex, -0.794,0.569,8.903 ;6
+AddVertex, -0.794,0.303,8.865 ;7
+AddVertex, -0.548,0.702,8.980 ;8
+AddVertex, -0.378,0.702,9.017 ;9
+AddVertex, -0.699,0.702,8.923 ;10
+AddVertex, -0.794,0.702,8.903 ;11
+AddVertex, -0.548,0.986,8.980 ;12
+AddVertex, -0.378,0.986,9.017 ;13
+AddVertex, -0.378,0.853,9.017 ;14
+AddVertex, -0.548,0.853,8.980 ;15
+AddVertex, -0.699,0.986,8.923 ;16
+AddVertex, -0.699,0.853,8.923 ;17
+AddVertex, -0.794,0.986,8.903 ;18
+AddVertex, -0.794,0.853,8.903 ;19
+AddVertex, -0.548,1.100,8.961 ;20
+AddVertex, -0.378,1.100,8.998 ;21
+AddVertex, -0.699,1.100,8.903 ;22
+AddVertex, -0.794,1.100,8.884 ;23
+AddVertex, -0.548,1.176,8.942 ;24
+AddVertex, -0.378,1.176,8.979 ;25
+AddVertex, -0.699,1.176,8.884 ;26
+AddVertex, -0.794,1.176,8.865 ;27
+AddVertex, -0.548,1.290,8.903 ;28 +0.046=
+AddVertex, -0.378,1.290,8.941 ;29
+AddVertex, -0.699,1.290,8.846 ;30
+AddVertex, -0.794,1.290,8.827 ;31
+AddVertex, -0.548,1.403,8.847 ;32 +0.056=
+AddVertex, -0.378,1.403,8.884 ;33
+AddVertex, -0.699,1.403,8.790 ;34
+AddVertex, -0.794,1.403,8.771 ;35
+AddVertex, -0.548,1.593,8.733 ;36 +0.114=
+AddVertex, -0.378,1.593,8.771 ;37
+AddVertex, -0.699,1.593,8.676 ;38
+AddVertex, -0.794,1.593,8.657 ;39
+AddVertex, -0.548,1.783,8.677 ;40 +0.056=
+AddVertex, -0.378,1.783,8.714 ;41
+AddVertex, -0.699,1.783,8.620 ;42
+AddVertex, -0.794,1.783,8.600 ;43
+AddVertex, -0.548,2.067,8.582 ;44 +0.095=
+AddVertex, -0.378,2.067,8.620 ;45
+AddVertex, -0.699,2.067,8.525 ;46
+AddVertex, -0.794,2.067,8.506 ;47
+AddVertex, -0.548,2.371,8.488 ;48 +0.095=
+AddVertex, -0.378,2.371,8.525 ;49
+AddVertex, -0.699,2.371,8.430 ;50
+AddVertex, -0.794,2.371,8.411 ;51
+AddVertex, -0.548,2.826,8.374 ;52 +0.114=
+AddVertex, -0.378,2.826,8.411 ;53
+AddVertex, -0.699,2.826,8.317 ;54
+AddVertex, -0.794,2.826,8.297 ;55
+AddVertex, -0.548,3.243,8.449 ;56 +-0.091=
+AddVertex, -0.378,3.243,8.487 ;57
+AddVertex, -0.699,3.243,8.392 ;58
+AddVertex, -0.794,3.243,8.373 ;59
+;Középrõl
+AddVertex,  0.000,0.569,9.055 ;60
+AddVertex,  0.000,0.303,9.017 ;61
+AddVertex,  0.359,0.569,9.017 ;62
+AddVertex,  0.359,0.303,8.979 ;63
+AddVertex,  0.000,0.702,9.055 ;64
+AddVertex,  0.359,0.702,9.017 ;65
+AddVertex,  0.000,0.986,9.055 ;66
+AddVertex,  0.000,0.853,9.055 ;67
+AddVertex,  0.359,0.986,9.017 ;68
+AddVertex,  0.359,0.853,9.017 ;69
+AddVertex,  0.000,1.100,9.036 ;70
+AddVertex,  0.359,1.100,8.998 ;71
+AddVertex,  0.000,1.176,9.017 ;72
+AddVertex,  0.359,1.176,8.979 ;73
+AddVertex,  0.000,1.290,8.979 ;74
+AddVertex,  0.359,1.290,8.941 ;75
+AddVertex,  0.000,1.403,8.923 ;76
+AddVertex,  0.359,1.403,8.884 ;77
+AddVertex,  0.000,1.593,8.809 ;78
+AddVertex,  0.359,1.593,8.771 ;79
+AddVertex,  0.000,1.783,8.752 ;80
+AddVertex,  0.359,1.783,8.714 ;81
+AddVertex,  0.000,2.067,8.658 ;82
+AddVertex,  0.359,2.067,8.620 ;83
+AddVertex,  0.000,2.371,8.563 ;84
+AddVertex,  0.359,2.371,8.525 ;85
+AddVertex,  0.000,2.826,8.449 ;86
+AddVertex,  0.359,2.826,8.411 ;87
+AddVertex,  0.000,3.243,8.525 ;88
+AddVertex,  0.359,3.243,8.487 ;89
+;Jobb oldalról
+AddVertex, 0.359,0.569,9.017 ;90
+AddVertex, 0.510,0.569,8.980 ;91
+AddVertex, 0.510,0.303,8.942 ;92
+AddVertex, 0.359,0.303,8.979 ;93
+AddVertex, 0.661,0.569,8.923 ;94
+AddVertex, 0.661,0.303,8.884 ;95
+AddVertex, 0.794,0.569,8.903 ;96
+AddVertex, 0.794,0.303,8.865 ;97
+AddVertex, 0.359,0.702,9.017 ;98
+AddVertex, 0.510,0.702,8.980 ;99
+AddVertex, 0.661,0.702,8.923 ;100
+AddVertex, 0.794,0.702,8.903 ;101
+AddVertex, 0.359,0.986,9.017 ;102
+AddVertex, 0.510,0.986,8.980 ;103
+AddVertex, 0.510,0.853,8.980 ;104
+AddVertex, 0.359,0.853,9.017 ;105
+AddVertex, 0.661,0.986,8.923 ;106
+AddVertex, 0.661,0.853,8.923 ;107
+AddVertex, 0.794,0.986,8.903 ;108
+AddVertex, 0.794,0.853,8.903 ;109
+AddVertex, 0.359,1.100,8.998 ;110
+AddVertex, 0.510,1.100,8.961 ;111
+AddVertex, 0.661,1.100,8.903 ;112
+AddVertex, 0.794,1.100,8.884 ;113
+AddVertex, 0.359,1.176,8.979 ;114
+AddVertex, 0.510,1.176,8.942 ;115
+AddVertex, 0.661,1.176,8.884 ;116
+AddVertex, 0.794,1.176,8.865 ;117
+AddVertex, 0.359,1.290,8.941 ;118
+AddVertex, 0.510,1.290,8.903 ;119
+AddVertex, 0.661,1.290,8.846 ;120
+AddVertex, 0.794,1.290,8.827 ;121
+AddVertex, 0.359,1.403,8.884 ;122
+AddVertex, 0.510,1.403,8.847 ;123
+AddVertex, 0.661,1.403,8.790 ;124
+AddVertex, 0.794,1.403,8.771 ;125
+AddVertex, 0.359,1.593,8.771 ;126
+AddVertex, 0.510,1.593,8.733 ;127
+AddVertex, 0.661,1.593,8.676 ;128
+AddVertex, 0.794,1.593,8.657 ;129
+AddVertex, 0.359,1.783,8.714 ;130
+AddVertex, 0.510,1.783,8.677 ;131
+AddVertex, 0.661,1.783,8.620 ;132
+AddVertex, 0.794,1.783,8.600 ;133
+AddVertex, 0.359,2.067,8.620 ;134
+AddVertex, 0.510,2.067,8.582 ;135
+AddVertex, 0.661,2.067,8.525 ;136
+AddVertex, 0.794,2.067,8.506 ;137
+AddVertex, 0.359,2.371,8.525 ;138
+AddVertex, 0.510,2.371,8.488 ;139
+AddVertex, 0.661,2.371,8.430 ;140
+AddVertex, 0.794,2.371,8.411 ;141
+AddVertex, 0.359,2.826,8.411 ;142
+AddVertex, 0.510,2.826,8.374 ;143
+AddVertex, 0.661,2.826,8.317 ;144
+AddVertex, 0.794,2.826,8.297 ;145
+AddVertex, 0.359,3.243,8.487 ;146
+AddVertex, 0.510,3.243,8.449 ;147
+AddVertex, 0.661,3.243,8.392 ;148
+AddVertex, 0.794,3.243,8.373 ;149
+;Bal oldalról
+;-2. szint
+AddFace, 3,2,1,0   ;3. rész
+AddFace, 5,3,0,4   ;2. rész
+AddFace, 7,5,4,6   ;1. rész
+;-1. szint
+AddFace, 0,1,9,8
+AddFace, 4,0,8,10
+AddFace, 6,4,10,11
+;1. szint
+AddFace, 15,14,13,12
+AddFace, 17,15,12,16
+AddFace, 19,17,16,18
+;2. szint
+AddFace, 12,13,21,20
+AddFace, 16,12,20,22
+AddFace, 18,16,22,23
+;3. szint
+AddFace, 20,21,25,24
+AddFace, 22,20,24,26
+AddFace, 23,22,26,27
+;4. szint
+AddFace, 24,25,29,28
+AddFace, 26,24,28,30
+AddFace, 27,26,30,31
+;5. szint
+AddFace, 28,29,33,32
+AddFace, 30,28,32,34
+AddFace, 31,30,34,35
+;6. szint (ablak)
+AddFace, 32,33,37,36
+AddFace, 34,32,36,38
+AddFace, 35,34,38,39
+;7. szint (ablak)
+AddFace, 36,37,41,40
+AddFace, 38,36,40,42
+AddFace, 39,38,42,43
+;8. szint (ablak)
+AddFace, 40,41,45,44
+AddFace, 42,40,44,46
+AddFace, 43,42,46,47
+;9. szint (ablak)
+AddFace, 44,45,49,48
+AddFace, 46,44,48,50
+AddFace, 47,46,50,51
+;10. szint (ablak)
+AddFace, 48,49,53,52
+AddFace, 50,48,52,54
+AddFace, 51,50,54,55
+;11. szint (kijelzõ)
+AddFace, 52,53,57,56
+AddFace, 54,52,56,58
+AddFace, 55,54,58,59
+;Középrõl
+;-2. szint
+AddFace, 2,61,60,1
+AddFace, 61,63,62,60
+;-1. szint
+AddFace, 1,60,64,9
+AddFace, 60,62,65,64
+;1. szint
+AddFace, 14,67,66,13
+AddFace, 67,69,68,66
+;2. szint
+AddFace, 13,66,70,21
+AddFace, 66,68,71,70
+;3. szint
+AddFace, 21,70,72,25
+AddFace, 70,71,73,72
+;4. szint
+AddFace, 25,72,74,29
+AddFace, 72,73,75,74
+;5. szint
+AddFace, 29,74,76,33
+AddFace, 74,75,77,76
+;6. szint (ablak)
+AddFace, 33,76,78,37
+AddFace, 76,77,79,78
+;7. szint (ablak)
+AddFace, 37,78,80,41
+AddFace, 78,79,81,80
+;8. szint (ablak)
+AddFace, 41,80,82,45
+AddFace, 80,81,83,82
+;9. szint (ablak)
+AddFace, 45,82,84,49
+AddFace, 82,83,85,84
+;10. szint (ablak)
+AddFace, 49,84,86,53
+AddFace, 84,85,87,86
+;11. szint (kijelzõ)
+AddFace, 53,86,88,57
+AddFace, 86,87,89,88
+;Jobb oldalról
+;-2. szint
+AddFace, 93,92,91,90
+AddFace, 92,95,94,91
+AddFace, 95,97,96,94
+;-1. szint
+AddFace, 90,91,99,98
+AddFace, 91,94,100,99
+AddFace, 94,96,101,100
+;1. szint
+AddFace, 105,104,103,102
+AddFace, 104,107,106,103
+AddFace, 107,109,108,106
+;2. szint
+AddFace, 102,103,111,110
+AddFace, 103,106,112,111
+AddFace, 106,108,113,112
+;3. szint
+AddFace, 110,111,115,114
+AddFace, 111,112,116,115
+AddFace, 112,113,117,116
+;4. szint
+AddFace, 114,115,119,118
+AddFace, 115,116,120,119
+AddFace, 116,117,121,120
+;5. szint
+AddFace, 118,119,123,122
+AddFace, 119,120,124,123
+AddFace, 120,121,125,124
+;6. szint (ablak)
+AddFace, 122,123,127,126
+AddFace, 123,124,128,127
+AddFace, 124,125,129,128
+;7. szint (ablak)
+AddFace, 126,127,131,130
+AddFace, 127,128,132,131
+AddFace, 128,129,133,132
+;8. szint (ablak)
+AddFace, 130,131,135,134
+AddFace, 131,132,136,135
+AddFace, 132,133,137,136
+;9. szint (ablak)
+AddFace, 134,135,139,138
+AddFace, 135,136,140,139
+AddFace, 136,137,141,140
+;10. szint (ablak)
+AddFace, 138,139,143,142
+AddFace, 139,140,144,143
+AddFace, 140,141,145,144
+;11. szint (kijelzõ)
+AddFace, 142,143,147,146
+AddFace, 143,144,148,147
+AddFace, 144,145,149,148
+;SetColor, 248,193,5
+GenerateNormals,
+
+LoadTexture, Elolrol_f.bmp,
+SetTextureCoordinates, 0,0.1796875,0.91015625
+SetTextureCoordinates, 1,0.2734375,0.91015625
+SetTextureCoordinates, 2,0.2734375,1
+SetTextureCoordinates, 3,0.1796875,1
+SetTextureCoordinates, 4,0.08203125,0.91015625
+SetTextureCoordinates, 5,0.08203125,1
+SetTextureCoordinates, 6,0,0.91015625
+SetTextureCoordinates, 7,0,1
+SetTextureCoordinates, 8,0.1796875,0.865234375
+SetTextureCoordinates, 9,0.2734375,0.865234375
+SetTextureCoordinates, 10,0.08203125,0.865234375
+SetTextureCoordinates, 11,0,0.865234375
+SetTextureCoordinates, 12,0.1796875,0.767578125
+SetTextureCoordinates, 13,0.2734375,0.767578125
+SetTextureCoordinates, 14,0.2734375,0.8125
+SetTextureCoordinates, 15,0.1796875,0.8125
+SetTextureCoordinates, 16,0.08203125,0.767578125
+SetTextureCoordinates, 17,0.08203125,0.8125
+SetTextureCoordinates, 18,0,0.767578125
+SetTextureCoordinates, 19,0,0.8125
+SetTextureCoordinates, 20,0.1796875,0.728515625
+SetTextureCoordinates, 21,0.2734375,0.728515625
+SetTextureCoordinates, 22,0.08203125,0.728515625
+SetTextureCoordinates, 23,0,0.728515625
+SetTextureCoordinates, 24,0.1796875,0.703125
+SetTextureCoordinates, 25,0.2734375,0.703125
+SetTextureCoordinates, 26,0.08203125,0.703125
+SetTextureCoordinates, 27,0,0.703125
+SetTextureCoordinates, 28,0.1796875,0.6640625
+SetTextureCoordinates, 29,0.2734375,0.6640625
+SetTextureCoordinates, 30,0.08203125,0.6640625
+SetTextureCoordinates, 31,0,0.6640625
+SetTextureCoordinates, 32,0.1796875,0.625
+SetTextureCoordinates, 33,0.2734375,0.625
+SetTextureCoordinates, 34,0.08203125,0.625
+SetTextureCoordinates, 35,0,0.625
+SetTextureCoordinates, 36,0.1796875,0.560546875
+SetTextureCoordinates, 37,0.2734375,0.560546875
+SetTextureCoordinates, 38,0.08203125,0.560546875
+SetTextureCoordinates, 39,0,0.560546875
+SetTextureCoordinates, 40,0.1796875,0.49609375
+SetTextureCoordinates, 41,0.2734375,0.49609375
+SetTextureCoordinates, 42,0.08203125,0.49609375
+SetTextureCoordinates, 43,0,0.49609375
+SetTextureCoordinates, 44,0.1796875,0.400390625
+SetTextureCoordinates, 45,0.2734375,0.400390625
+SetTextureCoordinates, 46,0.08203125,0.400390625
+SetTextureCoordinates, 47,0,0.400390625
+SetTextureCoordinates, 48,0.1796875,0.296875
+SetTextureCoordinates, 49,0.2734375,0.296875
+SetTextureCoordinates, 50,0.08203125,0.296875
+SetTextureCoordinates, 51,0,0.296875
+SetTextureCoordinates, 52,0.1796875,0.142578125
+SetTextureCoordinates, 53,0.2734375,0.142578125
+SetTextureCoordinates, 54,0.08203125,0.142578125
+SetTextureCoordinates, 55,0,0.142578125
+SetTextureCoordinates, 56,0.1796875,0
+SetTextureCoordinates, 57,0.2734375,0
+SetTextureCoordinates, 58,0.08203125,0
+SetTextureCoordinates, 59,0,0
+SetTextureCoordinates, 60,0.5,0.91015625
+SetTextureCoordinates, 61,0.5,1
+SetTextureCoordinates, 62,0.73828125,0.91015625
+SetTextureCoordinates, 63,0.73828125,1
+SetTextureCoordinates, 64,0.5,0.865234375
+SetTextureCoordinates, 65,0.73828125,0.865234375
+SetTextureCoordinates, 66,0.5,0.767578125
+SetTextureCoordinates, 67,0.5,0.8125
+SetTextureCoordinates, 68,0.73828125,0.767578125
+SetTextureCoordinates, 69,0.73828125,0.8125
+SetTextureCoordinates, 70,0.5,0.728515625
+SetTextureCoordinates, 71,0.73828125,0.728515625
+SetTextureCoordinates, 72,0.5,0.703125
+SetTextureCoordinates, 73,0.73828125,0.703125
+SetTextureCoordinates, 74,0.5,0.6640625
+SetTextureCoordinates, 75,0.73828125,0.6640625
+SetTextureCoordinates, 76,0.5,0.625
+SetTextureCoordinates, 77,0.73828125,0.625
+SetTextureCoordinates, 78,0.5,0.560546875
+SetTextureCoordinates, 79,0.73828125,0.560546875
+SetTextureCoordinates, 80,0.5,0.49609375
+SetTextureCoordinates, 81,0.73828125,0.49609375
+SetTextureCoordinates, 82,0.5,0.400390625
+SetTextureCoordinates, 83,0.73828125,0.400390625
+SetTextureCoordinates, 84,0.5,0.296875
+SetTextureCoordinates, 85,0.73828125,0.296875
+SetTextureCoordinates, 86,0.5,0.142578125
+SetTextureCoordinates, 87,0.73828125,0.142578125
+SetTextureCoordinates, 88,0.5,0
+SetTextureCoordinates, 89,0.73828125,0
+SetTextureCoordinates, 90,0.73828125,0.91015625
+SetTextureCoordinates, 91,0.84375,0.91015625
+SetTextureCoordinates, 92,0.84375,1
+SetTextureCoordinates, 93,0.73828125,1
+SetTextureCoordinates, 94,0.94140625,0.91015625
+SetTextureCoordinates, 95,0.94140625,1
+SetTextureCoordinates, 96,1,0.91015625
+SetTextureCoordinates, 97,1,1
+SetTextureCoordinates, 98,0.73828125,0.865234375
+SetTextureCoordinates, 99,0.84375,0.865234375
+SetTextureCoordinates, 100,0.94140625,0.865234375
+SetTextureCoordinates, 101,1,0.865234375
+SetTextureCoordinates, 102,0.73828125,0.767578125
+SetTextureCoordinates, 103,0.84375,0.767578125
+SetTextureCoordinates, 104,0.84375,0.8125
+SetTextureCoordinates, 105,0.73828125,0.8125
+SetTextureCoordinates, 106,0.94140625,0.767578125
+SetTextureCoordinates, 107,0.94140625,0.8125
+SetTextureCoordinates, 108,1,0.767578125
+SetTextureCoordinates, 109,1,0.8125
+SetTextureCoordinates, 110,0.73828125,0.728515625
+SetTextureCoordinates, 111,0.84375,0.728515625
+SetTextureCoordinates, 112,0.94140625,0.728515625
+SetTextureCoordinates, 113,1,0.728515625
+SetTextureCoordinates, 114,0.73828125,0.703125
+SetTextureCoordinates, 115,0.84375,0.703125
+SetTextureCoordinates, 116,0.94140625,0.703125
+SetTextureCoordinates, 117,1,0.703125
+SetTextureCoordinates, 118,0.73828125,0.6640625
+SetTextureCoordinates, 119,0.84375,0.6640625
+SetTextureCoordinates, 120,0.94140625,0.6640625
+SetTextureCoordinates, 121,1,0.6640625
+SetTextureCoordinates, 122,0.73828125,0.625
+SetTextureCoordinates, 123,0.84375,0.625
+SetTextureCoordinates, 124,0.94140625,0.625
+SetTextureCoordinates, 125,1,0.625
+SetTextureCoordinates, 126,0.73828125,0.560546875
+SetTextureCoordinates, 127,0.84375,0.560546875
+SetTextureCoordinates, 128,0.94140625,0.560546875
+SetTextureCoordinates, 129,1,0.560546875
+SetTextureCoordinates, 130,0.73828125,0.49609375
+SetTextureCoordinates, 131,0.84375,0.49609375
+SetTextureCoordinates, 132,0.94140625,0.49609375
+SetTextureCoordinates, 133,1,0.49609375
+SetTextureCoordinates, 134,0.73828125,0.400390625
+SetTextureCoordinates, 135,0.84375,0.400390625
+SetTextureCoordinates, 136,0.94140625,0.400390625
+SetTextureCoordinates, 137,1,0.400390625
+SetTextureCoordinates, 138,0.73828125,0.296875
+SetTextureCoordinates, 139,0.84375,0.296875
+SetTextureCoordinates, 140,0.94140625,0.296875
+SetTextureCoordinates, 141,1,0.296875
+SetTextureCoordinates, 142,0.73828125,0.142578125
+SetTextureCoordinates, 143,0.84375,0.142578125
+SetTextureCoordinates, 144,0.94140625,0.142578125
+SetTextureCoordinates, 145,1,0.142578125
+SetTextureCoordinates, 146,0.73828125,0
+SetTextureCoordinates, 147,0.84375,0
+SetTextureCoordinates, 148,0.94140625,0
+SetTextureCoordinates, 149,1,0
+
+CreateMeshBuilder, ;Oldalról (0-11)
+AddVertex, -1.209,2.826,0.439 ;0
+AddVertex, -1.209,2.826,7.486 ;1
+AddVertex, -1.209,0.228,7.486 ;2
+AddVertex, -1.209,0.228,0.439 ;3
+AddVertex, -1.134,3.300,0.439 ;4
+AddVertex, -1.134,3.300,7.486 ;5
+AddVertex,  1.191,2.826,7.486 ;6
+AddVertex,  1.191,2.826,0.439 ;7
+AddVertex,  1.191,0.228,0.439 ;8
+AddVertex,  1.191,0.228,7.486 ;9
+AddVertex,  1.134,3.300,7.486 ;10
+AddVertex,  1.134,3.300,0.439 ;11
+AddFace, 3,2,1,0 ;Bal/1.
+AddFace, 0,1,5,4 ;Bal/2.
+AddFace, 9,8,7,6;Jobb/1.
+AddFace, 6,7,11,10;Jobb/2.
+;SetColor, 248,193,5
+GenerateNormals,
+
+LoadTexture, 6_modul.bmp,
+SetTextureCoordinates, 0,0,0.154296875
+SetTextureCoordinates, 1,1,0.154296875
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0,0
+SetTextureCoordinates, 5,1,0
+SetTextureCoordinates, 6,1,0.154296875
+SetTextureCoordinates, 7,0,0.154296875
+SetTextureCoordinates, 8,0,1
+SetTextureCoordinates, 9,1,1
+SetTextureCoordinates, 10,1,0
+SetTextureCoordinates, 11,0,0
+
+CreateMeshBuilder, ;Vezetõállás oldalról (0-59)
+;Bal oldalról
+AddVertex, -1.209,0.569,7.484 ;0
+AddVertex, -0.794,0.569,8.903 ;1
+AddVertex, -0.794,0.303,8.865 ;2
+AddVertex, -1.209,0.228,7.484 ;3
+AddVertex, -1.209,0.702,7.484 ;4
+AddVertex, -0.794,0.702,8.903 ;5
+AddVertex, -1.209,0.853,7.484 ;6
+AddVertex, -0.794,0.853,8.903 ;7
+AddVertex, -1.209,0.986,7.484 ;8
+AddVertex, -0.794,0.986,8.903 ;9
+AddVertex, -1.209,1.100,7.484 ;10
+AddVertex, -0.794,1.100,8.884 ;11
+AddVertex, -1.209,1.176,7.484 ;12
+AddVertex, -0.794,1.176,8.865 ;13
+AddVertex, -1.209,1.290,7.484 ;14
+AddVertex, -0.794,1.290,8.827 ;15
+AddVertex, -1.209,1.403,7.484 ;16
+AddVertex, -0.794,1.403,8.771 ;17
+AddVertex, -1.209,1.593,7.484 ;18
+AddVertex, -0.794,1.593,8.657 ;19
+AddVertex, -1.209,1.783,7.484 ;20
+AddVertex, -0.794,1.783,8.600 ;21
+AddVertex, -1.209,2.067,7.484 ;22
+AddVertex, -0.794,2.067,8.506 ;23
+AddVertex, -1.209,2.371,7.484 ;24
+AddVertex, -0.794,2.371,8.411 ;25
+AddVertex, -1.209,2.826,7.484 ;26
+AddVertex, -0.794,2.826,8.297 ;27
+AddVertex, -1.134,3.300,7.484 ;28
+AddVertex, -0.794,3.243,8.373 ;29
+;Jobb oldalról
+AddVertex,  0.794,0.569,8.903 ;30
+AddVertex,  1.191,0.569,7.484 ;31
+AddVertex,  1.191,0.228,7.484 ;32
+AddVertex,  0.794,0.303,8.865 ;33
+AddVertex,  0.794,0.702,8.903 ;34
+AddVertex,  1.191,0.702,7.484 ;35
+AddVertex,  0.794,0.853,8.903 ;36
+AddVertex,  1.191,0.853,7.484 ;37
+AddVertex,  0.794,0.986,8.903 ;38
+AddVertex,  1.191,0.986,7.484 ;39
+AddVertex,  0.794,1.100,8.884 ;40
+AddVertex,  1.191,1.100,7.484 ;41
+AddVertex,  0.794,1.176,8.865 ;42
+AddVertex,  1.191,1.176,7.484 ;43
+AddVertex,  0.794,1.290,8.827 ;44
+AddVertex,  1.191,1.290,7.484 ;45
+AddVertex,  0.794,1.403,8.771 ;46
+AddVertex,  1.191,1.403,7.484 ;47
+AddVertex,  0.794,1.593,8.657 ;48
+AddVertex,  1.191,1.593,7.484 ;49
+AddVertex,  0.794,1.783,8.600 ;50
+AddVertex,  1.191,1.783,7.484 ;51
+AddVertex,  0.794,2.067,8.506 ;52
+AddVertex,  1.191,2.067,7.484 ;53
+AddVertex,  0.794,2.371,8.411 ;54
+AddVertex,  1.191,2.371,7.484 ;55
+AddVertex,  0.794,2.826,8.297 ;56
+AddVertex,  1.191,2.826,7.484 ;57
+AddVertex,  0.794,3.243,8.373 ;58
+AddVertex,  1.134,3.300,7.484 ;59
+AddFace, 3,2,1,0 ;Bal -2. szint
+AddFace, 0,1,5,4 ;Bal -1. szint
+AddFace, 4,5,7,6 ;Bal 1/1. szint
+AddFace, 6,7,9,8 ;Bal 1/2. szint
+AddFace, 8,9,11,10 ;Bal 2. szint
+AddFace, 10,11,13,12 ;Bal 3. szint
+AddFace, 12,13,15,14 ;Bal 4. szint
+AddFace, 14,15,17,16 ;Bal 5. szint
+AddFace, 16,17,19,18 ;Bal 6. szint (ablak)
+AddFace, 18,19,21,20 ;Bal 7. szint (ablak)
+AddFace, 20,21,23,22 ;Bal 8. szint (ablak)
+AddFace, 22,23,25,24 ;Bal 9. szint (ablak)
+AddFace, 24,25,27,26 ;Bal 10. szint (ablak)
+AddFace, 26,27,29,28 ;Bal 11. szint (felsõ csík)
+AddFace, 33,32,31,30 ;Jobb -2. szint
+AddFace, 30,31,35,34 ;Jobb -1. szint
+AddFace, 34,35,37,36 ;Jobb 1/1. szint
+AddFace, 36,37,39,38 ;Jobb 1/2. szint
+AddFace, 38,39,41,40 ;Jobb 2. szint
+AddFace, 40,41,43,42 ;Jobb 3. szint
+AddFace, 42,43,45,44 ;Jobb 4. szint
+AddFace, 44,45,47,46 ;Jobb 5. szint
+AddFace, 46,47,49,48 ;Jobb 6. szint (ablak)
+AddFace, 48,49,51,50 ;Jobb 7. szint (ablak)
+AddFace, 50,51,53,52 ;Jobb 8. szint (ablak)
+AddFace, 52,53,55,54 ;Jobb 9. szint (ablak)
+AddFace, 54,55,57,56 ;Jobb 10. szint (ablak)
+AddFace, 56,57,59,58 ;Jobb 11. szint (felsõ csík)
+GenerateNormals,
+
+LoadTexture, vezetoallas_oldalrol.bmp,
+;Bal oldalról
+SetTextureCoordinates, 0,0,0.888997396
+SetTextureCoordinates, 1,1,0.888997396
+SetTextureCoordinates, 2,0.999825982,0.975585938
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0,0.845703125
+SetTextureCoordinates, 5,1,0.845703125
+SetTextureCoordinates, 6,0,0.796549479
+SetTextureCoordinates, 7,1,0.796549479
+SetTextureCoordinates, 8,0,0.753255208
+SetTextureCoordinates, 9,1,0.753255208
+SetTextureCoordinates, 10,0,0.716145833
+SetTextureCoordinates, 11,0.999912991,0.716145833
+SetTextureCoordinates, 12,0,0.69140625
+SetTextureCoordinates, 13,0.99,0.69140625
+SetTextureCoordinates, 14,0,0.654296875
+SetTextureCoordinates, 15,0.965,0.654296875
+SetTextureCoordinates, 16,0,0.617513021
+SetTextureCoordinates, 17,0.93,0.617513021
+SetTextureCoordinates, 18,0,0.555664063
+SetTextureCoordinates, 19,0.855,0.555664063
+SetTextureCoordinates, 20,0,0.493815104
+SetTextureCoordinates, 21,0.82,0.493815104
+SetTextureCoordinates, 22,0,0.401367188
+SetTextureCoordinates, 23,0.76,0.401367188
+SetTextureCoordinates, 24,0,0.302408854
+SetTextureCoordinates, 25,0.7,0.302408854
+SetTextureCoordinates, 26,0,0.154296875
+SetTextureCoordinates, 27,0.65,0.154296875
+SetTextureCoordinates, 28,0,0
+SetTextureCoordinates, 29,0.65,0.018554688
+;Jobb oldalról
+SetTextureCoordinates, 30,1,0.888997396
+SetTextureCoordinates, 31,0,0.888997396
+SetTextureCoordinates, 32,0,1
+SetTextureCoordinates, 33,0.999825982,0.975585938
+SetTextureCoordinates, 34,1,0.845703125
+SetTextureCoordinates, 35,0,0.845703125
+SetTextureCoordinates, 36,1,0.796549479
+SetTextureCoordinates, 37,0,0.796549479
+SetTextureCoordinates, 38,1,0.753255208
+SetTextureCoordinates, 39,0,0.753255208
+SetTextureCoordinates, 40,0.999912991,0.716145833
+SetTextureCoordinates, 41,0,0.716145833
+SetTextureCoordinates, 42,0.99,0.69140625
+SetTextureCoordinates, 43,0,0.69140625
+SetTextureCoordinates, 44,0.965,0.654296875
+SetTextureCoordinates, 45,0,0.654296875
+SetTextureCoordinates, 46,0.93,0.617513021
+SetTextureCoordinates, 47,0,0.617513021
+SetTextureCoordinates, 48,0.855,0.555664063
+SetTextureCoordinates, 49,0,0.555664063
+SetTextureCoordinates, 50,0.82,0.493815104
+SetTextureCoordinates, 51,0,0.493815104
+SetTextureCoordinates, 52,0.76,0.401367188
+SetTextureCoordinates, 53,0,0.401367188
+SetTextureCoordinates, 54,0.7,0.302408854
+SetTextureCoordinates, 55,0,0.302408854
+SetTextureCoordinates, 56,0.65,0.154296875
+SetTextureCoordinates, 57,0,0.154296875
+SetTextureCoordinates, 58,0.65,0.018554688
+SetTextureCoordinates, 59,0,0
+
+CreateMeshBuilder, ;Felülrõl, alulról (0-25)
+AddVertex, -1.134,3.300,0.439 ;0
+AddVertex,  1.134,3.300,0.439 ;1
+AddVertex,  1.134,3.300,7.484 ;2
+AddVertex,  0.794,3.243,8.373 ;3
+AddVertex,  0.661,3.243,8.392 ;4
+AddVertex,  0.510,3.243,8.449 ;5
+AddVertex,  0.359,3.243,8.487 ;6
+AddVertex,  0.000,3.243,8.525 ;7
+AddVertex, -0.378,3.243,8.487 ;8
+AddVertex, -0.548,3.243,8.449 ;9
+AddVertex, -0.699,3.243,8.392 ;10
+AddVertex, -0.794,3.243,8.373 ;11
+AddVertex, -1.134,3.300,7.484 ;12
+AddVertex, -1.209,0.228,0.439 ;13
+AddVertex, -1.209,0.228,7.486 ;14
+AddVertex, -0.794,0.303,8.865 ;15
+AddVertex, -0.699,0.303,8.884 ;16
+AddVertex, -0.548,0.303,8.942 ;17
+AddVertex, -0.378,0.303,8.979 ;18
+AddVertex,  0.000,0.303,9.017 ;19
+AddVertex,  0.359,0.303,8.979 ;20
+AddVertex,  0.510,0.303,8.942 ;21
+AddVertex,  0.661,0.303,8.884 ;22
+AddVertex,  0.794,0.303,8.865 ;23
+AddVertex,  1.191,0.228,7.484 ;24
+AddVertex,  1.191,0.228,0.439 ;25
+AddFace, 12,11,10,9,8,7,6,5,4,3,2,1,0 ;Felülrõl
+AddFace, 25,24,23,22,21,20,19,18,17,16,15,14,13 ;Alulról
+SetColor, 64,64,64
+GenerateNormals,
+
+CreateMeshBuilder, ;Csukló (0-19)
+AddVertex, -0.709,2.826,-0.878 ;0
+AddVertex, -1.209,2.826,0.439  ;1
+AddVertex, -1.209,0.228,0.439  ;2
+AddVertex, -0.709,0.228,-0.878 ;3
+AddVertex, -0.634,3.300,-0.878 ;4
+AddVertex, -1.134,3.300,0.439  ;5
+AddVertex,  1.191,2.826,0.439  ;6
+AddVertex,  0.691,2.826,-0.878 ;7
+AddVertex,  0.691,0.228,-0.878 ;8
+AddVertex,  1.191,0.228,0.439  ;9
+AddVertex,  1.134,3.300,0.439  ;10
+AddVertex,  0.634,3.300,-0.878 ;11
+AddVertex, -1.134,3.300,0.439  ;12
+AddVertex, -0.634,3.300,-0.878 ;13
+AddVertex,  0.634,3.300,-0.878 ;14
+AddVertex,  1.134,3.300,0.439  ;15
+AddVertex,  1.191,0.228,0.439  ;16
+AddVertex,  0.691,0.228,-0.878 ;17
+AddVertex, -0.709,0.228,-0.878 ;18
+AddVertex, -1.209,0.228,0.439  ;19
+AddFace, 3,2,1,0 ;Bal oldalról/trapéz/1
+AddFace, 0,1,5,4 ;Bal oldalról/trapéz/2
+AddFace, 9,8,7,6 ;Jobb oldalról/trapéz/1
+AddFace, 6,7,11,10 ;Jobb oldalról/trapéz/2
+AddFace, 15,14,13,12 ;Felülrõl
+AddFace, 19,18,17,16 ;Alulról
+GenerateNormals,
+
+LoadTexture, Csuklo.bmp,
+SetTextureCoordinates, 0,0,0.230177059276366435719784449577
+SetTextureCoordinates, 1,1.5,0.230177059276366435719784449577
+SetTextureCoordinates, 2,1.5,1
+SetTextureCoordinates, 3,0,1
+SetTextureCoordinates, 4,0,0
+SetTextureCoordinates, 5,1.5,0
+SetTextureCoordinates, 6,0,0.230177059276366435719784449577
+SetTextureCoordinates, 7,1.5,0.230177059276366435719784449577
+SetTextureCoordinates, 8,1.5,1
+SetTextureCoordinates, 9,0,1
+SetTextureCoordinates, 10,0,0
+SetTextureCoordinates, 11,1.5,0
+SetTextureCoordinates, 12,0,0.26171875
+SetTextureCoordinates, 13,1.5,0.26171875
+SetTextureCoordinates, 14,1.5,0
+SetTextureCoordinates, 15,0,0
+SetTextureCoordinates, 16,0,1
+SetTextureCoordinates, 17,1.5,1
+SetTextureCoordinates, 18,1.5,0.26171875
+SetTextureCoordinates, 19,0,0.26171875
+
+CreateMeshBuilder, ;Felsõ doboz
+Cube, 0.8975,0.1235,1.6895
+Translate, 0,3.433,4.167
+SetColor, 0,0,0
+GenerateNormals,
+
+;Kerekek, készítette: pre-zli
+
+CreateMeshBuilder, ;Kerekek								a1 jobb
+Cylinder, 16, 0.345, 0.345, 0.1
+SetColor, 128, 128, 128
+Rotate, 0, 0, 1, 90
+Translate, 0.768, 0.345, 5.083
+CreateMeshBuilder,
+Cylinder, 16, 0.395, 0.395, 0.04
+SetColor, 156, 159, 152
+Rotate, 0, 0, 1, 90
+Translate, 0.697, 0.345, 5.083
+
+CreateMeshBuilder, ;							       	a1 bal
+Cylinder, 16, 0.345, 0.345, 0.1
+SetColor, 128, 128, 128
+Rotate, 0, 0, 1, 90
+Translate, -0.768, 0.345, 5.083
+CreateMeshBuilder,
+Cylinder, 16, 0.395, 0.395, 0.04
+SetColor, 156, 159, 152
+Rotate, 0, 0, 1, 90
+Translate, -0.697, 0.345, 5.083
+
+CreateMeshBuilder, ;Kerekek								b1 jobb
+Cylinder, 16, 0.345, 0.345, 0.1
+SetColor, 128, 128, 128
+Rotate, 0, 0, 1, 90
+Translate, 0.768, 0.345, 3.289
+CreateMeshBuilder,
+Cylinder, 16, 0.395, 0.395, 0.04
+SetColor, 156, 159, 152
+Rotate, 0, 0, 1, 90
+Translate, 0.697, 0.345, 3.289
+
+CreateMeshBuilder, ;							       	b1 bal
+Cylinder, 16, 0.345, 0.345, 0.1
+SetColor, 128, 128, 128
+Rotate, 0, 0, 1, 90
+Translate, -0.768, 0.345, 3.289
+CreateMeshBuilder,
+Cylinder, 16, 0.395, 0.395, 0.04
+SetColor, 156, 159, 152
+Rotate, 0, 0, 1, 90
+Translate, -0.697, 0.345, 3.289
+
+CreateMeshBuilder, ;Védjegy
+AddVertex,  0.4375,0.227,3.3
+AddVertex,  0.4375,0.227,5.05
+AddVertex, -0.4375,0.227,5.05
+AddVertex, -0.4375,0.227,3.3
+AddFace, 0,1,2,3
+
+LoadTexture, Vedjegy.bmp,
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+CreateMeshBuilder, ;Kijelzõ (0-9)
+AddVertex, -0.552,3.133,8.429 ;0
+AddVertex, -0.378,3.133,8.468 ;1
+AddVertex, -0.378,2.936,8.432 ;2
+AddVertex, -0.552,2.936,8.393 ;3
+AddVertex,  0.000,3.133,8.506 ;4
+AddVertex,  0.000,2.936,8.470 ;5
+AddVertex,  0.359,3.133,8.468 ;6
+AddVertex,  0.359,2.936,8.432 ;7
+AddVertex,  0.510,3.133,8.430 ;8
+AddVertex,  0.510,2.936,8.394 ;9
+AddFace, 3,2,1,0 ; Bal
+AddFace, 2,5,4,1 ; Közép/1.
+AddFace, 5,7,6,4 ; Közép/2.
+AddFace, 7,9,8,6 ; Jobb
+GenerateNormals,
+
+LoadTexture, Kijelzo.bmp,
+SetTextureCoordinates, 0,1,0
+SetTextureCoordinates, 1,0.85781544256120527306967984934087,0
+SetTextureCoordinates, 2,0.85781544256120527306967984934087,1
+SetTextureCoordinates, 3,1,1
+SetTextureCoordinates, 4,0.480225988700564971751412429378,0
+SetTextureCoordinates, 5,0.480225988700564971751412429378,1
+SetTextureCoordinates, 6,0.163841807909604519774011299436,0
+SetTextureCoordinates, 7,0.163841807909604519774011299436,1
+SetTextureCoordinates, 8,0,0
+SetTextureCoordinates, 9,0,1

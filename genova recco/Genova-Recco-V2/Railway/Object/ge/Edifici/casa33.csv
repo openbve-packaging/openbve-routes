@@ -1,0 +1,74 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com 
+
+
+;;;;casa5
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 15, 0,
+AddVertex,11, 15, 0,
+AddVertex,11, 0, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa33.bmp,
+SetTextureCoordinates,0, 0.2, 1,
+SetTextureCoordinates,1, 0.2, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,11, 0, -20,
+AddVertex,11, 15, -20,
+AddVertex,0, 15, -20,
+AddVertex,0, 0, -20,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa33.bmp,
+SetTextureCoordinates,0, -0, 1,
+SetTextureCoordinates,1, -0, 0,
+SetTextureCoordinates,2, -0.8, 0,
+SetTextureCoordinates,3, -0.8, 1,
+
+
+
+CreateMeshBuilder,
+AddVertex,0, 0, -20,
+AddVertex,0, 15, -20,
+AddVertex,0, 15, 0,
+AddVertex,0, 0, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa33.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, -1, 0,
+SetTextureCoordinates,3,-1, 1,
+
+CreateMeshBuilder,
+AddVertex,11, 0, -20,
+AddVertex,11, 15, -20,
+AddVertex,11, 15, 0,
+AddVertex,11, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,casa33.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+
+
+;;tetto
+CreateMeshBuilder,
+cube,6, 0.2, 10.5,
+translate, 5.5, 15.2, -10
+GenerateNormals,
+
+setcolor,200,200,200
+

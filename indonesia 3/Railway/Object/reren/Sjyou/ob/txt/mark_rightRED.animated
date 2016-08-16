@@ -1,0 +1,4 @@
+[Object]
+Position = 0, 0, 0
+States = ../bill\mark\mark_rightRED.csv, ../bill\mark\mark_rightRED2.csv, ../../../Null.csv, ../bill\mark\mark_rightRED2.csv
+StateFunction = floor[mod[time*0.8,4]]

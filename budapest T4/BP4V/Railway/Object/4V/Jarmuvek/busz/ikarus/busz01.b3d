@@ -1,0 +1,88 @@
+[Meshbuilder]
+Vertex 0, 0.5, 0.05
+Vertex 0, 1.7, 0.05
+Vertex 2.5, 1.7, 0.05
+Vertex 2.5, 0.5, 0.05
+Face 0, 1, 2, 3
+[Texture]
+Load busz01szembolalja.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+
+[Meshbuilder]
+Vertex 0, 1.7, 0.05
+Vertex 0, 3, 0.3
+Vertex 2.5, 3, 0.3
+Vertex 2.5, 1.7, 0.05
+Face 0, 1, 2, 3
+[Texture]
+Load busz01szelvedo.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+
+
+[Meshbuilder]
+Vertex 2.5, 0, 0
+Vertex 2.5, 3, 0
+Vertex 2.5, 3, 8.5
+Vertex 2.5, 0, 8.5
+Face 0, 1, 2, 3
+Face 3, 2, 1, 0
+[Texture]
+Load buszbaloldal01proba.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 76, 82, 132
+
+[Meshbuilder]
+Vertex 0, 0, 8.5
+Vertex 0, 3, 8.5
+Vertex 0, 3, 0
+Vertex 0, 0, 0
+Face 3, 2, 1, 0
+Face 0, 1, 2, 3
+[Texture]
+Load buszjobboldal01.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 75, 96, 116
+
+[Meshbuilder]
+Vertex 2.5, 0.3, 8.42
+Vertex 2.5, 1.7, 8.4
+Vertex 0, 1.7, 8.4
+Vertex 0, 0.3, 8.42
+Face 0, 1, 2, 3
+[Texture]
+Load busz01hatulalja.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+
+[Meshbuilder]
+Vertex 2.5, 1.7, 8.49
+Vertex 2.5, 3, 8.2
+Vertex 0, 3, 8.2
+Vertex 0, 1.7, 8.49
+Face 0, 1, 2, 3
+[Texture]
+Load busz01hatsoszelvedo.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+

@@ -1,0 +1,31 @@
+; Készíette: mamutsegg
+
+;jobb
+;----------
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05, 1.5
+Color 128, 128, 128
+Translate 0, 8.4, 0
+
+[Meshbuilder]
+Cylinder 8, 0.05, 0.05, 3
+Color 128, 128, 128
+Translate 8.8, 2.3, 0
+Rotate 0, 0, 1, 90
+Rotate 0, 0, 1, -5
+
+[Meshbuilder]
+Cube 0.1, 0.6, 0.2
+Color 128, 128, 128
+Translate 8.8, 4, 0
+Rotate 0, 0, 1, 90
+Rotate 0, 0, 1, -5
+
+[Meshbuilder]
+Cube 0.1, 0.57, 0.17
+Color 128, 128, 128, 128
+Translate 8.65, 4, 0
+Rotate 0, 0, 1, 90
+Rotate 0, 0, 1, -5
+

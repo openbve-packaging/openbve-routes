@@ -1,0 +1,19 @@
+[MeshBuilder] ; wall alongside platform 1
+Vertex 7.2,5.5,0
+Vertex 7.2,1.1,0
+Vertex 7.2,1.1,25
+Vertex 7.2,5.5,25
+Vertex 7.6,5.5,0
+Vertex 7.6,1.1,0
+
+Face 0,1,2,3
+Face 4,5,1,0
+
+[Texture]
+load stone.bmp
+Coordinates 0,25,0
+Coordinates 1,25,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+Coordinates 4,25.4,0
+Coordinates 5,25.4,5

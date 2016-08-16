@@ -1,0 +1,249 @@
+[MeshBuilder]
+Vertex -11, 4.5, 5
+Vertex -8.5, 5, 5
+Vertex -6, 4.5, 5
+Vertex -6, 0, 5
+Vertex -11, 0, 5
+Vertex -6, 4.5, 11
+Vertex -6, 0, 11
+Vertex -4.9, 4.3, 11
+Vertex -4.9, 0, 11
+Vertex -4.9, 4.3, 14
+Vertex -4.9, 0, 14
+Vertex -6, 4.5, 14
+Vertex -6, 0, 14
+Vertex -6, 4.5, 21
+Vertex -6, 0, 21
+Face 0,1,2,3,4
+Face 2,5,6,3
+Face 6,5,7,8
+Face 8,7,9,10
+Face 12,11,13,14
+Face 10,9,11,12
+
+[Texture]
+Load koya4.bmp
+Coordinates 0,0,0.1
+Coordinates 1, 0.125, 0
+Coordinates 2, 0.25, 0.1
+Coordinates 3, 0.25, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0.5, 0.1
+Coordinates 6, 0.5, 1   
+Coordinates 7, 0.55, 0.13
+Coordinates 8, 0.55, 1
+Coordinates 9, 0.65, 0.13
+Coordinates 10, 0.65, 1        
+Coordinates 11, 0.7, 0.1
+Coordinates 12, 0.7, 1 
+Coordinates 13, 1, 0.1
+Coordinates 14, 1, 1 
+color 150,100,0
+
+[MeshBuilder]
+Vertex -11, 4.5, 21
+Vertex -8.5, 5, 21
+Vertex -6, 4.5, 21
+Vertex -6, 0, 21
+Vertex -11, 0, 21
+Face 4,3,2,1,0
+
+[Texture]
+Load koya4.bmp
+Coordinates 0,0,0.1
+Coordinates 1, 0.125, 0
+Coordinates 2, 0.25, 0.1
+Coordinates 3, 0.25, 1
+Coordinates 4, 0, 1
+color 150,100,0
+
+[MeshBuilder]
+Vertex -12.3, 4.4, 4.2
+Vertex -8.5, 5, 4.2
+Vertex -8.5, 5, 21.8
+Vertex -11.5, 4.4, 21.8
+Face 0,1,2,3,
+color 100,75,0
+
+[MeshBuilder]
+Vertex -12.3.8, 4.4, 4.2
+Vertex -8.5, 5.0, 4.2
+Vertex -8.5, 4.85, 4.2
+Vertex -12.3, 4.75, 4.2
+Face 0,1,2,3,
+color 100,75,0
+
+[MeshBuilder]
+Vertex -8.5, 5, 4.2
+Vertex -8.5, 5, 21.8
+Vertex -2.7, 4.1, 21.8
+Vertex -2.7,4.1, 4.2
+Face 0,1,2,3,
+Face 3,2,1,0
+
+[Texture]
+Load roof.bmp
+Coordinates 0,0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+color 150,100,0
+
+[MeshBuilder]
+Vertex -8.5, 5.0, 4.2
+Vertex -4.7, 4.4, 4.2
+Vertex -4.7, 4.25, 4.2
+Vertex -8.5, 4.85, 4.2
+Vertex -4.7, 4.4, 21.8
+Vertex -4.7, 4.25, 21.8
+face 0,1,2,3
+face 1,4,5,2
+color 100,75,0
+              
+
+[MeshBuilder]
+Vertex -3.4, 4.2, 0.5
+Vertex -3.2, 4.2, 0.5
+Vertex -3.2, 0, 0.5
+Vertex -3.4, 0, 0.5
+Vertex -3.2, 4.2, 0.7
+Vertex -3.2, 0, 0.7
+face  0,1,2,3
+Face  2,1,4,5
+color 100,75,0
+
+[MeshBuilder]
+Vertex -3.4, 4.2, 5
+Vertex -3.2, 4.2, 5
+Vertex -3.2, 0, 5
+Vertex -3.4, 0, 5
+Vertex -3.2, 4.2, 5.2
+Vertex -3.2, 0, 5.2
+face  0,1,2,3
+Face  2,1,4,5
+color 100,75,0
+
+[MeshBuilder]
+Vertex -3.4, 4.2, 10
+Vertex -3.2, 4.2, 10
+Vertex -3.2, 0, 10
+Vertex -3.4, 0, 10
+Vertex -3.2, 4.2, 10.2
+Vertex -3.2, 0, 10.2
+face  0,1,2,3
+Face  2,1,4,5
+color 100,75,0
+
+[MeshBuilder]
+Vertex -3.4, 4.2, 15
+Vertex -3.2, 4.2, 15
+Vertex -3.2, 0, 15
+Vertex -3.4, 0, 15
+Vertex -3.2, 4.2, 15.2
+Vertex -3.2, 0, 15.2
+face  0,1,2,3
+Face  2,1,4,5
+color 100,75,0
+
+[MeshBuilder]
+Vertex -3.4, 4.2, 20
+Vertex -3.2, 4.2, 20
+Vertex -3.2, 0, 20
+Vertex -3.4, 0, 20
+Vertex -3.2, 4.2, 20.2
+Vertex -3.2, 0, 20.2
+face  0,1,2,3
+Face  2,1,4,5
+color 100,75,0
+
+[MeshBuilder]
+Vertex -7.8, 4.2, 0.5
+Vertex -7.6, 4.2, 0.5
+Vertex -7.6, 0, 0.5
+Vertex -7.8, 0, 0.5
+Vertex -7.6, 4.2, 0.7
+Vertex -7.6, 0, 0.7
+face  0,1,2,3
+Face  2,1,4,5
+color 100,75,0
+
+[MeshBuilder]
+Vertex -5.5, 4.5, 21
+Vertex -2.5, 4.1 ,21
+Vertex -2.5, 4.1 ,0
+Vertex -5.5, 4.5, 0
+face 0,1,2,3
+face 3,2,1,0
+color 100,75,0
+
+[Texture]
+Load roof.bmp
+Coordinates 0,0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 3, 1
+Coordinates 3, 3, 0
+
+[MeshBuilder]
+Vertex -5.5, 4.5, 21
+Vertex -8.5, 4.1 ,21
+Vertex -8.5, 4.1 ,0
+Vertex -5.5, 4.5, 0
+face 0,1,2,3
+Face 3,2,1,0
+color 150,100,0
+
+[MeshBuilder]
+Vertex -8.5, 4.1 ,0
+Vertex -5.5, 4.5, 0
+Vertex -5.5, 4.35, 0
+Vertex -8.5, 3.95 ,0
+Vertex -2.5, 4.1 ,0
+Vertex -2.5, 3.95 ,0
+Vertex -2.5, 3.95 ,21
+Vertex -2.5, 4.1 ,21
+Face 0,1,2,3
+Face 1,4,5,2
+Face 4,7,6,5
+color 100,75,0
+
+[MeshBuilder]
+Vertex -7.75, 4.2 ,0.5
+Vertex -5.5, 4.5, 0.5
+Vertex -3.25, 4.2, 0.5
+Vertex -3.25, 3.8, 0.5
+Vertex -7.75, 3.8 ,0.5
+Vertex -3.25, 4.2, 20.5
+Vertex -3.25, 3.8, 20.5
+Face 0,1,2,3,4
+Face 2,5,6,3
+
+[Texture]
+Load roof.bmp
+Coordinates 0,0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 2, 0
+Coordinates 3, 2, 1
+Coordinates 4, 0, 1
+Coordinates 5, 7, 0
+Coordinates 6, 7, 1
+color 150,100,0
+
+[MeshBuilder]
+Vertex -12.6,12.4,0
+Vertex -12,  12.4,5
+Vertex -12,0,5
+Vertex -12.6,0,0
+Face 0,1,2,3
+
+[Texture]
+Load windmill.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+transparent 0,0,255
+
+
+
+
+

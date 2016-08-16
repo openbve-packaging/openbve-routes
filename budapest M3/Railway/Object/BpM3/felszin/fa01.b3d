@@ -1,0 +1,46 @@
+;fák
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;                            ;;
+;;           FA 1             ;;
+;;                            ;;
+;;     méret: x=10 y=9        ;;
+;;                            ;;
+;;           2006             ;;
+;;                            ;;
+;;    (C) DÁVIDHÁZI TIBOR     ;;
+;;                            ;;
+;;      EZT AZ OBJEKTUMOT     ;;
+;;    MÓDOSÍTATLAN FORMÁBAN   ;;
+;; SZABADON BEÉPÍTHETED SAJÁT ;;
+;;  PÁLYÁDBA ÉS A PÁLYÁDBAN   ;;
+;;        PUBLIKÁLHATOD.      ;;
+;;    HA MÓDOSÍTANI AKAROD,   ;;
+;;   ENGEDÉLYT KELL KÉRNED.   ;;
+;;                            ;;
+;;  YOU CAN USE THIS OBJECT   ;;
+;;   FREELY IN YOUR ROUTES    ;;
+;;    WITHOUT MODIFICATION.   ;;
+;;  IF YOU WANT TO MODIFY IT  ;;
+;;     REQUEST PERMISSION     ;;
+;;          BY EMAIL.         ;;
+;;                            ;;
+;;    phontanka@gmail.com     ;;
+;;                            ;;
+;; http://phontanka.extra.hu  ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[Meshbuilder]
+vertex -5,13,0
+vertex 5,13,0
+vertex 5,0,0
+vertex -5,0,0
+face2 0,1,2,3
+Translate 0,-0.23,0
+[Texture]
+load fa01.bmp
+coordinates 0,0,0
+coordinates 1,0.53,0
+coordinates 2,0.53,1
+coordinates 3,0,1
+Transparent 0,0,255

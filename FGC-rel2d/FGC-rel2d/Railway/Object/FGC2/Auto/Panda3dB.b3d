@@ -1,0 +1,194 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Autovettura Panda Fiat bianca
+; 
+[MeshBuilder] ; Fiancata sx
+Vertex -0.725, 0.000,  1.58
+Vertex -0.680, 0.950,  1.69
+Vertex -0.510, 1.450,  1.69
+Vertex -0.510, 1.450, -1.69
+Vertex -0.680, 0.950, -1.69
+Vertex -0.725, 0.000, -1.58
+Face2 0,1,4,5
+Face2 1,2,3,4
+[texture]
+load panda-latoB.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.4
+Coordinates 2, 0, 0.08
+Coordinates 3, 1, 0.08
+Coordinates 4, 1, 0.4
+Coordinates 5, 1, 1
+transparent 0,0,255
+
+[MeshBuilder] ; vetri sx
+Vertex -0.675, 0.950,  0.59
+Vertex -0.505, 1.400,  0.19
+Vertex -0.505, 1.400, -1.19
+Vertex -0.675, 0.950, -1.49
+Face2 0,1,2,3
+color 124,120,109,160
+
+
+[MeshBuilder] ; Fiancata dx
+Vertex 0.725, 0.000,  1.58
+Vertex 0.680, 0.950,  1.69
+Vertex 0.510, 1.450,  1.69
+Vertex 0.510, 1.450, -1.69
+Vertex 0.680, 0.950, -1.69
+Vertex 0.725, 0.000, -1.58
+Face2 0,1,4,5
+Face2 1,2,3,4
+[texture]
+load panda-latoB.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.4
+Coordinates 2, 0, 0.08
+Coordinates 3, 1, 0.08
+Coordinates 4, 1, 0.4
+Coordinates 5, 1, 1
+transparent 0,0,255
+
+[MeshBuilder] ; vetri sx
+Vertex 0.675, 0.950,  0.59
+Vertex 0.505, 1.400,  0.19
+Vertex 0.505, 1.400, -1.19
+Vertex 0.675, 0.950, -1.49
+Face2 0,1,2,3
+color 124,120,109,160
+
+[MeshBuilder] ; Lato posteriore
+Vertex -0.755, 1.440,  0.16
+Vertex  0.755, 1.440,  0.16
+Vertex -0.755, 1.450,  -1.18
+Vertex  0.755, 1.450,  -1.18
+Vertex -0.795, 0.960,  -1.58
+Vertex  0.795, 0.960,  -1.58
+Vertex -0.795, 0.620,  -1.53
+Vertex  0.795, 0.620,  -1.53
+Vertex -0.785, 0.600,  -1.60
+Vertex  0.785, 0.600,  -1.60
+Vertex -0.785, 0.550,  -1.60
+Vertex  0.785, 0.550,  -1.60
+Vertex -0.785, 0.350,  -1.46
+Vertex  0.785, 0.350,  -1.46
+Vertex -0.785, 0.300,  -1.26
+Vertex  0.785, 0.300,  -1.26
+
+Face2 0,1,3,2
+Face2 2,3,5,4
+Face2 4,5,7,6
+Face2 6,7,9,8
+Face2 8,9,11,10
+Face2 10,11,13,12
+Face2 12,13,15,14
+
+[texture]
+load panda-retroB.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0.01
+Coordinates 3, 1, 0.01
+Coordinates 4, 0, 0.33
+Coordinates 5, 1, 0.33
+Coordinates 6, 0, 0.55
+Coordinates 7, 1, 0.55
+Coordinates 8, 0, 0.57
+Coordinates 9, 1, 0.57
+Coordinates 10, 0, 0.65
+Coordinates 11, 1, 0.65
+Coordinates 12, 0, 0.70
+Coordinates 13, 1, 0.70
+Coordinates 14, 0, 0.73
+Coordinates 15, 1, 0.73
+transparent 0,0,255
+
+[MeshBuilder] ; vetro post
+Vertex -0.675, 0.950, -1.49
+Vertex -0.505, 1.400,-1.19
+Vertex 0.505, 1.400, -1.19
+Vertex 0.675, 0.950, -1.49
+Face2 0,1,2,3
+color 124,120,109,160
+
+
+[MeshBuilder] ; Lato anteriore
+Vertex -0.755, 1.510,  0.1
+Vertex  0.755, 1.510,  0.1
+Vertex -0.800, 0.930,  0.7
+Vertex  0.800, 0.930,  0.7
+Vertex -0.795, 0.830,  1.53
+Vertex  0.795, 0.830,  1.53
+Vertex -0.795, 0.625,  1.53
+Vertex  0.795, 0.625,  1.53
+Vertex -0.785, 0.600,  1.55
+Vertex  0.785, 0.600,  1.55
+Vertex -0.785, 0.590,  1.60
+Vertex  0.785, 0.590,  1.60
+Vertex -0.785, 0.350,  1.50
+Vertex  0.785, 0.350,  1.50
+Vertex -0.785, 0.300,  1.26
+Vertex  0.785, 0.300,  1.26
+
+Face2 0,1,3,2
+Face2 2,3,5,4
+Face2 4,5,7,6
+Face2 6,7,9,8
+Face2 8,9,11,10
+Face2 10,11,13,12
+Face2 12,13,15,14
+
+[texture]
+load panda-fronteB.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0.32
+Coordinates 3, 1, 0.32
+Coordinates 4, 0, 0.44
+Coordinates 5, 1, 0.44
+Coordinates 6, 0, 0.55
+Coordinates 7, 1, 0.55
+Coordinates 8, 0, 0.57
+Coordinates 9, 1, 0.57
+Coordinates 10, 0, 0.65
+Coordinates 11, 1, 0.65
+Coordinates 12, 0, 0.70
+Coordinates 13, 1, 0.70
+Coordinates 14, 0, 0.73
+Coordinates 15, 1, 0.73
+transparent 0,0,255
+
+[MeshBuilder] ; vetro ant
+Vertex -0.675, 0.950, 0.695
+Vertex -0.505, 1.400,0.095
+Vertex 0.505, 1.400, 0.095
+Vertex 0.675, 0.950, 0.695
+Face2 0,1,2,3
+color 124,120,109,160
+
+; Pneumatici
+[MeshBuilder] ; ant sx
+cylinder 9,0.25,0.25,0.12
+color 60,60,60
+rotate 0,0,1,87
+translate -0.65,0.25,1
+
+[MeshBuilder] ; ant dx
+cylinder 9,0.25,0.25,0.12
+color 60,60,60
+rotate 0,0,1,-87
+translate 0.65,0.25,1
+
+[MeshBuilder] ; post sx
+cylinder 9,0.25,0.25,0.12
+color 60,60,60
+rotate 0,0,1,87
+translate -0.65,0.25,-1.03
+
+[MeshBuilder] ; post dx
+cylinder 9,0.25,0.25,0.12
+color 60,60,60
+rotate 0,0,1,-87
+translate 0.65,0.25,-1.03

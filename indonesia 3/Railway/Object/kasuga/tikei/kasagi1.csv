@@ -1,0 +1,57 @@
+CreateMeshBuilder
+AddVertex,18, 25, 0
+AddVertex,5, -5, 0
+AddVertex,5, -5, 26
+AddVertex,18, 25, 26
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture, Grass.bmp
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 1, 0
+SetTextureCoordinates, 1, 1, 1
+
+CreateMeshBuilder
+AddVertex,4.5, 12.5,5
+AddVertex,4.5, -1,5
+AddVertex,-4.5, -1,5
+AddVertex,-4.5,12.5,5
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture,kusa2.bmp
+SetTextureCoordinates, 1, 1,1
+SetTextureCoordinates, 2, 1,0
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 0, 1
+SetDecalTransparentColor, 0,0,255
+Translate,13,14,0
+
+CreateMeshBuilder
+AddVertex,2.5, 12.5,5
+AddVertex,2.5, -1,5
+AddVertex,-4.5, -1,5
+AddVertex,-4.5,12.5,5
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture,kusa3.bmp
+SetTextureCoordinates, 1, 1,1
+SetTextureCoordinates, 2, 1,0
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 0, 1
+SetDecalTransparentColor, 0,0,255
+Translate,13,14,5
+
+CreateMeshBuilder
+AddVertex,2.5, 12.5,5
+AddVertex,2.5, -1,5
+AddVertex,-4.5, -1,5
+AddVertex,-4.5,12.5,5
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture,kusa2.bmp
+SetTextureCoordinates, 1, 1,1
+SetTextureCoordinates, 2, 1,0
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 0, 1
+SetDecalTransparentColor, 0,0,255
+Translate,13,14,15

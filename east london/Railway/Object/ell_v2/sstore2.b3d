@@ -1,0 +1,55 @@
+; sainsburys part two, the (somewhat empty) car park end
+[MeshBuilder]
+Vertex 100,-0.4,25.3
+Vertex 100,-0.4,-0.3
+Vertex 0,-0.4,-0.3
+Vertex 0,-0.4,25.3
+Face 0,1,2,3
+[Texture]
+load stonewall.bmp
+Coordinates 0,100,0
+Coordinates 1,100,25
+Coordinates 2,0,25
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 90,15,0
+Vertex 90,-0.4,0
+Vertex 90,-0.4,25
+Vertex 90,15,25
+Face 0,1,2,3
+[Texture]
+load t1.bmp
+Coordinates 0,15,0
+Coordinates 1,15,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 0,0,0
+
+[Meshbuilder]
+Vertex 89,15,0
+Vertex 89,-0.4,0
+Vertex 89,-0.4,25
+Vertex 89,15,25
+Face 0,1,2,3
+[Texture]
+load t1.bmp
+Coordinates 0,15.3,0
+Coordinates 1,15.3,1
+Coordinates 2,0.3,1
+Coordinates 3,0.3,0
+Transparent 0,0,0
+
+[Meshbuilder]
+Vertex 88,15,0
+Vertex 88,-0.4,0
+Vertex 88,-0.4,25
+Vertex 88,15,25
+Face 0,1,2,3
+[Texture]
+load t1.bmp
+Coordinates 0,15.7,0
+Coordinates 1,15.7,1
+Coordinates 2,0.7,1
+Coordinates 3,0.7,0
+Transparent 0,0,0

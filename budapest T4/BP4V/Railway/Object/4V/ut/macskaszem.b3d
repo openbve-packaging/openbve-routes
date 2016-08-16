@@ -1,0 +1,80 @@
+;Készítette: mamutsegg
+
+
+[Meshbuilder]
+Vertex 6.65, 1, -0.05
+Vertex 6.65, -0.127, -0.05
+Vertex 6.55, -0.127, 0
+Vertex 6.55, 0.9, 0
+Vertex 6.65, 1, 0.05
+Vertex 6.65, -0.127, 0.05
+Vertex -6.65, 1, -0.05
+Vertex -6.65, -0.127, -0.05
+Vertex -6.55, -0.127, 0
+Vertex -6.55, 0.9, 0
+Vertex -6.65, 1, 0.05
+Vertex -6.65, -0.127, 0.05
+Face 0,1,2,3
+Face 5,4,3,2
+Face 4,5,1,0
+Face 0,3,4
+Face 9,8,7,6
+Face 8,9,10,11
+Face 6,7,11,10
+Face 10,9,6
+Color 244,243,251
+
+[Meshbuilder]
+Vertex 6.651, 1, -0.051
+Vertex 6.651, -0.127, -0.051
+Vertex 6.55, -0.127, 0
+Vertex 6.55, 1, 0
+Vertex 6.651, 1, 0.051
+Vertex 6.651, -0.127, 0.051
+Vertex -6.651, 1, -0.051
+Vertex -6.651, -0.127, -0.051
+Vertex -6.55, -0.127, 0
+Vertex -6.55, 1, 0
+Vertex -6.651, 1, 0.051
+Vertex -6.651, -0.127, 0.051
+Face 0,1,2,3
+Face 5,4,3,2
+Face 9,8,7,6
+Face 8,9,10,11
+[Texture]
+Load macskaszem.bmp
+Coordinates 0, 0.5, 0
+Coordinates 1, 0.5, 1
+Coordinates 2, 0.25, 1
+Coordinates 3, 0.25, 0
+Coordinates 4, 0, 0
+Coordinates 5, 0, 1
+Coordinates 6, 0, 0
+Coordinates 7, 0, 1
+Coordinates 8, 0.25, 1
+Coordinates 9, 0.25, 0
+Coordinates 10, 0.5, 0
+Coordinates 11, 0.5, 1
+Transparent 0, 0, 255
+[Meshbuilder]
+Vertex 6.651, 1, -0.051
+Vertex 6.651, -0.127, -0.051
+Vertex 6.651, 1, 0.051
+Vertex 6.651, -0.127, 0.051
+Vertex -6.651, 1, -0.051
+Vertex -6.651, -0.127, -0.051
+Vertex -6.651, 1, 0.051
+Vertex -6.651, -0.127, 0.051
+Face 2,3,1,0
+Face 4,5,7,6
+[Texture]
+Load macskaszem.bmp
+Coordinates 0, 0.5, 0
+Coordinates 1, 0.5, 1
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0.5, 0
+Coordinates 5, 0.5, 1
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+Transparent 0, 0, 255

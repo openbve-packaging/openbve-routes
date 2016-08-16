@@ -1,0 +1,25 @@
+CreateMeshBuilder,
+AddVertex,-1.52,-0.054, 0
+AddVertex, 1.52,-0.054, 0,
+AddVertex, 1.52,-0.254, 0
+AddVertex,-1.52,-0.254, 0
+AddFace,0,1,2,3,
+LoadTexture,railM_a.bmp
+SetTextureCoordinates,0, -0.2, 0,
+SetTextureCoordinates,1,  1.2, 0,
+SetTextureCoordinates,2,  1.2, 0.2,
+SetTextureCoordinates,3, -0.2, 0.2,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 2.32,-0.054,0
+AddVertex, 5.36,-0.054,0,
+AddVertex, 5.36,-0.254, 0
+AddVertex, 2.32,-0.254, 0
+AddFace,0,1,2,3,
+LoadTexture,railM_a.bmp
+SetTextureCoordinates,0, -0.2, 0,
+SetTextureCoordinates,1,  1.2, 0,
+SetTextureCoordinates,2,  1.2, 0.2,
+SetTextureCoordinates,3, -0.2, 0.2,
+GenerateNormals,

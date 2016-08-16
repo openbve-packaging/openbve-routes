@@ -1,0 +1,298 @@
+; Arched Ceiling  ;  (Arches From Left the Right)
+
+;*****************************************************************
+;
+; LEFT SIDE
+;
+;*****************************************************************
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex -2.0, 0.08, 0
+Vertex -2.0, 0.00, 0
+Vertex -2.0, 0.00, 25
+Vertex -2.0, 0.08, 25
+
+Face 3,2,1,0
+
+;Color 115,115,115
+
+;Color 230,230,230
+
+;Color 255,00,00
+
+[Texture]
+load bnk0_0.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   -1.80, 2.00, 0
+Vertex   -2.00, 0.08, 0
+Vertex   -2.00, 0.08, 25
+Vertex   -1.80, 2.00, 25
+
+Face 3,2,1,0
+
+;Color 230,230,230
+;Color 0,84,24
+
+
+[Texture]
+load CLARK2.bmp
+
+Coordinates 0, 4, 0
+Coordinates 1, 4, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   -1.40, 3.00, 0
+Vertex   -1.80, 2.00, 0
+Vertex   -1.80, 2.00, 25
+Vertex   -1.40, 3.00, 25
+
+Face 3,2,1,0
+;Color 230,230,230
+;Color 115,115,115
+
+
+[Texture]
+load CLARK 1.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   -0.80, 4.00, 0
+Vertex   -1.40, 3.00, 0
+Vertex   -1.40, 3.00, 25
+Vertex   -0.80, 4.00, 25
+
+Face 3,2,1,0
+
+Color 230,230,230
+
+
+[Texture]
+;load Roof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex    0.40, 5.20, 0
+Vertex   -0.80, 4.00, 0
+Vertex   -0.80, 4.00, 25
+Vertex    0.40, 5.20, 25
+
+Face 3,2,1,0
+
+Color 230,230,230
+
+
+[Texture]
+;load Roof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   1.00, 5.60, 0
+Vertex   0.40, 5.20, 0
+Vertex   0.40, 5.20, 25
+Vertex   1.00, 5.60, 25
+
+Face 3,2,1,0
+
+Color 230,230,230
+
+
+[Texture]
+;load Roof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   1.40, 5.80, 0
+Vertex   1.00, 5.60, 0
+Vertex   1.00, 5.60, 25
+Vertex   1.40, 5.80, 25
+
+Face 3,2,1,0
+
+Color 230,230,230
+
+
+[Texture]
+;load Roof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   1.80, 6.00, 0
+Vertex   1.40, 5.80, 0
+Vertex   1.40, 5.80, 25
+Vertex   1.80, 6.00, 25
+
+Face 3,2,1,0
+
+Color 230,230,230
+
+
+[Texture]
+;load Roof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   2.40, 6.20, 0
+Vertex   1.80, 6.00, 0
+Vertex   1.80, 6.00, 25
+Vertex   2.40, 6.20, 25
+
+Face 3,2,1,0
+
+Color 230,230,230
+
+
+[Texture]
+;load Roof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   3.60, 6.40, 0
+Vertex   2.40, 6.20, 0
+Vertex   2.40, 6.20, 25
+Vertex   3.60, 6.40, 25
+
+Face 3,2,1,0
+
+Color 230,230,230
+
+
+[Texture]
+;load Roof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+[MeshBuilder]
+
+Vertex   4.00, 6.40, 0
+Vertex   3.60, 6.40, 0
+Vertex   3.60, 6.40, 25
+Vertex   4.00, 6.40, 25
+
+Face 3,2,1,0
+
+Color 230,230,230
+
+
+[Texture]
+;load Roof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+
+Vertex   6.00, 6.40, 0
+Vertex   3.60, 6.40, 0
+Vertex   3.60, 6.40, 25
+Vertex   6.00, 6.40, 25
+
+Face 3,2,1,0
+
+Color 230,230,230
+
+
+[Texture]
+;load Roof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+[MeshBuilder]
+;
+;Vertex 7.2, 4.7, 0
+;Vertex 7.2, 4.7, 25.3
+;Vertex 2.7, 4.7, 25.3
+;Vertex 2.7, 4.7, 0
+
+;Face 0,1,2,3
+
+;Color 192,192,192
+
+;Color 217,217,217
+
+[Texture]
+;Load Roof.bmp
+
+;Coordinates 0, 1, 0
+;Coordinates 1, 1, 4
+;Coordinates 2, 0, 4
+;Coordinates 3, 0, 0

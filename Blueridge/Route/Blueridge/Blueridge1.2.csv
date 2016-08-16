@@ -1,0 +1,538 @@
+;;Copyright2004 Michael Goetz mcg2h@yahoo.com
+
+Route.Comment Blueridge-5.8km-3 Stations
+Route.Timetable Mineral-Charlottesville-Ivy
+Route.Gauge 1435
+Route.Signal(1) 55
+Route.Signal(2) 55
+Route.Signal(3) 55
+Route.Runinterval $Rnd(300;450)
+
+Train.Folder F40PH
+Train.Run(0) 0,
+Train.Run(1) 0,
+Train.Run(2) 0,
+Train.Run(3) 0,
+Train.Run(4) 0,
+Train.Run(5) 0,
+Train.Run(6) 4,
+Train.Run(7) 0,
+Train.Run(8) 4,
+Train.Run(9) 0,
+Train.Run(10) 0,
+Train.Run(11) 0,
+Train.Run(12) 4,
+
+With Structure
+
+.Rail(0) Cville\RR\rails\gleis_04.b3d
+.Rail(1) Cville\RR\null.csv
+.Rail(2) Cville\RR\rails\Curve500.b3d
+.Rail(3) Cville\RR\rails\Curve500L.b3d
+.Rail(4) Cville\RR\rails\Curve400L.b3d
+.Rail(5) Cville\RR\rails\Curve800.b3d
+.Rail(6) Cville\RR\rails\bridgerail.b3d
+.Rail(7) Cville\RR\rails\Curve400.b3d
+.Rail(8) Cville\RR\rails\gleis_04tun.b3d
+.Rail(9)  Cville\RR\rails\Curve200.b3d
+.Rail(10) Cville\RR\rails\Curve800L.b3d
+.Rail(11) Cville\RR\rails\Curve1600L.b3d
+.Rail(12) Cville\RR\rails\bridgerail400.b3d
+
+.WallR(0) Cville\Misc\wallaR.csv
+.WallL(0) Cville\RR\null.csv
+.WallR(1) Cville\misc\railfenceR.csv
+.WallL(1) Cville\misc\railfenceL.csv
+.WallR(2) Cville\misc\wirefenceR.csv
+.WallL(2) Cville\misc\wirefenceL.csv
+.WallR(3) Cville\misc\bridgea.csv
+.WallL(3) Cville\misc\bridgeb.csv
+.WallR(4) Cville\misc\wdfence2.csv
+.WallL(4) Cville\misc\wdfence2.csv
+.WallR(5) Cville\misc\bridgec.csv
+.WallL(5) Cville\RR\null.csv
+.WallR(6) Cville\misc\roadmin.csv
+.WallL(6) Cville\RR\null.csv
+.WallR(7) Cville\veg\flowerrow.csv
+.WallL(7) Cville\RR\null.csv
+.WallR(8) Cville\veg\hedgeR.csv
+.WallL(8) Cville\gnd\cornfield.csv
+
+.DikeR(0) Cville\gnd\strawR.csv
+.DikeL(0) Cville\RR\null.csv
+.DikeR(1) Cville\gnd\ditch1.csv
+.DikeL(1) Cville\gnd\ditch1L.csv
+.DikeR(2) Cville\gnd\hayfield.csv
+.DikeL(2) Cville\gnd\hayfield.csv
+.DikeR(3) Cville\gnd\Mingnd3.csv
+.DikeL(3) Cville\gnd\Mingnd4.csv
+.DikeR(4) Cville\gnd\Mingnd7.csv
+.DikeL(4) Cville\gnd\Mingnd5.csv
+.DikeR(5) Cville\gnd\Mingnd6.csv
+.DikeL(5) Cville\gnd\Mingnd8.csv
+.DikeR(6) Cville\gnd\Mingnd9.csv
+.DikeL(6) Cville\gnd\Mingnd10.csv
+.DikeR(7) Cville\gnd\Mingnd11.csv
+.DikeL(7) Cville\gnd\Mingnd12.csv
+.DikeR(8) Cville\gnd\Mingnd15.csv
+.DikeL(8) Cville\gnd\Mingnd16.csv
+.DikeR(9) Cville\gnd\Mingnd17.csv
+.DikeL(9) Cville\gnd\Mingnd18.csv
+.DikeR(10) Cville\gnd\Mingnd19.csv
+.DikeL(10) Cville\gnd\Mingnd19a.csv
+.DikeR(11) Cville\gnd\Afton1.csv
+.DikeL(11) Cville\gnd\addgnd3.csv
+
+.Pole(0;0) Cville\misc\telpole.csv
+.Pole(0;1) Cville\misc\telpolea.csv 
+.Pole(0;2) Cville\misc\telpolec.csv 
+
+.FormL(0) Cville\RR\formaL.csv
+.FormR(0) Cville\RR\null.csv
+.FormCL(0) Cville\RR\null.csv
+.FormCR(0) Cville\RR\null.csv
+
+.Ground(0) Cville\RR\null.csv
+.Ground(1) Cville\gnd\gndsta2.csv
+.Ground(2) Cville\gnd\grass1.csv
+.Ground(3) Cville\gnd\slope1.csv
+.Ground(4) Cville\gnd\slope2.csv
+.Ground(5) Cville\gnd\slope3.csv
+.Ground(6) Cville\gnd\slope4.csv
+.Ground(7) Cville\gnd\slope5.csv
+.Ground(8) Cville\gnd\slope6.csv
+.Ground(9) Cville\gnd\gndsta2a.csv
+.Ground(10) Cville\gnd\gndsta2b.csv
+.Ground(11) Cville\gnd\gndrd.csv
+.Ground(12) Cville\gnd\gndrda.csv
+.Ground(13) Cville\gnd\gndrdb.csv
+.Ground(14) Cville\gnd\gndrdc.csv
+.Ground(15) Cville\gnd\gndforest.csv
+.Ground(16) Cville\gnd\river.csv
+.Ground(17) Cville\gnd\gndforesta.csv
+.Ground(18) Cville\gnd\rivergnda.csv
+.Ground(19) Cville\gnd\rivergndb.csv
+.Ground(20) Cville\gnd\rivergndc.csv
+.Ground(21) Cville\gnd\rivergndd.csv
+.Ground(22) Cville\gnd\rivergnde.csv
+.Ground(23) Cville\gnd\rivergndf.csv
+.Ground(24) Cville\gnd\rivergndg.csv
+.Ground(25) Cville\gnd\rivergndh.csv
+.Ground(26) Cville\gnd\tunnelgnd.csv
+.Ground(27) Cville\gnd\tunnelgnda.csv
+.Ground(28) Cville\gnd\tunnelgnda1.csv
+.Ground(29) Cville\gnd\lakegnd.csv
+.Ground(30) Cville\gnd\lakegnd1.csv
+.Ground(31) Cville\gnd\lakegnda.csv
+.Ground(32) Cville\gnd\tunnel2gnd.csv
+.Ground(33) Cville\gnd\depgnd1.csv
+.Ground(34) Cville\gnd\depgnd2.csv
+.Ground(35) Cville\gnd\depgnd3.csv
+.Ground(36) Cville\gnd\depgnd4.csv
+.Ground(37) Cville\gnd\depgnd5.csv
+.Ground(38) Cville\gnd\depgnd6.csv
+.Ground(39) Cville\gnd\civgnd1.csv
+.Ground(40) Cville\gnd\civgnd2.csv
+.Ground(41) Cville\gnd\civgnd2a.csv
+.Ground(42) Cville\gnd\civgnd2b.csv
+.Ground(43) Cville\gnd\civgnd2c.csv
+.Ground(44) Cville\gnd\civgnd2d.csv
+.Ground(45) Cville\gnd\rivera.csv
+.Ground(46) Cville\gnd\bldgnd1.csv
+.Ground(47) Cville\gnd\bldgnd2.csv
+.Ground(48) Cville\gnd\bldgnd3.csv
+.Ground(49) Cville\gnd\bldgnd4.csv
+.Ground(50) Cville\gnd\bldgnd5.csv
+.Ground(51) Cville\gnd\bldgnd6.csv
+.Ground(52) Cville\gnd\1gndlast.csv
+.Ground(53) Cville\gnd\bldgnd7.csv
+.Ground(54) Cville\gnd\bldgnd8.csv
+.Ground(55) Cville\gnd\Mingnd1.csv
+.Ground(56) Cville\gnd\Mingnd2.csv
+.Ground(57) Cville\gnd\Cvillegnd1.csv
+.Ground(58) Cville\gnd\Cvillegnd2.csv
+.Ground(59) Cville\gnd\Mingnd13.csv
+.Ground(60) Cville\gnd\Mingnd14.csv
+.Ground(61) Cville\gnd\addgnd.csv
+.Ground(62) Cville\gnd\addgnd2.csv
+.Ground(63) Cville\gnd\addgnd4.csv
+.Ground(64) Cville\gnd\addgnd5.csv
+
+.Freeobj(1) Cville\bldg\sta2\sta2.csv
+.Freeobj(2) Cville\Veg\plantpot.csv
+.Freeobj(3) Cville\RR\lamp.csv
+.Freeobj(4) Cville\Veh\truck.csv
+.Freeobj(5) Cville\Veh\trucka.csv
+.Freeobj(6) Cville\Misc\roadbridge.csv
+.Freeobj(7) Cville\Veg\dtree1.csv
+.Freeobj(8) Cville\RR\rails\sw5RR50.b3d
+.Freeobj(9) Cville\RR\trains\P42DC.csv
+.Freeobj(10) Cville\RR\rails\Curve500.b3d
+.Freeobj(11) Cville\RR\trains\railcar.csv
+.Freeobj(12) Cville\veg\pinetrees.csv
+.Freeobj(13) Cville\veg\ctree1.csv
+.Freeobj(14) Cville\RR\RRcartm.csv
+.Freeobj(15) Cville\veg\dtree5.csv
+.Freeobj(16) Cville\RR\rails\Curve2.5L.b3d
+.Freeobj(17) Cville\misc\telpole.csv
+.Freeobj(18) Cville\misc\road100L.csv
+.Freeobj(20) Cville\veh\balloon.csv
+.Freeobj(21) Cville\misc\road100Lf.csv
+.Freeobj(22) Cville\bldg\carwash.csv
+.Freeobj(23) Cville\bldg\stores.csv
+.Freeobj(24) Cville\bldg\bank.csv
+.Freeobj(25) Cville\veg\treewall.csv 
+.Freeobj(26) Cville\bldg\postoff.csv
+.Freeobj(27) Cville\bldg\barn.csv
+.Freeobj(28) Cville\gnd\ditch1L.csv
+.Freeobj(29) Cville\gnd\hayfielda.csv
+.Freeobj(30) Cville\veh\tractor.csv
+.Freeobj(31) Cville\misc\fauna\buck.csv
+.Freeobj(32) Cville\RR\xsig.csv
+.Freeobj(33) Cville\gnd\mta.csv
+.Freeobj(34) Cville\RR\tunneledge.csv
+.Freeobj(35) Cville\misc\lake.csv
+.Freeobj(36) Cville\RR\tunnel2edge.csv
+.Freeobj(37) Cville\gnd\mtc.csv
+.Freeobj(38) Cville\RR\sig1.csv
+.Freeobj(39) Cville\veh\bus.csv
+.Freeobj(40) Cville\misc\telpoleb.csv
+.Freeobj(41) Cville\veg\pinetreesa.csv
+.Freeobj(42) Cville\bldg\barna.csv
+.Freeobj(43) Cville\RR\F40PH\F40PH_amt.b3d
+.Freeobj(44) Cville\RR\trains\ccar.csv
+.Freeobj(45) Cville\RR\sig2.csv
+.Freeobj(46) Cville\Bldg\house1.csv
+.Freeobj(47) Cville\Bldg\depot\depot.csv
+.Freeobj(49) Cville\misc\wdfence.csv
+.Freeobj(50) Cville\RR\redsig.csv
+.Freeobj(51) Cville\gnd\ditch2L.csv
+.Freeobj(52) Cville\bldg\officebldg.csv
+.Freeobj(53) Cville\bldg\officebldg2.csv
+.Freeobj(54) Cville\RR\rails\doublerail.b3d
+.Freeobj(55) Cville\RR\rails\SW200L25.b3d
+.Freeobj(56) Cville\bldg\depot2\depot2.csv
+.Freeobj(57) Cville\gnd\cornfield.csv
+.Freeobj(58) Cville\veg\treewallL.csv
+.Freeobj(59) Cville\RR\rails\SW5LS25.b3d
+.Freeobj(60) Cville\veh\dumptruck.csv
+.Freeobj(61) Cville\misc\telpole45.csv
+.Freeobj(62) Cville\veg\treewalldec.csv
+.Freeobj(63)  Cville\veh\rdwktruck4.csv
+.Freeobj(64) Cville\veh\dumptrucka.csv
+.Freeobj(65) Cville\veh\logtrailer.csv
+.Freeobj(66) Cville\veh\semi.csv
+.Freeobj(67) Cville\veh\backhoe.csv
+.Freeobj(68) Cville\misc\overpass.csv
+.Freeobj(69) Cville\misc\doublerailedge.csv
+.Freeobj(70) Cville\veh\rdwktruck.csv
+.Freeobj(71) Cville\misc\telpole45s.csv
+.Freeobj(72) Cville\Bldg\house1ch.csv
+.Freeobj(73) Cville\Bldg\house4\house4.csv
+.Freeobj(74) Cville\RR\30sign.csv
+.Freeobj(75) Cville\Bldg\house3.csv
+.Freeobj(76) Cville\veh\bucket\bucket.csv
+
+Texture.background(0) Cville\Misc\blueridge1.bmp
+
+Cycle.Ground(3) 3;4;5;6;7;8,
+Cycle.Ground(55) 55;56,
+Cycle.Ground(59) 59;60,
+Cycle.Ground(63) 63;64,
+
+With Track
+
+0,.Accuracy 2,.Adhesion 200,.Height 0.5,.Ground 0,.back 0,
+.Sta Mineral;8.2945;8.3000; ; 1;0; ; ; 10; 100; bell.wav,
+.Railstart 1;5,.Limit 55,
+
+20,.Stop 0,
+25,.Ground 55,.Pole 1;0;1;25;2,.Wall 0;1;6,.Wall 1;1;7,  ;;road;flowerwall
+40,.Announce Blueridge\Sparrow.wav,
+55,.Freeobj 0;49;-1.2;-1.4;180,     ;;wdfence
+110,.Freeobj 0;56;-13;-1.4;-90,    ;;depot2
+124,.Signal 3; ;-4.5;6.15;3,               
+125,.Dike 0;1;3,.Freeobj 0;45;7.8;-.4;5,.Ground 0,.Wallend 1,   ;;sig2;mingnd3
+142,.Freeobj 0;57;-38;.2;90,   ;;cornfield
+146,.Freeobj 0;60;-12;-.4;180,  ;;dumptruck
+150,.Freeobj 0;22;38;1.5;5,.Dike 0;-1;3,.Wall 1;0;8,  ;;carwash;mingnd4;cornfield;hedge    
+175,.Ground 55,.Dikeend 0,
+180,.Freeobj 0;39;21;.9;-90,    ;;bus
+200,.Curve -400,.Railtype 0;4,.Railtype 1;4,
+265,.Freeobj 0;5;18;1;-90,   ;;trucka  
+400,.Ground 0,.Dike 0;1;4,.Wallend 0,.Wallend 1,  ;;Mingnd7  
+425,.Poleend 1,.Curve 0,.Railtype 0;0,.Railtype 1;0,.Dike 0;-1;4,.Freeobj 0;61;11;0;180, ;;Mingnd5;telpole45
+445,.Freeobj 0;61;-8.8;0;180,
+450,.Curve 800,.Railtype 0;5,.Railtype 1;5,.Dike 0;1;5,   ;;Mingnd6
+465,.Freeobj 0;61;-28.6;0;180,
+470,.Freeobj 0;63;24;-1.9;90,  ;;rdwktruck4
+472,.Freeobj 0;58;-30;0;5,   ;;treewallL
+475,.Pitch 10,.Dike 0;-1;5, ;;Mingnd8
+497,.Freeobj 0;58;-30;0;30,
+500,.Dike 0;1;6,.Freeobj 0;58;-14;-.6;7,      ;;Mingnd9
+525,.Curve 400,.Railtype 0;7,.Railtype 1;7,.Freeobj 0;58;-12.2;-.6;5,   
+550,.Wall 0;1;5,.Railtype 0;12,.Railtype 1;12,.Dikeend 0,        ;;bridge
+635,.Freeobj 0;62;-110;-4;-10,  ;;treewalldec
+650,.Curve 0,.Railtype 0;0,.Railtype 1;0,.Wallend 0,.Dike 0;-1;6,.Freeobj 0;62;-5;0;10,  ;;mingnd10
+675,.Dike 0;1;7,.Pitch 0,.Curve -1600,.Railtype 0;11,.Railtype 1;11,                      ;;mingnd11
+775,.Curve 0,.Railtype 0;0,.Railtype 1;0,
+875,.Curve 800,.Railtype 0;5,.Railtype 1;5,      
+925,.Curve 0,.Railtype 0;0,.Railtype 1;0,
+950,.Curve -800,.Railtype 0;10,.Railtype 1;10,
+1000,.Curve 400,.Railtype 0;7,.Railtype 1;7,
+1050,.Dike 0;-1;7,                ;;mingnd12
+1075,.Dikeend 0,.Ground 59,.Wall 0;1;6,.Wall 5;-1;1,.Railstart 5;0;.5;1,    ;;mingnd13;14;road;fence
+1080,.Freeobj 1;61;19.6;-.1;180,               ;;telpole45
+1100,.Pole 1;0;1;25;0,                              ;;telpole
+1105,.Freeobj 0;67;-19;-.7;-60,      ;;backhoe
+1125,.Curve 0,.Railtype 0;0,.Railtype 1;0,                   
+1130,.Freeobj 0;65;-30;0;110,     ;;logtrailer
+1145,.Freeobj 0;60;-30;0;100,.Freeobj 0;64;19;.8;-100,   ;;dumptruck;a
+1150,.Curve -400,.Railtype 0;4,.Railtype 1;4,
+1155,.Freeobj 0;65;-20;0;-60,     ;;logtrailer
+1192,.Freeobj 0;65;20;1;90,   ;;logtrailer
+1199,.Freeobj 0;66;20;1.1;90,    ;;semi
+1200,.Freeobj 0;59,.Freeobj 1;59,.Railtype 0;1,.Railtype 1;1,.Railstart 4;-1;0;1,.Curve 0,.Railtype 0;0,.Railtype 1;0,.Railend 5,.Wallend 5,.Ground 0,.Dike 0;1;8,.Wallend 0,;;pointsound;mingnd15
+1225,.Railtype 0;0,.Railtype 1;0,.Freeobj 0;16;-2.5;0;-16.6,.Freeobj 1;16;-2.5;0;-16.6,.Rail 4;1,.Dike 0;-1;8,     ;;mingnd16
+1240,.Freeobj 0;68;0;8;-30,;;overpass
+1249,.Freeobj 0;16;-9.65;0;-29,.Freeobj 1;16;-9.66;0;-29,
+1250,.Curve 800,.Railtype 0;5,.Railtype 1;5,.Pitch 0,.Rail 4;-1,.Railend 4,.Dike 0;1;9,.Poleend 1,.Freeobj 0;71;5;0;180,;;telpole45s;mingnd17 
+1270,.Freeobj 0;16;-21.7;0;-39,.Freeobj 1;16;-21.71;0;-39,.Freeobj 0;61;-14.8;0;180,    ;;telpole45
+1275,.Pole 1;0;1;25;0,.Dike 0;-1;9,       ;;mingnd18
+1290,.Freeobj 0;61;-35.6;0;180,1325,.Curve 200,.Railtype 0;9,.Railtype 1;9,
+1327,.Freeobj 0;70;-26;-.5;-10,  ;;rdwktruck
+1334,.Freeobj 0;12;-50;1;-50,     ;;pinetrees
+1350,.Railstart 4;1;0;1,.Dike 0;1;10,     ;;mingnd19;pointsound
+1355,.Freeobj 1;72;45;2.2;85,      ;;house1ch
+1375,.Rail 4;-3,
+1385,.Freeobj 1;73;28;-3;65,    ;;house4
+1400,.Curve 0,.Railtype 0;0,.Railtype 1;0,.Freeobj 0;54;-5;0;0,.Freeobj 0;69;-5;0;0,.Freeobj 0;55; ; ;180,.Freeobj 1;55;0; ;180,.Railend 4,  ;;doublerail
+1425,.Dike 0;-1;10,     ;;mingnd19a
+1445,.Doppler Blueridge\cxbell.wav;3;3,
+1450,.Ground 57,.Dikeend 0,
+1452,.Freeobj 0;32;-4;.1;100,  ;;xsig
+1463,.Freeobj 0;32;9;.1;-80,  ;;xsig
+1475,.Ground 58,.Freeobj 0;24;30;-1,    ;;bank
+1483,.Freeobj 0;23;-83;-2;-10,   ;;stores
+1500,.Dike 1;1;0,.Wall 1;1;0,
+1510,.Freeobj 0;52;-30;-.3;0,      ;;offices
+1575,.Freeobj 0;53;-20;-.3;0,
+1600,.Form 0;L;0;0,.Ground 1,.Sta Charlottesville;8.3300;8.3400; ;-1;0; ;Blueridge\Mocktit.wav ;20;120,
+1613,.Freeobj 0;3;-8;.7,  ;;lamp
+1625,.Form 0;L;0;0,
+1627,.Freeobj 0;2;-8;.5,  ;;plantpot
+1630,.Limit 45;0,
+1632,.Freeobj 0;3;-8;.7,
+1640,.Freeobj 0;14;-6.5;1.3;115,  ;;cart
+1645,.Freeobj 0;5;-10; ;-160,  ;;trucka 
+1648,.Freeobj 0;2;-7.6;.45,
+1650,.Form 0;L;0;0,
+1653,.Freeobj 0;3;-8;.7,
+1671,.Freeobj 0;3;-18;.3,
+1673,.Freeobj 0;3;-8;.7,
+1675,.Freeobj 0;1;-29; ;5,.Ground 9,.Stop 0,  ;;station
+1684,.Freeobj 0;41;-50;-1;-30,      ;;pinetreesa
+1691,.Freeobj 0;14;-7;1.2;170,  ;;cart
+1701,.Freeobj 0;7;-12;-.2;-10,  ;;dtree1
+1715,.Freeobj 1;50;-.6;5.82;0,    ;;redsig
+1716,.Freeobj 0;38;2;-1;0,.Freeobj 1;38;-3;-1.2;180,   ;;sig1
+1717,.Signal 3; ;-.65;7.25;3,    
+1723,.Freeobj 0;13;-18;-.8;-20,    ;;ctree1
+1725,.Ground 10,
+1740,.Freeobj 0;15;-16;-.7;-20,             ;;dtree5
+1775,.Curve -400,.Railtype 0;4,.Railtype 1;4,
+1784,.Freeobj 0;6;1;-.4;-2,.Wallend 1,.Dikeend 1,   ;;roadbridge
+1800,.Ground 3,
+1825,.Poleend 1,.Freeobj 1;17;0;0;190,  ;;telpole
+1850,.Freeobj 1;17;4.6;0;204,
+1872,.Freeobj 1;17;14.5;0;210,
+1875,.Curve 0,.Railtype 0;0,.Railtype 1;0,
+1894,.Freeobj 1;17;28.5;0;215,
+1900,.Railstart 2;0;0;1,.Curve 500.46,.Railtype 0;1,
+1914,.Freeobj 1;17;42.5;0;220,
+1925,.Rail 1;4.375,.Rail 2;-.625,.Freeobj 2;8,
+1934,.Freeobj 1;17;59.1;0;220,
+1950,.Curve -500.46,.Rail 1;2.5,.Rail 2;-2.5,.Railtype 1;1,.Railtype 2;0,
+      .Ground 11,.Pitch 10,.Dike 2;1;1,  ;;gndrd;ditch1
+1970,.Freeobj 0;25;70;-1.5;0,   ;;treewall
+1975,.Rail 1;.625,.Rail 2;-4.375,.Freeobj 1;8; ; ;180,
+1995,.Freeobj 0;25;70;-1;0, 
+2000,.Curve 0,.Railtype 0;0,.Rail 1;0,.Rail 2;-5,
+2004,.Freeobj 2;9;0;0,  ;;P42DC
+2022,.Freeobj 0;25;70;.5;-5,   ;;treewall
+2025,.Railend 1,
+2029,.Freeobj 2;11;0;0,  ;;railcars
+2045,.Freeobj 0;22;50;-3.5;5,  ;;carwash
+2048,.Freeobj 0;25;70;1.5;-10,   ;;treewall
+2050,.Freeobj 0;4;27;-3;-90,  ;;truck
+2052,.Freeobj 2;11;0;0,
+2075,.Freeobj 2;11;0;0,.Freeobj 0;25;70;1;-10, ;;treewall
+2099,.Freeobj 0;23;39;-3;85,  ;;stores
+2100,.Pitch 25,.Freeobj 0;25;70;-2;-10,.Freeobj 2;27;-35;10;-85,   ;;treewall;barn
+2111,.Freeobj 0;25;60;-1.5;-30,  ;;treewall
+2122,.Freeobj 0;39;40;-2;-220,    ;;bus
+2125,.Ground 12,.Freeobj 0;18;31.2;-3.55;-17,.Freeobj 0;25;70;1;-30,  ;;road100L;treewall
+2127,.Freeobj 0;26;36;-1;80,  ;;postoff   
+2133,.Freeobj 0;25;45;0;-30,  ;;treewall
+2135,.Freeobj 0;25;58;1;-15,  ;;treewall
+2139,.Freeobj 0;25;28;-.5;-10,  ;;treewall
+2149,.Freeobj 0;18;23.9;-1.85;-30.2,  ;;road100L
+2150,.Ground 13,.Curve 800,.Railtype 2;5,.Railtype 0;5,
+2152,.Freeobj 0;25;40;1;-15,.Freeobj 0;25;27;-.6;-20,  ;;treewall
+2171,.Freeobj 0;21;11;-.1;-40,  ;;road100Lf
+2175,.Ground 14,
+2180,.Doppler Blueridge\cxbell.wav;3;3,
+2187,.Freeobj 0;32;5;.1;-80,  ;;xsig
+2189,.Freeobj 0;32;-12;.1;100,  ;;xsig
+2191,.Freeobj 0;21;-6.5;-.1;-60,  ;;road100Lf
+2194,.Freeobj 0;30;-18;-.5;35,  ;;tractor
+2200,.Dikeend 2,.Ground 15,.Dike 2;-1;1,  ;;gndforest
+2201,.Freeobj 2;29;-38.1;-1.3;90,   ;;hayfielda
+2225,.Dike 0;-1;2,   ;;hayfield
+2250,.Railtype 2;1,.Freeobj 2;10; ; ;1.431,
+2275,.Freeobj 2;10;.62 ; ;4.292,.Dikeend 2,.Freeobj 2;28;.4;0;4.5,  ;;ditch1L
+2300,.Railtype 0;1,.Curve 0,.Freeobj 0;28;-2.5;0;4.7, 
+2321,.Freeobj 0;31;8.5;2;5,  ;;buck
+2325,.Freeobj 0;8; ; ;180,.Rail 2;2,    ;;pointsound
+2350,.Railtype 0;0,.Railend 2,.Ground 17,.Dike 0;-1;1,
+2375,.Dikeend 0,.Pitch 10,.Ground 16,.Wall 0;1;3,.Railtype 0;6,  ;;river bridge
+2400,.Freeobj 0;20;-240;80;0,    ;;balloon
+2425,.Ground 18,.Wallend 0,.Railtype 0;0,
+2437,.Freeobj 0;12;-16;6;-30,  ;;pinetrees
+2439,.Freeobj 0;12;-27;7;0,
+2450,.Curve -400,.Pitch 0,.Railtype 0;4,.Ground 19,
+2475,.Ground 20,
+2500,.Ground 21,
+2550,.Ground 22,
+2556,.Signal 3; ;2.72;7;1,
+2575,.Ground 23,
+2600,.Ground 24,.Wall 0;1;1,
+2800,.Curve 0,.Railtype 0;0,.Wallend 0,.Ground 25, 
+2820,.Freeobj 0;33;0;0;0,         ;;tunnelmta
+2825,.Ground 26,.Railtype 0;8,
+3050,.Curve -5000, 
+3400,.Ground 27,.Railtype 0;0,.Curve 0,.Freeobj 0;34,    ;;tunneledge
+3450,.Curve -6000,
+3675,.Curve 0,.Railtype 0;0,
+3700,.Curve 800,.Railtype 0;5,.Freeobj 0;74;3.5;-1,    ;;30sign
+3900,.Curve 0,.Railtype 0;0,
+3925,.Curve 200,.Railtype 0;9,
+4025,.Railtype 0;0,.Curve 0,.Pitch 0,
+4100,.Ground 28,
+4125,.Ground 30,.Pitch -10,
+4150,.Curve 400,.Railtype 0;7,
+4175,.Ground 29,
+4200,.Ground 30,
+4300,.Ground 31,.Railtype 0;8,.Curve 0,.Pitch 0,
+4325,.Ground 32,.Freeobj 0;37;-50,.Freeobj 0;35;-165;-19;-3, 
+4700,.Ground 33,.Railtype 0;0,.Freeobj 0;36;.1;-1,
+4725,.Ground 34,
+4750,.Ground 61,.Curve -800,.Railtype 0;10,
+4775,.Ground 62,
+4875,.Ground 0,.Dike 0;-1;11,
+4900,.Dikeend 0,.Ground 63,
+4950,.Curve 0,.Railtype 0;0,
+5200,.Ground 35,
+5250,.Curve -400,.Railtype 0;4,
+5260,.Freeobj 0;30;-15;-.35;100,       ;tractor
+5275,.Ground 36,
+5300,.Ground 37,.Wall 0;1;2,.Freeobj 0;27;-40;3;-80,   ;;barn
+5310,.Freeobj 0;40;10;-1.3;165.3,       ;;telpoleb
+5315,,.Freeobj 0;41;22;-1;30,    ;;pinetreesa
+5325,.Freeobj 0;17;6;-1.5;173.4,       ;;telpole;tractor
+5335,.Freeobj 0;41;13;-1;210,
+5345,.Freeobj 0;41;20;-1;30,
+5350,.Pole 0;0;1;25;1,.Freeobj 0;45;4;-.7;10,.Freeobj 0;45;-4;-.7;173,.Signal 3; ;3.95;6.19;2,              ;;sig2 
+5360,.Freeobj 0;41;20;-1;30,
+5375,.Curve 0,.Railtype 0;0,.Ground 38,.Freeobj 0;41;20;-1;30,
+5392,.Doppler Blueridge\cxbell.wav;3;3,
+5399,.Freeobj 0;32;-4.5;0;90,  ;;xsig
+5400,.Ground 39,.Wallend 0,
+5403,.Freeobj 0;39;23;-.4;180,               ;;bus
+5410,.Freeobj 0;32;5;.1;-90,  ;;xsig
+5425,.Ground 40,.Wall 0;1;2,.Freeobj 0;41;30;-1;30,      
+5500,.Ground 41,.Railtype 0;1,.Railstart 1;0;0;1,.Curve 500.46,
+5501,.Freeobj 0;42;43;3;0,       ;;barna
+5525,.Rail 1;-.625,.Freeobj 1;8,.Ground 42,
+5550,.Ground 43,.Curve -500.46,.Rail 1;-2.5,.Railtype 1;0,
+5575,.Ground 44,.Rail 1;-4.375,.Freeobj 1;10;4.39;0;184.292,
+5600,.Ground 45,.Curve 0,.Rail 1;-5,.Railtype 0;6,  ;;River
+       .Wall 0;-1;3,.Railtype 1;6,.Freeobj 1;10;4.99;0;181.4,
+5625,.Wallend 0,.Ground 46,.Railtype 0;0,.Railtype 1;0,
+        .Wall 0;1;1,
+5627,.Freeobj 0;4;-16;-.8;-60,   ;;truck
+5630,.Freeobj 0;41;25;-1;30,
+5650,.Ground 47,.Wall 1;1;4,.Curve -1600,.Railtype 0;11,
+       .Railtype 1;11,
+5675,.Doppler Blueridge\K5LA.wav;-4;4,
+5683,.Freeobj 1;43, ;;loco2      
+5700,.Freeobj 1;43;0;0;180,
+5716,.Freeobj 1;44,  ;;ccar
+5732,.Freeobj 1;44,  
+5748,.Freeobj 1;44,  
+5750,.Ground 48,.Freeobj 0;46;38;-.8;80, ;;house1
+5764,.Freeobj 1;44,  
+5775,.Freeobj 0;41;60;-1;0,
+5780,.Freeobj 1;44,  
+5796,.Freeobj 1;44,  
+5812,.Freeobj 1;44,  
+5825,.Poleend 0,.Ground 49,.Freeobj 1;17;8;-1.5;190,  ;;telpole
+5828,.Freeobj 1;44,  
+5844,.Freeobj 1;44, 
+5850,.Ground 50, .Freeobj 1;17;12.6;-1.5;204,
+5860,.Freeobj 1;44, 
+5872,.Freeobj 1;17;22.5;-1.5;210,
+5875,.Ground 51,.Wallend 0,
+5876,.Freeobj 1;44, 
+5892,.Freeobj 1;44, 
+5894,.Freeobj 1;17;36.5;-1.5;215,
+5900,.Wallend 1,.Freeobj 0;41;-14;-2;0,.Ground 53,
+        .Railtype 0;0,.Railtype 1;0,.Curve 0, 
+5901,.Freeobj 0;41;-16;-6;0,
+5908,.Freeobj 1;44, 
+5924,.Freeobj 1;44, 
+5930,.Freeobj 0;47;10;-.9;80,     ;;depot
+         .Sta Ivy; 8.3900;8.4000; ;1;0; ;Blueridge\ambulance.wav ;20;120,
+5940,.Freeobj 1;44, 
+5956,.Freeobj 1;44, 
+5980,.Stop 0,
+5990,.Freeobj 0;49;34;-1.3;-90,  ;;wdfence
+5995,.Freeobj 0;76;15;-1;70,.Freeobj 0;66;25;-.6;60,   ;;bucket;semi
+6000,.Ground 54,
+6005,.Freeobj 1;38;2;-1.2;0,                             
+6006,.Signal 3; ;2.69;6.94;3,.Freeobj 1;50;-1.05;5.95;0,    ;;sig3
+6010,.Freeobj 0;75;40;-1;70,.Freeobj 0;41;35;-1;45,  ;;house3
+6092,.Freeobj 0;49;2;10.5;-90,  ;;wdfence
+6100,.Ground 52,  ;;sig1;gndlast
+6125,.Dike 0;1;11,.Ground 0,.Curve -1200,
+6400,.Dikeend 0,
+
+7000,.Signal 3; ;-3;2;1,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+

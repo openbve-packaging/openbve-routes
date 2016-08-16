@@ -1,0 +1,21 @@
+CreateMeshBuilder
+Cube,0.8,0.5,1.2
+SetColor,0,65,182
+translate, 0, -2.4, 0
+
+CreateMeshBuilder
+Cube,0.8,0.5,1.2
+SetColor,182,65,0
+shear,0,1,0,0,0,1,1.1
+rotateall,0,1,0,90
+translateall, 4, 2.5, 0
+
+CreateMeshBuilder
+Cube,0.8,0.5,1.2
+SetColor,0,65,182
+
+CreateMeshBuilder
+Cube,0.8,0.5,1.2
+SetColor,182,65,0
+shear,0,1,0,0,0,1,1.1
+translate, 0, 2.4, 0

@@ -1,0 +1,57 @@
+CreateMeshBuilder,
+AddVertex,-39.5, 15.0, -1.0,
+AddVertex,-4.0, 15.0, -0.0,
+AddVertex,-4.0, 0.0, -0.0,
+AddVertex,-39.5, 0.0, -1.0,
+AddFace2,0,1,2,3,
+LoadTexture,../PicBill_K1.bmp,,,
+SetTextureCoordinates,0,-0.06,0
+SetTextureCoordinates,1, 1.0,0
+SetTextureCoordinates,2, 1.0,1
+SetTextureCoordinates,3,-0.06,1
+SetEmissiveColor,140,140,140,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-39.5, 15.0, 13.0,
+AddVertex,-4.0, 15.0,  13.0,
+AddVertex,-4.0, 0.0,  13.0,
+AddVertex,-39.5, 0.0, 13.0,
+AddFace2,0,1,2,3,
+LoadTexture,../PicBill_K1.bmp,,,
+SetTextureCoordinates,0,-0.06,0
+SetTextureCoordinates,1, 1.0,0
+SetTextureCoordinates,2, 1.0,1
+SetTextureCoordinates,3,-0.06,1
+SetEmissiveColor,140,140,140,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-4.0, 15.0, -0.0,
+AddVertex,-4.0, 15.0, 13.0
+AddVertex,-4.0,  0.0, 13.0
+AddVertex,-4.0,  0.0, -0.0
+ADdFace2,0,1,2,3
+LoadTexture,../PicBill_K2.bmp,,,
+SetTextureCoordinates,0, 0.0,0
+SetTextureCoordinates,1, 1.0,0
+SetTextureCoordinates,2, 1.0,1
+SetTextureCoordinates,3, 0.0,1
+SetEmissiveColor,70,70,70,
+SetDecalTransparentColor,255,255,255
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-39.5, 15.0, -1.0,
+AddVertex,-39.5, 15.0, 13.0
+AddVertex,-39.5,  0.0, 13.0
+AddVertex,-39.5,  0.0, -1.0
+ADdFace2,0,1,2,3
+LoadTexture,../PicBill_K2.bmp,,,
+SetTextureCoordinates,0, 0.0,0
+SetTextureCoordinates,1, 1.0,0
+SetTextureCoordinates,2, 1.0,1
+SetTextureCoordinates,3, 0.0,1
+SetEmissiveColor,70,70,70,
+SetDecalTransparentColor,255,255,255
+GenerateNormals,

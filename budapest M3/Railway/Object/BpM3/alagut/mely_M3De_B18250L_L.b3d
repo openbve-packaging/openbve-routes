@@ -1,0 +1,86 @@
+;mélyalagút fal a bal oldalon
+;M3, 18250. szelvény
+;mélyalagút kiegészítés, M3 Deák tér
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;alagút
+[meshbuilder]
+Vertex  0.020, 4.200,-0.3
+Vertex -0.647, 4.115,-0.3
+Vertex -1.250, 3.865,-0.3
+Vertex -1.768, 3.468,-0.3
+Vertex -2.165, 2.950,-0.3
+Vertex -2.415, 2.347,-0.3
+Vertex -2.500, 1.700,-0.3
+Vertex -2.415, 1.053,-0.3
+Vertex -2.165, 0.450,-0.3
+Vertex -1.768,-0.068,-0.3
+Vertex -1.250,-0.465,-0.3
+;
+Vertex  0.020, 4.200,7
+Vertex -0.647, 4.115,7
+Vertex -1.250, 3.865,7
+Vertex -1.768, 3.468,7
+Vertex -2.165, 2.950,7
+Vertex -2.415, 2.347,7
+Vertex -2.500, 1.700,7
+Vertex -2.415, 1.053,7
+Vertex -2.165, 0.450,7
+Vertex -1.768,-0.068,7
+Vertex -1.250,-0.465,7
+;
+Face 11,12,01,00
+Face 12,13,02,01
+Face 13,14,03,02
+Face 14,15,04,03
+Face 15,16,05,04
+Face 16,17,06,05
+Face 17,18,07,06
+Face 18,19,08,07
+Face 19,20,09,08
+Face 20,21,10,09
+;
+[texture]
+load fal_keret_01.bmp
+coordinates 00,0,0.000
+coordinates 01,0,0.050
+coordinates 02,0,0.100
+coordinates 03,0,0.150
+coordinates 04,0,0.257
+coordinates 05,0,0.380
+coordinates 06,0,0.514
+coordinates 07,0,0.646
+coordinates 08,0,0.770
+coordinates 09,0,0.877
+coordinates 10,0,1.000
+;
+coordinates 11,0.56,0.000
+coordinates 12,0.56,0.050
+coordinates 13,0.56,0.100
+coordinates 14,0.56,0.150
+coordinates 15,0.56,0.257
+coordinates 16,0.56,0.380
+coordinates 17,0.56,0.514
+coordinates 18,0.56,0.646
+coordinates 19,0.56,0.770
+coordinates 20,0.56,0.877
+coordinates 21,0.56,1.000
+
+;--------------------------------------
+
+;tetõ
+[MeshBuilder]
+vertex 8.0,4.2,-0.3
+vertex 8.0,4.2,7
+vertex -2.45,4.2,7
+vertex -2.45,4.2,-0.3
+face 0,1,2,3
+Load melyteto.bmp
+Coordinates 0,0,4
+Coordinates 1,4,4
+Coordinates 2,4,0
+Coordinates 3,0,0
+
+;--------------------------------------

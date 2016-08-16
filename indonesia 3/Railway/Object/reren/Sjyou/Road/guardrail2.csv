@@ -1,0 +1,57 @@
+CreateMeshBuilder,
+AddVertex,-3.53, 4.07, 1
+AddVertex,-3.53, 0.25, 1
+AddVertex,-3.53, 0.25, 24
+ADdVertex,-3.53, 4.07, 24
+AddFace,3,2,1,0
+LoadTexture,guardrail2.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+AddVertex,-3.75,  0.25, 12
+AddVertex,-3.75,  6.5, 12
+AddVertex,-1.75,  6.5, 12
+AddVertex,-1.75,  0.25, 12
+AddFace,0,1,2,3
+LoadTexture,right2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1.1, 5.28, 8.0
+AddVertex, 1.9, 5.28, 8.0
+AddVertex, 1.9, 0.35, 8.0
+AddVertex,-1.1, 0.35, 8.0
+AddFace,0,1,2,3
+LoadTexture,../Tree/Tree1.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255,
+GenerateNormals,
+Translate,-4.05
+
+CreateMeshBuilder,
+AddVertex,-0.5, 5.08, 16.0
+AddVertex, 2.4, 5.08, 16.0
+AddVertex, 1.8, 0.35, 16.0
+AddVertex,-1.0, 0.35, 16.0
+AddFace,0,1,2,3
+LoadTexture,../Tree/Tree2.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255,
+GenerateNormals,
+Translate,-4.35

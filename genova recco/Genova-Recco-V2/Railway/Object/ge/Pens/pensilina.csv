@@ -1,0 +1,541 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+;;tetto
+CreateMeshBuilder, 
+AddVertex,1.5,4,25,
+AddVertex,11.5,4,25,
+AddVertex,11.5,4,-25,
+Addvertex,1.5,4,-25,
+Addface, 3,2,1,0
+GenerateNormals,
+
+Loadtexture, tetto.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,3
+setTextureCoordinates, 3,0,3
+
+
+;;Fronte
+CreateMeshBuilder, 
+AddVertex,1.5,4,25,
+AddVertex,11.5,4,25,
+AddVertex,11.5,4.5,25,
+Addvertex,1.5,4.5,25,
+Addface, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, wall2.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+;;alzata lati
+CreateMeshBuilder, 
+AddVertex,1.5,4.5,25,
+AddVertex,1.5,4.5,-25,
+Addvertex,1.5,4,-25,
+AddVertex,1.5,4,25,
+Addface, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, wall2.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,5,0
+setTextureCoordinates, 2,5,1
+setTextureCoordinates, 3,0,1
+
+CreateMeshBuilder,
+AddVertex,11.5,4.5,25,
+AddVertex,11.5,4.5,-25,
+Addvertex,11.5,4,-25,
+AddVertex,11.5,4,25,
+Addface, 3,2,1,0
+GenerateNormals,
+
+Loadtexture, wall2.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,5,0
+setTextureCoordinates, 2,5,1
+setTextureCoordinates, 3,0,1
+
+
+
+;; pilastri
+CreateMeshBuilder, ; pilastro1
+AddVertex,3.75,4,20,
+AddVertex,4.25,4,20,
+AddVertex,4.25,0.3,20,
+Addvertex,3.75,0.3,20,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,20.5,
+AddVertex,3.75,4,20,
+AddVertex,3.75,0.3,20,
+Addvertex,3.75,0.3,20.5,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, ; pilastro2
+AddVertex,3.75,4,12.5,
+AddVertex,4.25,4,12.5,
+AddVertex,4.25,0.3,12.5,
+Addvertex,3.75,0.3,12.5,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,13,
+AddVertex,3.75,4,12.5,
+AddVertex,3.75,0.3,12.5,
+Addvertex,3.75,0.3,13,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, ; pilastro3
+AddVertex,3.75,4,5,
+AddVertex,4.25,4,5,
+AddVertex,4.25,0.3,5,
+Addvertex,3.75,0.3,5,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,5.5,
+AddVertex,3.75,4,5,
+AddVertex,3.75,0.3,5,
+Addvertex,3.75,0.3,5.5,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, ; pilastro4
+AddVertex,3.75,4,-2.5,
+AddVertex,4.25,4,-2.5,
+AddVertex,4.25,0.3,-2.5,
+Addvertex,3.75,0.3,-2.5,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,-2,
+AddVertex,3.75,4,-2.5,
+AddVertex,3.75,0.3,-2.5,
+Addvertex,3.75,0.3,-2,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, ; pilastro5
+AddVertex,3.75,4,-10,
+AddVertex,4.25,4,-10,
+AddVertex,4.25,0.3,-10,
+Addvertex,3.75,0.3,-10,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,-9.5,
+AddVertex,3.75,4,-10,
+AddVertex,3.75,0.3,-10,
+Addvertex,3.75,0.3,-9.5,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, ; pilastro6
+AddVertex,3.75,4,-17.5,
+AddVertex,4.25,4,-17.5,
+AddVertex,4.25,0.3,-17.5,
+Addvertex,3.75,0.3,-17.5,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,-17,
+AddVertex,3.75,4,-17.5,
+AddVertex,3.75,0.3,-17.5,
+Addvertex,3.75,0.3,-17,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+;;;;;;;;;,pilastro dx
+;; pilastro
+CreateMeshBuilder, ; pilastro1
+AddVertex,3.75,4,20,
+AddVertex,4.25,4,20,
+AddVertex,4.25,0.3,20,
+Addvertex,3.75,0.3,20,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,20.5,
+AddVertex,3.75,4,20,
+AddVertex,3.75,0.3,20,
+Addvertex,3.75,0.3,20.5,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+CreateMeshBuilder, 
+AddVertex,4.25,4,20.5,
+AddVertex,4.25,4,20,
+AddVertex,4.25,0.3,20,
+Addvertex,4.25,0.3,20.5,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+CreateMeshBuilder, ; pilastro2
+AddVertex,3.75,4,12.5,
+AddVertex,4.25,4,12.5,
+AddVertex,4.25,0.3,12.5,
+Addvertex,3.75,0.3,12.5,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,13,
+AddVertex,3.75,4,12.5,
+AddVertex,3.75,0.3,12.5,
+Addvertex,3.75,0.3,13,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+CreateMeshBuilder, 
+AddVertex,4.25,4,13,
+AddVertex,4.25,4,12.5,
+AddVertex,4.25,0.3,12.5,
+Addvertex,4.25,0.3,13,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, ; pilastro3
+AddVertex,3.75,4,5,
+AddVertex,4.25,4,5,
+AddVertex,4.25,0.3,5,
+Addvertex,3.75,0.3,5,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,5.5,
+AddVertex,3.75,4,5,
+AddVertex,3.75,0.3,5,
+Addvertex,3.75,0.3,5.5,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+CreateMeshBuilder, 
+AddVertex,4.25,4,5.5,
+AddVertex,4.25,4,5,
+AddVertex,4.25,0.3,5,
+Addvertex,4.25,0.3,5.5,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, ; pilastro4
+AddVertex,3.75,4,-2.5,
+AddVertex,4.25,4,-2.5,
+AddVertex,4.25,0.3,-2.5,
+Addvertex,3.75,0.3,-2.5,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+CreateMeshBuilder, 
+AddVertex,4.25,4,-2,
+AddVertex,4.25,4,-2.5,
+AddVertex,4.25,0.3,-2.5,
+Addvertex,4.25,0.3,-2,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,-2,
+AddVertex,3.75,4,-2.5,
+AddVertex,3.75,0.3,-2.5,
+Addvertex,3.75,0.3,-2,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, ; pilastro5
+AddVertex,3.75,4,-10,
+AddVertex,4.25,4,-10,
+AddVertex,4.25,0.3,-10,
+Addvertex,3.75,0.3,-10,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,-9.5,
+AddVertex,3.75,4,-10,
+AddVertex,3.75,0.3,-10,
+Addvertex,3.75,0.3,-9.5,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+
+CreateMeshBuilder, ; pilastro6
+AddVertex,3.75,4,-17.5,
+AddVertex,4.25,4,-17.5,
+AddVertex,4.25,0.3,-17.5,
+Addvertex,3.75,0.3,-17.5,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+
+CreateMeshBuilder, 
+AddVertex,3.75,4,-17,
+AddVertex,3.75,4,-17.5,
+AddVertex,3.75,0.3,-17.5,
+Addvertex,3.75,0.3,-17,
+Addface2, 0,1,2,3
+translate, 5.12,0,0
+GenerateNormals,
+
+Loadtexture, pilastro.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;illuminaz
+
+CreateMeshBuilder, ; lato piatto sx
+AddVertex,2.5,4,25,
+AddVertex,2.65,3.9,25,
+AddVertex,2.65,3.9,-25,
+Addvertex,2.5,4,-25,
+Addface, 3,2,1,0
+GenerateNormals,
+
+Loadtexture, ill.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,30
+setTextureCoordinates, 3,0,30
+
+CreateMeshBuilder, ; lato piatto sx
+AddVertex,6.45,4,25,
+AddVertex,6.5,3.9,25,
+AddVertex,6.5,3.9,-25,
+Addvertex,6.45,4,-25,
+Addface2, 3,2,1,0
+GenerateNormals,
+
+Loadtexture, ill.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,30
+setTextureCoordinates, 3,0,30

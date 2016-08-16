@@ -1,0 +1,47 @@
+;===former right side use
+
+[Meshbuilder] ;pole front
+Vertex 10.8,8,0
+Vertex 10.3,8,0
+Vertex 10.3,-3,0
+Vertex 10.8,-3,0
+Face 3,2,1,0
+
+[Texture]
+Load telegraphpole.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[Meshbuilder] ;pole side
+Vertex 10.3,8,0
+Vertex 10.3,8,0.3
+Vertex 10.3,-3,0.3
+Vertex 10.3,-3,0
+Face 3,2,1,0
+
+[Texture]
+Load telegraphpole.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+;;====head=======
+[Meshbuilder] 
+Vertex 11.8,12,0
+Vertex 9.4,12,0
+Vertex 9.4,8,0
+Vertex 11.8,8,0
+Face 3,2,1,0
+
+[Texture]
+Load telegraphhead.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255

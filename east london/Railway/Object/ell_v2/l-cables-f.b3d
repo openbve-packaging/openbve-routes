@@ -1,0 +1,27 @@
+[MeshBuilder]
+Vertex -2.8,0.8,25.5
+Vertex -2.8,-0.6,25.5
+Vertex -2.8,-0.6,0
+Vertex -2.8,0.8,0
+Face 0,1,2,3
+[Texture]
+load track-cables-l.bmp
+Coordinates 0,15,0
+Coordinates 1,15,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder]
+Vertex -3,1.1,25.3
+Vertex -3,-0.3,25.3
+Vertex -3,-0.3,-0.3
+Vertex -3,1.1,-0.3
+Face 0,1,2,3
+[Texture]
+load fence.bmp
+Coordinates 0,15,0
+Coordinates 1,15,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

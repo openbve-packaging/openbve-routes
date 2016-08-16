@@ -1,0 +1,31 @@
+[MeshBuilder]
+Cylinder 32,0.03,0.03,2
+Color 127,127,127
+Translate 0.03,0.8,0
+[MeshBuilder]
+Cylinder 32,0.03,0.03,2
+Color 127,127,127
+Translate 0.03,0.8,4
+[MeshBuilder]
+Cylinder 32,0.03,0.03,1.5
+Color 127,127,127
+Translate 0.03,0.75,2
+[MeshBuilder]
+Cylinder 32,0.03,0.03,4.05
+Color 127,127,127
+Rotate 0,0,0,90
+Translate 0.03,1.78,2
+
+[MeshBuilder]
+Vertex 0,1.5,0
+Vertex 0,1.5,4
+Vertex 0,1,4
+Vertex 0,1,0
+Face2 0,1,2,3
+[Texture]
+Load barierka.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255

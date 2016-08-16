@@ -1,0 +1,35 @@
+;A Hammerwich - Wood Green object,
+;--------------------------------------,
+;,
+;www.trainsimcentral.co.uk,
+;,
+;,
+;Modified with permission by Steve Green ,
+;from an object originally by Anthony Bowden,
+;from his Birmingham Cross-City BVE Route ,
+;,
+;--------------------------------------,
+;(c) Anthony Bowden, 2002. [Modified by S.Green]
+;www.railsimroutes.co.uk,
+;,
+;Please seek permission before using,
+;any X-City files in your own route.,
+;,,,,
+;See 'Readme.txt'.,,,,
+
+
+CreateMeshBuilder,,,,
+AddVertex,2.34,8.01,0,
+AddVertex,-0.9,8.01,0,
+AddVertex,-0.9,4.86,0,
+AddVertex,2.34,4.86,0,
+AddFace,3,2,1,0
+SetColor,110,110,110,
+GenerateNormals,,,,
+
+LoadTexture,Mk3_SA_tun.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,198,198,198

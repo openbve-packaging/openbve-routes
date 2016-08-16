@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,-450,-0.5,25,
+AddVertex,450,-0.5,25,
+AddVertex,450,-1,-25,
+AddVertex,-450,-1,-25,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,iwa.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,6,0,
+SetTextureCoordinates,2,6,1,
+SetTextureCoordinates,3,0,1,

@@ -1,0 +1,86 @@
+
+[MeshBuilder]
+Vertex  140,3,  24.7
+Vertex   6, 0,24.7
+Vertex   6, 0,-0.3
+Vertex  140,3,  -0.3
+Face 3,2,1,0
+[Texture]
+Load verde.bmp
+Coordinates 0,0,50
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,50
+
+[MeshBuilder]
+Vertex 6.2, 0, 0
+Vertex 6.2, 2, 0
+Vertex 140, 5, 0
+Vertex 140, 3, 0
+Face 0, 1, 2, 3
+[Texture]
+Load verdelargochiaro.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 50, 0
+Coordinates 3, 50, 1
+Transparent 0,0,0
+[MeshBuilder]
+Vertex 6.2, 0, 10
+Vertex 6.2, 2, 10
+Vertex 140, 5, 10
+Vertex 140, 3, 10
+Face 0, 1, 2, 3
+[Texture]
+Load verdelargochiaro.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 50, 0
+Coordinates 3, 50, 1
+Transparent 0,0,0
+[MeshBuilder]
+Vertex 6.2, 0, 20
+Vertex 6.2, 2, 20
+Vertex 140, 5, 20
+Vertex 140, 3, 20
+Face 0, 1, 2, 3
+[Texture]
+Load verdelargochiaro.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 50, 0
+Coordinates 3, 50, 1
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex 6.2, 0,  0
+Vertex 6.2, 2,  0
+Vertex 6.2, 2, 26
+Vertex 6.2, 0, 26
+Face 3,2,1,0
+[Texture]
+Load verdelargochiaro.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 50, 0
+Coordinates 3, 50, 1
+Transparent 0,0,0
+
+
+
+[MeshBuilder]
+Vertex  -1.8,  0.3,24.7
+Vertex  -2.2, 0.3,24.7
+Vertex  -2.2, 0.3,-0.3
+Vertex  -1.8,  0.3,-0.3
+Face 3,2,1,0
+translate 8,0,0,0
+color 192,192,192
+[MeshBuilder]
+Vertex  -2.2,  -0.3 ,24.7
+Vertex  -2.2,   0.3,24.7
+Vertex  -2.2,   0.3,-0.3
+Vertex  -2.2,  -0.3 ,-0.3
+Face 0,1,2,3
+translate 8,0,0,0
+color 192,192,192

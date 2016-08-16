@@ -1,0 +1,460 @@
+;Ferenciek tere állomás 03
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;Falak
+
+;Jobb oldali fal felirat sáv
+[MeshBuilder]
+Vertex 2.058,1.01,14
+Vertex 2.058,3.01,14
+Vertex 2.058,3.01,0
+Vertex 2.058,1.01,0
+Face 0,1,2,3
+[Texture]
+Load mh_10_ft_oldalfal_02.bmp
+Coordinates 0,00,1
+Coordinates 1,00,0
+Coordinates 2,14,0
+Coordinates 3,14,1
+
+;Bal oldali fal
+[MeshBuilder]
+Vertex -7.2,1.1,0
+Vertex -7.2,3.7,0
+Vertex -7.2,3.7,5
+Vertex -7.2,1.1,5
+Face 0,1,2,3
+[Texture]
+Load mh_10_ft_oldalfal_03.bmp
+Coordinates 0,13,4.5
+Coordinates 1,13,0
+Coordinates 2,00,0
+Coordinates 3,00,4.5
+
+;-----------------------------
+
+;világítótestek
+
+[MeshBuilder]
+Vertex -12.2,3.67,5
+Vertex -12.2,3.67,25
+Vertex -08.2,3.67,25
+Vertex -08.2,3.67,5
+Vertex -18.4,3.67,5
+Vertex -18.4,3.67,25
+Vertex -14.4,3.67,25
+Vertex -14.4,3.67,5
+Vertex -21.9,3.67,5
+Vertex -21.9,3.67,25
+Vertex -20.3,3.67,25
+Vertex -20.3,3.67,5
+Vertex -24.9,3.67,5
+Vertex -24.9,3.67,25
+Vertex -23.3,3.67,25
+Vertex -23.3,3.67,5
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+Face 15,14,13,12
+[Texture]
+Load mh_10_ft_vilagitas_01.bmp
+Coordinates 00,0,0
+Coordinates 01,0,8
+Coordinates 02,3,8
+Coordinates 03,3,0
+Coordinates 04,0,0
+Coordinates 05,0,8
+Coordinates 06,3,8
+Coordinates 07,3,0
+Coordinates 08,0,0
+Coordinates 09,0,8
+Coordinates 10,1,8
+Coordinates 11,1,0
+Coordinates 12,0,0
+Coordinates 13,0,8
+Coordinates 14,1,8
+Coordinates 15,1,0
+transparent 0,0,255
+
+;--------------------------------------------------
+
+;táblák
+
+;Ferenciek tere tábla
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 96,96,96
+translate -7.15, 03.60, 2
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 96,96,96
+translate -7.15, 03.60, 3
+
+[MeshBuilder]
+Vertex -0.10, 0.00, -0.80
+Vertex -0.10, 0.30, -0.80
+Vertex -0.00, 0.30, -0.80
+Vertex -0.00, 0.00, -0.80
+Vertex -0.10, 0.00,  0.80
+Vertex -0.00, 0.00,  0.80
+Face 0,1,2,3
+Face 4,0,3,5
+translate -7.10,3.35,2.50
+color 128,128,128
+
+[MeshBuilder]
+Vertex 0, 0.00, -0.80
+Vertex 0, 0.30, -0.80
+Vertex 0, 0.30,  0.51
+Vertex 0, 0.00,  0.51
+Face 0,1,2,3
+translate -7.10,3.35,2.50
+[Texture]
+Load mh_tabla_ferenciek_tere.bmp
+Coordinates 0, 0.15, 1
+Coordinates 1, 0.15, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+
+[MeshBuilder]
+Vertex 0, 0.00, 0.50
+Vertex 0, 0.30, 0.50
+Vertex 0, 0.30, 0.80
+Vertex 0, 0.00, 0.80
+Face 0,1,2,3
+translate -7.10,3.35,2.50
+[Texture]
+Load ..\tabla\nyil31.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+;Ferenciek tere tábla
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 96,96,96
+translate -7.65, 03.60, 17
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 96,96,96
+translate -7.65, 03.60, 18
+
+[MeshBuilder]
+Vertex -0.10, 0.00, -0.80
+Vertex -0.10, 0.30, -0.80
+Vertex -0.00, 0.30, -0.80
+Vertex -0.00, 0.00, -0.80
+Vertex -0.10, 0.00,  0.80
+Vertex -0.00, 0.00,  0.80
+Face 0,1,2,3
+Face 4,0,3,5
+translate -7.6,3.35,17.50
+color 128,128,128
+
+[MeshBuilder]
+Vertex 0, 0.00, -0.80
+Vertex 0, 0.30, -0.80
+Vertex 0, 0.30,  0.51
+Vertex 0, 0.00,  0.51
+Face 0,1,2,3
+translate -7.60,3.35,17.50
+[Texture]
+Load mh_tabla_ferenciek_tere.bmp
+Coordinates 0, 0.15, 1
+Coordinates 1, 0.15, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+
+[MeshBuilder]
+Vertex 0, 0.00, 0.50
+Vertex 0, 0.30, 0.50
+Vertex 0, 0.30, 0.80
+Vertex 0, 0.00, 0.80
+Face 0,1,2,3
+translate -7.60,3.35,17.50
+[Texture]
+Load ..\tabla\nyil31.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 96,96,96
+translate -7.65, 03.60, 17
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 96,96,96
+translate -7.65, 03.60, 18
+
+;Ferenciek tere tábla
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 96,96,96
+translate -19.05, 03.60, 17
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 96,96,96
+translate -19.05, 03.60, 18
+
+[MeshBuilder]
+Vertex -0.10, 0.00, -0.80
+Vertex -0.10, 0.30, -0.80
+Vertex -0.00, 0.30, -0.80
+Vertex -0.00, 0.00, -0.80
+Vertex -0.10, 0.00,  0.80
+Vertex -0.00, 0.00,  0.80
+Face 0,1,2,3
+Face 4,0,3,5
+translate -19,3.35,17.50
+color 128,128,128
+
+[MeshBuilder]
+Vertex 0, 0.00, -0.80
+Vertex 0, 0.30, -0.80
+Vertex 0, 0.30,  0.51
+Vertex 0, 0.00,  0.51
+Face 0,1,2,3
+translate -19,3.35,17.50
+[Texture]
+Load mh_tabla_ferenciek_tere.bmp
+Coordinates 0, 0.15, 1
+Coordinates 1, 0.15, 0
+Coordinates 2, 0.85, 0
+Coordinates 3, 0.85, 1
+
+[MeshBuilder]
+Vertex 0, 0.00, 0.50
+Vertex 0, 0.30, 0.50
+Vertex 0, 0.30, 0.80
+Vertex 0, 0.00, 0.80
+Face 0,1,2,3
+translate -19,3.35,17.50
+[Texture]
+Load ..\tabla\nyil31.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+;----
+
+;menetrend
+
+[MeshBuilder]
+Vertex -0.60, 0.00, -0.1
+Vertex -0.60, 0.30, -0.1
+Vertex  0.60, 0.30, -0.1
+Vertex  0.60, 0.00, -0.1
+Face 0,1,2,3
+color 176,176,176
+[Texture]
+Load ..\tabla\menet.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+translate -8.40,3.40,13
+
+[MeshBuilder]
+Vertex -0.60,0.00,-0.1
+Vertex -0.60,0.00, 0.1
+Vertex 0.60, 0.00,-0.1
+Vertex 0.60, 0.30,-0.1
+Vertex 0.60, 0.30, 0.1
+Vertex 0.60, 0.00, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -8.40,3.40,13
+
+;óra
+
+[MeshBuilder]
+cube 0.02, 0.05, 0.02
+color 32,32,32
+translate -7.20, 03.65, 13
+
+[MeshBuilder]
+cube 0.02, 0.05, 0.02
+color 32,32,32
+translate -6.60, 03.65, 13
+
+[MeshBuilder]
+Vertex -0.60, 0.00, -0.1
+Vertex -0.60, 0.30, -0.1
+Vertex  0.60, 0.30, -0.1
+Vertex  0.60, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\ora_030_1.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+translate -6.90,3.35,13
+
+[MeshBuilder]
+Vertex -0.50,0.00,-0.1
+Vertex -0.50,0.00, 0.1
+Vertex 0.50, 0.00,-0.1
+Vertex 0.50, 0.25,-0.1
+Vertex 0.50, 0.25, 0.1
+Vertex 0.50, 0.00, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -6.90,3.35,13
+
+;------
+
+;kijárat
+
+[MeshBuilder]
+Vertex -0.80, 0.00, -0.1
+Vertex -0.80, 0.30, -0.1
+Vertex  0.80, 0.30, -0.1
+Vertex  0.80, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_bal.bmp
+Coordinates 0, 0.05, 1.00
+Coordinates 1, 0.05, 0.00
+Coordinates 2, 0.95, 0.00
+Coordinates 3, 0.95, 1.00
+translate -7.40,3.40,21.5
+
+[MeshBuilder]
+Vertex -0.80,0.00,-0.1
+Vertex -0.80,0.00, 0.1
+Vertex 0.80, 0.00,-0.1
+Vertex 0.80, 0.30,-0.1
+Vertex 0.80, 0.30, 0.1
+Vertex 0.80, 0.00, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -7.40,3.40,21.5
+
+[MeshBuilder]
+Vertex -0.80, 0.00, -0.1
+Vertex -0.80, 0.30, -0.1
+Vertex  0.80, 0.30, -0.1
+Vertex  0.80, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijaratz_jobb.bmp
+Coordinates 0, 0.05, 1.00
+Coordinates 1, 0.05, 0.00
+Coordinates 2, 0.95, 0.00
+Coordinates 3, 0.95, 1.00
+translate -19.20,3.40,21.5
+
+[MeshBuilder]
+Vertex -0.80,0.00,-0.1
+Vertex -0.80,0.00, 0.1
+Vertex 0.80, 0.00,-0.1
+Vertex 0.80, 0.30,-0.1
+Vertex 0.80, 0.30, 0.1
+Vertex 0.80, 0.00, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 48,48,48
+translate -19.20,3.40,21.5
+
+;----
+
+;irány
+
+[MeshBuilder]
+Vertex -0.80, 0.00, -0.1
+Vertex -0.80, 0.30, -0.1
+Vertex  0.51, 0.30, -0.1
+Vertex  0.51, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Irany_UP2.bmp
+Coordinates 0, 0.1, 1
+Coordinates 1, 0.1, 0
+Coordinates 2, 0.9, 0
+Coordinates 3, 0.9, 1
+translate -11.50,3.40,17
+
+[MeshBuilder]
+Vertex 0.50, 0.00, -0.1
+Vertex 0.50, 0.30, -0.1
+Vertex 0.80, 0.30, -0.1
+Vertex 0.80, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil21.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+translate -11.50,3.40,17
+
+[MeshBuilder]
+Vertex -0.80,0.00,-0.1
+Vertex -0.80,0.00, 0.1
+Vertex 0.80, 0.00,-0.1
+Vertex 0.80, 0.30,-0.1
+Vertex 0.80, 0.30, 0.1
+Vertex 0.80, 0.00, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 128,128,128
+translate -11.50,3.40,17
+
+;irány
+
+[MeshBuilder]
+Vertex -0.51, 0.00, -0.1
+Vertex -0.51, 0.30, -0.1
+Vertex  0.80, 0.30, -0.1
+Vertex  0.80, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Irany_KK1.bmp
+Coordinates 0, 0.1, 1
+Coordinates 1, 0.1, 0
+Coordinates 2, 0.9, 0
+Coordinates 3, 0.9, 1
+translate -15.10,3.40,17
+
+[MeshBuilder]
+Vertex -0.80, 0.00, -0.1
+Vertex -0.80, 0.30, -0.1
+Vertex -0.50, 0.30, -0.1
+Vertex -0.50, 0.00, -0.1
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil11.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+translate -15.10,3.40,17
+
+[MeshBuilder]
+Vertex -0.80,0.00,-0.1
+Vertex -0.80,0.00, 0.1
+Vertex 0.80, 0.00,-0.1
+Vertex 0.80, 0.30,-0.1
+Vertex 0.80, 0.30, 0.1
+Vertex 0.80, 0.00, 0.1
+face 2,3,4,5
+face 1,0,2,5
+color 0,0,204
+translate -15.10,3.40,17

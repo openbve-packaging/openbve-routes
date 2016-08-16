@@ -1,0 +1,89 @@
+
+;front wall
+[MeshBuilder]
+Vertex -4, 3, -5
+Vertex 0, 6, -5
+Vertex 4, 3, -5
+Vertex 4, -2, -5
+Vertex -4, -2, -5
+Face 0,1,2
+Face 0,2,3,4
+
+[Texture]
+Load house102side.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+;left wall
+[MeshBuilder]
+Vertex -4, 3, 5
+Vertex -4, 3, -5
+Vertex -4, -2, -5
+Vertex -4, -2, 5
+Face 0,1,2,3
+
+[Texture]
+Load brick05.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 1, 0.31
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;right wall
+[MeshBuilder]
+Vertex 4, 3, -5
+Vertex 4, 3, 5
+Vertex 4, -2, 5
+Vertex 4, -2, -5
+Face 0,1,2,3
+
+[Texture]
+Load house102side.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 1, 0.31
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;back wall
+[MeshBuilder]
+Vertex 4, 3, 5
+Vertex 0, 6, 5
+Vertex -4, 3, 5
+Vertex -4, -2, 5
+Vertex 4, -2, 5
+Face 0,1,2
+Face 0,2,3,4
+
+[Texture]
+Load brick05.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+
+;roof
+[MeshBuilder]
+Vertex -4, 3, 5
+Vertex 0, 6, 5
+Vertex 4, 3, 5
+Vertex 4, 3, -5
+Vertex 0, 6, -5
+Vertex -4, 3, -5
+Face 0,1,4,5
+Face 1,2,3,4
+
+[Texture]
+Load Roof.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 0, 3
+Coordinates 3, 10, 3
+Coordinates 4, 10, 0
+Coordinates 5, 10, 3
+
+
+

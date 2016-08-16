@@ -1,0 +1,23 @@
+[MeshBuilder]
+Vertex 12,4.5,-9.7
+Vertex 12,4.5,-9
+Vertex -12,4.5,9.3
+Vertex -12,4.5,8.6
+Face 0,1,2,3
+Color 0,0,0
+
+; DAMN this is a difficult object
+; (district line platforms over whitechapel btw)
+
+[Meshbuilder]
+Vertex 12,4.5,-9
+Vertex 12,4,-9
+Vertex -12,4,9.3
+Vertex -12,4.5,9.3
+Vertex 12,4,-9
+Vertex 12,4,-5
+Vertex -12,4,13.3
+Vertex -12,4,9.3
+Face 0,1,2,3
+Face2 4,5,6,7
+Color 0,0,0

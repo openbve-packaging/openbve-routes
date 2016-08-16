@@ -1,0 +1,56 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+CreateMeshBuilder
+AddVertex,24.99, 10, -1
+AddVertex,-0.01, 4, -1
+AddVertex,0, 4, 25
+AddVertex,25, 10, 25
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture, terrapieno.png
+SetTextureCoordinates, 0, 0, 2
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 2, 0
+SetTextureCoordinates, 3, 2, 2
+
+CreateMeshBuilder
+AddVertex,24.99, 10.2, -1
+AddVertex,-0.01, 4.2, -1
+AddVertex,0, 4.2, -0.7
+AddVertex,25, 10.2, -0.7
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture, sostegno.bmp
+SetTextureCoordinates, 0, 0, 8
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 0.2, 0
+SetTextureCoordinates, 3, 0.2,8
+
+
+CreateMeshBuilder
+AddVertex,-0.01, -3, -1
+AddVertex,-0.01, 4.2, -1
+AddVertex,, 4.2, 25
+AddVertex,, -3, 25
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture, sostegno.bmp
+SetTextureCoordinates, 0, 0, 4
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 6, 0
+SetTextureCoordinates, 3, 6, 4
+CreateMeshBuilder,
+AddVertex,24.99, -3, -1,
+AddVertex,24.99, 10.2, -1,
+AddVertex,-0.01, 4.2, -1,
+AddVertex,-0.01, -3, -1,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,sostegno.bmp,
+SetTextureCoordinates,0, 6, 5,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 5,

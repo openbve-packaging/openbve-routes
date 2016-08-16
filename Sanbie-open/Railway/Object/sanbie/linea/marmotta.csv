@@ -1,0 +1,75 @@
+CreateMeshBuilder,
+AddVertex,2.5, 0.42, 0,
+AddVertex,2.2, 0.42, 0,
+AddVertex,2.2, 0.42, 0.3,
+AddVertex,2.5, -0.1, 0,
+AddVertex,2.2, -0.1, 0,
+AddVertex,2.2, -0.1, 0.3,
+AddFace2,0, 1, 4, 3,
+AddFace2,1, 2, 5, 4,
+
+GenerateNormals,
+
+;LoadTexture,palivbox.bmp,
+LoadTexture,zebra.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0.5, 1,
+SetTextureCoordinates,5, 1, 1,
+
+
+CreateMeshBuilder,
+AddVertex,2.2, 0.42, 0.3,
+AddVertex,2.5, 0.42, 0.3,
+AddVertex,2.2, 0.42, 0,
+AddVertex,2.2, -0.1, 0.3,
+AddVertex,2.5, -0.1, 0.3,
+AddVertex,2.5, -0.1, 0,
+AddFace2,0, 1, 4, 3,
+AddFace2,1, 2, 5, 4,
+
+GenerateNormals,
+
+;LoadTexture,palivbox.bmp,
+LoadTexture,zebra.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.5, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 0.5, 1,
+SetTextureCoordinates,5, 1, 1,
+
+;coperchio
+CreateMeshBuilder,
+AddVertex,2.2, 0.42, 0.3,
+AddVertex,2.5, 0.42, 0.3,
+AddVertex,2.5, 0.42, 0,
+AddVertex,2.2, 0.42, 0,
+AddFace,0, 1, 2, 3,
+
+GenerateNormals,
+Setcolor,0,0,0,
+
+
+;;luce interna
+CreateMeshBuilder, ; segnale fronte rosso
+Cylinder, 64,0.085,0.085,0.01
+Rotate, 1,0,0,90
+translate, 2.35,0.2,0,
+Setcolor,0,0,0,
+
+CreateMeshBuilder, ; segnale fronte rosso
+Cylinder, 64,0.055,0.055,0.01
+Rotate, 1,0,0,90
+translate, 2.35,0.2,0,
+Setcolor,145,81,145,
+
+;;basamento
+CreateMeshBuilder,
+Cube, 0.2,0.25,0.3,
+Translate, 2.35,-0.38,0.2,
+GenerateNormals,
+Setcolor,240,240,245,
+

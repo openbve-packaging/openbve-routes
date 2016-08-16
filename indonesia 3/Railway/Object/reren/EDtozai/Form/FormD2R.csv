@@ -1,0 +1,25 @@
+CreateMeshBuilder
+AddVertex,6.8, 1.1, 0
+AddVertex,6.8, 1.1, 25.1
+AddVertex,2.7, 1.1, 25.1
+AddVertex,2.7, 1.1, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+LoadTexture,FormD.bmp
+SetTextureCoordinates,0, 6, 24,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 24,
+
+CreateMeshBuilder
+AddVertex,6.8, -0.45, 0
+AddVertex,6.8, 1.1, 0
+AddVertex,2.7, 1.1, 0
+AddVertex,2.7, -0.45, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+LoadTexture,FormWallB.bmp,
+SetTextureCoordinates,0, 1, 1
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 0, 1

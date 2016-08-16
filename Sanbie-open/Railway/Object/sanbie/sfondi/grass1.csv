@@ -1,0 +1,152 @@
+;; Sanbie
+
+;lato sx
+CreateMeshBuilder,
+AddVertex,-50, 0, 25,
+AddVertex,-50, 0, 0,
+AddVertex,-50, -1, -12.5,
+AddVertex,-8, 0, 25,
+AddVertex,-8, 0, 0,
+AddVertex,-8, -1, -12.5,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 15, 0,
+SetTextureCoordinates,4, 15, 1,
+SetTextureCoordinates,5, 15, 2,
+
+; lato dx
+CreateMeshBuilder,
+AddVertex,8, 0, 25,
+AddVertex,8, 0, 0,
+AddVertex,8, -1, -12.5,
+AddVertex,50, 0, 25,
+AddVertex,50, 0, 0,
+AddVertex,50, -1, -12.5,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 15, 0,
+SetTextureCoordinates,4, 15, 1,
+SetTextureCoordinates,5, 15, 2,
+
+
+
+;;sponda sx
+CreateMeshBuilder,
+AddVertex,-8, 0, 25,
+AddVertex,-8, 0, 0,
+AddVertex,-8, -1, -12.5,
+AddVertex,-4.3, -4.5, 25,
+AddVertex,-4.3, -4.5, 0,
+AddVertex,-4.3, -4.6, -12.5,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 1, 0,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 1, 2,
+
+; sponda dx
+CreateMeshBuilder,
+AddVertex,8, 0, 25,
+AddVertex,8, 0, 0,
+AddVertex,8, -1, -12.5,
+AddVertex,4.3, -4.5, 25,
+AddVertex,4.3, -4.5, 0,
+AddVertex,5.3, -4.6, -12.5,
+AddFace2,1, 0, 3, 4,
+AddFace2,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 1, 0,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 1, 2,
+
+
+
+;lato sx fronte
+CreateMeshBuilder,
+AddVertex,-50, -1, -12.5,
+AddVertex,-50, -3, -15,
+AddVertex,-50, -7, -15.5,
+AddVertex,-8, -1, -12.5,
+AddVertex,-8, -3, -15,
+AddVertex,-8, -7, -15.5,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 15, 0,
+SetTextureCoordinates,4, 15, 1,
+SetTextureCoordinates,5, 15, 2,
+
+;;sponda sx
+CreateMeshBuilder,
+AddVertex,-8, -1, -12.5,
+AddVertex,-8, -3, -15,
+AddVertex,-8, -7, -15.5,
+AddVertex,-8, -1, -12.5,
+AddVertex,-4.3, -4.5, -12.5,
+AddVertex,-4.3, -7, -15.5,
+AddFace,1, 0, 3, 4,
+AddFace,2, 1, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 2,
+SetTextureCoordinates,3, 1, 0,
+SetTextureCoordinates,4, 1, 1,
+SetTextureCoordinates,5, 1, 2,
+
+;;sponda sx
+CreateMeshBuilder,
+AddVertex,-4.3, -4.5, 25,
+AddVertex,-4.3, -4.5, -12.5,
+AddVertex,-4.3, -7, -15.5,
+AddVertex,-4.3, -7, 25,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Alberi\Grass3.bmp,
+SetTextureCoordinates,0, 6, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 6, 0,
+

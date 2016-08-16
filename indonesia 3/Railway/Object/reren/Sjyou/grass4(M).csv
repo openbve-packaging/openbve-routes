@@ -1,0 +1,38 @@
+;CreateMeshBuilder,,,,
+;AddVertex,-450,-0.5,   50,
+;AddVertex, -29,-0.5,   26,
+;AddVertex, -29,-0.5,   0,
+;AddVertex,-450,-0.5,   0,
+;
+;AddVertex,  25,-0.5,   26,
+;AddVertex, 450,-0.5,   50,
+;AddVertex,-450,-0.51, 0,
+;AddVertex, -25,-0.51, 0,
+;AddVertex,  25,-0.51, 0,
+;AddVertex, 450,-0.51, 0,
+;AddFace,0,1,2,3,
+;GenerateNormals,,,,
+;LoadTexture,bg1.bmp
+;SetTextureCoordinates,0,0,0,
+;SetTextureCoordinates,1,1,0
+;SetTextureCoordinates,2,1,1
+;SetTextureCoordinates,3,0,1
+
+CreateMeshBuilder
+AddVertex,6,-0.5, 26
+AddVertex,2.5,-0.5, 26
+AddVertex,2.5,-10 , 26
+AddVertex,2.5,-10 , 0
+AddVertex,2.5,-0.5, 0
+AddVertex,6,-0.5, 0
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+Setcolor,180,180,180
+GenerateNormals
+LoadTexture,Rail/CrossingA.bmp
+SetTextureCoordinates,0,-0.1,0
+SetTextureCoordinates,1,0.0,0
+SetTextureCoordinates,2,1.0,0
+SetTextureCoordinates,3,1.0,1
+SetTextureCoordinates,4,0.0,1
+SetTextureCoordinates,5,-0.1,1

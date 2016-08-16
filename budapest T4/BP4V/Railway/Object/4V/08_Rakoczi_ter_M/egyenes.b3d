@@ -1,0 +1,129 @@
+
+
+
+
+
+;Táblák___________________________________________________________
+
+[Meshbuilder]
+Vertex 0.23,3,0
+Vertex 0.23,2.54,0
+Vertex -0.23,2.54,0
+Vertex -0.23,3,0
+Face 0,1,2,3
+Load agazat.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+[Meshbuilder]
+Vertex -0.23,3,0
+Vertex -0.23,2.54,0
+Vertex 0.23,2.54,0
+Vertex 0.23,3,0
+Face 0,1,2,3
+Load agazat.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+
+[Meshbuilder]
+Vertex -0.23,2.54,0
+Vertex -0.23,2.4,0
+Vertex 0.23,2.4,0
+Vertex 0.23,2.54,0
+Face 3,2,1,0
+Load megallonev.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+[Meshbuilder]
+Vertex 0.23,2.54,0
+Vertex 0.23,2.4,0
+Vertex -0.23,2.4,0
+Vertex -0.23,2.54,0
+Face 3,2,1,0
+Load megallonev.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+
+[Meshbuilder]
+Vertex -0.23,2.4,0
+Vertex -0.23,2.25,0
+Vertex 0.23,2.25,0
+Vertex 0.23,2.4,0
+Face 3,2,1,0
+Load dohanyozni_tilos.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+[Meshbuilder]
+Vertex 0.23,2.4,0
+Vertex 0.23,2.25,0
+Vertex -0.23,2.25,0
+Vertex -0.23,2.4,0
+Face 3,2,1,0
+Load dohanyozni_tilos.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+
+
+
+
+
+;Menetrendtartó vitrin___________________________________________________________
+
+[Meshbuilder]
+Cube 0.23,0.36,0.025
+Color 190,190,190
+Translate 0,1.6,0
+
+[Meshbuilder]
+Vertex -0.23,1.96,-0.026
+Vertex -0.23,1.24,-0.026
+Vertex 0.23,1.24,-0.026
+Vertex 0.23,1.96,-0.026
+Face 3,2,1,0
+Load menetrend.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+
+
+
+
+
+;Váz___________________________________________________________
+
+[Meshbuilder]
+Cylinder 6,0.025,0.025,0.5
+Color 190,190,190
+Rotate 0,0,1,90
+Translate 0,3.02,0
+
+[Meshbuilder]
+Cylinder 6,0.025,0.025,3.02
+Color 190,190,190
+Translate 0.25,1.51,0
+
+[Meshbuilder]
+Cylinder 6,0.025,0.025,3.02
+Color 190,190,190
+Translate -0.25,1.51,0
+
+
+
+
+
+
+
+
+

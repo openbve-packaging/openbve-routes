@@ -1,0 +1,38 @@
+CreateMeshBuilder,
+AddVertex,-2.6,-0.80, +0
+AddVertex,-2.6,+5.62, +0
+AddVertex,-2.6,+5.62, +26.12
+AddVertex,-2.6,-0.80, +26.12
+AddFace,0,1,2,3 
+LoadTexture,Wall6A.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.6,-0.4,+0.0
+AddVertex,+4.5,-0.4,+0.0
+AddVertex,+4.5,-0.4,+26.12
+AddVertex,-2.6,-0.4,+26.12
+AddFace,3,2,1,0
+LoadTexture,Wall6A.bmp
+SetTextureCoordinates,0, 0, 0.2,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0.2,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.6,+5.62,+ 0.0
+AddVertex,+9.9,+5.62,+ 0.0
+AddVertex,+9.9,+5.62,+26.12
+AddVertex,-2.6,+5.62,+26.12
+AddFace,0,1,2,3
+Loadtexture,Wall6A.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+GenerateNormals,

@@ -1,0 +1,108 @@
+;========== PKOBP ==========
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,0.7
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,2.55
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,4.5
+
+[MeshBuilder]
+Vertex 0,3.5,0
+Vertex 0,3.5,5
+Vertex 0,2,5
+Vertex 0,2,0
+Face2 0,1,2,3
+[Texture]
+Load pkobp.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+;========== KGHM ==========
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,7.4
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,8.5
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,10.2
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,11.1
+
+[MeshBuilder]
+Vertex 0,3.3,7
+Vertex 0,3.3,11.8
+Vertex 0,2.2,11.8
+Vertex 0,2.2,7
+Face2 0,1,2,3
+[Texture]
+Load kghm.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+;========== PGE ==========
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,14.25
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,15.7
+
+[MeshBuilder]
+Vertex 0,3.5,13
+Vertex 0,3.5,17
+Vertex 0,1.8,17
+Vertex 0,1.8,13
+Face2 0,1,2,3
+[Texture]
+Load pge.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+;========== DLS ==========
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,18.8
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,20.15
+[MeshBuilder]
+Cylinder 10,0.02,0.02,2.8
+Color 0,0,0
+Translate -0.03,1.3,22.1
+
+[MeshBuilder]
+Vertex 0,3.5,18
+Vertex 0,3.5,23
+Vertex 0,1.8,23
+Vertex 0,1.8,18
+Face2 0,1,2,3
+[Texture]
+Load dls.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255

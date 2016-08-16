@@ -1,0 +1,63 @@
+;author=Uwe Post,Sanford Mace
+;description=simple high rise house 3 sided
+;copyright=the BVE RouteBuilder team 2002, part of RB Base library, goto routebuilder.bve-routes.com
+
+
+;top
+[MeshBuilder]
+Vertex 0,18,0
+Vertex 12,18,0
+Vertex 0,18,16
+face 2,1,0
+
+[Texture]
+Load heliport.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+
+
+
+[Meshbuilder]
+Vertex 0,0,0
+vertex 12,0,0
+Vertex 12,18,0
+Vertex 0,18,0
+Face 3,2,1,0
+
+
+[Texture]
+Load cucolor.bmp
+Coordinates 0,0,10
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,10
+
+[Meshbuilder]
+Vertex 0,0,0
+vertex 0,0,16
+Vertex 0,18,16
+Vertex 0,18,0
+Face 0,1,2,3
+
+
+[Texture]
+Load cucolor.bmp
+Coordinates 0,0,16
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,16
+
+[Meshbuilder]
+Vertex 12,0,0
+Vertex 12,18,0
+Vertex 0,18,16
+Vertex 0,0,16
+Face 0,1,2,3
+
+[Texture]
+Load cucolor.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,18
+Coordinates 3,0,18

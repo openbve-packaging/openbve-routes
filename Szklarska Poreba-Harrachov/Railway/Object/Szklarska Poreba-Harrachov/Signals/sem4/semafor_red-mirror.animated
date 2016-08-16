@@ -1,0 +1,11 @@
+﻿[Object]
+States = sc4-mirror.b3d
+Position= 0,0,0
+
+
+[Object]
+States = red.b3d, green.b3d
+Position= 0.81,0,0
+StateFunction = section != 0
+
+

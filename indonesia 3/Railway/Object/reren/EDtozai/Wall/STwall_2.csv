@@ -1,0 +1,27 @@
+CreateMeshBuilder,
+AddVertex, 1.4, 7.5, 0.0
+AddVertex, 2.2, 7.5, 0.0
+AddVertex, 2.2, 4.5, 0.0
+AddVertex, 1.4, 4.5, 0.0
+AddFace,0,1,2,3
+LoadTexture,bordwall_A.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+Setcolor,170,170,150
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 1.5, 0.5, 0.0
+AddVertex, 2.2, 0.5, 0.0
+AddVertex, 2.2, 0.0, 0.0
+AddVertex, 1.5, 0.0, 0.0
+AddFace,0,1,2,3
+LoadTexture,bordwall_A.bmp
+SetTextureCoordinates,0, 0.4, 1,
+SetTextureCoordinates,1, 0.4, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+Setcolor,240,240,220
+GenerateNormals,

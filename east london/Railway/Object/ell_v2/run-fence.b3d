@@ -1,0 +1,13 @@
+[Meshbuilder] ; some cables of our own
+Vertex -3.5,1,25
+Vertex -3.5,-1,25
+Vertex -3.5,-1,0
+Vertex -3.5,1,0
+Face2 0,1,2,3
+[Texture]
+load fence2.bmp
+Coordinates 0,15,0
+Coordinates 1,15,1
+COordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

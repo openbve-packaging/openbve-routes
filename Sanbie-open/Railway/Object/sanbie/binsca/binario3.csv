@@ -1,0 +1,193 @@
+CreateMeshBuilder,
+AddVertex,-1.35, -0.17, -0.5,
+AddVertex,-1.35, -0.175, 25.5,
+AddVertex,1.35, -0.175, 25.5,
+AddVertex,1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,Schwellen2.bmp,
+SetTextureCoordinates,0, -0.02, 10,
+SetTextureCoordinates,1, -0.02, 0,
+SetTextureCoordinates,2, 1.02, 0,
+SetTextureCoordinates,3, 1.02, 10,
+
+;dike s
+
+CreateMeshBuilder,
+AddVertex,-2.8, -0.4, -0.5,
+AddVertex,-2.8, -0.405, 25.5,
+AddVertex,-1.35, -0.175, 25.5,
+AddVertex,-1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 10,
+SetTextureCoordinates,2, 0, 10,
+SetTextureCoordinates,3, 0, 0,
+
+; dike d
+
+CreateMeshBuilder,
+AddVertex,1.35, -0.175, 25.5,
+AddVertex,2.8, -0.405, 25.5,
+AddVertex,2.8, -0.4, -0.5,
+AddVertex,1.35, -0.17, -0.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,schotter2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 10,
+SetTextureCoordinates,3, 0, 10,
+
+CreateMeshBuilder,
+AddVertex,-0.8, 0, -0.4,
+AddVertex,-0.8, 0, 25.5,
+AddVertex,-0.72, 0, 25.5,
+AddVertex,-0.72, 0, -0.4,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,Schienehell.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 10,
+SetTextureCoordinates,2, 0, 10,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder,
+AddVertex,0.72, 0, -0.3,
+AddVertex,0.72, 0, 25.5,
+AddVertex,0.8, 0, 25.5,
+AddVertex,0.8, 0, -0.3,
+AddFace,0, 1, 2, 3,
+SetColor,224, 224, 224,
+GenerateNormals,
+
+LoadTexture,Schienehell.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 10,
+SetTextureCoordinates,2, 0, 10,
+SetTextureCoordinates,3, 0, 0,
+
+CreateMeshBuilder ; Anime delle rotaie
+Addvertex, -0.76,0.00,-0.30
+Addvertex, -0.76,-0.17,-0.30
+Addvertex, -0.76,0.00,25.5
+Addvertex, -0.76,-0.17,25.5
+Addvertex, 0.76,0.00,-0.30
+Addvertex, 0.76,-0.17,-0.30
+Addvertex, 0.76,0.00,25.5
+Addvertex, 0.76,-0.17,25.5
+Addface2, 2, 3, 1, 0
+Addface2, 6, 7, 5 ,4
+Setcolor, 85,50,50
+GenerateNormals,
+
+
+CreateMeshBuilder,
+AddVertex,-3.5, -1, -2,
+AddVertex,-3.5, -1, 15,
+AddVertex,-8.5, -2.6, 15,
+AddVertex,-8.5, -2.4, -2,
+AddVertex,-12, -5.8, 15,
+AddVertex,-12, -5.4, -2,
+AddVertex,-15, -7.1, 15,
+AddVertex,-15, -7.1, -2,
+AddVertex,-3.5, -1, 27,
+AddVertex,-8.5, -2.6, 27,
+AddVertex,-12, -5.4, 27,
+AddVertex,-15, -7.1, 27,
+AddFace2,1,0,3,2,
+AddFace2,2,3,5,4,
+AddFace2,4,5,7,6,
+AddFace2,8,1,2,9,
+AddFace2,9,2,4,10,
+AddFace2,10,4,6,11,
+GenerateNormals,
+
+LoadTexture,..\Alberi\grass1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2.5, 0,
+SetTextureCoordinates,2, 2.5, 1.3,
+SetTextureCoordinates,3, 0, 1.3,
+SetTextureCoordinates,4, 2.5, 1.6,
+SetTextureCoordinates,5, 0, 1.6,
+SetTextureCoordinates,6, 2.5, 1,
+SetTextureCoordinates,7, 0, 1,
+SetTextureCoordinates,8, 2, 0,
+SetTextureCoordinates,9, 2, 1.3,
+SetTextureCoordinates,10, 1, 1.6,
+SetTextureCoordinates,11, 1, 1,
+
+; dike appena dopo binario
+
+CreateMeshBuilder,
+
+AddVertex,-2.8, -0.4, 27,
+AddVertex,-2.8, -0.4, -2,
+AddVertex,-3.5, -1, -2,
+AddVertex,-3.5, -1, 27,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Alberi\grass1.bmp,
+SetTextureCoordinates,0,0.1,1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,3.5, -1, -2,
+AddVertex,3.5, -1, 15,
+AddVertex,8.5, -2.6, 15,
+AddVertex,8.5, -2.4, -2,
+AddVertex,12, -5.8, 15,
+AddVertex,12, -5.4, -2,
+AddVertex,15, -7.1, 15,
+AddVertex,15, -7.1, -2,
+AddVertex,3.5, -1, 27,
+AddVertex,8.5, -2.6, 27,
+AddVertex,12, -5.4, 27,
+AddVertex,15, -7.1, 27,
+AddFace2,1,0,3,2,
+AddFace2,2,3,5,4,
+AddFace2,4,5,7,6,
+AddFace2,8,1,2,9,
+AddFace2,9,2,4,10,
+AddFace2,10,4,6,11,
+GenerateNormals,
+
+LoadTexture,..\Alberi\grass1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2.5, 0,
+SetTextureCoordinates,2, 2.5, 1.3,
+SetTextureCoordinates,3, 0, 1.3,
+SetTextureCoordinates,4, 2.5, 1.6,
+SetTextureCoordinates,5, 0, 1.6,
+SetTextureCoordinates,6, 2.5, 1,
+SetTextureCoordinates,7, 0, 1,
+SetTextureCoordinates,8, 2, 0,
+SetTextureCoordinates,9, 2, 1.3,
+SetTextureCoordinates,10, 1, 1.6,
+SetTextureCoordinates,11, 1, 1,
+
+; dike appena dopo binario
+
+CreateMeshBuilder,
+
+AddVertex,2.8, -0.4, 27,
+AddVertex,2.8, -0.4, -2,
+AddVertex,3.5, -1, -2,
+AddVertex,3.5, -1, 27,
+AddFace2,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,..\Alberi\grass1.bmp,
+SetTextureCoordinates,0,0.1,1,
+SetTextureCoordinates,1,0.1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,

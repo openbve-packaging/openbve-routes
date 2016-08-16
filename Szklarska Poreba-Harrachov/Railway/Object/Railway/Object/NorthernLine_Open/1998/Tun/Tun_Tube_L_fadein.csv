@@ -1,0 +1,214 @@
+;Tube Station Object
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Simon Gathercole, Steve Green.
+
+;first segment
+
+CreateMeshBuilder,
+AddVertex,-0.64,-0.79,2.52,	;0
+AddVertex,-0.64,-0.79,0.06,	;1
+AddVertex,-1.16,-0.56,2.52,	;2
+AddVertex,-1.16,-0.56,0.06,	;3
+AddVertex,-1.60,-0.19,2.52,	;4
+AddVertex,-1.60,-0.19,0.06,	;5
+AddVertex,-1.93,0.27,2.52,	;6
+AddVertex,-1.93,0.27,0.06,	;7
+AddVertex,-2.13,0.81,2.52,	;8
+AddVertex,-2.13,0.81,0.06,	;9
+AddVertex,-2.19,1.38,2.52,	;10
+AddVertex,-2.19,1.38,0.06,	;11
+AddVertex,-2.09,1.94,2.52,	;12
+AddVertex,-2.09,1.94,0.06,	;13
+AddVertex,-1.86,2.46,2.52,	;14
+AddVertex,-1.86,2.46,0.06,	;15
+AddVertex,-1.49,2.90,2.52,	;16
+AddVertex,-1.49,2.90,0.06,	;17
+AddVertex,-1.03,3.23,2.52,	;18
+AddVertex,-1.03,3.23,0.06,	;19
+AddVertex,-0.49,3.43,2.52,	;20
+AddVertex,-0.49,3.43,0.06,	;21
+AddVertex,0.08,3.49,2.52,	;22
+AddVertex,0.08,3.49,0.06,	;23
+;Setcolor,200,200,200,1,
+Addface,0,1,3,2,
+Addface,2,3,5,4,
+Addface,4,5,7,6,
+Addface,6,7,9,8,
+Addface,8,9,11,10,
+Addface,10,11,13,12,
+Addface,12,13,15,14,
+Addface,14,15,17,16,
+Addface,16,17,19,18,
+Addface,18,19,21,20,
+Addface,20,21,23,22,
+
+GenerateNormals,
+LoadTexture,tunwall2_fadein.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0.083,1,
+SetTextureCoordinates,3,0.083,0,
+SetTextureCoordinates,4,0.166,1,
+SetTextureCoordinates,5,0.166,0,
+SetTextureCoordinates,6,0.25,1,
+SetTextureCoordinates,7,0.25,0,
+SetTextureCoordinates,8,0.33,1,
+SetTextureCoordinates,9,0.33,0,
+SetTextureCoordinates,10,0.416,1,
+SetTextureCoordinates,11,0.416,0,
+SetTextureCoordinates,12,0.583,1,
+SetTextureCoordinates,13,0.583,0,
+SetTextureCoordinates,14,0.66,1,
+SetTextureCoordinates,15,0.66,0,
+SetTextureCoordinates,16,0.75,1,
+SetTextureCoordinates,17,0.75,0,
+SetTextureCoordinates,18,0.83,1,
+SetTextureCoordinates,19,0.83,0,
+SetTextureCoordinates,20,0.916,1,
+SetTextureCoordinates,21,0.916,0,
+SetTextureCoordinates,22,1,1,
+SetTextureCoordinates,23,1,0,
+
+
+CreateMeshBuilder,,,,
+AddVertex,7.3,3.495,25.3,
+AddVertex,7.3,3.495,0.1,
+AddVertex,0,3.495,0.1,
+AddVertex,0,3.495,25.3,
+AddFace,3,2,1,0,
+GenerateNormals,,,,
+SetColor,190,190,190,
+LoadTexture,tunwall2.png,
+SetTextureCoordinates,0,0,10,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,10,
+
+CreateMeshBuilder,,,,
+AddVertex,-1.3,-0.47,26,
+AddVertex,7.3,-0.47,26,
+AddVertex,7.3,-0.47,0,
+AddVertex,-1.3,-0.47,0,
+AddFace,0,1,2,3
+SetColor,0,0,0,
+GenerateNormals,,,,
+
+CreateMeshBuilder,
+AddVertex,-0.64,-0.79,25.20,	;0
+AddVertex,-0.64,-0.79,2.52,,	;1
+AddVertex,-1.16,-0.56,25.20,	;2
+AddVertex,-1.16,-0.56,2.52,,	;3
+AddVertex,-1.60,-0.19,25.20,	;4
+AddVertex,-1.60,-0.19,2.52,,	;5
+AddVertex,-1.93,0.27,25.20,	;6
+AddVertex,-1.93,0.27,2.52,,	;7
+AddVertex,-2.13,0.81,25.20,	;8
+AddVertex,-2.13,0.81,2.52,,	;9
+AddVertex,-2.19,1.38,25.20,	;10
+AddVertex,-2.19,1.38,2.52,,	;11
+AddVertex,-2.09,1.94,25.20,	;12
+AddVertex,-2.09,1.94,2.52,,	;13
+AddVertex,-1.86,2.46,25.20,	;14
+AddVertex,-1.86,2.46,2.52,,	;15
+AddVertex,-1.49,2.90,25.20,	;16
+AddVertex,-1.49,2.90,2.52,,	;17
+AddVertex,-1.03,3.23,25.20,	;18
+AddVertex,-1.03,3.23,2.52,,	;19
+AddVertex,-0.49,3.43,25.20,	;20
+AddVertex,-0.49,3.43,2.52,,	;21
+AddVertex,0.08,3.49,25.20,	;22
+AddVertex,0.08,3.49,2.52,,	;23
+;Setcolor,200,200,200,1,
+Addface,0,1,3,2,
+Addface,2,3,5,4,
+Addface,4,5,7,6,
+Addface,6,7,9,8,
+Addface,8,9,11,10,
+Addface,10,11,13,12,
+Addface,12,13,15,14,
+Addface,14,15,17,16,
+Addface,16,17,19,18,
+Addface,18,19,21,20,
+Addface,20,21,23,22,
+
+GenerateNormals,
+LoadTexture,tunwall2.png,
+SetTextureCoordinates,0,0,9,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0.083,9,
+SetTextureCoordinates,3,0.083,0,
+SetTextureCoordinates,4,0.166,9,
+SetTextureCoordinates,5,0.166,0,
+SetTextureCoordinates,6,0.25,9,
+SetTextureCoordinates,7,0.25,0,
+SetTextureCoordinates,8,0.33,9,
+SetTextureCoordinates,9,0.33,0,
+SetTextureCoordinates,10,0.416,9,
+SetTextureCoordinates,11,0.416,0,
+SetTextureCoordinates,12,0.583,9,
+SetTextureCoordinates,13,0.583,0,
+SetTextureCoordinates,14,0.66,9,
+SetTextureCoordinates,15,0.66,0,
+SetTextureCoordinates,16,0.75,9,
+SetTextureCoordinates,17,0.75,0,
+SetTextureCoordinates,18,0.83,9,
+SetTextureCoordinates,19,0.83,0,
+SetTextureCoordinates,20,0.916,9,
+SetTextureCoordinates,21,0.916,0,
+SetTextureCoordinates,22,1,9,
+SetTextureCoordinates,23,1,0,
+
+CreateMeshBuilder,,,,
+AddVertex,-2.17,1.5,0.2,
+AddVertex,-2.17,1.5,25.1,
+AddVertex,-1.93,2.3,25.1,
+AddVertex,-1.93,2.3,0.2,
+AddFace,3,2,1,0
+SetColor,155,155,155,
+GenerateNormals,,,,
+LoadTexture,cablesl.png
+SetTextureCoordinates,0,10,1,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,10,0,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,,,,
+AddVertex,-0.5,-1.2,-0.1,
+AddVertex,-0.5,-0.155,-0.1,
+AddVertex,0.5,-0.155,-0.1,
+AddVertex,0.5,-1.2,-0.1,
+AddFace,0,1,2,3
+SetColor,34,34,34,
+
+CreateMeshBuilder
+AddVertex,-1.9, 0, 0,;  lower left
+AddVertex,-1.9, 0.7, 0,; upper left
+AddVertex,-1.9, 0.7, 12,;  upper right
+AddVertex,-1.9, 0, 12,; lower right
+AddFace,0,1,2,3,
+GenerateNormals
+
+LoadTexture,maincable.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,1
+SetDecalTransparentColor,0,0,255
+
+CreateMeshBuilder
+AddVertex,-1.9, 0, 12,;  lower left
+AddVertex,-1.9, 0.7, 12,; upper left
+AddVertex,-1.9, 0.7, 25,;  upper right
+AddVertex,-1.9, 0, 25,; lower right
+AddFace,0,1,2,3,
+GenerateNormals
+
+LoadTexture,maincable.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,1
+SetDecalTransparentColor,0,0,255
+

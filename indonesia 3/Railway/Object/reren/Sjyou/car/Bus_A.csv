@@ -1,0 +1,27 @@
+CreateMeshBuilder,
+AddVertex,-1.0, 2.6, 0
+AddVertex, 1.91, 2.6, 0
+AddVertex, 1.91,-0.4, 0
+AddVertex,-1.0,-0.4, 0
+ADdFace,0,1,2,3
+LoadTexture,Bus_A.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,1.89, 2.8, 0
+AddVertex,1.89, 2.8, 10
+AddVertex,1.89,-0.4, 10
+AddVertex,1.89,-0.4, 0
+AddFace,0,1,2,3
+LoadTexture,Bus_B.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255

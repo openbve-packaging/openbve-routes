@@ -1,0 +1,95 @@
+SetDecalTransparentColor, 0,0,255 
+CreateMeshBuilder
+Cube, 0.2, 0.45, 0.2
+Translate, -3.6, -1.05, 0.2
+SetColor, 176, 176, 176
+
+
+CreateMeshBuilder
+AddVertex, 17.6, 6.3, 0.1
+AddVertex, 17.6, 7.4, 0.1
+AddVertex, 26.4, 7.4, 0.1
+AddVertex, 26.4,6.3, 0.1
+AddFace, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole3.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,4,0,
+SetTextureCoordinates,3,4,1,
+GenerateNormals,,,,
+Translate,-10.2
+
+CreateMeshBuilder
+AddVertex, -3.7, 5.2, .1
+AddVertex, -3.7, 7.4, .1
+AddVertex, -1.6, 7.4, 0
+AddVertex, -1.6, 5.2, 0
+AddFace, 0, 1, 2, 3
+LoadTexture,pole_h.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+GenerateNormals,,,,
+
+CreateMeshBuilder
+AddVertex, 5.4, 5.2, 0
+AddVertex, 5.4, 7.4, 0
+AddVertex, 7.4, 7.4, .1
+AddVertex, 7.4, 5.2, .1
+AddFace, 0, 1, 2, 3
+LoadTexture,pole_h.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0,
+SetTextureCoordinates,3,-1,1,
+GenerateNormals,,,,
+Translate,10.6
+
+CreateMeshBuilder
+AddVertex, 8.5, 6.3, 0.1
+AddVertex, 8.5, 7.4, 0.1
+AddVertex, 17.62, 7.4, 0.1
+AddVertex, 17.62,6.3, .1
+AddFace, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole3.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,1,4,0,
+SetTextureCoordinates,0,4,1,
+Translate,-10.2
+
+
+CreateMeshBuilder
+AddVertex, -3.7, -1.4, 0
+AddVertex, -3.7, 10, 0
+AddVertex, -3.4, 10, 0
+AddVertex, -3.4, -1.4, 0
+AddFace, 0, 1, 2, 3
+LoadTexture,pole5.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+GenerateNormals,,,,
+
+CreateMeshBuilder
+AddVertex, 7.1, -1.4, 0
+AddVertex, 7.1, 8, 0
+AddVertex, 7.4, 8, 0
+AddVertex, 7.4, -1.4, 0
+AddFace, 0,1,2,3
+LoadTexture,pole5.bmp
+GenerateNormals,,,,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,0,1,1,
+Translate,10.7,

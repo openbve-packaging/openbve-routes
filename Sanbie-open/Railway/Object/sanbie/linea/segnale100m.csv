@@ -1,0 +1,40 @@
+CreateMeshBuilder, ; palo
+cylinder, 6,0.04,0.04,4.9
+translate, 0,2,0.01
+SetColor, 176, 176, 176,
+
+;sostegni
+CreateMeshBuilder,
+cylinder, 6,0.05,0.05,0.05
+translate, 0,2.7,0.02
+Setcolor,150,150,150,
+
+CreateMeshBuilder,
+cylinder, 6,0.05,0.05,0.05
+translate, 0,3.8,0.02
+Setcolor,150,150,150,
+
+
+CreateMeshBuilder, ; mensola
+AddVertex,-0.15,4.2,-0.03,
+AddVertex,0.15,4.2,-0.03,
+AddVertex,0.15,2.2,-0.03,
+Addvertex,-0.15,2.2,-0.03,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, segnale100PL.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,1
+setTextureCoordinates, 3,0,1
+
+
+CreateMeshBuilder, ; mensolaretro
+AddVertex,-0.15,4.2,-0.02,
+AddVertex,0.15,4.2,-0.02,
+AddVertex,0.15,2.2,-0.02,
+Addvertex,-0.15,2.2,-0.02
+Addface2, 0,1,2,3
+GenerateNormals,
+SetColor, 176, 176, 176,

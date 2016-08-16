@@ -1,0 +1,126 @@
+;mélyalagút jobb oldalon, állomások elõtt
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;alagút
+[meshbuilder]
+Vertex -0.020, 4.200,-0.3
+Vertex 0.647, 4.115,-0.3
+Vertex 1.250, 3.865,-0.3
+Vertex 1.768, 3.468,-0.3
+Vertex 2.165, 2.950,-0.3
+Vertex 2.415, 2.347,-0.3
+Vertex 2.500, 1.700,-0.3
+Vertex 2.415, 1.053,-0.3
+Vertex 2.165, 0.450,-0.3
+Vertex 1.768,-0.068,-0.3
+Vertex 1.250,-0.465,-0.3
+;
+Vertex -0.020, 4.200,25
+Vertex 0.647, 4.115,25
+Vertex 1.250, 3.865,25
+Vertex 1.768, 3.468,25
+Vertex 2.165, 2.950,25
+Vertex 2.415, 2.347,25
+Vertex 2.500, 1.700,25
+Vertex 2.415, 1.053,25
+Vertex 2.165, 0.450,25
+Vertex 1.768,-0.068,25
+Vertex 1.250,-0.465,25
+;
+Face 00,01,12,11
+Face 01,02,13,12
+Face 02,03,14,13
+Face 03,04,15,14
+Face 04,05,16,15
+Face 05,06,17,16
+Face 06,07,18,17
+Face 07,08,19,18
+Face 08,09,20,19
+Face 09,10,21,20
+;
+[texture]
+load fal_keret_01.bmp
+coordinates 00,0,0.000
+coordinates 01,0,0.050
+coordinates 02,0,0.100
+coordinates 03,0,0.150
+coordinates 04,0,0.257
+coordinates 05,0,0.380
+coordinates 06,0,0.514
+coordinates 07,0,0.646
+coordinates 08,0,0.770
+coordinates 09,0,0.877
+coordinates 10,0,1.000
+;
+coordinates 11,2,0.000
+coordinates 12,2,0.050
+coordinates 13,2,0.100
+coordinates 14,2,0.150
+coordinates 15,2,0.257
+coordinates 16,2,0.380
+coordinates 17,2,0.514
+coordinates 18,2,0.646
+coordinates 19,2,0.770
+coordinates 20,2,0.877
+coordinates 21,2,1.000
+
+;--------------------------------------
+
+;Világítás
+
+[MeshBuilder]
+Vertex -0.03,-0.1, 0.5
+Vertex -0.03, 0.1, 0.5
+Vertex -0.03, 0.1,-0.5
+Vertex -0.03,-0.1,-0.5
+Vertex  0.03,-0.1, 0.5
+Vertex  0.03, 0.1, 0.5
+Vertex  0.03, 0.1,-0.5
+Vertex  0.03,-0.1,-0.5
+Face 0,1,2,3
+Face 1,5,6,2
+Face 2,6,7,3
+Face 0,3,7,4
+[Texture]
+Load alagut_lampa_02.bmp
+Coordinates 0,0.00,1.00
+Coordinates 1,0.00,0.00
+Coordinates 2,1.00,0.00
+Coordinates 3,1.00,1.00
+Coordinates 4,0.00,1.00
+Coordinates 5,0.00,0.00
+Coordinates 6,1.00,0.00
+Coordinates 7,1.00,1.00
+Rotate 0,0,1,31
+Translate 2.110,2.984,6.25
+
+[MeshBuilder]
+Vertex -0.03,-0.1, 0.5
+Vertex -0.03, 0.1, 0.5
+Vertex -0.03, 0.1,-0.5
+Vertex -0.03,-0.1,-0.5
+Vertex  0.03,-0.1, 0.5
+Vertex  0.03, 0.1, 0.5
+Vertex  0.03, 0.1,-0.5
+Vertex  0.03,-0.1,-0.5
+Face 0,1,2,3
+Face 1,5,6,2
+Face 2,6,7,3
+Face 0,3,7,4
+Face 4,5,1,0
+[Texture]
+Load alagut_lampa_02.bmp
+Coordinates 0,0.00,1.00
+Coordinates 1,0.00,0.00
+Coordinates 2,1.00,0.00
+Coordinates 3,1.00,1.00
+Coordinates 4,0.00,1.00
+Coordinates 5,0.00,0.00
+Coordinates 6,1.00,0.00
+Coordinates 7,1.00,1.00
+Rotate 0,0,1,31
+Translate 2.110,2.984,18.75
+
+;--------------------------------------

@@ -1,0 +1,37 @@
+﻿[MeshBuilder]
+Cylinder 32,0.05,0.05,4
+Rotate 0,0,0,0
+Color 100,30,0
+Translate 1.2,1,0
+[MeshBuilder]
+Cylinder 32,0.05,0.05,4
+Rotate 0,0,0,0
+Color 100,30,0
+Translate -1.2,1,0
+
+[MeshBuilder]
+Vertex 1.2, 3, 0
+Vertex 1.2, 1, 0
+Vertex -1.2, 1, 0
+Vertex -1.2, 3, 0
+Face 0,1,2,3
+[Texture]
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+Load billboard3.png
+Transparent 0,0,255
+[MeshBuilder]
+Vertex 1.2, 3, 0
+Vertex 1.2, 1, 0
+Vertex -1.2, 1, 0
+Vertex -1.2, 3, 0
+Face 3,2,1,0
+[Texture]
+Coordinates 0, 0, 0
+Coordinates 1, 0, 1
+Coordinates 2, 1, 1
+Coordinates 3, 1, 0
+Load znak1_tyl.png
+Transparent 0,0,255

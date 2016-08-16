@@ -1,0 +1,91 @@
+;Birmingham Cross-City BVE Route Object
+;Cross-City South
+;--------------------------------------
+;(c) Anthony Bowden, 2002.
+;www.railsimroutes.co.uk
+;
+;Please seek permission before using
+;any X-City files in your own route.
+;
+;See 'Readme.txt'.
+;
+;MODIFIED FOR US DESERT FREIGHT BY STEVE GREEN
+;WITH PERMISSION
+
+CreateMeshBuilder,
+AddVertex,-1.22, -0.144, 0,
+AddVertex,-1.22, -0.144, 25.2,
+AddVertex,1.22, -0.144, 25.2,
+AddVertex,1.22, -0.144, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Tie_w.bmp,
+SetTextureCoordinates,0, 0, 9,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 9,
+
+CreateMeshBuilder,
+AddVertex,-2.4, -0.3, 0,
+AddVertex,-2.4, -0.3, 25.2,
+AddVertex,-1.22, -0.144, 25.2,
+AddVertex,-1.22, -0.144, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Ballast.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,1.22, -0.144, 0,
+AddVertex,1.22, -0.144, 25.2,
+AddVertex,2.4, -0.3, 25.2,
+AddVertex,2.4, -0.3, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Ballast.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-0.746,0,0,
+AddVertex,-0.746,0,25.2,
+AddVertex,-0.686,0,25.2,
+AddVertex,-0.686,0,0,
+AddFace,0,1,2,3,
+Setcolor,180,180,180,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-0.716,0,0,
+AddVertex,-0.716,0,25.2,
+AddVertex,-0.716,-0.144,25.2,
+AddVertex,-0.716,-0.144,0,
+AddFace2,0,1,2,3,
+Setcolor,90,60,40,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.686,0,0,
+AddVertex,0.686,0,25.2,
+AddVertex,0.746,0,25.2,
+AddVertex,0.746,0,0,
+AddFace,0,1,2,3,
+Setcolor,180,180,180,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.716,-0.144,0,
+AddVertex,0.716,-0.144,25.2,
+AddVertex,0.716,0,25.2,
+AddVertex,0.716,0,0,
+AddFace2,0,1,2,3,
+Setcolor,90,60,40,
+GenerateNormals,

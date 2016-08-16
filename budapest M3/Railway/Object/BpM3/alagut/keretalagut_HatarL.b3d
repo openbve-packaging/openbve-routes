@@ -1,0 +1,37 @@
+;keretalagút, Határ út, fal a bal oldalon
+;Készítette: http://www.bvemetro.hu/
+
+;bal fal
+[MeshBuilder]
+vertex -3.85,-0.665,-0.3
+vertex -3.85, 4.000,-0.3
+vertex -3.85, 4.000,25.3
+vertex -3.85,-0.665,25.3
+face2 0,1,2,3
+Load fal_keret_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0.041
+coordinates 2,2,0.041
+coordinates 3,2,1
+
+[MeshBuilder]
+vertex 8.0,4.00,-0.3
+vertex 8.0,4.00,25.3
+vertex -3.851,4.00,25.3
+vertex -3.851,4.00,-0.3
+face 0,1,2,3
+Load melyteto.bmp
+Coordinates 0,0,1
+Coordinates 1,2,1
+Coordinates 2,2,0
+Coordinates 3,0,0
+
+;lámpák
+[MeshBuilder]
+cube 0.03,0.1,0.5
+translate -3.82,2.60,06.25
+color 72,72,72
+[MeshBuilder]
+cube 0.03,0.1,0.5
+translate -3.82,2.60,18.75
+color 72,72,72

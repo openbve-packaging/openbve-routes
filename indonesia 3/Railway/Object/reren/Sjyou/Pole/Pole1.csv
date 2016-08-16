@@ -1,0 +1,81 @@
+;íåÅEìyë‰
+
+CreateMeshBuilder
+Cube, 0.3, 0.45, 0.3
+Translate, -3.5, -1.05, 0
+SetColor,160,154,142
+
+CreateMeshBuilder,
+AddVertex,-2.95, 9.2, -0.05
+AddVertex,-2.68, 9.2, -0.05
+AddVertex,-2.68,-0.6, -0.05
+AddVertex,-2.95,-0.6, -0.05
+AddFace2,0,1,2,3
+LoadTexture,../../EDtozai\pole/Tpole.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+GenerateNormals,
+Translate,-0.7
+
+;;;;
+
+CreateMeshBuilder
+AddVertex, -1.6, 6.3, -0.10
+AddVertex, -1.6, 7.3, -0.10
+AddVertex, 0.55, 7.3, -0.10
+AddVertex, 0.55, 6.3, -0.10
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole_c.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor, 0, 0, 0
+Translate,2.12
+CreateMeshBuilder
+AddVertex, -1.6, 6.3, -0.10
+AddVertex, -1.6, 7.3, -0.10
+AddVertex, 0.55, 7.3, -0.10
+AddVertex, 0.55, 6.3, -0.10
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole_c2.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor, 0, 0, 0
+
+CreateMeshBuilder
+AddVertex, -0.75, 6.8, -0.15
+AddVertex, -0.75, 7.8, -0.15
+AddVertex, 1.1, 7.8, -0.15
+AddVertex, 1.1, 7.75, -0.15
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole_c.bmp
+SetTextureCoordinates,0,1,1.1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1.2
+SetDecalTransparentColor, 0, 0, 0
+Translate,3.4,-0.51,0.05
+
+;;;
+
+CreateMeshBuilder
+AddVertex, -3.65, 5.3, -0.10
+AddVertex, -3.65, 7.3, -0.10
+AddVertex, -1.6, 7.3, -0.10
+AddVertex, -1.6, 5.3, -0.10
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole_s.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor, 0, 0, 0

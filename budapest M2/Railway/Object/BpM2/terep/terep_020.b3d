@@ -1,0 +1,13 @@
+;terep_020
+[MeshBuilder]
+Vertex -120, 1.10,-10.00
+Vertex  120, 1.10,-10.00
+Vertex  120, 1.10, 50.00
+Vertex -120, 1.10, 50.00
+Face 3,2,1,0
+[Texture]
+Load terep_020.bmp
+Coordinates 0, 00.00, 00.00
+Coordinates 1, 00.00, 60.00
+Coordinates 2, 30.00, 60.00
+Coordinates 3, 30.00, 00.00

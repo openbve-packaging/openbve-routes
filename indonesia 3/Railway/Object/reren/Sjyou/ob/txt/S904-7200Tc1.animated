@@ -1,0 +1,126 @@
+[Object]
+Position = 0, 0, 0
+States = ../Train\S904-7200/S904-7200Tc1.csv
+
+
+
+[Object]
+Position = 0, 0, 0
+States = ../Train\S904-7200/door-L1.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = sin[leftdoors[1]*0.75]
+
+[Object]
+Position = 0, 0, 0
+States = ../Train\S904-7200/door-L2.csv
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = sin[leftdoors[1]*0.75]
+
+[Object]
+Position = 0, 0, 0
+States = ../Train\S904-7200/door-R1.csv
+TranslateZDirection = 0, 0, 1
+TranslateZFunction = sin[rightdoors[1]*0.75]
+
+[Object]
+Position = 0, 0, 0
+States = ../Train\S904-7200/door-R2.csv
+TranslateZDirection = 0, 0, -1
+TranslateZFunction = sin[rightdoors[1]*0.75]
+
+;----
+;Strap
+;----
+
+[Object]
+Position = 0.83, 3.2, 4.7
+States = ../Train\S904-7200/S904-7200Strap2.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[speedometer]*0.008
+;RotatezDamping = 1, 1.4
+
+[Object]
+Position = -0.82, 3.3, 4.7
+States = ../Train\S904-7200/S904-7200Strap1.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[speedometer]*0.008
+;RotatezDamping = 1, 1.4
+
+[Object]
+Position = 0.83, 3.2, -0.1
+States = ../Train\S904-7200/S904-7200Strap2.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[speedometer]*0.008
+;RotatezDamping = 1, 1.4
+
+[Object]
+Position = -0.82, 3.3, -0.1
+States = ../Train\S904-7200/S904-7200Strap1.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[speedometer]*0.008
+;RotatezDamping = 1, 1.4
+
+[Object]
+Position = 0.83, 3.2, -4.9
+States = ../Train\S904-7200/S904-7200Strap2.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[speedometer]*0.008
+;RotatezDamping = 1, 1.4
+
+[Object]
+Position = -0.82, 3.3, -4.9
+States = ../Train\S904-7200/S904-7200Strap1.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[speedometer]*0.008
+;RotatezDamping = 1, 1.4
+
+
+;----
+;Advertisement
+;----
+
+[Object]
+Position = 0, 3.2, 6.2
+States = ../Train\S904-7200/S904-7200Strap3.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[time]*0.08
+
+[Object]
+Position = 0, 3.2, 3.4
+States = ../Train\S904-7200/S904-7200Strap3.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[time]*0.08
+
+[Object]
+Position = 0, 3.2, 1.4
+States = ../Train\S904-7200/S904-7200Strap3.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[time]*0.08
+
+[Object]
+Position = 0, 3.2, -1.4
+States = ../Train\S904-7200/S904-7200Strap3.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[time]*0.08
+
+[Object]
+Position = 0, 3.2, -3.4
+States = ../Train\S904-7200/S904-7200Strap3.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[time]*0.08
+
+[Object]
+Position = 0, 3.2, -6.2
+States = ../Train\S904-7200/S904-7200Strap3.csv
+rotatezDirection = 1, 0, 0
+rotatezFunction = sin[time]*0.08
+
+[Object]
+Position = 0, 0, 0
+States =  ../../../Null.csv, ../Train\S904-7200/door-L-(light).csv
+StateFunction = mod[leftdoors*1.0,2]
+
+[Object]
+Position = 0, 0, 0
+States = ../../../Null.csv, ../Train\S904-7200/door-R-(light).csv
+StateFunction = mod[rightdoors*1.0,2]

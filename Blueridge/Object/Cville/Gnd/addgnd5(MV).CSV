@@ -1,0 +1,278 @@
+;Moved with BVE File Converter
+CreateMeshbuilder,                          
+AddVertex, 2.5 ,  0 , -25.5 ,
+AddVertex, 3 , -0.05 , -25.5 ,
+AddVertex, 9 , -1.8 , -25.5 ,
+AddVertex, 9 , -1.8 ,  0.199999999999999 ,
+AddVertex, 3 ,  0.05 ,  0.199999999999999 ,
+AddVertex, 2.5 ,  0 ,  0.199999999999999 ,
+AddFace,2,1,4,3,
+AddFace,1,0,5,4,
+SetColor,150,150,150,
+GenerateNormals,
+LoadTexture,ditch1a.bmp
+SetTextureCoordinates,0,3,1,
+SetTextureCoordinates,1,3,.8,
+SetTextureCoordinates,2,3,0,
+SetTextureCoordinates,3,0,0,
+SetTextureCoordinates,4,0,.8,
+SetTextureCoordinates,5,0,1,
+SetDecalTransparentColor,0,0,255,
+Translate,-.3,.2,0,
+
+CreateMeshbuilder,                          
+AddVertex,-2.5 ,  0 , -25 ,
+AddVertex,-3 ,  0.05 , -25 ,
+AddVertex,-7 , -1.3 , -25 ,
+AddVertex,-7 , -1.3 ,  0.199999999999999 ,
+AddVertex,-3 ,  0.05 ,  0.199999999999999 ,
+AddVertex,-2.5 ,  0 ,  0.199999999999999 ,
+AddFace,3,4,1,2,
+AddFace,4,5,0,1,
+SetColor,170,170,170,
+GenerateNormals,
+LoadTexture,ditch1a.bmp
+SetTextureCoordinates,0,3,1,
+SetTextureCoordinates,1,3,.8,
+SetTextureCoordinates,2,3,0,
+SetTextureCoordinates,3,0,0,
+SetTextureCoordinates,4,0,.8,
+SetTextureCoordinates,5,0,1,
+SetDecalTransparentColor,0,0,255,
+Translate,.3,.2,0,
+
+CreateMeshbuilder,                       ;;rightside
+AddVertex, 9.5 , -0.5 , -25 ,
+AddVertex, 25 ,  7.3 , -25 ,
+AddVertex, 24 ,  7 , -30 ,
+AddVertex, 23 ,  6 , -36 ,
+AddVertex, 24.5 ,  6 , -42 ,
+AddVertex, 25 ,  4 , -52 ,
+AddVertex, 10 ,  0 , -52 ,
+AddVertex, 9 ,  0 , -43 ,
+AddVertex, 10 ,  0 , -37 ,
+AddVertex, 9 ,  0 , -31 ,
+AddFace,0,1,2,9,
+AddFace,9,2,3,8,
+AddFace,8,3,4,7,
+AddFace,7,4,5,6,
+GenerateNormals,
+LoadTexture,mtc.bmp
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,.75,0,
+SetTextureCoordinates,3,.5,0,
+SetTextureCoordinates,4,.25,0,
+SetTextureCoordinates,5,0,0,
+SetTextureCoordinates,6,0,1,
+SetTextureCoordinates,7,.25,1,
+SetTextureCoordinates,8,.5,1,
+SetTextureCoordinates,9,.75,1,
+SetDecalTransparentColor,0,0,255,
+Translate,-1,-2,25,
+
+CreateMeshBuilder,
+AddVertex, 0 ,  0 , -27 ,
+AddVertex, 0.6 ,  3 , -27 ,
+AddVertex, 0.6 ,  3 ,  1 ,
+AddVertex, 0 ,  0 ,  1 ,
+AddFace, 3,2,1,0,
+GenerateNormals,
+LoadTexture, ..\veg\flowers4.bmp,
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,3,0,
+SetTextureCoordinates, 3,3,1,
+SetDecalTransparentColor,  0,0,255,
+Rotate,1,0,0,-5.5,
+Translate,23,2,0,
+
+CreateMeshbuilder,                       ;;strawgnd
+AddVertex,-8 , -2 , -30 ,
+AddVertex,-8 ,  3 , -30 ,
+AddVertex,-8 ,  3 ,  2 ,
+AddVertex,-8 , -2 ,  2 ,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture, straw1.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,3,0,
+SetTextureCoordinates,3,3,1,
+SetDecalTransparentColor,0,0,255
+Rotate,0,1,0,-5,
+Translate,35,6,0,
+
+CreateMeshBuilder,                       ;;fence
+AddVertex, 16 ,  0 , -30 ,
+AddVertex, 16 ,  3 , -30 ,
+AddVertex, 16 ,  3 ,  0 ,
+AddVertex, 16 ,  0 ,  0 ,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture, ..\misc\wirefence.bmp,
+SetTextureCoordinates, 0,5,1,
+SetTextureCoordinates, 1,5,0,
+SetTextureCoordinates, 2,0,0,
+SetTextureCoordinates, 3,0,1,
+SetDecalTransparentColor,  0,0,0,
+Translate,8.4 ,  4 ,  0 ,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,5,
+Rotate, 0, 1, 0, 180,;This line added by BVE File Converter
+SetColor, 120,120,0,
+Translate, 24.4 ,  4.75 ,  0 ,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,5,
+Rotate, 0, 1, 0, 180,;This line added by BVE File Converter
+SetColor, 120,120,0,
+Translate, 24.4 ,  4.75 , -20 ,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,5,
+Rotate, 0, 1, 0, 180,;This line added by BVE File Converter
+SetColor, 120,120,0,
+Translate, 24.4 ,  4.75 , -15 ,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,5,
+Rotate, 0, 1, 0, 180,;This line added by BVE File Converter
+SetColor, 120,120,0,
+Translate, 24.4 ,  4.75 , -10 ,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,5,
+Rotate, 0, 1, 0, 180,;This line added by BVE File Converter
+SetColor, 120,120,0,
+Translate, 24.4 ,  4.75 , -5 ,
+
+CreateMeshBuilder,
+Cylinder, 12,.13,.13,5,
+Rotate, 0, 1, 0, 180,;This line added by BVE File Converter
+SetColor, 120,120,0,
+Translate, 24.4 ,  4.75 , -25 ,
+
+
+
+CreateMeshbuilder,                      ;;leftside
+AddVertex,-13.52 ,  6.76 ,  0.5 ,
+AddVertex,-21.125 ,  12.675 ,  0.5 ,
+AddVertex,-21.125 ,  11.83 , -25 ,
+AddVertex,-13.52 ,  6.76 , -25 ,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,mtc.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-2,0,
+SetTextureCoordinates,3,-2,1,
+SetDecalTransparentColor,0,0,255,
+Rotate,0,1,0,1.5,
+Translate, 1.5 ,  -.5 ,  0 ,
+
+CreateMeshbuilder,
+AddVertex,-8.45 , -1.2675 ,  0.5 ,
+AddVertex,-14.703 ,  7.943 ,  0.5 ,
+AddVertex,-14.703 ,  8.0275 , -25 ,
+AddVertex,-8.45 , -1.2675 , -25 ,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,mtc.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-2,0,
+SetTextureCoordinates,3,-2,1,
+SetDecalTransparentColor,0,0,255,
+Translate, 1.5 ,  -.5 ,  0 ,
+Rotate,0,1,0,1.5,
+
+;;treewall
+
+;Scaled with BVE File Converter
+CreateMeshbuilder,
+AddVertex, 4.732 ,  0 , -25 ,
+AddVertex, 4.732 ,  10.647 , -25 ,
+AddVertex,-4.732 ,  10.647 , -25 ,
+AddVertex,-4.732 ,  0 , -25 ,
+AddFace,3,2,1, 0,
+GenerateNormals,
+LoadTexture, ..\veg\ctree5.bmp
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor, 0,0,255,
+ROtate, 0 ,  1 ,  0 ,-30 
+ROtate, 1 ,  0 ,  0 ,-5 
+Translate,-15.8705 ,  9.2163 ,  3.1 ,
+
+CreateMeshbuilder,
+AddVertex, 4.732 ,  0 , -25 ,
+AddVertex, 4.732 ,  13.013 , -25 ,
+AddVertex,-4.732 ,  13.013 , -25 ,
+AddVertex,-4.732 ,  0 , -25 ,
+AddFace,3,2,1, 0,
+GenerateNormals,
+LoadTexture, ..\veg\ctree5.bmp
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,-1,0,
+SetTextureCoordinates, 3,-1,1,
+SetDecalTransparentColor, 0,0,255,
+ROtate, 0 ,  1 ,  0 ,-60 
+ROtate, 1 ,  0 ,  0 ,-5 
+Translate,-15.279 ,  7.915 ,  8.3 ,
+
+CreateMeshbuilder,
+AddVertex, 5.915 , -1.183 , -25 ,
+AddVertex, 5.915 ,  10.647 , -25 ,
+AddVertex,-4.732 ,  10.647 , -25 ,
+AddVertex,-4.732 , -1.183 , -25 ,
+AddFace,3,2,1, 0,
+GenerateNormals,
+LoadTexture, ..\veg\ctree5.bmp
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor, 0,0,255,
+ROtate, 0 ,  1 ,  0 ,-45 
+ROtate, 1 ,  0 ,  0 ,-5 
+Translate,-17.0535 ,  9.8078 ,  12.1 ,
+
+CreateMeshbuilder,
+AddVertex, 3.549 ,  0 , -25 ,
+AddVertex, 3.549 ,  10.647 , -25 ,
+AddVertex,-3.549 ,  10.647 , -25 ,
+AddVertex,-3.549 ,  0 , -25 ,
+AddFace,3,2,1, 0,
+GenerateNormals,
+LoadTexture, ..\veg\ctree5.bmp
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor, 0,0,255,
+ROtate, 0 ,  1 ,  0 ,-45 
+ROtate, 1 ,  0 ,  0 ,-5 
+Translate,-15.279 ,  9.5712 ,  16.6 ,
+
+CreateMeshbuilder,
+AddVertex, 4.732 , -1.183 , -25 ,
+AddVertex, 4.732 ,  11.83 , -25 ,
+AddVertex,-5.915 ,  11.83 , -25 ,
+AddVertex,-4.732 , -1.183 , -25 ,
+AddFace,3,2,1, 0,
+SetColor,230,230,230,
+GenerateNormals,
+LoadTexture, ..\veg\ctree5.bmp
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor, 0,0,255,
+ROtate, 0 ,  1 ,  0 ,-60 
+Translate,-16.1718 ,  9.5712 ,  21.8 ,
+

@@ -1,0 +1,604 @@
+[MeshBuilder]
+Vertex  -3,  8,-11.5
+Vertex   7,  8,-11.5
+Vertex   7,  8,-13.5
+Vertex  -3,  8,-13.5
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,  8,-13.5
+Vertex   7,  8,-13.5
+Vertex   7,  7,-13.5
+Vertex  -3,  7,-13.5
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,  8,-24
+Vertex   7,  8,-24
+Vertex   7,  8,-26
+Vertex  -3,  8,-26
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,  8,-26
+Vertex   7,  8,-26
+Vertex   7,  7,-26
+Vertex  -3,  7,-26
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,  8,-36.5
+Vertex   7,  8,-36.5
+Vertex   7,  8,-38.5
+Vertex  -3,  8,-38.5
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,  8,-38.5
+Vertex   7,  8,-38.5
+Vertex   7,  7,-38.5
+Vertex  -3,  7,-38.5
+Face2 3,2,1,0
+color 50,50,50
+;--------------------------------- sinistro
+[MeshBuilder]
+Vertex  -3,  -0.5,0
+Vertex  -3,     8,-11.5
+Vertex  -3,     8,-13.5
+Vertex  -3,  -0.5,-2
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,  -0.5,-23
+Vertex  -3,     8,-11.5
+Vertex  -3,     8,-13.5
+Vertex  -3,  -0.5,-25
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,0
+Vertex  -3.5,     8,-11.5
+Vertex  -3.5,     8,-13.5
+Vertex  -3.5,  -0.5,-2
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-23
+Vertex  -3.5,     8,-11.5
+Vertex  -3.5,     8,-13.5
+Vertex  -3.5,  -0.5,-25
+Face2 3,2,1,0
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-13
+Vertex -3.0, 8,-13
+Vertex -3.0,-0.5,-1
+Vertex -3.5,-0.5,-1
+Face2 0,1,2,3
+[Texture]
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-13
+Vertex -3.0, 8,-13
+Vertex -3.0,-0.5,-25
+Vertex -3.5,-0.5,-25
+Face2 0,1,2,3
+[Texture]
+color 50,50,50
+;--------------------
+
+[MeshBuilder]
+Vertex  -3,  -0.5,-25
+Vertex  -3,     8,-36.5
+Vertex  -3,     8,-38.5
+Vertex  -3,  -0.5,-27
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,  -0.5,-48
+Vertex  -3,     8,-36.5
+Vertex  -3,     8,-38.5
+Vertex  -3,  -0.5,-50
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-25
+Vertex  -3.5,     8,-36.5
+Vertex  -3.5,     8,-38.5
+Vertex  -3.5,  -0.5,-27
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-48
+Vertex  -3.5,     8,-36.5
+Vertex  -3.5,     8,-38.5
+Vertex  -3.5,  -0.5,-50
+Face2 3,2,1,0
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-38.5
+Vertex -3.0, 8,-38.5
+Vertex -3.0,-0.5,-27
+Vertex -3.5,-0.5,-27
+Face2 0,1,2,3
+[Texture]
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-38.5
+Vertex -3.0, 8,-38.5
+Vertex -3.0,-0.5,-50
+Vertex -3.5,-0.5,-50
+Face2 0,1,2,3
+[Texture]
+color 50,50,50
+;------------- base
+[Meshbuilder] 
+Vertex -3.5, 0.5,-2
+Vertex -3.0, 0.5,-2
+Vertex -3.0, 0.5,-48
+Vertex -3.5, 0.5,-48
+Face2 0,1,2,3
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,   0.5,-2
+Vertex  -3,   0.5,-48
+Vertex  -3,   -0.5,-50
+Vertex  -3,   -0.5,-0
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,   0.5,-2
+Vertex  -3.5,   0.5,-48
+Vertex  -3.5,   -0.5,-50
+Vertex  -3.5,   -0.5,-0
+Face2 3,2,1,0
+color 50,50,50
+;------------- alto
+[Meshbuilder] 
+Vertex -3.5, 8,-12
+Vertex -3.0, 8,-12
+Vertex -3.0, 8,-38.5
+Vertex -3.5, 8,-38.5
+Face2 0,1,2,3
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,   8,-12
+Vertex  -3,   8,-38.5
+Vertex  -3,   7,-38.5
+Vertex  -3,   7,-12
+Face2 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,   8,-12
+Vertex  -3.5,   8,-38.5
+Vertex  -3.5,   7.5,-38.5
+Vertex  -3.5,   7.5,-12
+Face2 3,2,1,0
+color 50,50,50
+;--------------------------------------- destro
+;----------------
+[MeshBuilder]
+Vertex  -3,  -0.5,0
+Vertex  -3,     8,-11.5
+Vertex  -3,     8,-13.5
+Vertex  -3,  -0.5,-2
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,  -0.5,-23
+Vertex  -3,     8,-11.5
+Vertex  -3,     8,-13.5
+Vertex  -3,  -0.5,-25
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,0
+Vertex  -3.5,     8,-11.5
+Vertex  -3.5,     8,-13.5
+Vertex  -3.5,  -0.5,-2
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-23
+Vertex  -3.5,     8,-11.5
+Vertex  -3.5,     8,-13.5
+Vertex  -3.5,  -0.5,-25
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-13
+Vertex -3.0, 8,-13
+Vertex -3.0,-0.5,-1
+Vertex -3.5,-0.5,-1
+Face2 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-13
+Vertex -3.0, 8,-13
+Vertex -3.0,-0.5,-25
+Vertex -3.5,-0.5,-25
+Face2 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+;--------------------
+
+[MeshBuilder]
+Vertex  -3,  -0.5,-25
+Vertex  -3,     8,-36.5
+Vertex  -3,     8,-38.5
+Vertex  -3,  -0.5,-27
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,  -0.5,-48
+Vertex  -3,     8,-36.5
+Vertex  -3,     8,-38.5
+Vertex  -3,  -0.5,-50
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-25
+Vertex  -3.5,     8,-36.5
+Vertex  -3.5,     8,-38.5
+Vertex  -3.5,  -0.5,-27
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-48
+Vertex  -3.5,     8,-36.5
+Vertex  -3.5,     8,-38.5
+Vertex  -3.5,  -0.5,-50
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-38.5
+Vertex -3.0, 8,-38.5
+Vertex -3.0,-0.5,-27
+Vertex -3.5,-0.5,-27
+Face2 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-38.5
+Vertex -3.0, 8,-38.5
+Vertex -3.0,-0.5,-50
+Vertex -3.5,-0.5,-50
+Face2 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+;------------- base
+[Meshbuilder] 
+Vertex -3.5, 0.5,-2
+Vertex -3.0, 0.5,-2
+Vertex -3.0, 0.5,-48
+Vertex -3.5, 0.5,-48
+Face2 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,   0.5,-2
+Vertex  -3,   0.5,-48
+Vertex  -3,   -0.5,-50
+Vertex  -3,   -0.5,-0
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,   0.5,-2
+Vertex  -3.5,   0.5,-48
+Vertex  -3.5,   -0.5,-50
+Vertex  -3.5,   -0.5,-0
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+;------------- alto
+[Meshbuilder] 
+Vertex -3.5, 8,-12
+Vertex -3.0, 8,-12
+Vertex -3.0, 8,-38.5
+Vertex -3.5, 8,-38.5
+Face2 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3,   8,-12
+Vertex  -3,   8,-38.5
+Vertex  -3,   7,-38.5
+Vertex  -3,   7,-12
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,   8,-12
+Vertex  -3.5,   8,-38.5
+Vertex  -3.5,   7.5,-38.5
+Vertex  -3.5,   7.5,-12
+Face2 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+;--------------------------------- verticali sinistri
+[MeshBuilder]
+Vertex  -3,  -0.5,-11.5
+Vertex  -3, 8,-11.5
+Vertex  -3, 8,-13.5
+Vertex  -3,  -0.5,-13.5
+Face 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-11.5
+Vertex  -3.5, 8,-11.5
+Vertex  -3.5, 8,-13.5
+Vertex  -3.5,  -0.5,-13.5
+Face 0,1,2,3
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-13.5
+Vertex -3, 8,-13.5
+Vertex -3,-0.5,-13.5
+Vertex -3.5,-0.5,-13.5
+Face 0,1,2,3
+color 50,50,50
+
+[MeshBuilder]
+Vertex  -3,  -0.5,-24
+Vertex  -3, 8,-24
+Vertex  -3, 8,-26
+Vertex  -3,  -0.5,-26
+Face 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-24
+Vertex  -3.5, 8,-24
+Vertex  -3.5, 8,-26
+Vertex  -3.5,  -0.5,-26
+Face 0,1,2,3
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-26
+Vertex -3, 8,-26
+Vertex -3,-0.5,-26
+Vertex -3.5,-0.5,-26
+Face 0,1,2,3
+color 50,50,50
+
+
+[MeshBuilder]
+Vertex  -3,  -0.5,-36.5
+Vertex  -3, 8,-36.5
+Vertex  -3, 8,-38.5
+Vertex  -3,  -0.5,-38.5
+Face 3,2,1,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-36.5
+Vertex  -3.5, 8,-36.5
+Vertex  -3.5, 8,-38.5
+Vertex  -3.5,  -0.5,-38.5
+Face 0,1,2,3
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-38.5
+Vertex -3, 8,-38.5
+Vertex -3,-0.5,-38.5
+Vertex -3.5,-0.5,-38.5
+Face 0,1,2,3
+color 50,50,50
+
+;--------------------------------- verticali destri
+[MeshBuilder]
+Vertex  -3,  -0.5,-11.5
+Vertex  -3, 8,-11.5
+Vertex  -3, 8,-13.5
+Vertex  -3,  -0.5,-13.5
+Face 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-11.5
+Vertex  -3.5, 8,-11.5
+Vertex  -3.5, 8,-13.5
+Vertex  -3.5,  -0.5,-13.5
+Face 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-13.5
+Vertex -3, 8,-13.5
+Vertex -3,-0.5,-13.5
+Vertex -3.5,-0.5,-13.5
+Face 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+
+[MeshBuilder]
+Vertex  -3,  -0.5,-24
+Vertex  -3, 8,-24
+Vertex  -3, 8,-26
+Vertex  -3,  -0.5,-26
+Face 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-24
+Vertex  -3.5, 8,-24
+Vertex  -3.5, 8,-26
+Vertex  -3.5,  -0.5,-26
+Face 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-26
+Vertex -3, 8,-26
+Vertex -3,-0.5,-26
+Vertex -3.5,-0.5,-26
+Face 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+
+
+[MeshBuilder]
+Vertex  -3,  -0.5,-36.5
+Vertex  -3, 8,-36.5
+Vertex  -3, 8,-38.5
+Vertex  -3,  -0.5,-38.5
+Face 3,2,1,0
+translate 10,0,0,0
+color 50,50,50
+[MeshBuilder]
+Vertex  -3.5,  -0.5,-36.5
+Vertex  -3.5, 8,-36.5
+Vertex  -3.5, 8,-38.5
+Vertex  -3.5,  -0.5,-38.5
+Face 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+[Meshbuilder] 
+Vertex -3.5, 8,-38.5
+Vertex -3, 8,-38.5
+Vertex -3,-0.5,-38.5
+Vertex -3.5,-0.5,-38.5
+Face 0,1,2,3
+translate 10,0,0,0
+color 50,50,50
+;--------------------------------------------- binari
+[MeshBuilder]
+Vertex  -3,  -0.1,-0
+Vertex   7,  -0.1,-0
+Vertex   7,  -0.1,-50.5
+Vertex  -3,  -0.1,-50.5
+Face2 3,2,1,0
+[Texture]
+Load metallo.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 10, 0
+Coordinates 2, 10, 5
+Coordinates 3, 0, 5
+
+
+[MeshBuilder]
+Vertex -0.762, 0, 0,
+Vertex -0.762, 0, -50.5
+Vertex -0.694, 0, -50.5
+Vertex -0.694, 0, 0,
+Face 3,2,1,0
+Color 180,190,200
+[MeshBuilder]
+Vertex 0.699, 0, 0,
+Vertex 0.699, 0, -50.5
+Vertex 0.767, 0, -50.5
+Vertex 0.767, 0, 0,
+Face 3,2,1,0
+Color 180,190,200
+
+[MeshBuilder]
+Vertex -0.762, 0, 0,
+Vertex -0.762, 0, -50.5
+Vertex -0.694, 0, -50.5
+Vertex -0.694, 0, 0,
+Face 3,2,1,0
+translate 4,0,0,0
+Color 180,190,200
+[MeshBuilder]
+Vertex 0.699, 0, 0,
+Vertex 0.699, 0, -50.5
+Vertex 0.767, 0, -50.5
+Vertex 0.767, 0, 0,
+Face 3,2,1,0
+translate 4,0,0,0
+Color 180,190,200
+;-------------------------------- linea aerea
+[Meshbuilder]
+cylinder 6,0.03,0.03,-25.5
+rotate 90,0,0,90
+translate 0,6.8,12.5
+color 50,50,50
+[Meshbuilder]
+cylinder 6,0.03,0.03,-25.5
+rotate 90,0,0,90
+translate 0,5.8,12.5
+color 50,50,50
+
+[meshbuilder]
+Vertex 0, 6.8, -5
+Vertex 0,  6.8, -5.08
+Vertex 0,  5.8, -5.08
+Vertex 0, 5.8, -5
+Face2 2,3,0,1
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, -10
+Vertex 0,  6.8, -10.08
+Vertex 0,  5.8, -10.08
+Vertex 0, 5.8, -10
+Face2 2,3,0,1
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, -15
+Vertex 0,  6.8, -15.08
+Vertex 0,  5.8, -15.08
+Vertex 0, 5.8, -15
+Face2 2,3,0,1
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, -20
+Vertex 0,  6.8, -20.08
+Vertex 0,  5.8, -20.08
+Vertex 0, 5.8, -20
+Face2 2,3,0,1
+Color 50,50,50
+
+;---------
+[Meshbuilder]
+cylinder 6,0.03,0.03,-25.5
+rotate 90,0,0,90
+translate 4,6.8,12.5
+color 50,50,50
+[Meshbuilder]
+cylinder 6,0.03,0.03,-25.5
+rotate 90,0,0,90
+translate 4,5.8,12.5
+color 50,50,50
+
+[meshbuilder]
+Vertex 0, 6.8, -5
+Vertex 0,  6.8, -5.08
+Vertex 0,  5.8, -5.08
+Vertex 0, 5.8, -5
+Face2 2,3,0,1
+translate 4,0,0,0
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, -10
+Vertex 0,  6.8, -10.08
+Vertex 0,  5.8, -10.08
+Vertex 0, 5.8, -10
+Face2 2,3,0,1
+translate 4,0,0,0
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, -15
+Vertex 0,  6.8, -15.08
+Vertex 0,  5.8, -15.08
+Vertex 0, 5.8, -15
+Face2 2,3,0,1
+translate 4,0,0,0
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, -20
+Vertex 0,  6.8, -20.08
+Vertex 0,  5.8, -20.08
+Vertex 0, 5.8, -20
+Face2 2,3,0,1
+translate 4,0,0,0
+Color 50,50,50
+
+

@@ -1,0 +1,13 @@
+CreateMeshbuilder,
+AddVertex, -2,0,0,
+AddVertex, -2,4,0,
+Addvertex,2,4,0,
+AddVertex, 2,0,0,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, bush2.bmp
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor, 0,0,255,

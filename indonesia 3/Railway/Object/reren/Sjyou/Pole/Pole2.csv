@@ -1,0 +1,81 @@
+;íåÅEìyë‰
+
+CreateMeshBuilder
+Cylinder, 6, 0.15, 0.15, 9.9
+Translate, -3.5, 4.35, 0
+SetColor,160,154,142
+
+CreateMeshBuilder
+Cylinder, 6, 0.15, 0.15, 9.9
+Translate, 7.3, 4.35, 0
+SetColor,160,154,142
+
+CreateMeshBuilder
+Cube, 0.3, 0.45, 0.3
+Translate, -3.5, -1.05, 0
+SetColor,160,154,142
+
+CreateMeshBuilder
+Cube, 0.3, 0.45, 0.3
+Translate, 7.3, -1.05, 0
+SetColor,160,154,142
+
+;;;;
+
+CreateMeshBuilder
+AddVertex, -1.6, 6.3, -0.15
+AddVertex, -1.6, 7.3, -0.15
+AddVertex, 1.9, 7.3, -0.15
+AddVertex, 1.9, 6.3, -0.15
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole_c.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,2,0
+SetTextureCoordinates,3,2,1
+SetDecalTransparentColor, 0, 0, 0
+
+CreateMeshBuilder
+AddVertex, 1.9, 6.3, -0.15
+AddVertex, 1.9, 7.3, -0.15
+AddVertex, 5.4, 7.3, -0.15
+AddVertex, 5.4, 6.3, -0.15
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole_c.bmp
+SetTextureCoordinates,0,2,1
+SetTextureCoordinates,1,2,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor, 0, 0, 0
+
+;;;
+
+CreateMeshBuilder
+AddVertex, -3.65, 5.3, -0.15
+AddVertex, -3.65, 7.3, -0.15
+AddVertex, -1.6, 7.3, -0.15
+AddVertex, -1.6, 5.3, -0.15
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole_s.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor, 0, 0, 0
+
+CreateMeshBuilder
+AddVertex, 5.4, 5.3, -0.15
+AddVertex, 5.4, 7.3, -0.15
+AddVertex, 7.45, 7.3, -0.15
+AddVertex, 7.45, 5.3, -0.15
+AddFace2, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole_s.bmp
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor, 0, 0, 0

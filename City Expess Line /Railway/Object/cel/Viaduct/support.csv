@@ -1,0 +1,51 @@
+;Support;
+CreateMeshBuilder,
+Cylinder,10,1,1,15
+Translate,0,-8.5,25
+SetColor,150,150,150
+
+CreateMeshBuilder,
+AddVertex,-1.2,-1,25,
+AddVertex,-1.2,-1,0,
+AddVertex,1.2,-1,0,
+AddVertex,1.2,-1,25,
+AddFace2,3,2,1,0
+SetColor,150,150,150
+
+CreateMeshBuilder,
+AddVertex, -1.8, 0, 0,
+AddVertex, -1.8, 0, 0,
+AddVertex, -1.2, -1, 0,
+AddVertex, -1.8, 0, 25,
+AddVertex, -1.8, 0, 25,
+AddVertex, -1.2, -1, 25,
+ADDFace2, 3,4,1,0
+ADDFace2, 4,5,2,1
+SETColor, 150,150,150
+
+CreateMeshBuilder,
+AddVertex, 1.8, 0, 0,
+AddVertex, 1.8, 0, 0,
+AddVertex, 1.2, -1, 0,
+AddVertex, 1.8, 0, 25,
+AddVertex, 1.8, 0, 25,
+AddVertex, 1.2, -1, 25,
+ADDFace2, 0,1,4,3
+ADDFace2, 1,2,5,4
+SETColor, 150,150,150
+
+CreateMeshBuilder,
+AddVertex,1.799,-0.01,25,
+AddVertex,1.799,-0.01,0,
+AddVertex,2.1,-0.01,0,
+AddVertex,2.1,-0.01,25,
+AddFace2,3,2,1,0
+SetColor,150,150,150
+
+CreateMeshBuilder,
+AddVertex,-1.799,-0.01,25,
+AddVertex,-1.799,-0.01,0,
+AddVertex,-2.1,-0.01,0,
+AddVertex,-2.1,-0.01,25,
+AddFace2,0,1,2,3
+SetColor,150,150,150

@@ -1,0 +1,474 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Casa gialla scura
+; --------- Fronte ------------
+[MeshBuilder] ; Muro interrato
+Vertex 0, 0, -2
+Vertex 11, 0, -2
+Vertex 11, -4, -2
+Vertex 0, -4, -2
+Face 0,1,2,3
+[texture]
+load Muro2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 3, 0
+Coordinates 2, 3, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.t
+Vertex 0, 4, -2
+Vertex 5, 4, -2
+Vertex 5, 0, -2
+Vertex 0, 0, -2
+Face 0,1,2,3
+[texture]
+load Fin-casa2a.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.1
+Vertex 0, 8, -2
+Vertex 5, 8, -2
+Vertex 5, 4, -2
+Vertex 0, 4, -2
+Face 0,1,2,3
+[texture]
+load Fin-casa2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.2
+Vertex 0, 12,-2
+Vertex 5, 12,-2
+Vertex 5, 8, -2
+Vertex 0, 8, -2
+Face 0,1,2,3
+[texture]
+load Fin-casa2c.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.3
+Vertex 0, 16, -2
+Vertex 5, 16, -2
+Vertex 5, 12, -2
+Vertex 0, 12, -2
+Face 0,1,2,3
+[texture]
+load Fin-casa2a.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Muro senza finestre
+Vertex 5, 16, -2
+Vertex 11, 16,-2
+Vertex 11, 0, -2
+Vertex 5, 0,  -2
+Face 0,1,2,3
+[texture]
+load Muro2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 4
+Coordinates 3, 0, 4
+
+; --------- Lato - parte anteriore ------------
+[MeshBuilder] ; Finestre P.0
+Vertex 0, 4.05, 22
+Vertex 0, 4.05, 13.95
+Vertex 0, 0   , 13.95
+Vertex 0, 0   , 22
+Face 0,1,2,3    
+[texture]       
+load Fin-casa2a.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.1 chiusa
+Vertex 0, 8.05, 22
+Vertex 0, 8.05, 17.95
+Vertex 0, 4   , 17.95
+Vertex 0, 4   , 22
+Face 0,1,2,3
+[texture]
+load Fin-casa2c.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.1 c/panni
+Vertex 0, 8.05, 18
+Vertex 0, 8.05, 13.95
+Vertex 0, 4   , 13.95
+Vertex 0, 4   , 18
+Face 0,1,2,3
+[texture]
+load Fin-casa2ap.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestre P.2-3
+Vertex 0, 16, 22
+Vertex 0, 16, 13.95
+Vertex 0, 8 , 13.95
+Vertex 0, 8 , 22
+Face 0,1,2,3    
+[texture]       
+load Fin-casa2.bmp
+Coordinates 0, 2, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 2
+Coordinates 3, 2, 2
+
+; -------- Lato - parte centrale
+[MeshBuilder] ; Finestra Bagni-scala
+Vertex 0.001, 16, 14
+Vertex 0.001, 16, 9.95
+Vertex 0.001, 0, 9.95
+Vertex 0.001, 0, 14
+Face 0,1,2,3
+[texture]
+load Fin-casa2as.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 4
+Coordinates 3, 0, 4
+[MeshBuilder] ; Finestra Bagni-scala
+Vertex 0.001, 16, 10
+Vertex 0.001, 16, 5.95
+Vertex 0.001, 0, 5.95
+Vertex 0.001, 0, 10
+Face 0,1,2,3
+[texture]
+load Fin-casa2as.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 4
+Coordinates 3, 1, 4
+
+; -------- Lato - parte anteriore
+[MeshBuilder] ; Finestre P.2-3
+Vertex 0, 16, 6
+Vertex 0, 16, -2
+Vertex 0, 8 , -2
+Vertex 0, 8 , 6
+Face 0,1,2,3    
+[texture]       
+load Fin-casa2.bmp
+Coordinates 0, 2, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 2
+Coordinates 3, 2, 2
+
+[MeshBuilder] ; Finestre P.0
+Vertex 0, 4.05, 6
+Vertex 0, 4.05, -2
+Vertex 0, 0   , -2
+Vertex 0, 0   , 6
+Face 0,1,2,3    
+[texture]       
+load Fin-casa2.bmp
+Coordinates 0, 2, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 2, 1
+
+[MeshBuilder] ; Finestra P.1 c/panni
+Vertex 0, 8.05, 6
+Vertex 0, 8.05, 1.95
+Vertex 0, 4   , 1.95
+Vertex 0, 4   , 6
+Face 0,1,2,3
+[texture]
+load Fin-casa2ap.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder] ; Finestra P.1 chiusa
+Vertex 0, 8.05, 2
+Vertex 0, 8.05, -2
+Vertex 0, 4   , -2
+Vertex 0, 4   , 2
+Face 0,1,2,3
+[texture]
+load Fin-casa2c.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+; ---- Zoccolo ----
+[MeshBuilder]
+Cube 0.2, 1, 11.99
+color 127,127,127
+translate 0,-1,10
+rotate 1,0,0,-0.0
+
+[MeshBuilder]; Ghiaia a copertura
+Vertex -1.4, -0.70, 25.5
+Vertex  0.5, -0.40, 25.5
+Vertex  -0.3, -0.90, -3
+Vertex -1.4, -0.70, -3
+Face 0,1,2,3
+[texture]
+load ..\..\Rails\Trav-gray.bmp
+Coordinates 0, 0.5, 0
+Coordinates 1, 0,0
+Coordinates 2, 0,   20
+Coordinates 3, 0.5,   20
+rotate 1,0,0,-1.2
+
+; ---- Tetto -------
+[MeshBuilder]
+Cube 6.0,0.1, 13.2
+color 179,206,206
+translate 5.5,16,10
+
+[MeshBuilder]
+Vertex -0.4, 16.1, 22.4
+Vertex 5.5, 19,   19
+Vertex 5.5, 19,   1.2
+Vertex -0.4, 16.1, -2.1
+Vertex 11.4, 16.1, -2.1
+Face 0,1,2,3
+Face 3,2,4
+color 137,163,176
+
+[meshbuilder]  ; Erba
+vertex  -0.0 , -0.85 , -0
+vertex  4.7 ,  -0.95 , -0
+vertex  1.4 ,  -0.65 , -13.5
+vertex  -3.5 ,  -1.45 , -13.25
+face 0,1,2,3
+[texture]
+load ..\..\Grass2.bmp
+coordinates 0, 0.6, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 2
+coordinates 3, 0.6, 2
+
+[meshbuilder]  ; Erba
+vertex  -3.5 ,  -1.45 , -13.25
+vertex  1.4 ,  -0.65 , -13.5
+vertex  1.4 ,  -0.65 , -23
+vertex  -3.5 ,  -1.45 , -23
+face 0,1,2,3
+[texture]
+load ..\..\Grass2.bmp
+coordinates 0, 0.6, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 1
+coordinates 3, 0.6, 1
+
+
+[meshbuilder] ; Cespugli
+vertex -1 , 6 , 5
+vertex 4 ,  6 , -0 
+vertex 4 , -1 , -0
+vertex -1, -1 ,5
+face 0,1,2,3
+load ..\..\Alberi\castagno.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,0
+translate 0.5,-2.5,-7.4
+
+[meshbuilder] ; Cespugli
+vertex -1 , 6 , 5
+vertex 4 ,  6 , -0 
+vertex 4 , -1 , -0
+vertex -1, -1 ,5
+face 0,1,2,3
+load ..\..\Alberi\castagno.bmp
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 1
+coordinates 3, 1, 1
+transparent 0, 0, 255
+rotate 0,1,0,0
+translate 5.5,-2.5,-7.4
+
+[meshbuilder] ; Cespugli
+vertex -1.2 , 2 , 5
+vertex 0 ,  2 , -0 
+vertex 0 , -0.3 , -0
+vertex -1, -0.3 ,5
+face 0,1,2,3
+load ..\..\Alberi\Albero.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-10
+translate 0.8,-1.1,-10.4
+
+[meshbuilder] ; Cespugli
+vertex -1.2 , 2.3 , 5
+vertex 0 ,  2.3 , -0 
+vertex 0 , -0.3 , -0
+vertex -1, -0.3 ,5
+face 0,1,2,3
+load ..\..\Alberi\Albero.bmp
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 1
+coordinates 3, 1, 1
+transparent 0, 0, 255
+rotate 0,1,0,-10
+translate 0.8,-1.5,-12.4
+
+[meshbuilder] ; Cespugli
+vertex -1.2 , 2 , 5
+vertex 0 ,  2 , -0 
+vertex 0 , -0.3 , -0
+vertex -1, -0.3 ,5
+face 0,1,2,3
+load ..\..\Alberi\Albero.bmp
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 1
+coordinates 3, 1, 1
+transparent 0, 0, 255
+rotate 0,1,0,-10
+translate 0.6,-1.5,-15
+
+[meshbuilder] ; Cespugli
+vertex -1.2 , 2.3 , 5
+vertex 0 ,  2.3 , -0 
+vertex 0 , -0.3 , -0
+vertex -1, -0.3 ,5
+face 0,1,2,3
+load ..\..\Alberi\Albero.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-10
+translate 0.1,-1.5,-18
+
+[meshbuilder] ; Cespugli
+vertex -1.2 , 2.3 , 5
+vertex 0 ,  2.3 , -0 
+vertex 0 , -0.3 , -0
+vertex -1, -0.3 ,5
+face 0,1,2,3
+load ..\..\Alberi\Albero.bmp
+coordinates 0, 1, 0
+coordinates 1, 0, 0
+coordinates 2, 0, 1
+coordinates 3, 1, 1
+transparent 0, 0, 255
+rotate 0,1,0,-10
+translate -0.6,-1.5,-22
+
+[meshbuilder] ; Cespugli
+vertex -1.2 , 2.3 , 5
+vertex 0 ,  2.3 , -0 
+vertex 0 , -0.3 , -0
+vertex -1, -0.3 ,5
+face 0,1,2,3
+load ..\..\Alberi\Albero.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 0, 0, 255
+rotate 0,1,0,-10
+translate -1.2,-1.5,-25
+
+[meshbuilder] ; Albero 
+vertex -4 , 9.5 , 0
+vertex 5.5 ,  9.2 , 0 
+vertex 4.5 , 0.5 , 0
+vertex -4, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,45
+translate 3,-2,-17
+
+[meshbuilder] ; Albero 
+vertex -4 , 8 , 0
+vertex 4.5 ,  8 , 0 
+vertex 3.5 , 0.5 , 0
+vertex -4, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,45
+translate 1,-1.5,-32
+
+[meshbuilder] ; Albero 
+vertex -4 , 9 , 0
+vertex 4.5 ,  9 , 0 
+vertex 3.5 , 0.5 , 0
+vertex -4, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,25
+translate -2,-1.5,-40
+
+[meshbuilder] ; Albero 
+vertex -4 , 8 , 0
+vertex 4.5 ,  8 , 0 
+vertex 4.5 , 0.5 , 0
+vertex -4, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,25
+translate -6,-1.5,-57
+
+[meshbuilder] ; Albero 
+vertex -4 , 7 , 0
+vertex 3.5 ,  7 , 0 
+vertex 3.5 , 0.5 , 0
+vertex -4, 0.5 , 0
+face 0,1,2,3
+load ..\..\Alberi\pino1.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 1, 1
+coordinates 3, 0, 1
+transparent 90, 0, 255
+rotate 0,1,0,45
+translate -9,-1.5,-70

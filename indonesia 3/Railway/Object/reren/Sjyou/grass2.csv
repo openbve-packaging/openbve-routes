@@ -1,0 +1,62 @@
+CreateMeshBuilder,,,,
+AddVertex,-600, 0.00, 25,
+AddVertex, -25, 0.00, 25,
+AddVertex,  25,-0.00, 25,
+AddVertex,-600,-0.01, 0,
+AddVertex, -25,-0.01, 0,
+AddVertex,  25,-0.01, 0,
+AddFace,0,1,4,3
+AddFace,1,2,5,4
+GenerateNormals,,,,
+LoadTexture,../bg1.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0
+SetTextureCoordinates,2,3,0
+SetTextureCoordinates,3,0,1
+SetTextureCoordinates,4,2,1
+SetTextureCoordinates,5,3,1
+
+CreateMeshBuilder,
+AddVertex, 72, -4.8, 0,
+AddVertex, 72, -4.8, 25,
+AddVertex, 32, -4.8, 25,
+AddVertex, 32, -4.8, 0,
+AddFace,3,2,1,0
+GenerateNormals,
+LoadTexture,../River_24.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+Setcolor,250,250,200,200
+
+CreateMeshBuilder,
+AddVertex, 27, -2.8, 25,
+AddVertex, 77, -2.8, 25,
+AddVertex, 77, -2.8, 0
+AddVertex, 27, -2.8, 0,
+AddFace,0,1,2,3,
+Setcolor,120,190,180,100
+GenerateNormals,
+
+CreateMeshBuilder,
+addvertex, 25,-0.00, 25
+addvertex, 32,-4.8, 25
+addvertex, 32,-4.8, 0
+addvertex, 25,-0.01, 0
+addvertex, 79,-0.00, 25
+addvertex, 72,-4.8, 25
+addvertex, 72,-4.8, 0
+addvertex, 79,-0.01, 0
+addface,0,1,2,3
+addface,7,6,5,4
+Loadtexture,LeveeS.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 3, 0,
+SetTextureCoordinates,3, 3, 1,
+SetTextureCoordinates,4, 0, 1,
+SetTextureCoordinates,5, 0, 0,
+SetTextureCoordinates,6, 3, 0,
+SetTextureCoordinates,7, 3, 1,
+GenerateNormals,

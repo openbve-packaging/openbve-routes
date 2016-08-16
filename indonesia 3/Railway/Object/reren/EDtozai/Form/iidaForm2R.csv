@@ -1,0 +1,93 @@
+CreateMeshBuilder
+AddVertex,1.5, 1.1, 0
+AddVertex,1.5, 1.1, 25.3
+AddVertex,2.7, 1.1, 25.3
+AddVertex,2.7, 1.1, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,Tform.bmp
+SetTextureCoordinates,0, 0, 18
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 18
+
+CreateMeshBuilder
+AddVertex,1.5, -0.45, 0
+AddVertex,1.5, -0.45, 25.3
+AddVertex,1.5, 1.1, 25.3
+AddVertex,1.5, 1.1, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,tozaiform.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 5, 1
+SetTextureCoordinates,2, 5, 0
+SetTextureCoordinates,3, 0, 0
+
+CreateMeshBuilder
+AddVertex,1.5, -0.45, 0
+AddVertex,1.5, 1.1, 0
+AddVertex,2.7, 1.1, 0
+AddVertex,2.7, -0.45, 0
+AddFace, 0, 1, 2,3
+GenerateNormals
+LoadTexture,FormWallB.bmp,
+SetTextureCoordinates,0, 0.5, 1
+SetTextureCoordinates,1, 0.5, 0
+SetTextureCoordinates,2, 0.7, 0
+SetTextureCoordinates,3, 0.7, 1
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CreateMeshBuilder
+AddVertex,5.8, 1.1, 0
+AddVertex,5.8, 1.1, 25.1
+AddVertex,2.7, 1.1, 25.1
+AddVertex,2.7, 1.1, 0
+AddFace, 3, 2, 1,0
+GenerateNormals
+LoadTexture,FormD.bmp
+SetTextureCoordinates,0, 10, 18
+SetTextureCoordinates,1, 10, 0
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 0, 18
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CreateMeshBuilder
+AddVertex,5.8, 1.1, 0
+AddVertex,5.8, 4.7, 0
+AddVertex,5.8, 4.7, 25.2
+AddVertex,5.8, 1.1, 25.2
+AddFace,3,2,1,0
+LoadTexture,../Wall/iidaw2.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 5, 0
+SetTextureCoordinates,3, 5, 1
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,5.78, 3.75,11.2
+AddVertex,5.78, 4.08,11.2
+AddVertex,5.78, 4.08,13.6
+AddVertex,5.78, 3.75,13.6
+AddFace,3,2,1,0
+LoadTexture,../sta\iida.bmp
+GenerateNormals
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+
+CreateMeshBuilder,
+AddVertex,1.49, 0.88, 0,
+AddVertex,1.49, 1.1, 0,
+AddVertex,1.49, 1.1, 25,
+AddVertex,1.49, 0.88, 25,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,../Retu1.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 4, 0,
+SetTextureCoordinates,3, 4, 1,
+SetDecalTransparentColor,255,255,255

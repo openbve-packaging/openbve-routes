@@ -1,0 +1,247 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;;;;dx
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CreateMeshBuilder,;;copertura
+AddVertex,-0.1, 0.5, 0,
+AddVertex,-0.1, 0.5,11.7,
+AddVertex,0.1, 0.5, 11.7,
+AddVertex,0.1, 0.5, 0,
+AddFace,0, 1, 2, 3,
+translate,24.81,,16.28
+rotate,0,1,0,90
+GenerateNormals,
+setcolor,85,80,60
+
+
+
+
+
+CreateMeshBuilder,;;lato dx
+AddVertex,0.1, -0.6, -0.1,
+AddVertex,0.1, -0.6,11.7,
+AddVertex,0.1,0.5,11.7,
+AddVertex,0.1, 0.5, -0.1,
+AddFace2,3, 2, 1, 0,
+translate,24.81,,16.28
+rotate,0,1,0,90
+GenerateNormals,
+LoadTexture,..\Marc\timavoring.png,,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 30, 1,
+SetTextureCoordinates,2, 30, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,;;lato dx
+AddVertex,0.1, -6, -2,
+AddVertex,0.1, -6,11.7,
+AddVertex,0.1,-0.6,11.7,
+AddVertex,0.1, -0.6, -2,
+AddFace2,3, 2, 1, 0,
+translate,24.81,,16.28
+rotate,0,1,0,90
+GenerateNormals,
+LoadTexture,muroIV.png,,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;,,,sx
+CreateMeshBuilder,;;copertura
+AddVertex,-0.1, 0.7, 0,
+AddVertex,-0.1, 0.7,20,
+AddVertex,0.1, 0.7, 20,
+AddVertex,0.1, 0.7, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor,175,177,189
+
+
+CreateMeshBuilder,;;lato dx
+AddVertex,0.1, -0.7, 0,
+AddVertex,0.1, -0.7,20,
+AddVertex,0.1,0.7,20,
+AddVertex,0.1, 0.7, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,muretto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 10, 1,
+SetTextureCoordinates,2, 10, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CreateMeshBuilder,;;copertura
+AddVertex,-0.1, 0.7, 0,
+AddVertex,-0.1, 0.7,4.44,
+AddVertex,0.1, 0.7, 4.44,
+AddVertex,0.1, 0.7, 0,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,-0.1
+rotate,0,1,0,90
+GenerateNormals,
+setcolor,175,177,189
+
+
+
+CreateMeshBuilder,;;lato dx
+AddVertex,-0.1, -0.7, 0,
+AddVertex,-0.1, -0.7,4.6,
+AddVertex,-0.1,0.7,4.6,
+AddVertex,-0.1, 0.7, 0,
+AddFace,0, 1, 2, 3,
+translate,-0.1,,-0.1
+rotate,0,1,0,90
+GenerateNormals,
+setcolor,160,150,115
+
+
+
+
+CreateMeshBuilder,;;lato dx
+AddVertex,0.1, -1.2, 0,
+AddVertex,0.1, -1.2,4.6,
+AddVertex,0.1,0.7,4.6,
+AddVertex,0.1, 0.7, 0,
+AddFace,3, 2, 1, 0,
+translate,-0.1,,-0.1
+rotate,0,1,0,90
+GenerateNormals,
+LoadTexture,muretto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Murodietro
+CreateMeshBuilder,;;copertura
+AddVertex,0.1, 0.7, -25,
+AddVertex,-0.1, 0.7,5,
+AddVertex,0.1, 0.7, 5,
+AddVertex,0.3, 0.7, -25,
+AddFace,0, 1, 2, 3,
+translate,4.4
+GenerateNormals,
+setcolor,175,177,189
+GenerateNormals,
+
+CreateMeshBuilder,;;lato dx
+AddVertex,0.3, -0.7, -25,
+AddVertex,0.1, -0.7,5,
+AddVertex,0.1,0.7,5,
+AddVertex,0.3, 0.7, -25,
+AddFace2,3, 2, 1, 0,
+translate,4.4
+GenerateNormals,
+LoadTexture,muretto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 10, 1,
+SetTextureCoordinates,2, 10, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,;;fronte
+AddVertex,0.1, -0.7, -25,
+AddVertex,0.3, -0.7, -25,
+AddVertex,0.3,0.7,-25,
+AddVertex,0.1, 0.7, -25,
+AddFace,3, 2, 1, 0,
+translate,4.4
+GenerateNormals,
+LoadTexture,muretto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,;;fronte
+AddVertex,-0.1, -0.7, 5,
+AddVertex,0.1, -0.7, 5,
+AddVertex,0.1,0.7,5,
+AddVertex,-0.1, 0.7, 5,
+AddFace,0, 1, 2, 3,
+translate,4.4
+GenerateNormals,
+setcolor,160,150,115
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;sottopasso
+CreateMeshBuilder,;;copertura
+AddVertex,-0.1, 0.7, 0.2,
+AddVertex,-0.1, 0.7,5,
+AddVertex,0.1, 0.7, 5,
+AddVertex,0.1, 0.7, 0.2,
+AddFace,0, 1, 2, 3,
+translate,2.5
+GenerateNormals,
+setcolor,175,177,189
+GenerateNormals,
+
+CreateMeshBuilder,;;lato dx
+AddVertex,0.1, -0.7, 0,
+AddVertex,0.1, -0.7,5,
+AddVertex,0.1,0.7,5,
+AddVertex,0.1, 0.7, 0,
+AddFace2,3, 2, 1, 0,
+translate,2.5
+GenerateNormals,
+LoadTexture,muretto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder,;;fronte
+AddVertex,-0.1, -0.7, 5,
+AddVertex,0.1, -0.7, 5,
+AddVertex,0.1,0.7,5,
+AddVertex,-0.1, 0.7, 5,
+AddFace,0, 1, 2, 3,
+translate,2.5
+GenerateNormals,
+setcolor,160,150,115
+
+
+

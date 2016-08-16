@@ -1,0 +1,140 @@
+;Converted from B3D by BVE FILE CONVERTER
+ 
+;overbridge dubble track - free BVE object
+;made by Viktor, (C) BVE CROATIA - Vallis Aurea, 2008
+;YOU CAN USE THIS OBJECT WITHOUT CONTACTING ME OR ASKING PERMISSION
+;ALL I ASK IS THAT THIS HEADER NOT TO BE ERASED, AND TO BE MENTIUONED IN ROUTE READ ME FILE
+;IF YOU DON'T LIKE GRASS TEXTURE, FREELY USE YOUR OWN
+;enjoy!
+;www.bve-croatia.ic.cz
+;viktor7m@gmail.com
+
+
+
+CreateMeshBuilder,
+AddVertex, -75,0,3.25,
+AddVertex, -6,6.8,3.25,
+AddVertex, -6,-1,-1,
+AddVertex, -75,-1,-1,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, grass.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,2,0,
+SetTextureCoordinates, 2,2,1,
+SetTextureCoordinates, 3,0,1,
+Translate, -10,0,0,
+
+CreateMeshBuilder,
+AddVertex, -6,6.8,3.25,
+AddVertex, -2,6.8,3.25,
+AddVertex, -2,-1,-1,
+AddVertex, -6,-1,-1,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, oldwall.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0.5,0,
+SetTextureCoordinates, 2,0.5,3,
+SetTextureCoordinates, 3,0,3,
+Translate, -10,0,0,
+
+CreateMeshBuilder,
+AddVertex, -2,6.8,3,
+AddVertex, -2,6.8,18,
+AddVertex, -2,-1,21,
+AddVertex, -2,-1,-1,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, oldwall.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,2,0,
+SetTextureCoordinates, 2,2,3,
+SetTextureCoordinates, 3,0,3,
+Translate, -10,0,0,
+
+
+CreateMeshBuilder,
+AddVertex, -21.7,9,3,
+AddVertex, 29.3,9,3,
+AddVertex, 29.3,6,3,
+AddVertex, -21.7,6,3,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, bridge3.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,28,0,
+SetTextureCoordinates, 2,28,1,
+SetTextureCoordinates, 3,0,1,
+SetDecalTransparentColor,  255,0,255,
+SetColor, 183,183,183,
+ 
+
+CreateMeshBuilder,
+AddVertex, -21.7,6,18,
+AddVertex, 29.3,6,18,
+AddVertex, 29.3,6,3,
+AddVertex, -21.7,6,3,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+GenerateNormals,
+LoadTexture, bridge4.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,10,0,
+SetTextureCoordinates, 2,10,5,
+SetTextureCoordinates, 3,0,5 ,
+SetColor, 183,183,183,
+
+CreateMeshBuilder,
+AddVertex, -6,6.8,3.25,
+AddVertex, -2,6.8,3.25,
+AddVertex, -2,-1,-1,
+AddVertex, -6,-1,-1,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, oldwall.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0.5,0,
+SetTextureCoordinates, 2,0.5,3,
+SetTextureCoordinates, 3,0,3,
+Translate, 26,0,0,
+
+CreateMeshBuilder,
+AddVertex, -2,6.8,3,
+AddVertex, -2,6.8,18,
+AddVertex, -2,-1,21,
+AddVertex, -2,-1,-1,
+AddFace, 3,2,1,0,
+GenerateNormals,
+LoadTexture, oldwall.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,2,0,
+SetTextureCoordinates, 2,2,3,
+SetTextureCoordinates, 3,0,3,
+Translate, 22,0,0,
+
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 82,0,3.25,
+AddVertex, 14,6.8,3.25,
+AddVertex, 14,-1,-1,
+AddVertex, 82,-1,-1,
+AddFace, 3,2,1,0,
+GenerateNormals,
+LoadTexture, grass.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,2,0,
+SetTextureCoordinates, 2,2,1,
+SetTextureCoordinates, 3,0,1,
+Translate, 10,0,0,
+
+
+
+
+
+

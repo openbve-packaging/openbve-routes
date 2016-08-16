@@ -1,0 +1,48 @@
+;Árpád híd megállóhely oszlop
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Oszlopok
+
+[MeshBuilder]
+cube 0.25, 1.30, 0.10
+color 167,36,0
+translate 4.00, 2.40, -0.75
+[MeshBuilder]
+cube 0.10, 1.30, 0.25
+color 167,36,0
+translate 4.00, 2.40, -0.75
+[MeshBuilder]
+cube 0.25, 1.30, 0.10
+color 167,36,0
+translate 4.00, 2.40, 0.75
+[MeshBuilder]
+cube 0.10, 1.30, 0.25
+color 167,36,0
+translate 4.00, 2.40, 0.75
+[MeshBuilder]
+cube 0.75, 0.15, 1.25
+color 130,130,120
+translate 4.00, 3.85, 0.00
+
+[MeshBuilder]
+cube 0.25, 1.30, 0.10
+color 167,36,0
+translate -7.40, 2.40, -0.75
+[MeshBuilder]
+cube 0.10, 1.30, 0.25
+color 167,36,0
+translate -7.40, 2.40, -0.75
+[MeshBuilder]
+cube 0.25, 1.30, 0.10
+color 167,36,0
+translate -7.40, 2.40, 0.75
+[MeshBuilder]
+cube 0.10, 1.30, 0.25
+color 167,36,0
+translate -7.40, 2.40, 0.75
+[MeshBuilder]
+cube 0.75, 0.15, 1.25
+color 130,130,120
+translate -7.40, 3.85, 0.00

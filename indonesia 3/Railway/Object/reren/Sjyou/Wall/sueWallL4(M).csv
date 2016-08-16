@@ -1,0 +1,31 @@
+CreateMeshBuilder
+AddVertex,4.5, 4.7, -15
+AddVertex,4.2, 4.7, -15
+AddVertex,4.2, 4.7, 25
+AddVertex,4.2, 1.1, 25
+AddVertex,4.2, 1.1, -15
+AddVertex,4.5, 1.1, -15
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+Loadtexture,sueWall2.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.1, 0
+SetTextureCoordinates,2, 2, 0
+SetTextureCoordinates,3, 2, 1
+SetTextureCoordinates,4, 0.1, 1
+SetTextureCoordinates,5, 0, 1
+GenerateNormals
+Setcolor,220,220,220
+
+CreateMeshBuilder
+ADdVertex,7.2, 4.7, -5
+AddVertex,4.5, 4.7, -5
+AddVertex,4.5, 1.1, -13
+AddVertex,7.2, 1.1, -13
+AddFace,3,2,1,0
+LoadTexture,../Road\hodoukyou2.bmp
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 0
+GenerateNormals

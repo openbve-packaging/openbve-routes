@@ -1,0 +1,12 @@
+CreateMeshBuilder
+AddVertex, -0.25,-0.075,0
+AddVertex, -0.25,0.075,-0.05
+AddVertex, 0.25,0.075,-0.05
+AddVertex, 0.25,-0.075,0
+AddFace2, 0,1,2,3
+LoadTexture, tergicristalli.png
+SetTextureCoordinates, 0, 1, 1
+SetTextureCoordinates, 1, 1, 0
+SetTextureCoordinates, 2, 0, 0
+SetTextureCoordinates, 3, 0, 1
+setDecalTransparentColor,0,0,0

@@ -1,0 +1,203 @@
+;Kõbánya-Kispest, 3-as kihúzó, íves peron
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Oldal
+[MeshBuilder]
+vertex 1.45, 1.1, -0.100
+vertex 1.45, 0.9, -0.100
+vertex 1.45, 1.1, 10.000
+vertex 1.45, 0.9, 10.000
+;íves rész
+vertex 3.35,1.1,0.000
+vertex 3.35,0.9,0.000
+vertex 3.254,1.1,5.000
+vertex 3.254,0.9,5.000
+vertex 2.967,1.1,10.000
+vertex 2.967,0.9,10.000
+face 0,1,3,2
+face 6,7,5,4
+face 8,9,7,6
+face 9,8,2,3
+[Texture]
+Load mh_01_kk_kihuzoperon_2.bmp
+Coordinates 0, 0.0, 0.0
+Coordinates 1, 0.0, 1.0
+Coordinates 2, 8.0, 0.0
+Coordinates 3, 8.0, 1.0
+Coordinates 4, 0.0, 0.0
+Coordinates 5, 0.0, 1.0
+Coordinates 6, 4.0, 0.0
+Coordinates 7, 4.0, 1.0
+Coordinates 8, 8.0, 0.0
+Coordinates 9, 8.0, 1.0
+
+;tetõ
+[MeshBuilder]
+vertex 1.450,1.1,-0.100
+vertex 1.450,1.1,10.000
+vertex 3.350,1.1, 0.000
+vertex 3.254,1.1, 5.000
+vertex 2.967,1.1,10.000
+face 0,1,4,3,2
+[Texture]
+Load mh_01_kk_kihuzoperon_1.bmp
+Coordinates 0, 0.0, 08.0
+Coordinates 1, 0.0, 00.0
+Coordinates 2, 2.0, 08.0
+Coordinates 3, 2.0, 04.0
+Coordinates 4, 2.0, 00.0
+
+[MeshBuilder]
+vertex 1.60, 0.9, -0.100
+vertex 1.60,-0.2, -0.100
+vertex 1.60, 0.9, 10.000
+vertex 1.60,-0.2, 10.000
+vertex 3.200, 0.9,0.000
+vertex 3.200,-0.2,0.000
+vertex 3.104, 0.9,5.000
+vertex 3.104,-0.2,5.000
+vertex 2.817, 0.9,10.000
+vertex 2.817,-0.2,10.000
+face 0,1,3,2
+face 6,7,5,4
+face 8,9,7,6
+face 9,8,2,3
+color 72,72,72
+
+;korlát
+;sárga-fekete
+[MeshBuilder]
+vertex -0.02,-0.02,-00.05
+vertex -0.02, 0.02,-00.05
+vertex  0.02, 0.02,-00.05
+vertex  0.02,-0.02,-00.05
+
+vertex -0.12,-0.02,05.0
+vertex -0.12, 0.02,05.0
+vertex -0.08, 0.02,05.0
+vertex -0.08,-0.02,05.0
+
+vertex -0.42,-0.02,9.95
+vertex -0.42, 0.02,9.95
+vertex -0.38, 0.02,9.95
+vertex -0.38,-0.02,9.95
+
+face 1,5,6,2
+face 2,6,7,3
+face 3,7,4,0
+face 0,4,5,1
+face 5,9,10,6
+face 6,10,11,7
+face 7,11,8,4
+face 4,8,9,5
+translate 3.3,2.1,0
+[texture]
+load korlat.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,0,1
+Coordinates 4,8,0
+Coordinates 5,8,1
+Coordinates 6,8,0
+Coordinates 7,8,1
+Coordinates 8,16,0
+Coordinates 9,16,1
+Coordinates 10,16,0
+Coordinates 11,16,1
+
+[MeshBuilder]
+vertex -0.02,-0.02,-00.05
+vertex -0.02, 0.02,-00.05
+vertex  0.02, 0.02,-00.05
+vertex  0.02,-0.02,-00.05
+translate 3.3,2.1,0
+face 0,1,2,3
+color 120,120,120
+[MeshBuilder]
+vertex -0.02,-0.02,-00.05
+vertex -0.02, 0.02,-00.05
+vertex  0.02, 0.02,-00.05
+vertex  0.02,-0.02,-00.05
+translate 3.3,1.65,0
+face 0,1,2,3
+color 120,120,120
+
+;szürke
+[MeshBuilder]
+vertex -0.02,-0.02,-00.06
+vertex -0.02, 0.02,-00.06
+vertex  0.02, 0.02,-00.06
+vertex  0.02,-0.02,-00.06
+
+vertex -0.12,-0.02,05.0
+vertex -0.12, 0.02,05.0
+vertex -0.08, 0.02,05.0
+vertex -0.08,-0.02,05.0
+
+vertex -0.42,-0.02,9.95
+vertex -0.42, 0.02,9.95
+vertex -0.38, 0.02,9.95
+vertex -0.38,-0.02,9.95
+
+face 1,5,6,2
+face 2,6,7,3
+face 3,7,4,0
+face 0,4,5,1
+face 5,9,10,6
+face 6,10,11,7
+face 7,11,8,4
+face 4,8,9,5
+translate 3.3,1.55,0
+color 120,120,120
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 3.25,1.55,2.5
+color 120,120,120
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 3.19,1.55,5
+color 120,120,120
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 3.04,1.55,7.5
+color 120,120,120
+
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 2.90,1.55,9.94
+color 120,120,120
+
+;-----------------------
+
+;peron végén
+;korlát
+;sárga-fekete
+[MeshBuilder]
+cube 0.73,0.02,0.02
+translate 2.230,2.1,9.95
+color 20,20,20
+
+[MeshBuilder]
+cube 0.73,0.02,0.02
+translate 2.230,1.55,9.95
+color 120,120,120
+
+;szürke
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 1.52,1.55,9.95
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 2.30,1.55,9.95
+color 120,120,120
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 2.94,1.55,9.95
+color 120,120,120

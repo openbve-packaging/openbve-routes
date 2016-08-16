@@ -1,0 +1,38 @@
+; File creato da Francesco Alois "mikros"
+; PARZIALMENTE MODIFICATO DA 
+; Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+; per la route Genova-Recco
+
+
+;; Basamento
+CreateMeshBuilder
+Cube, 0.3, 0.45, 0.3
+Translate, 0, -0.3, 0
+setcolor,134,132,120
+
+;; Palo
+CreateMeshBuilder
+Cylinder, 5, 0.08, 0.08, 6
+Translate, 0, 0.95, 0
+GenerateNormals,
+LoadTexture,..\catenaria\palo.bmp,
+SetTextureCoordinates,0, 0.5, 0,
+SetTextureCoordinates,1, 0.5, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1,0,
+SetTextureCoordinates,5, 1, 1,
+SetTextureCoordinates,6, 1,0,
+SetTextureCoordinates,7, 0.71, 1,
+SetTextureCoordinates,8, 0.71,0,
+SetTextureCoordinates,9, 1, 1,
+
+;; Staffa orizzontale
+CreateMeshBuilder
+Cube, 1, 0.05, 0.05
+Translate, 0, 4, 0,
+setcolor,135,135,120
+
+
+

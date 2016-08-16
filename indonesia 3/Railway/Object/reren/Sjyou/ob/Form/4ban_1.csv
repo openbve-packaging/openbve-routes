@@ -1,0 +1,36 @@
+CreateMeshBuilder
+AddVertex,0,0,0
+AddVertex,-2,0,0
+AddVertex,-2,0.3,0
+AddVertex,0,0.3,0
+AddFace2,0,1,2,3
+GenerateNormals,
+Loadtexture,../../Form\4ban_1.bmp
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,1,0
+SetEmissiveColor,185,185,185,
+
+CreateMeshBuilder,
+AddVertex,-1.72, 1.8, 0.1
+AddVertex,-1.68, 1.8, 0.1
+AddVertex,-1.68, 0.2, 0.1
+AddVertex,-1.72, 0.2, 0.1
+AddVertex,-0.32, 1.8, 0.1
+AddVertex,-0.28, 1.8, 0.1
+AddVertex,-0.28, 0.2, 0.1
+AddVertex,-0.32, 0.2, 0.1
+AddFace2,0,1,2,3
+AddFace2,4,5,6,7
+LoadTexture,../../Form\cube.bmp
+SetTextureCoordinates,0,  0,0
+SetTextureCoordinates,1,  1,0
+SetTextureCoordinates,2,  1,1
+SetTextureCoordinates,3,  0,1
+SetTextureCoordinates,4,  0,0
+SetTextureCoordinates,5,  1,0
+SetTextureCoordinates,6,  1,1
+SetTextureCoordinates,7,  0,1
+GenerateNormals,
+SetEmissiveColor,115,115,115,

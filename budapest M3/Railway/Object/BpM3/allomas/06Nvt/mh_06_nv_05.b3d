@@ -1,0 +1,303 @@
+;Nagyvárad tér állomás 05
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;Peron
+
+;peron széle felül 
+;jobb
+[MeshBuilder]
+Vertex -1.45, 0.90, 00.00
+Vertex -1.45, 0.90, 25.50
+Vertex -1.45, 1.10, 25.50
+Vertex -1.45, 1.10, 00.00
+Face 3,2,1,0
+color 64,64,64
+
+;------------------------------
+
+;peron széle alul
+;jobb
+[MeshBuilder]
+Vertex -1.60,-0.20, 00.00
+Vertex -1.60,-0.20, 25.50
+Vertex -1.60, 0.90, 25.50
+Vertex -1.60, 0.90, 00.00
+Face 3,2,1,0
+[Texture]
+Load ..\peron\peronszel_a1.bmp
+Coordinates 0, 00.00, 1.00
+Coordinates 1, 25.00, 1.00
+Coordinates 2, 25.00, 0.15
+Coordinates 3, 00.00, 0.15
+
+;------------------------------
+
+[MeshBuilder]
+;peron sáv 1/1
+Vertex -1.45, 1.10, 00.00
+Vertex -1.45, 1.10, 25.50
+Vertex -2.30, 1.10, 25.50
+Vertex -2.30, 1.10, 00.00
+;peron sáv 2/2
+Vertex -14.910, 1.10, 00.00
+Vertex -14.110, 1.10, 25.00
+Vertex -14.960, 1.10, 25.00
+Vertex -15.760, 1.10, 00.00
+Face 3,2,1,0
+Face 7,6,5,4
+[Texture]
+Load ..\peron\peron_sav.bmp
+Coordinates 0, 24.00, 600.00
+Coordinates 1, 24.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 600.00
+Coordinates 4, 24.00, 600.00
+Coordinates 5, 24.00, 00.00
+Coordinates 6, 00.00, 00.00
+Coordinates 7, 00.00, 600.00
+
+;peron sáv 1/2
+[MeshBuilder]
+Vertex -2.30, 1.10, 00.00
+Vertex -2.30, 1.10, 25.50
+Vertex -2.50, 1.10, 25.50
+Vertex -2.50, 1.10, 00.00
+;peron sáv 2/2
+Vertex -14.710, 1.10, 00.00
+Vertex -13.910, 1.10, 25.50
+Vertex -14.110, 1.10, 25.50
+Vertex -14.910, 1.10, 00.00
+Face 3,2,1,0
+Face 7,6,5,4
+color 136,136,136
+
+;peron járófelület
+[MeshBuilder]
+Vertex -2.500, 1.10, 00.00
+Vertex -2.500, 1.10, 25.50
+Vertex -13.910, 1.10, 25.50
+Vertex -14.710, 1.10, 00.00
+Face 3,2,1,0
+[Texture]
+Load mh_06_nv_peronteto_1.bmp
+Coordinates 0, 00.00, 42.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 11.410, 00.00
+Coordinates 3, 12.210, 42.00
+
+;--------------------------------------------------
+
+[MeshBuilder]
+;jobb oldali fal
+Vertex 2.10,-0.20, 00.00
+Vertex 2.10, 1.00, 00.00
+Vertex 2.10, 1.00, 25.50
+Vertex 2.10,-0.20, 25.50
+;bal oldali fal
+Vertex -19.310,-0.20, 00.00
+Vertex -19.310, 1.00, 00.00
+Vertex -18.510, 1.00, 25.50
+Vertex -18.510,-0.20, 25.50
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load mh_06_nv_oldalfal_01a.bmp
+Coordinates 0, 25.00, 01.00
+Coordinates 1, 25.00, 00.00
+Coordinates 2,-00.50, 00.00
+Coordinates 3,-00.50, 01.00
+Coordinates 4, 25.00, 01.00
+Coordinates 5, 25.00, 00.00
+Coordinates 6,-00.50, 00.00
+Coordinates 7,-00.50, 01.00
+
+[MeshBuilder]
+;jobb oldali fal
+Vertex 2.10, 1.00, 00.00
+Vertex 2.10, 4.00, 00.00
+Vertex 2.10, 4.00, 10.00
+Vertex 2.10, 1.00, 10.00
+Vertex 2.10, 1.00, 13.00
+Vertex 2.10, 4.00, 13.00
+Vertex 2.10, 4.00, 25.50
+Vertex 2.10, 1.00, 25.50
+;bal oldali fal
+Vertex -19.310, 1.00, 00.00
+Vertex -19.310, 4.00, 00.00
+Vertex -18.510, 4.00, 25.50
+Vertex -18.510, 1.00, 25.50
+Face 3,2,1,0
+Face 7,6,5,4
+Face 8,9,10,11
+[Texture]
+Load mh_06_nv_oldalfal_01i.bmp
+Coordinates 0, 10.00, 01.00
+Coordinates 1, 10.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 12.00, 01.00
+Coordinates 5, 12.00, 00.00
+Coordinates 6,-00.50, 00.00
+Coordinates 7,-00.50, 01.00
+Coordinates 8, 25.00, 01.00
+Coordinates 9, 25.00, 00.00
+Coordinates 10,-00.50, 00.00
+Coordinates 11,-00.50, 01.00
+
+[MeshBuilder]
+;jobb oldali fal
+Vertex 2.10, 1.00, 13.00
+Vertex 2.10, 4.00, 13.00
+Vertex 2.10, 4.00, 10.00
+Vertex 2.10, 1.00, 10.00
+Face 0,1,2,3
+[Texture]
+Load mh_06_nv_oldalfal_01ib.bmp
+Coordinates 0, 0.00, 1.0
+Coordinates 1, 0.00, 0.0
+Coordinates 2, 0.25, 0.0
+Coordinates 3, 0.25, 1.0
+
+[MeshBuilder]
+Vertex -19.310,4.00, 00.00
+Vertex -19.310,7.40, 00.00
+Vertex -18.510,7.40, 50.00
+Vertex -18.510,4.00, 50.00
+Vertex -02.10, 1.10, 25.50
+Vertex -02.10, 4.00, 25.50
+Vertex -02.10, 4.00, 24.50
+Vertex -02.10, 1.10, 24.50
+Vertex -02.10, 4.00, 50.00
+Vertex -02.10, 7.40, 50.00
+Vertex -19.00, 7.40, 50.00
+Vertex -19.00, 4.00, 50.00
+Face 0,1,2,3
+Face 7,6,5,4
+Face 11,10,9,8
+[Texture]
+Load mh_06_nv_oldalfal_02.bmp
+Coordinates 0, 50.00, 1.00
+Coordinates 1, 50.00, 0.00
+Coordinates 2, 00.00, 0.00
+Coordinates 3, 00.00, 1.00
+Coordinates 4, 00.01, 1.00
+Coordinates 5, 00.02, 0.00
+Coordinates 6, 00.00, 0.00
+Coordinates 7, 00.00, 1.00
+Coordinates 8, 17.00, 1.00
+Coordinates 9, 17.00, 0.00
+Coordinates 10, 00.00, 0.00
+Coordinates 11, 00.00, 1.00
+
+;--------------------------------
+
+;szemben lévõ fal
+[MeshBuilder]
+Vertex -02.10, 1.10, 24.50
+Vertex -02.10, 4.00, 24.50
+Vertex -14.31, 4.00, 24.50
+Vertex -14.31, 1.10, 24.50
+Face 3,2,1,0
+[Texture]
+Load mh_06_nv_oldalfal_03.bmp
+Coordinates 0, 01.00, 01.00
+Coordinates 1, 01.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+
+;--------------------------------------------------
+
+;pályára aljzatpótlék
+[MeshBuilder]
+vertex -0.425,-0.40, 25.00
+vertex -0.425,-0.17, 25.00
+vertex  0.425,-0.17, 25.00
+vertex  0.425,-0.40, 25.00
+face 0,1,2,3
+color 216,216,216
+[texture]
+load ../../sin/aljzat_150.bmp
+coordinates 0, 0.0, 0.25
+coordinates 1, 0.0, 0.0
+coordinates 2, 0.25, 0.0
+coordinates 3, 0.25, 0.25
+
+;--------------------------------------------------
+
+;Belépni tilos táblák
+
+;jobb
+[MeshBuilder]
+Vertex -0.25,1.3,0.0
+Vertex -0.25,1.9,0.0
+Vertex  0.25,1.9,0.0
+Vertex  0.25,1.3,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2f2.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,1.0,0
+Coordinates 3,1.0,1
+transparent 0,0,255
+translate -01.90,00.00,24.00
+
+;bal
+[MeshBuilder]
+Vertex -0.25,1.3,0.0
+Vertex -0.25,1.9,0.0
+Vertex  0.25,1.9,0.0
+Vertex  0.25,1.3,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2f1.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,1.0,0
+Coordinates 3,1.0,1
+transparent 0,0,255
+translate -14.51,00.00,24.00
+
+;--------------------------------------------------
+
+;Korlátok
+
+;jobb oldal
+[MeshBuilder]
+cube 0.015, 0.40, 0.01
+color 64,96,128
+translate -2.165, 1.50, 24.00
+[MeshBuilder]
+cube 0.015, 0.40, 0.01
+color 64,96,128
+translate -2.165, 1.50, 24.20
+[MeshBuilder]
+cube 0.015, 0.40, 0.01
+color 64,96,128
+translate -2.165, 1.50, 24.40
+[MeshBuilder]
+cube 0.015, 0.015, 0.20
+color 64,96,128
+translate -2.165, 1.90, 24.20
+
+;bal oldal
+[MeshBuilder]
+cube 0.015, 0.40, 0.01
+color 64,96,128
+translate -14.245, 1.50, 24.00
+[MeshBuilder]
+cube 0.015, 0.40, 0.01
+color 64,96,128
+translate -14.245, 1.50, 24.20
+[MeshBuilder]
+cube 0.015, 0.40, 0.01
+color 64,96,128
+translate -14.245, 1.50, 24.40
+[MeshBuilder]
+cube 0.015, 0.015, 0.20
+color 64,96,128
+translate -14.245, 1.90, 24.20
+
+;--------------------------------------------------

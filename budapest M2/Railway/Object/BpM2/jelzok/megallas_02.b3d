@@ -1,0 +1,23 @@
+;megállás helye jelzõ
+;Készítette: http://www.bvemetro.hu/
+
+[Meshbuilder]
+Vertex -0.50,-0.17,-0.2
+Vertex -0.50,-0.02, 0
+Vertex  0.50,-0.02, 0
+Vertex  0.50,-0.17,-0.2
+Face 0,1,2,3
+[Texture]
+Load megallas.bmp
+Coordinates 0,0.153,1
+Coordinates 1,0.153,0
+Coordinates 2,0.847,0
+Coordinates 3,0.847,1
+
+[Meshbuilder]
+Vertex  0.50,-0.17,0.2
+Vertex  0.50,-0.02,0
+Vertex -0.50,-0.02,0
+Vertex -0.50,-0.17,0.2
+Face 0,1,2,3
+Color 160,160,160

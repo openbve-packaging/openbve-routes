@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,-5.1, 10.88, -1.0
+AddVertex, 5.1, 10.88, -1.0
+AddVertex, 5.1, 0.88, -1.0
+AddVertex,-5.1, 0.88, -1.0
+AddFace2,0,1,2,3
+LoadTexture,../tree_D1.png
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,255,255,255,
+GenerateNormals,

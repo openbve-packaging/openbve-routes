@@ -1,0 +1,166 @@
+[MeshBuilder] ; backends of the houses
+Vertex -12,6,15
+Vertex -12,0,15
+Vertex -12,0,-25
+Vertex -12,6,-25
+Face 0,1,2,3
+[Texture]
+load houseback.bmp
+Coordinates 0,5,0
+Coordinates 1,5,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; hell yeah with that roof boi!
+Vertex -16,10,15
+Vertex -11.8,5.8,15
+Vertex -11.8,5.8,-25
+Vertex -16,10,-25
+Vertex -20.2,5.8,-25
+Vertex -20.2,5.8,15
+Face2 0,1,2,3
+Face2 3,4,5,0
+[Texture]
+load rooftile.bmp
+Coordinates 0,40,0
+Coordinates 1,40,8
+Coordinates 2,0,8
+Coordinates 3,0,0
+Coordinates 4,0,-8
+Coordinates 5,40,-8
+
+[Meshbuilder] ; Grassy lawn (not grassy nol)
+Vertex 0,0,25
+Vertex 0,0,-25
+Vertex -25,0,-25
+Vertex -25,0,25
+Face 0,1,2,3
+[Texture]
+load grass.bmp
+Coordinates 0,25,0
+Coordinates 1,25,25
+Coordinates 2,0,25
+Coordinates 3,0,0
+
+; Now for some fences alongside the lawns
+
+[Meshbuilder]
+Vertex -2,1.5,-25
+Vertex -2,0,-25
+Vertex -12,0,-25
+Vertex -12,1.5,-25
+Face2 0,1,2,3
+[Texture]
+load woodfence.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -2,1.5,-17
+Vertex -2,0,-17
+Vertex -12,0,-17
+Vertex -12,1.5,-17
+Face2 0,1,2,3
+[Texture]
+load woodfence.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -2,1.5,-9
+Vertex -2,0,-9
+Vertex -12,0,-9
+Vertex -12,1.5,-9
+Face2 0,1,2,3
+[Texture]
+load woodfence.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -2,1.5,-1
+Vertex -2,0,-1
+Vertex -12,0,-1
+Vertex -12,1.5,-1
+Face2 0,1,2,3
+[Texture]
+load woodfence.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -2,1.5,7
+Vertex -2,0,7
+Vertex -12,0,7
+Vertex -12,1.5,7
+Face2 0,1,2,3
+[Texture]
+load woodfence.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -2,1.5,15
+Vertex -2,0,15
+Vertex -12,0,15
+Vertex -12,1.5,15
+Face2 0,1,2,3
+[Texture]
+load woodfence.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -2,1.5,25
+Vertex -2,0,25
+Vertex -2,0,-25
+Vertex -2,1.5,-25
+Face2 0,1,2,3
+[Texture]
+load woodfence.bmp
+Coordinates 0,16,0
+Coordinates 1,16,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex -16,10,-25
+Vertex -12,6,-25
+Vertex -12,0,-25
+Vertex -20,0,-25
+Vertex -20,6,-25
+Face 0,1,2,3
+Face 0,3,4
+[Texture]
+load housebrick.bmp
+Coordinates 0,4,-5.3
+Coordinates 1,8,0
+Coordinates 2,8,8
+Coordinates 3,0,8
+Coordinates 4,0,0
+
+[Meshbuilder] ; railway's fence
+Vertex 2.5,4,-25
+Vertex 2.5,2,-25
+Vertex 2.5,2,25
+Vertex 2.5,4,25
+Face2 0,1,2,3
+[Texture]
+load fence2.bmp
+Coordinates 0,25,0
+Coordinates 1,25,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

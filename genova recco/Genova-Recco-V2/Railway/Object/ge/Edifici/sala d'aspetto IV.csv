@@ -1,0 +1,107 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+;;;;sala d'aspetto
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 3, 0,
+AddVertex,2, 3, 0,
+AddVertex,2, 0, 0,
+addface2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,salaIVfronte.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+setdecaltransparentcolor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,2, 0, -26,
+AddVertex,2, 3, -26,
+AddVertex,0, 3, -26,
+AddVertex,0, 0, -26,
+addface2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,salaIVfronte.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+setdecaltransparentcolor,0,0,0
+CreateMeshBuilder,
+AddVertex,2, 0, 0,
+AddVertex,2, 3, 0,
+AddVertex,2, 3, -26,
+AddVertex,2, 0, -26,
+addface2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,salaIV.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 20, 0,
+SetTextureCoordinates,3, 20, 1,
+setdecaltransparentcolor,0,0,0
+CreateMeshBuilder,
+AddVertex,0, 0, -26,
+AddVertex,0, 3, -26,
+AddVertex,0, 3, 0,
+AddVertex,0, 0, 0,
+addface2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,salaIV.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 20, 0,
+SetTextureCoordinates,3,20, 1,
+setdecaltransparentcolor,0,0,0
+CreateMeshBuilder,
+cube,1.2, 0.1, 13.2,
+translate, 1, 3, -13
+GenerateNormals,
+setcolor,125,125,125
+
+;;;trasparenze
+;;;;sala d'aspetto
+
+CreateMeshBuilder,
+AddVertex,0.001,  0.85, 0.005,
+AddVertex,0.001, 3, 0.005,
+AddVertex,1.999, 3, 0.005,
+AddVertex,1.999,  0.85, 0.005,
+addface2,0, 1, 2, 3,
+GenerateNormals,
+setcolor,0,40,50,78
+
+CreateMeshBuilder,
+AddVertex,1.999, 0.85, -25.995,
+AddVertex,1.999, 3, -25.995,
+AddVertex,0.001, 3, -25.995,
+AddVertex,0.001, 0.85,-25.995,
+addface2,0, 1, 2, 3,
+GenerateNormals,
+setcolor,0,40,50,78
+
+CreateMeshBuilder,
+AddVertex,1.999, 0.85, 0.005,
+AddVertex,1.999, 3, 0.005,
+AddVertex,1.999, 3, -25.995,
+AddVertex,1.999, 0.85, -25.995,
+addface2,0, 1, 2, 3,
+GenerateNormals,
+setcolor,0,40,50,78
+
+CreateMeshBuilder,
+AddVertex,0.001, 0.85, -25.995,
+AddVertex,0.001, 3, -25.995,
+AddVertex,0.001, 3, 0.005,
+AddVertex,0.001, 0.85, 0.005,
+addface2,0, 1, 2, 3,
+GenerateNormals,
+setcolor,0,40,50,78

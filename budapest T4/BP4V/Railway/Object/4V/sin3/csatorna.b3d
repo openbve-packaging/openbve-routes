@@ -1,0 +1,40 @@
+;Készítette: mamutsegg
+
+
+[meshbuilder]
+vertex -1.350, -0.003, -0.500
+vertex 1.350, -0.003, -0.500
+vertex -1.350, -0.003, 0.500
+vertex 1.350, -0.003, 0.500
+face 2, 3, 1, 0
+[texture]
+load csatornaracs.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 0, 1
+coordinates 3, 1, 1
+
+[meshbuilder]
+vertex -1.350, -0.003, -0.500
+vertex 1.350, -0.003, -0.500
+vertex -1.350, -0.170, -0.500
+vertex 1.350, -0.170, -0.500
+face 0, 1, 3, 2
+load szegely.bmp
+coordinates 0, 0, 0
+coordinates 1, 1, 0
+coordinates 2, 0, 1
+coordinates 3, 1, 1
+
+[meshbuilder]
+vertex -1.350, -0.003, -0.500
+vertex 1.350, -0.003, -0.500
+vertex -1.350, -0.170, -0.500
+vertex 1.350, -0.170, -0.500
+vertex -1.350, -0.003, 0.500
+vertex 1.350, -0.003, 0.500
+vertex -1.350, -0.170, 0.500
+vertex 1.350, -0.170, 0.500
+face 0, 2, 6, 4
+face 5, 7, 3, 1
+color 85, 50, 50

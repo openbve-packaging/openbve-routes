@@ -1,0 +1,127 @@
+;A Hammerwich - Wood Green object
+;--------------------------------------
+;(c) Steve Green  2002.
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+
+CreateMeshBuilder,
+AddVertex,-15, 8, 1,
+AddVertex,-15, 20, 12,
+AddVertex,20, 20, 12,
+AddVertex,20, 8, 1,
+AddFace,0,1,2,3,
+AddFace,1,0,3,2,
+
+GenerateNormals,
+
+LoadTexture,Grass.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 4,
+SetTextureCoordinates,3, 0, 4,
+
+
+CreateMeshBuilder,
+AddVertex,-35, 8, 1,
+AddVertex,-35,17, 12,
+AddVertex,-15, 20, 12,
+AddVertex,-15, 8, 1,
+AddFace,0,1,2,3,
+AddFace,1,0,3,2,
+
+GenerateNormals,
+
+LoadTexture,Grass.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 4,
+SetTextureCoordinates,3, 0, 4,
+
+
+CreateMeshBuilder,
+AddVertex,-80, 8, 1,
+AddVertex,-80,8,0,
+AddVertex,-35, 17, 12,
+AddVertex,-35, 8, 1,
+AddFace,0,1,2,3,
+AddFace,1,0,3,2,
+
+GenerateNormals,
+
+LoadTexture,Grass.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 4,
+SetTextureCoordinates,3, 0, 4,
+;-----
+CreateMeshBuilder,
+AddVertex,20, 8, 1,
+AddVertex,20, 20, 12,
+AddVertex,45,19, 12,
+AddVertex,45, 8, 1,
+AddFace,0,1,2,3,
+AddFace,1,0,3,2,
+
+GenerateNormals,
+
+LoadTexture,Grass.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 4,
+SetTextureCoordinates,3, 0, 4,
+
+CreateMeshBuilder,
+AddVertex,95, 8, 1,
+AddVertex,95,8,0,
+AddVertex,45,19, 12,
+AddVertex,45, 8, 1,
+AddFace,0,1,2,3,
+AddFace,1,0,3,2,
+
+GenerateNormals,
+
+LoadTexture,Grass.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 4,
+SetTextureCoordinates,3, 0, 4,
+
+
+
+CreateMeshBuilder,
+AddVertex,-150,-20, 0,
+AddVertex,-80, 8, 1,
+AddVertex,-2, 8, 1,
+AddVertex,-2,-20, 0,
+AddFace,0,1,2,3,
+AddFace,1,0,3,2,
+
+GenerateNormals,
+
+LoadTexture,Grass.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 4,
+SetTextureCoordinates,3, 0, 4,
+
+CreateMeshBuilder,
+AddVertex,16.0,-20, 0,
+AddVertex,16.0, 8, 1,
+AddVertex,96, 8, 1,
+AddVertex,150,-20, 0,
+AddFace,0,1,2,3,
+AddFace,1,0,3,2,
+
+GenerateNormals,
+
+LoadTexture,Grass.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 4,
+SetTextureCoordinates,3, 0, 4,
+
+

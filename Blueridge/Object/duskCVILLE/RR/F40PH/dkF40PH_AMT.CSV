@@ -1,0 +1,529 @@
+;Converted from B3D by BVE FILE CONVERTER
+ 
+;EMD F40PH Amtrak livery. Object v1.1
+;Object and textures Copyright 2002-2004 Oskari Saarekas
+;(lopomo@mbnet.fi)
+
+;This object for Michael Goetz, only he is allowed to
+;modify and distribute this object and the related bitmaps
+;in his routes. Others must ask permission from the author
+;first (for any kind of distribution).
+
+
+;left wall
+CreateMeshBuilder,
+AddVertex, -1.5, 4, 7.2,
+AddVertex, -1.5, 4, -6.5,
+AddVertex, -1.5, 3.1, -6.7,
+AddVertex, -1.5, 1.3, -6.7,
+AddVertex, -1.5, 1.3, 7.2,
+AddFace, 0,1,2,4,
+AddFace, 4,2,3,
+GenerateNormals,
+LoadTexture, f40side_amt.bmp,
+SetTextureCoordinates, 0, 0, 0.003,
+SetTextureCoordinates, 1, 0.985, 0.003,
+SetTextureCoordinates, 2, 0.999, 0.167,
+SetTextureCoordinates, 3, 0.999, 0.497,
+SetTextureCoordinates, 4, 0, 0.497,
+
+
+;right wall
+CreateMeshBuilder,
+AddVertex, 1.5, 4, 7.2,
+AddVertex, 1.5, 4, -6.5,
+AddVertex, 1.5, 3.1, -6.7,
+AddVertex, 1.5, 1.3, -6.7,
+AddVertex, 1.5, 1.3, 7.2,
+AddFace, 4,2,1,0,
+AddFace, 3,2,4,
+GenerateNormals,
+LoadTexture, f40side_amt.bmp,
+SetTextureCoordinates, 0, 1, 0.503,
+SetTextureCoordinates, 1, 0.015, 0.503,
+SetTextureCoordinates, 2, 0.001, 0.667,
+SetTextureCoordinates, 3, 0.001, 0.997,
+SetTextureCoordinates, 4, 1, 0.997,
+
+
+;front windows
+CreateMeshBuilder,
+AddVertex, -1.5, 3.1, -6.7,
+AddVertex, -1.5, 4, -6.5,
+AddVertex, -0.9, 4.6, -6.6,
+AddVertex, 0, 4.6, -6.9,
+AddVertex, 0.9, 4.6, -6.6,
+AddVertex, 1.5, 4, -6.5,
+AddVertex, 1.5, 3.1, -6.7,
+AddVertex, 0, 3.3, -7.1,
+AddVertex, 0, 4, -6.9,
+
+AddFace, 0,1,8,7,
+AddFace, 1,2,3,8,
+AddFace, 8,3,4,5,
+AddFace, 7,8,5,6,
+
+GenerateNormals,
+LoadTexture, F40frontup_amt.bmp,
+SetTextureCoordinates, 0, 0, 0.5,
+SetTextureCoordinates, 1, 0, 0.2188,
+SetTextureCoordinates, 2, 0.2, 0,
+SetTextureCoordinates, 3, 0.5, 0,
+SetTextureCoordinates, 4, 0.8, 0,
+SetTextureCoordinates, 5, 1, 0.2188,
+SetTextureCoordinates, 6, 1, 0.5,
+SetTextureCoordinates, 7, 0.5, 0.4335,
+SetTextureCoordinates, 8, 0.5, 0.2188,
+
+
+;nose top
+CreateMeshBuilder,
+AddVertex, -1.5, 3.1, -6.7,
+AddVertex, 0, 3.3, -7.1,
+AddVertex, 1.5, 3.1, -6.7,
+AddVertex, 1.5, 3, -7.8,
+AddVertex, 0, 3.2, -8.2,
+AddVertex, -1.5, 3, -7.8,
+;Vexi
+
+AddFace, 0,1,4,5,
+AddFace, 1,2,3,4,
+
+GenerateNormals,
+LoadTexture, F40frontup_amt.bmp,
+SetTextureCoordinates, 0, 0, 0.5,
+SetTextureCoordinates, 1, 0.5, 0.5,
+SetTextureCoordinates, 2, 1, 0.5,
+SetTextureCoordinates, 3, 1, 1,
+SetTextureCoordinates, 4, 0.5, 1,
+SetTextureCoordinates, 5, 0, 1,
+
+
+;nose
+CreateMeshBuilder,
+AddVertex, -1.5, 1.3, -6.7,
+AddVertex, -1.5, 3.1, -6.7,
+AddVertex, 1.5, 3.1, -6.7,
+AddVertex, 1.5, 1.3, -6.7,
+
+AddVertex, -1.5, 1.3, -8,
+AddVertex, -1.5, 3, -7.8,
+AddVertex, 0, 3.2, -8.2,
+AddVertex, 1.5, 3, -7.8,
+AddVertex, 1.5, 1.3, -8,
+AddVertex, 0, 1.3, -8.4,
+
+AddFace, 0,1,5,4,
+AddFace, 4,5,6,9,
+AddFace, 9,6,7,8,
+AddFace, 8,7,2,3,
+
+GenerateNormals,
+LoadTexture, f40front_amt.bmp,
+SetTextureCoordinates, 0, 0, 0.995,
+SetTextureCoordinates, 1, 0, 0.333,
+SetTextureCoordinates, 2, 1, 0.333,
+SetTextureCoordinates, 3, 1, 0.995,
+SetTextureCoordinates, 4, 0.25, 0.995,
+SetTextureCoordinates, 5, 0.25, 0.36,
+SetTextureCoordinates, 6, 0.5, 0.3,
+SetTextureCoordinates, 7, 0.749, 0.36,
+SetTextureCoordinates, 8, 0.749, 0.995,
+SetTextureCoordinates, 9, 0.5, 0.995,
+
+
+;plow
+CreateMeshBuilder,
+AddVertex, -1.2, 0.2, -8.1,
+AddVertex, -1.5, 0.5, -7.9,
+AddVertex, -1.4, 1.2, -8.1,
+AddVertex, 0, 1.1, -8.3,
+AddVertex, 1.4, 1.2, -8.1,
+AddVertex, 1.5, 0.5, -7.9,
+AddVertex, 1.2, 0.2, -8.1,
+AddVertex, 0, 0.2, -8.3,
+
+AddFace2,  0,1,2,3,
+AddFace2,  3,4,5,6,
+AddFace2,  0,3,7,
+AddFace2,  3,6,7,
+;Feissi
+
+GenerateNormals,
+LoadTexture, F40plows_amt.bmp,
+SetTextureCoordinates, 0, 0.1, 0.5,
+SetTextureCoordinates, 1, 0, 0.35,
+SetTextureCoordinates, 2, 0.0333, 0,
+SetTextureCoordinates, 3, 0.5, 0.05,
+SetTextureCoordinates, 4, 0.9667, 0,
+SetTextureCoordinates, 5, 1, 0.35,
+SetTextureCoordinates, 6, 0.9, 0.5,
+SetTextureCoordinates, 7, 0.5, 0.5,
+
+
+;rear wall
+CreateMeshBuilder,
+AddVertex, -1.5, 1.3, 7.2,
+AddVertex, -1.5, 4, 7.2,
+AddVertex, -0.9, 4.6, 7.36,
+AddVertex, 0, 4.6, 7.6,
+AddVertex, 0.9, 4.6, 7.36,
+AddVertex, 1.5, 4, 7.2,
+AddVertex, 1.5, 1.3, 7.2,
+AddVertex, 0, 1.3, 7.6,
+
+AddFace, 7,2,1,0,
+AddFace, 7,3,2,
+AddFace, 7,4,3,
+AddFace, 7,6,5,4,
+
+GenerateNormals,
+LoadTexture, f40rear_amt.bmp,
+SetTextureCoordinates, 0, 1, 0.995,
+SetTextureCoordinates, 1, 1, 0.185,
+SetTextureCoordinates, 2, 0.8, 0.005,
+SetTextureCoordinates, 3, 0.5, 0.005,
+SetTextureCoordinates, 4, 0.2, 0.005,
+SetTextureCoordinates, 5, 0, 0.185,
+SetTextureCoordinates, 6, 0, 0.995,
+SetTextureCoordinates, 7, 0.5, 0.995,
+
+
+;rear porch
+CreateMeshBuilder,
+AddVertex, -1.5, 1.3, 8.3,
+AddVertex, -1.5, 1.4, 8.3,
+AddVertex, 1.5, 1.4, 8.3,
+AddVertex, 1.5, 1.3, 8.3,
+
+AddVertex, -1.5, 1.3, 7.2,
+AddVertex, -1.5, 1.4, 7.2,
+AddVertex, 1.5, 1.4, 7.2,
+AddVertex, 1.5, 1.3, 7.2,
+
+AddFace, 0,1,5,4,
+AddFace, 1,2,6,5,
+AddFace, 7,6,2,3,
+AddFace, 3,2,1,0,
+
+GenerateNormals,
+LoadTexture, f40grapling_amt.bmp,
+SetTextureCoordinates, 0, 16, 6,
+SetTextureCoordinates, 1, 15, 6,
+SetTextureCoordinates, 2, 0, 6,
+SetTextureCoordinates, 3, -1, 6,
+SetTextureCoordinates, 4, 16, 0,
+SetTextureCoordinates, 5, 15, 0,
+SetTextureCoordinates, 6, 0, 0,
+SetTextureCoordinates, 7, -1, 0,
+
+
+;railing
+CreateMeshBuilder,
+AddVertex, -1.5, 1.4, 7.8,
+AddVertex, -1.5, 1.4, 8.3,
+AddVertex, 1.5, 1.4, 8.3,
+AddVertex, 1.5, 1.4, 7.8,
+
+AddVertex, -1.5, 2.4, 7.8,
+AddVertex, -1.5, 2.4, 8.3,
+AddVertex, 1.5, 2.4, 8.3,
+AddVertex, 1.5, 2.4, 7.8,
+
+AddFace2,  1,0,4,5,
+AddFace2,  2,1,5,6,
+AddFace2,  3,2,6,7,
+
+GenerateNormals,
+LoadTexture, f40railing_amt.bmp,
+SetTextureCoordinates, 0, 1, 1,
+SetTextureCoordinates, 1, 0.875, 1,
+SetTextureCoordinates, 2, 0.125, 1,
+SetTextureCoordinates, 3, 0, 1,
+;Koordi
+
+SetTextureCoordinates, 4, 1, 0,
+SetTextureCoordinates, 5, 0.875, 0,
+SetTextureCoordinates, 6, 0.125, 0,
+SetTextureCoordinates, 7, 0, 0,
+SetDecalTransparentColor,  0,0,0,
+
+
+;bottom
+CreateMeshBuilder,
+AddVertex, -1.5, 1.3, 8.3,
+AddVertex, -1.5, 1.3, -8,
+AddVertex, 0, 1.3, -8.4,
+AddVertex, 1.5, 1.3, -8,
+AddVertex, 1.5, 1.3, 8.3,
+
+AddVertex, 0, 1, 7.6,
+AddVertex, 0, 1, -7.8,
+
+AddFace, 0,1,6,5,
+AddFace, 1,2,3,6,
+AddFace, 3,4,5,6,
+AddFace, 0,5,4,
+SetColor, 0,0,0,
+
+
+;roof
+CreateMeshBuilder,
+AddVertex, -1.5, 4, 7.2,
+AddVertex, -0.9, 4.6, 7.36,
+AddVertex, 0, 4.6, 7.6,
+AddVertex, 0.9, 4.6, 7.36,
+AddVertex, 1.5, 4, 7.2,
+
+AddVertex, -1.5, 4, -6.5,
+AddVertex, -0.9, 4.6, -6.6,
+AddVertex, 0, 4.6, -6.9,
+AddVertex, 0.9, 4.6, -6.6,
+AddVertex, 1.5, 4, -6.5,
+
+AddFace, 0,1,6,5,
+AddFace, 1,2,7,6,
+AddFace, 2,3,8,7,
+AddFace, 3,4,9,8,
+
+GenerateNormals,
+LoadTexture, f40roof_amt.bmp,
+SetTextureCoordinates, 0, 1, 0.005,
+SetTextureCoordinates, 1, 1.011, 0.2,
+SetTextureCoordinates, 2, 1.029, 0.5,
+SetTextureCoordinates, 3, 1.011, 0.8,
+SetTextureCoordinates, 4, 1, 0.995,
+
+SetTextureCoordinates, 5, 0.015, 0.005,
+SetTextureCoordinates, 6, 0.008, 0.2,
+SetTextureCoordinates, 7, -0.014, 0.5,
+SetTextureCoordinates, 8, 0.008, 0.8,
+SetTextureCoordinates, 9, 0.015, 0.995,
+
+
+;front bogie
+;right
+CreateMeshBuilder,
+AddVertex, 1, 1.1, -7,
+AddVertex, 1, 1.1, -2.5,
+AddVertex, 0.9, 0, -2.5,
+AddVertex, 0.9, 0, -7,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, F40bogie_amt.bmp,
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+SetDecalTransparentColor,  0,0,0,
+
+;left
+CreateMeshBuilder,
+AddVertex, -1, 1.1, -7,
+AddVertex, -1, 1.1, -2.5,
+AddVertex, -0.9, 0, -2.5,
+AddVertex, -0.9, 0, -7,
+AddFace2,  3,2,1,0,
+;Pexa
+GenerateNormals,
+LoadTexture, F40bogie_amt.bmp,
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+SetDecalTransparentColor,  0,0,0,
+
+
+;fuel tank
+;sides
+CreateMeshBuilder,
+AddVertex, -1.2, 0.2, -2.2,
+AddVertex, -1.45, 0.8, -2.2,
+AddVertex, -1.5, 1.3, -2.2,
+AddVertex, 1.5, 1.3, -2.2,
+AddVertex, 1.45, 0.8, -2.2,
+AddVertex, 1.2, 0.2, -2.2,
+
+AddVertex, -1.2, 0.2, -0.2,
+AddVertex, -1.45, 0.8, -0.2,
+AddVertex, -1.5, 1.3, -0.2,
+AddVertex, 1.5, 1.3, -0.2,
+AddVertex, 1.45, 0.8, -0.2,
+AddVertex, 1.2, 0.2, -0.2,
+
+AddFace, 6,7,1,0,
+AddFace, 7,8,2,1,
+AddFace, 4,3,9,10,
+AddFace, 5,4,10,11,
+
+AddFace, 0,1,4,5,
+AddFace, 1,2,3,4,
+AddFace, 11,10,7,6,
+AddFace, 10,9,8,7,
+
+GenerateNormals,
+LoadTexture, f40fuel_amt.bmp,
+SetTextureCoordinates, 0, 0.5, 1,
+SetTextureCoordinates, 1, 0.5, 0.45,
+SetTextureCoordinates, 2, 0.5, 0,
+SetTextureCoordinates, 3, 0.5, 0,
+SetTextureCoordinates, 4, 0.5, 0.45,
+SetTextureCoordinates, 5, 0.5, 1,
+
+SetTextureCoordinates, 6, 1, 1,
+SetTextureCoordinates, 7, 1, 0.45,
+SetTextureCoordinates, 8, 1, 0,
+SetTextureCoordinates, 9, 1, 0,
+SetTextureCoordinates, 10, 1, 0.45,
+SetTextureCoordinates, 11, 1, 1,
+
+
+;rear underframe box
+;left
+CreateMeshBuilder,
+AddVertex, -1.3, 1.3, 2.2,
+AddVertex, -1.3, 1.3, 0.2,
+AddVertex, -1.3, 0.2, 0.2,
+AddVertex, -1.3, 0.2, 2.2,
+AddVertex, 1.3, 1.3, 2.2,
+AddVertex, 1.3, 1.3, 0.2,
+AddVertex, 1.3, 0.2, 0.2,
+AddVertex, 1.3, 0.2, 2.2,
+
+AddVertex, -1.3, 1.3, 2.2,
+AddVertex, -1.3, 0.2, 2.2,
+
+AddFace, 0,1,2,3,
+AddFace, 2,1,5,6,
+AddFace, 7,6,5,4,
+AddFace, 7,4,8,9,
+
+GenerateNormals,
+LoadTexture, f40box_amt.bmp,
+SetTextureCoordinates, 0, 0.5, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0.5, 1,
+SetTextureCoordinates, 4, 2, 0,
+SetTextureCoordinates, 5, 1.5, 0,
+SetTextureCoordinates, 6, 1.5, 1,
+SetTextureCoordinates, 7, 2, 1,
+SetTextureCoordinates, 8, 2.5, 0,
+SetTextureCoordinates, 9, 2.5, 1,
+
+
+;rear bogie 
+;right
+CreateMeshBuilder,
+AddVertex, 1, 1.1, 2.6,
+AddVertex, 1, 1.1, 7.1,
+AddVertex, 0.9, 0, 7.1,
+AddVertex, 0.9, 0, 2.6,
+AddFace2,  0,1,2,3,
+GenerateNormals,
+LoadTexture, F40bogie_amt.bmp,
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+SetDecalTransparentColor,  0,0,0,
+
+;left
+CreateMeshBuilder,
+AddVertex, -1, 1.1, 2.6,
+AddVertex, -1, 1.1, 7.1,
+AddVertex, -0.9, 0, 7.1,
+AddVertex, -0.9, 0, 2.6,
+AddFace2,  3,2,1,0,
+GenerateNormals,
+LoadTexture, F40bogie_amt.bmp,
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+SetDecalTransparentColor,  0,0,0,
+
+
+;front stairs
+CreateMeshBuilder,
+AddVertex, -1.5, 0.4, -7.1,
+AddVertex, -1.5, 1.3, -7.1,
+AddVertex, -1.5, 1.3, -7.8,
+AddVertex, -1.5, 0.4, -7.8,
+
+AddVertex, 1.5, 0.4, -7.8,
+AddVertex, 1.5, 1.3, -7.8,
+AddVertex, 1.5, 1.3, -7.1,
+AddVertex, 1.5, 0.4, -7.1,
+
+AddVertex, -1.5, 0.4, -7.1,
+AddVertex, -1.5, 1.3, -7.1,
+
+AddFace, 0,1,2,3,
+AddFace, 4,5,6,7,
+AddFace, 3,2,5,4,
+AddFace, 7,6,9,8,
+
+GenerateNormals,
+LoadTexture, f40stairs_amt.bmp,
+SetTextureCoordinates, 0, 0.5, 1,
+SetTextureCoordinates, 1, 0.5, 0,
+SetTextureCoordinates, 2, 1, 0,
+SetTextureCoordinates, 3, 1, 1,
+SetTextureCoordinates, 4, 1.5, 1,
+SetTextureCoordinates, 5, 1.5, 0,
+SetTextureCoordinates, 6, 2, 0,
+SetTextureCoordinates, 7, 2, 1,
+SetTextureCoordinates, 8, 2.5, 0,
+SetTextureCoordinates, 9, 2.5, 1,
+
+
+;rear stairs
+CreateMeshBuilder,
+AddVertex, -1.5, 0.4, 7.9,
+AddVertex, -1.5, 1.3, 7.9,
+AddVertex, -1.5, 1.3, 7.2,
+AddVertex, -1.5, 0.4, 7.2,
+
+AddVertex, 1.5, 0.4, 7.2,
+AddVertex, 1.5, 1.3, 7.2,
+AddVertex, 1.5, 1.3, 7.9,
+AddVertex, 1.5, 0.4, 7.9,
+
+AddFace, 0,1,2,3,
+AddFace, 4,5,6,7,
+AddFace, 3,2,5,4,
+
+GenerateNormals,
+LoadTexture, f40stairs_amt.bmp,
+SetTextureCoordinates, 0, 0.5, 1,
+SetTextureCoordinates, 1, 0.5, 0,
+SetTextureCoordinates, 2, 1, 0,
+SetTextureCoordinates, 3, 1, 1,
+SetTextureCoordinates, 4, 1.5, 1,
+SetTextureCoordinates, 5, 1.5, 0,
+SetTextureCoordinates, 6, 2, 0,
+SetTextureCoordinates, 7, 2, 1,
+
+
+;rear plow
+CreateMeshBuilder,
+AddVertex, -1.5, 0.4, 7.9,
+AddVertex, -1.5, 1.3, 7.9,
+AddVertex, 1.5, 1.3, 7.9,
+AddVertex, 1.5, 0.4, 7.9,
+AddFace, 3,2,1,0,
+;Face off
+GenerateNormals,
+LoadTexture, F40plows_amt.bmp,
+SetTextureCoordinates, 0, 1, 1,
+SetTextureCoordinates, 1, 1, 0.5,
+SetTextureCoordinates, 2, 0, 0.5,
+SetTextureCoordinates, 3, 0, 1,
+
+CreateMeshBuilder,      ;;glow
+Cylinder,  16,.11,3,14,
+SetColor, 250,250,100,40,
+Rotate, 1,0,0,65,
+Translate,  0,-.2,-14.4  ,
+

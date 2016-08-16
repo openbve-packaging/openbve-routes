@@ -1,0 +1,45 @@
+[MeshBuilder]
+Vertex 7.2, 0.1, 15
+Vertex 7.2, 1.1, 0
+Vertex 2.7, 1.1, 0
+Vertex 2.7, 0.1, 15
+Face 0,1,2,3
+color 130,130,130
+
+[Texture]
+Load ..\FormC2.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+;edge
+[MeshBuilder]
+Vertex 1.5, 0.1, 15
+Vertex 1.5, 1.1, 0
+Vertex 2.7, 1.1, 0
+Vertex 2.7, 0.1, 15
+Face 3,2,1,0
+color 130,130,130
+
+[Texture]
+Load ..\Form2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[MeshBuilder]
+Vertex 1.5, -0.3, 15
+Vertex 1.5, -0.3, 0
+Vertex 1.5, 1.1, 0
+Vertex 1.5, 0.1, 15
+Face 3,2,1,0
+color 130,130,130
+
+[Texture]
+Load ..\FormSide2.bmp
+Coordinates 0, 12, 1
+Coordinates 1, 0, 1
+Coordinates 2, 0, 0
+Coordinates 3, 12, 0

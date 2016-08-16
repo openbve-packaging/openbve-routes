@@ -1,0 +1,2359 @@
+Route.Comment Linea Santhià-Biella completa Km 26.724. Partenza ore 07:37 Arrivo 07:58 Non fa fermate intermedie. $chr(13)$chr(10) Line Santhià-Biella  Departure: Santhià Arrival: Biella km 26.724. Non stop train.
+Route.Timetable Santhià-Biella $chr(13)$chr(10) Treno Regionale 4779 $chr(13)$chr(10) Orario estivo
+Route.Change -1
+Route.Gauge 1437
+Route.Image Sanbie-501-openbve.bmp
+Route.Signal(0) 0
+Route.Signal(1) 125
+Route.Signal(2) 125
+Route.Signal(3) 125
+Route.Signal(4) 125
+Route.DeveloperID sanbie
+Route.LightDirection 90;90
+Route.DirectionalLight 242;243;205
+Route.AmbientLight 245;245;234
+
+Train.Folder Aln501v2   
+Train.Timetable(0).Day.Load ../../Railway/Route/sanbie/4779m.bmp
+
+
+
+; rotaie saldate TSS
+Train.Run(0) 2
+Train.Run(1) 2
+Train.Run(3) 2
+Train.Run(4) 2
+Train.Run(5) 2
+Train.Run(6) 2
+Train.Run(8) 2
+Train.Run(11) 2
+Train.Run(12) 3
+Train.Run(13) 2
+Train.Run(14) 2
+Train.Run(16) 2
+Train.Run(20) 2
+Train.Run(21) 2
+Train.Run(22) 2
+
+
+;Rail per suono TSS su ponti: 3->23 4->24 6->26 14->34 16->36 
+Train.Run(23) 6
+Train.Run(24) 6
+Train.Run(26) 6
+Train.Run(34) 6
+Train.Run(36) 6
+
+
+;Rail per suono TSS sotto cavalcavia: 3->43 5->45 12->52 14->54 21->56
+Train.Run(43) 3
+Train.Run(45) 3
+Train.Run(52) 3
+Train.Run(54) 3
+Train.Run(56) 3
+
+
+Train.Flange(5) 0
+Train.Flange(6) 0
+Train.Flange(14) 0
+
+
+
+With structure
+.Rail(0) sanbie\binsca\binario.csv ; binario ordinario
+.Rail(1) sanbie\binsca\NullRail.csv ; solo catenaria
+.Rail(2) sanbie\binsca\NullRail1.csv; nulla di nulla
+.Rail(3) sanbie\binsca\binario1.csv ; binario ordinario senza catenaria
+.Rail(4) sanbie\binsca\300dxca.csv ;curva a dx 300
+.Rail(5) sanbie\binsca\500sin.csv ;curva a sx 500
+.rail(6) sanbie\binsca\500sin1.csv ; curva a sx 500 senza catenaria
+.rail(7) sanbie\binsca\strada2.csv
+.rail(8) sanbie\binsca\1100dx.csv  ;curva dx 1100
+.rail(9) sanbie\binsca\300sinca.csv  ;curva a sin 300
+.rail(10) sanbie\binsca\strada0.csv  ;;strada
+.rail(11) sanbie\binsca\1100dx1.csv  ;;curva dx 100 senza catenaria
+.Rail(12) sanbie\binsca\binario1.csv ; binario ordinario senza catenaria
+.rail(13) sanbie\binsca\1100sx1.csv  ;;curva sx 100 senza catenaria
+.Rail(14) sanbie\binsca\300dxca1.csv ;curva a dx 300
+.rail(15) sanbie\binsca\strada1.csv  ;;stradaciottoli
+.rail(16) sanbie\binsca\300sinca1.csv  ;curva a sin 300
+.Rail(17) sanbie\binsca\binario2.csv ; binario in disuso senza catenaria
+.rail(18) sanbie\binsca\500sin2.csv ; curva a sx 500 in disuso senza catenaria
+.Rail(19) sanbie\binsca\300dxca2.csv ;curva a dx 300 in disuso
+.Rail(20) sanbie\binsca\binario3.csv ; binario ordinario senza catenaria
+.Rail(21) sanbie\binsca\500des.csv ; binario a des 500 senza catenaria
+.Rail(22) sanbie\binsca\300dxca2.csv ;curva a dx 300 senza piattine di riferimento
+
+
+;Rail per suono TSS su ponti: 3->23 4>24 6->26 16->36 21->46 6->37
+.Rail(23) sanbie\binsca\binario1.csv ; binario ordinario senza catenaria
+.Rail(24) sanbie\binsca\300dxca.csv ;curva a dx 300
+.rail(26) sanbie\binsca\500sin1.csv ; curva a sx 500 senza catenaria
+.Rail(34) sanbie\binsca\300dxca1.csv ;curva a dx 300
+.rail(36) sanbie\binsca\300sinca1.csv  ;curva a sin 300
+
+
+
+;Rail per suono TSS sotto cavalcavia 3->43 5->45 12->52 14->54
+.Rail(43) sanbie\binsca\binario1.csv ; binario ordinario senza catenaria
+.Rail(45) sanbie\binsca\500sin.csv ;curva a sx 500
+.Rail(52) sanbie\binsca\binario1.csv ; binario ordinario senza catenaria
+.Rail(54) sanbie\binsca\300dxca1.csv ;curva a dx 300
+.Rail(56) sanbie\binsca\500des.csv ; binario a des 500 senza catenaria
+
+
+.rail(61) sanbie\binsca\295sin2.csv  ;;curva sx r295 senza catenaria in disuso
+.rail(62) sanbie\binsca\500AVAND.csv
+
+.DikeL(0) sanbie\alberi\dikeL.csv
+.DikeR(0) sanbie\alberi\dikeR.csv
+.dikeL(1) sanbie\alberi\mais2sx.csv
+.dikeR(1) sanbie\alberi\mais2dx.csv
+.dikeL(2) sanbie\alberi\gruppo10sx.csv
+.dikeR(2) sanbie\alberi\gruppo10dx.csv
+.dikeL(3) sanbie\alberi\gruppo3sx.csv
+.dikeR(3) sanbie\alberi\gruppo3dx.csv
+.dikeL(4) sanbie\alberi\mais2sx.csv
+.dikeR(4) sanbie\alberi\mais2dx1.csv
+.dikeL(5) sanbie\alberi\gruppo2sx.csv
+.dikeR(5) sanbie\alberi\gruppo4dx.csv
+.dikeR(6) sanbie\alberi\gruppo4dx.csv
+.dikeL(6) sanbie\alberi\gruppo4sx.csv
+.dikeR(7) sanbie\alberi\gruppo5dx.csv
+.dikeL(7) sanbie\alberi\gruppo5sx.csv
+.dikeR(8) sanbie\alberi\gruppo6dx.csv
+.dikeL(8) sanbie\alberi\gruppo6sx.csv
+.dikeR(9) sanbie\alberi\gruppo7dx.csv
+.dikeL(9) sanbie\alberi\gruppo7sx.csv
+.dikeL(10) sanbie\alberi\gruppo2sx.csv
+.dikeR(10) sanbie\alberi\gruppo2dx.csv
+.dikeL(11) sanbie\alberi\gruppo1sx.csv
+.dikeR(11) sanbie\alberi\gruppo1dx.csv
+.dikeR(12) sanbie\alberi\gruppo8dx.csv
+.dikeL(12) sanbie\alberi\gruppo8sx.csv
+.dikeL(13) sanbie\alberi\gruppo11sx.csv
+.dikeR(13) sanbie\alberi\gruppo11dx.csv
+.dikeL(14) sanbie\alberi\dikeS1.csv
+.dikeR(14) sanbie\alberi\dikeD1.csv
+.dikeL(15) sanbie\alberi\parcheggio.csv
+.dikeR(15) sanbie\alberi\parcheggio.csv
+.DikeL(16) sanbie\alberi\dikeL2.csv
+.DikeR(16) sanbie\alberi\dikeR.csv
+
+
+.WallL(0) sanbie\alberi\mais2sx.csv
+.WallR(0) sanbie\alberi\mais2dx.csv
+.wallL(1) sanbie\oggetti\staccionatasx.b3d
+.wallR(1) sanbie\oggetti\staccionatadx.b3d
+.wallL(2) sanbie\oggetti\muroindustria.csv
+.wallR(2) sanbie\oggetti\muroindustriaR.csv
+.wallL(3) sanbie\linea\pontemattoni.csv 
+.WallR(3) sanbie\linea\pontemattoni.csv
+.wallL(4) sanbie\alberi\reteL.b3d   ;;rete
+.wallR(4) sanbie\alberi\reteR.b3d
+.wallL(5) sanbie\alberi\bordosiepeL.csv  ;;cespugli
+.wallR(5) sanbie\alberi\bordosiepeR.csv
+.wallL(6) sanbie\alberi\murosiepesx.b3d
+.wallR(6) sanbie\alberi\murosiepedx.b3d
+.wallL(7) sanbie\alberi\dikeL1.csv
+.wallR(7) sanbie\alberi\dikeR1.csv
+.wallL(8) sanbie\oggetti\staccionatasx1.b3d
+.wallR(8) sanbie\oggetti\staccionatadx1.b3d
+.wallL(9) sanbie\oggetti\hillL.csv
+.wallL(10) sanbie\oggetti\staccionatasx2.b3d
+.wallR(10) sanbie\oggetti\staccionatadx2.b3d
+.wallL(11) sanbie\alberi\boscodx.csv
+.wallR(11) sanbie\alberi\boscodx.csv
+.wallL(12) sanbie\alberi\gruppo9sx.csv
+.wallR(12) sanbie\alberi\gruppo9dx.csv
+.wallR(13) sanbie\oggetti\cancellata.csv
+.wallL(14) sanbie\alberi\tracciaL.csv
+.wallR(14) sanbie\alberi\tracciaR.csv
+.wallL(15) sanbie\alberi\tracciaL1.csv
+.wallR(15) sanbie\alberi\tracciaR1.csv
+.wallL(16) sanbie\oggetti\steccato.csv
+.wallL(17) sanbie\linea\pontetrossi.csv 
+.wallL(18) sanbie\linea\pontetrossi1.csv 
+
+
+
+
+.Pole(0; 0) sanbie\linea\paloFS.b3d;  catenaria base
+.Pole(0; 1) sanbie\linea\paloFS2dx.b3d ; palo a 2 catenarie
+.Pole(1; 0) sanbie\linea\palofs2dxsx.b3d ;; palo a 2 catenarie dx e 1 a sx
+.pole(0; 2) sanbie\oggetti\lampione1.csv
+.pole(0; 3) sanbie\oggetti\lampione2L.csv
+.pole(0; 4) sanbie\oggetti\lampione2.csv
+
+
+.CrackR(0) sanbie\sfondi\CraBalR2.csv
+.CrackL(0) sanbie\sfondi\CraBalL2.csv
+.CrackL(1) sanbie\sfondi\pratoL.csv
+.CrackR(1) sanbie\sfondi\pratoR.csv
+
+.Ground(0) sanbie\sfondi\Grass.csv
+.Ground(1) sanbie\sfondi\torrente.csv
+.Ground(2) sanbie\sfondi\grassalbe.csv
+.Ground(3) sanbie\sfondi\groundrise.csv
+.ground(4) sanbie\sfondi\grassalbe1.csv
+.ground(5) sanbie\sfondi\grass1.csv
+.ground(6) sanbie\sfondi\grass2.csv
+.ground(7) sanbie\sfondi\grass3.csv
+
+
+.FormR(0) sanbie\linea\marcstazdx.csv
+.FormL(0) sanbie\linea\marcstazsx.csv
+.FormCR(0) sanbie\linea\marciaCR2.csv
+.FormCL(0) sanbie\linea\marciaCL2.csv
+.FormR(1) sanbie\linea\marcstazdx.csv
+.FormL(1) sanbie\linea\marcstazsx.csv
+.FormCR(1) sanbie\linea\marciaCR1.csv
+.FormCL(1) sanbie\linea\marciaCL1.csv
+.FormL(2) sanbie\linea\marcstazsx1.csv
+.FormR(2) sanbie\linea\marcstazsx1.csv
+.FormCL(2) sanbie\linea\marciaCL3.csv
+.FormCR(2) sanbie\binsca\NullRail1.csv  ;nulla di nulla
+.FormR(3) sanbie\linea\marcstazdx1a.csv
+.FormL(3) sanbie\linea\marcstazsx1a.csv
+.FormCR(3) sanbie\linea\marciaCR1.csv
+.FormCL(3) sanbie\linea\marciaCL2.csv
+.FormR(4) sanbie\linea\marcstazdx2.csv
+.FormL(4) sanbie\linea\marcstazsx2.csv
+.FormCL(4) sanbie\binsca\NullRail1.csv  ;nulla di nulla
+.FormCR(4) sanbie\binsca\NullRail1.csv  ;nulla di nulla
+.FormR(5) sanbie\linea\marcstazdx3.csv
+.FormL(5) sanbie\linea\marcstazsx3.csv
+.FormCL(5) sanbie\binsca\NullRail1.csv  ;nulla di nulla
+.FormCR(5) sanbie\linea\marciaCR3.csv
+.FormR(6) sanbie\linea\marcstazdx4.csv
+.FormL(6) sanbie\linea\marcstazsx4.csv
+.FormCL(6) sanbie\binsca\NullRail1.csv  ;nulla di nulla
+.FormCR(6) sanbie\linea\marciaCR3.csv
+.FormR(7) sanbie\linea\marcstazdx5.csv
+.FormL(7) sanbie\linea\marcstazsx5.csv
+.FormCL(7) sanbie\binsca\NullRail1.csv  ;nulla di nulla
+.FormCR(7) sanbie\linea\marciaCR5.csv
+
+
+
+.freeobj(1) sanbie\linea\aln668.csv
+.freeobj(2) sanbie\linea\plivello.csv 
+.freeobj(3) sanbie\oggetti\km1.csv 
+.FreeObj(4) sanbie\oggetti\bus.csv
+.FreeObj(5) sanbie\oggetti\ford-van.csv
+.FreeObj(6) sanbie\linea\respingente.csv
+.FreeObj(7) sanbie\oggetti\pontealto.csv 
+.Freeobj(8) sanbie\oggetti\serbacqua.csv  
+.FreeObj(9) sanbie\oggetti\CabinaTelef.csv
+.Freeobj(10) sanbie\linea\finecatenaria.csv
+.Freeobj(11) sanbie\edifici\santhia.csv
+.Freeobj(12) sanbie\edifici\hangar.b3d
+.Freeobj(13) sanbie\edifici\sovrappasso.csv   
+.freeobj(14) sanbie\edifici\fabbrica.b3d
+.freeobj(15) sanbie\linea\palofs2dxsx.csv
+.freeobj(16) sanbie\alberi\albero.b3d
+.freeobj(17) sanbie\oggetti\gs14.csv   ;bob1270
+.freeobj(18) sanbie\oggetti\lunhap.csv  ;bob1270
+.freeobj(19) sanbie\oggetti\gs15.csv   ;bob1270
+.freeobj(20) sanbie\edifici\condominio.csv
+.freeobj(21) sanbie\alberi\pratoR1.csv
+.freeobj(22) sanbie\edifici\casetta.csv
+.freeobj(23) sanbie\edifici\casa.b3d
+.freeobj(24) sanbie\alberi\albero4.b3d
+.freeobj(25) sanbie\edifici\casa2.csv
+.freeobj(26) sanbie\edifici\casa4.b3d
+.freeobj(27) sanbie\linea\sbarrapalivsx.csv
+.freeobj(28) sanbie\linea\sbarrapalivdx.csv
+.freeobj(29) sanbie\edifici\casa3.csv   ;;fattoria
+.freeobj(30) sanbie\segnali\segnaleprot.csv
+.freeobj(31) sanbie\linea\segnale50m.csv
+.freeobj(32) sanbie\linea\segnale100m.csv
+.freeobj(33) sanbie\linea\segnale150m.csv
+.freeobj(34) sanbie\linea\segnale200m.csv
+.freeobj(35) sanbie\persone\passengersR1.csv
+.freeobj(36) sanbie\persone\Fg16-Ragazzi.csv
+.freeobj(37) sanbie\edifici\cabin1.csv
+.freeobj(38) sanbie\linea\cartelloPL.csv
+.freeobj(39) sanbie\linea\traliccio.csv
+.freeobj(40) sanbie\alberi\alberi2.b3d
+.freeobj(41) sanbie\oggetti\carro02b.csv  ;bob1270
+.freeobj(42) sanbie\alberi\gruppo2dx.b3d
+.freeobj(43) sanbie\alberi\alberisfondo.b3d
+.freeobj(44) sanbie\alberi\gruppo1dx.b3d
+.freeobj(45) sanbie\segnali\segnalesta1.csv
+.freeobj(46) sanbie\alberi\albero1.b3d
+.freeobj(47) sanbie\alberi\albero2.b3d
+.freeobj(48) sanbie\alberi\cespuglio2.csv       ;;strauch2
+.freeobj(49) sanbie\linea\marciapiedesx.csv
+.freeobj(50) sanbie\alberi\albero3.b3d       ;;strauch1
+.freeobj(51) sanbie\oggetti\cartello1.b3d
+.freeobj(52) sanbie\binsca\strada0.csv
+.freeobj(53) sanbie\linea\segnaleavvPL.csv
+.freeobj(54) sanbie\segnali\segnalevia.csv       ;segnalevia nuovo
+.freeobj(55) sanbie\alberi\dikeS1.csv
+.freeobj(56) sanbie\oggetti\muro3lati.csv
+.freeobj(57) sanbie\oggetti\cabintel.csv
+.freeobj(58) sanbie\edifici\fienile.csv
+.freeobj(59) sanbie\alberi\gruppo5sx.csv
+.freeobj(60) sanbie\alberi\alberifosso.csv
+.freeobj(61) sanbie\linea\segnale50mO.csv
+.freeobj(62) sanbie\linea\segnale100mO.csv
+.freeobj(63) sanbie\linea\segnale150mO.csv
+.freeobj(64) sanbie\linea\segnale200mO.csv
+.freeobj(65) sanbie\edifici\torre1.csv
+.freeobj(66) sanbie\alberi\mais2dx.csv
+.freeobj(67) sanbie\alberi\dikefine1.csv
+.freeobj(68) sanbie\edifici\casa14.csv
+.freeobj(69) sanbie\edifici\fienile1.csv
+.freeobj(70) sanbie\edifici\casesal.b3d
+.freeobj(71) sanbie\alberi\mais2sx.csv
+.freeobj(72) sanbie\alberi\fosso1.csv
+.freeobj(73) sanbie\oggetti\altatensione.b3d
+.freeobj(74) sanbie\oggetti\fence1.csv
+.freeobj(75) sanbie\alberi\caricoscarico.csv
+.Freeobj(76) sanbie\edifici\salussola.csv
+.freeobj(77) sanbie\alberi\caricoscarico1.csv
+.freeobj(78) sanbie\edifici\giardino.csv
+.freeobj(79) sanbie\linea\marciapiede1.csv
+.freeobj(80) sanbie\oggetti\muroindustria.csv
+.freeobj(81) sanbie\alberi\gruppo6brianco.csv
+.freeobj(82) sanbie\persone\Fg11-2signore.csv
+.Freeobj(83) sanbie\edifici\santhia1.csv
+.FreeObj(84) sanbie\oggetti\pontealto3.csv 
+.freeobj(85) sanbie\alberi\vasi.csv
+.FreeObj(86) sanbie\oggetti\pontealto2.csv
+.freeobj(87) sanbie\alberi\bank.csv
+.freeobj(88) sanbie\linea\sottopasso.csv
+.freeobj(89) sanbie\linea\segnalequadro.csv
+.freeobj(90) sanbie\linea\segnalequadro1.csv
+.freeobj(91) sanbie\linea\segnalequadro2.csv
+.freeobj(92) sanbie\edifici\Haus8.csv
+.freeobj(93) sanbie\alberi\gruppo3dx.b3d
+.freeobj(94) sanbie\edifici\casetta1.b3d
+.freeobj(95) sanbie\alberi\rete.csv
+.freeobj(96) sanbie\alberi\albero5.b3d
+.freeobj(97) sanbie\linea\sottopasso1.csv
+.freeobj(98) sanbie\edifici\Vergnasco1.csv
+.freeobj(99) sanbie\oggetti\es.csv
+.Freeobj(100) sanbie\edifici\hangar1.b3d
+
+;;;scambi
+
+.freeobj(101) sanbie\binsca\inglese.csv
+.freeobj(102) sanbie\binsca\sca20dx.csv
+.freeobj(103) sanbie\binsca\sca25dx.csv
+.freeobj(104) sanbie\binsca\sca25dxr.csv
+.freeobj(105) sanbie\binsca\sca25sx.csv
+.freeobj(106) sanbie\binsca\sca50030.csv
+.freeobj(107) sanbie\binsca\Scam-300-dx.csv ; A destra ri R300
+.freeobj(108) sanbie\binsca\Sca2Salus.csv ; 2^ scambio Salussola 
+.freeobj(109) sanbie\binsca\1100dx1.csv  ;;curva sx 100 senza catenaria
+.freeobj(110) sanbie\binsca\Rrac180.csv ; curva di raccordo r=180
+.freeobj(111) sanbie\binsca\Sca3Salus.csv ; 3^ scambio Salussola
+.freeobj(112) sanbie\binsca\Sca2SalusR.csv ; scambio da 2 a 3 bin uscita Salussola
+.freeobj(113) sanbie\binsca\Rrac110.csv ; curva di raccordo r=110
+.freeobj(114) sanbie\binsca\300dxca1.csv ; binario ordinario R+300
+.freeobj(115) sanbie\binsca\binario1.csv ; binario ordinario R=0
+.freeobj(116) sanbie\binsca\Sca3SalusR.csv ; scambio da 3 a 1 bin uscita Salussola
+.freeobj(117) sanbie\binsca\sca25dxsc.csv ; Scambio destro senza catenaria
+.freeobj(118) sanbie\binsca\sca2bie.csv ; Scambio sinistro senza catenaria
+.freeobj(119) sanbie\binsca\150dxarr.csv ; curva di raccordo r=150 arrugginita
+.freeobj(120) sanbie\binsca\Sc-arr-candelo1.csv ; Scambio arrugginito simmetrico
+.freeobj(121) sanbie\binsca\Sc-arr-candelo2.csv ; Scambio destro in curva parz.arrugginito
+.freeobj(122) sanbie\binsca\Sc-arr-candelo3.csv ; Scambio sinistro in curva parz.arrugginito
+.freeobj(123) sanbie\binsca\ingleseR.csv ; Scambio inglese arrugginito
+.freeobj(124) sanbie\binsca\binario2.csv ; binario diritto in disuso senza catenaria
+
+;; finescambi
+
+.freeobj(125) sanbie\edifici\Vergnasco.csv
+.freeobj(126) sanbie\edifici\gruppocase.b3d
+.freeobj(127) sanbie\edifici\brianco.csv
+.freeobj(128) sanbie\edifici\tettoia.csv
+.freeobj(129) sanbie\edifici\campanile.csv
+.freeobj(130) sanbie\oggetti\muro1.csv
+.freeobj(131) sanbie\alberi\albero6.b3d
+.freeobj(132) sanbie\linea\paloPL.csv
+.freeobj(133) sanbie\oggetti\staccionata.b3d
+.freeobj(134) sanbie\alberi\cespuglio.b3d
+.freeobj(135) sanbie\oggetti\paliluce.csv
+.freeobj(136) sanbie\oggetti\paloluce1.csv
+.freeobj(137) sanbie\linea\pontemattoni1.csv
+.freeobj(138) sanbie\linea\plivello1.csv
+.freeobj(139) sanbie\alberi\murosiepesx.b3d
+.freeobj(140) sanbie\oggetti\retePL.b3d
+.freeobj(141) sanbie\edifici\torreacqua.b3d
+.freeobj(142) sanbie\linea\sagoma_carico.csv   ;da mikros
+.freeobj(143) sanbie\edifici\capannone.csv
+.freeobj(144) sanbie\alberi\boscoPL.csv
+.freeobj(145) sanbie\linea\cartesaluss.csv
+.freeobj(146) sanbie\linea\marmotta.csv
+.freeobj(147) sanbie\oggetti\lampione3.csv
+.freeobj(148) sanbie\alberi\catasta.csv
+.freeobj(149) sanbie\oggetti\muro3latimatt.csv
+.freeobj(150) sanbie\alberi\albero7.b3d
+.freeobj(151) sanbie\linea\piazzale.csv
+.freeobj(152) sanbie\edifici\hangar2.b3d
+.freeobj(153) sanbie\linea\pontesandigliano.csv
+.freeobj(154) sanbie\linea\assebianco.csv
+.freeobj(155) sanbie\oggetti\pannello1.csv
+.freeobj(156) sanbie\edifici\capannone1.csv
+.freeobj(157) sanbie\edifici\sandigliano.csv
+.freeobj(158) sanbie\edifici\sandigliano1.csv
+.freeobj(159) sanbie\edifici\sandigliano2.csv
+.freeobj(160) sanbie\edifici\casa5.b3d
+.freeobj(161) sanbie\oggetti\pensilina.csv
+.Freeobj(162) sanbie\oggetti\serbacquasal.csv  
+.freeobj(163) sanbie\edifici\capannone2.b3d
+.freeobj(164) sanbie\oggetti\serbtintura.csv
+.freeobj(165) sanbie\oggetti\strada2.csv
+.freeobj(166) sanbie\linea\sensoriPL.csv
+.freeobj(167) sanbie\sfondi\salussolasfondo.csv
+.freeobj(168) sanbie\oggetti\casello.csv
+.freeobj(169) sanbie\edifici\casetta2.csv
+.freeobj(170) sanbie\edifici\casa7.csv
+.freeobj(171) sanbie\edifici\casa8.csv
+.freeobj(172) sanbie\edifici\candelo.csv
+.freeobj(173) sanbie\oggetti\renault.csv
+.freeobj(174) sanbie\segnali\segnaleavv.csv
+.freeobj(175) sanbie\linea\segnaleprotPL.csv
+.freeobj(176) sanbie\oggetti\limitesta.csv
+.freeobj(177) sanbie\edifici\casa9.csv
+.freeobj(178) sanbie\edifici\casa10.csv
+.freeobj(179) sanbie\edifici\casa11.csv
+.freeobj(180) sanbie\edifici\casa12.csv
+.freeobj(181) sanbie\edifici\candelo2.csv
+.freeobj(182) sanbie\oggetti\parapetto.csv
+.freeobj(183) sanbie\edifici\casa13.csv
+.freeobj(184) sanbie\linea\giallorosso.csv
+.freeobj(185) sanbie\persone\Fg19-Uomini-che-parlano.csv
+.freeobj(186) sanbie\persone\Fg15-Signore1.csv
+.freeobj(187) sanbie\linea\pensibiella.csv
+.freeobj(188) sanbie\oggetti\pompa.csv
+.freeobj(189) sanbie\oggetti\passaggioraso.csv
+.freeobj(190) sanbie\oggetti\pannellobiella.csv
+.freeobj(191) sanbie\edifici\edificistazione1.csv
+.freeobj(192) sanbie\edifici\edificistazione2.csv
+.freeobj(193) sanbie\sfondi\crack1L.csv
+.freeobj(194) sanbie\linea\presa.csv
+.freeobj(195) sanbie\edifici\Biella.csv
+.freeobj(196) sanbie\edifici\piazzalebiella.csv
+.freeobj(197) sanbie\edifici\casa15.csv
+.freeobj(198) sanbie\edifici\casa16.csv
+.freeobj(199) sanbie\edifici\autolavaggio.csv
+.freeobj(200) sanbie\sfondi\galleriarivetti.csv
+.freeobj(201) sanbie\binsca\binario1-mt5.csv ; binario mt.5 per copertura
+.freeobj(202) sanbie\edifici\santhia3.csv
+.freeobj(203) sanbie\edifici\casa4a.csv
+.freeobj(204) sanbie\edifici\fabbrica1.csv
+.freeobj(205) sanbie\binsca\sca1bie.csv ; scambio parzialmente arrugginito
+.freeobj(206) sanbie\oggetti\containerhapag.csv ; avandero
+.freeobj(207) sanbie\oggetti\containerANL.csv ; avandero
+.freeobj(208) sanbie\oggetti\muro_pietre_corto.csv
+.freeobj(209) sanbie\oggetti\cabinaelettrica.csv
+.freeobj(210) sanbie\edifici\capannone3.csv
+.freeobj(211) sanbie\edifici\hangar3.csv ; avandero
+.FreeObj(212) sanbie\oggetti\pontealto4.csv 
+.freeobj(213) sanbie\linea\av.csv
+
+texture.background(0) sanbie\sfondi\Back_MT.jpg
+texture.background(1) sanbie\sfondi\mucrone3.bmp
+texture.background(2) sanbie\sfondi\Back_MT1.bmp
+texture.background(3) sanbie\sfondi\Back_cloudy.bmp
+;texture.background(0).x 1
+
+
+;segnali
+Signal(0).Load sanbie\segnali\Avviso2v; sanbie\segnali\Avviso2v
+Signal(1).Load sanbie\segnali\Protez2v; sanbie\segnali\Protez2v
+Signal(2).Load sanbie\segnali\AvvisoPL; sanbie\segnali\AvvisoPL
+Signal(3).Load sanbie\segnali\ProtezPL; sanbie\segnali\ProtezPL
+Signal(4).Load sanbie\segnali\Blocco1v; sanbie\segnali\Blocco1v
+
+
+
+
+With Track
+0,.back 0,.height 0.5,.ground 7,.Adhesion 150,.Accuracy 1,.brightness 245,
+25,.railstart 1;4.5;0;8,.railstart 2;9.5;0;8,.crack 0;1;0,.crack 1;2;0,
+25,.railstart 4;19.5;0;8, ; 5 binario e sua catenaria e muro
+25,.railstart 3;14.5;0;8,.pole 3;0;1;50;0,  ; 4 binario e sua catenaria
+25,.form 0;L;0;4,.form 2;L;0;1,.form 1;R;0;1,
+25,.railstart 5;24.5;0;8,.pole 5;0;1;50;1, ; 5 binario e sua catenaria e muro
+25,.railstart 6;29.5;0;8, ; 6 binario e sua catenaria e muro
+25,.railstart 7;34.5;0;8,.pole 7;0;1;50;1, ; 7 binario e sua catenaria e muro
+30,.Sta Santhia; 07.3600; 07.3700; ; -1; 0; 0; ; 20; 100; ;,
+30,.announce sanbie\AnnuncioFermata4779_2.wav,
+36,.freeobj 0;202;0;0,   ;stazione
+48,.freeobj 1;35;0;0,  ;;passeggeri
+50,.curve 1100;0,.railtype 0;8,
+50,.form 2;L;0;1,.form 0;L;0;0,.form 1;R;0;1,
+51,.freeobj 0;11;0;0;0,.freeobj 0;85;0;0,  ;; bar
+52,.limit 30,.pattern 1;135,.freeobj 0;82;-3;0.5, ;; 2signore
+58,.freeobj 0;39;-1;0;0,  ; traliccio
+61,.freeobj 0;147;-9.5;-0.5;0,.freeobj 0;147;1;-0.5;0,  ;;lampioni
+70,.freeobj 0;83;0.5;0;0,  ;; stazione polfer
+   .stop -1,
+75,.form 2;L;0;1,.form 0;L;0;2,.form 1;R;0;1,.railstart 9;-5;0;2,.wall 9;-1;1, ;;fine banchina
+76,.marker sanbie\marker\70km.gif;20,
+80,.freeobj 1;15;0;0;180,.freeobj 0;39;-1;0;0, ; palo fs sulla banchina
+82,.freeobj 0;25;-21;0, ;;casa
+87,.freeobj 0;8;-3.5;-0.5, ; torre d'acqua
+88,.freeobj 2;51;-2.5;0.5;90,  ;;cartello
+90,.freeobj 6;19;0;0, ;carro 3
+94,.freeobj 1;30;2.5;0.5;0, ;;segnale stazione
+95,.freeobj 0;146;0;0;0,  ;; marmotta
+97,.freeobj 0;39;-2.5;-0.4;0,  ; traliccio
+100,.pole 0;0;-1;50;1,.rail 9;-5,
+101,.freeobj 6;$Rnd(18;19);0;0, ;carro 3
+105,.freeobj 1;103;0;0;0,
+105,.freeobj 7;41;0;0,  ;carro 2
+108,.freeobj 0;184;0;0;0,
+110,.freeobj 0;45;0;0,
+110,.SigF 4;1;-2.25;0.6,.section 0;4, 	;; prova segnale ; scambio
+119,.freeobj 6;41;0;0,  ;carro 2
+120,.freeobj 0;29;-18;0;-20,  ;;casa
+125,.railend 9;-6,
+125,.freeobj 2;154;-2.3;0;0,
+126,.freeobj 0;135;-24;-0.4;90,   ;paliluce
+134,.freeobj 7;41;0;0,  ;carro 2
+134,.freeobj 1;154;0.8;0;0,  ;;assebianco
+148,.freeobj 7;44;27;0;0,  ;pini
+148,.freeobj 5;19;0;0,.freeobj 0;39;-5.2;180,  ; carro 3
+150,.wall 7;1;4,.dike 0;-1;13,
+151,.freeobj 0;184;0;0;0,
+153,.freeobj 0;29;-10.8;-4.8;215,  ;casabassa
+155,.freeobj 2;104;0;0;179.5,  ; scambio ruotato
+156,.freeobj 6;17;0;0, 
+163,.freeobj 7;41;0;0,  ;carro 2
+166,.freeobj 6;17;0;0,
+168,.freeobj 7;25;27;0;90,
+171,.freeobj 0;39;-1;-0.5;0,
+172,.freeobj 0;204;0;0;0,  ;fabbrica1
+173,.freeobj 5;6;0;0;0, ;respingente
+175,.railtype 1;0,.railtype 2;0,.wall 0;-1;4,.dikeend 0,.railend 5,   ; carro 3
+178,.freeobj 6;17;0;0,
+188,.freeobj 7;23;27;-0.5;90,  ;;casa
+193,.freeobj 6;6;0;0;0,.freeobj 7;6;0;0;0, ;respingenti
+199,.freeobj 7;43;40;-0.5;45,
+200,.freeobj 0;46;-5;-0.5;0,.freeobj 3;105;0;0,
+200,.curve 0;0,.railtype 0;0,
+200,.railend 6,.railend 7,.poleend 7,.wallend 7,.wallend 6,
+201,.freeobj 0;46;-9;-0.5,
+203,.freeobj 0;146;-4.5;0;0,  ;; marmotta
+204,.freeobj 0;39;-1;-0.4;0,  ; traliccio
+205,.freeobj 4;209;6;0;0, ;cabina elettrica
+210,.freeobj 0;203;-10;0;270, ;casa gialla sx
+215,.freeobj 0;25;75;0;135,
+215,.brightness 245,
+220,.freeobj 0;47;-10;0,
+223,.freeobj 2;154;0.8;0,  ;;assebianco
+225,.brightness 180,
+225,.freeobj 0;13;1.5;0;0,.wall 0;-1;10,.freeobj 3;105;0;180, ;sovrapassaggio  
+230,.freeobj 0;20;-20;0;45, ;condominio
+230,.brightness 245,
+240,.freeobj 3;45;0;0, ;;segnalestazione
+245,.freeobj 3;42;10;0;0, ;; alberi dx
+247,.freeobj 4;6;0;0;0, ; respingente + traliccio
+250,.curve -500;70,.railtype 2;5,.railtype 1;5,.railtype 0;5,.railtype 3;4,.freeobj 0;102;0;0;0.6249,.freeobj 1;102;0;0;0.60,.railend 4;19.5;0,.wallend 4,.poleend 4,.railstart 5;9.5;0;4,.pole 5;0;1;50;0,.wall 3;1;1,.crack 5;3;0,
+250,.railstart 8;0;0;2,.freeobj 2;105;0;0;181.5,
+253,.freeobj 0;39;-1;-0.6;0,  ; traliccio
+255,.freeobj 0;20;-45;0;45, ;condominio
+260,.freeobj 0;20;-20;0;45, ;condominio
+261,.freeobj 3;39;0;0;0,  ; traliccio
+266,.freeobj 1;154;-2.1;0,  ;;assebianco
+268,.freeobj 2;154;-2.2;0,  ;;assebianco
+271,.freeobj 0;39;-1;-0.6;0,  ; traliccio
+274,.freeobj 0;154;0.8;0,.freeobj 1;154;0.8;0,  ;;assebianco
+275,.rail 3;16.58;0,.rail 5;11.08;0,.wallend 0,.freeobj 0;46;-5;0,.freeobj 0;52;-29;-0.15;54,    ;;cespugli sulla sx
+278,.freeobj 0;80;-22.5;0;45,
+280,.freeobj 1;15;0;0;180,  ;;palofs
+283,.freeobj 0;146;0;0.1;0,  ;; marmotta
+288,.freeobj 0;52;-11;-0.15;55,    ;;strada sx
+290,.freeobj 1;102;0;0;180,.freeobj 2;102;0;0;181.3,.railend 8;5.5, ; scambio chiude fra 0 e 1
+292,.freeobj 3;25;7;-1;90,  ;; casa a dx su binario 3
+298,.freeobj 2;28;3;0;-10,
+300,.rail 3;22.81;0,.rail 5;17.31;0,.crack 0;1;1,.railstart 9;-4;0;2,.wall 9;-1;2,.dike 0;-1;13,.wall 5;-1;6, ;inizio muro industria con muro laterale
+301,.freeobj 0;28;-3.5;0;175, ;;PL sinistro
+304,.freeobj 3;25;8;0;90, 
+304,.freeobj 1;94;3.5;-0.2;175, ;;casetta su binario 1 e 2
+309,.freeobj 1;146;0;0;0,  ;; marmotta
+310,.freeobj 9;14;-6;0;-45, ;fabbrica
+315,.freeobj 1;15;0;0;0,  ;palofs
+320,.freeobj 2;46;2;-1, ;;albero
+321,.freeobj 3;25;5;-1;90,
+324,.freeobj 5;29;-10;0;5,  ;;casa sx su sfondo
+325,.freeobj 1;1;0;0,.rail 3;33.17;0,.rail 5;27.67;0,.railtype 2;0,.wall 2;1;1, ;;aln668 parcheggio
+338,.freeobj 2;48;-2;-2,  ;;alberi 
+350,.rail 3;47.62;0,.rail 5;42.12;0,.wall 5;-1;1,.dike 5;-1;3,.rail 2;11.13,.railstart 8;11.13;0;1,.pole 2;0;-1;;0,.railtype 8;9,
+365,.freeobj 1;15;0;0;0, ;palofs
+369,.freeobj 2;154;-2.4;0,  ;;assebianco
+372,.freeobj 0;6;5;0;0,  ; respingente
+375,.railend 1;5;0,.PoleEnd 1,.rail 3;66.11;0,.rail 5;60.61;0,.dike 2;1;7,.rail 2;14,.rail 8;9.5;0, ;;fine binario 1
+377,.freeobj 2;12;0.5;-2;180, ;;casa sx
+385,.freeobj 2;73;30;0,
+395,.freeobj 2;73;20;0,
+400,.rail 3;88.58;0,.rail 5;83.08;0,.rail 2;18.12,.rail 8;6.65;0,.railtype 8;1,.dike 8;1;7,
+410,.freeobj 9;146;0;0.1;0,  ;; marmotta
+412,.freeobj 0;184;0;0;0,
+416,.freeobj 0;154;1;0,  ;;assebianco
+420,.ground 0,
+425,.wallend 9,.Rail 2;21.48,.rail 3;114.96;0,.rail 5;109.46;0,.poleend 0,.freeobj 0;106;0.627;0;178.5,.rail 8;2,.freeobj 2;73;10;0,  ;fine muro e binario 2 5 e 3
+450,.rail 2;25,.railend 3;145.14;0,.railend 5;139.64;0,.dikeend 5,.wallend 3,.poleend 5,.wallend 5,.poleend 3,.railend 8;0,.dike 0;1;7,.freeobj 2;10;0;0;0,.poleend 2,
+450,.dike 2;0, ;; linea per arona
+450,.brightness 245,
+450,.railtype 0;45, ; suono TSS sotto cavalcavia
+458,.freeobj 0;184;0;0;0,
+460,.marker sanbie\marker\105km.gif;40,.limit 105,
+461,.freeobj 0;146;0;0;0,  ;; marmotta
+465,.freeobj 0;7;2.5;0;-25,.height 0.5,    ;;ponte
+475,.pole 0;0;1;50;0,.freeobj 0;71;0;0,.wallend 2,.rail 2;29;1,.railtype 2;6, ; inizio catenaria singola
+475,.railtype 0;5, ; suono normale
+480,.brightness 100,
+485,.brightness 245,
+500,.freeobj 0;71;0;0,.rail 2;29;1.5,
+525,.freeobj 0;71;0;0,
+550,.wall 0;-1;5,.dike 0;-1;1,.freeobj 0;73;20;0,
+575,.poleEnd 0,
+620,.freeobj 0;148;12;-0.5;90,  ;catasta
+625,.railtype 0;6,.freeobj 0;10;0;0, ;;fine catenaria
+650,.freeobj 0;30;2.5;0;180,.freeobj 0;29;9.5;-0.5;110,.railstart 8;5;0;7,.dike 8;0;0, ;casa a sx + segnale
+660,.freeobj 0;9;2.6;-1;90, ;cabina telefonica
+664,.freeobj 0;57;0;-0.4;0,  ;;cabina telefonica
+665,.freeobj 0;16;8;0;0;0,  ;albero
+675,.dike 0;0;1,.railend 2,   ;; fine linea arona 
+740,.freeobj 0;42;60;0,
+750,.freeobj 0;46;7;0,750,  ;;albero
+760,.freeobj 0;46;57;0,  ;;albero
+775,.freeobj 0;29;30;0;90,.freeobj 0;58;55;0;0,  ;; 2 casa e fienile
+782,.freeobj 0;16;16;0;0, ;albero
+786,.freeobj 0;43;22;0;0, ;alberi sfondo
+800,.freeobj 0;31;2.5;0;180,  ; cartello
+900,.freeobj 0;31;2.5;0;180,.rail 9;4.5;0,   
+999,.freeobj 0;31;2.5;0;180,  ; cartello a dx
+1000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km1.bmp;50, ;;paletto segnakm
+1000,.SigF 4;1;0;50,.section 4;4,.PreTrain 07.3620  ;;segnale che da il via al primo dopo il passaggio del treno precedente
+1010,.freeobj 0;38;-3;0;0,  ;;cartello PL
+1020,.marker sanbie\marker\PL.bmp;70
+1025,.dike 0;-1;1,
+1040,.freeobj 0;50;14;-2;-25,
+1050,.rail 8;18;0,.wall 0;1;1,
+1055,.freeobj 0;48;19;-1;-45,
+1065,.freeobj 0;26;8;0;90,
+1070,.freeobj 0;136;40;0;0, ;; paloluce
+1075,.freeobj 0;2;0;0.01;0,.dikeend 0,.freeobj 0;135;-1;0,.freeobj 0;135;55;0, ;;PL con BUS e ford, 
+1075,.wallend 0,
+1078,.freeobj 0;5;-22;0.01;180,
+1080,.rail 8;5.0;-0.1,.freeobj 0;4;-7;0.01;180,
+1080,.freeobj 8;135;-7;-0.4;89,
+1092,.freeobj 0;31;2.5;0;180, ; cartello
+1095,.freeobj 0;23;-30;0;45,.freeobj 9;136;0;0,  ;;casa e palo luce
+1099,.freeobj 0;29;-20;0;135,  ;;casa
+1100,.Curve 0;0,.railtype 0;3,.dike 0;1;1,.wall 0;-1;6,.back 1,.railstart 1;-17;0;7,.dike 1;0;0,.pitch 8,
+1125,.wall 0;-1;4,.rail 1;-7.5;0;7,.freeobj 8;135;-7;-0.4;90,
+1126,.freeobj 0;23;-15;-2;0,.freeobj 0;50;-5;-2;-105,    ;;casa
+1135,.freeobj 0;47;-17;0,  ;; albero
+1150,.wallend 0,
+1170,.freeobj 0;46;-18;-1,.freeobj 8;135;-7;-0.4;90,
+1175,.wall 0;1;5,.railend 1;-7.5,.rail 8;5.7;0,
+1176,.freeobj 0;23;-18;-2;45,.freeobj 0;50;-5;-2;-90,   ;;casa
+1185,.freeobj 0;43;-38;-2;0,  ;;alberi a cespuglio
+1190,.freeobj 8;135;-8.5;-0.4;135,
+1200,.dike 0;-1;1,.wall 8;1;13,.freeobj 9;68;40;0;45,   ;;villetta
+1225,.wallend 8,
+1250,.railend 8;12;0,.dikeend 8,
+1260,.freeobj 0;29;15;0;135,  ;; casa dx
+1265,.freeobj 0;47;7;-1;0,  ;; albero sulla dx
+1270,.freeobj 0;40;7;-1,   ; alberetti sulla dx
+1300,.dike 0;0;4,  ;;;siepe
+1320,.freeobj 0;47;-17;0,  ;; albero
+1400,.freeobj 0;73;-10;0;0,  ;; traliccio
+1485,.freeobj 0;46;7;0,  ;;albero
+1500,.freeobj 0;42;5;-2,.wallend 0, ;;alberi sulla sx
+1510,.freeobj 0;46;-10;0, ;;albero
+1520,.freeobj 0;50;-10;0;0,   ;;alberi a cespuglio
+1620,.freeobj 0;136;13;0;0,.freeobj 0;136;-24;0;0,  ;;paloluce
+1850,.dike 0;0;1,.railstart 8;5;0;7,.dike 8;0;0,
+1900,.freeobj 0;174;2.5;0;180,
+1945,.freeobj 0;25;-65;-2.5;90,
+1950,.wall 0;-1;4,.dike 0;1;1,
+2000,.freeobj 0;3;-2;0;0,.marker sanbie\marker\km2.bmp;100, ;;paletto segnakm
+2002,.freeobj 0;38;-2;0;0,
+2005,.freeobj 0;31;3;0;180,
+2008,.freeobj 0;148;-20;-1.2;90,.freeobj 0;148;-15;-1.2;90,  ;catasta
+2012,.freeobj 0;23;55;-5;90,  ;;casa
+2025,.dikeend 0,.height 0.5,
+2030,.freeobj 0;23;-25;-2;0,.freeobj 0;44;50;-1;0;90,
+2035,.freeobj 0;44;-15;-1;0,.freeobj 0;23;55;-5;90,   ;;alberi a sx
+2038,.freeobj 0;139;-28.5;-1;90,  ;;siepe
+2042,.freeobj 0;132;-6;0;90,
+
+
+;PL
+2042,.freeobj 0;2;0;0;0,.wallend 0,.freeobj 0;135;-1;-0.4,.freeobj 0;135;55;0, ;;PL  
+2045,.freeobj 0;5;-10;0;180, ;;ford
+2050,.dike 0;-1;1,.railend 8;8;-0.2,.dikeend 8,
+2051,.freeobj 0;132;6;0;-90,
+2055,.freeobj 0;37;4;-1;90,.freeobj 0;44;10;-1.5;0,.freeobj 0;22;-3;-0.8;90,.freeobj 0;74;5;0;0,  ;casetta sx egarage con alberi
+2060,.limit 120,
+2075,.freeobj 0;26;10;-1;90,.wall 0;1;1, ; casello
+2080,.freeobj 0;94;6;-1;180,  ;casetta
+2085,.freeobj 0;38;2;0;180,  ;; cartello PL
+2086,.freeobj 0;23;-50;-2;10,    ;;casa
+2090,.freeobj 0;31;2.5;0;180,
+2100,.railstart 8;5;0;7,.dike 8;0;0,.dike 0;0;1,.wallend 0, ;;inizio stradina
+2200,.freeobj 0;31;2.5;0;180,
+2250,.railtype 0;20,
+2300,.railend 8;5,.dikeend 8,.freeobj 0;31;2.5;0;180,
+2350,.freeobj 0;175;2.5;0;0,
+2450,.dike 0;-1;3,.freeobj 0;31;2.5;0;180,
+2475,
+2500,.freeobj 0;66;0;-1;0,
+2525,.freeobj 0;66;0;-1;0,
+2530,.freeobj 0;57;0;-0.4;0, ;;cabina tel
+2550,.dike 0;0;3,.height 1.5,.freeobj 0;31;2.5;0;180,.freeobj 0;66;10;-1;0,
+2575,.freeobj 0;66;10;-1;0,
+2625,.ground 3,
+2650,.freeobj 0;31;2.5;0;180,.dike 0;-1;3,.freeobj 0;55;0;0;180,
+2675,.freeobj 0;55;0;0;180,
+2700,.freeobj 0;55;0;0;180,
+2725,.freeobj 0;55;0;0;180,
+2750,.dike 0;0;3,.freeobj 0;55;0;0;180,
+2775,.railtype 0;23, ; suono TSS su ponte
+2790,.freeobj 0;88;0;0, ;; ponticello
+2800,.railtype 0;3,
+2800,.height 7,
+2805,.freeobj 0;34;-2;0;0,  ;;segnale 200m
+2870,.freeobj 0;94;65;-7;175,  ;;casa sfondo
+2875,.freeobj 0;43;15;-7;0,.freeobj 0;43;40;-7;0,.freeobj 0;43;65;-7;0,    ;;alberi sfondo
+2905,.freeobj 0;33;-2;0;0, ;; segnale 150m
+3000,.freeobj 0;3;-3;-0.4;0,.marker sanbie\marker\km3.bmp;50, ;;paletto segnakm
+3005,.freeobj 0;32;-2;0;0,  ;;segnale 100m
+3105,.freeobj 0;31;-2;0;0,  ;;segnale 50 m
+3200,
+3205,.freeobj 0;53;-2.5;0;180,
+3205,.SigF 2;1;-1.9;5.35,.section 2;4,.PreTrain 07.3755,  ;;segnale passaggio livello
+3475,.railtype 0;11,.Curve 1100;20,
+3570,.Curve 0;0,.railtype 0;3,
+3575,.railtype 0;23, ; suono TSS su ponte
+3580,.freeobj 0;88;0;0,   ;;ponticello
+3590,.freeobj 0;88;0;0,   ;;ponticello
+3600,.railtype 0;3,  ;suono normale
+3625,.freeobj 0;53;2.5;0;0,  ;;segnale PL
+3725,.freeobj 0;31;2.5;0;180,.freeobj 0;59;0;-5;0,
+3750,.dike 0;1;3,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,
+3775,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,
+3800,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,
+3825,.freeobj 0;31;2.5;0;180,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,
+3850,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0, 
+3875,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,
+3900,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,
+3925,.freeobj 0;31;2.5;0;180,.dike 0;0;3,
+3930,.freeobj 0;16;-40;-4;0,
+3960,.freeobj 0;43;-45;-5;0,.freeobj 0;43;-75;-5;0,.freeobj 0;43;-105;-5;0,    ;;alberi sfondo
+3975,.freeobj 0;31;2.5;0;180,
+4000,.freeobj 0;3;-3;-0.4;0,.marker sanbie\marker\km4.bmp;50, ;;paletto segnakm
+4002,.freeobj 0;57;0;-0.4;0,.freeobj 0;64;-2;0;0,  ;;;casetta telefono
+4100,.freeobj 0;63;-2;0;0,
+4195,.freeobj 0;62;-2;0;0,
+4200,.dikeend 0,.freeobj 0;60;0;0;0,  ;;alberifosso
+4200,.railtype 0;23 ; suono TSS su ponte
+4225,.dike 0;0;3,
+4225,.railtype 0;3, ; suono normale
+4300,.freeobj 0;61;-2;0;0,
+4400,.freeobj 0;175;-2.5;0;180,
+4400,.SigF 3;1;-1.9;5.35,.section 0;4,.PreTrain 07.3931,  ;;segnale passaggio livello
+4430,.height 3.5,
+4450,.freeobj 0;38;-3;0;0,.marker sanbie\marker\PL.bmp;150,.ground 2,   ;;fine alberi a sx
+4470,.freeobj 0;22;3.2;-0.4;270,.freeobj 0;166;0;0;0, ;; sensori PL casetta
+4473,.freeobj 0;38;-3;0;0,  ;;paletto PL 
+4475,.dikeend 0,
+4475,.railstart 2;8;-1;2,.dike 2;0;0,.railstart 1;-7;-1.5;7,  ;terrapieno e strada sx
+4475,.railstart 3;17;-2;10,.dike 3;0;0,
+
+; PL
+4475,.freeobj 0;2;0;0;0,.freeobj 0;135;-1;-0.4, ;;PL  
+4488,.freeobj 0;38;2.5;0;180,  ;;paletto PL contrario
+4489,.freeobj 0;29;-16;-2;-45, ;;casa
+4495,.freeobj 0;44;-15;-2.5;0,  ;;alberi
+4498,.freeobj 0;175;2;0;0,  ;;segnale PL dx
+4500,.rail 2;9;2;2, ;terrapieno
+4500,.freeobj 0;40;-20;-2,.rail 1;-7;0,.wall 0;-1;5,.dike 0;1;3,  ;;alberetti
+4500,.rail 3;17;1.5,
+4550,.height 1,.railend 3,.dikeend 3,
+4590,.freeobj 0;31;2.5;0;180,
+4600,.freeobj 0;49;-15;-1;0,.railend 1,   ;;prato
+4650,.freeobj 0;49;-15;-1;0,   ;;prato
+4675,.freeobj 0;208;0.2;-1.5;0,  ;muretto
+4680,.freeobj 0;26;9;1.5;270,  ;casetta
+4688,.freeobj 0;208;0.2;-1.5;0,  ;muretto
+4690,.freeobj 0;31;2.5;0;180,
+4700,.freeobj 0;49;-15;-1;0,   ;;prato
+4750,.freeobj 0;49;-15;-1;0,   ;;prato
+4790,.freeobj 0;31;2.5;0;180,.freeobj 0;34;-2;0;0,  ;;segnale 200m
+
+4800,.railstart 1;13.5;1.5;10,.dike 1;0;16,
+4825,.railend 2,.dikeend 0, ;fine terrapieno
+4840,.brightness 245,
+4850,.brightness 100,
+4850,.railtype 0;52, ; suono TSS sotto cavalcavia
+4850,.freeobj 0;212;0;0;0,  ;ponte alta velocità
+4860,.brightness 245,
+4870,.freeobj 0;213;0;10.5;90,.freeobj 0;213;-25;10.5;90,.freeobj 0;213;-50;10.5;90,.freeobj 0;213;25;10.5;90,   ;binari
+4872,.freeobj 0;48;-17;-3;25,   ;;albero chiude
+4875,.dike 0;-1;8,.wall 0;1;12,.railtype 0;3,
+4890,.freeobj 0;31;2.5;0;180,.freeobj 0;33;-2;0;0,  ;;segnale 150m
+4925,.wall 0;1;10,.railtype 0;12,.dikeend 0,
+4935,.marker sanbie\marker\Autostrada.gif;150,
+4940,.freeobj 0;43;-55;5;0,
+4940,.brightness 245,
+4945,.freeobj 0;7;10;0;0,  ;; ponte autostrada to-mi
+4945,.freeobj 0;48;35;-1;-45,   ;;albero chiude
+4950,.railtype 0;52, ; suono TSS sotto cavalcavia
+4960,.freeobj 0;7;8;1;0,  ;; ponte autostrada to-mi raddoppio
+4970,.brightness 100,.freeobj 0;156;15;0;0,
+
+4975,.wallend 0,.ground 0,.dike 0;0;6,.railtype 0;3,
+4980,.brightness 245,
+5000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km5.bmp;50,.rail 1;20,  ;;paletto segnakm
+5002,.freeobj 0;32;-2;0;0,  ;;segnale 100m
+5050,.freeobj 0;163;45;0;0,.railend 1;25,.dikeend 1,   ;;;fabbrica
+5100,.freeobj 0;31;-2;0;0,  ;;segnale 50m
+5200,.freeobj 0;53;-2.5;0;180,
+5200,.SigF 2;1;-1.9;5.35,.section 2;4,.PreTrain 07.3955,  ;;segnale passaggio livello
+5600,.freeobj 0;57;-5.5;-0.4;0,  ;;cabina telefono a sx
+5800,.freeobj 0;53;2.5;0;0,  ;;segnale PL dx
+5950,.freeobj 0;31;2.5;0;180,
+5995,.freeobj 0;168;3.5;-1;0,   ;;casello
+5999,.freeobj 0;64;-2;0;0,.freeobj 0;31;2.5;0;180,  ;;segnale 200m inclinato
+6000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km6.bmp;50, ;;paletto segnakm
+6010,.freeobj 0;74;0;0;180, ;fence
+6050,.railtype 0;11,.Curve 1100;20,
+6100,.freeobj 0;63;-2;0;0,.freeobj 0;31;2.5;0;180,  ;;segnale 150m inclinato
+6140,.freeobj 0;56;2;-1;90,
+6150,.dikeend 0,.freeobj 0;56;-2;-1;-90,.wall 0;0;7,   ;;muretti bassi
+6200,.freeobj 0;62;-2;0;0,  ;;segnale 100m inclinato
+6250,.Curve 0;0,.railtype 0;3,
+6300,.freeobj 0;61;-2;0;0,  ;;segnale 50m inclinato
+6400,.freeobj 0;175;-2.5;0;180,
+6400,.SigF 3;1;-1.9;5.35,.PreTrain 07.4030,
+6400,.wallend 0,.freeobj 0;67;0;0;0,  ;;segnale passaggio livello
+6425,.height 5,
+6440,.marker sanbie\marker\PL.bmp;70,.freeobj 0;38;-2;0;0,
+
+;PL
+6442,.freeobj 0;2;0;0;0,.freeobj 0;135;-1;0,.freeobj 0;135;55;0, ;;PL
+6450,.freeobj 0;43;-41;-10,  ;;alberisfondo a cespuglio
+6450,.railtype 0;23, ; suono TSS su ponte
+6450,.SigF 4;1;0;50,.section 4;4,
+6453,.freeobj 0;60;0;0;0,  ;;alberifosso
+6470,.freeobj 0;44;-10;0;0,.freeobj 0;48;7;0;-45,
+6472,.freeobj 0;38;2;0;180,  ;; cartello PL
+6475,.dike 0;0;7,.freeobj 0;43;6;-8,
+6475,.railtype 0;3, ; suono TSS normale
+6500,.height 1,
+6505,.freeobj 0;12;-25;-1;0,   ;;hangar
+6800,.ground 3,
+6850,.dike 0;1;7,.freeobj 0;72;0;0,
+6875,.freeobj 0;72;0;0,
+6900,.dike 0;0;7,
+6950,.freeobj 0;16;-15;0;0;0,.freeobj 0;48;-35;-1;-45,  ;;albero
+7000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km7.bmp;50,.dike 0;-1;7,.wall 0;1;5,.freeobj 0;66;0;0;0, ;;paletto segnakm
+7001,.freeobj 0;57;0;-0.4;0,   ;cabinetta telefono
+7025,.freeobj 0;66;0;0;0,
+7050,.freeobj 0;66;0;0;0,
+7075,.freeobj 0;66;0;0;0,
+7100,.freeobj 0;66;0;0;0,
+7125,.freeobj 0;66;0;0;0,
+7150,.freeobj 0;66;0;0;0,
+
+;PL
+7190,.freeobj 0;2;0;0.01;0,.freeobj 0;66;10;0;0,.freeobj 0;135;-1;0,.freeobj 0;135;55;0, ;;PL  
+7200,.dike 0;0;7,.wallend 0,.freeobj 0;136;-10;-4;0,
+7225,.freeobj 0;66;10;0;0,
+7275,.dike 0;1;7,.freeobj 0;72;0;0,
+7300,.freeobj 0;72;0;-0.4,.railstart 8;-80;0;10,
+7310,.freeobj 0;136;-20;0;0,  ;;paloluce
+7325,.freeobj 0;72;0;-0.4,
+7350,.freeobj 0;72;0;-0.4,
+7375,.freeobj 0;72;0;-0.4,
+7390,.freeobj 0;136;-35;0;0,  ;;paloluce
+7400,.freeobj 0;72;0;-0.4,
+7425,,.freeobj 0;72;0;-0.4,
+7450,.freeobj 0;72;0;-0.4,
+7470,.freeobj 0;136;-50;0;0,  ;;paloluce
+7475,.freeobj 0;72;0;-0.4,
+7490,.freeobj 0;29;40;0;90,.freeobj 0;58;65;0;0,  ;; 2 casa e fienile
+7500,.freeobj 0;72;0;-0.4,
+7525,.freeobj 0;72;0;-0.4,
+7550,.freeobj 0;72;0;-0.4,
+7555,.freeobj 0;136;-65;0;0,  ;;paloluce
+7570,.freeobj 8;99;2;0;180,  ;; auto  
+7575,.freeobj 0;72;0;-0.4,
+7600,.freeobj 0;72;0;-0.4,
+7620,.freeobj 8;5;-2;0;-90,  ;ford
+7625,.freeobj 0;72;0;0,
+7630,.freeobj 0;136;-75;0;0,  ;;paloluce
+7650,.dike 0;0;7,.wallend 0,
+7700,.freeobj 0;38;2;0;180,  ;; cartello PL
+7710,.freeobj 0;136;-90;0;0,  ;;paloluce
+7800,.dike 0;0;8,.railend 8,
+7805,.freeobj 0;136;-105;0;0,  ;;paloluce
+7900,.marker sanbie\marker\Brianco.gif;100,
+7925,.dike 0;1;8,.freeobj 0;72;0;0.0,
+7945,.freeobj 0;38;-2;0;0,
+7950,.form 0;R;0;0,.freeobj 0;49;23;0;0,.dikeend 0,.freeobj 0;72;0;0,
+7955,.freeobj 0;65;-33;0;0,   ;;torre
+7956,.freeobj 0;163;-35;-1;0,.freeobj 0;163;-50;-1;0,	;;fabbrica
+7958,.freeobj 0;26;7;0.5;270,  ;casetta
+7960,.SigF 4;1;0;50,.section 4;4,.PreTrain 07.4115,
+7970,.freeobj 0;24;-28;-1.1;0,  ;albero
+7975,.form 0;R;0;0,.freeobj 0;49;23;0;0,.freeobj 0;72;0;0,   ;;marciapiede dx
+7980,.freeobj 0;43;-95;-3;0,.freeobj 0;43;-125;-3;0,
+7982,.freeobj 0;24;-28;-1.1;0,  ;albero
+7985,.freeobj 0;59;1.5;-1.5;180,
+7993,.freeobj 0;127;-1;0;180,   ;;stazione
+7995,.Sta Brianco; P; 07.4220; ;1;0;0; ;10;0 ; ;,.stop 0,.pitch -4,.ground 0, 
+
+; Brianco
+8000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km8.bmp;50,.freeobj 0;81;0;0, ;;paletto segnakm
+8001,.freeobj 0;44;4;0.5;0,.freeobj 0;16;15;0;0;0,.freeobj 0;2;0;0.01;0,.freeobj 0;135;15;0;0,    ;;alberi e alberi PL
+8010,.freeobj 0;80;-40;0;90,   ;;muro industria
+8012,,.freeobj 0;43;-65;0;0,    ;;alberi sfondo
+8013,.freeobj 0;22;3.5;0.7;270,.freeobj 0;22;5.5;0.7;270,  ;;casette
+8014,.freeobj 0;95;-12;0;0,  ;; rete
+8019,.freeobj 0;38;2;0;180,  ;; cartello PL
+8020,.freeobj 0;93;-27;-0.7;-30,.freeobj 0;48;-45;0;45,    ;;alberi
+8025,.dike 0;0;8,.height 1.3,
+8030,.freeobj 0;175;2.5;0;0,
+8036,.freeobj 0;12;10;-1;180,   ;;hangar
+8045,.freeobj 0;48;-25;0;45,
+8104,.freeobj 0;31;2.5;0;180,
+8200,.dike 0;0;9,
+8204,.freeobj 0;31;2.5;0;180,
+8304,.freeobj 0;31;2.5;0;180,
+8404,.freeobj 0;31;2.5;0;180,
+8550,.freeobj 0;56;4.3;-1;90,
+8560,.freeobj 0;56;-4.3;-1;-90,   ;;muretti bassi
+8600,.back 2, 
+8700,.railtype 0;6,.curve -500;70,
+8800,.freeobj 0;34;-2;0;0,
+8850,.freeobj 0;26;9;0;90,    ;;Casa diroccata ma nuova
+8890,.freeobj 0;74;0;0;0,
+8900,.freeobj 0;33;-2;0;0,.dike 0;0;6,
+9000,.freeobj 0;32;-2;0;0,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km9.bmp;50, ;;paletto segnakm
+9095,.freeobj 0;31;-2;0;0,
+9200,.freeobj 0;174;-2.5;0;0,
+9200,.SigF 0;1;-2.5;0.05,.section 2;3;4,.PreTrain 07.4202,     ;;
+9300,.curve 0;0,.railtype 0;3,.freeobj 0;53;2.5;0;0,.dike 0;-1;6,.freeobj 0;59;0;0;180, 
+9325,.freeobj 0;59;0;0;180,
+9350,.freeobj 0;59;0;0;180,
+9375,.freeobj 0;59;0;0;180,
+9400,.freeobj 0;31;2.5;0;180,.freeobj 0;59;0;0;180,
+9425,.freeobj 0;59;0;0;180,
+9450,.freeobj 0;57;0;-0.4;0,.freeobj 0;59;0;0;180,   ;cabinetta telefono
+9475,.freeobj 0;59;0;0;180,
+9500,.freeobj 0;31;2.5;0;180,.dike 0;0;6,.freeobj 0;59;0;0;180,
+9600,.freeobj 0;31;2.5;0;180,
+9700,.freeobj 0;31;2.5;0;180,
+9900,.railtype 0;13,.Curve -1100;20,
+10000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km10.bmp;50, ;;paletto segnakm
+10050,.Curve 0;0,.railtype 0;3,
+10075,.dike 0;0;5,
+10080,.brightness 245,
+10090,.brightness 100,
+10100,.railtype 0;43, ; suono TSS sotto cavalcavia
+10100,.freeobj 0;84;0;-0.5;0,    ;;ponte3 
+10110,.brightness 245,
+10125,.railtype 0;3, ; suono normale
+10150,.freeobj 0;64;-2;0;0,.railtype 0;14,.Curve 300;60,
+10250,.freeobj 0;63;-2;0;0,
+10350,.freeobj 0;62;-2;0;0,
+10425,.dike 0;0;6,
+10450,.freeobj 0;61;-2;0;0,
+10451,.freeobj 0;57;-4.5;-0.4;0,
+10550,.freeobj 0;30;-2.5;0;0,
+10550,.SigF 1;1;-2.5;0.1,.section 0;2;4,.PreTrain 07.4239,
+10575,.dike 0;-1;6,.height 7,.railstart 10;-18;-0.5;15,.wall 10;-1;9,.back 1,
+10600,.ground 3,.freeobj 0;55;1;0;180,.freeobj 0;59;2;-3;180,
+10625,.railtype 0;34, ; suono TSS su ponticello
+10625,.freeobj 0;60;0;0;0,.freeobj 0;55;1;0;180,.freeobj 0;59;2;-3;180, ;;alberifosso
+10635,.freeobj 0;48;9;-1;-25,   ;;albero chiude
+10650,.railtype 0;14, ; suono normale
+10651,.ground 0,
+10670,.freeobj 0;21;0;-0.5,
+10675,.wall 0;1;4, 
+10700,.freeobj 0;25;9;-0.5;90,     ;; casa
+10725,.wallend 0,.railstart 8;6;-1;2,.dike 8;0;0,.wall 8;-1;4,
+10730,.freeobj 0;176;2;0;90,  ; limitesta
+10740,.freeobj 0;48;2;0.5;-25,
+10745,.freeobj 0;167;-65;0;-80,  ;;sfondo salussola
+10750,.rail 8;9;2;2,
+10800,.freeobj 0;48;2;0.5;-25,
+10860,.freeobj 0;48;2;0.5;-25,
+
+; Salussola
+
+10900,.freeobj 0;48;2;0.5;-25,
+10925,.pitch 2,.height 1,
+10950,.dike 0;-1;7,.freeobj 0;107;0;0;-2.387,.railtype 0;2, ; Rail 0 invisibile sullo scambio
+	.wall 0;-1;4, 
+10950,.railstart 2;0;0;2,
+	.dike 2;1;7,
+	.pole 0;0;-1;25;3,
+	.freeobj 0;57;1.5;0;0,
+	.railend 8;9;-1,
+	.wallend 8,
+	.dikeend 8,
+10958,.freeobj 0;145;0;0,  ;cartellibassi
+10975,.rail 2;1.9;0;22, ; binario a destra
+	.railtype 0;22, ;Rail 0 R300 visibile per 25 mt
+10977,.freeobj 2;184;0;0;0,
+10983,.freeobj 2;154;-2.5;0,  ;;assebianco
+10990,.freeobj 2;45;0;0;180,  ;;segnalesta1
+11000,.rail 2;5.5,
+	.wall 2;1;1,
+	.rail 9;0;0;2, ; inizio rail invisibile per tronchino
+	.railtype 2;2, ; binario di destra invisibile
+	.dike 9;-1;0,
+	.crack 0;9;0,
+	.dike 2;1;0,
+	.pole 0;0;-1;25;2,
+	.freeobj 0;108;5.5;0;4.8,  ; secondo scambio
+11000,.railstart 1;3;0;2, ; inizio rail invisibile per binario 2
+	.railtype 0;2, ; binario di corsa invisibile
+	.freeobj 0;111;0;0;-2.38,  ; terzo scambio
+	.crack 0;2;0,
+	.wallend 0,
+	.dike 0;-1;0,
+	.freeobj 9;59;0;-3.5,
+11001,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km11.bmp;50, ;;paletto segnakm
+11025,.rail 2;9;0;2,
+	.railtype 0;22, ; binario di corsa visibile
+	.rail 9;-3.5;0;2,
+	.rail 1;5;0;2,
+	.freeobj 0;109;8.05;0;2.20, ; curva di raccordo
+	.freeobj 0;110;6.12;0;-2.6, ; curva di raccordo
+	.freeobj 0;110;-2.05;0;-5.6, ; curva di raccordo
+	.crack 0;2;0,
+	.freeobj 9;59;0;-3.5;,
+	.crack 0;9;0,
+	.poleend 0;0,
+11033,.freeobj 0;69;-8.5;-3,
+11034,.freeobj 0;154;-2.5;0,  ;;assebianco
+11037,.freeobj 2;154;-2.9;0,  ;;assebianco
+11040,.freeobj 2;25;5;-3.5;90,
+11041,.freeobj 2;45;0;0;180,  ;;segnalesta1
+11045,.freeobj 0;69;-8.5;0,
+11050,.rail 9;-6;0;2,
+	.freeobj 0;110;-4.5;0;-3.2, ; curva di raccordo
+	.freeobj 9;75;0;0,.dike 10;-1;6,.crack 0;9;0,
+	.rail 1;5;0;22,
+      .rail 2;9;0;22,
+	.pole 0;0;-1;25;2,
+11050,.freeobj 9;142;1;0;180,  ;sagoma
+11075,.wallend 9,.railend 9,   ;; fine binario con muretto
+11080,.freeobj 0;77;0;0,    ;; giardino stazione
+11100,.form 0;L;0;0,.form 0;R;0;1,.form 1;L;0;1,.pole 1;0;-1;25;2,.rail 10;-22;0;10,.freeobj 10;70;0;0;0,.dikeend 10,
+11101,.freeobj 1;1;0;0,.doppler sanbie\motor0.wav;5;1,   ;;aln668 in deviata
+11110,.freeobj 0;76;0;0;0,  ;;stazione
+11115,.freeobj $Rnd(0;1);185;-4;0.5,  ;uomini
+11120,.freeobj 10;47;-58;27,.freeobj 10;70;;0;0,  ;; alberi collina
+11125,.form 0;L;0;3,.form 0;R;0;3,.form 1;L;0;1,.railtype 10;10, ;;fine banchina
+11126,.freeobj 1;1;0;0,.doppler sanbie\motor0.wav;5;1,   ;;aln668 in deviata
+11127,.Sta Salussola; P; 07.4500; ; 1; 0;0; ;10;5 ; ;,
+11130,.height 0.4,
+11131,.stop 0,
+11133,.freeobj 0;78;0;0;0,  ;; giardino
+11135,.freeobj 10;47;-58;27,  ;;alberi collina
+11140,.freeobj 10;68;-68;27;-90,     ;;villetta alta
+11146,.freeobj 2;132;13.5;0;0,
+11148,.freeobj 10;47;-58;27,.freeobj 0;27;-3.5;0.5,  ;;PL  ;;alberi collina
+11150,.wallend 2,
+11152,.freeobj 2;27;17.5;0;-90,
+11155,.freeobj 0;52;-5;-0.1;90,
+11160,.freeobj 0;79;0;0,
+11163,.freeobj 0;162;1;0.5;0, ; torre d'acqua
+11164,.freeobj 0;94;-4;0.5;90,
+11172,.freeobj 0;25;-12;0;225,  ;villetta
+11173,.freeobj 0;93;-35;-5;0;0,  ; alberi
+11173,.freeobj 0;94;-4;0;180,.freeobj 0;52;-27;-0.2;135,
+11175,.dike 2;1;6,.poleend 1,
+11180,.freeobj 0;25;-32;0;45,
+11195,.freeobj 0;178;-13;-4;-90,.freeobj 2;45;0;0;180,   ;villetta
+11196,.freeobj 0;96;-10;-1;-10,  ; albero
+11197,.freeobj 0;96;-8;-1;-10,  ; albero
+11200,.railend 10;-15;-0.5;10,.pole 0;0;-1;25;3,.dike 0;-1;6,.wall 0;-1;4,
+11225,.dikeend 0,
+11225,.railend 1, ; Fine della rail 1
+	.freeobj 0;113;5.00;0;5, ; Curva di raccordo
+	.crack 0;2;0, ; Ghiaia di riempimento
+11235,.freeobj 2;184;-4.5;0;0,
+11239,.freeobj 2;154;-2.5;0,  ;;assebianco
+11250,.pole 0;0;-1;25;3,
+
+
+;; il secondo binario inizia a chiudersi sul terzo a 11250
+
+
+11250,.railtype 2;2, ; Rail 2 invisibile
+	.crack 0;2;0, ; Ghiaia di riempimento
+11270,.freeobj 0;183;-15;-2;-30,.freeobj 2;57;5;-0.4;180,   ;;cabina telefono e spogliatoio
+11275,.dike 0;-1;3,.wallend 0,
+
+11275,.freeobj 0;112;8.5;0;175.0, ; scambio rovesciato da bin 2 a 3
+	.rail 2;8, ; avvicinamento rail 2
+	.freeobj 0;115;8.5;0;-6.35, ; binario diritto
+	.crack 0;2;0, ; Ghiaia di riempimento
+11290,.freeobj 0;180;-85;-2;-10,  ;;case a schiera
+11300,.freeobj 0;114;5.78;0;-8.5,.rail 2;6,.pole 0;0;-1;25;2, ; avvicinamento rail 2
+11302,.freeobj 0;44;-20;-1;0,.freeobj 0;24;-15;-1;0,   ;;alberi
+11310,.SigF 4;1;-2.5;0.1,.section 0;4,
+11310,.freeobj 0;54;-2.5;0;0,   ;; segnale stazione sulla sinistra
+11318,.freeobj 0;154;0.6;0,  ;;assebianco
+11325,.railtype 0;2, ; Rail 0 invisibile
+	.rail 2;2.6, ; avvicinamento rail 2
+11328,.freeobj 0;180;-99;-2;-20,  ;;case a schiera
+11340,.freeobj 0;74;-0.5;-0.5, ;;ponticello  
+11345,.freeobj 0;57;5;-0.4;180,   ;;cabina telefono
+11348,.freeobj 0;38;3;0;180,  ;; cartello PL dx
+11350,.freeobj 0;116;0;0;177.05, ; scambio rovesciato da bin 3 a 1
+	.railtype 0;14, ; Rail 0 visibile
+	.railend 2;0, ; avvicinamento rail 2
+11350,.dike 0;0;3,.freeobj 0;73;-15;-3;0,.poleend 0,    ;traliccio ;; il terzo binario si chiude sul primo a 11350
+11360,.freeobj 0;145;0;0;180,  ;cartellibassi
+11365,.freeobj 0;43;-95;-3;0,
+11625,.height 6,
+11630,.freeobj 0;176;-2.5;0;0,  ;limitesta
+11640,.marker sanbie\marker\Elvo.gif;50,
+11645,.freeobj 0;137;0;0;0,
+11647,.freeobj 0;134;0;-1;-45,
+11648,.freeobj 0;134;-1;-1;210,  ;;cespugli
+11650,.railtype 0;23, ; suono TSS su ponte Elvo
+
+; ponte elvo
+11650,.dikeend 0,.ground 1,.wall 0;0;3,.Curve 0;0,    ;; PONTE
+11748,.freeobj 0;87;0;0,    ;; sponda
+11750,.Curve -300;70,.railtype 0;16,.dike 0;1;3,.wall 0;-1;5,.freeobj 0;55;0;0,.pitch 11,.freeobj 0;134;0.7;0,.freeobj 0;134;0;0;155,
+11755,.freeobj 0;137;0;0;180,  ;;fine ponticello
+
+
+11760,.freeobj 0;12;-10;-6;0,.freeobj 0;12;-45;-6;90,   ;; hangar
+11765,.freeobj 0;44;-55;-6;0,   ;;alberi
+11775,.freeobj 0;31;2.5;0;180, ;;segnale PL dx cabina telefonica e cartello
+11775,.ground 0,.freeobj 0;55;0;0,.railstart 1;17;-5;10
+11792,.freeobj 0;30;2.5;0;180, ;; segnale
+11797,.freeobj 0;126;-75;-6;-90,   ;;case
+11798,.freeobj 0;57;0;-0.4;0,  ;; ponticello
+11800,.railtype 0;36, ; suono TSS su ponticello
+11800,.dikeend 0,.freeobj 0;88;0;0,        ;; sottopasso
+11817,.freeobj 0;126;-53;-5;-90,  ;gruppocase a sx
+11825,.railtype 0;16, ; suono normale
+11825,.dike 0;0;3,.wallend 0,
+11835,.freeobj 0;100;-85;-5;90,   ;; hangar
+11845,.freeobj 0;29;55;-5;90,
+11850,.railend 1,
+11855,.freeobj 0;52;17;-5;90,.freeobj 0;52;42;-5;90,   ;; strada
+11865,.freeobj 0;23;55;-6;90,  ;;casa
+11875,.freeobj 0;31;2.5;0;180,  ; cartello
+11890,.freeobj 0;43;55;-5,   ;;alberisfondo
+11900,.freeobj 0;31;2.5;0;180,.railstart 9;32.5;0.5;2,.dike 9;1;6,  ; cartello
+11925,.rail 9;25,
+11950,.freeobj 0;31;2.5;0;180,.rail 9;17.5,  ; cartello
+11975,.railend 9;10,
+12375,.dikeend 0,.dike 0;0;0,
+12385,.freeobj 0;95;30;-2;0,  ;;rete
+12405,.SigF 4;1;0;50,.section 4;4,.PreTrain 07.4407,
+12410,.freeobj 0;95;30;-2;0,  ;;rete
+12415,.freeobj 0;50;12;-2.5;0,   ;strauch1
+12418,.freeobj 0;50;8;-2.5;10,   ;strauch1
+12425,.height 2.5,.wall 0;1;1,
+12425,.railstart 1;15;0;7,.wall 1;-1;1,  
+12430,.freeobj 0;46;17;-2.5,.freeobj 0;23;30;-2.5;90,   ;;casa  e albero
+12430,.freeobj 0;40;-15;-2.5,   ;alberetti
+12440,.freeobj 0;25;-30;-2;90,.freeobj 0;43;40;-2;70,   ;; alberisfondo
+12450,.freeobj 0;59;-2;0;180,  ;;cespugli a dx
+12451,.freeobj 0;59;0.5;-3;0,
+12452,.freeobj 0;25;28;-2,
+12454,.freeobj 0;38;-3;0;0,   ;; cartello PL sx
+12455,.freeobj 0;26;8;0;90,.freeobj 0;58;-30;-2;90, ;; fienile 
+12463,.freeobj 0;23;12;0;90,   ;;casa   
+12466,.freeobj 0;22;-3.5;-0.1;270,
+12470,.freeobj 0;133;-2;0;90,
+12472,.freeobj 0;133;-2;0;90,
+12474,.freeobj 0;133;-2;0;90,.freeobj 0;134;0;-1;-45,
+12475,.wallend 0,.railend 1;7;0,.wallend 1,
+
+; PL
+12476,.marker sanbie\marker\105km.gif;20,.limit 0,
+12478,.freeobj 0;2;0.10;0.01;1.50,  ;; PL
+12495,.freeobj 0;38;2;0;180,  ;; cartello PL dx
+12500,.wall 0;-1;5,.railstart 1;10;-2;2,.wall 1;-1;4,.dike 0;-1;3,
+12525,.freeobj 0;23;48;-2.5;90,   ;;casa 
+12530,.freeobj 0;29;70;-2;0,
+12540,.freeobj 0;148;17;-2;115,  ;catasta
+12542,.freeobj 0;128;28;-1.5;210,  ;;tettoia
+12542,.freeobj 0;148;13;-2;115,
+12548,.freeobj 0;128;15;-1.5;210, 
+12555,.freeobj 0;25;55;-1;90,   ;casa
+12575,.freeobj 0;43;45;-7;45,   ;; alberisfondo
+12580,.freeobj 0;129;75;-5;30,   ;;campanile
+12590,.freeobj 0;29;60;-2;0,
+12610,.freeobj 0;25;75;-0.5;0,   ;;casa
+12615,.freeobj 0;50;17;-1.6;-25,.freeobj 0;43;30;-7;45,  ;cespuglio anteriore
+12625,.freeobj 0;80;28;-1;130,   ;;muro industria e alberi
+12640,.freeobj 0;93;5;-1.6,.freeobj 0;43;5;-1.6;45,
+12650,.railtype 0;36, ; suono TSS su ponticello
+12650,.freeobj 0;88;0;0,.railend 1;10;-1.5,.dikeend 0, ;; ponticello
+12660,.freeobj 0;25;60;0;15,.freeobj 0;141;110;5;135,  ;;torre acqua
+12675,.railtype 0;16,  ;; suono normale
+12700,.railtype 0;36, ; suono TSS su ponticello
+12710,.freeobj 0;43;2;-1.4;0,.freeobj 0;43;28;-1.4,.freeobj 0;43;59;-1.4,.freeobj 0;43;72;-1.4,.freeobj 0;43;-35;-1.4,   ;;alberisfondo
+12715,.freeobj 0;88;0;0,  ;;; ponticello
+12725,.railtype 0;16,  ;; suono normale
+12725,.wallend 0,
+12765,.freeobj 0;46;-10;-0.75,
+12768,.freeobj 0;29;50;-1;0,
+12770,.freeobj 0;130;5;-1.6;0,.freeobj 0;130;25;-1.6;0,
+12775,.dike 0;-1;4,
+12785,.freeobj 0;128;50;-1;0,  ;;tettoia
+12795,.freeobj 0;25;45;-1;90,   ;casa
+12800,.dikeend 0,  
+12808,.freeobj 0;38;-3;0;0,.marker sanbie\marker\PL.bmp;150,   ;; cartello PL sx
+
+
+;PL
+12815,.freeobj 0;130;5;-1;0,.freeobj 0;130;25;-1;0
+12818,.freeobj 0;2;0.2;0.01;-2.1,.freeobj 0;135;-1;0,  ;; PL
+12818,.freeobj 0;93;60;-7;-15,
+12825,.height 0.9,.freeobj 0;135;55;0.9,
+12826,.freeobj 0;140;0;-0.5, ;;rete
+12828,.freeobj 0;38;2;0;180,  ;; cartello PL dx
+12830,.freeobj 0;93;2;-10,.freeobj 0;44;12;-0.5;0,   ;;cespugli
+12847,.freeobj 0;23;15;-1;100,.freeobj 0;23;55;-1;100,   ;;casa a dx
+12850,.railstart 1;7;0;15,.wallend 1,.wall 0;1;10,.wall 1;1;10, ;;casa a sx
+12853,.freeobj 0;29;-38;-0.5;-90,.freeobj 0;29;-53;-0.5;-90,.freeobj 0;58;-30;-0.5;0,
+12865,.freeobj 0;12;30;-0.5;110,   ;;hangar
+12868,.freeobj 0;43;-40;-0.5,
+12872,.freeobj 0;29;75;-1;-45,
+12875,.dike 0;-1;6,
+12880,.freeobj 0;25;15;-0.5;90,  ;casa
+12900,.wallend 0,.wallend 1,
+12950,.railend 1;7,.railstart 2;7;0.2;7,.dikeend 2;0;0,
+12975,.ground 2,.height 0.4,.rail 2;8;0.4,
+13000,.Curve 0;0,.railtype 0;3,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km13.bmp;50,.dikeend 0, ;;paletto segnakm
+13000,.dike 2;1;4,.railstart 3;8;0;2,.dike 3;0;0,   
+13001,.freeobj 0;174;2.5;0;180,  ;;segnale PL dx
+13025,.wall 0;0;5,.dikeend 0,.rail 2;8;1.5,.rail 3;8;1.5,
+13075,.freeobj 0;31;2.5;0;180,.wall 2;1;5,  ; cartello
+13150,.freeobj 0;31;2.5;0;180,  ; cartello
+13225,.freeobj 0;31;2.5;0;180,  ; cartello
+13300,.freeobj 0;31;2.5;0;180,.wallend 2,.rail 2;8;0.5,.rail 3;8;0.5, ; cartello
+13305,.freeobj 0;43;-72;-0.8;-45,   ;alberi sfondo diagonali
+13325,.freeobj 0;43;-55;-0.8;-45,
+13345,.freeobj 0;43;-40;-0.8;-45,
+13350,.freeobj 0;38;-3;0;0,.marker sanbie\marker\PL.bmp;150,.wallend 0,  ;; cartello PL sx
+13351,.freeobj 0;93;-7;-0.7;-30,   ; gruppo3 alberi
+
+
+;PL
+13373,.freeobj 0;2;0;0.01;0, ;; PL
+13375,.railend 2;8;0,.railend 3;8;0,.dikeend 3, ;fine stradina
+13375,.wall 0;0;14,.height 0.6,
+13383,.freeobj 0;93;2;-0.7,.freeobj 0;93;12;-0.7,   ; gruppo3 alberi
+13390,.freeobj 0;31;2.5;0;180,  ; cartello
+13392,.freeobj 0;38;2;0;180,  ;; cartello PL dx
+13400,.dike 0;1;7,
+13410,.freeobj 0;26;8.5;-0.5;90,  ;;casa
+13411,.freeobj 0;175;2.5;0;0,  ;;segnale PL dx
+13425,.dikeend 0,
+13490,.freeobj 0;57;0;-0.4;0, ;cabina telefonica
+13500,.freeobj 0;31;2.5;0;180,  ; cartello
+13600,.ground 2,.freeobj 0;31;2.5;0;180,  ; cartello
+13610,.freeobj 0;43;2;-1,.freeobj 0;43;28;-1,.freeobj 0;43;54;-1,.freeobj 0;43;72;-1,   ;;alberisfondo
+13650,.dike 0;0;1,
+13700,.freeobj 0;31;2.5;0;180,  ; cartello
+13800,.freeobj 0;31;2.5;0;180,  ; cartello
+14000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km14.bmp;50, ;;paletto segnakm
+14075,.dike 0;1;11,
+14100,,.freeobj 0;29;-60;0;90,.freeobj 0;58;-70;0;0,   ;; casa a sx
+14200,.dike 0;0;11,.freeobj 0;43;-37;-1,.freeobj 0;43;-60;-1,
+14400,.railtype 0;23, ; suono TSS su ponte
+14400,.freeobj 0;88;0;0;0,.dikeend 0,.freeobj 0;43;2;-0.4,.freeobj 0;43;31;-0.4,.freeobj 0;43;-32;-0.4,.freeobj 0;43;-60;-0.4,  ;;ponticello e alberi sfondo
+14425,.railtype 0;3, ;suono normale
+14425,.dike 0;0;4,
+14625,.freeobj 0;53;2;0;0,   ;;segnale dx
+14625,.dike 0;0;11,.freeobj 0;43;-37;-0.4,.freeobj 0;43;-60;-0.4,
+14725,.freeobj 0;31;2.5;0;180,  ; cartello
+14775,.railtype 0;23, ; suono TSS su ponte
+14775,.freeobj 0;88;0;0;0,.dikeend 0,.freeobj 0;43;2;-0.4,.freeobj 0;43;31;-0.4,.freeobj 0;43;-32;-0.4,.freeobj 0;43;-60;-0.4,  ;;ponticello e alberi sfondo
+14775,.freeobj 0;95;-5;-0.5;0,
+14800,.railtype 0;3, ;suono normale
+14800,.ground 0,.dike 0;1;4,.freeobj 0;95;-5;-0.5;0,
+14825,.freeobj 0;31;2.5;0;180,.freeobj 0;38;-3;0;0,.marker sanbie\marker\PL.bmp;150,.freeobj 0;95;-5;-0.5;0,  ; cartello  sx
+14850,.freeobj 0;95;-5;-0.5;0,
+14875,.freeobj 0;29;-12;-0.4;0,.freeobj 0;25;-40;0;0,.freeobj 0;139;-2;-0.4,   ;casa 
+14900,.dikeend 0,.freeobj 0;46;5;0, ;; albero
+14900,.wallend 0,.wall 0;0;15, 
+
+;PL
+14901,.freeobj 0;2;0;0.01;0,    ;; PL
+14905,.freeobj 0;132;-5;0;90,
+14912,.freeobj 0;132;6;0;-90,
+14915,.freeobj 0;22;4;-0.5;90,
+14925,.dike 0;1;1,
+14950,.freeobj 0;31;2.5;0;180,  ; cartello
+14960,.freeobj 0;38;2;0;180,  ;; cartello PL dx
+15000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km15.bmp;50,.freeobj 0;31;2.5;0;180,  ; cartello + paletto segnakm
+15000,.dikeend 0,.dike 0;-1;4,
+15050,.freeobj 0;42;-80;0;0,  ;; boschetto
+15075,.railstart 1;-80;1;10,.dike 1;1;0,
+15090,.freeobj 0;50;15;-1;-28,   ;strauch1
+15100,.curve 300;70,.railtype 0;14,.height 0.4,.rail 1;-80;2,
+15125,.freeobj 0;59;1;0;175,.rail 1;-80;3,
+15150,.freeobj 0;59;1;0;175,.rail 1;-80;4,
+15175,.freeobj 0;59;1;0;175,.rail 1;-80;5,.dike 1;1;12,
+15200,.freeobj 0;43;2;-0.4,.freeobj 0;43;28;-0.4,.freeobj 0;43;56;-0.4, ;;alberisfondo
+15200,.freeobj 0;59;1;0;175,.rail 1;-80;5.5,
+15217,.freeobj 0;38;-3;0;0,.marker sanbie\marker\PL.bmp;150,   ;;cartello PL sx
+15225,.freeobj 0;59;1;0;175,.rail 1;-80;6,
+15250,.dikeend 0,.freeobj 0;59;1;0;175,.freeobj 0;23;-60;-1.5;45,.rail 1;-80;6.5,
+
+;PL
+15267,.freeobj 0;2;-0.2;0.01;1.5,.freeobj 0;135;15;0;0, ;; PL + pali
+15268,.freeobj 0;132;-6;0;90,
+15274,.freeobj 0;43;-41;-1,.freeobj 0;43;-70;-1,   ;;alberisfondo
+15275,.railstart 9;5;-0.5;7,.dike 9;1;4,.dike 0;-1;3,.wallend 0,
+15275,.railend 1;-80;7,.wall 0;-1;14,
+15276,.freeobj 0;132;6;0;-90,
+15300,.freeobj 0;38;2;0;180,  ;; cartello PL dx
+15375,.dike 0;0;3,.rail 9;15;-0.5;7,
+15400,.railend 9;25,
+15475,.railtype 0;54, ; suono TSS sotto cavalcavia
+15475,.brightness 245,
+15495,.freeobj 0;86;1;0;-30,   ;; ponte bretella verrone
+15500,.dike 0;-1;3,.wallend 0,
+15500,.railtype 0;14, ; suono normale
+15505,.brightness 150,
+15510,.brightness 245,
+15525,.dike 0;0;3,.freeobj 0;55;0;0;175,
+15550,.brightness 245,
+15550,.railtype 0;54, ; suono TSS sotto cavalcavia
+15570,.freeobj 0;86;0;0;-30,   ;; ponte bretella verrone
+15575,.dike 0;-1;3, ;dike
+15575,.railtype 0;14, ; suono normale
+15580,.brightness 150,
+15585,.brightness 245,
+15600,.dike 0;0;3,.freeobj 0;55;0;0;175,
+15700,.brightness 245,
+15700,.dike 0;-1;3,
+15700,.railtype 0;54, ; suono TSS sotto cavalcavia
+15705,.freeobj 0;86;10;0;45,    ;; ponte bretella verrone
+15725,.dike 0;0;3,.height 3,.freeobj 0;55;0;0;175,
+15725,.railtype 0;14, ; suono normale
+15730,.brightness 150,
+15735,.brightness 245,
+15800,.curve 0;0,.railtype 0;3,
+16000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km16.bmp;50, ;;paletto segnakm
+16010,.freeobj 0;136;-12;-2;0,.freeobj 0;39;15;0;0,    ;;paloluce
+16200,.marker sanbie\marker\segnalequadro1.gif;100,.freeobj 0;90;-3;-0.4;0,
+16400,.marker sanbie\marker\segnalequadro.gif;100,.freeobj 0;89;-3;-0.4;0,
+16425,.dike 0;1;3,.freeobj 0;80;-8;-3.5;0,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,   ;;lato sx con cespugli
+16445,.freeobj 0;100;-10;-4.5,  ;; hangar1
+16450,.freeobj 0;34;-2;0;0,.freeobj 0;80;-8;-3.5;0,  ;;segnale 200m
+16450,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,
+16475,.freeobj 0;80;-8;-3.5;0,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,  ;;lato sx con cespugli
+16500,.freeobj 0;55;0;0,.freeobj 0;59;0;-5;0,  ;;lato sx con cespugli
+16504,.freeobj 0;23;-27;-4.5;0,   ;;casa
+16525,.railstart 1;-2;0;19,.wallend 1,.dike 1;0;0,
+16530,.freeobj 1;23;-25;-4.5;0,   ;;casa
+16550,.freeobj 1;33;-2;0;0,  ;;segnale 150m
+16550,.rail 1;-4;0;17,
+16551,.freeobj 1;100;-3;-4.5,  ;; hangar1
+16600,.curve -500;60,.railtype 0;6,.railtype 1;18,
+16615,.freeobj 1;128;-20;-3.5;-90,   ;;tettoia
+16625,.freeobj 1;128;-21;-3.5;-90,   ;;tettoia
+16626,.freeobj 1;136;-13.5;-4.5;0,   ;; paloluce
+16650,.freeobj 1;32;-2;0;0,  ;;segnale 100m
+16700,.freeobj 1;151;-15;-4;0, ;piazzale
+16725,.freeobj 1;40;-25;-4.5;-45,   ;alberetti
+16739,.freeobj 1;92;-15;-4.5;-90,   ;;condominio
+16740,.freeobj 1;40;-15;-4.5,   ;alberetti
+16750,.dikeend 0,.height 4.5,  
+16750,.railtype 0;26, ; suono TSS su ponticello
+16756,.freeobj 0;97;0;0, ;; sottopasso
+16758,.freeobj 0;46;12;-4.5,.freeobj 0;46;18;-4.5,  ;;alberi
+
+;Vergnasco
+
+16775,.railtype 0;6, ; suono TSS normale
+16775,.form 0;R;0;1,.form 1;L;0;4,.wall 1;-1;8,.pole 0;0;1;;2,.dikeend 0,.freeobj 1;133;-2.2;0.7;0, ; marciapiede
+16775,.freeobj 0;98;3;-3.5,.freeobj 0;99;15;-4;180,   ;;stazione giardino
+16775,.railstart 9;-15;-4;7,.dike 9;0;0,
+16776,.freeobj 0;131;1.7;0.2,   ;; pino
+16776,.freeobj 1;31;-2;0;0,  ;;segnale 50m
+16777,.freeobj 0;91;2;-1.5;180,  ;; cartello al contrario
+16778,.freeobj 0;131;1.5;0.2,   ;; pino
+16790,.freeobj 0;68;-23;-4.0;0,  ;;villetta
+16800,.form 0;R;0;1,.form 1;L;0;4,.wallend 0,.railend 9;-15;-3, ; marciapiede
+16805,.Sta Vergnasco; P; 07.4800;0;1;0;0; ;10;0 ; ;,
+16808,.freeobj 0;57;3.4;0.4;-90,   ;;cabina telefonica
+16809,.stop 0;,
+16814,.freeobj 0;125;-4;0;180,   ;;stazione
+16825,.form 0;R;0;1,.form 1;L;0;4, ; marciapiede
+16829,.freeobj 0;131;2;0,
+16830,.freeobj 0;23;-20;-5;0,   ;;casa
+16835,.freeobj 0;131;2;0,   ;; pino
+16843,.freeobj 0;131;2;0,
+16845,.freeobj 0;23;-35;-5;0,   ;;casa
+16847,.freeobj 0;131;2;0,   ;; pino
+16850,.form 0;R;0;1,.wall 1;-1;4,.freeobj 1;133;-2.2;0.7;0,  ; marciapiede e fine staccionata
+16850,.freeobj 0;139;0.5;0.4;182,
+16855,.freeobj 0;131;2;0,
+16875,.wallend 1,
+16875,.freeobj 0;53;-2;0;180,
+16875,.SigF 2;1;-1.45;5.35,.section 2;4,.PreTrain 07.4710,
+16875,.form 0;R;0;1,.poleend 0, ; marciapiede
+16875,.freeobj 0;139;0.5;0.4;182,
+16900,.freeobj 0;91;2;0;0,.marker sanbie\marker\segnalequadro2.gif;100, ;;segnale stop
+16900,.dike 0;0;3,.freeobj 0;139;0.5;0.4;182,
+16920,.freeobj 0;180;-55;-5;180,  ;;case a schiera
+16950,.curve 0;0,.railtype 0;3,.railtype 1;17,
+16978,.freeobj 0;93;-32;-5;0,  ; alberi
+16980,.freeobj 0;180;-35;-5;270,  ;;case a schiera
+17000,.dike 0;0;12,
+17075,.freeobj 1;50;5;-1;-65,  ;strauch
+17090,.freeobj 1;50;5;-1;-65,  ;strauch
+17100,.freeobj 1;46;-1;0,  ;;albero
+17110,.freeobj 1;50;5;-1;-65,  ;strauch
+17125,.railend 1,.dikeend 1,
+17150,.freeobj 0;43;40;-2;90, ;; alberisfondo
+17175,.freeobj 0;43;40;-2;90, 
+17200,.freeobj 0;43;40;-2;90,
+17225,.ground 7, 
+17250,.railtype 0;23, ; suono TSS su ponte
+17250,.freeobj 0;88;0;0,.height 4,.freeobj 0;96;25;-4;0,.dikeend 0, ;; ponticello
+17264,.freeobj 0;52;-12;-4;90, ;;strada
+17275,.railtype 0;3,.ground 0, ; suono normale
+17275,.railstart 9;10;-3;2,.dike 9;1;4,.wall 9;1;5,.dike 0;0;12,
+17325,.dike 0;0;12, 
+17425,.dike 0;0;3,.railtype 0;20,
+17475,.dike 0;1;3,
+17500,.rail 9;10;-2;2,
+17505,.freeobj 0;148;-15;-3;0,   ;;catasta
+17510,.freeobj 0;148;-15;-3;0,   ;;catasta
+17515,.freeobj 0;136;-25;-3;0,  ;;paloluce
+17570,.freeobj 0;43;-36;-3;,.freeobj 0;43;-60;-3, ;alberi sfondo
+17575,.ground 2,
+17590,.freeobj 0;46;-10;-3,  ; alberetto sx
+17620,.freeobj 0;96;-15;-3,.freeobj 0;96;-20;-3,.freeobj 0;96;-25;-3,.freeobj 0;24;-30;-3;0, ;albero   ;;alberi sfondo
+17650,.freeobj 0;66;-4;-2;180,
+17650,.freeobj 0;136;-20;-1;0,  ;;paloluce
+17675,.freeobj 0;66;-4;-2;180,.ground 2,
+17700,.freeobj 0;136;-20;-1;0,.freeobj 0;66;-4;-2.5;180,  ;;paloluce
+17701,.freeobj 0;96;-15;-2,.freeobj 0;96;-20;-2,.freeobj 0;96;-25;-2,.freeobj 0;24;-30;-2;0, ;albero   
+17725,.dike 0;-1;3,.freeobj 0;16;-35;-1;0,  ;; albero
+17740,.freeobj 0;136;-20;-1;0,  ;;paloluce
+17750,.freeobj 0;64;-2;0;0,   ;; segnale 200 inclinato
+17790,.freeobj 0;136;-20;-1;0,.freeobj 0;16;-35;-1;0,  ;;paloluce
+17800,.height 2,.rail 9;10;-1.5;2,
+17830,.freeobj 0;24;5;-2,.freeobj 0;96;13;-2,.freeobj 0;96;16;-2,.freeobj 0;96;10;-2;0, ;albero   ;;alberi sfondo
+17850,.freeobj 0;63;-2;0;0,.dikeend 0,.dike 0;0;0,.dikeend 9,.wallend 9,.railend 9,.wall 0;-1;5,   ;; segnale 150 inclinato
+17850,.freeobj 0;93;-40;-2;0,
+17860,.freeobj 0;136;-20;-1;0,  ;;paloluce
+17875,.freeobj 0;66;15;-1.3;0,.freeobj 0;93;-40;-2;0,  ;;campo grano e alberi
+17900,.freeobj 0;66;15;-1.25;0, ;; campo grano
+17925,.freeobj 0;66;15;-1.2;0,.freeobj 0;93;-40;-2;0,.railstart 8;-90;-0.5;2,.wall 8;-1;2,.dikeend 8,  ;; campo grano
+17930,.freeobj 0;93;50;-2;0,
+17950,.freeobj 0;62;-2;0;0,.dikeend 0,.ground 0,  ;; segnale 100 inclinato
+17960,.freeobj 0;130;4.5;-2.2;0,.freeobj 0;130;24.5;-2.2;0,.freeobj 0;93;50;-2;0,  ;;muro
+17970,.freeobj 0;43;4;-2,.freeobj 0;43;29;-2,
+17975,.dike 0;1;7,
+18000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km18.bmp;50, ;;paletto segnakm
+18000,.freeobj 0;136;-20;-1;0,  ;;paloluce
+18050,.freeobj 0;38;2;0;180,.freeobj 0;61;-2;0;0,  ;; cartello PL al contrario e seg 50 incl
+18060,.freeobj 0;26;8.5;-0.5;90,.freeobj 0;50;3;-2;-85,  ;;casa e strauch
+18075,.dikeend 0,.railstart 9;2;-0.5;2,.wall 9;1;4,.freeobj 0;136;-20;-1;0,  ;;paloluce
+18100,.freeobj 0;175;-2.5;0;180,
+18100,.SigF 3;1;-1.9;5.35,.section 0;4,.freeobj 8;12;-5;-0.5;0,.PreTrain 07.4735
+18105,.freeobj 0;100;35;-0.5;0,
+18125,.freeobj 0;93;-80;-5;0, 
+18145,.freeobj 0;100;35;-0.5;0,
+18150,.freeobj 0;93;-80;-5;0,.freeobj 8;12;-5;-0.5;0, 
+18175,.wall 9;1;1,.wall 0;0;5,
+18185,.freeobj 0;136;-20;0;0,  ;;paloluce
+18200,.freeobj 0;38;-3;0;0,.marker sanbie\marker\PL.bmp;150,.wallend 9,.railend 9,.wallend 0,
+18200,.railend 8,.wallend 8,
+18205,.freeobj 0;22;4;-0.5;90,  ;casetta
+18210,.freeobj 0;37;3;-0.5;90,   ;;garage
+
+;PL
+18213,.freeobj 0;96;-35;-1,  ;; albero
+18214,.freeobj 0;2;0;0.01;0,.height 0.5,.freeobj 0;135;15;0;0,    ;passaggio a livello
+18215,.freeobj 0;132;-6;0;90,
+18218,.freeobj 0;74;-1;0;180,
+18220,.freeobj 0;12;-30;-0.5;90,.freeobj 0;100;-80;-2.5;90, ; hangar1
+18221,.freeobj 0;132;6;0;-90,
+18225,.freeobj 0;66;0;-0.5;0,  ;;campo grano
+18230,.freeobj 0;12;-30;-0.5;90,  ;; hangar1
+18231,.freeobj 0;23;35;-0.5;90,   ;;casa
+18250,.freeobj 0;38;2.5;-0.4;180,  ;;paletto PL contrario
+18265,.freeobj 0;46;5;-2, ;; albero 
+18270,.freeobj 0;93;-30;-2;0,   ;; alberi 
+18275,.dike 0;0;3,
+18300,.freeobj 0;93;55;-2;0,.ground 7,  ;; alberisfondo dx
+18325,.freeobj 0;93;55;-2;0,  ;; alberi sfondo dx
+18325,.dike 0;-1;3,
+18350,.freeobj 0;29;42;-0.5;110,  ;;casa
+18375,.railtype 0;23,.height 3.5,.dikeend 0,
+18375,.freeobj 0;88;0;0,   ;;ponticello
+18390,.freeobj 0;165;-12;-3.6;90, ;;strada
+18394,.freeobj 0;93;-30;-3.5;0,   ;; alberisfondo
+18395,.freeobj 0;130;4.5;-3.5;0,.freeobj 0;130;24.5;-3.5;0,  ;;muro
+18396,.freeobj 0;136;20;-3.5;0,  ;;paloluce
+18400,.railtype 0;20,.ground 0,
+18400,.freeobj 0;43;4;-3.5,.freeobj 0;43;29;-3.5,
+18400,.dikeend 0,.railstart 9;-4;-2.7;2,.railstart 8;4;-3;2,
+18420,.freeobj 0;93;-30;-3.5;0,   ;; alberisfondo
+18425,.dike 9;-1;4,.dike 8;1;4,
+18450,.rail 8;4;-2,.rail 9;-4;-2,
+18550,.freeobj 0;136;-20;-3;0,
+18600,.freeobj 0;136;-20;-2.5;0,
+18600,.freeobj 0;93;70;-2.5;0,  ;;alberi
+18625,.rail 8;4;-1.7,
+18625,.freeobj 0;93;75;-2.5;0,  ;;alberi
+18650,.freeobj 0;93;80;-2.5;0, ;;alberi
+18675,.freeobj 0;93;85;-2.5;0,  ;;alberi
+18700,.freeobj 0;136;-20;-2;0,
+18710,.freeobj 0;93;90;-2.5;0,  ;;alberi
+18725,.dikeend 8,.freeobj 0;136;20;-3;0,.wall 8;1;4,.freeobj 0;136;-20;-3;0,  ;;paloluce
+18740,.freeobj 0;24;20;-2.5,  ;;albero dx
+18750,.railstart 10;-80;-0.5;10,.dikeend 10,.wallend 10,
+18760,.freeobj 0;24;20;-2.5,  ;;albero dx
+18780,.freeobj 0;24;20;-2.5,  ;;albero dx
+18790,.freeobj 0;24;20;-2.5,  ;;albero dx
+18798,.freeobj 0;22;8.5;-2;90,  ;casetta
+18800,.railend 8,.freeobj 0;22;8.5;-2;90,  ;casetta
+18800,.freeobj 0;136;-20;-1;0,.rail 9;-4;-0.5,
+18820,.freeobj 10;99;2;0;180,  ;; auto
+18840,.freeobj 10;99;2;0;180,  ;; auto
+18850,.rail 9;-4;-0.3,.wall 0;1;11,.dike 0;1;13,  ;cespugli a dx
+18880,.freeobj 10;5;-2;0;-90,  ;ford
+18900,.freeobj 0;136;-20;-0.5;0, ;paloluce
+18950,.freeobj 10;23;-7;-0.5;0,
+18970,.freeobj 10;29;-10;0;0,  ;;casa
+18975,.marker sanbie\marker\segnalequadro1.gif;100,.freeobj 0;90;-3;-0.4;0,.dikeend 9,
+18990,.freeobj 0;150;-25;-1,.freeobj 0;96;-33;-1,.freeobj 0;43;-60;-1,.freeobj 10;23;5;-0.5;90,   ;;casa ;alberi sfondo
+18995,.freeobj 10;23;-7;-0.5;0,
+18998,.freeobj 10;25;14;-0.5;-90, ;;fattoria
+19000,.height 0.5,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km19.bmp;50, ;;paletto segnakm
+19025,.dike 9;-1;4,.rail 9;-4;0,.railend 10,.wallend 10,.dikeend 10,
+19097,.freeobj 0;139;-78;-0.4;90,
+19100,.freeobj 0;34;-2;0;0,.railend 9,.wallend 9,.dikeend 9,   ;;segnale 200m
+19100,.freeobj 0;139;-50;-0.4,.dike 0;0;13,  ;siepe
+19104,.freeobj 0;44;-65;-0.4,.freeobj 0;44;-75;-0.4,  ;;pini
+19107,.freeobj 0;44;-58;-0.4;45,
+19110,.freeobj 0;152;-35;-0.4;,  ;; hangar1
+19116,.freeobj 0;44;-58;-0.4;45,
+19125,.freeobj 0;139;-50;-0.4,  ;siepe
+19150,.marker sanbie\marker\segnalequadro.gif;100,.freeobj 0;89;-3;-0.4;0,
+19150,.freeobj 0;80;-33;1.5;90,.freeobj 0;80;-58;1.5;90,
+19154,.freeobj 0;80;-3.5;1.5;0,
+19155,.freeobj 0;12;-50;2;90,  ;; hangar1
+19158,.freeobj 0;99;-15;2.8;90,  ;; auto
+19160,.freeobj 0;99;-8;2.8;90,  ;; auto
+19164,.freeobj 0;99;-8;2.8;90,  ;; auto
+19175,.wallend 0,.freeobj 0;144;0;-0.4;,
+19179,.freeobj 0;80;-3.5;1.5;0,
+19190,.freeobj 0;38;-3;0;0,.marker sanbie\marker\PL.bmp;150,
+19195,.freeobj 0;100;75;-0.5;-45,.freeobj 0;151;70;-0.4;-45, ;;piazzale e hangar
+19196,.freeobj 0;46;5;-1.6, ;; albero 
+19200,.freeobj 0;33;-2;0;0,.freeobj 0;144;0;-0.4,  ;;segnale 150m e muro industria
+19201,.freeobj 0;136;-20;-0.5;0, ;paloluce
+19202,.freeobj 0;46;-12;2.4, ;; albero 
+19211,.freeobj 0;26;-13;-0.5;-90,
+19225,.freeobj 0;144;0;-0.4,
+19250,.height 0.5,.freeobj 0;151;75;-0.4;-90,.dikeend 0,
+
+
+;PL
+
+19257,.freeobj 0;2;0;0.01;0,  ;; passaggio a livello
+19258,.freeobj 0;132;-6;0;90,
+19260,.freeobj 0;74;0;0;0,
+19265,.freeobj 0;135;50;-0.4,
+19266,.freeobj 0;132;6;0;-90,
+19270,.freeobj 0;94;-5.5;-0.5;0,   ;;casetta
+19275,.freeobj 0;143;-35;-0.4;90,.freeobj 0;151;-14;-0.1,.dike 0;0;13, ;;piazzale e capannone
+19275,.wall 0;1;11,.freeobj 0;80;-3.5;0.7;0,
+19280,.freeobj 0;136;-20;-0.5;0, ;paloluce
+19280,.freeobj 0;38;2;0;180,  ;; cartello PL al contrario
+19283,.freeobj 0;44;-15;-0.4,  ;;pini
+19290,.freeobj 0;12;-10;1;0,  ;; hangar1
+19300,.ground 5,.freeobj 0;175;2;0;0,.freeobj 0;32;-2;0;0,.freeobj 0;80;-3.5;0.7;0,  ;;segnale 100m
+19304,.freeobj 0;151;-14;0.5,
+19325,.dike 0;1;2,
+19325,.freeobj 0;80;-3.5;0.7;0,  ;;muro
+19342,.freeobj 0;12;-35;2;90,  ;; hangar1
+19360,.freeobj 0;24;-13;0,  ;;albero sx
+19375,.height -1,
+19400,.freeobj 0;31;-2;0;0,.freeobj 0;31;2.5;0;180,  ;;segnale 50m
+19425,.dike 0;0;2,
+19475,.height -2,.wallend 0,
+19475,.freeobj 0;93;-70;2;0,   ;; alberi 
+19500,.freeobj 0;53;-2.5;0;180,
+19500,.SigF 2;1;-1.9;5.35,.section 2;4,.PreTrain 07.4800,
+19500,.freeobj 0;31;2.5;0;180,
+19500,.wall 0;0;12,
+19505,.freeobj 0;152;-50;2.5;90,  ;  ;; hangar1
+19505,.freeobj 0;93;-70;2;0,   ;; alberi 
+19525,.dike 0;1;2,
+19550,.freeobj 0;139;-40;2.5;90,  ;;siepe
+19575,.height -3,.railtype 0;21,.Curve 500;60,
+19590,.freeobj 0;136;-20;4;0,  ;;paloluce
+19600,.freeobj 0;31;2.5;0;180,
+19672,.freeobj 0;139;-10;3;0,  ;;siepe
+19672,.freeobj 0;164;-60;0;90,  ;;serbatoi
+19680,.freeobj 0;80;-45;4;90,.freeobj 0;80;-70;4;90,.freeobj 0;80;-95;4;90,
+19684,.freeobj 0;80;-15.5;4;0,  ;; muro industria
+19692,.freeobj 0;164;0;0,  ;;serbatoi
+19695,.freeobj 0;139;-10;3;0,  ;;siepe
+19700,.freeobj 0;31;2.5;0;180,
+19710,.freeobj 0;12;-15;4;0,  ;; hangar1
+19715,.freeobj 0;100;-50;4;-90,    ;;hangar1
+19730,.freeobj 0;100;-50;4;-90,    ;;hangar1
+19730,.freeobj 0;163;-50;4;-90,   ;;capannone2
+19740,.freeobj 0;163;-15;4;-90,   ;;capannone2
+19745,.freeobj 0;163;-50;4;-90,   ;;capannone2
+19750,.dike 0;0;2,
+19775,.dike 0;1;2,
+19800,.freeobj 0;59;-5;3;0,
+19825,.freeobj 0;59;-5;3;0,
+19850,.freeobj 0;24;-13;3,  ;;albero sx
+19899,.freeobj 0;24;-23;3,  ;;albero sx
+19900,.freeobj 0;149; 2.5;-1;90,.dikeend 0,
+19902,.freeobj 0;46;-9;3, ;; albero 
+19911,.freeobj 0;149;-2.5;-1;-90,   ;;muretti bassi
+19915,.freeobj 0;134;-10;3;210,  ;;cespugli
+19920,.freeobj 0;134;-9.5;2;210,  ;;cespugli
+19920,.freeobj 0;25;-65;4;40,  ;casa5
+19925,.freeobj 0;29;-55;4;40,.freeobj 0;139;-10;4.8;0,  ;casa2
+19930,.freeobj 0;134;-10;3;210,  ;;cespugli
+19945,.freeobj 0;25;-55;4;40,  ;casa5
+19950,.freeobj 0;29;-45;4;20,.freeobj 0;139;-10;5;0,  ;;siepe e casa2
+19965,.freeobj 0;134;-10;3;210,  ;;cespugli
+19970,.freeobj 0;134;-9.5;2;210,  ;;cespugli
+19975,.freeobj 0;95;-6;5;0,.freeobj 0;46;-20;5,.freeobj 0;95;-36;5;90, ;; albero ;; siepe
+19990,.freeobj 0;29;-25;5;0,  ;casa2
+19995,.freeobj 0;29;-30;5;0,  ;casa2
+
+
+
+; Sandigliano
+
+20000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km20.bmp;50, ;;paletto segnakm
+20000,.railtype 0;56, ; suono TSS sotto cavalcavia
+20000,.freeobj 0;95;-6;5;0,   ;; siepe
+20005,.freeobj 0;134;5;2;210,  ;;cespugli
+20010,.freeobj 0;50;-1;1.5;-70,  ;;strauch
+20017,.freeobj 0;135;18;5;20,   ;;paliluce
+20020,.freeobj 0;149;2;-1;90,
+20020,.brightness 245,
+20021,.freeobj 0;153;0.5;0,  ;;ponte
+20025,.dike 0;1;2,.wallend 0,.ground 6,
+20025,.railtype 0;21, ; suono normale
+20028,.freeobj 0;59;0;0,  ;; a sx
+20030,.brightness 150,
+20032,.freeobj 0;149;-2.5;-1;-90,
+20035,.freeobj 0;43;-28;3;-45,  ;;bosco
+20035,.brightness 245,
+20050,.freeobj 0;59;0;0,  ;; a sx
+20075,.freeobj 0;59;0;0,  ;; a sx
+20100,.form 0;L;0;0,.form 0;R;0;1,.freeobj 0;91;-3;-1.5;180,  ;; cartello al contrario
+20110,.freeobj 0;12;-42;1;90,  ;; hangar1
+20118,.freeobj 0;24;-17;1.5,  ;;albero sx
+20123,.freeobj 0;24;-19;3,  ;;albero sx
+20125,.form 0;L;0;0,.form 0;R;0;1,.freeobj 0;80;-12;2;0,  ;; muro industria
+20138,.freeobj 0;158;0;0.4,  ;; primo terrapieno
+20142,.freeobj 0;160;-30;4;-40,  ;casa5
+20143,.freeobj 0;147;-10;-0.5;4,  ;;lampioni
+20150,.form 0;L;0;0,.form 0;R;0;1,.dikeend 0,.freeobj 0;95;-13;3;-45,  ;;rete
+20160,.freeobj 0;156;0;5;0,   ;;capannone1
+20160,.freeobj 0;157;0;0.4,   ;; stazione
+20163,.freeobj 0;161;-0.2;0,  ;;pensilina
+20164,.freeobj 0;57;3.4;0.4;-90,   ;;cabina telefonica
+20165,.Sta Sandigliano; P; 07.5200; ;1;1;0; ;10;0 ; ;,
+20165,.freeobj 0;46;-22;3, ;; albero sx
+20170,.stop 0;,.brightness 245,
+20172,.freeobj 0;57;-4.5;0.4;90,   ;;cabina telefonica
+20175,.form 0;L;0;0,.form 0;R;0;1,
+20175,.freeobj 0;147;-9;-0.5,  ;;lampioni
+20175,.brightness 100,
+20176,.freeobj 0;29;-35;4;45,  ;;casa
+20180,.height -5,.freeobj 0;84;0;-0.5;0,.freeobj 0;155;0;0,.freeobj 0;159;0;0,    ;;ponte3 
+20182,.freeobj 0;44;10;5,  ;;pini
+20190,.brightness 245,
+20200,.freeobj 0;91;-2;0;0,.marker sanbie\marker\segnalequadro2.gif;80, ;;segnale stop
+20200,.wall 0;1;12,.pitch 13,
+20201,.SigF 4;1;0;50,.section 4;4,.PreTrain 07.4900,
+20205,.freeobj 0;42;-20;3,  ;;alberi
+20210,.freeobj 0;50;0;-1.5;-65,  ;strauch
+20212,.freeobj 0;50;0;-1.5;-65,  ;strauch
+20225,.freeobj 0;95;-13;3;0,
+20245,.freeobj 0;23;-25;3;0,   ;;casa
+20250,.freeobj 0;95;-13;3;0,
+20275,.freeobj 0;95;-13;3;0,
+20320,.freeobj 0;64;-2;0;0,   ;; segnale 400 inclinato
+20332,.freeobj 0;43;-37;2,   ;; alberisfondo
+20340,.freeobj 0;149;2;-1;90,  ;;muretto basso dx
+20350,.ground 5,.dike 0;0;2,.wall 0;0;12,.freeobj 0;149;-2;-1;-90,   ;;muretti bassi sx
+20420,.freeobj 0;63;-2;0;0,   ;; segnale 300 inclinato
+20425,.freeobj 0;149;2;-1;90,  ;;muretto basso dx
+20430,.height -4,
+20435,.freeobj 0;149;-2;-1;-90, ;;muretto basso a sx
+20500,.height -3,
+20520,.freeobj 0;62;-2;0;0,   ;; segnale 200 inclinato
+20620,.height -2,
+20625,.wall 0;0;15,
+20630,.freeobj 0;61;-2;0;0,.freeobj 0;53;2.5;0;0,   ;; segnale 100 inclinato e segnalesta a dx
+20700,.height -1,
+20725,.dikeend 0,
+20730,.SigF 3;1;-1.9;5.35,.section 0;4,.PreTrain 07.4930,
+20730,.freeobj 0;175;-2.5;0;180,
+20735,.freeobj 0;149;3;-2.5;90,     ;;muretto basso dx
+20737,.freeobj 0;95;-1;-0.5;0,
+20747,.freeobj 0;149;-3;-2.5;-90, ;;muretto basso a sx
+20750,.curve 0;0,.railtype 0;20,.freeobj 0;59;1;0;180,
+20751,.freeobj 0;26;-13;0;270, ;casa gialla sx
+20754,.freeobj 0;66;-3;0.5;180,  ;;campo grano a sx
+20755,.freeobj 0;31;2.5;0;180,  ; cartello a dx
+20760,.height 0.4,.ground 7,
+20760,.freeobj 0;38;-3;0;0,.marker sanbie\marker\PL.bmp;70,  ;;cartello PL
+20765,.freeobj 0;94;-5.5;0;0,   ;;casetta
+
+
+;PL
+20765,.freeobj 0;2;0;0.01;0,  ;; passaggio a livello
+20770,.freeobj 0;59;1;0;180,
+20772,.pitch 4,
+20775,.railstart 1;-6.3;0.1;7,.dike 1;0;0,.railstart 2;8;0.5;7,.dike 2;0;0,
+20775,.wall 0;-1;16,
+20778,.freeobj 0;134;0;-0.5;-45, ;; cespuglio
+20790,.freeobj 0;166;0;0;180, ;; sensori PL
+20800,.freeobj 0;38;2;0;180,  ;; cartello PL contrario
+20820,.freeobj 0;135;18;0;-90,   ;;paliluce
+20825,.freeobj 0;170;0;0,   ;; cascina sx
+20830,.freeobj 0;31;2.5;0;180,  ; cartello
+20849,.freeobj 0;134;0;-0.5;-45, ;; cespuglio
+20850,.dike 0;-1;7,.railend 1,.railend 2;14;0.5,
+20875,.wallend 0,
+20885,.freeobj 0;43;20;0,   ;; alberisfondo
+20891,.freeobj 0;24;2.9;-1,  ;albero
+20900,.height 0.5,.freeobj 0;171;1;0,  ;;cascina a dx
+20910,.freeobj 0;31;2.5;0;180,  ; cartello
+20913,.freeobj 0;95;2;0;180,
+20925,.dike 0;1;13,  ;cespugli
+20930,.freeobj 0;43;-33;-1.5,.freeobj 0;43;-53;-1.5,   ;;alberisfondo
+20950,
+20970,.freeobj 0;43;-35;-2,.freeobj 0;43;10;-2,   ;;alberisfondo
+20980,.freeobj 0;66;-2;-0.3;180, ; campo di grano
+21000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km21.bmp;60, ;;paletto segnakm
+21000,.curve -500;70,.railtype 0;6,.dike 0;1;3,.freeobj 0;136;-30;-2;0,.freeobj 0;136;20;-2;0,.freeobj 0;55;0;0,
+21010,.freeobj 0;31;2.5;0;180,  ; cartello
+21010,.freeobj 0;66;-1.5;-0.2;180, ; campo di grano
+21025,.freeobj 0;55;0;0,
+21030,.freeobj 0;43;15;-1.5,45,   ;;alberisfondo
+21035,.freeobj 0;66;-2;-0.2;180, ; campo di grano
+21050,.freeobj 0;55;0;0,
+21060,.freeobj 0;66;-2.5;-0.2;180, ; campo di grano
+21075,.dike 0;0;3,.height 0.5,
+21085,.freeobj 0;66;-4;-3;180, ; campo di grano
+21100,.freeobj 0;96;-25;-2,.freeobj 0;96;-30;-2,.freeobj 0;96;-35;-2,.freeobj 0;24;-40;-2;0, ;alberi
+21110,.freeobj 0;100;-65;-2.5;90,    ;;hangar1
+21175,.freeobj 0;38;2;0;180,  ;; cartello PL contrario
+
+;; ponte strada Trossi
+21246,.freeobj 0;87;0;0,
+21248,.freeobj 0;43;4;-4;0,.freeobj 0;43;-35;-4;0,
+21250,.height 3.0,.dikeend 0,.railtype 0;26, ; suono TSS sotto cavalcavia
+21250,.ground 1,.wall 0;-1;17,  ;; ponte
+21258,.freeobj 0;52;-5;-2.9;90,  ;;strada
+21270,.freeobj 0;87;0;0,
+21273,.freeobj 0;43;4;-6;0,.freeobj 0;43;-35;-6;0,
+21275,.ground 0,.wallend 0,.dike 0;0;3,.railtype 0;6,
+21375,.freeobj 0;38;2;0;180,  ;; cartello PL contrario
+21500,.ground 7,
+21525,.freeobj 0;38;-3;0;0,.marker sanbie\marker\PL.bmp;100,  ;;cartello PL
+21525,.railstart 9;8;-0.5;15,.wall 9;1;13,.dike 0;-1;3,   ;; strada dx
+21540,.freeobj 0;59;0;-0.5;0,  ;cespugli a sx
+21550,.dikeend 0,
+
+
+;PL
+21553,.freeobj 9;132;4;0;0.5,   ;segnalePL
+21556,.freeobj 0;27;17;-0.5;-80,  ;; PL orizzontale
+21561,.freeobj 9;168;2;-0.5;0,  ;; casello
+21563,.freeobj 0;57;14.5;-0.5;-88,   ;;cabina telefonica
+21563,.freeobj 9;131;7;-0.5,   ;; pino
+21565,.freeobj 0;138;2.5;0;-24,  ;; PL doppio
+21566,.freeobj 9;93;8;-6;0,  ; alberi
+21575,.height 0.5,.freeobj 0;59;9;0;66,  ;cespugli a sx
+21575,.railend 9;15;-0.5,.wall 0;-1;5,
+21577,.freeobj 0;22;3.5;-0.4;270,  ;; casetta
+21581,.freeobj 0;38;2;0;180,  ;; cartello PL contrario
+21583,.freeobj 0;151;-6;-0.45;0,
+21585,.freeobj 0;59;30;0;66,.freeobj 0;132;20;0;-90,   ; cespugli lato strada
+21586,.freeobj 0;173;-12;0;0, ;;renault
+21590,.freeobj 0;93;12;0;0;20,.freeobj 0;93;22;0;0;20,  ; alberi
+21600,.dike 0;1;3,
+21602,.freeobj 0;59;1;0;185,
+21608,.freeobj 0;4;-20;0.01;160,  ;;bus
+21613,.freeobj 0;4;-18;0.01;160,  ;;bus
+21615,.freeobj 0;175;2.5;0;0,  ;;segnalesta a dx 
+21625,.freeobj 0;151;-6;-0.45;0,  ; piazzale
+21625,.wall 0;-1;6,
+21630,.freeobj 0;100;-35;-0.5;45,    ;;hangar1
+21645,.freeobj 0;5;-20;-0.5;120, ;;ford
+21685,.freeobj 0;43;-38;-1.5;-10,   ;; alberisfondo
+21696,.freeobj 0;31;2.5;0;180,  ; cartello
+21700,.curve 0;0,.railtype 0;20,.dike 0;0;3,.wallend 0
+21796,.freeobj 0;31;2.5;0;180,  ; cartello
+21875,.railtype 0;23, ; suono TSS su ponte
+21883,.freeobj 0;88;0;0, ;; ponticello
+21896,.freeobj 0;31;2.5;0;180,  ; cartello
+21900,.railtype 0;20, ; suono normale
+21900,.height 4,.dike 0;0;12,
+21950,.dike 0;0;3,
+21990,.freeobj 0;34;-2;0;0,  ;;segnale 400m
+21996,.freeobj 0;31;2.5;0;180,  ; cartello
+22000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km22.bmp;100, ;;paletto segnakm
+22075,.ground 2,.railstart 1;-20;-3;2,.dike 1;-1;7,
+22090,.freeobj 0;25;12;-3;0,
+22090,.freeobj 0;33;-2;0;0,  ;;segnale 300m
+22100,.dikeend 0,
+22120,.freeobj 0;50;6;-4;20, ;;cespuglio
+22125,.freeobj 0;96;30;-4;0,
+22130,.freeobj 0;50;-15;-5;20, ;;cespuglio
+22150,.railtype 0;23, ; suono TSS su ponte
+22150,.freeobj 0;88;0;0, ;; ponticello
+22170,.freeobj 0;50;40;-5;20, ;;cespuglio
+22175,.railtype 0;20, ; suono normale
+22180,.freeobj 0;43;-42;-4;-30, ;alberi sfondo
+22180,.freeobj 0;93;35;-4;35,;; alberisfondo
+22185,.freeobj 0;43;6;-4;20,
+22190,.freeobj 0;32;-2;0;0,  ;;segnale 200m
+22195,.freeobj 0;43;12;2;0,
+22200,.dike 0;1;3,.dikeend 1,.railend 1,
+22210,.freeobj 0;43;-32;-4;-30,
+22270,.freeobj 0;93;-15;-4;-30,;; alberisfondo
+22280,.freeobj 0;43;-32;-4;-30,
+22290,.freeobj 0;31;-2;0;0,  ;;segnale 100m
+22300,.dike 0;0;3,
+22390,.freeobj 0;53;-2.5;0;180,
+22390,.SigF 2;1;-1.9;5.35,.section 2;4,.PreTrain 07.5030,
+22595,.freeobj 0;136;-15;-0.5;0, ;paloluce
+22635,.dike 0;0;12,
+22640,.marker sanbie\marker\segnalequadro1.gif;100,.freeobj 0;90;-3;-0.4;0,
+22650,.dike 0;0;3,
+22790,.marker sanbie\marker\segnalequadro.gif;100,.freeobj 0;89;-3;-0.4;0,
+22800,.freeobj 0;53;2.5;0;0, ;;segnalesta a dx
+22875,.railstart 1;15;-5;10;0,  ;strada
+22900,.freeobj 0;31;2.5;0;180,  ; cartello
+22900,.dike 0;-1;12,.wall 1;1;13,
+
+;; candelo città
+22910,.freeobj 0;96;7;-3;10,  ; albero
+22969,.freeobj 1;160;15;0;110,  ;casa5
+22970,.freeobj 0;96;7;-6;10,  ; albero
+22975,.ground 7,.wallend 1,.freeobj 1;95;5.5;0;90,
+22990,.freeobj 1;135;-5;0;90,  ;paliluce
+22995,.freeobj 0;57;0;-0.4;180,   ;;cabina telefonica
+22998,.freeobj 1;139;5;0;90,  ;;siepe
+23000,.freeobj 0;3;-3;0;0,.marker sanbie\marker\km23.bmp;60, ;;paletto segnakm
+23000,.wall 1;1;13,.freeobj 1;95;5.5;0;90,
+23010,.freeobj 0;31;2.5;0;180,  ; cartello
+23010,.freeobj 1;23;12;0;90,  ;;casa
+23025,.dike 0;0;12,
+23030,.freeobj 1;135;-5;0;90,  ;paliluce
+23045,.freeobj 1;96;7;0;10,  ; albero
+23048,.freeobj 1;96;10;0;10,  ; albero
+23050,.dike 0;-1;12,.wallend 1,
+23050,.freeobj 1;25;15;0;90,  ;casa lunga
+23055,.freeobj 1;135;-5;0;90,  ;paliluce
+23075,.Curve -300;70,.railtype 0;16,
+23075,.wall 1;1;13,.pitch 20,
+23090,.freeobj 1;95;5.5;0;90,
+23095,.freeobj 1;23;12;0;90,  ;;casa
+23099,.freeobj 1;23;9;0;90,  ;;casa
+23100,.freeobj 0;55;0.2;0;185,
+23100,.freeobj 1;126;50;0;45,   ;;case 
+23100,.railtype 0;36, ; suono TSS su ponticello
+23110,.freeobj 0;55;0.2;0;185, ;;dike
+23110,.freeobj 0;88;0;0, ;; ponticello
+23115,.freeobj 0;31;2.5;0;180,  ; cartello
+23125,.railtype 0;16,.wallend 1,.ground 0, ;;suono normale 
+23130,.freeobj 1;44;5;-0.5;0,   ;pini
+23147,.freeobj 1;25;5;0;90,
+23149.5,.freeobj 1;25;5;0;95,
+23150,.rail 1;45;-5,
+23150,.freeobj 0;69;45;-5;45,  ;; fienile
+23155,.freeobj 0;55;0.2;0;185, ;;dike
+23160,.freeobj 1;43;10;0;0,
+23175,.freeobj 0;55;0.2;0;185, ;;dike
+23175,.railend 1;75;-5,
+23180,.freeobj 0;178;90;-5;-45,
+23190,.freeobj 0;69;35;-5;-45,  ;; fienile
+23200,.freeobj 0;55;0.2;0;185, ;;dike
+23200,.dike 0;0;3,.freeobj 0;64;-2;0;0,  ;;segnale 400m inclinato
+23200,.freeobj 0;25;50;-5;45,
+23200,.freeobj 0;66;15;-5;0, ; campo di grano
+23210,.freeobj 0;126;80;-5;50,   ;;case
+23220,.freeobj 0;25;45;-7;45,
+23225,.freeobj 0;66;15;-5;0, ; campo di grano
+23250,.freeobj 0;66;20;-5;0, ; campo di grano
+23270,.freeobj 0;92;160;-5;-55,.freeobj 0;16;170;-5;30,
+23280,.freeobj 0;178;95;-5;-55,.freeobj 0;43;95;-5;40,
+23285,.freeobj 0;43;30;-5;60,
+23290,.freeobj 0;25;105;2;35,
+23300,.freeobj 0;96;90;4;20,
+23300,.freeobj 0;63;-2;0;0,  ;;segnale 300m inclinato
+23400,.freeobj 0;62;-2;0;0,  ;;segnale 200m inclinato
+23485,.freeobj 0;176;2;0;90,  ; limitesta
+23500,.freeobj 0;61;-2;0;0,  ;;segnale 100m inclinato
+23600,.freeobj 0;175;-2.5;0;180,
+23600,.SigF 3;1;-1.9;5.5,.section 0;4,.PreTrain 07.5100,
+23625,.height 6,
+23650,.dike 0;0;13,.railstart 3;0.5;0;2,.dike 3;1;5,.wall 0;1;14,
+
+
+;; candelo
+23650,.railstart 1;-2;0;19,.wallend 1,.dike 1;-1;0,
+23675,.rail 1;-5;0;61,.wallend 0,.rail 3;3;0;18,
+23700,.railstart 2;-9;0;61,.wallend 2,.dike 2;0;0,.rail 3;8.5;0;2,.dikeend 3,
+23700,.form 0;R;0;4,
+23725,.form 0;R;0;4,
+23730,.freeobj 0;182;0;0;0,  ;; parapetto
+23740,.freeobj 0;93;18;-15;0,  ; alberi
+23750,.form 0;R;0;1,.form 0;L;0;4,.railend 3,
+23750,.dikeend 0,
+23760,.freeobj 0;179;45;-6;-50, ;condominio
+23763,.freeobj 0;186;6;0.5;180,  ;signore
+23765,.freeobj 0;93;20;-11;0,  ; alberi
+23768,.freeobj 0;36;3;0.5,  ;;ragazzi
+23770,.freeobj 0;169;20;0.5;0, ;casette di stazione
+23775,.freeobj 0;172;0;0;0,  ;;stazione
+23775,.form 0;R;0;1,.form 0;L;0;4,.dike 1;-1;13,
+23775,.pole 1;0;1;25;2,
+23780,.Sta Candelo; P; 07.5400; ;1;1;0; ;10;0 ; ;,
+23782,.freeobj 0;57;6;0.4;-90,   ;;cabina telefonica
+23790,.freeobj 0;178;55;-1;-50, ;condominio
+23797,.stop 0,
+23800,.dikeend 1,.freeobj 0;181;0;0,
+23800,.pole 0;0;1;25;2,
+23807,.freeobj 0;177;30;0;45,   ;; pizzeria
+23808,.freeobj 0;162;15;0.5;0, ; torre d'acqua
+23810,.freeobj 0;91;2;0;0,.marker sanbie\marker\segnalequadro2.gif;100, ;;segnale stop
+23815,.freeobj 0;50;0;-1;45, ;;cespuglio
+23825,.wall 0;1;10,.wall 2;-1;10,.poleend 1  
+23825,.freeobj 0;52;6;-0.15;-40,    ;;strada sx
+23840,.freeobj 0;23;50;-5;90,   ;casa
+23850,.wallend 0,.wallend 2,.dike 0;1;3,.dike 2;-1;3,.pole 0;0;1;50;3,
+23855,.freeobj 0;22;2.5;-0.2;270,  ;; casetta
+23875,.dike 1;-1;13,
+23900,.freeobj 0;141;15;10;135,  ;;torre acqua
+24000,.SigF 4;1;0;50,.section 4;4,.PreTrain 07.5215,
+24000,.railtype 2;2,
+      .freeobj 0;119;-9;0;4.6, ; Curva r150 di raccordo
+      .limit 105,
+24025,.railtype 1;2,
+      .freeobj 1;59;0.5;0;10, ;dikeL
+24050,.freeobj 0;59;-1.8;0;7, ;dikeL
+24050,.railend 2;-5;0;0,.dike 1;-1;3,.height 3,
+  .railtype 0;2,
+  .freeobj 0;120;-1.96;0;194.1, ; Scambio 2-1
+24075,.freeobj 0;59;0.5;0;0, ;dikeL
+24075,.railend 1;0;0;0,.dikeend 0,.ground 2,.railstart 3;13;-3;10,.dike 0;0;14,  ;strada
+      .railtype 0;16,
+      .freeobj 0;121;0;0;182.42, ; Scambio finale 1-0
+      .dike 3;1;13,.wall 3;-1;1,
+24080,.freeobj 0;57;0;-0.4;180,   ;;cabina telefonica
+
+;case candelo 2
+24095,.freeobj 3;23;3;0;90,  ;;casa
+24100,.freeobj 3;135;0;2;90,  ;paliluce
+24100,.railstart 1;-6;0.7;61,.dike 1;-1;7,.pole 1;0;-1;25;2,   ;;inzio tronchino Avandero
+24100,.crack 0;1;0,
+24100,.poleend 0,
+24101,.freeobj 1;6;0;0;0,  ;;respingente
+24110,.freeobj 3;139;8;0;0,  ;;siepe
+24125,.railstart 2;0;0;2,   ;inizio scambio avandero
+24125,.rail 1;-5;0;61,.rail 2;0;0;2,
+  .railtype 0;2,
+  .freeobj 0;122;0;0;2.38, ; Scambio sx per racc.ind.
+24132,.freeobj 3;139;8;0;0,  ;;siepe
+24140,.freeobj 3;96;30;0;10,.freeobj 3;43;25;-1;45,   ;; alberisfondo
+24150,.rail 2;-3.5;0;2, 
+  	.rail 1;-4.5;0;2,
+  ;.railtype 1;2,
+   .railtype 0;16,
+24160,.freeobj 3;43;5;-1;45,   ;; alberisfondo
+24175,.railend 2;-5;0;17, ;finescambio avandero
+24175,.freeobj 0;175;2.5;0;0,  ;segnalePL
+  .railtype 1;61,
+  .freeobj 0;120;-4.55;0;182.5, ; Scambio sx da tronchino
+24180,.freeobj 1;175;-2.5;0;0,
+24187,.freeobj 1;176;-2;0;90,  ; limitesta
+24195,.freeobj 3;25;9;0;95,  ;;casa
+24195,.freeobj 3;25;14;0;0,   ;;casa
+      .dikeend 3,.wall 3;1;13,   
+24215,.freeobj 1;57;0;-0.4;180,   ;;cabina telefonica
+24220,.freeobj 3;179;30;-5;-50, ;condominio
+24250,.freeobj 3;128;32;0;25,  ;;tettoia
+24270,.freeobj 3;160;11;-0.5;30,  ;casa
+24275,,.dike 3;1;7,
+24285,.freeobj 3;73;40;-0.5;0,  ;; traliccio
+24290,,.freeobj 3;160;28;4.5;-55,  ;casa
+24300,.freeobj 0;31;2.5;0;180,  ; cartello
+     ,.wallend 3,.rail 3;13;-2.95;15,
+24345,.freeobj 3;160;5;-0.5;90,  ;casa
+
+;inizio curva verso avandero
+24350,.railtype 1;2,
+24375,.dikeend 1,.poleend 1,
+24375,.railstart 2;-10;0.5;61,.dike 2;-1;3,  
+24375,.crack 0;1;1, ; erba di riempimento
+      .freeobj 0;119;-5.1;0;183.5,  ; curva di raccordo
+24376,.freeobj 2;6;0;0;0,  ;respingente
+24379,.freeobj 2;$Rnd(18;19);0;0;2, ;carro 3
+24400,.height 5,
+24400,.rail 2;-10;0;61,.rail 1;-7.5,
+24400,.freeobj 0;31;2.5;0;180,  ; cartello
+24400,.crack 0;1;1, ; erba di riempimento
+      .railtype 2;2,
+      .freeobj 0;119;-8.1;0;177.9,  ; curva di raccordo
+24425,.crack 0;2;1, ; erba di riempimento
+24425,.railend 1;-10;0;18,
+      .freeobj 0;120;-10.0;0;182.7, ; Scambio sx da tronchino
+      .railtype 2;61,
+24445,.freeobj 0;59;-14;0.5;-2, ;alberi
+24450,.freeobj 0;80;-12;0;-2,  ;muro industria
+24450,.railstart 1;-11;0.2;2,.wall 1;1;2,.dike 0;1;3,.dikeend 2,
+24450,.crack 0;2;1, ; erba di riempimento
+24450,.railtype 2;62,
+24455,.freeobj 2;$Rnd(18;19);0.1;0, ;carro 3
+24473,.freeobj 0;80;-42;0;90,  ;muro industria
+24475,.crack 0;2;1, ; erba di riempimento
+      .railend 3,.dikeend 3,.wallend 3,
+24500,.crack 0;2;1, ; erba di riempimento
+24508,.freeobj 2;$Rnd(18;19);0;0, ;carro 3
+24523,.freeobj 2;19;0.1;0, ;carro 3
+24525,.crack 0;2;1, ; erba di riempimento
+24536,.freeobj 2;$Rnd(18;19);0.1;0, ;carro 3
+24550,.crack 0;2;1, ; erba di riempimento
+24550,.freeobj 2;$Rnd(18;19);0;0, ;carro 3
+24575,.crack 0;2;1, ; erba di riempimento
+24600,.crack 0;2;1, ; erba di riempimento
+24600,.freeobj 0;31;2.5;0;180,.freeobj 0;34;-2;0;0,  ;;segnale 200m
+24625,.freeobj 0;55;0.2;0;0, ;;dike L
+24625,.freeobj 1;73;-10;0;0,  ;; traliccio
+24640,.freeobj 1;207;-8;1;-45,   ; container
+24650,.freeobj 0;55;0.2;0;0, ;;dike L
+24650,.freeobj 1;211;-10;1.5;-60,    ;AVANDERO
+24650,.freeobj 1;207;-5;1.6;-90,   ; container
+24650,.rail 1;-11;-2;62,.railend 2,.wallend 2,.dikeend 2,
+24675,.freeobj 0;55;0.2;0;0, ;;dike L
+24690,.freeobj 1;$Rnd(206;207);-2;0;-90,   ; container
+24690,.freeobj 1;$Rnd(206;207);-2;3;-90,   ; container
+24700,.freeobj 0;55;0.2;0;0, ;;dike L
+24700,.freeobj 0;33;-2;0;0,  ;;segnale 200m
+24700,.freeobj 1;211;-15;0;-65,    ;AVANDERO
+24710,.freeobj 1;207;-5;0;-90,   ; container
+24720,.freeobj 1;211;-12;0;-65,    ;AVANDERO
+24720,.freeobj 1;207;-2;0;-90,   ; container
+24725,.freeobj 0;55;0.2;0;0, ;;dike L
+24730,.freeobj 1;207;-2;0;-90,   ; container
+24740,.freeobj 1;207;-2;0;-90,   ; container
+24745,.freeobj 1;206;-2;3.05;90,   ; container
+24750,.freeobj 1;$Rnd(206;207);-2;0;-90,   ; container
+24750,.freeobj 0;55;0.2;0;0, ;;dike L
+24775,.freeobj 0;55;0.2;0;0, ;;dike L
+24800,.freeobj 0;55;0.2;0;0, ;;dike L
+24800,.freeobj 0;32;-2;0;0,  ;;segnale 200m
+24825,.freeobj 0;55;0.2;0;0, ;;dike L
+24850,.freeobj 0;55;0.2;0;0, ;;dike L
+24875,.freeobj 0;55;0.2;0;0, ;;dike L
+24880,.freeobj 1;73;-20;0;45,  ;; traliccio
+24895,.freeobj 0;80;-32;-1.5;90, ;muroindustria
+24900,.freeobj 0;43;-35;-5;0, ;;bosco
+24900,.freeobj 0;55;0.2;0;0, ;;dike L
+24900,.freeobj 0;31;-2;0;0,  ;;segnale 200m
+
+24900,.railend 1,.dikeend 1,.wallend 1,.curve 0;0,.railtype 0;20,  
+24900,.dike 0;0;3,
+24925,.ground 0,.railstart 3;-46;-4.7;10,  ;strada sx Via Candelo
+25000,.freeobj 0;174;-2.5;0;0,
+25000,.SigF 0;1;-2.5;0.05,.section 2;3,.PreTrain 07.5300,
+25000,.Curve 500;60,.railtype 0;21,
+25050,.ground 7,
+25100,.railtype 0;56, ; suono TSS su ponte
+25100,.dikeend 0,.freeobj 0;88;0;0, ;; ponticello
+25115,.freeobj 0;165;-25;-4.9;90, ;;strada
+25120,.freeobj 0;43;5;-5;30, ;;bosco
+25125,.dike 0;1;3,.railtype 0;21 ; suono normale
+25125,.freeobj 0;55;0.2;0;0, ;;dike L
+25150,.freeobj 0;55;0.2;0;0, ;;dike L
+25150,.freeobj 0;31;2.5;0;180,  ; cartello
+25150,.freeobj 0;99;-20;-5;-90,  ;; auto
+25175,.freeobj 0;55;0.2;0;0,.wall 3;1;4, ;;dike L
+25175,.freeobj 0;199;-6;0;-5,  ;autolavaggio
+25185,.freeobj 3;40;15;0;0,   ;alberetti
+25195,.freeobj 3;198;-10;1;0, ;fabbrica
+25200,.freeobj 0;55;0.2;0;0, ;;dike L
+25200,.freeobj 0;50;-14;-5.5;-20, ;;cespuglio
+25210,.freeobj 3;163;-40;-2;-50,    ;capannone2
+25225,.dike 0;0;3,.wallend 3,
+25230,.freeobj 3;151;15;0;105,  ;piazzale davanti casa
+25237,.freeobj 3;29;15;0;105,    ;casa3
+25250,.freeobj 0;57;0;-0.4;0,  ;;cabina telefono
+25255,.freeobj 3;191;-5;0;180,   ;edificiostazione1
+25273,.freeobj 3;163;-50;-2;-50,.freeobj 3;151;-20;0;-60,   ;;capannone2
+25275,.freeobj 0;53;2.5;0;0,  ;;segnale PL
+25280,.freeobj 3;163;-40;-2;-50,.freeobj 3;151;-10;0;-50,   ;;capannone2
+25290,.freeobj 3;93;-50;0;-45,.freeobj 3;43;-45;-0.5;0,   ;; alberisfondo
+25300,.curve 0;0,.railtype 0;20,
+25375,.freeobj 0;31;2.5;0;180,  ; cartello
+25400,.dike 0;0;3,
+25450,.dikeend 0,.railtype 0;23, ; suono TSS su ponte
+25450,.freeobj 0;88;0;0, ;; ponticello
+25470,.freeobj 0;43;5;-5;0,.freeobj 0;43;-35;-5;0, ;;bosco
+25475,.dike 0;0;3,.railtype 0;20, ; suono normale
+25475,.freeobj 0;31;2.5;0;180,  ; cartello
+25575,.freeobj 0;31;2.5;0;180,  ; cartello
+25650,.dikeend 0,.railtype 0;23, ; suono TSS su ponte
+25650,.freeobj 0;88;0;0, ;; ponticello
+25670,.freeobj 0;43;5;-5;0, ;;bosco
+25670,.freeobj 0;59;0;-4;0,
+25675,.dike 0;1;3,.railtype 0;20, ; suono normale
+25675,.freeobj 0;31;2.5;0;180,  ; cartello
+25675,.dike 3;-1;7,.wall 3;1;4,  ;alberi strada e rete
+25675,.ground 0,
+25680,.freeobj 0;152;-10;-5;0,  ;;casa2
+25710,.freeobj 0;29;-20;-5;0,    ;casa3
+25745,.freeobj 0;210;-20;-6;0,.freeobj 0;210;-34;-6;0,    ;capannone2
+25775,.freeobj 0;64;-2;0;0,.dike 0;0;3,
+25800,.freeobj 0;93;-35;-5;0,  ; alberi
+25875,.railend 3,.dikeend 3,.wallend 3,
+25875,.freeobj 0;63;-2;0;0,
+25950,.dikeend 0,.railtype 0;23, ; suono TSS su ponte
+25950,.freeobj 0;88;0;0, ;; ponticello
+25970,.freeobj 0;43;5;-5;0,.freeobj 0;43;-35;-5;0, ;;bosco
+25975,.dike 0;0;3,.railtype 0;20, ; suono normale
+25975,.freeobj 0;62;-2;0;0,
+26075,.freeobj 0;61;-2;0;0,
+
+;ponte Corso San Maurizio
+26125,
+26125,.dikeend 0,.ground 1,.wall 0;-1;18,.height 5,  ;; ponte
+26125,.Curve 500;60,.railtype 0;21,
+26131,.freeobj 0;52;-12;-4;90,  ;;strada
+26147,.freeobj 0;87;0;-0.2,.freeobj 0;43;-35;-5;0,
+26150,.ground 0,.wallend 0,.dike 0;0;12, ;; fineponte
+
+;Biella
+26160,.freeobj 0;57;0;-0.4;180,   ;;cabina telefonica
+26183,.SigF 1;1;-2.5;0.1,.section 0;3,.PreTrain 07.5330,   ;; segnale stazione sulla sinistra.
+26183,.freeobj 0;30;-2.5;0;0,
+26185,.freeobj 0;50;7;-4;30, ;;cespuglio
+26190,.freeobj 0;50;6;-4;20, ;;cespuglio
+26200,.wall 0;1;1,.dike 0;-1;12, ;;staccionata
+26200,.railstart 1;8;1.3;17,.dike 1;1;7,.wallend 1,.freeobj 1;6;0;0;180,.freeobj 1;55;0;0;0,  ;;respingente e inizio tronchino
+26225,.rail 1;9.5;0.8;17,.freeobj 1;55;0;0;0,
+26250,.rail 1;9.5;0.5;17,.freeobj 1;55;0;0;0,
+26275,.wall 0;-1;1,.freeobj 1;55;0;0;0,
+  .rail 1;8.3;0.25;17,
+26276,.freeobj 0;176;-2;0;90,  ; limitesta
+26293,.freeobj 0;50;-2.5;-2;-45, ;;cespuglio
+26300,.rail 1;5.8;0;17,.freeobj 1;55;0;0;0,
+  .freeobj 1;117;0;0;-1.35;0,
+  .railtype 1;2,
+26300,.dike 0;-1;7,
+  .railstart 5;2;0;2, ; rail fittizia per rumore scambio
+  .pitch 0,
+26325,.curve 0;0,
+      .dikeend 1,
+      .railtype 0;2,
+      .railstart 10;9;0;2,
+      .dikeend 10,
+      .wall 10;1;4,
+      .dike 10;1;7, ;;binario 9
+26325,.rail 1;2.5;0;2,.dikeend 1,
+      .freeobj 0;201;2.03;-0.01;-9, ; congiunzione binari
+      .rail 5;0, ; rail fittizia per rumore scambio
+      .ground 4,
+      .freeobj 0;205;4.41;0;-0.2,  ;scambio dx parzialmente arrugg.
+26338,.limit 30,.marker sanbie\marker\30km.gif;300,
+26340,.freeobj 0;197;-25;-3;0,   ;condominio
+26350,.railend 1;0;0;2,.wallend 1,.dikeend 1,  ;;fine tronchino
+26350,.wallend 0,
+26350,.freeobj 0;118;0;0;180,  ; scambio rovescio
+  .railtype 0;23,
+  .freeobj 0;115;4.41;0;0, ; bin.8 diritto
+26375,.pole 0;0;-1;25;4,.dikeend 10,
+  .freeobj 0;114;4.41;0;2, ; bin.8 r300
+  .freeobj 0;119;9;0;185,  ; bin.9 curva r150 arr
+  .freeobj 0;124;9.0;0;2.0, ; bin 9 diritto arr
+  .railtype 10;2,
+26390,.freeobj 0;74;0;0,   ;steccato
+26400,.freeobj 0;94;-5.5;0;0,   ;;casetta
+  .railtype 0;2,
+  .freeobj 0;117;0;0;-0.2,  ;3
+  .freeobj 0;110;5.3;0;6.8,  ; bin.8 curva r180
+  .freeobj 0;119;9.87;0;7,  ; bin.9 curva r150 arr
+  .railend 10;11.1,.wallend 10,.dikeend 10,
+26424,.marker sanbie\marker\Biella.gif;50,
+26425,.freeobj 0;117;0;0;-0.2,  ;3
+  .freeobj 0;110;2.42;0;16.2,  ; bin.7 curva r180
+  ;.freeobj 0;115;2.41;0;10.68,  ; bin.7 diritto
+  .freeobj 0;115;8.30;0;9.38,    ; bin.8 diritto
+  .freeobj 0;124;12.95;0;9.82, ; bin.9 diritto arr
+  .rail 5;2, ; rail fittizia per rumore scambio
+  .railstart 6;0;0;2,
+26450,.railtype 0;23,
+  .freeobj 0;118;2.42;0;11, ; scambio 2
+  .freeobj 0;124;17.27;0;10, ; bin.8 diritto arr
+  .freeobj 0;201;9.78;-0.01;20, ; congiunzione binari
+  .railend 5,
+  .rail 6;2, ; rail fittizia per rumore scambio
+26475,.railstart 10;-5;0;17,.dike 10;-1;7,.wallend 10,.freeobj 10;6;0;0;180,
+26475,.dikeend 0,.railstart 7;0;0;2,.wallend 7,
+  .railtype 0;2,
+  .freeobj 0;117;0;0;-0.2,  ;scambio destro
+  .freeobj 0;110;5.25;0;6.6,    ; bin 5 curva r180
+  .freeobj 0;114;7.3;0;14.6,    ; bin 6 curva r300
+  .freeobj 0;101;16.4;0;189, ; scambio inglese
+  .freeobj 0;123;21.65;0;10, ; scambio inglese arrugginito
+  .freeobj 0;115;16.4;0;8, ; bin.7-6 diritto
+  .railend 6,
+26486, .freeobj 0;117;17.95;0;7.5, ; scambio destro
+26500,.poleend 0,
+26500,.rail 10;-4.5;0;2,.railtype 0;2,.railend 7;5;0;2,.poleend 7,.dikeend 7,
+26500,.railstart 1;-2.5;0;2,.dike 1;-1;7,.wallend 1,
+  .railtype 0;23,
+  .freeobj 0;119;-4.52;0;4.60, ; curva raccordo arruggunita
+  .freeobj 0;118;2.42;0;11, ; scambio 2
+  .freeobj 0;114;8.15;0;13,    ; bin.5 curva r300
+  .freeobj 0;115;13.85;0;16.68,; bin.6 diritto
+  .freeobj 0;119;26.04;0;16, ; bin.8 curva arrugginita
+  .freeobj 0;124;28.75;0;20, ; bin.9 dir arrugg
+  .railstart 5;0;0;2, ; rail fittizia per rumore scambio
+26501,.freeobj 0;54;17.35;0;180,
+26509,.freeobj 0;115;23.20;0;18, ; bin.7 diritto
+26525,.rail 1;-1.5;0;2,
+26525,.railend 10;0;0;2,.dikeend 10,.wallend 10, ; fine tronchino
+26525,.Curve 125.416;0,
+  .railtype 0;2,
+  .freeobj 0;101;0;0;-5.68, ; scambio inglese
+  .freeobj 0;110;5.25;0;1.6,   ; bin.3 curva r180
+  .freeobj 0;114;7.18;0;7.2,   ; bin.4 curva r300
+  .freeobj 0;115;13.65;0;9.5,  ; bin.5 diritto
+  .freeobj 0;115;22.9;0;181.5, ; bin.5-6 diritto
+  .freeobj 0;115;27.80;0;11.2, ; bin.7 diritto
+  .freeobj 0;124;32.3;0;12.6, ; bin.8 diritto arrugginito
+  .freeobj 0;124;36.7;0;12.5, ; bin.9 dir arrugg
+  .freeobj 0;8;48;0;0,   ;torre d'acqua
+  .rail 5;2,
+26550,.rail 1;-2.0;0;2,
+26550,.railtype 0;23,.curve 0;0,
+  .freeobj 0;113;-2.5;0;-4.9, ; curva di raccordo
+  .freeobj 0;114;5.945;0;2.2, ; bin.3 curva r300
+  .freeobj 0;115;10.23;0;3.5, ; bin.4 diritto
+  .freeobj 0;115;17.61;0;4.5, ; bin.5 diritto
+  .freeobj 0;115;25.24;0;5.2, ; bin.6 diritto
+  .freeobj 0;105;25.2;0;185, ; scambio 5-6
+  .freeobj 0;115;32.25;0;5.2, ; bin.7 diritto
+  .freeobj 0;124;37.30;0;5.2, ; bin.8 diritto
+  .freeobj 0;124;41.5;0;6.7, ; bin.9 diritto
+26550,.freeobj 5;193;0;0,.railend 5,
+26553,.freeobj 0;54;13.73;0;180,  ;segnale
+26574,.freeobj 0;54;3.5;0;180,  ;segnale
+26575,.rail 1;-4.6;0;21,.dikeend 1,.freeobj 1;55;0.2;0;0, ;;dike L
+26575,.railtype 0;14,.Curve 300;60,.wall 1;-1;1,.dike 1;-1;15,.height 0,
+26575,.freeobj 0;193;8;0,
+  .freeobj 0;115;6.9;0;2.5,   ; bin.3 diritto
+  .freeobj 0;115;11.74;0;2.0, ; bin.4 diritto
+  .freeobj 0;115;19.52;0;2.5, ; bin.5 diritto
+  .freeobj 0;115;27.44;0;2.7, ; bin.6 diritto
+  .freeobj 0;115;34.44;0;2.7, ; bin.7 diritto
+  .freeobj 0;124;39.44;0;2.7, ; bin.8 diritto
+  .freeobj 0;124;44.24;0;3.2, ; bin.9 diritto
+26600,.rail 1;-4.6;0;21,.freeobj 1;55;0.2;0;0, ;;dike L
+      .railtype 1;23,
+26600,.curve 0;0,.railtype 0;23,.railstart 3;8;0;23,.dikeend 3,.wallend 3,.railstart 4;12.6;0;23,.dikeend 4,.wallend 4
+26600,.railstart 5;20.6;0;23,.dikeend 5,.wallend 5,.railstart 6;28.6;0;23,.dikeend 6,.wallend 6,.railstart 7;35.6;0;23,.dikeend 7,.wallend 7,
+26600,.railstart 8;40.6;0;17,.dikeend 8,.wallend 8,.railstart 9;45.6;0;17,.dikeend 9,.wallend 9,
+26600,.freeobj 5;193;0;0,.freeobj 3;193;0;0,
+26600,.freeobj 4;194;0;0, ;presa
+26600,.freeobj 1;99;-18;-1.9;180,  ;; auto
+26617,.freeobj 0;194;0;0, ;presa
+26620,.freeobj 4;194;0;0, ;presa
+26625,.rail 1;-4.6;0;20,
+26625,.freeobj 5;193;0;0,.freeobj 3;193;0;0,
+26625,.pole 3;0;-1;25;4,
+26634,.freeobj 0;194;0;0, ;presa
+26640,.freeobj 4;194;0;0, ;presa
+26650,.freeobj 0;188;0;0,  ;pompa
+26650,.freeobj 5;193;0;0,.freeobj 3;193;0;0,
+26650,.wallend 1,.dikeend 1,
+26660,.freeobj 1;29;-80;0;0,  ;; casa dx
+26675,.pole 5;0;-1;25;4,
+26678,.freeobj $Rnd(3;4);1;0;0,  ;ALN in deviata
+26682,.freeobj 1;99;-22;0;-90,  ;; auto
+26685,.freeobj 1;99;-22;0;-90,  ;; auto
+26690,.freeobj 9;142;-1;0;0,  ;sagoma
+26700,.form 0;R;0;6,.form 4;R;0;6,.form 3;L;0;6,.form 1;L;0;6,.form 5;L;0;6,.form 5;L;0;7
+26700,.freeobj 0;190;0;0,  ;cartello biella
+26704,.freeobj 0;189;0;0,.freeobj 4;189;0;0, ; passaggio raso
+26710,.freeobj 0;186;3;0.3;180,  ;signore
+26715,.freeobj 1;82;-3;0.3,  ; 2donne
+26718,.Sta Biella; 07.5800;T;;1;1;0; ;10;0 ;; ,
+26720,.stop 0;20;20,
+26725,.freeobj 1;196;0;0,   ;piazzalebiella
+26725,.poleend 3,.poleend 5,
+26725,.freeobj 0;189;0;0,.freeobj 4;189;0;0, ; passaggio raso
+26725,.freeobj 0;187;0;0,.freeobj 4;187;0;0,  ;pensilina
+26725,.form 0;R;0;5,.form 4;R;0;5,.form 3;L;0;5,.form 1;L;0;5,.form 5;L;0;7
+26725,.freeobj 9;192;0;0,  ;edificiostazione2
+26725,.freeobj 1;195;0;0,  ;stazione biella San Paolo
+26730,.SigF 4;1;0;50,.section 4;4,.PreTrain 07.5430
+26746,.freeobj 0;189;0;0,.freeobj 4;189;0;0, ; passaggio raso
+26750,.freeobj 0;190;0;0,  ;cartello biella
+26750,.form 0;R;0;7,.form 4;R;0;7,.form 3;L;0;7,.form 1;L;0;7,.form 5;L;0;7
+26753,.freeobj 4;1;0;0,  ;ALN in deviata
+26770,.rail 6;24.6;0,
+26775,.form 0;R;0;7,.form 4;R;0;7,.form 3;L;0;7,.form 1;L;0;7,.form 5;L;0;7,
+26775,.pole 3;0;-1;25;4,.pole 5;0;-1;25;4,
+26775,.freeobj 1;191;-26;0.5;90,.freeobj 1;44;-30;0;0, ;;edificiostazione1
+26778,.freeobj $Rnd(3;4);1;0;0,  ;ALN in deviata
+26780,.freeobj 9;29;25;0;90,  ;; casa dx
+26790,.freeobj 4;43;-85;-0.5;0,
+26799,.freeobj 7;6;0;0;0,.freeobj 8;6;0;0;0,.freeobj 9;6;0;0;0,  ; respingenti
+26800,.form 0;R;0;7,.form 3;L;0;7,.form 1;L;0;7
+26800,.railend 6;20.6;0,
+26800,.railend 7,.railend 8,.railend 9,
+26800,.poleend 5,
+26805,.freeobj 5;191;9;0;25, ;;edificiostazione1
+26810,.freeobj 1;29;-25;0;90, ;casa3
+26823,.freeobj 4;43;-55;-0.5;0,
+26825,.railend 5;12.6;0;23,
+26830,.freeobj 1;135;0;0;-90,  ;pali
+26835,.freeobj 4;43;5;-0.5;0,.freeobj 0;43;35;-0.5;0, 
+26850,.rail 4;8;0;23,.dike 3;1;6,.dike 1;-1;6,.freeobj 0;189;0;0,  ;passaggio raso
+26864,.freeobj 0;54;3.5;0;0,
+26864,.SigF 4;1;3.5;0.1,.section 0;4,.Pretrain 07.5500
+26875,.rail 4;4;0;23,
+26880,.freeobj 1;54;-2.5;0;0,  ;segnale via 1°binario
+26900,.rail 1;-2.3;0;23,.railend 4;0;0;23,
+26925,.railend 1;0;0;23,.dike 0;-1;6,.dike 3;1;6,
+26975,.railtype 3;2,.poleend 3,
+26995,.freeobj 3;6;0;0;0, ; respingente
+26995,.height 0.5,.freeobj 0;200;0;0;0,                            ;; galleria rivetti
+27000,.railend 3;0.5;0,

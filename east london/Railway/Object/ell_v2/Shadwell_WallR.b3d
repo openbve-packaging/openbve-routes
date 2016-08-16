@@ -1,0 +1,156 @@
+[Meshbuilder]
+Vertex 3.5,3.5,0
+Vertex 3.5,1.1,0
+Vertex 4,1.1,0
+Vertex 4,3.5,0
+Face2 0,1,2,3
+Color 0,0,0
+
+[MeshBuilder]
+Vertex 3.5, 3.5, 25
+Vertex 3.5, 3.2, 25
+Vertex 3.5, 3.2, 0
+Vertex 3.5, 3.5, 0
+Face 3,2,1,0
+
+[Texture]
+load SHadwellR.bmp
+Coordinates 0,-8,0
+Coordinates 1,-8,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 3.5,3.2,3.125
+Vertex 3.5,1.1,3.125
+Vertex 3.5,1.1,0
+Vertex 3.5,3.2,0
+Face 3,2,1,0
+[Texture]
+load Shadwell_Roundell.bmp
+Coordinates 0,-1,0
+Coordinates 1,-1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 3.5,3.2,15.625
+Vertex 3.5,1.1,15.625
+Vertex 3.5,1.1,12.5
+Vertex 3.5,3.2,12.5
+Face 3,2,1,0
+[Texture]
+load Shadwell_Roundell.bmp
+Coordinates 0,-1,0
+Coordinates 1,-1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+
+[Meshbuilder]
+Vertex 3.5,3.2,9.375
+Vertex 3.5,2.9,9.375
+Vertex 3.5,2.9,6.25
+Vertex 3.5,3.2,6.25
+Face 3,2,1,0
+[Texture]
+load DLRR.bmp
+Coordinates 0,-1,0
+Coordinates 1,-1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 3.5,2.9,9.375
+Vertex 3.5,1.1,9.375
+Vertex 3.5,1.1,6.25
+Vertex 3.5,2.9,6.25
+Face2 0,1,2,3
+[Texture]
+load art.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 3.5,3.2,21.875
+Vertex 3.5,2.9,21.875
+Vertex 3.5,2.9,18.75
+Vertex 3.5,3.2,18.75
+Face 3,2,1,0
+[Texture]
+load DLRR.bmp
+Coordinates 0,-1,0
+Coordinates 1,-1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 3.5,2.9,21.875
+Vertex 3.5,1.1,21.875
+Vertex 3.5,1.1,18.75
+Vertex 3.5,2.9,18.75
+Face2 0,1,2,3
+[Texture]
+load art.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 3.5,3.2,6.25
+Vertex 3.5,1.1,6.25
+Vertex 3.5,1.1,3.125
+Vertex 3.5,3.2,3.125
+Vertex 3.5,3.2,18.75
+Vertex 3.5,1.1,18.75
+Vertex 3.5,1.1,15.625
+Vertex 3.5,3.2,15.625
+Vertex 3.5,3.2,25
+Vertex 3.5,1.1,25
+Vertex 3.5,1.1,21.875
+Vertex 3.5,3.2,21.875
+Vertex 3.5,3.2,12.5
+Vertex 3.5,1.1,12.5
+Vertex 3.5,1.1,9.375
+Vertex 3.5,3.2,9.375
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+Face2 12,13,14,15
+Color 255,255,255
+
+[Meshbuilder]
+Vertex 3.5,3.5,25
+Vertex 3.5,3.5,0
+Vertex 3.3,4.5,0
+Vertex 3.3,4.5,25
+Vertex 3.3,6,0
+Vertex 3.3,6,25
+Face2 0,1,2,3
+Face2 3,2,4,5
+[Texture]
+Load metal1.bmp
+Coordinates 0,1,0
+Coordinates 1,1,15
+Coordinates 2,0,15
+Coordinates 3,0,0
+Coordinates 4,1,15
+Coordinates 5,1,0
+
+[Meshbuilder]
+Vertex 3.3,6,0
+Vertex 3.3,4.5,0
+Vertex 3.5,3.5,0
+Vertex 4,3.5,0
+Vertex 4,6,0
+Face2 0,1,2,3,4
+[Texture]
+load metal1.bmp
+Coordinates 0,1,0
+Coordinates 1,1,0.5
+Coordinates 2,0.5,1
+Coordinates 3,0,1
+Coordinates 4,0,0

@@ -1,0 +1,110 @@
+[MeshBuilder]
+Cube 0.8,0.08,0.08
+Color 20,20,20
+Translate 0,1.05,-6
+
+[MeshBuilder]
+Cylinder 20,0.75,0.75,1.8
+Color 20,40,160
+Rotate 0,0,1,90
+Translate 0,1.75,-5.5
+
+[MeshBuilder]
+Cube 0.8,0.08,0.08
+Color 20,20,20
+Translate 0,1.05,-5
+
+[MeshBuilder]
+Vertex -1.205,1,-7.15
+Vertex -1.205,1,-4
+Vertex -0.9,1.8,-4
+Vertex -0.9,1.8,-7.15
+Vertex 1.205,1,-7.15
+Vertex 1.205,1,-4
+Vertex 0.9,1.8,-4
+Vertex 0.9,1.8,-7.15
+Face2 0,1,2,3
+Face2 7,6,5,4
+
+[Texture]
+Load rantai2.bmp
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Coordinates 4,1,1
+Coordinates 5,0,1
+Coordinates 6,0,0
+Coordinates 7,1,0
+Transparent 255,255,255
+
+[MeshBuilder]
+Vertex 0.9,1.8,4
+Vertex 0.9,1.8,7.15
+Vertex 1.205,1,7.15
+Vertex 1.205,1,4
+Vertex -0.9,1.8,4
+Vertex -0.9,1.8,7.15
+Vertex -1.205,1,7.15
+Vertex -1.205,1,4
+Face2 0,1,2,3
+Face2 7,6,5,4
+
+[Texture]
+Load rantai2.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Coordinates 4,0,0
+Coordinates 5,1,0
+Coordinates 6,1,1
+Coordinates 7,0,1
+Transparent 255,255,255
+
+[MeshBuilder]
+Cube 0.8,0.08,0.08
+Color 20,20,20
+Translate 0,1.05,6
+
+[MeshBuilder]
+Cylinder 20,0.75,0.75,1.8
+Color 20,40,160
+Rotate 0,0,1,90
+Translate 0,1.75,5.5
+
+[MeshBuilder]
+Cube 0.8,0.08,0.08
+Color 20,20,20
+Translate 0,1.05,5
+
+[MeshBuilder]
+Vertex -1.18,0.36,-1
+Vertex -1.18,0.36,3.7
+Vertex -1.18,0.76,3.7
+Vertex -1.18,0.76,-1
+Face2 0,1,2,3
+
+[Texture]
+Load logo.bmp
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+
+[MeshBuilder]
+Vertex 1.18,0.76,-1
+Vertex 1.18,0.76,3.7
+Vertex 1.18,0.36,3.7
+Vertex 1.18,0.36,-1
+Face2 0,1,2,3
+
+[Texture]
+Load logo.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+TranslateAll 0,0,0
+RotateAll 0,1,0,180

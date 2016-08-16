@@ -1,0 +1,242 @@
+[MeshBuilder]
+
+Vertex  -2.700,1.1,0.0
+Vertex  -2.632,1.1,5.3
+Vertex  -1.432,1.1,5.3
+Vertex  -1.500,1.1,0.0
+
+Vertex  -2.632,1.1,5.0
+Vertex  -2.599,1.1,10.3
+Vertex  -1.399,1.1,10.3
+Vertex  -1.432,1.1,5.0
+
+Vertex  -2.599,1.1,10.0
+Vertex  -2.601,1.1,15.3
+Vertex  -1.401,1.1,15.3
+Vertex  -1.399,1.1,10.0
+
+Vertex  -2.601,1.1,15.0
+Vertex  -2.636,1.1,20.3
+Vertex  -1.436,1.1,20.3
+Vertex  -1.401,1.1,15.0
+
+Vertex  -2.636,1.1,20.0
+Vertex  -2.700,1.1,25.3
+Vertex  -1.500,1.1,25.3
+Vertex  -1.436,1.1,20.0
+Face2 0,1,2,3
+face2 4,5,6,7
+face2 8,9,10,11
+face2 12,13,14,15
+face2 16,17,18,19
+[Texture]
+Load 2StaForm.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+Coordinates 8, 0, 1
+Coordinates 9, 0, 0
+Coordinates 10, 1, 0
+Coordinates 11, 1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0
+Coordinates 14, 1, 0
+Coordinates 15, 1, 1
+Coordinates 16, 0, 1
+Coordinates 17, 0, 0
+Coordinates 18, 1, 0
+Coordinates 19, 1, 1
+
+[MeshBuilder]
+
+Vertex -1.900,-0.300,0.0
+Vertex -1.832,-0.300,5.3
+Vertex -1.832,0.8375,5.3
+Vertex -1.900,0.8375,0.0
+
+Vertex -1.832,-0.300,5.0
+Vertex -1.799,-0.300,10.3
+Vertex -1.799,0.8375,10.3
+Vertex -1.832,0.8375,5.0
+
+Vertex -1.799,-0.300,10.0
+Vertex -1.801,-0.300,15.3
+Vertex -1.801,0.8375,15.3
+Vertex -1.799,0.8375,10.0
+
+Vertex -1.799,-0.300,15.0
+Vertex -1.836,-0.300,20.3
+Vertex -1.836,0.8375,20.3
+Vertex -1.799,0.8375,15.0
+
+Vertex -1.836,-0.300,20.0
+Vertex -1.900,-0.300,25.3
+Vertex -1.900,0.8375,25.3
+Vertex -1.836,0.8375,20.0
+Face 3,2,1,0
+Face 7,6,5,4
+face 11,10,9,8
+face 15,14,13,12
+face 19,18,17,16
+[Texture]
+Load FormSide.bmp
+Coordinates 0, 2.4, 1
+Coordinates 1,  0, 1
+Coordinates 2,  0, 0.375
+Coordinates 3, 2.4 0.375
+Coordinates 4, 2.4, 1
+Coordinates 5,  0, 1
+Coordinates 6,  0, 0.375
+Coordinates 7, 2.4 0.375
+Coordinates 8, 2.4, 1
+Coordinates 9,  0, 1
+Coordinates 10,  0, 0.375
+Coordinates 11, 2.4 0.375
+Coordinates 12, 2.4, 1
+Coordinates 13,  0, 1
+Coordinates 14,  0, 0.375
+Coordinates 15, 2.4 0.375
+Coordinates 16, 2.4, 1
+Coordinates 17,  0, 1
+Coordinates 18,  0, 0.375
+Coordinates 19, 2.4 0.375
+
+[MeshBuilder]
+
+Vertex -1.500,0.8375,0.0
+Vertex -1.432,0.8375,5.3
+Vertex -1.432,1.1000,5.3
+Vertex -1.500,1.1000,0.0
+
+Vertex -1.432,0.8375,5.0
+Vertex -1.399,0.8375,10.3
+Vertex -1.399,1.1000,10.3
+Vertex -1.432,1.1000,5.0
+
+Vertex -1.399,0.8375,10.0
+Vertex -1.401,0.8375,15.3
+Vertex -1.401,1.1000,15.3
+Vertex -1.399,1.1000,10.0
+
+Vertex -1.401,0.8375,15.0
+Vertex -1.436,0.8375,20.3
+Vertex -1.436,1.1000,20.3
+Vertex -1.401,1.1000,15.0
+
+Vertex -1.436,0.8375,20.0
+Vertex -1.500,0.8375,25.3
+Vertex -1.500,1.1000,25.3
+Vertex -1.436,1.1000,20.0
+Face 3,2,1,0
+Face 7,6,5,4
+face 11,10,9,8
+face 15,14,13,12
+face 19,18,17,16
+[Texture]
+Load FormSide.bmp
+Coordinates 0, 2.4, 1
+Coordinates 1,  0, 1
+Coordinates 2,  0, 0.375
+Coordinates 3, 2.4 0.375
+Coordinates 4, 2.4, 1
+Coordinates 5,  0, 1
+Coordinates 6,  0, 0.375
+Coordinates 7, 2.4 0.375
+Coordinates 8, 2.4, 1
+Coordinates 9,  0, 1
+Coordinates 10,  0, 0.375
+Coordinates 11, 2.4 0.375
+Coordinates 12, 2.4, 1
+Coordinates 13,  0, 1
+Coordinates 14,  0, 0.375
+Coordinates 15, 2.4 0.375
+Coordinates 16, 2.4, 1
+Coordinates 17,  0, 1
+Coordinates 18,  0, 0.375
+Coordinates 19, 2.4 0.375
+
+[meshbuilder]
+
+vertex -1.5,0.8375,0
+vertex -1.9,0.8375,0
+vertex -1.9,1.1000,0
+vertex -1.5,1.1000,0
+face 0,1,2,3
+[Texture]
+Load Wall.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[MeshBuilder]
+Vertex -1.9, -0.3000, 0
+Vertex -1.9,  1.1000, 0
+Vertex -2.7,  1.1000, 0
+Vertex -2.7, -0.3000, 0
+Face 3, 2, 1, 0
+[Texture]
+Load Wall.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[meshbuilder]
+
+vertex -6.200,1.1,5.3
+vertex -2.632,1.1,5.3
+vertex -2.700,1.1,0.0
+vertex -6.200,1.1,0.0
+
+vertex -6.200,1.1,10.3
+vertex -2.599,1.1,10.3
+vertex -2.632,1.1,5.0
+vertex -6.200,1.1,5.0
+
+vertex -6.200,1.1,15.3
+vertex -2.601,1.1,15.3
+vertex -2.599,1.1,10.0
+vertex -6.200,1.1,10.0
+
+vertex -6.200,1.1,20.3
+vertex -2.636,1.1,20.3
+vertex -2.601,1.1,15.0
+vertex -6.200,1.1,15.0
+
+vertex -6.200,1.1,25.3
+vertex -2.700,1.1,25.3
+vertex -2.636,1.1,20.0
+vertex -6.200,1.1,20.0
+face2 0,1,2,3
+face2 4,5,6,7
+face2 8,9,10,11
+face2 12,13,14,15
+face2 16,17,18,19
+[texture]
+Load 2StaFormC.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+coordinates 4,0,0
+coordinates 5,1,0
+coordinates 6,1,1
+coordinates 7,0,1
+coordinates 8,0,0
+coordinates 9,1,0
+coordinates 10,1,1
+coordinates 11,0,1
+coordinates 12,0,0
+coordinates 13,1,0
+coordinates 14,1,1
+coordinates 15,0,1
+coordinates 16,0,0
+coordinates 17,1,0
+coordinates 18,1,1
+coordinates 19,0,1

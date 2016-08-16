@@ -1,0 +1,70 @@
+; (c) pre-zli
+
+[Meshbuilder]
+Vertex -1.4, 1, 1
+Vertex 1.4, 1, 1
+Vertex 1.4, 1, 0.5
+Vertex -1.4, 1, 0.5
+Vertex 1.4, 0.2, -0.1
+Vertex -1.4, 0.2, -0.1
+Vertex 1.4, -0.4, -0.1
+Vertex -1.4, -0.4, -0.1
+Vertex 1.4, -0.5, 1
+Vertex -1.4, -0.5, 1
+Face 0, 1, 2, 3
+Face 3, 2, 4, 5
+Face 5, 4, 6, 7
+Face 1, 8, 2
+Face 2, 8, 6, 4
+Face 0, 3, 9
+Face 9, 3, 5, 7
+Face 1, 0, 9, 8
+Color 128, 128, 128
+
+[Meshbuilder]
+Cylinder 12, 0.3, 0.3, 0.3
+Rotate 1, 0, 0, 90
+Color 32, 32, 32
+Translate 0, 0.6, 1.15
+[Meshbuilder]
+Cube 0.3, 0.1, 0.15
+Color 32, 32, 32
+Translate 0, 0.5, 1.15
+[Meshbuilder]
+Cylinder 12, 0.3, 0.3, 0.3
+Rotate 1, 0, 0, 90
+Color 32, 32, 32
+Translate 0, 0.4, 1.15
+
+[Meshbuilder]
+Cylinder 12, 0.05, 0.05, 1
+Color 162, 162, 162
+Translate 0, 1.5, 0.75
+
+[Meshbuilder]
+Vertex 0.25, 2, 0.81
+Vertex -0.25, 2, 0.81
+Vertex -0.25, 1.5, 0.81
+Vertex 0.25, 1.5, 0.81
+Face 0, 1, 2, 3
+[Texture]
+Load palyavege.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex -0.25, 2, 0.81
+Vertex 0.25, 2, 0.81
+Vertex 0.25, 1.5, 0.81
+Vertex -0.25, 1.5, 0.81
+Face 0, 1, 2, 3
+[Texture]
+Load limithat.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255

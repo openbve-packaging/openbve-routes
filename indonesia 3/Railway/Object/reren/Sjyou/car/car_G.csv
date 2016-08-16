@@ -1,0 +1,32 @@
+CreateMeshBuilder,
+AddVertex,-0.4, 2.6, 0
+AddVertex, 1.91, 2.6, 0
+AddVertex, 1.91, 2.6, 5
+AddVertex, 1.91,-0.4, 5
+AddVertex, 1.91,-0.4, 0
+AddVertex,-0.4,-0.4, 0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,car_G1.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0.57,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,0.59,1
+SetTextureCoordinates,5,0,1
+GenerateNormals,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex,-0.4, 2.6, 0
+AddVertex,-0.4, 2.6, 5
+AddVertex,-0.4,-0.4, 5
+AddVertex,-0.4,-0.4, 0
+AddFace,3,2,1,0,
+LoadTexture,car_G1.bmp
+SetTextureCoordinates,0,0.51,0,
+SetTextureCoordinates,1,0.98,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0.52,1,
+GenerateNormals,
+SetDecalTransparentColor,255,255,255,

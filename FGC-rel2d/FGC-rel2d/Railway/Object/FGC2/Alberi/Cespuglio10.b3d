@@ -1,0 +1,18 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+;Cespuglio lungo 10 metri
+[MeshBuilder]
+Vertex 0.5, 2.5, -5.5
+Vertex 0.5, 2.5,  5.5
+Vertex 0, 0  ,  5.5
+Vertex 0, 0  , -5.5
+Face2 0,1,2,3
+[texture]
+load Cesp_01.bmp
+Coordinates 0, 0.06, 0
+Coordinates 1, 0.89, 0
+Coordinates 2, 0.89, 1
+Coordinates 3, 0.06, 1
+transparent 0,0,255

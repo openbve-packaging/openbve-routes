@@ -1,0 +1,16 @@
+CreateMeshbuilder,,,,
+addvertex,-3.1,3.3,0,
+addvertex,-3.1,3.9,0,
+addvertex,-2.6,3.9,0,
+addvertex,-2.6,3.3,0,
+
+addface,0,1,2,3
+
+GenerateNormals,,,,
+
+LoadTexture,7bansen.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+

@@ -1,0 +1,25 @@
+CreateMeshBuilder
+AddVertex,-12, 9, 0
+AddVertex,-4, 8, 0
+AddVertex,-4, 1, 26
+AddVertex,-12, 7, 26
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture, Grass.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+CreateMeshBuilder
+AddVertex,-4, -3, 0
+AddVertex,-4, 8, 0
+AddVertex,-4, 1, 26
+AddVertex,-4, -3, 26
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture, iwa.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1

@@ -1,0 +1,101 @@
+
+[Meshbuilder] 
+Vertex -6,14,7
+Vertex  18,14,7
+Vertex  18,7,7
+Vertex -6,7,7
+Face 0,1,2,3
+[Texture]
+Load pontemetallo2.bmp
+Coordinates 0,3,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,3,1
+Transparent 0,0,255
+;---------------- soffitto
+[Meshbuilder] 
+Vertex -6,7.2,7
+Vertex -6,7.2,18
+Vertex  18,7.2,18
+Vertex  18,7.2,7
+Face 3,2,1,0
+color 50,50,50
+;--------------------------
+[Meshbuilder] 
+Vertex 18,9,7
+Vertex  98,-0.5,7
+Vertex  98,-0.5,0
+Vertex 14,-0.5,0
+Face 0,1,2,3
+[Texture]
+Load verde.bmp
+Coordinates 0,3,0
+Coordinates 1,30,0
+Coordinates 2,30,5
+Coordinates 3,3,5
+;--------------------------
+[Meshbuilder] 
+Vertex -80,-0.5,7
+Vertex  -6,9,7
+Vertex  -2,-0.5,0
+Vertex -80,0.5,0
+Face 0,1,2,3
+[Texture]
+Load verde.bmp
+Coordinates 0,3,0
+Coordinates 1,30,0
+Coordinates 2,30,5
+Coordinates 3,3,5
+;--------------------------
+[Meshbuilder] 
+Vertex -6,9,12
+Vertex  -2,-0.5,12
+Vertex  -2,-0.5,0
+Vertex -6,9,7
+Face 0,1,2,3
+[Texture]
+Load formc2.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+[Meshbuilder] 
+Vertex -6,9,18
+Vertex  -2,-0.5,25
+Vertex  -2,-0.5,12
+Vertex -6,9,12
+Face 0,1,2,3
+[Texture]
+Load formc2.bmp
+Coordinates 0,3,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,3,1
+
+
+[Meshbuilder] 
+Vertex 18,9,12
+Vertex  14,-0.5,12
+Vertex  14,-0.5,0
+Vertex 18,9,7
+Face 3,2,1,0
+[Texture]
+Load formc2.bmp
+Coordinates 0,3,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,3,1
+[Meshbuilder] 
+Vertex 18,9,25
+Vertex  14,-0.5,25
+Vertex  14,-0.5,12
+Vertex 18,9,12
+Face 3,2,1,0
+[Texture]
+Load formc2.bmp
+Coordinates 0,3,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,3,1
+
+

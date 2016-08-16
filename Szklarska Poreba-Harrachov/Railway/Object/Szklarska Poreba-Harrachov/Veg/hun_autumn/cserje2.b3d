@@ -1,0 +1,2326 @@
+;bokor aljnövényzettel
+
+;eleje
+
+[Meshbuilder]
+vertex  1,0,0
+vertex -1,0,0
+vertex -1,1,0
+vertex  1,1,0
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,1
+vertex -1,0,0
+vertex -1,1,0
+vertex -3,1,1
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,1
+vertex 1,0,0
+vertex 1,1,0
+vertex 3,1,1
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;vége
+
+[Meshbuilder]
+vertex  1,0,25
+vertex -1,0,25
+vertex -1,1,25
+vertex  1,1,25
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,24
+vertex -1,0,25
+vertex -1,1,25
+vertex -3,1,24
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,24
+vertex 1,0,25
+vertex 1,1,25
+vertex 3,1,24
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;oldalak
+
+;bal oldal
+
+[Meshbuilder]
+vertex -3,  0,0
+vertex -2.5,0,2
+vertex -2.5,1,2
+vertex -3,  1,0
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -2.5,0,2
+vertex -3,  0,4
+vertex -3,  1,4
+vertex -2.5,1,2
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,  0,4
+vertex -2.5,0,6
+vertex -2.5,1,6
+vertex -3,  1,4
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -2.5,0,6
+vertex -3,  0,8
+vertex -3,  1,8
+vertex -2.5,1,6
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,  0,8
+vertex -2.5,0,10
+vertex -2.5,1,10
+vertex -3,  1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -2.5,0,10
+vertex -3,  0,12
+vertex -3,  1,12
+vertex -2.5,1,10
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,  0,12
+vertex -2.5,0,14
+vertex -2.5,1,14
+vertex -3,  1,12
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -2.5,0,14
+vertex -3,  0,16
+vertex -3,  1,16
+vertex -2.5,1,14
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,  0,16
+vertex -2.5,0,18
+vertex -2.5,1,18
+vertex -3,  1,16
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -2.5,0,18
+vertex -3,  0,20
+vertex -3,  1,20
+vertex -2.5,1,18
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,  0,20
+vertex -2.5,0,22
+vertex -2.5,1,22
+vertex -3,  1,20
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -2.5,0,22
+vertex -3,  0,24
+vertex -3,  1,24
+vertex -2.5,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+
+;másik oldal
+
+
+
+;jobb oldal
+
+[Meshbuilder]
+vertex 3,  0,0
+vertex 2.5,0,2
+vertex 2.5,1,2
+vertex 3,  1,0
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 2.5,0,2
+vertex 3,  0,4
+vertex 3,  1,4
+vertex 2.5,1,2
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,  0,4
+vertex 2.5,0,6
+vertex 2.5,1,6
+vertex 3,  1,4
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 2.5,0,6
+vertex 3,  0,8
+vertex 3,  1,8
+vertex 2.5,1,6
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,  0,8
+vertex 2.5,0,10
+vertex 2.5,1,10
+vertex 3,  1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 2.5,0,10
+vertex 3,  0,12
+vertex 3,  1,12
+vertex 2.5,1,10
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,  0,12
+vertex 2.5,0,14
+vertex 2.5,1,14
+vertex 3,  1,12
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 2.5,0,14
+vertex 3,  0,16
+vertex 3,  1,16
+vertex 2.5,1,14
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,  0,16
+vertex 2.5,0,18
+vertex 2.5,1,18
+vertex 3,  1,16
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 2.5,0,18
+vertex 3,  0,20
+vertex 3,  1,20
+vertex 2.5,1,18
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,  0,20
+vertex 2.5,0,22
+vertex 2.5,1,22
+vertex 3,  1,20
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 2.5,0,22
+vertex 3,  0,24
+vertex 3,  1,24
+vertex 2.5,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;oldalak közötti részek
+
+;bal oldal
+
+[Meshbuilder]
+vertex -1.5,0,0
+vertex -2,  0,2
+vertex -2,  1,2
+vertex -1.5,1,0
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1.5,0,2
+vertex -2,  0,4
+vertex -2,  1,4
+vertex -1.5,1,2
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1.5,0,4
+vertex -2,  0,6
+vertex -2,  1,6
+vertex -1.5,1,4
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1.5,0,6
+vertex -2,  0,8
+vertex -2,  1,8
+vertex -1.5,1,6
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1,  0,8
+vertex -2.5,0,10
+vertex -2.5,1,10
+vertex -1,  1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1.5,0,10
+vertex -2,  0,12
+vertex -2,  1,12
+vertex -1.5,1,10
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1,  0,12
+vertex -2.5,0,14
+vertex -2.5,1,14
+vertex -1,  1,12
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -2.5,0,14
+vertex -1,  0,16
+vertex -1,  1,16
+vertex -2.5,1,14
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1,  0,16
+vertex -2.5,0,18
+vertex -2.5,1,18
+vertex -1,  1,16
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -2.5,0,18
+vertex -1,  0,20
+vertex -1,  1,20
+vertex -2.5,1,18
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -2,  0,20
+vertex -1.5,0,22
+vertex -1.5,1,22
+vertex -2,  1,20
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1.5,0,22
+vertex -2,  0,24
+vertex -2,  1,24
+vertex -1.5,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0.5,0,0
+vertex -1,  0,2
+vertex -1,  1,2
+vertex -0.5,1,0
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0.5,0,2
+vertex -1,  0,4
+vertex -1,  1,4
+vertex -0.5,1,2
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0.5,0,4
+vertex -1,  0,6
+vertex -1,  1,6
+vertex -0.5,1,4
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0.5,0,6
+vertex -1,  0,8
+vertex -1,  1,8
+vertex -0.5,1,6
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0,  0,8
+vertex -1.5,0,10
+vertex -1.5,1,10
+vertex -0,  1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0.5,0,10
+vertex -1,  0,12
+vertex -1,  1,12
+vertex -0.5,1,10
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0,  0,12
+vertex -1.5,0,14
+vertex -1.5,1,14
+vertex -0,  1,12
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1.5,0,14
+vertex -0,  0,16
+vertex -0,  1,16
+vertex -1.5,1,14
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0,  0,16
+vertex -1.5,0,18
+vertex -1.5,1,18
+vertex -0,  1,16
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0.5,0,18
+vertex -1,  0,20
+vertex -1,  1,20
+vertex -0.5,1,18
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0,  0,20
+vertex -1.5,0,22
+vertex -1.5,1,22
+vertex -0,  1,20
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -0.5,0,22
+vertex -1,  0,24
+vertex -1,  1,24
+vertex -0.5,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;jobb oldal
+
+[Meshbuilder]
+vertex 1.5,0,0
+vertex 2,  0,2
+vertex 2,  1,2
+vertex 1.5,1,0
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1.5,0,2
+vertex 2,  0,4
+vertex 2,  1,4
+vertex 1.5,1,2
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1.5,0,4
+vertex 2,  0,6
+vertex 2,  1,6
+vertex 1.5,1,4
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1.5,0,6
+vertex 2,  0,8
+vertex 2,  1,8
+vertex 1.5,1,6
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1,  0,8
+vertex 2.5,0,10
+vertex 2.5,1,10
+vertex 1,  1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1.5,0,10
+vertex 2,  0,12
+vertex 2,  1,12
+vertex 1.5,1,10
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1,  0,12
+vertex 2.5,0,14
+vertex 2.5,1,14
+vertex 1,  1,12
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 2.5,0,14
+vertex 1,  0,16
+vertex 1,  1,16
+vertex 2.5,1,14
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1,  0,16
+vertex 2.5,0,18
+vertex 2.5,1,18
+vertex 1,  1,16
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 2.5,0,18
+vertex 1,  0,20
+vertex 1,  1,20
+vertex 2.5,1,18
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 2,  0,20
+vertex 1.5,0,22
+vertex 1.5,1,22
+vertex 2,  1,20
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1.5,0,22
+vertex 2,  0,24
+vertex 2,  1,24
+vertex 1.5,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0.5,0,0
+vertex 1,  0,2
+vertex 1,  1,2
+vertex 0.5,1,0
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0.5,0,2
+vertex 1,  0,4
+vertex 1,  1,4
+vertex 0.5,1,2
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0.5,0,4
+vertex 1,  0,6
+vertex 1,  1,6
+vertex 0.5,1,4
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0.5,0,6
+vertex 1,  0,8
+vertex 1,  1,8
+vertex 0.5,1,6
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,  0,8
+vertex 1.5,0,10
+vertex 1.5,1,10
+vertex 0,  1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0.5,0,10
+vertex 1,  0,12
+vertex 1,  1,12
+vertex 0.5,1,10
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,  0,12
+vertex 1.5,0,14
+vertex 1.5,1,14
+vertex 0,  1,12
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1.5,0,14
+vertex 0,  0,16
+vertex 0,  1,16
+vertex 1.5,1,14
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,  0,16
+vertex 1.5,0,18
+vertex 1.5,1,18
+vertex 0,  1,16
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0.5,0,18
+vertex 1,  0,20
+vertex 1,  1,20
+vertex 0.5,1,18
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,  0,20
+vertex 1.5,0,22
+vertex 1.5,1,22
+vertex 0,  1,20
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0.5,0,22
+vertex 1,  0,24
+vertex 1,  1,24
+vertex 0.5,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;köztes részek
+
+;1
+
+[Meshbuilder]
+vertex  1,0,1
+vertex -1,0,2
+vertex -1,1,2
+vertex  1,1,1
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,1
+vertex -1,0,2
+vertex -1,1,2
+vertex -3,1,1
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,2
+vertex 1,0,1
+vertex 1,1,1
+vertex 3,1,2
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;2
+
+[Meshbuilder]
+vertex  1,0,3
+vertex -1,0,2
+vertex -1,1,2
+vertex  1,1,3
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,3
+vertex -1,0,2
+vertex -1,1,2
+vertex -3,1,3
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,2
+vertex 1,0,3
+vertex 1,1,3
+vertex 3,1,2
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;3
+
+[Meshbuilder]
+vertex  1,0,3
+vertex -1,0,4
+vertex -1,1,4
+vertex  1,1,3
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,3
+vertex -1,0,4
+vertex -1,1,4
+vertex -3,1,3
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,4
+vertex 1,0,3
+vertex 1,1,3
+vertex 3,1,4
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;4
+
+[Meshbuilder]
+vertex  1,0,5
+vertex -1,0,4
+vertex -1,1,4
+vertex  1,1,5
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,5
+vertex -1,0,4
+vertex -1,1,4
+vertex -3,1,5
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,4
+vertex 1,0,5
+vertex 1,1,5
+vertex 3,1,4
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;5
+
+[Meshbuilder]
+vertex  1,0,7
+vertex -1,0,6
+vertex -1,1,6
+vertex  1,1,7
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,7
+vertex -1,0,6
+vertex -1,1,6
+vertex -3,1,7
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,6
+vertex 1,0,7
+vertex 1,1,7
+vertex 3,1,6
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;6
+
+[Meshbuilder]
+vertex  1,0,8
+vertex -1,0,7
+vertex -1,1,7
+vertex  1,1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,7
+vertex -1,0,8
+vertex -1,1,8
+vertex -3,1,7
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,8
+vertex 1,0,7
+vertex 1,1,7
+vertex 3,1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;7
+
+[Meshbuilder]
+vertex  1,0,8
+vertex -1,0,9
+vertex -1,1,9
+vertex  1,1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,8
+vertex -1,0,9
+vertex -1,1,9
+vertex -3,1,8
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,9
+vertex 1,0,8
+vertex 1,1,8
+vertex 3,1,9
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;8
+
+[Meshbuilder]
+vertex  1,0,10
+vertex -1,0,10
+vertex -1,1,10
+vertex  1,1,10
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,9
+vertex -1,0,10
+vertex -1,1,10
+vertex -3,1,9
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,10
+vertex 1,0,9
+vertex 1,1,9
+vertex 3,1,10
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;9
+
+[Meshbuilder]
+vertex  1,0,11
+vertex -1,0,10
+vertex -1,1,10
+vertex  1,1,11
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,11
+vertex -1,0,10
+vertex -1,1,10
+vertex -3,1,11
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,10
+vertex 1,0,11
+vertex 1,1,11
+vertex 3,1,10
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;10
+
+[Meshbuilder]
+vertex  1,0,11
+vertex -1,0,12
+vertex -1,1,12
+vertex  1,1,11
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,11
+vertex -1,0,12
+vertex -1,1,12
+vertex -3,1,11
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,12
+vertex 1,0,11
+vertex 1,1,11
+vertex 3,1,12
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;11
+
+[Meshbuilder]
+vertex  1,0,13
+vertex -1,0,12
+vertex -1,1,12
+vertex  1,1,13
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,13
+vertex -1,0,12
+vertex -1,1,12
+vertex -3,1,13
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,12
+vertex 1,0,13
+vertex 1,1,13
+vertex 3,1,12
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;másik fele
+
+;1
+
+[Meshbuilder]
+vertex  1,0,13
+vertex -1,0,14
+vertex -1,1,14
+vertex  1,1,13
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,13
+vertex -1,0,14
+vertex -1,1,14
+vertex -3,1,13
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,14
+vertex 1,0,13
+vertex 1,1,13
+vertex 3,1,14
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;2
+
+[Meshbuilder]
+vertex  1,0,15
+vertex -1,0,14
+vertex -1,1,14
+vertex  1,1,15
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,15
+vertex -1,0,14
+vertex -1,1,14
+vertex -3,1,15
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,14
+vertex 1,0,15
+vertex 1,1,15
+vertex 3,1,14
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;3
+
+[Meshbuilder]
+vertex  1,0,15
+vertex -1,0,16
+vertex -1,1,16
+vertex  1,1,15
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,15
+vertex -1,0,16
+vertex -1,1,16
+vertex -3,1,15
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,16
+vertex 1,0,15
+vertex 1,1,15
+vertex 3,1,16
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;4
+
+[Meshbuilder]
+vertex  1,0,17
+vertex -1,0,16
+vertex -1,1,16
+vertex  1,1,17
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,17
+vertex -1,0,16
+vertex -1,1,16
+vertex -3,1,17
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,16
+vertex 1,0,17
+vertex 1,1,17
+vertex 3,1,16
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;5
+
+[Meshbuilder]
+vertex  1,0,17
+vertex -1,0,18
+vertex -1,1,18
+vertex  1,1,17
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,17
+vertex -1,0,18
+vertex -1,1,18
+vertex -3,1,17
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,18
+vertex 1,0,17
+vertex 1,1,17
+vertex 3,1,18
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;6
+
+[Meshbuilder]
+vertex  1,0,19
+vertex -1,0,18
+vertex -1,1,18
+vertex  1,1,19
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,19
+vertex -1,0,18
+vertex -1,1,18
+vertex -3,1,19
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,18
+vertex 1,0,19
+vertex 1,1,19
+vertex 3,1,18
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;7
+
+[Meshbuilder]
+vertex  1,0,19
+vertex -1,0,20
+vertex -1,1,20
+vertex  1,1,19
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,19
+vertex -1,0,20
+vertex -1,1,20
+vertex -3,1,19
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,20
+vertex 1,0,19
+vertex 1,1,19
+vertex 3,1,20
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;8
+
+[Meshbuilder]
+vertex  1,0,21
+vertex -1,0,20
+vertex -1,1,20
+vertex  1,1,21
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,21
+vertex -1,0,20
+vertex -1,1,20
+vertex -3,1,21
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,20
+vertex 1,0,21
+vertex 1,1,21
+vertex 3,1,20
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;9
+
+[Meshbuilder]
+vertex  1,0,22
+vertex -1,0,21
+vertex -1,1,21
+vertex  1,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,21
+vertex -1,0,22
+vertex -1,1,22
+vertex -3,1,21
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,22
+vertex 1,0,21
+vertex 1,1,21
+vertex 3,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;10
+
+[Meshbuilder]
+vertex  1,0,22
+vertex -1,0,23
+vertex -1,1,23
+vertex  1,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,22
+vertex -1,0,23
+vertex -1,1,23
+vertex -3,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,22
+vertex 1,0,23
+vertex 1,1,23
+vertex 3,1,22
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;11
+
+[Meshbuilder]
+vertex  1,0,24
+vertex -1,0,23
+vertex -1,1,23
+vertex  1,1,24
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -3,0,24
+vertex -1,0,23
+vertex -1,1,23
+vertex -3,1,24
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 3,0,24
+vertex 1,0,23
+vertex 1,1,23
+vertex 3,1,24
+face2 0,1,2,3
+
+load aljnoveny2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;-----------------------------------
+;-------------cserjék---------------
+;-----------------------------------
+
+;cserje1
+
+[Meshbuilder]
+vertex  4,0,2.5
+vertex -4,0,2.5
+vertex -4,8,2.5
+vertex  4,8,2.5
+face2 0,1,2,3
+
+load locust15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0, 6
+vertex 0,0,-1
+vertex 0,8,-1
+vertex 0,8, 6
+face2 0,1,2,3
+
+load locust15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;cserje2
+
+[Meshbuilder]
+vertex  5,0,7
+vertex -3,0,7
+vertex -3,7,7
+vertex  5,7,7
+face2 0,1,2,3
+
+load lime19.22_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 1,0,11
+vertex 1,0,3
+vertex 1,7,3
+vertex 1,7,11
+face2 0,1,2,3
+
+load lime19.22_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;cserje3
+
+[Meshbuilder]
+vertex  4,0,12
+vertex -4,0,12
+vertex -4,7,12
+vertex  4,7,12
+face2 0,1,2,3
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,16
+vertex 0,0,8
+vertex 0,7,8
+vertex 0,7,16
+face2 0,1,2,3
+
+load poplar15_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;cserje4
+
+[Meshbuilder]
+vertex  4,0,17
+vertex -6,0,17
+vertex -6,7,17
+vertex  4,7,17
+face2 0,1,2,3
+
+load locust15_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1,0,21
+vertex -1,0,13
+vertex -1,7,13
+vertex -1,7,21
+face2 0,1,2,3
+
+load locust15_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;cserje5
+
+[Meshbuilder]
+vertex  4,0,22
+vertex -6,0,22
+vertex -6,8,22
+vertex  4,8,22
+face2 0,1,2,3
+
+load lime.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex -1,0,25
+vertex -1,0,19
+vertex -1,8,19
+vertex -1,8,25
+face2 0,1,2,3
+
+load lime.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+;bokrok
+
+[Meshbuilder]
+vertex  3,0,4.5
+vertex -3,0,4.5
+vertex -3,6,4.5
+vertex  3,6,4.5
+face2 0,1,2,3
+
+load woody_species10_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,3
+vertex 0,0,7
+vertex 0,6,7
+vertex 0,6,3
+face2 0,1,2,3
+
+load woody_species10_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex  3,0,10
+vertex -3,0,10
+vertex -3,8,10
+vertex  3,8,10
+face2 0,1,2,3
+
+load woody_species10_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,12
+vertex 0,0,8
+vertex 0,8,8
+vertex 0,8,12
+face2 0,1,2,3
+
+load woody_species10_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex  3,0,14
+vertex -3,0,14
+vertex -3,8,14
+vertex  3,8,14
+face2 0,1,2,3
+
+load woody_species10_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,16
+vertex 0,0,12
+vertex 0,8,12
+vertex 0,8,16
+face2 0,1,2,3
+
+load woody_species10_2.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,

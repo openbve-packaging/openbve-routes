@@ -1,0 +1,159 @@
+;bal fal
+[MeshBuilder]
+vertex -4.65,3.5,0
+vertex -4.65,3.5,25
+vertex -4.65,1.1,25
+vertex -4.65,1.1,0
+face 0,1,2,3
+Load Bfal.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+;jobb fal
+[MeshBuilder]
+vertex 2,3.2,25
+vertex 2,-0.2,25
+vertex 2,3.2,0
+vertex 2,-0.2,0
+face 3,1,0,2
+Load Jfal.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,2,0
+coordinates 3,2,1
+
+;-------------------
+
+;belépni tilos tábla
+[MeshBuilder]
+Vertex -2.36,1.4,0
+Vertex -2.36,2.2,0
+Vertex -1.66,2.2,0
+Vertex -1.66,1.4,0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2b.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+translate 0,0,23
+
+[MeshBuilder]
+cube 0.04,0.55,0.04
+color 153,0,0
+translate -2.38,1.65,23
+
+;-------------------
+
+[MeshBuilder]
+Vertex -6,-0.9,24.95
+Vertex -6,4.9,24.95
+Vertex -4.75,4.9,24.95
+Vertex -4.75,-0.9,24.95
+Face 0,1,2,3
+color 72,72,72
+
+;alagútbejárat
+[MeshBuilder]
+Vertex -4.750, 0.943,24.99
+Vertex -4.750, 5.600,24.99
+Vertex  2.450, 5.600,24.99
+vertex  2.330, 0.943,24.99
+vertex  2.450, 1.700,24.99
+vertex  2.330, 2.457,24.99
+vertex  1.982, 3.140,24.99
+vertex  1.440, 3.682,24.99
+vertex  0.757, 4.030,24.99
+vertex  0.000, 4.150,24.99
+vertex -2.330, 0.943,24.99
+vertex -2.450, 1.700,24.99
+vertex -2.330, 2.457,24.99
+vertex -1.982, 3.140,24.99
+vertex -1.440, 3.682,24.99
+vertex -0.757, 4.030,24.99
+Face 00,11,10
+Face 00,12,11
+Face 00,13,12
+Face 00,01,14,13
+Face 01,15,14
+Face 01,09,15
+Face 01,02,09
+Face 02,08,09
+Face 02,07,08
+Face 02,06,07
+Face 02,05,06
+Color 72,72,72
+
+;--------------------------------------------------
+
+;Tükör
+
+[meshbuilder]
+cylinder 8, 0.04, 0.04, 01.00
+color 112,97,80
+translate  -02.35, 01.60, 18.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -02.35, 02.10, 18.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -02.35, 03.30, 18.00
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -02.773, 02.70, 17.846
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 112,97,80
+rotate 0,1,0,-20
+translate  -01.927, 02.70, 18.154
+
+[meshbuilder]
+cube 0.20,0.01,0.20
+color 112,97,80
+rotate 0,1,0,0
+translate  -02.35, 01.10, 18.000
+
+[MeshBuilder]
+vertex -2.773,2.10,17.846
+vertex -2.773,3.30,17.846
+vertex -1.927,3.30,18.154
+vertex -1.927,2.10,18.154
+face 0,1,2,3
+Load ..\peron\tukor.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+;--------------------------------------------------
+
+;pályára aljzatpótlék
+[MeshBuilder]
+vertex -0.425, -00.40, 25.00
+vertex -0.425, -00.17, 25.00
+vertex 0.425, -00.17, 25.00
+vertex 0.425, -00.40, 25.00
+face 0,1,2,3
+color 216,216,216
+[texture]
+load ../../sin/aljzat_150.bmp
+coordinates 0, 0.0, 0.25
+coordinates 1, 0.0, 0.0
+coordinates 2, 0.25, 0.0
+coordinates 3, 0.25, 0.25
+
+;--------------------------------------------------

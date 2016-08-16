@@ -1,0 +1,120 @@
+;light-door1
+CreateMeshBuilder,
+AddVertex,-1.415,3.18, -1.84
+AddVertex,-1.415,3.18, -2.61
+AddVertex,-1.415,1.17, -2.61
+AddVertex,-1.415,1.17, -1.84
+AddFace,0,1,2,3,
+LoadTexture,doorA.png
+SetTextureCoordinates,0,0.46,0.0,
+SetTextureCoordinates,1,1.0,0.0,
+SetTextureCoordinates,2,1.0,1.0,
+SetTextureCoordinates,3,0.46,1.0,
+SetDecalTransparentColor,255,255,255
+SetEmissiveColor,65,65,65,
+Translate,0.02,,-0.68
+;in-door1
+CreateMeshBuilder,
+AddVertex,-1.415,3.15, -1.90
+AddVertex,-1.415,3.15, -2.61
+AddVertex,-1.415,1.01, -2.61
+AddVertex,-1.415,1.01, -1.90
+AddFace,3,2,1,0,
+LoadTexture,S904-7200interiorF.png
+SetTextureCoordinates,0,0.5,0.0,
+SetTextureCoordinates,1,1,0.0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0.5,1,
+SetEmissiveColor,255,245,235,
+SetDecalTransparentColor,255,255,255
+Translate,0.02,,-0.53
+
+CreateMeshBuilder,
+AddVertex,-1.415,3.18, -1.86
+AddVertex,-1.415,3.18, -2.61
+AddVertex,-1.415,1.17, -2.61
+AddVertex,-1.415,1.17, -1.86
+AddFace,0,1,2,3,
+LoadTexture,doorA.png
+SetTextureCoordinates,0,0.46,0.0,
+SetTextureCoordinates,1,1.0,0.0,
+SetTextureCoordinates,2,1.0,1.0,
+SetTextureCoordinates,3,0.46,1.0,
+SetDecalTransparentColor,255,255,255
+SetEmissiveColor,65,65,65,
+Translate,0.02,,-5.55,
+;in-door1
+CreateMeshBuilder,
+AddVertex,-1.415,3.15, -1.83
+AddVertex,-1.415,3.15, -2.61
+AddVertex,-1.415,1.01, -2.61
+AddVertex,-1.415,1.01, -1.83
+AddFace,3,2,1,0,
+LoadTexture,S904-7200interiorF.png
+SetTextureCoordinates,0,0.5,0.0,
+SetTextureCoordinates,1,1,0.0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0.5,1,
+SetEmissiveColor,255,245,235,
+SetDecalTransparentColor,255,255,255
+Translate,0.02,,-5.41,
+
+CreateMeshBuilder,
+AddVertex,-1.415,3.18, -1.84
+AddVertex,-1.415,3.18, -2.61
+AddVertex,-1.415,1.17, -2.61
+AddVertex,-1.415,1.17, -1.84
+AddFace,0,1,2,3,
+LoadTexture,doorA.png
+SetTextureCoordinates,0,0.46,0.0,
+SetTextureCoordinates,1,1.0,0.0,
+SetTextureCoordinates,2,1.0,1.0,
+SetTextureCoordinates,3,0.46,1.0,
+SetDecalTransparentColor,255,255,255
+SetEmissiveColor,65,65,65,
+Translate,0.02,,4.12,
+;in-door1
+CreateMeshBuilder,
+AddVertex,-1.415,3.16, -1.85
+AddVertex,-1.415,3.16, -2.61
+AddVertex,-1.415,1.01, -2.61
+AddVertex,-1.415,1.01, -1.85
+AddFace,3,2,1,0,
+LoadTexture,S904-7200interiorF.png
+SetTextureCoordinates,0,0.5,0.0,
+SetTextureCoordinates,1,1,0.0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0.5,1,
+SetEmissiveColor,255,245,235,
+SetDecalTransparentColor,255,255,255
+Translate,0.02,,4.23,
+
+CreateMeshBuilder,
+AddVertex,-1.415,3.18, -1.84
+AddVertex,-1.415,3.18, -2.61
+AddVertex,-1.415,1.17, -2.61
+AddVertex,-1.415,1.17, -1.84
+AddFace,0,1,2,3,
+LoadTexture,doorA.png
+SetTextureCoordinates,0,0.46,0.0,
+SetTextureCoordinates,1,1.0,0.0,
+SetTextureCoordinates,2,1.0,1.0,
+SetTextureCoordinates,3,0.46,1.0,
+SetDecalTransparentColor,255,255,255
+SetEmissiveColor,65,65,65,
+Translate,0.02,,8.92,
+;in-door1
+CreateMeshBuilder,
+AddVertex,-1.415,3.15, -1.84
+AddVertex,-1.415,3.15, -2.61
+AddVertex,-1.415,1.01, -2.61
+AddVertex,-1.415,1.01, -1.84
+AddFace,3,2,1,0,
+LoadTexture,S904-7200interiorF.png
+SetTextureCoordinates,0,0.5,0.0,
+SetTextureCoordinates,1,1,0.0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0.5,1,
+SetEmissiveColor,255,245,235,
+SetDecalTransparentColor,255,255,255
+Translate,0.02,,9.05,

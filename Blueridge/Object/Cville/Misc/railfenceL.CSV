@@ -1,0 +1,32 @@
+;Moved with BVE File Converter
+;Converted from B3D by BVE FILE CONVERTER
+ 
+CreateMeshBuilder,
+AddVertex, -2.2 , -0.5 ,  0 ,
+AddVertex, -2.2 ,  2 ,  0 ,
+AddVertex, -2.2 ,  2 ,  25.3 ,
+AddVertex,-2.2 , -0.5 ,  25.3 ,
+AddFace,   0,1,2,3,
+GenerateNormals,
+LoadTexture,railfence.bmp,
+SetTextureCoordinates, 0,0,2,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,8,0,
+SetTextureCoordinates, 3,8,2,
+SetDecalTransparentColor,  0,0,0,
+Translate,-1.85,-1.2,0,
+
+CreateMeshbuilder,
+Cylinder,8,.05,.05,2.8,
+SetColor,152,154,160,
+Translate,-4.1 ,  -.5 ,  0.1 ,
+
+CreateMeshbuilder,
+Cylinder,8,.05,.05,2.8,
+SetColor,152,154,160,
+Translate, -4.1 ,  -.5 ,  8.4 ,
+
+CreateMeshbuilder,
+Cylinder,8,.05,.05,2.8,
+SetColor,152,154,160,
+Translate, -4.1,  -.5 ,  16.7 ,

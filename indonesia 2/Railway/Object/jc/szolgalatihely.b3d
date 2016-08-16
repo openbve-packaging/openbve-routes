@@ -1,0 +1,266 @@
+[Meshbuilder]       ;ablakos fal
+Vertex 0,3.7,0      ;tetõperem
+Vertex 13.3,3.7,0
+Vertex 13.3,4.4,0
+Vertex 0,4.4,0
+Face 0,1,2,3
+Face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]       ;perem alja
+Vertex 0,3.7,0
+Vertex 13.3,3.7,0
+Vertex 13.3,3.7,0.4
+Vertex 0,3.7,0.4
+;Vertex 0,0.4,0.4
+;Vertex 13.3,0.4,0.4
+face 0,1,2,3
+face 3,2,1,0
+;face 4,5,2,3
+;face 3,2,5,4
+color 255,200,145
+
+[Meshbuilder]       ;ablakos fal
+Vertex 0,0.4,0.4      
+Vertex 12.9,0.4,0.4
+Vertex 12.9,3.7,0.4
+Vertex 0,3.7,0.4
+Face 0,1,2,3
+Face 3,2,1,0
+color 255,255,198
+
+[Meshbuilder]        ;kisablak
+Vertex 2.4,2.7,0.35
+Vertex 3,2.7,0.35
+Vertex 3,3.4,0.35
+Vertex 2.4,3.4,0.35
+face 0,1,2,3
+face 3,2,1,0
+color 168,84,0
+
+[Meshbuilder]        ;kisablak
+Vertex 3.8,2.7,0.35
+Vertex 4.5,2.7,0.35
+Vertex 4.5,3.4,0.35
+Vertex 3.8,3.4,0.35
+face 0,1,2,3
+face 3,2,1,0
+color 168,84,0
+
+[Meshbuilder]        ;ablak_1_racsos
+Vertex 7.4,1.6,0.35
+Vertex 9.1,1.6,0.35
+Vertex 9.1,3.3,0.35
+Vertex 7.4,3.3,0.35
+face 0,1,2,3
+face 3,2,1,0
+;color 168,84,0
+[Texture]
+load ablak_1_racsos.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[Meshbuilder]        ;ablak_1_racsos
+Vertex 10.4,1.6,0.35
+Vertex 12,1.6,0.35
+Vertex 12,3.3,0.35
+Vertex 10.4,3.3,0.35
+face 0,1,2,3
+face 3,2,1,0
+;color 168,84,0
+[Texture]
+load ablak_1_racsos.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[Meshbuilder]       ;lábazat
+Vertex 0,0.4,0.4
+Vertex 12.8,0.4,0.4
+Vertex 12.8,0.4,0.5
+Vertex 0,0.4,0.5
+Vertex 12.8,0,0.5
+Vertex 0,0,0.5
+face 0,1,2,3
+face 3,2,1,0
+face 5,4,2,3
+face 3,2,4,5
+color 255,200,145
+
+[Meshbuilder]       ;beszögelés oldal
+Vertex 13.3,3.7,0
+Vertex 13.3,3.7,1
+Vertex 13.3,4.4,1
+Vertex 13.3,4.4,0
+Vertex 13.3,3.7,0.4
+Vertex 13.3,3.7,1.4
+Vertex 12.9,3.7,1.4
+Vertex 12.9,3.7,0.4
+face 0,1,2,3
+face 3,2,1,0
+face 4,5,6,7
+face 7,6,5,4
+color 255,200,145
+
+[Meshbuilder]
+Vertex 12.9,0.4,0.4,
+Vertex 12.9,0.4,1.4
+Vertex 12.9,3.7,1.4
+Vertex 12.9,3.7,0.4
+face 0,1,2,3
+face 3,2,1,0
+color 255,255,198
+
+[Meshbuilder]
+Vertex 12.9,0.4,0.4,
+Vertex 12.9,0.4,1.4
+Vertex 12.8,0.4,1.4
+Vertex 12.8,0.4,0.4
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]
+Vertex 12.8,0,0.5
+Vertex 12.8,0,1.5
+Vertex 12.8,0.4,1.5
+Vertex 12.8,0.4,0.5
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]      ;beszögelés szembe
+Vertex 13.3,3.7,1
+Vertex 15.1,3.7,1
+Vertex 15.1,4.4,1
+Vertex 13.3,4.4,1
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]      
+Vertex 12.9,3.7,1
+Vertex 14.6,3.7,1
+Vertex 14.6,3.7,1.4
+Vertex 12.9,3.7,1.4
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]      
+Vertex 12.9,0.4,1.4
+Vertex 14.6,0.4,1.4
+Vertex 14.6,3.7,1.4
+Vertex 12.9,3.7,1.4
+face 0,1,2,3
+face 3,2,1,0
+color 255,255,198
+
+[Meshbuilder]      
+Vertex 12.8,0.4,1.4
+Vertex 14.5,0.4,1.4
+Vertex 14.5,0.4,1.5
+Vertex 12.8,0.4,1.5
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]      
+Vertex 12.8,0,1.5
+Vertex 14.5,0,1.5
+Vertex 14.5,0.4,1.5
+Vertex 12.8,0.4,1.5
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]        ;oldalfal      
+Vertex 15,3.7,1
+Vertex 15,3.7,8.6
+Vertex 15,4.4,8.6
+Vertex 15,4.4,1
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]      
+Vertex 15,3.7,1
+Vertex 15,3.7,8.6
+Vertex 14.6,3.7,8.6
+Vertex 14.6,3.7,1
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]      
+Vertex 14.6,0.4,1.4
+Vertex 14.6,0.4,8.6
+Vertex 14.6,3.7,8.6
+Vertex 14.6,3.7,1.4
+face 0,1,2,3
+face 3,2,1,0
+color 255,255,198
+
+[Meshbuilder]      
+Vertex 14.6,0.4,1.4
+Vertex 14.6,0.4,8.6
+Vertex 14.5,0.4,8.6
+Vertex 14.5,0.4,1.4
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]      
+Vertex 14.5,0,1.5
+Vertex 14.5,0,8.6
+Vertex 14.5,0.4,8.6
+Vertex 14.5,0.4,1.5
+face 0,1,2,3
+face 3,2,1,0
+color 255,200,145
+
+[Meshbuilder]         ;hármasablak      
+Vertex 14.65,1.5,2.5
+Vertex 14.65,1.5,4.2
+Vertex 14.65,3.3,4.2
+Vertex 14.65,3.3,2.5
+face 0,1,2,3
+face 3,2,1,0
+[Texture]
+Load ablak_1_racsos.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[Meshbuilder]               
+Vertex 14.65,1.5,4.2
+Vertex 14.65,1.5,5.9
+Vertex 14.65,3.3,5.9
+Vertex 14.65,3.3,4.2
+face 0,1,2,3
+face 3,2,1,0
+[Texture]
+Load ablak_1_racsos.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[Meshbuilder]              
+Vertex 14.65,1.5,5.9
+Vertex 14.65,1.5,7.6
+Vertex 14.65,3.3,7.6
+Vertex 14.65,3.3,5.9
+face 0,1,2,3
+face 3,2,1,0
+[Texture]
+Load ablak_1_racsos.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+

@@ -1,0 +1,130 @@
+[MeshBuilder]
+Vertex -0.95, -0.144, 19.6
+Vertex -0.35, 0.2, 20
+Vertex 0.35, 0.2, 20
+Vertex 0.95, -0.144, 19.6
+Vertex -0.35, 0.2,  23.5
+Vertex -0.95, -0.144,24.5
+Vertex 0.35, 0.2,  23.5
+Vertex 0.95, -0.144,24.5
+Face 0,1,2,3
+Face 4,1,0,5
+Face 2,6,7,3
+Face 4,6,2,1
+
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 0.2
+Coordinates 1, 0.3, 0
+Coordinates 2, 0.7, 0
+Coordinates 3, 1, 0.2
+Coordinates 4, 0.3, -0.2
+Coordinates 5, -1, 0
+Coordinates 6, 0.7, -0.2
+Coordinates 7, 2, 0.2
+
+
+
+[MeshBuilder]
+Vertex -0.95, -0.144, 0
+Vertex -0.95, -0.144, 19.6
+Vertex 0.95, -0.144, 19.6
+Vertex 0.95, -0.144, 0
+Face 0, 1, 2, 3
+[Texture]
+Load Tie2.bmp
+Coordinates 0, 0, 7
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 7
+
+[MeshBuilder]
+Vertex -1.9, -0.3, 0
+Vertex -1.9, -0.3, 25.2
+Vertex -0.95, -0.144, 25.2
+Vertex -0.95, -0.144, 0
+Face 0, 1, 2, 3
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+
+[MeshBuilder]
+Vertex 0.95, -0.144, 0
+Vertex 0.95, -0.144, 25.2
+Vertex 1.9, -0.3, 25.2
+Vertex 1.9, -0.3, 0
+Face 0, 1, 2, 3
+[Texture]
+Load Ballast2.bmp
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex -0.602, 0, 0
+Vertex -0.602, 0, 20.5
+Vertex -0.534, 0, 20.5
+Vertex -0.534, 0, 0
+Face 0, 1, 2, 3
+Color 102,66,36
+
+[MeshBuilder]
+Vertex 0.534, 0, 0
+Vertex 0.534, 0, 20.5
+Vertex 0.602, 0, 20.5
+Vertex 0.602, 0, 0
+Face 0, 1, 2, 3
+Color 102,66,36
+
+[MeshBuilder]
+Vertex -0.568, -0.01, 0
+Vertex -0.568, -0.01, 20.5
+Vertex -0.568, -0.13, 20.5
+Vertex -0.568, -0.13, 0
+Vertex 0.568, -0.01, 0
+Vertex 0.568, -0.01, 20.5
+Vertex 0.568, -0.13, 20.5
+Vertex 0.568, -0.13, 0
+Face 0,1,2,3
+Face 3,2,1,0
+Face 4,5,6,7
+Face 7,6,5,4
+Color 102,66,36
+
+
+[MeshBuilder]      ;Žx’Œ
+;Vertex 0.1, 6.5, 24.5
+;Vertex 0.094, 6.5, 24.46
+;Vertex 0.07, 6.5, 24.43
+;Vertex 0.04, 6.5,24.406
+;Vertex 0, 6.5, 24.4
+;Vertex -0.04, 6.5, 24.406
+;Vertex -0.07, 6.5, 24.43
+;Vertex -0.094, 6.5, 24.46
+;Vertex -0.1, 6.5, 24.5
+;Vertex 0.1, 0, 24.5
+;Vertex 0.094, 0, 24.46
+;Vertex 0.07, 0, 24.43
+;Vertex 0.04, 0, 24.406
+;Vertex 0, 0, 24.4
+;Vertex -0.04, 0, 24.406
+;Vertex -0.07, 0, 24.43
+;Vertex -0.094, 0, 24.46
+;Vertex -0.1, 0, 24.5
+;Face 1,0,9,10
+;Face 2,1,10,11
+;Face 3,2,11,12
+;Face 4,3,12,13
+;Face 5,4,13,14
+;Face 6,5,14,15
+;Face 7,6,15,16
+;Face 8,7,16,17
+;Color 148,148,148
+
+
+
+

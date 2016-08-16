@@ -1,0 +1,107 @@
+;fák
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;                            ;;
+;;           FA 1             ;;
+;;                            ;;
+;;     méret: x=10 y=9        ;;
+;;                            ;;
+;;           2006             ;;
+;;                            ;;
+;;    (C) DÁVIDHÁZI TIBOR     ;;
+;;                            ;;
+;;      EZT AZ OBJEKTUMOT     ;;
+;;    MÓDOSÍTATLAN FORMÁBAN   ;;
+;; SZABADON BEÉPÍTHETED SAJÁT ;;
+;;  PÁLYÁDBA ÉS A PÁLYÁDBAN   ;;
+;;        PUBLIKÁLHATOD.      ;;
+;;    HA MÓDOSÍTANI AKAROD,   ;;
+;;   ENGEDÉLYT KELL KÉRNED.   ;;
+;;                            ;;
+;;  YOU CAN USE THIS OBJECT   ;;
+;;   FREELY IN YOUR ROUTES    ;;
+;;    WITHOUT MODIFICATION.   ;;
+;;  IF YOU WANT TO MODIFY IT  ;;
+;;     REQUEST PERMISSION     ;;
+;;          BY EMAIL.         ;;
+;;                            ;;
+;;    phontanka@gmail.com     ;;
+;;                            ;;
+;; http://phontanka.extra.hu  ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+[Meshbuilder]
+vertex -2,5,0
+vertex  2,5,0
+vertex  2,0,0
+vertex -2,0,0
+face2 0,1,2,3
+[Texture]
+load fa02.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,0.710
+coordinates 3,0,0.710
+Transparent 0,0,255
+Translate 0,0,2.5
+
+[Meshbuilder]
+vertex -2,5,0
+vertex  2,5,0
+vertex  2,0,0
+vertex -2,0,0
+face2 0,1,2,3
+[Texture]
+load fa02.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,0.710
+coordinates 3,0,0.710
+Transparent 0,0,255
+Translate 0,0.15,7.5
+
+[Meshbuilder]
+vertex -2,5,0
+vertex  2,5,0
+vertex  2,0,0
+vertex -2,0,0
+face2 0,1,2,3
+[Texture]
+load fa02.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,0.710
+coordinates 3,0,0.710
+Transparent 0,0,255
+Translate 0,0.3,12.5
+
+[Meshbuilder]
+vertex -2,5,0
+vertex  2,5,0
+vertex  2,0,0
+vertex -2,0,0
+face2 0,1,2,3
+[Texture]
+load fa02.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,0.710
+coordinates 3,0,0.710
+Transparent 0,0,255
+Translate 0,0.4,17.5
+
+[Meshbuilder]
+vertex -2,5,0
+vertex  2,5,0
+vertex  2,0,0
+vertex -2,0,0
+face2 0,1,2,3
+[Texture]
+load fa02.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,0.710
+coordinates 3,0,0.710
+Transparent 0,0,255
+Translate 0,0.5,22.5

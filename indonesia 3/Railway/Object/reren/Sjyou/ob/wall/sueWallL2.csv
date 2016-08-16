@@ -1,0 +1,30 @@
+CreateMeshBuilder,
+AddVertex,-4.7, 1.1, 0,
+AddVertex,-4.7, 4.7, 0,
+AddVertex,-4.7, 4.7, 25,
+AddVertex,-4.7, 1.1, 25,
+AddFace2,0,1,2,3,
+Loadtexture,../../Wall\sueWall2.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+GenerateNormals,
+Setcolor,220,220,220
+SetEmissiveColor,115,115,115,
+
+CreateMeshBuilder,
+AddVertex,-7.2, 1.1, 0,
+AddVertex,-7.2, 4.7, 0,
+AddVertex,-4.7, 4.7, 25,
+AddVertex,-4.7, 1.1, 25,
+AddFace2,0,1,2,3,
+Loadtexture,../../Wall\sueWall2.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+GenerateNormals,
+Setcolor,220,220,220
+Translate,0,10,0
+SetEmissiveColor,115,115,115,

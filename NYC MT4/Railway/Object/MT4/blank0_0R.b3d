@@ -1,0 +1,62 @@
+[MeshBuilder]
+
+Vertex 2,4,0  ;19
+Vertex 2,0,0   ;16  ; Left  (facing Right Track)
+Vertex 2,0,25    ;17
+Vertex 2,4,25  ;18
+
+
+Face 0,1,2,3  ; Left
+
+
+[Texture]
+Load bnk0_0.BMP
+
+
+Coordinates  0  ,10,0
+Coordinates  1  ,10,1
+Coordinates  2  ,0,1
+Coordinates  3  ,0,0
+
+[MeshBuilder]
+Vertex 2.02,5,0  ;19
+Vertex 2.02,-0.5,0   ;16  ; Left  (facing Right Track)
+Vertex 2.02,-0.5,25    ;17
+Vertex 2.02,5,25  ;18
+
+Vertex 0,-0.5,0
+Vertex 0,-0.5,25
+Vertex 2.02,-0.5,25
+Vertex 2.02,-0.5,0
+
+Face 0,1,2,3
+Face 4,5,6,7
+
+Color 128,128,128
+
+[MeshBuilder]
+
+Vertex 2,4.8,0  ;19
+Vertex 2,4,0   ;16  ; Left  (facing Right Track)
+Vertex 2,4,25    ;17
+Vertex 2,4.8,25  ;18
+
+
+Face 0,1,2,3  ; Left
+
+
+[Texture]
+Load tile.bmp
+
+Coordinates  0  ,10,0
+Coordinates  1  ,10,4
+Coordinates  2  ,0,4
+Coordinates  3  ,0,0
+
+[meshbuilder]
+vertex 2,4.8,0
+vertex 2,4.8,25
+vertex 2,-.5,25
+vertex 2,-.5,0
+face 0,1,2,3
+color 31,31,31

@@ -1,0 +1,12 @@
+CreateMeshBuilder
+AddVertex,2, 6, 0
+AddVertex,2, 1.1, 0
+AddVertex,2, 5.1, 13
+AddVertex,2, 10, 13
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,roof1.bmp
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 1, 0
+SetTextureCoordinates,0, 0, 0

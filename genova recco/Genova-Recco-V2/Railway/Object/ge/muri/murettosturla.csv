@@ -1,0 +1,24 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;fronte
+CreateMeshBuilder,
+AddVertex,-6, 0.5, 0,
+AddVertex,-6, 4, 0,
+AddVertex,-6, 4, 25,
+AddVertex,-6, 0.5, 25,
+AddFace2,0, 1, 2, 3,
+
+
+GenerateNormals,
+ 
+
+LoadTexture,..\Edifici\murettosturla.png,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 15, 0,
+SetTextureCoordinates,3, 15, 1,
+SetDecalTransparentColor, 0, 0, 0,
+

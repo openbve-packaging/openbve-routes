@@ -1,0 +1,81 @@
+
+[MeshBuilder]
+Vertex -3, 7, -5
+Vertex 0, 9, -5
+Vertex 3, 7,-5
+Vertex 3, -2, -5
+Vertex -3, -2, -5
+Face 0,1,2
+Face 0,2,3,4
+[Texture]
+Load casellolato.bmp
+Coordinates 0, 0, 0.25
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 1, 0.7
+Coordinates 4, 0, 0.7
+
+
+[MeshBuilder]
+Vertex -3, 7, 5
+Vertex -3, 7, -5
+Vertex -3, -2, -5
+Vertex -3, -2, 5
+Face 0,1,2,3
+[Texture]
+Load casellofronte.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.9
+Coordinates 3, 0, 0.9
+
+;right wall
+[MeshBuilder]
+Vertex 3, 7, -5
+Vertex 3, 7, 5
+Vertex 3, -2, 5
+Vertex 3, -2, -5
+Face 0,1,2,3
+[Texture]
+Load casellofronte.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.9
+Coordinates 3, 0, 0.9
+
+
+[MeshBuilder]
+Vertex 3, 7, 5
+Vertex 0, 9, 5
+Vertex -3, 7, 5
+Vertex -3, -2, 5
+Vertex 3, -2, 5
+Face 0,1,2
+Face 0,2,3,4
+[Texture]
+Load casellolato.bmp
+Coordinates 0, 0, 0.25
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.25
+Coordinates 3, 1, 0.7
+Coordinates 4, 0, 0.7
+
+;tetto
+[MeshBuilder]
+Vertex -3, 7, 5
+Vertex 0, 9, 5
+Vertex 3, 7, 5
+Vertex 3, 7, -5
+Vertex 0, 9, -5
+Vertex -3, 7, -5
+Face 0,1,4,5
+Face 1,2,3,4
+[Texture]
+Load tetto2.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 0, 3
+Coordinates 3, 10, 3
+Coordinates 4, 10, 0
+Coordinates 5, 10, 3
+

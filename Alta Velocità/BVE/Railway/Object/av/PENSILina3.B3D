@@ -1,0 +1,171 @@
+[Meshbuilder]
+cylinder 6,0.15,0.15,25.5
+rotate 90,0,0,90
+translate -2.2,7,12.5
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,25.5
+rotate 90,0,0,90
+translate 2.2,7,12.5
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,25.5
+rotate 90,0,0,90
+translate -1.2,6,12.5
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,25.5
+rotate 90,0,0,90
+translate 1.2,6,12.5
+color 0,0,0
+
+
+[Meshbuilder]
+cylinder 6,0.15,0.15,6
+rotate 90,0,1,0
+translate -0.5,3,7
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,6
+rotate 90,0,1,0
+translate 0.5,3,7
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,6
+rotate 90,0,1,0
+translate -0.5,3,18
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,6
+rotate 90,0,1,0
+translate 0.5,3,18
+color 0,0,0
+
+[Meshbuilder]
+cylinder 6,0.15,0.15,2.8
+translate 6,0,0
+rotate 0,0,90,90
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,1.5
+translate 3.4,5.8,0
+rotate 0,0,45,45
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,1.5
+translate 3.3,-5.9,0
+rotate 0,0,135,135
+color 0,0,0
+
+
+[Meshbuilder]
+cylinder 6,0.15,0.15,2.8
+translate 6,0,7
+rotate 0,0,90,90
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,1.5
+translate 3.4,5.8,7
+rotate 0,0,45,45
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,1.5
+translate 3.3,-5.9,7
+rotate 0,0,135,135
+color 0,0,0
+
+
+[Meshbuilder]
+cylinder 6,0.15,0.15,2.8
+translate 6,0,18
+rotate 0,0,90,90
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,1.5
+translate 3.4,5.8,18
+rotate 0,0,45,45
+color 0,0,0
+[Meshbuilder]
+cylinder 6,0.15,0.15,1.5
+translate 3.3,-5.9,18
+rotate 0,0,135,135
+color 0,0,0
+
+
+[MeshBuilder]
+Vertex -1.2,6,0
+Vertex  1.2,6,0
+Vertex  2.2,7,0
+Vertex -2.2,7,0
+face2 3,0,1,2
+color 0,0,0,99
+
+
+
+[meshbuilder]
+vertex -1.2, 6,  0.000
+vertex  1.2, 6,  0.000
+vertex  1.2, 6, 25.000
+vertex -1.2, 6, 25.000
+face 0,1,2,3
+color 0,0,0,99
+
+
+[meshbuilder]
+vertex -2.2, 7,  0.000
+vertex -1.2, 6,  0.000
+vertex -1.2, 6, 25.000
+vertex -2.2, 7, 25.000
+face 0,1,2,3
+color 0,0,0,99
+
+
+[meshbuilder]
+vertex 2.2, 7,  0.000
+vertex 1.2, 6,  0.000
+vertex 1.2, 6, 25.000
+vertex 2.2, 7, 25.000
+face 3,2,1,0
+color 0,0,0,99
+
+
+
+[MeshBuilder]
+Vertex 0,0,5
+Vertex 0,4,5
+Vertex 0,4,3
+Vertex 0,0,3
+Face2 0,1,2,3
+[Texture]
+Load publ1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex 0,0,12
+Vertex 0,4,12
+Vertex 0,4,10
+Vertex 0,0,10
+Face2 0,1,2,3
+[Texture]
+Load publ2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex 0,0,23
+Vertex 0,4,23
+Vertex 0,4,21
+Vertex 0,0,21
+Face2 0,1,2,3
+[Texture]
+Load publ3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255

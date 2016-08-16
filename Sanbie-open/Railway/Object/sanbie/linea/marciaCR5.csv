@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+AddVertex,5.5, 0.25, -0.8,
+AddVertex,5.5, 0.25, 25,
+AddVertex,2.5, 0.3, 25,
+AddVertex,2.5, 0.3, -0.8,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,autobloccanti1.bmp,
+SetTextureCoordinates,0, 5, 22,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 22,
+
+

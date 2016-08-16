@@ -1,0 +1,50 @@
+; COPYRIGHT (c)  Kelvin Liu 2007
+; aka "EmergencyBrake" on rail forums
+; Aldwych BVE4 object file
+; If you want to reuse this object for your own route, dont ask for permission, just let me know
+
+;lamp 1
+CreateMeshbuilder,
+Cube,0.1, 0.18, 0.1,
+Translate, -1.95, 2.3, 1,
+SetColor,60,60,60,
+GenerateNormals,
+LoadTexture,white.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+CreateMeshbuilder,
+Cube,0.07, 0.15, 0.07,
+Translate, -1.9, 2.3, 1,
+SetColor,255,255,166,
+GenerateNormals,
+LoadTexture,white.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+
+;lamp 2
+CreateMeshbuilder,
+Cube,0.1, 0.18, 0.1,
+Translate, -1.95, 2.3, 12,
+SetColor,60,60,60,
+LoadTexture,white.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+
+CreateMeshbuilder,
+Cube,0.07, 0.15, 0.07,
+Translate, -1.9, 2.3, 12,
+SetColor,255,255,166,
+GenerateNormals,
+LoadTexture,white.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,

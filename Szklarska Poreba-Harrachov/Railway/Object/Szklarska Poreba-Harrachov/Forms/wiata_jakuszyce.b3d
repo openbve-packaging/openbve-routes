@@ -1,0 +1,263 @@
+[MeshBuilder];
+Vertex 0 ,0,0
+Vertex 0 ,3,0
+Vertex 0 ,3,3
+Vertex 0 ,0,3
+Face2 0,1,2,3
+[Texture]
+Load wiata_sciana.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0.01 ,1.1,0.8
+Vertex 0.01 ,2.7,0.8
+Vertex 0.01 ,2.7,2.3
+Vertex 0.01 ,1.1,2.3
+Face2 0,1,2,3
+Color 100,100,100,80
+
+[MeshBuilder];
+Vertex 0 ,3,0
+Vertex 0 ,3.5   ,0
+Vertex 0 ,3   ,3
+Vertex 0 ,3,3
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;-
+[MeshBuilder];
+Vertex 7 ,0,0
+Vertex 7 ,3,0
+Vertex 7 ,3,3
+Vertex 7 ,0,3
+Face2 0,1,2,3
+[Texture]
+Load wiata_sciana.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 6.99 ,1.1,0.8
+Vertex 6.99 ,2.7,0.8
+Vertex 6.99 ,2.7,2.3
+Vertex 6.99 ,1.1,2.3
+Face2 0,1,2,3
+Color 100,100,100,80
+[MeshBuilder];
+Vertex 7 ,3,0
+Vertex 7 ,3.5,0
+Vertex 7 ,3,3
+Vertex 7 ,3,3
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;-
+[MeshBuilder];
+Vertex 0 ,0,3
+Vertex 0 ,3   ,3
+Vertex 7 ,3   ,3
+Vertex 7 ,0,3
+Face2 0,1,2,3
+[Texture]
+Load wiata_sciana_tyl.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 1.9 ,1.2,2.99
+Vertex 1.9 ,2.8,2.99
+Vertex 4.95 ,2.8,2.99
+Vertex 4.95 ,1.2,2.99
+Face2 0,1,2,3
+Color 100,100,100,80
+;--------DACH-------;
+[MeshBuilder];
+Vertex 0 ,3,3
+Vertex 7 ,3   ,3
+Vertex 7 ,3.6   ,-0.7
+Vertex 0 ,3.6,-0.7
+Face2 3,2,1,0
+[Texture]
+Load deski2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;------BELKI---------;
+[MeshBuilder];
+Vertex 1 ,0,0
+Vertex 1 ,3.48   ,0
+Vertex 1 ,3.45   ,0.2
+Vertex 1 ,0,0.2
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 1 ,0,0
+Vertex 1 ,3.48   ,0
+Vertex 1.2 ,3.48   ,0
+Vertex 1.2 ,0,0
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 1.2 ,0,0
+Vertex 1.2 ,3.48   ,0
+Vertex 1.2 ,3.45   ,0.2
+Vertex 1.2 ,0,0.2
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.1
+Transparent 0,0,255
+;-
+[MeshBuilder];
+Vertex 5 ,0,0
+Vertex 5 ,3.48   ,0
+Vertex 5 ,3.45   ,0.2
+Vertex 5 ,0,0.2
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 5 ,0,0
+Vertex 5 ,3.48   ,0
+Vertex 5.2 ,3.48   ,0
+Vertex 5.2 ,0,0
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 5.2 ,0,0
+Vertex 5.2 ,3.48   ,0
+Vertex 5.2 ,3.45   ,0.2
+Vertex 5.2 ,0,0.2
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.1
+Transparent 0,0,255
+;-
+[MeshBuilder];
+Vertex 2.9 ,0,0
+Vertex 2.9 ,3.48   ,0
+Vertex 2.9 ,3.45   ,0.2
+Vertex 2.9 ,0,0.2
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 2.9 ,0,0
+Vertex 2.9 ,3.48   ,0
+Vertex 3.1 ,3.48   ,0
+Vertex 3.1 ,0,0
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 3.1 ,0,0
+Vertex 3.1 ,3.48   ,0
+Vertex 3.1 ,3.45   ,0.2
+Vertex 3.1 ,0,0.2
+Face2 0,1,2,3
+[Texture]
+Load deski.png
+Coordinates 0,0,0.1
+Coordinates 1,0,0
+Coordinates 2,0.1,0
+Coordinates 3,0.1,0.1
+Transparent 0,0,255
+;---------------------------
+[MeshBuilder];
+Vertex 0.8 ,1.5,2.95
+Vertex 0.8 ,2.5   ,2.95
+Vertex 1.6 ,2.5   ,2.95
+Vertex 1.6,1.5,2.95
+Face2 0,1,2,3
+[Texture]
+Load jakuszyce_rozklad.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;----------------------------
+[Meshbuilder]
+Cylinder 50,0.2,0.2,0.6
+Color 0,0,120
+Rotate 0,0,0
+Translate 6.8,0.6,0.4
+[Meshbuilder]
+Cylinder 50,0.1,0.2,0.05
+Color 0,0,0
+Rotate 0,0,0
+Translate 6.8,1.1,0.4
+[Meshbuilder]
+Cylinder 50,0.2,0.2,0.05
+Color 0,0,0
+Rotate 0,0,0
+Translate 6.8,0.9,0.4
+[Meshbuilder]
+Cube 0.02,0.1,0.02
+Color 0,0,0
+Rotate 0,0,0
+Translate 6.8,0.975,0.57
+[Meshbuilder]
+Cube 0.02,0.1,0.02
+Color 0,0,0
+Rotate 0,0,0
+Translate 6.8,0.975,0.23

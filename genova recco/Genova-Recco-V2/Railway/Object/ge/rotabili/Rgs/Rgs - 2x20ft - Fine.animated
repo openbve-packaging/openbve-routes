@@ -1,0 +1,33 @@
+[Include]
+Carrello.animated
+Position = 0, -0.06, 7
+[Include]
+Carrello.animated
+Position = 0, -0.06, -7
+
+[Object]
+States = rgs.csv
+Position = 0, 0, 0
+
+[Object]
+States = Container\container 20ft - triton.csv
+Position = 0, 1.2, -6.18
+[Object]
+States = Container\container 20ft - cont1.csv
+Position = 0, 1.2, 6.18
+
+[Object]
+States = lanterna.csv
+Position = 0.75, 1.15, -9.43
+[Object]
+States = lanterna.csv
+Position = -0.75, 1.15, -9.43
+
+[Object]
+States = taillamp.csv
+Position = -0.75, 0.22, -9.44
+StateFunction = floor[mod[TIME * 1.5, 2]]
+[Object]
+States = taillamp.csv
+Position = 0.75, 0.22, -9.44
+StateFunction = floor[mod[TIME * 2, 2]]

@@ -1,0 +1,123 @@
+
+; fronte
+[MeshBuilder]
+Vertex -25,0,0
+Vertex -25,7,0
+Vertex -17.5,9,0
+Vertex -10,7,0
+Vertex -10,0,0
+Face 0,1,2,3,4
+
+[Texture]
+Load hangar.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.2
+Coordinates 2, 1, 0
+Coordinates 3, 2, 0.2
+Coordinates 4, 2, 1
+
+;; lato dx
+[MeshBuilder]
+Vertex -10,0,0
+Vertex -10,7,0
+Vertex -10,7,40
+Vertex -10,0,40
+Face 0,1,2,3,
+[Texture]
+Load hangar.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 6, 0
+Coordinates 3, 6, 1
+
+
+;; lato sx
+[MeshBuilder]
+Vertex -25,0,0
+Vertex -25,7,0
+Vertex -25,7,40
+Vertex -25,0,40
+Face2 0,1,2,3,
+[Texture]
+Load hangar.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 6, 0
+Coordinates 3, 6, 1
+
+;;fondo
+[MeshBuilder]
+Vertex -25,0,40
+Vertex -25,7,40
+Vertex -17.5,9,40
+Vertex -10,7,40
+Vertex -10,0,40
+face2 0,1,2,3,4
+color 255,255,255
+[Texture]
+Load a4.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.2
+Coordinates 2, 1, 0
+Coordinates 3, 2, 0.2
+Coordinates 4, 2, 1
+
+; tetto
+[MeshBuilder]
+Vertex -17.5,9,-0.4
+Vertex -17.5,9,40.4
+Vertex -9.2,6.84,40.4
+Vertex -9.2,6.84,-0.4
+Vertex -9.2,6.24,40.4
+Vertex -9.2,6.24,-0.4
+Vertex -17.5,8.4,-0.4
+Face 0,1,2,3
+Face 3,2,1,0
+Face 3,2,4,5
+Face 0,3,5,6
+[Texture]
+Load a4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.4
+Coordinates 3, 0, 0.4
+Coordinates 4, 0, 0
+Coordinates 5, 0, 1
+Coordinates 6, 0, 0.4
+
+[MeshBuilder]
+Vertex -17.5,9,-0.4
+Vertex -17.5,8.4,-0.4
+Vertex -25.8,6.24,-0.4
+Vertex -25.8,6.84,-0.4
+Face 0,1,2,3
+[Texture]
+Load a4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.4
+Coordinates 3, 0, 0.4
+
+
+[MeshBuilder]
+Vertex -17.5,9,-0.4
+Vertex -17.5,9,40.4
+Vertex -25.8,6.84,40.4
+Vertex -25.8,6.84,-0.4
+Vertex -25.8,6.24,40.4
+Vertex -25.8,6.24,-0.4
+Vertex -17.5,8.4,-0.4
+Face 0,1,2,3
+Face 3,2,1,0
+Face 3,2,4,5
+Face 0,3,5,6
+[Texture]
+Load a4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 0.4
+Coordinates 3, 0, 0.4
+Coordinates 4, 0, 0
+Coordinates 5, 0, 1
+Coordinates 6, 0, 0.4
+

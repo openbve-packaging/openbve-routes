@@ -1,0 +1,5 @@
+
+[Object]
+Position = 0, 0, 0
+States = featherR_R.csv, featherR_G.csv
+statefunction = if[section == 4, 1, 0]

@@ -1,0 +1,97 @@
+
+
+
+
+
+
+
+[Meshbuilder] 
+Vertex -2.5,4.5,0
+Vertex -2.5,4.5,25.5
+Vertex -2.5,-1,25.5
+Vertex -2.5,-1,0
+Face 0,1,2,3
+[Texture]
+Load murogall.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[Meshbuilder] 
+Vertex -1,6.8,0
+Vertex -1,6.8,26
+Vertex -2.5,4.5,26
+Vertex -2.5,4.5,0
+Face 0,1,2,3
+color 50,50,50
+
+
+
+[Meshbuilder] 
+Vertex  1,7.5,0
+Vertex  1,7.5,26
+Vertex -1,6.8,26
+Vertex -1,6.8,0
+Face 0,1,2,3
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex  2,7.8,0
+Vertex  2,7.8,26
+Vertex 1,7.5,26
+Vertex 1,7.5,0
+Face 0,1,2,3
+color 50,50,50
+
+;----
+[Meshbuilder] 
+Vertex  3,7.8,0
+Vertex  3,7.8,26
+Vertex  2,7.8,26
+Vertex  2,7.8,0
+Face 0,1,2,3
+color 50,50,50
+
+;----
+[Meshbuilder] 
+Vertex 6.5,4.5,0
+Vertex 6.5,4.5,25.5
+Vertex 6.5,-1,25.5
+Vertex 6.5,-1,0
+Face 3,2,1,0
+[Texture]
+Load murogall.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[Meshbuilder] 
+Vertex 5,6.8,0
+Vertex 5,6.8,26
+Vertex 6.5,4.5,26
+Vertex 6.5,4.5,0
+Face 3,2,1,0
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex 4,7.5,0
+Vertex 4,7.5,26
+Vertex 5,6.8,26
+Vertex 5,6.8,0
+Face 3,2,1,0
+color 50,50,50
+
+
+
+[Meshbuilder] 
+Vertex 3,7.8,0
+Vertex 3,7.8,26
+Vertex 4,7.5,26
+Vertex 4,7.5,0
+Face 3,2,1,0
+color 50,50,50
+

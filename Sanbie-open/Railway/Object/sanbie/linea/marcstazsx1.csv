@@ -1,0 +1,76 @@
+CreateMeshBuilder,
+AddVertex,-1.5, 0.5, 0,
+AddVertex,-1.5, 0.5, 10,
+AddVertex,-2.5, 0.5, 10,
+AddVertex,-2.5, 0.5, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,marcstaz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+;; piano inclinato
+
+CreateMeshBuilder,
+AddVertex,-1.5, 0.5, 10,
+AddVertex,-1.5, -0.5, 12,
+AddVertex,-2.5, -0.5, 12,
+AddVertex,-2.5, 0.5, 10,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,marcstaz.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+
+
+CreateMeshBuilder,
+AddVertex,-1.5, -0.5, 0,
+AddVertex,-1.5, -0.5, 10,
+AddVertex,-1.5, 0.5, 10,
+AddVertex,-1.5, 0.5, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,altmarciap.bmp,
+SetTextureCoordinates,0, 12, 1,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 12, 0,
+
+
+;; lato inclinato
+
+CreateMeshBuilder,
+AddVertex,-1.5, -0.5, 10,
+AddVertex,-1.5, -0.5, 12,
+AddVertex,-1.5, 0.5, 10,
+AddFace,2, 1, 0,
+GenerateNormals,
+
+LoadTexture,altmarciap.bmp,
+SetTextureCoordinates,0, 12, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 12, 0,
+
+;; fronte
+
+CreateMeshBuilder,
+AddVertex,-1.5, -0.5, 0,
+AddVertex,-1.5, 0.5, 0,
+AddVertex,-2.7, 0.5, 0,
+AddVertex,-2.7, -0.5, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,altmarciap.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,

@@ -1,0 +1,123 @@
+[MeshBuilder]
+Vertex 2.5, 4.2, 0
+Vertex 1.9, 5.4, 0
+Vertex -8.5, 5.4, 0
+Vertex 2.5, 4.2, 27
+Vertex 1.9, 5.4, 27
+Vertex -8.5, 5.4, 27
+Face 1, 0, 3, 4
+Face 2, 1, 4, 5
+Color 20,20,20
+
+[Texture]
+Load Concrete.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.7
+Coordinates 2, 0, 0.4
+Coordinates 5, 12, 0.3
+Coordinates 4, 12, 0.4
+Coordinates 3, 12, 0.7
+
+[MeshBuilder]
+Vertex 2.5, -0.3, 0
+Vertex 2.5, 4.2, 0
+Vertex 2.6, 4.2, 0
+Vertex 2.6, -0.3, 0
+Face 0, 1, 2, 3
+Color 20,20,20
+
+[MeshBuilder]
+Vertex 1.9, -0.3, 0
+Vertex 2.5, -0.3, 0
+Vertex 2.5, 4.2, 0
+Vertex 2.6, 4.2, 0
+Vertex 2.6, -0.6, 0
+Vertex 1.9, -0.3, 27
+Vertex 2.5, -0.3, 27
+Vertex 2.5, 4.2, 27
+Vertex 2.6, 4.2, 27
+Vertex 2.6, -0.6, 27
+Face 1, 0, 5, 6
+Face 2, 1, 6, 7
+Face 3, 2, 7, 8
+Face 4, 3, 8, 9
+Color 20,20,20
+
+[Texture]
+Load Concrete.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0.7
+Coordinates 2, 0, 0.4
+Coordinates 3, 0, 0.3
+Coordinates 4, 0, 0
+Coordinates 9, 12, 0
+Coordinates 8, 12, 0.3
+Coordinates 7, 12, 0.4
+Coordinates 6, 12, 0.7
+Coordinates 5, 12, 1
+
+[MeshBuilder]
+Vertex 2.5, 2.5, 5.90
+Vertex 2.5, 2.5, 6.0
+Vertex 2.45,2.5, 5.90
+Vertex 2.45,2.5, 6.0
+Vertex 2.5, 2.45,5.90
+Vertex 2.5, 2.45,6.0
+Vertex 2.45,2.45,5.90
+Vertex 2.45,2.45,6.0
+Face 2,0,4,6
+Face 3,2,6,7
+Face 1,0,2,3
+Face 7,6,4,5
+;Color 254,254,254
+Color 251,221,125
+
+[MeshBuilder]
+Vertex 2.5, 2.5, 18.90
+Vertex 2.5, 2.5, 19.0
+Vertex 2.45,2.5, 18.90
+Vertex 2.45,2.5, 19.0
+Vertex 2.5, 2.45,18.90
+Vertex 2.5, 2.45,19.0
+Vertex 2.45,2.45,18.90
+Vertex 2.45,2.45,19.0
+Face 2,0,4,6
+Face 3,2,6,7
+Face 1,0,2,3
+Face 7,6,4,5
+;Color 254,254,254
+Color 251,221,125
+
+;-----------------------------
+
+[MeshBuilder]
+Vertex 2.7, 2.5, 5.90
+Vertex 2.7, 2.5, 6.0
+Vertex 2.65,2.5, 5.90
+Vertex 2.65,2.5, 6.0
+Vertex 2.7, 2.45,5.90
+Vertex 2.7, 2.45,6.0
+Vertex 2.65,2.45,5.90
+Vertex 2.65,2.45,6.0
+Face 2,0,4,6
+Face 3,2,6,7
+Face 1,0,2,3
+Face 7,6,4,5
+;Color 254,254,254
+Color 251,221,125
+
+[MeshBuilder]
+Vertex 2.7, 2.5, 18.90
+Vertex 2.7, 2.5, 19.0
+Vertex 2.65,2.5, 18.90
+Vertex 2.65,2.5, 19.0
+Vertex 2.7, 2.45,18.90
+Vertex 2.7, 2.45,19.0
+Vertex 2.65,2.45,18.90
+Vertex 2.65,2.45,19.0
+Face 2,0,4,6
+Face 3,2,6,7
+Face 1,0,2,3
+Face 7,6,4,5
+;Color 254,254,254
+Color 251,221,125

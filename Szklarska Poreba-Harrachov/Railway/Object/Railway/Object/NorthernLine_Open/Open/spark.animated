@@ -1,0 +1,5 @@
+[Object]
+States = ..\nothing.csv, spark.csv
+StateFunction = if[distance[0] > 0.75, 0, value == 0]
+RefreshRate = 0.03
+

@@ -1,0 +1,134 @@
+;mélyalagút, Déli bal kijáratnál
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;alagút
+[meshbuilder]
+vertex -0.250,-0.400,00.18
+vertex -1.606,-0.170,00.17
+vertex -1.982, 0.260,00.17
+vertex -2.330, 0.943,00.16
+vertex -2.450, 1.700,00.16
+vertex -2.330, 2.457,00.14
+vertex -1.982, 3.140,00.12
+vertex -1.440, 3.682,00.08
+vertex -0.757, 4.030,00.01
+vertex  0.000, 4.150,-00.04
+vertex  0.000, 4.150,-00.04
+
+vertex -0.250,-0.400,25.3
+vertex -1.606,-0.170,25.3
+vertex -1.982, 0.260,25.3
+vertex -2.330, 0.943,25.3
+vertex -2.450, 1.700,25.3
+vertex -2.330, 2.457,25.3
+vertex -1.982, 3.140,25.3
+vertex -1.440, 3.682,25.3
+vertex -0.757, 4.030,25.3
+vertex  0.000, 4.150,25.3
+vertex  0.000, 4.150,25.3
+face 10,21,20,9
+face 9,20,19,8
+face 8,19,18,7
+face 7,18,17,6
+face 6,17,16,5
+face 5,16,15,4
+face 4,15,14,3
+face 3,14,13,2
+face 2,13,12,1
+face 1,12,11,0
+[texture]
+load mely.bmp
+coordinates 0, 0.00,1.00
+coordinates 1, 0.00,0.97
+coordinates 2, 0.00,0.87
+coordinates 3, 0.00,0.72
+coordinates 4, 0.00,0.44
+coordinates 5, 0.00,0.29
+coordinates 6, 0.00,0.23
+coordinates 7, 0.00,0.20
+coordinates 8, 0.00,0.06
+coordinates 9, 0.00,0.01
+coordinates 10,0.00,0.00
+coordinates 11,2.00,1.00
+coordinates 12,2.00,0.97
+coordinates 13,2.00,0.87
+coordinates 14,2.00,0.72
+coordinates 15,2.00,0.44
+coordinates 16,2.00,0.29
+coordinates 17,2.00,0.23
+coordinates 18,2.00,0.20
+coordinates 19,2.00,0.06
+coordinates 20,2.00,0.01
+coordinates 21,2.00,0.00
+;--------------------------------------
+
+;alagút
+[meshbuilder]
+vertex 1.606,-0.170,25.3
+vertex 1.982, 0.260,25.3
+vertex 2.330, 0.943,25.3
+vertex 2.450, 1.700,25.3
+vertex 2.330, 2.457,25.3
+vertex 1.982, 3.140,25.3
+vertex 1.440, 3.682,25.3
+vertex 0.757, 4.030,25.3
+vertex 0.000, 4.150,25.3
+vertex 0.000, 4.150,25.3
+
+vertex 1.606,-0.170,-00.11
+vertex 1.982, 0.260,-00.11
+vertex 2.330, 0.943,-00.11
+vertex 2.450, 1.700,-00.11
+vertex 2.330, 2.457,-00.11
+vertex 1.982, 3.140,-00.11
+vertex 1.440, 3.682,-00.11
+vertex 0.757, 4.030,-00.08
+vertex 0.000, 4.150,-00.04
+vertex 0.000, 4.150,-00.04
+face 9,19,18,8
+face 8,18,17,7
+face 7,17,16,6
+face 6,16,15,5
+face 5,15,14,4
+face 4,14,13,3
+face 3,13,12,2
+face 2,12,11,1
+face 1,11,10,0
+[texture]
+load mely.bmp
+coordinates 0, 0.00,0.97
+coordinates 1, 0.00,0.87
+coordinates 2, 0.00,0.72
+coordinates 3, 0.00,0.44
+coordinates 4, 0.00,0.29
+coordinates 5, 0.00,0.23
+coordinates 6, 0.00,0.20
+coordinates 7, 0.00,0.06
+coordinates 8, 0.00,0.01
+coordinates 9, 0.00,0.00
+coordinates 10,2.00,0.97
+coordinates 11,2.00,0.87
+coordinates 12,2.00,0.72
+coordinates 13,2.00,0.44
+coordinates 14,2.00,0.29
+coordinates 15,2.00,0.23
+coordinates 16,2.00,0.20
+coordinates 17,2.00,0.06
+coordinates 18,2.00,0.01
+coordinates 19,2.00,0.00
+;--------------------------------------
+;lámpa
+
+[MeshBuilder]
+cube 0.025, 0.125, 0.60
+color 64,64,64
+rotate 0,0,1,-45
+translate -01.975, 03.00, 12.50
+
+[MeshBuilder]
+cube 0.025, 0.125, 0.60
+color 64,64,64
+rotate 0,0,1,45
+translate  01.975, 03.00, 12.50

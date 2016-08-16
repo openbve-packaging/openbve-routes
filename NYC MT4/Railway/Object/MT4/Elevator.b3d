@@ -1,0 +1,70 @@
+[MeshBuilder]
+
+vertex -1.0,3.0,0.0
+vertex  1.0,3.0,0.0
+vertex  1.0,1.0,0.0
+vertex -1.0,1.0,0.0
+face 0,1,2,3
+[Texture]
+Load Elevator.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+
+vertex -1.0,4.0,0.1
+vertex  1.0,4.0,0.1
+vertex  1.0,1.0,0.1
+vertex -1.0,1.0,0.1
+face 0,1,2,3
+[Texture]
+Load tile.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+
+vertex -1.0,4.0,4.0
+vertex -1.0,4.0,0.0
+vertex -1.0,1.0,0.0
+vertex -1.0,1.0,4.0
+face 0,1,2,3
+[Texture]
+Load tile.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+
+vertex  1.0,4.0,0.0
+vertex  1.0,4.0,4.0
+vertex  1.0,1.0,4.0
+vertex  1.0,1.0,0.0
+face 0,1,2,3
+[Texture]
+Load tile.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+
+vertex  1.0,4.0,3.0
+vertex -1.0,4.0,4.0
+vertex -1.0,1.0,4.0
+vertex  1.0,1.0,4.0
+face 0,1,2,3
+[Texture]
+Load tile.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+

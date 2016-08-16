@@ -1,0 +1,538 @@
+;---------------- tetto
+[MeshBuilder]
+Vertex -13, 8,-100
+Vertex -13, 8,0
+Vertex 27,8, 0
+Vertex 27,8, -100
+Face 3,2,1,0
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+color 48,48,32
+
+;---------------- muro sinistro
+[MeshBuilder]
+Vertex -13, 8,-100
+Vertex -13, 8, -75
+Vertex -13,-0, -75
+Vertex -13,-0,-100
+Vertex -13, 8, -75
+Vertex -13, 8, -50
+Vertex -13,-0, -50
+Vertex -13,-0, -75
+Vertex -13, 8, -50
+Vertex -13, 8, -25
+Vertex -13,-0, -25
+Vertex -13,-0, -50
+Vertex -13, 8, -25
+Vertex -13, 8,  0
+Vertex -13,-0,  0
+Vertex -13,-0, -25
+Face 0,1,2,3
+face 6,7,4,5
+face 10,11,8,9
+face 14,15,12,13
+[Texture]
+Load stazionesotto4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 1, 0
+Coordinates 6, 1, 1
+Coordinates 7, 0, 1
+Coordinates 8, 0, 0
+Coordinates 9, 1, 0
+Coordinates 10, 1, 1
+Coordinates 11, 0, 1
+Coordinates 12, 0, 0
+Coordinates 13, 1, 0
+Coordinates 14, 1, 1
+Coordinates 15, 0, 1
+;------------ form sinistro
+[MeshBuilder]
+Vertex -6.5, 0.6,   -100
+Vertex -6.5, 0.6,  -75
+Vertex -13, 0.6, -75
+Vertex -13, 0.6,  -100
+Vertex -6.5, 0.6,  -75
+Vertex -6.5, 0.6,  -50
+Vertex -13, 0.6, -50
+Vertex -13, 0.6, -75
+Vertex -6.5, 0.6,  -50
+Vertex -6.5, 0.6,  -25
+Vertex -13, 0.6, -25
+Vertex -13, 0.6, -50
+Vertex -6.5, 0.6,  -25
+Vertex -6.5, 0.6,  0
+Vertex -13, 0.6, 0
+Vertex -13, 0.6, -25
+Face 3,2,1,0
+face 7,6,5,4
+face 11,10,9,8
+face 15,14,13,12
+[Texture]
+Load Form2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+Coordinates 8, 0, 1
+Coordinates 9, 0, 0
+Coordinates 10, 1, 0
+Coordinates 11, 1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0
+Coordinates 14, 1, 0
+Coordinates 15, 1, 1
+
+;----------formside sinistro
+[MeshBuilder]
+Vertex -6.5, -0.3, -100
+Vertex -6.5, -0.3, -75
+Vertex -6.5, 0.6, -75
+Vertex -6.5, 0.6, -100
+Vertex -6.5, -0.3,  -75
+Vertex -6.5, -0.3,  -50
+Vertex -6.5, 0.6, -50
+Vertex -6.5, 0.6, -75
+Vertex -6.5, -0.3,  -50
+Vertex -6.5, -0.3,  -25
+Vertex -6.5, 0.6, -25
+Vertex -6.5, 0.6, -50
+Vertex -6.5, -0.3,  -25
+Vertex -6.5, -0.3,  0
+Vertex -6.5, 0.6, 0
+Vertex -6.5, 0.6, -25
+Face 3,2,1,0
+face 7,6,5,4
+face 11,10,9,8
+face 15,14,13,12
+[Texture]
+Load Formside2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+Coordinates 8, 0, 1
+Coordinates 9, 0, 0
+Coordinates 10, 1, 0
+Coordinates 11, 1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0
+Coordinates 14, 1, 0
+Coordinates 15, 1, 1
+
+
+
+
+;------------ muro destro
+[MeshBuilder]
+Vertex 26.011, 8, -100
+Vertex 26.011, 8, -75
+Vertex 26.011,-1, -75
+Vertex 26.011,-1, -100
+Vertex 26.011, 8, -75
+Vertex 26.011, 8, -50
+Vertex 26.011,-1, -50
+Vertex 26.011,-1, -75
+Vertex 26.011, 8, -50
+Vertex 26.011, 8, -25
+Vertex 26.011,-1, -25
+Vertex 26.011,-1, -50
+Vertex 26.011, 8, -25
+Vertex 26.011, 8,  0
+Vertex 26.011,-1,  0
+Vertex 26.011,-1, -25
+Face 3,2,1,0
+face 7,6,5,4
+face 11,10,9,8
+face 15,14,13,12
+[Texture]
+Load stazionesotto4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, -1, 0
+Coordinates 2, -1, 1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, -1, 0
+Coordinates 6, -1, 1
+Coordinates 7, 0, 1
+Coordinates 8, 0, 0
+Coordinates 9, -1, 0
+Coordinates 10, -1, 1
+Coordinates 11, 0, 1
+Coordinates 12, 0, 0
+Coordinates 13, -1, 0
+Coordinates 14, -1, 1
+Coordinates 15, 0, 1
+;------------ form sinistro
+[MeshBuilder]
+Vertex 1.5, 0.6,   -100
+Vertex 1.5, 0.6,  -75
+Vertex 11.7, 0.6, -75
+Vertex 11.7, 0.6,  -100
+Vertex 1.5, 0.6,  -75
+Vertex 1.5, 0.6,  -50
+Vertex 11.7, 0.6, -50
+Vertex 11.7, 0.6, -75
+Vertex 1.5, 0.6,  -50
+Vertex 1.5, 0.6,  -25
+Vertex 11.7, 0.6, -25
+Vertex 11.7, 0.6, -50
+Vertex 1.5, 0.6,  -25
+Vertex 1.5, 0.6,  0
+Vertex 11.7, 0.6, 0
+Vertex 11.7, 0.6, -25
+Face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+[Texture]
+Load Form2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+Coordinates 8, 0, 1
+Coordinates 9, 0, 0
+Coordinates 10, 1, 0
+Coordinates 11, 1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0
+Coordinates 14, 1, 0
+Coordinates 15, 1, 1
+;------------ form destro
+[MeshBuilder]
+Vertex 11.5, 0.6,   -100
+Vertex 11.5, 0.6,  -75
+Vertex 21.7, 0.6, -75
+Vertex 21.7, 0.6,  -100
+Vertex 11.5, 0.6,  -75
+Vertex 11.5, 0.6,  -50
+Vertex 21.7, 0.6, -50
+Vertex 21.7, 0.6, -75
+Vertex 11.5, 0.6,  -50
+Vertex 11.5, 0.6,  -25
+Vertex 21.7, 0.6, -25
+Vertex 21.7, 0.6, -50
+Vertex 11.5, 0.6,  -25
+Vertex 11.5, 0.6,  0
+Vertex 21.7, 0.6, 0
+Vertex 21.7, 0.6, -25
+Face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+[Texture]
+Load Form2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, -1, 0
+Coordinates 3, -1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, -1, 0
+Coordinates 7, -1, 1
+Coordinates 8, 0, 1
+Coordinates 9, 0, 0
+Coordinates 10, -1, 0
+Coordinates 11, -1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0
+Coordinates 14, -1, 0
+Coordinates 15, -1, 1
+;----------formside sinistro
+[MeshBuilder]
+Vertex 1.5, -0.3, -100
+Vertex 1.5, -0.3, -75
+Vertex 1.5, 0.6, -75
+Vertex 1.5, 0.6, -100
+Vertex 1.5, -0.3,  -75
+Vertex 1.5, -0.3,  -50
+Vertex 1.5, 0.6, -50
+Vertex 1.5, 0.6, -75
+Vertex 1.5, -0.3,  -50
+Vertex 1.5, -0.3,  -25
+Vertex 1.5, 0.6, -25
+Vertex 1.5, 0.6, -50
+Vertex 1.5, -0.3,  -25
+Vertex 1.5, -0.3,  0
+Vertex 1.5, 0.6, 0
+Vertex 1.5, 0.6, -25
+Face 0,1,2,3
+face 4,5,6,7
+face 8,9,10,11
+face 12,13,14,15
+[Texture]
+Load Formside2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+Coordinates 8, 0, 1
+Coordinates 9, 0, 0
+Coordinates 10, 1, 0
+Coordinates 11, 1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0
+Coordinates 14, 1, 0
+Coordinates 15, 1, 1
+;----------formside destro
+[MeshBuilder]
+Vertex 21.7, -0.3, -100
+Vertex 21.7, -0.3, -75
+Vertex 21.7, 0.6, -75
+Vertex 21.7, 0.6, 0
+Vertex 21.7, -0.3,  -75
+Vertex 21.7, -0.3,  -50
+Vertex 21.7, 0.6, -50
+Vertex 21.7, 0.6, -75
+Vertex 21.7, -0.3,  -50
+Vertex 21.7, -0.3,  -25
+Vertex 21.7, 0.6, -25
+Vertex 21.7, 0.6, -50
+Vertex 21.7, -0.3,  -25
+Vertex 21.7, -0.3,  0
+Vertex 21.7, 0.6, 0
+Vertex 21.7, 0.6, -25
+Face2 0,1,2,3
+face2 4,5,6,7
+face2 8,9,10,11
+face2 12,13,14,15
+[Texture]
+Load Formside2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Coordinates 5, 0, 0
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1
+Coordinates 8, 0, 1
+Coordinates 9, 0, 0
+Coordinates 10, 1, 0
+Coordinates 11, 1, 1
+Coordinates 12, 0, 1
+Coordinates 13, 0, 0
+Coordinates 14, 1, 0
+Coordinates 15, 1, 1
+;---------------- scala1
+;---------------- muro scala sinistro
+[MeshBuilder]
+Vertex 7, 8, -25
+Vertex 7, 8,  -40
+Vertex 7, 0.6, -40
+Vertex 7, 0.6,  -25
+Face 0,1,2,3
+[Texture]
+Load scalastazione4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+;---------------- muro scala destro
+[MeshBuilder]
+Vertex 16, 8, -25
+Vertex 16, 8,  -40
+Vertex 16, 0.6, -40
+Vertex 16, 0.6,  -25
+Face 0,1,2,3
+[Texture]
+Load scalastazione4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+;---------------- gradini
+[MeshBuilder]
+Vertex 7, 0.6, -36
+Vertex 16, 0.6, -36
+Vertex 16, 8, -25
+Vertex 7, 8, -25
+Face 3,2,1,0
+[Texture]
+Load gradini3.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+transparent 0,0,255
+;---------------- buco soffitto
+[MeshBuilder]
+Vertex 7, 7.99, -33
+Vertex 16,7.99, -33
+Vertex 16,7.99, -25
+Vertex 7, 7.99, -25
+Face 0,1,2,3
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+color 192,192,192
+;---------------- indicazione
+[meshbuilder]
+vertex 2, 8, -38
+vertex 5, 8, -38
+vertex 5, 7, -38
+vertex 2, 7, -38
+face 1,2,3,0
+[texture]
+load uscitad.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+;---------------- muro
+[MeshBuilder]
+Vertex 7, 8, -50
+Vertex 7, 8,  -75
+Vertex 7, 0.6, -75
+Vertex 7, 0.6,  -50
+Face 0,1,2,3
+[Texture]
+Load murostazionesotto4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+[MeshBuilder]
+Vertex 7, 8, -75
+Vertex 7, 8,  -100
+Vertex 7, 0.6, -100
+Vertex 7, 0.6,  -75
+Face 0,1,2,3
+[Texture]
+Load murostazionesotto4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+[MeshBuilder]
+Vertex 7, 8, -100
+Vertex 16, 8,  -100
+Vertex 16, 0.6, -100
+Vertex 7, 0.6,  -100
+Face 0,1,2,3
+[Texture]
+Load murostazionesotto4.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+;--------------- panchina 1
+[MeshBuilder]
+cube 0.35,0.5,0.1
+translate 6.1,0.8,-70
+color 180,180,180
+[MeshBuilder]
+cube 0.35,0.5,0.1
+translate 6.1,0.8,-78
+color 180,180,180
+[MeshBuilder]
+cube 0.5,0.1,6
+translate 6.1,1.4,-74
+color 180,180,180
+;--------------- panchina 2
+[MeshBuilder]
+cube 0.35,0.5,0.1
+translate 6.1,0.8,-90
+color 180,180,180
+[MeshBuilder]
+cube 0.35,0.5,0.1
+translate 6.1,0.8,-98
+color 180,180,180
+[MeshBuilder]
+cube 0.5,0.1,6
+translate 6.1,1.4,-94
+color 180,180,180
+;--------------- panchina 3
+[MeshBuilder]
+cube 0.35,0.5,0.1
+translate 6.1,0.8,-30
+color 180,180,180
+[MeshBuilder]
+cube 0.35,0.5,0.1
+translate 6.1,0.8,-34
+color 180,180,180
+[MeshBuilder]
+cube 0.5,0.1,3
+translate 6.1,1.4,-32
+color 180,180,180
+;--------------- cestino 1
+[MeshBuilder]
+cylinder 6, 0.30 , 0.30 , 1.5
+translate 6.3, 1.4, -28
+color 0,180,0
+;--------------- cestino 2
+[MeshBuilder]
+cylinder 6, 0.30 , 0.30 , 1.5
+translate 6.3, 1.4, -88
+color 0,180,0
+;--------------- cestino 3
+[MeshBuilder]
+cylinder 6, 0.30 , 0.30 , 1.5
+translate 6.3, 1.4, -80
+color 0,180,0
+
+;------ gente
+[MeshBuilder]
+Vertex 6.4,0.7,-20
+Vertex 6.4,2.9,-20
+Vertex 4.2,2.9,-22
+Vertex 4.2,0.7,-22
+Face2 0,1,2,3
+[texture]
+Load People20.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex 6.4,0.7,-40
+Vertex 6.4,2.9,-40
+Vertex 4.2,2.9,-42
+Vertex 4.2,0.7,-42
+Face2 0,1,2,3
+[texture]
+Load People21.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex 4.4,0.9,-80
+Vertex 4.4,2.9,-80
+Vertex 2.2,2.9,-82
+Vertex 2.2,0.9,-82
+Face2 0,1,2,3
+[texture]
+Load People22.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255

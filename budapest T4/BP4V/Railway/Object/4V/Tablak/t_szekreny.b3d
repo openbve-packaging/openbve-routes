@@ -1,0 +1,110 @@
+;description=transzformátor szekrény
+;author=prezli
+;copyright=freeware for BVE
+
+[Meshbuilder]
+Vertex 0, 2.2, 0
+Vertex 0.53, 2.2, 0
+Vertex 0.53, 0, 0
+Vertex 0, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load t_eleje.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 0.53, 2.2, 0
+Vertex 0.53, 2.2, 1.2
+Vertex 0.53, 0, 1.2
+Vertex 0.53, 0, 0
+Face 0, 1, 2, 3
+[Texture]
+Load t_jobb.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 0.53, 2.2, 1.2
+Vertex 0, 2.2, 1.2
+Vertex 0, 0, 1.2
+Vertex 0.53, 0, 1.2
+Face 0, 1, 2, 3
+[Texture]
+Load t_hata.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 0, 2.2, 1.2
+Vertex 0, 2.2, 0
+Vertex 0, 0, 0
+Vertex 0, 0, 1.2
+Face 0, 1, 2, 3
+[Texture]
+Load t_bal.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 0, 2.2, 1.2
+Vertex 0.53, 2.2, 1.2
+Vertex 0.53, 2.2, 0
+Vertex 0, 2.2, 0
+Face 0, 1, 2, 3
+[Texture]
+Load t_teto.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 0.53, 2.2, 1.2
+Vertex 0.65, 2.15, 1.2
+Vertex 0.65, 2.15, 0
+Vertex 0.53, 2.2, 0
+Face 0, 1, 2, 3
+[Texture]
+Load t_teto.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 0.65, 2.15, 1.2
+Vertex 0.53, 2.2, 1.2
+Vertex 0.53, 2.2, 0
+Vertex 0.65, 2.15, 0
+Face 0, 1, 2, 3
+Color 60, 60, 60
+
+[Meshbuilder]
+Vertex -0.12, 2.15, 1.2
+Vertex 0, 2.2, 1.2
+Vertex 0, 2.2, 0
+Vertex -0.12, 2.15, 0
+Face 0, 1, 2, 3
+[Texture]
+Load t_teto.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]
+Vertex 0, 2.2, 1.2
+Vertex -0.12, 2.15, 1.2
+Vertex -0.12, 2.15, 0
+Vertex 0, 2.2, 0
+Face 0, 1, 2, 3
+Color 60, 60, 60

@@ -1,0 +1,2052 @@
+; FGC - CSV version by Luigi Cartello and Sergio Usai
+; http://bve.altervista.org/
+
+With Route
+.Comment FGC Ferrovia Genova-Casella $chr(13)$chr(10)Treno feriale n.3 EM A11 $chr(13)$chr(10)$chr(13)$chr(10)FGC Genova-Casella Railway$chr(13)$chr(10)Weekday train n.3 - A11
+.TimeTable Weekday train n.3 - A11 EMU $chr(13)$chr(10)Treno feriale n.3 EM A11
+.Gauge 1000
+
+With Train
+.Folder Fgc_a11
+.Run(0) 0 ; Normal run sound
+.Run(1) 0 ; Normal run sound
+.Run(2) 0 ; Normal run sound
+.Run(3) 0 ; Normal run sound
+.Run(4) 0 ; Normal run sound
+.Run(5) 0 ; Normal run sound
+.Run(6) 0 ; Normal run sound
+.Run(7) 0 ; Normal run sound
+.Run(8) 0 ; Normal run sound
+.Run(9) 0 ; Normal run sound
+.Run(10) 0 ; Normal run sound
+.Run(11) 0 ; Normal run sound
+.Run(13) 0 ; Normal run sound
+.Run(14) 0 ; Normal run sound
+.Run(15) 0 ; Normal run sound
+.Run(16) 0 ; Normal run sound
+.Run(17) 0 ; Normal run sound
+.Run(20) 2 ; Under tunnel run sound
+.Run(21) 0 ; Normal run sound
+.Run(22) 0 ; Normal run sound
+.Run(30) 1 ; Over iron bridge run sound
+
+With Texture
+.BackGround(0) Fgc2\Backs\Bg_FGC0.bmp
+.BackGround(1) Fgc2\Backs\Bg_FGC1.bmp
+.BackGround(2) Fgc2\Backs\Bg_FGC2.bmp
+.BackGround(3) Fgc2\Backs\Bg_FGC3.bmp
+.BackGround(4) Fgc2\Backs\Bg_FGC4.bmp
+
+With Structure
+; Grounds
+.Ground(0) Fgc2\Ground0.csv ; Ground in piano
+.Ground(1) Fgc2\Null.csv ; Ground invisibile
+
+
+; Cracks
+.CrackL(0) Fgc2\Ghiaia-tra-binariL.b3d
+.CrackR(0) Fgc2\Ghiaia-tra-binariR.b3d
+
+; Rails
+.Rail(0) Fgc2\Null.csv        ; Binario invisibile
+.Rail(1) Fgc2\Rails\R00aN.b3d ; Binario diritto uso stazioni c/catenaria
+.Rail(2) Fgc2\Rails\SW-g1-R60.b3d ; Curva a destra R60 uso deviatoi
+.Rail(3) Fgc2\Rails\SW-g1-R120.b3d ; Curva a destra R120 uso deviatoi
+.Rail(4) Fgc2\Rails\L110g1.b3d ; Curva a sinistra R110 con catenaria
+.Rail(5) Fgc2\Rails\R00g1.b3d ; Rotaia diritta con catenaria
+.Rail(6) Fgc2\Rails\L150g1.b3d ; Curva a sinistra R150 con catenaria
+.Rail(7) Fgc2\Rails\L060g.b3d ; Curva a sinistra R60 con catenaria e controrotaia
+.Rail(8) Fgc2\Rails\R060g.b3d ; Curva a destra R60 con catenaria e controrotaia
+.Rail(9) Fgc2\Rails\R070g.b3d ; Curva a destra R70 con catenaria e controrotaia
+.Rail(10) Fgc2\Rails\L080g.b3d ; Curva a sinistra R80 con catenaria e controrotaia
+.Rail(11) Fgc2\Rails\R060g1sp.b3d ; Ponte in curva a destra R60 con catenaria e controrot.+ 2 pali
+.Rail(13) Fgc2\Rails\R080gS.b3d ; Curva a destra R80 con catenaria senza controrotaia
+.Rail(14) Fgc2\Rails\R080g.b3d ; Curva a destra R80 con catenaria e controrotaia
+.Rail(15) Fgc2\Rails\R110g1.b3d ; Curva a destra R110 con catenaria e controrotaia
+.Rail(16) Fgc2\Rails\R167g.b3d ; Curva a destra R167 con catenaria
+.Rail(19) Fgc2\Rails\R110gS.b3d ; Curva a destra R110 con catenaria
+.Rail(20) Fgc2\Null.csv        ; Binario invisibile per suono galleria
+.Rail(21) Fgc2\Rails\L220g1.b3d ; Curva a sinistra R220 con catenaria
+.Rail(22) Fgc2\Rails\L060gs.b3d ; Curva a sinistra R60 con catenaria senza controrotaia
+.Rail(30) Fgc2\Null.csv        ; Binario invisibile per suono su ponte in ferro
+
+.Rail(50) Fgc2\GroundR.csv ; Rail fittizia del Ground diritto piano
+.Rail(51) Fgc2\GroundpL.b3d ; Ground in salita - curva a sin - valle a des
+.Rail(52) Fgc2\Groundp.b3d ; Ground in salita - diritto - valle a des
+.Rail(53) Fgc2\GroundpR.b3d ; Ground in salita - curva a des - valle a des
+.Rail(54) Fgc2\Ground-0-st.b3d ; Ground piano con vale a destra
+
+.Rail(55) Fgc2\GroundpA.b3d ; Ground A in salita - diritto - valle a des
+.Rail(56) Fgc2\GroundpAR.b3d ; Ground A in salita - curva destra - valle a des
+.Rail(57) Fgc2\GroundpAL.b3d ; Ground A in salita - curva sinistra - valle a des
+
+.Rail(58) Fgc2\GroundpG3.b3d ; Ground in salita - diritto - valle a des
+.Rail(59) Fgc2\GroundpLG3.b3d ; Ground in salita - curva a sin - valle a des
+.Rail(60) Fgc2\GroundpRG3.b3d ; Ground in salita - curva a des - valle a des
+
+.Rail(61) Fgc2\GroundpG4.b3d ; Ground in salita - diritto - valle a des
+.Rail(62) Fgc2\GroundpLG4.b3d ; Ground in salita - curva a sin - valle a des
+.Rail(63) Fgc2\GroundpRG4.b3d ; Ground in salita - curva a des - valle a des
+
+.Rail(64) Fgc2\GroundpS2.b3d ; Ground in salita - diritto - valle a des
+.Rail(65) Fgc2\GroundpLS2.b3d ; Ground in salita - curva a sin - valle a des
+.Rail(66) Fgc2\GroundpRS2.b3d ; Ground in salita - curva a des - valle a des
+
+.Rail(67) Fgc2\GroundpAm.csv ; Ground A - diritto - valle a sin
+.Rail(68) Fgc2\GroundpARm.csv ; Ground A - curva destra - valle a sin
+.Rail(69) Fgc2\GroundpALm.csv ; Ground A - curva sinistra - valle a sin
+
+
+.Rail(100) Fgc2\Poles\PoleLML-60.b3d ; Rail fittizia Palo intermedio a sinistra R-60
+.Rail(101) Fgc2\Poles\PoleLMR-60.b3d ; Rail fittizia Palo intermedio a destra R-60
+.Rail(102) Fgc2\Poles\PoleLMR+60.b3d ; Rail fittizia Palo intermedio a detra R+60
+.Rail(103) Fgc2\Poles\PoleLML+60.b3d ; Rail fittizia Palo intermedio a sinistra R+60
+.Rail(104) Fgc2\Poles\PoleLML-80.b3d ; Rail fittizia Palo intermedio a sinistra R-80
+.Rail(105) Fgc2\Poles\PoleLMR-80.b3d ; Rail fittizia Palo intermedio a destra R-80
+.Rail(106) Fgc2\Poles\PoleLMR+80.b3d ; Rail fittizia Palo intermedio a destra R+80
+.Rail(107) Fgc2\Poles\PoleLML+80.b3d ; Rail fittizia Palo intermedio a sinistra R+80
+
+
+; Poles
+.Pole(0) Fgc2\Poles\Pole1LS-L-R.b3d ; Sinistro con zampa a destra
+.Pole(1) Fgc2\Poles\Pole1LS-R-L.b3d ; Destro con zampa a sinistra
+.Pole(2) Fgc2\Poles\Pole1LS-R-R.b3d ; Destro con zampa a destra
+.Pole(3) Fgc2\Poles\Pole1LS-L-L.b3d ; Sinistro con zampa a sinistra
+
+; Dikes
+.DikeL(0) Fgc2\Fabbricati\muro_pietre.b3d ; Muro alto a sinistra
+.DikeR(0) Fgc2\Paesaggio\CespAlbCR-1R.b3d ; Cespugli e alberi sulla destra per curve a destra
+.DikeL(1) Fgc2\Fabbricati\muro_pietreS.b3d ; Muro basso a sin diritto con alberi
+.DikeR(1) Fgc2\Paesaggio\CespRett1R.b3d ; Cespugli a destra
+.DikeL(2) Fgc2\Fabbricati\muro_pietreCS.b3d ; Muro basso a sin x curva sin
+.DikeL(3) Fgc2\Fabbricati\muro_pietreS2.b3d ; Muro basso a sin diritto con alberi
+.DikeR(3) Fgc2\Paesaggio\CespRett1R.b3d ; Cespugli a destra
+.DikeL(4) Fgc2\Paesaggio\CespAlbCR-1L.b3d ; Vegetazione a sinistra
+.DikeR(4) Fgc2\Paesaggio\CespAlbCR-2R.b3d ; Vegetazione a destra
+.DikeL(5) Fgc2\Paesaggio\CespAlbCR-2L.b3d ; Vegetazione a sinistra (meno ripida)
+.DikeR(5) Fgc2\Paesaggio\CespAlbCR-2R.b3d ; Vegetazione a destra
+.DikeL(6) Fgc2\Paesaggio\CespSmikesL.csv ; Vegetazione bruciata a sinistra (meno ripida)
+.DikeR(6) Fgc2\Paesaggio\CespSmikesR.b3d ; Vegetazione bruciata a destra
+
+.DikeL(7) Fgc2\Paesaggio\CespAlbC1-2L.b3d ; Vegetazione a sinistra (meno ripida)
+.DikeR(7) Fgc2\Paesaggio\CespAlbC1-2R.b3d ; Vegetazione a destra
+
+; Walls
+.WallR(0) Fgc2\Fabbricati\Mur-recinz1R.b3d ; Muretto con recinzione bianca
+.WallR(1) Fgc2\Paesaggio\FondoR.b3d ; Fondovalle di copertura
+
+; Freeobjs
+.Freeobj(0) Fgc2\Rails\SW-g1-R60.b3d ; Curva a destra R60 uso scambi
+.Freeobj(1) Fgc2\Rails\SW-g1-R120.b3d ; Curva a destra R120 uso scambi
+.Freeobj(2) Fgc2\Rails\R-fill.b3d ; Elemento di rail da 1.2 mt
+.Freeobj(3) Fgc2\Rails\SW-g1-R60-5s.b3d ; 1/2 Curva a destra R60 uso scambi
+.Freeobj(4) Fgc2\Marciapiede.b3d ; Marciapiede c/pensilina Ge tra 2^ e 3^ binario
+.Freeobj(5) Fgc2\Rails\SW-g1-R120S.b3d ; Curva a destra R120 uso scambio con ago deviato
+.Freeobj(6) Fgc2\Poles\Pole3M-2L-R.b3d ; Palo M x 3 binari(2L+1R)
+.Freeobj(7) Fgc2\Poles\Pali_Ge5-7.b3d ; Pali per piazzale Genova
+.Freeobj(8) Fgc2\Poles\Pali_Ge8-12.b3d ; Pali per piazzale Genova
+.Freeobj(9) Fgc2\Fabbricati\Ge\Officina-GE.b3d ; Officina di Genova
+.Freeobj(10) Fgc2\Fabbricati\Ge\MuroMackenzie.b3d ; Muro sotto il castello Mackenzie
+.Freeobj(11) Fgc2\Fabbricati\Case\Casa01.b3d ; Casa gialla chiara
+.Freeobj(12) Fgc2\Fabbricati\Case\Casa02.b3d ; Casa gialla
+.Freeobj(13) Fgc2\Fabbricati\Case\Recinz-case.b3d ; Recinzione a lato case
+
+.Freeobj(14) Fgc2\Rails\In-contror-L.b3d ; Tratto iniz.controrot.sinistro e finale ds.
+.Freeobj(15) Fgc2\Rails\In-contror-R.b3d ; Tratto iniz.controrot.destro e finale sin.
+
+.Freeobj(16) Fgc2\Fabbricati\Case\Casa04.b3d ; Casa rosa
+.Freeobj(17) Fgc2\Fabbricati\Case\Casa05.b3d ; Casa chiara con avvolgibili e balconi
+.Freeobj(18) Fgc2\Fabbricati\Case\Casa06.b3d ; Casa scura con balconi
+.Freeobj(19) Fgc2\Fabbricati\muro_pietre_righD.b3d ; Muretto a destra con righiera mt 50
+.Freeobj(20) Fgc2\Fabbricati\Case\Casa07.b3d ; Casa verdina smussata
+.Freeobj(21) Fgc2\Rails\R00aN.b3d ; Binario diritto
+.Freeobj(22) Fgc2\Fabbricati\S_Pantaleo.b3d ; Stazione di S.Pantaleo
+.Freeobj(23) Fgc2\Rails\SW-g1-L60s.b3d ; Elemento curvo R=-60 per scambio
+.Freeobj(24) Fgc2\Rails\SW-g1-R60-4s.b3d ; 1/2 Curva a destra R60 corta uso scambi
+.Freeobj(25) Fgc2\Fabbricati\Ponticello.b3d ; Ponticello dirtto
+.Freeobj(26) Fgc2\Fabbricati\S_Pantaleo2.b3d ; Ex fermata S.Pantaleo 2
+.Freeobj(27) Fgc2\Paesaggio\CespAlbCR-2Lcasa.b3d ; Vegetazione a sinistra con casa
+.Freeobj(28) Fgc2\Paesaggio\CespAlbCR-2LcasaV.b3d ; Vegetazione a sinistra con casa vecchia
+.Freeobj(29) Fgc2\Fabbricati\Garitta-dazio.b3d ; Ex garitta dazio
+.Freeobj(34) Fgc2\Rails\PortaleGall.b3d ; Portale galleria S.Antonino
+.Freeobj(35) Fgc2\Paesaggio\Parete_pietrosa.b3d ; Parete pietrosa
+.Freeobj(36) Fgc2\Fabbricati\S_Antonino.b3d ; Casello S_Antonino fermata
+.Freeobj(37) Fgc2\Fabbricati\MurettoMancR.b3d ; Muretto con mancorrente
+
+.Freeobj(39) Fgc2\Rails\SW-Cappuccio1.b3d ; Elemento curvo R=-/+50 per scambio sinistro
+
+.Freeobj(40) Fgc2\Fabbricati\Cappuccio.b3d ; Stazione di Cappuccio
+.Freeobj(41) Fgc2\Rails\SW-Cappuccio2.b3d ; Elemento curvo R=+/-50 per scambio destro
+.Freeobj(42) Fgc2\SbancamentoL.b3d ; Parte destra sbancamento in curva a sinistra
+.Freeobj(43) Fgc2\Paesaggio\Parete_pietrosaC.b3d ; Parete pietrosa
+.Freeobj(44) Fgc2\Sbancamento2.b3d ; Parte destra sbancamento in curva a sinistra
+.Freeobj(45) Fgc2\Alberi\Pini-Cappuccio.b3d ; Alberi nei pressi di Cappuccio
+.Freeobj(46) Fgc2\Ground-1ponte.b3d ; Ground per ponte inizio - curva a des - valle a des
+.Freeobj(47) Fgc2\Ground+1ponte.b3d ; Ground per ponte fine - curva a des - valle a des
+.Freeobj(48) Fgc2\Ground-Trans1.b3d ; Transizione Ground ingresso S.Pantaleo
+.Freeobj(49) Fgc2\Ground-Trans2.b3d ; Transizione Ground fine S.Pantaleo
+.Freeobj(50) Fgc2\Rails\R00gallEnt.b3d ; Primi 25 mt galleria diritta
+.Freeobj(51) Fgc2\Ground-Trans3.b3d ; Transizione Ground ingresso S.Pantaleo
+.Freeobj(52) Fgc2\Paesaggio\Sbanc_p281.csv ; Sbancamento dopo Cappuccio
+
+.Freeobj(53) Fgc2\Fabbricati\muro_pietre_corto.b3d; Muro pietre a sinistra mt 12.5
+
+.Freeobj(54) Fgc2\Rails\Attravers.b3d ; Attraversamento asfaltato
+.Freeobj(55) Fgc2\Monte.b3d ; Monte a sin per ponte 1 - curva a des - valle a des
+.Freeobj(56) Fgc2\Monte1.b3d ; Monte a sin per ponte ripresa - curva a des - valle a des
+.Freeobj(57) Fgc2\Monte+1ponte.b3d ; Ground per ponte fine - curva a des - valle a des
+.Freeobj(58) Fgc2\Paesaggio\Parete_rocciosa.csv ; Parete rocciosa
+.Freeobj(59) Fgc2\Fabbricati\muro_cemento.b3d; Muro cemento paravalanghe mt 12.5
+.Freeobj(60) Fgc2\Fabbricati\muro_prefabbr.b3d; Muro prefabbricato paravalanghe mt 12.5
+
+.Freeobj(61) Fgc2\Rails\L60gallEnt.b3d ; Primi 25 mt gall R=-60
+.Freeobj(62) Fgc2\Rails\L60gallUsc.b3d ; Ultimi 25 mt gall R=-60
+.Freeobj(63) Fgc2\Rails\L60gallInt.b3d ; Interno galleria R=-60
+.Freeobj(64) Fgc2\Rails\PortaleGallPuin.b3d ; Ingresso galleria Puin
+.Freeobj(65) Fgc2\Rails\PortaleGallPogg.b3d ; Ingresso galleria Poggino
+.Freeobj(66) Fgc2\Fabbricati\CasaPoggino.b3d ; Casa a ex fermata Poggino
+.Freeobj(67) Fgc2\Rails\PortaleGallCicala.b3d ; Ingresso galleria Cicala
+.Freeobj(68) Fgc2\Rails\R00ponte.b3d ; Ponte in ferro
+.Freeobj(69) Fgc2\Rails\PortaleGallFont.b3d ; Ingresso galleria Fontanassa
+.Freeobj(70) Fgc2\Paesaggio\Parete_rocciosa_bassa.csv ; Parete rocciosa
+.Freeobj(71) Fgc2\Fabbricati\MacorrInCurvaR.b3d ; Mancorrente su muretto in curva destra
+.Freeobj(72) Fgc2\Rails\R00gall.b3d ; Interno galleria diritta
+.Freeobj(73) Fgc2\Rails\R70gallInt.b3d ; Interno galleria R=70
+.Freeobj(74) Fgc2\Rails\R70gallEnt.b3d ; Primi 25 mt gall R=70
+.Freeobj(75) Fgc2\Rails\R70gallUsc.b3d ; Ultimi 25 mt gall R=70
+.Freeobj(76) Fgc2\Fabbricati\Trensasco.b3d ; Stazione di Trensasco
+.Freeobj(77) Fgc2\Fabbricati\Campi.csv ; Stazione di Campi
+.Freeobj(78) Fgc2\Rails\SW-Campi1.b3d ; Scambio a destra 
+.Freeobj(79) Fgc2\Rails\SW-Campi2.b3d ; Scambio a sinistra 
+.Freeobj(80) Fgc2\Rails\MotoreScambi.b3d ; Cassa e motore per scambi elettrici
+.Freeobj(81) Fgc2\Paesaggio\Banco-picnic.b3d ; Banchetto per pic-nic
+.Freeobj(82) Fgc2\StaccionVerde.csv ; Staccionata verde a destra
+.Freeobj(83) Fgc2\Rails\Attravers1.b3d ; Attraversamento inghiaiato
+.Freeobj(84) Fgc2\Paesaggio\CespAlbC1-2L.b3d ; Vegetazione a sinistra (meno ripida)
+.Freeobj(85) Fgc2\Paesaggio\CespAlbC1-2R.b3d ; Vegetazione a destra
+.Freeobj(86) Fgc2\Lim26-1.b3d ; Avviso rallentamento 26 Km/h nero
+.Freeobj(87) Fgc2\Lim26-0.b3d ; Inizio rallentamento 26 Km/h nero
+.Freeobj(88) Fgc2\Lim30.b3d ; Limite 30 Km/h per palo
+.Freeobj(89) Fgc2\Lim35.b3d ; Limite 35 Km/h per palo
+.Freeobj(90) Fgc2\SegnCF.b3d ; Segnale CF per palo
+.Freeobj(91) Fgc2\Fabbricati\Garitta-acai.b3d ; Garitta ACAI a Campi
+.Freeobj(92) Fgc2\Rails\Semaf-campi.b3d ; Semaforo ACAI a Campi
+
+.Freeobj(100) Fgc2\Alberi\Cespuglio10.b3d ; Cespuglio L=mt 10
+.Freeobj(101) Fgc2\Alberi\Cespuglio1d.b3d ; Cespuglio L=mt 10
+.Freeobj(102) Fgc2\Poles\Pole1LS-R-Lsb.b3d ; Palo dx mensola sin senza basamento
+.Freeobj(103) Fgc2\Poles\Pole1LS-R-Rsb.b3d ; Palo dx mensola des senza basamento
+.Freeobj(104) Fgc2\Alberi\Albero1.b3d ; Albero 1
+.Freeobj(105) Fgc2\Alberi\Cespginestre.b3d ; Cespuglio di ginestre
+
+.Freeobj(120) Fgc2\Figure\pic-nic1.b3d ; Personaggi al pic-nic
+.Freeobj(121) Fgc2\Figure\Fg03-SignoraSed.b3d   
+.Freeobj(122) Fgc2\Figure\Fg04-Cineoperatore.b3d
+.Freeobj(123) Fgc2\Figure\Fg06-Signore.b3d      
+.Freeobj(124) Fgc2\Figure\Fg08-Lambretta.b3d    
+.Freeobj(125) Fgc2\Figure\Fg09-Vespa.b3d        
+.Freeobj(126) Fgc2\Figure\Fg10-PersFGC1.b3d     
+.Freeobj(127) Fgc2\Figure\Fg11-PersFGC2.b3d     
+.Freeobj(128) Fgc2\Figure\Fg12-PersFGC3.b3d     
+.Freeobj(129) Fgc2\Figure\Fg13-RagazCane.b3d    
+.Freeobj(130) Fgc2\Figure\Fg14-Fotografo.b3d    
+.Freeobj(131) Fgc2\Figure\Fg15-Signore1.b3d     
+.Freeobj(132) Fgc2\Figure\Fg16-Ragazzi.b3d      
+.Freeobj(133) Fgc2\Figure\Fg17-Gruppo.b3d       
+.Freeobj(134) Fgc2\Figure\Fg18-Fiorino.b3d      
+.Freeobj(135) Fgc2\Figure\Sig_na-bambina.b3d    
+.Freeobj(136) Fgc2\Figure\UomoConRagazzo.b3d    
+.Freeobj(137) Fgc2\Figure\Fg19-Uomini-che-parlano.b3d    
+.Freeobj(138) Fgc2\Figure\Fg20-Ragazzabionda.b3d    
+.Freeobj(139) Fgc2\Abarten\Photog.b3d ; Gruppo fotografi
+
+.Freeobj(150) Fgc2\Auto\Panda3d.b3d   
+.Freeobj(151) Fgc2\Auto\Panda3dB.b3d  
+.Freeobj(152) Fgc2\Auto\Panda3dN.b3d  
+
+.Freeobj(199) Fgc2\Matrotabile\Cm470\cm468.csv ; Carro pianale
+.Freeobj(200) Fgc2\Matrotabile\Cm470\cm470.b3d ; Carro mag. su traversine
+.Freeobj(201) Fgc2\Matrotabile\C22\C22.csv ; Carrozza C22
+.Freeobj(202) Fgc2\Matrotabile\C53\C53.csv ; Carrozza C53
+.Freeobj(203) Fgc2\Matrotabile\C103-4\C104.csv ; Carrozza C104
+.Freeobj(204) Fgc2\Matrotabile\L29\L29.csv ; Locomotore L29
+.Freeobj(205) Fgc2\Matrotabile\A8\EMA8.csv ; Elettromotrice A8
+.Freeobj(206) Fgc2\Matrotabile\A8\EMA9.csv ; Elettromotrice A9
+.Freeobj(207) Fgc2\Matrotabile\A8\EMA11.csv ; Elettromotrice A11
+.Freeobj(208) Fgc2\Matrotabile\A8\EMA12.csv ; Elettromotrice A12
+
+With Track
+
+; ----------- Piazzale Genova --------------
+0,.Accuracy 1,
+  .Height 0.37
+  .Adhesion 150,
+  .RailType 0;1,
+  .Back 0,
+  .RailType 0;1,    ;; 2^ binario (di corsa)
+  .Rail 2;-3.8;0;1, ;; 3^ binario (lato magazzino)
+  .Rail 3;6;0;1,    ;; 1^ binario (a destra)
+  .Limit 20,
+  .Sta Genova;9.2740;9.2800;1;1;1;0;;20;20;fgc\manual.wav,
+
+42,.Stop 0 ,         ;; Partenza
+
+52,.Freeobj 0;128;1.9;0.40;40, ; Capotreno FGC
+55,.Freeobj 0;136;1.9;0;0, ; Uomo con ragazzo
+55,.Freeobj 0;201;-3.8;0;180, ; Carrozza
+60,.Freeobj 0;6;1;0;0, ;; Palo M
+67,.Freeobj 0;203;-3.8;0;180, ; Carrozza
+
+75,.Railend 2, .Railend 3,
+  .Railtype 0;2, 
+  .curve 60;0,
+  .Freeobj 0;4;3.2;0;-12, ;; Marciapiede con pensilina
+  .Freeobj 0;1;6.13;0;-6, ;; 1^ binario
+  .Freeobj 0;0;-3.88;0;0, 
+  .Freeobj 0;2;-3.88;0;-12,;; 3^ binario
+
+79,.Freeobj 0;5;-0.70;-0.01;-2.06, ;; da 2^ a 3^ binario lato officina
+94,.Freeobj 0;134;-8.00;-0.25;-45, ; furgone Fiorino
+99,.Freeobj 0;124;-7.80;0;0, ; Lambretta
+
+100,.Marker Fgc2\Gifs\Limit20.bmp;100,
+  .Freeobj 0;0;3.73;0;-8.6, ;; da 1^ a 2^ binario
+  .Freeobj 0;1;-3.8;0;0, ;; 3^ binario fianco officina
+  .Freeobj 0;2;-3.82;0;-6,;; Gap tra rotaie
+  .Freeobj 0;0;-1.88;0;-4.5, ;; da 2^ a 1^ binario fianco officina
+  .Railtype 0;3, .curve 120;0, ;; 2^ Binario in uscita  
+  .Freeobj 0;7;-0.70;-0.01;-2.06, ;; Gr.Pali Ge (90-225)
+  .Rail 1;-3.8;0;3, 
+103,.Freeobj 0;125;-7.00;0;-30, ; Vespa
+
+125,.Freeobj 0;9;-6.4;0;0,;; Officina
+  .limit 25;0,
+  .Freeobj 0;2;-3.805;0;-6,;; 1^ binario fianco officina
+145,.Freeobj 1;204;-0.3;0;4,; Locomotore L29
+
+150,.Freeobj 0;3;-7.60;0;12, ;; binario entrata officina
+  .Railtype 0;1, 
+  .Freeobj 0;2;-3.794;0;-0.8, ;; Gap tra rotaie  
+  .Railtype 1;1,
+  .curve 0;0, 
+  .Rail 3;4.2;0;1, ;; Inizio tronchino
+  .Crack 0;3;0, 
+165,.Freeobj 3;206;0;0, ; Elettromotrice A9
+
+175,.Rail 1;-3.8;0;0,  ;; 3^binario
+  .Marker Fgc2\Gifs\Limit25.bmp;50,
+  .Freeobj 1;3;0;0;3,
+  .Crack 0;3;0,
+
+179,.Freeobj 0;3;-3.7;0;193, ;; deviazione a binario officina
+
+200,.Crack 0;3;0,
+  .Railtype 3;0, 
+  .Rail 1;-0.01;0;0, 
+
+204,.Freeobj 0;3;0;0;193.1, ;; deviazione 3^ binario
+
+214,.Freeobj 0;3;1.92;0;-184.07, ;;  tronchino
+  .Freeobj 0;3;1.92;0;-2.5,     ;; innesto tronchino
+
+225,
+  .Freeobj 0;10;0;0;0, ;; Muro sotto il castello Mackenzie
+  .Rail 1;0.0;0;0, 
+  .railend 1, 
+
+230,.limit 30;0,
+
+250,.Freeobj 0;8;0;-0.01;0, ;;Gr.Pali Ge 8-12
+250,.Rail 3;0;0;0, 
+  .Railend 3, 
+  .dike 0;-1;0,; fine tronchino
+  .Railtype 0;5,
+270,.Freeobj -1;200;4.8;0.02;0, ; carro magazzino su traversine
+
+; ----------- Fine piazzale Genova --------------
+; Inizio piena linea - palo 14 (primo di tipo LS)
+275,;---------- Curva R=-80 svil.18 sov.67  Pali 14-15
+  .Rail 10;0;0;50, ; Rail fittizia per ground
+  .Ground 1,
+  .Railtype 0;4, 
+  .curve -110;-45,  
+  .pitch 20, 
+  .Pole 0;0;-1;25, ;- pali a sinistra
+
+300,;---------- Rettilineo - palo 15 - case sulla destra
+  .curve 0;0,
+  .Railtype 0;5, 
+  .pitch 35,
+  .Freeobj -1;12;2.7; 1.0;0, ; Casa gialla
+
+325,;---------- Curva R=-100 svil.16 sov.47 - Pali 17-18
+  .Marker Fgc2\Gifs\Limit30.bmp;100,
+  .Railtype 0;6, 
+  .curve -150;-20,   ; palo 17
+335,.Freeobj -1;11;3.0;1.20;0, ; Casa gialla chiara
+
+350,;----------- Rettilineo - palo 18
+  .Railtype 0;5 ; - case sulla destra
+  .curve 0;0, 
+375,.Freeobj -1;11;3.5;1.20;0, ; Casa gialla chiara
+400,; Palo 20 - Rett.- case sulla destra
+  .Freeobj 0;13;2;0;0, ; Recinzione a lato case
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+410,.Freeobj -1;11;3.5;1.5;0, ; Casa gialla chiara
+
+425,;----------- Curva R=-60  svil.51 sov.89 Pali 21-24
+  .curve -60;67, .Railtype 0;7, 
+  .Railtype 10;51 ; Ground in curva a sinistra
+  .dike 0;-1;2,; Muro basso a sin in curva
+  .Rail 11;0;0;100, ; Rail fittizia per palo intermedio sin in curva a sin
+  .Wall 10;1;1, ; Fondovalle di copertura
+434,.Freeobj 0;101;4.2;-1.7;0, ; Cespuglio a destra
+435,.Freeobj 0;100;3.8;-1.5;0, ; Cespuglio a destra
+442,.Freeobj 0;100;3.5;-1.6;0, ; Cespuglio a destra
+445,.Freeobj 0;101;3.6;-1.8;0, ; Cespuglio a destra
+450,; Palo 23 - case sulla destra
+  .Pole 0;2;0;25, ; Inizio pali sulla destra 
+  .Rail 11;0;0;101, ; Rail fittizia per palo intermedio des in curva a sin
+455,.Freeobj 0;100;3.8;-1.5;0, ; Cespuglio a destra
+459,.Freeobj 0;101;4.2;-1.2;0, ; Cespuglio a destra
+461,.Freeobj 0;100;3.8;-1.1;0, ; Cespuglio a destra
+464,.Freeobj -1;16;10.0; -1; 20, ; Casa rosa
+464,.Freeobj 0;100;5.0;-1.3;-25, ; Cespuglio a destra
+470,.Freeobj 0;100;4.1;-1.1;-25, ; Cespuglio a destra
+
+475,;------------- Rettilineo Palo 24 - Semaforo Genova ???
+  .curve 0;0, .Railtype 0;5,
+  .Railend 11;0, ; Fine pali intermedi
+  .Railtype 10;52 ; Ground diritto monte a sinistra valle a destra
+  .Freeobj -1;11;7.5;-1.5;3, ; Casa gialla chiara
+  .Dike 0;0;1,; Muro basso a sin diritto Cespugli sulla destra
+500,.Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+508,.Freeobj -1;11;9;-2;3, ; Casa gialla chiara
+525,     ; Palo 25 - fine delle case a destra
+550,     ; Palo 26 - Sezionatore semaforo Ge
+  .Pole 0;1;0;25, ; Inizio pali sulla destra con zampa a sinistra
+  .Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+574,.Freeobj -1;16;12;-5; 3, ; Casa rosa
+
+575,;---------------- Curva R=+60  svil.78 sov.89 - Pali 27-32
+  .curve 60;67, .Railtype 0;8, 
+  .Dike 0;1;0,; Cespugli sulla destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;53 ; Ground in salita - curva a des - valle a des
+
+650,;----------------- Rettilineo ; Palo 32
+  .Railend 11;0, ; Fine pali intermedi
+  .curve 0;0, .Railtype 0;5,
+  .Railtype 10;52 ; Ground diritto monte a sinistra valle a destra
+  .dike 0;0;3, ; Muro basso a sin diritto
+675,.Freeobj 0;14;0;0;-180, ; Fine controrotaia a destra
+700,.Pole 0;2;0;25, ; Inizio pali sulla destra con zampa a destra
+  .pitch 20,
+725,.pitch 0,
+
+750,;--  ------------- Curva R=-90  svil.19 sov.59 - Pali 36-37 
+  .Railtype 0;4, .curve -110;-44, ; Ground in curva a sinistra Palo 36
+  .Railtype 10;51 ; Ground in curva a sinistra
+  .pitch 25,
+  
+775,;------------- Rettilineo  Palo 37
+  .dikeend 0,
+  .dike 0;-1;4, ; Vegetazione sulla sinistra
+  .Railtype 0;5, .curve 0;0, ; - rettilineo
+  .Railtype 10;52, ; Ground diritto monte a sinistra valle a destra
+  .Wall 0;1;0, ; Muretto con recinzione a destra
+  .pitch 42,
+779,.Freeobj -1;17;6.8;-1.0;0, ; Casa  chiara con balconi
+800, ; -------- Palo 38
+  .Pole 0;3;0;25, ; Pali sulla sinistra con zampa a sinistra
+  .Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+
+825,;------------- Curva R=+60  svil.44 sov.89 - Pali 39-42 
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;53 ; Ground in salita - curva a des - valle a des
+  .WallEnd 0,
+  .Rail 11;0;0;103, ; Rail fittizia per palo intermedio des in curva a des
+830,.Freeobj -1;18;6.8;-2.0;0, ; Casa scura con balconi
+850,.Freeobj 0;19;2.2;-0.4;-1.5, ; Muretto basso a destra
+875,;------------- Rettilineo  Palo 42
+  .Freeobj 0;90;-2.45;0.4;0,; Segnale CF per palo
+  .dikeend 0,
+  .Railend 11,
+  .dike 0;0;4, ; Vegetazione sulla sinistra e destra
+  .Railtype 0;5, .curve 0;0, ; - rettilineo
+  .Railtype 10;52, ; Ground diritto monte a sinistra valle a destra
+  .Wall 0;1;0, ; Muretto con recinzione a destra
+900,.Freeobj 0;14;0;0;-180, ; Fine controrotaia a destra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+925,;------------- Curva R=-60  svil.34 sov.81 - Pali 44-47 
+  .WallEnd 0,
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .curve -60;67, .Railtype 0;7, 
+  .Railtype 10;51 ; Ground in curva a sinistra
+  .dike 0;-1;4,; ; Vegetazione sulla sinistra
+  .Rail 11;0;0;101, ; Rail fittizia per palo intermedio des in curva a sin
+930,.Freeobj 0;100;4.2;-2.0;-20, ; Cespuglio a destra
+947,.Freeobj 0;100;4.8;-2.0;-20, ; Cespuglio a destra
+
+950,.Freeobj -1;18;11;-2;110, ; Casa scura con balconi
+  .dikeend 0,
+  .dike 0;0;4,; ; Vegetazione sulla sinistra
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+960,.Freeobj -1;17;8;-9.0;0, ; Casa chiara con balconi
+
+975,;------------- Rettilineo  Palo 42
+  .dikeend 0,
+  .Railend 11,
+  .dike 0;0;4, ; Vegetazione sulla sinistra e destra
+  .Railtype 0;5, .curve 0;0, ; - rettilineo
+  .Railtype 10;52, ; Ground diritto monte a sinistra valle a destra
+1000,.dike 0;0;3,        ; Muro basso a sin diritto
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+
+1025,;------------ Curva R=-70  svil.13 sov.57 - Pali 50-51 
+  .dike 0;0;4, ; Vegetazione sulla sinistra e destra
+  .Railtype 0;6,
+  .curve -150;-30, ; Palo 50
+1047,.Freeobj 0;100;3.2;-2.0;-20, ; Cespuglio a destra
+
+1050,;------------ Rettilineo Palo 52
+  .dike 0;-1;4, ; Vegetazione sulla sinistra
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;5, .curve 0;0, ; - rettilineo
+1075,.Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Freeobj -1;20;7;-2.7;-3, ; Casa verdina smussata
+
+1100,;------------ Curva R=-70 svil.16 sov.60 - Pali 53-55 
+  .Railtype 10;51 ; Ground in curva a sinistra
+  .Railtype 0;10, .curve -80;-80,
+  .Rail 11;0;0;104, ; Rail fittizia per palo intermedio sin in curva a sin
+1115,.Freeobj -1;17;9;-2;5, ; Casa  chiara con balconi
+
+1125,;------------ Rettilineo Palo 55
+  .Railend 11,
+  .Railtype 0;5, .curve 0;0, ; - rettilineo
+  .Railtype 10;52, ; Ground diritto monte a sinistra valle a destra
+  .dike 0;0;4, ; Vegetazione sulla sinistra e destra
+  .Freeobj 0;100;2.8;-1.0;-2, ; Cespuglio a destra
+  .Freeobj 0;13;4;-0.6;14.5, ; Recinzione
+1150,.Pole 0;2;0;50, ;- pali a destra con zampa a destra
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+1168,.Freeobj 0;100;7.5;-1.8;-73, ; Cespuglio a destra
+1170,.Freeobj 0;54;0;0;0, ;- Attraversamento asfaltato
+1175,.Pole 10;1;0;25, ;- pali a destra con zampa a sinistra
+1200,.Poleend 10,
+  .Freeobj -1;17;25;-7;-45, ; Casa chiara
+1225,.Pole 10;1;0;25, ;- pali a destra con zampa a sinistra
+  .Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+
+1250,;------------ Curva R=+60 svil.63 sov.89 - Pali 59-64 
+  .Poleend 10,
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Railtype 10;53 ; Ground in salita - curva a des - valle a des
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .curve 60;67, .Railtype 0;8, 
+  .dike 0;-1;4, ; Vegetazione sulla sinistra
+1275,;--- Ponte Fasce Curva R=+60 svil.63 sov.89 Pali 60-64
+  .Dikeend 0,
+  .Poleend 0,
+  .Railend 11,
+  .Railtype 0;11, 
+  .Railtype 10;0, 
+  .Freeobj -1;46;0;0;0,  ; Ground ponte inizio
+1300,.Freeobj -1;47;0;0;0,  ; Ground ponte fine
+1325,;------------ Rettilineo Palo 64
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;52, ; Ground diritto monte a sinistra valle a destra
+  .dike 0;0;3,     ; Muro basso a sin diritto
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+1350,.Freeobj 0;14;0;0;-180, ; Fine controrotaia a destra
+1375,.dike 0;-1;4, ; Vegetazione sulla sinistra
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+1400,;------------ Curva R=-70  svil.12 sov.52 - Pali 67-68 
+  .pitch 20,
+  .Railtype 10;51 ; Ground in curva a sinistra
+  .Railtype 0;10, .curve -80;-20,
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio sin in curva a sin
+  .Freeobj -1;18;8.5;1.0;95, ; Casa scura con balconi
+
+1410,.Freeobj 0;48;0;-0.15;3, ; Transizione Ground ingresso S.Pantaleo
+
+1425,;------------ Rettilineo Palo 68
+  .pitch 0,
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;54, ; ; Ground piano con vale a destra
+  .Railend 11,
+  .Dikeend 0,
+  .Pole 0;3;0;25, ; Pali sulla sinistra con zampa a sinistra
+1440,.Freeobj 0;25;0;0;0, ; Ponticello
+
+; ============ Inizio stazione S. Pantaleo ===============
+1450,;------------- S. Pantaleo piazzale ---Pali 69-75
+  .limit 20;0,
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+  .Marker Fgc2\Gifs\Limit20.bmp;100,
+  .Railtype 0;1,
+1457,.Freeobj 0;23;-0.13;0 ;-11.2, ; Scambio visibile
+
+1475,;------------- Curva R=-60 svil.22 sov.70 - Pali 71-72
+  .Poleend 0,
+  .Railtype 0;0,
+  .Rail 1;-4;0,
+  .Railtype 0;0, .curve -60;-67,; Curva dopo scambio
+1482,.Freeobj 0;21;-3.47;0;-11.8, ; Primo elemento binario radd.diritto
+
+1500,;------------ Rettilineo Palo - inizio marciapiede
+  .limit 25;0,
+  .Rail 1;-7.5;0,
+  .Freeobj 0;0;0;0;191.95, ; Scambio in entrata
+  .Railtype 0;1, .curve 0;0, 
+1501,.Freeobj 0;21;-7.03;0;, ; Secondo elemento binario radd.diritto
+
+1509,.Freeobj 0;207;-7.0;0;0,; Elettromotrice A11
+1523,.Freeobj 0;202;-7.0;0;0,; Carrozza C53
+  .Freeobj 0;127;-2;-0.4;-40, ; Capotreno FGC
+
+1525,.Sta San Pantaleo;;9.3100;1;1;1;0;;20;20;fgc\manual.wav,
+1526,.Freeobj 0;24;-7;0;12, ; Raccordo
+1535,.Stop 1, ; fermata
+1550,.Freeobj 0;22;0;0;0, ; Stazione di S.Pantaleo
+  .Marker Fgc2\Gifs\Limit25.bmp;50,
+1563,.Freeobj 0;21;-1.35;0;-170.0, ; Ultimo elemento binario diritto
+; ============ Fine stazione S. Pantaleo ===============
+
+1575,;------------ Curva R=-70  svil.67 sov.76 - Pali 75-79 
+  .Freeobj 0;49;0.0;0;0, ; Transizione Ground fine S.Pantaleo
+  .Freeobj 0;24;0.0;0;-158.5, ; Scambio in uscita
+  .Pole 0;0;0;25, ; Pali sulla sinistra con mensola a sinistra
+  .Railtype 0;10, .curve -80;-20,
+  .dike 0; 1;4, ; Vegetazione sulla destra
+  .Rail 11;0;0;104, ; Rail fittizia per palo intermedio sin in curva a sin
+1600,.limit 30;0,
+  .Rail 1;0;0, .railend 1,
+  .Rail 10;0;0;57, ; Rail fittizia per ground in curva a sin
+1650,;------------ Rettilineo Palo 79
+  .Railend 11;
+  .Pole 0;2;0;25, ; Pali sulla destra con zampa a destra
+  .Railtype 0;5, .curve 0;0, 
+  .pitch 16,
+  .dike 0;0;5,
+  .Railtype 10;55,  ; Rail fittizia per ground in curva a sinistra
+1675,.Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+1690,.Freeobj 0;25;0;0;0, ; Ponticello
+1700,.Pole 0;1;0;25, ; Pali sulla destra con zampa a sinistra
+  .Marker Fgc2\Gifs\Limit30.bmp;100,
+  .pitch 42,
+  .Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+
+1725,;------------ Curva R=+60  svil.59 sov.89 - Pali 82-87 
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Railtype 10;53 ; Ground in salita - curva a des - valle a des
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;56,  ; Rail fittizia per ground in curva a des
+  .curve 60;67, .Railtype 0;8, 
+  .dike 0;1;5,
+  .Freeobj 0;27;0;0;0, ; Vegetazione con casetta che si intravede sulla sinistra
+1750,.dike 0;0;5,
+
+1775,;------------ Rettilineo Palo 87
+  .Railend 11
+  .Railtype 0;5, .curve 0;0,
+  .Railtype 10;55,  ; Rail fittizia per ground diritto
+
+1800,;------------ Curva R=-70  svil.13 sov.45 - Pali 88-90 
+  .Pole 0;2;0;25, ; Pali sulla destra con mensola a destra
+  .Freeobj 0;14;0;0;-173.5, ; Fine controrotaia a destra
+  .Railtype 0;4, .curve -110;-44, ; Ground in curva a sinistra 
+  .Railtype 10;57, ; Ground in curva a sinistra
+
+1825,;------------ Rettilineo Palo 90
+  .dike 0; 1;4, ; Vegetazione sulla destra
+  .Freeobj 0;28;0;0;0, ; Vegetazione con casetta vecchia sulla sinistra
+  ;.Pole 0;2;0;25, ; Pali sulla destra con zampa a destra
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;55,  ; Rail fittizia per ground diritto
+  .Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+
+1850,;----------- Curva R=+60  svil.37 sov.89 - Pali 91-94 
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .dike 0;0;5,
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;56, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+1875,.Railtype 0;15, .curve 110;40,
+  .Railend 11,
+1883,.Freeobj 0;26;0.2;-0.2;-180, ;- S. Pantaleo 2 ex ferm.--Palo 93
+1900,;----------- Curva R=+80  svil.70 sov.67 - Pali 94-99 
+  .Railtype 0;14, .curve 80;61,
+  .Rail 11;0;0;106, ; Rail fittizia per palo intermedio des in curva a des
+1909,.Freeobj 0;25;-0.8;0;-3, ; Ponticello
+
+1950,;------------ Rettilineo Palo 100
+  .Railend 11,
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;55,  ; Rail fittizia per ground diritto
+1975,.Freeobj 0;14;0;0;-180, ; Fine controrotaia a destra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Pole 0;2;0;25, ; Pali sulla destra con zampa a destra
+
+2000,;------- Curva Oratorio R-60 svil.138 sov.89 - Pali 102-112
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .curve -60;67, .Railtype 0;7, 
+  .Railtype 10;57 ; Ground in curva a sinistra
+  .Rail 11;0;0;101, ; Rail fittizia per palo intermedio des in curva a sin
+
+2100,.dike 0;-1;4,; ; Vegetazione sulla sinistra
+  .dike 0; -1;4, ; Vegetazione sulla destra
+  .Railtype 10;51 ; Ground in curva a sinistra
+
+2125,;------------ Rettilineo Palo 113
+  .Poleend 0,
+  .Railend 11,
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;52,  ; Rail fittizia per ground diritto
+  .Freeobj 0;103;0;0;0, ; Palo dx con zampa a destra s/basam
+2150,.Freeobj 0;29;0;0;0, ; Garitta dazio
+  .Freeobj 0;102;0;0;0, ; Palo dx con zampa a sin s/basam
+  .dike 0; 0;4, ; Vegetazione sulla sinistra e destra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+2175,;----------- Curva R-80 svil.25 sov.67 - Pali 114-116 
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Railtype 10;51 ; Ground in curva a sinistra
+  .Railtype 0;10, .curve -80;-20,
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio sin in curva a sin
+
+2200,;------------ Rettilineo Palo 116
+  .Railend 11,
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;52,  ; Rail fittizia per ground diritto
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+
+2225,;------------ Curva R+60 svil.22 sov.67 - Pali 117-119
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;53, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .Freeobj 0;15;0;0;168.05, ; Fine controrotaia a sinistra
+
+2250,;------------ Rettilineo Palo 119
+  .Railend 11,
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;52,  ; Rail fittizia per ground diritto
+2275,.Freeobj 0;14;0;0;180, ; Fine controrotaia a destra
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+
+2325,;-------------- Curva R+120 svil.53 sov.44 - Pali 122-124
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Railtype 0;19, .curve 120;30, 
+
+2375,;------------ Rettilineo Palo 125
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;52,  ; Rail fittizia per ground diritto
+2400,.Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+2425,;------------ Curva R-60 svil.20 sov.55 - Pali 127-128 
+  .Railtype 10;51 ; Ground in curva a sinistra
+  .Railtype 0;10, .curve -80;-20,
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio sin in curva a sin
+
+2450,;------------ Rettilineo Palo 129
+  .Railend 11,
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;52,  ; Rail fittizia per ground diritto
+
+2475,;------------ Curva R+60 svil.11 sov.52 - Palo 131     
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Railtype 0;19, .curve 120;30, 
+  .Freeobj 0;15;0;0;174.02, ; Fine controrotaia a sinistra
+
+2500,;------------ Rettilineo Palo 132
+  .Railtype 0;5, .curve 0;0, 
+2525,.Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  
+2550,;------------ Curva R+80 svil.20 sov.42 - Pali 134-135 
+  .Railtype 0;14, .curve 80;61,
+  .Rail 11;0;0;106, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;53, ; Ground in curva a destra
+
+2575,;------------ Rettilineo - Galleria S.Antonino - Pali 135-136
+  .poleend 0,
+  .Railtype 0;20, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;52,  ; Rail fittizia per ground diritto
+  .Freeobj 0;34;0;0;0, ; Portale galleria
+  .Freeobj 0;50;0;0;0, ; Galleria
+2600,.Back 1,
+  .Freeobj 0;14;0;0;-180, ; Fine controrotaia a destra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+
+2625,;------------- Curva R+60 svil.126 sov.89 - Pali 136-144
+  .Freeobj 0;50;0;0;168.075, ; Galleria
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;53, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+2650,.Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+2710,.Freeobj 0;35;-1.1;-1;5, ;Parete pietrosa
+2720,.Freeobj 0;35;-0.5;-0.5;9, ;Parete pietrosa
+2726,.Freeobj 0;35; 0.1;-1;-4, ;Parete pietrosa
+2737,.Freeobj 0;35;-1;0;5, ;Parete pietrosa
+
+2750,;------------ Rettilineo Palo 144
+  .Railend 11,
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;52,  ; Rail fittizia per ground diritto
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .dike 0;0;3,; Muro basso a sin diritto
+2769,.Freeobj 0;100;3.2;-1.2;-12, ; Cespuglio di copertura
+  
+2775,;------------- Curva R-60 svil.28 sov.62 - Pali 146-148
+  .dike 0; 0;4, ; Vegetazione sulla sinistra e destra
+  .Freeobj 0;14;0;0;-168.05, ; Fine controrotaia a destra
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .curve -60;67, .Railtype 0;7, 
+  .Railtype 10;57 ; Ground in curva a sinistra
+  .Rail 11;0;0;101, ; Rail fittizia per palo intermedio des in curva a sin
+
+2800,;------------ Rettilineo Palo 149
+  .Railend 11,
+  .Railtype 0;5, .curve 0;0, 
+  .dike 0; 0;5, ; Vegetazione sulla sinistra e destra
+
+
+  .Railtype 10;55,  ; Rail fittizia per ground diritto
+2825,.Pole 0;1;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+2850,;------------- Curva R-60 svil.122 sov.89 - Pali 152-161
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .curve -60;67, .Railtype 0;7, 
+  .Railtype 10;57 ; Ground in curva a sinistra
+  .Rail 11;0;0;101, ; Rail fittizia per palo intermedio des in curva a sin
+2950,.dike 0;-1;5, ; Vegetazione sulla sinistra
+
+2975,;------------ Rettilineo S.Antonino (fermata) - Pali 161-162
+  .Railend 11,
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;55,  ; Rail fittizia per ground diritto
+  .Poleend 0,
+3000,.Sta S. Antonino;;9.3400;1;1;1;0;;20;20;fgc\manual.wav,
+3007,.Freeobj 0;36;0;0;0, ; Casello-fermata S.Antonino
+3010,.Stop 1, ; fermata
+3025,.Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .pitch 20,
+  .dike 0;0;5, ; Vegetazione sulla sinistra e destra
+3050,.Pole 0;1;0;50, ;- pali a destra con zampa a destra
+  .pitch 0,
+3075,.Pole 10;2;0;25, ;- pali a destra con zampa a destra
+3100,.Poleend 10,
+  .Freeobj 0;37;0.4;-0.25;0, ; Muretto con mancorrente a destra
+3125,.pitch 20,
+  .Pole 0;2;0;25, ; Pali sulla destra con mensola a destra
+3145,.Freeobj 0;100;-3.0;-0.3;190, ; Cespuglio a sinistra
+3147,.Freeobj 0;100;-3.8;1.2;190, ; Cespuglio a sinistra
+
+3150,;--------- Curva R-60 svil.11 sov.32 - Pali 169-170
+  .pitch 42,
+  .dike 0;0;4, ; Vegetazione sulla sinistra e destra
+  .Railtype 0;4, .curve -110;-44, ; Ground in curva a sinistra 
+  .Railtype 10;51, ; Ground in curva a sinistra
+
+3175,;---------  Rettilineo -------- Palo 170
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;52,  ; Rail fittizia per ground diritto
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+
+3200,;--------- Curva R+60 svil.29 sov.57 - Pali 171-173
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;53, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+3210,.Freeobj 0;35;-1.1;-1.5;0, ;Parete pietrosa
+3220,.Freeobj 0;35;-0.7;-0.5;10, ;Parete pietrosa
+
+3225,;---------  Rettilineo -------- Palo 173
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;52,  ; Rail fittizia per ground diritto
+  .Railend 11,
+3228,.Freeobj 0;35;0;-1;0, ;Parete pietrosa
+3240,.Freeobj 0;35;-0.2;0;0, ;Parete pietrosa
+3250,.Freeobj 0;14;0;0;-180, ; Fine controrotaia a destra
+  .dike 0;-1;4, ; Vegetazione sulla sinistra e destra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+3252,.Freeobj 0;35;-0.25;0;0, ;Parete pietrosa
+3264,.Freeobj 0;35;-0.1;-0.3;0, ;Parete pietrosa
+
+3275,;----------- curva R+60 svil.143 sov.89 - Pali 176-187
+  .Freeobj 0;35;-0.15;-0.3;-4.5, ;Parete pietrosa
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;53, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+3300,;- Ponte Briscata Curva R=+60 svil.63 sov.89 Pali 178-184
+  .Dikeend 0,
+  .Poleend 0,
+  .Railend 11,
+  .Railtype 0;11, 
+  .Railtype 10;0, 
+  .Freeobj -1;46;0;0;0,  ; Ground ponte inizio
+3325,.Freeobj 0;55;0;0;0,  ; Monte a sinistra
+3350,.Freeobj 0;55;0;0;0,  ; Monte a sinistra continua
+3375,.Freeobj 0;56;0;0;0,  ; Ground ponte continua
+  .dike 0;-1;5,
+3400,.Freeobj -1;57;0;0;0,  ; Ground ponte fine
+
+3425,;---------  Rettilineo -------- Palo 187
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+3450,.Freeobj 0;14;0;0;-180, ; Fine controrotaia a destra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+
+3475,;---------- Curva trincea - Pali 189-201 R-60 svil.148 sov.89
+  .curve -60;67, .Railtype 0;7, 
+  .Railtype 10;59 ; Ground in curva a sinistra
+  .Rail 11;0;0;101, ; Rail fittizia per palo intermedio des in curva a sin
+3575,.Freeobj 0;42;0;0;0, ; Sbancamento
+
+3625,;--------- Rettilineo -------- Palo 201
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Railend 11,
+3650,.Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+3652,.Freeobj 0;35;-0.3;-0.51;3, ;Parete pietrosa
+3664,.Freeobj 0;35;0.3;-0.51;0, ;Parete pietrosa
+
+3675,;--------- Curva R+60 svil.25 sov.70 - Pali 205-206 
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;60, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .Freeobj 0;35;0.3;-0.51;-8, ;Parete pietrosa
+
+3700,;--------- Rettilineo -------- Palo 206
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+3725,;---------- Curva R-60 svil.35 sov.82 - Pali 208-211
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;14;0;0;-168.07, ; Fine controrotaia a destra
+  .curve -60;67, .Railtype 0;7, 
+  .Railtype 10;59 ; Ground in curva a sinistra
+  .Rail 11;0;0;101, ; Rail fittizia per palo intermedio des in curva a sin
+
+3750,;--------- Rettilineo -------- Palo 211
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  .Freeobj 0;43;-0.75;0;5, ;Parete pietrosa chiara
+3759,.Freeobj 0;43;0;0;0, ;Parete pietrosa chiara
+3768,.Freeobj 0;43;-0.05;0;0, ;Parete pietrosa chiara
+
+3775,;----------Curva R+60 svil.26 sov.75 - Pali 213-214 
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .curve 60;67, .Railtype 0;8, 
+  .Freeobj 0;15;0;0; 168.07, ; Fine controrotaia a sinistra
+  .Railtype 10;60, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .Freeobj 0;43;-0.05;0;-5, ;Parete pietrosa chiara
+3783,.Freeobj 0;43;-0.70;-0.2;1.0, ;Parete pietrosa chiara
+3792,.Freeobj 0;43;-0.55;0;7, ;Parete pietrosa chiara
+
+3800,;--------- Rettilineo -------- Palo 214
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;43;0.25;0;0, ;Parete pietrosa chiara
+3809,.Freeobj 0;43;0.3;-0.2;0, ;Parete pietrosa chiara
+3818,.Freeobj 0;43;0.25;0;0, ;Parete pietrosa chiara
+3825,.Freeobj 0;14;0;0;180, ; Fine controrotaia a destra
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  .Freeobj 0;43;0.25;0;0, ;Parete pietrosa chiara
+3834,.Freeobj 0;43;0.3;-0.2;0, ;Parete pietrosa chiara
+3843,.Freeobj 0;43;0.25;0;0, ;Parete pietrosa chiara
+
+3850,;---------- Curva R+60 svil.120 sov.89 - Pali 216-225
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;60, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .dike 0;0;5,
+  .Freeobj 0;43;0.15;0;-5, ;Parete pietrosa chiara
+3859,.Freeobj 0;43;-0.55;-0.2;0, ;Parete pietrosa chiara
+3868,.Freeobj 0;43;-0.55;0;5, ;Parete pietrosa chiara
+3875,.Freeobj 0;43;0.15;0;-5, ;Parete pietrosa chiara
+3884,.Freeobj 0;43;-0.55;-0.2;0, ;Parete pietrosa chiara
+3900,;- Ponte Rovena 1° --------Pali 220-225
+  .Dikeend 0,
+  .Poleend 0,
+  .Railend 11,
+  .Railtype 0;11, 
+  .Railtype 10;0, 
+  .Freeobj 0;55;0;0;0,  ; Monte a sinistra
+3925,.Freeobj 0;56;0;0;0,  ; Ground ponte continua
+  .dike 0;-1;5,
+3950,.Freeobj -1;57;0;0;0,  ; Ground ponte fine
+
+
+3975,; --------- Rettilineo ------- Palo 225
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  ;.Railend 11,
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+4000,;---------- Curva R-60 svil.41 sov.89 - Pali 227-229
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;14;0;0;-171.05, ; Fine controrotaia a destra
+  .Railtype 0;10, .curve -80;-80,
+  .Railtype 10;59 ; Ground in curva a sinistra
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a sin
+
+4050,; --------- Rettilineo ------- Palo 229
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .dike 0;0;3,
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+
+4075,;---------- Curva R+60 svil.90 sov.89 - Pali 232-239 
+  .Freeobj 0;15;0;0;168.07, ; Fine controrotaia a sinistra
+  .dike 0;-1;5,
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;60, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+
+4100,;- Ponte Rovena 2° --------Pali 233-238
+  .Dikeend 0,
+  .Poleend 0,
+  .Railend 11,
+  .Railtype 0;11, 
+  .Railtype 10;0, 
+  .Freeobj 0;55;0;0;0,  ; Monte a sinistra
+4125,.Freeobj 0;56;0;0;0,  ; Ground ponte continua
+4150,.Freeobj -1;57;0;0;0,  ; Ground ponte fine
+  .dike 0;-1;5,
+
+4175,; --------- Rettilineo ------- Palo 239
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  ;.Railend 11,
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+
+4200,;---------- curva R-80 svil.20 sov.57 - Pali 241-242
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;14;0;0;-171.05, ; Fine controrotaia a destra
+  .Railtype 0;10, .curve -80;-80,
+  .Railtype 10;59 ; Ground in curva a sinistra
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a sin
+
+4225,; --------- Rettilineo ------- Palo 241
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;44;2;0;-9, ; Sbancamento 2
+
+4250,;---------- Curva R+90 svil.28 sov.59 - Pali 243-245
+  .Pole 0;3;0;25, ;- pali a sinistra con zampa a sinistra
+  .Railtype 0;13, .curve 80;61,
+  .Rail 11;0;0;107, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;60, ; Ground in curva a destra
+  .Freeobj 0;15;0;0;171.04, ; Fine controrotaia a sinistra
+  .Freeobj 0;101;2.2;-1.2;-5, ; Cespuglio
+4260,.Freeobj 0;101;3.6;-2.2;-10, ; Cespuglio
+4268,.Freeobj 0;101;3.6;-1.9;-10, ; Cespuglio
+
+4275,; --------- Rettilineo ------- Palo 245
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Railend 11,
+4290,.Freeobj 0;104;3.5;-1.0;-55, ; Albero
+
+4300,;----------- Curva R-110 svil.78 sov.48 - Pali 246-251
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;4, .curve -110;35, 
+  .Freeobj 0;101;2.5;-1.4;-5, ; Cespuglio
+4310,.Freeobj 0;101;2.7;-1.2;-5, ; Cespuglio
+4320,.Freeobj 0;101;2.9;-1.2;-5, ; Cespuglio
+4330,.Freeobj 0;101;2.9;-1.2;-5, ; Cespuglio
+4340,.Freeobj 0;101;2.9;-1.2;-5, ; Cespuglio
+4350,.Freeobj 0;101;2.6;-1.2;-5, ; Cespuglio
+4360,.Freeobj 0;101;2.6;-1.2;-5, ; Cespuglio
+  .Freeobj 0;104;4.5;-1.2;-55, ; Albero
+
+4375,; --------- Rettilineo ------- Palo 251
+  .Railtype 0;5, .curve 0;0, 
+  .Freeobj 0;101;2.6;-1.2;-5, ; Cespuglio
+4385,.Freeobj 0;101;2.6;-1.2;-5, ; Cespuglio
+4399,.Freeobj 0;104;5.5;-2.1;-55, ; Albero
+
+4400,;---------- Curva R-110 svil.51 sov.48 - Pali 252-255 
+  .Railtype 0;4, .curve -110;35, 
+4425,.Freeobj 0;101;2.6;-1.8;0, ; Cespuglio
+4440,.Freeobj 0;101;3.6;-2.3;-10, ; Cespuglio
+
+4450,; --------- Rettilineo ------- Palo 255
+  .Railtype 0;5, .curve 0;0, 
+4460,.Freeobj 0;101;3.6;-2.3;-10, ; Cespuglio
+4480,.Freeobj 0;101;3.6;-2.3;-10, ; Cespuglio
+4495,.Freeobj 0;101;3.6;-2.3;-10, ; Cespuglio
+4500,.Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+.Pole 0;3;0;25, ;- pali a sinistra con zampa a destra
+4510,.Freeobj 0;101;3.6;-2;-10, ; Cespuglio
+
+4525,;---- Curva Colombo R-70 svil.113 sov.76 - Pali 258-265
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .curve -60;67, .Railtype 0;7, 
+  .Railtype 10;59 ; Ground in curva a sinistra
+  .Rail 11;0;0;100, ; Rail fittizia per palo intermedio des in curva a sin
+4550,.Freeobj 0;44;1;-0.5;0, ; Sbancamento 2
+4581,.Freeobj 0;44;1;-0.5;-7.5, ; Sbancamento 2
+
+
+4600,; --------- Rettilineo ------- Palo 265
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+4603,.Freeobj 0;101;3.0;-1.2;10, ; Cespuglio
+4612,.Freeobj 0;101;3.6;-1.9;10, ; Cespuglio
+4625,.Pole 0;3;0;25, ;- pali a sinistra con zampa a sinistra
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+4650,.Pole 0;0;0;25, ;- pali a sinistra con zampa a sinistra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+4651,.Freeobj 0;105;3;-1.1;-10, ; Cespuglio ginestre
+4660,.Freeobj 0;101;3.6;-2.2;-10, ; Cespuglio
+4665,.Freeobj 0;105;2.8;-1.1;-10, ; Cespuglio ginestre
+4668,.Freeobj 0;101;3.6;-0.7;-10, ; Cespuglio
+
+4675,;---------- Curva R+80 svil.28 sov.67 - Pali 267-269 
+  .Pole 0;3;0;25, ;- pali a sinistra con zampa a sinistra
+  .Railtype 0;14, .curve 80;61,
+  .Rail 11;0;0;107, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;60, ; Ground in curva a destra
+
+4700,; --------- Rettilineo ------- Palo 269
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+4725,.Freeobj 0;14;0;0;-180, ; Fine controrotaia a destra
+;- Sezionatore Cappuccio --Palo 271
+4775,.Pole 0;2;0;25, ;- pali a destra con zampa a destra
+4788,.Freeobj -1;105;3;-0.1;-10, ; Cespuglio ginestre
+4795,.Freeobj -1;105;3;0.1;-10, ; Cespuglio ginestre
+
+;- Limite inv.sez. aperto -Palo 272
+4800,;---------- Curva R-180 svil.20 sov.30 - Pali 272-274 
+  .pitch 25,
+  .Railtype 0;6,
+  .curve -150;-30,
+4810,.Freeobj 0;51;0;-0.15;3, ; Transizione Ground ingresso S.Pantaleo
+
+4825,; --------- Rettilineo ------- Palo 274
+  .pitch 0,
+  .Railtype 10;54, ; Ground piano con vale a destra
+  .Railtype 0;5, .curve 0;0, 
+  ;.Railend 11,
+  .Dikeend 0,
+  .Railstart 1;0;0;0, ; Inizio rotaia diritta invisibile
+4850,.Freeobj 0;39;0;0;-17.80,; Scambio ingresso Cappuccio
+  .limit 20;0,
+  .Marker Fgc2\Gifs\Limit20.bmp;100,
+  .Railtype 0;0,
+
+4875,.Railtype 0;5, ; Binario di corsa visibile
+  .rail 1;-4.5;0;5, ; Binario deviato visibile
+  .Freeobj 0;2;-4.485;-0.005;-4.5, ; Elemento binario per giunzione
+
+;- Cappuccio (fermata) ----Palo 278
+4900,.limit 25;0,
+4925,.Freeobj 0;131;-2.5;0.1;0,; passeggero in attesa
+4930,.Sta Cappuccio;;9.3900;1;1;1;0;;20;20;fgc\manual.wav,
+4935,.Stop 1, ; fermata
+4950,.Freeobj 0;40;0;0;0,; Cappuccio stazione
+  .Marker Fgc2\Gifs\Limit25.bmp;50,
+  .Railtype 0;0,
+  .Railtype 1;0,; Binario deviato invisibile
+  .Freeobj 0;41;-4.5;0;17.80, ; Scambio uscita Cappuccio
+4975,.rail 1;0,
+  .limit 30;0,
+  .Railtype 0;5,
+  .pitch 20,
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+4990,.Freeobj 0;45;2.5;0;10, ; Gruppo di pini
+  .Freeobj 0;104;-6.5;-0.3;80,; albero
+4993,.Freeobj 0;104;-4.5;-0.6;60,; albero
+4995,.Freeobj 0;104;-2.7;-0.4;40,; albero
+4995,.Freeobj 0;104;-9.5;1.5;60,; albero
+4997,.Freeobj 0;104;-6.5;1.0;60,; albero
+  
+  
+5000,;-------- Curva R-60 svil.19 sov.60 - Pali 282-283 
+  .Rail 10;0;0;57, ; Rail fittizia per ground in curva a sin
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a sin
+  .pitch 45,
+  .dike 0;-1;5,
+  .curve -60;67, .Railtype 0;7, 
+  .railend 1,
+  .Back 2,
+5010,.Freeobj 0;45;4.5;1.5;20, ; Gruppo di pini
+5012,.Freeobj 0;53;1.45;0;-6, ; Muro pietre
+5022,.Freeobj 0;45;4.5;1.0;20,; Gruppo di pini
+
+5025,; --------------  Rettilineo  ------- Palo 284
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;55,  ; Rail fittizia per ground diritto
+  .dike 0;-1;3, ; Muretto a sinistra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  .Freeobj 0;52;0;0;0, ; Sbancamento dopo Cappuccio
+5034,.Freeobj 0;45;4.5;1.5;20,; Gruppo di pini
+
+5050,; ---------- Curva R+70 svil.70 sov.76 - Pali 285-289 
+  .Marker Fgc2\Gifs\Limit30.bmp;75,
+  .Freeobj 0;53;-0.15;0;-6, ; Muro pietre
+  .Freeobj 0;45;4.5;0.5;5,; Gruppo di pini
+  .Freeobj 0;15;0;0;-190.24, ; Fine controrotaia a destra
+  .Railtype 0;9, .curve 70;55,
+  .dike 0;0;5,
+  .Railtype 10;56, ; Ground in curva a destra
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+5062,.Freeobj 0;53;-1.3;0;4, ; Muro pietre
+
+5125,; ---------- Rettilineo  ------- Palo 290
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;55,  ; Rail fittizia per ground diritto
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Freeobj 0;58;0.4;-0.8;1, ; Parete rocciosa
+
+5130,.Freeobj 0;86;2.2;0;0, ; Avviso rallentamento 26
+5138,.Freeobj 0;58;0.7;-1.0;0, ; Parete rocciosa
+
+5150,;----------- curva R-60 svil.19 sov.52 - Pali 291-292 
+  .Freeobj 0;58;0.8;-0.9;5, ; Parete rocciosa
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;14;0;0;-171.05, ; Fine controrotaia a destra
+  .Railtype 0;10, .curve -80;-80,
+  .Rail 10;0;0;57, ; Rail fittizia per ground in curva a sin
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a sin
+  .limit 26;0,
+  .Marker Fgc2\Gifs\Limit26.bmp;100,
+5154,.Freeobj 0;87;2.5;0;0, ; Inizio rallentamento 26
+
+5164,.Freeobj 0;58;1.9;-1.0;-6, ; Parete rocciosa
+
+5175,; ---------- Rettilineo  ------- Palo 293
+  .limit 30;0,
+  .Freeobj 0;58;0.8;-0.9;-1, ; Parete rocciosa
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+5200,.dike 0;-1;5,
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+5208,.Freeobj 0;101;2.5;-1.0;-8, ; Cespuglio
+  .Freeobj 0;87;2.2;0;180, ; Avviso rallentamento rovesciato
+
+5225,;--- Ponte Puin - Curva R+60 svil.82 sov.89 - Pali 294-300 
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .curve 60;67, .Railtype 0;8, 
+  .Dikeend 0,
+  .Poleend 0,
+  ;.Railend 11,
+  .Railtype 0;11, 
+  .Railtype 10;0, 
+  .Freeobj 0;55;0;0;0,  ; Monte a sinistra
+5250,.Freeobj 0;56;0;0;0,  ; Ground ponte continua
+5275,.Freeobj -1;57;0;0;0,  ; Ground ponte fine
+  .Marker Fgc2\Gifs\Limit30.bmp;100,
+  .dike 0;0;5,
+5300,;--- Curva normale
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Railtype 0;8, 
+  .Railtype 10;63, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+
+
+5325,; ---------- Rettilineo  ------- Palo 301
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+5350,.Freeobj 0;14;0;0;180, ; Fine controrotaia a destra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+5375,;------- Curva R-60 svil.102 sov.89 - Pali 301-305
+  .railtype 0;20, ;- Galleria Puin - Pali 301/302 (m 47.15)
+  .dike 0;-1;5,
+  .curve -60;10,
+  .poleend 0,
+  .Freeobj 0;61;0;0;0, ; Galleria R-60 tratto iniziale
+  .Freeobj 0;64;0;0;0, ; Galleria Puin portale
+5400,.Freeobj 0;62;0;0;0, ; Galleria R-60 tratto finale
+5425,.Railtype 10;62, ; Ground in curva a destra
+  .dike 0;1;5,
+  .Railtype 0;7,
+  .Rail 11;0;0;100, ; Rail fittizia per palo intermedio sin in curva a sin
+5450,.Pole 0;0;0;25, ;- pali a destra con zampa a destra
+  .dike 0;-1;5,
+
+5475,;------ Rettilineo ----- Palo 305
+  .dike 0;0;5,
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+5500,.Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+5525,.Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+
+
+5550,;------ Curva R+167.6 svil.70 sov.32 - Pali 307-310
+  .Railtype 0;16, .curve 167;32, ; Curva a destra R167 con catenaria
+5600,;.dikeend 0,
+  .dike 0;-1;6,
+
+
+
+
+5625,;------ Curva R+99 svil.137 sov.54 - Pali 310-317 
+  .Railtype 0;19, .curve 110;54, ; Curva a destra R110 con catenaria
+
+5725,.Freeobj 0;59;0;0;-2,  ; Muro paravalanghe
+  .Freeobj 0;53;0.2;-1.5;-2,  ; Muro pietre
+5737,.Freeobj 0;59;-0.4;0; 2,  ; Muro paravalanghe
+  .Freeobj 0;53;-0.2;-1.5; 2,  ; Muro pietre
+
+5750,;------ Rettilineo ----- Palo 318
+  .Railtype 0;5, .curve 0;0, 
+  .Freeobj 0;59;0;0;0,  ; Muro paravalanghe
+  .Freeobj 0;53;0.2;-1.5;0,  ; Muro pietre
+5762,.Freeobj 0;59;0;0;0,  ; Muro paravalanghe
+  .Freeobj 0;53;0.2;-1.5;0,  ; Muro pietre
+5775,.Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+  .Freeobj 0;59;0;0;0,  ; Muro paravalanghe
+
+5800,;------ Curva R+80 svil.63 sov.67 - Pali 320-323 
+  .Railtype 0;14, .curve 80;61,
+  .Rail 11;0;0;106, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;63, ; Ground in curva a destra
+  .Freeobj 0;59;0;0;-3.5,  ; Muro paravalanghe
+5812,.Freeobj 0;59;-0.7;0; 3.5,  ; Muro paravalanghe
+5825,.Freeobj 0;59;0;0;-3.5,  ; Muro paravalanghe
+5837,.Freeobj 0;59;-0.7;0; 3.5,  ; Muro paravalanghe
+5850,.Freeobj 0;59;0;0;-3.5,  ; Muro paravalanghe
+5862,.Freeobj 0;59;-0.7;0; 3.5,  ; Muro paravalanghe
+
+5875,;------ Rettilineo ----- Palo 323
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+
+5900,;------ Curva R-80 svil.37 sov.67 - Pali 324-327 
+  .Freeobj 0;14;0;0;188.96, ; Fine controrotaia a destra
+  .Railtype 0;10, .curve -80;-80,
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;62,  ; Rail fittizia per ground in curva sin
+
+5925,.Freeobj 0;59;0;0; 4.5,  ; Muro paravalanghe
+5938,.Freeobj 0;59;1.0;0;-4.5,  ; Muro paravalanghe
+
+5950,;------ Rettilineo ----- Palo 328
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+  .Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+5951,.Freeobj 0;59;0.1;0;0,  ; Muro paravalanghe
+5964,.Freeobj 0;59;0.1;0;0,  ; Muro paravalanghe
+
+5975,;-------- Curva R+80 svil.32 sov.67 - Pali 329-330
+  .Freeobj 0;15;0;0;171.05, ; Fine controrotaia a sinistra
+  .Railtype 0;14, .curve 80;61,
+  .Rail 11;0;0;106, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;63, ; Ground in curva a destra
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+5987,.Freeobj 0;59;-0.7;0; 3.5,  ; Muro paravalanghe
+6000,.Freeobj 0;59;0;0;-3.5,  ; Muro paravalanghe
+6012,.Freeobj 0;59;-0.7;0; 3.5,  ; Muro paravalanghe
+
+6025,;------ Rettilineo ----- Palo 330
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+  .Freeobj 0;59;0.1;0;0,  ; Muro paravalanghe
+6038,.Freeobj 0;60;0.1;0;0,  ; Muro paravalanghe
+6050,.Freeobj 0;14;0;0;180, ; Fine controrotaia a destra
+6051,.Freeobj 0;59;0.1;0;0,  ; Muro paravalanghe
+6075,.Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+6100,;-------- Curva R-80 svil.54 sov.67 - Pali 333-336 
+  .Railtype 0;10, .curve -80;-80,
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;62,  ; Rail fittizia per ground in curva sin
+
+6150,;------ Rettilineo ----- Palo 336
+  .pitch 40, ; Variaz. pendenza +45 -> +40
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+6175,.Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+6200,.Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+;6212,;.Freeobj 0;60;0.1;0;0,  ; Muro paravalanghe
+
+6225,;-------- Curva R-60 svil.123 sov.89 - Pali 338-341 
+  .railtype 0;20,;- Galleria Poggino - Pali 338/339 (m 89.23)
+  .curve -60;10,
+  .poleend 0,
+  .Freeobj 0;61;0;0;0, ; Galleria R-60 tratto iniziale
+  .Freeobj 0;65;0;0;0, ; Galleria Poggino portale
+6250,.Freeobj 0;63;0;0;0, ; Galleria R-60 tratto intermedio
+6275,.Freeobj 0;63;0;0;0, ; Galleria R-60 tratto intermedio
+6300,.Freeobj 0;62;0;0;0, ; Galleria R-60 tratto finale
+6325,.Railtype 10;62, ; Ground in curva a destra
+  .Railtype 10;57 ; Ground in curva a sinistra
+  .Railtype 0;7,
+  .Rail 11;0;0;101, ; Rail fittizia per palo intermedio sin in curva a sin
+  .dike 0;0;5
+6350,;------ Rettilineo ----- Palo 341
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;55,  ; Rail fittizia per ground diritto
+6375,.Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+
+6400,;------ Curva R-150 svil.51 sov.36 - Pali 342-344 
+  .Railtype 0;6, .curve -150;36, ; Curva a sinistra R150 con catenaria
+
+6450,;------ Rettilineo ----- Palo 344
+  .limit 35;0,
+  .Freeobj 0;89;2.52;0.3;0, ; Limite 35 sul palo
+  .Railtype 0;5, .curve 0;0, 
+  .Pole 0;2;0;50, ;- pali a destra con zampa a destra ogni 50 metri
+6475,.Pole 10;1;0;25, ;- pali a destra con zampa a sinisra
+6500,.Poleend 10,
+6525,.Pole 10;1;0;25, ;- pali a destra con zampa a sinisra
+6550,.Poleend 10,
+  .Marker Fgc2\Gifs\Limit35.bmp;100,
+
+6760,.Freeobj 0;138;-4.5;1.4;0,; Ragazza bionda
+
+6575, ; Muro a rinistra nuovo - Palo 348
+  .Pole 10;1;0;25, ;- pali a destra con zampa a sinisra
+  .dike 10;0;3,     ; Muro basso a sin diritto
+
+6600, ; Muro a sinistra vecchio - Palo 349
+  .Poleend 10,
+  .dikeend 10,
+6625,.Pole 10;1;0;25, ;- pali a destra con zampa a sinisra
+6650,.Poleend 10,
+6675,.Pole 10;1;0;25, ;- pali a destra con zampa a sinisra
+
+6700,.pitch 20, ; Variaz. pendenza +40 -> 0 Palo 352
+  .Poleend 10,
+6725,.pitch 0,     ;Palo 353
+  .Pole 10;1;0;25, ;- pali a destra con zampa a sinisra
+   ; Casa a sinistra
+
+6775,.Pole 10;1;0;25, ;- pali a destra con zampa a sinisra
+  .Freeobj 0;66;0;0;0, ; Casa Poggino
+6800,.Poleend 10,
+  .dike 0;0;5
+6825,.Pole 10;1;0;25, ;- pali a destra con zampa a sinisra
+
+6850,;------ curva R-220 svil. ? sov.24 - Palo 358 Variaz. pendenza 0 -> +42
+  .limit 30;0,
+  .Marker Fgc2\Gifs\Limit30.bmp;75,
+  .pitch 20,
+  .Poleend 10,
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra ogni 50 metri
+  .Railtype 0;21, .curve -220;24, ; Curva a sinistra R220 con catenaria
+  .Freeobj 0;88;2.52;0.3;0, ; Limite 30 sul palo
+
+6875,;------ Rettilineo ----- Palo 358
+  .pitch 42,
+  .Railtype 0;5, .curve 0;0, 
+  .Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+
+6900,;------ Curva R+60 svil.114 sov.89 - Pali 359-368
+  .dike 0;-1;5,
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;63, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+
+6925,; Ponte Poggino
+  .Dikeend 0,
+  .Poleend 0,
+  .Railend 11,
+  .Railtype 0;11, 
+  .Railtype 10;0, 
+  .Freeobj 0;55;0;0;0,  ; Monte a sinistra
+6950,.Freeobj 0;56;0;0;0,  ; Ground ponte continua
+6975,.Freeobj -1;57;0;0;0,  ; Ground ponte fine
+  ;.dike 0;-1;5,
+7000,;--- Curva normale
+  .dike 0; -1;5, ; Vegetazione sulla sinistra e destra
+  .dike 10;1;6,
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Railtype 0;8, 
+  .Railtype 10;66, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+
+7025,;------ Rettilineo ----- Palo 368
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+7050,.Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Freeobj 0;14;0;0;180, ; Fine controrotaia a destra
+  .dike 0; 0;5, ; Vegetazione sulla sinistra e destra
+
+7075,;------ curva R-60 svil.35 sov.81 - Pali 370-372 
+  .Railtype 0;10, .curve -80;-80,
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;65,  ; Rail fittizia per ground in curva sin
+  .dike 0;-1;5,
+
+7125,;------ Rettilineo ----- Palo 373
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+7150,.Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+
+7175,;------ Curva R+60 svil.52 sov.81 - Pali 374-377 
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;66, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+7200,.Freeobj 0;14;0;0;180, ; Fine controrotaia a destra
+
+7250,;------ Rettilineo ----- Palo 377
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+
+7250,;- Galleria Cicala --------Pali 377/378 (m 43.38)
+  .poleend 0,
+  .Railtype 0;20, .curve 0;0, 
+  ;.Railend 11,
+  .Freeobj 0;67;0;0;-12, ; Portale galleria
+  .Freeobj 0;50;0;0;0, ; Galleria
+7275,.Freeobj 0;14;0;0;-180, ; Fine controrotaia a destra
+  .Back 3,
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+7300,.Freeobj 0;50;0;0;180, ; Galleria
+  .Railtype 0;5, 
+  .Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+  .dikeend 10,
+7301,.Freeobj 0;58;0.4;-1.8;1, ; Parete rocciosa
+7314,.Freeobj 0;58;0.4;-1.8;1, ; Parete rocciosa
+
+7325,;------ Curva R+60 svil.20 sov.57 - Pali 378-380 
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;60, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+7326,.Freeobj 0;58;0.3;-1.8;-4, ; Parete rocciosa
+7338,.Freeobj 0;58;-0.5;-2.5; 5, ; Parete rocciosa
+
+7350,;------ Rettilineo ----- Palo 380
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;58,  ; Rail fittizia per ground diritto
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Freeobj 0;58;0.4;-1.8;1, ; Parete rocciosa
+  .Freeobj 0;37;0.1;-0.25;0, ; Muretto con mancorrente a destra
+7362,.Freeobj 0;58;0.4;-0.8;1, ; Parete rocciosa
+
+7375,;----- Curva R-60 svil.120 sov.89 - Pali 381-385 
+  .Freeobj 0;14;0;0;-168.05, ; Fine controrotaia a destra
+  .curve -60;67, .Railtype 0;7, 
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;59,  ; Rail fittizia per ground in curva sin
+  .Freeobj 0;58;0.8;-1.8; 5, ; Parete rocciosa
+7387,.Freeobj 0;58;1.7;-0.8;-6, ; Parete rocciosa
+
+7400,.Freeobj 0;58;0.6;-1.8; 5, ; Parete rocciosa
+7412,.Freeobj 0;58;1.5;-0.8;-6, ; Parete rocciosa
+
+7425,;- Galleria Cornara ---- Pali 383/384 (m 59.65)
+  .railtype 0;20,;- Galleria 
+  .poleend 0,
+  .Freeobj 0;61;0;0;0, ; Galleria R-60 tratto iniziale
+  .Freeobj 0;67;0;0;0, ; Portale galleria
+  .Railend 11,
+7430,.Freeobj 0;44;1;0;-3, ; Sbancamento 2
+7450,.Freeobj 0;62;0;0;0, ; Galleria R-60 tratto finale
+7475,; - Ultimi 25 mt curva fuori galleria
+  .pitch 20, ; Variaz. pendenza +42 -> 0 Palo 385
+  .Railtype 0;7,
+  .Railtype 10;65,  ; Rail fittizia per ground in curva sin
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a des
+  .dike 10;1;6,
+
+7500,;------ Rettilineo ----- Palo 386
+  .Pole 0;2;0;50, ;- pali a destra con zampa a destra
+  .pitch 0,
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+7511,.Freeobj 0;60;0.0;0.0;0,  ; Muro paravalanghe
+7525,.Pole 10;1;0;25, ;- pali a destra con zampa a sinistra
+  .Freeobj 0;37;0.1;-0.25;0, ; Muretto con mancorrente a destra
+7550,.Poleend 10,
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+7575,;------ Curva R-70 svil.52 sov.76 - Pali 388-392 
+  .Railtype 0;10, .curve -80;-80,
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a sin
+  .Railtype 10;65,  ; Rail fittizia per ground in curva sin
+7600,.Railtype 11;100, ; Rail fittizia per palo intermedio sin in curva a sin
+7625,;------ Rettilineo ----- Palo 393
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .pitch 0,
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+7650,.Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+7675,.Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+
+7700,;------ Curva R-90 svil.60 sov.59 - Pali 394-398 
+  .Railtype 0;10, .curve -80;-80,
+  .Rail 11;0;0;100, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;65,  ; Rail fittizia per ground in curva sin
+  .Freeobj 0;90;-2.5;0.4;0,; Segnale CF per palo
+7725,.Railtype 11;105, ; Rail fittizia per palo intermedio sin in curva a sin
+
+7750,;------ Rettilineo ----- Palo 399
+  .Pole 0;2;0;25, ;- pali a sinistra con zampa a destra
+  .pitch 0,
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+7775,.Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+
+7800,;------ curva R+60 svil.36 sov.89 - Pali 400-402
+  .Railtype 0;14, .curve 80;61,
+  .Rail 11;0;0;106, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;66, ; Ground in curva a destra
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+
+7850,;------ Rettilineo ----- Palo 403
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+7875,.Freeobj 0;14;0;0;180, ; Fine controrotaia a destra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  .dike 10;0;3,     ; Muro basso a sin diritto
+
+7900,;------ Curva R+60 svil.26 sov.60 - Pali 404-406 
+  .curve 60;67, .Railtype 0;8, 
+  .Railtype 10;66, ; Ground in curva a destra
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+  .dike 10;1;6,
+
+7925,;------ Rettilineo ----- Palo 406
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+7950,;------ curva R-70 svil.24 sov.55 - Pali 407-409 
+  .Railtype 0;10, .curve -80;-80,
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio des in curva a des
+  .Railtype 10;65,  ; Rail fittizia per ground in curva sin
+  .Freeobj 0;14;0;0;-171.05, ; Fine controrotaia a destra
+
+7975,;------ Rettilineo Ponte ----- Palo 409
+  .Railtype 0;30, .curve 0;0, 
+  .Dikeend 0,
+  .Dikeend 10,
+  .Railtype 10;20,
+  .Railend 11,
+  .Freeobj 0;68;0;0;0, ; Ponte in ferro
+  .Freeobj 0;56;0;0;0,  ; Ground ponte
+;------ Gall.Fontanassa 1 (m 151.22)Pali 409/410 
+8000,; Inizio Galleria in rettilineo Fontanassa 1 (m 151.22)
+  .Railtype 0;20,
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  .Poleend 0,
+  .Freeobj 0;69;0;0;0, ; Imbocco galleria
+  .Freeobj 0;50;0;0;0, ; Galleria
+  .Railtype 10;55, ; Ground dritto
+
+8025,; Curva in galleria Fontanassa 1 R+70 svil.133 sov.76
+  .Railtype 10;56, ; Ground in curva a destra
+  .Freeobj 0;73;0;0;0, ; Galleria
+  .curve 70;76,
+8050,.Freeobj 0;73;0;0;0, ; Galleria
+8075,.Freeobj 0;73;0;0;0, ; Galleria
+8100,.Freeobj 0;73;0;0;0, ; Galleria
+8125,.Freeobj 0;75;0;0;0, ; Galleria fine
+8150,; Fine galleria
+  .Railtype 0;9,
+  .dike 0;0;5,
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+
+;------ Gall.Fontanassa 2 (m 49.93)Pali 410/411 
+8175,; Inizio Galleria in curva
+  .dikeend 0,
+  .Railend 11,
+  .Railtype 0;20,
+  .Freeobj 0;67;0;0;-18, ; Portale galleria
+  .Freeobj 0;74;0;0;0, ; Galleria inizio
+8200,.Freeobj 0;75;0;0;0, ; Galleria fine
+  .Back 4,
+
+8225,; Fine galleria - Ultimi 25 metri curva fuori galleria
+  .Dikeend 0,
+  .Railtype 0;11, 
+  .Railtype 10;0, 
+  .curve 60;76,
+  .dike 0;0;5,
+  .Freeobj -1;57;0;-0.8;0,  ; Ground ponte fine
+
+8250,;------ Fine curva - Rettilineo ----- Palo 412
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Pole 0;3;0;25, ;- pali a sinistra con zampa a sinistra
+8251,.Freeobj 0;70;0.2;-0.1;-1, ; Parete rocciosa
+8265,.Freeobj 0;70;-0.1;-0.3;-2, ; Parete rocciosa
+
+8275,;------ Curva R-60 svil.27 sov.63 - Pali 413-415
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;7, .curve -60;63,
+  .Railtype 10;65,  ; Rail fittizia per ground diritto
+  .Rail 11;0;0;100, ; Rail fittizia per palo intermedio sin in curva a sin
+  .Freeobj 0;14;0;0;-168.05, ; Fine controrotaia a destra
+8277,.Freeobj 0;70;-0.1;-0.2;4, ; Parete rocciosa
+
+8300,;------ Rettilineo ----- Palo 415
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;64, ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  
+8325,;------ Curva R+60 svil.32 sov.69 - Pali 416-419 
+  .Pole 0;3;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;8, 
+  .Railtype 10;66, ; Rail fittizia per ground in curva a destra
+  .curve 60;76,
+  .Rail 11;0;0;103, ; Rail fittizia per palo intermedio sin in curva a des
+  .Freeobj 0;15;0;0; 168.07, ; Fine controrotaia a sinistra
+
+8350,;------ Rettilineo ----- Palo 419
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Freeobj 0;70;0.2;-0.1;-1, ; Parete rocciosa
+8364,.Freeobj 0;70;-0.1;-0.3;-2, ; Parete rocciosa
+
+8375,;-------Curva R-60 svil.30 sov.66 - Pali 420-422
+  .Freeobj 0;14;0;0;-168.05, ; Fine controrotaia a destra
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;7, .curve -60;63,
+  .Railtype 10;65,  ; Rail fittizia per ground diritto
+  .Rail 11;0;0;100, ; Rail fittizia per palo intermedio sin in curva a sin
+8377,.Freeobj 0;70;-0.1;-0.3;4, ; Parete rocciosa
+8387,.Freeobj 0;70; 0.5;-0.1;-4, ; Parete rocciosa
+
+8400,;------ Rettilineo ----- Palo 423
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+  .Freeobj 0;70;-0.1;-0.3;0	, ; Parete rocciosa
+  .Freeobj 0;42;0.8;-0.3;-7, ; Sbancamento a destra
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+  .Railend 11,
+
+8425,;------ Curva R+60 svil.34 sov.75 - Pali 424-426 
+  .Freeobj 0;71;0;-0.15;0, ; Mancorrente su muretto a destra
+  .Freeobj 0;15;0;0; 168.07, ; Fine controrotaia a sinistra
+  .Pole 0;3;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;8, 
+  .Railtype 10;66, ; Rail fittizia per ground in curva a destra
+  .curve 60;76,
+  .Rail 11;0;0;103, ; Rail fittizia per palo intermedio sin in curva a des
+8438,.Freeobj 0;70;-1.5;-0.6;5, ; Parete rocciosa
+
+8450,;------ Rettilineo ----- Palo 427
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;70;0;-0.2;0, ; Parete rocciosa
+8463,.Freeobj 0;70;-0.2;-0.4;-1, ; Parete rocciosa
+
+8475,;------ Curva R-60 svil.70 sov.89 - Pali 428-433 
+  .Freeobj 0;14;0;0;-168.05, ; Fine controrotaia a destra
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;7, .curve -60;63,
+  .Railtype 10;65,  ; Rail fittizia per ground diritto
+  .Rail 11;0;0;100, ; Rail fittizia per palo intermedio sin in curva a sin
+
+8550,;------ Rettilineo ----- Palo 434
+  .Pole 0;0;0;50, ;- pali a sinistra con zampa a destra
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;64,  ; Rail fittizia per ground diritto
+  .Railend 11,
+8575,.Freeobj 0;70;-0.2;-0.8;0, ; Parete rocciosa
+  .Pole 10;3;0;25, ;- pali a sinistra con zampa a destra
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+8589,.Freeobj 0;70;-0.4;-0.2;0, ; Parete rocciosa
+8600,.Freeobj 0;70;-0.2;-0.8;0, ; Parete rocciosa
+  .Poleend 10,
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+8614,.Freeobj 0;70;-0.4;-0.2;0, ; Parete rocciosa
+
+8625,;------ Curva R+60 svil.23 sov.89 - Pali 436-438 
+  .Freeobj 0;71;0;-0.15;0, ; Mancorrente su muretto a destra
+  .Pole 0;3;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;8, 
+  .Railtype 10;63, ; Rail fittizia per ground in curva a destra
+  .curve 60;76,
+  .Rail 11;0;0;103, ; Rail fittizia per palo intermedio sin in curva a des
+
+8650,;------ Rettilineo ----- Palo 439
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+  .Railend 11,
+8675,.Freeobj 0;14;0;0;180, ; Fine controrotaia a destra
+  .Freeobj 0;15;0;0;0, ; Inizio controrotaia a destra
+
+8700,;------ Curva R+60 svil.67 sov.89 - Pali 440-445
+  .Pole 0;1;0;25, ;- pali a destra con zampa a destra
+  .Railtype 0;8, 
+  .Railtype 10;63, ; Rail fittizia per ground in curva a destra
+  .curve 60;76,
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio des in curva a des
+
+8750,;------ Rettilineo ----- Palo 446
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+8775,;------ Curva R-60 svil.78 sov.89 - Pali 447-453
+  .Freeobj 0;14;0;0;-168.05, ; Fine controrotaia a destra
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Railtype 0;7, .curve -60;63,
+  .Railtype 10;62,  ; Rail fittizia per ground diritto
+  .Rail 11;0;0;101, ; Rail fittizia per palo intermedio sin in curva a sin
+
+8850,;------ Rettilineo ----- Palo 454
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+
+8875,;------ Curva R+60 svil.43 sov.89 - Pali 455-458
+  .Freeobj 0;15;0;0; 168.07, ; Fine controrotaia a sinistra
+  .Pole 0;1;0;25, ;- pali a destra con zampa a sinistra
+  .Railtype 0;8, 
+  .Railtype 10;63, ; Rail fittizia per ground in curva a destra
+  .curve 60;76,
+  .Rail 11;0;0;102, ; Rail fittizia per palo intermedio sin in curva a des
+
+8925,;------ Rettilineo ----- Palo 459
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+8950,;------ Curva R-80 svil.23 sov.67 - Pali 460-461
+  .Freeobj 0;14;0;0; -171.05, ; Fine controrotaia a destra
+  .Pole 0;2;0;25, ;- pali a destra con zampa a destra
+  .Railtype 0;10, .curve -80;-80,
+  .Railtype 10;62,  ; Rail fittizia per ground diritto
+  .Rail 11;0;0;105, ; Rail fittizia per palo intermedio sin in curva a sin
+
+8975,;------ Rettilineo ----- Palo 462
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+  .Railend 11,
+9000,.Pole 0;1;0;25, ;- pali a destra con zampa a destra
+  .Freeobj 0;15;0;0;180, ; Fine controrotaia a sinistra
+  .dike 0;1;5,
+  .Railend 10,
+
+
+9025,.Pole 0;2;0;25, ;- pali a destra con zampa a sinistra
+9049,.Freeobj 0;76;0;0;0, ; Stazione di Trensasco
+;- Trensasco (fermata) ----Pali 463/464
+;   "    Trensasco > 
+9030,.Sta Trensasco;;9.4700;1;1;1;0;;20;20;fgc\manual.wav,; Km 9+045
+9040,.Stop -1, ; fermata
+9049,.Freeobj 0;76;0;0;0, ; Stazione di Trensasco
+
+9050,;------ Curva R-120 svil.26 sov.44 - Pali 465-466
+  .Rail 10;0;0;61, ; Rail fittizia per ground diritto
+  .dike 0;0;5,
+  .pitch -18, ; Variaz. pendenza 0 -> -34 Palo 466
+  .Railtype 0;4, .curve -115;44, 
+
+9075,;- Rettilineo - Galleria Trensasco - Pali 466/467 (m 102.77)
+  .dikeend 0,
+  .poleend 0,
+  .pitch -34, ;
+  .Freeobj 0;69;0;0;0, ; Imbocco galleria
+  .Freeobj 0;50;0;0;0, ; Galleria
+  .Railtype 0;20, .curve 0;0, 
+  .Railtype 10;61,  ; Rail fittizia per ground diritto
+  ;.Railend 11,
+9100,.Freeobj 0;72;0;0;0, ; Galleria
+  ;.Back 4,
+9125,.Freeobj 0;72;0;0;0, ; Galleria
+9150,.Freeobj 0;15;0;0;0,  ; Inizio controrotaia a destra
+
+9175,;----- Curva R+60 svil.40 sov.89 - Pali 467-469
+  .Freeobj 0;50;0;0;168.075, ; Galleria
+  .Pole 0;3;0;25, ;- pali a sinistra con zampa a sinistra
+  .Railtype 0;8, 
+  .Railtype 10;68, ; Rail fittizia per ground in curva a destra
+  .curve 60;76,
+  .Rail 11;0;0;103, ; Rail fittizia per palo intermedio sin in curva a des
+  .dike 0;0;7,
+
+9225,;------ Rettilineo ----- Palo 469 
+  .pitch -34, ;
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;67,  ; Rail fittizia per ground diritto
+  .Railend 11,
+9250,.Freeobj 0;14;0;0; -180, ; Fine controrotaia a destra
+  .Freeobj 0;14;0;0;0, ; Inizio controrotaia a sinistra
+
+9275,;----- Curva R-60 svil.30 sov.89 - Pali 471-473
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;7, .curve -60;63,
+  .Railtype 10;69,  ; Rail fittizia per ground sinistro
+  .Rail 11;0;0;100, ; Rail fittizia per palo intermedio sin in curva a sin
+
+9300,;------ Rettilineo ----- Palo 473 
+;- Semaforo Campi lato Ge -Palo 472
+  .pitch -34, ;
+  .Railtype 0;5, .curve 0;0, 
+  .Railtype 10;67,  ; Rail fittizia per ground diritto
+  .Railend 11,
+  .pitch -18, ; Variaz. pendenza -34 -> 0 Palo 475
+9301,.Freeobj 0;92;0;0;0, ; Pedale e semaforo ACAI
+9325,;----- Curva R-69 svil.29 sov.51 - Pali 474-476
+  .dike 0;1;7,
+  .Rail 11;0;0;100, ; Rail fittizia per palo intermedio sin in curva a sin
+;  .Freeobj 0;15;0;0;191.95, ; Fine controrotaia a sinistra
+  .Pole 0;0;0;25, ;- pali a sinistra con zampa a destra
+  .Railtype 0;22, .curve -60;63,
+  .Railtype 10;69,  ; Rail fittizia per ground diritto
+9333,.Freeobj 0;82;11.78;-0.25; 141.0, ; staccionata verde
+9349,  .Freeobj 0;82;0.17;-0.25;-5.0, ; staccionata verde
+
+
+9350,;------ Rettilineo ----- Palo 476 
+  .pitch 0,
+  .Railtype 0;5, .curve 0;0, 
+  .Railend 11,
+  .Railtype 10;0,
+  .Railstart 1;0;0;0, ; Inizio rotaia diritta invisibile
+9359,.Freeobj 0;82;0;-0.2;0, ; staccionata verde
+  .Freeobj 0;85;-0.5;-1;4, ; Vegetazione a destra
+9369,.Freeobj 0;82;0;-0.2;0, ; staccionata verde
+9370,.Freeobj 0;83;0;0;0, ;- Attraversamento inghiaiato
+
+; - Campi (piazzale) -------Pali 477/481
+9375,.Railtype 0;0,
+  .limit 20;0,
+  .Marker Fgc2\Gifs\Limit20.bmp;100,
+  .dikeend 0,
+  .Freeobj 0;84;-11;0;0, ; Vegetazione a sinistra
+  .Freeobj 0;85;4.5;-2;15, ; Vegetazione a destra
+  .Freeobj 0;78;0;0;17.8, ; scambio d'ingresso
+  .Freeobj 0;91;0;0;0, ; Garitta ACAI
+9376,.Freeobj 0;80;0;0;0, ; Cassa motore scambio
+9383,.Freeobj 0;82;1.3;-0.2;7, ; staccionata verde
+9387,.Freeobj 0;150;-6;-0.2;90, ; Panda
+9392,.Freeobj 0;152;-6;-0.2;-90, ; Panda
+9393,.Freeobj 0;82;4.14;-0.2;16, ; staccionata verde
+9400,.Railtype 0;5, .curve 0;0, 
+  .poleend 0,
+  .rail 1;4.5, .Railtype 1;5,
+  .Freeobj 0;84;-11;0;0, ; Vegetazione a sinistra
+  .Freeobj 0;85;10;-0.8;2, ; Vegetazione a destra
+  .Freeobj 0;81;10;-0.5;0, ; banchetto picnic
+  .Freeobj 0;2;4.485;0.005;4.5, ; Elemento binario per giunzione
+9403,.Freeobj 0;82;5.75;-0.2;9, ; staccionata verde
+9415,.Freeobj 0;82;5;-0.2;0, ; staccionata verde
+  .Freeobj 0;81;10;-0.5;0, ; banchetto picnic
+9425,.Freeobj 0;82;5;-0.2;0, ; staccionata verde
+  .limit 25;0,
+  .Freeobj 0;84;-11;0;0, ; Vegetazione a sinistra
+  .Freeobj 0;85;9;-1.0;-2, ; Vegetazione a destra
+  .Freeobj 0;81;10;-0.5;0, ; banchetto picnic
+9430,.Freeobj 0;81;-6.5;-0.3;0, ; banchetto picnic
+9435,.Freeobj 0;82;5;-0.2;0, ; staccionata verde
+  .Freeobj 0;81;10;-0.5;0, ; banchetto picnic
+9440,.Freeobj 0;81;-6.5;-0.3;0, ; banchetto picnic
+9445,.Freeobj 0;82;5;-0.2;0, ; staccionata verde
+  .Freeobj 0;81;10;-0.5;0, ; banchetto picnic
+
+9450,;- Campi Km 9+466
+  .Sta Campi;9.4800;=;1;1;1;0;;20;20;fgc\manual.wav,; 
+  .Freeobj 0;84;-10;0;5, ; Vegetazione a sinistra
+  .Freeobj 0;85;12.5;-0.5;-15, ; Vegetazione a destra
+  .Freeobj 0;81;-6.5;-0.3;0, ; banchetto picnic
+  .Freeobj 0;120;-5.8;0.1;-64, ; Personaggi al pic-nic
+9455,.Freeobj 0;82;5;-0.2;0, ; staccionata verde
+  .Freeobj 0;81;10;-0.5;0, ; banchetto picnic
+9460,.Stop 1, ; fermata
+  .Freeobj 0;81;-6.5;-0.3;0, ; banchetto picnic
+
+
+9465,.Freeobj 0;82;5;-0.2;0, ; staccionata verde
+
+9475,.Freeobj 0;77;0;0;0, ; Stazione di Campi
+  .Marker Fgc2\Gifs\Limit25.bmp;50,
+  .dike 0;-1;7,
+  .Freeobj 0;85;4.5;-1.5;-6, ; Vegetazione a destra
+  .Railtype 0;0,
+  .Railtype 1;0,; Binario deviato invisibile
+  .Freeobj 0;79;4.5;0;-17.8, ; scambio d'uscita
+  .Freeobj 0;82;5;-0.2;0, ; staccionata verde
+9485,.Freeobj 0;82;2.8;-0.2;-12, ; staccionata verde
+9495,.Freeobj 0;82;0.1;-0.2;-15, ; staccionata verde
+9499,.Freeobj 0;80;0;0;180, ; Cassa motore scambio
+; ========== fine info su pendenze ===============
+9500,;------ curva R+73 svil.25 sov.73 - Pali 482-484 
+  .limit 30;0,
+  .Pole 0;3;0;25, ;- pali a sinistra con zampa a sinistra
+  .Freeobj 0;85;1.5;-0.5;3, ; Vegetazione a destra
+  .rail 1;0,
+  .Railtype 0;13, .curve 80;73, 
+  .Railtype 10;67,  ; Rail fittizia per ground diritto
+9506,.Freeobj 0;82;-0.7;-0.2;-7.5, ; staccionata verde
+9516,.Freeobj 0;82;-0.6;-0.2;0.5, ; staccionata verde
+
+9525,;------ Rettilineo - Semaforo Campi lato Cas Palo 484
+  .Marker Fgc2\Gifs\Limit30.bmp;25,
+  .railend 1,
+  .Railtype 0;5, .curve 0;0, 

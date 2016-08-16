@@ -1,0 +1,46 @@
+[MeshBuilder]
+Vertex 0, 0, -8
+Vertex 2, 1, 15
+Vertex -11, -6, 15
+Vertex -12, -9, -8
+Vertex -17.5, -13, 15
+Vertex -16, -14, -8
+Vertex -17, -20.3, 15
+Vertex -17, -20.3, -8
+Vertex 0, 0, 33
+Vertex -12, -9, 33
+Vertex -15, -14, 33
+Vertex -17, -20.3, 33
+Face 1,0,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+Face 8,1,2,9
+Face 9,2,4,10
+Face 10,4,6,11
+[Texture]
+Load hill.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0.5, 0
+Coordinates 2, 0.5, 0.3
+Coordinates 3, 0, 0.3
+Coordinates 4, 0.5, 0.6
+Coordinates 5, 0, 0.6
+Coordinates 6, 0.5, 1
+Coordinates 7, 0, 1
+Coordinates 8, 1, 0
+Coordinates 9, 1, 0.3
+Coordinates 10, 1, 0.6
+Coordinates 11, 1, 1
+
+[MeshBuilder]
+Vertex -17, -20.3, -8
+Vertex -17, -20.3, 33
+Vertex -17, -25, 33
+Vertex -17, -25, -8
+Face 1,0,3,2
+[Texture]
+Load Levee.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 12
+Coordinates 2, 0.15, 12
+Coordinates 3, 0.15, 0

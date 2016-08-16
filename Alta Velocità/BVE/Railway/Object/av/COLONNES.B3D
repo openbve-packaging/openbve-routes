@@ -1,0 +1,114 @@
+
+[MeshBuilder]
+Vertex -2.2, 8, 3
+Vertex -2.2, -0.9, 3
+Vertex -2.2, -0.9, 0
+Vertex -2.2, 8, 0
+Face2 3,2,1,0
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+[MeshBuilder]
+Vertex -2.9, 8, 3
+Vertex -2.9, -0.9, 3
+Vertex -2.9, -0.9, 0
+Vertex -2.9, 8, 0
+Face2 3,2,1,0
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+[Meshbuilder] 
+Vertex -2.9, 8,0
+Vertex -2.2, 8,0
+Vertex -2.2,-0.9,0
+Vertex -2.9,-0.9,0
+Face 0,1,2,3
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+[Meshbuilder] 
+Vertex -2.9, 8,2
+Vertex -2.2, 8,2
+Vertex -2.2,-0.9,2
+Vertex -2.9,-0.9,2
+Face 0,1,2,3
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+
+[MeshBuilder]
+Vertex -2.2, 8, 15
+Vertex -2.2, -0.9, 15
+Vertex -2.2, -0.9, 12
+Vertex -2.2, 8, 12
+Face2 3,2,1,0
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+[MeshBuilder]
+Vertex -2.9, 8, 15
+Vertex -2.9, -0.9, 15
+Vertex -2.9, -0.9, 12
+Vertex -2.9, 8, 12
+Face2 3,2,1,0
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+[Meshbuilder] 
+Vertex -2.9, 8,12
+Vertex -2.2, 8,12
+Vertex -2.2,-0.9,12
+Vertex -2.9,-0.9,12
+Face 0,1,2,3
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+
+
+[MeshBuilder]
+Vertex -2.6, 8, 26
+Vertex  6.6, 8, 26
+Vertex  6.6, 8, 0
+Vertex -2.6, 8, 0
+Face2 3,2,1,0
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+
+
+[Meshbuilder] 
+Vertex 6.3,8,0
+Vertex 6.3,8,26
+Vertex 6.3,-1,26
+Vertex 6.3,-1,0
+Face 3,2,1,0
+[Texture]
+Load muropietrascurissimo.bmp
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,10
+Coordinates 3,0,10

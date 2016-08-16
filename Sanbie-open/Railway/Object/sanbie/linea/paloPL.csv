@@ -1,0 +1,45 @@
+; 1 - Basamento
+CreateMeshBuilder
+Cube, 0.2, 0.2, 0.2
+Translate, 0, -0.3, 0
+SetColor, 176, 176, 176
+
+; 2 - Palo
+CreateMeshBuilder
+Cylinder, 6, 0.075, 0.075, 3.5
+Translate, 0, 1.45, 0
+SetColor, 176, 176, 192
+
+;3 segnale
+CreateMeshBuilder, ; segnale n. 2 fronte
+Cylinder, 64,0.3,0.3,0.01
+Rotate, 1,0,0,90
+translate, 0.50,2.65,-0.02,
+setcolor, 0,0,0,
+
+CreateMeshBuilder, ; segnale fronte rosso
+Cylinder, 64,0.10,0.10,0.01
+Rotate, 1,0,0,90
+translate, 0.5,2.65,-0.4,
+Setcolor,255,0,0,
+
+
+; 4 - Palo orizz
+CreateMeshBuilder
+Cylinder, 6, 0.025, 0.025, 0.6
+Rotate, 0,0,90,90
+Translate, 0.3, 3.0, 0
+SetColor, 176, 176, 192
+
+;5 - sostegno
+CreateMeshBuilder
+Cylinder, 6, 0.025, 0.025, 0.25
+Translate, 0.5, 2.9, 0
+SetColor, 176, 176, 192
+
+;6
+CreateMeshBuilder, ; segnale n. 2 fronte
+Cylinder, 64,0.15,0.1,0.4
+Rotate, 1,0,0,90
+translate, 0.50,2.65,-0.2,
+setcolor, 0,0,0,

@@ -1,0 +1,5676 @@
+﻿;budapesti Észak-Déli metróvonal (M3)
+;Készítette: http://www.bvemetro.hu/
+;------------------------------------
+
+;----------MÓDOSÍTHATÓ RÉSZ-----------------------
+;Újpest bal kh.
+$Sub(332) = 
+;Újpest jobb kh.
+$Sub(333) = $Chr(59)
+;-----------------------------------
+;Árpád kihúzóból
+$Sub(330) = $Chr(59)
+;Újpest-Árpád
+$Sub(331) = 
+;-----------------------------------
+;M3 Deák kihúzóból
+$Sub(320) = $Chr(59)
+;Árpád-Deák
+$Sub(321) = 
+;-----------------------------------
+;Köki 2 kihúzó
+$Sub(302) = 
+;Köki 3 kihúzó
+$Sub(303) = $Chr(59)
+;-----------------------------------
+;utastájékoztatás
+$Sub(381) = 
+;utastájékoztatás nélkül
+$Sub(384) = $Chr(59)
+;áthaladás
+$Sub(385) = $Chr(59)
+;-----------------------------------
+;ellenőrök
+$Sub(389) = 
+;-------------------------------------------------
+;Nagyvárad tér - Népliget közötti 40 km/h lassújel
+$Sub(340) = $Chr(59)
+;--------MÓDOSÍTHATÓ RÉSZ VÉGE--------------------
+
+;========NE VÁLTOZTASD==============
+$Sub(2) = BpM3
+$Sub(3) = BpM3
+;-----------------------------------
+;BVE 2
+$Sub(10) = $Chr(59)
+;openBVE
+$Sub(11) = 
+;M2 Deák kihúzóból - csak összekötött pálya esetén!
+$Sub(220) = $Chr(59)
+;-----------------------------------
+;Köki 1 kihúzó;nincs készen
+$Sub(301) = $Chr(59)
+;========NE VÁLTOZTASD==============
+
+$Sub(11)With Options
+$Sub(11).ObjectVisibility 1
+
+With Route
+.Comment budapesti É-D-i metróvonal - bal vágány$chr(13)$chr(10)Újpest bal kihúzó - Kőbánya-Kispest 2 kihúzó$chr(13)$chr(10)Menetidő: 35 perc$chr(13)$chr(10)$chr(13)$chr(10)http://www.bvemetro.hu/ - openBVE verzió
+.Timetable Újpest-Központ - Kőbánya-Kispest
+.Gauge 1435
+.Signal(1) 40
+.Signal(2) 50
+.Signal(3) 60
+.Signal(4) 80
+$Sub(381).Runinterval $Rnd(110;180)
+$Sub(384).Runinterval $Rnd(110;180)
+$Sub(385).Runinterval 900
+$Sub(11).Image $Sub(3)_map.png
+$Sub(11).Pressure $Rnd(99;101).$Rnd(0;999)
+$Sub(11).Temperature $Rnd(18;29).$Rnd(0;99)
+$Sub(11).Elevation 100.80025
+
+With Train
+;.Folder Ev3AVR
+.Folder 81-717AVR
+$Sub(320).Run(0) 4
+$Sub(320).Run(1) 4
+$Sub(320).Run(4) 4
+$Sub(320).Run(15) 4
+$Sub(320).Run(16) 4
+
+.Run(7) 6
+.Run(8) 3
+.Run(9) 4
+
+.Run(19) 4
+.Run(20) 4
+.Run(21) 4
+.Run(22) 4
+.Run(23) 4
+.Run(24) 4
+.Run(25) 6
+.Run(26) 6
+.Run(27) 6
+.Run(28) 6
+.Run(29) 6
+.Run(30) 6
+
+.Run(31) 3
+.Run(32) 3
+.Run(33) 3
+.Run(35) 3
+.Run(36) 3
+
+.Run(125) 4
+.Run(126) 4
+.Run(129) 4
+.Run(130) 4
+.Run(133) 4
+.Run(135) 4
+.Run(139) 4
+.Run(141) 4
+.Run(142) 4
+.Run(143) 4
+.Run(144) 4
+.Run(145) 4
+.Run(146) 4
+.Run(147) 4
+.Run(148) 4
+.Run(149) 4
+
+.Run(151) 4
+.Run(152) 4
+.Run(153) 4
+.Run(154) 4
+.Run(155) 4
+.Run(156) 4
+.Run(157) 4
+.Run(158) 4
+.Run(159) 4
+.Run(160) 4
+.Run(161) 4
+.Run(162) 4
+.Run(163) 4
+.Run(164) 4
+.Run(165) 4
+.Run(166) 4
+.Run(167) 4
+.Run(168) 4
+.Run(171) 4
+.Run(172) 4
+.Run(173) 4
+.Run(174) 4
+.Run(181) 4
+.Run(182) 4
+.Run(183) 4
+.Run(184) 4
+.Run(185) 4
+.Run(186) 4
+.Run(187) 4
+.Run(189) 4
+.Run(197) 6
+.Run(202) 3
+.Run(203) 3
+.Run(204) 3
+.Run(211) 3
+.Run(212) 3
+.Run(213) 3
+.Run(214) 4
+
+With Structure
+.Rail(0) $Sub(3)\sin\egyenesAL.b3d
+.Rail(1) $Sub(3)\sin\egyenesAR.b3d
+.Rail(2) $Sub(3)\sin\egyenesFL1.b3d
+.Rail(3) $Sub(3)\sin\egyenesFR1.b3d
+$Sub(320).Rail(4) BpM3\sin\egyenesA.b3d
+.Rail(7) $Sub(3)\ures.b3d
+.Rail(8) $Sub(3)\ures.b3d
+.Rail(9) $Sub(3)\ures.b3d
+$Sub(320).Rail(15) BpM3\sin\egyenesALb.b3d
+$Sub(320).Rail(16) BpM3\sin\egyenesARb.b3d
+.Rail(19) $Sub(3)\sin\aknaR.b3d
+
+.Rail(20) $Sub(3)\sin\egyenesAL_AVR.b3d 
+.Rail(21) $Sub(3)\sin\egyenesAR_AVR.b3d
+.Rail(22) $Sub(3)\sin\egyenesA.b3d
+.Rail(23) $Sub(3)\sin\egyenesALb_AVR.b3d
+.Rail(24) $Sub(3)\sin\egyenesARb_AVR.b3d
+.Rail(25) $Sub(3)\sin\allomasL_AVR.b3d
+.Rail(26) $Sub(3)\sin\allomasR_AVR.b3d
+.Rail(27) $Sub(3)\sin\allomasLm1_AVR.b3d
+.Rail(28) $Sub(3)\sin\allomasLm2_AVR.b3d
+.Rail(29) $Sub(3)\sin\allomasRm1_AVR.b3d
+.Rail(31) $Sub(3)\sin\egyenesFL_beton_AVR.b3d
+.Rail(32) $Sub(3)\sin\egyenesFR_beton_AVR.b3d
+.Rail(33) $Sub(3)\sin\egyenesFLm_beton_AVR.b3d
+.Rail(34) $Sub(3)\sin\egyenesF_beton.b3d
+.Rail(35) $Sub(3)\sin\egyenesFL_beton.b3d
+.Rail(36) $Sub(3)\sin\egyenesFR_beton.b3d
+.Rail(73) $Sub(3)\sin\R350AL.b3d
+.Rail(74) $Sub(3)\sin\R350AR.b3d
+.Rail(91) $Sub(2)\sin\L800AL.b3d
+.Rail(121) $Sub(3)\sin\L400AR.b3d
+.Rail(125) $Sub(3)\sin\L450AL.b3d
+.Rail(126) $Sub(3)\sin\L450AR.b3d
+.Rail(129) $Sub(3)\sin\L500AL.b3d
+.Rail(130) $Sub(3)\sin\L500AR.b3d
+.Rail(133) $Sub(3)\sin\L550AL.b3d
+.Rail(135) $Sub(3)\sin\R550AL.b3d
+.Rail(139) $Sub(3)\sin\R600AL.b3d
+.Rail(141) $Sub(3)\sin\L700AL.b3d
+.Rail(142) $Sub(3)\sin\L700AR.b3d
+.Rail(143) $Sub(3)\sin\R700AL.b3d
+.Rail(144) $Sub(3)\sin\R700AR.b3d
+.Rail(145) $Sub(3)\sin\L800AL_AVR.b3d
+.Rail(146) $Sub(3)\sin\L800AR.b3d
+.Rail(147) $Sub(3)\sin\R800AL.b3d
+.Rail(148) $Sub(3)\sin\R800AR.b3d
+.Rail(149) $Sub(3)\sin\L1050AL.b3d
+.Rail(151) $Sub(3)\sin\L1000AL.b3d
+.Rail(152) $Sub(3)\sin\L1000AR.b3d
+.Rail(153) $Sub(3)\sin\R1000AL.b3d
+.Rail(154) $Sub(3)\sin\R1000AR.b3d
+.Rail(155) $Sub(3)\sin\L1500AL.b3d
+.Rail(156) $Sub(3)\sin\L1500AR.b3d
+.Rail(157) $Sub(3)\sin\R1500AL.b3d
+.Rail(158) $Sub(3)\sin\R1500AR.b3d
+.Rail(159) $Sub(3)\sin\L2000AL.b3d
+.Rail(160) $Sub(3)\sin\L2000AR.b3d
+.Rail(161) $Sub(3)\sin\R2000AL.b3d
+.Rail(162) $Sub(3)\sin\R2000AR.b3d
+.Rail(163) $Sub(3)\sin\L3000AL.b3d
+.Rail(164) $Sub(3)\sin\L3000AR.b3d
+.Rail(165) $Sub(3)\sin\R3000AL.b3d
+.Rail(166) $Sub(3)\sin\R3000AR.b3d
+.Rail(167) $Sub(3)\sin\L4000AL.b3d
+.Rail(168) $Sub(3)\sin\R4000AL.b3d
+.Rail(169) $Sub(3)\sin\L10000AR.b3d
+.Rail(170) $Sub(3)\sin\R10000AR.b3d
+.Rail(171) $Sub(3)\sin\R1200AL.b3d
+.Rail(172) $Sub(3)\sin\R1200AR.b3d
+.Rail(173) $Sub(3)\sin\L2500AL.b3d
+.Rail(174) $Sub(3)\sin\L2500AR.b3d
+.Rail(181) $Sub(3)\sin\L750ALb.b3d
+.Rail(182) $Sub(3)\sin\L750ARb.b3d
+.Rail(183) $Sub(3)\sin\R750ALb.b3d
+.Rail(184) $Sub(3)\sin\R750ARb.b3d
+.Rail(185) $Sub(3)\sin\L1250AR.b3d
+.Rail(186) $Sub(3)\sin\R1250AR.b3d
+.Rail(187) $Sub(3)\sin\R650ALb_AVR.b3d
+.Rail(189) $Sub(3)\sin\R650ARb_AVR.b3d
+.Rail(197) $Sub(3)\sin\L1050AL_allomas.b3d
+.Rail(202) $Sub(3)\sin\L550FR.b3d
+.Rail(203) $Sub(3)\sin\R550FL.b3d
+.Rail(204) $Sub(3)\sin\R550FR.b3d
+.Rail(206) $Sub(3)\sin\R1050FL.b3d
+.Rail(211) $Sub(3)\sin\L500FL.b3d
+.Rail(213) $Sub(3)\sin\R650FL.b3d
+.Rail(214) $Sub(3)\sin\R650FL.b3d
+.Rail(219) $Sub(3)\sin\L327FL.b3d
+.Rail(221) $Sub(3)\sin\L800FR.b3d
+.Rail(222) $Sub(3)\sin\L800FR_AVR.b3d
+
+.WallL(0) $Sub(3)\alagut\melyalagutL.b3d
+.WallR(0) $Sub(3)\alagut\melyalagutR.b3d
+.WallL(1) $Sub(3)\alagut\melyalagutL_kezd.b3d
+.WallR(1) $Sub(3)\alagut\melyalagutR_kezd.b3d
+.WallL(2) $Sub(3)\alagut\melyalagutL_vege.b3d
+.WallR(2) $Sub(3)\alagut\melyalagutR_vege.b3d
+.WallL(10) $Sub(3)\alagut\keretalagut1L.b3d
+.WallR(10) $Sub(3)\alagut\keretalagut1R.b3d
+.WallL(11) $Sub(3)\alagut\keretalagut1L_kezd.b3d
+.WallR(11) $Sub(3)\alagut\keretalagut1R_kezd.b3d
+.WallL(12) $Sub(3)\alagut\keretalagut1L_vege.b3d
+.WallR(12) $Sub(3)\alagut\keretalagut1R_vege.b3d
+.WallL(13) $Sub(3)\alagut\keretalagut1L_30m.b3d
+.WallR(13) $Sub(3)\alagut\keretalagut1R_30m.b3d
+.WallL(16) $Sub(3)\alagut\keretalagut2aL.b3d
+.WallR(16) $Sub(3)\alagut\keretalagut2aR.b3d
+.WallL(17) $Sub(3)\alagut\keretalagut2bL.b3d
+.WallR(17) $Sub(3)\alagut\keretalagut2bR.b3d
+
+.WallL(31) $Sub(3)\felszin\kerites31L.b3d
+.WallR(31) $Sub(3)\felszin\kerites31R.b3d
+.WallL(32) $Sub(3)\felszin\kerites32L.b3d
+.WallR(32) $Sub(3)\felszin\kerites32R.b3d
+.WallL(33) $Sub(3)\felszin\kerites33L.b3d
+.WallR(33) $Sub(3)\felszin\kerites33R.b3d
+.WallL(34) $Sub(3)\felszin\kerites34L.b3d
+.WallR(34) $Sub(3)\felszin\kerites34R.b3d
+.WallL(39) $Sub(3)\felszin\kerites39L.b3d
+.WallR(39) $Sub(3)\felszin\kerites39R.b3d
+.WallL(41) $Sub(3)\felszin\kerites41L.b3d
+.WallR(41) $Sub(3)\felszin\kerites41R.b3d
+.WallL(51) $Sub(3)\felszin\kerites51L.b3d
+.WallR(51) $Sub(3)\felszin\kerites51R.b3d
+.WallL(61) $Sub(3)\felszin\kerites61L.b3d
+.WallR(61) $Sub(3)\felszin\kerites61R.b3d
+.WallL(62) $Sub(3)\felszin\kerites62L.b3d
+.WallR(62) $Sub(3)\felszin\kerites62R.b3d
+.WallL(64) $Sub(3)\felszin\kerites64L.b3d
+.WallR(64) $Sub(3)\felszin\kerites64R.b3d
+.WallL(71) $Sub(3)\felszin\kerites71L.b3d
+.WallL(72) $Sub(3)\felszin\kerites72L.b3d
+.WallR(72) $Sub(3)\felszin\kerites72R.b3d
+.WallL(73) $Sub(3)\felszin\kerites73L.b3d
+.WallR(73) $Sub(3)\felszin\kerites73R.b3d
+.WallL(74) $Sub(3)\felszin\kerites74L.b3d
+.WallR(74) $Sub(3)\felszin\kerites74R.b3d
+.WallL(75) $Sub(3)\felszin\kerites75L.b3d
+.WallR(75) $Sub(3)\felszin\kerites75R.b3d
+.WallL(76) $Sub(3)\felszin\kerites76L.b3d
+.WallR(76) $Sub(3)\felszin\kerites76R.b3d
+.WallR(77) $Sub(3)\felszin\kerites77R.b3d
+$Sub(320).WallL(104) BpM3\alagut\melyalagut_R350_L.b3d
+$Sub(320).WallR(104) BpM3\alagut\melyalagut_R350_R.b3d
+$Sub(320).WallL(121) BpM3\alagut\mely_M3De_B18225L_L.b3d
+$Sub(320).WallR(121) BpM3\alagut\mely_M3De_B18225L_R.b3d
+$Sub(320).WallL(122) BpM3\alagut\mely_M3De_B18225R_L.b3d
+$Sub(320).WallR(122) BpM3\alagut\mely_M3De_B18225R_R.b3d
+
+.Ground(0) $Sub(3)\alagut.b3d
+.Ground(10) $Sub(3)\terep\terep_010.b3d
+.Ground(11) $Sub(3)\terep\terep_011.b3d
+.Ground(12) $Sub(3)\terep\terep_012.b3d
+.Ground(30) $Sub(3)\terep\terep_030.b3d
+.Ground(31) $Sub(3)\terep\terep_031.b3d
+.Ground(51) $Sub(3)\terep\terep_051.b3d
+.Ground(52) $Sub(3)\terep\terep_052.b3d
+.Ground(53) $Sub(3)\terep\terep_053.b3d
+
+$Sub(331).freeobj(100) $Sub(3)\allomas\20Bajcsy\mh_20_uk_00.b3d
+$Sub(331).freeobj(101) $Sub(3)\allomas\20Bajcsy\mh_20_uk_01.b3d
+$Sub(331).freeobj(102) $Sub(3)\allomas\20Bajcsy\mh_20_uk_02.b3d
+$Sub(331).freeobj(103) $Sub(3)\allomas\20Bajcsy\mh_20_uk_03.b3d
+$Sub(331).freeobj(104) $Sub(3)\allomas\20Bajcsy\mh_20_uk_04.b3d
+$Sub(331).freeobj(105) $Sub(3)\allomas\20Bajcsy\mh_20_uk_05.b3d
+$Sub(331).freeobj(106) $Sub(3)\allomas\20Bajcsy\mh_20_uk_lepcso.b3d
+$Sub(331).freeobj(107) $Sub(3)\allomas\20Bajcsy\mh_20_uk_oszlop.b3d
+$Sub(331).freeobj(108) $Sub(3)\allomas\20Bajcsy\mh_20_uk_00k1.b3d
+$Sub(331).freeobj(109) $Sub(3)\allomas\20Bajcsy\mh_20_uk_00k2.b3d
+$Sub(331).freeobj(110) $Sub(3)\allomas\20Bajcsy\mh_20_ukk_kihuzoperon.b3d
+$Sub(331).freeobj(111) $Sub(3)\allomas\20Bajcsy\mh_20_ukk_korlat.b3d
+$Sub(331).freeobj(112) $Sub(3)\allomas\20Bajcsy\mh_20_ukk_kihuzoperon_L650.b3d
+$Sub(331).freeobj(113) $Sub(3)\allomas\20Bajcsy\mh_20_ukk_korlat_L650.b3d
+$Sub(331).freeobj(115) $Sub(3)\allomas\20Bajcsy\mh_20_ukk_kerites.b3d
+$Sub(331).freeobj(120) $Sub(3)\allomas\20Bajcsy\mh_20_uk_vege.b3d
+;-
+$Sub(331).freeobj(125) $Sub(3)\allomas\19Kapu\mh_19_uv_00.b3d
+$Sub(331).freeobj(126) $Sub(3)\allomas\19Kapu\mh_19_uv_01.b3d
+$Sub(331).freeobj(127) $Sub(3)\allomas\19Kapu\mh_19_uv_02.b3d
+$Sub(331).freeobj(128) $Sub(3)\allomas\19Kapu\mh_19_uv_03.b3d
+$Sub(331).freeobj(129) $Sub(3)\allomas\19Kapu\mh_19_uv_04.b3d
+$Sub(331).freeobj(130) $Sub(3)\allomas\19Kapu\mh_19_uv_05.b3d
+$Sub(331).freeobj(131) $Sub(3)\allomas\19Kapu\mh_19_uv_lepcso.b3d
+;-
+$Sub(331).freeobj(150) $Sub(3)\allomas\18Gyongy\mh_18_gy_00.b3d
+$Sub(331).freeobj(151) $Sub(3)\allomas\18Gyongy\mh_18_gy_01.b3d
+$Sub(331).freeobj(152) $Sub(3)\allomas\18Gyongy\mh_18_gy_02.b3d
+$Sub(331).freeobj(153) $Sub(3)\allomas\18Gyongy\mh_18_gy_03.b3d
+$Sub(331).freeobj(154) $Sub(3)\allomas\18Gyongy\mh_18_gy_04.b3d
+$Sub(331).freeobj(155) $Sub(3)\allomas\18Gyongy\mh_18_gy_05.b3d
+$Sub(331).freeobj(156) $Sub(3)\allomas\18Gyongy\mh_18_gy_06.b3d
+$Sub(331).freeobj(157) $Sub(3)\allomas\18Gyongy\mh_18_gy_07.b3d
+;-
+$Sub(321).freeobj(175) $Sub(3)\allomas\17Fo\mh_17_fo_00.b3d
+$Sub(321).freeobj(176) $Sub(3)\allomas\17Fo\mh_17_fo_01.b3d
+$Sub(321).freeobj(177) $Sub(3)\allomas\17Fo\mh_17_fo_02.b3d
+$Sub(321).freeobj(178) $Sub(3)\allomas\17Fo\mh_17_fo_03.b3d
+$Sub(321).freeobj(179) $Sub(3)\allomas\17Fo\mh_17_fo_04.b3d
+$Sub(321).freeobj(180) $Sub(3)\allomas\17Fo\mh_17_fo_05.b3d
+$Sub(321).freeobj(181) $Sub(3)\allomas\17Fo\FO_oszlop.b3d
+$Sub(321).freeobj(182) $Sub(3)\allomas\17Fo\FO_fal.b3d
+;-
+$Sub(321).freeobj(200) $Sub(3)\allomas\16Ahid\mh_16_ah_00.b3d
+$Sub(321).freeobj(201) $Sub(3)\allomas\16Ahid\mh_16_ah_01.b3d
+$Sub(321).freeobj(202) $Sub(3)\allomas\16Ahid\mh_16_ah_02.b3d
+$Sub(321).freeobj(203) $Sub(3)\allomas\16Ahid\mh_16_ah_03.b3d
+$Sub(321).freeobj(204) $Sub(3)\allomas\16Ahid\mh_16_ah_04.b3d
+$Sub(321).freeobj(205) $Sub(3)\allomas\16Ahid\mh_16_ah_05.b3d
+$Sub(321).freeobj(207) $Sub(3)\allomas\16Ahid\mh_16_ah_oszlop.b3d
+$Sub(321).freeobj(211) $Sub(3)\allomas\16Ahid\mh_16_ah_kihuzo1.b3d
+$Sub(321).freeobj(212) $Sub(3)\allomas\16Ahid\mh_16_ah_kihuzo2.b3d
+$Sub(321).freeobj(213) $Sub(3)\allomas\16Ahid\mh_16_ah_kihuzokorlat1.b3d
+$Sub(321).freeobj(214) $Sub(3)\allomas\16Ahid\mh_16_ah_kihuzokorlat2.b3d
+;-
+$Sub(321).freeobj(225) $Sub(3)\allomas\15Dozsa\mh_15_do_00.b3d
+$Sub(321).freeobj(226) $Sub(3)\allomas\15Dozsa\mh_15_do_01.b3d
+$Sub(321).freeobj(227) $Sub(3)\allomas\15Dozsa\mh_15_do_02.b3d
+$Sub(321).freeobj(228) $Sub(3)\allomas\15Dozsa\mh_15_do_03.b3d
+$Sub(321).freeobj(229) $Sub(3)\allomas\15Dozsa\mh_15_do_04.b3d
+$Sub(321).freeobj(230) $Sub(3)\allomas\15Dozsa\mh_15_do_05.b3d
+$Sub(321).freeobj(231) $Sub(3)\allomas\15Dozsa\mh_15_do_06.b3d
+$Sub(321).freeobj(232) $Sub(3)\allomas\15Dozsa\mh_15_do_00k1.b3d
+$Sub(321).freeobj(233) $Sub(3)\allomas\15Dozsa\mh_15_do_00k2.b3d
+;-
+$Sub(321).freeobj(251) $Sub(3)\allomas\14Lehel\mh_14_lt_01.b3d
+$Sub(321).freeobj(252) $Sub(3)\allomas\14Lehel\mh_14_lt_02.b3d
+$Sub(321).freeobj(253) $Sub(3)\allomas\14Lehel\mh_14_lt_03.b3d
+$Sub(321).freeobj(254) $Sub(3)\allomas\14Lehel\mh_14_lt_14.b3d
+$Sub(321).freeobj(255) $Sub(3)\allomas\14Lehel\mh_14_lt_15.b3d
+$Sub(321).freeobj(259) $Sub(3)\allomas\14Lehel\mh_14_lt_24.b3d
+$Sub(321).freeobj(260) $Sub(3)\allomas\14Lehel\mh_14_lt_25.b3d
+$Sub(321).freeobj(261) $Sub(3)\alagut\keretalagutL_lehel.b3d
+$Sub(321).freeobj(262) $Sub(3)\alagut\keretalagutR_lehel.b3d
+$Sub(321).freeobj(270) $Sub(3)\allomas\14Lehel\mh_14_lt_oszlop.b3d
+;-
+$Sub(321).freeobj(275) $Sub(3)\allomas\13Nyugati\mh_13_ny_00a.b3d
+$Sub(321).freeobj(276) $Sub(3)\allomas\13Nyugati\mh_13_ny_11.b3d
+$Sub(321).freeobj(277) $Sub(3)\allomas\13Nyugati\mh_13_ny_12.b3d
+$Sub(321).freeobj(278) $Sub(3)\allomas\13Nyugati\mh_13_ny_13.b3d
+$Sub(321).freeobj(279) $Sub(3)\allomas\13Nyugati\mh_13_ny_14.b3d
+$Sub(321).freeobj(280) $Sub(3)\allomas\13Nyugati\mh_13_ny_15.b3d
+$Sub(321).freeobj(281) $Sub(3)\allomas\13Nyugati\mh_13_ny_00b.b3d
+$Sub(321).freeobj(282) $Sub(3)\allomas\13Nyugati\mh_13_ny_00c.b3d
+$Sub(321).freeobj(283) $Sub(3)\allomas\13Nyugati\mh_13_ny_00d.b3d
+;-
+$Sub(321).freeobj(300) $Sub(3)\allomas\12Arany\mh_12_aj_00.b3d
+$Sub(321).freeobj(301) $Sub(3)\allomas\12Arany\mh_12_aj_11.b3d
+$Sub(321).freeobj(302) $Sub(3)\allomas\12Arany\mh_12_aj_12.b3d
+$Sub(321).freeobj(303) $Sub(3)\allomas\12Arany\mh_12_aj_13.b3d
+$Sub(321).freeobj(304) $Sub(3)\allomas\12Arany\mh_12_aj_14.b3d
+$Sub(321).freeobj(305) $Sub(3)\allomas\12Arany\mh_12_aj_15.b3d
+$Sub(321).freeobj(306) $Sub(3)\allomas\12Arany\mh_12_aj_oszlop.b3d
+;-
+.freeobj(534) $Sub(3)\alagut\mely_M3De_B18250L_L.b3d
+;-
+.freeobj(600) $Sub(3)\allomas\11Deak\mh_11_dt_00.b3d
+.freeobj(602) $Sub(3)\allomas\11Deak\mh_11_dt_02.b3d
+.freeobj(603) $Sub(3)\allomas\11Deak\mh_11_dt_03.b3d
+.freeobj(605) $Sub(3)\allomas\11Deak\mh_11_dt_05.b3d
+.freeobj(606) $Sub(3)\allomas\11Deak\mh_11_dt_oszlop.b3d
+.freeobj(611) $Sub(3)\allomas\11Deak\mh_11_dt_11.b3d
+.freeobj(613) $Sub(3)\allomas\11Deak\mh_11_dt_13.b3d
+.freeobj(615) $Sub(3)\allomas\11Deak\mh_11_dt_15.b3d
+;-
+.freeobj(625) $Sub(3)\allomas\10Ferenciek\mh_10_ft_00.b3d
+.freeobj(626) $Sub(3)\allomas\10Ferenciek\mh_10_ft_11.b3d
+.freeobj(627) $Sub(3)\allomas\10Ferenciek\mh_10_ft_12.b3d
+.freeobj(628) $Sub(3)\allomas\10Ferenciek\mh_10_ft_13.b3d
+.freeobj(629) $Sub(3)\allomas\10Ferenciek\mh_10_ft_14.b3d
+.freeobj(630) $Sub(3)\allomas\10Ferenciek\mh_10_ft_15.b3d
+.freeobj(631) $Sub(3)\allomas\10Ferenciek\mh_10_ft_oszlop.b3d
+;-
+.freeobj(650) $Sub(3)\allomas\09Kalvin\mh_09_kt_00.b3d
+.freeobj(651) $Sub(3)\allomas\09Kalvin\mh_09_kt_11.b3d
+.freeobj(652) $Sub(3)\allomas\09Kalvin\mh_09_kt_12.b3d
+.freeobj(653) $Sub(3)\allomas\09Kalvin\mh_09_kt_13.b3d
+.freeobj(654) $Sub(3)\allomas\09Kalvin\mh_09_kt_14.b3d
+.freeobj(655) $Sub(3)\allomas\09Kalvin\mh_09_kt_15.b3d
+.freeobj(656) $Sub(3)\allomas\09Kalvin\mh_09_kt_oszlop.b3d
+;-
+.freeobj(675) $Sub(3)\allomas\08Korut\mh_08_fk_00.b3d
+.freeobj(676) $Sub(3)\allomas\08Korut\mh_08_fk_11.b3d
+.freeobj(677) $Sub(3)\allomas\08Korut\mh_08_fk_12.b3d
+.freeobj(678) $Sub(3)\allomas\08Korut\mh_08_fk_13.b3d
+.freeobj(679) $Sub(3)\allomas\08Korut\mh_08_fk_14.b3d
+.freeobj(680) $Sub(3)\allomas\08Korut\mh_08_fk_15.b3d
+.freeobj(681) $Sub(3)\allomas\08Korut\mh_08_fk_oszlop.b3d
+;-
+.freeobj(700) $Sub(3)\allomas\07Klinika\mh_07_kl_00.b3d
+.freeobj(701) $Sub(3)\allomas\07Klinika\mh_07_kl_11.b3d
+.freeobj(702) $Sub(3)\allomas\07Klinika\mh_07_kl_12.b3d
+.freeobj(703) $Sub(3)\allomas\07Klinika\mh_07_kl_13.b3d
+.freeobj(704) $Sub(3)\allomas\07Klinika\mh_07_kl_14.b3d
+.freeobj(705) $Sub(3)\allomas\07Klinika\mh_07_kl_15.b3d
+.freeobj(706) $Sub(3)\allomas\07Klinika\mh_07_kl_oszlop.b3d
+;-
+.freeobj(711) $Sub(3)\allomas\06NVT\mh_06_nv_kerites.b3d
+.freeobj(721) $Sub(3)\allomas\06NVT\mh_06_nv_oszlop1.b3d
+.freeobj(722) $Sub(3)\allomas\06NVT\mh_06_nv_oszlop2.b3d
+.freeobj(723) $Sub(3)\allomas\06NVT\mh_06_nv_oszlop3.b3d
+.freeobj(726) $Sub(3)\allomas\06NVT\mh_06_nv_11.b3d
+.freeobj(727) $Sub(3)\allomas\06NVT\mh_06_nv_12.b3d
+.freeobj(728) $Sub(3)\allomas\06NVT\mh_06_nv_13.b3d
+.freeobj(729) $Sub(3)\allomas\06NVT\mh_06_nv_14.b3d
+.freeobj(730) $Sub(3)\allomas\06NVT\mh_06_nv_15.b3d
+.freeobj(731) $Sub(3)\allomas\06NVT\mh_06_nv_kihuzo.b3d
+.freeobj(732) $Sub(3)\allomas\06NVT\mh_06_nv_korlat.b3d
+.freeobj(736) $Sub(3)\allomas\06NVT\mh_06_nv_21.b3d
+.freeobj(737) $Sub(3)\allomas\06NVT\mh_06_nv_22.b3d
+.freeobj(738) $Sub(3)\allomas\06NVT\mh_06_nv_23.b3d
+.freeobj(739) $Sub(3)\allomas\06NVT\mh_06_nv_24.b3d
+.freeobj(740) $Sub(3)\allomas\06NVT\mh_06_nv_25.b3d
+.freeobj(741) $Sub(3)\alagut\keretalagut_balNVT_L.b3d
+.freeobj(742) $Sub(3)\alagut\keretalagut_balNVT_R.b3d
+.freeobj(745) $Sub(3)\alagut\mely-keret.b3d
+;-
+.freeobj(750) $Sub(3)\allomas\05Liget\mh_05_nl_00.b3d
+.freeobj(751) $Sub(3)\allomas\05Liget\mh_05_nl_01.b3d
+.freeobj(752) $Sub(3)\allomas\05Liget\mh_05_nl_02.b3d
+.freeobj(753) $Sub(3)\allomas\05Liget\mh_05_nl_03.b3d
+.freeobj(754) $Sub(3)\allomas\05Liget\mh_05_nl_04.b3d
+.freeobj(755) $Sub(3)\allomas\05Liget\mh_05_nl_05.b3d
+.freeobj(762) $Sub(3)\allomas\05Liget\NL_oszlop.b3d
+;-
+.freeobj(775) $Sub(3)\allomas\04Ecseri\mh_04_ec_00.b3d
+.freeobj(776) $Sub(3)\allomas\04Ecseri\mh_04_ec_01.b3d
+.freeobj(777) $Sub(3)\allomas\04Ecseri\mh_04_ec_02.b3d
+.freeobj(778) $Sub(3)\allomas\04Ecseri\mh_04_ec_03.b3d
+.freeobj(779) $Sub(3)\allomas\04Ecseri\mh_04_ec_04.b3d
+.freeobj(780) $Sub(3)\allomas\04Ecseri\mh_04_ec_05.b3d
+;-
+.freeobj(800) $Sub(3)\allomas\03Pottyos\mh_03_po_00.b3d
+.freeobj(801) $Sub(3)\allomas\03Pottyos\mh_03_po_01.b3d
+.freeobj(802) $Sub(3)\allomas\03Pottyos\mh_03_po_02.b3d
+.freeobj(803) $Sub(3)\allomas\03Pottyos\mh_03_po_03.b3d
+.freeobj(804) $Sub(3)\allomas\03Pottyos\mh_03_po_04.b3d
+.freeobj(805) $Sub(3)\allomas\03Pottyos\mh_03_po_05.b3d
+;-
+.freeobj(825) $Sub(3)\allomas\02Hatar\mh_02_ha_10.b3d
+.freeobj(826) $Sub(3)\allomas\02Hatar\mh_02_ha_11.b3d
+.freeobj(827) $Sub(3)\allomas\02Hatar\mh_02_ha_12.b3d
+.freeobj(828) $Sub(3)\allomas\02Hatar\mh_02_ha_13.b3d
+.freeobj(829) $Sub(3)\allomas\02Hatar\mh_02_ha_14.b3d
+.freeobj(830) $Sub(3)\allomas\02Hatar\mh_02_ha_15.b3d
+.freeobj(831) $Sub(3)\allomas\02Hatar\mh_02_ha_16.b3d
+.freeobj(832) $Sub(3)\allomas\02Hatar\mh_02_ha_17.b3d
+.freeobj(833) $Sub(3)\allomas\02Hatar\mh_02_ha_18.b3d
+.freeobj(834) $Sub(3)\allomas\02Hatar\mh_02_ha_19.b3d
+.freeobj(835) $Sub(3)\allomas\02Hatar\mh_02_ha_20.b3d
+;-
+$Sub(10).freeobj(851) $Sub(3)\allomas\01kk\mh_01_kk_01.b3d
+$Sub(11).freeobj(851) $Sub(3)\allomas\01kk\mh_01_kk_01.animated
+.freeobj(852) $Sub(3)\allomas\01kk\mh_01_kk_02.b3d
+.freeobj(853) $Sub(3)\allomas\01kk\mh_01_kk_03.b3d
+.freeobj(854) $Sub(3)\allomas\01kk\mh_01_kk_04.b3d
+.freeobj(855) $Sub(3)\allomas\01kk\mh_01_kk_05.b3d
+.freeobj(856) $Sub(3)\allomas\01kk\mh_01_kk_06.b3d
+.freeobj(857) $Sub(3)\allomas\01kk\mh_01_kk_07.b3d
+$Sub(302).freeobj(860) $Sub(3)\allomas\01kk\mh_01_kk_kihuzo3a.b3d
+$Sub(303).freeobj(860) $Sub(3)\allomas\01kk\mh_01_kk_kihuzo3b.b3d
+.freeobj(861) $Sub(3)\allomas\01kk\mh_01_kk_peron0.b3d
+.freeobj(862) $Sub(3)\allomas\01kk\mh_01_kk_peron3.b3d
+.freeobj(863) $Sub(3)\allomas\01kk\mh_01_kk_peron800.b3d
+.freeobj(866) $Sub(3)\allomas\01kk\mh_01_kk_peronkorlat.b3d
+.freeobj(867) $Sub(3)\allomas\01kk\mh_01_kk_peronkorlat800.b3d
+.freeobj(871) $Sub(3)\allomas\01kk\mh_01_kk_bak1.b3d
+.freeobj(872) $Sub(3)\allomas\01kk\mh_01_kk_bak2.b3d
+.freeobj(873) $Sub(3)\allomas\01kk\mh_01_kk_bak3.b3d
+.freeobj(875) $Sub(3)\allomas\01kk\mh_01_kk_zarofal.b3d
+.freeobj(881) $Sub(3)\allomas\01kk\mh_01_kk_01.b3d
+.freeobj(882) $Sub(3)\allomas\01kk\mh_01_kk_01_mgl.b3d
+
+;jelzők
+.freeobj(400) $Sub(3)\jelzok\megallas_01.b3d
+.freeobj(404) $Sub(3)\jelzok\fekezes.b3d
+.freeobj(405) $Sub(3)\jelzok\fekezes_f.b3d
+.freeobj(406) $Sub(3)\jelzok\fekezes_m.b3d
+.freeobj(411) $Sub(3)\jelzok\vontat_ki.b3d
+.freeobj(413) $Sub(3)\jelzok\vontat_cs.b3d
+.freeobj(414) $Sub(3)\jelzok\vontat_nem.b3d
+.freeobj(416) $Sub(3)\jelzok\vontat81.b3d
+.freeobj(421) $Sub(3)\jelzok\autostop_10.b3d
+.freeobj(422) $Sub(3)\jelzok\autostop_20.b3d
+.freeobj(423) $Sub(3)\jelzok\vonathossz.b3d
+.freeobj(424) $Sub(3)\jelzok\bizthatar.b3d
+.freeobj(425) $Sub(3)\jelzok\engedelykeres.b3d
+.freeobj(427) $Sub(3)\jelzok\jelzesparancsJ.b3d
+.freeobj(430) $Sub(3)\jelzok\lassujel-feloldas.b3d
+.freeobj(431) $Sub(3)\jelzok\lassujel.b3d
+.freeobj(433) $Sub(3)\jelzok\lassu20.b3d
+.freeobj(434) $Sub(3)\jelzok\lassu25.b3d
+.freeobj(439) $Sub(3)\jelzok\lassu70.b3d
+.freeobj(443) $Sub(3)\jelzok\m6.b3d
+
+.freeobj(451) $Sub(3)\jelzok\sebesseg33.b3d
+.freeobj(452) $Sub(3)\jelzok\sebesseg37.b3d
+.freeobj(453) $Sub(3)\jelzok\sebesseg45.b3d
+.freeobj(456) $Sub(3)\jelzok\sebesseg53.b3d
+.freeobj(459) $Sub(3)\jelzok\sebesseg59.b3d
+.freeobj(460) $Sub(3)\jelzok\sebesseg60.b3d
+.freeobj(462) $Sub(3)\jelzok\sebesseg62.b3d
+.freeobj(464) $Sub(3)\jelzok\sebesseg65.b3d
+.freeobj(465) $Sub(3)\jelzok\sebesseg67.b3d
+.freeobj(466) $Sub(3)\jelzok\sebesseg69.b3d
+.freeobj(467) $Sub(3)\jelzok\sebesseg70.b3d
+.freeobj(468) $Sub(3)\jelzok\sebesseg71.b3d
+.freeobj(469) $Sub(3)\jelzok\sebesseg72.b3d
+.freeobj(470) $Sub(3)\jelzok\sebesseg74.b3d
+.freeobj(499) $Sub(3)\jelzok\lassu40i.b3d
+
+$Sub(320).freeobj(531) BpM3\alagut\M3_Deakfal_2.b3d
+$Sub(320).freeobj(532) BpM3\alagut\mely_M3De_J12022L_R.b3d
+$Sub(320).freeobj(533) BpM3\alagut\mely_M3De_J12022R_L.b3d
+$Sub(320).freeobj(535) BpM3\alagut\mely_M3De_B18250R_R.b3d
+$Sub(320).freeobj(544) BpM3\allomas\11Deak-kh\M3Deakkihuzo.b3d
+;váltók-sínek
+;-M2-
+$Sub(320).freeobj(1157) BpM3\sin\V27_R.b3d
+$Sub(320).freeobj(1158) BpM3\sin\V28_R.b3d
+$Sub(320).freeobj(1159) BpM3\sin\V29_R.b3d
+$Sub(302).freeobj(1201) $Sub(3)\sin\V01_R.b3d
+$Sub(302).freeobj(1202) $Sub(3)\sin\V02_R.b3d
+$Sub(303).freeobj(1201) $Sub(3)\sin\V01_L.b3d
+$Sub(303).freeobj(1202) $Sub(3)\sin\V02_L.b3d
+.freeobj(1203) $Sub(3)\sin\V03_L.b3d
+.freeobj(1204) $Sub(3)\sin\V04_L.b3d
+.freeobj(1205) $Sub(3)\sin\V05_L.b3d
+.freeobj(1206) $Sub(3)\sin\V06_L.b3d
+.freeobj(1208) $Sub(3)\sin\V08_L.b3d
+.freeobj(1211) $Sub(3)\sin\V11_L.b3d
+.freeobj(1212) $Sub(3)\sin\V12_R.b3d
+.freeobj(1215) $Sub(3)\sin\V15_L.b3d
+.freeobj(1218) $Sub(3)\sin\V18_R.b3d
+.freeobj(1219) $Sub(3)\sin\V19_R.b3d
+.freeobj(1220) $Sub(3)\sin\V20_L.b3d
+.freeobj(1221) $Sub(3)\sin\V21_L.b3d
+.freeobj(1222) $Sub(3)\sin\V22_L.b3d
+.freeobj(1223) $Sub(3)\sin\V23_L.b3d
+.freeobj(1224) $Sub(3)\sin\V24_R.b3d
+.freeobj(1225) $Sub(3)\sin\V25_R.b3d
+.freeobj(1226) $Sub(3)\sin\V26_L.b3d
+.freeobj(1227) $Sub(3)\sin\V27_L.b3d
+$Sub(320).freeobj(1157) BpM3\sin\V27_R.b3d
+$Sub(320).freeobj(1158) BpM3\sin\V28_R.b3d
+$Sub(320).freeobj(1159) BpM3\sin\V29_R.b3d
+$Sub(321).freeobj(1230) $Sub(3)\sin\V30_R.b3d
+$Sub(321).freeobj(1231) $Sub(3)\sin\V31_R.b3d
+$Sub(321).freeobj(1232) $Sub(3)\sin\V32_L.b3d
+$Sub(321).freeobj(1234) $Sub(3)\sin\V34_R.b3d
+$Sub(331).freeobj(1235) $Sub(3)\sin\V35_L.b3d
+$Sub(330).freeobj(1235) $Sub(3)\sin\V35_R.b3d
+$Sub(321).freeobj(1237) $Sub(3)\sin\V37_L.b3d
+$Sub(321).freeobj(1238) $Sub(3)\sin\V38_L.b3d
+$Sub(321).freeobj(1239) $Sub(3)\sin\V39_R.b3d
+$Sub(321).freeobj(1240) $Sub(3)\sin\V40_R.b3d
+.freeobj(1241) $Sub(3)\sin\V41_R.b3d
+.freeobj(1243) $Sub(3)\sin\V43_L.b3d
+.freeobj(1244) $Sub(3)\sin\V43_R.b3d
+
+.freeobj(1261) $Sub(3)\sin\R750_AVR_L.b3d;      híd
+.freeobj(1262) $Sub(3)\sin\R750_AVR_R.b3d;	híd
+.freeobj(1263) $Sub(3)\sin\egyenes_AVR_L.b3d;	híd AVR-szőnyeg
+.freeobj(1264) $Sub(3)\sin\R300_hid.b3d;	híd közép
+.freeobj(1265) $Sub(3)\sin\L1200AL_allomas.b3d;	határ középhez
+
+.freeobj(1281) $Sub(3)\sin\KK1_vege.b3d
+
+;felszíni objektumok
+.freeobj(1351) $Sub(3)\felszin\alagut_bev_01.b3d
+.freeobj(1352) $Sub(3)\felszin\alagut_bev_02.b3d
+.freeobj(1353) $Sub(3)\felszin\alagut_bev_03.b3d
+.freeobj(1354) $Sub(3)\felszin\alagut_bev_04.b3d
+.freeobj(1355) $Sub(3)\felszin\alagut_bev_05.b3d
+.freeobj(1356) $Sub(3)\felszin\alagut_bev_06.b3d
+.freeobj(1357) $Sub(3)\felszin\alagut_bev_07.b3d
+.freeobj(1358) $Sub(3)\felszin\alagut_bev_08.b3d
+
+.freeobj(1361) $Sub(3)\felszin\alagut_kiv_01.b3d
+.freeobj(1362) $Sub(3)\felszin\alagut_kiv_02.b3d
+.freeobj(1363) $Sub(3)\felszin\alagut_kiv_03.b3d
+.freeobj(1364) $Sub(3)\felszin\alagut_kiv_04.b3d
+.freeobj(1365) $Sub(3)\felszin\alagut_kiv_05.b3d
+.freeobj(1366) $Sub(3)\felszin\alagut_kiv_06.b3d
+.freeobj(1367) $Sub(3)\felszin\alagut_kiv_07.b3d
+.freeobj(1368) $Sub(3)\felszin\alagut_kiv_08.b3d
+.freeobj(1369) $Sub(3)\felszin\alagut_kiv_09.b3d
+.freeobj(1370) $Sub(3)\felszin\alagut_kiv_10.b3d
+
+.freeobj(1371) $Sub(3)\felszin\gyorsf_00.b3d
+.freeobj(1376) $Sub(3)\felszin\gyorsf_06.b3d
+.freeobj(1377) $Sub(3)\felszin\gyorsf_07.b3d
+.freeobj(1378) $Sub(3)\felszin\gyorsf_08.b3d
+.freeobj(1379) $Sub(3)\felszin\gyorsf_09.b3d
+.freeobj(1380) $Sub(3)\felszin\gyorsf_10.b3d
+.freeobj(1381) $Sub(3)\felszin\gyorsf_11.b3d
+
+.freeobj(1391) $Sub(3)\felszin\sibrik_f.b3d
+.freeobj(1392) $Sub(3)\felszin\kerites51L.b3d
+.freeobj(1434) $Sub(3)\felszin\koer_torony_4225.b3d
+
+;közös objektumok
+.freeobj(2001) $Sub(3)\targyak\tartooszlop.b3d
+.freeobj(2011) $Sub(3)\targyak\eeutkA.b3d
+.freeobj(2012) $Sub(3)\targyak\eeutkB.b3d
+.freeobj(2021) $Sub(3)\sin\betonalj.b3d
+.freeobj(2022) $Sub(3)\sin\aknavege.b3d
+.freeobj(2031) $Sub(3)\targyak\utkozo\utkozo.b3d
+.freeobj(2051) $Sub(3)\targyak\jelzooszlopAf.b3d
+.freeobj(2052) $Sub(3)\targyak\jelzooszlopAm.b3d
+.freeobj(2053) $Sub(3)\targyak\jelzooszlopAmL.b3d
+.freeobj(2062) $Sub(3)\signals\Signal_2_0.b3d
+.freeobj(2063) $Sub(3)\signals\Signal_3_0.b3d
+.freeobj(2064) $Sub(3)\signals\Signal_4_0.b3d
+.freeobj(2072) $Sub(3)\signals\Signal_2t_0.b3d
+.freeobj(2073) $Sub(3)\signals\Signal_3t_0.b3d
+.freeobj(2074) $Sub(3)\signals\Signal_4t_0.b3d
+.freeobj(2101) $Sub(2)\utasok\utasok_01aL.b3d
+.freeobj(2102) $Sub(2)\utasok\utasok_02aL.b3d
+.freeobj(2103) $Sub(2)\utasok\utasok_03aL.b3d
+.freeobj(2104) $Sub(2)\utasok\utasok_04aL.b3d
+.freeobj(2105) $Sub(2)\utasok\utasok_01aR.b3d
+.freeobj(2106) $Sub(2)\utasok\utasok_02aR.b3d
+.freeobj(2107) $Sub(2)\utasok\utasok_03aR.b3d
+.freeobj(2108) $Sub(2)\utasok\utasok_04aR.b3d
+.freeobj(2111) $Sub(2)\utasok\utasok_01bL.b3d
+.freeobj(2112) $Sub(2)\utasok\utasok_02bL.b3d
+.freeobj(2113) $Sub(2)\utasok\utasok_03bL.b3d
+.freeobj(2114) $Sub(2)\utasok\utasok_04bL.b3d
+.freeobj(2115) $Sub(2)\utasok\utasok_01bR.b3d
+.freeobj(2116) $Sub(2)\utasok\utasok_02bR.b3d
+.freeobj(2117) $Sub(2)\utasok\utasok_03bR.b3d
+.freeobj(2118) $Sub(2)\utasok\utasok_04bR.b3d
+
+;openBVE
+$Sub(11).freeobj(2301) $Sub(3)\targyak\digitalis_ora\digitalis_ora_M3.animated
+
+;---
+;járművek
+.freeobj(3012) $Sub(3)\jarmu\szam_3012.b3d
+.freeobj(3013) $Sub(3)\jarmu\szam_3013.b3d
+.freeobj(3014) $Sub(3)\jarmu\szam_3014.b3d
+.freeobj(3015) $Sub(3)\jarmu\szam_3015.b3d
+.freeobj(3024) $Sub(3)\jarmu\szam_3024.b3d
+.freeobj(3025) $Sub(3)\jarmu\szam_3025.b3d
+.freeobj(3026) $Sub(3)\jarmu\szam_3026.b3d
+.freeobj(3027) $Sub(3)\jarmu\szam_3027.b3d
+.freeobj(3076) $Sub(3)\jarmu\szam_3076.b3d
+.freeobj(3077) $Sub(3)\jarmu\szam_3077.b3d
+.freeobj(3078) $Sub(3)\jarmu\szam_3078.b3d
+.freeobj(3079) $Sub(3)\jarmu\szam_3079.b3d
+.freeobj(3092) $Sub(3)\jarmu\szam_3092.b3d
+.freeobj(3093) $Sub(3)\jarmu\szam_3093.b3d
+.freeobj(3094) $Sub(3)\jarmu\szam_3094.b3d
+.freeobj(3095) $Sub(3)\jarmu\szam_3095.b3d
+.freeobj(3104) $Sub(3)\jarmu\szam_3104.b3d
+.freeobj(3105) $Sub(3)\jarmu\szam_3105.b3d
+.freeobj(3106) $Sub(3)\jarmu\szam_3106.b3d
+.freeobj(3107) $Sub(3)\jarmu\szam_3107.b3d
+
+.freeobj(3243) $Sub(3)\jarmu\szam_0243.b3d
+.freeobj(3244) $Sub(3)\jarmu\szam_0244.b3d
+.freeobj(3245) $Sub(3)\jarmu\szam_0245.b3d
+.freeobj(3246) $Sub(3)\jarmu\szam_0246.b3d
+.freeobj(3247) $Sub(3)\jarmu\szam_0247.b3d
+.freeobj(3248) $Sub(3)\jarmu\szam_0248.b3d
+.freeobj(3261) $Sub(3)\jarmu\szam_0261.b3d
+.freeobj(3262) $Sub(3)\jarmu\szam_0262.b3d
+.freeobj(3263) $Sub(3)\jarmu\szam_0263.b3d
+.freeobj(3264) $Sub(3)\jarmu\szam_0264.b3d
+.freeobj(3265) $Sub(3)\jarmu\szam_0265.b3d
+.freeobj(3266) $Sub(3)\jarmu\szam_0266.b3d
+.freeobj(3306) $Sub(3)\jarmu\szam_0306.b3d
+.freeobj(3307) $Sub(3)\jarmu\szam_0307.b3d
+.freeobj(3312) $Sub(3)\jarmu\szam_0312.b3d
+.freeobj(3313) $Sub(3)\jarmu\szam_0313.b3d
+.freeobj(3338) $Sub(3)\jarmu\szam_0338.b3d
+.freeobj(3339) $Sub(3)\jarmu\szam_0339.b3d
+.freeobj(3346) $Sub(3)\jarmu\szam_0346.b3d
+.freeobj(3347) $Sub(3)\jarmu\szam_0347.b3d
+.freeobj(3352) $Sub(3)\jarmu\szam_0352.b3d
+.freeobj(3353) $Sub(3)\jarmu\szam_0353.b3d
+
+;.freeobj(3520) $Sub(3)\jarmu\Ev3_2_A1.b3d
+;.freeobj(3521) $Sub(3)\jarmu\Ev3_2_A2.b3d
+.freeobj(3522) $Sub(3)\jarmu\Ev3_2_B1.b3d
+.freeobj(3523) $Sub(3)\jarmu\Ev3_2_B2.b3d
+.freeobj(3524) $Sub(3)\jarmu\Ev3_2_C1.b3d
+.freeobj(3525) $Sub(3)\jarmu\Ev3_2_C2.b3d
+.freeobj(3526) $Sub(3)\jarmu\Ev3_lte_1.b3d
+.freeobj(3527) $Sub(3)\jarmu\Ev3_lte_2.b3d
+.freeobj(3528) $Sub(3)\jarmu\Ev3_lth_1.b3d
+.freeobj(3529) $Sub(3)\jarmu\Ev3_lth_2.b3d
+
+;.freeobj(3601) $Sub(3)\jarmu\81-717_1_A.b3d
+.freeobj(3602) $Sub(3)\jarmu\81-717_1_B.b3d
+.freeobj(3603) $Sub(3)\jarmu\81-717_1_C.b3d
+;.freeobj(3604) $Sub(3)\jarmu\81-717_2_A.b3d
+.freeobj(3605) $Sub(3)\jarmu\81-717_2_B.b3d
+.freeobj(3606) $Sub(3)\jarmu\81-717_2_C.b3d
+;.freeobj(3607) $Sub(3)\jarmu\81-717_3_A.b3d
+.freeobj(3608) $Sub(3)\jarmu\81-717_3_B.b3d
+.freeobj(3609) $Sub(3)\jarmu\81-717_3_C.b3d
+;.freeobj(3610) $Sub(3)\jarmu\81-717_4_A.b3d
+;.freeobj(3611) $Sub(3)\jarmu\81-717_4_B.b3d
+;.freeobj(3612) $Sub(3)\jarmu\81-717_4_C.b3d
+;.freeobj(3613) $Sub(3)\jarmu\81-717_5_A.b3d
+;.freeobj(3614) $Sub(3)\jarmu\81-717_5_AS.b3d
+;.freeobj(3615) $Sub(3)\jarmu\81-717_5_B.b3d
+;.freeobj(3616) $Sub(3)\jarmu\81-717_5_C.b3d
+.freeobj(3617) $Sub(3)\jarmu\81-717_3_AS_1.b3d
+.freeobj(3618) $Sub(3)\jarmu\81-717_3_AS_2.b3d
+
+;.freeobj(3631) $Sub(3)\jarmu\81-714_1_A.b3d
+.freeobj(3632) $Sub(3)\jarmu\81-714_1_B.b3d
+.freeobj(3633) $Sub(3)\jarmu\81-714_1_C.b3d
+;.freeobj(3634) $Sub(3)\jarmu\81-714_2_A.b3d
+.freeobj(3635) $Sub(3)\jarmu\81-714_2_B.b3d
+.freeobj(3636) $Sub(3)\jarmu\81-714_2_C.b3d
+;.freeobj(3637) $Sub(3)\jarmu\81-714_3_A.b3d
+.freeobj(3638) $Sub(3)\jarmu\81-714_3_AS.b3d
+.freeobj(3639) $Sub(3)\jarmu\81-714_3_B.b3d
+.freeobj(3640) $Sub(3)\jarmu\81-714_3_C.b3d
+;.freeobj(3644) $Sub(3)\jarmu\81-714_5_A.b3d
+;.freeobj(3645) $Sub(3)\jarmu\81-714_5_AS.b3d
+;.freeobj(3646) $Sub(3)\jarmu\81-714_5_B.b3d
+;.freeobj(3647) $Sub(3)\jarmu\81-714_5_C.b3d
+
+.freeobj(3691) $Sub(3)\jarmu\81-717_v_123.b3d
+;.freeobj(3692) $Sub(3)\jarmu\81-717_v_4.b3d
+;.freeobj(3693) $Sub(3)\jarmu\81-717_v_5.b3
+
+$Sub(11)Signal(11) $Sub(3)\signals\Signal_11_; $Sub(3)\signals\izzo_11_
+$Sub(11)Signal(12) $Sub(3)\signals\Signal_12_; $Sub(3)\signals\izzo_12_
+$Sub(11)Signal(13) $Sub(3)\signals\Signal_13_; $Sub(3)\signals\izzo_13_
+$Sub(11)Signal(14) $Sub(3)\signals\Signal_14_; $Sub(3)\signals\izzo_14_
+$Sub(11)Signal(22) $Sub(3)\signals\Signal_22_; $Sub(3)\signals\izzo_22_
+$Sub(11)Signal(32) $Sub(3)\signals\Signal_32t_; $Sub(3)\signals\izzo_32t_
+$Sub(11)Signal(33) $Sub(3)\signals\Signal_33t_; $Sub(3)\signals\izzo_33t_
+$Sub(11)Signal(34) $Sub(3)\signals\Signal_34t_; $Sub(3)\signals\izzo_34t_
+$Sub(11)Signal(42) $Sub(3)\signals\Signal_42t_; $Sub(3)\signals\izzo_42t_
+$Sub(11)Signal(44) $Sub(3)\signals\Signal_44t_; $Sub(3)\signals\izzo_44t_
+
+With Texture
+.background(0) $Sub(3)\back1.bmp
+.background(1) $Sub(3)\back2.bmp
+.background(2) $Sub(3)\back3.bmp
+
+With Track
+;állomások-hangok-megállás helye jelzők
+10075
+$Sub(381)$Sub(332).Sta Bajcsy bal kihúzó; 15.5820; 15.5845; ; -1; 1
+$Sub(381)$Sub(333).Sta Bajcsy jobb kihúzó; 15.5820; 15.5845; ; 1; 1
+$Sub(384)$Sub(332).Sta Bajcsy bal kihúzó; 15.5820; 15.5845; ; -1; 1
+$Sub(384)$Sub(333).Sta Bajcsy jobb kihúzó; 15.5820; 15.5845; ; 1; 1
+$Sub(385)$Sub(332).Sta Bajcsy bal kihúzó; 19.0830; 19.0900; ; -1; 1
+$Sub(385)$Sub(333).Sta Bajcsy jobb kihúzó; 19.0830; 19.0900; ; 1; 1
+10167
+$Sub(331).stop 0;2;2
+10325
+$Sub(381)$Sub(331).Sta Újpest-Központ; 15.5930; 16.0000; ; 1; 1; ; ; 10; 85; $Sub(3)\19Kapu_kb.wav
+$Sub(384)$Sub(331).Sta Újpest-Központ; 15.5930; 16.0000; ; 1; 1; ; ; 10; 85;
+$Sub(385)$Sub(331).Sta Újpest-Központ;     P; ; ; 1; 0; ; ; 10
+$Sub(385).Limit 40;0
+10350
+$Sub(385).Limit 80;0
+10445
+$Sub(331).stop 0;2;2
+11125
+$Sub(381)$Sub(331).Sta Újpest-Városkapu; 16.0115; 16.0140; ; 1; 1; ; ; 10; 85; $Sub(3)\18Gyongyosi_k.wav
+$Sub(384)$Sub(331).Sta Újpest-Városkapu; 16.0115; 16.0140; ; 1; 1; ; ; 10; 85; 
+$Sub(385)$Sub(331).Sta Újpest-Városkapu;   P; ; ; 1; 0; ; ; 10
+$Sub(385).Limit 40;0
+11150
+$Sub(385).Limit 80;0
+11224
+$Sub(381)$Sub(331).announce $Sub(3)\19Kapu_b.wav
+11246
+$Sub(331).stop 0;2;2
+12450
+$Sub(381)$Sub(331).Sta Gyöngyösi utca; 16.0320; 16.0345; ; 1; 1; ; ; 10; 85; $Sub(3)\17Forgach_k.wav
+$Sub(384)$Sub(331).Sta Gyöngyösi utca; 16.0320; 16.0345; ; 1; 1; ; ; 10; 85;
+$Sub(385)$Sub(331).Sta Gyöngyösi utca;     P; ; ; 1; 0; ; ; 10
+$Sub(385).Limit 40;0
+12475
+$Sub(385).Limit 80;0
+12549
+$Sub(381)$Sub(331).announce $Sub(3)\18Gyongyosi.wav
+12572
+$Sub(331).stop 0;2;2
+13625
+$Sub(381)$Sub(331).Sta Forgách utca; 16.0522; 16.0542; ; 1; 1; ; ; 10; 90; $Sub(3)\16Arpad_k.wav
+$Sub(384)$Sub(331).Sta Forgách utca; 16.0522; 16.0542; ; 1; 1; ; ; 10; 90;
+$Sub(385)$Sub(331).Sta Forgách utca;       P; ; ; 1; 0; ; ; 10
+$Sub(385).Limit 40;0
+13650
+$Sub(385).Limit 80;0
+13724
+$Sub(381)$Sub(331).announce $Sub(3)\17Forgach.wav
+13747
+$Sub(331).stop 0;2;2
+;===Árpád kihúzó===
+14000
+$Sub(381)$Sub(330).Sta Árpád kihúzó; 16.0520; 16.0550; ; -1; 1; ; ; 10; 0;
+$Sub(384)$Sub(330).Sta Árpád kihúzó; 16.0520; 16.0550; ; -1; 1; ; ; 10; 0;
+$Sub(385)$Sub(330).Sta Árpád kihúzó; 19.1230; 19.1300; ; -1; 1; ; ; 10
+14132
+$Sub(330).stop 0
+;===Árpád kihúzó===
+14325
+$Sub(381)$Sub(321).Sta Árpád híd; 16.0650; 16.0715; ; 1; 1; ; ; 10; 105; $Sub(3)\15Dozsa_k.wav
+$Sub(384)$Sub(321).Sta Árpád híd; 16.0650; 16.0715; ; 1; 1; ; ; 10; 105;
+$Sub(385)$Sub(321).Sta Árpád híd;          P; ; ; 1; 0; ; ; 10
+$Sub(385).Limit 40;0
+14350
+$Sub(385).Limit 80;0
+14424
+$Sub(381)$Sub(331).announce $Sub(3)\16Arpad.wav
+14446
+$Sub(321).stop 0;2;2
+15225
+$Sub(381)$Sub(321).Sta Dózsa György út; 16.0834; 16.0904; ; 1; 1; ; ; 10; 110; $Sub(3)\14Lehel_k.wav
+$Sub(384)$Sub(321).Sta Dózsa György út; 16.0834; 16.0904; ; 1; 1; ; ; 10; 110;
+$Sub(385)$Sub(321).Sta Dózsa György út;    P; ; ; 1; 0; ; ; 10
+$Sub(385).Limit 40;0
+15250
+$Sub(385).Limit 80;0
+15324
+$Sub(381)$Sub(321).announce $Sub(3)\15Dozsa.wav
+15346
+$Sub(321).stop 0;2;2
+16000
+$Sub(381)$Sub(321).Sta Lehel tér; 16.1015; 16.1045; ; -1; 1; ; ; 10; 120; $Sub(3)\13Nyugati_k.wav
+$Sub(384)$Sub(321).Sta Lehel tér; 16.1015; 16.1045; ; -1; 1; ; ; 10; 120;
+$Sub(385)$Sub(321).Sta Lehel tér;          P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+16025
+$Sub(385).Limit 80;0
+16099
+$Sub(381)$Sub(321).announce $Sub(3)\14Lehel_b.wav
+16121
+$Sub(321).stop 0;2;2
+16825
+$Sub(381)$Sub(321).Sta Nyugati pályaudvar; 16.1200; 16.1230; ; -1; 1; ; ; 10; 135; $Sub(3)\12Arany_k.wav
+$Sub(384)$Sub(321).Sta Nyugati pályaudvar; 16.1200; 16.1230; ; -1; 1; ; ; 10; 135;
+$Sub(385)$Sub(321).Sta Nyugati pályaudvar; P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+16850
+$Sub(385).Limit 80;0
+16924
+$Sub(381)$Sub(321).announce $Sub(3)\13Nyugati.wav
+16947
+$Sub(321).stop 0;2;2
+17675
+$Sub(381)$Sub(321).Sta Arany János utca; 16.1345; 16.1410; ; -1; 1; ; ; 10; 135; $Sub(3)\11Deak_k.wav
+$Sub(384)$Sub(321).Sta Arany János utca; 16.1345; 16.1410; ; -1; 1; ; ; 10; 135;
+$Sub(385)$Sub(321).Sta Arany János utca;   P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+17700
+$Sub(385).Limit 80;0
+17774
+$Sub(381)$Sub(321).announce $Sub(3)\12Arany.wav
+17793
+$Sub(321).stop 0;2;2
+;----------------------------
+18050
+$Sub(381)$Sub(320).Sta É-D Deák kihúzó;16.1345;16.1400;;-1;1;;
+$Sub(384)$Sub(320).Sta É-D Deák kihúzó;16.1345;16.1400;;-1;1;;
+$Sub(385)$Sub(320).Sta É-D Deák kihúzó;19.1930;19.2000;;-1;0;;
+$Sub(385)$Sub(220).Sta É-D Deák kihúzó;      P;       ;;-1;0;;
+18185
+$Sub(320).Stop 0;3;3
+;----------------------------
+18325
+$Sub(381).Sta Deák Ferenc tér; 16.1515; 16.1545; ; -1; 1; ; ; 10; 130; $Sub(3)\10Ferenciek_k.wav
+$Sub(384).Sta Deák Ferenc tér; 16.1515; 16.1545; ; -1; 1; ; ; 10; 130;
+$Sub(385).Sta Deák Ferenc tér; P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+18350
+$Sub(385).Limit 80;0
+18424
+$Sub(381)$Sub(321).announce $Sub(3)\11Deak.wav
+18447
+.stop 0;2;2
+19000
+$Sub(381).Sta Ferenciek tere; 16.1652; 16.1717; ; -1; 1; ; ; 10; 130; $Sub(3)\09Kalvin_k.wav
+$Sub(384).Sta Ferenciek tere; 16.1652; 16.1717; ; -1; 1; ; ; 10; 130;
+$Sub(385).Sta Ferenciek tere;  P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+19025
+$Sub(385).Limit 80;0
+19099
+$Sub(381).announce $Sub(3)\10Ferenciek.wav
+19122
+.stop 0;2;2
+19500
+$Sub(381).Sta Kálvin tér; 16.1813; 16.1843; ; -1; 1; ; ; 10; 135; $Sub(3)\08Ferenc_k.wav
+$Sub(384).Sta Kálvin tér; 16.1813; 16.1843; ; -1; 1; ; ; 10; 135;
+$Sub(385).Sta Kálvin tér;      P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+19525
+$Sub(385).Limit 80;0
+19599
+$Sub(381).announce $Sub(3)\09Kalvin.wav
+19621
+.stop 0;2;2
+20450
+$Sub(381).Sta Ferenc körút; 16.2002; 16.2027; ; -1; 1; ; ; 10; 135; $Sub(3)\07Klinikak_k.wav
+$Sub(384).Sta Ferenc körút; 16.2002; 16.2027; ; -1; 1; ; ; 10; 135;
+$Sub(385).Sta Ferenc körút;    P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+20475
+$Sub(385).Limit 80;0
+20549
+$Sub(381).announce $Sub(3)\08Ferenc.wav
+20573
+.stop 0;2;2
+20975
+$Sub(381).Sta Klinikák; 16.2128; 16.2148; ; -1; 1; ; ; 10; 130; $Sub(3)\06Nagyvarad_k.wav
+$Sub(384).Sta Klinikák; 16.2128; 16.2148; ; -1; 1; ; ; 10; 130;
+$Sub(385).Sta Klinikák;        P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+21000
+$Sub(385).Limit 80;0
+21074
+$Sub(381).announce $Sub(3)\07Klinikak.wav
+21098
+.stop 0;2;2
+22050
+$Sub(381).Sta Nagyvárad tér; 16.2320; 16.2345; ; -1; 1; ; ; 10; 125; $Sub(3)\05Nepliget_k.wav
+$Sub(384).Sta Nagyvárad tér; 16.2320; 16.2345; ; -1; 1; ; ; 10; 125;
+$Sub(385).Sta Nagyvárad tér;   P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+22075
+$Sub(385).Limit 80;0
+22149
+$Sub(381).announce $Sub(3)\06Nagyvarad_b.wav
+22172
+.stop 0;2;2
+22875
+$Sub(381).Sta Népliget; 16.2456; 16.2516; ; 1; 1; ; ; 10; 110; $Sub(3)\04Ecseri_k.wav
+$Sub(384).Sta Népliget; 16.2456; 16.2516; ; 1; 1; ; ; 10; 110;
+$Sub(385).Sta Népliget;        P; ; ;  1; 0; ; ; 10
+$Sub(385).Limit 40;0
+22900
+$Sub(385).Limit 80;0
+22974
+$Sub(381).announce $Sub(3)\05Nepliget.wav
+22996
+.stop 0;2;2
+23825
+$Sub(381).Sta Ecseri út; 16.2637; 16.2657; ; 1; 1; ; ; 10; 105; $Sub(3)\03Pottyos_k.wav
+$Sub(384).Sta Ecseri út; 16.2637; 16.2657; ; 1; 1; ; ; 10; 105;
+$Sub(385).Sta Ecseri út;       P; ; ;  1; 0; ; ; 10
+$Sub(385).Limit 40;0
+23850
+$Sub(385).Limit 80;0
+23924
+$Sub(381).announce $Sub(3)\04Ecseri.wav
+23946
+.stop 0;2;2
+24450
+$Sub(381).Sta Pöttyös utca; 16.2758; 16.2818; ; 1; 1; ; ; 10; 100; $Sub(3)\02Hatar_kb.wav
+$Sub(384).Sta Pöttyös utca; 16.2758; 16.2818; ; 1; 1; ; ; 10; 100;
+$Sub(385).Sta Pöttyös utca;    P; ; ;  1; 0; ; ; 10
+$Sub(385).Limit 40;0
+24475
+$Sub(385).Limit 80;0
+24549
+$Sub(381).announce $Sub(3)\03Pottyos.wav
+24571
+.stop 0;2;2
+25050
+$Sub(381).Sta Határ út; 16.2920; 16.2945; ; 1; 1; ; ; 10; 65; $Sub(3)\01Kobanya_k.wav
+$Sub(384).Sta Határ út; 16.2920; 16.2945; ; 1; 1; ; ; 10; 65;
+$Sub(385).Sta Határ út;        P; ; ;  1; 0; ; ; 10
+$Sub(385).Limit 40;0
+25075
+$Sub(385).Limit 80;0
+25145
+$Sub(381).announce $Sub(3)\02Hatar_b.wav
+25168
+.stop 0;2;2
+26825
+$Sub(381).Sta Kőbánya-Kispest; 16.3200; 16.3230; ; -1; 1; ; ; 10; 0; $Sub(3)\00Sziveskedjenek.wav
+$Sub(384).Sta Kőbánya-Kispest; 16.3200; 16.3230; ; -1; 1; ; ; 10; 0;
+$Sub(385).Sta Kőbánya-Kispest; P; ; ; -1; 0; ; ; 10
+$Sub(385).Limit 40;0
+26915
+$Sub(381).announce $Sub(3)\01Kobanya.wav
+26945
+.stop 0;2;2
+26950
+.Limit 40;0
+27195
+$Sub(381).Sta Kőbánya kihúzó; 16.3330; ; ; 1; 1
+$Sub(384).Sta Kőbánya kihúzó; 16.3330; ; ; 1; 1
+$Sub(385).Sta Kőbánya kihúzó; 19.3400; ; ; 1; 1
+27250
+$Sub(381).announce $Sub(3)\21Uzemi.wav
+27306,$Sub(301).stop 0;2;2
+27306,$Sub(302).stop 0;2;2
+27306,$Sub(303).stop 0;2;2
+;--------------------------------------------
+
+;ellenőrök
+;Deák
+18443,$Sub(389).announce $Sub(3)\ellenor2.wav
+;Kálvin
+19617,$Sub(389).announce $Sub(3)\ellenor1.wav
+;Népliget
+22992,$Sub(389).announce $Sub(3)\ellenor1.wav
+
+;============================================
+
+0
+.Accuracy 2
+.Adhesion 120
+.Height 1.5
+.Back 0
+.railtype 0;9
+.Limit 80;0
+
+$Sub(11)9876
+$Sub(11).Buffer
+
+;========Bajcsy bal kihúzóból=======
+$Sub(332)9875
+$Sub(332).pitch 1
+$Sub(332).curve 650;33
+$Sub(332).railtype 0;187
+$Sub(332).railstart 1;-4.4;0;189
+$Sub(332).wall 0;1;11
+$Sub(332).wall 1;-1;11
+$Sub(332)9901
+$Sub(332).freeobj 0;120;-2.2;0;180.000
+$Sub(332)9925
+$Sub(332).freeobj 0;115;-2.2;0;-182.204
+$Sub(332)9950
+$Sub(332).freeobj 0;115;-2.2;0;-182.204
+$Sub(332)9975
+$Sub(332).freeobj 0;115;-2.2;0;-182.204
+$Sub(332)10000
+$Sub(332).freeobj 0;115;-2.2;0;-182.204
+$Sub(332)10025
+$Sub(332).freeobj 0;115;-2.2;0;-182.204
+$Sub(332)10075
+$Sub(332).freeobj 1;112;0;0;-182.204
+$Sub(332).freeobj 1;113;2.20;0;-182.204
+$Sub(332)10100
+$Sub(332).freeobj 1;112; 0;0;-182.204
+$Sub(332).freeobj 0;113;-1.55;0;-182.204
+$Sub(332).freeobj 1;113; 1.55;0;-182.204
+$Sub(332)10125
+$Sub(332).freeobj 1;112; 0;0;-182.204
+$Sub(332).freeobj 0;113;-1.55;0;-182.204
+$Sub(332).freeobj 1;113; 1.55;0;-182.204
+$Sub(332)10150
+$Sub(332).freeobj 1;112; 0;0;-181.102
+$Sub(332).freeobj 0;113;-1.55;0;-181.102
+$Sub(332).freeobj 1;113; 1.55;0;-181.102
+$Sub(332).curve 0;0
+$Sub(332).railtype 0;23
+$Sub(332).railtype 1;24
+$Sub(332).freeobj 0;110
+$Sub(332).freeobj 0;111;-2.20
+$Sub(332).pitch 2
+$Sub(332)10171
+$Sub(332).freeobj 0;400
+$Sub(332).freeobj 1;400
+;=======peron vége=======
+$Sub(332)10175
+$Sub(332).railtype 0;24
+$Sub(332).rail 1;-4.4;0;9
+$Sub(332).railstart 2;-4.4;0;9
+$Sub(332).freeobj 2;1243
+$Sub(332).wallend 1
+$Sub(332).wall 2;-1;11
+$Sub(332)10177
+$Sub(332).freeobj 2;2073;1.9;2.0
+$Sub(332).freeobj 2;2052;1.9
+$Sub(332)10178
+$Sub(332).tr 1;0
+$Sub(332)10180
+$Sub(332)$Sub(10).Signal 3;179B;1.9;3.1;2
+$Sub(332)$Sub(11).SigF 33;1;1.9;2.0
+$Sub(332)$Sub(11).Section 0;0;2;4
+$Sub(332).freeobj 0;2052;1.9
+$Sub(332)10185
+$Sub(332).freeobj 0;2001;-2.2;-1.6
+$Sub(332).freeobj 0;414;-2.2;0.2
+$Sub(332)10193
+$Sub(332).freeobj 0;424;-1.5
+$Sub(332)10200
+$Sub(332).railtype 0;9
+$Sub(332).rail 1;-2.2;0;9
+$Sub(332).rail 2;-4.4;0;23
+$Sub(332)10207
+$Sub(332).freeobj 2;424;1.5
+$Sub(332)10225
+$Sub(332).railtype 0;24
+$Sub(332).railend 1;0;0;9
+$Sub(332).freeobj 0;1243;0;0;180
+$Sub(332).freeobj 0;1263;0.69
+;=======Bajcsy bal kihúzóból vége=======
+
+;=======Bajcsy jobb kihúzóból=======
+$Sub(333)9875
+$Sub(333).pitch 1
+$Sub(333).curve 650;33
+$Sub(333).railtype 0;189
+$Sub(333).railstart 1;4.4;0;187
+$Sub(333).wall 0;-1;11
+$Sub(333).wall 1;1;11
+$Sub(333)9901
+$Sub(333).freeobj 1;120;-2.2;0;180.000
+$Sub(333)9925
+$Sub(333).freeobj 1;115;-2.2;0;-182.204
+$Sub(333)9950
+$Sub(333).freeobj 1;115;-2.2;0;-182.204
+$Sub(333)9975,
+$Sub(333).freeobj 1;115;-2.2;0;-182.204
+$Sub(333)10000
+$Sub(333).freeobj 1;115;-2.2;0;-182.204
+$Sub(333)10025
+$Sub(333).freeobj 1;115;-2.2;0;-182.204
+$Sub(333)10075
+$Sub(333).freeobj 0;112;0;0;-182.204
+$Sub(333).freeobj 0;113;2.20;0;-182.204
+$Sub(333)10100
+$Sub(333).freeobj 0;112; 0;0;-182.204
+$Sub(333).freeobj 1;113;-1.55;0;-182.204
+$Sub(333).freeobj 0;113; 1.55;0;-182.204
+$Sub(333)10125
+$Sub(333).freeobj 0;112; 0;0;-182.204
+$Sub(333).freeobj 1;113;-1.55;0;-182.204
+$Sub(333).freeobj 0;113; 1.55;0;-182.204
+$Sub(333)10150
+$Sub(333).freeobj 0;112; 0;0;-181.102
+$Sub(333).freeobj 1;113;-1.55;0;-181.102
+$Sub(333).freeobj 0;113; 1.55;0;-181.102
+$Sub(333).curve 0;0
+$Sub(333).railtype 1;23
+$Sub(333).railtype 0;24
+$Sub(333).freeobj 1;110
+$Sub(333).freeobj 1;111;-2.20
+$Sub(333).pitch 2
+$Sub(333)10171
+$Sub(333).freeobj 0;400
+$Sub(333).freeobj 1;400
+;=======peron vége=======
+$Sub(333)10175
+$Sub(333).curve 142.41;0
+$Sub(333).railtype 0;9
+$Sub(333).rail 1; 4.4;0;24
+$Sub(333).railstart 2;0;0;9
+$Sub(333).freeobj 2;1244
+$Sub(333).wallend 0
+$Sub(333).wall 2;-1;11
+$Sub(333).tr 1;0
+$Sub(333)10177
+$Sub(333)$Sub(10).Signal 3;BB;1.9;3.1;2
+$Sub(333)$Sub(11).SigF 33;1;1.9;2.0
+$Sub(333)$Sub(11).Section 0;0;1
+$Sub(333).freeobj 0;2052;1.9
+$Sub(333)10180
+$Sub(333).freeobj 1;2073;1.9;2.0
+$Sub(333).freeobj 1;2052;1.9
+$Sub(333)10185
+$Sub(333).freeobj 1;2001;-2.2;-1.6
+$Sub(333).freeobj 1;414;-2.2;0.2
+$Sub(333)10193
+$Sub(333).freeobj 1;424;-1.5
+$Sub(333)10200
+$Sub(333).rail 1; 2.2;0;9
+$Sub(333).rail 2;-2.2;0;23
+$Sub(333).curve -142.41;0
+$Sub(333)10207
+$Sub(333).freeobj 2;424;1.5
+$Sub(333)10225
+$Sub(333).curve 0;0
+$Sub(333).railtype 0;24
+$Sub(333).railend 1;0;0;9
+$Sub(333).rail 2;-4.4;0;23
+$Sub(333).freeobj 0;1244;0;0;180
+$Sub(333).freeobj 0;1263;0.69
+$Sub(333).wallend 1
+$Sub(333).wall 0;1;11
+;=======Bajcsy jobb kihúzóból vége=======
+
+;=======M3=======
+$Sub(331)10249
+$Sub(331).freeobj 0;414;1.7;2;0
+$Sub(331)10250
+$Sub(331).railtype 0;9
+$Sub(331).freeobj 0;1241;0;0;0
+$Sub(331).railstart 1;0;0;9
+$Sub(331).rail 2;-4.4;0;23
+$Sub(331)10268
+$Sub(331).freeobj 2;424;1.5
+$Sub(331)10275
+$Sub(331).railtype 0;24
+$Sub(331).rail 1;-2.2;0;9
+$Sub(331).rail 2;-4.4;0;9
+$Sub(331)10282
+$Sub(331).freeobj 0;424;-1.5
+$Sub(331)10300
+$Sub(331).freeobj 0;1241;-4.4;0;180
+$Sub(331).railtype 0;23
+$Sub(331).rail 1;-4.4;0;24
+$Sub(331).wallend 2
+$Sub(331).railend 2;-4.4;0;9
+$Sub(331).wall 0;1;12
+$Sub(331).wall 1;-1;12
+$Sub(331)10313
+$Sub(331).tr 1;0
+$Sub(331)10315
+$Sub(331)$Sub(10).Signal 2;177B;1.9;3.0;2
+$Sub(331)$Sub(11).SigF 42;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)10317
+$Sub(331).freeobj 0;404;1.7;3.0;0
+;=======B========
+$Sub(331)10325
+$Sub(331).wallend 0
+$Sub(331).wallend 1
+$Sub(331).railtype 0;29
+$Sub(331).railtype 1;25
+$Sub(331)10326
+$Sub(331).freeobj 0;108
+$Sub(331)10331
+$Sub(331).freeobj 1;3603
+$Sub(331).freeobj 1;3306
+$Sub(331).freeobj 1;3691
+$Sub(331)10349
+$Sub(331).freeobj 1;100;0;0;180
+$Sub(331)10350
+$Sub(331).railtype 0;26
+$Sub(331).freeobj 1;105;0;0;180
+$Sub(331)10351
+$Sub(331).freeobj 0;108
+$Sub(331).freeobj 0;109
+$Sub(331)10354
+$Sub(331).freeobj 0;2108; 4.6
+$Sub(331)10369
+$Sub(331).freeobj 1;3632;0;0;180
+$Sub(331).freeobj 1;3012;0;0;180
+$Sub(331)10374
+$Sub(331).freeobj 1;100;0;0;180
+$Sub(331)10375
+$Sub(331).freeobj 1;104;0;0;180
+$Sub(331)10376
+$Sub(331).freeobj 0;108
+$Sub(331).freeobj 0;109
+$Sub(331)10377
+$Sub(331).freeobj 0;2105; 4.8
+$Sub(331)10388
+$Sub(331).freeobj 1;3632;0;0;180
+$Sub(331).freeobj 1;3013;0;0;180
+$Sub(331)10399
+$Sub(331).freeobj 1;100;0;0;180
+$Sub(331)10400
+$Sub(331).freeobj 1;103;0;0;180
+$Sub(331)10401
+$Sub(331).freeobj 0;108
+$Sub(331).freeobj 0;109
+$Sub(331).freeobj 0;2107; 4.9
+$Sub(331)10407
+$Sub(331).freeobj 1;3632;0;0;180
+$Sub(331).freeobj 1;3014;0;0;180
+$Sub(331)10423
+$Sub(331).freeobj 0;2106; 4.7
+$Sub(331)10424
+$Sub(331).freeobj 1;100;0;0;180
+$Sub(331)10425
+$Sub(331).railtype 1;28
+$Sub(331).freeobj 1;102;0;0;180
+$Sub(331).freeobj 1;106;0;0;180
+$Sub(331)10426
+$Sub(331).freeobj 0;108
+$Sub(331).freeobj 0;109
+$Sub(331).freeobj 1;3632;0;0;180
+$Sub(331).freeobj 1;3015;0;0;180
+$Sub(331)10436
+$Sub(331).freeobj 0;2105; 5.3
+$Sub(331)10440
+$Sub(331)$Sub(11).Section 4
+$Sub(331)10441
+$Sub(331).freeobj 0;2108; 4.6
+$Sub(331)10445
+$Sub(331).freeobj 0;400
+$Sub(331).freeobj 1;3602;0;0;180
+$Sub(331).freeobj 1;3307;0;0;180
+$Sub(331)10449
+$Sub(331).freeobj 1;100;0;0;180
+$Sub(331).freeobj 1;101;0;0;180
+$Sub(331)10449.40
+$Sub(331)$Sub(11).freeobj 0;2301;2.8;3.76
+;=============
+$Sub(331)10450
+$Sub(331).freeobj 0;107
+$Sub(331).wall 0;1;11
+$Sub(331).wall 1;-1;11
+$Sub(331).curve -700;21
+$Sub(331).railtype 0;141
+$Sub(331).rail 1;-4.4;0;152
+$Sub(331).marker $Sub(3)\markers\20B.bmp;125
+$Sub(331)10454
+$Sub(331).tr 1;0
+$Sub(331)10455
+$Sub(331).freeobj 0;107
+$Sub(331)10456
+$Sub(331)$Sub(10).Signal 3;175;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331).freeobj 0;462;1.65;0.9
+$Sub(331)10460
+$Sub(331).freeobj 0;107
+$Sub(331)10475
+$Sub(331).rail 1;-4.24;0;152
+$Sub(331).wall 0;1;10
+$Sub(331).wall 1;-1;10
+$Sub(331)10500
+$Sub(331).rail 1;-3.75;0;130
+$Sub(331)10525
+$Sub(331).rail 1;-3.4;0;21
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;20
+$Sub(331)10600
+$Sub(331).curve -700;36
+$Sub(331).railtype 0;141
+$Sub(331).railtype 1;142
+$Sub(331)10625
+$Sub(331).pitch 7
+$Sub(331)10675
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;20
+$Sub(331).railtype 1;21
+$Sub(331)10725
+$Sub(331).pitch 10
+$Sub(331)10758
+$Sub(331).tr 1;0
+$Sub(331)10760
+$Sub(331)$Sub(10).Signal 3;173;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)10775
+$Sub(331).curve -450;47
+$Sub(331).railtype 0;125
+$Sub(331).railtype 1;126
+$Sub(331)10966
+$Sub(331).tr 1;0
+$Sub(331)10968
+$Sub(331)$Sub(10).Signal 3;171U;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)11000
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;20
+$Sub(331).railtype 1;21
+$Sub(331)11008
+$Sub(331).freeobj 0;404;1.7;1.8
+$Sub(331)11025
+$Sub(331).pitch 4
+$Sub(331)11100
+$Sub(331).pitch -1
+$Sub(331).wall 0;1;12
+$Sub(331).wall 1;-1;12
+$Sub(331)11118
+$Sub(331).tr 1;0
+$Sub(331)11120
+$Sub(331)$Sub(10).Signal 2;169U;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 22;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2
+$Sub(331).freeobj 0;2052;1.9
+;======U======
+$Sub(331)11125
+$Sub(331).pitch -3
+$Sub(331).wallend 0
+$Sub(331).wallend 1
+$Sub(331).railtype 0;29
+$Sub(331).railtype 1;25
+$Sub(331)11131
+$Sub(331).freeobj 1;3603
+$Sub(331).freeobj 1;3312
+$Sub(331).freeobj 1;3691
+$Sub(331)11149
+$Sub(331).freeobj 1;125;0;0;180
+$Sub(331)11150
+$Sub(331).railtype 0;26
+$Sub(331).freeobj 1;130;0;0;180
+$Sub(331)11156
+$Sub(331).freeobj 0;2106; 4.7
+$Sub(331)11169
+$Sub(331).freeobj 1;3632;0;0;180
+$Sub(331).freeobj 1;3024;0;0;180
+$Sub(331)11172
+$Sub(331).freeobj 1;2112;-2.4
+$Sub(331)11174
+$Sub(331).freeobj 1;125;0;0;180
+$Sub(331)11175
+$Sub(331).freeobj 1;129;0;0;180
+$Sub(331)11186
+$Sub(331).freeobj 0;2108; 4.9
+$Sub(331)11188
+$Sub(331).freeobj 1;3632;0;0;180
+$Sub(331).freeobj 1;3025;0;0;180
+$Sub(331)11199
+$Sub(331).freeobj 1;125;0;0;180
+$Sub(331)11200
+$Sub(331).freeobj 1;128;0;0;180
+$Sub(331)11207
+$Sub(331).freeobj 1;3632;0;0;180
+$Sub(331).freeobj 1;3026;0;0;180
+$Sub(331)11219
+$Sub(331).freeobj 0;2107; 4.8
+$Sub(331)11224
+$Sub(331).freeobj 1;125;0;0;180
+$Sub(331)11225
+$Sub(331).railtype 1;28
+$Sub(331).freeobj 1;127;0;0;180
+$Sub(331).freeobj 0;131
+$Sub(331)11226
+$Sub(331).freeobj 1;3632;0;0;180
+$Sub(331).freeobj 1;3027;0;0;180
+$Sub(331)11230
+$Sub(331).freeobj 1;2114;-2.3
+$Sub(331)11241
+$Sub(331)$Sub(11).Section 4
+$Sub(331)11243
+$Sub(331).freeobj 0;2105; 5.1
+$Sub(331)11245
+$Sub(331).freeobj 1;3602;0;0;180
+$Sub(331).freeobj 1;3313;0;0;180
+$Sub(331)11246
+$Sub(331).freeobj 0;400
+$Sub(331)11249
+$Sub(331).freeobj 1;125;0;0;180
+$Sub(331).freeobj 1;126;0;0;180
+$Sub(331)11249.40
+$Sub(331)$Sub(11).freeobj 0;2301;2.8;3.76
+;=====================
+$Sub(331)11250
+$Sub(331).wall 0;1;11
+$Sub(331).wall 1;-1;11
+$Sub(331).railtype 0;20
+$Sub(331).railtype 1;21
+$Sub(331).marker $Sub(3)\markers\19U.bmp;125
+$Sub(331).pitch -11
+$Sub(331)11254
+$Sub(331).tr 1;0
+$Sub(331)11256
+$Sub(331)$Sub(10).Signal 3;167;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331).freeobj 0;470;1.65;0.9
+$Sub(331)11275
+$Sub(331).wall 0;1;10
+$Sub(331).wall 1;-1;10
+$Sub(331).curve -500;58
+$Sub(331).pitch -22
+$Sub(331).railtype 0;129
+$Sub(331).railtype 1;130
+$Sub(331)11300
+$Sub(331).pitch -30
+$Sub(331)11425
+$Sub(331).pitch -18
+$Sub(331)11450
+$Sub(331).pitch -7
+$Sub(331)11475
+$Sub(331).pitch 2
+$Sub(331)11578
+$Sub(331).tr 1;0
+$Sub(331)11580
+$Sub(331)$Sub(10).Signal 3;165;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)11600
+$Sub(331).pitch -3
+$Sub(331)11725
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;20
+$Sub(331).railtype 1;21
+$Sub(331)11750
+$Sub(331).pitch 1
+$Sub(331)11775
+$Sub(331).pitch 2
+$Sub(331)11825
+$Sub(331).pitch 3
+$Sub(331)11875
+$Sub(331).curve -2000;19
+$Sub(331).railtype 0;159
+$Sub(331).railtype 1;160
+$Sub(331)11891
+$Sub(331).tr 1;0
+$Sub(331)11893
+$Sub(331)$Sub(10).Signal 3;163;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)12000
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;20
+$Sub(331).railtype 1;21
+$Sub(331)12075
+$Sub(331).pitch 4
+$Sub(331).curve 2000;19
+$Sub(331).railtype 0;161
+$Sub(331).railtype 1;162
+$Sub(331)12150
+$Sub(331).freeobj 0;404;1.7;2.1
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;20
+$Sub(331).railtype 1;21
+$Sub(331)12193
+$Sub(331).tr 1;0
+$Sub(331)12195
+$Sub(331)$Sub(10).Signal 3;161Gy;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)12200
+$Sub(331).pitch 2
+$Sub(331)12300
+$Sub(331).curve 4000;6
+$Sub(331).railtype 0;168
+$Sub(331).rail 1;-3.4
+$Sub(331)12325
+$Sub(331).rail 1;-3.5
+$Sub(331)12333
+$Sub(331).tr 1;0
+$Sub(331)12335
+$Sub(331)$Sub(10).Signal 3;159Gy;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)12350
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;20
+$Sub(331).rail 1;-3.73
+$Sub(331).pitch 3
+$Sub(331)12375
+$Sub(331).curve -4000;6
+$Sub(331).railtype 0;167
+$Sub(331).rail 1;-4.07
+$Sub(331).pitch -1
+$Sub(331)12400
+$Sub(331).rail 1;-4.3
+$Sub(331).pitch -3
+$Sub(331)12425
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;20
+$Sub(331).rail 1;-4.4
+$Sub(331).wall 0;1;12
+$Sub(331).wall 1;-1;12
+$Sub(331)12436
+$Sub(331).tr 1;0
+$Sub(331)12438
+$Sub(331)$Sub(10).Signal 2;157Gy;1.9;3.0;2
+$Sub(331)$Sub(11).SigF 22;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)12449
+$Sub(331).freeobj 1;157;0;0;180
+;======Gy======
+$Sub(331)12450
+$Sub(331).wallend 0
+$Sub(331).wallend 1
+$Sub(331).railtype 0;29
+$Sub(331).railtype 1;25
+$Sub(331)12474
+$Sub(331).freeobj 1;150;0;0;180
+$Sub(331)12475
+$Sub(331).railtype 0;26
+$Sub(331).freeobj 1;156;0;0;180
+$Sub(331)12482
+$Sub(331).freeobj 1;2112;-2.5
+$Sub(331)12483
+$Sub(331).freeobj 0;2106; 4.7
+$Sub(331)12499
+$Sub(331).freeobj 1;150;0;0;180
+$Sub(331)12500
+$Sub(331).freeobj 1;155;0;0;180
+$Sub(331)12508
+$Sub(331).freeobj 0;2108; 4.8
+$Sub(331)12523
+$Sub(331).freeobj 1;2114;-2.3
+$Sub(331)12524
+$Sub(331).freeobj 1;150;0;0;180
+$Sub(331)12525
+$Sub(331).freeobj 1;154;0;0;180
+$Sub(331)12536
+$Sub(331).freeobj 0;2107; 4.7
+$Sub(331)12549
+$Sub(331).freeobj 1;150;0;0;180
+$Sub(331)12550
+$Sub(331).railtype 1;28
+$Sub(331).freeobj 1;153;0;0;180
+$Sub(331)12563
+$Sub(331).freeobj 1;2111;-2.6
+$Sub(331)12567
+$Sub(331)$Sub(11).Section 4
+$Sub(331)12569
+$Sub(331).freeobj 0;2105; 5.0
+$Sub(331)12572
+$Sub(331).freeobj 0;400
+$Sub(331)12574
+$Sub(331).freeobj 1;152;0;0;180
+$Sub(331).freeobj 1;150;0;0;180
+$Sub(331)12574.40
+$Sub(331)$Sub(11).freeobj 0;2301;2.8;3.76
+;=====================
+$Sub(331)12575
+$Sub(331).wall 0;1;11
+$Sub(331).wall 1;-1;11
+$Sub(331).railtype 0;20
+$Sub(331).railtype 1;21
+$Sub(331).marker $Sub(3)\markers\18Gy.bmp;125
+$Sub(331).pitch -2
+$Sub(331)12578
+$Sub(331).tr 1;0
+$Sub(331)12580
+$Sub(331)$Sub(10).Signal -2;155;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331).freeobj 0;467;1.65;0.9
+$Sub(331)12599
+$Sub(331).freeobj 1;151;0;0;180
+$Sub(331)12600
+$Sub(331).wall 0;1;10
+$Sub(331).wall 1;-1;10
+$Sub(331)12825
+$Sub(331).pitch 3
+$Sub(331)12881
+$Sub(331).tr 1;0
+$Sub(331)12883
+$Sub(331)$Sub(10).Signal 3;153;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)12975
+$Sub(331).pitch 11
+$Sub(331).railtype 0;21
+$Sub(331).railtype 1;20
+$Sub(331)12985
+$Sub(331).freeobj 0;181
+$Sub(331)12990
+$Sub(331).freeobj 0;181
+$Sub(331)12995
+$Sub(331).freeobj 0;181
+$Sub(331)13000
+$Sub(331).pitch 20
+$Sub(331)13143
+$Sub(331).tr 1;0
+$Sub(331)13145
+$Sub(331)$Sub(10).Signal -4;151;1.9;3.0;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)13150
+$Sub(331).curve -3000;11
+$Sub(331).railtype 0;164
+$Sub(331).railtype 1;163
+$Sub(331)13200
+$Sub(331).curve -2000;17
+$Sub(331).railtype 0;160
+$Sub(331).railtype 1;159
+$Sub(331)13225
+$Sub(331).pitch 12
+$Sub(331)13250
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;21
+$Sub(331).railtype 1;20
+$Sub(331).pitch 5
+$Sub(331).freeobj 0;182,;RP-pont
+$Sub(331)13275
+$Sub(331).pitch -5
+$Sub(331)13300
+$Sub(331).pitch -12
+$Sub(331).railtype 1;21
+$Sub(331)13325
+$Sub(331).pitch -20
+$Sub(331).railtype 1;20
+$Sub(331)13350
+$Sub(331).curve 3000;11
+$Sub(331).railtype 0;166
+$Sub(331).railtype 1;165
+$Sub(331)13375
+$Sub(331).railtype 0;165
+$Sub(331)13377
+$Sub(331).tr 1;0
+$Sub(331)13379
+$Sub(331)$Sub(10).Signal -4;149Fo;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;0;3;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)13384
+$Sub(331).freeobj 0;404;1.7;1.8
+$Sub(331)13400
+$Sub(331).railtype 0;166
+$Sub(331)13450
+$Sub(331).curve 2000;17
+$Sub(331).railtype 0;162
+$Sub(331).railtype 1;161
+$Sub(331)13500
+$Sub(331).curve 0;0
+$Sub(331).railtype 0;21
+$Sub(331).railtype 1;20
+$Sub(331)13505
+$Sub(331).freeobj 0;181
+$Sub(331)13510
+$Sub(331).freeobj 0;181
+$Sub(331)13515
+$Sub(331).freeobj 0;181
+$Sub(331)13525
+$Sub(331).pitch -11
+$Sub(331).railtype 0;20
+$Sub(331).railtype 1;21
+$Sub(331)13533
+$Sub(331).tr 1;0
+$Sub(331)13535
+$Sub(331)$Sub(10).Signal -4;147Fo;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;3
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)13550
+$Sub(331).pitch -3
+$Sub(331)13600
+$Sub(331).wall 0;1;12
+$Sub(331).wall 1;-1;12
+$Sub(331)13616
+$Sub(331).tr 1;0
+$Sub(331)13618
+$Sub(331)$Sub(10).Signal 2;145Fo;1.9;3.0;2
+$Sub(331)$Sub(11).SigF 22;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2
+$Sub(331).freeobj 0;2052;1.9
+;======Fo======
+$Sub(321)13625
+$Sub(330).railstart 1;-4.4;0;25
+$Sub(331).wallend 0
+$Sub(331).wallend 1
+$Sub(321).railtype 0;29
+$Sub(321).railtype 1;25
+$Sub(321)13631
+$Sub(321).freeobj 1;3261
+$Sub(321)13649
+$Sub(321).freeobj 1;175;0;0;180
+$Sub(321)13650
+$Sub(321).railtype 0;26
+$Sub(321).freeobj 1;180;0;0;180
+$Sub(321).freeobj 1;3522
+$Sub(321).freeobj 1;3262
+$Sub(321).freeobj 1;3526
+$Sub(321)13655
+$Sub(321).freeobj 0;2106; 4.7
+$Sub(321)13662
+$Sub(321).freeobj 1;2114;-2.1
+$Sub(321)13669
+$Sub(321).freeobj 1;3522
+$Sub(321).freeobj 1;3263
+$Sub(321)13674
+$Sub(321).freeobj 1;175;0;0;180
+$Sub(321)13675
+$Sub(321).freeobj 1;179;0;0;180
+$Sub(321)13684
+$Sub(321).freeobj 0;2108; 4.8
+$Sub(321)13688
+$Sub(321).freeobj 1;3522
+$Sub(321).freeobj 1;3264
+$Sub(321)13690
+$Sub(321).freeobj 1;2113;-2.3
+$Sub(321)13699
+$Sub(321).freeobj 1;175;0;0;180
+$Sub(321)13700
+$Sub(321).freeobj 1;178;0;0;180
+$Sub(321)13707
+$Sub(321).freeobj 1;3522
+$Sub(321).freeobj 1;3265
+$Sub(321)13712
+$Sub(321).freeobj 0;2107; 4.9
+$Sub(321)13715
+$Sub(321).freeobj 1;2111;-2.4
+$Sub(321)13724
+$Sub(321).freeobj 1;175;0;0;180
+$Sub(321)13725
+$Sub(321).railtype 1;28
+$Sub(321).freeobj 1;177;0;0;180
+$Sub(321)13726
+$Sub(321).freeobj 1;3522
+$Sub(321)13742
+$Sub(321)$Sub(11).Section 4
+$Sub(321)13745
+$Sub(321).freeobj 1;3523
+$Sub(321).freeobj 1;3266;0;0;180
+$Sub(321).freeobj 1;3529
+$Sub(321)13744
+$Sub(321).freeobj 1;2114;-2.2
+$Sub(321)13745
+$Sub(321).freeobj 0;2105; 5.0
+$Sub(321)13747
+$Sub(321).freeobj 0;400
+$Sub(321)13748
+$Sub(321)$Sub(11).freeobj 0;2301;3.4;3.76;60
+$Sub(321)13749
+$Sub(321).freeobj 1;175;0;0;180
+$Sub(321).freeobj 1;176;0;0;180
+;=====================
+$Sub(321)13750
+$Sub(321).Height 1.5
+$Sub(321).ground 30
+$Sub(321).wall 0;1;11
+$Sub(321).wall 1;-1;11
+$Sub(321).railtype 0;20
+$Sub(321).marker $Sub(3)\markers\17Fo.bmp;125
+$Sub(321).rail 1;-4.4;0;21
+$Sub(321).pitch 1
+$Sub(321)13752
+$Sub(321).tr 1;0
+$Sub(321)13754
+$Sub(321)$Sub(10).Signal -2;143;1.9;3.1;2
+$Sub(321)$Sub(11).SigF 12;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321).freeobj 0;459;1.65;0.9
+$Sub(321)13775
+$Sub(321).Height 0.3
+$Sub(321).pitch 6
+$Sub(321).wall 0;1;10
+$Sub(321).wall 1;-1;10
+$Sub(321).rail 1;-4.4;0;185
+$Sub(321)13800
+$Sub(321).rail 1;-4.65;0;185
+$Sub(321)13825
+$Sub(321).rail 1;-5.4;0;21
+$Sub(321)13850
+$Sub(321).rail 1;-6.4;0;21
+$Sub(321).pitch 5
+$Sub(321)13875
+$Sub(321).rail 1;-7.4;0;186
+$Sub(321)13900
+$Sub(321).rail 1;-8.15;0;186
+$Sub(321).pitch 1
+$Sub(321)13925
+$Sub(321).rail 1;-8.4;0;21
+$Sub(321)13941
+$Sub(321).tr 1;0
+$Sub(321)13943
+$Sub(321)$Sub(10).Signal 3;FA;1.9;3.1;2
+$Sub(321)$Sub(11).SigF 34;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;2;4
+$Sub(321).freeobj 0;2052;1.9
+;==================================
+
+;========bal vágányon========
+$Sub(331)13950
+$Sub(331).railtype 0;9
+$Sub(331).rail 1;-8.4;0;24
+$Sub(331).railstart 2;-4.1;0;22
+$Sub(331).railstart 3;0;0;9
+$Sub(331).freeobj 0;1239
+$Sub(331).freeobj 2;211;-1.45
+$Sub(331)13954
+$Sub(331).freeobj 2;2031;0;0;180
+$Sub(331)13968
+$Sub(331).freeobj 2;424;1.5
+$Sub(331)13975
+$Sub(331).railtype 0;24
+$Sub(331).railtype 2;9
+$Sub(331).rail 3;-2.05
+$Sub(331).freeobj 2;211;-1.45
+$Sub(331).freeobj 2;213;-2.45
+$Sub(331)13982
+$Sub(331).freeobj 0;424;-1.5
+$Sub(331)14000
+$Sub(331).railtype 0;23
+$Sub(331).railtype 2;24
+$Sub(331).railend 3;-4.1
+$Sub(331).freeobj 2;1240;0;0;180
+$Sub(331).freeobj 2;211;-1.45
+$Sub(331).freeobj 2;213;-2.45
+$Sub(331)14025
+$Sub(331).rail 1;-8.4
+$Sub(331).freeobj 2;211;-1.45
+$Sub(331).freeobj 2;213;-2.45
+$Sub(331)14039
+$Sub(331).freeobj 2;3618
+$Sub(331).freeobj 2;3346
+$Sub(331)14050
+$Sub(331).freeobj 2;211;-1.45
+$Sub(331).freeobj 2;213;-2.45
+$Sub(331)14058
+$Sub(331).freeobj 2;3638;0;0;180
+$Sub(331).freeobj 2;3092
+$Sub(331)14075
+$Sub(331).freeobj 2;211;-1.45
+$Sub(331).freeobj 2;213;-2.45
+$Sub(331)14077
+$Sub(331).freeobj 2;3638;0;0;180
+$Sub(331).freeobj 2;3093
+$Sub(331)14096
+$Sub(331).freeobj 2;3638;0;0;180
+$Sub(331).freeobj 2;3094
+$Sub(331)14099
+$Sub(331).tr 1;0
+$Sub(331)14100
+$Sub(331).rail 1;-8.4;0;23
+$Sub(331).freeobj 1;1263,;AVR
+$Sub(331).freeobj 2;211;-1.45
+$Sub(331).freeobj 2;213;-2.45
+$Sub(331)14101
+$Sub(331)$Sub(10).Signal 4;141A;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 33;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;0;3;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)14115
+$Sub(331).freeobj 2;3638;0;0;180
+$Sub(331).freeobj 2;3095
+$Sub(331)14125
+$Sub(331).rail 1;-8.4;0;9
+$Sub(331).freeobj 1;1238
+$Sub(331).freeobj 0;212;-1.45
+$Sub(331).freeobj 2;212;-1.45
+$Sub(331).freeobj 2;214;-2.45
+$Sub(331)14134
+$Sub(331).freeobj 2;3617;0;0;180
+$Sub(331).freeobj 2;3347
+$Sub(331)14140
+$Sub(331).freeobj 2;2052;2.0
+$Sub(331).freeobj 2;2073;2.0;2.0
+$Sub(331)14142
+$Sub(331).freeobj 2;424;-1.5
+$Sub(331)14150
+$Sub(331).railtype 0;24
+$Sub(331).rail 1;-8.4;0;23
+$Sub(331).rail 2;-4.1;0;9
+$Sub(331)14158
+$Sub(331).freeobj 1;424;1.5
+$Sub(331)14174
+$Sub(331).freeobj 0;404;1.7;1.8
+$Sub(331)14175
+$Sub(331).rail 2;-4.1;0;24
+$Sub(331).freeobj 2;1237;0;0;180
+$Sub(331).freeobj 2;1263;0.69,;AVR
+$Sub(331)14200
+$Sub(331).freeobj 2;1235
+$Sub(331).rail 1;-8.4;0;183
+$Sub(331).rail 2;-4.1;0;9
+$Sub(331).railstart 3;-4.1;0;9
+$Sub(331).tr 1;0
+$Sub(331)14202
+$Sub(331)$Sub(10).Signal 4;BA;1.9;3.1;2
+$Sub(331)$Sub(11).SigF 33;1;1.9;2.0
+$Sub(331)$Sub(11).Section 0;0;2;4
+$Sub(331).freeobj 0;2052;1.9
+$Sub(331)14218
+$Sub(331).freeobj 0;424;-1.5
+$Sub(331)14225
+$Sub(331).railtype 0;9
+$Sub(331).rail 1;-7.983;0;183
+$Sub(331).rail 2;-4.1;0;9
+$Sub(331).rail 3;-2.05;0;9
+$Sub(331)14234
+$Sub(331).freeobj 2;424;1.8
+$Sub(331)14238
+$Sub(331).freeobj 1;424;1.5
+$Sub(331)14250
+$Sub(331).railtype 0;23
+$Sub(331).rail 1;-6.733;0;9
+$Sub(331).rail 2;-4.945;0;9
+$Sub(331).railend 3;0;0;9
+$Sub(331).freeobj 0;1235;0;0;180,;35
+$Sub(331).freeobj 0;1264;-4.945;0;-181.95,;íves sín
+$Sub(331).freeobj 0;1263,;AVR
+$Sub(321)14275
+$Sub(321).Height 0.3
+$Sub(331).rail 1;-5.067;0;181
+$Sub(331).railend 2;-5.067;0;9
+$Sub(331).freeobj 1;1234;0;0;180.955,;34esváltó
+$Sub(331).freeobj 0;1263,;AVR
+$Sub(321)14300
+$Sub(321).Height 1.5
+$Sub(331).rail 1;-3.817;0;182
+$Sub(331).wall 0;1;12
+$Sub(331).wall 1;-1;12
+$Sub(331).freeobj 1;1262;0;0;181.91,;AVR750-es
+$Sub(331).freeobj 0;1263,;AVR
+;==========bal vágányon vége==================
+
+;=====Fo bal - Á kihúzó - Á bal==========
+$Sub(330)13950
+$Sub(330).railtype 0;9
+$Sub(330).rail 1;-8.4;0;24
+$Sub(330).railstart 2;0;0;9
+$Sub(330).railstart 3;-4.1;0;22
+$Sub(330).freeobj 2;1239
+$Sub(330).freeobj 3;211;-1.45
+$Sub(330).curve -152.780;0
+$Sub(330).wallend 0
+$Sub(330).wall 2;1;10
+$Sub(330)13954
+$Sub(330).freeobj 3;2031;0;0;180
+$Sub(330)13968
+$Sub(330).freeobj 3;424;1.5
+$Sub(330)13975
+$Sub(330).rail 1;-6.35
+$Sub(330).rail 2;2.05;0;24
+$Sub(330).rail 3;-2.05;0;9
+$Sub(330).freeobj 3;211;-1.45
+$Sub(330).freeobj 3;213;-2.45
+$Sub(330).curve 152.780;0
+$Sub(330)13982
+$Sub(330).freeobj 2;424;-1.5
+$Sub(330)14000
+$Sub(330).curve 0;0
+$Sub(330).rail 1;-4.3;0;0
+$Sub(330).rail 2; 4.1;0;23
+$Sub(330).railend 3; 0.0;0;9
+$Sub(330).railtype 0;24
+$Sub(330).wall 1;-1;10
+$Sub(330).wall 2;1;10
+$Sub(330).freeobj 0;211;-1.45
+$Sub(330).freeobj 0;213;-2.45
+$Sub(330).freeobj 2;1240;-4.1;0;180
+$Sub(330)14025
+$Sub(330).freeobj 0;211;-1.45
+$Sub(330).freeobj 0;213;-2.45
+$Sub(330)14050
+$Sub(330).freeobj 0;211;-1.45
+$Sub(330).freeobj 0;213;-2.45
+$Sub(330)14075
+$Sub(330).freeobj 0;211;-1.45
+$Sub(330).freeobj 0;213;-2.45
+$Sub(330)14100
+$Sub(330).rail 1;-4.3;0;23
+$Sub(330).freeobj 1;1263,;AVR
+$Sub(330).freeobj 0;211;-1.45
+$Sub(330).freeobj 0;213;-2.45
+$Sub(330)14101
+$Sub(330).freeobj 2;2052;1.9
+$Sub(330).freeobj 2;2073;1.9;2.0
+$Sub(330)14125
+$Sub(330).limit 40;0
+$Sub(330).rail 1;-4.3;0;9
+$Sub(330).freeobj 1;1238
+$Sub(330).freeobj 2;212;-1.45
+$Sub(330).freeobj 0;212;-1.45
+$Sub(330).freeobj 0;214;-2.45
+$Sub(330)14142
+$Sub(330).freeobj 0;424;-1.5
+$Sub(330).tr 1;0
+$Sub(330)14144
+$Sub(330)$Sub(10).Signal 2;CA;1.9;3.0;2
+$Sub(330)$Sub(11).SigF 33;1;1.9;2.0
+$Sub(330)$Sub(11).Section 0;0;1
+$Sub(330).freeobj 0;2052;1.9
+$Sub(330)14150
+$Sub(330).railtype 0;9
+$Sub(330).rail 1;-4.3;0;23
+$Sub(330).rail 2; 4.1;0;24
+$Sub(330)14158
+$Sub(330).freeobj 1;424;1.5
+$Sub(330)14174
+$Sub(330).freeobj 2;404;1.7;1.8
+$Sub(330)14175
+$Sub(330).railtype 0;24
+$Sub(330).rail 2; 4.1;0;24
+$Sub(330).freeobj 0;1237;0;0;180
+$Sub(330).freeobj 0;1263;0.69,;AVR
+$Sub(330)14200
+$Sub(330).railtype 0;9
+$Sub(330).curve 152.780;0
+$Sub(330).rail 1;-4.3;0;183
+$Sub(330).rail 2; 4.1;0;24
+$Sub(330).railstart 3;0;0;9
+$Sub(330).freeobj 3;1235
+$Sub(330)14202
+$Sub(330).freeobj 2;2052;1.9
+$Sub(330).freeobj 2;2073;1.9;2.0
+$Sub(330)14218
+$Sub(330).freeobj 2;424;-1.5
+$Sub(330)14225
+$Sub(330).curve -152.780;0
+$Sub(330).rail 1;-5.933;0;183
+$Sub(330).rail 2; 2.05;0;9
+$Sub(330).rail 3;-2.05;0;9
+$Sub(330)14234
+$Sub(330).freeobj 3;424;1.8
+$Sub(330)14238
+$Sub(330).freeobj 1;424;1.5
+$Sub(330)14250
+$Sub(330).curve 0;0
+$Sub(330).wallend 2
+$Sub(330).wall 0;1;10
+$Sub(330).railtype 0;23
+$Sub(330).rail 1;-6.733;0;9
+$Sub(330).rail 3;-4.945;0;9
+$Sub(330).railend 2; 0.0;0;9
+$Sub(330).freeobj 0;1235;0;0;180
+$Sub(330).freeobj 0;1264;-4.945;0;-181.95,;íves sín
+$Sub(330).freeobj 0;1263,;AVR
+$Sub(330)14275
+$Sub(330).rail 1;-5.067;0;181
+$Sub(330).railend 3;-5.067;0;9
+$Sub(330).freeobj 1;1234;0;0;180.955,;34esváltó
+$Sub(330).freeobj 0;1263,;AVR
+$Sub(330)14300
+$Sub(330).limit 80;0
+$Sub(330).rail 1;-3.817;0;182
+$Sub(330).wall 0;1;12
+$Sub(330).wall 1;-1;12
+$Sub(330).freeobj 1;1262;0;0;181.91,;AVR750-es
+$Sub(330).freeobj 0;1263,;AVR
+;======Á kihúzóból vége========
+
+$Sub(321)14316
+$Sub(321).tr 1;0
+$Sub(321)14318
+$Sub(321)$Sub(10).Signal 2;139A;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 42;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)14322
+$Sub(321).freeobj 0;404;1.7;1.7
+;========Á========
+$Sub(321)14325
+$Sub(321).ground 0
+$Sub(321).freeobj 1;1261;0;0;180.955,;AVR750-es
+$Sub(321).rail 1;-3.4
+$Sub(321).wallend 0
+$Sub(321).wallend 1
+$Sub(321).railtype 0;29
+$Sub(321).railtype 1;25
+$Sub(321).pitch -3
+$Sub(321)14336
+$Sub(321).freeobj 0;207,;oszlop
+$Sub(321)14349
+$Sub(321).freeobj 1;200;0;0;180
+$Sub(321)14350
+$Sub(321).railtype 0;26
+$Sub(321).freeobj 1;205;0;0;180
+$Sub(321)14354
+$Sub(321).freeobj 0;2108; 4.6
+$Sub(321)14358
+$Sub(321).freeobj 1;2111;-2.9
+$Sub(321)14370
+$Sub(321).freeobj 0;207,;oszlop
+$Sub(321)14374
+$Sub(321).freeobj 1;200;0;0;180
+$Sub(321)14375
+$Sub(321).freeobj 1;204;0;0;180
+$Sub(321)14378
+$Sub(321).freeobj 0;2107; 4.9
+$Sub(321)14382
+$Sub(321).freeobj 1;2112;-3.2
+$Sub(321)14399
+$Sub(321).freeobj 1;200;0;0;180
+$Sub(321)14400
+$Sub(321).freeobj 1;203;0;0;180
+$Sub(321)14401
+$Sub(321).freeobj 0;2105; 4.8
+$Sub(321)14405
+$Sub(321).freeobj 1;2113;-2.9
+$Sub(321).freeobj 0;207,;oszlop
+$Sub(321)14419
+$Sub(321).freeobj 0;2106; 4.9
+$Sub(321).freeobj 1;2112;-3.1
+$Sub(321)14424
+$Sub(321).freeobj 1;200;0;0;180
+$Sub(321)14425
+$Sub(321).railtype 1;28
+$Sub(321).freeobj 1;202;0;0;180
+$Sub(321)14439
+$Sub(321).freeobj 0;207,;oszlop
+$Sub(321)14441
+$Sub(321)$Sub(11).Section 4
+$Sub(321)14444
+$Sub(321).freeobj 1;2114;-2.7
+$Sub(321)14445
+$Sub(321).freeobj 0;2108; 4.7
+$Sub(321)14446
+$Sub(321).freeobj 0;400
+$Sub(321)14449
+$Sub(321).freeobj 1;200;0;0;180
+$Sub(321).freeobj 1;201;0;0;180
+$Sub(321)14449.20
+$Sub(321)$Sub(11).freeobj 0;2301;2.8;3.76
+;======================
+$Sub(321)14450
+$Sub(321).wall 0;1;11
+$Sub(321).wall 1;-1;11
+$Sub(321).railtype 0;20
+$Sub(321).railtype 1;21
+$Sub(321).marker $Sub(3)\markers\16Ah.bmp;125
+$Sub(321).pitch -2
+$Sub(321)14454
+$Sub(321).tr 1;0
+$Sub(321)14456
+$Sub(321)$Sub(10).Signal 4;137;1.9;3.1;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321).freeobj 0;465;1.65;0.9
+$Sub(321)14475
+$Sub(321).pitch -4
+$Sub(321).wall 0;1;10
+$Sub(321).wall 1;-1;10
+$Sub(321)14500
+$Sub(321).pitch -8
+$Sub(321)14516
+$Sub(321).freeobj 0;413;1.7;1.8
+$Sub(321)14600
+$Sub(321).pitch -12
+$Sub(321)14700
+$Sub(321).pitch -4
+$Sub(321)14725
+$Sub(321).pitch 4
+$Sub(321)14750
+$Sub(321).pitch 12.8
+$Sub(321)14775
+$Sub(321).tr 1;0
+$Sub(321)14777
+$Sub(321)$Sub(10).Signal 4;135;1.9;3.1;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)14825
+$Sub(321).pitch 6
+$Sub(321)14850
+$Sub(321).pitch -1
+$Sub(321)14860
+$Sub(321).freeobj 0;416;1.7;1.8
+$Sub(321)14875
+$Sub(321).pitch -6
+$Sub(321)14900
+$Sub(321).freeobj 0;411;1.7;1.8
+$Sub(321)14925
+$Sub(321).pitch -8
+$Sub(321)14966
+$Sub(321).tr 1;0
+$Sub(321)14968
+$Sub(321)$Sub(10).Signal 4;133Do;1.9;3.1;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;0;3;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)15000
+$Sub(321).curve 2000;14
+$Sub(321).railtype 0;161
+$Sub(321).railtype 1;162
+$Sub(321).pitch -12
+$Sub(321)15055
+$Sub(321).freeobj 0;404;1.7;1.8
+$Sub(321)15075
+$Sub(321).curve 0;0
+$Sub(321).railtype 0;20
+$Sub(321).railtype 1;21
+$Sub(321)15085
+$Sub(321).tr 1;0
+$Sub(321)15087
+$Sub(321)$Sub(10).Signal 3;131Do;1.9;3.1;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)15100
+$Sub(321).rail 1;-3.4;0;160
+$Sub(321).pitch -10
+$Sub(321)15125
+$Sub(321).curve -2000;12
+$Sub(321).railtype 0;159
+$Sub(321).rail 1;-3.6;0;160
+$Sub(321)15150
+$Sub(321).rail 1;-3.9;0;160
+$Sub(321).pitch -8
+$Sub(321)15175
+$Sub(321).rail 1;-4.15;0;21
+$Sub(321)15200
+$Sub(321).pitch -4
+$Sub(321).curve 0;0
+$Sub(321).railtype 0;20
+$Sub(321).rail 1;-4.3;0;21
+$Sub(321).wall 0;1;12
+$Sub(321).wall 1;-1;12
+$Sub(321)15213
+$Sub(321).tr 1;0
+$Sub(321)15215
+$Sub(321)$Sub(10).Signal 2;129Do;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 22;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)15218
+$Sub(321).freeobj 0;404;1.7;1.0
+;======Dó=====
+$Sub(321)15225
+$Sub(321).wallend 0
+$Sub(321).wallend 1
+$Sub(321).railtype 0;29
+$Sub(321).railtype 1;25
+$Sub(321).pitch -3
+$Sub(321)15226
+$Sub(321).freeobj 0;232;0;0;0
+$Sub(321)15231
+$Sub(321).freeobj 1;3606
+$Sub(321).freeobj 1;3691
+$Sub(321).freeobj 1;3338
+$Sub(321)15249
+$Sub(321).freeobj 1;225;0;0;180
+$Sub(321)15250
+$Sub(321).railtype 0;26
+$Sub(321).freeobj 1;230;0;0;180
+$Sub(321)15251
+$Sub(321).freeobj 0;232;0;0;0
+$Sub(321).freeobj 0;233;0;0;0
+$Sub(321)15255
+$Sub(321).freeobj 0;2108; 4.7
+$Sub(321)15262
+$Sub(321).freeobj 1;2114;-2.1
+$Sub(321)15269
+$Sub(321).freeobj 1;3635;0;0;180
+$Sub(321).freeobj 1;3076;0;0;180
+$Sub(321)15274
+$Sub(321).freeobj 1;225;0;0;180
+$Sub(321)15275
+$Sub(321).freeobj 1;229;0;0;180
+$Sub(321)15276
+$Sub(321).freeobj 0;232;0;0;0
+$Sub(321).freeobj 0;233;0;0;0
+$Sub(321)15284
+$Sub(321).freeobj 0;2106; 4.9
+$Sub(321)15288
+$Sub(321).freeobj 1;3635;0;0;180
+$Sub(321).freeobj 1;3077;0;0;180
+$Sub(321)15290
+$Sub(321).freeobj 1;2111;-2.3
+$Sub(321)15299
+$Sub(321).freeobj 1;225;0;0;180
+$Sub(321)15300
+$Sub(321).freeobj 1;228;0;0;180
+$Sub(321)15301
+$Sub(321).freeobj 1;231;0;0;180
+$Sub(321).freeobj 1;231;22.8;0;180
+$Sub(321).freeobj 0;232;0;0;0
+$Sub(321).freeobj 0;233;0;0;0
+$Sub(321)15307
+$Sub(321).freeobj 1;3635;0;0;180
+$Sub(321).freeobj 1;3078;0;0;180
+$Sub(321)15312
+$Sub(321).freeobj 0;2105; 4.9
+$Sub(321)15315
+$Sub(321).freeobj 1;2112;-2.2
+$Sub(321)15324
+$Sub(321).freeobj 1;225;0;0;180
+$Sub(321)15325
+$Sub(321).railtype 1;28
+$Sub(321).freeobj 1;227;0;0;180
+$Sub(321).freeobj 0;232;0;0;0
+$Sub(321).freeobj 0;233;0;0;0
+$Sub(321)15326
+$Sub(321).freeobj 1;3635;0;0;180
+$Sub(321).freeobj 1;3079;0;0;180
+$Sub(321)15341
+$Sub(321)$Sub(11).Section 4
+$Sub(321)15344
+$Sub(321).freeobj 1;2114;-2.3
+$Sub(321)15345
+$Sub(321).freeobj 0;2107; 5.0
+$Sub(321).freeobj 1;3605;0;0;180
+$Sub(321).freeobj 1;3339;0;0;180
+$Sub(321)15346
+$Sub(321).freeobj 0;400
+$Sub(321)15349
+$Sub(321).freeobj 1;226;0;0;180
+$Sub(321).freeobj 1;225;0;0;180
+$Sub(321)15349.40
+$Sub(321)$Sub(11).freeobj 0;2301;2.5;3.76
+;=====================
+$Sub(321)15350
+$Sub(321).wall 0;1;11
+$Sub(321).wall 1;-1;11
+$Sub(321).railtype 0;20
+$Sub(321).railtype 1;21
+$Sub(321).marker $Sub(3)\markers\15Do.bmp;125
+$Sub(321)15354
+$Sub(321).tr 1;0
+$Sub(321)15356
+$Sub(321)$Sub(10).Signal -2;127;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 12;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321).freeobj 0;465;1.65;0.9
+$Sub(321)15375
+$Sub(321).wall 0;1;10
+$Sub(321).wall 1;-1;10
+$Sub(321).rail 1;-4.3;0;170
+$Sub(321)15400
+$Sub(321).rail 1;-4.269;0;170
+$Sub(321)15425
+$Sub(321).rail 1;-4.175;0;21
+$Sub(321)15450
+$Sub(321).rail 1;-4.025;0;169
+$Sub(321)15475
+$Sub(321).rail 1;-3.931;0;169
+$Sub(321).pitch -4
+$Sub(321)15490
+$Sub(321).freeobj 0;413;1.7;1.7
+$Sub(321)15500
+$Sub(321).rail 1;-3.9;0;21
+$Sub(321)15550
+$Sub(321).pitch -1
+$Sub(321)15575
+$Sub(321).pitch 3
+$Sub(321)15623
+$Sub(321).tr 1;0
+$Sub(321)15625
+$Sub(321)$Sub(10).Signal -2;125E;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 12;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;0;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)15675
+$Sub(321).railtype 1;20
+$Sub(321)15695
+$Sub(321).freeobj 0;416;1.7;1.7
+$Sub(321)15750
+$Sub(321).freeobj 0;411;1.7;1.7
+$Sub(321)15800
+$Sub(321).pitch 2
+$Sub(321)15825
+$Sub(321).railtype 0;21
+$Sub(321).rail 1;-3.9;0;9
+$Sub(321).railstart 4;-3.9;0;9
+$Sub(321).freeobj 1;1232
+$Sub(321)15833
+$Sub(321).tr 1;0
+$Sub(321)15835
+$Sub(321)$Sub(10).Signal 4;BE;1.9;3.1;2
+$Sub(321)$Sub(11).SigF 33;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)15840
+$Sub(321).freeobj 0;424;-1.5
+$Sub(321)15850
+$Sub(321).railtype 0;9
+$Sub(321).rail 1;-3.9;0;20
+$Sub(321).rail 4;-1.95
+$Sub(321)15860
+$Sub(321).freeobj 1;424;1.5
+$Sub(321)15875
+$Sub(321).railtype 0;21
+$Sub(321).rail 1;-3.9
+$Sub(321).railend 4;0;0;20
+$Sub(321).freeobj 0;1232;0;0;180
+$Sub(321)15885
+$Sub(321).freeobj 0;404;1.7;1.7
+$Sub(321)15900
+$Sub(321).rail 1;-3.9;0;141
+$Sub(321).railstart 4;0;0;9
+$Sub(321).railtype 0;9
+$Sub(321)15925
+$Sub(321).rail 1;-4.35;0;141
+$Sub(321).rail 4;-1.65
+$Sub(321).freeobj 0;1231
+$Sub(321)15930
+$Sub(321).freeobj 1;424;1.5
+$Sub(321)15948
+$Sub(321).freeobj 0;424;-1.6
+$Sub(321)15950
+$Sub(321).railtype 0;21
+$Sub(321).rail 1;-5.7;0;9
+$Sub(321).rail 4;-3.6
+$Sub(321).wall 0;1;10
+$Sub(321).freeobj 0;261
+$Sub(321).freeobj 4;262
+$Sub(321)15975
+$Sub(321).railtype 0;20
+$Sub(321).rail 1;-7.5;0;9
+$Sub(321).rail 4;-6.9
+$Sub(321).freeobj 1;1230;0;0;180
+$Sub(321).wall 0;0;12
+$Sub(321).wall 4;1;12
+$Sub(321)15988
+$Sub(321).freeobj 0;414;1.7;1.2
+$Sub(321)15990
+$Sub(321).tr 1;0
+$Sub(321)15992
+$Sub(321)$Sub(10).Signal 2;123E;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 42;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)15998
+$Sub(321).freeobj 0;404;1.7;1.8
+;======É=====
+$Sub(321)16000
+$Sub(321).pitch -3
+$Sub(321).wallend 0
+$Sub(321).wallend 1
+$Sub(321).wallend 4
+$Sub(321).railtype 0;27
+$Sub(321).rail 1;-9.3;0;26
+$Sub(321).railend 4;-9.3
+$Sub(321).freeobj 0;255
+$Sub(321)16001
+$Sub(321).freeobj 0;260
+$Sub(321)16006
+$Sub(321).freeobj 1;3602
+$Sub(321).freeobj 1;3691
+$Sub(321)16015
+$Sub(321).freeobj 0;270;-05.525
+$Sub(321)16025
+$Sub(321).railtype 0;25
+$Sub(321).freeobj 0;254
+$Sub(321).freeobj 0;259
+$Sub(321).freeobj 0;270;-05.525
+$Sub(321).rail 1;-10.62
+$Sub(321)16030
+$Sub(321).freeobj 1;2118; 4.8
+$Sub(321)16031
+$Sub(321).freeobj 0;2103;-2.9
+$Sub(321)16042
+$Sub(321).freeobj 0;270;-05.525
+$Sub(321)16044
+$Sub(321).freeobj 1;3633;0;0;180
+$Sub(321)16050
+$Sub(321).rail 1;-11.05
+$Sub(321).freeobj 0;270;-05.525
+$Sub(321)16052
+$Sub(321).freeobj 0;2102;-2.3
+$Sub(321)16053
+$Sub(321).freeobj 1;2116; 4.7
+$Sub(321)16063
+$Sub(321).freeobj 1;3633;0;0;180
+$Sub(321)16074
+$Sub(321).freeobj 0;270;-05.525
+$Sub(321).freeobj 0;2104;-2.2
+$Sub(321)16075
+$Sub(321).freeobj 1;253;0;0;180
+$Sub(321)16076
+$Sub(321).freeobj 1;2117; 4.6
+$Sub(321)16082
+$Sub(321).freeobj 1;3633;0;0;180
+$Sub(321).freeobj 0;270;-05.525
+$Sub(321)16093
+$Sub(321).freeobj 0;2101;-2.3
+$Sub(321)16095
+$Sub(321).freeobj 1;2115; 4.8
+$Sub(321)16099
+$Sub(321).freeobj 0;270;-05.525
+$Sub(321)16100
+$Sub(321).rail 1;-11.05
+$Sub(321).freeobj 1;252;0;0;180
+$Sub(321)16101
+$Sub(321).freeobj 1;3633;0;0;180
+$Sub(321)16109
+$Sub(321).freeobj 0;270;-05.525
+$Sub(321)16116
+$Sub(321)$Sub(11).Section 4
+$Sub(321)16119
+$Sub(321).freeobj 1;2118; 4.6
+$Sub(321)16120
+$Sub(321).freeobj 0;2102;-2.4
+$Sub(321).freeobj 1;3603;0;0;180
+$Sub(321)16121
+$Sub(321).freeobj 0;400
+$Sub(321)16124
+$Sub(321).freeobj 1;251;0;0;180
+$Sub(321)16124.40
+$Sub(321)$Sub(11).freeobj 0;2301;-2.55;3.76
+;=====================
+$Sub(321)16125
+$Sub(321).wall 0;0;11
+$Sub(321).wall 1;0;11
+$Sub(321).railtype 0;20
+$Sub(321).railtype 1;21
+$Sub(321).marker $Sub(3)\markers\14E.bmp;125
+$Sub(321)16129
+$Sub(321).tr 1;0
+$Sub(321)16131
+$Sub(321)$Sub(10).Signal 4;121;1.9;3.1;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;2;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321).freeobj 0;453;1.65;0.9
+$Sub(321)16150
+$Sub(321).wall 0;0;10
+$Sub(321).wall 1;0;10
+$Sub(321).curve -1000;18
+$Sub(321).railtype 0;151
+$Sub(321)16180
+$Sub(321).freeobj 0;413;1.7;2.2
+$Sub(321)16200
+$Sub(321).curve 0;0
+$Sub(321).railtype 0;20
+$Sub(321).pitch -9
+$Sub(321)16225
+$Sub(321).pitch -15
+$Sub(321).freeobj 0;439;1.7;2.1
+$Sub(321).freeobj 0;430;1.7;1.6
+$Sub(321).Limit 70;0
+$Sub(321).marker $Sub(3)\markers\lassu70m.bmp;100
+$Sub(321).wallend 1
+$Sub(321).railend 1
+$Sub(321).wall 0;0;16
+;==mély kezdet==
+$Sub(321)16250
+$Sub(321).wall 0;0;0
+$Sub(321).freeobj 0;745
+$Sub(321).curve 1000;21
+$Sub(321).railtype 0;153
+$Sub(321).pitch -20
+$Sub(321)16275
+$Sub(321).pitch -25
+$Sub(321)16285
+$Sub(321).freeobj 0;411;1.9;2.0
+$Sub(321).freeobj 0;416;1.9;1.5
+$Sub(321)16300
+$Sub(321).pitch -30
+$Sub(321)16483
+$Sub(321).tr 1;0
+$Sub(321)16485
+$Sub(321)$Sub(10).Signal 4;119M;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;0;3;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)16510
+$Sub(321).freeobj 0;422;2.0;1.8
+$Sub(321)16525
+$Sub(321).curve 0;0
+$Sub(321).railtype 0;20
+$Sub(321)16658
+$Sub(321).freeobj 0;404;1.9;1.8
+$Sub(321)16683
+$Sub(321).tr 1;0
+$Sub(321)16685
+$Sub(321)$Sub(10).Signal 3;117M;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)16750
+$Sub(321).pitch -20
+$Sub(321).freeobj 0;430;2.2;2;180
+$Sub(321).Limit 80;0
+$Sub(321).marker $Sub(3)\markers\lassu_vege.bmp;50
+$Sub(321)16775
+$Sub(321).pitch -10
+$Sub(321)16796
+$Sub(321).freeobj 0;414;1.9;1.5
+$Sub(321)16800
+$Sub(321).pitch -3
+$Sub(321).wall 0;0;2
+$Sub(321)16812
+$Sub(321).tr 1;0
+$Sub(321)16814
+$Sub(321)$Sub(10).Signal 2;115M;1.9;2.9;2
+$Sub(321)$Sub(11).SigF 22;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2
+$Sub(321).freeobj 0;2052;1.9
+;======M=====
+$Sub(321)16825
+$Sub(321).wallend 0
+$Sub(321).railtype 0;27
+$Sub(321).freeobj 0;275
+$Sub(321).freeobj 0;276
+$Sub(321).freeobj 0;281
+$Sub(321)16830
+$Sub(321).freeobj 0;282
+$Sub(321)16835
+$Sub(321).freeobj 0;282
+$Sub(321)16840
+$Sub(321).freeobj 0;282
+$Sub(321)16845
+$Sub(321).freeobj 0;282
+$Sub(321)16850
+$Sub(321).railtype 0;25
+$Sub(321).freeobj 0;275
+$Sub(321).freeobj 0;277
+$Sub(321).freeobj 0;282
+$Sub(321)16855
+$Sub(321).freeobj 0;282
+$Sub(321)16856
+$Sub(321).freeobj 0;2104;-3.2
+$Sub(321)16860
+$Sub(321).freeobj 0;282
+$Sub(321)16865
+$Sub(321).freeobj 0;282
+$Sub(321)16870
+$Sub(321).freeobj 0;282
+$Sub(321)16875
+$Sub(321).freeobj 0;275
+$Sub(321).freeobj 0;278
+$Sub(321).freeobj 0;282
+$Sub(321)16880
+$Sub(321).freeobj 0;282
+$Sub(321)16885
+$Sub(321).freeobj 0;282
+$Sub(321)16887
+$Sub(321).freeobj 0;2101;-3.0
+$Sub(321)16890
+$Sub(321).freeobj 0;282
+$Sub(321)16895
+$Sub(321).freeobj 0;282
+$Sub(321).freeobj 0;2102;-5.0
+$Sub(321)16896
+$Sub(321).freeobj 0;2103;-10.0
+$Sub(321)16900
+$Sub(321).freeobj 0;275
+$Sub(321).freeobj 0;279
+$Sub(321).freeobj 0;282
+$Sub(321)16904
+$Sub(321).freeobj 0;2102;-3.2
+$Sub(321)16905
+$Sub(321).freeobj 0;282
+$Sub(321)16906
+$Sub(321).freeobj 0;2101;-5.8
+$Sub(321)16907
+$Sub(321).freeobj 0;2102;-11.0
+$Sub(321)16910
+$Sub(321).freeobj 0;282
+$Sub(321)16915
+$Sub(321).freeobj 0;282
+$Sub(321)16920
+$Sub(321).freeobj 0;282
+$Sub(321)16924
+$Sub(321).freeobj 0;2104;-3.1
+$Sub(321)16925
+$Sub(321).freeobj 0;275
+$Sub(321).freeobj 0;280
+$Sub(321).freeobj 0;282
+$Sub(321).freeobj 0;2102;-5.2
+$Sub(321)16926
+$Sub(321).freeobj 0;2103;-10.5
+$Sub(321)16930
+$Sub(321).freeobj 0;282
+$Sub(321)16935
+$Sub(321).freeobj 0;282
+$Sub(321)16940
+$Sub(321).freeobj 0;282
+$Sub(321)16942
+$Sub(321)$Sub(11).Section 4
+$Sub(321)16945
+$Sub(321).freeobj 0;283
+$Sub(321).freeobj 0;2101;-2.9
+$Sub(321)16947
+$Sub(321).freeobj 0;400
+$Sub(321)16948.45
+$Sub(321)$Sub(11).freeobj 0;2301;-2.35;3.43
+;================================
+$Sub(321)16950
+$Sub(321).wall 0;0;1
+$Sub(321).railtype 0;20
+$Sub(321).marker $Sub(3)\markers\13M.bmp;125
+$Sub(321)16954
+$Sub(321).tr 1;0
+$Sub(321)16956
+$Sub(321)$Sub(10).Signal 4;113;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;3;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321).freeobj 0;464;1.6;1.0
+$Sub(321)16975
+$Sub(321).wall 0;0;0
+$Sub(321)17025
+$Sub(321).curve -500;50
+$Sub(321).railtype 0;129
+$Sub(321)17075
+$Sub(321).pitch -1
+$Sub(321)17100
+$Sub(321).pitch 2
+$Sub(321).freeobj 0;413;1.9;1.8
+$Sub(321)17175
+$Sub(321).pitch 3
+$Sub(321)17290
+$Sub(321).freeobj 0;416;1.9;1.8
+$Sub(321)17300
+$Sub(321).curve 0;0
+$Sub(321).railtype 0;20
+$Sub(321)17323
+$Sub(321).tr 1;0
+$Sub(321)17325
+$Sub(321)$Sub(10).Signal 4;111;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;3;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)17350
+$Sub(321).freeobj 0;411;1.9;1.8
+$Sub(321)17493
+$Sub(321).tr 1;0
+$Sub(321)17495
+$Sub(321)$Sub(10).Signal 4;109A;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)17578
+$Sub(321).freeobj 0;404;1.9;1.8
+$Sub(321)17600
+$Sub(321).pitch 1
+$Sub(321)17625
+$Sub(321).pitch -3
+$Sub(321)17650
+$Sub(321).wall 0;0;2
+$Sub(321)17664
+$Sub(321).freeobj 0;414;1.9;1.1
+$Sub(321)17666
+$Sub(321).tr 1;0
+$Sub(321)17668
+$Sub(321)$Sub(10).Signal 2;107A;1.9;2.9;2
+$Sub(321)$Sub(11).SigF 22;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2
+$Sub(321).freeobj 0;2052;1.9
+;=======A======
+$Sub(321)17675
+$Sub(321).wallend 0
+$Sub(321).railtype 0;27
+$Sub(321).freeobj 0;300
+$Sub(321).freeobj 0;301
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17680
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17685
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17690
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17695
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17700
+$Sub(321).railtype 0;25
+$Sub(321).freeobj 0;300
+$Sub(321).freeobj 0;302
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17705
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17706
+$Sub(321).freeobj 0;2103;-3.0
+$Sub(321)17710
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17715
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17720
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17725
+$Sub(321).freeobj 0;300
+$Sub(321).freeobj 0;303
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;2104;-3.0
+$Sub(321)17730
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17735
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17740
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17745
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;306;-7.80
+$Sub(321).freeobj 0;306;-12.90
+$Sub(321).freeobj 0;306;-17.90
+$Sub(321)17750
+$Sub(321).freeobj 0;300
+$Sub(321).freeobj 0;304
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;306;-7.80
+$Sub(321).freeobj 0;306;-12.90
+$Sub(321).freeobj 0;306;-17.90
+$Sub(321)17752
+$Sub(321).freeobj 0;2102;-3.3
+$Sub(321)17755
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;306;-7.80
+$Sub(321).freeobj 0;306;-12.90
+$Sub(321).freeobj 0;306;-17.90
+$Sub(321)17760
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;306;-7.80
+$Sub(321).freeobj 0;306;-12.90
+$Sub(321).freeobj 0;306;-17.90
+$Sub(321)17765
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;306;-7.80
+$Sub(321).freeobj 0;306;-12.90
+$Sub(321).freeobj 0;306;-17.90
+$Sub(321)17770
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;306;-7.80
+$Sub(321).freeobj 0;306;-12.90
+$Sub(321).freeobj 0;306;-17.90
+$Sub(321).freeobj 0;2104;-3.1
+$Sub(321)17772
+$Sub(321).freeobj 0;2102;-5.2
+$Sub(321)17774
+$Sub(321).freeobj 0;2103;-10.5
+$Sub(321)17775
+$Sub(321).freeobj 0;300
+$Sub(321).freeobj 0;305
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;306;-17.90
+$Sub(321)17780
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;306;-17.90
+$Sub(321)17785
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17788
+$Sub(321)$Sub(11).Section 4
+$Sub(321)17790
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321)17793
+$Sub(321).freeobj 0;400
+$Sub(321)17795
+$Sub(321).freeobj 0;306;-2.80
+$Sub(321).freeobj 0;2101;-2.9
+$Sub(321)17797
+$Sub(321)$Sub(11).freeobj 0;2301;-2.35;3.31;-90
+;================================
+$Sub(321)17800
+$Sub(321).ground 30
+$Sub(321).wall 0;0;1
+$Sub(321).railtype 0;20
+$Sub(321).marker $Sub(3)\markers\12A.bmp;125
+$Sub(321)17806
+$Sub(321).tr 1;0
+$Sub(321)17808
+$Sub(321)$Sub(10).Signal -4;105;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;3;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321).freeobj 0;460;1.6;1.0
+$Sub(321)17825
+$Sub(321).wall 0;0;0
+$Sub(321).curve 1500;14
+$Sub(321).railtype 0;157
+$Sub(321)17875
+$Sub(321).curve 0;0
+$Sub(321).railtype 0;20
+$Sub(321).pitch -1
+$Sub(321)17883
+$Sub(321).freeobj 0;413;1.9;1.8
+$Sub(321)17900
+$Sub(321).pitch 4
+$Sub(321)17950
+$Sub(321).curve -1500;17
+$Sub(321).railtype 0;155
+$Sub(321)18000
+$Sub(321).curve 0;0
+$Sub(321).railtype 0;20
+$Sub(321)18045
+$Sub(321).freeobj 0;416;1.9;1.8
+$Sub(321)18107
+$Sub(321).freeobj 0;411;1.9;1.8
+$Sub(321)18153
+$Sub(321).tr 1;0
+$Sub(321)18155
+$Sub(321)$Sub(10).Signal 3;KDe;1.9;3.0;2
+$Sub(321)$Sub(11).SigF 13;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2;4
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321).freeobj 0;425;2.05;1.1
+$Sub(321)18200
+$Sub(321).pitch 3
+$Sub(321)18215
+$Sub(321).freeobj 0;404;1.9;1.8
+$Sub(321)18225
+$Sub(321).railstart 2;-6.7;0;9
+$Sub(321).wall 2;0;0
+$Sub(321)18250
+$Sub(321).railtype 0;9
+$Sub(321).wall 0;1;0
+$Sub(321).wall 2;-1;0
+$Sub(321).freeobj 0;534
+$Sub(321).rail 2;-06.548;0;9
+$Sub(321)18259
+$Sub(321).freeobj 0;424;-1.7
+$Sub(321)18275
+$Sub(321).railtype 0;9
+$Sub(321).railstart 1;-24.87;0;21
+$Sub(321).rail 2;-01.548;0;9
+$Sub(321).freeobj 0;1227;0;0;180
+$Sub(321)18300
+$Sub(321).wall 0;0;2
+$Sub(321).wallend 2
+$Sub(321).railtype 0;20
+$Sub(321).railend 2;0;0;9
+$Sub(321)18313
+$Sub(321).tr 1;0
+$Sub(321)18315
+$Sub(321)$Sub(10).Signal 2;101De;1.9;2.9;2
+$Sub(321)$Sub(11).SigF 42;1;1.9;2.0
+$Sub(321)$Sub(11).Section 0;0;2
+$Sub(321).freeobj 0;2052;1.9
+$Sub(321)18320
+$Sub(321).freeobj 0;433;-1.9;2.1;180
+$Sub(321).freeobj 0;430;-1.9;1.6;180
+$Sub(321).freeobj 0;427;-1.9;1.1;180
+
+;=====összekötő - O jelzőtől=====
+;===M2-M3 közös===
+$Sub(320)17618
+$Sub(320).tr 1;0
+$Sub(320)17620
+$Sub(10)$Sub(320).Signal 3;O;-1.85;3.0;2
+$Sub(11)$Sub(320).SigF 13;1;-1.85;1.95
+$Sub(11)$Sub(320).Section 0;0;2
+$Sub(320).freeobj 0;2053;-1.85
+$Sub(320)17625
+$Sub(320).pitch 3
+$Sub(320).curve 350;0
+$Sub(320).railtype 0;73
+$Sub(320)17700
+$Sub(320).pitch 12
+$Sub(320)17725
+$Sub(320).pitch 27
+$Sub(320)17750
+$Sub(320).pitch 40
+$Sub(320)17825
+$Sub(320).curve 0;0
+$Sub(320).railtype 0;0
+$Sub(320).wall 0;0;0
+$Sub(320)17850
+$Sub(320).curve -800;0
+$Sub(320).railtype 0;91
+$Sub(320)17925
+$Sub(320).curve 0;0
+$Sub(320).railtype 0;0
+$Sub(320)17942
+$Sub(320).freeobj 0;444;2.3;2;180
+$Sub(320)17975
+$Sub(320).pitch 27
+$Sub(320).freeobj 0;434;-1.90;2.0;180
+$Sub(320).freeobj 0;431;-1.90;1.5;180
+$Sub(320)17998
+$Sub(320).freeobj 0;414;1.8;2
+$Sub(320)18000
+$Sub(320).pitch 12
+$Sub(320).railtype 0;4
+$Sub(320).Accuracy 2
+$Sub(320)18024
+$Sub(320).freeobj 0;2063;-1.85;2.0;180
+$Sub(320).freeobj 0;2052;-1.85;0.0;180
+$Sub(320)18025
+$Sub(320).pitch 3
+$Sub(320).freeobj 0;544
+$Sub(320).railtype 0;15
+$Sub(320)18027
+$Sub(320).freeobj 0;414;-1.9;1.4;180
+$Sub(320)18050
+$Sub(320).freeobj 0;544
+$Sub(320).freeobj 0;430;-2.0;1.8;180
+$Sub(320)18062
+$Sub(320).freeobj 0;443;2.3;2;180
+$Sub(320)18075
+$Sub(320).freeobj 0;544
+$Sub(320)18100
+$Sub(320).freeobj 0;544
+$Sub(320)18125
+$Sub(320).freeobj 0;544
+$Sub(320)18150
+$Sub(320).freeobj 0;544
+$Sub(320)18175
+$Sub(320).freeobj 0;544
+;===M2-M3 közös===
+;===M3 Deák kihúzó==
+$Sub(320)18192
+$Sub(320).tr 1;0
+$Sub(320)18194
+$Sub(10)$Sub(320).Signal 3;LDE;1.85;3.0;2
+$Sub(11)$Sub(320).SigF 33;1;1.85;1.95
+$Sub(11)$Sub(320).Section 0;0;1
+$Sub(320).freeobj 0;2052;1.85
+$Sub(320)18198
+$Sub(320).freeobj 0;433;1.85;2.0;0
+$Sub(320)18200
+$Sub(320).curve 202.077;0
+$Sub(320).railtype 0;9
+$Sub(320).railstart 1;-12.435;0;21
+$Sub(320).railstart 8; 12.435;0;9
+$Sub(320).railstart 9; 0;0;9
+$Sub(320).wall 0;1;0
+$Sub(320).wall 1;0;0
+$Sub(320).wall 8;0;0
+$Sub(320).wall 9;-1;0
+$Sub(320)18225
+$Sub(320).rail 1;-13.893;0;21
+$Sub(320).rail 8; 10.887;0;9
+$Sub(320).rail 9;-03.096;0;9
+$Sub(320).freeobj 0;1159;-1.548;0;-10.590
+$Sub(320).wall 0;0;122
+$Sub(320).wall 9;0;121
+$Sub(320)18230
+$Sub(320).freeobj 9;424;2.1
+$Sub(320)18238
+$Sub(320).freeobj 0;531;0;0;-12
+$Sub(320)18250
+$Sub(320).curve -202.077;0
+$Sub(320).freeobj 0;430;1.95;1.9;0
+$Sub(320).Limit 20;0
+$Sub(320).rail 1;-18.653;0;9
+$Sub(320).rail 8; 06.217;0;9
+$Sub(320).rail 9;-12.435;0;9
+$Sub(320).wall 0;-1;0
+$Sub(320).wall 1;-1;0
+$Sub(320).wall 8;1;0
+$Sub(320).wall 9;1;0
+$Sub(320).marker BpM3\markers\lassu20m.bmp;100
+$Sub(320).freeobj 9;533;-0.75
+$Sub(320).freeobj 0;535
+$Sub(320)18259
+$Sub(320).freeobj 8;424;-1.7
+$Sub(320)18274
+$Sub(320).freeobj 8;532
+$Sub(320)18275
+$Sub(320).railtype 0;9
+$Sub(320).rail 1;-23.322;0;9
+$Sub(320).rail 8; 01.548;0;9
+$Sub(320).rail 9;-21.774;0;9
+$Sub(320).wall 9;1;0
+$Sub(320).freeobj 8;1157;0;0;180
+$Sub(320).freeobj 1;1158;0;0;179.8
+$Sub(320)18300
+$Sub(320).curve 0;0
+$Sub(320).railtype 0;20
+$Sub(320).rail 1;-24.87;0;21
+$Sub(320).rail 8;0;0;4
+$Sub(320).rail 9;-24.87;0;9
+$Sub(320).wallend 8
+$Sub(320).wallend 9
+$Sub(320).railend 8
+$Sub(320).railend 9
+$Sub(320).wall 0;0;0
+$Sub(320).wall 1;0;0
+$Sub(320).Limit 80;0
+$Sub(320)18313
+$Sub(320).tr 1;0
+$Sub(320)18315
+$Sub(320)$Sub(10).Signal 2;101De;1.9;2.9;2
+$Sub(320)$Sub(11).SigF 42;1;1.9;2.0
+$Sub(320)$Sub(11).Section 0;0;2
+$Sub(320).freeobj 0;2052;1.9
+$Sub(320)18320
+$Sub(320).freeobj 0;433;-1.9;2.1;180
+$Sub(320).freeobj 0;430;-1.9;1.6;180
+$Sub(320).freeobj 0;427;-1.9;1.1;180
+$Sub(320).marker BpM3\markers\lassu_vege.bmp;25
+;===M3 Deák===összekötő vége===tovább M3===
+
+;======De=====
+18325
+.ground 0
+.wallend 0
+.railtype 0;27
+.rail 1;-24.87;0;26
+.freeobj 0;600
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;611
+18330
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+18335
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+18340
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+18345
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+18350
+.railtype 0;25
+.freeobj 0;600
+.freeobj 1;605;0;0;180
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+18355
+.freeobj 0;606;-4.0
+.freeobj 0;606;-20.87
+.freeobj 0;2103;-2.8
+18358
+.freeobj 0;2101;-3.9
+18360
+.freeobj 0;606;-4.0
+.freeobj 0;606;-20.87
+18365
+.freeobj 0;606;-4.0
+.freeobj 0;2102;-3.9
+18370
+.freeobj 0;606;-4.0
+18375
+.freeobj 0;600
+.freeobj 0;606;-4.0
+.freeobj 0;613
+18380
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;2104;-3.5
+18385
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+18390
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+18395
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+.freeobj 0;2101;-2.7
+.freeobj 0;2116;-16.1
+18400
+.freeobj 0;600
+.freeobj 1;603;0;0;180
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+18405
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+18410
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+.freeobj 0;2101;-4.2
+18414
+.freeobj 0;2102;-9.1
+18415
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+.freeobj 0;2117;-15.6
+18416
+.freeobj 0;2102;-3.6
+18420
+.freeobj 0;606;-4.0
+.freeobj 0;606;-9.623
+.freeobj 0;606;-15.247
+.freeobj 0;606;-20.87
+18425
+.freeobj 0;600
+.freeobj 1;602;0;0;180
+.freeobj 0;606;-4.0
+.freeobj 0;606;-20.87
+.freeobj 0;615
+18430
+.freeobj 0;606;-4.0
+.freeobj 0;606;-20.87
+.freeobj 0;2101;-3.5
+18435
+.freeobj 0;606;-4.0
+18440
+.freeobj 0;606;-4.0
+18442
+$Sub(11).Section 4
+.freeobj 0;2102;-3.3
+18445
+.freeobj 0;606;-4.0
+.freeobj 0;2103;-2.5
+18447
+.freeobj 0;400
+18449.90
+$Sub(11).freeobj 0;2301;-2.8;3.46
+;=====================
+18450
+.wall 0;0;1
+.wall 1;0;1
+.railtype 0;20
+.marker $Sub(3)\markers\11De.bmp;125
+18457
+.tr 1;0
+18459
+$Sub(10).Signal -4;99;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+.freeobj 0;462;1.6;1.0
+18475
+.railend 1
+.wall 0;0;0
+18484
+.freeobj 0;421;2.0;1.8
+18515
+.freeobj 0;413;1.9;1.8
+18525
+.pitch 0
+18550
+.pitch -4
+18575
+.pitch -11.15
+18600
+.curve -450;55,.railtype 0;125
+18710
+.freeobj 0;416;1.9;1
+18733
+.tr 1;0
+18735
+$Sub(10).Signal -4;97;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+18750,.pitch -11.5
+18758,.freeobj 0;411;1.9;1.0
+18760,.freeobj 0;422;1.9;1.9
+18886
+.freeobj 0;404;1.75;0.6
+18888
+.tr 1;0
+18890
+$Sub(10).Signal 3;95Ft;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2052;1.9
+18900
+.curve 0;0
+.railtype 0;20
+18950
+.pitch -8
+18975
+.pitch -6
+.wall 0;0;2
+18990
+.tr 1;0
+18992
+$Sub(10).Signal 2;93Ft;1.9;2.9;2
+$Sub(11).SigF 12;1;1.9;2.0
+$Sub(11).Section 0;0;2
+.freeobj 0;2052;1.9
+;======Ft=====
+19000
+.pitch -3
+.wallend 0
+.railtype 0;27
+.freeobj 0;625,.freeobj 0;626
+.freeobj 0;631;-4.0
+19005
+.freeobj 0;631;-4.0
+19010
+.freeobj 0;631;-4.0
+19015
+.freeobj 0;631;-4.0
+19020
+.freeobj 0;631;-4.0
+19025
+.railtype 0;25
+.freeobj 0;625,.freeobj 0;627
+.freeobj 0;631;-4.0
+19030
+.freeobj 0;631;-4.0
+19035
+.freeobj 0;631;-4.0
+.freeobj 0;2104;-3.5
+19040
+.freeobj 0;631;-4.0
+19045
+.freeobj 0;631;-4.0
+.freeobj 0;631;-10.2
+.freeobj 0;631;-16.4
+.freeobj 0;631;-22.6
+19050
+.freeobj 0;625,.freeobj 0;628
+.freeobj 0;631;-4.0
+.freeobj 0;631;-10.2
+.freeobj 0;631;-16.4
+.freeobj 0;631;-22.6
+19055
+.freeobj 0;631;-4.0
+.freeobj 0;631;-10.2
+.freeobj 0;631;-16.4
+.freeobj 0;631;-22.6
+19060
+.freeobj 0;631;-4.0
+.freeobj 0;631;-10.2
+.freeobj 0;631;-16.4
+.freeobj 0;631;-22.6
+.freeobj 0;2102;-2.4
+19065
+.freeobj 0;631;-4.0
+.freeobj 0;631;-10.2
+.freeobj 0;631;-16.4
+.freeobj 0;631;-22.6
+.freeobj 0;2117;-18.8
+19069
+.freeobj 0;2116;-17.8
+19070
+.freeobj 0;631;-4.0
+.freeobj 0;631;-22.6
+.freeobj 0;2101;-5.8
+19075
+.freeobj 0;625,.freeobj 0;629
+.freeobj 0;631;-4.0
+.freeobj 0;631;-22.6
+19080
+.freeobj 0;631;-4.0
+.freeobj 0;2104;-2.5
+19085
+.freeobj 0;631;-4.0
+19090
+.freeobj 0;631;-4.0
+19095
+.freeobj 0;631;-4.0
+.freeobj 0;2101;-3.8
+19100
+.freeobj 0;625,.freeobj 0;630
+.freeobj 0;631;-4.0
+19105
+.freeobj 0;631;-4.0
+19110
+.freeobj 0;631;-4.0
+.freeobj 0;2102;-4.2
+19115
+.freeobj 0;631;-4.0
+19117
+$Sub(11).Section 4
+19119
+.freeobj 0;2103;-3.7
+19122
+.freeobj 0;400
+19123
+$Sub(11).freeobj 0;2301;-3.5;3.46;-90
+;=====================
+19125
+.wall 0;0;1
+.railtype 0;20
+.marker $Sub(3)\markers\10Ft.bmp;125
+19131
+.tr 1;0
+19133
+$Sub(10).Signal -4;91;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;0;2;4
+.freeobj 0;2052;1.9
+.freeobj 0;456;1.6;1.0
+19150
+.wall 0;0;0
+19175
+.pitch -2
+19200
+.curve -450;47
+.railtype 0;125
+19250
+.pitch -3.53
+19303
+.tr 1;0
+19305
+$Sub(10).Signal -4;89Ka;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;0;3;4
+.freeobj 0;2052;1.9
+19335
+.freeobj 0;411;1.9;2.0,.freeobj 0;416;1.9;1.5
+19400
+.curve 0;0,.railtype 0;20
+19408
+.tr 1;0
+19410
+$Sub(10).Signal 3;87Ka;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2052;1.9
+19415
+.freeobj 0;404;1.9;1.5
+19475
+.wall 0;0;2
+19490
+.tr 1;0
+19492
+$Sub(10).Signal 2;85Ka;1.9;2.9;2
+$Sub(11).SigF 22;1;1.9;2.0
+$Sub(11).Section 0;0;2
+.freeobj 0;2052;1.9
+;======Ká=====
+19500
+.wallend 0
+.railtype 0;27
+.freeobj 0;650
+.freeobj 0;651
+.pitch -3
+.freeobj 0;656;-2.80
+19505
+.freeobj 0;656;-2.80
+19510
+.freeobj 0;656;-2.80
+19515
+.freeobj 0;656;-2.80
+19520
+.freeobj 0;656;-2.80
+19525
+.railtype 0;25
+.freeobj 0;650,.freeobj 0;652
+.freeobj 0;656;-2.80
+.freeobj 0;2104;-3.7
+19530
+.freeobj 0;656;-2.80
+.freeobj 0;656;-7.85
+.freeobj 0;656;-12.90
+.freeobj 0;656;-17.95
+.freeobj 0;656;-23.00
+19535
+.freeobj 0;656;-2.80
+.freeobj 0;656;-7.85
+.freeobj 0;656;-12.90
+.freeobj 0;656;-17.95
+.freeobj 0;656;-23.00
+19540
+.freeobj 0;656;-2.80
+.freeobj 0;656;-7.85
+.freeobj 0;656;-12.90
+.freeobj 0;656;-17.95
+.freeobj 0;656;-23.00
+19545
+.freeobj 0;656;-2.80
+.freeobj 0;656;-7.85
+.freeobj 0;656;-12.90
+.freeobj 0;656;-17.95
+.freeobj 0;656;-23.00
+.freeobj 0;2103;-8.5
+19547
+.freeobj 0;2101;-3.9
+19550
+.freeobj 0;650,.freeobj 0;653
+.freeobj 0;656;-2.80
+.freeobj 0;656;-23.00
+19555
+.freeobj 0;656;-2.80
+.freeobj 0;656;-23.00
+19560
+.freeobj 0;656;-2.80
+19565
+.freeobj 0;656;-2.80
+19570
+.freeobj 0;656;-2.80
+19575
+.freeobj 0;650,.freeobj 0;654
+.freeobj 0;656;-2.80
+.freeobj 0;2101;-3.2
+19580
+.freeobj 0;656;-2.80
+19585
+.freeobj 0;656;-2.80
+19590
+.freeobj 0;656;-2.80
+19595
+.freeobj 0;656;-2.80
+.freeobj 0;2104;-3.5
+19600
+.freeobj 0;650,.freeobj 0;655
+.freeobj 0;656;-2.80
+19605
+.freeobj 0;656;-2.80
+19610
+.freeobj 0;656;-2.80
+19615
+.freeobj 0;656;-2.80
+19616
+$Sub(11).Section 4
+.freeobj 0;2102;-3.8
+19620
+.freeobj 0;656;-2.80
+19621
+.freeobj 0;400
+19624.80
+$Sub(11).freeobj 0;2301;-3.1;3.31
+;=====================
+19625
+.wall 0;0;1
+.railtype 0;20
+.marker $Sub(3)\markers\09Ka.bmp;125
+19630
+.tr 1;0
+19632
+$Sub(10).Signal -4;83;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+.freeobj 0;468;1.6;1.0
+19650
+.wall 0;0;0
+19775
+.freeobj 0;413;1.9;1.8
+19825
+.curve 550;60
+.railtype 0;135
+19875,.pitch -3.33
+19879,.freeobj 0;416;1.9;1.8
+20000,.curve 0;0,.railtype 0;20
+20050,.pitch 2
+20075,.pitch 5.75
+20093
+.tr 1;0
+20095
+$Sub(10).Signal -4;81;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+20150
+.curve -550;60
+.railtype 0;133
+20175
+.freeobj 0;411;1.9;1.8
+20200
+.pitch 6.2
+20225
+.pitch 6.56
+20282
+.tr 1;0
+20284
+$Sub(10).Signal 3;79Fk;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2052;1.9
+20294
+.freeobj 0;404;1.9;1.8
+20325
+.curve 0;0
+.railtype 0;20
+20375
+.pitch 3
+20425
+.wall 0;0;2
+20442
+.tr 1;0
+20444
+$Sub(10).Signal 2;77Fk;1.9;2.9;2
+$Sub(11).SigF 12;1;1.9;2.0
+$Sub(11).Section 0;0;2;
+.freeobj 0;2052;1.9
+20445
+.freeobj 0;414;1.9;1.1
+;======Fk=====
+20450
+.wallend 0
+.railtype 0;27
+.freeobj 0;675,.freeobj 0;676
+.freeobj 0;681;-4.00
+20455
+.freeobj 0;681;-4.00
+20460
+.freeobj 0;681;-4.00
+.freeobj 0;681;-9.80
+.freeobj 0;681;-15.40
+20465
+.freeobj 0;681;-4.00
+.freeobj 0;681;-9.80
+.freeobj 0;681;-15.40
+.freeobj 0;681;-21.20
+20470
+.freeobj 0;681;-4.00
+.freeobj 0;681;-9.80
+.freeobj 0;681;-15.40
+.freeobj 0;681;-21.20
+20475
+.railtype 0;25
+.freeobj 0;675,.freeobj 0;677
+.freeobj 0;681;-4.00
+.freeobj 0;681;-9.80
+.freeobj 0;681;-15.40
+.freeobj 0;681;-21.20
+.freeobj 0;2103;-3.4
+20480
+.freeobj 0;681;-4.00
+.freeobj 0;681;-9.80
+.freeobj 0;681;-15.40
+.freeobj 0;681;-21.20
+.freeobj 0;2101;-3.5
+20485
+.freeobj 0;681;-4.00
+.freeobj 0;681;-9.80
+.freeobj 0;681;-15.40
+.freeobj 0;681;-21.20
+20490
+.freeobj 0;681;-4.00
+.freeobj 0;681;-9.80
+.freeobj 0;681;-15.40
+.freeobj 0;681;-21.20
+20492
+.freeobj 0;2102;-7.8
+20495
+.freeobj 0;681;-4.00
+.freeobj 0;681;-9.80
+.freeobj 0;681;-15.40
+.freeobj 0;681;-21.20
+.freeobj 0;2117;-17.8
+20500
+.freeobj 0;675,.freeobj 0;678
+.freeobj 0;681;-4.00
+.freeobj 0;681;-21.20
+.freeobj 0;2104;-3.9
+20505
+.freeobj 0;681;-4.00
+.freeobj 0;681;-21.20
+20510
+.freeobj 0;681;-4.00
+20515
+.freeobj 0;681;-4.00
+20520
+.freeobj 0;681;-4.00
+.freeobj 0;2101;-3.7
+20525
+.freeobj 0;675,.freeobj 0;679
+.freeobj 0;681;-4.00
+20530
+.freeobj 0;681;-4.00
+20535
+.freeobj 0;681;-4.00
+20539
+.freeobj 0;2104;-3.6
+20540
+.freeobj 0;681;-4.00
+20545
+.freeobj 0;681;-4.00
+20550
+.freeobj 0;675,.freeobj 0;680
+.freeobj 0;681;-4.00
+20552
+.freeobj 0;2101;-2.4
+20555
+.freeobj 0;681;-4.00
+20560
+.freeobj 0;681;-4.00
+20568
+$Sub(11).Section 4
+.freeobj 0;2102;-3.8
+20571
+$Sub(11).freeobj 0;2301;-3.4;3.46;-90
+20573
+.freeobj 0;400
+;=====================
+20575
+.wall 0;0;1
+.railtype 0;20
+.marker $Sub(3)\markers\08Fk.bmp;125
+20578
+.tr 1;0
+20580
+$Sub(10).Signal -4;75;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+.freeobj 0;460;1.6;1.0
+20600
+.wall 0;0;0
+20650
+.pitch 10
+20675
+.pitch 20
+20700
+.pitch 30
+20775
+20800
+.curve -1000;18
+.railtype 0;151
+20825
+.freeobj 0;411;1.9;2.0,.freeobj 0;416;1.9;1.5
+20843
+.tr 1;0
+20845
+$Sub(10).Signal 3;73Kl;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2052;1.9
+20875
+.curve 0;0
+.railtype 0;20
+.pitch 20
+20900
+.pitch 10
+20925
+.pitch 3
+20950
+.wall 0;0;2
+20965
+.freeobj 0;414;1.9;1.5
+20967
+.tr 1;0
+20969
+$Sub(10).Signal 2;71Kl;1.9;2.9;2
+$Sub(11).SigF 22;1;1.9;2.0
+$Sub(11).Section 0;0;2
+.freeobj 0;2052;1.9
+20973
+.freeobj 0;404;1.9;1.8
+;=====Kl=====
+20975
+.wallend 0
+.railtype 0;27
+.freeobj 0;700,.freeobj 0;701
+.freeobj 0;706;-2.80
+20980
+.freeobj 0;706;-2.80
+20985
+.freeobj 0;706;-2.80
+20990
+.freeobj 0;706;-2.80
+20995
+.freeobj 0;706;-2.80
+21000
+.railtype 0;25
+.freeobj 0;700,.freeobj 0;702
+.freeobj 0;706;-2.80
+21005
+.freeobj 0;706;-2.80
+21010
+.freeobj 0;706;-2.80
+21015
+.freeobj 0;706;-2.80
+.freeobj 0;2103;-3.6
+21020
+.freeobj 0;706;-2.80
+21025
+.freeobj 0;700,.freeobj 0;703
+.freeobj 0;706;-2.80
+21030
+.freeobj 0;706;-2.80
+21035
+.freeobj 0;706;-2.80
+21040
+.freeobj 0;706;-2.80
+21045
+.freeobj 0;706;-2.80
+.freeobj 0;706;-7.80
+21050
+.freeobj 0;700,.freeobj 0;704
+.freeobj 0;706;-2.80
+.freeobj 0;706;-7.80
+.freeobj 0;706;-12.90
+.freeobj 0;706;-17.90
+.freeobj 0;2104;-3.3
+21055
+.freeobj 0;706;-2.80
+.freeobj 0;706;-7.80
+.freeobj 0;706;-12.90
+.freeobj 0;706;-17.90
+21060
+.freeobj 0;706;-2.80
+.freeobj 0;706;-7.80
+.freeobj 0;706;-12.90
+.freeobj 0;706;-17.90
+21065
+.freeobj 0;706;-2.80
+.freeobj 0;706;-7.80
+.freeobj 0;706;-12.90
+.freeobj 0;706;-17.90
+21070
+.freeobj 0;706;-2.80
+.freeobj 0;706;-7.80
+.freeobj 0;706;-12.90
+.freeobj 0;706;-17.90
+21072
+.freeobj 0;2103;-3.7
+.freeobj 0;2116;-15.7
+21075
+.freeobj 0;700,.freeobj 0;705
+.freeobj 0;706;-2.80
+.freeobj 0;706;-17.90
+21080
+.freeobj 0;706;-2.80
+.freeobj 0;706;-17.90
+21085
+.freeobj 0;706;-2.80
+21090
+.freeobj 0;706;-2.80
+21093
+$Sub(11).Section 4
+21095
+.freeobj 0;706;-2.80
+.freeobj 0;2102;-3.8
+21096
+$Sub(11).freeobj 0;2301;-2.4;3.31;-90
+21098
+.freeobj 0;400
+;=====================
+21100
+.wall 0;0;1
+.railtype 0;20
+.marker $Sub(3)\markers\07Kl.bmp;125
+21103
+.tr 1;0
+21105
+$Sub(10).Signal -4;69;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;466;1.6;1.0
+.freeobj 0;2052;1.9
+21125
+.wall 0;0;0
+21275
+.pitch 10
+21300
+.pitch 20
+21325
+.pitch 25
+21423
+.tr 1;0
+21425
+$Sub(10).Signal -4;67;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+.pitch 30
+21475,.curve 1500;14,.railtype 0;157
+21600
+.pitch 28
+21625
+.curve 0;0,.railtype 0;20
+21675
+.curve 1000;25
+.railtype 0;153
+.pitch 30
+21700
+.ground 30
+.curve 0;0,.railtype 0;20
+.railstart 1;-5.2;0;21
+21718
+.freeobj 0;416;1.9;0.8
+.tr 1;0
+21720
+$Sub(10).Signal -4;65;1.9;3.0;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+;==mély vége===
+21725
+.wall 0;1;17
+.wall 1;-1;17
+.rail 1;-5.093;0;160
+.curve -1000;25,.railtype 0;151
+21750
+.wall 0;1;10
+.wall 1;-1;10
+.curve 0;0,.railtype 0;20
+.rail 1;-4.625;0;159
+21775,.rail 1;-4.156
+21785,.freeobj 0;411;1.7;1.8
+21800,.rail 1;-4.0;0;20
+21825,.railtype 0;21
+21875
+.curve 600;35
+.railtype 0;139
+.tr 1;0
+21877
+$Sub(10).Signal 3;63N;1.9;3.1;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2052;1.9
+21900
+.wall 0;1;10
+.wall 1;-1;10
+.freeobj 0;741,.freeobj 1;742
+.rail 1;-4.523;0;20
+21925
+.wall 0;0;10
+.wall 1;0;10
+.rail 1;-6.079;0;162
+21950
+.rail 1;-8.480;0;162
+.curve 0;0,.railtype 0;20
+21975
+.pitch 20
+.rail 1;-10.996;0;162
+22000
+.rail 1;-13.161;0;162
+.pitch 11
+22025
+.curve -1050;9
+.railtype 0;149
+.wall 0;0;12
+.rail 1;-15.013;0;21
+.pitch 7
+22041
+.tr 1;0
+22043
+$Sub(10).Signal 2;61N;1.9;3.0;2
+$Sub(11).SigF 12;1;1.9;2.0
+$Sub(11).Section 0;0;2
+.freeobj 0;2052;1.9
+22049,.freeobj 0;404;1.7;0.8
+;=====N=====
+22050
+.pitch 4
+.wallend 0
+.wallend 1
+.railtype 0;197
+.rail 1;-16.410;0;26
+.freeobj 0;726
+22051
+.freeobj 0;721;-03.20
+.freeobj 0;721;-13.25
+22056,.freeobj 1;3605,.freeobj 1;3691
+22059
+.freeobj 0;722;-03.13
+.freeobj 0;722;-13.59
+22067
+.freeobj 0;723;-03.13
+.freeobj 0;723;-13.84
+22075
+.rail 1;-17.210
+.freeobj 0;727, .freeobj 1;740;0;0;180
+22076
+.freeobj 0;721;-03.20
+.freeobj 0;721;-14.03
+22081,.freeobj 0;2104;-3.4
+22082,.freeobj 1;2117; 5.2
+22084
+.freeobj 0;722;-03.13
+.freeobj 0;722;-14.16
+22092
+.freeobj 0;723;-03.13
+.freeobj 0;723;-14.22
+22094,.freeobj 1;3636;0;0;180
+22100
+.rail 1;-17.414
+.freeobj 0;728, .freeobj 1;739;0;0;180
+22101
+.freeobj 0;721;-03.20
+.freeobj 0;721;-14.21
+.freeobj 0;2102;-3.5
+22103,.freeobj 1;2115; 5.5
+22109
+.freeobj 0;722;-03.13
+.freeobj 0;722;-14.14
+22113,.freeobj 1;3636;0;0;180
+22117
+.freeobj 0;723;-03.13
+.freeobj 0;723;-14.00
+22125
+.rail 1;-17.022
+.freeobj 0;729
+.freeobj 1;738;0;0;180
+.freeobj 0;2101;-3.7
+22126
+.freeobj 0;721;-03.20
+.freeobj 0;721;-13.79
+22127,.freeobj 1;2116; 4.8
+22132,.freeobj 1;3636;0;0;180
+22134
+.freeobj 0;722;-03.13
+.freeobj 0;722;-13.52
+22142
+.freeobj 0;723;-03.13
+.freeobj 0;723;-13.19
+22144,.freeobj 0;2103;-3.6
+22145,.freeobj 1;2115; 5.2
+22150
+.rail 1;-16.035
+.freeobj 0;730
+.freeobj 1;737;0;0;180
+22151
+.freeobj 0;721;-03.20
+.freeobj 0;721;-12.78
+.freeobj 1;3636;0;0;180
+22159
+.freeobj 0;722;-03.13
+.freeobj 0;722;-12.31
+22167
+.freeobj 0;723;-03.13
+.freeobj 0;723;-11.78
+.freeobj 1;2117; 4.9
+$Sub(11).Section 4
+22169,.freeobj 0;2104;-3.3
+22170,.freeobj 1;3606;0;0;180
+22172
+.freeobj 0;400
+22174
+.freeobj 1;736;0;0;180
+22174.40
+$Sub(11).freeobj 0;2301;-2.8;3.76
+;=============================
+22175
+.curve 0;0
+.railtype 0;9
+.railstart 3;0;0;9
+.pitch -1
+.wall 0;1;11
+.wall 1;-1;11
+.wall 3;-1;11
+.rail 1;-14.450;0;21
+.marker $Sub(3)\markers\06N.bmp;125
+22178
+$Sub(340).freeobj 0;499;1.75;1.8
+22179
+.tr 1;0
+22181
+$Sub(10).Signal -4;CN;1.9;3.1;2
+$Sub(11).SigF 34;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+.freeobj 0;465;1.7;0.5
+22200
+.rail 1;-12.565;0;9
+.railstart 2;-12.565;0;9
+.rail 3;-0.587;0;9
+.wall 0;1;10
+.wall 1;-1;10
+.wall 3;-1;10
+.freeobj 0;1225
+.freeobj 1;1226;0;0;0.717
+22225
+.railtype 0;21
+.rail 1;-10.993;0;151
+.rail 2;-9.429
+.rail 3;-2.348
+.wallend 3
+22233
+.freeobj 0;424;-1.5
+22239
+.freeobj 3;424;-1.9
+22250
+.rail 1;-10.029;0;151
+.rail 2;-4.855
+.rail 3;-4.214
+.freeobj 2;1223;0;0;180
+22273
+22275
+.rail 1;-9.728;0;21
+.rail 2;-4.85;0;19
+.railend 3;-4.85
+.freeobj 2;731,.freeobj 2;732,.freeobj 2;732;-6.25
+.freeobj 0;413;1.7;1.8
+22300
+.rail 1;-9.7;0;21
+.freeobj 2;731,.freeobj 2;732,.freeobj 2;732;-6.25
+22305
+$Sub(340).freeobj 0;431;1.75;1.0
+$Sub(340).Limit 40;0
+22325
+.freeobj 2;731,.freeobj 2;732,.freeobj 2;732;-6.25
+22350
+.freeobj 2;731,.freeobj 2;732,.freeobj 2;732;-6.25
+22375
+.freeobj 2;731,.freeobj 2;732,.freeobj 2;732;-6.25
+22400
+.curve -1000;25,.railtype 0;152
+.rail 1;-9.7
+.rail 2;-4.85;0;121
+22405
+.freeobj 2;2052;2.0
+.freeobj 2;2073;2.0;2.0
+22425
+.pitch 3
+.railtype 0;151
+.rail 1;-9.388;0;20
+.rail 2;-5.319;0;121
+22435
+.freeobj 1;424;1.6
+22450
+.curve 0;0,.railtype 0;20
+.rail 1;-8.449;0;9
+.rail 2;-6.728;0;9
+22470
+.freeobj 1;762;6
+22475
+.rail 1;-7.198;0;20
+.railend 2;-7.198
+.curve 1000;29,.railtype 0;153
+.freeobj 1;1224;0;0;180
+.freeobj 1;762;6
+22480
+.freeobj 1;762;6
+22485
+.freeobj 1;762;6
+22490
+.freeobj 1;762;6
+22495
+.freeobj 1;762;6
+22500
+.rail 1;-6.261;0;9
+.railstart 2;-6.261;0;9
+.freeobj 1;762;6
+22505
+.freeobj 1;762;6
+22510
+.freeobj 1;762;6
+22525
+.curve 0;0,.railtype 0;21
+.rail 1;-5.95;0;9
+.rail 2;-3.993;0;9
+.freeobj 1;1222
+22530
+$Sub(340).marker $Sub(3)\markers\lassu40im.bmp;352
+$Sub(340).freeobj 0;430;2.25;1.0;180
+$Sub(340).Limit 80;0
+22536
+.tr 1;0
+22538
+.freeobj 0;424;-1.6
+$Sub(10).Signal -4;59;1.9;3.1;2
+$Sub(11).SigF 33;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+22544
+.freeobj 1;424;1.6
+22550
+.railtype 0;9
+.rail 1;-5.95;0;20
+.rail 2;-1.957;0;9
+22556
+.freeobj 0;416;1.7;1.5
+22563
+.freeobj 0;422;1.8;1.7
+22575
+.railtype 0;20
+.rail 1;-5.95;0;21
+.railend 2;0
+.freeobj 0;1221;0;0;180
+22586
+.freeobj 0;411;1.7;1.7
+22638
+.freeobj 0;711
+22647
+$Sub(340).freeobj 0;423;1.8;1.8
+22767
+$Sub(340).marker $Sub(3)\markers\lassu_vege.bmp;120
+22648
+.freeobj 0;711
+22658
+.freeobj 0;711
+22668
+.freeobj 0;711
+22678
+.freeobj 0;711
+22688
+.freeobj 0;711
+22698
+.freeobj 0;711
+22700
+.freeobj 0;423;1.8;1.8
+22708
+.freeobj 0;711
+22725
+.curve -800;31,.railtype 0;141
+.rail 1;-5.95;0;21
+22733
+.tr 1;0
+22735
+$Sub(10).Signal 3;57Ko;1.9;3.1;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2052;1.9
+22750
+.rail 1;-5.560;0;152
+.pitch 5
+22755
+.freeobj 0;404;1.7;1.8
+22775
+.rail 1;-4.613;0;152
+.curve 0;0,.railtype 0;20
+.pitch 10.77
+22800
+.rail 1;-3.713;0;152
+22825
+.rail 1;-3.4;0;21
+22850
+.pitch 8
+.rail 1;-3.4;0;21
+.wall 0;1;12
+.wall 1;-1;12
+22866
+.tr 1;0
+22868
+$Sub(10).Signal 2;55Ko;1.9;3.0;2
+$Sub(11).SigF 22;1;1.9;2.0
+$Sub(11).Section 0;0;2
+.freeobj 0;2052;1.9
+;======Kö======
+22875
+.ground 0
+.wallend 0
+.wallend 1
+.railtype 0;29
+.rail 1;-3.4;0;25
+.pitch 5
+22899
+.freeobj 1;750;0;0;180
+22900
+.railtype 0;26
+.freeobj 1;755;0;0;180
+22905,.freeobj 0;2105; 4.7
+22908,.freeobj 1;2111;-2.8
+22924
+.freeobj 1;750;0;0;180
+22925
+.freeobj 1;754;0;0;180
+22927,.freeobj 0;2107; 4.8
+22937,.freeobj 1;2113;-2.9
+22949
+.freeobj 1;750;0;0;180
+.freeobj 0;2106; 4.9
+22950
+.freeobj 1;753;0;0;180
+22965,.freeobj 1;2112;-2.7
+22970,.freeobj 0;2107; 4.6
+22974
+.freeobj 1;750;0;0;180
+22975
+.railtype 1;28
+.freeobj 1;752;0;0;180
+22980,.freeobj 1;2114;-2.8
+22991
+$Sub(11).Section 4
+22995,.freeobj 0;2105; 4.7
+22996
+.freeobj 0;400
+22999
+.freeobj 1;751;0;0;180
+.freeobj 1;750;0;0;180
+22999.40
+$Sub(11).freeobj 0;2301;2.4;3.76
+;=====================
+23000
+.wall 0;1;11
+.wall 1;-1;11
+.railtype 0;20
+.railtype 1;21
+.marker $Sub(3)\markers\05Ko.bmp;125
+.pitch 8
+.curve 700;25,.railtype 0;143,.railtype 1;144
+23004
+.tr 1;0
+23006
+$Sub(10).Signal -4;53;1.9;3.1;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+.freeobj 0;465;1.65;1.0
+23025
+.wall 0;1;10
+.wall 1;-1;10
+.pitch 11.6
+23125
+.curve 0;0,.railtype 0;20,.railtype 1;21
+23150
+.curve -2500;10,.railtype 0;173,.railtype 1;174
+23175
+.pitch 9
+23200
+.pitch 5
+.freeobj 0;413;1.7;1.6
+23225
+.pitch 2.5
+23300
+.curve 0;0,.railtype 0;20,.railtype 1;21
+23456
+.freeobj 0;416;1.7;1.0
+23458
+.tr 1;0
+23460
+$Sub(10).Signal 3;51;1.9;3.1;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+23485
+.freeobj 0;422;1.8;1.6
+23525
+.freeobj 0;411;1.7;1.4,;vn
+23575
+.curve 1200;24,.railtype 0;171,.railtype 1;172
+23668
+.tr 1;0
+23670
+$Sub(10).Signal 3;49E;1.9;3.1;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2052;1.9
+23675
+.curve 0;0,.railtype 0;20,.railtype 1;21
+23695
+.freeobj 0;404;1.7;1.5
+23725
+.curve -800;27,.railtype 0;145,.railtype 1;146
+23750
+.pitch -2.6
+23800
+.wall 0;1;12
+.wall 1;-1;12
+23808
+.tr 1;0
+23810
+$Sub(10).Signal 2;47E;1.9;3.0;2
+$Sub(11).SigF 22;1;1.9;2.0
+$Sub(11).Section 0;0;2
+.freeobj 0;2052;1.9
+;=====E=====
+23825
+.curve 0;0
+.wallend 0
+.wallend 1
+.railtype 0;29
+.railtype 1;25
+23831
+.freeobj 1;3609,.freeobj 1;3691,.freeobj 1;3352
+23849
+.freeobj 1;775;0;0;180
+23850
+.railtype 0;26
+.freeobj 1;780;0;0;180
+23858,.freeobj 1;2111;-2.8
+23869
+.freeobj 1;3639;0;0;180,.freeobj 1;3104;0;0;180
+23874
+.freeobj 1;775;0;0;180
+23875
+.freeobj 1;779;0;0;180
+23876,.freeobj 0;2106; 4.9
+23888
+.freeobj 1;3639;0;0;180,.freeobj 1;3105;0;0;180
+23889,.freeobj 1;2112;-2.7
+23899
+.freeobj 1;775;0;0;180
+23900
+.freeobj 1;778;0;0;180
+23907
+.freeobj 1;3639;0;0;180,.freeobj 1;3106;0;0;180
+23917,.freeobj 1;2113;-2.9
+23919,.freeobj 0;2108; 4.6
+23924
+.freeobj 1;775;0;0;180
+23925
+.railtype 1;28
+.freeobj 1;777;0;0;180
+23926
+.freeobj 1;3639;0;0;180,.freeobj 1;3107;0;0;180
+23941
+$Sub(11).Section 4
+23942,.freeobj 0;2107; 4.7
+23945
+.freeobj 1;3608;0;0;180,.freeobj 1;3353;0;0;180
+23946
+.freeobj 0;400
+23949
+.freeobj 1;775;0;0;180
+.freeobj 1;776;0;0;180
+23949.40
+$Sub(11).freeobj 0;2301;2.4;3.76
+;======================
+23950
+.wall 0;1;11
+.wall 1;-1;11
+.railtype 0;20
+.railtype 1;21
+.marker $Sub(3)\markers\04E.bmp;125
+23954
+.tr 1;0
+23956
+$Sub(10).Signal -4;45;1.9;3.1;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+.freeobj 0;460;1.65;1.0
+23975
+.wall 0;1;10
+.wall 1;-1;10
+24005
+.freeobj 0;413;1.7;1.8
+24200
+.freeobj 0;411;1.7;1.7
+.freeobj 0;416;1.7;1.2
+24281
+.tr 1;0
+24283
+$Sub(10).Signal 3;43Po;1.9;3.1;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2052;1.9
+24370
+.freeobj 0;404;1.7;1.8
+24425
+.wall 0;1;12
+.wall 1;-1;12
+24425
+.pitch -1
+.wall 0;1;12
+.wall 1;-1;12
+24441
+.tr 1;0
+24443
+$Sub(10).Signal 2;41Po;1.9;3.0;2
+$Sub(11).SigF 22;1;1.9;2.0
+$Sub(11).Section 0;0;2
+.freeobj 0;2052;1.9
+24444
+.freeobj 0;414;1.7;1.7
+;======Pö======
+24450
+.pitch 2.74
+.wallend 0
+.wallend 1
+.railtype 0;29
+.railtype 1;25
+24474
+.freeobj 1;800;0;0;180
+24475
+.railtype 0;26
+.freeobj 1;805;0;0;180
+24485,.freeobj 1;2111;-2.8
+24499
+.freeobj 1;800;0;0;180
+24500
+.freeobj 1;804;0;0;180
+24516,.freeobj 1;2112;-2.7
+24524
+.freeobj 1;800;0;0;180
+24525
+.freeobj 1;803;0;0;180
+24541,.freeobj 0;2106; 4.9
+24549
+.freeobj 1;800;0;0;180
+24550
+.railtype 1;28
+.freeobj 1;802;0;0;180
+24566
+$Sub(11).Section 4
+24570,.freeobj 0;2108; 4.8
+24571
+.freeobj 0;400
+24574
+.freeobj 1;800;0;0;180
+.freeobj 1;801;0;0;180
+24574.40
+$Sub(11).freeobj 0;2301;2.8;3.76
+;=======================
+24575
+.wall 0;1;11
+.wall 1;-1;11
+.railtype 0;20
+.railtype 1;21
+.marker $Sub(3)\markers\03Po.bmp;125
+24579
+.tr 1;0
+24581
+$Sub(10).Signal -4;39;1.9;3.1;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+.freeobj 0;459;1.65;1.0
+24600
+.pitch -1.97
+.wall 0;1;10
+.wall 1;-1;10
+24606
+.freeobj 0;421;1.8;1.8
+24650
+.curve -500;42
+.railtype 0;129
+.railtype 1;130
+24665
+.freeobj 0;413;1.7;1.5
+24775
+.curve 0;0
+.railtype 0;20
+.railtype 1;21
+24800
+.pitch 1
+24810
+.freeobj 0;411;1.7;2.1
+.freeobj 0;416;1.7;1.6
+24825
+.pitch 3.65
+.curve 800;27
+.railtype 0;147
+.rail 1;-3.4
+24850
+.rail 1;-3.833;0;148
+24858
+.tr 1;0
+24860
+$Sub(10).Signal 3;37;1.9;3.1;2
+$Sub(11).SigF 13;1;1.9;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2052;1.9
+24875
+.rail 1;-4.649
+.freeobj 0;2021
+24900
+.rail 1;-5.460
+.freeobj 0;2021
+24925
+.rail 1;-6.115
+.freeobj 0;2021
+24950
+.curve 0;0
+.railtype 0;20
+.rail 1;-7.013;0;21
+.freeobj 0;2021
+24970
+.freeobj 0;404;1.7;1.8
+24975
+.rail 1;-7.520;0;9
+.railstart 2;-7.520;0;9
+.freeobj 0;2021
+25000
+.freeobj 1;1220;0.736;0;3.37
+.rail 1;-8.767;0;20
+.rail 2;-7.292;0;21
+.freeobj 0;2021
+25013
+.freeobj 1;424;1.6
+25025
+.rail 1;-10.748
+.rail 2;-6.313
+.wall 0;1;12
+.wall 1;-1;12
+.freeobj 0;825;0;0;0
+25028
+.tr 1;0
+25030
+$Sub(10).Signal 2;35H;1.9;3.0;2
+$Sub(11).SigF 22;1;1.9;2.0
+$Sub(11).Section 0;0;2
+.freeobj 0;2052;1.9
+;======H======
+25050
+.freeobj 0;826;0;0;0
+.pitch 3
+.wallend 0
+.wallend 1
+.railtype 0;29
+.rail 1;-12.708;0;25
+.rail 2;-5.380;0;9
+.freeobj 2;1265
+25055
+;.freeobj 1;3141;0;0;0
+25075
+.railtype 0;26
+.freeobj 0;827;0;0;0
+.rail 1;-14.271
+.rail 2;-4.882;0;25
+25085,.freeobj 1;2117; 4.9
+25093
+;.freeobj 1;3142;0;0;180
+25100
+.freeobj 0;828;0;0;0
+.rail 1;-15.315
+.rail 2;-4.879
+25109,.freeobj 1;2115; 5.2
+25112
+;.freeobj 1;3142;0;0;180
+25125
+.freeobj 0;829;0;0;0
+.rail 1;-16.096
+.rail 2;-4.993
+25127,.freeobj 1;2116; 4.8
+25131
+;.freeobj 1;3142;0;0;180
+25140,.freeobj 0;2107; 5.1
+25144,.freeobj 1;2115; 5.2
+25150
+.freeobj 0;830;0;0;0
+.railtype 0;25
+.rail 1;-16.878
+.rail 2;-5.108;0;28
+;.freeobj 1;3142;0;0;180
+25160,.freeobj 1;2117; 4.9
+25162
+$Sub(11).Section 4
+25165,.freeobj 0;2108; 4.9
+25167
+;.freeobj 1;3146;0;0;180
+25168
+.freeobj 0;400
+$Sub(11).freeobj 0;2301;8.9;3.76;90
+;=======================
+25172
+.tr 1;0
+25174
+$Sub(10).Signal -4;AH;1.9;3.1;2
+$Sub(11).SigF 44;1;1.9;2.0
+$Sub(11).Section 0;0;2;3;4
+.freeobj 0;2052;1.9
+.freeobj 0;469;1.65;0.45
+25175
+.freeobj 0;831;0;0;0
+.railtype 0;9
+.marker $Sub(3)\markers\02H.bmp;125
+.pitch 3
+.rail 1;-17.66;0;21
+.rail 2;-5.338;0;1
+.railstart 3;0;0;9
+25200
+.rail 1;-18.444;-0.1;21
+.rail 2;-6.174;0;0
+.rail 3;-1.317;0;9
+.freeobj 0;1219
+.freeobj 0;832
+25215
+.freeobj 0;424;-1.6
+25225
+.rail 1;-19.693;-0.1;21
+.rail 2;-7.333;0;9
+.rail 3;-5.311;0;9
+.railstart 4;-14.687;0;22
+.railtype 0;20
+.freeobj 0;833
+.wall 1;-1;10
+25250
+.Back 1
+.rail 1;-21.836;-0.15;21
+.rail 2;-10.685;-0.15;9
+.railend 3;-10.685;-0.15;9
+.rail 4;-15.531;-0.15;9
+.freeobj 0;834
+.freeobj 2;2021;0;-0.01
+.freeobj 2;1218;0;0;180
+25275
+.wall 0;-1;10
+.rail 1;-24.885;-0.3
+.rail 2;-16.055;-0.3
+.rail 4;-15.531;-0.3;9
+.freeobj 0;835
+.freeobj 2;2021;0;-0.02
+.freeobj 2;1215;0;0;180
+25300
+.wall 0;0;10
+.rail 1;-29.249;-0.5;20
+.rail 2;-21.424;-0.5;21
+.railend 4;-21.424;-0.5;9
+.freeobj 2;2021;0;-0.02
+25325
+.rail 1;-33.761;-0.6
+.rail 2;-27.847;-0.6
+.freeobj 2;2021;0;-0.02
+25350
+.curve -500;58
+.railtype 0;129
+.pitch 15
+.rail 1;-38.991;-0.7
+.rail 2;-34.433;-0.7
+.wall 2;1;13
+;===keretalagút vége===
+25375
+.wallend 0
+.pitch 28
+.freeobj 0;1361
+.ground 12
+.railtype 0;211
+.rail 1;-43.716;-0.9;21
+.rail 2;-39.638;-0.9
+25400
+.freeobj 0;1362
+.rail 1;-47.643;-1.025
+.rail 2;-43.600;-1.025
+25425
+.freeobj 0;1363
+.rail 1;-50.390;-1.55
+.rail 2;-46.371;-1.55
+25450
+.freeobj 0;1364
+.rail 1;-51.989;-2.325
+.rail 2;-47.985;-2.325
+25475
+.freeobj 0;1365
+.rail 1;-52.463;-3.1
+.rail 2;-48.463;-3.1
+25500
+.freeobj 0;1366
+.rail 1;-51.817;-3.875
+.rail 2;-47.811;-3.875
+25525
+.freeobj 0;1367
+.rail 1;-50.043;-4.65
+.railend 2;-46.021;-4.65
+.wallend 2
+25550
+.pitch 20
+.freeobj 0;1368
+.rail 1;-47.118;-5.375
+25575
+.pitch 12
+.freeobj 0;1369
+.rail 1;-43.034;-5.85
+25600
+.pitch 3.4
+.freeobj 0;1370
+.rail 1;-38.440;-5.92
+25619
+.tr 1;0
+25621
+$Sub(10).Signal -4;33;2.0;3.1;2
+$Sub(11).SigF 13;1;2.0;2.0
+$Sub(11).Section 0;0;2;3;3;4
+.freeobj 0;2051;2.0
+25625
+.ground 10
+.wall 0;1;31
+.wallend 1
+.pitch -6.4
+.rail 1;-33.626;-5.47;202
+.ground 11
+25650
+.rail 1;-28.598;-4.685
+.curve 0;0
+.railtype 0;31
+.freeobj 1;1358;0;0.400;182.604
+25675
+.rail 1;-23.362;-3.9
+.freeobj 1;1357;0;0.400;182.604
+25680
+.freeobj 0;2001;1.5
+.freeobj 0;413;1.5;1.8
+25700
+;-5+00 szelvény
+.rail 1;-17.849;-3.115
+.freeobj 1;1356;0;0.400;182.604
+25725
+.rail 1;-13.067;-2.33
+.freeobj 1;1355;0;0.400;182.604
+25750
+.rail 1;-9.038;-1.545
+.freeobj 1;1354;0;0.400;182.604
+25775
+.rail 1;-6.177;-0.76
+.freeobj 1;1353;0;0.2;182.604
+.ground 10
+.pitch -4
+25800
+.pitch 1.3
+.rail 1;-4.468;-0.2
+.freeobj 1;1352;0;0.0;182.604
+.freeobj 1;1392;0;0;0
+25825
+.rail 1;-3.900;0.0;32
+.freeobj 1;1351;0;-0.1;181.302
+.wall 1;-1;31
+.freeobj 0;1381;0;0;0.000
+.pitch 4.1
+25850
+.freeobj 0;1380;0;0;0.000
+25875
+.freeobj 0;1379;0;0;0.000
+25900
+.curve 650;58
+.railtype 0;213
+.rail 1; -3.900;0;204
+.wallend 1
+.freeobj 0;1378;0;0;0.000
+25913
+.tr 1;0
+25915
+$Sub(10).Signal -4;31;2.0;3.1;2
+$Sub(11).SigF 13;1;2.0;2.0
+$Sub(11).Section 0;0;2;2;3;4
+.freeobj 0;2051;2.0
+25925
+.rail 1; -4.051;0;204
+.wallend 0
+25950
+.railtype 0;214,;futáshang
+.rail 1; -4.497
+.freeobj 1;1377;0;0;178.698
+25975
+.railtype 0;213
+.rail 1; -4.766;0;204
+.wall 1;-1;33
+26000
+.wall 0; 1;31
+.rail 1; -4.855
+.freeobj 1;1376;0;0;178.698
+26025
+.rail 1; -4.766
+26050
+.rail 1; -4.497
+.freeobj 0;2001;1.8;-0.2
+.freeobj 0;416;1.8;1.6
+26075
+.rail 1; -4.051
+26100
+.curve 0;0,.railtype 0;31
+.wall 1;-1;31
+.rail 1; -3.900;0;32
+26125
+.freeobj 0;1371;0;0;0.12
+.freeobj 0;1434;-3.9;1;180
+.railstart 8;-19.9;0;2, .railstart 9; -23.9;0;3
+.wall 1;-1;51
+.wall 9;-1;31
+26200
+.freeobj 0;2001;1.8;-0.2
+.freeobj 0;411;1.8;1.6
+26292
+.tr 1;0
+26294
+$Sub(10).Signal -4;29;2.0;3.1;2
+$Sub(11).SigF 13;1;2.0;2.0
+$Sub(11).Section 0;0;0;2;3;4
+.freeobj 0;2051;2.0
+26425
+.curve 550;69,.railtype 0;203,.railtype 1;204
+.wall 9;-1;39
+26450
+.rail 8;-19.822, .rail 9;-23.822
+26475
+.rail 8;-19.262, .rail 9;-23.264
+26500
+.rail 8;-18.211, .rail 9;-22.216
+26525
+.wallend 1
+.rail 8;-16.674, .rail 9;-20.683
+26550
+.rail 8;-14.656, .rail 9;-18.671
+.wall 9;-1;31
+26565
+.tr 1;0
+26567
+$Sub(10).Signal -4;27KK;2.0;3.1;2
+$Sub(11).SigF 13;1;2.0;2.0
+$Sub(11).Section 0;0;0;3;4
+.freeobj 0;2051;2.0
+26575
+.pitch 8.5
+.rail 8;-12.214, .rail 9;-16.234
+26600
+.rail 8;-10.477,.rail 9;-14.481
+26625
+.curve 0;0,.railtype 0;31,.railtype 1;32
+.wallend 1
+.rail 1;-03.910;0;32
+.rail 8;-9.91, .rail 9;-13.91
+26675
+.curve 1050;24,.railtype 0;206
+.rail 1;-03.910
+.rail 8;-09.910
+.rail 9;-13.910
+26682
+.freeobj 0;2001;2.1;-0.2
+.freeobj 0;404;2.1;1.6
+26690
+.tr 1;0
+26692
+$Sub(10).Signal 3;25KK;2.0;3.1;2
+$Sub(11).SigF 13;1;2.0;2.0
+$Sub(11).Section 0;0;2;4
+.freeobj 0;2051;2.0
+26700
+.rail 1;-04.331
+.rail 8;-10.331
+.rail 9;-14.331
+26725
+.curve 0;0,.railtype 0;31
+.rail 1;-05.340
+.rail 8;-11.340
+.rail 9;-15.340
+26750
+.pitch 3
+.rail 1;-06.480
+.rail 8;-12.480
+.rail 9;-16.480
+26775
+.rail 1;-07.620
+.rail 8;-13.620
+.rail 9;-17.620
+26789
+$Sub(11).freeobj 8;2051;1.9
+$Sub(11).freeobj 8;2073;1.9;2.0
+$Sub(11).freeobj 9;2051;1.9
+$Sub(11).freeobj 9;2073;1.9;2.0
+26797
+.tr 1;0
+26799
+$Sub(10).Signal 2;23KK;2.0;3.0;2
+$Sub(11).SigF 22;1;2.0;2.0
+$Sub(11).Section 0;0;2
+.freeobj 0;2051;2.0
+26800
+.rail 1;-08.760
+.rail 8;-14.760
+.rail 9;-18.760
+26820
+.freeobj 0;2001;1.8;-0.2
+.freeobj 0;414;1.8;1.6
+;=====KK=====
+26825
+.railtype 0;33
+.wallend 0
+.wallend 1
+.wall 0; 1;61
+.wall 9;-1;61
+.rail 1;-09.900
+.rail 8;-15.900
+.rail 9;-19.900
+.freeobj 1;857;0;0;180
+26831
+.freeobj 1;3605,.freeobj 1;3691
+26850
+.railtype 0;31
+.rail 1;-11.040
+.rail 8;-17.040
+.rail 9;-21.040
+.freeobj 1;856;0;0;180
+.freeobj 1;3636;0;0;180
+26861,.freeobj 1;2117; 4.9
+26869
+.freeobj 1;3636;0;0;180
+26875
+.rail 1;-12.180
+.rail 8;-18.180;0;8
+.rail 9;-22.180;0;8
+.freeobj 1;855;0;0;180
+.freeobj 9;1211
+.freeobj 8;1212
+26887,.freeobj 1;2115; 5.2
+26888
+.freeobj 1;3636;0;0;180
+26900
+.rail 1;-13.320
+.rail 8;-19.320
+.rail 9;-23.320
+.freeobj 1;854;0;0;180
+26906,.freeobj 1;2116; 4.8
+26907
+.freeobj 1;3636;0;0;180
+26925
+.rail 1;-14.460
+.rail 8;-20.460;0;36
+.rail 9;-24.460;0;2
+.freeobj 1;853;0;0;180
+.freeobj 8;1211;0;0;179.10
+.freeobj 9;1212;0;0;180
+26926
+.freeobj 1;3636;0;0;180
+26936,.freeobj 1;2115; 5.2
+26940
+$Sub(11).Section 4
+26945
+.freeobj 1;2117; 4.9
+.freeobj 0;400
+.freeobj 1;3606;0;0;180
+26949
+.freeobj 1;852;0;0;180.000
+;==========================
+26950
+$Sub(11).freeobj 0;2301;-2.6;3.4
+.curve -327;29
+.pitch 0
+.rail 1;-15.600
+.rail 8;-21.209
+.rail 9;-25.600;0;36
+.railstart 4;-25.600;0;34
+.railtype 0;219
+.wall 0; 1;64
+.wall 4;-1;73
+.wallend 9
+.marker $Sub(3)\markers\01KK.bmp;125
+26951
+.tr 1;0
+26953
+.freeobj 0;860
+$Sub(10).Signal 5;HKK;2.0;3.1;2
+$Sub(11).SigF 33;1;2.0;2.0
+$Sub(11).Section 0;1
+.freeobj 0;2052;2.0
+.freeobj 0;451;1.75;0.4
+26975
+$Sub(11).freeobj 1;851;0;0;179.12
+$Sub(10).freeobj 1;881;0;0;179.12
+$Sub(10).freeobj 1;882;0;0;179.12
+.rail 1;-15.793
+.rail 8;-20.620;0;34
+.rail 9;-24.695
+.rail 4;-25.799
+.wall 4;-1;74
+27000
+.curve 0;0
+.railtype 0;31
+.wall 0; 1;62
+.wall 9;-1;76
+.wallend 4
+.rail 1;-13.775;0;8
+.railend 8;-16.019
+.rail 9;-18.962
+.railend 4;-24.218
+.freeobj 0;2001;1.8;-0.2
+.freeobj 0;414;1.8;1.6
+
+;=====Kőbánya 2 kihúzóba=====
+$Sub(302)27025
+$Sub(302).railtype 0;8
+$Sub(302).rail 1;-9.800;0;8
+$Sub(302).rail 3;0;0;8
+$Sub(302).rail 9;-13.764
+$Sub(302).railstart 2;-9.800;0;8
+$Sub(302).freeobj 1;1208;0;0;180
+$Sub(302).wallend 0
+$Sub(302).wall 3; 1;62
+$Sub(302).wall 9;-1;72
+$Sub(302)27050,;3300
+$Sub(302).freeobj 0;1205
+$Sub(302).freeobj 2;1206
+$Sub(302).rail 1;-5.385;0;8
+$Sub(302).rail 2;-4.760;0;8
+$Sub(302).rail 3; 0.665;0;8
+$Sub(302).rail 9;-9.949;0;36
+$Sub(302).wall 3; 1;77
+$Sub(302)27058
+$Sub(302).freeobj 1;424;2.75
+$Sub(302)27075
+$Sub(302).railtype 0;8
+$Sub(302).curve 543.861;0
+$Sub(302).wallend 3
+$Sub(302).wallend 9
+$Sub(302).rail 1;-2.300;0;8
+$Sub(302).rail 2; 0.200;0;8
+$Sub(302).rail 3; 2.377;0;8
+$Sub(302).rail 9;-7.100;0;36
+$Sub(302)27088
+$Sub(302).freeobj 9;1391;7.2;0;180
+$Sub(302)27097
+$Sub(302).freeobj 1;424;2.4
+$Sub(302)27100
+$Sub(302).wall 3; 1;32
+$Sub(302).wall 9;-1;75
+$Sub(302).rail 1;-0.575;0;8
+$Sub(302).rail 2; 3.650;0;8
+$Sub(302).rail 3; 4.225;0;8
+$Sub(302).rail 9;-5.375;0;36
+$Sub(302).freeobj 0;1204;-0.575;0;181.317
+$Sub(302).freeobj 3;1203;0;0;180
+;===1 kihúzó peron===
+$Sub(302)27125
+$Sub(302).curve 0;0
+$Sub(302).railtype 0;32
+$Sub(302).freeobj 0;404;1.4;1.6
+$Sub(302).freeobj 0;861;2.40;0
+$Sub(302).freeobj 0;866; 1.5;0
+$Sub(302).railend 1;0.000;0;8
+$Sub(302).railend 2;4.800;0;8
+$Sub(302).rail 3;4.800;0;32
+$Sub(302).rail 9;-4.800;0;36
+$Sub(302)27130
+$Sub(302)27150
+$Sub(302).railtype 0;8
+$Sub(302).rail 9;-4.800;0;35
+$Sub(302).freeobj 0;861;2.40;0
+$Sub(302).freeobj 0;866; 1.5;0
+$Sub(302).freeobj 0;1202
+$Sub(302).railstart 4;0;0;8
+$Sub(302)27170
+$Sub(302).freeobj 9;424;1.5
+$Sub(302)27175
+$Sub(302).railtype 0;32
+$Sub(302).rail 9;-4.800;0;8
+$Sub(302).freeobj 0;861;2.40;0
+$Sub(302).freeobj 3;866;-1.5;0
+$Sub(302).rail 4;-2.4;0;8
+$Sub(302)27180
+$Sub(302).freeobj 0;424;-1.5
+$Sub(302)27190
+$Sub(302).freeobj 0;404;-2.5;1.7
+;===2-3 kihúzó peron===
+$Sub(302)27200
+$Sub(302).curve -800;7
+$Sub(302).railtype 0;222
+$Sub(302).rail 3; 4.8;0;222
+$Sub(302).railend 4;-4.8;0;8
+$Sub(302).rail 9;-4.8;0;221
+$Sub(302).freeobj 0;862;0;0;180.895
+$Sub(302).freeobj 0;863;2.40;0
+$Sub(302).freeobj 9;863;2.40;0
+$Sub(302).freeobj 9;1201;0;0;180.895
+$Sub(302).freeobj 0;867;-1.5
+$Sub(302).freeobj 0;867; 1.5
+$Sub(302).freeobj 3;867;-1.5
+$Sub(302).freeobj 9;867; 1.5
+$Sub(302)27205
+$Sub(302);.freeobj 9;3131;0.04;0;-0.200
+$Sub(302)27225
+$Sub(302).freeobj 0;863;2.40;0
+$Sub(302).freeobj 9;863;2.40;0
+$Sub(302).freeobj 0;867;-1.5
+$Sub(302).freeobj 0;867; 1.5
+$Sub(302).freeobj 3;867;-1.5
+$Sub(302).freeobj 9;867; 1.5
+$Sub(302)27243
+$Sub(302);.freeobj 9;3132;0.04;0;180.200
+$Sub(302)27250
+$Sub(302).rail 3; 4.800;0;8
+$Sub(302).freeobj 0;863;2.40;0
+$Sub(302).freeobj 9;863;2.40;0
+$Sub(302).freeobj 0;867;-1.5
+$Sub(302).freeobj 0;867; 1.5
+$Sub(302).freeobj 9;867; 1.5
+$Sub(302).freeobj 3;1281
+$Sub(302)27262
+$Sub(302);.freeobj 9;3132;0.04;0;180.700
+$Sub(302)27269
+$Sub(302).freeobj 3;400
+$Sub(302)27275
+$Sub(302).curve 0;0
+$Sub(302).railtype 0;32
+$Sub(302).rail 9;-4.800;0;36
+$Sub(302).freeobj 0;861;2.40;0
+$Sub(302).freeobj 9;861;2.40;0
+$Sub(302).freeobj 0;866;-1.5
+$Sub(302).freeobj 0;866; 1.5
+$Sub(302).freeobj 3;866;-1.5
+$Sub(302).freeobj 9;866; 1.5
+$Sub(302)27281
+$Sub(302);.freeobj 9;3132;0.04;0;180.5
+$Sub(302)27299
+$Sub(302).freeobj 3;2012,;1es bak
+$Sub(302)27300
+$Sub(302).railtype 0;8
+$Sub(302).rail 9;-4.800;0;8
+$Sub(302).freeobj 0;861;2.40;0
+$Sub(302).freeobj 9;861;2.40;0
+$Sub(302).wallend 3
+$Sub(302).wallend 9
+$Sub(302);.freeobj 9;3132;0.04;0;180
+$Sub(302)27306
+$Sub(302).freeobj 0;400
+$Sub(302)27307
+$Sub(302).tr 1;0
+$Sub(302)27313
+$Sub(302).freeobj 0;2011,;2es bak
+$Sub(302)$Sub(11).buffer
+$Sub(302)27317
+$Sub(302).freeobj 3;871
+$Sub(302)27319
+$Sub(302).freeobj 9;400
+$Sub(302);.freeobj 9;3136;0.04;0;180
+$Sub(302)27324
+$Sub(302).freeobj 0;872
+$Sub(302)$Sub(10).signal 2;Z2KK;0;-1
+$Sub(302)27325
+$Sub(302).freeobj 9;861;2.40;0
+$Sub(302)$Sub(11).SigF 11;1;0;0.0
+$Sub(302)$Sub(11).Section 0;4
+$Sub(302)27329
+$Sub(302).freeobj 9;2011,;3as bak
+$Sub(302)27335
+$Sub(302).freeobj 9;873
+$Sub(302)27350
+$Sub(302).freeobj 0;875
+$Sub(302).railend 3
+$Sub(302).railend 9
+;=====Kőbánya 2 kihúzóba vége=====
+
+;=====Kőbánya 3 kihúzóba=====
+$Sub(303)27025
+$Sub(303).railtype 0;8
+$Sub(303).rail 1;-9.800;0;8
+$Sub(303).rail 3;0;0;8
+$Sub(303).rail 9;-13.764
+$Sub(303).railstart 2;-9.800;0;8
+$Sub(303).freeobj 1;1208;0;0;180
+$Sub(303).wallend 0
+$Sub(303).wall 3; 1;62
+$Sub(303).wall 9;-1;72
+$Sub(303)27050,;3300
+$Sub(303).freeobj 0;1205
+$Sub(303).freeobj 2;1206
+$Sub(303).rail 1;-5.385;0;8
+$Sub(303).rail 2;-4.760;0;8
+$Sub(303).rail 3; 0.665;0;8
+$Sub(303).rail 9;-9.949;0;36
+$Sub(303).wall 3; 1;77
+$Sub(303)27058
+$Sub(303).freeobj 1;424;2.75
+$Sub(303)27075
+$Sub(303).railtype 0;8
+$Sub(303).curve 543.861;0
+$Sub(303).wallend 3
+$Sub(303).wallend 9
+$Sub(303).rail 1;-2.300;0;8
+$Sub(303).rail 2; 0.200;0;8
+$Sub(303).rail 3; 2.377;0;8
+$Sub(303).rail 9;-7.100;0;36
+$Sub(303)27088
+$Sub(303).freeobj 9;1391;7.2;0;180
+$Sub(303)27097
+$Sub(303).freeobj 1;424;2.4
+$Sub(303)27100
+$Sub(303).wall 3; 1;32
+$Sub(303).wall 9;-1;75
+$Sub(303).rail 1;-0.575;0;8
+$Sub(303).rail 2; 3.650;0;8
+$Sub(303).rail 3; 4.225;0;8
+$Sub(303).rail 9;-5.375;0;36
+$Sub(303).freeobj 0;1204;-0.575;0;181.317
+$Sub(303).freeobj 3;1203;0;0;180
+;===1 kihúzó peron===
+$Sub(303)27125
+$Sub(303).curve 0;0
+$Sub(303).railtype 0;32
+$Sub(303).freeobj 0;404;1.4;1.6
+$Sub(303).freeobj 0;861;2.40;0
+$Sub(303).freeobj 0;866; 1.5;0
+$Sub(303).railend 1;0.000;0;8
+$Sub(303).railend 2;4.800;0;8
+$Sub(303).rail 3;4.800;0;32
+$Sub(303).rail 9;-4.800;0;36
+$Sub(303)27130
+$Sub(303)27150
+$Sub(303).curve -130.607;0
+$Sub(303).railstart 4;0;0;8
+$Sub(303).rail 9;-4.800;0;35
+$Sub(303).railtype 0;8
+$Sub(303).freeobj 4;861;2.40;0
+$Sub(303).freeobj 4;866; 1.5;0
+$Sub(303).freeobj 4;1202
+$Sub(303)27170
+$Sub(303).freeobj 9;424;1.5
+$Sub(303)27175
+$Sub(303).curve 130.607;0
+$Sub(303).railtype 4;32
+$Sub(303).rail 3; 7.2;0;32
+$Sub(303).rail 4; 2.4;0;32
+$Sub(303).rail 9;-2.400;0;8
+$Sub(303).freeobj 4;861;2.40;0
+$Sub(303).freeobj 3;866;-1.5;0
+$Sub(303)27180
+$Sub(303).freeobj 4;424;-1.5
+$Sub(303)27190
+$Sub(303).freeobj 4;404;-2.5;1.7
+;===2-3 kihúzó peron===
+$Sub(303)27200
+$Sub(303).curve -800;7
+$Sub(303).railtype 0;221
+$Sub(303).rail 3;9.6;0;222
+$Sub(303).rail 4;4.8;0;222
+$Sub(303).railend 9;0;0;8
+$Sub(303).wallend 9
+$Sub(303).wall 0;-1;75
+$Sub(303).freeobj 4;862;0;0;180.895
+$Sub(303).freeobj 4;863;2.40;0
+$Sub(303).freeobj 0;863;2.40;0
+$Sub(303).freeobj 0;1201;0;0;180.895
+$Sub(303).freeobj 4;867;-1.5
+$Sub(303).freeobj 4;867; 1.5
+$Sub(303).freeobj 3;867;-1.5
+$Sub(303).freeobj 0;867; 1.5
+$Sub(303)27205
+$Sub(303);.freeobj 4;3131;0.04;0;-0.200
+$Sub(303)27225
+$Sub(303).freeobj 4;863;2.40;0
+$Sub(303).freeobj 0;863;2.40;0
+$Sub(303).freeobj 4;867;-1.5
+$Sub(303).freeobj 4;867; 1.5
+$Sub(303).freeobj 3;867;-1.5
+$Sub(303).freeobj 0;867; 1.5
+$Sub(303)27243
+$Sub(303);.freeobj 4;3132;0.04;0;180.200
+$Sub(303)27250
+$Sub(303).rail 3; 9.600;0;8
+$Sub(303).freeobj 4;863;2.40;0
+$Sub(303).freeobj 0;863;2.40;0
+$Sub(303).freeobj 4;867;-1.5
+$Sub(303).freeobj 4;867; 1.5
+$Sub(303).freeobj 0;867; 1.5
+$Sub(303).freeobj 3;1281
+$Sub(303)27262
+$Sub(303);.freeobj 4;3132;0.04;0;180.700
+$Sub(303)27269
+$Sub(303).freeobj 3;400
+$Sub(303)27275
+$Sub(303).curve 0;0
+$Sub(303).railtype 0;36
+$Sub(303).rail 4; 4.800;0;32
+$Sub(303).freeobj 4;861;2.40;0
+$Sub(303).freeobj 0;861;2.40;0
+$Sub(303).freeobj 4;866;-1.5
+$Sub(303).freeobj 4;866; 1.5
+$Sub(303).freeobj 3;866;-1.5
+$Sub(303).freeobj 0;866; 1.5
+$Sub(303).freeobj 3;1281
+$Sub(303)27281
+$Sub(303);.freeobj 4;3132;0.04;0;180.5
+$Sub(303)27299
+$Sub(303).freeobj 3;2012,;1es bak
+$Sub(303)27300
+$Sub(303).railtype 0;8
+$Sub(303).railtype 4;8
+$Sub(303).freeobj 4;861;2.40;0
+$Sub(303).freeobj 0;861;2.40;0
+$Sub(303).wallend 3
+$Sub(303).wallend 0
+$Sub(303);.freeobj 4;3132;0.04;0;180
+$Sub(303)27306
+$Sub(303).freeobj 4;400
+$Sub(303)27313
+$Sub(303).freeobj 4;2011,;2es bak
+$Sub(303)27317
+$Sub(303).freeobj 3;871
+$Sub(303)27319
+$Sub(303).freeobj 0;400
+$Sub(303);.freeobj 0;3136;0.04;0;180
+$Sub(303)27321
+$Sub(303).tr 1;0
+$Sub(303)27324
+$Sub(303).freeobj 4;872
+$Sub(303)27325
+$Sub(303).freeobj 0;861;2.40;0
+$Sub(303)27329
+$Sub(303).freeobj 0;2011,;3as bak
+$Sub(303)$Sub(11).buffer
+$Sub(303)27335
+$Sub(303).freeobj 0;873
+$Sub(303)27337
+$Sub(303)$Sub(10).signal 2;Z3KK;0;-1
+$Sub(303)$Sub(11).SigF 11;1;0;0.0
+$Sub(303)$Sub(11).Section 0;4
+$Sub(303)27350
+$Sub(303).freeobj 0;875;4.800
+$Sub(303).railend 3
+$Sub(303).railend 4
+;=====Kőbánya 3 kihúzóba vége=====
+
+;=====fényerősség=====
+;B-kh
+ 9800,$Sub(331)$Sub(11).Brightness 0
+;B
+10322,$Sub(331)$Sub(11).Brightness 0
+10328,$Sub(331)$Sub(11).Brightness 104
+10447,$Sub(331)$Sub(11).Brightness 104
+10453,$Sub(331)$Sub(11).Brightness 0
+;U
+11122,$Sub(331)$Sub(11).Brightness 0
+11128,$Sub(331)$Sub(11).Brightness 104
+11247,$Sub(331)$Sub(11).Brightness 104
+11253,$Sub(331)$Sub(11).Brightness 0
+;Gy
+12447,$Sub(331)$Sub(11).Brightness 0
+12453,$Sub(331)$Sub(11).Brightness 104
+12572,$Sub(331)$Sub(11).Brightness 104
+12578,$Sub(331)$Sub(11).Brightness 0
+;Fo
+13622,$Sub(331)$Sub(11).Brightness 0
+13628,$Sub(331)$Sub(11).Brightness 104
+13747,$Sub(321)$Sub(11).Brightness 104
+13753,$Sub(321)$Sub(11).Brightness 0
+;Á
+14322,$Sub(321)$Sub(11).Brightness 0
+14328,$Sub(321)$Sub(11).Brightness 104
+14447,$Sub(321)$Sub(11).Brightness 104
+14453,$Sub(321)$Sub(11).Brightness 0
+;Dó
+15222,$Sub(321)$Sub(11).Brightness 0
+15228,$Sub(321)$Sub(11).Brightness 104
+15347,$Sub(321)$Sub(11).Brightness 104
+15353,$Sub(321)$Sub(11).Brightness 0
+;É
+15997,$Sub(321)$Sub(11).Brightness 0
+16003,$Sub(321)$Sub(11).Brightness 104
+16122,$Sub(321)$Sub(11).Brightness 104
+16128,$Sub(321)$Sub(11).Brightness 0
+;M
+16822,$Sub(321)$Sub(11).Brightness 0
+16828,$Sub(321)$Sub(11).Brightness 104
+16947,$Sub(321)$Sub(11).Brightness 104
+16953,$Sub(321)$Sub(11).Brightness 0
+;A
+17672,$Sub(321)$Sub(11).Brightness 0
+17678,$Sub(321)$Sub(11).Brightness 104
+17797,$Sub(321)$Sub(11).Brightness 104
+17803,$Sub(321)$Sub(11).Brightness 0
+;DeE
+18050,$Sub(320)$Sub(11).Brightness 0
+18322,$Sub(11).Brightness 0
+18328,$Sub(11).Brightness 104
+18447,$Sub(11).Brightness 104
+18453,$Sub(11).Brightness 0
+;Ft
+18997,$Sub(11).Brightness 0
+19003,$Sub(11).Brightness 104
+19122,$Sub(11).Brightness 104
+19128,$Sub(11).Brightness 0
+;Ká
+19497,$Sub(11).Brightness 0
+19503,$Sub(11).Brightness 104
+19622,$Sub(11).Brightness 104
+19628,$Sub(11).Brightness 0
+;Fk
+20447,$Sub(11).Brightness 0
+20453,$Sub(11).Brightness 104
+20572,$Sub(11).Brightness 104
+20578,$Sub(11).Brightness 0
+;Kl
+20972,$Sub(11).Brightness 0
+20978,$Sub(11).Brightness 104
+21097,$Sub(11).Brightness 104
+21103,$Sub(11).Brightness 0
+;N
+22047,$Sub(11).Brightness 0
+22053,$Sub(11).Brightness 104
+22172,$Sub(11).Brightness 104
+22178,$Sub(11).Brightness 0
+;Kö
+22872,$Sub(11).Brightness 0
+22878,$Sub(11).Brightness 104
+22997,$Sub(11).Brightness 104
+23003,$Sub(11).Brightness 0
+;E
+23822,$Sub(11).Brightness 0
+23828,$Sub(11).Brightness 104
+23947,$Sub(11).Brightness 104
+23953,$Sub(11).Brightness 0
+;Pö
+24447,$Sub(11).Brightness 0
+24453,$Sub(11).Brightness 104
+24572,$Sub(11).Brightness 104
+24578,$Sub(11).Brightness 0
+;H
+25047,$Sub(11).Brightness 0
+25053,$Sub(11).Brightness 104
+25172,$Sub(11).Brightness 104
+25178,$Sub(11).Brightness 0
+;felszínre
+25367,$Sub(11).Brightness 0
+25373,$Sub(11).Brightness 128
+25525,$Sub(11).Brightness 255
+;gyorsforgalmi
+25915,$Sub(11).Brightness 255
+25940,$Sub(11).Brightness 160
+25962,$Sub(11).Brightness 160
+25975,$Sub(11).Brightness 255
+;Köki hátsó felüljáró
+26805,$Sub(11).Brightness 255
+26811,$Sub(11).Brightness 216
+26813,$Sub(11).Brightness 216
+26818,$Sub(11).Brightness 255
+;Köki első felüljáró
+26948,$Sub(11).Brightness 255
+26953,$Sub(11).Brightness 160
+26990,$Sub(11).Brightness 160
+27001,$Sub(11).Brightness 255
+;Sibrik M.út
+27060,$Sub(11).Brightness 255
+27073,$Sub(11).Brightness 192
+27085,$Sub(11).Brightness 192
+27098,$Sub(11).Brightness 255
+
+;=====kamerák=====
+10176,$Sub(11)$Sub(332).POI 0;-3.30;2.50; 160;-3;0;Bajcsy kihúzó
+10176,$Sub(11)$Sub(333).POI 0; 3.30;2.50;-160;-3;0;Bajcsy kihúzó
+10445,$Sub(11)$Sub(331).POI 0; 2.30;2.60;-160;-1;0;Újpest-Központ
+10642,$Sub(11)$Sub(331).POI 0;-4.61;2.70; 165;-1;0;Újpest-Városkapu felé 1
+10902,$Sub(11)$Sub(331).POI 0; 1.98;2.80;-30;-1;0;Újpest-Városkapu felé 2
+11229,$Sub(11)$Sub(331).POI 0; 3.32;2.85;-150;0;0;Újpest-Városkapu
+11400,$Sub(11)$Sub(331).POI 0;-4.32;2.82; 170;0;0;Gyöngyösi utca felé 1
+11685,$Sub(11)$Sub(331).POI 0; 1.80;2.81; 175;0;0;Gyöngyösi utca felé 2
+11971,$Sub(11)$Sub(331).POI 0;-4.90;2.59;-170;0;0;Gyöngyösi utca felé 3
+12477,$Sub(11)$Sub(331).POI 0; 2.38;2.50;-170;0;0;Gyöngyösi utca
+13020,$Sub(11)$Sub(331).POI 0;-5.56;2.27; 165;0;0;Forgách utca felé 1
+13525,$Sub(11)$Sub(331).POI 0;-4.90;2.36; 165;0;0;Forgách utca felé 2
+13755,$Sub(11)$Sub(331).POI 0;-1.95;2.43; 175;0;0;Forgách utca
+14185,$Sub(11)$Sub(331).POI 0;-2.60;2.46; 180;0;0;Árpád híd felé
+;---
+14043,$Sub(11)$Sub(330).POI 0; 4.85;2.45; -10;0;0;Árpád kihúzó
+;---
+14330,$Sub(11)$Sub(321).POI 0;-5.98;2.40; 15;0;0;Árpád híd
+14757,$Sub(11)$Sub(321).POI 0;-4.67;2.55; 175;0;0;Dózsa György út felé
+15340,$Sub(11)$Sub(321).POI 0; 2.49;2.53;-170;0;0;Dózsa György út
+15798,$Sub(11)$Sub(321).POI 0;-5.16;2.65; 165;0;0;Lehel tér felé
+16104,$Sub(11)$Sub(321).POI 0;-3.08;2.83; 170;0;0;Lehel tér
+16361,$Sub(11)$Sub(321).POI 0;-1.70;2.83; 170;0;0;Nyugati pályaudvar felé 1
+16475,$Sub(11)$Sub(321).POI 0;-1.95;2.23; 175;0;0;Nyugati pályaudvar felé 2
+16853,$Sub(11)$Sub(321).POI 0;-2.32;2.41; 20;0;0;Nyugati pályaudvar
+17109,$Sub(11)$Sub(321).POI 0; 1.95;2.38;-170;0;0;Arany János utca felé 1
+17431,$Sub(11)$Sub(321).POI 0; 1.94;2.41;-175;0;0;Arany János utca felé 2
+17771,$Sub(11)$Sub(321).POI 0;-2.49;2.40; 160;0;0;Arany János utca
+17946,$Sub(11)$Sub(321).POI 0; 1.95;2.39;-170;0;0;Deák Ferenc tér felé
+;---
+17597,$Sub(11)$Sub(320).POI 0;-1.98;1.98; 20;0;0;Összekötő vágány
+17715,$Sub(11)$Sub(320).POI 0;-1.97;1.95; 25;0;0;Összekötő vágány
+17865,$Sub(11)$Sub(320).POI 0; 1.98;1.90;-160;0;0;Összekötő vágány
+18189,$Sub(11)$Sub(320).POI 0;-2.24;2.41; 25;0;0;Deák tér kihúzó
+;---
+18338,$Sub(11).POI 0;-2.14;2.41;10;0;0;Deák Ferenc tér
+18665,$Sub(11).POI 0; 1.96;1.65;-165;0;0;Ferenciek tere felé 1
+18860,$Sub(11).POI 0; 1.95;2.00;-170;0;0;Ferenciek tere felé 2
+19123,$Sub(11).POI 0;-2.75;2.30; 160;0;0;Ferenciek tere
+19275,$Sub(11).POI 0; 1.93;2.00;-170;0;0;Kálvin tér felé
+19626,$Sub(11).POI 0; 2.00;1.50;-150;0;0;Kálvin tér
+19892,$Sub(11).POI 0;-1.86;1.98; 20;0;0;Ferenc körút felé 1
+20249,$Sub(11).POI 0; 1.89;2.05;-20;0;0;Ferenc körút felé 2
+20481,$Sub(11).POI 0;-3.18;2.45; 30;0;0;Ferenc körút
+20796,$Sub(11).POI 0; 1.99;2.40;-170;-10;0;Klinikák felé
+21096,$Sub(11).POI 0;-2.47;2.60; 165;0;0;Klinikák
+21412,$Sub(11).POI 0; 1.95;2.45;-175;-10;0;Nagyvárad tér felé 1
+21620,$Sub(11).POI 0;-1.94;2.60; 170;-10;0;Nagyvárad tér felé 2
+21887,$Sub(11).POI 0;-2.40;1.92; 20;0;0;Nagyvárad tér felé 3
+22160,$Sub(11).POI 0;-2.39;2.34; 160;0;0;Nagyvárad tér
+22420,$Sub(11).POI 0;-3.00;2.10; -10;0;0;Népliget felé
+22920,$Sub(11).POI 0;-6.35;2.16; 165;0;0;Népliget
+23205,$Sub(11).POI 0;-4.53;2.16; 170;0;0;Ecseri út felé 1
+23619,$Sub(11).POI 0;-4.55;2.26; 15;0;0;Ecseri út felé 2
+23852,$Sub(11).POI 0; 2.45;3.49;-170;-10;0;Ecseri út
+24193,$Sub(11).POI 0;-5.00;2.81; 15;-10;0;Pöttyös utca felé
+24560,$Sub(11).POI 0;-6.33;3.51; 160;-10;0;Pöttyös utca
+24714,$Sub(11).POI 0;-4.80;2.69; 20;0;0;Határ út felé 1
+24962,$Sub(11).POI 0;-2.60;2.70; 0;-3;0;Határ út felé 2
+25174,$Sub(11).POI 0; 1.95;3.90;-175;-20;0;Határ út
+25583,$Sub(11).POI 0; 4.36;2.20;-20;0;0;Kőbánya-Kispest felé 1
+25896,$Sub(11).POI 0;-6.04;2.88; 170;0;0;Kőbánya-Kispest felé 2
+26260,$Sub(11).POI 0;-6.40;2.85; 20;0;0;Kőbánya-Kispest felé 3
+26542,$Sub(11).POI 0;-8.30;2.60; 25;0;0;Kőbánya-Kispest felé 4
+26948,$Sub(11).POI 0;-5.35;2.51; 155;0;0;Kőbánya-Kispest
+27318,$Sub(11)$Sub(301).POI 0;-1.70;2.17; 170;0;0;Kőbánya-Kispest kihúzó
+27318,$Sub(11)$Sub(302).POI 0; 1.61;2.08;-170;0;0;Kőbánya-Kispest kihúzó
+27318,$Sub(11)$Sub(303).POI 0; 2.64;2.81;-170;0;0;Kőbánya-Kispest kihúzó

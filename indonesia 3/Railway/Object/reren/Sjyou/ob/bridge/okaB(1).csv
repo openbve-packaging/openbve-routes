@@ -1,0 +1,11 @@
+CreateMeshBuilder,
+AddVertex,-500, -35, 10
+AddVertex,-500, -35, -300
+AddVertex, 500, -35, -300
+AddVertex, 500, -35, 10
+AddFace,3,2,1,0,
+LoadTexture,../../../River_23.bmp,
+SetTextureCoordinates,0, 10, 20,
+SetTextureCoordinates,1, 0, 20,
+SetTextureCoordinates,2, 10, 0,
+SetTextureCoordinates,3, 0, 0,

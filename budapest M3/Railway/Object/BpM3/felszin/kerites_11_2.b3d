@@ -1,0 +1,540 @@
+;k1 jelû kerítés betonból (hossz: 5 x 2.5 = 25.0 m)
+;Készítette: Kovács Attila 2006.04.
+;www.bve-metro.uw.hu    koat@dpg.hu
+
+;fal
+;06
+[MeshBuilder]
+Vertex  -0.05, 0.00, 00.00
+Vertex  -0.05, 2.00, 00.00
+Vertex  -0.05, 2.00, 25.00
+Vertex  -0.05, 0.00, 25.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;07
+[MeshBuilder]
+Vertex   0.05, 0.00, 00.00
+Vertex   0.05, 2.00, 00.00
+Vertex   0.05, 2.00, 25.00
+Vertex   0.05, 0.00, 25.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;08
+[MeshBuilder]
+Vertex  -0.05, 2.00, 00.00
+Vertex   0.05, 2.00, 00.00
+Vertex   0.05, 2.00, 25.00
+Vertex  -0.05, 2.00, 25.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;1.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 00.00
+Vertex   0.15, 0.00, 00.00
+Vertex   0.15, 2.00, 00.00
+Vertex  -0.15, 2.00, 00.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 00.00
+Vertex  -0.15, 2.00, 00.00
+Vertex  -0.15, 2.00, 00.10
+Vertex  -0.15, 0.00, 00.10
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 00.00
+Vertex   0.15, 2.00, 00.00
+Vertex   0.15, 2.00, 00.10
+Vertex   0.15, 0.00, 00.10
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 00.10
+Vertex   0.15, 0.00, 00.10
+Vertex   0.15, 2.00, 00.10
+Vertex  -0.15, 2.00, 00.10
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 00.00
+Vertex   0.15, 2.00, 00.00
+Vertex   0.15, 2.00, 00.10
+Vertex  -0.15, 2.00, 00.10
+Face2 0,1,2,3
+Color 133,133,133
+
+;2.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 02.40
+Vertex   0.15, 0.00, 02.40
+Vertex   0.15, 2.00, 02.40
+Vertex  -0.15, 2.00, 02.40
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 02.40
+Vertex  -0.15, 2.00, 02.40
+Vertex  -0.15, 2.00, 02.50
+Vertex  -0.15, 0.00, 02.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 02.40
+Vertex   0.15, 2.00, 02.40
+Vertex   0.15, 2.00, 02.50
+Vertex   0.15, 0.00, 02.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 02.50
+Vertex   0.15, 0.00, 02.50
+Vertex   0.15, 2.00, 02.50
+Vertex  -0.15, 2.00, 02.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 02.40
+Vertex   0.15, 2.00, 02.40
+Vertex   0.15, 2.00, 02.50
+Vertex  -0.15, 2.00, 02.50
+Face2 0,1,2,3
+Color 133,133,133
+
+
+;3.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 04.90
+Vertex   0.15, 0.00, 04.90
+Vertex   0.15, 2.00, 04.90
+Vertex  -0.15, 2.00, 04.90
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 04.90
+Vertex  -0.15, 2.00, 04.90
+Vertex  -0.15, 2.00, 05.00
+Vertex  -0.15, 0.00, 05.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 04.90
+Vertex   0.15, 2.00, 04.90
+Vertex   0.15, 2.00, 05.00
+Vertex   0.15, 0.00, 05.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 05.00
+Vertex   0.15, 0.00, 05.00
+Vertex   0.15, 2.00, 05.00
+Vertex  -0.15, 2.00, 05.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 04.90
+Vertex   0.15, 2.00, 04.90
+Vertex   0.15, 2.00, 05.00
+Vertex  -0.15, 2.00, 05.00
+Face2 0,1,2,3
+Color 133,133,133
+
+
+;4.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 07.40
+Vertex   0.15, 0.00, 07.40
+Vertex   0.15, 2.00, 07.40
+Vertex  -0.15, 2.00, 07.40
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 07.40
+Vertex  -0.15, 2.00, 07.40
+Vertex  -0.15, 2.00, 07.50
+Vertex  -0.15, 0.00, 07.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 07.40
+Vertex   0.15, 2.00, 07.40
+Vertex   0.15, 2.00, 07.50
+Vertex   0.15, 0.00, 07.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 07.50
+Vertex   0.15, 0.00, 07.50
+Vertex   0.15, 2.00, 07.50
+Vertex  -0.15, 2.00, 07.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 07.40
+Vertex   0.15, 2.00, 07.40
+Vertex   0.15, 2.00, 07.50
+Vertex  -0.15, 2.00, 07.50
+Face2 0,1,2,3
+Color 133,133,133
+
+
+;5.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 09.90
+Vertex   0.15, 0.00, 09.90
+Vertex   0.15, 2.00, 09.90
+Vertex  -0.15, 2.00, 09.90
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 09.90
+Vertex  -0.15, 2.00, 09.90
+Vertex  -0.15, 2.00, 10.00
+Vertex  -0.15, 0.00, 10.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 09.90
+Vertex   0.15, 2.00, 09.90
+Vertex   0.15, 2.00, 10.00
+Vertex   0.15, 0.00, 10.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 10.00
+Vertex   0.15, 0.00, 10.00
+Vertex   0.15, 2.00, 10.00
+Vertex  -0.15, 2.00, 10.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 09.90
+Vertex   0.15, 2.00, 09.90
+Vertex   0.15, 2.00, 10.00
+Vertex  -0.15, 2.00, 10.00
+Face2 0,1,2,3
+Color 133,133,133
+
+
+;6.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 12.40
+Vertex   0.15, 0.00, 12.40
+Vertex   0.15, 2.00, 12.40
+Vertex  -0.15, 2.00, 12.40
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 12.40
+Vertex  -0.15, 2.00, 12.40
+Vertex  -0.15, 2.00, 12.50
+Vertex  -0.15, 0.00, 12.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 12.40
+Vertex   0.15, 2.00, 12.40
+Vertex   0.15, 2.00, 12.50
+Vertex   0.15, 0.00, 12.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 12.50
+Vertex   0.15, 0.00, 12.50
+Vertex   0.15, 2.00, 12.50
+Vertex  -0.15, 2.00, 12.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 12.40
+Vertex   0.15, 2.00, 12.40
+Vertex   0.15, 2.00, 12.50
+Vertex  -0.15, 2.00, 12.50
+Color 133,133,133
+
+
+;7.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 14.90
+Vertex   0.15, 0.00, 14.90
+Vertex   0.15, 2.00, 14.90
+Vertex  -0.15, 2.00, 14.90
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 14.90
+Vertex  -0.15, 2.00, 14.90
+Vertex  -0.15, 2.00, 15.00
+Vertex  -0.15, 0.00, 15.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 14.90
+Vertex   0.15, 2.00, 14.90
+Vertex   0.15, 2.00, 15.00
+Vertex   0.15, 0.00, 15.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 15.00
+Vertex   0.15, 0.00, 15.00
+Vertex   0.15, 2.00, 15.00
+Vertex  -0.15, 2.00, 15.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 14.90
+Vertex   0.15, 2.00, 14.90
+Vertex   0.15, 2.00, 15.00
+Vertex  -0.15, 2.00, 15.00
+Color 133,133,133
+
+
+;8.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 17.40
+Vertex   0.15, 0.00, 17.40
+Vertex   0.15, 2.00, 17.40
+Vertex  -0.15, 2.00, 17.40
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 17.40
+Vertex  -0.15, 2.00, 17.40
+Vertex  -0.15, 2.00, 17.50
+Vertex  -0.15, 0.00, 17.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 17.40
+Vertex   0.15, 2.00, 17.40
+Vertex   0.15, 2.00, 17.50
+Vertex   0.15, 0.00, 17.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 17.50
+Vertex   0.15, 0.00, 17.50
+Vertex   0.15, 2.00, 17.50
+Vertex  -0.15, 2.00, 17.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 17.40
+Vertex   0.15, 2.00, 17.40
+Vertex   0.15, 2.00, 17.50
+Vertex  -0.15, 2.00, 17.50
+Color 133,133,133
+
+
+;9.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 19.90
+Vertex   0.15, 0.00, 19.90
+Vertex   0.15, 2.00, 19.90
+Vertex  -0.15, 2.00, 19.90
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 19.90
+Vertex  -0.15, 2.00, 19.90
+Vertex  -0.15, 2.00, 20.00
+Vertex  -0.15, 0.00, 20.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 19.90
+Vertex   0.15, 2.00, 19.90
+Vertex   0.15, 2.00, 20.00
+Vertex   0.15, 0.00, 20.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 20.00
+Vertex   0.15, 0.00, 20.00
+Vertex   0.15, 2.00, 20.00
+Vertex  -0.15, 2.00, 20.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 19.90
+Vertex   0.15, 2.00, 19.90
+Vertex   0.15, 2.00, 20.00
+Vertex  -0.15, 2.00, 20.00
+Color 133,133,133
+
+
+;10.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 22.40
+Vertex   0.15, 0.00, 22.40
+Vertex   0.15, 2.00, 22.40
+Vertex  -0.15, 2.00, 22.40
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 22.40
+Vertex  -0.15, 2.00, 22.40
+Vertex  -0.15, 2.00, 22.50
+Vertex  -0.15, 0.00, 22.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 22.40
+Vertex   0.15, 2.00, 22.40
+Vertex   0.15, 2.00, 22.50
+Vertex   0.15, 0.00, 22.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 22.50
+Vertex   0.15, 0.00, 22.50
+Vertex   0.15, 2.00, 22.50
+Vertex  -0.15, 2.00, 22.50
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 22.40
+Vertex   0.15, 2.00, 22.40
+Vertex   0.15, 2.00, 22.50
+Vertex  -0.15, 2.00, 22.50
+Color 133,133,133
+
+
+;11.oszlop
+;01
+[MeshBuilder]
+Vertex  -0.15, 0.00, 24.90
+Vertex   0.15, 0.00, 24.90
+Vertex   0.15, 2.00, 24.90
+Vertex  -0.15, 2.00, 24.90
+Face2 0,1,2,3
+Color 133,133,133
+
+;02
+[MeshBuilder]
+Vertex  -0.15, 0.00, 24.90
+Vertex  -0.15, 2.00, 24.90
+Vertex  -0.15, 2.00, 25.00
+Vertex  -0.15, 0.00, 25.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;03
+[MeshBuilder]
+Vertex   0.15, 0.00, 24.90
+Vertex   0.15, 2.00, 24.90
+Vertex   0.15, 2.00, 25.00
+Vertex   0.15, 0.00, 25.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;04
+[MeshBuilder]
+Vertex  -0.15, 0.00, 25.00
+Vertex   0.15, 0.00, 25.00
+Vertex   0.15, 2.00, 25.00
+Vertex  -0.15, 2.00, 25.00
+Face2 0,1,2,3
+Color 133,133,133
+
+;05
+[MeshBuilder]
+Vertex  -0.15, 2.00, 24.90
+Vertex   0.15, 2.00, 24.90
+Vertex   0.15, 2.00, 25.00
+Vertex  -0.15, 2.00, 25.00
+Color 133,133,133

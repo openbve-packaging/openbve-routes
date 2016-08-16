@@ -1,0 +1,290 @@
+
+CreateMeshBuilder
+AddVertex, -5, 10, 0
+AddVertex, -5, 7, 0
+AddVertex, 10, 8, 0
+AddVertex, 10, 11, 0
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, muko-hasi.bmp
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 10, 0
+SetTextureCoordinates, 1, 10, 1
+SetDecalTransparentColor, 0,0,255
+
+CreateMeshBuilder
+AddVertex, -5, 10, 17
+AddVertex, -5, 7, 17
+AddVertex, 10, 8, 17
+AddVertex, 10, 11, 17
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, muko-hasi.bmp
+SetTextureCoordinates, 2, 0, 1
+SetTextureCoordinates, 3, 0, 0
+SetTextureCoordinates, 0, 10, 0
+SetTextureCoordinates, 1, 10, 1
+SetDecalTransparentColor, 0,0,255
+
+
+CreateMeshBuilder
+AddVertex, -100, 0, 8
+AddVertex, -100, 0, 0.7
+AddVertex, 25, 8, 0.7
+AddVertex, 25, 8, 8
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, takatukihasi1.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetColor, 100, 100, 40 
+
+
+CreateMeshBuilder
+AddVertex, -100, 0, 25
+AddVertex, -100, 0, 17
+AddVertex, 25, 8, 17
+AddVertex, 25, 8, 25
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, takatukihasi1.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetColor, 100, 100, 40 
+
+CreateMeshBuilder
+AddVertex, -150, 12, 17
+AddVertex, -150, 12, 8
+AddVertex, 25, 12, 8
+AddVertex, 25, 12, 17
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture, takatukihasi1.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetColor, 100, 100, 40 
+
+
+CreateMeshBuilder
+AddVertex, -15, .1, 25
+AddVertex, -15, .1, 0.7
+AddVertex, 15, .1, 0.7
+AddVertex, 15, .1, 25
+AddFace, 3,2,1,0
+GenerateNormals
+SetColor, 0, 0, 0[,100] 
+
+
+
+
+CreateMeshBuilder
+AddVertex, -100, 1.28, 0.6
+AddVertex, -100, 0, 0.6
+AddVertex, 25, 7.9, 0.6
+AddVertex, 25, 9.1, 0.6
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, ../Wall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+CreateMeshBuilder
+AddVertex, -100, 1.28,17
+AddVertex, -100, 0, 17
+AddVertex, 25, 7.9, 17
+AddVertex, 25, 9.1, 17
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, ../Wall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+CreateMeshBuilder
+AddVertex, -20, 0, 0.7
+AddVertex, -20, 5.1, 0.7
+AddVertex, -6, 6, 0.7
+AddVertex, -6, 0, 0.7
+AddVertex, -6, 0, 25
+AddVertex, -6, 6, 25
+
+AddFace, 0,1,2,3
+AddFace, 5,4,3,2
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetTextureCoordinates, 4, 2, 1
+SetTextureCoordinates, 5, 2, 0
+
+
+CreateMeshBuilder
+AddVertex, -6, 6, 8
+AddVertex, -6, 12, 8
+AddVertex, -6, 12, 17
+AddVertex, -6, 6, 17
+AddVertex, -8, 6, 8
+AddVertex, -8, 12, 8
+AddFace, 0,1,2,3
+AddFace,1,0,4,5
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 4, -1, 1
+SetTextureCoordinates, 5, -1, 0
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+
+CreateMeshBuilder
+AddVertex, 10, 0, 0.7
+AddVertex, 10, 7, 0.7
+AddVertex, 16, 8, 0.7
+AddVertex, 16, 0, 0.7
+AddVertex, 10, 0, 25
+AddVertex, 10, 7, 25
+AddFace, 0,1,2,3
+AddFace,1,0,4,5
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetTextureCoordinates, 5, 2, 0
+SetTextureCoordinates, 4, 2, 1
+
+
+CreateMeshBuilder
+AddVertex, 10, 7, 8
+AddVertex, 10, 12, 8
+AddVertex, 12, 12, 8
+AddVertex, 12, 7, 8
+AddVertex, 10, 7, 17
+AddVertex, 10, 12, 17
+AddFace, 0,1,2,3
+AddFace,1,0,4,5
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetTextureCoordinates, 5, 2, 0
+SetTextureCoordinates, 4, 2, 1
+
+CreateMeshBuilder
+AddVertex, -150, 13, 8
+AddVertex, -150, 12, 8
+AddVertex, 25, 12, 8
+AddVertex, 25, 13, 8
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, rikkyou.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+Setcolor,90,130,90
+
+CreateMeshBuilder
+AddVertex, -150, 14,7.9
+AddVertex, -150, 13, 7.9
+AddVertex, 25, 13, 7.9
+AddVertex, 25, 14, 7.9
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, ../Wall.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+
+
+CreateMeshBuilder
+AddVertex, -26, 0, 8
+AddVertex, -26, 12, 8
+AddVertex, -26, 12, 17
+AddVertex, -26, 0, 17
+AddVertex, -28, 0, 8
+AddVertex, -28, 12, 8
+AddFace, 0,1,2,3
+AddFace,1,0,4,5
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 4, -1, 1
+SetTextureCoordinates, 5, -1, 0
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+CreateMeshBuilder
+AddVertex, -46, 0, 8
+AddVertex, -46, 12, 8
+AddVertex, -46, 12, 17
+AddVertex, -46, 0, 17
+AddVertex, -48, 0, 8
+AddVertex, -48, 12, 8
+AddFace, 0,1,2,3
+AddFace,1,0,4,5
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 4, -1, 1
+SetTextureCoordinates, 5, -1, 0
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+CreateMeshBuilder
+AddVertex, -96, 0, 8
+AddVertex, -96, 12, 8
+AddVertex, -96, 12, 17
+AddVertex, -96, 0, 17
+AddVertex, -98, 0, 8
+AddVertex, -98, 12, 8
+AddFace, 0,1,2,3
+AddFace,1,0,4,5
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 4, -1, 1
+SetTextureCoordinates, 5, -1, 0
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+
+CreateMeshBuilder
+AddVertex, -146, 0, 8
+AddVertex, -146, 12, 8
+AddVertex, -146, 12, 17
+AddVertex, -146, 0, 17
+AddVertex, -148, 0, 8
+AddVertex, -148, 12, 8
+AddFace, 0,1,2,3
+AddFace,1,0,4,5
+GenerateNormals
+LoadTexture, conc.bmp
+SetTextureCoordinates, 4, -1, 1
+SetTextureCoordinates, 5, -1, 0
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1

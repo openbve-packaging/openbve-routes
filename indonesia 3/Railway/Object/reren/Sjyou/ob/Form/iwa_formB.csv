@@ -1,0 +1,574 @@
+;(D)TForm_C2L
+CreateMeshBuilder
+AddVertex,1.5, 1.1, -175
+AddVertex,1.5, 1.1, +50
+AddVertex,3, 1.11, +50
+AddVertex,3, 1.11, -175
+AddFace2, 0, 1, 2,3
+GenerateNormals
+LoadTexture,../(U)FormG.png
+SetTextureCoordinates,0, 0, 108
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 108
+SetEmissiveColor,115,115,115
+
+CreateMeshBuilder
+AddVertex,2.1, -0.45, -175
+AddVertex,2.1, 0.7, -175
+AddVertex,1.5, 0.9, -175
+AddVertex,1.5, 1.1, -175
+AddVertex,1.5, 1.1, +50
+AddVertex,1.5, 0.9, +50
+AddVertex,2.1, 0.7, +50
+AddVertex,2.1, -0.45, +50
+AddFace2,7,6,1,0
+AddFace2,6,5,2,1
+AddFace2,5,4,3,2
+GenerateNormals
+LoadTexture,../FormWallC.png
+SetTextureCoordinates,0, 45, 1
+SetTextureCoordinates,1, 45, 0.2
+SetTextureCoordinates,2, 45, 0.15
+SetTextureCoordinates,3, 45, 0
+SetTextureCoordinates,4, 0, 0
+SetTextureCoordinates,5, 0, 0.15
+SetTextureCoordinates,6, 0, 0.2
+SetTextureCoordinates,7, 0, 1
+SetEmissiveColor,115,115,115
+
+CreateMeshBuilder
+AddVertex,2.1, -0.45, -175
+AddVertex,2.1, 0.7, -175
+AddVertex,1.5, 0.9, -175
+AddVertex,3, 0.9, -175
+AddVertex,3, -0.45, -175
+AddFace2,4,3,1,0
+AddFace2,3,2,1
+Setcolor,30,30,30
+GenerateNormals
+
+CreateMeshBuilder
+AddVertex,1.5, 0.9, -175
+AddVertex,1.5, 1.1, -175
+AddVertex,3, 1.1, -175
+AddVertex,3, 0.9, -175
+AddFace2,3,2,1,0
+GenerateNormals
+LoadTexture,../FormWallB.png
+SetTextureCoordinates,0, 0.5, .1
+SetTextureCoordinates,1, 0.5, 0
+SetTextureCoordinates,2, 0.7, 0
+SetTextureCoordinates,3, 0.7, .1
+SetEmissiveColor,115,115,115
+;------------------------
+
+;FormAL
+CreateMeshBuilder
+AddVertex,7.2, 1.1, -175
+AddVertex,7.2, 1.1, +50
+AddVertex,2.7, 1.1, +50
+AddVertex,2.7, 1.1, -175
+AddFace2, 3, 2, 1,0
+GenerateNormals
+Setcolor,200,200,200
+LoadTexture,../../Form\FormA.bmp
+SetTextureCoordinates,0, 4, 108
+SetTextureCoordinates,1, 4, 0
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 0, 108
+SetEmissiveColor,115,115,115
+;------------------------
+
+;subWL
+CreateMeshBuilder
+AddVertex,4.2, 1.1, -175
+AddVertex,4.2, 5.7, -175
+AddVertex,7.2, 5.7, -125
+AddVertex,7.2, 1.1, -125
+AddVertex,7.2, 5.7, -25
+AddVertex,7.2, 1.1, -25
+AddVertex,4.2, 5.7, -25
+AddVertex,4.2, 1.1, -25
+AddVertex,4.2, 5.7, +50
+AddVertex,4.2, 1.1, +50
+AddFace2,3,2,1,0
+AddFace2,5,4,2,3
+AddFace2,7,6,4,5
+AddFace2,9,8,6,7
+Loadtexture,../../Wall\subW2.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 10, 0
+SetTextureCoordinates,3, 10, 1
+SetTextureCoordinates,4, 40, 0
+SetTextureCoordinates,5, 40, 1
+SetTextureCoordinates,6, 41, 0
+SetTextureCoordinates,7, 41, 1
+SetTextureCoordinates,8, 56, 0
+SetTextureCoordinates,9, 56, 1
+GenerateNormals
+SetEmissiveColor,65,65,65
+;------------------------
+
+;newRoofL
+;âÆç™íå
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-168
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-156
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-144
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-132
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-120
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-108
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-96
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-84
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-72
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-60
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-48
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-36
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-24
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,-12
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,0.1
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,12.5
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,24.95
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,36
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,3.25, 5.5, 0.0
+AddVertex,3.05, 5.5, 0.0
+AddVertex,3.05, 1.1, 0.0
+AddVertex,3.25, 1.1, 0.0
+AddFace2,3,2,1,0
+Loadtexture,../../Roof\iwapole.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+GenerateNormals
+Translate,0,0,48
+SetEmissiveColor,115,115,115
+;âÆç™
+CreateMeshBuilder
+AddVertex,1.5, 5.7, +50
+AddVertex,1.5, 5.7, -175
+AddVertex,2.7, 5.7, -175
+AddVertex,2.7, 5.7, +50
+AddFace2, 0, 1, 2,3
+GenerateNormals
+LoadTexture,../myoroof1.png
+SetTextureCoordinates,0, 45, 0
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 0, 0.2
+SetTextureCoordinates,3, 45, 0.2
+SetEmissiveColor,115,115,115
+CreateMeshBuilder
+AddVertex,1.5, 5.7, +50
+AddVertex,1.5, 5.7, -175
+AddVertex,1.6, 5.35, -175
+AddVertex,1.6, 5.35, +50
+AddFace2, 0, 1, 2,3
+GenerateNormals
+LoadTexture,../../Roof\new_R.bmp
+SetTextureCoordinates,0, 0, 81
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 81
+SetEmissiveColor,15,15,15
+;âÆç™íåè„
+CreateMeshBuilder
+AddVertex,3.25, 5.70, -175
+AddVertex,3.05, 5.70, -175
+AddVertex,3.05, 5.70, +50
+AddVertex,3.05, 5.50, +50
+AddVertex,3.05, 5.50, -175
+AddVertex,3.25, 5.50, -175
+AddVertex,3.25, 5.50, +50
+AddFace2,5,4,1,0
+AddFace2,4,3,2,1
+AddFace2,3,4,5,6
+Loadtexture,../../Roof\iwapole1.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,45,0
+SetTextureCoordinates,3,45,1
+SetTextureCoordinates,4,0,1
+SetTextureCoordinates,5,0,0
+SetTextureCoordinates,6,46,1
+GenerateNormals
+SetEmissiveColor,115,115,115
+;åuåıìî
+CreateMeshBuilder
+ADdVertex,2.6, 5.3, 24.5
+AddVertex,2.5, 5.4, 24.5
+AddVertex,2.5, 5.4, 0.5
+AddVertex,2.6, 5.3, 0.5
+ADdFace2,3,2,1,0
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals
+Translate,0.4,-0.2,+25
+SetEmissiveColor,255,255,255
+CreateMeshBuilder
+ADdVertex,2.6, 5.3, 24.5
+AddVertex,2.5, 5.4, 24.5
+AddVertex,2.5, 5.4, 0.5
+AddVertex,2.6, 5.3, 0.5
+ADdFace2,3,2,1,0
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals
+Translate,0.4,-0.2
+SetEmissiveColor,255,255,255
+CreateMeshBuilder
+ADdVertex,2.6, 5.3, 24.5
+AddVertex,2.5, 5.4, 24.5
+AddVertex,2.5, 5.4, 0.5
+AddVertex,2.6, 5.3, 0.5
+ADdFace2,3,2,1,0
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals
+Translate,0.4,-0.2,-25
+SetEmissiveColor,255,255,255
+CreateMeshBuilder
+ADdVertex,2.6, 5.3, 24.5
+AddVertex,2.5, 5.4, 24.5
+AddVertex,2.5, 5.4, 0.5
+AddVertex,2.6, 5.3, 0.5
+ADdFace2,3,2,1,0
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals
+Translate,0.4,-0.2,-50
+SetEmissiveColor,255,255,255
+CreateMeshBuilder
+ADdVertex,2.6, 5.3, 24.5
+AddVertex,2.5, 5.4, 24.5
+AddVertex,2.5, 5.4, 0.5
+AddVertex,2.6, 5.3, 0.5
+ADdFace2,3,2,1,0
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals
+Translate,0.4,-0.2,-75
+SetEmissiveColor,255,255,255
+CreateMeshBuilder
+ADdVertex,2.6, 5.3, 24.5
+AddVertex,2.5, 5.4, 24.5
+AddVertex,2.5, 5.4, 0.5
+AddVertex,2.6, 5.3, 0.5
+ADdFace2,3,2,1,0
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals
+Translate,0.4,-0.2,-100
+SetEmissiveColor,255,255,255
+CreateMeshBuilder
+ADdVertex,2.6, 5.3, 24.5
+AddVertex,2.5, 5.4, 24.5
+AddVertex,2.5, 5.4, 0.5
+AddVertex,2.6, 5.3, 0.5
+ADdFace2,3,2,1,0
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals
+Translate,0.4,-0.2,-125
+SetEmissiveColor,255,255,255
+CreateMeshBuilder
+ADdVertex,2.6, 5.3, 24.5
+AddVertex,2.5, 5.4, 24.5
+AddVertex,2.5, 5.4, 0.5
+AddVertex,2.6, 5.3, 0.5
+ADdFace2,3,2,1,0
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals
+Translate,0.4,-0.2,-150
+SetEmissiveColor,255,255,255
+CreateMeshBuilder
+ADdVertex,2.6, 5.3, 24.5
+AddVertex,2.5, 5.4, 24.5
+AddVertex,2.5, 5.4, 0.5
+AddVertex,2.6, 5.3, 0.5
+ADdFace2,3,2,1,0
+LoadTexture,../../../EDtozai/Wall/WaseRight.bmp
+SetTextureCoordinates,0  ,0,1
+SetTextureCoordinates,1  ,0,0
+SetTextureCoordinates,2  ,3,0
+SetTextureCoordinates,3  ,3,1
+GenerateNormals
+Translate,0.4,-0.2,-175
+SetEmissiveColor,255,255,255
+;------------------------
+
+;RoofAL
+CreateMeshBuilder
+AddVertex,7.2, 5.7, -175
+AddVertex,7.2, 5.7, +50
+AddVertex,2.7, 5.7, +50
+AddVertex,2.7, 5.7, -175
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,../myoroof1.png
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 45, 1
+SetTextureCoordinates,2, 45, 0
+SetTextureCoordinates,3, 0, 0
+SetEmissiveColor,115,115,115
+;------------------------

@@ -1,0 +1,113 @@
+
+[meshbuilder]
+vertex 0, 5, 0
+vertex 3, 4.5, 0
+vertex 3, 4.5, 25
+vertex 0, 5, 25
+face 0,1,2,3
+[texture]
+load pensilina2.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,5
+coordinates 3,0,5
+
+[meshbuilder]
+vertex -3, 4.5, 0
+vertex 0, 5, 0
+vertex 0, 5, 25
+vertex -3, 4.5, 25
+face 0,1,2,3
+[texture]
+load pensilina2.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,10
+coordinates 3,1,10
+
+
+
+[meshbuilder]
+vertex -0.15, 0, 19
+vertex -0.15, 5, 19
+vertex  0.15, 5, 19
+vertex  0.15, 0, 19
+face 0,1,2,3
+color 50,0,0
+[meshbuilder]
+vertex -2.5, 4.4, 19
+vertex -2.5, 4.5, 19
+vertex -0.15, 5, 19
+vertex -0.15, 4.4, 19
+face 0,1,2,3
+color 50,0,0
+[meshbuilder]
+vertex 2.5, 4.4, 19
+vertex 2.5, 4.5, 19
+vertex 0.15, 5, 19
+vertex 0.15, 4.4, 19
+face 3,2,1,0
+color 50,0,0
+
+[meshbuilder]
+vertex -0.15, 0, 6
+vertex -0.15, 5, 6
+vertex  0.15, 5, 6
+vertex  0.15, 0, 6
+face 0,1,2,3
+color 50,0,0
+[meshbuilder]
+vertex -2.5, 4.4, 6
+vertex -2.5, 4.5, 6
+vertex -0.15, 5, 6
+vertex -0.15, 4.4, 6
+face 0,1,2,3
+color 50,0,0
+[meshbuilder]
+vertex 2.5, 4.4, 6
+vertex 2.5, 4.5, 6
+vertex 0.15, 5, 6
+vertex 0.15, 4.4, 6
+face 3,2,1,0
+color 50,0,0
+
+
+[MeshBuilder]
+Vertex 0,0,5
+Vertex 0,4,5
+Vertex 0,4,3
+Vertex 0,0,3
+Face2 0,1,2,3
+[Texture]
+Load publ1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex 0,0,12
+Vertex 0,4,12
+Vertex 0,4,10
+Vertex 0,0,10
+Face2 0,1,2,3
+[Texture]
+Load publ2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex 0,0,23
+Vertex 0,4,23
+Vertex 0,4,21
+Vertex 0,0,21
+Face2 0,1,2,3
+[Texture]
+Load publ3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255

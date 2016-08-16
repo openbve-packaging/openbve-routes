@@ -1,0 +1,109 @@
+; unique case in which a 20m tunnel segment is needed prior to
+; Canada Water
+[MeshBuilder]
+Vertex -2.4,-1.35,0
+Vertex -2.6,0.6,0
+Vertex -2.4,2,0
+Vertex -2,2.8,0
+Vertex -1,4.0,0
+Vertex 0,4.8,0
+Vertex 1,5,0
+Vertex 2,5.2,0
+Vertex 3,5,0
+Vertex 4,4.8,0
+Vertex 5,4.2,0
+Vertex 6,2.8,0
+Vertex 6.4,2.0,0
+Vertex 6.6,0.6,0
+Vertex 6.2,-1.35,0
+Vertex -2.4,-1.35,20
+Vertex -2.6,0.6,20
+Vertex -2.4,2,20
+Vertex -2,2.8,20
+Vertex -1,4.0,20
+Vertex 0,4.8,20
+Vertex 1,5,20
+Vertex 2,5.2,20
+Vertex 3,5,20
+Vertex 4,4.8,20
+Vertex 5,4.2,20
+Vertex 6,2.8,20
+Vertex 6.4,2.0,20
+Vertex 6.6,0.6,20
+Vertex 6.2,-1.35,20
+Face2 16,15,0,1
+Face2 17,16,1,2
+Face2 18,17,2,3
+Face2 19,18,3,4
+Face2 20,19,4,5
+Face2 21,20,5,6
+Face2 22,21,6,7
+Face2 23,22,7,8
+Face2 24,23,8,9
+Face2 25,24,9,10
+Face2 26,25,10,11
+Face2 27,26,11,12
+Face2 28,27,12,13
+Face2 29,28,13,14
+Face2 29,14,0,15
+
+[Texture]
+load stonea.bmp
+Coordinates 16,25,0
+Coordinates 15,25,1
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 17,25,1
+Coordinates 2,0,1
+Coordinates 18,25,2
+Coordinates 3,0,2
+Coordinates 19,25,3
+Coordinates 4,0,3
+Coordinates 20,25,4
+Coordinates 5,0,4
+Coordinates 21,25,5
+Coordinates 6,0,5
+Coordinates 22,25,6
+Coordinates 7,0,6
+Coordinates 23,25,7
+Coordinates 8,0,7
+Coordinates 24,25,8
+Coordinates 9,0,8
+Coordinates 25,25,9
+Coordinates 10,0,9
+Coordinates 26,25,10
+Coordinates 11,0,10
+Coordinates 27,25,11
+Coordinates 12,0,11
+Coordinates 28,25,12
+Coordinates 13,0,12
+Coordinates 29,25,13
+Coordinates 14,0,14
+
+[Meshbuilder] ; Those important cables ;)
+Vertex -1.8,2.8,20.1
+Vertex -2.3,1.8,20.1
+Vertex -2.3,1.8,-0.1
+Vertex -1.8,2.8,-0.1
+Face 0,1,2,3
+[Texture]
+load side-cables.bmp
+Coordinates 0,10,0
+Coordinates 1,10,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder]
+Vertex 5.8,2.8,20.1
+Vertex 6.3,1.8,20.1
+Vertex 6.3,1.8,-0.1
+Vertex 5.8,2.8,-0.1
+Face 3,2,1,0
+[Texture]
+load side-cables.bmp
+Coordinates 0,20,0
+Coordinates 1,20,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

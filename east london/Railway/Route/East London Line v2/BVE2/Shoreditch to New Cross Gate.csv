@@ -1,0 +1,1086 @@
+With Route,
+.Comment East London Line - Shoreditch - New Cross Gate Day
+.Timetable Shoreditch - New Cross Gate Day
+.Change 0
+.Gauge 1432
+.signal (1) 80
+.signal (2) 100
+.signal (3) 100
+
+with train,
+.folder LT_A60_62
+.Run(0) 4
+.Run(1) 4
+.Run(2) 3
+.Run(3) 3
+.Run(4) 6
+.Run(6) 4
+.Run(7) 6
+.Run(8) 6
+.Run(9) 6
+.Run(10) 6
+.Run(11) 3
+.Run(14) 4
+.Run(15) 3
+.Run(16) 3
+.Run(18) 3
+.Run(20) 4
+.Run(22) 4
+.Run(24) 4
+.Run(26) 4
+.Run(30) 4
+.Run(31) 4
+.Run(32) 3
+.Run(33) 3
+.Run(34) 3
+.Run(35) 3
+.Run(36) 3
+.Run(37) 3
+.Run(38) 3
+.Run(39) 3
+.Run(40) 3
+.Run(41) 4
+.Run(42) 3
+.Run(44) 3
+.Run(45) 3
+.Run(46) 4
+.Run(47) 4
+.Run(48) 6
+.Run(49) 6
+
+with structure,
+
+.FormR(0) ell_v2\nothing.b3d
+.FormL(0) ell_v2\nothing.b3d
+.FormCR(0) ell_v2\FormR.b3d
+.FormCL(0) ell_v2\FormL.b3d
+.RoofR(0) ell_v2\nothing.b3d
+.RoofL(0) ell_v2\nothing.b3d
+.RoofCR(0) ell_v2\nothing.b3d
+.RoofCL(0) ell_v2\nothing.b3d
+
+.rail(0) ell_v2\rail_Dark_Left.b3d ; in-tunnel rail on left
+.rail(1) ell_v2\rail_Dark_Right.b3d ; in-tunnel rail on right
+.rail(2) ell_v2\rail_Light_Left.b3d ; outside rail on left
+.rail(3) ell_v2\rail_Light_Right.b3d ; outside rail on right
+.rail(4) ell_v2\Nothing.b3d ; blank
+.rail(5) ell_v2\rail_Dismantled.b3d ; Dismantled railway grass bed
+.rail(6) ell_v2\rail_Dark_Blank.b3d ; In-tunnel no power rails
+.rail(7) ell_v2\rail_Conc_Left.b3d ; Concrete trackbed (non-JLE)rail on left
+.rail(8) ell_v2\rail_Conc_Right.b3d ; Concrete trackbed (non-JLE)rail on right
+.rail(9) ell_v2\rail_JLE_Left.b3d ; Concrete trackbed (JLE) rail on left
+.rail(10) ell_v2\rail_JLE_Right.b3d ; Concrete trackbed (JLE) rail on right
+.rail(11) ell_v2\rail_Light_Blank.b3d ; outside no power rails
+.rail(12) ell_v2\3rail-Left.b3d ; 3rd .rail track - power rail on left
+.rail(13) ell_v2\3rail-Right.b3d ; 3rd .rail track - power rail on right
+.rail(14) ell_v2\nothing.b3d ; non-crossover blankout - in-tunnel
+.rail(15) ell_v2\nothing.b3d ; non-crossover blankout - outside
+
+.rail(16) ell_v2\special\sh-curve.b3d
+.rail(17) ell_v2\special\sh-curve-r.b3d
+.rail(18) ell_v2\special\ncg-turn-l.b3d
+.rail(19) ell_v2\special\ncg-turn-r.b3d
+.rail(20) ell_v2\special\curve700-l.b3d
+.rail(21) ell_v2\special\curve700-r.b3d
+.rail(22) ell_v2\special\wap-curve-l.b3d
+.rail(23) ell_v2\special\wap-curve-r.b3d
+.rail(24) ell_v2\special\wc-c-1-l.b3d
+.rail(25) ell_v2\special\wc-c-1-r.b3d
+.rail(26) ell_v2\special\wc-c-2-l.b3d
+.rail(27) ell_v2\special\wc-c-2-r.b3d
+.rail(28) ell_v2\special\nc-curve-l.b3d
+.rail(29) ell_v2\special\nc-curve-r.b3d
+.rail(30) ell_v2\special\curve600l.b3d
+.rail(31) ell_v2\special\curve600r.b3d
+.rail(32) ell_v2\special\curve850l.b3d
+.rail(33) ell_v2\special\curve850r.b3d
+.rail(34) ell_v2\special\curv2000l.b3d
+.rail(35) ell_v2\special\curv2000r.b3d
+.rail(36) ell_v2\special\curv2400l.b3d
+.rail(37) ell_v2\special\curv2400r.b3d
+.rail(38) ell_v2\special\curv1000l.b3d
+.rail(39) ell_v2\special\curv1000r.b3d
+.rail(40) ell_v2\special\sq-point-curve.b3d
+.rail(41) ell_v2\rail_Dark_Left.b3d ; For going under bridges
+.rail(42) ell_v2\rail_Light_Right.b3d ; For going over bridges
+.rail(43) ell_v2\rail_Light_Rusty.b3d ; disused track on the new cross gate approach
+.rail(44) ell_v2\special\curv1400l.b3d
+.rail(45) ell_v2\special\curv1400r.b3d
+.rail(46) ell_v2\special\rail_Dark_Left.b3d
+.rail(47) ell_v2\special\rail_Dark_Right.b3d
+.rail(48) ell_v2\special\wapcurvl.b3d
+.rail(49) ell_v2\special\wapcurvr.b3d
+
+.Ground(0) ell_v2\nothing.b3d ; Mostly in tunnel no ground needed (yet)
+.Ground(1) ell_v2\grass.b3d ; Its always a possibility
+.Ground(2) ell_v2\ballast.b3d ; For once we get to Surrey Quays
+.Ground(3) ell_v2\ballast-dark.b3d ; fills a hole
+.Ground(4) ell_v2\ballast-grass.b3d ; No ballast on the left uses grass instead
+.Ground(5) ell_v2\ballast-bank.b3d ; ballast with grass bank going down the left.
+.Ground(6) ell_v2\conc-gnd.b3d ; Concrete stuff
+.Ground(7) ell_v2\ballast-sloped.b3d ; for going up the surrey quays gradient
+
+
+.freeobj(1) ell_v2\FormR2-10m-Light.b3d
+.freeobj(2) ell_v2\special\stmj-point-l.b3d
+.freeobj(3) ell_v2\special\stmj-point-lh.b3d
+.freeobj(4) ell_v2\special\sq-point-r.b3d
+.freeobj(5) ell_v2\special\stmj-point-r.b3d
+.freeobj(6) ell_v2\special\sq-point-l.b3d
+.freeobj(7) ell_v2\special\stmj-point-rh.b3d
+.freeobj(8) ell_v2\special\shd-point.b3d
+.freeobj(9) ell_v2\Wall_Stone_LH_Dark1.b3d ; these are needed for walls along side the turn points
+.freeobj(10) ell_v2\Wall_Stone_RH_Dark1.b3d
+.freeobj(11) ell_v2\Wall_Stone_LH.b3d
+.freeobj(12) ell_v2\Wall_Stone_RH.b3d
+.freeobj(13) ell_v2\bridge_front.b3d
+.freeobj(14) ell_v2\rail_Dismantled.b3d
+.freeobj(15) ell_v2\shoreditch-front.b3d
+.freeobj(16) ell_v2\Safety\safety1.b3d
+.freeobj(17) ell_v2\Whitechapel_WallL.b3d
+.freeobj(18) ell_v2\Whitechapel_WallR.b3d
+.freeobj(19) ell_v2\Wall_Stone_ArchL.b3d
+.freeobj(20) ell_v2\signals\signal.csv
+.freeobj(21) ell_v2\shoreditch-end-plat.b3d
+;.freeobj(22) ell_v2\Point_curve_Right_Dark.b3d
+.freeobj(23) ell_v2\wstairs.b3d
+.freeobj(24) ell_v2\Wall_Stone_ArchR.b3d
+.freeobj(25) ell_v2\Shoreditch.b3d
+.freeobj(26) ell_v2\buil2.b3d
+.freeobj(27) ell_v2\wc-dl-plat.b3d
+.freeobj(28) ell_v2\wc-arch.b3d
+.freeobj(29) ell_v2\forml2.b3d
+.freeobj(30) ell_v2\formr2.b3d
+.freeobj(31) ell_v2\formupl.b3d
+.freeobj(32) ell_v2\formupr.b3d
+.freeobj(33) ell_v2\wc-wallL.b3d
+.freeobj(34) ell_v2\tunnel.b3d
+.freeobj(35) ell_v2\wc-shelL.b3d
+.freeobj(36) ell_v2\wc-dl-plat-blank.b3d
+.freeobj(37) ell_v2\FormL2-10m-Light.b3d
+.freeobj(38) ell_v2\tunnel_front.b3d
+.freeobj(39) ell_v2\shadwell_walll.b3d
+.freeobj(40) ell_v2\swr-arch.b3d
+.freeobj(41) ell_v2\shadwell_wallr.b3d
+.freeobj(42) ell_v2\tunnel_front_plat.b3d
+.freeobj(43) ell_v2\swr-arch-10m.b3d
+.freeobj(44) ell_v2\wc-wallr.b3d
+.freeobj(45) ell_v2\sh-walll.b3d
+.freeobj(46) ell_v2\sh-wallr.b3d
+.freeobj(47) ell_v2\sw-details.b3d
+.freeobj(48) ell_v2\sw-lamps-l.b3d
+.freeobj(49) ell_v2\sw-lamps-r.b3d
+.freeobj(50) ell_v2\swr-arch-15m.b3d
+.freeobj(51) ell_v2\tunnel-15m.b3d
+.freeobj(52) ell_v2\forml-10m.b3d
+.freeobj(53) ell_v2\formr-10m.b3d
+.freeobj(54) ell_v2\st-marys-s.b3d
+.freeobj(55) ell_v2\st-marys-n.b3d
+.freeobj(56) ell_v2\CW-C-L.b3d
+.freeobj(57) ell_v2\CW-S-L.b3d
+.freeobj(58) ell_v2\CW-C-R.b3d
+.freeobj(59) ell_v2\CW-S-R.b3d
+.freeobj(60) ell_v2\Wapping_WallL.b3d
+.freeobj(61) ell_v2\Wapping_WallR.b3d
+.freeobj(62) ell_v2\cw-roundell.b3d
+.freeobj(63) ell_v2\cw-tunnel-l.b3d
+.freeobj(64) ell_v2\cw-tunnel-r.b3d
+.freeobj(65) ell_v2\cw-tunnel_front.b3d
+.freeobj(66) ell_v2\roth-arch.b3d
+.freeobj(67) ell_v2\roth-arch-10m.b3d
+.freeobj(68) ell_v2\rotherhithe_WallL.b3d
+.freeobj(69) ell_v2\rotherhithe_WallR.b3d
+.freeobj(70) ell_v2\roth-details.b3d
+.freeobj(71) ell_v2\cw-sign-l.b3d
+.freeobj(72) ell_v2\cw-sign-r.b3d
+.freeobj(73) ell_v2\ncg-plat.b3d
+.freeobj(74) ell_v2\ncg-plat-dn.b3d
+.freeobj(75) ell_v2\cw-pillar.b3d
+.freeobj(76) ell_v2\cw-sb-plat.b3d
+.freeobj(77) ell_v2\shadwell_front1530.b3d
+.freeobj(78) ell_v2\tunnel_front_conc.b3d
+.freeobj(79) ell_v2\pre-swr-arch.b3d
+.freeobj(80) ell_v2\sh-wo-l.b3d
+.freeobj(81) ell_v2\sh-wo-r.b3d
+.freeobj(82) ell_v2\bench.b3d
+.freeobj(83) ell_v2\lu-gate-l.b3d
+.freeobj(84) ell_v2\lu-gate-r.b3d
+.freeobj(85) ell_v2\wapping-front1530.b3d
+.freeobj(86) ell_v2\wrtnf-l.b3d
+.freeobj(87) ell_v2\roth-stairs.b3d
+.freeobj(88) ell_v2\lu-barrier.b3d
+.freeobj(89) ell_v2\tunnel_front-roth.b3d
+.freeobj(90) ell_v2\lights.b3d
+.freeobj(91) ell_v2\ro-time1530.b3d
+.freeobj(92) ell_v2\wrtnf-r.b3d
+.freeobj(93) ell_v2\wc-stairbridge.b3d
+.freeobj(94) ell_v2\whitechapel-front.b3d
+.freeobj(95) ell_v2\wc-sheltl.b3d
+.freeobj(96) ell_v2\wc-sheltr.b3d
+.freeobj(97) ell_v2\sh-sign.b3d
+.freeobj(98) ell_v2\forml2-15m.b3d
+.freeobj(99) ell_v2\formr2-15m.b3d
+.freeobj(100) ell_v2\monitor.b3d
+.freeobj(101) ell_v2\sw-tun-roof.b3d
+.freeobj(102) ell_v2\tunnel-15m-wide.b3d
+.freeobj(103) ell_v2\cw-wall-roundell.b3d
+.freeobj(104) ell_v2\cw-f-l.b3d
+.freeobj(105) ell_v2\cw-f-r.b3d
+.freeobj(106) ell_v2\cw-track-roof.b3d
+.freeobj(107) ell_v2\cw-front.b3d
+.freeobj(108) ell_v2\cw-10m-l.b3d
+.freeobj(109) ell_v2\cw-10m-r.b3d
+.freeobj(110) ell_v2\cw-ex-r.b3d
+.freeobj(111) ell_v2\cw-back.b3d
+.freeobj(112) ell_v2\tunnel-20m.b3d
+.freeobj(113) ell_v2\sq-sign.b3d
+.freeobj(114) ell_v2\sq-form-ex.b3d
+.freeobj(115) ell_v2\sq-track-pillar.b3d
+.freeobj(116) ell_v2\sq-arch.b3d
+.freeobj(117) ell_v2\sq-roof.b3d
+.freeobj(118) ell_v2\sq-roof-2.b3d
+.freeobj(119) ell_v2\sq-h-girder.b3d
+.freeobj(120) ell_v2\sq-z-girder.b3d
+.freeobj(121) ell_v2\sq-plat-pillar.b3d
+.freeobj(122) ell_v2\sq-s-building.b3d
+.freeobj(123) ell_v2\sq-s-building-2.b3d
+.freeobj(124) ell_v2\sq-nb-wall.b3d
+.freeobj(125) ell_v2\sq-time1530.b3d
+.freeobj(126) ell_v2\sq-s-building-3.b3d
+.freeobj(127) ell_v2\adverts\crotrainz.b3d
+.freeobj(128) ell_v2\adverts\trainsim.b3d
+.freeobj(129) ell_v2\adverts\londontube.b3d
+.freeobj(130) ell_v2\adverts\tsgallery.b3d
+;.freeobj(131) ell_v2\sq-n-building.b3d
+;.freeobj(132) ell_v2\sq-exit-wall.b3d
+.freeobj(133) ell_v2\lu-barrier-wap.b3d
+.freeobj(134) ell_v2\bush.b3d
+.freeobj(135) ell_v2\bushes.b3d
+.freeobj(136) ell_v2\factory.b3d
+.freeobj(137) ell_v2\railbridge.b3d
+.freeobj(138) ell_v2\road.b3d
+.freeobj(139) ell_v2\rail_end.b3d
+.freeobj(140) ell_v2\shoreditch-disused-form.b3d
+.freeobj(141) ell_v2\weeds.b3d
+.freeobj(142) ell_v2\bridge_front3.b3d
+;.freeobj(143) ell_v2\surface-wall-simple.b3d
+.freeobj(144) ell_v2\NCG-Merge-Point.b3d
+.freeobj(145) ell_v2\special\p-curve.b3d
+.freeobj(146) ell_v2\sb-trains.b3d
+.freeobj(147) ell_v2\nb-trains.b3d
+.freeobj(148) ell_v2\sq-sheltl.b3d
+.freeobj(149) ell_v2\sq-sheltr.b3d
+.freeobj(150) ell_v2\sq-sheltl-10m.b3d
+.freeobj(151) ell_v2\sq-sheltr-10m.b3d
+.freeobj(152) ell_v2\adverts\lt-small.b3d
+.freeobj(153) ell_v2\wall-braces.b3d
+.freeobj(154) ell_v2\dual-cables.b3d
+.freeobj(155) ell_v2\sq-huts.b3d
+.freeobj(156) ell_v2\blue1s.csv
+.freeobj(157) ell_v2\blue2s.csv
+.freeobj(158) ell_v2\blue3s.csv
+.freeobj(159) ell_v2\blue4s.csv
+.freeobj(160) ell_v2\sq-ent-cables.b3d
+.freeobj(161) ell_v2\adverts\lumap.b3d
+.freeobj(162) ell_v2\sq-welcome.b3d
+.freeobj(163) ell_v2\sq-lamppost.b3d
+.freeobj(164) ell_v2\cross.b3d
+.freeobj(165) ell_v2\cross2.b3d
+.freeobj(166) ell_v2\trains\c69hc.csv
+.freeobj(167) ell_v2\trains\a60.csv
+.freeobj(168) ell_v2\special\rail_Light_Left_10m.b3d
+.freeobj(169) ell_v2\special\rail_Light_Right_10m.b3d
+.freeobj(170) ell_v2\special\rail_Dark_Left_15m.b3d
+.freeobj(171) ell_v2\special\rail_Dark_Right_15m.b3d
+.freeobj(172) ell_v2\special\rail_Dark_Left_5m.b3d
+.freeobj(173) ell_v2\special\rail_Dark_Right_5m.b3d
+.freeobj(174) ell_v2\tunnel-5m.b3d
+.freeobj(175) ell_v2\big_bushes.b3d
+.freeobj(176) ell_v2\sh-road.b3d
+.freeobj(177) ell_v2\wc-disused-l.b3d
+.freeobj(178) ell_v2\wc-disused-r.b3d
+.freeobj(179) ell_v2\blue1.csv
+.freeobj(180) ell_v2\blue2.csv
+.freeobj(181) ell_v2\blue3.csv
+.freeobj(182) ell_v2\blue4.csv
+.freeobj(183) ell_v2\sq-road-bridge.b3d
+.freeobj(184) ell_v2\special\ncg-l-curve.b3d
+.freeobj(185) ell_v2\special\ncg-r-curve.b3d
+.freeobj(186) ell_v2\ncg-point.b3d
+.freeobj(187) ell_v2\wap-sig.b3d
+.freeobj(188) ell_v2\special\silwood-tunnel.b3d
+.freeobj(189) ell_v2\special\silwood.b3d
+.freeobj(190) ell_v2\special\silwood-r.b3d
+.freeobj(191) ell_v2\silwood-dike-l.b3d
+.freeobj(192) ell_v2\tree.b3d
+.freeobj(193) ell_v2\sq-lu-barrier.b3d
+.freeobj(194) ell_v2\sq-mid-barrier.b3d
+.freeobj(195) ell_v2\signals\signal_back.csv
+.freeobj(196) ell_v2\forml2-10m.b3d
+.freeobj(197) ell_v2\formr2-10m.b3d
+.freeobj(198) ell_v2\prail-ltor.b3d
+.freeobj(199) ell_v2\prail-rtol.b3d
+.freeobj(200) ell_v2\prail-ltor-dtol.b3d
+.freeobj(201) ell_v2\prail-rtol-dtol.b3d
+.freeobj(202) ell_v2\ncg-stairs.b3d
+.freeobj(203) ell_v2\ncg-bridge.b3d
+.freeobj(204) ell_v2\ncg-shelter.b3d
+.freeobj(205) ell_v2\ncg-shelter-end.b3d
+.freeobj(206) ell_v2\ncg-shelter-close.b3d
+.freeobj(207) ell_v2\ncg-pillar.b3d
+.freeobj(208) ell_v2\ncg-sta-building.b3d
+.freeobj(209) ell_v2\ncg-lamppost.b3d
+.freeobj(210) ell_v2\ncg-plat-sign.b3d
+.freeobj(211) ell_v2\ncg-roof-sign.b3d
+.freeobj(212) ell_v2\house1.b3d
+.freeobj(213) ell_v2\trains\cx_cig_fr.csv
+.freeobj(214) ell_v2\trains\cx_cig_mid.csv
+.freeobj(215) ell_v2\trains\cx_cig_rear.csv
+.freeobj(216) ell_v2\scrapyard.b3d
+.freeobj(217) ell_v2\ncg-signs_shday.b3d
+.freeobj(218) ell_v2\15mph.b3d
+.freeobj(219) ell_v2\40mph.b3d
+.freeobj(220) ell_v2\30mph.b3d
+.freeobj(221) ell_v2\house2.b3d
+.freeobj(222) ell_v2\house3.b3d
+.freeobj(223) ell_v2\LTrees.b3d
+.freeobj(224) ell_v2\RTrees.b3d
+.freeobj(225) ell_v2\overcables.b3d
+.freeobj(226) ell_v2\canal-jct.b3d
+.freeobj(227) ell_v2\special\cj-point-l.b3d
+.freeobj(228) ell_v2\special\cj-point-r.b3d
+.freeobj(229) ell_v2\st-marys-wide.b3d
+.freeobj(230) ell_v2\prail-ltor-l.b3d
+.freeobj(231) ell_v2\prail-rtol-l.b3d
+.freeobj(232) ell_v2\cj-fac-left.b3d
+.freeobj(233) ell_v2\cj-fac-right.b3d
+.freeobj(234) ell_v2\grass-left.b3d
+.freeobj(235) ell_v2\grass-right.b3d
+.freeobj(236) ell_v2\cj-fac-ex.b3d
+.freeobj(237) ell_v2\milwall-dike-f.b3d
+.freeobj(238) ell_v2\milwall-dike-e.b3d
+.freeobj(239) ell_v2\house4.b3d
+.freeobj(240) ell_v2\sstore3.b3d
+.freeobj(241) ell_v2\cj-fence.b3d
+.freeobj(242) ell_v2\sidings-fence.b3d
+.freeobj(243) ell_v2\special\disused.b3d
+.freeobj(244) ell_v2\rail_light_rusty_end.b3d
+.freeobj(245) ell_v2\sq-ple-cables.b3d
+.freeobj(246) ell_v2\sil-cab.b3d
+.freeobj(247) ell_v2\people1.csv
+.freeobj(248) ell_v2\bridge_front2.b3d
+.freeobj(249) ell_v2\sh-fence.b3d 
+.freeobj(250) ell_v2\cj-bridge-wall.b3d
+.freeobj(251) ell_v2\sig-box.b3d
+.freeobj(252) ell_v2\adverts\tsgallery_big.b3d
+.freeobj(253) ell_v2\adverts\trainsim_big.b3d
+.freeobj(254) ell_v2\ncg-bench.b3d
+.freeobj(255) ell_v2\safety\safety2.b3d
+.freeobj(256) ell_v2\signals\sig_tunsign.csv
+.freeobj(257) ell_v2\signals\sig_tunsign_rep.csv
+.freeobj(258) ell_v2\people2.csv ;;changed for BVE4 version
+.freeobj(259) ell_v2\10mph.b3d
+.freeobj(300) ell_v2\signals\signal_rep.csv
+.freeobj(301) ell_v2\signals\signal_fogrep.csv ;;change for BVE4 version
+.freeobj(302) ell_v2\20mph.b3d
+.freeobj(303) ell_v2\weeds2.csv
+.freeobj(304) ell_v2\weeds2d.csv
+.freeobj(305) ell_v2\25mph.b3d
+.WallL(0) ell_v2\Wall_Stone_LH.b3d
+.WallR(0) ell_v2\Wall_Stone_RH.b3d
+.WallL(1) ell_v2\Wall_Stone_LH_Dark.b3d
+.WallR(1) ell_v2\Wall_Stone_RH_Dark.b3d
+.WallL(2) ell_v2\wc-wallL.b3d
+.WallR(2) ell_v2\wc-wallR.b3d
+.WallL(3) ell_v2\tunnel.b3d
+.WallR(3) ell_v2\Wall_Stone_RH_S.b3d
+.WallL(4) ell_v2\TunnelL.b3d
+.WallR(4) ell_v2\TunnelR.b3d
+.WallL(5) ell_v2\wrtun-l.b3d
+.WallR(5) ell_v2\wrtun-r.b3d
+.WallL(6) ell_v2\TunnelL.b3d
+.WallR(6) ell_v2\sw-tun-wall.b3d
+.WallL(7) ell_v2\l-cables.b3d
+.WallR(7) ell_v2\r-cables.b3d
+.WallL(8) ell_v2\sq-wall-l.b3d
+.WallR(8) ell_v2\sq-wall-r.b3d
+.WallL(9) ell_v2\wrtun-l.b3d
+.WallR(9) ell_v2\wr-arc.b3d
+.WallL(10) ell_v2\ncg-trk1-railings.b3d
+.WallR(10) ell_v2\ncg-p1-wall.b3d
+.WallL(11) ell_v2\factory.b3d
+.WallR(11) ell_v2\l-cables-e.b3d
+.WallL(12) ell_v2\run-fence.b3d
+.WallR(12) ell_v2\l-cables.b3d
+.WallL(13) ell_v2\sq-wall-l-s.b3d
+.WallR(13) ell_v2\sq-wall-r-s.b3d
+.WallL(14) ell_v2\l-cables-f.b3d
+.WallR(14) ell_v2\cj-fence-ex.b3d
+.WallL(15) ell_v2\Wall_Stone_LH_High.b3d
+.WallR(15) ell_v2\Wall_Stone_RH_High.b3d
+
+.DikeL(0) ell_v2\deptford-dike-L.b3d
+.DikeR(0) ell_v2\deptford-dike-R.b3d
+.DikeL(1) ell_v2\sq-dike-l.b3d
+.DikeR(1) ell_v2\sq-dike-r.b3d
+.DikeL(2) ell_v2\special\Trees_L.b3d
+.DikeR(2) ell_v2\special\Trees_R.b3d
+.DikeL(3) ell_v2\sidings.b3d
+.DikeR(3) ell_v2\cj-bank.b3d
+.DikeL(4) ell_v2\LTrees.b3d
+.DikeR(4) ell_v2\RTrees.b3d
+.DikeL(5) ell_v2\milwall-dike-R.b3d
+.DikeR(5) ell_v2\milwall-dike-R2.b3d
+.DikeR(6) ell_v2\milwall-dike-R3.b3d
+.DikeL(7) ell_v2\sstore1.b3d
+.DikeR(7) ell_v2\sstore2.b3d
+.DikeL(8) ell_v2\sq-pre-dike.b3d
+.DikeR(8) ell_v2\sq-pre-dike-r.b3d
+.DikeL(9) ell_v2\rb-dike-l.b3d
+.DikeR(9) ell_v2\rb-dike-r.b3d
+.DikeL(10) ell_v2\shd-cables.b3d
+.DikeR(10) ell_v2\silwood-dike-r.b3d
+
+
+With Texture,
+.Background(0) ell_v2\outside2.bmp
+
+with track,
+
+550,.Pitch -2.173
+775,.Pitch -8.62
+925,.Pitch 0,
+1650,.Pitch -11.11,
+2250,.Pitch -3.33 
+2350,.Pitch -25
+2575,.Pitch -6
+2600,.Pitch 0,
+2850,.Pitch -16.66
+3250,.Pitch -10
+3300,.Pitch 0,
+3350,.Pitch -7
+3375,.Pitch -27.77
+3475,.Pitch -14.925
+3550,.Pitch 5.848
+3625,.Pitch 29.41,
+3700,.Pitch 5.68
+3725,.Pitch 3.33
+3800,.Pitch 12.5
+4425,.Pitch 3.33
+4550,.Pitch 0
+4625,.Pitch -4.55
+4775,.Pitch 1
+4775,.Pitch 10.526
+4900,.Pitch 0
+4950,.Pitch 5.988
+5100,.Pitch 0
+5225,.Pitch 4.545
+5425,.Pitch 0
+5675,.Pitch 3.03
+6050,.Pitch -5.10
+6175,.Pitch 16.66
+6275,.Pitch 0,
+
+ 
+550,.curve 550;0 ,.limit 100;0,.accuracy 4 ,.height 0.5,
+600,.ground 2; .back 0 ,.railtype 0;16 ,.adhesion 135 ,.dike 0;-1;10 ,.railstart 1;-4;0;5 
+600,.freeobj 0;73 ,.freeobj 1;140 ,.freeobj 1;19 ,.freeobj 0;24 ,.freeobj 0;247;4;0;-3 
+600,.sta Shoreditch;15.2930;15.3000;;1;0;;ell\ncgtrain.wav;15;80 ,
+605,.freeobj 0;25 
+610,.freeobj 1;141;-4;0.6 
+625,.freeobj 0;303,.freeobj 0;73 ,.freeobj 1;140 ,.freeobj 1;19 ,.freeobj 0;24 ,.marker ell\markers\shoreditch_sta.bmp;75 ,.freeobj 0;49;3 
+630,.freeobj 1;141;-4.7;0.6 
+640,.freeobj 0;97;5.95 ,.stop 0
+650,.freeobj 0;84 ,.freeobj 0;88;4.6;0;180 
+650,.freeobj 0;303,.freeobj 1;140 ,.freeobj 1;19 ,.freeobj 0;24 ,.freeobj 0;21 ,.freeobj 0;49;3 
+652,.freeobj 0;100;3.5;0.9;45 
+662,.freeobj 1;26;-30;15;-15 
+668,.freeobj 1;141;-4.4;0.6 
+669,.freeobj 0;156 
+668,.signal -3;;2.4;3.4,
+675,.freeobj 0;303,.curve 0;0 ,.railtype 0;2 ,.freeobj 1;140 ,.freeobj 1;19 ,.freeobj 0;24 ,.freeobj 0;14;-4
+680,.freeobj 0;119;0;-0.9 ,.freeobj 0;119;5;-0.9 ,.freeobj 0;119;-5;-0.9 ,.freeobj 0;119;-10;-0.9 
+682,.freeobj 0;119;0;-0.9 ,.freeobj 0;119;5;-0.9 ,.freeobj 0;119;-5;-0.9 ,.freeobj 0;119;-10;-0.9 
+684,.freeobj 0;119;0;-0.9 ,.freeobj 0;119;5;-0.9 ,.freeobj 0;119;-5;-0.9 ,.freeobj 0;119;-10;-0.9 
+686,.freeobj 0;119;0;-0.9 ,.freeobj 0;119;5;-0.9 ,.freeobj 0;119;-5;-0.9 ,.freeobj 0;119;-10;-0.9 
+686,.freeobj 0;157 
+688,.freeobj 0;119;0;-0.9 ,.freeobj 0;119;5;-0.9 ,.freeobj 0;119;-5;-0.9 ,.freeobj 0;119;-10;-0.9 
+690,.freeobj 0;119;0;-0.9 ,.freeobj 0;119;5;-0.9 ,.freeobj 0;119;-5;-0.9 ,.freeobj 0;119;-10;-0.9 
+690,.freeobj 1;141;-5;0.6 ,.freeobj 0;176 
+692,.freeobj 0;119;0;-0.9 ,.freeobj 0;119;5;-0.9 ,.freeobj 0;119;-5;-0.9 ,.freeobj 0;119;-10;-0.9 
+694,.freeobj 0;119;0;-0.9 ,.freeobj 0;119;5;-0.9 ,.freeobj 0;119;-5;-0.9 ,.freeobj 0;119;-10;-0.9 ,.freeobj 0;26;11;10;-220 
+; tunnel starts here
+700,.freeobj 0;304,.curve 550;0 ;ground 3 
+700,.railtype 0;4 ,.freeobj 0;8;0;0;-1.283 ,.freeobj 0;15 ,.marker ell\markers\shoreditch.bmp;75 ,.dikeend 0 
+700,.freeobj 0;10;0;0;-355.426 ,.freeobj 0;9;-4;0;-355.426 ,.railend 1;-4;0 ,.freeobj 0;14;-4;0;-355.426 
+703,.freeobj 0;158 
+720,.freeobj 0;159 
+725,.freeobj 0;303,.curve 156.538;0 ,.railstart 1;2;0;3 ,.freeobj 0;12;2;0;-355.426 ,.freeobj 0;11;-2;0;-355.426 ,.freeobj 0;145;0;0;355.426 ,.ground 0,
+725,.freeobj 0;14;-2;0;-355.426 ,.railtype 0;4 
+735,.freeobj 0;26;-34;15;-15 
+750,.curve 0;0 ,.rail 1;4;0 ,.wall 0;-1;1 ,.wall 1;1;1 ,.freeobj 0;13;0;0;0 ,.railtype 0;0 ,.railtype 1;1 ,.freeobj 1;251;2.3;3.6 
+775,.railtype 0;0 ,.railtype 1;1 ,.freeobj 0;220;0.7
+775,.wallend 0 ,.wallend 1 ,.wall 0;-1;0 ,.wall 1;1;0 ,.railtype 0;2 ,.railtype 1;3 ,.freeobj 0;175;-3.8;4.6 ,.freeobj 1;175;3.8;4.6 
+800,.wallend 0 ,.wallend 1 ,.wall 0;-1;1 ,.wall 1;1;1 ,.railtype 0;0 ,.railtype 1;1 ,.freeobj 0;13;0;0;0 
+825,.wallend 0 ,.wallend 1 ,.wall 0;-1;0 ,.wall 1;1;0 ,.railtype 0;2 ,.railtype 1;3 ,.freeobj 0;175;-3.8;4.6 
+825,.freeobj 1;175;3.8;4.6 , 
+
+844,.freeobj 0;257;-0.5,
+845,.relay -2.45;1.8,;FRB19
+
+850,.freeobj 0;175;-3.8;4.6 ,.freeobj 1;175;3.8;4.6 
+875,.wallend 0 ,.wallend 1 ,.wall 0;-1;1 ,.wall 1;1;1 ,.railtype 0;0 ,.railtype 1;1 ,.freeobj 0;13;0;0;0 ,.freeobj 0;16 
+925,.wallend 0 ,.wallend 1 ,.wall 0;-1;0 ,.wall 1;1;0 ,.railtype 0;2 ,.railtype 1;3 
+1000,.freeobj 0;174 ,.freeobj 0;38;2;-1 ,.railtype 0;14 ,.railtype 1;14 ,.freeobj 0;172 ,.freeobj 1;173 ,.wall 1;1;3 ,.freeobj 0;248 
+1005,.freeobj 0;168 ,.freeobj 1;169 ,.freeobj 0;175;-3.8;4.6 ,.freeobj 1;175;3.8;4.6 
+1015,.freeobj 0;168 ,.freeobj 1;169 
+1010,.freeobj 1;192;5.7;4.6 
+1020,.freeobj 1;192;5.7;4.6 
+1025,.wallend 0 ,.wallend 1 ,.railtype 0;20 ,.railtype 1;21  ; B Road crossing complex
+1025,.curve 700;0 ,.freeobj 0;34 ,.freeobj 0;38;2;-1 ,.freeobj 0;248 
+
+1034,.freeobj 0;256;-0.3,
+1035,.Signal -2;;-2.2;1.8 ,
+1050,.freeobj 0;34 
+1075,.freeobj 0;34 
+1100,.freeobj 0;34 
+1125,.wall 0;-1;0 ,.wall 1;1;0 ,.railtype 0;2 ,.railtype 1;3  ; End of B Road crossing
+1125,.curve 0;0 ,
+1248,.freeobj 0;192;-5.7;6.6 ,.freeobj 1;192;5.7;6.6 
+1250,.wallend 0 ,.wallend 1 ,.wall 0;-1;1 ,.wall 1;1;1 ,.railtype 0;0 ,.railtype 1;1 ,.freeobj 0;13;0;0;0 ,
+1254,.freeobj 0;192;-2;6.6 ,.freeobj 0;192;2.5;6.6 ,.freeobj 0;192;6;6.6 
+1275,.curve 450;0 ,.railtype 0;24 ,.railtype 1;25 
+1300,.curve -450;0 ,.railtype 0;26 ,.railtype 1;27 
+; Whitechapel
+1325,.curve 0;0 ,.wallend 0 ,.wallend 1 ,.railtype 0;3 ,.railtype 1;2 ,.wall 0;-1;2 ,.wall 1;1;2 ,.freeobj 0;200 ,.freeobj 1;201 
+1325,.freeobj 0;31 ,.freeobj 1;32 
+1328,.freeobj 1;182;3.75;1;180 
+1343,.freeobj 1;181;3.75;1;180 
+1350,.freeobj 0;29 ,.freeobj 1;30 
+1358,.freeobj 1;180;3.75;1;180 
+1373,.freeobj 0;134;-5.3;1.1 ,.freeobj 1;179;3.75;1;180 
+1375,.freeobj 0;98 ,.freeobj 1;99 ,.freeobj 0;50;-6;4;0 ,.freeobj 0;48;-3 ,.freeobj 1;49;3 ,.freeobj 1;134;5.3;1.1 
+1384,.freeobj 0;141;-3.6;1.1 
+1386,.freeobj 1;141;3.75;1.1 
+1388,.freeobj 0;84;0;0;180 ,.freeobj 0;88;-4.6 
+1390,.freeobj 0;52 ,.freeobj 1;53 ,.freeobj 1;83;0;0;180 ,.freeobj 1;88;4.5 ,.freeobj 0;177 ,.freeobj 1;178 
+1400,.marker ell\markers\whitechapel_sta.bmp;125 
+1400,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;17;-2 ,.freeobj 1;18;2 ,.freeobj 0;50;-6;4;0 ,.wallend 1 ,.wallend 0 
+1400,.freeobj 0;258;-4;0.6 ,.freeobj 0;247;-3;0.6
+1400,.freeobj 0;35,  ; platform shelters
+1402,.freeobj 1;100;3.5;1.1;135 
+1410,.freeobj 1;33;0;0;180 
+1415,.freeobj 0;44;0;0;180 
+1416,.freeobj 0;27 
+1424,.freeobj 0;27 ,.freeobj 1;147;4;3.76 
+1425,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;17;-2 ,.freeobj 1;18;2 ,.freeobj 0;95;-2;0.51 ,.freeobj 1;96;2;0.51 
+1425,.freeobj 0;258;-4;0.6 ,.freeobj 1;247;4;0.6
+1425,.freeobj 0;35 ,.freeobj 0;90;-3.95;0.51 ,.freeobj 1;90;3.95;0.51,.announce ell\departo.wav  ; platform shelters ;;??? izzit 0.51?
+1426,.freeobj 0;146;-4;3.76 
+1428,.freeobj 0;36 
+1436,.freeobj 0;27 
+1440,.freeobj 0;36 
+1440,.sta Whitechapel;;15.3200;;-1;0;;ell\ncgtrain.wav;15;80,.freeobj 0;52 ,.freeobj 1;53, 
+1446,.freeobj 0;166;-30;5;-60 
+1449,.freeobj 0;133;-2.15;0;90 
+1450,.railtype 0;14 ,.railtype 1;14 ,.freeobj 0;52 ,.freeobj 1;53 ,.freeobj 0;169 ,.freeobj 1;168 
+1450,.stop 0;10;10  ,.freeobj 0;94 ,.marker ell\markers\district.bmp;50 ,.freeobj 0;83, .fog 160;200;0;0;0 
+1451,.freeobj 1;100;3.5;1.1;45 ,.freeobj 1;167 ,.freeobj 0;133;-3.85;0;-130 
+1452,.freeobj 0;23;-5.9;1.1 ,.freeobj 1;23;4.6;1.1 ,.freeobj 1;84 
+1456,.freeobj 0;93;0;1.1 
+1457,.freeobj 0;256;-2.3;1.5,
+1460,.Signal -2;;-2.3;3.8,
+1460,.freeobj 0;42;2;-1 ,.freeobj 0;51 ,.freeobj 0;173 ,.freeobj 1;172 
+1465,.freeobj 0;172 ,.freeobj 1;173 ,.freeobj 0;199 ,.freeobj 1;198 
+1470,.freeobj 0;172 ,.freeobj 1;173 
+; end of Whitechapel
+; non-peak hour reversing crossover
+1475,.railtype 0;4 ,.railtype 1;4 ,.freeobj 0;7 ,.freeobj 1;3 ,.wall 0;-1;3 
+1477,.freeobj 0;179;0;-0.5 
+1494,.freeobj 0;180;0;-0.5 
+1511,.freeobj 0;181;0;-0.5 
+1525,.freeobj 0;3;0;0;180 ,.freeobj 1;7;0;0;180 ,.railtype 0;0 ,.railtype 1;1 ,.railstart 2;10;0;1 
+1528,.freeobj 0;182;0;-0.5 
+; St Mary's curve / District and Hammersmith & City line junction
+1550,.railtype 1;0 ,.freeobj 1;199 ,.railstart 3;12.5;0;1 ,.wallend 0 ,.wall 0;-1;4 ,.wall 3;1;4 ,.freeobj 0;229,  ; "hole in the .wall" for the st. mary's .curve
+
+1575,.railtype 1;6 ,.freeobj 0;55 ,.railtype 1;4 ,.rail 2;6;0 ,.rail 3;9.25;0 ,.railtype 2;4,.freeobj 0;302;-4.8;-0.4, ;;20mph
+1600,.railtype 0;4 ,.railend 2;2;0 ,.rail 3;6;0 ,.railtype 3;4 ,.freeobj 0;54 ,.freeobj 1;164;0;0;180 
+1625,.wallend 0 ,.freeobj 0;2;0;0;180 ,.freeobj 1;5;0;0;180 ,.wall 0;-1;3 ,.railend 3;4;0 ,.wallend 3 
+1625,.railtype 0;0 ,.railtype 1;1 ,.marker ell\markers\stmarys.bmp;100 
+; end of st. mary's .curve
+1650,.wallend 0 ,.wallend 1 ,.wall 0;-1;15 ,.wall 1;1;15 ,.railtype 0;16 ,.railtype 1;17 ,.curve 550;0 
+1675,.freeobj 0;175;-4.2;14.1 ,.freeobj 1;175;4.2;14.1 ,.freeobj 0;219;1.8;-1.1,  ;;40mph
+1700,.curve 0;0 ,.wallend 0 ,.wallend 1 ,.wall 0;-1;3 ,.railtype 0;0 ,.railtype 1;1 ,.freeobj 0;38;2;-1, .freeobj 0;142 
+1700,.freeobj 0;175;-4.2;14.1;90 ,.freeobj 0;175;-3.7;14.1;90 
+1725,.freeobj 1;251;2.2;1.1 
+1800,.wallend 0 ,.wall 0;-1;15 ,.wall 1;1;15 ,.railtype 0;2 ,.railtype 1;3 
+1825,.wallend 0 ,.wallend 1 ,.wall 0;-1;3 ,.railtype 0;0 ,.railtype 1;1 ,.freeobj 0;38;2;-1 ,.freeobj 0;142 
+1875,.wallend 0 ,.wall 0;-1;15 ,.wall 1;1;15 ,.railtype 0;14 ,.railtype 1;14 ,.freeobj 0;168 ,.freeobj 1;169 
+1885,.freeobj 0;51 ,.freeobj 0;38;2;-1 ,.freeobj 0;170 ,.freeobj 1;171 ,.freeobj 0;248 
+1900,.wallend 0 ,.wallend 1 ,.wall 0;-1;3 ,.railtype 0;0 ,.railtype 1;1 
+2000,.railtype 0;46 ,.freeobj 1;251;2.2;1.1 
+2025,.railtype 0;0 
+2050,.railtype 1;47 
+2075,.railtype 1;1 
+2172,.freeobj 1;179;0;-0.5;180 
+2189,.freeobj 1;179;0;-0.5;180 
+2206,.freeobj 1;179;0;-0.5;180 
+2223,.freeobj 1;179;0;-0.5;180 
+2225,.wallend 0 ,
+2225,.freeobj 0;51,  ; dark tunnel small
+2225,.freeobj 0;79;2;2,  ; dark tunnel large
+2225,.railtype 0;1 ,.railtype 1;0 ,.freeobj 0;198 ,.freeobj 1;199 
+2240,.freeobj 0;196 ,.freeobj 1;197,  ; disused plat.form bits
+2250,.freeobj 0;98 ,.freeobj 1;99 
+
+
+; Shadwell
+2250,.freeobj 0;43;2;2 ,.freeobj 0;45 ,.freeobj 1;46 ,.freeobj 0;47 ,.railtype 0;15 ,.railtype 1;14 ,.freeobj 0;169 ,.freeobj 1;168 
+2257,.freeobj 1;249;5 
+2258,.freeobj 1;83;0;0;180 ,.freeobj 1;88;4.5 
+2260,.freeobj 0;171 ,.freeobj 1;170 
+2264,.freeobj 0;249;-4 
+2265,.freeobj 0;52 ,.freeobj 1;53 ,.freeobj 0;84;0;0;180 ,.freeobj 0;88;-4.6 
+2275,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;40;2;2 ,.freeobj 0;39;-2 ,.freeobj 1;41;2 ,.freeobj 0;48;-2.2;0.4 ,.freeobj 1;49;2.2;0.4 ,.railtype 0;1 ,.railtype 1;0 
+2275,.freeobj 0;247;-4;0.6 ,.freeobj 1;258;4;0.6
+2287,.freeobj 0;82;-5.3;0.6 ,.freeobj 1;82;5.3;0.6 
+2299,.freeobj 0;82;-5.3;0.6 ,.freeobj 1;82;5.3;0.6 
+2300,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;40;2;2 ,.freeobj 0;39;-2 ,.freeobj 1;41;2 ,.freeobj 0;48;-2.2;0.4 ,.freeobj 1;49;2.2;0.4 
+2300,.freeobj 0;258;-4;0.6 ,.freeobj 1;247;4;0.6,.marker ell\markers\dlr.bmp;50 
+2311,.freeobj 0;82;-5.3;0.6 ,.freeobj 1;82;5.3;0.6 
+2315,.sta Shadwell;;15.3400;;-1;1;;;15;80
+2325,.freeobj 0;80 ,.freeobj 1;81 
+2325,.stop 0;10;10 ,.railtype 0;1 ,.railtype 1;0 ,.freeobj 0;83 ,.freeobj 1;84 ,.marker ell\markers\shadwell_sta.bmp;200 
+2325,.freeobj 0;52 ,.freeobj 1;53 ,.freeobj 0;77 ,.freeobj 0;146;0;5.1 ,.freeobj 1;147;0;5.1 
+2325,.freeobj 0;23;-4.6;1.1 ,.freeobj 1;23;4.6;1.1,  ; Stairs
+2337,.freeobj 0;256;-1.5;1.6,
+2338,.Signal -2;;-3.45;3.75 ,
+2350,.height 2,.wall 0;-1;3 ,.freeobj 0;78;2;-1 ,.railtype 0;0 ,.railtype 1;1 ,.freeobj 0;199 ,.freeobj 1;198 
+2352,.freeobj 0;179;0;-0.5 
+; end of shadwell
+2369,.freeobj 0;180;0;-0.5 
+2386,.freeobj 0;181;0;-0.5 
+2400,.wallend 0 ,.wall 0;-1;4 ,.wall 1;1;4 ,.freeobj 0;101 
+2403,.freeobj 0;182;0;-0.5 
+2425,.rail 1;4.5;0 ,.freeobj 0;101 
+2450,.rail 1;5;0 ,.wall 0;0;6,  ; seperate for .walls and wapping-rotherhithe tunnels
+2975,.curve -750;0 ,.railtype 0;22 ,.railtype 1;23 
+3025,.curve 0;0 ,.railtype 0;0 ,.railtype 1;1 
+3075,.freeobj 1;251;2.2;1.1 
+3197,.freeobj 1;179;0;-0.5;180 
+3200,.wall 0;-1;4 ,.freeobj 0;101 
+3214,.freeobj 1;179;0;-0.5;180 
+3225,.freeobj 0;101 ,.marker ell\markers\wapping_sta.bmp;125 
+3231,.freeobj 1;179;0;-0.5;180 
+3248,.freeobj 1;179;0;-0.5;180 
+3250,
+.railtype 0;46, 
+.wallend 0, 
+.wallend 1, 
+.freeobj 0;102, 
+.railtype 0;0 ,
+.freeobj 0;79;2.5;2, 
+
+3265,.freeobj 0;196,.freeobj 1;197, 
+ 3270,.freeobj 0;305;0;-0.5, ;25mph
+; Wapping 
+3275,.freeobj 0;98, .freeobj 1;99,.curve -900;0 ,.freeobj 0;45;0.5 ,.freeobj 1;46;-0.5 ,.freeobj 0;47;0.5 ,.railtype 0;49 ,.railtype 1;48 ,.freeobj 0;43;2.5;2 ,.freeobj 0;198 ,.freeobj 1;199 
+3283,.freeobj 1;83;0;0;180 ,.freeobj 1;133;4.25 
+3290,.freeobj 0;52 ,.freeobj 1;53 ,.freeobj 0;133;-4.35 ,.freeobj 0;84;0;0;180 
+3300,.form 0;L;0;0 ,.form 1;R;0;0 ,.freeobj 0;40;2.5;2 ,.freeobj 0;60;-1.5 ,.freeobj 1;61;1.5 ,.freeobj 0;48;-1.7;0.4 ,.freeobj 1;49;1.7;0.4 
+3300,.marker ell\markers\wapping-newcross.bmp;75 ,.freeobj 0;187;0;0;359 ,.freeobj 0;247;-2.5;0.6 ,.freeobj 1;258;5;0.6
+3315,.sta Wapping;;15.3600;;-1;1;;;15;80
+3325,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;40;2.5;2 ,.freeobj 0;60;-1.5 ,.freeobj 1;61;1.5 ,.freeobj 0;48;-1.7;0.4 ,.freeobj 1;49;1.7;0.4 
+3325,.freeobj 0;258;-3;0.6,.freeobj 1;247;5;0.6
+3349,.freeobj 0;133;-2.15;0;90 ,.freeobj 1;133;2.15;0;-90 
+3350,.stop 0;10;10 ,.freeobj 0;40;2.5;2 ,.freeobj 0;85 ,.freeobj 0;23;-4.6;1.1 ,.freeobj 1;23;4.6;1.1 ,.freeobj 0;146;0;5.1 ,.freeobj 1;147;0;5.1 ,
+3350,.freeobj 0;52 ,.freeobj 1;53 ,.freeobj 0;86 ,.freeobj 1;92 ,.freeobj 0;83;10.2 ,.freeobj 1;84;-10.2 ,.curve 0;0 ,.railtype 0;8 ,.railtype 1;7 
+3357,.Signal -2;;2.35;0,
+; end of wapping
+3375,.wall 0;0;9 ,.wall 1;1;5 ,.marker ell\markers\sub-aqua.bmp;25 ,
+3377,.freeobj 0;179;0.3;-0.5 
+3394,.freeobj 0;180;0.3;-0.5 
+3411,.freeobj 0;181;0.3;-0.5 
+3428,.freeobj 0;182;0.3;-0.5 
+
+3647,.freeobj 1;179;-0.3;-0.5;180 
+3650,.marker ell\markers\thames.bmp;275,
+3664,.freeobj 1;179;-0.3;-0.5;180 
+3675,.wall 0;-1;4 ,.wall 1;1;4 ,.freeobj 0;65;2;-1 ,.freeobj 0;101 ,.railtype 0;47 ,.railtype 1;46 
+3681,.freeobj 1;179;0;-0.5;180 
+3698,.freeobj 1;179;0;-0.5;180 
+3700,.rail 1;4;0 ,.wallend 0 ,.wallend 1 ,.freeobj 0;51 ,.railtype 1;0 ,.railtype 0;1 
+3715,.freeobj 0;52 ,.freeobj 1;53 ,.freeobj 0;87 
+
+
+; Rotherhithe
+3725,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;68;-2 ,.freeobj 1;69;2 ,.freeobj 0;66;2;2 ,.freeobj 0;84;0;0;180 ,.freeobj 1;83;0;0;180 
+3725,.freeobj 0;90;-3.95 ,.freeobj 1;90;3.95 ,.freeobj 0;247;-4;0.6 ,.freeobj 1;258;4;0.6
+3737,.freeobj 0;82;-5.3;0.6 ,.freeobj 1;82;5.3;0.6 
+3750,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;68;-2 ,.freeobj 1;69;2 ,.freeobj 0;67;2;2 ,.freeobj 0;90;-3.95 ,.freeobj 1;90;3.95 
+3750,.freeobj 0;258;-4;0.6 ,.freeobj 1;247;4;0.6 
+3765,.sta Rotherhithe;;15.3700;;-1;1;;;15;80
+3775,.stop 0;10;10 ,.railtype 0;14 ,.railtype 1;15 ,.freeobj 0;91;-3.1;3.25 ,.marker ell\markers\rotherhithe_sta.bmp;175 ,.freeobj 0;169 ,.freeobj 1;168 
+3775,.freeobj 0;83 ,.freeobj 1;84 ,.freeobj 0;37 ,.freeobj 1;1 ,.freeobj 0;70 ,.freeobj 0;88;-4.5;0;180 ,.freeobj 1;88;4.6;0;180 
+3785,.Signal -2;;-3.6;3.8, ,.freeobj 0;89;2;-1 ,.freeobj 0;51 ,.freeobj 0;173 ,.freeobj 1;172 
+3790,.freeobj 0;172 ,.freeobj 1;173 ,.freeobj 0;199 ,.freeobj 1;198 
+3795,.freeobj 0;172 ,.freeobj 1;173 
+; end of Rotherhithe
+3800,.wall 0;-1;3 ,.railtype 0;0 ,.railtype 1;1 
+3802,.freeobj 0;179;0;-0.5 
+3819,.freeobj 0;180;0;-0.5 
+3836,.freeobj 0;181;0;-0.5 
+3853,.freeobj 0;182;0;-0.5 
+3982,.freeobj 1;179;0;-0.5;180 
+3999,.freeobj 1;179;0;-0.5;180 
+4000,.curve 700;0 ,.railtype 0;20 ,.railtype 1;21 
+4016,.freeobj 1;179;0;-0.5;180 
+4025,.curve 0;0 ,.railtype 0;0 ,.railtype 1;1 
+4033,.freeobj 1;179;0;-0.5;180 
+
+; Canada Water
+4050,.wallend 0,.railtype 0;10 ,.railtype 1;9 ,.freeobj 0;112 ,.freeobj 0;198 ,.freeobj 1;199, .fog 800;802;255;255;255 
+4075,.freeobj 0;247;-4;0.6 ,.freeobj 1;258;4;0.6, .announce ell\nosmoke.wav 
+4080,.freeobj 0;57 ,.freeobj 1;59 ,.freeobj 0;106 ,.freeobj 0;84;0;0;180 ,.freeobj 1;83;0;0;180 ,.freeobj 1;111;0;0;180 
+4080,.freeobj 1;108;0;0;180 ,.freeobj 0;109;0;0;180 
+4081,.freeobj 1;100;3.5;1.1;135 
+4082,.freeobj 1;62;5;1.1;180 ,.freeobj 1;75;6.5 
+4086,.freeobj 0;103;-5.9;1.1 
+4089,.freeobj 1;62;5;1.1;180 ,.freeobj 1;75;6.5 
+4092,.freeobj 0;103;-5.9;1.1 
+4096,.freeobj 1;62;5;1.1;180 ,.freeobj 1;75;6.5 
+4098,.freeobj 0;103;-5.9;1.1 
+4100,.freeobj 0;258;-4;0.6 ,.freeobj 1;247;4;0.6, 
+4103,.freeobj 1;62;5;1.1;180 ,.freeobj 1;75;6.5 
+4105,.freeobj 0;106 ,.freeobj 1;110 
+4107,.freeobj 1;62;5;1.1;180 ,.freeobj 1;75;6.5 
+4112,.freeobj 0;76 
+4114,.freeobj 1;62;5;1.1;180 ,.freeobj 1;75;6.5 
+4119,.freeobj 0;62;-5;1.1 ,.freeobj 0;75;-6.5 
+4125,.freeobj 0;247;-4;0.6 ,.freeobj 1;258;4;0.6, .announce ell\depart.wav ,.marker ell\markers\jubilee.bmp;50 
+4130,.freeobj 0;106 
+4135,.freeobj 0;104 ,.freeobj 0;56;0;0;180 ,.freeobj 0;71 
+4139,.freeobj 0;103;-5.9;1.1 
+4140,.sta Canada Water;;15.3800;;-1;1;;;15;80,.freeobj 1;105 ,.freeobj 1;58;0;0;180 ,.freeobj 1;72 
+4143,.freeobj 1;103;5.9;1.1;180 
+4145,.freeobj 0;103;-5.9;1.1 ,.freeobj 1;167 
+4147,.freeobj 1;103;5.9;1.1;180 
+4149,.freeobj 0;100;-3.5;1.1;-45 ,.freeobj 1;100;3.5;1.1;45 
+4150,.stop 0;10;10 ,.freeobj 0;83 ,.freeobj 1;84 ,.freeobj 0;108 ,.freeobj 1;109 ,.freeobj 0;107 ,.marker ell\markers\canadawater_sta.bmp;175 ,
+4160,.Signal -2;;-2.7;3.8 ,.freeobj 0;78;2;-1 ,.freeobj 0;51 
+4175,.wall 0;-1;3 ,.railtype 0;0 ,.railtype 1;1 ,.freeobj 0;199 ,.freeobj 1;198 
+; End of Canada Water
+4175,.curve 600;0, .railtype 0;30 ,.railtype 1;31 
+4177,.freeobj 0;179;0;-0.5 
+4194,.freeobj 0;180;0;-0.5 
+4200,.curve 0;0 ,.railtype 0;0 ,.railtype 1;1 
+4211,.freeobj 0;181;0;-0.5 
+4228,.freeobj 0;182;0;-0.5 
+4425,.wallend 0, .ground 2 ,.height 0.1,.railtype 0;2 ,.railstart 2;-3;0;4 ,.wall 2;-1;8 ,.railstart 3;13;0;4 ,.wall 3;1;8 
+; YAY! OUTSIDE! ; .rail 2 is a reference for the left hand wall
+4425,.railtype 1;4 ,.freeobj 1;4 ,.freeobj 2;153 ,.freeobj 3;160 
+
+
+
+4430,.freeobj 0;141;-3.4;-0.3 ,.freeobj 3;141;0.2;-0.3 
+
+4445,.freeobj 0;259;-5, ;;;10mph!
+4450,.rail 2;-5.5;0 ,.rail 3;8.5;0 ,.freeobj 3;160 
+4450,.railtype 1;40 ,.railtype 0;4 ,.curve -156.538;0 ,.freeobj 2;153 
+4450,.freeobj 0;141;-3.5;-0.3 ,.freeobj 3;141;-0.3;-0.3 
+4457,.freeobj 1;156;0;0;180 
+4460,.freeobj 0;141;-4.5;-0.3 ,.freeobj 3;141;-0.5;-0.3 
+4470,.freeobj 0;141;-3.3;-0.3 ,.freeobj 3;141;0.4;-0.3 
+4474,.freeobj 1;157;0;0;180 
+4475,.rail 2;-8;0 ,.freeobj 3;160 ,.railtype 1;3 
+4475,.curve 0;0 ,.freeobj 0;6;0;0;180 ,.railtype 0;3 ,.freeobj 2;154 ,.freeobj 0;155;1  ;355.426
+4480,.freeobj 0;141;-2.2;-0.3 ,.freeobj 3;141;0;-0.3 
+4491,.freeobj 1;158;0;0;180 
+4500,.curve -850;0 ,.freeobj 0;31 ,.freeobj 1;32 ,.freeobj 2;154 ,.rail 1;4.5;0;32,.railtype 0;33 ,.freeobj 1;231 ,.freeobj 1;245 
+4508,.freeobj 1;159;0;0;180 
+4509,.freeobj 0;195 ,.freeobj 1;195;6 
+4523,.freeobj 2;162 
+4525,.curve 0;0 ,.rail 1;5;0 ,.freeobj 2;154 ,.railtype 0;3 ,.railtype 1;2 
+
+
+; Surrey Quays
+4525,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;84;0;0;180 ,.freeobj 1;83;0;0;180 ,.freeobj 0;114 ,.freeobj 1;96;2;1.4 ,.freeobj 0;88;-4.6 ,.freeobj 1;88;4.5 
+4525,.freeobj 0;117 ,.freeobj 0;120 ,.wallend 3 ,.freeobj 1;90;2.7;1.4 ,.freeobj 0;247;-2.5;0.6 ,.freeobj 1;258;5;0.6 
+4526,.freeobj 0;115;2.5 ,.freeobj 1;119 ,.freeobj 1;119;4 
+4528,.freeobj 1;119 ,.freeobj 1;119;4 ,.freeobj 0;163;-4.5 ,.freeobj 0;113;-4.25;0.3 
+4529,.freeobj 0;100;-3.2;1.1;-135 
+4530,.freeobj 0;115;2.5 ,.freeobj 1;119 ,.freeobj 1;127;5.9;-0.25 ,.freeobj 1;119;4 
+4531,.freeobj 0;116 
+4532,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4533,.freeobj 0;121;-5.3 
+4534,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4535,.freeobj 1;113;5.95 
+4536,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4537,.freeobj 0;121;-5.3 
+4538,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4540,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 0;122 ,.freeobj 1;128;5.9;-0.25 ,.freeobj 1;119;4 
+4542,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 ,.freeobj 0;113;-4.95 
+4544,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4545,.freeobj 1;113;5.95 
+4546,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 ,.freeobj 0;127;-4.95;-0.25 
+4548,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4549,.freeobj 1;161;5.95;-0.25 
+4550,.freeobj 1;147;4.5;4.5 ,.freeobj 0;146;-3.1;4.75 ,.freeobj 2;154 ,.freeobj 0;258;-2.5;0.6 ,.freeobj 1;247;5;0.6
+4550,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;118 ,.freeobj 0;120 ,.freeobj 0;122 ,.freeobj 0;113;-4.95 ,.freeobj 0;123;-3 
+4550,.freeobj 0;115;2.5 ,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 0;148;-2;1.26 ,.freeobj 1;149;2;1.4 
+4550,.freeobj 0;90;-2.7;1.29 ,.freeobj 1;90;2.7;1.4 ,.freeobj 1;119;4 
+4552,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4554,.freeobj 0;115;2.5 ,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 ,.freeobj 0;128;-4.95;-0.25 
+4556,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4557,.freeobj 0;120;-2.8;0;180 
+4558,.freeobj 0;115;2.5 ,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 ,.freeobj 0;113;-4.95 
+4560,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;113;5.95 ,.freeobj 1;119;4 
+4562,.freeobj 0;115;2.5 ,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;121;-5.3 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4564,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4565,.freeobj 1;129;5.9;-0.25 
+4566,.freeobj 0;115;2.5 ,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;121;-5.3 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4568,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;119;-3.5 ,.freeobj 1;119;4 
+4570,.freeobj 0;115;2.5 ,.freeobj 0;119 ,.freeobj 1;119 ,.freeobj 0;121;-5.3 ,.freeobj 0;119;-3.5 ,.freeobj 1;113;5.95 ,.freeobj 1;119;4 
+4572,.freeobj 0;119 ,.freeobj 0;119;-3.5 ,.freeobj 0;113;-8.95 ,.freeobj 1;119;4 
+4574,.freeobj 0;115;2.5 ,.freeobj 0;119 ,.freeobj 0;121;-5.3 ,.freeobj 0;120;-2.8;0;180 ,.freeobj 0;119;-3.5 
+4575,.form 0;L;0 ,.form 1;R;0 ,.freeobj 0;148;-2;1.26 ,.freeobj 1;149;2;1.4 ,.freeobj 0;90;-2.7;1.29 ,.freeobj 1;90;2.7;1.4 ,.freeobj 1;124 
+4575,.freeobj 0;125;-4.6;4.34 ,.freeobj 1;130;5.9;-0.25 ,.freeobj 2;154 ,.freeobj 1;247;5;0.6 
+4580,.freeobj 1;113;5.95 
+4582,.freeobj 0;152;-5.65;-0.35;90 
+4584,.freeobj 0;113;-3.95 
+4590,.sta Surrey Quays;;15.4000;;-1;1;;ell\ncgtrain.wav;15;80
+
+4598,.freeobj 0;193;-3.4 ,.freeobj 0;193;-7.7 ,.freeobj 0;194 
+4600,.stop 0;10;10 ,.freeobj 1;53 ,.freeobj 0;52 ,.freeobj 0;126 ,.freeobj 0;150;-2;1.26 ,.freeobj 1;151;2;1.4 
+4600,.wall 2;-1;8 ,.wall 3;1;8 ,.rail 3;9.5;0 ,.dike 0;-1;8 ,.marker ell\markers\surreyquays_sta.bmp;175 
+4610,.freeobj 1;84 ,.freeobj 1;88;4.6;0;180 
+4625,.rail 2;-7;0 ,.rail 3;9.5;0 ,.freeobj 0;219,.ground 7 ,.dike 0;-1;1 ,.freeobj 1;245;11;0;180 ,.dike 1;1;8 
+; End of Surrey Quays
+4627,.freeobj 0;156 
+4627,.freeobj 0;20;0.8 
+4628,.Signal -2;;-2.2;3.75, 
+4635,.freeobj 0;192;-4.8;0.4 
+4635,.freeobj 1;31;0;0;180 ,.freeobj 0;32;0;0;180 
+4644,.freeobj 0;157 
+4650,.rail 2;-6;0 ,.rail 3;8.25;0 ,.freeobj 0;192;-4.8;0.4 ,.railtype 0;2 ,.railtype 1;3 ,.freeobj 0;231 ,.freeobj 1;230 ,.dike 1;1;10 ,
+4661,.freeobj 0;158 
+4662,.freeobj 0;192;-4.8;0.4 
+; end of Surrey Quays clearance
+4675,.curve 2000;0 ,.rail 2;-6;0 ,.rail 3;9;0 ,.railtype 0;34 ,.railtype 1;35 
+4678,.freeobj 0;159 
+4679,.freeobj 0;192;-4.8;0.4 
+4685,.freeobj 0;192;-4.8;0.4 
+4694,.freeobj 0;192;-4.8;0.4 
+4700,.wall 2;-1;13 ,.wall 3;1;13 ,.rail 1;4.5;0 ,.rail 2;-6;0 ,.freeobj 0;183 ,.rail 3;9;0 
+4721,.freeobj 0;192;-4.8;0.4 
+4731,.freeobj 0;192;-4.8;0.4 
+4725,.wall 2;-1;8 ,.wall 3;1;8 ,.rail 1;4;0 
+4739,.freeobj 0;192;-4.8;0.4 
+4747,.freeobj 0;192;-4.8;0.4 
+4750,.curve 0;0 ,.railtype 0;2 ,.railtype 1;3 
+4764,.freeobj 0;192;-4.8;0.4 
+4770,.freeobj 0;192;-4.8;0.4 
+4775,.wall 2;-1;13 ,.wall 3;1;13 ,.freeobj 0;183 ,.rail 2;-6;0 ,.rail 3;9;0 
+4800,.freeobj 0;192;-4.8;0.4 ,.rail 2;-6;0 ,.rail 3;9;0 ,.wall 2;-1;8 ,.wall 3;1;8 
+4825,.freeobj 0;192;-4.8;0.4 ,.rail 2;-6;0 ,.rail 3;9;0 
+4850,.rail 3;9;0 ,.freeobj 0;192;-4.8;0.4 ,.rail 2;-6;0 
+4875,.rail 3;11;0 ,.freeobj 0;192;-4.8;0.4 ,.rail 2;-6;0 
+4900,.rail 3;13;-0.06 ,.freeobj 0;192;-4.8;0.4 ,.rail 2;-6;-0.06 ,.freeobj 1;135;3.4 
+4925,.railtype 0;14 ,.railtype 1;15 ,.freeobj 0;168 ,.freeobj 1;169 ,.dikeend 0 ,.freeobj 0;191 ,.rail 3;15;-0.28 ,.rail 2;-6;-0.28 ,.freeobj 1;135;3.4 ,.freeobj 1;246;3;-1 
+4935,.freeobj 0;168 ,.freeobj 1;169 
+4938,.freeobj 0;192;-4.8;0.4 ,.freeobj 1;192;4.8;0 
+4945,.freeobj 0;188 ,.freeobj 0;188;11 ,.freeobj 0;172 ,.freeobj 1;173 ,.freeobj 0;189;2;-1 ,.freeobj 0;190;13;-1 ,.freeobj 0;255;0;1.05 
+4950,.railtype 0;2 ,.railtype 1;3 
+4950,.marker ell\markers\silwood.bmp;75 ,.dike 0;-1;0 ,.wallend 2 ,.railend 2;-6;-0.5 ,.wallend 3 ,.railend 3;17;-0.5 ,.dike 1;1;0 ,.wall 0;-1;11 
+4975,.curve -2400;0 ,.railtype 0;36 ,.railtype 1;37 
+
+5200,.freeobj 0;300;0.8 
+5201,.Relay -2.2;3.75, ;;R ET45 
+
+5250,.curve 1000;0 ,.railtype 0;38 ,.railtype 1;39 
+5300,.curve 0;0 ,.railtype 0;2 ,.railtype 1;3 
+
+
+5316,.freeobj 0;301;0.594;-0.1,
+5317,.Relay -2.45;2.42,;;FRET45
+
+5412,.freeobj 0;215;64;6.5;103 
+
+5416,.freeobj 0;20;0.8,
+5417,.signal -2;;-2.2;3.75, 
+
+
+5418,.freeobj 0;214;40;6.5;103 
+5425,.freeobj 0;214;16;6.5;103 
+5425,.freeobj 0;137 ,.railtype 0;41 ,.railtype 1;1 ,.wallend 0 ,.dike 0;-1;9 ,.dike 1;1;9 
+5431,.freeobj 0;213;-8;6.5;103 
+5432,.freeobj 0;20;-9;6.5;-76 
+5450,.curve -500;0 ,.marker ell\markers\greenwhich.bmp;50 ,.railtype 0;18 ,.railtype 1;19 ,.dikeend 0 ,.dikeend 1 
+5450,.ground 6 ,.freeobj 0;135;-3.8 ,.freeobj 1;135;3.8,  ; Trees L: 223 - R: 224 - start of Canal Junction Area
+5475,.curve 0;0 ,.freeobj 0;135;-3.8 ,.freeobj 1;135;3.8 ,.freeobj 0;232 ,.freeobj 1;233 ,.freeobj 0;234 ,.freeobj 1;235 ,.railtype 0;2 ,.railtype 1;3 
+; East London line crosses a road at this point
+5485,.freeobj 0;224;-6;0;-90 ,.freeobj 1;223;6;0;90 
+5500;ground 0 ,.rail 1;5;0 
+5500,.freeobj 0;138 ,.railtype 0;42 ,.freeobj 0;230 ,.railtype 1;2 ,.freeobj 1;231 ,.freeobj 0;250;-2.5;-0.5 ,.freeobj 0;250;2.5;-0.5 ,.freeobj 0;250;7.5;-0.5 
+5525;ground 6 ,.freeobj 1;235 ,.freeobj 0;135;-3.8 ,.freeobj 1;135;3.8 ,.freeobj 0;236 ,.railtype 0;2 ,.freeobj 0;231 ,.railtype 1;3 ,.freeobj 1;230 
+; End of road crossing
+5535,.freeobj 1;223;6;0;90 
+5537,.freeobj 1;223;8.5;0;90 
+5550,.railstart 4;-8;-3;4 ,.wall 4;-1;11 ,.freeobj 0;135;-3.8 ,.rail 1;4;0 
+5550,.rail 1;4;0 ,.freeobj 1;237 
+5575,.freeobj 0;234 ,.freeobj 0;135;-3.8 ,.dike 1;-1;5 
+; Start of New Cross/New Cross Gate junction
+
+5592,.freeobj 0;224;-6;0;-90 
+5594,.freeobj 0;224;-8.5;0;-90 
+5600,.railtype 0;4 ,.railtype 1;4 ,.rail 1;4;0 ,.ground 1 ,.wallend 4 ,.railend 4;-8;-3 ,.dike 1;1;5 ,.wall 1;1;14 
+5600,.freeobj 0;227 ,.freeobj 1;228 ,.wallend 0 ,.railstart 2;0;0;4 ,.railstart 3;4;0;4 ,.wall 2;-1;14 ,.dikeend 0 ,.dike 2;-1;4 ,.freeobj 2;135;-3.8 
+5625,.railtype 0;4 ,.railtype 1;3 ,.rail 2;-2;0 ,.railtype 2;28 ,.rail 3;2;0 ,.freeobj 0;165 ,.freeobj 2;135;-3.8 ,.wallend 1  ; east london tracks splitting off to New Cross
+5650,.railtype 3;28 ,.railtype 0;3 ,.freeobj 2;135;-3.8 
+5650,.rail 2;-6.213;0 ,.rail 3;-2;0 ,.dike 3;1;3 ;ground 5  ; ELL 
+5675,.rail 2;-11.451;0 ,.rail 3;-7.326;0,  ; ELL
+5675,.railtype 0;2 ,.freeobj 0;231 ,.freeobj 2;135;-3.8 
+5675,.railtype 3;29 ,.freeobj 3;230,  ; blah
+5685,.freeobj 1;195;6 ,.freeobj 3;195;6 
+5700,.rail 2;-18.732;0 ,.rail 3;-14.513;0 ,.freeobj 2;135;-3.8,  ; ELL
+5725,.rail 2;-28.004;0 ,.rail 3;-23.667;0 ,.freeobj 2;225 ,.freeobj 0;225 ,.wall 0;-1;7 ,.wall 3;1;7 ,.wall 1;1;7,.height 0.5,
+5725,.freeobj 0;226 ,.freeobj 2;135;-3.8,  ; ELL - CANAL JUNCTION GOES HERE! WOOHOO!
+5744,.freeobj 3;223;2;-2;120 
+5750,.rail 2;-39.200;0 ,.rail 3;-34.725;0 ,.freeobj 0;223;0;-2 ,.freeobj 3;224;-1;-2 ,.freeobj 3;223;1;-2;120 ,.freeobj 2;135;-3.8 ,.freeobj 0;241 ,.height 3,
+5775,.rail 2;-52.242;0 ,.rail 3;-47.611;0 ,.freeobj 3;224;-1;-2 ,.freeobj 2;135;-3.8 
+5800,.railend 2;-67.036 ,.railend 3;-62.234 ,.wallend 3 ,.dikeend 3 ,.curve 1400;0 ,.dikeend 2 ,.freeobj 0;221;-6;-3 ,.railtype 0;44 ,.railtype 1;45 
+5800,.marker ell\markers\new-cross.bmp;250 
+5825,.freeobj 0;222;-61;-3;-15 
+5850,.freeobj 0;221;-6;-3 ,.freeobj 0;222;-97;-3;-45 
+5875,.curve 0;0 ,.railtype 0;2 ,.railtype 1;3 
+5900,.freeobj 0;239;-6;-3 ,.railtype 0;42 ,.freeobj 0;230 
+5950,.freeobj 0;221;-6;-3 ,.railtype 0;2 ,.freeobj 0;231 
+6000,.freeobj 0;221;-6;-3 ,.railstart 6;60.085;0;12 ,.dike 6;1;2 
+6025,.rail 6;55.732;0 ,.dike 1;1;6 
+6050,.freeobj 0;221;-6;-3 ,.wall 1;1;7 ,.rail 6;47.026;0 ,.rail 6;51.379;0 
+6074,.freeobj 0;302;-4.8,  ;;20mph
+6075,.railstart 3;35.026;0;13 ,.railstart 4;39.026;0;12 ,.railstart 5;43.026;0;13 ,.rail 6;47.026;0, ; Connex tracks into New Cross Gate
+6075,.marker ell\markers\ncg.bmp;100 
+
+
+6076,.freeobj 0;300;0.8,
+6077,.Relay -2.2;3.75, ;R ET40 
+
+6099,.freeobj 1;192;4;1.7 
+6100,.rail 3;30.673;0 ,.rail 4;34.673;0 ,.rail 5;38.673;0 ,.rail 6;42.673;0 ,.freeobj 0;221;-6;-3,  ; Connex
+6100;,.dikeend 1 
+6114,.freeobj 0;224;-5;-2;-90 
+6117,.freeobj 0;224;-7.5;-2;-90 
+6120,.freeobj 0;224;-5;-2;-90 ,.freeobj 1;192;4;1 
+6123,.freeobj 0;224;-7.5;-1;-90 
+6125,.freeobj 0;224;-5;0;-90 ,.freeobj 1;238 ,.wall 0;0;12 
+6125,.rail 3;26.32;0 ,.rail 4;30.32;0 ,.rail 5;34.32;0 ,.rail 6;38.32;0,.height 4,  ; Connex
+6128,.freeobj 0;224;-7.5;0;-90 
+6130,.freeobj 0;224;-5;0;-90 
+6134,.freeobj 0;224;-7.5;0;-90 
+6138,.freeobj 0;224;-5;0;-90 
+
+
+6141,.freeobj 0;301;0.594;-0.1,
+6142,.Relay -2.45;2.42,;FR ET40
+
+
+6142,.freeobj 0;224;-7.5;0;-90 
+6146,.freeobj 0;224;-5;0;-90 
+6150,.height 0.4,.rail 3;21.967;0 ,.rail 4;25.967;0 ,.rail 5;29.967;0 ,.rail 6;33.967;0, ; Connex
+6150,.curve -500;0 ,.railtype 0;18 ,.railtype 1;19 ;ground 4 ,.railstart 8;2.5;-1;14 ,.dike 8;-1;3 ,.wallend 0 
+6170,.sta ;;15.4000;;-1;1, .stop 0,
+6175,.rail 3;17.614 ,.rail 4;21.614 ,.rail 5;25.614 ,.rail 6;29.614 ,.rail 8;-2;-1 ,.freeobj 8;221;-10 
+6200,.rail 3;14.498 ,.rail 4;18.498 ,.rail 5;22.498 ,.rail 6;26.498 ,.rail 8;-4;0 ,.railstart 2;8;0;43 
+
+6201,.freeobj 0;20;0.8 
+6202,.Signal -2;;-2.2;3.75, 
+
+
+6225,.curve 2000;0 ,.railtype 0;34 ,.railtype 1;35 ,.rail 3;12.625 ,.rail 4;16.625 ,.rail 5;20.625 ,.rail 6;24.625 ,.rail 8;-6;0 ,.freeobj 8;221;-10 
+6250,.rail 3;12 ,.rail 4;16 ,.rail 5;20 ,.rail 6;24 ,.rail 8;-8;0 ,.railtype 2;4 
+; Tracks Merge
+
+6275,.curve 312.667;0 ,.railtype 0;15 ,.railtype 1;15 ,.freeobj 0;185 ,.freeobj 1;184;0;0;2.291 ,.rail 8;-10;0 
+6275,.freeobj 8;221;-10 ,.railtype 2;43 ,.freeobj 2;243;0;0;180 
+6300,.curve -321.667;0 ,.rail 3;11 ,.rail 4;15 ,.rail 5;19 ,.rail 6;23 ,.rail 8;-11;0 ,.rail 2;7 ,.rail 1;2, 
+6315,.freeobj 0;218;-4.8,  ;;15mph
+6325,.curve 0;0 ,.railtype 0;2 ,.railend 1;0;0 ,.freeobj 0;186;0;0;-180.1 ,.rail 3;10 ,.rail 4;14 ,.rail 5;18 ,.rail 6;22 ,.rail 8;-12;0 ,.rail 2;6 
+6325,.freeobj 8;221;-10 ,.wallend 1 ,.dike 6;-1;7 ,.wall 0;-1;7 ,.freeobj 0;242 
+6333,.freeobj 0;224;-4.5;0;-90 
+6335,.freeobj 0;224;-6;0;-90 
+6337,.freeobj 0;224;-8.5;0;-90 
+6350,.curve 2000;0 ,.railtype 0;34 ;ground 2 ,.dikeend 8 ,.dike 6;-1;7 ,.wall 6;-1;10 
+; 2 ELL tracks + 4 Connex tracks
+6375,.rail 5;22;0 ,.rail 6;26;0 ,.freeobj 0;212;-4 ,.freeobj 8;221;-10 ,.railend 8;-12;0 
+6392,.freeobj 0;156;0;0;180 
+6400,.rail 5;23;0 ,.rail 6;27;0 ,.curve 0;0 ,.railtype 0;2 ,.dike 6;1;7 ,.railend 2;6;0 ,.freeobj 0;244;6 
+6409,.freeobj 0;156;0;0;180 
+6425,.freeobj 0;212;-4 
+6426,.freeobj 0;156;0;0;180 
+6443,.freeobj 0;156;0;0;180 
+6450,.rail 5;24;0 ,.rail 6;28;0 
+
+; 6025 Start of New Cross Gate sta
+6475,.freeobj 6;74 ,.freeobj 0;212;-4 ,.freeobj 0;74 ,.freeobj 0;259
+6482,.freeobj 0;195;6 ,.wall 0;1;11 
+6500,.freeobj 6;73 ,.freeobj 0;209;5 ,.freeobj 6;209;5 
+6500,.freeobj 0;73 , ;;10mph
+6510,.freeobj 0;209;5 ,.freeobj 6;209;5 
+6515,.freeobj 0;210;5 ,.freeobj 6;210;5 
+6520,.freeobj 0;209;5 ,.freeobj 6;209;5 
+6525,.freeobj 0;73 ,.freeobj 4;74 ,.freeobj 6;73 ,.freeobj 0;212;-4 ,.freeobj 0;258;6;0.6 
+6530,.freeobj 0;209;5 ,.freeobj 6;209;5 
+6535,.freeobj 0;210;5 ,.freeobj 6;210;5 
+6540,.freeobj 0;209;5 ,.freeobj 6;209;5 
+6545,.freeobj 0;254;5;-0.3 
+6550,.freeobj 0;73 ,.freeobj 4;73 ,.freeobj 6;73 
+6550,.freeobj 0;209;5 ,.freeobj 6;213 ,.freeobj 6;209;5 ,.freeobj 0;247;6;0.6 
+6555,.freeobj 4;209;5 ,.freeobj 0;210;5 ,.freeobj 6;210;5 
+6560,.freeobj 0;209;5 ,.freeobj 4;210;5 ,.freeobj 6;209;5 
+6565,.freeobj 4;209;5 ,.freeobj 0;254;5;-0.3 
+6570,.freeobj 0;209;5 ,.freeobj 6;209;5 ,.freeobj 4;253;5 
+6575,.freeobj 0;73 ,.freeobj 4;73 ,.freeobj 6;73 ,.freeobj 0;205 ,.freeobj 0;208 ,.freeobj 0;212;-4 
+6575,.freeobj 4;209;5 ,.freeobj 6;214 ,.freeobj 6;210;5 ,.announce ell\ncgannounce.wav 
+6576,.freeobj 0;207;3.6 ,.freeobj 0;207;6.4 
+6580,.freeobj 0;161;3.59;-0.3 
+6580,.freeobj 4;210;5 
+6585,.freeobj 0;207;3.6 ,.freeobj 0;207;6.4 
+6585,.freeobj 4;209;5 
+6589,.freeobj 0;130;3.59;-0.3 
+6590,.freeobj 4;252;5 
+6593,.freeobj 0;207;3.6 ,.freeobj 0;207;6.4 
+6595,.freeobj 4;209;5 
+6600,.freeobj 0;73 ,.freeobj 4;73 ,.freeobj 6;73 ,.freeobj 4;205 ,.freeobj 6;205 ,.freeobj 0;204 ,.wall 6;1;10 ,.freeobj 6;214 
+6600,.freeobj 0;258;4;0.6,
+6601,.freeobj 0;207;3.6 ,.freeobj 0;207;6.4 ,.freeobj 4;207;3.6 ,.freeobj 4;207;6.4 ,.freeobj 6;207;3.6 ,.freeobj 6;207;6.4 
+6606,.freeobj 0;211;5 
+6610,.freeobj 0;207;3.6 ,.freeobj 0;207;6.4 ,.freeobj 4;207;3.6 ,.freeobj 4;207;6.4 ,.freeobj 6;207;3.6 ,.freeobj 6;207;6.4 
+6612,.freeobj 0;254;5;-0.3 
+6618,.freeobj 0;207;3.6 ,.freeobj 0;207;6.4 ,.freeobj 4;207;3.6 ,.freeobj 4;207;6.4 ,.freeobj 6;207;3.6 ,.freeobj 6;207;6.4 
+6615,.sta New Cross Gate;15.4300;T;;1;1;;;15;10;,.freeobj 4;208 
+6622,.freeobj 0;254;5;-0.3 
+6625,.railtype 0;4 ,.freeobj 0;139 ,.stop 0;10;10 ,.freeobj 0;73 ,.freeobj 4;73 ,.freeobj 6;73 ,.marker ell\markers\newcrossgate_sta.bmp;400 ,.freeobj 0;217 
+6625,.freeobj 0;202 ,.freeobj 4;202 ,.freeobj 6;202 ,.freeobj 4;206 ,.freeobj 6;206 ,.freeobj 0;206 ,.freeobj 6;215 ,.freeobj 0;216;-4 
+6626,.freeobj 0;207;3.6 ,.freeobj 0;207;6.4 ,.freeobj 4;207;3.6 ,.freeobj 4;207;6.4 ,.freeobj 6;207;3.6 ,.freeobj 6;207;6.4 
+6630,.freeobj 0;211;5 
+6632,.freeobj 0;254;5;-0.3 
+6635,.freeobj 0;207;3.6 ,.freeobj 0;207;6.4 ,.freeobj 4;207;3.6 ,.freeobj 4;207;6.4 ,.freeobj 6;207;3.6 ,.freeobj 6;207;6.4 
+6635,.Signal -2;;-10.6;0 ,.freeobj 0;192;-9 ,.freeobj 0;134;-6 
+6643,.freeobj 0;207;3.6 ,.freeobj 0;207;6.4 ,.freeobj 4;207;3.6 ,.freeobj 4;207;6.4 ,.freeobj 6;207;3.6 ,.freeobj 6;207;6.4 
+6640,.freeobj 0;192;-7 
+6645,.freeobj 0;192;-5 ,.freeobj 0;134;-3 
+6650,.freeobj 0;73 ,.freeobj 4;73 ,.freeobj 6;73 ,.freeobj 0;203 ,.wallend 6 ,.wallend 0 ,.freeobj 6;240 
+; The rest is just a continuation of the tracks on the connex line
+6650,.railstart 1;0;0;4 
+6666,.freeobj 0;192;-2.5;0 
+6672,.freeobj 0;192;-2;0 
+6675,.dike 1;-1;2 ,.dike 6;1;2 
+6700,.rail 1;2;0 ,.rail 5;22;0 ,.rail 6;26;0 ,.freeobj 3;74;0;0;180 ,.freeobj 5;74;0;0;180 ,.freeobj 6;74;14;0;180 
+6725,.rail 1;4;0 ,.rail 5;20;0 ,.rail 6;24;0 
+6750,.rail 1;6;0 ,.rail 5;18;0 ,.rail 6;22;0 
+6775,.rail 1;8;0 
+6800,.rail 1;10;0 
+; Dummy signal to make our last signal be red.
+20000,.Signal -2;;-2.6;0,

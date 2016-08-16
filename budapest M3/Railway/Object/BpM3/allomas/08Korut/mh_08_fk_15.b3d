@@ -1,0 +1,254 @@
+;Ferenc körút megállóhely É-D-5
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;jobb oldali fal
+[MeshBuilder]
+Vertex 2.0,0.7,0
+Vertex 2.0,3.2,0
+Vertex 2.0,3.2,25
+Vertex 2.0,0.7,25
+Face 3,2,1,0
+[Texture]
+Load mh_08_fk_oldalfal_02.bmp
+Coordinates 0,25,1
+Coordinates 1,25,0
+Coordinates 2,00,0
+Coordinates 3,00,1
+
+;bal oldali fal
+[MeshBuilder]
+Vertex -7.05,1.10,0
+Vertex -7.05,3.70,0
+Vertex -7.05,3.70,25
+Vertex -7.05,1.10,25
+;szemben lévõ fal
+Vertex -2.25,1.10,24.99
+Vertex -2.25,3.70,24.99
+Vertex -3.50,3.70,24.99
+Vertex -3.50,1.10,24.99
+;tartózkodó oldalsó fal
+Vertex -3.50,1.10,15
+Vertex -3.50,3.70,15
+Vertex -3.50,3.70,25
+Vertex -3.50,1.10,25
+Face 0,1,2,3
+Face 7,6,5,4
+Face 8,9,10,11
+[Texture]
+Load mh_08_fk_oldalfal_03.bmp
+Coordinates 00,25,1
+Coordinates 01,25,0
+Coordinates 02,00,0
+Coordinates 03,00,1
+Coordinates 04,02,1
+Coordinates 05,02,0
+Coordinates 06,00,0
+Coordinates 07,00,1
+Coordinates 08,12,1
+Coordinates 09,12,0
+Coordinates 10,00,
+Coordinates 11,00,1
+
+;szemben lévõ fal jobb
+[MeshBuilder]
+Vertex -2.250,2.790,24.99
+Vertex -2.049,3.132,24.99
+Vertex -1.797,3.438,24.99
+Vertex -1.500,3.700,24.99
+Vertex -2.250,3.700,24.99
+Face 4,1,0
+Face 4,2,1
+Face 4,3,2
+color 54,65,95
+
+[MeshBuilder]
+Vertex -1.500,3.700,24.99
+Vertex -1.250,3.865,24.99
+Vertex -0.647,4.115,24.99
+Vertex  0.000,4.200,24.99
+Vertex  0.647,4.115,24.99
+Vertex  1.250,3.865,24.99
+Vertex  1.768,3.468,24.99
+Vertex  2.033,3.122,24.99
+Vertex  2.033,4.727,24.99
+Vertex -2.200,4.727,24.99
+Vertex -2.200,3.700,24.99
+Face 1,0,9
+Face 2,1,9
+Face 3,2,9
+Face 4,3,8
+Face 5,4,8
+Face 6,5,8
+Face 7,6,8
+Face 3,9,8
+Face 0,10,9
+Color 24,24,24
+
+;tartózkodó helyiség
+[MeshBuilder]
+Vertex -03.50,1.1,15
+Vertex -03.50,3.7,15
+Vertex -07.05,3.7,15
+Vertex -07.05,1.1,15
+Face 3,2,1,0
+[Texture]
+Load mh_08_fk_oldalfal_04.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+;--------------------------------------------------
+
+;táblák
+
+;Ferenc körút tábla
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 32,32,32
+translate -7.00, 03.60, 7
+
+[MeshBuilder]
+cube 0.02, 0.10, 0.02
+color 32,32,32
+translate -7.00, 03.60, 8
+
+[MeshBuilder]
+Vertex -0.10, 0.00, -0.80
+Vertex -0.10, 0.30, -0.80
+Vertex -0.00, 0.30, -0.80
+Vertex -0.00, 0.00, -0.80
+Vertex -0.10, 0.00,  0.80
+Vertex -0.00, 0.00,  0.80
+Face 0,1,2,3
+Face 4,0,3,5
+translate -6.95,3.35,7.50
+color 0,0,204
+
+[MeshBuilder]
+Vertex 0, 0.00, -0.51
+Vertex 0, 0.30, -0.51
+Vertex 0, 0.30,  0.80
+Vertex 0, 0.00,  0.80
+Face 0,1,2,3
+translate -6.95,3.35,7.50
+[Texture]
+Load mh_tabla_ferenc_korut.bmp
+Coordinates 0, 0.2, 1
+Coordinates 1, 0.2, 0
+Coordinates 2, 0.8, 0
+Coordinates 3, 0.8, 1
+
+[MeshBuilder]
+Vertex 0, 0.00, -0.80
+Vertex 0, 0.30, -0.80
+Vertex 0, 0.30, -0.50
+Vertex 0, 0.00, -0.50
+Face 0,1,2,3
+translate -6.95,3.35,7.50
+[Texture]
+Load ..\tabla\nyil13.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 0.8, 0
+Coordinates 3, 0.8, 1
+
+;--------------------------------------------------
+
+;Tükör
+
+[meshbuilder]
+cylinder 8, 0.04, 0.04, 01.00
+color 100,100,100
+translate  -02.35, 01.60, 23.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 100,100,100
+rotate 0,1,0,-20
+translate  -02.35, 02.10, 23.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 100,100,100
+rotate 0,1,0,-20
+translate  -02.35, 03.30, 23.00
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 100,100,100
+rotate 0,1,0,-20
+translate  -02.773, 02.70, 22.846
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 100,100,100
+rotate 0,1,0,-20
+translate  -01.927, 02.70, 23.154
+
+[meshbuilder]
+cube 0.20,0.01,0.20
+color 100,100,100
+rotate 0,1,0,0
+translate  -02.35, 01.10, 23.000
+
+[MeshBuilder]
+vertex -2.773,2.10,22.846
+vertex -2.773,3.30,22.846
+vertex -1.927,3.30,23.154
+vertex -1.927,2.10,23.154
+face 0,1,2,3
+Load ..\tukor.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+;--------------------------------------------------
+
+;pályára aljzatpótlék
+[MeshBuilder]
+vertex -0.425, -00.40, 25.00
+vertex -0.425, -00.17, 25.00
+vertex 0.425, -00.17, 25.00
+vertex 0.425, -00.40, 25.00
+face 0,1,2,3
+color 216,216,216
+[texture]
+load ../../sin/aljzat_150.bmp
+coordinates 0, 0.0, 0.25
+coordinates 1, 0.0, 0.0
+coordinates 2, 0.25, 0.0
+coordinates 3, 0.25, 0.25
+
+;--------------------------------------------------
+
+;Belépni tilos tábla
+
+[MeshBuilder]
+Vertex -0.25,1.3,0.0
+Vertex -0.25,1.9,0.0
+Vertex  0.25,1.9,0.0
+Vertex  0.25,1.3,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2f2.bmp
+Coordinates 0,0.0,1
+Coordinates 1,0.0,0
+Coordinates 2,1.0,0
+Coordinates 3,1.0,1
+transparent 0,0,255
+translate -01.90,00.00,24.75
+
+[MeshBuilder]
+cube 0.015, 0.40, 0.01
+color 64,96,128
+translate -2.165, 1.50, 24.75
+
+;--------------------------------------------------
+

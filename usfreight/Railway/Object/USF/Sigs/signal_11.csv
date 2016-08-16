@@ -1,0 +1,116 @@
+;(c) STEVE GREEN 2002
+;
+;www.trainsimcentral.co.uk
+;
+;
+;Please seek permission before using
+;any files in your own route.
+;
+CreateMeshBuilder,
+AddVertex,3.15, 5.1, -0.21,
+AddVertex,2.45, 5.1, -0.21,
+AddVertex,2.45, 3.55, -0.21,
+AddVertex,3.15, 3.55, -0.21,
+AddFace,3,2,1,0,
+SetColor,70, 70, 70,
+GenerateNormals,
+
+LoadTexture,sigplate.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,2.95, 5, -0.2,
+AddVertex,2.68, 5, -0.2,
+AddVertex,2.68, -0.3, 0.6,
+AddVertex,2.95, -0.3, 0.6,
+AddFace2,3,2,1,0,
+Setcolor,10,10,10
+GenerateNormals,
+
+LoadTexture,ladder.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 15,
+SetTextureCoordinates,3, 0, 15,
+SetDecalTransparentColor,150,150,150,
+
+CreateMeshBuilder,
+AddVertex,2.90, 5, -0.20,
+AddVertex,2.70, 5, -0.20,
+AddVertex,2.70, -0.7, -0.20,
+AddVertex,2.90, -0.7, -0.20,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+Setcolor,100,100,100
+GenerateNormals,
+
+LoadTexture,post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+
+
+;--
+
+CreateMeshBuilder,
+AddVertex,-3.15, 5.1, 1.18,
+AddVertex,-2.45, 5.1, 1.18,
+AddVertex,-2.45, 3.55, 1.18,
+AddVertex,-3.15, 3.55, 1.18,
+AddFace,0,1,2,3,
+SetColor,70, 70, 70,
+GenerateNormals,
+
+LoadTexture,sigplate.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,
+AddVertex,-2.95, 3.7, 1.18,
+AddVertex,-2.68, 3.7, 1.18,
+AddVertex,-2.68, -0.3, 0.6,
+AddVertex,-2.95, -0.3, 0.6,
+AddFace2,3,2,1,0,
+Setcolor,10,10,10
+GenerateNormals,
+
+LoadTexture,ladder.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 15,
+SetTextureCoordinates,3, 0, 15,
+SetDecalTransparentColor,150,150,150,
+
+CreateMeshBuilder,
+AddVertex,-2.90, 5, 1.20,
+AddVertex,-2.70, 5, 1.20,
+AddVertex,-2.70, -0.7, 1.20,
+AddVertex,-2.90, -0.7, 1.20,
+AddFace,3,2,1,0,
+AddFace,0,1,2,3,
+Setcolor,100,100,100
+GenerateNormals,
+
+LoadTexture,post.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+
+
+
+
+
+

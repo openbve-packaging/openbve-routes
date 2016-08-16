@@ -1,0 +1,85 @@
+CreateMeshBuilder,
+AddVertex,-2.51, 4.2, 26,
+AddVertex,-1.90, 5.4, 26,
+AddVertex, 3.00, 5.4, 26,
+AddVertex, 3.00, 5.4, 0,
+AddVertex,-1.90, 5.4, 0,
+AddVertex,-2.51, 4.2, 0,
+AddFace,5,4,1,0
+AddFace,4,3,2,1
+LoadTexture,roofB1.bmp,
+SetTextureCoordinates,0, -0.3, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.1, 0,
+SetTextureCoordinates,3, 1.1, 6,
+SetTextureCoordinates,4, 0, 6,
+SetTextureCoordinates,5, -0.3, 6,
+Setcolor,180,180,180,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.51,  4.2, 0
+AddVertex,-2.51,  4.2, 25.1
+AddVertex,-2.51,  0.35, 25.1
+AddVertex,-2.51,  0.35, 0
+AddFace,0,1,2,3,
+LoadTexture,kayawall_c.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 15,0
+SetTextureCoordinates,2, 15,1
+SetTextureCoordinates,3, 0,1
+GenerateNormals,
+CreateMeshBuilder,
+AddVertex,-2.51,  0.35, 0
+AddVertex,-2.51,  0.35, 25.1
+AddVertex,-2.51, -0.29, 25.1
+AddVertex,-2.51, -0.29, 0
+AddFace,0,1,2,3,
+LoadTexture,kayawall_c2.bmp
+SetTextureCoordinates,0, 0,0
+SetTextureCoordinates,1, 15,0
+SetTextureCoordinates,2, 15,1
+SetTextureCoordinates,3, 0,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.51, -0.29, 0,
+AddVertex,-2.51, -0.29, 25.1,
+AddVertex,-1.71, -0.29, 25.1,
+AddVertex,-1.71, -0.29, 0,
+AddFace,0,1,2,3,
+LoadTexture,minawall.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 5,
+SetTextureCoordinates,2, -0.04, 5,
+SetTextureCoordinates,3, -0.04, 0,
+GenerateNormals,
+
+CreateMeshBuilder
+AddVertex,-2.495, 2.69, 8
+AddVertex,-2.495, 2.69, 9.5
+AddVertex,-2.495, 2.84, 9.5
+AddVertex,-2.495, 2.84, 8
+AddFace,3,2,1,0,
+LoadTexture,../sta\Kayaba2.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,1,1
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,0,0
+Translate,0,0.18,5,
+GenerateNormals,
+
+;èÊç~à íuïWéØ1
+CreateMeshBuilder,
+AddVertex,-2.49, 0.6, 25.0,
+AddVertex,-2.49, 0.6, 0,
+AddVertex,-2.49, 0.4, 0,
+AddVertex,-2.49, 0.4, 25.0,
+AddFace,3,2,1,0
+GenerateNormals,
+LoadTexture,../Retu1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 4, 0,
+SetTextureCoordinates,2, 4, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,255,255,255

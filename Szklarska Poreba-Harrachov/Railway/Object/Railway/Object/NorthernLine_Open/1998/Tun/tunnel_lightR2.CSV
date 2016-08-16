@@ -1,0 +1,117 @@
+;Mirrored with BVE File Converter
+;Mirrored with BVE File Converter
+; COPYRIGHT (c)  Kelvin Liu 2007
+; aka "EmergencyBrake" on rail forums
+; Aldwych BVE4 object file
+; If you want to reuse this object for your own route, dont ask for permission, just let me know
+
+;lamp 1
+CreateMeshbuilder
+Cube,0.1, 0.18, 0.1
+Rotate, 1, 0, 0, 180,;This line added by BVE File Converter
+ROtate, 1 ,  0 ,  0 ,-180 
+Translate, 2.1 ,  1.3 ,  24 ,
+SetColor,60,60,60,
+GenerateNormals
+LoadTexture,white.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+
+CreateMeshbuilder
+Cube,0.07, 0.15, 0.07
+Rotate, 1, 0, 0, 180,;This line added by BVE File Converter
+ROtate, 1 ,  0 ,  0 ,-180 
+Translate, 2.05 ,  1.3 ,  24 ,
+SetColor,255,255,166
+GenerateNormals
+LoadTexture,white.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+
+;lamp 2
+CreateMeshbuilder
+Cube,0.1, 0.18, 0.1
+Rotate, 1, 0, 0, 180,;This line added by BVE File Converter
+ROtate, 1 ,  0 ,  0 ,-180 
+Translate, 2.1 ,  1.3 ,  12 ,
+SetColor,60,60,60,
+LoadTexture,white.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+
+CreateMeshbuilder
+Cube,0.07, 0.15, 0.07
+Rotate, 1, 0, 0, 180,;This line added by BVE File Converter
+ROtate, 1 ,  0 ,  0 ,-180 
+Translate, 2.05 ,  1.3 ,  12 ,
+SetColor,255,255,166
+GenerateNormals
+LoadTexture,white.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+
+CreateMeshBuilder
+AddVertex, 2.1 ,  0.4 ,  24 ,
+AddVertex, 2.1 ,  1.3 ,  24 ,
+AddVertex, 1.4 ,  1.3 ,  24 ,
+AddVertex, 1.4 ,  0.4 ,  24 ,
+AddFace, 3, 2, 1, 0, 
+GenerateNormals
+LoadTexture,downcable.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder
+AddVertex, 2.1 ,  0.4 ,  24.1 ,
+AddVertex, 2.2 ,  1.3 ,  24.1 ,
+AddVertex, 1.5 ,  1.3 ,  24.1 ,
+AddVertex, 1.4 ,  0.4 ,  24.1 ,
+AddFace, 3, 2, 1, 0, 
+GenerateNormals
+LoadTexture,downcable.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder
+AddVertex, 2.1 ,  0.4 ,  12 ,
+AddVertex, 2.1 ,  1.3 ,  12 ,
+AddVertex, 1.4 ,  1.3 ,  12 ,
+AddVertex, 1.4 ,  0.4 ,  12 ,
+AddFace, 3, 2, 1, 0, 
+GenerateNormals
+LoadTexture,downcable.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,0
+
+CreateMeshBuilder
+AddVertex, 2.1 ,  0.4 ,  12.1 ,
+AddVertex, 2.2 ,  1.3 ,  12.1 ,
+AddVertex, 1.5 ,  1.3 ,  12.1 ,
+AddVertex, 1.4 ,  0.4 ,  12.1 ,
+AddFace, 3, 2, 1, 0, 
+GenerateNormals
+LoadTexture,downcable.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,0
+
+

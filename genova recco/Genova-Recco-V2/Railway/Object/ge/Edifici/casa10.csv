@@ -1,0 +1,101 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com 
+
+
+;;;;casa10
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 25, 0,
+AddVertex,20, 25, 0,
+AddVertex,20, 0, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa10.bmp,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 2,
+CreateMeshBuilder,
+AddVertex,20, 0, -25,
+AddVertex,20, 25, -25,
+AddVertex,0, 25, -25,
+AddVertex,0, 0, -25,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa10.bmp,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 2,
+
+
+CreateMeshBuilder,
+AddVertex,0, 0, -25,
+AddVertex,0, 25, -25,
+AddVertex,0, 25, 0,
+AddVertex,0, 0, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casa10.bmp,
+SetTextureCoordinates,0, 0, 2,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 2,
+
+CreateMeshBuilder,
+cube,11, 0.1, 13.5,
+translate, 10, 25, -12.5
+GenerateNormals,
+
+setcolor,100,80,70
+
+
+;;;Sopra
+;;;;casa12
+
+CreateMeshBuilder,
+AddVertex,2, 25, -5,
+AddVertex,2, 27, -5,
+AddVertex,10, 27, -5,
+AddVertex,10, 25, -5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casottoIV.bmp,
+SetTextureCoordinates,0, , 0.7,
+SetTextureCoordinates,1, , -0.1,
+SetTextureCoordinates,2, 1, -0.1,
+SetTextureCoordinates,3,1, 0.7,
+CreateMeshBuilder,
+AddVertex,10, 25, -24,
+AddVertex,10, 27, -24,
+AddVertex,2, 27, -24,
+AddVertex,2, 25, -24,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+
+LoadTexture,casottoIV.bmp,
+SetTextureCoordinates,0, , 0.7,
+SetTextureCoordinates,1, , -0.1,
+SetTextureCoordinates,2, 1, -0.1,
+SetTextureCoordinates,3,1, 0.7,
+
+CreateMeshBuilder,
+AddVertex,2, 25, -24,
+AddVertex,2, 27, -24,
+AddVertex,2, 27, -5,
+AddVertex,2, 25, -5,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,casottoIv.bmp,
+SetTextureCoordinates,0, , 0.7,
+SetTextureCoordinates,1, , -0.1,
+SetTextureCoordinates,2, 3, -0.1,
+SetTextureCoordinates,3,3, 0.7,

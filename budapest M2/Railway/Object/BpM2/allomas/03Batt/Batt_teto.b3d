@@ -1,0 +1,58 @@
+;Batthyány tér állomás, födémrész
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+[MeshBuilder]
+vertex -1.440,3.682,00.00
+vertex -1.074,3.902,00.00
+vertex -0.675,4.055,00.00
+vertex -0.256,4.137,00.00
+vertex  0.171,4.144,00.00
+vertex  0.593,4.077,00.00
+vertex  0.997,3.938,00.00
+vertex  1.370,3.731,00.00
+vertex  1.702,3.462,00.00
+vertex  1.982,3.140,00.00
+vertex -1.440,3.682,25.00
+vertex -1.074,3.902,25.00
+vertex -0.675,4.055,25.00
+vertex -0.256,4.137,25.00
+vertex  0.171,4.144,25.00
+vertex  0.593,4.077,25.00
+vertex  0.997,3.938,25.00
+vertex  1.370,3.731,25.00
+vertex  1.702,3.462,25.00
+vertex  1.982,3.140,25.00
+Face 01,11,10,00
+Face 02,12,11,01
+Face 03,13,12,02
+Face 04,14,13,03
+Face 05,15,14,04
+Face 06,16,15,05
+Face 07,17,16,06
+Face 08,18,17,07
+Face 09,19,18,08
+Load batt_teto_01.bmp
+coordinates 00,00,0.00
+coordinates 01,00,0.11
+coordinates 02,00,0.22
+coordinates 03,00,0.33
+coordinates 04,00,0.44
+coordinates 05,00,0.56
+coordinates 06,00,0.67
+coordinates 07,00,0.78
+coordinates 08,00,0.89
+coordinates 09,00,1.00
+coordinates 10,60,0.00
+coordinates 11,60,0.11
+coordinates 12,60,0.22
+coordinates 13,60,0.33
+coordinates 14,60,0.44
+coordinates 15,60,0.56
+coordinates 16,60,0.67
+coordinates 17,60,0.78
+coordinates 18,60,0.89
+coordinates 19,60,1.00
+
+;--------------------------------------------------

@@ -1,0 +1,13 @@
+CreateMeshbuilder,   ;;mill
+AddVertex,-6,0,0,
+AddVertex,-6,7,0, 
+Addvertex,6,7,0, 
+AddVertex,6,0,0, 
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture,..\bldg\mill.bmp
+SetTextureCoordinates, 0,0,1,
+SetTextureCoordinates, 1,0,0,
+SetTextureCoordinates, 2,1,0,
+SetTextureCoordinates, 3,1,1,
+SetDecalTransparentColor,0,0,255,

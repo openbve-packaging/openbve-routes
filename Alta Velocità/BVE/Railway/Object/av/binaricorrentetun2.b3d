@@ -1,0 +1,236 @@
+[MeshBuilder]
+Vertex -1.20, -0.144, 0,
+Vertex -1.20, -0.144, 25.2,
+Vertex  1.20, -0.144, 25.2,
+Vertex  1.20, -0.144, 0,
+Face 0, 1, 2, 3,
+[texture]
+Load binarineri.bmp,
+Coordinates 0, 0, 9,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 9,
+
+[MeshBuilder]
+Vertex -3.20, -0.4, 0,
+Vertex -3.20, -0.4, 25.2,
+Vertex -1.20, -0.144, 25.2,
+Vertex -1.20, -0.144, 0,
+Face 0, 1, 2, 3,
+[texture]
+Load groundnero.bmp,
+Coordinates 0, 0, 9,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 9,
+
+[MeshBuilder]
+Vertex 3.20, -0.4, 0,
+Vertex 3.20, -0.4, 25.2,
+Vertex 1.20, -0.144, 25.2,
+Vertex 1.20, -0.144, 0,
+Face 3,2,1,0,
+[texture]
+Load groundnero.bmp,
+Coordinates 0, 0, 9,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 9,
+
+[MeshBuilder]
+Vertex -0.762, 0, 0,
+Vertex -0.762, 0, 25.5,
+Vertex -0.694, 0, 25.5,
+Vertex -0.694, 0, 0,
+Face 0, 1, 2, 3,
+Color 85,85,85
+
+[MeshBuilder]
+Vertex 0.699, 0, 0,
+Vertex 0.699, 0, 25.5,
+Vertex 0.767, 0, 25.5,
+Vertex 0.767, 0, 0,
+Face 0, 1, 2, 3,
+Color 85,85,85
+
+
+
+[MeshBuilder]
+Vertex 0.699, -0.144, 0,
+Vertex 0.699, -0.144, 25.5,
+Vertex 0.699, 0, 25.5,
+Vertex 0.699, 0, 0,
+Vertex -0.694, -0.144, 0,
+Vertex -0.694, -0.144, 25.5,
+Vertex -0.694, 0, 25.5,
+Vertex -0.694, 0, 0,
+Face 0,1,2,3,
+Face 3,2,1,0,
+Face 4,5,6,7,
+Face 7,6,5,4,
+Color 90,90,90
+
+[Meshbuilder]
+cylinder 6,0.03,0.03,25.5
+rotate 90,0,0,90
+translate 0,6.8,12.5
+color 50,50,50
+[Meshbuilder]
+cylinder 6,0.03,0.03,25.5
+rotate 90,0,0,90
+translate 0,5.8,12.5
+color 50,50,50
+
+[meshbuilder]
+Vertex 0, 6.8, 5
+Vertex 0,  6.8, 5.08
+Vertex 0,  5.8, 5.08
+Vertex 0, 5.8, 5
+Face2 2,3,0,1
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, 10
+Vertex 0,  6.8, 10.08
+Vertex 0,  5.8, 10.08
+Vertex 0, 5.8, 10
+Face2 2,3,0,1
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, 15
+Vertex 0,  6.8, 15.08
+Vertex 0,  5.8, 15.08
+Vertex 0, 5.8, 15
+Face2 2,3,0,1
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, 20
+Vertex 0,  6.8, 20.08
+Vertex 0,  5.8, 20.08
+Vertex 0, 5.8, 20
+Face2 2,3,0,1
+Color 50,50,50
+
+
+;--------------------------------------------------
+
+[MeshBuilder]
+Vertex -1.20, -0.144, 0,
+Vertex -1.20, -0.144, 25.2,
+Vertex  1.20, -0.144, 25.2,
+Vertex  1.20, -0.144, 0,
+Face 0, 1, 2, 3,
+translate 4,0,0,0
+[texture]
+Load binarineri.bmp,
+Coordinates 0, 0, 9,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 9,
+
+[MeshBuilder]
+Vertex -3.20, -0.4, 0,
+Vertex -3.20, -0.4, 25.2,
+Vertex -1.20, -0.144, 25.2,
+Vertex -1.20, -0.144, 0,
+Face 0, 1, 2, 3,
+translate 4,0,0,0
+[texture]
+Load groundnero.bmp,
+Coordinates 0, 0, 9,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 9,
+
+[MeshBuilder]
+Vertex 3.20, -0.4, 0,
+Vertex 3.20, -0.4, 25.2,
+Vertex 1.20, -0.144, 25.2,
+Vertex 1.20, -0.144, 0,
+Face 3,2,1,0,
+translate 4,0,0,0
+[texture]
+Load groundnero.bmp,
+Coordinates 0, 0, 9,
+Coordinates 1, 0, 0,
+Coordinates 2, 1, 0,
+Coordinates 3, 1, 9,
+
+[MeshBuilder]
+Vertex -0.762, 0, 0,
+Vertex -0.762, 0, 25.5,
+Vertex -0.694, 0, 25.5,
+Vertex -0.694, 0, 0,
+Face 0, 1, 2, 3,
+translate 4,0,0,0
+Color 85,85,85
+
+[MeshBuilder]
+Vertex 0.699, 0, 0,
+Vertex 0.699, 0, 25.5,
+Vertex 0.767, 0, 25.5,
+Vertex 0.767, 0, 0,
+Face 0, 1, 2, 3,
+translate 4,0,0,0
+Color 85,85,85
+
+
+
+[MeshBuilder]
+Vertex 0.699, -0.144, 0,
+Vertex 0.699, -0.144, 25.5,
+Vertex 0.699, 0, 25.5,
+Vertex 0.699, 0, 0,
+Vertex -0.694, -0.144, 0,
+Vertex -0.694, -0.144, 25.5,
+Vertex -0.694, 0, 25.5,
+Vertex -0.694, 0, 0,
+Face 0,1,2,3,
+Face 3,2,1,0,
+Face 4,5,6,7,
+Face 7,6,5,4,
+translate 4,0,0,0
+Color 90,90,90
+
+[Meshbuilder]
+cylinder 6,0.03,0.03,25.5
+rotate 90,0,0,90
+translate 4,6.8,12.5
+color 50,50,50
+[Meshbuilder]
+cylinder 6,0.03,0.03,25.5
+rotate 90,0,0,90
+translate 4,5.8,12.5
+color 50,50,50
+
+[meshbuilder]
+Vertex 0, 6.8, 5
+Vertex 0,  6.8, 5.08
+Vertex 0,  5.8, 5.08
+Vertex 0, 5.8, 5
+Face2 2,3,0,1
+translate 4,0,0,0
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, 10
+Vertex 0,  6.8, 10.08
+Vertex 0,  5.8, 10.08
+Vertex 0, 5.8, 10
+Face2 2,3,0,1
+translate 4,0,0,0
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, 15
+Vertex 0,  6.8, 15.08
+Vertex 0,  5.8, 15.08
+Vertex 0, 5.8, 15
+Face2 2,3,0,1
+translate 4,0,0,0
+Color 50,50,50
+[meshbuilder]
+Vertex 0, 6.8, 20
+Vertex 0,  6.8, 20.08
+Vertex 0,  5.8, 20.08
+Vertex 0, 5.8, 20
+Face2 2,3,0,1
+translate 4,0,0,0
+Color 50,50,50

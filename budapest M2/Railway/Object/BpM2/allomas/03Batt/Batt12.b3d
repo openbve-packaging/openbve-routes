@@ -1,0 +1,334 @@
+;Batthyány tér állomás, jobb 2
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;Falak
+
+;Jobb oldali fal
+[MeshBuilder]
+Vertex 01.606,-00.17,00.00
+Vertex 01.982, 00.26,00.00
+Vertex 01.982, 00.90,00.00
+Vertex 01.982, 00.90,25.00
+Vertex 01.982, 00.26,25.00
+Vertex 01.606,-00.17,25.00
+Face 5,4,1,0
+Face 4,3,2,1
+[Texture]
+Load batt_fal_J_01.bmp
+Coordinates 0, 24.00, 01.00
+Coordinates 1, 24.00, 00.55
+Coordinates 2, 24.00, 00.00
+Coordinates 3, 00.00, 00.00
+Coordinates 4, 00.00, 00.55
+Coordinates 5, 00.00, 01.00
+
+[MeshBuilder]
+Vertex 01.982,00.90,00.000
+Vertex 01.982,02.84,00.000
+Vertex 01.982,02.84,00.521
+Vertex 01.982,00.90,00.521
+Vertex 01.982,00.90,01.563
+Vertex 01.982,02.84,01.563
+Vertex 01.982,02.84,07.813
+Vertex 01.982,00.90,07.813
+Vertex 01.982,00.90,19.271
+Vertex 01.982,02.84,19.271
+Vertex 01.982,02.84,25.000
+Vertex 01.982,00.90,25.000
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+[Texture]
+Load batt_fal_J_02.bmp
+Coordinates 0,01.00,01.00
+Coordinates 1,01.00,00.00
+Coordinates 2,00.00,00.00
+Coordinates 3,00.00,01.00
+Coordinates 4,12.00,01.00
+Coordinates 5,12.00,00.00
+Coordinates 6,00.00,00.00
+Coordinates 7,00.00,01.00
+Coordinates 8,11.00,01.00
+Coordinates 9,11.00,00.00
+Coordinates 10,00.00,00.00
+Coordinates 11,00.00,01.00
+
+[MeshBuilder]
+Vertex 01.982,00.900,00.521
+Vertex 01.982,02.840,00.521
+Vertex 01.982,02.840,01.563
+Vertex 01.982,00.900,01.563
+Face 3,2,1,0
+[Texture]
+Load batt_kep_J_17.bmp
+Coordinates 0,01.00,01.00
+Coordinates 1,01.00,00.00
+Coordinates 2,00.00,00.00
+Coordinates 3,00.00,01.00
+
+[MeshBuilder]
+Vertex 01.982,00.900,07.813
+Vertex 01.982,02.840,07.813
+Vertex 01.982,02.840,19.271
+Vertex 01.982,00.900,19.271
+Face 3,2,1,0
+[Texture]
+Load batt_kep_J_16.bmp
+Coordinates 0,01.00,01.00
+Coordinates 1,01.00,00.00
+Coordinates 2,00.00,00.00
+Coordinates 3,00.00,01.00
+
+;jobb irány
+[MeshBuilder]
+vertex 1.982,3.14,12.5
+vertex 1.982,2.84,12.5
+vertex 1.982,3.14,-12.5
+vertex 1.982,2.84,-12.5
+face 3,1,0,2
+Load batt_iranyJ.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,1,0
+coordinates 3,1,1
+
+;jobb irány piros
+[MeshBuilder]
+vertex 1.982,3.14,25
+vertex 1.982,2.84,25
+vertex 1.982,3.14,12.4
+vertex 1.982,2.84,12.4
+face 3,1,0,2
+color 255,0,0
+
+;------------------------------
+
+;bal fal
+[MeshBuilder]
+vertex -5.6,1.10,0
+vertex -5.6,3.36,0
+vertex -5.6,3.36,25
+vertex -5.6,1.10,25
+face 0,1,2,3
+Load batt_fal_B_01.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,25,0
+coordinates 3,25,1
+
+[MeshBuilder]
+Vertex -5.6,3.360,0
+Vertex -5.5,3.682,0
+Vertex -5.5,3.682,4.26
+Vertex -5.6,3.360,4.26
+Vertex -5.6,3.360,4.75
+Vertex -5.5,3.682,4.75
+Vertex -5.5,3.682,10.01
+Vertex -5.6,3.360,10.01
+Vertex -5.6,3.360,12
+Vertex -5.5,3.682,12
+Vertex -5.5,3.682,18.26
+Vertex -5.6,3.360,18.26
+Vertex -5.6,3.360,18.75
+Vertex -5.5,3.682,18.75
+Vertex -5.5,3.682,25
+Vertex -5.6,3.360,25
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 12,13,14,15
+Color 200,0,0
+
+;segélykérõ
+[MeshBuilder]
+Vertex 0.01,  01.18,  00.00
+Vertex 0.01,  03.36,  00.00
+Vertex 0.01,  03.36,  00.65
+Vertex 0.01,  01.18,  00.65
+Vertex 0.11,  01.18,  00.10
+Vertex 0.11,  03.20,  00.10
+Vertex 0.11,  03.20,  00.55
+Vertex 0.11,  01.18,  00.55
+Vertex 0.01,  03.36,  00.10
+Vertex 0.01,  03.36,  00.55
+Face 0,1,5,4
+Face 4,5,6,7
+Face 2,3,7,6
+Face 8,9,6,5
+Face 1,8,5
+Face 2,6,9
+[Texture]
+Load ..\skero_02.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 01.00, 00.00
+Coordinates  3, 01.00, 01.00
+Coordinates  4, 00.21, 01.00
+Coordinates  5, 00.21, 00.05
+Coordinates  6, 00.79, 00.05
+Coordinates  7, 00.79, 01.00
+Coordinates  8, 00.21, 00.00
+Coordinates  9, 00.79, 00.00
+Translate -5.6,0,24.175
+
+;peron belsõ tetõ
+[MeshBuilder]
+vertex -3.89,3.682,0
+vertex -3.89,3.682,25
+vertex -5.6,3.682,25
+vertex -5.6,3.682,0
+face 0,1,2,3
+Load batt_vilagitas.bmp
+coordinates 0,0,0.5
+coordinates 1,12,0.5
+coordinates 2,12,0.4
+coordinates 3,0,0.4
+
+;----
+
+;táblák
+
+;szöveg
+[MeshBuilder]
+Vertex -5.6,3.36,0
+Vertex -5.5,3.682,0
+Vertex -5.5,3.682,1.61
+Vertex -5.6,3.36,1.61
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\FBatt.bmp
+Coordinates 0,0.2,1
+Coordinates 1,0.2,0
+Coordinates 2,0.8,0
+Coordinates 3,0.8,1
+translate 0,0,10
+Color 200,200,200
+
+;nyíl
+[MeshBuilder]
+Vertex -5.6,3.36,1.6
+Vertex -5.5,3.682,1.6
+Vertex -5.5,3.682,2
+Vertex -5.6,3.36,2
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil22.bmp
+Coordinates 0,0.15,1
+Coordinates 1,0.15,0
+Coordinates 2,0.85,0
+Coordinates 3,0.85,1
+translate 0,0,10
+Color 200,200,200
+
+;Exit felirat
+[MeshBuilder]
+Vertex -5.6,3.360,-0.25
+Vertex -5.5,3.682,-0.25
+Vertex -5.5,3.682, 0.25
+Vertex -5.6,3.360, 0.25
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Exit2.bmp
+Coordinates 0,0,0.8
+Coordinates 1,0,0.2
+Coordinates 2,1,0.2
+Coordinates 3,1,0.8
+translate 0,0,4.5
+Color 200,200,200
+
+;Exit felirat
+[MeshBuilder]
+Vertex -5.6,3.360,-0.25
+Vertex -5.5,3.682,-0.25
+Vertex -5.5,3.682, 0.25
+Vertex -5.6,3.360, 0.25
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\Exit2.bmp
+Coordinates 0,0,0.8
+Coordinates 1,0,0.2
+Coordinates 2,1,0.2
+Coordinates 3,1,0.8
+translate 0,0,18.5
+Color 200,200,200
+
+;---
+
+;kijárat tábla
+
+;szöveg
+[MeshBuilder]
+Vertex -0.25,0.2,0.0
+Vertex  0.60,0.2,0.0
+Vertex  0.60,0.0,0.0
+Vertex -0.25,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\kijarat1.bmp
+Coordinates 0,0.00,0
+Coordinates 1,0.75,0
+Coordinates 2,0.75,1
+Coordinates 3,0.00,1
+translate -4.6,3.482,10
+
+;nyíl
+[MeshBuilder]
+Vertex -0.60,0.2,0.0
+Vertex -0.25,0.2,0.0
+Vertex -0.25,0.0,0.0
+Vertex -0.60,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\nyil11.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+translate -4.6,3.482,10
+
+;szélek
+[MeshBuilder]
+Vertex  0.6,0.0,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.2,0.2
+Vertex  0.6,0.0,0.2
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.0,0.2
+face 0,1,2,3
+face 5,4,0,3
+color 128,128,128
+translate -4.6,3.482,10
+
+;----
+
+;menetrend
+
+;szöveg
+[MeshBuilder]
+Vertex -0.60,0.2,0.0
+Vertex  0.60,0.2,0.0
+Vertex  0.60,0.0,0.0
+Vertex -0.60,0.0,0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\mrend1.bmp
+Coordinates 0,0.00,0
+Coordinates 1,1.00,0
+Coordinates 2,1.00,1
+Coordinates 3,0.00,1
+translate -4.6,3.482,20
+
+;szélek
+[MeshBuilder]
+Vertex  0.6,0.0,0.0
+Vertex  0.6,0.2,0.0
+Vertex  0.6,0.2,0.2
+Vertex  0.6,0.0,0.2
+Vertex -0.6,0.0,0.0
+Vertex -0.6,0.0,0.2
+face 0,1,2,3
+face 5,4,0,3
+color 128,128,128
+translate -4.6,3.482,20

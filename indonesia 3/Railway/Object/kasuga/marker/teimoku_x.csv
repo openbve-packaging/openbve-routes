@@ -1,0 +1,25 @@
+
+CreateMeshBuilder
+AddVertex,.03, .5,0.02
+AddVertex,.03, -1,0.02
+AddVertex,0, -1,0.02
+AddVertex,0, .5,0.02
+AddFace,1,2,3,0
+GenerateNormals
+Setcolor,0,0,0
+Translate,2.06,
+
+CreateMeshBuilder
+AddVertex,.4, 3.1,0.01 
+AddVertex,.4, 2.7,0.01
+AddVertex,0, 2.7,0.01
+AddVertex,0, 3.1,0.01
+AddFace,1,2,3,0
+GenerateNormals
+LoadTexture, teimoku_x.bmp
+SetTextureCoordinates, 2, -1, 1
+SetTextureCoordinates, 3, -1, 0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0, 1
+rotate,0,0,1,45
+Translate,4,-1.6

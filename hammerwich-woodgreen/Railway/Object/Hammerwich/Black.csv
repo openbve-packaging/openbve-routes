@@ -1,0 +1,9 @@
+CreateMeshBuilder,
+AddVertex,-120, 0, 30,
+AddVertex,120, 0, 30,
+AddVertex,120, -0.01, 0,
+AddVertex,-120, -0.01, 0,
+AddFace,0, 1, 2, 3,
+SetColor,0,  0,  0,
+GenerateNormals,
+

@@ -1,0 +1,482 @@
+; terrapieno fronte
+CreateMeshBuilder,
+AddVertex,-5.8,3,0,
+AddVertex,-5.8,3,21,
+AddVertex,-5.8,0,21,
+AddVertex,-5.8,0,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,terrapieno.bmp,
+SetTextureCoordinates,0,0,5,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,5,
+
+CreateMeshBuilder,
+AddVertex,-12,3,0,
+AddVertex,-5.8,3,0,
+AddVertex,-5.8,0,0,
+AddVertex,-12.3,0,0,
+AddFace,0,1,2,3
+GenerateNormals,
+
+LoadTexture,terrapieno.bmp,
+SetTextureCoordinates,0,0,5,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,5,
+
+;;terrapieno
+CreateMeshBuilder,
+Cube, 3,0.1,10.5,
+Translate, -8.7,3,10.5
+GenerateNormals,
+Setcolor,90,90,90,
+
+; discesa fondo
+
+CreateMeshBuilder,
+AddVertex,-11,0,-20,
+AddVertex,-12,2,0,
+AddVertex,-10,0,0,
+AddFace,0,1,2,
+GenerateNormals,
+
+LoadTexture,..\Alberi\grass3.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+
+CreateMeshBuilder,
+AddVertex,-14,3.2,14,
+AddVertex,-12,3.2,14,
+AddVertex,-11,0,-20,
+AddVertex,-13,0,-20,
+AddFace,0,1,2,3
+GenerateNormals,
+
+LoadTexture,..\linea\camminamento.bmp,
+SetTextureCoordinates,0,1,3,
+SetTextureCoordinates,1,0,3,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+
+CreateMeshBuilder,
+AddVertex,-13.1,0.4,-20,
+AddVertex,-14.1,2.5.5,5,
+AddVertex,-13.8,2,5,
+AddVertex,-13,-0.1,-20,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,terrapieno.bmp,
+SetTextureCoordinates,0,0,15,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,15,
+
+;; ringhiera
+CreateMeshBuilder,
+AddVertex,-11,-0.1,-20,
+AddVertex,-11,0.8,-20,
+AddVertex,-12,2.8,0,
+AddVertex,-12,1.9,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,ringhera.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,6,0,
+SetTextureCoordinates,3,6,1,
+SetDecalTransparentColor, 255,255,255,
+
+;; piano
+CreateMeshBuilder,
+AddVertex,-12.0, 0, 1,
+AddVertex,-12.0, 0, -21,
+AddVertex,-5.8, 0.17, -21,
+AddVertex,-5.8, 0.17, 1,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Alberi\grass3a.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+
+CreateMeshBuilder,
+AddVertex,-12.0, 0, -21,
+AddVertex,-12.0, 0, -41,
+AddVertex,-5.8, 0.17, -41,
+AddVertex,-5.8, 0.17, -21,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\Alberi\grass3a.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 1, 0,
+
+
+
+
+;; pilastrini
+
+;1
+CreateMeshBuilder,
+AddVertex,-6.1,4,0.2,
+AddVertex,-5.8,4,0.2,
+AddVertex,-5.8,3,0.2,
+AddVertex,-6.1,3,0.2,
+Addvertex,-5.8,3,0.5,
+Addvertex,-5.8,4,0.5,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -5.94,4,0.35
+GenerateNormals,
+Setcolor,176,176,176,
+
+;2
+CreateMeshBuilder,
+AddVertex,-6.1,4,2.5,
+AddVertex,-5.8,4,2.5,
+AddVertex,-5.8,3,2.5,
+AddVertex,-6.1,3,2.5,
+Addvertex,-5.8,3,2.8,
+Addvertex,-5.8,4,2.8,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -5.94,4,2.65
+GenerateNormals,
+Setcolor,176,176,176,
+
+;3
+CreateMeshBuilder,
+AddVertex,-6.1,4,5,
+AddVertex,-5.8,4,5,
+AddVertex,-5.8,3,5,
+AddVertex,-6.1,3,5,
+Addvertex,-5.8,3,5.3,
+Addvertex,-5.8,4,5.3,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -5.94,4,5.15
+GenerateNormals,
+Setcolor,176,176,176,
+
+
+;4
+CreateMeshBuilder,
+AddVertex,-6.1,4,7.5,
+AddVertex,-5.8,4,7.5,
+AddVertex,-5.8,3,7.5,
+AddVertex,-6.1,3,7.5,
+Addvertex,-5.8,3,7.8,
+Addvertex,-5.8,4,7.8,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -5.94,4,7.65
+GenerateNormals,
+Setcolor,176,176,176,
+
+;5
+CreateMeshBuilder,
+AddVertex,-6.1,4,10,
+AddVertex,-5.8,4,10,
+AddVertex,-5.8,3,10,
+AddVertex,-6.1,3,10,
+Addvertex,-5.8,3,10.3,
+Addvertex,-5.8,4,10.3,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -5.94,4,10.15
+GenerateNormals,
+Setcolor,176,176,176,
+
+;6
+CreateMeshBuilder,
+AddVertex,-6.1,4,12.5,
+AddVertex,-5.8,4,12.5,
+AddVertex,-5.8,3,12.5,
+AddVertex,-6.1,3,12.5,
+Addvertex,-5.8,3,12.8,
+Addvertex,-5.8,4,12.8,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -5.94,4,12.65
+GenerateNormals,
+Setcolor,176,176,176,
+
+
+;7
+CreateMeshBuilder,
+AddVertex,-6.1,4,15,
+AddVertex,-5.8,4,15,
+AddVertex,-5.8,3,15,
+AddVertex,-6.1,3,15,
+Addvertex,-5.8,3,15.3,
+Addvertex,-5.8,4,15.3,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -5.94,4,15.15
+GenerateNormals,
+Setcolor,176,176,176,
+
+;8
+CreateMeshBuilder,
+AddVertex,-6.1,4,17.5,
+AddVertex,-5.8,4,17.5,
+AddVertex,-5.8,3,17.5,
+AddVertex,-6.1,3,17.5,
+Addvertex,-5.8,3,17.8,
+Addvertex,-5.8,4,17.8,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -5.94,4,17.65
+GenerateNormals,
+Setcolor,176,176,176,
+
+
+;9
+CreateMeshBuilder,
+AddVertex,-6.1,4,20,
+AddVertex,-5.8,4,20,
+AddVertex,-5.8,3,20,
+AddVertex,-6.1,3,20,
+Addvertex,-5.8,3,20.3,
+Addvertex,-5.8,4,20.3,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -5.94,4,20.15
+GenerateNormals,
+Setcolor,176,176,176,
+
+;;barra fronte
+CreateMeshBuilder,
+AddVertex,-5.95,3.85,0,
+AddVertex,-5.95,3.85,20,
+AddVertex,-5.95,3.75,20,
+AddVertex,-5.95,3.75,0,
+AddFace,0,1,2,3
+GenerateNormals,
+Setcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-5.95,3.45,0,
+AddVertex,-5.95,3.45,20,
+AddVertex,-5.95,3.35,20,
+AddVertex,-5.95,3.35,0,
+AddFace,0,1,2,3
+GenerateNormals,
+Setcolor,0,0,0,
+
+;; pilastrini orizzontali
+;1
+CreateMeshBuilder,
+AddVertex,-6.6,4,0,
+AddVertex,-6.3,4,0,
+AddVertex,-6.3,3,0,
+AddVertex,-6.6,3,0,
+Addvertex,-6.3,3,0.3,
+Addvertex,-6.3,4,0.3,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -6.44,4,0.15
+GenerateNormals,
+Setcolor,176,176,176,
+
+
+;2
+CreateMeshBuilder,
+AddVertex,-9.1,4,0,
+AddVertex,-8.8,4,0,
+AddVertex,-8.8,3,0,
+AddVertex,-9.1,3,0,
+Addvertex,-8.8,3,0.3,
+Addvertex,-8.8,4,0.3,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -8.94,4,0.15
+GenerateNormals,
+Setcolor,176,176,176,
+
+;3
+CreateMeshBuilder,
+AddVertex,-12,4,0,
+AddVertex,-11.7,4,0,
+AddVertex,-11.7,3,0,
+AddVertex,-12,3,0,
+Addvertex,-11.7,3,0.3,
+Addvertex,-11.7,4,0.3,
+AddFace,0,1,2,3
+Addface2,1,2,4,5,
+GenerateNormals,
+
+LoadTexture,salmone.bmp,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1
+
+CreateMeshBuilder,
+Cube, 0.16,0.05,0.16,
+Translate, -11.84,4,0.15
+GenerateNormals,
+Setcolor,176,176,176,
+
+;;barra laterale
+CreateMeshBuilder,
+AddVertex,-12,3.85,0.15,
+AddVertex,-5.95,3.85,0.15,
+AddVertex,-5.95,3.75,0.15,
+AddVertex,-12,3.75,0.15,
+AddFace,0,1,2,3
+GenerateNormals,
+Setcolor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-12,3.45,0.15,
+AddVertex,-5.95,3.45,0.15,
+AddVertex,-5.95,3.35,0.15,
+AddVertex,-12,3.35,0.15,
+AddFace,0,1,2,3
+GenerateNormals,
+Setcolor,0,0,0,

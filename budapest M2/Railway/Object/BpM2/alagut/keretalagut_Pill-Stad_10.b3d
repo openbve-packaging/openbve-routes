@@ -1,0 +1,543 @@
+;Keretalagút speciális objektum
+;Pillangó utca-Stadionok 11900-11925
+;Készítette: http://www.bvemetro.hu/
+
+;-----------------------------------
+
+;Aljzat
+
+[MeshBuilder]
+Vertex -17.586,-0.20,-00.933
+Vertex -18.000,-0.20, 25.943
+Vertex  02.207,-0.20, 25.101
+Vertex  02.207,-0.20,-00.108
+Face 0,1,2,3
+Load ..\sin\aljzat_151c.bmp
+Coordinates 0,-1.76,0
+Coordinates 1,-1.80,2.59
+Coordinates 2, 0.22,2.51
+Coordinates 3, 0.22,0
+
+;-----------------------------------
+
+;Falak
+
+[MeshBuilder]
+vertex  02.207, 4.10, 25.101
+vertex  02.207,-0.30, 25.101
+vertex  01.969, 4.10, 16.699
+vertex  01.969,-0.30, 16.699
+vertex  01.969, 4.10, 08.294
+vertex  01.969,-0.30, 08.294
+vertex  02.207, 4.10,-00.108
+vertex  02.207,-0.30,-00.108
+;
+vertex -17.586,-0.30,-00.933
+vertex -17.586, 4.10,-00.933
+vertex -18.000, 4.10, 25.943
+vertex -18.000,-0.30, 25.943
+;
+Face 01,00,02,03
+Face 03,02,04,05
+Face 05,04,06,07
+;
+Face 08,09,10,11
+;
+Load fal_keret_01.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,0.67,0
+coordinates 3,0.67,1
+coordinates 4,1.34,0
+coordinates 5,1.34,1
+coordinates 6,2,0
+coordinates 7,2,1
+coordinates 8,0,1
+coordinates 9,0,0
+coordinates 10,2,0
+coordinates 11,2,1
+
+;-----------------------------------
+
+;Födém
+
+[MeshBuilder]
+Vertex -17.586,4.0,-00.933
+Vertex -18.000,4.0, 25.943
+Vertex  02.207,4.0, 25.101
+Vertex  02.207,4.0,-00.108
+Face 3,2,1,0
+Load melyteto.bmp
+Coordinates 0,-1.76,0
+Coordinates 1,-1.80,2.59
+Coordinates 2, 0.22,2.51
+Coordinates 3, 0.22,0
+
+;-----------------------------------
+
+;Oszlopok
+
+;b1
+[MeshBuilder]
+Vertex -0.25,-0.3,-0.35
+Vertex  0.25,-0.3,-0.35
+Vertex  0.25,-0.3, 0.35
+Vertex -0.25, 3.5,-0.35
+Vertex  0.25, 3.5,-0.35
+Vertex  0.25, 3.5, 0.35
+Face 0,3,4,1
+Face 1,4,5,2
+[Texture]
+Load fal_keret_02.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,2,1
+Coordinates 3,0,0.1
+Coordinates 4,1,0.1
+Coordinates 5,2,0.1
+Rotate 0,1,0,-2.84
+Translate -3.568,0,-0.925
+;b2
+[MeshBuilder]
+Vertex -0.25,-0.3,-0.35
+Vertex  0.25,-0.3,-0.35
+Vertex  0.25,-0.3, 0.35
+Vertex -0.25, 3.5,-0.35
+Vertex  0.25, 3.5,-0.35
+Vertex  0.25, 3.5, 0.35
+Face 0,3,4,1
+Face 1,4,5,2
+[Texture]
+Load fal_keret_02.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,2,1
+Coordinates 3,0,0.1
+Coordinates 4,1,0.1
+Coordinates 5,2,0.1
+Rotate 0,1,0,-1.76
+Translate -3.814,0,5.201
+;b3
+[MeshBuilder]
+Vertex -0.25,-0.3,-0.35
+Vertex  0.25,-0.3,-0.35
+Vertex  0.25,-0.3, 0.35
+Vertex -0.25, 3.5,-0.35
+Vertex  0.25, 3.5,-0.35
+Vertex  0.25, 3.5, 0.35
+Face 0,3,4,1
+Face 1,4,5,2
+[Texture]
+Load fal_keret_02.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,2,1
+Coordinates 3,0,0.1
+Coordinates 4,1,0.1
+Coordinates 5,2,0.1
+Rotate 0,1,0,-0.68
+Translate -3.945,0,11.330
+;b4
+[MeshBuilder]
+Vertex -0.25,-0.3,-0.35
+Vertex  0.25,-0.3,-0.35
+Vertex  0.25,-0.3, 0.35
+Vertex -0.25, 3.5,-0.35
+Vertex  0.25, 3.5,-0.35
+Vertex  0.25, 3.5, 0.35
+Face 0,3,4,1
+Face 1,4,5,2
+[Texture]
+Load fal_keret_02.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,2,1
+Coordinates 3,0,0.1
+Coordinates 4,1,0.1
+Coordinates 5,2,0.1
+Rotate 0,1,0,0.40
+Translate -3.961,0,17.460
+
+;b5
+[MeshBuilder]
+Vertex -0.25,-0.3,-0.35
+Vertex  0.25,-0.3,-0.35
+Vertex  0.25,-0.3, 0.35
+Vertex -0.25, 3.5,-0.35
+Vertex  0.25, 3.5,-0.35
+Vertex  0.25, 3.5, 0.35
+Face 0,3,4,1
+Face 1,4,5,2
+[Texture]
+Load fal_keret_02.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,2,1
+Coordinates 3,0,0.1
+Coordinates 4,1,0.1
+Coordinates 5,2,0.1
+Rotate 0,1,0,-2.84
+Translate -11.758,0,-1.331
+;b6
+[MeshBuilder]
+Vertex -0.25,-0.3,-0.35
+Vertex  0.25,-0.3,-0.35
+Vertex  0.25,-0.3, 0.35
+Vertex -0.25, 3.5,-0.35
+Vertex  0.25, 3.5,-0.35
+Vertex  0.25, 3.5, 0.35
+Face 0,3,4,1
+Face 1,4,5,2
+[Texture]
+Load fal_keret_02.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,2,1
+Coordinates 3,0,0.1
+Coordinates 4,1,0.1
+Coordinates 5,2,0.1
+Rotate 0,1,0,-1.76
+Translate -12.010,0,4.949
+;b7
+[MeshBuilder]
+Vertex -0.25,-0.3,-0.35
+Vertex  0.25,-0.3,-0.35
+Vertex  0.25,-0.3, 0.35
+Vertex -0.25, 3.5,-0.35
+Vertex  0.25, 3.5,-0.35
+Vertex  0.25, 3.5, 0.35
+Face 0,3,4,1
+Face 1,4,5,2
+[Texture]
+Load fal_keret_02.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,2,1
+Coordinates 3,0,0.1
+Coordinates 4,1,0.1
+Coordinates 5,2,0.1
+Rotate 0,1,0,-0.68
+Translate -12.145,0,11.232
+;b8
+[MeshBuilder]
+Vertex -0.25,-0.3,-0.35
+Vertex  0.25,-0.3,-0.35
+Vertex  0.25,-0.3, 0.35
+Vertex -0.25, 3.5,-0.35
+Vertex  0.25, 3.5,-0.35
+Vertex  0.25, 3.5, 0.35
+Face 0,3,4,1
+Face 1,4,5,2
+[Texture]
+Load fal_keret_02.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,2,1
+Coordinates 3,0,0.1
+Coordinates 4,1,0.1
+Coordinates 5,2,0.1
+Rotate 0,1,0,0.40
+Translate -12.160,0,17.517
+
+;-----------------------------------
+
+;Fejgerenda
+
+[MeshBuilder]
+Vertex -3.308,4.00,-01.112
+Vertex -3.308,3.50,-01.112
+Vertex -3.808,3.50,-01.112
+Vertex -3.564,4.00, 05.209
+Vertex -3.564,3.50, 05.209
+Vertex -4.064,3.50, 05.209
+Vertex -3.695,4.00, 11.333
+Vertex -3.695,3.50, 11.333
+Vertex -4.195,3.50, 11.333
+Vertex -3.711,4.00, 17.458
+Vertex -3.711,3.50, 17.458
+Vertex -4.211,3.50, 17.458
+Vertex -3.605,4.00, 23.783
+Vertex -3.605,3.50, 23.783
+Vertex -4.105,3.50, 23.783
+;
+Vertex -11.498,4.00,-01.518
+Vertex -11.498,3.50,-01.518
+Vertex -11.998,3.50,-01.518
+Vertex -11.760,4.00, 04.956
+Vertex -11.760,3.50, 04.956
+Vertex -12.260,3.50, 04.956
+Vertex -11.895,4.00, 11.235
+Vertex -11.895,3.50, 11.235
+Vertex -12.395,3.50, 11.235
+Vertex -11.910,4.00, 17.515
+Vertex -11.910,3.50, 17.515
+Vertex -12.410,3.50, 17.515
+Vertex -11.803,4.00, 23.994
+Vertex -11.803,3.50, 23.994
+Vertex -12.303,3.50, 23.994
+;
+Face 00,03,04,01
+Face 01,04,05,02
+Face 03,06,07,04
+Face 04,07,08,05
+Face 06,09,10,07
+Face 07,10,11,08
+Face 09,12,13,10
+Face 10,13,14,11
+;
+Face 15,18,19,16
+Face 16,19,20,17
+Face 18,21,22,19
+Face 19,22,23,20
+Face 21,24,25,22
+Face 22,25,26,23
+Face 24,27,28,25
+Face 25,28,29,26
+;
+[Texture]
+Load fal_keret_02.bmp
+Coordinates 0,8,0.0
+Coordinates 1,8,0.1
+Coordinates 2,8,0.2
+Coordinates 3,6,0.0
+Coordinates 4,6,0.1
+Coordinates 5,6,0.2
+Coordinates 6,4,0.0
+Coordinates 7,4,0.1
+Coordinates 8,4,0.2
+Coordinates 9,2,0.0
+Coordinates 10,2,0.1
+Coordinates 11,2,0.2
+Coordinates 12,0,0.0
+Coordinates 13,0,0.1
+Coordinates 14,0,0.2
+;
+Coordinates 15,8,0.0
+Coordinates 16,8,0.1
+Coordinates 17,8,0.2
+Coordinates 18,6,0.0
+Coordinates 19,6,0.1
+Coordinates 20,6,0.2
+Coordinates 21,4,0.0
+Coordinates 22,4,0.1
+Coordinates 23,4,0.2
+Coordinates 24,2,0.0
+Coordinates 25,2,0.1
+Coordinates 26,2,0.2
+Coordinates 27,0,0.0
+Coordinates 28,0,0.1
+Coordinates 29,0,0.2
+
+;-----------------------------------
+
+;Peron
+
+;tetõ
+[MeshBuilder]
+Vertex -8.238,1.1,-00.633
+Vertex -7.139,1.1,-00.575
+Vertex -7.139,0.9,-00.575
+Vertex -8.485,1.1, 05.863
+Vertex -7.386,1.1, 05.901
+Vertex -7.386,0.9, 05.901
+Vertex -8.606,1.1, 12.363
+Vertex -7.506,1.1, 12.381
+Vertex -7.506,0.9, 12.381
+Vertex -8.598,1.1, 18.864
+Vertex -7.498,1.1, 18.862
+Vertex -7.498,0.9, 18.862
+Vertex -8.462,1.1, 25.363
+Vertex -7.362,1.1, 25.341
+Vertex -7.362,0.9, 25.341
+Face 00,03,04,01
+Face 01,04,05,02
+Face 03,06,07,04
+Face 04,07,08,05
+Face 06,09,10,07
+Face 07,10,11,08
+Face 09,12,13,10
+Face 10,13,14,11
+[Texture]
+Load khperon_Stadion_01.bmp
+Coordinates 0,8,0.0
+Coordinates 1,8,0.79
+Coordinates 2,8,1.0
+Coordinates 3,6,0.0
+Coordinates 4,6,0.79
+Coordinates 5,6,1.0
+Coordinates 6,4,0.0
+Coordinates 7,4,0.79
+Coordinates 8,4,1.0
+Coordinates 9,2,0.0
+Coordinates 10,2,0.79
+Coordinates 11,2,1.0
+Coordinates 12,0,0.0
+Coordinates 13,0,0.79
+Coordinates 14,0,1.0
+
+;oldal
+[MeshBuilder]
+Vertex -7.289,-0.30,-00.583
+Vertex -7.289, 1.05,-00.583
+Vertex -7.536,-0.30, 05.896
+Vertex -7.536, 1.05, 05.896
+Vertex -7.656,-0.30, 12.378
+Vertex -7.656, 1.05, 12.378
+Vertex -7.648,-0.30, 18.862
+Vertex -7.648, 1.05, 18.862
+Vertex -7.512,-0.30, 25.344
+Vertex -7.512, 1.05, 25.344
+;
+Face 00,01,03,02
+Face 02,03,05,04
+Face 04,05,07,06
+Face 06,07,09,08
+;
+[Texture]
+Load khperon_Stadion_02.bmp
+Coordinates 0,00,0
+Coordinates 1,00,1
+Coordinates 2,04,0
+Coordinates 3,04,1
+Coordinates 4,08,0
+Coordinates 5,08,1
+Coordinates 6,12,0
+Coordinates 7,12,1
+Coordinates 8,16,0
+Coordinates 9,16,1
+
+;korlát
+[MeshBuilder]
+Vertex -7.229,1.1,-00.380
+Vertex -7.229,2.2,-00.380
+Vertex -7.469,1.1, 05.998
+Vertex -7.469,2.2, 05.998
+Vertex -7.586,1.1, 12.379
+Vertex -7.586,2.2, 12.379
+Vertex -7.579,1.1, 18.762
+Vertex -7.579,2.2, 18.762
+Vertex -7.448,1.1, 25.143
+Vertex -7.448,2.2, 25.143
+;
+Vertex -8.167,1.1,-00.429
+Vertex -8.167,2.2,-00.429
+Vertex -8.409,1.1, 05.966
+Vertex -8.409,2.2, 05.966
+Vertex -8.526,1.1, 12.364
+Vertex -8.526,2.2, 12.364
+Vertex -8.519,1.1, 18.764
+Vertex -8.519,2.2, 18.764
+Vertex -8.388,1.1, 25.162
+Vertex -8.388,2.2, 25.162
+;
+Face 00,01,03,02
+Face 02,03,05,04
+Face 04,05,07,06
+Face 06,07,09,08
+;
+Face 10,11,13,12
+Face 12,13,15,14
+Face 14,15,17,16
+Face 16,17,19,18
+;
+[Texture]
+Load khperon_Stadion_03.bmp
+Coordinates 0,00,1
+Coordinates 1,00,0
+Coordinates 2,04,1
+Coordinates 3,04,0
+Coordinates 4,08,1
+Coordinates 5,08,0
+Coordinates 6,12,1
+Coordinates 7,12,0
+Coordinates 8,16,1
+Coordinates 9,16,0
+Coordinates 10,00,1
+Coordinates 11,00,0
+Coordinates 12,04,1
+Coordinates 13,04,0
+Coordinates 14,08,1
+Coordinates 15,08,0
+Coordinates 16,12,1
+Coordinates 17,12,0
+Coordinates 18,16,1
+Coordinates 19,16,0
+Transparent 0,0,255
+
+;-----------------------------------
+
+;Világítás
+
+[MeshBuilder]
+Vertex -0.03,-0.1, 0.5
+Vertex -0.03, 0.1, 0.5
+Vertex -0.03, 0.1,-0.5
+Vertex -0.03,-0.1,-0.5
+Vertex  0.03,-0.1, 0.5
+Vertex  0.03, 0.1, 0.5
+Vertex  0.03, 0.1,-0.5
+Vertex  0.03,-0.1,-0.5
+Face 0,1,2,3
+Face 1,5,6,2
+Face 2,6,7,3
+Face 0,3,7,4
+[Texture]
+Load alagut_lampa_01.bmp
+Coordinates 0,0.00,1.00
+Coordinates 1,0.00,0.00
+Coordinates 2,1.00,0.00
+Coordinates 3,1.00,1.00
+Coordinates 4,0.00,1.00
+Coordinates 5,0.00,0.00
+Coordinates 6,1.00,0.00
+Coordinates 7,1.00,1.00
+Rotate 0,1,0,-1.2
+Translate 1.95,2.60,6.3
+ 
+[MeshBuilder]
+Vertex -0.03,-0.1, 0.5
+Vertex -0.03, 0.1, 0.5
+Vertex -0.03, 0.1,-0.5
+Vertex -0.03,-0.1,-0.5
+Vertex  0.03,-0.1, 0.5
+Vertex  0.03, 0.1, 0.5
+Vertex  0.03, 0.1,-0.5
+Vertex  0.03,-0.1,-0.5
+Face 0,1,2,3
+Face 1,5,6,2
+Face 2,6,7,3
+Face 0,3,7,4
+[Texture]
+Load alagut_lampa_01.bmp
+Coordinates 0,0.00,1.00
+Coordinates 1,0.00,0.00
+Coordinates 2,1.00,0.00
+Coordinates 3,1.00,1.00
+Coordinates 4,0.00,1.00
+Coordinates 5,0.00,0.00
+Coordinates 6,1.00,0.00
+Coordinates 7,1.00,1.00
+Rotate 0,1,0,1.2
+Translate 1.95,2.60,18.7
+
+[MeshBuilder]
+Vertex 0,-0.1, 0.5
+Vertex 0, 0.1, 0.5
+Vertex 0, 0.1,-0.5
+Vertex 0,-0.1,-0.5
+Face 3,2,1,0
+Color 72,72,72
+Rotate 0,1,0,-0.93
+Translate -17.59,2.6,5.65
+
+[MeshBuilder]
+Vertex 0,-0.1, 0.5
+Vertex 0, 0.1, 0.5
+Vertex 0, 0.1,-0.5
+Vertex 0,-0.1,-0.5
+Face 3,2,1,0
+Color 72,72,72
+Rotate 0,1,0,-0.93
+Translate -17.81,2.6,18.79
+
+;-----------------------------------

@@ -1,0 +1,117 @@
+CreateMeshBuilder,
+Addvertex,0, 7, 0,
+Addvertex,1.2, 7, 0,
+Addvertex,1.2, 0, 0,
+Addvertex,0, 0, 0,
+Addface,1,2,3,0,
+GenerateNormals,
+
+LoadTexture,renault.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder, ; palo
+cylinder, 6,0.06,0.06,7
+translate, 0,3.5,0
+SetColor, 226, 226, 226,
+
+; steccato
+CreateMeshBuilder,
+Addvertex,-2, 1.5, 0,
+Addvertex,-10, 1.5, 10,
+Addvertex,-10, 0, 10,
+Addvertex,-2, 0, 0,
+Addface2,1,2,3,0,
+GenerateNormals,
+
+LoadTexture,steccato.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,
+
+
+; steccato
+CreateMeshBuilder,
+Addvertex,-2, 0, -1,
+Addvertex,-15, 0, 15,
+Addvertex,1.5, 0, 15,
+Addvertex,1.5, 0, -1,
+Addface2,1,2,3,0,
+GenerateNormals,
+
+LoadTexture,..\Alberi\grass3.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,255,
+
+
+; funghi
+CreateMeshBuilder ; struttura portante
+Cylinder,6,0.25,0.25,0.5
+Translate,1,0.20,2
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,6,0.1,0.25,0.2
+Translate,1,0.5,2
+SetColor,160,160,160
+
+CreateMeshBuilder ; struttura portante
+Cylinder,6,0.25,0.25,0.5
+Translate,1,0.20,5
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,6,0.1,0.25,0.2
+Translate,1,0.5,5
+SetColor,160,160,160
+
+CreateMeshBuilder ; struttura portante
+Cylinder,6,0.25,0.25,0.5
+Translate,1,0.20,8
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,6,0.1,0.25,0.2
+Translate,1,0.5,8
+SetColor,160,160,160
+
+CreateMeshBuilder ; struttura portante
+Cylinder,6,0.25,0.25,0.5
+Translate,1,0.20,11
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,6,0.1,0.25,0.2
+Translate,1,0.5,11
+SetColor,160,160,160
+
+CreateMeshBuilder ; struttura portante
+Cylinder,6,0.25,0.25,0.5
+Translate,1,0.20,14
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,6,0.1,0.25,0.2
+Translate,1,0.5,14
+SetColor,160,160,160
+
+CreateMeshBuilder ; struttura portante
+Cylinder,6,0.25,0.25,0.5
+Translate,-2,0.20,14
+SetColor,160,160,160
+
+CreateMeshBuilder ; sopra
+Cylinder,6,0.1,0.25,0.2
+Translate,-2,0.5,14
+SetColor,160,160,160
+
+
+

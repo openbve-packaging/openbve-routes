@@ -1,0 +1,1071 @@
+[Meshbuilder]
+Vertex 2.8,-0.175,0
+Vertex 2.8,-0.405,0
+Vertex -2.8,-0.405,0
+Vertex -2.8,-0.175,0
+Vertex 2.8,-0.175,25.4
+Vertex 2.8,-0.405,25.4
+Vertex -2.8,-0.405,25.4
+Vertex -2.8,-0.175,25.4
+Face 4,0,3,7
+Face 0,1,2,3
+Face 4,5,1,0
+Face 3,2,6,7
+Color 40,40,40
+[Texture]
+load concrete2.bmp
+Coordinates 0,2,0
+Coordinates 1,2,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Coordinates 4,2,-25
+Coordinates 5,2,-25
+Coordinates 6,0,-25
+COordinates 7,0,-25
+
+[Meshbuilder]
+Vertex -0.52,-0.171,25
+Vertex -0.52,-0.171,0
+Vertex -1,-0.171,0
+Vertex -1,-0.171,25
+Face 0,1,2,3
+[texture]
+load railclip-jle.bmp
+Coordinates 0,-1,0.25
+Coordinates 1,-1,31.5
+Coordinates 2,0,31.5
+Coordinates 3,0,0.25
+Transparent 255,0,255
+
+[Meshbuilder]
+Vertex 0.52,-0.171,25
+Vertex 0.52,-0.171,0
+Vertex 1,-0.171,0
+Vertex 1,-0.171,25
+Face 3,2,1,0
+[texture]
+load railclip-jle.bmp
+Coordinates 0,1,0.25
+Coordinates 1,1,31.5
+Coordinates 2,0,31.5
+Coordinates 3,0,0.25
+Transparent 255,0,255
+
+[MeshBuilder]
+Vertex -0.8, 0, -0.4
+Vertex -0.8, 0, 25.4
+Vertex -0.72, 0, 25.4
+Vertex -0.72, 0, -0.4
+Face 0, 1, 2, 3
+Color 180,190,200
+
+[MeshBuilder]
+Vertex 0.72, 0, -0.3
+Vertex 0.72, 0, 25.3
+Vertex 0.8, 0, 25.3
+Vertex 0.8, 0, -0.3
+Face 0, 1, 2, 3
+Color 180,190,200
+
+[meshbuilder]
+vertex 0.76, 0, 25.3
+vertex 0.76, 0, -0.3
+vertex 0.76, -0.17, -0.3
+vertex 0.76, -0.17, 25.3
+face 0,1,2,3
+face 1,0,3,2
+color 85,50,50
+
+[meshbuilder]
+vertex -0.76, 0, -0.3
+vertex -0.76, 0, 25.3
+vertex -0.76, -0.17, 25.3
+vertex -0.76, -0.17, -0.3
+face 0,1,2,3
+face 1,0,3,2
+color 85,50,50
+
+; Now the power rails
+
+[Meshbuilder] ; Centre ground rail (-210V fyi)
+Vertex 0.05,0.05,25.3
+Vertex 0.05,0.05,-0.3
+Vertex -0.05,0.05,-0.3
+Vertex -0.05,0.05,25.3
+Face 0,1,2,3
+Color 110,110,110
+
+[Meshbuilder]
+Vertex 0,0.05,-0.3
+Vertex 0,-0.1,-0.3
+Vertex 0,-0.1,25.3
+Vertex 0,0.05,25.3
+Face2 0,1,2,3
+Color 60,60,60
+
+[Meshbuilder]
+Vertex 0.05,-0.1,25.3
+Vertex 0.05,-0.1,-0.3
+Vertex -0.05,-0.1,-0.3
+Vertex -0.05,-0.1,25.3
+Face 0,1,2,3
+Color 60,60,60
+
+[Meshbuilder] ; Outer live rail (+420V fyi)
+Vertex 1.11,0.05,25.3
+Vertex 1.11,0.05,-0.3
+Vertex 1.21,0.05,-0.3
+Vertex 1.21,0.05,25.3
+Face 3,2,1,0
+Color 110,110,110
+
+[Meshbuilder]
+Vertex 1.16,0.05,-0.3
+Vertex 1.16,-0.1,-0.3
+Vertex 1.16,-0.1,25.3
+Vertex 1.16,0.05,25.3
+Face2 0,1,2,3
+Color 60,60,60
+
+[Meshbuilder]
+Vertex 1.11,-0.1,25.3
+Vertex 1.11,-0.1,-0.3
+Vertex 1.21,-0.1,-0.3
+Vertex 1.21,-0.1,25.3
+Face 3,2,1,0
+Color 60,60,60
+
+[Meshbuilder] ; Centre rail insulators
+Vertex 0.15,-0.1,2
+Vertex 0.2,-0.17,2
+Vertex -0.2,-0.17,2
+Vertex -0.15,-0.1,2
+
+Vertex 0.15,-0.1,7
+Vertex 0.2,-0.17,7
+Vertex -0.2,-0.17,7
+Vertex -0.15,-0.1,7
+
+Vertex 0.15,-0.1,12
+Vertex 0.2,-0.17,12
+Vertex -0.2,-0.17,12
+Vertex -0.15,-0.1,12
+
+Vertex 0.15,-0.1,17
+Vertex 0.2,-0.17,17
+Vertex -0.2,-0.17,17
+Vertex -0.15,-0.1,17
+
+Vertex 0.15,-0.1,22
+Vertex 0.2,-0.17,22
+Vertex -0.2,-0.17,22
+Vertex -0.15,-0.1,22
+
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 12,13,14,15
+Face 16,17,18,19
+Color 180,180,180
+
+[Meshbuilder] ; Outer rail insulators
+Vertex 1.01,-0.1,2
+Vertex 0.96,-0.17,2
+Vertex 1.36,-0.17,2
+Vertex 1.31,-0.1,2
+
+Vertex 1.01,-0.1,7
+Vertex 0.96,-0.17,7
+Vertex 1.36,-0.17,7
+Vertex 1.31,-0.1,7
+
+Vertex 1.01,-0.1,12
+Vertex 0.96,-0.17,12
+Vertex 1.36,-0.17,12
+Vertex 1.31,-0.1,12
+
+Vertex 1.01,-0.1,17
+Vertex 0.96,-0.17,17
+Vertex 1.36,-0.17,17
+Vertex 1.31,-0.1,17
+
+Vertex 1.01,-0.1,22
+Vertex 0.96,-0.17,22
+Vertex 1.36,-0.17,22
+Vertex 1.31,-0.1,22
+
+Face 3,2,1,0
+Face 7,6,5,4
+Face 11,10,9,8
+Face 15,14,13,12
+Face 19,18,17,16
+Color 180,180,180
+
+[Meshbuilder]
+Vertex -0.69, -0.1, .75
+Vertex -0.65, -0.17, .75
+Vertex -0.87, -0.17, .75
+Vertex -0.83, -0.1, .75
+Vertex -0.69, -0.1, .85
+Vertex -0.65, -0.17, .85
+Vertex -0.87, -0.17, .85
+Vertex -0.83, -0.1, .85
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 1.55
+Vertex -0.65, -0.17, 1.55
+Vertex -0.87, -0.17, 1.55
+Vertex -0.83, -0.1, 1.55
+Vertex -0.69, -0.1, 1.65
+Vertex -0.65, -0.17, 1.65
+Vertex -0.87, -0.17, 1.65
+Vertex -0.83, -0.1, 1.65
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 2.35
+Vertex -0.65, -0.17, 2.35
+Vertex -0.87, -0.17, 2.35
+Vertex -0.83, -0.1, 2.35
+Vertex -0.69, -0.1, 2.45
+Vertex -0.65, -0.17, 2.45
+Vertex -0.87, -0.17, 2.45
+Vertex -0.83, -0.1, 2.45
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 3.15
+Vertex -0.65, -0.17, 3.15
+Vertex -0.87, -0.17, 3.15
+Vertex -0.83, -0.1, 3.15
+Vertex -0.69, -0.1, 3.25
+Vertex -0.65, -0.17, 3.25
+Vertex -0.87, -0.17, 3.25
+Vertex -0.83, -0.1, 3.25
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 3.95
+Vertex -0.65, -0.17, 3.95
+Vertex -0.87, -0.17, 3.95
+Vertex -0.83, -0.1, 3.95
+Vertex -0.69, -0.1, 4.05
+Vertex -0.65, -0.17, 4.05
+Vertex -0.87, -0.17, 4.05
+Vertex -0.83, -0.1, 4.05
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 4.75
+Vertex -0.65, -0.17, 4.75
+Vertex -0.87, -0.17, 4.75
+Vertex -0.83, -0.1, 4.75
+Vertex -0.69, -0.1, 4.85
+Vertex -0.65, -0.17, 4.85
+Vertex -0.87, -0.17, 4.85
+Vertex -0.83, -0.1, 4.85
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 5.55
+Vertex -0.65, -0.17, 5.55
+Vertex -0.87, -0.17, 5.55
+Vertex -0.83, -0.1, 5.55
+Vertex -0.69, -0.1, 5.650001
+Vertex -0.65, -0.17, 5.650001
+Vertex -0.87, -0.17, 5.650001
+Vertex -0.83, -0.1, 5.650001
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 6.35
+Vertex -0.65, -0.17, 6.35
+Vertex -0.87, -0.17, 6.35
+Vertex -0.83, -0.1, 6.35
+Vertex -0.69, -0.1, 6.450001
+Vertex -0.65, -0.17, 6.450001
+Vertex -0.87, -0.17, 6.450001
+Vertex -0.83, -0.1, 6.450001
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 7.150001
+Vertex -0.65, -0.17, 7.150001
+Vertex -0.87, -0.17, 7.150001
+Vertex -0.83, -0.1, 7.150001
+Vertex -0.69, -0.1, 7.250001
+Vertex -0.65, -0.17, 7.250001
+Vertex -0.87, -0.17, 7.250001
+Vertex -0.83, -0.1, 7.250001
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 7.950001
+Vertex -0.65, -0.17, 7.950001
+Vertex -0.87, -0.17, 7.950001
+Vertex -0.83, -0.1, 7.950001
+Vertex -0.69, -0.1, 8.050001
+Vertex -0.65, -0.17, 8.050001
+Vertex -0.87, -0.17, 8.050001
+Vertex -0.83, -0.1, 8.050001
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 8.750001
+Vertex -0.65, -0.17, 8.750001
+Vertex -0.87, -0.17, 8.750001
+Vertex -0.83, -0.1, 8.750001
+Vertex -0.69, -0.1, 8.850001
+Vertex -0.65, -0.17, 8.850001
+Vertex -0.87, -0.17, 8.850001
+Vertex -0.83, -0.1, 8.850001
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 9.550001
+Vertex -0.65, -0.17, 9.550001
+Vertex -0.87, -0.17, 9.550001
+Vertex -0.83, -0.1, 9.550001
+Vertex -0.69, -0.1, 9.650002
+Vertex -0.65, -0.17, 9.650002
+Vertex -0.87, -0.17, 9.650002
+Vertex -0.83, -0.1, 9.650002
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 10.35
+Vertex -0.65, -0.17, 10.35
+Vertex -0.87, -0.17, 10.35
+Vertex -0.83, -0.1, 10.35
+Vertex -0.69, -0.1, 10.45
+Vertex -0.65, -0.17, 10.45
+Vertex -0.87, -0.17, 10.45
+Vertex -0.83, -0.1, 10.45
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 11.15
+Vertex -0.65, -0.17, 11.15
+Vertex -0.87, -0.17, 11.15
+Vertex -0.83, -0.1, 11.15
+Vertex -0.69, -0.1, 11.25
+Vertex -0.65, -0.17, 11.25
+Vertex -0.87, -0.17, 11.25
+Vertex -0.83, -0.1, 11.25
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 11.95
+Vertex -0.65, -0.17, 11.95
+Vertex -0.87, -0.17, 11.95
+Vertex -0.83, -0.1, 11.95
+Vertex -0.69, -0.1, 12.05
+Vertex -0.65, -0.17, 12.05
+Vertex -0.87, -0.17, 12.05
+Vertex -0.83, -0.1, 12.05
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 12.75
+Vertex -0.65, -0.17, 12.75
+Vertex -0.87, -0.17, 12.75
+Vertex -0.83, -0.1, 12.75
+Vertex -0.69, -0.1, 12.85
+Vertex -0.65, -0.17, 12.85
+Vertex -0.87, -0.17, 12.85
+Vertex -0.83, -0.1, 12.85
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 13.55
+Vertex -0.65, -0.17, 13.55
+Vertex -0.87, -0.17, 13.55
+Vertex -0.83, -0.1, 13.55
+Vertex -0.69, -0.1, 13.65
+Vertex -0.65, -0.17, 13.65
+Vertex -0.87, -0.17, 13.65
+Vertex -0.83, -0.1, 13.65
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 14.35
+Vertex -0.65, -0.17, 14.35
+Vertex -0.87, -0.17, 14.35
+Vertex -0.83, -0.1, 14.35
+Vertex -0.69, -0.1, 14.45
+Vertex -0.65, -0.17, 14.45
+Vertex -0.87, -0.17, 14.45
+Vertex -0.83, -0.1, 14.45
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 15.15
+Vertex -0.65, -0.17, 15.15
+Vertex -0.87, -0.17, 15.15
+Vertex -0.83, -0.1, 15.15
+Vertex -0.69, -0.1, 15.25
+Vertex -0.65, -0.17, 15.25
+Vertex -0.87, -0.17, 15.25
+Vertex -0.83, -0.1, 15.25
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 15.95
+Vertex -0.65, -0.17, 15.95
+Vertex -0.87, -0.17, 15.95
+Vertex -0.83, -0.1, 15.95
+Vertex -0.69, -0.1, 16.05
+Vertex -0.65, -0.17, 16.05
+Vertex -0.87, -0.17, 16.05
+Vertex -0.83, -0.1, 16.05
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 16.75
+Vertex -0.65, -0.17, 16.75
+Vertex -0.87, -0.17, 16.75
+Vertex -0.83, -0.1, 16.75
+Vertex -0.69, -0.1, 16.85
+Vertex -0.65, -0.17, 16.85
+Vertex -0.87, -0.17, 16.85
+Vertex -0.83, -0.1, 16.85
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 17.55
+Vertex -0.65, -0.17, 17.55
+Vertex -0.87, -0.17, 17.55
+Vertex -0.83, -0.1, 17.55
+Vertex -0.69, -0.1, 17.65
+Vertex -0.65, -0.17, 17.65
+Vertex -0.87, -0.17, 17.65
+Vertex -0.83, -0.1, 17.65
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 18.35
+Vertex -0.65, -0.17, 18.35
+Vertex -0.87, -0.17, 18.35
+Vertex -0.83, -0.1, 18.35
+Vertex -0.69, -0.1, 18.45
+Vertex -0.65, -0.17, 18.45
+Vertex -0.87, -0.17, 18.45
+Vertex -0.83, -0.1, 18.45
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 19.15
+Vertex -0.65, -0.17, 19.15
+Vertex -0.87, -0.17, 19.15
+Vertex -0.83, -0.1, 19.15
+Vertex -0.69, -0.1, 19.25
+Vertex -0.65, -0.17, 19.25
+Vertex -0.87, -0.17, 19.25
+Vertex -0.83, -0.1, 19.25
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 19.95
+Vertex -0.65, -0.17, 19.95
+Vertex -0.87, -0.17, 19.95
+Vertex -0.83, -0.1, 19.95
+Vertex -0.69, -0.1, 20.05
+Vertex -0.65, -0.17, 20.05
+Vertex -0.87, -0.17, 20.05
+Vertex -0.83, -0.1, 20.05
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 20.75
+Vertex -0.65, -0.17, 20.75
+Vertex -0.87, -0.17, 20.75
+Vertex -0.83, -0.1, 20.75
+Vertex -0.69, -0.1, 20.85
+Vertex -0.65, -0.17, 20.85
+Vertex -0.87, -0.17, 20.85
+Vertex -0.83, -0.1, 20.85
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 21.55
+Vertex -0.65, -0.17, 21.55
+Vertex -0.87, -0.17, 21.55
+Vertex -0.83, -0.1, 21.55
+Vertex -0.69, -0.1, 21.65
+Vertex -0.65, -0.17, 21.65
+Vertex -0.87, -0.17, 21.65
+Vertex -0.83, -0.1, 21.65
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 22.35
+Vertex -0.65, -0.17, 22.35
+Vertex -0.87, -0.17, 22.35
+Vertex -0.83, -0.1, 22.35
+Vertex -0.69, -0.1, 22.45
+Vertex -0.65, -0.17, 22.45
+Vertex -0.87, -0.17, 22.45
+Vertex -0.83, -0.1, 22.45
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 23.15
+Vertex -0.65, -0.17, 23.15
+Vertex -0.87, -0.17, 23.15
+Vertex -0.83, -0.1, 23.15
+Vertex -0.69, -0.1, 23.24999
+Vertex -0.65, -0.17, 23.24999
+Vertex -0.87, -0.17, 23.24999
+Vertex -0.83, -0.1, 23.24999
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 23.95
+Vertex -0.65, -0.17, 23.95
+Vertex -0.87, -0.17, 23.95
+Vertex -0.83, -0.1, 23.95
+Vertex -0.69, -0.1, 24.04999
+Vertex -0.65, -0.17, 24.04999
+Vertex -0.87, -0.17, 24.04999
+Vertex -0.83, -0.1, 24.04999
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex -0.69, -0.1, 24.74999
+Vertex -0.65, -0.17, 24.74999
+Vertex -0.87, -0.17, 24.74999
+Vertex -0.83, -0.1, 24.74999
+Vertex -0.69, -0.1, 24.84999
+Vertex -0.65, -0.17, 24.84999
+Vertex -0.87, -0.17, 24.84999
+Vertex -0.83, -0.1, 24.84999
+Face 0, 1, 2, 3
+Face 5, 1, 0, 4
+Face 4, 0, 3, 7
+Face 7, 3, 2, 6
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, .75
+Vertex 0.65, -0.17, .75
+Vertex 0.87, -0.17, .75
+Vertex 0.83, -0.1, .75
+Vertex 0.69, -0.1, .85
+Vertex 0.65, -0.17, .85
+Vertex 0.87, -0.17, .85
+Vertex 0.83, -0.1, .85
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 1.55
+Vertex 0.65, -0.17, 1.55
+Vertex 0.87, -0.17, 1.55
+Vertex 0.83, -0.1, 1.55
+Vertex 0.69, -0.1, 1.65
+Vertex 0.65, -0.17, 1.65
+Vertex 0.87, -0.17, 1.65
+Vertex 0.83, -0.1, 1.65
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 2.35
+Vertex 0.65, -0.17, 2.35
+Vertex 0.87, -0.17, 2.35
+Vertex 0.83, -0.1, 2.35
+Vertex 0.69, -0.1, 2.45
+Vertex 0.65, -0.17, 2.45
+Vertex 0.87, -0.17, 2.45
+Vertex 0.83, -0.1, 2.45
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 3.15
+Vertex 0.65, -0.17, 3.15
+Vertex 0.87, -0.17, 3.15
+Vertex 0.83, -0.1, 3.15
+Vertex 0.69, -0.1, 3.25
+Vertex 0.65, -0.17, 3.25
+Vertex 0.87, -0.17, 3.25
+Vertex 0.83, -0.1, 3.25
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 3.95
+Vertex 0.65, -0.17, 3.95
+Vertex 0.87, -0.17, 3.95
+Vertex 0.83, -0.1, 3.95
+Vertex 0.69, -0.1, 4.05
+Vertex 0.65, -0.17, 4.05
+Vertex 0.87, -0.17, 4.05
+Vertex 0.83, -0.1, 4.05
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 4.75
+Vertex 0.65, -0.17, 4.75
+Vertex 0.87, -0.17, 4.75
+Vertex 0.83, -0.1, 4.75
+Vertex 0.69, -0.1, 4.85
+Vertex 0.65, -0.17, 4.85
+Vertex 0.87, -0.17, 4.85
+Vertex 0.83, -0.1, 4.85
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 5.55
+Vertex 0.65, -0.17, 5.55
+Vertex 0.87, -0.17, 5.55
+Vertex 0.83, -0.1, 5.55
+Vertex 0.69, -0.1, 5.650001
+Vertex 0.65, -0.17, 5.650001
+Vertex 0.87, -0.17, 5.650001
+Vertex 0.83, -0.1, 5.650001
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 6.35
+Vertex 0.65, -0.17, 6.35
+Vertex 0.87, -0.17, 6.35
+Vertex 0.83, -0.1, 6.35
+Vertex 0.69, -0.1, 6.450001
+Vertex 0.65, -0.17, 6.450001
+Vertex 0.87, -0.17, 6.450001
+Vertex 0.83, -0.1, 6.450001
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 7.150001
+Vertex 0.65, -0.17, 7.150001
+Vertex 0.87, -0.17, 7.150001
+Vertex 0.83, -0.1, 7.150001
+Vertex 0.69, -0.1, 7.250001
+Vertex 0.65, -0.17, 7.250001
+Vertex 0.87, -0.17, 7.250001
+Vertex 0.83, -0.1, 7.250001
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 7.950001
+Vertex 0.65, -0.17, 7.950001
+Vertex 0.87, -0.17, 7.950001
+Vertex 0.83, -0.1, 7.950001
+Vertex 0.69, -0.1, 8.050001
+Vertex 0.65, -0.17, 8.050001
+Vertex 0.87, -0.17, 8.050001
+Vertex 0.83, -0.1, 8.050001
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 8.750001
+Vertex 0.65, -0.17, 8.750001
+Vertex 0.87, -0.17, 8.750001
+Vertex 0.83, -0.1, 8.750001
+Vertex 0.69, -0.1, 8.850001
+Vertex 0.65, -0.17, 8.850001
+Vertex 0.87, -0.17, 8.850001
+Vertex 0.83, -0.1, 8.850001
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 9.550001
+Vertex 0.65, -0.17, 9.550001
+Vertex 0.87, -0.17, 9.550001
+Vertex 0.83, -0.1, 9.550001
+Vertex 0.69, -0.1, 9.650002
+Vertex 0.65, -0.17, 9.650002
+Vertex 0.87, -0.17, 9.650002
+Vertex 0.83, -0.1, 9.650002
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 10.35
+Vertex 0.65, -0.17, 10.35
+Vertex 0.87, -0.17, 10.35
+Vertex 0.83, -0.1, 10.35
+Vertex 0.69, -0.1, 10.45
+Vertex 0.65, -0.17, 10.45
+Vertex 0.87, -0.17, 10.45
+Vertex 0.83, -0.1, 10.45
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 11.15
+Vertex 0.65, -0.17, 11.15
+Vertex 0.87, -0.17, 11.15
+Vertex 0.83, -0.1, 11.15
+Vertex 0.69, -0.1, 11.25
+Vertex 0.65, -0.17, 11.25
+Vertex 0.87, -0.17, 11.25
+Vertex 0.83, -0.1, 11.25
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 11.95
+Vertex 0.65, -0.17, 11.95
+Vertex 0.87, -0.17, 11.95
+Vertex 0.83, -0.1, 11.95
+Vertex 0.69, -0.1, 12.05
+Vertex 0.65, -0.17, 12.05
+Vertex 0.87, -0.17, 12.05
+Vertex 0.83, -0.1, 12.05
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 12.75
+Vertex 0.65, -0.17, 12.75
+Vertex 0.87, -0.17, 12.75
+Vertex 0.83, -0.1, 12.75
+Vertex 0.69, -0.1, 12.85
+Vertex 0.65, -0.17, 12.85
+Vertex 0.87, -0.17, 12.85
+Vertex 0.83, -0.1, 12.85
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 13.55
+Vertex 0.65, -0.17, 13.55
+Vertex 0.87, -0.17, 13.55
+Vertex 0.83, -0.1, 13.55
+Vertex 0.69, -0.1, 13.65
+Vertex 0.65, -0.17, 13.65
+Vertex 0.87, -0.17, 13.65
+Vertex 0.83, -0.1, 13.65
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 14.35
+Vertex 0.65, -0.17, 14.35
+Vertex 0.87, -0.17, 14.35
+Vertex 0.83, -0.1, 14.35
+Vertex 0.69, -0.1, 14.45
+Vertex 0.65, -0.17, 14.45
+Vertex 0.87, -0.17, 14.45
+Vertex 0.83, -0.1, 14.45
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 15.15
+Vertex 0.65, -0.17, 15.15
+Vertex 0.87, -0.17, 15.15
+Vertex 0.83, -0.1, 15.15
+Vertex 0.69, -0.1, 15.25
+Vertex 0.65, -0.17, 15.25
+Vertex 0.87, -0.17, 15.25
+Vertex 0.83, -0.1, 15.25
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 15.95
+Vertex 0.65, -0.17, 15.95
+Vertex 0.87, -0.17, 15.95
+Vertex 0.83, -0.1, 15.95
+Vertex 0.69, -0.1, 16.05
+Vertex 0.65, -0.17, 16.05
+Vertex 0.87, -0.17, 16.05
+Vertex 0.83, -0.1, 16.05
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 16.75
+Vertex 0.65, -0.17, 16.75
+Vertex 0.87, -0.17, 16.75
+Vertex 0.83, -0.1, 16.75
+Vertex 0.69, -0.1, 16.85
+Vertex 0.65, -0.17, 16.85
+Vertex 0.87, -0.17, 16.85
+Vertex 0.83, -0.1, 16.85
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 17.55
+Vertex 0.65, -0.17, 17.55
+Vertex 0.87, -0.17, 17.55
+Vertex 0.83, -0.1, 17.55
+Vertex 0.69, -0.1, 17.65
+Vertex 0.65, -0.17, 17.65
+Vertex 0.87, -0.17, 17.65
+Vertex 0.83, -0.1, 17.65
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 18.35
+Vertex 0.65, -0.17, 18.35
+Vertex 0.87, -0.17, 18.35
+Vertex 0.83, -0.1, 18.35
+Vertex 0.69, -0.1, 18.45
+Vertex 0.65, -0.17, 18.45
+Vertex 0.87, -0.17, 18.45
+Vertex 0.83, -0.1, 18.45
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 19.15
+Vertex 0.65, -0.17, 19.15
+Vertex 0.87, -0.17, 19.15
+Vertex 0.83, -0.1, 19.15
+Vertex 0.69, -0.1, 19.25
+Vertex 0.65, -0.17, 19.25
+Vertex 0.87, -0.17, 19.25
+Vertex 0.83, -0.1, 19.25
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 19.95
+Vertex 0.65, -0.17, 19.95
+Vertex 0.87, -0.17, 19.95
+Vertex 0.83, -0.1, 19.95
+Vertex 0.69, -0.1, 20.05
+Vertex 0.65, -0.17, 20.05
+Vertex 0.87, -0.17, 20.05
+Vertex 0.83, -0.1, 20.05
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 20.75
+Vertex 0.65, -0.17, 20.75
+Vertex 0.87, -0.17, 20.75
+Vertex 0.83, -0.1, 20.75
+Vertex 0.69, -0.1, 20.85
+Vertex 0.65, -0.17, 20.85
+Vertex 0.87, -0.17, 20.85
+Vertex 0.83, -0.1, 20.85
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 21.55
+Vertex 0.65, -0.17, 21.55
+Vertex 0.87, -0.17, 21.55
+Vertex 0.83, -0.1, 21.55
+Vertex 0.69, -0.1, 21.65
+Vertex 0.65, -0.17, 21.65
+Vertex 0.87, -0.17, 21.65
+Vertex 0.83, -0.1, 21.65
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 22.35
+Vertex 0.65, -0.17, 22.35
+Vertex 0.87, -0.17, 22.35
+Vertex 0.83, -0.1, 22.35
+Vertex 0.69, -0.1, 22.45
+Vertex 0.65, -0.17, 22.45
+Vertex 0.87, -0.17, 22.45
+Vertex 0.83, -0.1, 22.45
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 23.15
+Vertex 0.65, -0.17, 23.15
+Vertex 0.87, -0.17, 23.15
+Vertex 0.83, -0.1, 23.15
+Vertex 0.69, -0.1, 23.24999
+Vertex 0.65, -0.17, 23.24999
+Vertex 0.87, -0.17, 23.24999
+Vertex 0.83, -0.1, 23.24999
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 23.95
+Vertex 0.65, -0.17, 23.95
+Vertex 0.87, -0.17, 23.95
+Vertex 0.83, -0.1, 23.95
+Vertex 0.69, -0.1, 24.04999
+Vertex 0.65, -0.17, 24.04999
+Vertex 0.87, -0.17, 24.04999
+Vertex 0.83, -0.1, 24.04999
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50
+[Meshbuilder]
+Vertex 0.69, -0.1, 24.74999
+Vertex 0.65, -0.17, 24.74999
+Vertex 0.87, -0.17, 24.74999
+Vertex 0.83, -0.1, 24.74999
+Vertex 0.69, -0.1, 24.84999
+Vertex 0.65, -0.17, 24.84999
+Vertex 0.87, -0.17, 24.84999
+Vertex 0.83, -0.1, 24.84999
+Face 3,2,1,0
+Face 4,0,1,5
+Face 7,3,0,4
+Face 6,2,3,7
+Color 85, 50, 50

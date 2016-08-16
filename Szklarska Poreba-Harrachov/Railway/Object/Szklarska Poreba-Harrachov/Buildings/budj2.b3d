@@ -1,0 +1,102 @@
+[meshbuilder]
+vertex 0, 0, 0
+vertex 0, 2.5, 0
+vertex -5, 2.5, 0
+vertex -5, 0, 0
+face2 0,1,2,3
+[Texture]
+Load budj2_sciana.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 0, 15
+vertex 0, 2.5, 15
+vertex -5, 2.5, 15
+vertex -5, 0, 15
+face2 3,2,1,0
+[Texture]
+Load budj2_sciana.png
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 0, 15
+vertex 0, 2.5, 15
+vertex 0, 2.5, 0
+vertex 0, 0, 0
+face2 0,1,2,3
+[Texture]
+Load budj2_sciana2.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex -5, 0, 15
+vertex -5, 2.5, 15
+vertex -5, 2.5, 0
+vertex -5, 0, 0
+face2 3,2,1,0
+[Texture]
+Load budj2_sciana2.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+;-------------------------------
+[meshbuilder]
+vertex 0, 2.5, 15
+vertex -2.5, 4.5, 15
+vertex -5, 2.5, 15
+face2 2,1,0
+[Texture]
+Load budj2_gora.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex 0, 2.5, 0
+vertex -2.5, 4.5, 0
+vertex -5, 2.5, 0
+face2 0,1,2
+[Texture]
+Load budj2_gora.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Transparent 0,0,255
+;------------DACH-------------
+[meshbuilder]
+vertex 0, 2.5, -0.5
+vertex -2.5, 4.5, -0.5
+vertex -2.5, 4.5, 15.5
+vertex 0, 2.5, 15.5
+face2 3,2,1,0
+[Texture]
+Load budj2_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255
+[meshbuilder]
+vertex -5, 2.5, -0.5
+vertex -2.5, 4.5, -0.5
+vertex -2.5, 4.5, 15.5
+vertex -5, 2.5, 15.5
+face2 0,1,2,3
+[Texture]
+Load budj2_dach.png
+Coordinates 0, 1, 1
+Coordinates 1, 1, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Transparent 0,0,255

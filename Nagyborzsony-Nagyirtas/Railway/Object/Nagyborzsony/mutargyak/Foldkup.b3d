@@ -1,0 +1,235 @@
+;--- INITRND:176185511
+[MeshBuilder]
+Vertex -3, -0.6, 0
+Vertex -3, -0.6, 5
+Vertex 3, -0.6, 0
+Vertex 3, -0.6, 5
+Vertex -1.5, 1.2, 1.5
+Vertex -1.5, 1.2, 3.5
+Vertex 1.5, 1.2, 1.5
+Vertex 1.5, 1.2, 3.5
+Vertex 0, -0.6, 0
+Vertex 0, -0.6, 5
+Vertex 3, -0.6, 2.5
+Vertex -3, -0.6, 2.5
+Face 0,11,4
+Face 11,1,5
+Face 11,5,4
+Face 0,4,8
+Face 1,9,5
+Face 4,6,8
+Face 4,5,7
+Face 4,7,6
+Face 5,9,7
+Face 8,6,2
+Face 9,3,7
+Face 6,7,10
+Face 6,10,2
+Face 7,3,10
+[Texture]
+Load ..\alap\bmp\Fu1.BMP
+Coordinates 0, -1.1472, 1.9326
+Coordinates 1, -2.7578, -1.8915
+Coordinates 2, 1.1472, -1.9326
+Coordinates 3, -0.4632, -5.7568
+Coordinates 4, -1.0567, -0.1809
+Coordinates 5, -1.701, -1.7106
+Coordinates 6, 0.0904, -2.1135
+Coordinates 7, -0.5537, -3.6432
+Coordinates 8, 0, 0
+Coordinates 9, -1.6105, -3.8242
+Coordinates 10, 0.3419, -3.8447
+Coordinates 11, -1.9525, 0.0205
+Color 120,120,120
+[MeshBuilder]
+Vertex -0.5007, 1.8932, 0.5007
+Vertex 0.5007, 1.8932, 0.5007
+Vertex 0.5007, 1.8932, -0.5007
+Vertex -0.5007, 1.8932, -0.5007
+Vertex -0.5007, 0, 0.5007
+Vertex 0.5007, 0, 0.5007
+Vertex 0.5007, 0, -0.5007
+Vertex -0.5007, 0, -0.5007
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -1.0479, -0.5459, 4.5383
+[Texture]
+Load ..\Novenyek\cgtext\Branches0018_1_S.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 85,159,59
+Color 251, 251, 251
+[MeshBuilder]
+Vertex -1.1965, 3.3843, 1.1965
+Vertex 1.1965, 3.3843, 1.1965
+Vertex 1.1965, 3.3843, -1.1965
+Vertex -1.1965, 3.3843, -1.1965
+Vertex -1.1965, 0, 1.1965
+Vertex 1.1965, 0, 1.1965
+Vertex 1.1965, 0, -1.1965
+Vertex -1.1965, 0, -1.1965
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -1.9919, 0.1096, 2.7032
+[Texture]
+Load ..\Novenyek\bmp\BOZOT2.BMP
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 168, 168, 168
+[MeshBuilder]
+Vertex -1.1984, 3.3897, 1.1984
+Vertex 1.1984, 3.3897, 1.1984
+Vertex 1.1984, 3.3897, -1.1984
+Vertex -1.1984, 3.3897, -1.1984
+Vertex -1.1984, 0, 1.1984
+Vertex 1.1984, 0, 1.1984
+Vertex 1.1984, 0, -1.1984
+Vertex -1.1984, 0, -1.1984
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -0.7602, -0.5422, 4.5352
+[Texture]
+Load ..\Novenyek\Kilmagranny\bushGP1.png
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,0
+Color 208, 208, 208
+[MeshBuilder]
+Vertex -0.4687, 2.5377, 0.4687
+Vertex 0.4687, 2.5377, 0.4687
+Vertex 0.4687, 2.5377, -0.4687
+Vertex -0.4687, 2.5377, -0.4687
+Vertex -0.4687, 0, 0.4687
+Vertex 0.4687, 0, 0.4687
+Vertex 0.4687, 0, -0.4687
+Vertex -0.4687, 0, -0.4687
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -2.6166, -0.64, 3.4406
+[Texture]
+Load ..\Novenyek\cgtext\Branches0019_1_S.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 85,159,59
+Color 159, 159, 159
+[MeshBuilder]
+Vertex -0.5302, 2.0048, 0.5302
+Vertex 0.5302, 2.0048, 0.5302
+Vertex 0.5302, 2.0048, -0.5302
+Vertex -0.5302, 2.0048, -0.5302
+Vertex -0.5302, 0, 0.5302
+Vertex 0.5302, 0, 0.5302
+Vertex 0.5302, 0, -0.5302
+Vertex -0.5302, 0, -0.5302
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 0.0186, 0.7, 2.2895
+[Texture]
+Load ..\Novenyek\cgtext\Branches0018_1_S.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 85,159,59
+Color 193, 193, 193
+[MeshBuilder]
+Vertex -1.0826, 3.062, 1.0826
+Vertex 1.0826, 3.062, 1.0826
+Vertex 1.0826, 3.062, -1.0826
+Vertex -1.0826, 3.062, -1.0826
+Vertex -1.0826, 0, 1.0826
+Vertex 1.0826, 0, 1.0826
+Vertex 1.0826, 0, -1.0826
+Vertex -1.0826, 0, -1.0826
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -0.5866, -0.5069, 0.4942
+[Texture]
+Load ..\Novenyek\bmp\BOZOT4.BMP
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 185, 185, 185
+[MeshBuilder]
+Vertex -0.9132, 2.5829, 0.9132
+Vertex 0.9132, 2.5829, 0.9132
+Vertex 0.9132, 2.5829, -0.9132
+Vertex -0.9132, 2.5829, -0.9132
+Vertex -0.9132, 0, 0.9132
+Vertex 0.9132, 0, 0.9132
+Vertex 0.9132, 0, -0.9132
+Vertex -0.9132, 0, -0.9132
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate 2.2478, -0.1974, 2.0881
+[Texture]
+Load ..\Novenyek\bmp\BOZOT2.BMP
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 0,0,255
+Color 240, 240, 240
+[MeshBuilder]
+Vertex -0.6194, 3.0306, 0.6194
+Vertex 0.6194, 3.0306, 0.6194
+Vertex 0.6194, 3.0306, -0.6194
+Vertex -0.6194, 3.0306, -0.6194
+Vertex -0.6194, 0, 0.6194
+Vertex 0.6194, 0, 0.6194
+Vertex 0.6194, 0, -0.6194
+Vertex -0.6194, 0, -0.6194
+Face2 0,2,6,4
+Face2 3,1,5,7
+Translate -2.4205, -0.4046, 3.8928
+[Texture]
+Load ..\Novenyek\cgtext\Branches0038_1_S.bmp
+Coordinates 0, 0, 0
+Coordinates 3, 0, 0
+Coordinates 2, 1, 0
+Coordinates 1, 1, 0
+Coordinates 6, 1, 1
+Coordinates 5, 1, 1
+Coordinates 4, 0, 1
+Coordinates 7, 0, 1
+Transparent 85,159,59
+Color 240, 240, 240

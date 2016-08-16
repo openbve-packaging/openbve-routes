@@ -1,0 +1,123 @@
+;lato sinistro
+[MeshBuilder]
+Vertex -1.3,0,25
+Vertex -1.3,3.0,25
+Vertex -1.3,3.0,-0.48
+Vertex -1.3,0,-0.48
+Face 2,3,0,1
+[Texture]
+Load vagone3-1d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex -1.3,2.8,  25
+Vertex -1.1,4.0,  25
+Vertex -1.1,4.0, -0.47
+Vertex -1.3,2.8, -0.47
+Face 2,3,0,1
+[Texture]
+Load vagone3-2d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex -1.1,4.0,  25
+Vertex -0.5,4.5,25
+Vertex -0.5,4.5,-0.47
+Vertex -1.1,4.0,  -0.47
+Face 2,3,0,1
+[Texture]
+Load vagone3-3d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+
+;lato destro 
+[MeshBuilder]
+Vertex 1.3,0,25
+Vertex 1.3,3.0,25
+Vertex 1.3,3.0,-0.48
+Vertex 1.3,0,-0.48
+Face 1,0,3,2
+[Texture]
+Load vagone3-1d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex 1.3,2.8,  25
+Vertex 1.1,4.0,25
+Vertex 1.1,4.0,-0.47
+Vertex 1.3,2.8,  -0.47
+Face 1,0,3,2
+[Texture]
+Load vagone3-2d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+[MeshBuilder]
+Vertex 1.1,4.0,  25
+Vertex 0.5,4.5,25
+Vertex 0.5,4.5,-0.47
+Vertex 1.1,4.0,  -0.47
+Face 1,0,3,2
+[Texture]
+Load vagone3-3d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+
+;davanti
+[MeshBuilder]
+Vertex -1.3,0,-0.3
+Vertex -1.3,3.45,-0.3
+Vertex  1.3,3.45,-0.3
+Vertex  1.3,0,-0.3
+Face 0,1,2,3
+[Texture]
+Load davantivag3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+
+
+;fronte tetto
+[MeshBuilder]
+Vertex -1.3,3.4 ,-0.3
+Vertex -1.1,4.0  ,-0.3
+Vertex  1.1,4.0  ,-0.3
+Vertex  1.3,3.4  ,-0.3
+Face 1,2,3,0
+color 50,50,50
+[MeshBuilder]
+Vertex -1.1  ,4.0,-0.3
+Vertex -0.5,4.5  ,-0.3
+Vertex  0.5,4.5  ,-0.3
+Vertex  1.1  ,4.0,-0.3
+Face 1,2,3,0
+color 50,50,50
+[MeshBuilder]
+Vertex -0.5, 4.50  ,25
+Vertex -0.5, 4.50  ,-0.3
+Vertex  0.5, 4.50  ,-0.3
+Vertex  0.5, 4.50  ,25
+Face 0,3,2,1
+color 50,50,50

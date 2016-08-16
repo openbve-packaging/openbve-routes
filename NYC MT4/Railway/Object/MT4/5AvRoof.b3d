@@ -1,0 +1,436 @@
+; Arched Ceiling  ;  (Arches From Right to Left)
+;
+;*****************************************************************
+
+; RIGHT SIDE
+
+;*****************************************************************
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex 2.5, 0.08, 0
+Vertex 2.5,-0.50, 0
+Vertex 2.5,-0.50, 25
+Vertex 2.5, 0.08, 25
+
+Face 0,1,2,3
+
+Color 115,115,115
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex 2.5,-0.50, 0
+Vertex 0.0,-0.50, 0
+Vertex 0.0,-0.50, 25
+Vertex 2.5,-0.50, 25
+
+Face 0,1,2,3
+
+Color 64,64,64
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   2.30, 2.00, 0
+Vertex   2.50, 0.08, 0
+Vertex   2.50, 0.08, 25
+Vertex   2.30, 2.00, 25
+
+Face 0,1,2,3
+Color 64,64,64
+; No clearance sign
+[MeshBuilder]
+
+Vertex   2.42, 0.75, 0
+Vertex   2.367, 1.25, 0
+Vertex   2.367, 1.25, 25
+Vertex   2.42, 0.75, 25
+
+Face 3,2,1,0
+
+
+[Texture]
+load nc.bmp
+
+Coordinates 0,-60,0
+Coordinates 1,-60, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+;--------------------------------------------
+;5 Av/53 St Sign
+[MeshBuilder]
+
+Vertex   1.94, 2.875, 2.5
+Vertex   2.04, 2.625, 2.5
+Vertex   2.04, 2.625, 3.5
+Vertex   1.94, 2.875, 3.5
+
+Face 0,1,2,3
+
+[texture]
+load 5-53.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+;5 Av/53 St Sign
+[MeshBuilder]
+
+Vertex   1.94, 2.875, 8.5
+Vertex   2.04, 2.625, 8.5
+Vertex   2.04, 2.625, 9.5
+Vertex   1.94, 2.875, 9.5
+
+Face 0,1,2,3
+
+
+[texture]
+load 5-53.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+[MeshBuilder]
+
+Vertex   1.94, 2.875, 14.5
+Vertex   2.04, 2.625, 14.5
+Vertex   2.04, 2.625, 15.5
+Vertex   1.94, 2.875, 15.5
+
+
+Face 0,1,2,3
+
+
+[texture]
+load 5-53.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+;5 Av/53 St Sign
+[MeshBuilder]
+
+Vertex   1.94, 2.875, 20.5
+Vertex   2.04, 2.625, 20.5
+Vertex   2.04, 2.625, 21.5
+Vertex   1.94, 2.875, 21.5
+
+
+Face 0,1,2,3
+
+
+[texture]
+load 5-53.bmp
+
+Coordinates 0,1,0
+Coordinates 1,1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   1.90, 3.00, 0
+Vertex   2.30, 2.00, 0
+Vertex   2.30, 2.00, 25
+Vertex   1.90, 3.00, 25
+
+Face 0,1,2,3
+
+Color 64,64,64
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex   1.30, 4.00, 0
+Vertex   1.90, 3.00, 0
+Vertex   1.90, 3.00, 25
+Vertex   1.30, 4.00, 25
+
+Face 0,1,2,3
+
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 11.6
+Coordinates 1, 1, 33
+Coordinates 2, 0, 33
+Coordinates 3, 0, 11.6
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex    0.10, 5.20, 0
+Vertex    1.30, 4.00, 0
+Vertex    1.30, 4.00, 25
+Vertex    0.10, 5.20, 25
+
+Face 0,1,2,3
+
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 11.6
+Coordinates 1, 1, 33
+Coordinates 2, 0, 33
+Coordinates 3, 0, 11.6
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex  -0.50, 5.60, 0
+Vertex   0.10, 5.20, 0
+Vertex   0.10, 5.20, 25
+Vertex  -0.50, 5.60, 25
+
+Face 0,1,2,3
+
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 33
+Coordinates 1, 1, 40
+Coordinates 2, 0, 40
+Coordinates 3, 0, 33
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex  -0.90, 5.80, 0
+Vertex  -0.50, 5.60, 0
+Vertex  -0.50, 5.60, 25
+Vertex  -0.90, 5.80, 25
+
+Face 0,1,2,3
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 5
+Coordinates 2, 0, 5
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex  -1.30, 6.00, 0
+Vertex  -0.90, 5.80, 0
+Vertex  -0.90, 5.80, 25
+Vertex  -1.30, 6.00, 25
+
+Face 0,1,2,3
+
+[Texture]
+load jvwRoof.bmp
+
+Coordinates 0, 1, 5
+Coordinates 1, 1, 10
+Coordinates 2, 0, 10
+Coordinates 3, 0, 5
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex  -1.90, 6.20, 0
+Vertex  -1.30, 6.00, 0
+Vertex  -1.30, 6.00, 25
+Vertex  -1.90, 6.20, 25
+
+Face 0,1,2,3
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 6.3
+Coordinates 2, 0, 6.3
+Coordinates 3, 0, 0
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex  -3.10, 6.20, 0
+Vertex  -1.90, 6.20, 0
+Vertex  -1.90, 6.20, 25
+Vertex  -3.10, 6.20, 25
+
+Face 0,1,2,3
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 6.3
+Coordinates 1, 1, 18.5
+Coordinates 2, 0, 18.5
+Coordinates 3, 0, 6.3
+
+
+;--------------------------------------------
+
+;*****************************************************************
+
+; LEFT SIDE
+
+;*****************************************************************
+
+
+[MeshBuilder]
+
+Vertex  -3.30, 6.20, 0
+Vertex  -3.10, 6.20, 0
+Vertex  -3.10, 6.20, 25
+Vertex  -3.30, 6.20, 25
+
+Face 0,1,2,3
+
+Color 255,255,255
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 2
+Coordinates 2, 0, 2
+Coordinates 3, 0, 0
+
+;||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+;
+; LEFT SIDE
+;
+;||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+;--------------------------------------------
+
+
+[MeshBuilder]
+
+Vertex   -5.30, 5.20, 0
+Vertex   -6.50, 4.00, 0
+Vertex   -6.50, 4.00, 25
+Vertex   -5.30, 5.20, 25
+
+Face 3,2,1,0
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 7.2
+Coordinates 1, 1, 24.2
+Coordinates 2, 0, 24.2
+Coordinates 3, 0, 7.2
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex  -4.70, 5.60, 0
+Vertex  -5.30, 5.20, 0
+Vertex  -5.30, 5.20, 25
+Vertex  -4.70, 5.60, 25
+
+Face 3,2,1,0
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 0
+Coordinates 1, 1, 7.2
+Coordinates 2, 0, 7.2
+Coordinates 3, 0, 0
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex  -4.30, 5.80, 0
+Vertex  -4.70, 5.60, 0
+Vertex  -4.70, 5.60, 25
+Vertex  -4.30, 5.80, 25
+
+Face 3,2,1,0
+
+[Texture]
+LOAD jvwroof.bmp
+
+Coordinates 0, 1, 50.5
+Coordinates 1, 1, 55
+Coordinates 2, 0, 55
+Coordinates 3, 0, 50.5
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex  -3.90, 6.00, 0
+Vertex  -4.30, 5.80, 0
+Vertex  -4.30, 5.80, 25
+Vertex  -3.90, 6.00, 25
+
+Face 3,2,1,0
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 46.1
+Coordinates 1, 1, 50.5
+Coordinates 2, 0, 50.5
+Coordinates 3, 0, 46.1
+
+
+;--------------------------------------------
+
+[MeshBuilder]
+
+Vertex  -3.30, 6.20, 0
+Vertex  -3.90, 6.00, 0
+Vertex  -3.90, 6.00, 25
+Vertex  -3.30, 6.20, 25
+
+Face 3,2,1,0
+
+[Texture]
+load jvwroof.bmp
+
+Coordinates 0, 1, 40.8
+Coordinates 1, 1, 46.1
+Coordinates 2, 0, 46.1
+Coordinates 3, 0, 40.8
+
+
+

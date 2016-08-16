@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,-1.0, 2.2, 0
+AddVertex, 1.9, 2.2, 1.5
+AddVertex, 1.9,-0.4, 1.5
+AddVertex,-1.0,-0.4, 0
+ADdFace,0,1,2,3
+LoadTexture,Truck_A.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+SetDecalTransparentColor,0,0,255,

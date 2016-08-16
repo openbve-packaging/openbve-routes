@@ -1,0 +1,67 @@
+;mélyalagút fal a jobb oldalon
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;alagút
+[meshbuilder]
+Vertex -0.020, 4.200,-0.3
+Vertex 0.647, 4.115,-0.3
+Vertex 1.250, 3.865,-0.3
+Vertex 1.768, 3.468,-0.3
+Vertex 2.165, 2.950,-0.3
+Vertex 2.415, 2.347,-0.3
+Vertex 2.500, 1.700,-0.3
+Vertex 2.415, 1.053,-0.3
+Vertex 2.165, 0.450,-0.3
+Vertex 1.768,-0.068,-0.3
+Vertex 1.250,-0.665,-0.3
+;
+Vertex -0.020, 4.200,10
+Vertex 0.647, 4.115,10
+Vertex 1.250, 3.865,10
+Vertex 1.768, 3.468,10
+Vertex 2.165, 2.950,10
+Vertex 2.415, 2.347,10
+Vertex 2.500, 1.700,10
+Vertex 2.415, 1.053,10
+Vertex 2.165, 0.450,10
+Vertex 1.768,-0.068,10
+Vertex 1.250,-0.665,10
+;
+Face 00,01,12,11
+Face 01,02,13,12
+Face 02,03,14,13
+Face 03,04,15,14
+Face 04,05,16,15
+Face 05,06,17,16
+Face 06,07,18,17
+Face 07,08,19,18
+Face 08,09,20,19
+Face 09,10,21,20
+;
+[texture]
+load fal_keret_01.bmp
+coordinates 00,0,0.000
+coordinates 01,0,0.050
+coordinates 02,0,0.100
+coordinates 03,0,0.150
+coordinates 04,0,0.257
+coordinates 05,0,0.380
+coordinates 06,0,0.514
+coordinates 07,0,0.646
+coordinates 08,0,0.770
+coordinates 09,0,0.877
+coordinates 10,0,1.000
+;
+coordinates 11,2,0.000
+coordinates 12,2,0.050
+coordinates 13,2,0.100
+coordinates 14,2,0.150
+coordinates 15,2,0.257
+coordinates 16,2,0.380
+coordinates 17,2,0.514
+coordinates 18,2,0.646
+coordinates 19,2,0.770
+coordinates 20,2,0.877
+coordinates 21,2,1.000

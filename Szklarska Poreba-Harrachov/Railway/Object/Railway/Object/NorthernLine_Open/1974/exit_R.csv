@@ -1,0 +1,16 @@
+CreateMeshBuilder,
+AddVertex,1.6, 6.0, 10,
+AddVertex,4.6, 6.0, 10,
+AddVertex,4.6, 3, 10,
+AddVertex,1.6, 3, 10,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,exit_r.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+
+

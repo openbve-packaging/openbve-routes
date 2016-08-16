@@ -1,0 +1,218 @@
+;(C) Joao Carlos Goncalves, Dezembro de 2003
+;Please seek permission to use this file on your own route
+;http://joaocg.topcities.com
+;Description: EFCJ's Main Depots and Workshop Facilities at 
+;Pindamonhangaba, State of Sao Paulo.
+
+;;;;;=======================building n. 02=======================
+;;;front wall
+[MeshBuilder]
+Vertex -25, 3.0, -20
+Vertex -17.5, 6.0, -20
+Vertex  -10, 3.0, -20
+Vertex  -10, -2.9, -20
+Vertex -25, -2.9, -20
+Face 0,1,2
+Face 0,2,3,4
+[Texture]
+Load depot103frB.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 0.5, 0
+Coordinates 2, 1, 0.31
+Coordinates 3, 1, 1
+Coordinates 4, 0, 1
+Transparent 0,0,0
+
+;right wall
+[MeshBuilder]
+Vertex -10,  3.0, -20
+Vertex -10,  3.0,  20
+Vertex -10, -2.8,  20
+Vertex -10, -2.8, -20
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load depot103side.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 1, 0.31
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;left wall
+[MeshBuilder]
+Vertex -25, 3,   20
+Vertex -25, 3,  -20
+Vertex -25, -2.8, -20
+Vertex -25, -2.8,  20
+Face 3,2,1,0
+Face 0,1,2,3
+[Texture]
+Load depot103side.bmp
+Coordinates 0, 0, 0.31
+Coordinates 1, 1, 0.31
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,0
+
+;back wall
+[MeshBuilder]
+Vertex -25, 3,  19.9
+Vertex -17.5, 6,  19.9
+Vertex -10, 3, 19.9
+Vertex -10, -2.9, 19.9
+Vertex -25, -2.9,  19.9
+Face 0,1,2
+Face 0,2,3,4
+Face 2,1,0
+Face 4,3,2,0
+color 64,64,64
+
+
+;;===2nd roof center
+[MeshBuilder]
+Vertex -25.5, 2.82, 21
+Vertex -17.5,  6.0,  21
+Vertex -10, 3.01,  21
+Vertex -10, 3.01, -21
+Vertex -17.5,  6.0,  -21
+Vertex -25.5, 2.82,-21
+Face 0,1,4,5
+Face 1,2,3,4
+Face 4,3,2,1
+Face 5,4,1,0
+Color 130,140,150
+[Texture]
+Load Roof_french.bmp
+Coordinates 0, 0, 3
+Coordinates 1, 0, 0
+Coordinates 2, 0, 3
+Coordinates 3, 10, 3
+Coordinates 4, 10, 0
+Coordinates 5, 10, 3
+
+
+;;;=======little upper roof 02=====
+;little front wall
+[MeshBuilder]
+Vertex -20.1, 6.8,  -19.5
+Vertex -17.4, 8.05,  -19.5    ;;peak
+
+Vertex -14.9, 6.8,  -19.5
+Vertex -14.9,  4.50, -19.5
+
+Vertex -20.1,  4.50, -19.5
+Face 0,1,2,3,4
+Face 4,3,2,1,0
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.3
+Coordinates 1, 0.1, 0
+Coordinates 2, 0.2, 0.3
+Coordinates 3, 0.2, 1
+Coordinates 4, 0, 1
+
+;little back wall
+[MeshBuilder]
+Vertex -20.1, 6.8,  -1.5
+Vertex -17.4, 8.05,  -1.5    ;;peak
+
+Vertex -14.9, 6.8,  -1.5
+Vertex -14.9,  4.50, -1.5
+
+Vertex -20.1,  4.50, -1.5
+Face 0,1,2,3,4
+Face 4,3,2,1,0
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0, 0.3
+Coordinates 1, 0.1, 0
+Coordinates 2, 0.2, 0.3
+Coordinates 3, 0.2, 1
+Coordinates 4, 0, 1
+
+;;little right wall
+[MeshBuilder]
+Vertex -14.90, 4.75, -19.5        
+Vertex -14.90, 4.75,  -1.5
+Vertex -14.90, 6.90,  -1.5
+Vertex -14.90, 6.90, -19.5
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0.2, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0.2, 1
+
+;;little left wall
+[MeshBuilder]
+Vertex -20.1, 4.75, -19.5        
+Vertex -20.1, 4.75,  -1.5
+Vertex -20.1, 6.90,  -1.5
+Vertex -20.1, 6.90, -19.5
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0.2, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0.2, 1
+
+[MeshBuilder]
+Vertex -14.90, 4.75, -19.5        
+Vertex -14.90, 4.75,  -1.5
+Vertex -14.90, 6.90,  -1.5
+Vertex -14.90, 6.90, -19.5
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load brick03.bmp
+Coordinates 0, 0.2, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0.2, 1
+
+;;little roof right
+[MeshBuilder]
+Vertex -17.50, 8.05, -20.1
+Vertex -17.50, 8.05,    0
+Vertex -13.90, 6.47,    0
+Vertex -13.90, 6.47, -20.1
+Face2 0,1,2,3
+Color 150,150,150
+[Texture]
+Load roof_french.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+;;little roof left
+[MeshBuilder]
+Vertex -17.5, 8.05, -20.1
+Vertex -17.5, 8.05,   0
+Vertex -20.7, 6.57,   0
+Vertex -20.7, 6.57, -20.1
+Face2 3,2,1,0
+Color 150,150,150
+[Texture]
+Load roof_french.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 2
+Coordinates 3, 0, 2
+
+;;=====ground or shade
+[MeshBuilder]
+Vertex -25.10,-2.8, -20   
+Vertex  -10,  -2.8, -20    
+Vertex  -10,  -2.8,  21
+Vertex -25.10,-2.8,  21    
+Face 3,2,1,0
+Face 0,1,2,3
+Color 50,60,70
+
+

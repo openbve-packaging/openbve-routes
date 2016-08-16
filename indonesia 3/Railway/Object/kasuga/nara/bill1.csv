@@ -1,0 +1,21 @@
+CreateMeshBuilder 
+AddVertex, 0, 22,20 
+AddVertex, 0, 0 ,20 
+AddVertex, 0,  0,0
+AddVertex, 0,22 ,0
+AddVertex, 20,0,0
+AddVertex, 20,22,0
+AddFace ,3,2,1,0
+AddFace,5,4,2,3
+
+Generatenormals 
+LoadTexture, k_bill.bmp 
+SetTextureCoordinates, 2, 0, 6 
+SetTextureCoordinates, 3, 0, 0 
+SetTextureCoordinates, 0, -4, 0 
+SetTextureCoordinates, 1, -4, 6 
+
+SetTextureCoordinates, 4, 2, 6
+SetTextureCoordinates, 5, 2, 0 
+Setcolor,250,165,107
+  

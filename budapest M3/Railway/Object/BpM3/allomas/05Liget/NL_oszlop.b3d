@@ -1,0 +1,23 @@
+;Népliget - Nagyvárad tér oszlopok
+;Készítette: http://bvemetro.hu/
+
+;--------------------------------------------------
+
+[MeshBuilder]
+cube 0.25,2.2,0.25
+translate -3.0,1.9,0
+color 20,20,20
+
+;vasbeton pályalemez
+[meshbuilder]
+vertex -3.5,-00.17,-5
+vertex -1.0,-00.17,-5
+vertex -1.0,-00.17,5
+vertex -3.5,-00.17,5
+face 3,2,1,0
+[texture]
+load ../../sin/aljzat_151.bmp
+coordinates 0, 0.0, 1
+coordinates 1, 0.3, 1
+coordinates 2, 0.3, 0
+coordinates 3, 0.0, 0

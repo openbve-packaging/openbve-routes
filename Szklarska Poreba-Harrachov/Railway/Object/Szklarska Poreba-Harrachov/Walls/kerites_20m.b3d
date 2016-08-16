@@ -1,0 +1,77 @@
+;
+; Megnevezés : Drótkerítés 20 m
+; 
+; Modell     : Krisz
+; 
+; Textúrák   : Krisz
+;
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,0
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,2
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,4
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,6
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,8
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,10
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,12
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,14
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,16
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,18
+
+[MeshBuilder]
+Cylinder 32,0.05,0.05,1.5
+Color 127,127,127
+Translate 0,0.8,20
+
+[MeshBuilder]
+Vertex 0,1.4,0
+Vertex 0,1.4,20
+Vertex 0,0,20
+Vertex 0,0,0
+Face2 0,1,2,3
+
+[Texture]
+Load kerites.bmp
+Coordinates 0,0,0
+Coordinates 1,26,0
+Coordinates 2,26,2.5
+Coordinates 3,0,2.5
+Transparent 0,0,255

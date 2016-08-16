@@ -1,0 +1,44 @@
+CreateMeshBuilder
+AddVertex, -3.3, -1.4, 0
+AddVertex, -3.3, 6.4, 0
+AddVertex, -3, 6.4, 0
+AddVertex, -3, -1.4, 0
+AddFace, 0, 1, 2, 3
+LoadTexture,oosaka_pole_l.bmp
+GenerateNormals,,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+Setcolor,150,150,150
+
+CreateMeshBuilder
+AddVertex, 6.8, -1.4, 0
+AddVertex, 6.8, 6.4, 0
+AddVertex, 7.1, 6.4, 0
+AddVertex, 7.1, -1.4, 0
+AddFace, 0,1,2,3
+LoadTexture,oosaka_pole_r.bmp
+GenerateNormals,,,,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,0,1,1,
+Setcolor,150,150,150
+
+CreateMeshBuilder
+AddVertex, -3, 5.6, 0
+AddVertex, -3, 7.4, 0
+AddVertex, 6.8, 7.4, 0
+AddVertex, 6.8,5.6, 0
+AddFace, 0, 1, 2, 3
+GenerateNormals,,,,
+LoadTexture,oosaka_pole1.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+Translate,,-1.2
+GenerateNormals,,,,
+Setcolor,150,150,150

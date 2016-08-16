@@ -1,0 +1,71 @@
+CreateMeshBuilder,,;//ëTanda crossingî,,
+AddVertex,-1.4,4,-19.5,
+AddVertex,-0.3,4,-19.5,
+AddVertex,-0.3,4.8,-19.5,
+AddVertex,-1.4,4.8,-19.5,
+AddFace2,3,2,1,0
+LoadTexture,crossing.bmp,,,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetDecalTransparentColor,0,0,255,
+
+
+
+;----- Tiang -----,,,,
+;------ë‰é‘(ëOÅj------,,,,
+CreateMeshBuilder,,;//é‘ó÷ç∂ëO,,
+Cylinder,666,0.1,0.1,3.8
+SetColor,255,255,0,
+Rotate,0,1,0,90
+Translate ,-0.83,2.9,-19.4,
+
+
+CreateMeshBuilder,,;//ë‰é‘,,
+Cube,0.4,0.4,0.3,
+SetColor,0,0,0,
+Translate,-1,2,-18,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ëPalang Pintuî,,
+AddVertex,7,1.7,-18.4,
+AddVertex,-2,1.7,-18.4,
+AddVertex,-2,2.3,-18.4,
+AddVertex,7,2.3,-18.4,
+AddFace2,3,2,1,0
+LoadTexture,palang.bmp,,,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,,;//ë‰é‘,,
+Cube,0.2,0.3,0.2,
+SetColor,0,0,0,
+Translate,-1,1.3,-18,
+GenerateNormals,,,,
+
+
+;------ë‰é‘(ëOÅj------,,,,
+CreateMeshBuilder,,;//é‘ó÷ç∂ëO,,
+Cylinder,666,0.1,0.1,0.5
+SetColor,0,0,0,
+Rotate,1,0,0,90
+Translate ,-0.88,2,-18.2,
+
+
+CreateMeshBuilder,,;//ëLampu palangî,,
+AddVertex,-1.9,2.7,-19.5,
+AddVertex,0.25,2.7,-19.5,
+AddVertex,0.25,3.5,-19.5,
+AddVertex,-1.9,3.5,-19.5,
+AddFace2,3,2,1,0
+LoadTexture,Lampu-palang.bmp,,,
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetDecalTransparentColor,0,0,255,

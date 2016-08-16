@@ -1,0 +1,72 @@
+;Scaled with BVE File Converter
+;Converted from B3D by BVE FILE CONVERTER
+ 
+CreateMeshBuilder,
+Cylinder,  8 ,  0.25 ,  0.2 ,  0.5 ,
+LoadTexture,  lamp.bmp,
+SetTextureCoordinates,  0,0,0,
+SetTextureCoordinates,  1,0,1,
+SetTextureCoordinates,  2,.125,0,
+SetTextureCoordinates,  3,.125,1,
+SetTextureCoordinates,  4,.25,0,
+SetTextureCoordinates,  5,.25,1,
+SetTextureCoordinates,  6,.375,0,
+SetTextureCoordinates,  7,.375,1,
+SetTextureCoordinates,  8,.5,0,
+SetTextureCoordinates,  9,.5,1,
+SetTextureCoordinates,  10,.625,0,
+SetTextureCoordinates,  11,.625,1,
+SetTextureCoordinates,  12,.75,0,
+SetTextureCoordinates,  13,.75,1,
+SetTextureCoordinates,  14,.875,0,
+SetTextureCoordinates,  15,.875,1,
+SetDecalTransparentColor,    0,0,255,
+Rotate, 0,1,0,-50,
+Translate,0,3.5,0,
+
+CreateMeshBuilder,
+Cylinder,  8 ,  0.04 ,  0.25 ,  0.1 ,
+SetColor,  40,40,40,
+Translate,  0 ,  3.8,  0 ,
+
+CreateMeshBuilder,
+Cylinder,  8 ,  0.005 ,  0.04 ,  0.12 ,
+SetColor,  40,40,40,
+Translate,  0 ,  3.87,  0 ,
+
+CreateMeshBuilder,
+Cylinder,  8 ,  0.225 ,  0.18 ,  0.5 ,
+SetColor,250,250,80,150,
+Translate,0,3.5,0,
+
+CreateMeshBuilder,
+Cylinder,  12 ,  0.1 ,  0.1 ,  0.04 ,
+SetColor,  40,40,40,
+Translate,  0 , 3.23 ,  0 ,
+
+CreateMeshBuilder,
+Cylinder,  12 ,  0.15 ,  0.15 ,  0.025 ,
+SetColor,  40,40,40,
+Translate,  0 , 3.22 ,  0 ,
+
+CreateMeshBuilder,
+Cylinder,  6 ,  0.075 ,  0.075 ,  3,
+SetColor,  40,40,40,
+Translate,  0 , 1.725 ,  0 ,
+
+CreateMeshBuilder,
+Cylinder, 10,.075,.2,.5,
+SetColor, 40,40,40,
+Translate, 0,-.02,0  ,
+
+Createmeshbuilder,
+Cube, .4,.1,.4,
+Setcolor, 50,50,50,
+Translate, 0,-.35,0,
+
+CreateMeshBuilder,      ;;glow
+Cylinder, 12,.225,2,4,
+SetColor, 250,250,100,15,
+Translate, 0,1.74,0  ,
+
+

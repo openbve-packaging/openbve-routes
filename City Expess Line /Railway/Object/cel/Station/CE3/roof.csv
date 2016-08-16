@@ -1,0 +1,40 @@
+;Main Top Roof
+CreateMeshBuilder,
+AddVertex,22,6,150.1
+AddVertex,22,6,0,
+AddVertex,-18,6,0,
+AddVertex,-18,6,150.1,
+AddFace2, 0, 1, 2, 3,
+LoadTexture,glasspanel.jpg
+SetTextureCoordinates,0,75,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,75
+SetTextureCoordinates,3,75,75
+SetColor,255,0,0,200,
+;Right Roof
+CreateMeshBuilder,
+AddVertex,22,6,150.1,
+AddVertex,22,6,0,
+AddVertex,32,4,0,
+AddVertex,32,4,150.1,
+AddFace2, 0, 1, 2, 3,
+LoadTexture,glasspanel.jpg
+SetTextureCoordinates,0,75,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,75
+SetTextureCoordinates,3,75,75
+SetColor,255,0,0,200,
+;Left Roof
+CreateMeshBuilder,
+AddVertex,-18,6,150.1,
+AddVertex,-18,6,0,
+AddVertex,-28,4,0,
+AddVertex,-28,4,150.1,
+AddFace2, 0, 1, 2, 3,
+LoadTexture,glasspanel.jpg
+SetTextureCoordinates,0,75,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,75
+SetTextureCoordinates,3,75,75
+SetColor,255,0,0,200,
+

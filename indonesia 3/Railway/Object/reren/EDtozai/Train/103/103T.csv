@@ -1,0 +1,402 @@
+CreateMeshBuilder
+AddVertex,-1.21, 3.71,  0,
+AddVertex,-1.21, 3.71, -19.7,
+AddVertex,-1.41, 3.51,  0,
+AddVertex,-1.41, 3.51, -19.7,
+AddVertex,-1.41, 1.81,  0,
+AddVertex,-1.41, 1.81, -19.7,
+AddVertex,-1.41, 1.01,  0,
+AddVertex,-1.41, 1.01, -19.7,
+AddVertex,-1.41, 0.00,  0,
+AddVertex,-1.41, 0.00, -19.7,
+AddFace,4,5,7,6,
+AddFace,6,7,9,8,
+AddFace,0,1,3,2,
+AddFace,2,3,5,4,
+LoadTexture,103MSideA.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0.05,
+SetTextureCoordinates,3,1,0.05,
+SetTextureCoordinates,4,0,0.5,
+SetTextureCoordinates,5,1,0.5,
+SetTextureCoordinates,6,0,0.68,
+SetTextureCoordinates,7,1,0.68,
+SetTextureCoordinates,8,0,1,
+SetTextureCoordinates,9,1,1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,1.21,3.71,0,
+AddVertex,1.21,3.71,-19.7,
+AddVertex,1.41,3.51,0,
+AddVertex,1.41,3.51,-19.7,
+AddVertex,1.41,1.81,0,
+AddVertex,1.41,1.81,-19.7,
+AddVertex,1.41,1.01,0,
+AddVertex,1.41,1.01,-19.7,
+AddVertex,1.41,0.00,0,
+AddVertex,1.41,0.00,-19.7,
+AddFace,5,4,6,7,
+AddFace,7,6,8,9,
+AddFace,1,0,2,3,
+AddFace,3,2,4,5,
+LoadTexture,103MSideA.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0.05,
+SetTextureCoordinates,3,1,0.05,
+SetTextureCoordinates,4,0,0.5,
+SetTextureCoordinates,5,1,0.5,
+SetTextureCoordinates,6,0,0.68,
+SetTextureCoordinates,7,1,0.68,
+SetTextureCoordinates,8,0,1,
+SetTextureCoordinates,9,1,1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1.21,3.71,-19.7,
+AddVertex,-1.21,3.71,-20.0,
+AddVertex,-1.41,3.51,-19.7,
+AddVertex,-1.41,3.51,-20.0,
+AddVertex,-1.41,1.81,-19.7,
+AddVertex,-1.41,1.81,-20.0,
+AddVertex,-1.41,1.01,-19.7,
+AddVertex,-1.41,1.01,-20.0,
+AddVertex,-1.41,0.00,-19.7,
+AddVertex,-1.41,0.00,-20.0,
+AddFace,4,5,7,6,
+AddFace,6,7,9,8,
+AddFace,0,1,3,2,
+AddFace,2,3,5,4,
+LoadTexture,../Train_Pn.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0.05,
+SetTextureCoordinates,3,1,0.05,
+SetTextureCoordinates,4,0,0.5,
+SetTextureCoordinates,5,1,0.5,
+SetTextureCoordinates,6,0,0.68,
+SetTextureCoordinates,7,1,0.68,
+SetTextureCoordinates,8,0,1,
+SetTextureCoordinates,9,1,1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,1.21,3.71,-19.7,
+AddVertex,1.21,3.71,-20.0,
+AddVertex,1.41,3.51,-19.7,
+AddVertex,1.41,3.51,-20.0,
+AddVertex,1.41,1.81,-19.7,
+AddVertex,1.41,1.81,-20.0,
+AddVertex,1.41,1.01,-19.7,
+AddVertex,1.41,1.01,-20.0,
+AddVertex,1.41,0.00,-19.7,
+AddVertex,1.41,0.00,-20.0,
+AddFace,5,4,6,7,
+AddFace,7,6,8,9,
+AddFace,1,0,2,3,
+AddFace,3,2,4,5,
+LoadTexture,../Train_Pn.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0.05,
+SetTextureCoordinates,3,1,0.05,
+SetTextureCoordinates,4,0,0.5,
+SetTextureCoordinates,5,1,0.5,
+SetTextureCoordinates,6,0,0.68,
+SetTextureCoordinates,7,1,0.68,
+SetTextureCoordinates,8,0,1,
+SetTextureCoordinates,9,1,1,
+GenerateNormals,
+
+;屋根
+CreateMeshBuilder,
+AddVertex,-1.21, 3.71, 0
+AddVertex,-0.41, 3.795, 0
+AddVertex, 0.41, 3.795, 0
+AddVertex, 1.21, 3.71, 0
+AddVertex, 1.21, 3.71, -19.7
+AddVertex, 0.41, 3.795, -19.7
+AddVertex,-0.41, 3.795, -19.7
+AddVertex,-1.21, 3.71, -19.7
+AddFace,0,1,6,7,
+AddFace,1,2,5,6,
+AddFace,2,3,4,5,
+Setcolor,160,160,150
+LoadTexture,../TrainRoof.bmp
+SetTextureCoordinates,0,  0.0,0,
+SetTextureCoordinates,1,  0.3,0,
+SetTextureCoordinates,2,  0.7,0,
+SetTextureCoordinates,3,  1.0,0,
+SetTextureCoordinates,4,  1.0,2,
+SetTextureCoordinates,5,  0.7,2,
+SetTextureCoordinates,6,  0.3,2,
+SetTextureCoordinates,7,  0.0,2,
+GenerateNormals,
+
+;模擬クーラー
+CreateMeshBuilder,
+AddVertex,-0.54, 3.72, -12.3
+AddVertex,-0.45, 4.18, -12.2
+AddVertex, 0.45, 4.18, -12.2
+AddVertex, 0.54, 3.72, -12.3
+AddVertex, 0.54, 3.72, -9.1
+AddVertex, 0.45, 4.18, -9.2
+AddVertex,-0.45, 4.18, -9.2
+AddVertex,-0.54, 3.72, -9.1
+AddFace2,0,1,2,3
+AddFace2,0,1,6,7
+AddFace2,1,2,5,6
+AddFace2,2,3,4,5
+Setcolor,120,120,120
+GenerateNormals,
+
+;------下枠交差型パンタグラフ------,,,
+CreateMeshBuilder,,;//ベース,
+Cube,0.05,0.05,0.6
+SetColor,130,130,130
+Translate        ,0.53,3.85,-2.95
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベース,
+Cube,0.05,0.05,0.6
+SetColor,130,130,130
+Translate        ,-0.53,3.85,-2.95
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベース,
+Cube,0.072,0.02,0.6
+SetColor,130,130,130
+Translate        ,0,3.85,-2.95
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベース,
+Cube,0.58,0.02,0.05
+SetColor,130,130,130
+Translate        ,0,3.85,-2.3
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//ベース,
+Cube,0.58,0.02,0.05
+SetColor,130,130,130
+Translate        ,0,3.85,-3.6,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベース,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,45
+Translate        ,0.55,3.83,-3.64,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベース,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,315
+Translate        ,-0.55,3.83,-3.64,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベース,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,315
+Translate        ,0.55,3.83,-2.26,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//ベース,,
+Cube,0.12,0.02,0.05,
+SetColor,130,130,130,
+Rotate,0,1,0,45
+Translate        ,-0.55,3.83,-2.24,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子1,,
+Cylinder,8,0.08,0.08,0.26
+Translate        ,0.6,3.68,-3.68,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子2,,
+Cylinder,8,0.08,0.08,0.26
+Translate        ,-0.6,3.68,-3.68,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子3,,
+Cylinder,8,0.08,0.08,0.26
+Translate        ,0.6,3.68,-2.22,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//碍子4,,
+Cylinder,8,0.08,0.08,0.26
+Translate        ,-0.6,3.68,-2.22,
+SetColor,200,200,200,
+GenerateNormals,,,,
+
+
+CreateMeshBuilder,,;//左側アーム,,
+Cylinder,4,0.03,0.05,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,61
+Translate        ,0.44,4.2,-2.8,
+
+
+CreateMeshBuilder,,;//左側アーム,,
+Cylinder,6,0.03,0.03,0.9
+SetColor,120,120,120,
+Rotate,1,0,0,125
+Translate        ,0.44,4.82,-2.54,
+
+
+CreateMeshBuilder,,;//左側アーム,,
+Cylinder,4,0.05,0.03,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,119
+Translate        ,0.38,4.2,-3.1,
+
+
+CreateMeshBuilder,,;//左側アーム,,
+Cylinder,6,0.03,0.03,0.9
+SetColor,120,120,120,
+Rotate,1,0,0,55
+Translate        ,0.38,4.82,-3.36,
+
+
+CreateMeshBuilder,,;//右側アーム,,
+Cylinder,4,0.03,0.05,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,61
+Translate        ,-0.38,4.2,-2.8,
+
+
+CreateMeshBuilder,,;//右側アーム,,
+Cylinder,6,0.03,0.03,0.9
+SetColor,120,120,120,
+Rotate,1,0,0,125
+Translate        ,-0.38,4.82,-2.54,
+
+
+CreateMeshBuilder,,;//右側アーム,,
+Cylinder,4,0.05,0.03,1.5
+SetColor,120,120,120,
+Rotate,1,0,0,119
+Translate        ,-0.44,4.2,-3.1,
+
+
+CreateMeshBuilder,,;//右側アーム,,
+Cylinder,6,0.03,0.03,0.9
+SetColor,120,120,120,
+Rotate,1,0,0,55
+Translate        ,-0.44,4.82,-3.36,
+
+
+CreateMeshBuilder,,;//アーム横棒,,
+Cylinder,6,0.03,0.03,0.88
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate        ,0.03,4.55,-2.15,
+
+
+CreateMeshBuilder,,;//アーム,,
+Cylinder,6,0.02,0.02,1.1
+SetColor,120,120,120,
+Rotate,-1,0,1,62
+Translate        ,0.06,4.8,-2.5,
+
+
+CreateMeshBuilder,,;//アーム横棒,,
+Cylinder,6,0.03,0.03,0.88
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate        ,-0.03,4.55,-3.75,
+
+
+CreateMeshBuilder,,;//アーム,,
+Cylinder,6,0.02,0.02,1.1
+SetColor,120,120,120,
+Rotate,-1,0,1,116
+Translate        ,-0.06,4.8,-3.4,
+
+
+CreateMeshBuilder,,;//シャフト,,
+Cylinder,6,0.03,0.03,1
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate        ,0,3.87,-3.4,
+
+
+CreateMeshBuilder,,;//シャフト,,
+Cylinder,6,0.03,0.03,1
+SetColor,120,120,120,
+Rotate,0,0,1,90
+Translate        ,0,3.87,-2.5,
+
+
+CreateMeshBuilder,,;//集電部,
+Cube,0.6,0.03,0.05
+SetColor,90,90,90
+Translate        ,0,5.07,-3.03
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//集電部,
+Cube,0.6,0.03,0.05
+SetColor,90,90,90
+Translate        ,0,5.07,-2.87
+GenerateNormals,,,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,8,0.02,0.02,1.5
+SetColor,140,140,140,
+Rotate,0,0,1,90
+Translate        ,0,5.07,-3.03,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,8,0.02,0.02,1.5
+SetColor,140,140,140,
+Rotate,0,0,1,90
+Translate        ,0,5.07,-2.87,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,8,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,45
+Translate        ,0.85,4.97,-3.03,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,8,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,45
+Translate        ,0.85,4.97,-2.87,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,8,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,315
+Translate        ,-0.85,4.97,-3.03,
+
+
+CreateMeshBuilder,,;//集電部,,
+Cylinder,8,0.02,0.02,0.3
+SetColor,140,140,140,
+Rotate,0,0,1,315
+Translate        ,-0.85,4.97,-2.87,

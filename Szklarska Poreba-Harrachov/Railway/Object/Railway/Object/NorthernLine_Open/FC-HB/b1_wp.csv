@@ -1,0 +1,116 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshBuilder,
+AddVertex,15, 12, -10
+AddVertex,7.5, 20, -2.5
+AddVertex,0, 12,-10
+AddFace,2,1,0
+GenerateNormals
+LoadTexture,b1_wp3.png,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+CreateMeshBuilder
+Addvertex,0, 12, 5
+Addvertex,7.5, 20, -2.5
+Addvertex,0, 12, -10
+AddFace,0,1,2
+GenerateNormals
+LoadTexture,b1_wp3.png,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+CreateMeshbuilder,
+AddVertex,30, 12, -10
+AddVertex,0, 12, -10
+AddVertex,0, -0.6, -10
+AddVertex,30, -0.6, -10
+AddVertex,0, 12, 5
+AddVertex,0, -0.6, 5
+AddFace,3,2,1,0,
+AddFace,2,5,4,1
+GenerateNormals,
+LoadTexture,b1_wp1.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,3,0,
+SetTextureCoordinates,5,3,1,
+CreateMeshBuilder,;top bit
+AddVertex,21, 9, -10.2
+AddVertex,21, 16, -10.2
+AddVertex,26, 16, -10.2
+AddVertex,26, 9,-10.2
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,b1_wp2.png,
+SetTextureCoordinates,0,1,1
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,0,0
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+AddVertex,30, 12, -10
+AddVertex,22.5, 20, -2.5
+AddVertex,15, 12,-10
+AddFace,2,1,0
+GenerateNormals
+LoadTexture,b1_wp3.png,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+CreateMeshBuilder
+Addvertex,15, 12, 5
+Addvertex,22.5, 20, -2.5
+Addvertex,15, 12, -10
+AddFace,0,1,2
+GenerateNormals
+LoadTexture,b1_wp3.png,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+CreateMeshBuilder
+Addvertex,15, 12, 25
+Addvertex,22.5, 20, 25
+Addvertex,22.5, 20, -2.5
+Addvertex,15, 12, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,b1_wp3.png,
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,0,1
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,1,0
+CreateMeshBuilder
+Addvertex,-0.2, 9, -6
+Addvertex,-0.2, 16, -6
+Addvertex,-0.2, 16, -1
+Addvertex,-0.2, 9, -1
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,b1_wp2.png,
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,,,,
+AddVertex,-0.2,15.8,-3.3,
+AddVertex,3.3,15.8,-3.3,
+AddVertex,3.3,14.8,-4.7,
+AddVertex,-0.2,14.8,-4.7,
+AddVertex,3.3,9,-4.7,,
+AddVertex,-0.2,9,-4.7,
+AddFace,0,1,2,3
+AddFace,4,5,3,2
+GenerateNormals,,,,
+LoadTexture,../concrete.png,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,5,0.2,
+SetTextureCoordinates,3,0,0.2,
+SetTextureCoordinates,4,5,1,
+SetTextureCoordinates,5,0,1,

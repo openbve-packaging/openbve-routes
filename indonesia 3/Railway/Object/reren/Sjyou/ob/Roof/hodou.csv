@@ -1,0 +1,94 @@
+CreateMeshBuilder,
+AddVertex,-7.2, 5.7, 0
+AddVertex,-3.6, 5.7, 0
+Addvertex,-3.6, 5.7, 15
+Addvertex,-7.2, 5.7, 15
+Addvertex,-7.2, 1.1, 15
+Addvertex,-3.6, 1.1, 15
+Addvertex,-3.6, 1.1, 0
+addvertex,-7.2, 1.1, 0
+addface,0,1,6,7
+AddFace,1,2,5,6
+AddFace,2,3,4,5
+loadtexture,../../Roof\iwa_const.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,2,0
+SetTextureCoordinates,3  ,3,0
+SetTextureCoordinates,4  ,3,1
+SetTextureCoordinates,5  ,2,1
+SetTextureCoordinates,6  ,1,1
+SetTextureCoordinates,7  ,0,1
+GenerateNormals,
+SetEmissiveColor,75,75,75,
+
+
+CreateMeshBuilder,
+Addvertex, 7.2, 5.7, 0
+AddVertex, 3.6, 5.7, 0
+AddVertex, 3.6, 5.7, 15
+AddVertex, 7.2, 5.7, 15
+AddVertex, 7.2, 1.1, 15
+Addvertex, 3.6, 1.1, 15
+Addvertex, 3.6, 1.1, 0
+addvertex, 7.2, 1.1, 0
+addface2,0,1,6,7
+AddFace2,1,2,5,6
+AddFace2,2,3,4,5
+loadtexture,../../Roof\iwa_const.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,2,0
+SetTextureCoordinates,3  ,3,0
+SetTextureCoordinates,4  ,3,1
+SetTextureCoordinates,5  ,2,1
+SetTextureCoordinates,6  ,1,1
+SetTextureCoordinates,7  ,0,1
+GenerateNormals,
+SetEmissiveColor,75,75,75,
+Translate,3.8
+
+CreateMeshBuilder,
+AddVertex,-6.6, 7.5, 5
+Addvertex,10.4, 7.5, 5
+addvertex,10.4, 5.7, 5
+addvertex,-6.6, 5.7, 5
+AddVertex,-6.6, 7.5, 10
+Addvertex,10.4, 7.5, 10
+addvertex,10.4, 5.7, 10
+addvertex,-6.6, 5.7, 10
+addface2,0,1,2,3
+addface2,4,5,6,7
+loadtexture,../../Roof\hodou_a.bmp
+SetTextureCoordinates,0,-0.1,0,
+SetTextureCoordinates,1,1.1,0,
+SetTextureCoordinates,2,1.1,1,
+SetTextureCoordinates,3,-0.1,1,
+SetTextureCoordinates,4,1.1,0,
+SetTextureCoordinates,5,-0.1,0,
+SetTextureCoordinates,6,-0.1,1,
+SetTextureCoordinates,7,1.1,1,
+GenerateNormals,
+SetEmissiveColor,75,75,75,
+
+
+CreateMeshBuilder,
+addvertex,-3.6,5.72, 10,
+addvertex, 7.4,5.72, 10
+addvertex, 7.4,5.7, 5
+addvertex,-3.6,5.7, 5
+addface,3,2,1,0
+Setcolor,51,43,27
+GenerateNormals,
+SetEmissiveColor,23,23,23,
+
+
+
+CreateMeshBuilder,
+Addvertex,-2.5,0.05,6,
+AddVertex,-2.5,0.05,13,
+Addvertex, 6.6,0.05,13,
+Addvertex, 6.6,0.05,6,
+Addface,0,1,2,3
+Setcolor,0,0,0,120,
+GenerateNormals,

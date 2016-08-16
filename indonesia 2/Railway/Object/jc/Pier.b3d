@@ -1,0 +1,23 @@
+[MeshBuilder]
+Vertex -0.9, -1.5, 0.9
+Vertex -0.9, -1.5, -0.9
+Vertex 0.9, -1.5, -0.9
+Vertex 0.9, -1.5, 0.9
+Vertex 0.9, -10, 0.9
+Vertex 0.9, -10, -0.9
+Vertex -0.9, -10, -0.9
+Vertex -0.9, -10, 0.9
+Face 0, 1, 6, 7
+Face 1, 2, 5, 6
+Face 2, 3, 4, 5
+
+[Texture]
+Load Wall.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 2, 0
+Coordinates 3, 3, 0
+Coordinates 4, 3, 1
+Coordinates 5, 2, 1
+Coordinates 6, 1, 1
+Coordinates 7, 0, 1

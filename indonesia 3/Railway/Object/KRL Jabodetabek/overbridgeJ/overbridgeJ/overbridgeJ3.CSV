@@ -1,0 +1,204 @@
+
+ 
+;overbridge Japanese style 3- free BVE object
+;made by Viktor, (C) BVE CROATIA - Vallis Aurea  & BVE GARDEN 2008
+;YOU CAN USE THIS OBJECT WITHOUT CONTACTING ME OR ASKING PERMISSION
+;ALL I ASK IS THAT THIS HEADER NOT TO BE ERASED, AND TO BE MENTIUONED IN ROUTE READ ME FILE
+;IF YOU DON'T LIKE GRASS TEXTURE, FREELY USE YOUR OWN
+;enjoy!
+;www.bve-croatia.ic.cz
+;www.geocities.com\bvegarden\
+;viktor7m@gmail.com
+
+
+
+CreateMeshBuilder,
+AddVertex, -75,0,3,
+AddVertex, -12,7.7,3.55,
+AddVertex, -3,-1,0,
+AddVertex, -75,-1,0,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, grass.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,2,0,
+SetTextureCoordinates, 2,2,1,
+SetTextureCoordinates, 3,0,1,
+Translate, -10,0,0,
+
+CreateMeshBuilder,
+AddVertex, -12,6,3,
+AddVertex, -12,6,9,
+AddVertex, -3,-1,12,
+AddVertex, -3,-1,0,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, concrete.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,0,1,
+Translate, -10,0,0,
+
+
+
+
+CreateMeshBuilder,
+AddVertex, 19,6,3,
+AddVertex, 19,6,9,
+AddVertex, 10,-1,12,
+AddVertex, 10,-1,0,
+AddFace, 3,2,1,0,
+GenerateNormals,
+LoadTexture, concrete.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,1,1,
+SetTextureCoordinates, 3,0,1,
+Translate, 20,0,0,
+
+CreateMeshBuilder,
+AddVertex, 82,0,3,
+AddVertex, 19,7.7,3.55,
+AddVertex, 10,-1,0,
+AddVertex, 82,-1,0,
+AddFace, 3,2,1,0,
+GenerateNormals,
+LoadTexture, grass.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,2,0,
+SetTextureCoordinates, 2,2,1,
+SetTextureCoordinates, 3,0,1,
+Translate, 20,0,0,
+
+;concrete poles
+
+CreateMeshBuilder,
+AddVertex, -3,6,10,
+AddVertex, -3,-1,9,
+AddVertex, -3,6,3.2,
+AddVertex, -3,-1,4.2,
+AddVertex, -1.5,6,3.2,
+AddVertex, -1.5,-1,4.2,
+AddVertex, -1.5,6,10,
+AddVertex, -1.5,-1,9,
+AddFace, 0,2,3,1,
+AddFace, 2,4,5,3,
+AddFace, 4,6,7,5,
+GenerateNormals,
+LoadTexture, concrete.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,0.5,
+SetTextureCoordinates, 2,0.3,0,
+SetTextureCoordinates, 3,0.3,0.5,
+SetTextureCoordinates, 4,0.6,0,
+SetTextureCoordinates, 5,0.6,0.5,
+SetTextureCoordinates, 6,0.1,0,
+SetTextureCoordinates, 7,0.1,0.5,
+Translate, 2,0,0.1,
+
+
+
+
+CreateMeshBuilder,
+AddVertex, -3,6,10,
+AddVertex, -3,-1,9,
+AddVertex, -3,6,3.2,
+AddVertex, -3,-1,4.2,
+AddVertex, -1.5,6,3.2,
+AddVertex, -1.5,-1,4.2,
+AddVertex, -1.5,6,10,
+AddVertex, -1.5,-1,9,
+AddFace, 0,2,3,1,
+AddFace, 2,4,5,3,
+AddFace, 4,6,7,5,
+GenerateNormals,
+LoadTexture, concrete.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,0,0.5,
+SetTextureCoordinates, 2,0.3,0,
+SetTextureCoordinates, 3,0.3,0.5,
+SetTextureCoordinates, 4,0.6,0,
+SetTextureCoordinates, 5,0.6,0.5,
+SetTextureCoordinates, 6,0.1,0,
+SetTextureCoordinates, 7,0.1,0.5,
+Translate, 20,0,0.1,
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex, -21.7,9,3,
+AddVertex, 39.3,9,3,
+AddVertex, 39.3,8,3,
+AddVertex, -21.7,8,3,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, coverB.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,40,0,
+SetTextureCoordinates, 2,40,1,
+SetTextureCoordinates, 3,0,1,
+
+CreateMeshBuilder,
+AddVertex, -21.7,10,3,
+AddVertex, 39.3,10,3,
+AddVertex, 39.3,8.5,3,
+AddVertex, -21.7,8.5,3,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, fence.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,21,0,
+SetTextureCoordinates, 2,21,1,
+SetTextureCoordinates, 3,0,1,
+SetDecalTransparentColor,  255,255,255,
+
+CreateMeshBuilder,
+AddVertex, -21.7,8,3.2,
+AddVertex, 39.3,8,3.2,
+AddVertex, 39.3,6,3.2,
+AddVertex, -21.7,6,3.2,
+AddFace, 0,1,2,3,
+GenerateNormals,
+LoadTexture, coverG.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,21,0,
+SetTextureCoordinates, 2,21,1,
+SetTextureCoordinates, 3,0,1,
+
+
+CreateMeshBuilder,
+AddVertex, -21.7,8,3.2,
+AddVertex, 39.3,8,3.2,
+AddVertex, 39.3,8,3,
+AddVertex, -21.7,8,3,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+GenerateNormals,
+LoadTexture, coverW.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,21,0,
+SetTextureCoordinates, 2,21,1,
+SetTextureCoordinates, 3,0,1,
+
+ 
+
+CreateMeshBuilder,
+AddVertex, -21.7,6,10.1,
+AddVertex, 39.3,6,10.1,
+AddVertex, 39.3,6,3.2,
+AddVertex, -21.7,6,3.2,
+AddFace, 0,1,2,3,
+AddFace, 3,2,1,0,
+GenerateNormals,
+LoadTexture, coverW.bmp,
+SetTextureCoordinates, 0,0,0,
+SetTextureCoordinates, 1,1,0,
+SetTextureCoordinates, 2,1,4,
+SetTextureCoordinates, 3,0,4 ,
+SetColor, 123,123,19,
+
+
+

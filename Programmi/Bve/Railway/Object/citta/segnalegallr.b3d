@@ -1,0 +1,21 @@
+
+
+[MeshBuilder]
+cylinder 20, 0.4 , 0.4 , 0.1
+translate -2.5, 0, -6.5
+rotate 1,0,0,90
+color 255,255,255
+[meshbuilder]
+vertex -2.9, 6.9, -0.15
+vertex -2.1, 6.9, -0.15
+vertex -2.1, 6.1, -0.15
+vertex -2.9, 6.1, -0.15
+face 1,2,3,0
+[texture]
+load segnaler.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+

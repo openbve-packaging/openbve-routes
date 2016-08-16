@@ -1,0 +1,13 @@
+CreateMeshBuilder
+AddVertex,-3.8,-0.3,0
+AddVertex,0,-0.3,0
+AddVertex,-3.8,-0.3,25.5
+AddVertex,0,-0.3,25.5
+AddFace,1,0,2,3
+GenerateNormals
+
+LoadTexture,Ballast Sun.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,3,0
+SetTextureCoordinates,2,0,33
+SetTextureCoordinates,3,3,33

@@ -1,0 +1,185 @@
+;;;;;;;;Pole
+CreateMeshBuilder,
+AddVertex,-0.56, 5.08, 2
+AddVertex, 0.00, 5.08, 2
+AddVertex, 0.00, 5.08, 2.56
+AddVertex, 0.00, 1.10, 2.56
+AddVertex, 0.00, 1.10, 2
+AddVertex,-0.56, 1.10, 2
+AddFAce,0,1,4,5
+addFace,1,2,3,4
+LoadTexture,OedoPole2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,1,1,
+Translate,-7,0,-25
+
+CreateMeshBuilder,
+AddVertex,-0.56, 5.08, 12
+AddVertex, 0.00, 5.08, 12
+AddVertex, 0.00, 5.08, 12.56
+AddVertex, 0.00, 1.10, 12.56
+AddVertex, 0.00, 1.10, 12
+AddVertex,-0.56, 1.10, 12
+AddFAce,0,1,4,5
+addFace,1,2,3,4
+LoadTexture,OedoPole2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,1,1,
+Translate,-7,0,-25
+
+CreateMeshBuilder,
+AddVertex,-0.56, 5.08, 22
+AddVertex, 0.00, 5.08, 22
+AddVertex, 0.00, 5.08, 22.56
+AddVertex, 0.00, 1.10, 22.56
+AddVertex, 0.00, 1.10, 22
+AddVertex,-0.56, 1.10, 22
+AddFAce,0,1,4,5
+addFace,1,2,3,4
+LoadTexture,OedoPole2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,1,1,
+Translate,-7,0,-25
+
+CreateMeshBuilder,
+AddVertex,-0.56, 5.08, 32
+AddVertex, 0.00, 5.08, 32
+AddVertex, 0.00, 5.08, 32.56
+AddVertex, 0.00, 1.10, 32.56
+AddVertex, 0.00, 1.10, 32
+AddVertex,-0.56, 1.10, 32
+AddFAce,0,1,4,5
+addFace,1,2,3,4
+LoadTexture,OedoPole2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,1,1,
+Translate,-7,0,-25
+
+CreateMeshBuilder,
+AddVertex,-0.56, 5.08, 42
+AddVertex, 0.00, 5.08, 42
+AddVertex, 0.00, 5.08, 42.56
+AddVertex, 0.00, 1.10, 42.56
+AddVertex, 0.00, 1.10, 42
+AddVertex,-0.56, 1.10, 42
+AddFAce,0,1,4,5
+addFace,1,2,3,4
+LoadTexture,OedoPole2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,1,1,
+Translate,-7,0,-25
+
+CreateMeshBuilder,
+AddVertex,-0.56, 5.08, 52
+AddVertex, 0.00, 5.08, 52
+AddVertex, 0.00, 5.08, 52.56
+AddVertex, 0.00, 1.10, 52.56
+AddVertex, 0.00, 1.10, 52
+AddVertex,-0.56, 1.10, 52
+AddFAce,0,1,4,5
+addFace,1,2,3,4
+LoadTexture,OedoPole2.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.5,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,1,0,
+SetTextureCoordinates,4,1,0.5,
+SetTextureCoordinates,5,1,1,
+Translate,-7,0,-25
+
+;;;;;Wall
+CreateMeshBuilder,
+AddVertex,-12.2, 1.0,-25,
+AddVertex,-12.2, 4.7,-25,
+AddVertex,-12.2, 4.7, 65.1,
+AddVertex,-12.2, 1.0, 65.1,
+AddFace,0,1,2,3,
+SetColor,245,245,245
+GenerateNormals,
+LoadTexture,../Wall\mowall.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 5, 0,
+SetTextureCoordinates,3, 5, 1,
+
+CreateMeshBuilder,
+AddVertex,-12.2, 1.0,-25.1,
+AddVertex,-2.7, 1.0,-25.1,
+AddVertex,-2.7, 1.0, 50.1,
+AddVertex,-12.2, 1.0, 50.1,
+AddFace,3,2,1,0
+SetColor,245,245,245
+GenerateNormals,
+LoadTexture,../Form\FormD.bmp
+SetTextureCoordinates,0, 0, 8,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 65, 0,
+SetTextureCoordinates,3, 65, 8,
+
+CreateMeshBuilder,
+AddVertex,-12.2, 4.7,-25.0
+AddVertex,-7.0, 4.7,-25.0
+AddVertex,-7.0, 4.7, 58.1
+AddVertex,-12.2, 4.7, 58.1
+AddVertex,-7.0, 4.7, 25.0
+AddVertex,-7.0, 4.7, 58.1
+AddVertex,-2.7, 4.7, 58.1
+AddVertex,-2.7, 4.7, 25.0
+AddFace,0,1,2,3
+AddFace,7,6,5,4
+LoadTexture,../Roof1\MzRoof1.bmp
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 62, 0,
+SetTextureCoordinates,3, 62, 1,
+SetTextureCoordinates,4, 0, 0,
+SetTextureCoordinates,5, 10, 0,
+SetTextureCoordinates,6, 10, 1,
+SetTextureCoordinates,7, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-5.8, 4.9, 55.5
+AddVertex,-12.2, 4.9, 55.5
+AddVertex,-12.2, 1.0, 48.5
+AddVertex,-5.8, 1.0, 48.5
+AddFace,3,2,1,0
+LoadTexture,stairB.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.7, 4.9, 48.5
+AddVertex,-5.8, 4.9, 48.5
+AddVertex,-5.8, 1.0, 48.5
+AddVertex,-2.7, 1.0, 48.5
+AddFace,3,2,1,0
+LoadTexture,../Pole\station_pole\MSpole2.bmp
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+GenerateNormals,

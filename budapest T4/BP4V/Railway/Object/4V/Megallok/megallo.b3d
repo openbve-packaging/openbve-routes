@@ -1,0 +1,57 @@
+﻿; (c) pre-zli
+
+[Meshbuilder]
+Cylinder 12, 0.04, 0.04, 2.5
+Color 168, 168, 168
+Translate 0, 1.25, 0
+
+[Meshbuilder]
+Cylinder 12, 0.045, 0.045, 0.1
+Color 208, 208, 208
+Translate 0, 1.85, 0
+
+[Meshbuilder]
+Cylinder 12, 0.045, 0.045, 0.1
+Color 208, 208, 208
+Translate 0, 2.05, 0
+
+[Meshbuilder]
+Cylinder 12, 0.045, 0.045, 0.1
+Color 208, 208, 208
+Translate 0, 2.4, 0
+
+[Meshbuilder]
+Vertex -0.25, 2.5, -0.046
+Vertex 0.25, 2.5, -0.046
+Vertex 0.25, 1.75, -0.046
+Vertex -0.25, 1.75, -0.046
+Face 0, 1, 2, 3
+[Texture]
+Load villamosmegallo.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 0
+
+[Meshbuilder]
+Vertex 0.25, 2.5, -0.046
+Vertex -0.25, 2.5, -0.046
+Vertex -0.25, 1.75, -0.046
+Vertex 0.25, 1.75, -0.046
+Face 0, 1, 2, 3
+[Texture]
+Load villamosmegallohat.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 255, 0, 0
+
+[Meshbuilder]
+Vertex 0.15, 1.6, -0.046
+Vertex -0.15, 1.6, -0.046
+Vertex -0.15, 1.2, -0.046
+Vertex 0.15, 1.2, -0.046
+Face 0, 1, 2, 3
+Color 0, 0, 128

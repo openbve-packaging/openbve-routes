@@ -1,0 +1,97 @@
+CreateMeshBuilder,
+AddVertex,-22.95, 0, 0
+AddVertex,-22.95, 0, 26
+AddVertex,1.95, 0, 26
+AddVertex,1.95, 0, 0
+AddFace,0, 1, 2, 3
+GenerateNormals
+LoadTexture,douro.bmp
+SetTextureCoordinates,0, 0, 1
+SetTextureCoordinates,1, 0, 0
+SetTextureCoordinates,2, 1, 0
+SetTextureCoordinates,3, 1, 1
+
+CreateMeshBuilder,
+AddVertex,1.95, 0, 0
+AddVertex,1.95, 0, 32
+AddVertex,1.95, -6, 32
+AddVertex,1.95, -6, 0
+AddFace,0, 1, 2, 3
+GenerateNormals
+LoadTexture,conc.bmp
+SetTextureCoordinates,3, 0, 1
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 5, 0
+SetTextureCoordinates,2, 5, 1
+
+
+CreateMeshBuilder
+AddVertex,0, 1.5,0
+AddVertex,0, 0,0
+AddVertex,-2, 0,0
+AddVertex,-2, 1.5,0
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture,kusa.bmp
+SetTextureCoordinates, 2, 1,1
+SetTextureCoordinates, 3, 1,0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0, 1
+SetDecalTransparentColor, 0,0,255
+Translate,-10,0,
+CreateMeshBuilder
+AddVertex,0, 1.5,5
+AddVertex,0, 0,5
+AddVertex,-2, 0,5
+AddVertex,-2, 1.5,5
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture,kusa.bmp
+SetTextureCoordinates, 2, 1,1
+SetTextureCoordinates, 3, 1,0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0, 1
+SetDecalTransparentColor, 0,0,255
+Translate,-10,0,
+CreateMeshBuilder
+AddVertex,0, 1.5,10
+AddVertex,0, 0,10
+AddVertex,-2, 0,10
+AddVertex,-2, 1.5,10
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture,kusa.bmp
+SetTextureCoordinates, 2, 1,1
+SetTextureCoordinates, 3, 1,0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0, 1
+SetDecalTransparentColor, 0,0,255
+Translate,-10,0,
+CreateMeshBuilder
+AddVertex,0, 1.5,15
+AddVertex,0, 0,15
+AddVertex,-2, 0,15
+AddVertex,-2, 1.5,15
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture,kusa.bmp
+SetTextureCoordinates, 2, 1,1
+SetTextureCoordinates, 3, 1,0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0, 1
+SetDecalTransparentColor, 0,0,255
+Translate,-10,0,
+CreateMeshBuilder
+AddVertex,0, 1.5,20
+AddVertex,0, 0,20
+AddVertex,-2, 0,20
+AddVertex,-2, 1.5,20
+AddFace, 0,1,2,3
+GenerateNormals
+LoadTexture,kusa.bmp
+SetTextureCoordinates, 2, 1,1
+SetTextureCoordinates, 3, 1,0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0, 1
+SetDecalTransparentColor, 0,0,255
+Translate,-10,0,

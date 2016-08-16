@@ -1,0 +1,937 @@
+;Semafor 4-komorowy
+;autor: Rave
+;http://bve.e6.pl
+;(CC)BY-ND-SA
+
+;daszki przeciw sloneczne -0.275
+;===================== 1 =============================
+;========== LEWA =====================================
+;1
+[MeshBuilder]
+Vertex 	-0.51	,	4.19	,	0.59	,		
+Vertex 	-0.515	,	4.19	,	0.45	,		
+Vertex 	-0.505	,	4.15	,	0.56	,		
+Vertex 	-0.505	,	4.15	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png
+Coordinates 0, 0.5, 0.9,								
+Coordinates 1, 0, 0.9,								
+Coordinates 2, 0, 1,								
+Coordinates 3, 0.5, 1
+[MeshBuilder]
+Vertex 	-0.51	,	4.19	,	0.59	,		
+Vertex 	-0.515	,	4.19	,	0.45	,		
+Vertex 	-0.505	,	4.15	,	0.55	,		
+Vertex 	-0.505	,	4.15	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.9,								
+Coordinates 1, 0, 0.9,								
+Coordinates 2, 0, 1,								
+Coordinates 3, 1, 1
+;2
+[MeshBuilder]
+Vertex 	-0.51	,	4.23	,	0.59	,
+Vertex 	-0.52	,	4.23	,	0.42	,
+Vertex 	-0.515	,	4.19	,	0.45	,
+Vertex 	-0.51	,	4.19	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png
+Coordinates 0, 0.5, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 0.5, 0.9
+[MeshBuilder]
+Vertex 	-0.51	,	4.23	,	0.59	,		
+Vertex 	-0.52	,	4.23	,	0.42	,		
+Vertex 	-0.515	,	4.19	,	0.45	,		
+Vertex 	-0.51	,	4.19	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 1, 0.9
+;3
+[MeshBuilder]
+Vertex 	-0.505	,	4.27	,	0.59	,
+Vertex 	-0.515	,	4.27	,	0.40	,
+Vertex 	-0.52	,	4.23	,	0.42	,
+Vertex 	-0.51	,	4.23	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png
+Coordinates 0, 0.5, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 0.5, 0.8
+[MeshBuilder]
+Vertex 	-0.505	,	4.27	,	0.59	,		
+Vertex 	-0.515	,	4.27	,	0.40	,		
+Vertex 	-0.52	,	4.23	,	0.42	,		
+Vertex 	-0.51	,	4.23	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 1, 0.8
+;4
+[MeshBuilder]
+Vertex 	-0.48	,	4.31	,	0.59	,
+Vertex 	-0.49	,	4.31	,	0.39	,
+Vertex 	-0.515	,	4.27	,	0.40	,
+Vertex 	-0.505	,	4.27	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png						
+Coordinates 0, 0.5, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 0.5, 0.7
+[MeshBuilder]
+Vertex 	-0.48	,	4.31	,	0.59	,		
+Vertex 	-0.49	,	4.31	,	0.39	,		
+Vertex 	-0.515	,	4.27	,	0.40	,		
+Vertex 	-0.505	,	4.27	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 1, 0.7
+;5
+[MeshBuilder]
+Vertex 	-0.44	,	4.34	,	0.59	,		
+Vertex 	-0.45	,	4.34	,	0.38	,		
+Vertex 	-0.49	,	4.31	,	0.39	,		
+Vertex 	-0.48	,	4.31	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png							
+Coordinates 0, 0.5, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6,								
+Coordinates 3, 0.5, 0.6
+[MeshBuilder]
+Vertex 	-0.44	,	4.34	,	0.59	,		
+Vertex 	-0.45	,	4.34	,	0.38	,		
+Vertex 	-0.49	,	4.31	,	0.39	,		
+Vertex 	-0.48	,	4.31	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6,								
+Coordinates 3, 1, 0.6
+;6gora
+[MeshBuilder]
+Vertex 	-0.38	,	4.34	,	0.59	,
+Vertex 	-0.38	,	4.34	,	0.38	,
+Vertex 	-0.45	,	4.34	,	0.38	,
+Vertex 	-0.44	,	4.34	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png								
+Coordinates 0, 0.5, 0.4,								
+Coordinates 1, 0, 0.4,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 0.5, 0.5
+[MeshBuilder]
+Vertex 	-0.38	,	4.34	,	0.59	,		
+Vertex 	-0.38	,	4.34	,	0.38	,		
+Vertex 	-0.45	,	4.34	,	0.38	,		
+Vertex 	-0.44	,	4.34	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 0.5, 0.4,								
+Coordinates 1, 0, 0.4,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 0.5, 0.5
+;========== PRAWA =====================================
+;5
+[MeshBuilder]
+Vertex 	-0.33	,	4.31	,	0.59	,		
+Vertex 	-0.33	,	4.31	,	0.39	,		
+Vertex 	-0.38	,	4.34	,	0.38	,		
+Vertex 	-0.38	,	4.34	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png
+Coordinates 0, 0.5, 0.4,								
+Coordinates 1, 0, 0.4,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 0.5, 0.5
+[MeshBuilder]
+Vertex 	-0.33	,	4.31	,	0.59	,		
+Vertex 	-0.33	,	4.31	,	0.39	,		
+Vertex 	-0.38	,	4.34	,	0.38	,		
+Vertex 	-0.38	,	4.34	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.4,								
+Coordinates 1, 0, 0.4,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 1, 0.5
+;4
+[MeshBuilder]
+Vertex 	-0.31	,	4.27	,	0.59	,		
+Vertex 	-0.31	,	4.27	,	0.4	,		
+Vertex 	-0.33	,	4.31	,	0.39	,		
+Vertex 	-0.33	,	4.31	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png						
+Coordinates 0, 0.5, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6								
+Coordinates 3, 0.5, 0.6
+[MeshBuilder]
+Vertex 	-0.31	,	4.27	,	0.59	,		
+Vertex 	-0.31	,	4.27	,	0.4	,		
+Vertex 	-0.33	,	4.31	,	0.39	,		
+Vertex 	-0.33	,	4.31	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6,								
+Coordinates 3, 1, 0.6
+;3
+[MeshBuilder]
+Vertex 	-0.3	,	4.23	,	0.59	,		
+Vertex 	-0.3	,	4.23	,	0.42	,		
+Vertex 	-0.31	,	4.27	,	0.40	,		
+Vertex 	-0.31	,	4.27	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png						
+Coordinates 0, 0.5, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 0.5, 0.7
+[MeshBuilder]
+Vertex 	-0.3	,	4.23	,	0.59	,		
+Vertex 	-0.3	,	4.23	,	0.42	,		
+Vertex 	-0.31	,	4.27	,	0.40	,		
+Vertex 	-0.31	,	4.27	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 1, 0.7
+;2
+[MeshBuilder]
+Vertex 	-0.3	,	4.19	,	0.59	,		
+Vertex 	-0.3	,	4.19	,	0.44	,		
+Vertex 	-0.3	,	4.23	,	0.42	,		
+Vertex 	-0.3	,	4.23	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png								
+Coordinates 0, 0.5, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 0.5, 0.8
+[MeshBuilder]
+Vertex 	-0.3	,	4.19	,	0.59	,		
+Vertex 	-0.3	,	4.19	,	0.44	,		
+Vertex 	-0.3	,	4.23	,	0.42	,		
+Vertex 	-0.3	,	4.23	,	0.59	,
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 1, 0.8
+;1
+[MeshBuilder]
+Vertex 	-0.305	,	4.15	,	0.59	,		
+Vertex 	-0.305	,	4.15	,	0.56	,		
+Vertex 	-0.3	,	4.19	,	0.44	,		
+Vertex 	-0.3	,	4.19	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_g.png,hood_g.png	
+Coordinates 0, 0.5, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 0.5, 0.9
+[MeshBuilder]
+Vertex 	-0.305	,	4.15	,	0.59	,		
+Vertex 	-0.305	,	4.15	,	0.56	,		
+Vertex 	-0.3	,	4.19	,	0.44	,		
+Vertex 	-0.3	,	4.19	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 1, 0.9
+;========================================================================
+;===================== 2 =============================
+;========== LEWA =====================================
+;1
+[MeshBuilder]
+Vertex 	-0.51	,	3.92	,	0.59	,		
+Vertex 	-0.515	,	3.92	,	0.45	,		
+Vertex 	-0.505	,	3.88	,	0.56	,		
+Vertex 	-0.505	,	3.88	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.9,								
+Coordinates 1, 0, 0.9,								
+Coordinates 2, 0, 1,								
+Coordinates 3, 0.5, 1
+[MeshBuilder]
+Vertex 	-0.51	,	3.92	,	0.59	,		
+Vertex 	-0.515	,	3.92	,	0.45	,		
+Vertex 	-0.505	,	3.88	,	0.55	,		
+Vertex 	-0.505	,	3.88	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.9,								
+Coordinates 1, 0, 0.9,								
+Coordinates 2, 0, 1,								
+Coordinates 3, 1, 1
+;2
+[MeshBuilder]
+Vertex 	-0.51	,	3.96	,	0.59	,
+Vertex 	-0.52	,	3.96	,	0.42	,
+Vertex 	-0.515	,	3.92	,	0.45	,
+Vertex 	-0.51	,	3.92	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 0.5, 0.9
+[MeshBuilder]
+Vertex 	-0.51	,	3.96	,	0.59	,		
+Vertex 	-0.52	,	3.96	,	0.42	,		
+Vertex 	-0.515	,	3.92	,	0.45	,		
+Vertex 	-0.51	,	3.92	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 1, 0.9
+;3
+[MeshBuilder]
+Vertex 	-0.505	,	4	,	0.59	,
+Vertex 	-0.515	,	4	,	0.40	,
+Vertex 	-0.52	,	3.96	,	0.42	,
+Vertex 	-0.51	,	3.96	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 0.5, 0.8
+[MeshBuilder]
+Vertex 	-0.505	,	4	,	0.59	,		
+Vertex 	-0.515	,	4	,	0.40	,		
+Vertex 	-0.52	,	3.96	,	0.42	,		
+Vertex 	-0.51	,	3.96	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 1, 0.8
+;4
+[MeshBuilder]
+Vertex 	-0.48	,	4.04	,	0.59	,
+Vertex 	-0.49	,	4.04	,	0.39	,
+Vertex 	-0.515	,	4	,	0.40	,
+Vertex 	-0.505	,	4	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_k.png							
+Coordinates 0, 0.5, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 0.5, 0.7
+[MeshBuilder]
+Vertex 	-0.48	,	4.04	,	0.59	,		
+Vertex 	-0.49	,	4.04	,	0.39	,		
+Vertex 	-0.515	,	4	,	0.40	,		
+Vertex 	-0.505	,	4	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 1, 0.7
+;5
+[MeshBuilder]
+Vertex 	-0.44	,	4.07	,	0.59	,		
+Vertex 	-0.45	,	4.07	,	0.38	,		
+Vertex 	-0.49	,	4.04	,	0.39	,		
+Vertex 	-0.48	,	4.04	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6,								
+Coordinates 3, 0.5, 0.6
+[MeshBuilder]
+Vertex 	-0.44	,	4.07	,	0.59	,		
+Vertex 	-0.45	,	4.07	,	0.38	,		
+Vertex 	-0.49	,	4.04	,	0.39	,		
+Vertex 	-0.48	,	4.04	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_kg.png,hood_kg.png								
+Coordinates 0, 0.5, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.3,								
+Coordinates 3, 0.5, 0.3
+;6gora
+[MeshBuilder]
+Vertex 	-0.38	,	4.07	,	0.59	,
+Vertex 	-0.38	,	4.07	,	0.38	,
+Vertex 	-0.45	,	4.07	,	0.38	,
+Vertex 	-0.44	,	4.07	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.4,								
+Coordinates 1, 0, 0.4,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 0.5, 0.5
+[MeshBuilder]
+Vertex 	-0.38	,	4.07	,	0.59	,		
+Vertex 	-0.38	,	4.07	,	0.38	,		
+Vertex 	-0.45	,	4.07	,	0.38	,		
+Vertex 	-0.44	,	4.07	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_kg.png,hood_kg.png								
+Coordinates 0, 0.5, 0.4,								
+Coordinates 1, 0, 0.4,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 0.5, 0.5
+;========== PRAWA =====================================
+;5
+[MeshBuilder]
+Vertex 	-0.33	,	4.04	,	0.59	,		
+Vertex 	-0.33	,	4.04	,	0.39	,		
+Vertex 	-0.38	,	4.07	,	0.38	,		
+Vertex 	-0.38	,	4.07	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.4,								
+Coordinates 1, 0, 0.4,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 0.5, 0.5
+[MeshBuilder]
+Vertex 	-0.33	,	4.04	,	0.59	,		
+Vertex 	-0.33	,	4.04	,	0.39	,		
+Vertex 	-0.38	,	4.07	,	0.38	,		
+Vertex 	-0.38	,	4.07	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_kg.png,hood_kg.png								
+Coordinates 0, 0.5, 0.3,								
+Coordinates 1, 0, 0.3,								
+Coordinates 2, 0, 0.6,								
+Coordinates 3, 0.5, 0.6
+;4
+[MeshBuilder]
+Vertex 	-0.31	,	4	,	0.59	,		
+Vertex 	-0.31	,	4	,	0.4	,		
+Vertex 	-0.33	,	4.04	,	0.39	,		
+Vertex 	-0.33	,	4.04	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6								
+Coordinates 3, 0.5, 0.6
+[MeshBuilder]
+Vertex 	-0.31	,	4	,	0.59	,		
+Vertex 	-0.31	,	4	,	0.4	,		
+Vertex 	-0.33	,	4.04	,	0.39	,		
+Vertex 	-0.33	,	4.04	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6,								
+Coordinates 3, 1, 0.6
+;3
+[MeshBuilder]
+Vertex 	-0.3	,	3.96	,	0.59	,		
+Vertex 	-0.3	,	3.96	,	0.42	,		
+Vertex 	-0.31	,	4	,	0.40	,		
+Vertex 	-0.31	,	4	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_k.png							
+Coordinates 0, 0.5, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 0.5, 0.7
+[MeshBuilder]
+Vertex 	-0.3	,	3.96	,	0.59	,		
+Vertex 	-0.3	,	3.96	,	0.42	,		
+Vertex 	-0.31	,	4	,	0.40	,		
+Vertex 	-0.31	,	4	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 1, 0.7
+;2
+[MeshBuilder]
+Vertex 	-0.3	,	3.92	,	0.59	,		
+Vertex 	-0.3	,	3.92	,	0.44	,		
+Vertex 	-0.3	,	3.96	,	0.42	,		
+Vertex 	-0.3	,	3.96	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 0.5, 0.8
+[MeshBuilder]
+Vertex 	-0.3	,	3.92	,	0.59	,		
+Vertex 	-0.3	,	3.92	,	0.44	,		
+Vertex 	-0.3	,	3.96	,	0.42	,		
+Vertex 	-0.3	,	3.96	,	0.59	,
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 1, 0.8
+;1
+[MeshBuilder]
+Vertex 	-0.305	,	3.88	,	0.59	,		
+Vertex 	-0.305	,	3.88	,	0.56	,		
+Vertex 	-0.3	,	3.92	,	0.44	,		
+Vertex 	-0.3	,	3.92	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 0.5, 0.9
+[MeshBuilder]
+Vertex 	-0.305	,	3.88	,	0.59	,		
+Vertex 	-0.305	,	3.88	,	0.56	,		
+Vertex 	-0.3	,	3.92	,	0.44	,		
+Vertex 	-0.3	,	3.92	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 1, 0.9
+;========================================================================
+;===================== 3 =============================
+;========== LEWA =====================================
+;1
+[MeshBuilder]
+Vertex 	-0.51	,	3.66	,	0.59	,		
+Vertex 	-0.515	,	3.66	,	0.45	,		
+Vertex 	-0.505	,	3.62	,	0.56	,		
+Vertex 	-0.505	,	3.62	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png						
+Coordinates 0, 0.5, 0.9,								
+Coordinates 1, 0, 0.9,								
+Coordinates 2, 0, 1,								
+Coordinates 3, 0.5, 1
+[MeshBuilder]
+Vertex 	-0.51	,	3.66	,	0.59	,		
+Vertex 	-0.515	,	3.66	,	0.45	,		
+Vertex 	-0.505	,	3.62	,	0.55	,		
+Vertex 	-0.505	,	3.62	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.9,								
+Coordinates 1, 0, 0.9,								
+Coordinates 2, 0, 1,								
+Coordinates 3, 1, 1
+;2
+[MeshBuilder]
+Vertex 	-0.51	,	3.70	,	0.59	,
+Vertex 	-0.52	,	3.70	,	0.42	,
+Vertex 	-0.515	,	3.66	,	0.45	,
+Vertex 	-0.51	,	3.66	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png							
+Coordinates 0, 0.5, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 0.5, 0.9
+[MeshBuilder]
+Vertex 	-0.51	,	3.70	,	0.59	,		
+Vertex 	-0.52	,	3.70	,	0.42	,		
+Vertex 	-0.515	,	3.66	,	0.45	,		
+Vertex 	-0.51	,	3.66	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 1, 0.9
+;3
+[MeshBuilder]
+Vertex 	-0.505	,	3.74	,	0.59	,
+Vertex 	-0.515	,	3.74	,	0.40	,
+Vertex 	-0.52	,	3.70	,	0.42	,
+Vertex 	-0.51	,	3.70	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png							
+Coordinates 0, 0.5, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 0.5, 0.8
+[MeshBuilder]
+Vertex 	-0.505	,	3.74	,	0.59	,		
+Vertex 	-0.515	,	3.74	,	0.40	,		
+Vertex 	-0.52	,	3.70	,	0.42	,		
+Vertex 	-0.51	,	3.70	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 1, 0.8
+;4
+[MeshBuilder]
+Vertex 	-0.48	,	3.78	,	0.59	,
+Vertex 	-0.49	,	3.78	,	0.39	,
+Vertex 	-0.515	,	3.74	,	0.40	,
+Vertex 	-0.505	,	3.74	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png						
+Coordinates 0, 0.5, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 0.5, 0.7
+[MeshBuilder]
+Vertex 	-0.48	,	3.78	,	0.59	,		
+Vertex 	-0.49	,	3.78	,	0.39	,		
+Vertex 	-0.515	,	3.74	,	0.40	,		
+Vertex 	-0.505	,	3.74	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 1, 0.7
+;5
+[MeshBuilder]
+Vertex 	-0.44	,	3.81	,	0.59	,		
+Vertex 	-0.45	,	3.81	,	0.38	,		
+Vertex 	-0.49	,	3.78	,	0.39	,		
+Vertex 	-0.48	,	3.78	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png							
+Coordinates 0, 0.5, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6,								
+Coordinates 3, 0.5, 0.6
+[MeshBuilder]
+Vertex 	-0.44	,	3.81	,	0.59	,
+Vertex 	-0.45	,	3.81	,	0.38	,
+Vertex 	-0.49	,	3.78	,	0.39	,
+Vertex 	-0.48	,	3.78	,	0.59	,
+Face 0,1,2,3
+[Texture]
+Load hood_k.png								
+Coordinates 0, 0.5, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.3,								
+Coordinates 3, 0.5, 0.3
+;6gora
+[MeshBuilder]
+Vertex 	-0.38	,	3.81	,	0.59	,
+Vertex 	-0.38	,	3.81	,	0.38	,
+Vertex 	-0.45	,	3.81	,	0.38	,
+Vertex 	-0.44	,	3.81	,	0.59	,
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png							
+Coordinates 0, 0.5, 0.4,								
+Coordinates 1, 0, 0.4,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 0.5, 0.5
+[MeshBuilder]
+Vertex 	-0.38	,	3.81	,	0.59	,		
+Vertex 	-0.38	,	3.81	,	0.38	,		
+Vertex 	-0.45	,	3.81	,	0.38	,		
+Vertex 	-0.44	,	3.81	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png
+Coordinates 0, 0.5, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 0.5, 0.5
+;========== PRAWA =====================================
+;5
+[MeshBuilder]
+Vertex 	-0.33	,	3.78	,	0.59	,		
+Vertex 	-0.33	,	3.78	,	0.39	,		
+Vertex 	-0.38	,	3.81	,	0.38	,		
+Vertex 	-0.38	,	3.81	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png							
+Coordinates 0, 0.5, 0.4,								
+Coordinates 1, 0, 0.4,								
+Coordinates 2, 0, 0.5,								
+Coordinates 3, 0.5, 0.5
+[MeshBuilder]
+Vertex 	-0.33	,	3.78	,	0.59	,		
+Vertex 	-0.33	,	3.78	,	0.39	,		
+Vertex 	-0.38	,	3.81	,	0.38	,		
+Vertex 	-0.38	,	3.81	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png
+Coordinates 0, 0.5, 0.3,								
+Coordinates 1, 0, 0.3,								
+Coordinates 2, 0, 0.6,								
+Coordinates 3, 0.5, 0.6
+;4
+[MeshBuilder]
+Vertex 	-0.31	,	3.74	,	0.59	,		
+Vertex 	-0.31	,	3.74	,	0.4	,		
+Vertex 	-0.33	,	3.78	,	0.39	,		
+Vertex 	-0.33	,	3.78	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png							
+Coordinates 0, 0.5, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6								
+Coordinates 3, 0.5, 0.6
+[MeshBuilder]
+Vertex 	-0.31	,	3.74	,	0.59	,		
+Vertex 	-0.31	,	3.74	,	0.4	,		
+Vertex 	-0.33	,	3.78	,	0.39	,		
+Vertex 	-0.33	,	3.78	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.5,								
+Coordinates 1, 0, 0.5,								
+Coordinates 2, 0, 0.6,								
+Coordinates 3, 1, 0.6
+;3
+[MeshBuilder]
+Vertex 	-0.3	,	3.70	,	0.59	,		
+Vertex 	-0.3	,	3.70	,	0.42	,		
+Vertex 	-0.31	,	3.74	,	0.40	,		
+Vertex 	-0.31	,	3.74	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png						
+Coordinates 0, 0.5, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 0.5, 0.7
+[MeshBuilder]
+Vertex 	-0.3	,	3.70	,	0.59	,		
+Vertex 	-0.3	,	3.70	,	0.42	,		
+Vertex 	-0.31	,	3.74	,	0.40	,		
+Vertex 	-0.31	,	3.74	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.6,								
+Coordinates 1, 0, 0.6,								
+Coordinates 2, 0, 0.7,								
+Coordinates 3, 1, 0.7
+;2
+[MeshBuilder]
+Vertex 	-0.3	,	3.66	,	0.59	,		
+Vertex 	-0.3	,	3.66	,	0.44	,		
+Vertex 	-0.3	,	3.70	,	0.42	,		
+Vertex 	-0.3	,	3.70	,	0.59	
+Face 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png							
+Coordinates 0, 0.5, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 0.5, 0.8
+[MeshBuilder]
+Vertex 	-0.3	,	3.66	,	0.59	,		
+Vertex 	-0.3	,	3.66	,	0.44	,		
+Vertex 	-0.3	,	3.70	,	0.42	,		
+Vertex 	-0.3	,	3.70	,	0.59	,
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.7,								
+Coordinates 1, 0, 0.7,								
+Coordinates 2, 0, 0.8,								
+Coordinates 3, 1, 0.8
+;1
+[MeshBuilder]
+Vertex 	-0.305	,	3.63	,	0.59	,		
+Vertex 	-0.305	,	3.63	,	0.56	,		
+Vertex 	-0.3	,	3.66	,	0.44	,		
+Vertex 	-0.3	,	3.66	,	0.59	
+Face2 3,2,1,0
+[Texture]
+Load hood_y.png,hood_y.png							
+Coordinates 0, 0.5, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 0.5, 0.9
+[MeshBuilder]
+Vertex 	-0.305	,	3.63	,	0.59	,		
+Vertex 	-0.305	,	3.63	,	0.56	,		
+Vertex 	-0.3	,	3.66	,	0.44	,		
+Vertex 	-0.3	,	3.66	,	0.59	
+Face 0,1,2,3
+[Texture]
+Load hood_k.png,								
+Coordinates 0, 1, 0.8,								
+Coordinates 1, 0, 0.8,								
+Coordinates 2, 0, 0.9,								
+Coordinates 3, 1, 0.9
+;========================================================================
+[MeshBuilder]
+Vertex -0.54 ,  4.07 ,  0.58 ,
+Vertex -0.54 ,  4.36 ,  0.58 ,
+Vertex -0.26 ,  4.36 ,  0.58 ,
+Vertex -0.26 ,  4.07 ,  0.58 ,
+Face 0,1,2,3
+[Texture]
+Load light_green.png,light_green.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+EmissiveColor 255,255,255
+BlendMode Additive
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -0.9 ,  3.71 ,  0.385 ,
+Vertex -0.9 ,  4.71 ,  0.385 ,
+Vertex  0.1 ,  4.71 ,  0.385 ,
+Vertex  0.1 ,  3.71 ,  0.385 ,
+Face 0,1,2,3
+[Texture]
+Load glow_green.png,glow_green.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,0
+EmissiveColor 255,255,255
+BlendMode Additive, 75, DivideExponent2
+[MeshBuilder]
+Vertex -1.65 ,  2.96 ,  0.185 ,
+Vertex -1.65 ,  5.46 ,  0.185 ,
+Vertex  0.85 ,  5.46 ,  0.185 ,
+Vertex  0.85 ,  2.96 ,  0.185 ,
+Face 0,1,2,3
+[Texture]
+Load glow_green.png,glow_green.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Transparent 0,0,0
+EmissiveColor 255,255,255
+BlendMode Additive, 300, DivideExponent2
+
+;-----------------------------------------------
+[MeshBuilder]
+Vertex -0.54 ,  3.54 ,  0.58 ,
+Vertex -0.54 ,  3.83 ,  0.58 ,
+Vertex -0.26 ,  3.83 ,  0.58 ,
+Vertex -0.26 ,  3.54 ,  0.58 ,
+Face 0,1,2,3
+[Texture]
+Load light_yellow.png,light_yellow.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+EmissiveColor 255,255,255
+BlendMode Additive
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -0.9 ,  3.18 ,  0.385 ,
+Vertex -0.9 ,  4.18 ,  0.385 ,
+Vertex  0.1 ,  4.18 ,  0.385 ,
+Vertex  0.1 ,  3.18 ,  0.385 ,
+Face 0,1,2,3
+[Texture]
+Load glow_yellow.png,glow_yellow.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,0
+EmissiveColor 255,255,255
+BlendMode Additive, 75, DivideExponent2
+[MeshBuilder]
+Vertex -1.65 ,  2.43 ,  0.185 ,
+Vertex -1.65 ,  4.93 ,  0.185 ,
+Vertex  0.85 ,  4.93 ,  0.185 ,
+Vertex  0.85 ,  2.43 ,  0.185 ,
+Face 0,1,2,3
+[Texture]
+Load glow_yellow.png,glow_yellow.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Transparent 0,0,0
+EmissiveColor 255,255,255
+BlendMode Additive, 300, DivideExponent2

@@ -1,0 +1,186 @@
+;M3 alagút kivezetés 500 m sugarú bal ívben 8.rész
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;terep
+
+[MeshBuilder]
+Vertex  -10.00,  0.745, -00.50
+Vertex  -02.00, -0.230, -00.50
+Vertex  -02.00, -0.230,  25.50
+Vertex  -10.00,  0.145,  25.50
+
+Vertex   10.00,  0.745, -00.50
+Vertex   02.50, -0.200, -00.50
+Vertex   02.50, -0.200,  25.50
+Vertex   08.00,  0.145,  25.50
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load alagut_bev_terep.bmp
+Coordinates 0,  00.00,  00.00
+Coordinates 1,  00.00,  08.00
+Coordinates 2,  25.00,  08.00
+Coordinates 3,  25.00,  00.00
+Coordinates 4,  00.00,  00.00
+Coordinates 5,  00.00,  08.00
+Coordinates 6,  25.00,  08.00
+Coordinates 7,  25.00,  00.00
+
+;--------------------------------------
+
+;kerítés
+
+[MeshBuilder]
+Vertex   10.000,  00.745, -00.50
+Vertex   10.000,  03.245, -00.50
+Vertex   08.000,  02.645,  25.50
+Vertex   08.000,  00.145,  25.50
+Vertex  -10.000,  00.745, -00.50
+Vertex  -10.000,  03.245, -00.50
+Vertex  -10.000,  02.645,  25.50
+Vertex  -10.000,  00.145,  25.50
+Face 3,2,1,0
+Face 4,5,6,7
+[Texture]
+Load kerites_01.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 10.00, 00.00
+Coordinates  3, 10.00, 01.00
+Coordinates  4, 00.00, 01.00
+Coordinates  5, 00.00, 00.00
+Coordinates  6, 10.00, 00.00
+Coordinates  7, 10.00, 01.00
+
+;--------------------------------------
+
+;lámpa
+
+[meshbuilder]
+cylinder 8, 0.07, 0.10, 10.00
+color 180,180,180
+translate  00.00, 04.85, 00.00
+translate  03.00, -00.10, 12.50
+
+[meshbuilder]
+cylinder 8, 0.05, 0.05, 01.00
+color 180,180,180
+rotate 0, 0, 1, 85
+translate  -00.50, 09.75, 00.00
+translate  03.00, -00.10, 12.50
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 180,180,180
+rotate 0, 0, 1, -5
+translate -01.50, 09.85, 00.00
+translate  03.00, -00.10, 12.50
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 225,255,200,100
+rotate 0, 0, 1, -5
+translate -01.50, 09.75, 00.00
+translate  03.00, -00.10, 12.50
+
+[meshbuilder]
+cube 0.4, 0.01, 0.4
+rotate 0,0,1,7.5
+translate  00.00, 0.02, 00.00
+translate  03.00, -00.14, 12.50
+color 180,180,180
+
+;--------------------------------------
+
+;kábelek
+
+[meshbuilder]
+vertex 3.50,-0.20, -0.3
+vertex 3.50,-0.20, 25.3
+vertex 3.50, 0.35, 25.3
+vertex 3.50, 0.35, -0.3
+vertex 4.50,-0.20, -0.3
+vertex 4.50,-0.20, 25.3
+vertex 4.50, 0.35, 25.3
+vertex 4.50, 0.35, -0.3
+face2 0,1,2,3
+face2 4,5,6,7
+[Texture]
+Load kabelek.bmp
+Coordinates 0, 0.0, 1.0
+Coordinates 1, 5.0, 1.0
+Coordinates 2, 5.0, 0.0
+Coordinates 3, 0.0, 0.0
+Coordinates 4, 0.0, 1.0
+Coordinates 5, 5.0, 1.0
+Coordinates 6, 5.0, 0.0
+Coordinates 7, 0.0, 0.0
+transparent 0,0,255
+translate 0.2,0,0
+
+;lefedés
+
+[meshbuilder]
+vertex -0.50, 0.35, 00.00
+vertex  0.50, 0.35, 00.00
+vertex  0.50, 0.55, 00.00
+vertex  0.00, 0.70, 00.00
+vertex -0.50, 0.55, 00.00
+face2 0,1,2,3,4
+color 97,95,82
+translate  04.00, 00.00, 00.00
+translate 0.2,0,0
+
+[meshbuilder]
+vertex -0.50, 0.35, 25.30
+vertex  0.50, 0.35, 25.30
+vertex  0.50, 0.55, 25.30
+vertex  0.00, 0.70, 25.30
+vertex -0.50, 0.55, 25.30
+face2 0,1,2,3,4
+color 97,95,82
+translate  04.00, 00.00, 00.00
+translate 0.2,0,0
+
+[meshbuilder]
+vertex -0.50, 0.55, -00.30
+vertex  0.00, 0.70, -00.30
+vertex  0.00, 0.70,  25.30
+vertex -0.50, 0.55,  25.30
+face2 0,1,2,3
+color 97,95,82
+translate  04.00, 00.00, 00.00
+translate 0.2,0,0
+
+[meshbuilder]
+vertex  0.50, 0.55, -00.30
+vertex  0.00, 0.70, -00.30
+vertex  0.00, 0.70,  25.30
+vertex  0.50, 0.55,  25.30
+face2 0,1,2,3
+color 97,95,82
+translate  04.00, 00.00, 00.00
+translate 0.2,0,0
+
+[meshbuilder]
+vertex -0.50, 0.35, -00.30
+vertex -0.50, 0.55, -00.30
+vertex -0.50, 0.55,  25.30
+vertex -0.50, 0.35,  25.30
+face2 0,1,2,3
+color 97,95,82
+translate  04.00, 00.00, 00.00
+translate 0.2,0,0
+
+[meshbuilder]
+vertex  0.50, 0.35, -00.30
+vertex  0.50, 0.55, -00.30
+vertex  0.50, 0.55,  25.30
+vertex  0.50, 0.35,  25.30
+face2 0,1,2,3
+color 97,95,82
+translate  04.00, 00.00, 00.00
+translate 0.2,0,0
+
+;--------------------------------------
+

@@ -1,0 +1,28 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green & Keith Hazelton
+
+CreateMeshBuilder,;front main
+Addvertex,3.2, 3.6, 0,
+Addvertex,3.2, 3.6, 5,
+Addvertex,3.2, 0.4, 5,
+Addvertex,3.2, 0.4, 0,
+AddFace,3,2,1,0
+GenerateNormals,
+LoadTexture,gor_build3_1.png,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+CreateMeshBuilder,;side main
+AddVertex,5.5, 0.4, 0,
+AddVertex,5.5, 3.6, 0,
+AddVertex,3.2, 3.6, 0,
+AddVertex,3.2, 0.4, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,gor_build3_2.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,

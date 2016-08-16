@@ -1,0 +1,39 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+CreateMeshBuilder,
+Addvertex,-6, -0.400, -0.200,
+Addvertex,4, -0.170, -0.200,
+Addvertex,-6, -0.400, 5.000,
+Addvertex,4, -0.170, 5.000,
+Addvertex,-6, -0.400, 10.000,
+Addvertex,4, -0.170, 10.000,
+Addvertex,-6, -0.400, 15.000,
+Addvertex,4, -0.170, 15.000,
+Addvertex,-6, -0.400, 20.000,
+Addvertex,4, -0.170, 20.000,
+Addvertex,-6, -0.400, 25.100,
+Addvertex,4, -0.170, 25.100,
+Addface,2, 3, 1, 0,
+Addface,4, 5, 3, 2,
+Addface,6, 7, 5, 4,
+Addface,8, 9, 7, 6,
+Addface,10, 11, 9, 8,
+GenerateNormals,
+
+LoadTexture,schotter2gal.bmp,
+SetTextureCoordinates,0, 1, 0.25,
+SetTextureCoordinates,1, 0, 0.25,
+SetTextureCoordinates,2, 1, 0.35,
+SetTextureCoordinates,3, 0, 0.35,
+SetTextureCoordinates,4, 1, 0.45,
+SetTextureCoordinates,5, 0, 0.45,
+SetTextureCoordinates,6, 1, 0.55,
+SetTextureCoordinates,7, 0, 0.55,
+SetTextureCoordinates,8, 1, 0.65,
+SetTextureCoordinates,9, 0, 0.65,
+SetTextureCoordinates,10, 1,0.75,
+SetTextureCoordinates,11, 0, 0.75,
+

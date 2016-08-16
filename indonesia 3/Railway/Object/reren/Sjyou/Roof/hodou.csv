@@ -1,0 +1,67 @@
+CreateMeshBuilder,
+AddVertex,-7.2, 4.7, 0
+AddVertex,-3.6, 4.7, 0
+Addvertex,-3.6, 4.7, 15
+Addvertex,-3.6, 1.1, 15
+Addvertex,-3.6, 1.1, 0
+addvertex,-7.2, 1.1, 0
+addface2,0,1,4,5
+AddFace2,1,2,3,4
+loadtexture,iwa_const.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,2,0
+SetTextureCoordinates,3  ,2,1
+SetTextureCoordinates,4  ,1,1
+SetTextureCoordinates,5  ,0,1
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex, 3.6, 4.7, 15
+AddVertex, 3.6, 4.7, 0
+AddVertex, 7.2, 4.7, 0
+Addvertex, 7.2, 1.1, 0
+Addvertex, 3.6, 1.1, 0
+addvertex, 3.6, 1.1, 15
+addface2,0,1,4,5
+AddFace2,1,2,3,4
+loadtexture,iwa_const.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,2,0
+SetTextureCoordinates,3  ,2,1
+SetTextureCoordinates,4  ,1,1
+SetTextureCoordinates,5  ,0,1
+GenerateNormals,
+Translate,3.8
+
+CreateMeshBuilder,
+AddVertex,-3.6, 6.5, 5
+Addvertex, 7.4, 6.5, 5
+addvertex, 7.4, 4.7, 5
+addvertex,-3.6, 4.7, 5
+addface2,0,1,2,3
+loadtexture,hodou_a.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+GenerateNormals,
+
+CreateMeshBuilder,
+addvertex,-3.6,4.72, 10,
+addvertex, 7.4,4.72, 10
+addvertex, 7.4,4.7, 5
+addvertex,-3.6,4.7, 5
+addface2,3,2,1,0
+Setcolor,51,43,27
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-1.6,0.05,6,
+AddVertex,-1.6,0.05,13,
+Addvertex, 5.6,0.05,13,
+Addvertex, 5.6,0.05,6,
+Addface,0,1,2,3
+Setcolor,0,0,0,120,
+GenerateNormals,

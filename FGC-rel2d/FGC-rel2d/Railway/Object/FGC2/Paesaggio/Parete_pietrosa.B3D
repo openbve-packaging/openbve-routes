@@ -1,0 +1,19 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Parete pietrosa
+
+[meshbuilder]
+vertex -4.0,5.90,-0.12
+vertex -4.0,5.90,12
+vertex -2.3,-0.40, 12
+vertex -2.3,-0.40,-0.12
+face 0,1,2,3
+[texture]
+load Parete_pietra.bmp
+transparent 0,0,255
+coordinates 0,  0 , 0
+coordinates 1,  1 , 0
+coordinates 2,  1 , 1
+coordinates 3,  0 , 1

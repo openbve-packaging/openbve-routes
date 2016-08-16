@@ -1,0 +1,38 @@
+;********************************************
+;* West Coast Main Line BVE route object    *
+;********************************************
+;* Watford Junction - Milton Keynes Central *
+;* Object version 3                         *
+;********************************************
+
+[MeshBuilder]
+Vertex 3, 6, 0
+Vertex 3, -0.3, 0
+Vertex -3, -0.3, 0
+Vertex -3, 6, 0
+Face 0,1,2,3
+Face 3,2,1,0
+
+[Texture]
+Load t1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 0
+
+[MeshBuilder]
+Vertex 0, 6, 3
+Vertex 0, -0.3, 3
+Vertex 0, -0.3, -3
+Vertex 0, 6, -3
+Face 0,1,2,3
+Face 3,2,1,0
+
+[Texture]
+Load t1.bmp
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Transparent 0, 0, 0

@@ -1,0 +1,107 @@
+CreateMeshBuilder, ; palo
+cylinder, 6,0.15,0.25,13.8
+translate, 2.45,6.3,0
+SetColor, 176, 176, 176,
+
+;;head
+CreateMeshBuilder,
+AddVertex,2.6,  10.8, 0,
+AddVertex,4.2,  10.8, 0,
+AddVertex,4.2,  9.6,   0,
+AddVertex,2.6,  9.6,   0,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Hv_arm1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;fili
+;CreateMeshBuilder,
+;AddVertex,4.0,  10.8, 0.5,
+;AddVertex,4.0,  10.8, -25,
+;AddVertex,4.0,  9.3,  -25,
+;AddVertex,4.0,  9.3,   0.5,
+;AddFace2,0,1,2,3,
+;GenerateNormals,
+
+;LoadTexture,Hv_wires.bmp,
+;SetTextureCoordinates,0, 0, 0,
+;SetTextureCoordinates,1, 1, 0,
+;SetTextureCoordinates,2, 1, 1,
+;SetTextureCoordinates,3, 0, 1,
+;SetDecalTransparentColor,0,0,255,
+
+
+
+;head
+CreateMeshBuilder,
+AddVertex,2.3,  11.8, 0,
+AddVertex,0.7,  11.8, 0,
+AddVertex,0.7,  10.6,   0,
+AddVertex,2.3,  10.6,   0,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Hv_arm1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;fili
+;CreateMeshBuilder,
+;AddVertex,0.9,  11.8, 0.5,
+;AddVertex,0.9,  11.8, -25,
+;AddVertex,0.9,  10.3, -25,
+;AddVertex,0.9,  10.3, 0.5,
+;AddFace2,0,1,2,3,
+;GenerateNormals,
+
+;LoadTexture,Hv_wires.bmp,
+;SetTextureCoordinates,0, 0, 0,
+;SetTextureCoordinates,1, 1, 0,
+;SetTextureCoordinates,2, 1, 1,
+;SetTextureCoordinates,3, 0, 1,
+;SetDecalTransparentColor,0,0,255,
+
+
+;;head
+CreateMeshBuilder,
+AddVertex,2.6,  12.8, 0,
+AddVertex,4.2,  12.8, 0,
+AddVertex,4.2,  11.6,   0,
+AddVertex,2.6,  11.6,   0,
+AddFace,0,1,2,3,
+AddFace,3,2,1,0,
+GenerateNormals,
+
+LoadTexture,Hv_arm1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+;fili
+;CreateMeshBuilder,
+;AddVertex,4,  12.8, 0.5,
+;AddVertex,4,  12.8, -25,
+;AddVertex,4,  11.3, -25,
+;AddVertex,4,  11.3, 0.5,
+;AddFace2,0,1,2,3,
+;GenerateNormals,
+
+;LoadTexture,Hv_wires.bmp,
+;SetTextureCoordinates,0, 0, 0,
+;SetTextureCoordinates,1, 1, 0,
+;SetTextureCoordinates,2, 1, 1,
+;SetTextureCoordinates,3, 0, 1,
+;SetDecalTransparentColor,0,0,255,
+

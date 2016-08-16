@@ -1,0 +1,170 @@
+[Meshbuilder] 
+Vertex -9,8,0
+Vertex 9,8,0
+Vertex 9,-1,0
+Vertex -9,-1,0
+Face 0,1,2,3
+[Texture]
+Load pontemattoni.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,255
+;------------------------destro
+[Meshbuilder] 
+Vertex 0.5,3,0
+Vertex 0.5,3,16
+Vertex 0.5,-1,16
+Vertex 0.5,-1,0
+Face 0,1,2,3
+color 50,50,50
+
+[Meshbuilder] 
+Vertex 2,4.9,0
+Vertex 2,4.9,16
+Vertex 0.5,3,16
+Vertex 0.5,3,0
+Face 0,1,2,3
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex 3,5.5,0
+Vertex 3,5.5,16
+Vertex 2,4.9,16
+Vertex 2,4.9,0
+Face 0,1,2,3
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex 4,5.8,0
+Vertex 4,5.8,16
+Vertex 3,5.5,16
+Vertex 3,5.5,0
+Face 0,1,2,3
+color 50,50,50
+;----
+[Meshbuilder] 
+Vertex 5,5.8,0
+Vertex 5,5.8,16
+Vertex 4,5.8,16
+Vertex 4,5.8,0
+Face 0,1,2,3
+color 50,50,50
+;----
+[Meshbuilder] 
+Vertex 8.5,3,0
+Vertex 8.5,3,16
+Vertex 8.5,-1,16
+Vertex 8.5,-1,0
+Face 3,2,1,0
+color 50,50,50
+
+[Meshbuilder] 
+Vertex 7,4.9,0
+Vertex 7,4.9,16
+Vertex 8.5,3,16
+Vertex 8.5,3,0
+Face 3,2,1,0
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex 6,5.5,0
+Vertex 6,5.5,16
+Vertex 7,4.9,16
+Vertex 7,4.9,0
+Face 3,2,1,0
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex 5,5.8,0
+Vertex 5,5.8,16
+Vertex 6,5.5,16
+Vertex 6,5.5,0
+Face 3,2,1,0
+color 50,50,50
+
+
+
+
+
+;------------------------sinistro
+[Meshbuilder] 
+Vertex -8.5,3,0
+Vertex -8.5,3,16
+Vertex -8.5,-1,16
+Vertex -8.5,-1,0
+Face 0,1,2,3
+color 50,50,50
+
+[Meshbuilder] 
+Vertex -7,4.9,0
+Vertex -7,4.9,16
+Vertex -8.5,3,16
+Vertex -8.5,3,0
+Face 0,1,2,3
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex -6,5.5,0
+Vertex -6,5.5,16
+Vertex -7,4.9,16
+Vertex -7,4.9,0
+Face 0,1,2,3
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex -5,5.8,0
+Vertex -5,5.8,16
+Vertex -6,5.5,16
+Vertex -6,5.5,0
+Face 0,1,2,3
+color 50,50,50
+;----
+[Meshbuilder] 
+Vertex -4,5.8,0
+Vertex -4,5.8,16
+Vertex -5,5.8,16
+Vertex -5,5.8,0
+Face 0,1,2,3
+color 50,50,50
+;----
+[Meshbuilder] 
+Vertex -0.5,3,0
+Vertex -0.5,3,16
+Vertex -0.5,-1,16
+Vertex -0.5,-1,0
+Face 3,2,1,0
+color 50,50,50
+
+[Meshbuilder] 
+Vertex -2,4.9,0
+Vertex -2,4.9,16
+Vertex -0.5,3,16
+Vertex -0.5,3,0
+Face 3,2,1,0
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex -3,5.5,0
+Vertex -3,5.5,16
+Vertex -2,4.9,16
+Vertex -2,4.9,0
+Face 3,2,1,0
+color 50,50,50
+
+
+[Meshbuilder] 
+Vertex -4,5.8,0
+Vertex -4,5.8,16
+Vertex -3,5.5,16
+Vertex -3,5.5,0
+Face 3,2,1,0
+color 50,50,50

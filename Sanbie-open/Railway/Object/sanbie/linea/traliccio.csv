@@ -1,0 +1,85 @@
+CreateMeshBuilder, ; mensola
+AddVertex,-2.5,0,0,
+AddVertex,-3.5,0,0,
+AddVertex,-3.1,10,0,
+Addvertex,-2.6,10,0,
+Addface, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, traliccio.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,7
+setTextureCoordinates, 3,0,7
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder, ; mensola1
+AddVertex,-2.5,0,0,
+AddVertex,-2.5,0,1,
+AddVertex,-2.5,10,1,
+Addvertex,-2.5,10,0,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, traliccio.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,7
+setTextureCoordinates, 3,0,7
+SetDecalTransparentColor,0,0,255,
+
+
+CreateMeshBuilder, ; filo 
+AddVertex,-2.5,10,0.5,
+AddVertex,-2.5,8.5,0.5,
+AddVertex,22.5,8.5,0.5,
+Addvertex,22.5,10,0.5,
+Addface2, 2,3,1,0,
+GenerateNormals,
+
+Loadtexture, hv_wires.bmp
+setTextureCoordinates, 0,1,0
+setTextureCoordinates, 1,1,1
+setTextureCoordinates, 2,0,1
+setTextureCoordinates, 3,0,0
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder, ; mensola
+AddVertex,22.5,0,0,
+AddVertex,23.5,0,0,
+AddVertex,23.1,10,0,
+Addvertex,22.6,10,0,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, traliccio.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,7
+setTextureCoordinates, 3,0,7
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder, ; mensola1
+AddVertex,22.5,0,0,
+AddVertex,22.5,0,1,
+AddVertex,22.5,10,1,
+Addvertex,22.5,10,0,
+Addface, 0,1,2,3
+GenerateNormals,
+
+Loadtexture, traliccio.bmp
+setTextureCoordinates, 0,0,0
+setTextureCoordinates, 1,1,0
+setTextureCoordinates, 2,1,7
+setTextureCoordinates, 3,0,7
+SetDecalTransparentColor,0,0,255,
+
+
+;;basamento
+
+CreateMeshBuilder,
+Cube, 1.5,0.2,1.5,
+Translate, -3,0,0.5,
+GenerateNormals,
+Setcolor,70,70,45,
+

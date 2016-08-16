@@ -1,0 +1,44 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Muretto con mancorrente diritto da palo a palo
+
+[MeshBuilder]
+vertex 1.8 ,  0.4 , 24.75
+vertex 1.8 ,  0.4 , 0.25
+vertex 1.8 , -1.4 , 0.25
+vertex 1.8 , -1.4 , 24.75
+vertex 2.4 , 0.4 ,  24.75
+vertex 2.4 , 0.4 ,  0.25
+vertex 2.4 , -1.4 , 24.75
+vertex 2.4 , -1.4 , 0.25
+Face 0,1,2,3
+Face 4,5,1,0
+Face2 7,6,5,4
+[texture]
+load Muro_pietre3.bmp
+Coordinates 0, 0, 0.33
+coordinates 1, 10, 0.33
+coordinates 2, 10, 1
+coordinates 3, 0, 1
+coordinates 4, 0, 0.52
+coordinates 5, 10, 0.52
+coordinates 6, 0, 1
+coordinates 7, 10, 1
+translate 0,-0.4,0
+
+[meshbuilder] ; mancorrente tratto diritto
+vertex 2.1,0.9,24.75
+vertex 2.1,0.9,0.25 
+vertex 2.1, 0 ,0.25 
+vertex 2.1, 0 ,24.75
+Face2 0,1,2,3
+[texture]
+load MancorrenteBN1.bmp
+Coordinates 0,-0.05,0
+Coordinates 1,15,0
+Coordinates 2,15,1
+Coordinates 3,-0.05,1
+transparent 255,255,255
+

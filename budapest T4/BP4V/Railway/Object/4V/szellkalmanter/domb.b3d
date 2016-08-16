@@ -1,0 +1,1998 @@
+
+
+
+;Házgeneráló program, terepépítõ modul.
+;2010 Copyright (C) Riesz József
+;Nullpont a bal elsõ sarok
+;Az obektum textúrázása a Te feladatod!
+;Paraméterek:
+;Alapterület:    4.000x 255.000m
+;Alapterület:    1.000x 116.000
+;
+[Meshbuilder];1.1
+Vertex  0.000, 0.000, 0.000
+Vertex  0.000, 0.060, 2.198
+Vertex  4.000, 0.060, 2.198
+Vertex  4.000, 0.000, 0.000
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.2
+Vertex  0.000, 0.060, 2.198
+Vertex  0.000, 0.121, 4.397
+Vertex  4.000, 0.121, 4.397
+Vertex  4.000, 0.060, 2.198
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.3
+Vertex  0.000, 0.121, 4.397
+Vertex  0.000, 0.181, 6.595
+Vertex  4.000, 0.181, 6.595
+Vertex  4.000, 0.121, 4.397
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.4
+Vertex  0.000, 0.181, 6.595
+Vertex  0.000, 0.241, 8.793
+Vertex  4.000, 0.241, 8.793
+Vertex  4.000, 0.181, 6.595
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.5
+Vertex  0.000, 0.241, 8.793
+Vertex  0.000, 0.302,10.991
+Vertex  4.000, 0.302,10.991
+Vertex  4.000, 0.241, 8.793
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.6
+Vertex  0.000, 0.302,10.991
+Vertex  0.000, 0.362,13.190
+Vertex  4.000, 0.362,13.190
+Vertex  4.000, 0.302,10.991
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.7
+Vertex  0.000, 0.362,13.190
+Vertex  0.000, 0.422,15.388
+Vertex  4.000, 0.422,15.388
+Vertex  4.000, 0.362,13.190
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.8
+Vertex  0.000, 0.422,15.388
+Vertex  0.000, 0.483,17.586
+Vertex  4.000, 0.483,17.586
+Vertex  4.000, 0.422,15.388
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.9
+Vertex  0.000, 0.483,17.586
+Vertex  0.000, 0.543,19.784
+Vertex  4.000, 0.543,19.784
+Vertex  4.000, 0.483,17.586
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.10
+Vertex  0.000, 0.543,19.784
+Vertex  0.000, 0.603,21.983
+Vertex  4.000, 0.603,21.983
+Vertex  4.000, 0.543,19.784
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.11
+Vertex  0.000, 0.603,21.983
+Vertex  0.000, 0.664,24.181
+Vertex  4.000, 0.664,24.181
+Vertex  4.000, 0.603,21.983
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.12
+Vertex  0.000, 0.664,24.181
+Vertex  0.000, 0.724,26.379
+Vertex  4.000, 0.724,26.379
+Vertex  4.000, 0.664,24.181
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.13
+Vertex  0.000, 0.724,26.379
+Vertex  0.000, 0.784,28.578
+Vertex  4.000, 0.784,28.578
+Vertex  4.000, 0.724,26.379
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.14
+Vertex  0.000, 0.784,28.578
+Vertex  0.000, 0.845,30.776
+Vertex  4.000, 0.845,30.776
+Vertex  4.000, 0.784,28.578
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.15
+Vertex  0.000, 0.845,30.776
+Vertex  0.000, 0.905,32.974
+Vertex  4.000, 0.905,32.974
+Vertex  4.000, 0.845,30.776
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.16
+Vertex  0.000, 0.905,32.974
+Vertex  0.000, 0.966,35.172
+Vertex  4.000, 0.966,35.172
+Vertex  4.000, 0.905,32.974
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.17
+Vertex  0.000, 0.966,35.172
+Vertex  0.000, 1.026,37.371
+Vertex  4.000, 1.026,37.371
+Vertex  4.000, 0.966,35.172
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.18
+Vertex  0.000, 1.026,37.371
+Vertex  0.000, 1.086,39.569
+Vertex  4.000, 1.086,39.569
+Vertex  4.000, 1.026,37.371
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.19
+Vertex  0.000, 1.086,39.569
+Vertex  0.000, 1.147,41.767
+Vertex  4.000, 1.147,41.767
+Vertex  4.000, 1.086,39.569
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.20
+Vertex  0.000, 1.147,41.767
+Vertex  0.000, 1.207,43.966
+Vertex  4.000, 1.207,43.966
+Vertex  4.000, 1.147,41.767
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.21
+Vertex  0.000, 1.207,43.966
+Vertex  0.000, 1.267,46.164
+Vertex  4.000, 1.267,46.164
+Vertex  4.000, 1.207,43.966
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.22
+Vertex  0.000, 1.267,46.164
+Vertex  0.000, 1.328,48.362
+Vertex  4.000, 1.328,48.362
+Vertex  4.000, 1.267,46.164
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.23
+Vertex  0.000, 1.328,48.362
+Vertex  0.000, 1.388,50.560
+Vertex  4.000, 1.388,50.560
+Vertex  4.000, 1.328,48.362
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.24
+Vertex  0.000, 1.388,50.560
+Vertex  0.000, 1.448,52.759
+Vertex  4.000, 1.448,52.759
+Vertex  4.000, 1.388,50.560
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.25
+Vertex  0.000, 1.448,52.759
+Vertex  0.000, 1.509,54.957
+Vertex  4.000, 1.509,54.957
+Vertex  4.000, 1.448,52.759
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.26
+Vertex  0.000, 1.509,54.957
+Vertex  0.000, 1.569,57.155
+Vertex  4.000, 1.569,57.155
+Vertex  4.000, 1.509,54.957
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.27
+Vertex  0.000, 1.569,57.155
+Vertex  0.000, 1.629,59.353
+Vertex  4.000, 1.629,59.353
+Vertex  4.000, 1.569,57.155
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.28
+Vertex  0.000, 1.629,59.353
+Vertex  0.000, 1.690,61.552
+Vertex  4.000, 1.690,61.552
+Vertex  4.000, 1.629,59.353
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.29
+Vertex  0.000, 1.690,61.552
+Vertex  0.000, 1.750,63.750
+Vertex  4.000, 1.750,63.750
+Vertex  4.000, 1.690,61.552
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.30
+Vertex  0.000, 1.750,63.750
+Vertex  0.000, 1.810,65.948
+Vertex  4.000, 1.810,65.948
+Vertex  4.000, 1.750,63.750
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.31
+Vertex  0.000, 1.810,65.948
+Vertex  0.000, 1.871,68.147
+Vertex  4.000, 1.871,68.147
+Vertex  4.000, 1.810,65.948
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.32
+Vertex  0.000, 1.871,68.147
+Vertex  0.000, 1.931,70.345
+Vertex  4.000, 1.931,70.345
+Vertex  4.000, 1.871,68.147
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.33
+Vertex  0.000, 1.931,70.345
+Vertex  0.000, 1.991,72.543
+Vertex  4.000, 1.991,72.543
+Vertex  4.000, 1.931,70.345
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.34
+Vertex  0.000, 1.991,72.543
+Vertex  0.000, 2.052,74.741
+Vertex  4.000, 2.052,74.741
+Vertex  4.000, 1.991,72.543
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.35
+Vertex  0.000, 2.052,74.741
+Vertex  0.000, 2.112,76.940
+Vertex  4.000, 2.112,76.940
+Vertex  4.000, 2.052,74.741
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.36
+Vertex  0.000, 2.112,76.940
+Vertex  0.000, 2.172,79.138
+Vertex  4.000, 2.172,79.138
+Vertex  4.000, 2.112,76.940
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.37
+Vertex  0.000, 2.172,79.138
+Vertex  0.000, 2.233,81.336
+Vertex  4.000, 2.233,81.336
+Vertex  4.000, 2.172,79.138
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.38
+Vertex  0.000, 2.233,81.336
+Vertex  0.000, 2.293,83.534
+Vertex  4.000, 2.293,83.534
+Vertex  4.000, 2.233,81.336
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.39
+Vertex  0.000, 2.293,83.534
+Vertex  0.000, 2.353,85.733
+Vertex  4.000, 2.353,85.733
+Vertex  4.000, 2.293,83.534
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.40
+Vertex  0.000, 2.353,85.733
+Vertex  0.000, 2.414,87.931
+Vertex  4.000, 2.414,87.931
+Vertex  4.000, 2.353,85.733
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.41
+Vertex  0.000, 2.414,87.931
+Vertex  0.000, 2.474,90.129
+Vertex  4.000, 2.474,90.129
+Vertex  4.000, 2.414,87.931
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.42
+Vertex  0.000, 2.474,90.129
+Vertex  0.000, 2.534,92.328
+Vertex  4.000, 2.534,92.328
+Vertex  4.000, 2.474,90.129
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.43
+Vertex  0.000, 2.534,92.328
+Vertex  0.000, 2.595,94.526
+Vertex  4.000, 2.595,94.526
+Vertex  4.000, 2.534,92.328
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.44
+Vertex  0.000, 2.595,94.526
+Vertex  0.000, 2.655,96.724
+Vertex  4.000, 2.655,96.724
+Vertex  4.000, 2.595,94.526
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.45
+Vertex  0.000, 2.655,96.724
+Vertex  0.000, 2.716,98.922
+Vertex  4.000, 2.716,98.922
+Vertex  4.000, 2.655,96.724
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.46
+Vertex  0.000, 2.716,98.922
+Vertex  0.000, 2.776,101.121
+Vertex  4.000, 2.776,101.121
+Vertex  4.000, 2.716,98.922
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.47
+Vertex  0.000, 2.776,101.121
+Vertex  0.000, 2.836,103.319
+Vertex  4.000, 2.836,103.319
+Vertex  4.000, 2.776,101.121
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.48
+Vertex  0.000, 2.836,103.319
+Vertex  0.000, 2.897,105.517
+Vertex  4.000, 2.897,105.517
+Vertex  4.000, 2.836,103.319
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.49
+Vertex  0.000, 2.897,105.517
+Vertex  0.000, 2.957,107.716
+Vertex  4.000, 2.957,107.716
+Vertex  4.000, 2.897,105.517
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.50
+Vertex  0.000, 2.957,107.716
+Vertex  0.000, 3.017,109.914
+Vertex  4.000, 3.017,109.914
+Vertex  4.000, 2.957,107.716
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.51
+Vertex  0.000, 3.017,109.914
+Vertex  0.000, 3.078,112.112
+Vertex  4.000, 3.078,112.112
+Vertex  4.000, 3.017,109.914
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.52
+Vertex  0.000, 3.078,112.112
+Vertex  0.000, 3.138,114.310
+Vertex  4.000, 3.138,114.310
+Vertex  4.000, 3.078,112.112
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.53
+Vertex  0.000, 3.138,114.310
+Vertex  0.000, 3.198,116.509
+Vertex  4.000, 3.198,116.509
+Vertex  4.000, 3.138,114.310
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.54
+Vertex  0.000, 3.198,116.509
+Vertex  0.000, 3.259,118.707
+Vertex  4.000, 3.259,118.707
+Vertex  4.000, 3.198,116.509
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.55
+Vertex  0.000, 3.259,118.707
+Vertex  0.000, 3.319,120.905
+Vertex  4.000, 3.319,120.905
+Vertex  4.000, 3.259,118.707
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.56
+Vertex  0.000, 3.319,120.905
+Vertex  0.000, 3.379,123.103
+Vertex  4.000, 3.379,123.103
+Vertex  4.000, 3.319,120.905
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.57
+Vertex  0.000, 3.379,123.103
+Vertex  0.000, 3.440,125.302
+Vertex  4.000, 3.440,125.302
+Vertex  4.000, 3.379,123.103
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.58
+Vertex  0.000, 3.440,125.302
+Vertex  0.000, 3.500,127.500
+Vertex  4.000, 3.500,127.500
+Vertex  4.000, 3.440,125.302
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.59
+Vertex  0.000, 3.500,127.500
+Vertex  0.000, 3.560,129.698
+Vertex  4.000, 3.560,129.698
+Vertex  4.000, 3.500,127.500
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.60
+Vertex  0.000, 3.560,129.698
+Vertex  0.000, 3.621,131.897
+Vertex  4.000, 3.621,131.897
+Vertex  4.000, 3.560,129.698
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.61
+Vertex  0.000, 3.621,131.897
+Vertex  0.000, 3.681,134.095
+Vertex  4.000, 3.681,134.095
+Vertex  4.000, 3.621,131.897
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.62
+Vertex  0.000, 3.681,134.095
+Vertex  0.000, 3.741,136.293
+Vertex  4.000, 3.741,136.293
+Vertex  4.000, 3.681,134.095
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.63
+Vertex  0.000, 3.741,136.293
+Vertex  0.000, 3.802,138.491
+Vertex  4.000, 3.802,138.491
+Vertex  4.000, 3.741,136.293
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.64
+Vertex  0.000, 3.802,138.491
+Vertex  0.000, 3.862,140.690
+Vertex  4.000, 3.862,140.690
+Vertex  4.000, 3.802,138.491
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.65
+Vertex  0.000, 3.862,140.690
+Vertex  0.000, 3.922,142.888
+Vertex  4.000, 3.922,142.888
+Vertex  4.000, 3.862,140.690
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.66
+Vertex  0.000, 3.922,142.888
+Vertex  0.000, 3.983,145.086
+Vertex  4.000, 3.983,145.086
+Vertex  4.000, 3.922,142.888
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.67
+Vertex  0.000, 3.983,145.086
+Vertex  0.000, 4.043,147.284
+Vertex  4.000, 4.043,147.284
+Vertex  4.000, 3.983,145.086
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.68
+Vertex  0.000, 4.043,147.284
+Vertex  0.000, 4.103,149.483
+Vertex  4.000, 4.103,149.483
+Vertex  4.000, 4.043,147.284
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.69
+Vertex  0.000, 4.103,149.483
+Vertex  0.000, 4.164,151.681
+Vertex  4.000, 4.164,151.681
+Vertex  4.000, 4.103,149.483
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.70
+Vertex  0.000, 4.164,151.681
+Vertex  0.000, 4.224,153.879
+Vertex  4.000, 4.224,153.879
+Vertex  4.000, 4.164,151.681
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.71
+Vertex  0.000, 4.224,153.879
+Vertex  0.000, 4.284,156.078
+Vertex  4.000, 4.284,156.078
+Vertex  4.000, 4.224,153.879
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.72
+Vertex  0.000, 4.284,156.078
+Vertex  0.000, 4.345,158.276
+Vertex  4.000, 4.345,158.276
+Vertex  4.000, 4.284,156.078
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.73
+Vertex  0.000, 4.345,158.276
+Vertex  0.000, 4.405,160.474
+Vertex  4.000, 4.405,160.474
+Vertex  4.000, 4.345,158.276
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.74
+Vertex  0.000, 4.405,160.474
+Vertex  0.000, 4.466,162.672
+Vertex  4.000, 4.466,162.672
+Vertex  4.000, 4.405,160.474
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.75
+Vertex  0.000, 4.466,162.672
+Vertex  0.000, 4.526,164.871
+Vertex  4.000, 4.526,164.871
+Vertex  4.000, 4.466,162.672
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.76
+Vertex  0.000, 4.526,164.871
+Vertex  0.000, 4.586,167.069
+Vertex  4.000, 4.586,167.069
+Vertex  4.000, 4.526,164.871
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.77
+Vertex  0.000, 4.586,167.069
+Vertex  0.000, 4.647,169.267
+Vertex  4.000, 4.647,169.267
+Vertex  4.000, 4.586,167.069
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.78
+Vertex  0.000, 4.647,169.267
+Vertex  0.000, 4.707,171.466
+Vertex  4.000, 4.707,171.466
+Vertex  4.000, 4.647,169.267
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.79
+Vertex  0.000, 4.707,171.466
+Vertex  0.000, 4.767,173.664
+Vertex  4.000, 4.767,173.664
+Vertex  4.000, 4.707,171.466
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.80
+Vertex  0.000, 4.767,173.664
+Vertex  0.000, 4.828,175.862
+Vertex  4.000, 4.828,175.862
+Vertex  4.000, 4.767,173.664
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.81
+Vertex  0.000, 4.828,175.862
+Vertex  0.000, 4.888,178.060
+Vertex  4.000, 4.888,178.060
+Vertex  4.000, 4.828,175.862
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.82
+Vertex  0.000, 4.888,178.060
+Vertex  0.000, 4.948,180.259
+Vertex  4.000, 4.948,180.259
+Vertex  4.000, 4.888,178.060
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.83
+Vertex  0.000, 4.948,180.259
+Vertex  0.000, 5.009,182.457
+Vertex  4.000, 5.009,182.457
+Vertex  4.000, 4.948,180.259
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.84
+Vertex  0.000, 5.009,182.457
+Vertex  0.000, 5.069,184.655
+Vertex  4.000, 5.069,184.655
+Vertex  4.000, 5.009,182.457
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.85
+Vertex  0.000, 5.069,184.655
+Vertex  0.000, 5.129,186.853
+Vertex  4.000, 5.129,186.853
+Vertex  4.000, 5.069,184.655
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.86
+Vertex  0.000, 5.129,186.853
+Vertex  0.000, 5.190,189.052
+Vertex  4.000, 5.190,189.052
+Vertex  4.000, 5.129,186.853
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.87
+Vertex  0.000, 5.190,189.052
+Vertex  0.000, 5.250,191.250
+Vertex  4.000, 5.250,191.250
+Vertex  4.000, 5.190,189.052
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.88
+Vertex  0.000, 5.250,191.250
+Vertex  0.000, 5.310,193.448
+Vertex  4.000, 5.310,193.448
+Vertex  4.000, 5.250,191.250
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.89
+Vertex  0.000, 5.310,193.448
+Vertex  0.000, 5.371,195.647
+Vertex  4.000, 5.371,195.647
+Vertex  4.000, 5.310,193.448
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.90
+Vertex  0.000, 5.371,195.647
+Vertex  0.000, 5.431,197.845
+Vertex  4.000, 5.431,197.845
+Vertex  4.000, 5.371,195.647
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.91
+Vertex  0.000, 5.431,197.845
+Vertex  0.000, 5.491,200.043
+Vertex  4.000, 5.491,200.043
+Vertex  4.000, 5.431,197.845
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.92
+Vertex  0.000, 5.491,200.043
+Vertex  0.000, 5.552,202.241
+Vertex  4.000, 5.552,202.241
+Vertex  4.000, 5.491,200.043
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.93
+Vertex  0.000, 5.552,202.241
+Vertex  0.000, 5.612,204.440
+Vertex  4.000, 5.612,204.440
+Vertex  4.000, 5.552,202.241
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.94
+Vertex  0.000, 5.612,204.440
+Vertex  0.000, 5.672,206.638
+Vertex  4.000, 5.672,206.638
+Vertex  4.000, 5.612,204.440
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.95
+Vertex  0.000, 5.672,206.638
+Vertex  0.000, 5.733,208.836
+Vertex  4.000, 5.733,208.836
+Vertex  4.000, 5.672,206.638
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.96
+Vertex  0.000, 5.733,208.836
+Vertex  0.000, 5.793,211.034
+Vertex  4.000, 5.793,211.034
+Vertex  4.000, 5.733,208.836
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.97
+Vertex  0.000, 5.793,211.034
+Vertex  0.000, 5.853,213.233
+Vertex  4.000, 5.853,213.233
+Vertex  4.000, 5.793,211.034
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.98
+Vertex  0.000, 5.853,213.233
+Vertex  0.000, 5.914,215.431
+Vertex  4.000, 5.914,215.431
+Vertex  4.000, 5.853,213.233
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.99
+Vertex  0.000, 5.914,215.431
+Vertex  0.000, 5.974,217.629
+Vertex  4.000, 5.974,217.629
+Vertex  4.000, 5.914,215.431
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.100
+Vertex  0.000, 5.974,217.629
+Vertex  0.000, 6.034,219.828
+Vertex  4.000, 6.034,219.828
+Vertex  4.000, 5.974,217.629
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.101
+Vertex  0.000, 6.034,219.828
+Vertex  0.000, 6.095,222.026
+Vertex  4.000, 6.095,222.026
+Vertex  4.000, 6.034,219.828
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.102
+Vertex  0.000, 6.095,222.026
+Vertex  0.000, 6.155,224.224
+Vertex  4.000, 6.155,224.224
+Vertex  4.000, 6.095,222.026
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.103
+Vertex  0.000, 6.155,224.224
+Vertex  0.000, 6.216,226.422
+Vertex  4.000, 6.216,226.422
+Vertex  4.000, 6.155,224.224
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.104
+Vertex  0.000, 6.216,226.422
+Vertex  0.000, 6.276,228.621
+Vertex  4.000, 6.276,228.621
+Vertex  4.000, 6.216,226.422
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.105
+Vertex  0.000, 6.276,228.621
+Vertex  0.000, 6.336,230.819
+Vertex  4.000, 6.336,230.819
+Vertex  4.000, 6.276,228.621
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.106
+Vertex  0.000, 6.336,230.819
+Vertex  0.000, 6.397,233.017
+Vertex  4.000, 6.397,233.017
+Vertex  4.000, 6.336,230.819
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.107
+Vertex  0.000, 6.397,233.017
+Vertex  0.000, 6.457,235.216
+Vertex  4.000, 6.457,235.216
+Vertex  4.000, 6.397,233.017
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.108
+Vertex  0.000, 6.457,235.216
+Vertex  0.000, 6.517,237.414
+Vertex  4.000, 6.517,237.414
+Vertex  4.000, 6.457,235.216
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.109
+Vertex  0.000, 6.517,237.414
+Vertex  0.000, 6.578,239.612
+Vertex  4.000, 6.578,239.612
+Vertex  4.000, 6.517,237.414
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.110
+Vertex  0.000, 6.578,239.612
+Vertex  0.000, 6.638,241.810
+Vertex  4.000, 6.638,241.810
+Vertex  4.000, 6.578,239.612
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.111
+Vertex  0.000, 6.638,241.810
+Vertex  0.000, 6.698,244.009
+Vertex  4.000, 6.698,244.009
+Vertex  4.000, 6.638,241.810
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.112
+Vertex  0.000, 6.698,244.009
+Vertex  0.000, 6.759,246.207
+Vertex  4.000, 6.759,246.207
+Vertex  4.000, 6.698,244.009
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.113
+Vertex  0.000, 6.759,246.207
+Vertex  0.000, 6.819,248.405
+Vertex  4.000, 6.819,248.405
+Vertex  4.000, 6.759,246.207
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.114
+Vertex  0.000, 6.819,248.405
+Vertex  0.000, 6.879,250.603
+Vertex  4.000, 6.879,250.603
+Vertex  4.000, 6.819,248.405
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.115
+Vertex  0.000, 6.879,250.603
+Vertex  0.000, 6.940,252.802
+Vertex  4.000, 6.940,252.802
+Vertex  4.000, 6.879,250.603
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.116
+Vertex  0.000, 6.940,252.802
+Vertex  0.000, 7.000,255.000
+Vertex  4.000, 7.000,255.000
+Vertex  4.000, 6.940,252.802
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+RotateAll  0,1,0,-90
+TranslateAll 259,0,55
+
+[Meshbuilder]
+Vertex 4,0,0
+Vertex 4,7,55
+Vertex 4,7.1,55
+Vertex 4,0.1,0
+Face2 0,1,2,3
+Color 50,50,50
+
+[Meshbuilder]
+Vertex 5.5,0.1,0
+Vertex 4,0.1,0
+Vertex 4,7.1,55
+Vertex 5.5,7.1,55
+Face2 0,1,2,3
+Color 50,50,50
+
+[Meshbuilder]
+Vertex 5.5,0,0
+Vertex 5.5,0.1,0
+Vertex 5.5,6.91,53.5
+Vertex 10,0,50
+Face2 0,1,2,3
+Load fu.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex 10,0,50
+Vertex 5.5,6.91,53.5
+Vertex 259,0.1,53.5
+Vertex 259,0,53.5
+Face2 0,1,2,3
+Load fu.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,4,0
+Coordinates 3,4,1
+
+[Meshbuilder]
+Vertex 5.5,6.91,53.5
+Vertex 5.5,6.91,53.5
+Vertex 259,0.1,53.5
+Vertex 259,0,53.5
+Face2 0,1,2,3
+Color 50,50,50
+
+[Meshbuilder]
+Vertex 5.5,6.91,53.5
+Vertex 5.5,7.1,55
+Vertex 259,0,55
+Vertex 259,0,53.5
+Face2 0,1,2,3
+Color 50,50,50
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;Házgeneráló program, terepépítõ modul.
+;2010 Copyright (C) Riesz József
+;Nullpont a bal elsõ sarok
+;Az obektum textúrázása a Te feladatod!
+;Paraméterek:
+;Alapterület:    4.000x  55.000m
+;Alapterület:    1.000x  16.000
+;
+[Meshbuilder];1.1
+Vertex  0.000, 0.000, 0.000
+Vertex  0.000, 0.438, 3.438
+Vertex  4.000, 0.438, 3.438
+Vertex  4.000, 0.000, 0.000
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.2
+Vertex  0.000, 0.438, 3.438
+Vertex  0.000, 0.875, 6.875
+Vertex  4.000, 0.875, 6.875
+Vertex  4.000, 0.438, 3.438
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.3
+Vertex  0.000, 0.875, 6.875
+Vertex  0.000, 1.313,10.313
+Vertex  4.000, 1.313,10.313
+Vertex  4.000, 0.875, 6.875
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.4
+Vertex  0.000, 1.313,10.313
+Vertex  0.000, 1.750,13.750
+Vertex  4.000, 1.750,13.750
+Vertex  4.000, 1.313,10.313
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.5
+Vertex  0.000, 1.750,13.750
+Vertex  0.000, 2.188,17.188
+Vertex  4.000, 2.188,17.188
+Vertex  4.000, 1.750,13.750
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.6
+Vertex  0.000, 2.188,17.188
+Vertex  0.000, 2.625,20.625
+Vertex  4.000, 2.625,20.625
+Vertex  4.000, 2.188,17.188
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.7
+Vertex  0.000, 2.625,20.625
+Vertex  0.000, 3.063,24.063
+Vertex  4.000, 3.063,24.063
+Vertex  4.000, 2.625,20.625
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.8
+Vertex  0.000, 3.063,24.063
+Vertex  0.000, 3.500,27.500
+Vertex  4.000, 3.500,27.500
+Vertex  4.000, 3.063,24.063
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.9
+Vertex  0.000, 3.500,27.500
+Vertex  0.000, 3.938,30.938
+Vertex  4.000, 3.938,30.938
+Vertex  4.000, 3.500,27.500
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.10
+Vertex  0.000, 3.938,30.938
+Vertex  0.000, 4.375,34.375
+Vertex  4.000, 4.375,34.375
+Vertex  4.000, 3.938,30.938
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.11
+Vertex  0.000, 4.375,34.375
+Vertex  0.000, 4.813,37.813
+Vertex  4.000, 4.813,37.813
+Vertex  4.000, 4.375,34.375
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.12
+Vertex  0.000, 4.813,37.813
+Vertex  0.000, 5.250,41.250
+Vertex  4.000, 5.250,41.250
+Vertex  4.000, 4.813,37.813
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.13
+Vertex  0.000, 5.250,41.250
+Vertex  0.000, 5.688,44.688
+Vertex  4.000, 5.688,44.688
+Vertex  4.000, 5.250,41.250
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.14
+Vertex  0.000, 5.688,44.688
+Vertex  0.000, 6.125,48.125
+Vertex  4.000, 6.125,48.125
+Vertex  4.000, 5.688,44.688
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.15
+Vertex  0.000, 6.125,48.125
+Vertex  0.000, 6.563,51.563
+Vertex  4.000, 6.563,51.563
+Vertex  4.000, 6.125,48.125
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;
+[Meshbuilder];1.16
+Vertex  0.000, 6.563,51.563
+Vertex  0.000, 7.000,55.000
+Vertex  4.000, 7.000,55.000
+Vertex  4.000, 6.563,51.563
+Face2 0,1,2
+Face2 3,0,2
+[texture]
+load road1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;

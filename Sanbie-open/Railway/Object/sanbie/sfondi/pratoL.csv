@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex,-3.8, -0.25, 0,
+AddVertex,-3.8, -0.25, 25.3,
+AddVertex,-1.2, -0.25, 25.3,
+AddVertex,-1.2, -0.25, 0,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture, ..\alberi\grass1.bmp,
+SetTextureCoordinates,0, 1, 5,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 5,

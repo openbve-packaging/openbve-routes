@@ -1,0 +1,45 @@
+;Árpád híd korlát, 12 méter hosszú
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+;korlát
+;sárga-fekete
+[MeshBuilder]
+cube 0.02,0.02,6.05
+translate 0.00,2.1,6.0
+load mh_16_ah_kihuzo_korlat.bmp
+Coordinates 0,20,1
+Coordinates 1,20,0
+Coordinates 2,20,0
+Coordinates 3,20,1
+
+[MeshBuilder]
+cube 0.02,0.02,5.98
+translate 0.00,1.55,6.0
+color 60,60,60
+
+;szürke
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,0
+color 60,60,60
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,2.5
+color 60,60,60
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,5.0
+color 60,60,60
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,7.5
+color 60,60,60
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,10.0
+color 60,60,60
+[MeshBuilder]
+cube 0.02,0.55,0.02
+translate 0.00,1.55,12.0
+color 60,60,60

@@ -1,0 +1,46 @@
+[MeshBuilder]
+Vertex -1.9,-0.5,0
+Vertex -1.9,1.2,0
+Vertex -2.1,1.2,0
+Vertex -2.1,-0.5,0
+
+Vertex -1.9,1.2,0
+Vertex -1.9,-0.5,0
+Vertex -1.9,-0.5,25
+Vertex -1.9,1.7,25
+
+Vertex -1.9,1.2,0
+Vertex -1.9,1.7,25
+Vertex -2.1,1.7,25
+Vertex -2.1,1.2,0
+
+
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+
+Color 240, 220, 192
+
+[MeshBuilder]
+Vertex -1.9,-0.5,12.5
+Vertex -1.9,1.75,12.5
+Vertex -2.1,1.75,12.5
+Vertex -2.1,-0.5,12.5
+
+Vertex -1.9,1.75,12.5
+Vertex -1.9,-0.5,12.5
+Vertex -1.9,-0.5,25
+Vertex -1.9,2.0,25
+
+Vertex -1.9,1.75,12.5
+Vertex -1.9,2.0,25
+Vertex -2.1,2.0,25
+Vertex -2.1,1.75,12.5
+
+
+Face2 0,1,2,3
+Face2 4,5,6,7
+Face2 8,9,10,11
+
+Color 240, 220, 192
+

@@ -1,0 +1,255 @@
+;ìSï«
+CreateMeshBuilder,
+AddVertex,-2.5, 6.0, 15
+AddVertex,-2.5, 6.0, 5
+AddVertex,-1.8, 6.0, 5
+AddVertex,-1.8,-0.6, 5
+AddVertex,-2.5,-0.6, 5
+AddVertex,-2.5,-0.6, 15
+ADdFace,0,1,4,5,
+AddFace,1,2,3,4
+LoadTexture,tollgatewall.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,2,0
+SetTextureCoordinates,3  ,2,1
+SetTextureCoordinates,4  ,1,1
+SetTextureCoordinates,5  ,0,1
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.5, 6.0, 15
+AddVertex,-2.5, 6.0, 5
+AddVertex,-1.8, 6.0, 5
+AddVertex,-1.8,-0.6, 5
+AddVertex,-2.5,-0.6, 5
+AddVertex,-2.5,-0.6, 15
+ADdFace,0,1,4,5,
+AddFace,1,2,3,4
+LoadTexture,tollgatewall.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,2,0
+SetTextureCoordinates,3  ,2,1
+SetTextureCoordinates,4  ,1,1
+SetTextureCoordinates,5  ,0,1
+GenerateNormals,
+Translate,11.3,,
+
+CreateMeshBuilder,
+Cylinder,4,0.3,0.3,7
+LoadTexture,tollgatewall.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetTextureCoordinates,4  ,0,0
+SetTextureCoordinates,5  ,1,0
+SetTextureCoordinates,6  ,1,1
+SetTextureCoordinates,7  ,0,1
+GenerateNormals,
+Translate,3.5,3,14
+
+;âÆç™
+CreateMeshBuilder,
+AddVertex,-2.9, 7.0, 15
+AddVertex,-2.9, 7.0, 4
+ADdvertex, 9.8, 7.0, 4
+AddVertex, 9.8, 6.0, 4
+AddVertex,-2.9, 6.0, 4
+AddVertex,-2.9, 6.0, 15
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+LoadTexture,tollgatewall.bmp
+SetTextureCoordinates,0  ,0,0.3
+SetTextureCoordinates,1  ,1,0.3
+SetTextureCoordinates,2  ,2,0.3
+SetTextureCoordinates,3  ,2,0.5
+SetTextureCoordinates,4  ,1,0.5
+SetTextureCoordinates,5  ,0,0.5
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.9, 6.0, 15, 
+AddVertex, 9.8, 6.0, 15
+AddVertex, 9.8, 6.0, 4
+AddVertex,-2.9, 6.0, 4
+AddFace2,0,1,2,3
+LoadTexture,tollgatewall.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+Setcolor,100,100,100
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex, 3.0, 0.0, 20
+AddVertex, 3.0, 0.0,-0.5
+AddVertex, 4.0, 0.0,-0.5
+AddVertex, 4.0,-1.2,-0.5
+AddVertex, 3.0,-1.2,-0.5
+AddVertex, 3.0,-1.2, 20
+ADdVertex, 4.0, 0.0, 20
+AddFace,0,1,4,5
+AddFace,1,2,3,4,
+AddFace,0,6,2,1
+GenerateNormals,
+
+;éxï•èä
+CreateMeshBuilder,
+ADdVertex, 3.0, 3.5, 7
+ADdVertex, 4.0, 3.5, 7
+AddVertex, 4.0, 0.0, 7
+AddVertex, 3.0, 0.0, 7
+AddFace,0,1,2,3
+LoadTexture,tollgate_a1.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+GenerateNormals,
+
+CreateMeshBuilder,
+ADdVertex, 3.0, 3.5, 12
+ADdVertex, 3.0, 3.5, 7
+AddVertex, 3.0, 0.0, 7
+AddVertex, 3.0, 0.0, 12
+AddFace,0,1,2,3
+LoadTexture,tollgate_b1.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+GenerateNormals,
+
+
+;êiì¸ã÷é~
+CreateMeshBuilder,
+ADdVertex,-0.5, 4.5, 5
+ADdVertex, 1.5, 4.5, 5
+AddVertex, 1.5, 3.0, 5
+AddVertex,-0.5, 3.0, 5
+AddFace,0,1,2,3
+LoadTexture,carstop_C.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+CreateMeshBuilder,
+ADdVertex,-0.5, 4.5, 5
+ADdVertex, 1.5, 4.5, 5
+AddVertex, 1.5, 3.0, 5
+AddVertex,-0.5, 3.0, 5
+AddFace,0,1,2,3
+LoadTexture,carstop_C.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+Translate,5.5
+
+;ínñº
+CreateMeshBuilder,
+ADdVertex, 1.0, 8.0, 3.98
+ADdVertex, 6.0, 8.0, 3.98
+AddVertex, 6.0, 7.0, 3.98
+AddVertex, 1.0, 7.0, 3.98
+AddFace,0,1,2,3
+LoadTexture,carstop_d1.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+
+CreateMeshBuilder,
+ADdVertex,-0.3, 6.0, 4
+ADdVertex, 1.3, 6.0, 4
+AddVertex, 1.3, 5.3, 4
+AddVertex,-0.3, 5.3, 4
+AddFace,0,1,2,3
+LoadTexture,carstop_e.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+CreateMeshBuilder,
+ADdVertex,-0.3, 6.0, 4
+ADdVertex, 1.3, 6.0, 4
+AddVertex, 1.3, 5.3, 4
+AddVertex,-0.3, 5.3, 4
+AddFace,0,1,2,3
+LoadTexture,carstop_e.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+Translate,5.5
+
+;ñ_
+CreateMeshBuilder,
+ADdVertex,-2.1, 1.0, 17
+ADdVertex,-1.85, 1.0, 17
+AddVertex,-1.85,-0.3, 17
+AddVertex,-2.1,-0.3, 17
+AddFace,0,1,2,3
+LoadTexture,carstop_f.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+Translate,5.5
+CreateMeshBuilder,
+ADdVertex,-2.1, 1.0, 6
+ADdVertex,-1.85, 1.0, 6
+AddVertex,-1.85,-0.3, 6
+AddVertex,-2.1,-0.3, 6
+AddFace,0,1,2,3
+LoadTexture,carstop_f.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+Translate,5.5
+CreateMeshBuilder,
+ADdVertex,-2.1, 1.0, 3
+ADdVertex,-1.85, 1.0, 3
+AddVertex,-1.85,-0.3, 3
+AddVertex,-2.1,-0.3, 3
+AddFace,0,1,2,3
+LoadTexture,carstop_f.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+Translate,5.5
+CreateMeshBuilder,
+ADdVertex,-2.1, 1.0, 0
+ADdVertex,-1.85, 1.0, 0
+AddVertex,-1.85,-0.3, 0
+AddVertex,-2.1,-0.3, 0
+AddFace,0,1,2,3
+LoadTexture,carstop_f.bmp
+SetTextureCoordinates,0  ,0,0
+SetTextureCoordinates,1  ,1,0
+SetTextureCoordinates,2  ,1,1
+SetTextureCoordinates,3  ,0,1
+SetDecalTransparentColor,0,0,0,
+GenerateNormals,
+Translate,5.5

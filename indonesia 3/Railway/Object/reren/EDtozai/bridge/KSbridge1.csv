@@ -1,0 +1,63 @@
+CreateMeshBuilder,
+AddVertex,8.5, -2.6, 0
+AddVertex,-2.6,-2.6, 0
+Addvertex,-2.6,-16.9, 0
+AddVertex,8.5, -16.9, 0
+AddFace,3,2,1,0,
+LoadTexture,KSbridge1.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,255,0,0
+GenerateNormals,
+Translate,0,0,-100,
+
+CreateMeshBuilder,
+AddVertex, 3.0, -2.6, 0
+ADdVertex, 4.7, -2.6, 0
+ADdVertex, 4.7, 43.0, 0
+AddVertex, 3.0, 43.0, 0
+AddFace,3,2,1,0,
+setcolor,200,210,200,
+GenerateNormals,
+Translate,0,0,-100,
+
+CreateMeshBuilder,
+AddVertex, 4.0, -2.6, -100
+AddVertex, 4.0, 43.0, 0
+AddVertex, 4.0, -2.6, 100
+AddVertex, 4.0, -2.6, 99
+AddVertex, 4.0, 42.0, 0
+AddVertex, 4.0, -2.6, -99
+AddFace,0,1,4,5,
+AddFace,1,2,3,4,
+setcolor,70,70,80,
+GenerateNormals,
+Translate,0,0,-100,
+
+CreateMeshBuilder,
+AddVertex, 4.0, -2.6, -70
+AddVertex, 4.0, 38.5, 0
+AddVertex, 4.0, -2.6, 70
+AddVertex, 4.0, -2.6, 69
+AddVertex, 4.0, 37.5, 0
+AddVertex, 4.0, -2.6, -69
+AddFace,0,1,4,5,
+AddFace,1,2,3,4,
+setcolor,70,70,80,
+GenerateNormals,
+Translate,0,0,-100,
+
+CreateMeshBuilder,
+AddVertex, 4.0, -2.6, -40
+AddVertex, 4.0, 32.5, 0
+AddVertex, 4.0, -2.6, 40
+AddVertex, 4.0, -2.6, 39
+AddVertex, 4.0, 31.5, 0
+AddVertex, 4.0, -2.6, -39
+AddFace,0,1,4,5,
+AddFace,1,2,3,4,
+setcolor,70,70,80,
+GenerateNormals,
+Translate,0,0,-100,

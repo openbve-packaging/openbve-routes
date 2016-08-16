@@ -1,0 +1,23 @@
+;vészfékezés kezdete jelzõ
+;Készítette: http://www.bvemetro.hu/
+
+[Meshbuilder]
+Vertex -0.65,-0.17,-0.2
+Vertex -0.65,0.03,0
+Vertex 0.65,0.03,0
+Vertex 0.65,-0.17,-0.2
+Face 0,1,2,3
+[Texture]
+Load megallas_v.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex 0.65,-0.17,0.2
+Vertex 0.65,0.03,0
+Vertex -0.65,0.03,0
+Vertex -0.65,-0.17,0.2
+Face 0,1,2,3
+Color 160,160,160

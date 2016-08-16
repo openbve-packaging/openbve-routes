@@ -1,0 +1,637 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;pavimento
+CreateMeshBuilder,
+AddVertex,5.2, 0.249, -25,
+AddVertex,5.2, 0.249, 25,
+AddVertex,2.5, 0.249, 25,
+AddVertex,2.8, 0.249, -25,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, -0.15, 0,
+SetTextureCoordinates,1, -0.15, 6,
+SetTextureCoordinates,2, -0.81, 6,
+SetTextureCoordinates,3, -0.81, 0,
+
+CreateMeshBuilder,
+AddVertex,9.2, 0.249, -75,
+AddVertex,5.2, 0.249, -25,
+AddVertex,2.8, 0.249, -25,
+AddVertex,8, 0.249, -75,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, -0.2, 0,
+SetTextureCoordinates,1, -0.2, 6,
+SetTextureCoordinates,2, -0.81, 6,
+SetTextureCoordinates,3, -0.81, 0,
+
+;;;;;;;;;;;;;;;;;;;;;;;
+;;;;FRONTE VERTICALE;;;
+;;;;;;;;;;;;;;;;;;;,;;;
+
+CreateMeshBuilder,
+AddVertex,11, -0.45, -87.5,
+AddVertex,8.8, -0.45, -87.8,
+AddVertex,8.8, 0.25, -87.8,
+AddVertex,11, 0.25, -87.5,
+AddFace,0, 1, 2, 3,
+translate, 1
+
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 3, 1,
+SetTextureCoordinates,2, 3, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;BORDO SX;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+;;;;;;;;;;;;;;;;;
+;;;;II AVANTI
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,1.4, 0.25, 12.5,
+AddVertex,1.5, 0.25, 25,
+AddVertex,2.7, 0.25, 25,
+AddVertex,2.6, 0.25, 12.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.245, 0,
+SetTextureCoordinates,3, 0.245, 3,
+
+;;;vertic
+CreateMeshBuilder,
+AddVertex,1.4, -0.45, 12.5,
+AddVertex,1.5, -0.45, 25,
+AddVertex,1.5, 0.25, 25,
+AddVertex,1.4, 0.25, 12.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+;;;;;;;;;;;;;;;;;
+;;;;I AVANTI
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,1.5, 0.25, 0,
+AddVertex,1.4, 0.25, 12.5,
+AddVertex,2.6, 0.25, 12.5,
+AddVertex,2.7, 0.25, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.245, 0,
+SetTextureCoordinates,3, 0.245, 3,
+
+;;;vertic
+CreateMeshBuilder,
+AddVertex,1.5, -0.45, 0,
+AddVertex,1.4, -0.45, 12.5,
+AddVertex,1.4, 0.25, 12.5,
+AddVertex,1.5, 0.25, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+
+;;;;;;;;;;;;;;;;;
+;;;;I indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,1.9, 0.25, -12.5,
+AddVertex,1.5, 0.25, 0,
+AddVertex,2.7, 0.25, 0,
+AddVertex,3.1, 0.25, -12.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.245, 0,
+SetTextureCoordinates,3, 0.245, 3,
+;;;vertic
+CreateMeshBuilder,
+AddVertex,1.9, -0.45, -12.5,
+AddVertex,1.5, -0.45, 0,
+AddVertex,1.5, 0.25, 0,
+AddVertex,1.9, 0.25, -12.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+;;;;;;;;;;;;;;;;;
+;;;;II indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,2.6, 0.25, -25,
+AddVertex,1.9, 0.25, -12.5,
+AddVertex,3.1, 0.25, -12.5,
+AddVertex,3.8, 0.25, -25,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.245, 0,
+SetTextureCoordinates,3, 0.245, 3,
+
+CreateMeshBuilder,
+AddVertex,2.6, -0.45, -25,
+AddVertex,1.9, -0.45, -12.5,
+AddVertex,1.9, 0.25, -12.5,
+AddVertex,2.6, 0.25, -25,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+;;;;;;;;;;;;;;;;;
+;;;;III indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,3.5, 0.25, -37.5,
+AddVertex,2.6, 0.25, -25,
+AddVertex,3.8, 0.25, -25,
+AddVertex,4.7, 0.25, -37.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.245, 0,
+SetTextureCoordinates,3, 0.245, 3,
+
+CreateMeshBuilder,
+AddVertex,3.5, -0.45, -37.5,
+AddVertex,2.6, -0.45, -25,
+AddVertex,2.6, 0.25, -25,
+AddVertex,3.5, 0.25, -37.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+;;;;;;;;;;;;;;;;;
+;;;;IV indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,4.7, 0.25, -50,
+AddVertex,3.5, 0.25, -37.5,
+AddVertex,4.7, 0.25, -37.5,
+AddVertex,5.9, 0.25, -50,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.245, 0,
+SetTextureCoordinates,3, 0.245, 3,
+
+CreateMeshBuilder,
+AddVertex,4.7, -0.45, -50,
+AddVertex,3.5, -0.45, -37.5,
+AddVertex,3.5, 0.25, -37.5,
+AddVertex,4.7, 0.25, -50,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+;;;;;;;;;;;;;;;;;
+;;;;V indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,6.1, 0.25, -62.5,
+AddVertex,4.7, 0.25, -50,
+AddVertex,5.9, 0.25, -50,
+AddVertex,7.3, 0.25, -62.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.245, 0,
+SetTextureCoordinates,3, 0.245, 3,
+
+CreateMeshBuilder,
+AddVertex,6.1, -0.45, -62.5,
+AddVertex,4.7, -0.45, -50,
+AddVertex,4.7, 0.25, -50,
+AddVertex,6.1, 0.25, -62.5,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+;;;;;;;;;;;;;;;;;
+;;;;VI indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,7.8, 0.25, -75,
+AddVertex,6.1, 0.25, -62.5,
+AddVertex,7.3, 0.25, -62.5,
+AddVertex,9, 0.25, -75,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.245, 0,
+SetTextureCoordinates,3, 0.245, 3,
+
+CreateMeshBuilder,
+AddVertex,7.8, -0.45, -75,
+AddVertex,6.1, -0.45, -62.5,
+AddVertex,6.1, 0.25, -62.5,
+AddVertex,7.8, 0.25, -75,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+
+
+;;;;;;;;;;;;;;;;;
+;;;;VII indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,9.8, 0.25, -87.8,
+AddVertex,7.8, 0.25, -75,
+AddVertex,9, 0.25, -75,
+AddVertex,11, 0.25, -87.65,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0.245, 0,
+SetTextureCoordinates,3, 0.245, 3,
+
+CreateMeshBuilder,
+AddVertex,9.8, -0.45, -87.8,
+AddVertex,7.8, -0.45, -75,
+AddVertex,7.8, 0.25, -75,
+AddVertex,9.8, 0.25, -87.8,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+
+
+
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;DX
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+;;;;;;;;;;;;;;;;;
+;;;;I+II AVANTI
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,1.5, 0.25, 0,
+AddVertex,2, 0.25, 25,
+AddVertex,3.2, 0.25, 25,
+AddVertex,2.7, 0.25, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+translate, 3.2
+
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0.735, 3,
+SetTextureCoordinates,1, 0.735, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+
+;;;vertic
+CreateMeshBuilder,
+AddVertex,2.7, -0.45, 0,
+AddVertex,3.2, -0.45, 25,
+AddVertex,3.2, 0.25, 25,
+AddVertex,2.7, 0.25, 0,
+AddFace,3, 2, 1, 0,
+translate, 3.2
+
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+
+;;;;;;;;;;;;;;;;;
+;;;;I indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,1.9, 0.25, -12.5,
+AddVertex,1.9, 0.25, 0,
+AddVertex,3.1, 0.25, 0,
+AddVertex,3.1, 0.25, -12.5,
+AddFace,0, 1, 2, 3,
+translate, 2.8
+
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0.735, 3,
+SetTextureCoordinates,1, 0.735, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+;;;vertic
+CreateMeshBuilder,
+AddVertex,3.1, -0.45, -12.5,
+AddVertex,3.1, -0.45, 0,
+AddVertex,3.1, 0.25, 0,
+AddVertex,3.1, 0.25, -12.5,
+AddFace,3, 2, 1, 0,
+translate, 2.8
+
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+;;;;;;;;;;;;;;;;;
+;;;;II indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,2.6, 0.25, -25,
+AddVertex,2.3, 0.25, -12.5,
+AddVertex,3.5, 0.25, -12.5,
+AddVertex,3.8, 0.25, -25,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+translate, 2.4
+
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0.735, 3,
+SetTextureCoordinates,1, 0.735, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+
+CreateMeshBuilder,
+AddVertex,3.8, -0.45, -25,
+AddVertex,3.5, -0.45, -12.5,
+AddVertex,3.5, 0.25, -12.5,
+AddVertex,3.8, 0.25, -25,
+AddFace,3, 2, 1, 0,
+translate, 2.4
+
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+;;;;;;;;;;;;;;;;;
+;;;;III indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,3.5, 0.25, -37.5,
+AddVertex,2.9, 0.25, -25,
+AddVertex,4.1, 0.25, -25,
+AddVertex,4.7, 0.25, -37.5,
+AddFace,0, 1, 2, 3,
+translate, 2.1
+
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0.735, 3,
+SetTextureCoordinates,1, 0.735, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+
+CreateMeshBuilder,
+AddVertex,4.7, -0.45, -37.5,
+AddVertex,4.1, -0.45, -25,
+AddVertex,4.1, 0.25, -25,
+AddVertex,4.7, 0.25, -37.5,
+AddFace,3, 2, 1, 0,
+translate, 2.1
+
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+;;;;;;;;;;;;;;;;;
+;;;;IV indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,4.7, 0.25, -50,
+AddVertex,3.9, 0.25, -37.5,
+AddVertex,5.1, 0.25, -37.5,
+AddVertex,5.9, 0.25, -50,
+AddFace,0, 1, 2, 3,
+translate, 1.7
+
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0.735, 3,
+SetTextureCoordinates,1, 0.735, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+
+CreateMeshBuilder,
+AddVertex,5.9, -0.45, -50,
+AddVertex,5.1, -0.45, -37.5,
+AddVertex,5.1, 0.25, -37.5,
+AddVertex,5.9, 0.25, -50,
+AddFace,3, 2, 1, 0,
+translate, 1.7
+
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+;;;;;;;;;;;;;;;;;
+;;;;V indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,10.2, 0.25, -62.5,
+AddVertex,9, 0.25, -50,
+AddVertex,10.2, 0.25, -50,
+AddVertex,11.4, 0.25, -62.5,
+AddFace,0, 1, 2, 3,
+translate, -2.6
+
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0.735, 3,
+SetTextureCoordinates,1, 0.735, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+
+CreateMeshBuilder,
+AddVertex,11.4, -0.45, -62.5,
+AddVertex,10.2, -0.45, -50,
+AddVertex,10.2, 0.25, -50,
+AddVertex,11.4, 0.25, -62.5,
+AddFace,3, 2, 1, 0,
+translate, -2.6
+
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+;;;;;;;;;;;;;;;;;
+;;;;VI indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,9, 0.25, -75,
+AddVertex,7.6, 0.25, -62.5,
+AddVertex,8.8, 0.25, -62.5,
+AddVertex,10.2, 0.25, -75,
+AddFace,0, 1, 2, 3,
+
+
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0.735, 3,
+SetTextureCoordinates,1, 0.735, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+
+CreateMeshBuilder,
+AddVertex,10.2, -0.45, -75,
+AddVertex,8.8, -0.45, -62.5,
+AddVertex,8.8, 0.25, -62.5,
+AddVertex,10.2, 0.25, -75,
+AddFace,3, 2, 1, 0,
+
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,
+
+
+
+;;;;;;;;;;;;;;;;;
+;;;;VII indietro
+;;;;;;;;;;;;;;;;;
+
+;;;bordo sinistro orizz
+CreateMeshBuilder,
+AddVertex,9.8, 0.24, -87.7,
+AddVertex,8, 0.25, -75,
+AddVertex,9.2, 0.25, -75,
+AddVertex,11, 0.24, -87.5,
+AddFace,0, 1, 2, 3,
+translate, 1
+
+GenerateNormals,
+LoadTexture,Form5.bmp,
+SetTextureCoordinates,0, 0.735, 3,
+SetTextureCoordinates,1, 0.735, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 3,
+
+CreateMeshBuilder,
+AddVertex,11, -0.45, -87.5,
+AddVertex,9.2, -0.45, -75,
+AddVertex,9.2, 0.25, -75,
+AddVertex,11, 0.25, -87.5,
+AddFace,3, 2, 1, 0,
+translate, 1
+
+GenerateNormals,
+LoadTexture,FormSide.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 12, 1,
+SetTextureCoordinates,2, 12, 0.45,
+SetTextureCoordinates,3, 0, 0.45,

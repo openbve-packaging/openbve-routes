@@ -1,0 +1,40 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 20, 0,
+AddVertex,35, 20, 0,
+AddVertex,35, 0, 0,
+AddFace,0, 1, 2, 3,
+Translate, 13, 0, 0,
+GenerateNormals,
+ 
+
+LoadTexture,sfondodxnervi.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+CreateMeshBuilder,
+AddVertex,-35, 0, 0,
+AddVertex,-35, 20, 0,
+AddVertex,0, 20, 0,
+AddVertex,0, 0, 0,
+AddFace,0, 1, 2, 3,
+Translate, -9, 0, 0,
+GenerateNormals,
+ 
+
+LoadTexture,sfondosxnervi.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0

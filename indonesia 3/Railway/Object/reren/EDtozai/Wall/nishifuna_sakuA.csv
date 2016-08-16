@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,-2.5,-0.44, 0,
+AddVertex,-2.5, 1.2, 0,
+AddVertex,-2.5, 1.2, 25.2,
+AddVertex,-2.5,-0.44, 25.2,
+AddFace2,0,1,2,3,
+LoadTexture,nishifuna_sakuA1.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 10, 0,
+SetTextureCoordinates,3, 10, 1,
+GenerateNormals,
+SetDecalTransparentColor,0,0,255

@@ -1,0 +1,38 @@
+;M3 gyorsforgalmi út 2
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;Rézsû
+
+[MeshBuilder]
+Vertex  -44.770, -00.200, -00.225
+Vertex  -45.799,  01.000,  00.000
+Vertex  -40.037,  02.000,  25.000
+Vertex  -38.088, -00.200,  24.551
+Face 0,1,2,3
+[Texture]
+Load fu.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 26.00, 00.00
+Coordinates  3, 26.00, 02.00
+
+;--------------------------------------
+
+;Szalagkorlát
+[meshbuilder]
+vertex -46.052,  1.000,  00.000
+vertex -46.052,  1.700,  00.000
+vertex -40.291,  2.700,  25.000
+vertex -40.291,  2.000,  25.000
+Face 0,1,2,3
+[Texture]
+Load gyorsf_szkorlat.bmp
+Coordinates  0, 00.00, 01.00
+Coordinates  1, 00.00, 00.00
+Coordinates  2, 05.00, 00.00
+Coordinates  3, 05.00, 01.00
+transparent 0,0,255
+
+;--------------------------------------

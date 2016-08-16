@@ -1,0 +1,30 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green
+
+CreateMeshBuilder,;front main
+Addvertex,3.2, 4, 0,
+Addvertex,3.2, 4, 15,
+Addvertex,3.2, -0.2, 15,
+Addvertex,3.2, -0.2, 0,
+AddFace,3,2,1,0,
+SetColor,100,100,100,
+GenerateNormals,
+LoadTexture,colin_stn1_2.png,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+CreateMeshBuilder,;side main
+AddVertex,6.2, -0.2, 0,
+AddVertex,6.2, 4, 0,
+AddVertex,3.2, 4, 0,
+AddVertex,3.2, -0.2, 0,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture,colin_stn1_2.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+

@@ -1,0 +1,257 @@
+; SerbAcqua.csv by Luigi Cartello cartello.luigi@tiscali.it
+
+; Oggetto BVE costruito interamente con istruzioni Cylinder
+; e Cube esclusive del formato CSV.
+; Dimostrazione di oggetti Cylinder e Cube con applicata texture
+
+; Questo oggetto, il cui ompiego è previsto mediante l'istruzione Freeobj,
+; non può essere collocato liberamente in qualsiasi posizione, ma deve
+; essere opportunamente orientato in modo da nascondere la faccia con
+; la texture anomala.
+; Di default è visibile correttamente 6 metri a sinistra del binario.
+
+; Riferimento da eliminare inizio -----------------------------------
+;CreateMeshBuilder
+;Cylinder,6,1.7,1.7,0.2
+;rotate,0,1,0,30
+;Translate,-6,4.1,0
+;SetColor,0,200,200
+; Riferimento da eliminare fine -----------------------------------
+
+CreateMeshBuilder ; Pilastro destro ant
+Cube,0.15,4.6
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,5 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,5
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,5
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,5
+rotate,0,1,0,-30
+rotate,1,0,0,-2
+rotate,0,0,1,2
+Translate,-4.70,4.0,0.73
+
+CreateMeshBuilder ; Pilastro destro post
+Cube,0.15,4.6
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,5 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,5
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,5
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,5
+rotate,0,1,0, 30
+rotate,1,0,0,2
+rotate,0,0,1,2
+Translate,-4.70,4.0,-0.73
+
+CreateMeshBuilder ; Pilastro sinistro ant
+Cube,0.15,4.6
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,5 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,5
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,5
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,5
+rotate,0,1,0,-60
+rotate,1,0,0,-2
+rotate,0,0,1,-2
+Translate,-7.30,4.0,0.73
+
+CreateMeshBuilder ; Pilastro sinistro post
+Cube,0.15,4.6
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,5 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,5
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,5
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,5
+rotate,0,1,0, 60
+rotate,1,0,0, 2
+rotate,0,0,1,-2
+Translate,-7.30,4.0,-0.73
+
+CreateMeshBuilder ; Pilastro centrale ant
+Cube,0.15,4.6
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,5 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,5
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,5
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,5
+rotate,1,0,0,-2.5
+Translate,-6,4.0,1.51
+
+CreateMeshBuilder ; Pilastro centrale post
+Cube,0.15,4.6
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,2 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,2
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,2
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,2
+rotate,1,0,0, 2.5
+Translate,-6,4.0,-1.51
+
+CreateMeshBuilder ; Traversa ant sin-centro
+Cube,0.12,0.84
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,2 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,2
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,2
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,2
+rotate,0,0,1, 90
+rotate,0,1,0,-30
+Translate,-6.68,4.1, 1.18
+
+CreateMeshBuilder ; Traversa post sin-centro
+Cube,0.12,0.84
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,2 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,2
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,2
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,2
+rotate,0,0,1, 90
+rotate,0,1,0, 30
+Translate,-6.68,4.1,-1.18
+
+CreateMeshBuilder ; Traversa ant centro-destra
+Cube,0.12,0.84
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,2 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,2
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,2
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,2
+rotate,0,0,1, 90
+rotate,0,1,0, 30
+Translate,-5.33,4.1, 1.18
+
+CreateMeshBuilder ; Traversa post centro-destra
+Cube,0.12,0.84
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,2 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,2
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,2
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,2
+rotate,0,0,1, 90
+rotate,0,1,0,-30
+Translate,-5.33,4.1,-1.18
+
+CreateMeshBuilder ; Traversa destra
+Cube,0.12,0.84
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,2 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,2
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,2
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,2
+rotate,0,0,1, 90
+rotate,0,1,0, 90
+Translate,-4.63,4.1,0
+
+CreateMeshBuilder ; Traversa sinistra
+Cube,0.12,0.84
+LoadTexture,cemento.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,2 
+SetTextureCoordinates,0,0.5,0
+SetTextureCoordinates,1,0.5,2
+SetTextureCoordinates,4,1,0
+SetTextureCoordinates,5,1,2
+SetTextureCoordinates,7,0.5,0
+SetTextureCoordinates,6,0.5,2
+rotate,0,0,1, 90
+rotate,0,1,0, 90
+Translate,-7.36,4.1,0
+
+CreateMeshBuilder ; zoccolo
+Cylinder,12,2.2,1.5,1
+Translate,-6,7.5,0
+SetColor,150,150,150
+
+CreateMeshBuilder ; anello su struttura
+Cylinder,12,1.6,1.6,0.2
+Translate,-6,7,0
+SetColor,200,200,200
+
+CreateMeshBuilder ; anello inferiore su corpo
+Cylinder,12,2.2,2.2,0.2
+Translate,-6,8.1,0
+SetColor,200,200,200
+
+CreateMeshBuilder ; Corpo principale
+Cylinder,12,2,2,4
+; Rotate,0,1,0,-195 ; Per posizionare correttamente i loghi
+                  ; e nascondere la 12a faccia
+Translate,-6,10.1,0
+SetColor,128,128,128
+
+CreateMeshBuilder ; anello superiore
+Cylinder,12,2.1,2.1,0.2
+Translate,-6,12.1,0
+SetColor,200,200,200
+
+CreateMeshBuilder ; coperchio
+Cylinder,12,0.4,2.11,0.7
+Translate,-6,12.45,0
+SetColor,128,128,128
+
+CreateMeshBuilder ; Aeratore
+Cube,0.4
+LoadTexture,aeratore.bmp
+SetTextureCoordinates,3,0,0
+SetTextureCoordinates,2,0,1 
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,1,1
+SetTextureCoordinates,4,2,0
+SetTextureCoordinates,5,2,1
+SetTextureCoordinates,7,1,0
+SetTextureCoordinates,6,1,1
+Translate,-6,13.15,0
+
+CreateMeshBuilder ; tettuccio aeratore
+Cylinder,12,0.1,0.7,0.4
+Translate,-6,13.8,0
+SetColor,128,128,128
+
+CreateMeshBuilder ; parafulmine
+Cylinder,3,0.05,0.05,0.6
+Translate,-6,14,0
+SetColor,128,128,128
+

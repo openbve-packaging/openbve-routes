@@ -1,0 +1,12 @@
+CreateMeshBuilder
+AddVertex,-50,0,-20
+AddVertex,-50,0,0
+AddVertex,+50,0,0
+AddVertex,+50,0,-20
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,Road2.bmp
+SetTextureCoordinates,0,2,0
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,0,2
+SetTextureCoordinates,3,2,2

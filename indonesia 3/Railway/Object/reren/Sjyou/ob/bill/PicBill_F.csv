@@ -1,0 +1,38 @@
+CreateMeshBuilder,
+AddVertex,-9.5, 21.0, -1.0,
+AddVertex,-4.0, 21.0, -0.0,
+AddVertex,-4.0, 0.0, -0.0,
+AddVertex,-9.5, 0.0, -1.0,
+AddVertex,-10.5, 21.0, 19.0,
+AddVertex,-4.0, 21.0, 18.0,
+AddVertex,-4.0, 0.0, 18.0,
+AddVertex,-10.5, 0.0, 19.0,
+AddFace,0,1,2,3,
+ADdFace,7,6,5,4,
+LoadTexture,../PicBill_F2.png,,,
+SetTextureCoordinates,0, 0.0,0
+SetTextureCoordinates,1, 1.0,0
+SetTextureCoordinates,2, 1.0,1
+SetTextureCoordinates,3, 0.0,1
+SetTextureCoordinates,4, 0.0,0
+SetTextureCoordinates,5, 1.0,0
+SetTextureCoordinates,6, 1.0,1
+SetTextureCoordinates,7, 0.0,1
+SetEmissiveColor,180,180,180,
+SetDecalTransparentColor,204,139,255
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-4.0, 21.0, -0.0,
+AddVertex,-4.0, 21.0, 18.0
+AddVertex,-4.0,  0.0, 18.0
+AddVertex,-4.0,  0.0, -0.0
+ADdFace,0,1,2,3
+LoadTexture,../PicBill_F21.png,,,
+SetTextureCoordinates,0, 0.0,0
+SetTextureCoordinates,1, 1.0,0
+SetTextureCoordinates,2, 1.0,1
+SetTextureCoordinates,3, 0.0,1
+SetEmissiveColor,80,80,80,
+SetDecalTransparentColor,204,139,255
+GenerateNormals,

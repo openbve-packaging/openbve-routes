@@ -1,0 +1,93 @@
+;fronte
+CreateMeshBuilder,
+AddVertex,-25,15,0,
+AddVertex,  0,15,0,
+AddVertex,  0, 0,0,
+AddVertex,-25, 0,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,condominio.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+;lato
+CreateMeshBuilder,
+AddVertex,0,15,0,
+AddVertex,0,15,10,
+AddVertex,0,0,10,
+AddVertex,0,0,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+
+LoadTexture,condominio1.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+
+CreateMeshBuilder,
+AddVertex,-25,15,10,
+AddVertex,0,15,10,
+AddVertex,0,15,0,
+AddVertex,-25,15,0,
+AddFace,0,1,2,3,
+SetColor,160, 160, 160,
+
+; tetto
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0,15,0,
+AddVertex,0,15,10,
+AddVertex,-3,18,5,
+AddFace2,0,1,2,
+SetColor,100,50,0,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0,15,0,
+AddVertex,-25,15,0,
+AddVertex,-22,18,5,
+AddVertex,-3,18,5,
+AddFace2,0,1,2,3,
+SetColor,100,50,0,
+
+GenerateNormals,
+
+;piazzale
+
+CreateMeshBuilder,
+AddVertex,-30, 0, -35,
+AddVertex,15, 0, -35
+AddVertex,15, 0, 10,
+AddVertex,-30, 0, 10,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,..\linea\strada.bmp,
+SetTextureCoordinates,0, 50, 50,
+SetTextureCoordinates,1, 50, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 50,
+
+;muro casa
+CreateMeshBuilder,
+AddVertex,-30, 2.5, -10
+AddVertex,-30, 0, -10,
+AddVertex,15, 0, -10,
+AddVertex,15, 2.5, -10,
+AddFace,3,2,1,0
+GenerateNormals,
+
+LoadTexture,..\alberi\fence2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 6, 0,
+SetDecalTransparentColor,0,0,0,

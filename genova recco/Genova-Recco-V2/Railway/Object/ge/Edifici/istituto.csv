@@ -1,0 +1,101 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 7, 0,
+AddVertex,20, 7, 0,
+AddVertex,20, 0, 0,
+AddFace,3, 2,1,0,
+GenerateNormals,
+
+LoadTexture,istituto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.26, 0,
+SetTextureCoordinates,3, 1.26, 1,
+CreateMeshBuilder,
+AddVertex,20, 0, -40,
+AddVertex,20, 7, -40,
+AddVertex,0, 7, -40,
+AddVertex,0, 0, -40,
+AddFace,3, 2,1,0,
+GenerateNormals,
+
+LoadTexture,istituto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.26, 0,
+SetTextureCoordinates,3, 1.26, 1,
+
+CreateMeshBuilder,
+AddVertex,0, 0, -40,
+AddVertex,0, 7, -40,
+AddVertex,0, 7, 0,
+AddVertex,0, 0, 0,
+AddFace,3, 2,1,0,
+GenerateNormals,
+
+LoadTexture,istituto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 2.48, 0,
+SetTextureCoordinates,3, 2.48, 1,
+
+
+
+;;tetto
+CreateMeshBuilder,
+AddVertex,0, 7, 0,
+AddVertex,20, 7, 0,
+AddVertex,20, 7, -40,
+AddVertex,0, 7, -40,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+setcolor, 175,160,120
+
+;;;;;;;;;;;;;;;sopra
+
+
+
+CreateMeshBuilder,
+AddVertex,2, 7, -3,
+AddVertex,2, 10, -3,
+AddVertex,17, 10, -3,
+AddVertex,17, 7, -3,
+AddFace,3, 2,1,0,
+GenerateNormals,
+
+LoadTexture,istituto.bmp,
+SetTextureCoordinates,0, -0.48, 0.6,
+SetTextureCoordinates,1, -0.48, 0,
+SetTextureCoordinates,2, 0.48, 0,
+SetTextureCoordinates,3, 0.48, 0.6,
+CreateMeshBuilder,
+AddVertex,17, 7, -38,
+AddVertex,17, 10, -38,
+AddVertex,2, 10, -38,
+AddVertex,2, 7, -38,
+AddFace,3, 2,1,0,
+GenerateNormals,
+
+LoadTexture,istituto.bmp,
+SetTextureCoordinates,0, -0.48, 0.6,
+SetTextureCoordinates,1, -0.48, 0,
+SetTextureCoordinates,2, 0.48, 0,
+SetTextureCoordinates,3, 0.48, 0.6,
+
+CreateMeshBuilder,
+AddVertex,2, 7, -38,
+AddVertex,2, 10, -38,
+AddVertex,2, 10, -3,
+AddVertex,2, 7, -3,
+AddFace,3, 2,1,0,
+GenerateNormals,
+
+LoadTexture,istituto.bmp,
+SetTextureCoordinates,0, , 0.6,
+SetTextureCoordinates,1, , 0,
+SetTextureCoordinates,2, 2, 0,
+SetTextureCoordinates,3, 2, 0.6,

@@ -1,0 +1,7 @@
+[Object]
+States = bird1.b3d, bird2.b3d, bird3.b3d, bird4.b3d, bird5.b3d, bird6.b3d, bird7.b3d, bird8.b3d, bird9.b3d
+StateFunction = mod[value + 1, 8]
+RotateYFunction = 1.57
+RefreshRate = 0.15
+TranslateXFunction = if[trackDistance<=20 & trackdistance[-1]>(-25), mod[3 * time, 50], 2]
+

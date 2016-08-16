@@ -1,0 +1,26 @@
+CreateMeshBuilder,,,,
+AddVertex,-13.6,-1.1,5
+AddVertex,-13.6,7.9,5,
+AddVertex,-3  ,7.9,5,
+AddVertex,-3  ,-1.1,5
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,honya1.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,,,,
+AddVertex,-3,1.1,5
+AddVertex,-3,5.9,5,
+AddVertex,-3 , 5.9,25,
+AddVertex,-3  ,1.1,25
+AddFace,0,1,2,3
+GenerateNormals,,,,
+LoadTexture,side1.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,

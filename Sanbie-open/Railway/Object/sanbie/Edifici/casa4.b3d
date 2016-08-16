@@ -1,0 +1,89 @@
+;house front
+
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,5,0
+Vertex 6,5,0
+Vertex 6,0,0
+Face2 0,1,2,3
+[Texture]
+Load brianco2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex 0,0,-4.5
+Vertex 0,5,-4.5
+Vertex 6,5,-4.5
+Vertex 6,0,-4.5
+Face2 0,1,2,3
+[Texture]
+Load casa4.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+
+
+;house side 1
+[MeshBuilder]
+Vertex 0,0,-4.5
+Vertex 0,6.9,-4.5
+Vertex 0,6.9,0
+Vertex 0,0,0
+Face2 0,1,2,3
+[Texture]
+Load brianco3.bmp
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+transparent 0,0,0
+
+;House side 2
+[MeshBuilder]
+Vertex 6,0,-4.5
+Vertex 6,6.9,-4.5
+Vertex 6,6.9,0
+Vertex 6,0,0
+Face2 0,1,2,3
+[Texture]
+Load casa4_s.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,0
+
+;roof side 1
+[MeshBuilder]
+Vertex -0.3,4.7,0.3
+Vertex -0.3,7,-2.25 
+Vertex 6.3,7,-2.25
+Vertex 6.3,4.7,0.3
+Face2 0,1,2,3
+[Texture]
+Load tetto1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+;roof side 2
+[MeshBuilder]
+Vertex -0.3,4.7,-4.8
+Vertex -0.3,7,-2.25 
+Vertex 6.3,7,-2.25
+Vertex 6.3,4.7,-4.8
+Face2 0,1,2,3
+[Texture]
+Load tetto1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+

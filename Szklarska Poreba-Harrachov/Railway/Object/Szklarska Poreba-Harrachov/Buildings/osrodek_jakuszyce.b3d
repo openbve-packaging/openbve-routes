@@ -1,0 +1,183 @@
+[MeshBuilder];
+Vertex 0 ,0,0
+Vertex 0 ,7   ,0
+Vertex -10 ,7   ,0
+Vertex -10 ,0,0
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_bok.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0 ,7,0
+Vertex -5 ,10   ,0
+Vertex -10 ,7,0
+Face2 0,1,2
+[Texture]
+Load osrodek_deski.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Transparent 0,0,255
+;-
+
+[MeshBuilder];
+Vertex 0 ,0,0
+Vertex 0 ,7   ,0
+Vertex 0 ,7   ,15
+Vertex 0 ,0,15
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0 ,0,15
+Vertex 0 ,7   ,15
+Vertex 0 ,7   ,25
+Vertex 0 ,0,25
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0 ,0,25
+Vertex 0 ,7   ,25
+Vertex 0 ,7   ,35
+Vertex 0 ,0,35
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_3.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0 ,0,35
+Vertex 0 ,7   ,35
+Vertex 0 ,7   ,70
+Vertex 0 ,0,70
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_4.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;==================DACH=====================;
+[MeshBuilder];
+Vertex 0 ,7,0
+Vertex -5 ,10   ,0
+Vertex -5 ,10   ,25
+Vertex 0 ,7,25
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_dach1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0 ,7,25
+Vertex -5 ,10   ,25
+Vertex -5 ,10   ,35
+Vertex 0 ,7,35
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_dach3.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0 ,7,35
+Vertex -5 ,10   ,35
+Vertex -5 ,10   ,70
+Vertex 0 ,7,70
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_dach2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;-
+[MeshBuilder];
+Vertex -10 ,7,0
+Vertex -5 ,10   ,0
+Vertex -5 ,10   ,25
+Vertex -10 ,7,25
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_dach1.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex -10 ,7,25
+Vertex -5 ,10   ,25
+Vertex -5 ,10   ,35
+Vertex -10 ,7,35
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_dach3.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex -10 ,7,35
+Vertex -5 ,10   ,35
+Vertex -5 ,10   ,70
+Vertex -10 ,7,70
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_dach2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0,0,255
+;-
+[MeshBuilder];
+Vertex 0 ,0,70
+Vertex 0 ,7   ,70
+Vertex -10 ,7   ,70
+Vertex -10 ,0,70
+Face2 0,1,2,3
+[Texture]
+Load osrodek_jakuszyce_bok.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0,0,255
+[MeshBuilder];
+Vertex 0 ,7,70
+Vertex -5 ,10   ,70
+Vertex -10 ,7,70
+Face2 0,1,2
+[Texture]
+Load osrodek_deski.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,1
+Transparent 0,0,255

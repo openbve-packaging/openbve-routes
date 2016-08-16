@@ -1,0 +1,14 @@
+﻿[MeshBuilder]
+Vertex -0.346, 3.17, 0
+Vertex -0.346, 3.37, 0
+Vertex 0.33, 3.37, 0
+Vertex 0.33, 3.17, 0
+Face 3, 2, 1, 0
+Load display2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 0.15625, 0
+Coordinates 3, 0.15625, 1
+
+TranslateAll 0,0,10
+RotateAll 0,1,0,180

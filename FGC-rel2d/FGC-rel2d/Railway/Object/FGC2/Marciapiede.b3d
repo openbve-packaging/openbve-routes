@@ -1,0 +1,561 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Marciapiede di stazione
+
+[meshbuilder]  ; Fianco inizio
+vertex  0.3 , 0.1 , 15.5
+vertex -0.4 , 0.2 , 13.1
+vertex -0.4 ,-0.3 , 13.1
+vertex  0.3 ,-0.3 , 15.5
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 0.8
+coordinates 2, 0.0, 0.8
+
+[meshbuilder]  ; Fianco sin 1
+vertex -0.4 , 0.2 , 13.1
+vertex -1.0 , 0.3 , 10.1
+vertex -1.0 ,-0.3 , 10.1
+vertex -0.4 ,-0.3 , 13.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 0.8
+coordinates 2, 0.0, 0.8
+coordinates 3, 0.0, 0
+
+[meshbuilder]  ; Fianco sin 2
+vertex -1.0 , 0.3 , 10.1
+vertex -1.4 , 0.3 , 7.1
+vertex -1.4 ,-0.3 , 7.1
+vertex -1.0 ,-0.3 , 10.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 0.8
+coordinates 2, 0.0, 0.8
+coordinates 3, 0.0, 0
+
+[meshbuilder]  ; Fianco sin 3
+vertex -1.4 , 0.3 , 7.1
+vertex -1.7 , 0.3 , 4.1
+vertex -1.7 ,-0.3 , 4.1
+vertex -1.4 ,-0.3 , 7.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 0.8
+coordinates 2, 0.0, 0.8
+coordinates 3, 0.0, 0
+
+[meshbuilder]  ; Fianco sin 4
+vertex -1.7 , 0.3 , 4.1
+vertex -1.8 , 0.3 , 0.1
+vertex -1.8 ,-0.3 , 0.1
+vertex -1.7 ,-0.3 , 4.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 0.8
+coordinates 2, 0.0, 0.8
+coordinates 3, 0.0, 0
+
+[meshbuilder]  ; Fianco sin diritto
+vertex -1.8 , 0.3 , 0.1
+vertex -1.8 , 0.3 ,-75.1
+vertex -1.8 ,-0.3 ,-75.1
+vertex -1.8 ,-0.3 , 0.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 12
+coordinates 2, 0.0, 12
+coordinates 3, 0.0, 0
+
+[meshbuilder]  ; Ghiaia tra i binari
+vertex  -5.2  , -0.2 , 20
+vertex  -2.15 , -0.2 , 20
+vertex  -3.05 , -0.2 , 0.0
+vertex  -6.5 , -0.2 , 0.0
+face 0,1,2,3
+[texture]
+load Rails\Trav-brown1.bmp
+coordinates 0, 0.0, 0
+coordinates 1, 0.5, 0
+coordinates 2, 0.8, 4.8
+coordinates 3, 0.0, 4.8
+
+[meshbuilder]  ; Ghiaia iniziale
+vertex  3.2  , -0.2 , 25.1
+vertex  4.45 , -0.2 , 25.1
+vertex  1.85 , -0.2 , 13.0
+vertex  -0.8 , -0.2 , 13.0
+face 0,1,2,3
+[texture]
+load Rails\Trav-brown1.bmp
+coordinates 0, 0.0, 0
+coordinates 1, 0.4, 0
+coordinates 2, 0.5, 4.8
+coordinates 3, 0.0, 4.8
+
+[meshbuilder]  ; Superficie inizio
+vertex  0.3 , 0.1 , 15.5
+vertex  2.25 , 0.1 , 15.5
+vertex  2.45 , 0.2 , 13.1
+vertex -0.4 , 0.2 , 13.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.94, 0
+coordinates 2, 0.94, 0.8
+coordinates 3, 0.06, 0.8
+
+[meshbuilder]  ; Superficie 1
+vertex -0.4 , 0.2 , 13.1
+vertex  2.45 , 0.2 , 13.1
+vertex  2.25 , 0.3 , 10.1
+vertex -1.0 , 0.3 , 10.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.94, 0
+coordinates 2, 0.94, 0.8
+coordinates 3, 0.06, 0.8
+
+[meshbuilder]  ; Superficie 2
+vertex -1.0 , 0.3 , 10.1
+vertex  2.25 , 0.3 , 10.1
+vertex  2.05 , 0.3 , 7.1
+vertex -1.4 , 0.3 , 7.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.94, 0
+coordinates 2, 0.94, 0.8
+coordinates 3, 0.06, 0.8
+
+[meshbuilder]  ; Superficie 3
+vertex -1.4 , 0.3 , 7.1
+vertex  2.05 , 0.3 , 7.1
+vertex  1.95 , 0.3 , 4.1
+vertex -1.7 , 0.3 , 4.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.94, 0
+coordinates 2, 0.94, 0.8
+coordinates 3, 0.06, 0.8
+
+[meshbuilder]  ; Superficie 4
+vertex -1.7 , 0.3 , 4.1
+vertex  1.95 , 0.3 , 4.1
+vertex  1.8 , 0.3 , 0.1
+vertex -1.8 , 0.3 , 0.1
+face 0,1,2,3
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.94, 0
+coordinates 2, 0.94, 0.8
+coordinates 3, 0.06, 0.8
+
+[meshbuilder]  ; Superficie diritta
+vertex -1.8 , 0.3 , 0.1
+vertex  1.8 , 0.3 , 0.1
+vertex  1.8 , 0.3 ,-75.1
+vertex -1.8 , 0.3 ,-75.1
+face 0,1,2,3
+
+[texture]
+load Marciapiede.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.94, 0
+coordinates 2, 0.94, 12
+coordinates 3, 0.06, 12
+
+; ---------- Pensilina ---------
+[meshbuilder]  ; Palo sostegno 1
+cylinder 6,0.10,0.10,5
+translate 0,2.5,-20
+color 247,202,117
+[meshbuilder]  ; Trave sinistra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,-100
+translate -1 ,5.05,-20
+color 247,202,117
+[meshbuilder]  ; Trave destra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,100
+translate 1 ,5.05,-20
+color 247,202,117
+
+[meshbuilder]  ; Palo sostegno 2
+cylinder 6,0.10,0.10,5
+translate 0,2.5,-30
+color 247,202,117
+[meshbuilder]  ; Trave sinistra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,-100
+translate -1 ,5.05,-30
+color 247,202,117
+[meshbuilder]  ; Trave destra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,100
+translate 1 ,5.05,-30
+color 247,202,117
+
+[meshbuilder]  ; Palo sostegno 3
+cylinder 6,0.10,0.10,5
+translate 0,2.5,-40
+color 247,202,117
+[meshbuilder]  ; Trave sinistra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,-100
+translate -1 ,5.05,-40
+color 247,202,117
+[meshbuilder]  ; Trave destra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,100
+translate 1 ,5.05,-40
+color 247,202,117
+
+[meshbuilder]  ; Palo sostegno 4
+cylinder 6,0.10,0.10,5
+translate 0,2.5,-50
+color 247,202,117
+[meshbuilder]  ; Trave sinistra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,-100
+translate -1 ,5.05,-50
+color 247,202,117
+[meshbuilder]  ; Trave destra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,100
+translate 1 ,5.05,-50
+color 247,202,117
+
+[meshbuilder]  ; Palo sostegno 5
+cylinder 6,0.10,0.10,5
+translate 0,2.5,-60
+color 247,202,117
+[meshbuilder]  ; Trave sinistra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,-100
+translate -1 ,5.05,-60
+color 247,202,117
+[meshbuilder]  ; Trave destra
+cylinder 3, 0.12, 0.04, 2
+rotate 0,1,0,180
+rotate 0,0,1,100
+translate 1 ,5.05,-60
+color 247,202,117
+
+[meshbuilder]  ; Cornice iniziale
+cylinder 3, 0.08, 0.08, 2
+rotate 0,1,0,180
+rotate 0,0,1,-100
+translate -1 ,5.05,-65
+color 247,202,117
+[meshbuilder]  ; Trave destra
+cylinder 3, 0.08, 0.08, 2
+rotate 0,1,0,180
+rotate 0,0,1,100
+translate 1 ,5.05,-65
+color 247,202,117
+
+[meshbuilder]  ; Cornice finale
+cylinder 3, 0.08, 0.08, 2
+rotate 0,1,0,180
+rotate 0,0,1,-100
+translate -1 ,5.09,-15
+color 247,202,117
+[meshbuilder]  ; Trave destra
+cylinder 3, 0.08, 0.08, 2
+rotate 0,1,0,180
+rotate 0,0,1,100
+translate 1 ,5.09,-15
+color 247,202,117
+
+[meshbuilder]  ; Copertura sinistra
+vertex -1.94 , 5.3 , -15
+vertex   0 , 4.98 , -15
+vertex   0 , 4.98 ,-65
+vertex -1.94 , 5.3 ,-65
+face 3,2,1,0
+color 227,227,227,210
+[meshbuilder]  ; Copertura destra
+vertex  1.94 , 5.3 , -15
+vertex   0 , 4.98 , -15
+vertex   0 , 4.98 ,-65
+vertex  1.94 , 5.3 ,-65
+face 0,1,2,3
+color 127,127,127,190
+
+[meshbuilder]  ; Trave centrale
+cube 0.08, 0.12, 25
+translate 0 ,4.9,-40
+color 247,202,117
+
+[meshbuilder]  ; Rinforzi a sinistra
+cube 0.02, 0.02, 25
+translate -1 ,5.1,-40
+color 247,202,117
+[meshbuilder]
+cube 0.02, 0.02, 25
+translate -1.93 ,5.28,-40
+color 247,202,117
+
+[meshbuilder]  ; Rinforzi a destra
+cube 0.02, 0.02, 25
+translate 1 ,5.1,-40
+color 247,202,117
+[meshbuilder]
+cube 0.02, 0.02, 25
+translate 1.93 ,5.28,-40
+color 247,202,117
+
+[meshbuilder]  ; Tratto marciapiede lato destro
+vertex 0 , 0.1 , 0.1
+vertex 0 , 0.1 ,-10.1
+vertex 0 ,-0.3 ,-10.1
+vertex 0 ,-0.3 , 0.1
+vertex 1.5 , 0.1 , 0.1
+vertex 1.5 , 0.1 ,-10.1
+vertex 1.5, 2 , 0.1
+vertex 1.5, 2 ,-10.1
+face 0,1,2,3
+face 0,4,5,1
+face2 6,7,5,4
+[texture]
+load Marciapiede1.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 1
+coordinates 2, 0.0, 1
+coordinates 3, 0.0, 0
+coordinates 4, 0.5, 0
+coordinates 5, 0.5, 1
+coordinates 6, 1, 0
+coordinates 7, 1, 1
+transparent 0,0,255
+rotate 0,1,0,3
+translate 4.7,0,10
+
+[meshbuilder]  ; Tratto ringhiera lato destro
+vertex 0 , 1.2 , 0.1
+vertex 0 , 1.2 ,-10.1
+vertex 0 , 0.1 ,-10.1
+vertex 0 , 0.1 , 0.1
+face 0,1,2,3
+[texture]
+load Poles\RighieraVerde.bmp
+coordinates 0, 0, 0
+coordinates 1, 7, 0
+coordinates 2, 7, 1
+coordinates 3, 0, 1
+transparent 0,0,255
+rotate 0,1,0,3
+translate 5.95,0,10
+
+
+
+[meshbuilder]  ; Tratto marciapiede lato destro
+vertex 0 , 0.1 , 0.1
+vertex 0 , 0.1 ,-10.1
+vertex 0 ,-0.3 ,-10.1
+vertex 0 ,-0.3 , 0.1
+vertex 1.5 , 0.1 , 0.1
+vertex 1.5 , 0.1 ,-10.1
+vertex 1.5, 2 , 0.1
+vertex 1.5, 2 ,-10.1
+face 0,1,2,3
+face 0,4,5,1
+face2 6,7,5,4
+[texture]
+load Marciapiede1.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 1
+coordinates 2, 0.0, 1
+coordinates 3, 0.0, 0
+coordinates 4, 0.5, 0
+coordinates 5, 0.5, 1
+coordinates 6, 1, 0
+coordinates 7, 1, 1
+transparent 0,0,255
+rotate 0,1,0,9
+translate 6.27,0,20
+
+[meshbuilder]  ; Tratto ringhiera lato destro
+vertex 0 , 1.2 , 0.1
+vertex 0 , 1.2 ,-10.1
+vertex 0 , 0.1 ,-10.1
+vertex 0 , 0.1 , 0.1
+face 0,1,2,3
+[texture]
+load Poles\RighieraVerde.bmp
+coordinates 0, 0, 0
+coordinates 1, 7, 0
+coordinates 2, 7, 1
+coordinates 3, 0, 1
+transparent 0,0,255
+rotate 0,1,0,9
+translate 7.47,0,20
+
+[meshbuilder]  ; Marciapiede lato destro diritto
+vertex 0 , 0.1 , 0.1
+vertex 0 , 0.1 ,-65
+vertex 0 ,-0.3 ,-65
+vertex 0 ,-0.3 , 0.1
+vertex 1.5 , 0.1 , 0.1
+vertex 1.5 , 0.1 ,-65
+vertex 1.5, 2 , 0.1
+vertex 1.5, 2 ,-65
+face 0,1,2,3
+face 0,4,5,1
+face 6,7,5,4
+[texture]
+load Marciapiede1.bmp
+coordinates 0, 0.06, 0
+coordinates 1, 0.06, 5
+coordinates 2, 0.0, 5
+coordinates 3, 0.0, 0
+coordinates 4, 0.5, 0
+coordinates 5, 0.5, 5
+coordinates 6, 1, 0
+coordinates 7, 1, 5
+transparent 0,0,255
+translate 4.2,0,0
+
+[meshbuilder]  ; Tratto ringhiera lato destro
+vertex 0 , 1.2 , 0.1
+vertex 0 , 1.2 ,-65
+vertex 0 , 0.1 ,-65
+vertex 0 , 0.1 , 0.1
+face 0,1,2,3
+[texture]
+load Poles\RighieraVerde.bmp
+coordinates 0, 0, 0
+coordinates 1, 45, 0
+coordinates 2, 45, 1
+coordinates 3, 0, 1
+transparent 0,0,255
+translate 5.6,0,0
+
+; ======== Panchina ===========
+; Listelli longitudinali
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,20
+translate -0.40 ,0.7,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+;rotate 0,0,1,15
+translate -0.3 ,0.71,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,-15
+translate -0.2 ,0.685,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+; rotate 0,0,1,-10
+translate -0.1 ,0.675,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,15
+translate 0.0 ,0.675,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,52
+translate 0.07 ,0.725,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,70
+translate 0.10 ,0.8 ,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,70
+translate 0.125 ,0.88 ,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,70
+translate 0.15 ,0.96 ,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,60
+translate 0.18 ,1.04 ,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,20
+translate 0.25 ,1.10 ,-22
+color 82,105,99
+[meshbuilder]
+cube 0.03, 0.02, 1.1
+rotate 0,0,1,-20
+translate 0.35 ,1.10 ,-22
+color 82,105,99
+
+; Gambe anteriori
+
+[meshbuilder]
+cube 0.0075, 0.3, 0.04
+rotate 0,0,1,-6
+translate -0.35 ,0.4 ,-21.3
+color 82,105,99
+[meshbuilder]
+cube 0.0075, 0.3, 0.04
+rotate 0,0,1,-6
+translate -0.35 ,0.4 ,-22.7
+color 82,105,99
+
+[meshbuilder]
+cube 0.0075, 0.25, 0.04
+rotate 0,0,1,-24
+translate 0.17 ,0.9 ,-21.3
+color 82,105,99
+[meshbuilder]
+cube 0.0075, 0.25, 0.04
+rotate 0,0,1,24
+translate 0.17 ,0.45 ,-21.3
+color 82,105,99
+
+[meshbuilder]
+cube 0.0075, 0.25, 0.04
+rotate 0,0,1,-24
+translate 0.17 ,0.9 ,-22.7
+color 82,105,99
+[meshbuilder]
+cube 0.0075, 0.25, 0.04
+rotate 0,0,1,24
+translate 0.17 ,0.45 ,-22.7
+color 82,105,99

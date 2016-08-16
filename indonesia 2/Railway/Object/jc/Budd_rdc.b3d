@@ -1,0 +1,254 @@
+;Budd rail diesel car
+
+;;right side
+[Meshbuilder]
+Vertex -0.9, 3.63, 16.8
+Vertex -0.9, 3.63, -2.8
+Vertex -1.2, 3.57, 16.8
+Vertex -1.2, 3.57, -2.8
+Vertex -1.4, 3.37, 16.8
+Vertex -1.4, 3.37, -2.8
+Vertex -1.4, 0.650, 16.8
+Vertex -1.4, 0.650, -2.8
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+color 190,200,210
+[Texture]
+Load budd_side.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,0.04
+Coordinates 3,1,0.04
+Coordinates 4,0,0.094
+Coordinates 5,1,0.094
+Coordinates 6,0,1
+Coordinates 7,1,1
+transparent 0, 0, 255
+
+
+;;left side=======
+[Meshbuilder]
+Vertex 0.9, 3.63, -2.8
+Vertex 0.9, 3.63, 16.8
+Vertex 1.2, 3.57, -2.8
+Vertex 1.2, 3.57, 16.8
+Vertex 1.4, 3.37, -2.8
+Vertex 1.4, 3.37, 16.8
+Vertex 1.4, 0.650, -2.8
+Vertex 1.4, 0.650, 16.8
+Face 0,1,3,2
+Face 2,3,5,4
+Face 4,5,7,6
+color 190,200,210
+[Texture]
+Load budd_side.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,0,0.04
+Coordinates 3,1,0.04
+Coordinates 4,0,0.094
+Coordinates 5,1,0.094
+Coordinates 6,0,1
+Coordinates 7,1,1
+transparent 0, 0, 255
+
+
+;;===front====
+[Meshbuilder]
+Vertex -1.62, 3.75, -2.8
+Vertex  1.62, 3.75, -2.8
+Vertex  1.62, 3.35, -2.8
+Vertex -1.62, 3.35, -2.8
+Vertex -1.62, 0.08, -2.8
+Vertex  1.62, 0.08, -2.8
+Face2 0,1,2,3
+Face2 3,2,5,4
+color 190,200,210
+[Texture]
+Load budd_front.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,0.17
+Coordinates 3,0,0.17
+Coordinates 4,0,1
+Coordinates 5,1,1
+transparent 0, 0, 255
+
+
+
+;;====rear====
+[Meshbuilder]
+Vertex  1.624,  3.75, 16.8
+Vertex -1.624,  3.75, 16.8
+Vertex -1.624,  3.35, 16.8
+Vertex  1.624,  3.35, 16.8
+Vertex  1.624, 0.10, 16.8
+Vertex -1.624, 0.10, 16.8
+Face 0,1,2,3
+Face 3,2,5,4
+[Texture]
+Load budd_front.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,0.17
+Coordinates 3,0,0.17
+Coordinates 4,0,1
+Coordinates 5,1,1
+transparent 0,0,255
+
+
+;;====trucks=====
+[Meshbuilder]
+Vertex -0.8, 1.1, 16.75
+Vertex -0.8, 1.1, -2.75
+Vertex -0.8, 0  , -2.75
+Vertex -0.8, 0  , 16.75
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load 8000A_.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 80,96,96
+
+[Meshbuilder]
+Vertex 0.8, 1.1, 16.75
+Vertex 0.8, 1.1, -2.75
+Vertex 0.8, 0  , -2.75
+Vertex 0.8, 0  , 16.75
+Face 3,2,1,0
+Face 0,1,2,3
+[Texture]
+Load 8000A_.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 80,96,96
+
+
+;;Front coupler
+[Meshbuilder]
+Vertex -0.82, 1.1, -1.25
+Vertex  0.82, 1.1, -1.25
+Vertex  0.82, 0.2, -1.25
+Vertex -0.82, 0.2, -1.25
+Face2 0,1,2,3
+[Texture]
+Load 8000X_.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 80,96,96
+
+;;rear coupler
+[Meshbuilder]
+Vertex -0.82, 1.1 , 16.05
+Vertex  0.82, 1.1 , 16.05
+Vertex  0.82, 0.2 , 16.05
+Vertex -0.82, 0.2 , 16.05
+Face2 0,1,2,3
+[Texture]
+Load 8000X_.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 80,96,96
+
+
+
+;;;;;===ceiling
+[Meshbuilder]
+Vertex  0.96, 3.62, 16.8
+Vertex  0.96, 3.62, -2.8
+Vertex  0.65, 3.65, -2.8
+Vertex  0.65, 3.65, 16.8
+Vertex -0.65, 3.65, 16.8
+Vertex -0.65, 3.65, -2.8
+Vertex -0.96, 3.62, -2.8
+Vertex -0.96, 3.62, 16.8
+Face 0,1,2,3
+Face 3,2,5,4
+Face 4,5,6,7
+Color 128,128,128
+
+
+
+;;;;;upper radiator
+[Meshbuilder]
+Vertex -0.70, 4.25, 4.74
+Vertex  0.70, 4.25, 4.74
+Vertex  0.85, 3.70, 4.75
+Vertex -0.85, 3.70, 4.75
+Vertex -0.85, 3.70, 8.90
+Vertex -0.70, 4.25, 8.91
+Vertex  0.70, 4.25, 8.91
+Vertex  0.85, 3.70, 8.90
+Face 0,1,2,3
+Face 0,3,4,5
+Face 5,4,7,6
+Face 6,7,2,1
+Face 1,0,5,6
+Color 120, 120, 124
+
+
+
+;;;horns
+[MeshBuilder]
+Cylinder 6, 0.04, 0.04, 0.5
+Color 103,104,106
+Rotate 0,0,0,90
+Translate -0.6, 3.78, -2.6
+[MeshBuilder]
+Cylinder 12, 0.04, 0.13, 0.15
+Color 83,84,86
+Rotate 0,0,0,90
+Translate -0.6, 3.78, -2.87
+
+
+[MeshBuilder]
+Cylinder 6, 0.04, 0.04, 0.5
+Color 83,84,76
+Rotate 0,0,0,90
+Translate -0.8, 3.78, -2.6
+[MeshBuilder]
+Cylinder 12, 0.04, 0.13, 0.15
+Color 63,64,66
+Rotate 0,0,0,90
+Translate -0.8, 3.78, -2.87
+[MeshBuilder]
+Cylinder 12, 0.09, 0.09, 0.20
+Color 63,64,66
+Rotate 0,0,0,90
+Translate -0.8, 3.78, -2.29
+
+
+
+
+;;;;;=====floor shade 
+[Meshbuilder]
+Vertex  1.987, -0.124, 16.7
+Vertex  1.987, -0.124, -2.50
+Vertex  1.998, -0.124, -2.50
+Vertex  1.998, -0.124, 16.7
+Vertex -1.998, -0.124, 16.7
+Vertex -1.998, -0.124, -2.50
+Vertex -1.987, -0.124, -2.50
+Vertex -1.987, -0.124, 16.7
+Face 0,1,2,3
+Face 3,2,5,4
+Face 4,5,6,7
+Color 40,40,40,110
+
+
+
+
+
+
+
+

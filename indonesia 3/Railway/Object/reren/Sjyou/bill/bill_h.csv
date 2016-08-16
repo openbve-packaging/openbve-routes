@@ -1,0 +1,37 @@
+CreateMeshBuilder,
+AddVertex,-15.0, 11.88,-18.0
+AddVertex,-2.0, 11.88,-18.0
+AddVertex,-2.0, 11.88,-1.0
+AddVertex,-2.0, 1.88,-1.0
+AddVertex,-2.0, 1.88,-18.0
+AddVertex,-15.0, 1.88,-18.0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+Setcolor,230,230,230
+Loadtexture,bill_h.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,13,0
+SetTextureCoordinates,2,26,0
+SetTextureCoordinates,3,26,-6.5
+SetTextureCoordinates,4,13,-6.5
+SetTextureCoordinates,5,0,-6.5
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-15.0, 17.88,-10.0
+AddVertex,-2.0, 17.88,-10.0
+AddVertex,-2.0, 17.88,-1.0
+AddVertex,-2.0, 11.88,-1.0
+AddVertex,-2.0, 11.88,-10.0
+AddVertex,-15.0, 11.88,-10.0
+AddFace,0,1,4,5
+AddFace,1,2,3,4
+Setcolor,230,230,230
+Loadtexture,bill_h.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,13,0
+SetTextureCoordinates,2,26,0
+SetTextureCoordinates,3,26,-4
+SetTextureCoordinates,4,13,-4
+SetTextureCoordinates,5,0,-4
+GenerateNormals,

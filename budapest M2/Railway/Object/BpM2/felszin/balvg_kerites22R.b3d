@@ -1,0 +1,36 @@
+;Örs vezér tere;kerítés
+
+;lámpa
+
+[meshbuilder]
+cylinder 8, 0.07, 0.10, 10.00
+color 180,180,180
+translate  00.00, 04.85, 00.00
+translate  04.80, -00.25, 13.75
+
+[meshbuilder]
+cylinder 8, 0.05, 0.05, 01.00
+color 180,180,180
+rotate 0, 0, 1, 85
+translate  -00.50, 09.75, 00.00
+translate  04.80, -00.25, 13.75
+
+[meshbuilder]
+cube 0.4, 0.01, 0.4
+translate  00.00, -0.15, 00.00
+translate  04.80, -00.25, 13.75
+color 180,180,180
+
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 180,180,180
+rotate 0, 0, 1, -5
+translate -01.50, 09.85, 00.00
+translate  04.80, -00.25, 13.75
+
+[meshbuilder]
+cube 0.50, 0.08, 0.18
+color 225,255,200,100
+rotate 0, 0, 1, -5
+translate -01.50, 09.75, 00.00
+translate  04.80, -00.25, 13.75

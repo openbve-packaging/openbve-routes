@@ -1,0 +1,102 @@
+;Road
+[Meshbuilder]
+Vertex -0.7,0,0
+Vertex -0.7,0,5
+Vertex  0.65,0,5
+Vertex  0.65,0,0
+Face 0,1,2,3
+[Texture]
+Load Woodlc.Bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex -0.85,0,5
+Vertex -0.85,0,0
+Vertex -0.85,-0.15,0
+Vertex -0.85,-0.15,5
+Face 0,1,2,3
+[Texture]
+Load Woodlc.Bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+[Meshbuilder]
+Vertex 0.6,0,5
+Vertex 0.6,0,0
+Vertex 0.6,-0.15,0
+Vertex 0.6,-0.15,5
+Face 3,2,1,0
+[Texture]
+Load Woodlc.Bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex 2.9,-0.5,0
+Vertex 2.9,-0.5,5
+Vertex 0.8,0,5
+Vertex 0.8,0,0
+Face 3,2,1,0
+[Texture]
+Load Woodlc.Bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[Meshbuilder]
+Vertex -2.9,-0.5,0
+Vertex -2.9,-0.5,5
+Vertex -0.85,0,5
+Vertex -0.85,0,0
+Face 0,1,2,3
+[Texture]
+Load Woodlc.Bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+;===============================
+[Meshbuilder]
+Vertex -0.85,0,5
+Vertex -0.85,0,0
+Vertex -0.85,-0.2,0
+Vertex -0.85,-0.2,5
+Face 3,2,1,0
+Color 50,50,50
+
+[Meshbuilder]
+Vertex -2.9,-0.5,0
+Vertex -0.85,0.0,0
+Vertex -0.85,-0.5,0
+Face 0,1,2
+Color 50,50,50
+
+[Meshbuilder]
+Vertex -0.7,0,0
+Vertex  0.65,0,0
+Vertex  0.65,-0.15,0
+Vertex -0.7,-0.15,0
+Face 0,1,2,3
+Color 50,50,50
+
+[Meshbuilder]
+Vertex 0.8,0,5
+Vertex 0.8,0,0
+Vertex 0.8,-0.5,0
+Vertex 0.8,-0.5,5
+Face 0,1,2,3
+Color 50,50,50
+
+[Meshbuilder]
+Vertex 2.9,-0.5,0
+Vertex 0.8,0.0,0
+Vertex 0.8,-0.5,0
+Face 2,1,0
+Color 50,50,50

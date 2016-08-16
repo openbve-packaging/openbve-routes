@@ -1,0 +1,64 @@
+;Mirrored with BVE File Converter
+;Converted from B3D by BVE FILE CONVERTER
+ 
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Terreno in salita - per tratto diritto
+; monte a sinistra - valle a destra
+
+CreateMeshBuilder,
+AddVertex, 5.8 ,  1.8 , -0.5 ,
+AddVertex, 5.8 ,  2 ,  25.3 ,
+AddVertex, 4 ,  1.5 ,  25.3 ,
+AddVertex, 4 ,  1.5 , -0.5 ,
+AddVertex, 2.7 ,  0.1 ,  25.3 ,
+AddVertex, 2.7 ,  0.1 , -0.5 ,
+AddVertex, 80 ,  30 ,  30 ,
+AddVertex, 80 ,  30 , -5 ,
+AddVertex, 1 , -0.2 ,  25.3 ,
+AddVertex, 1 , -0.2 , -0.5 ,
+AddFace, 3, 2, 1, 0, 
+AddFace, 5, 4, 2, 3, 
+AddFace, 0, 1, 6, 7, 
+AddFace, 9, 8, 4, 5, 
+Translate, 0 , -0.3 ,  0 ,
+Generatenormals
+SetColor,180,180,180,240
+LoadTexture, Grass2.bmp,
+SetTextureCoordinates, 0, 0,   0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 0.5,
+SetTextureCoordinates, 3, 0,   0.5,
+SetTextureCoordinates, 4, 1, 1,
+SetTextureCoordinates, 5, 0,   1,
+SetTextureCoordinates, 6, 1, 10,
+SetTextureCoordinates, 7, 0,   10,
+SetTextureCoordinates, 8, 1, -0.05,
+SetTextureCoordinates, 9, 0, -0.05,
+
+CreateMeshBuilder,
+AddVertex,-5.5 , -0.5 , -5 ,
+AddVertex,-5.5 , -0.5 ,  25 ,
+AddVertex,-3.5 , -0.1 ,  25 ,
+AddVertex,-3.5 , -0.1 , -0.5 ,
+AddVertex,-1.4 , -0.2 ,  25 ,
+AddVertex,-1.4 , -0.2 , -5 ,
+AddVertex,-280 , -40 ,  35 ,
+AddVertex,-280 , -40 , -10 ,
+AddFace2, 3, 2, 1, 0, 
+AddFace2, 5, 4, 2, 3, 
+AddFace2, 0, 1, 6, 7, 
+Translate, 0 , -0.3 ,  0 ,
+Generatenormals
+SetColor,180,180,180,240
+LoadTexture, Grass2.bmp,
+SetTextureCoordinates, 0, 0,   0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 0.5,
+SetTextureCoordinates, 3, 0,   0.5,
+SetTextureCoordinates, 4, 1, 1,
+SetTextureCoordinates, 5, 0,   1,
+SetTextureCoordinates, 6, 1, 30,
+SetTextureCoordinates, 7, 0,   30,

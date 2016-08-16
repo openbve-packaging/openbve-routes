@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,0,0,0,
+AddVertex,0,0,25,
+AddVertex,5,0,25,
+AddVertex,5,0,0,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+;SetColor,150,150,150,
+LoadTexture,Ballast2.bmp,,,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,

@@ -1,0 +1,823 @@
+Route.Comment City Express Line,
+Route.Gauge 1435,
+Route.DeveloperID Mark4211,
+Route.change 0,
+Route.Temperature 33
+Route.AmbientLight 255;255;255
+Route.Timetable City Express Line for Train Simulation Framework: Route by Mark4211
+With Options,
+Options.ObjectVisibility 1
+Options.CantBehavior 1
+with train,
+Train.Folder 131-132,
+Train.Run(0).Set 1
+Train.Run(1).Set 2
+Train.Run(2).Set 2
+Train.Run(3).Set 2
+Train.Run(4).Set 2
+Train.Run(5).Set 2
+Train.Run(6).Set 2
+Train.Run(7).Set 2
+Train.Run(8).Set 2
+Train.Run(9).Set 2 
+Train.Run(10).Set 2
+Train.Run(11).Set 2
+Train.Run(12).Set 2
+Train.Run(13).Set 2
+Train.Run(14).Set 2
+Train.Run(15).Set 2
+With Structure
+
+Structure.WallL(0) cel\viaduct\bridge_concrete1_fence_l.b3d
+Structure.WallR(0) cel\viaduct\bridge_concrete1_fence_r.b3d
+Structure.WallR(2) cel\viaduct\bridge_concrete1_fence_r.b3d
+Structure.WallL(2) cel\viaduct\bridge_concrete1_fence_l.b3d
+Structure.WallL(7) cel\viaduct\uground_wall2_l.b3d
+Structure.WallR(7) cel\viaduct\uground_wall2_r.b3d
+Structure.WallL(8) cel\viaduct\nothing.csv
+Structure.WallR(8) cel\viaduct\nothing.csv
+
+.Rail(0) cel\track\UG2.b3d,
+.Rail(1) cel\track\UGR.b3d,
+.Rail(2) cel\track\UGRB.b3d,
+.Rail(3) cel\track\UGRT.b3d,
+.Rail(4) cel\track\750_l.b3d,
+.Rail(5) cel\track\1000_l.b3d,
+.Rail(6) cel\track\1250_l.b3d,
+.Rail(7) cel\track\1500_l.b3d,
+.Rail(8) cel\track\2000_l.b3d,
+.Rail(9) cel\track\250_r.b3d,
+.Rail(10) cel\track\500_r.b3d,
+.Rail(11) cel\track\750_r.b3d,
+.Rail(12) cel\track\1000_r.b3d,
+.Rail(13) cel\track\1250_r.b3d,
+.Rail(14) cel\track\1500_r.b3d,
+.Rail(15) cel\track\2000_r.b3d,
+.Rail(16) cel\track\nothing.csv
+.Rail(17) cel\track\UG2.b3d
+.Rail(18) cel\track\UGR.b3d
+.Rail(19) cel\track\ugrb.b3d
+.Rail(20) cel\track\ugrt.b3d
+.Rail(21) cel\track\ug.b3d
+
+.Ground(1) cel\scenery\ground1.csv,
+.Ground(2) cel\scenery\underground.csv,
+.Ground(3) cel\scenery\CE2.csv
+
+.Freeobj(0) cel\Station\platform.csv
+.Freeobj(1) cel\Station\L_P.csv
+.Freeobj(2) cel\Station\M_P.csv
+.Freeobj(3) cel\Station\R_P.csv
+.Freeobj(4) cel\Station\CE6\L_P.csv
+.Freeobj(5) cel\Station\CE6\R_P.csv
+.Freeobj(6) cel\Track\Sign\stop\sign.csv
+.Freeobj(7) cel\Track\Sign\rm\sign.csv
+.Freeobj(8) cel\Scenery\tree\tree1.csv
+.Freeobj(9) cel\Scenery\tree\tree2.csv
+.Freeobj(10) cel\Scenery\tree\tree3.csv
+.Freeobj(11) cel\station\HHPSD\left\psd.animated
+.Freeobj(12) cel\station\HHPSD\right\psd.animated
+.Freeobj(13) cel\station\C751B\C751B.animated
+.Freeobj(14) cel\station\C751B\C751B(2).animated
+.Freeobj(15) cel\station\buffer\buffer.b3d
+.Freeobj(16) cel\Scenery\building\building1.b3d
+.Freeobj(17) cel\Scenery\building\building2.b3d
+.Freeobj(18) cel\Scenery\building\building3.b3d
+.Freeobj(19) cel\Scenery\building\building4.b3d
+.Freeobj(20) cel\Scenery\building\building5.b3d
+.Freeobj(21) cel\Viaduct\ending.csv
+.Freeobj(22) cel\Viaduct\starting.csv
+;CE1;
+.Freeobj(110) cel\station\ce1\station.ANIMATED
+.Freeobj(111) cel\station\ce1\lp.csv
+.Freeobj(112) cel\station\ce1\rp.csv
+;CE2;
+.Freeobj(120) cel\station\ce2\wall.csv
+.Freeobj(121) cel\station\ce2\lp - copy.csv
+.Freeobj(122) cel\station\ce2\rp - copy.csv
+.Freeobj(123) cel\station\ce2\station.ANIMATED
+;.Freeobj(124) cel\HHPSD\psd.ANIMATED
+;CE3;
+.Freeobj(130) cel\station\ce3\station.ANIMATED
+;CE4;
+.Freeobj(140) cel\station\ce4\to notice\notice.csv
+;CE5;
+.Freeobj(150) cel\station\CE5\construction\baricade.csv
+;CE6;
+.Freeobj(160) cel\station\CE6\PSD\left\psd.animated
+
+Texture.Background(0) cel\Scenery\morning.jpg,
+Texture.Background(1) cel\Scenery\evening.jpg,
+Texture.Background(2) cel\Scenery\underground.jpg,
+With Track,
+0,
+.freeobj 0; 22
+.Accuracy 3
+.Adhesion 135
+.Ground 1,
+.back 0,
+.railtype 0;17,
+.railstart 1; 4; 0; 18
+.freeobj 0; 8;-8;-10
+.freeobj 1; 8;8;-10
+.wall 0; -1; 0
+.wall 1; 1; 2
+.sta Sidings before CE1 Oxford Avenue Terminal; ;;0;N;1;1;;10;0;;;
+.Height 10,
+25,
+.freeobj 0; 18;-30;-10
+.freeobj 1; 16;20;-10
+50,
+.freeobj 0; 17;-50;-10
+.freeobj 1; 20;15;-10
+75,
+.freeobj 0; 17;-40;-10
+.freeobj 1; 18;25;-10
+100,
+.freeobj 0; 16;-20;-10
+.freeobj 1; 20;10;-10
+150,
+.freeobj 0; 16;-20;-10
+.freeobj 1; 20;10;-10
+140.2
+.stop -1;;;6
+.freeobj 0;6
+141,
+.freeobj 0; 8;-8;-10
+.freeobj 1; 8;8;-10
+
+.pitch 5
+150,
+.Limit 65; 1; -1
+.Sig -2;; -3; 2.4; ;;;
+190,
+.curve 500; 20,
+240,
+.curve 0,
+250,
+.railstart 2; 0; 0; 19
+275,
+.rail 2; 2 ; 0; 17
+300,
+.freeobj 0; 8;-8;-10
+.freeobj 1; 8;8;-10
+.curve 0;5
+.pitch 0
+.sta CE1 Oxford Avenue Terminal; ;;0;L;1;1;;50;400;cel\Departing.wav;;\
+
+.freeobj 0;110
+.freeobj 0; 111; -20
+.freeobj 1; 112
+.wall 0; -1; 0
+.wall 1; 1; 0
+.rail 2; 4 ; 0
+.railend 2
+325,
+.freeobj 1; 13
+.freeobj 0; 111; -20
+.freeobj 1; 112
+350,
+.freeobj 0; 111; -20
+.freeobj 1; 112
+375,
+.freeobj 0; 111; -20
+.freeobj 1; 112
+400,
+.freeobj 0; 111; -20
+.freeobj 1; 112
+425,
+.freeobj 0; 111; -20
+.freeobj 1; 112
+445,
+.freeobj 0; 11
+.freeobj 1; 12
+447,
+.stop -1;;;6,.freeobj 0;6
+450,
+.freeobj 0; 8;-8;-10
+.freeobj 1; 8;8;-10
+.Limit 95; -1; 1
+461,
+.Sig -2;; -3; 2.4; ;;;
+452,
+.wall 0; -1; 0
+.wall 1; 1; 2
+.curve 0;0
+450,
+.pitch 5
+475
+.pitch 10
+500,
+.pitch 15
+525,
+.pitch 0
+.railstart 2; 4; 0; 17
+550,
+.rail 2; 2 ; ;18
+.pitch 5
+575,
+.rail 2; 0 ; 0
+.railend 2
+.pitch 10
+600,
+.pitch 15
+.curve 750; 15
+650,
+.pitch 20
+.curve -500; 20
+750
+.curve -500; 60
+775
+.curve -500; 20
+1000,
+
+.curve 0;5
+1200,
+.freeobj 0; 8;-8;-10
+.freeobj 1; 8;8;-10
+.curve 1000; 10
+.ground 3
+1400,
+.height 2
+1425
+.height 4
+1450
+.curve 0
+.height 6
+.pitch -6
+1475
+.height 8
+.pitch -12
+1500
+.pitch -18
+1525
+.pitch -24
+1550
+.pitch -30
+1650
+.height 1
+.pitch 0
+.curve 0;
+.Limit 65; -1; 1
+.sta CE2 Riverbay Station; ;;0;L;1;1;;15;50;cel\Departing.wav;;
+.freeobj 0;123
+.freeobj 0;120
+.freeobj 0; 121; -20
+.freeobj 1; 122
+1800,
+.stop -1;;;6,.freeobj 0;6
+
+.Limit 95; -1; 1
+1810,
+.wall 0; -1; 0
+.wall 1; 1; 2
+.Sig -2;; -3; 2.4; ;;;
+.curve 0;0
+1800,
+.pitch 3.33
+1825
+.pitch 3.33
+1850
+.pitch 3.33
+1875,
+.pitch 0
+1900,
+.curve 5000; 5
+2000,
+.curve -5000; 5
+.ground 1
+2100,
+.curve 0; 0
+.railstart 2; 24; 0; 1
+.wall 2; 0; 2
+.railstart 3; -20; 0; 0
+.wall 3; 0; 0
+2150
+.freeobj 3; 13
+2500,
+.Limit 65; -1; 1
+.sta CE3 Metro Central Interchange; ;;0;L;1;1;;15;50;cel\Departing.wav;;
+.freeobj 0; 130
+2645,
+.stop -1;;;6,
+2675,
+
+2660,
+.wall 0; -1; 0
+.wall 1; 1; 2
+.Limit 95; -1; 1
+.Sig -2;; -3; 2.4; ;;;
+.curve 0;0
+2675
+.rail 2; 24; -1
+.rail 3; -20 ;-1
+
+2700,
+.rail 2; 24; -2
+.rail 3; -20 ;-2
+2725
+.rail 2; 24; -3.3
+.rail 3; -20 ;-3.3
+2750
+.wall 2; 0; 7
+.wall 3; 0 ;7
+.rail 2; 24; -5.5
+.rail 3; -20 ;-5.5
+
+2775
+
+.rail 2; 24; -8
+.rail 3; -20 ;-8
+2800
+
+.rail 2; 24; -11
+.rail 3; -20 ;-11
+2825
+.rail 2; 24; -14
+.rail 3; -20 ;-14
+.railend 2
+.railend 3
+.curve 1000;15
+2875
+.curve -1000;15
+2925
+.curve -5000;5
+3000,
+.height 10
+.curve 500;30
+3025
+3050,
+3075,
+.curve 0
+.Limit 65; -1; 1
+.freeobj 0; 8;-8;-10
+.freeobj 1; 8;8;-10
+.sta CE4 Piccadilly Square; ;;0;L;1;1;;15;50;cel\Departing.wav;;
+.freeobj 0; 1; -20
+.freeobj 1; 3
+3100
+.freeobj 0; 1; -20
+.freeobj 1; 3
+3125
+.freeobj 0; 1; -20
+.freeobj 1; 3
+3150
+.freeobj 0; 1; -20
+.freeobj 1; 3
+3175
+.freeobj 0; 1; -20
+.freeobj 1; 3
+3200
+.freeobj 0; 1; -20
+.freeobj 1; 3
+3220,
+.freeobj 0;140
+.stop -1;;;6,.freeobj 0;6
+.freeobj 0; 8;-8;-10
+.freeobj 1; 8;8;-10
+3225
+.Limit 95; -1; 1
+.wall 0; -1; 0
+.wall 1; 1; 2
+3235
+.Sig -2;; -3; 2.4; ;;;
+3250,
+.pitch 5
+3275,
+.curve 1000;10
+.pitch 10
+3375,
+.curve -1000;10
+3475,
+.curve 0
+.pitch 0
+.pitch 5
+3500,
+.pitch 10
+.height 10
+3600,
+.curve 500;20
+3700,
+.curve -500;20
+.pitch 0
+3950,
+.freeobj 0; 9;-10;-10
+.freeobj 1; 9;10;-10
+4000,
+.rail 1; 5
+.curve 0
+.Limit 65; -1; 1
+.Marker cel\station\ce5\marker.png;-150.1
+.sta CE5 China Town;P;;0;N;1;1;;10;0;;;
+.ground 1
+.freeobj 0;150
+.freeobj 0; 1; -20
+.freeobj 1; 3
+4025
+.freeobj 0; 1; -20
+.freeobj 1; 3
+4050
+.freeobj 0; 1; -20
+.freeobj 1; 3
+4075
+.freeobj 0; 1; -20
+.freeobj 1; 3
+4100
+.freeobj 0; 1; -20
+.freeobj 1; 3
+4125
+.freeobj 0; 1; -20
+.freeobj 1; 3
+4150
+.stop -1;;;6,.freeobj 0;6
+4155
+.Limit 95; -1; 1
+.wall 0; -1; 7
+.wall 1; 1; 7
+.ground 1
+.railtype 0; 0
+4200,
+.pitch -40
+4225
+.pitch -80
+.rail 1; 5
+4250
+.pitch -120
+.rail 1; 5
+4275
+.pitch -160
+.ground 2
+.curve 5000; 5
+.rail 1; 5
+4300
+.pitch -120
+4325
+.pitch -80
+4350
+.pitch -40
+4375
+.pitch 0
+4400
+
+.back 2
+4500,
+.curve 0
+4525,
+.curve 500; 30
+
+.height 5
+.wall 0; -1; 7
+.wall 1; 1; 7
+4550
+.rail 1; 4
+4625
+.height -20
+.ground 2
+
+4725
+.height -5
+.pitch 0
+.curve 0
+4750
+.railstart 2; 4; 0; 21
+.wall 2; 0; 8
+.railstart 3; 0; 0; 21
+.wall 3; 0; 8
+4775
+.rail 2; 3
+.rail 3; 1
+4800
+.rail 2; 2
+.rail 3; 2
+4825
+.rail 2; 1
+.rail 3; 3
+4850
+.rail 2; 0
+.rail 3; 4
+.railend 2
+.railend 3
+4900
+
+.Sig -2;; -2.2; 5; ;;;
+.Limit 50; -1; 1
+.sta CE6 Central Business District Interchange; ;;0;L;1;1;;35;100;cel\Departing.wav;;
+.freeobj 0; 4; -20
+.freeobj 1; 5
+.wall 0; -1; 0
+.wall 1; 1; 2
+4925
+.freeobj 1;13
+.freeobj 0; 4; -20
+.freeobj 1; 5
+4950,.freeobj 0; 4; -20
+.freeobj 1; 5,4975,.freeobj 0; 4; -20
+.freeobj 1; 5,5000,.freeobj 0; 4; -20
+.freeobj 1; 5,5025,.freeobj 0; 4; -20
+.freeobj 1; 5
+5042.5,
+.freeobj 0;160
+5045,
+
+.stop -1;;;6,.freeobj 0;6
+5055
+.Limit 95; -1; 1
+.wall 0; -1; 7
+.wall 1; 1; 7
+5150
+.curve 500;20
+.pitch 20
+5175
+.pitch 15
+5200
+.pitch 10
+5225
+.pitch 5
+5500
+.curve -250;60
+
+5850
+.ground 1
+.back 0
+6000
+.railtype 0; 17
+.curve 0
+.pitch 0
+.height 2
+.wall 0; -1; 0
+.wall 1; 1; 2
+.Sig -2;; -2.2; 5; ;;;
+.Limit 65; -1; 1
+.sta CE7 North Habour; ;;0;L;1;1;;25;150;cel\Departing.wav;;
+.freeobj 0; 1; -20
+.freeobj 1; 3
+6025
+.freeobj 0; 1; -20
+.freeobj 1; 3,6050,.freeobj 0; 1; -20
+.freeobj 1; 3,6075,.freeobj 0; 1; -20
+.freeobj 1; 3,6100,.freeobj 0; 1; -20
+.freeobj 1; 3,6125,.freeobj 0; 1; -20
+.freeobj 1; 3,6150,
+.stop -1;;;6,
+,.freeobj 0;6
+6155,
+.Limit 95; -1; 1
+.wall 0; -1; 0
+.wall 1; 1; 2
+6150
+.Sig -2;; -3; 2.4; ;;;
+6350,
+
+.Limit 65; -1; 1
+.sta CE8 National Stadium; ;;0;L;1;1;;20;100;cel\Departing.wav;;
+.freeobj 0; 1; -20
+.freeobj 1; 3
+6375
+.freeobj 0; 1; -20
+.freeobj 1; 3
+6400
+.freeobj 0; 1; -20
+.freeobj 1; 3
+6425
+.freeobj 0; 1; -20
+.freeobj 1; 3
+6450
+.freeobj 0; 1; -20
+.freeobj 1; 3
+6475
+.freeobj 0; 1; -20
+.freeobj 1; 3
+6485
+
+6500
+
+.stop -1;;;6,
+.freeobj 0;6
+.Limit 95; -1; 1
+6500
+.wall 0; -1; 0
+.wall 1; 1; 2
+6500
+.curve 1000;10
+6525
+.Sig -2;; -3; 2.4; ;;;
+6700
+.height 5
+.pitch 5
+6800
+.pitch 10
+6900
+.pitch 15
+7000
+.pitch 20
+7100
+.curve 0
+7125
+.pitch 15
+7150
+.pitch 10
+7175
+.pitch 5
+7200
+.pitch 4
+7300
+.pitch 8
+7400
+.pitch 12
+7500
+.pitch 16
+7600
+.pitch 17
+7700
+.pitch 18
+7800
+.pitch 19
+7500
+.curve 2000;5
+7900
+.pitch 20
+8000,
+.pitch 0
+.curve 0
+.Limit 65; -1; 1
+.sta CE9 Richwood; ;;0;L;1;1;;10;50;cel\Departing.wav;;
+.freeobj 0; 1; -20
+.freeobj 1; 3
+8025
+.freeobj 0; 1; -20
+.freeobj 1; 3
+8050
+.freeobj 0; 1; -20
+.freeobj 1; 3
+8075
+.freeobj 0; 1; -20
+.freeobj 1; 3
+8100
+.freeobj 0; 1; -20
+.freeobj 1; 3
+8125
+.freeobj 0; 1; -20
+.freeobj 1; 3
+8150,
+.stop -1;;;6,
+,.freeobj 0;6
+.Limit 95; -1; 1
+8150
+
+8175
+.rail 1; 5
+
+8200
+.rail 1; 6
+.wall 0; 0; 0
+.wall 1; 0; 2
+8225
+.rail 1; 7
+8250
+.rail 1; 8
+8275
+.rail 1; 9
+8300
+.rail 1; 10
+8325
+.rail 1; 11
+8350
+.rail 1; 12
+8375
+.rail 1; 13
+8400
+.rail 1; 14
+8425
+.rail 1; 15
+8450
+.rail 1; 16
+8475
+.rail 1; 17
+8500
+.rail 1; 18
+8525
+.rail 1; 19
+8550
+.rail 1; 20
+8200
+.curve 500;20
+8400.
+.curve 0
+8425,
+.height 0.1
+8450
+8475
+8500
+
+8500
+.curve -500;20
+8600
+.wall 0; -1; 0
+.wall 1; 1; 2
+.curve 0
+.railstart 2; 0; 0; 21
+.wall 2; 1; 0
+.railstart 3; 20; 0; 21
+.wall 3; -1; 2
+8625
+.rail 2; 4
+.rail 3; 16
+
+8650
+.rail 2; 8
+.rail 3; 12
+.wall 0; 0; 0
+.wall 1; 0; 0
+.wall 2; 0; 8
+.wall 3; 0; 8
+8675
+.rail 2; 12
+.rail 3; 8
+.wall 2; -1; 2
+.wall 3; 1; 2
+.wall 0; -1; 0
+.wall 1; 1; 2
+8700
+.rail 2; 16
+.rail 3; 4
+8725
+.rail 2; 20
+.rail 3; 0
+.wall 0; 0; 0
+.wall 1; 0; 2
+.railend 2
+.railend 3
+9000
+.sta CE10 Ten Mile Terminal; ;;0;R;1;0;;30;0;;;
+.freeobj 0; 2
+.Limit 30; -1; 1
+9025
+.freeobj 0; 2; 
+.freeobj 1; 13
+9050
+.freeobj 0; 2
+9075
+.freeobj 0; 2
+9100
+.freeobj 0; 2
+9125
+.freeobj 0;2 
+9150
+.stop 1;;;6,,.freeobj 0;6
+.Limit 25; -1; 1
+9175
+.sta Ten Mile Depot; ;;0;N;1;0;;10;0;;;
+.curve 300;50
+
+9200
+.rail 1; 19
+9225
+.rail 1; 18
+9250
+.rail 1; 17
+9275
+.rail 1; 16
+9300
+.rail 1; 15
+9325
+.rail 1; 14
+9350
+.rail 1; 13
+9375
+.rail 1; 12
+9400
+.rail 1; 11
+9425
+.rail 1; 10
+.curve 0
+9450
+.rail 1; 9
+9475
+.rail 1; 8
+9500
+.rail 1; 7
+.wall 0 ; -1 ; 0
+.wall 1; 1 ; 0
+.Limit 19; 1; -1,
+.Limit 19; 2; 1,
+.freeobj 0;7;4.4;-0.025;-0.01
+.freeobj 1;7;-0.41;-0.025;-0.01
+9525
+.rail 1; 6
+9550
+.rail 1; 5
+9575
+.rail 1; 4
+.stop 1;;;6,,.freeobj 0;6,.freeobj 1;6
+.buffer
+.freeobj 0 ; 15
+.freeobj 1 ; 15
+9590
+.freeobj 0 ; 15
+.freeobj 1 ; 15
+9600
+.railtype 0; 16
+.wall 0; 0; 8
+
+.railend 1
+.freeobj 0; 21

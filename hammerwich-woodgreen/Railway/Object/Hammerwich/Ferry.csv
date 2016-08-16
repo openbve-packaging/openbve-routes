@@ -1,0 +1,25 @@
+;A Hammerwich - Wood Green object
+;--------------------------------------
+;By Robert Glass with permission
+;http://scotrailsim.cjb.net
+;
+;Texture adapted by an original thanks to
+;Bryan Dudley
+;
+;Please seek permission before using
+;any files in your own route.
+
+CreateMeshBuilder,
+AddVertex, -100, 10, 0,
+AddVertex, -070, 10, 25,
+AddVertex, -070, -0.01, 25,
+AddVertex, -100, -0.01, 0,
+AddFace, 0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,Ferry.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor, 0,0,0

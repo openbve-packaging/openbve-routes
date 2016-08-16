@@ -1,0 +1,41 @@
+CreateMeshBuilder,
+AddVertex,-5.2, 2.2, 0,
+AddVertex,-5.2, 4.7, 0,
+AddVertex,-5.2, 4.7, 25.2,
+AddVertex,-5.2, 2.2, 25.2,
+AddFace,0,1,2,3,
+LoadTexture,toyoW.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 12, 0,
+SetTextureCoordinates,3, 12, 1,
+SetColor,245,245,245
+GenerateNormals,
+
+CreateMeshBuilder
+AddVertex,-5.2, 1.1, 0,
+AddVertex,-5.2, 2.2, 0
+AddVertex,-5.2, 2.2, 25.2
+Addvertex,-5.2, 1.1, 25.2
+Addface,0,1,2,3
+LoadTexture,toyoW.bmp
+SetTextureCoordinates,0, 0, 0.45,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 12, 0,
+SetTextureCoordinates,3, 12, 0.45,
+SetColor,250,200,200
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-5.1, 3.5, 11.5,
+AddVertex,-5.1, 3.5, 14.5,
+AddVertex,-5.1, 2.8, 14.5,
+AddVertex,-5.1, 2.8, 11.5,
+AddFace,0,1,2,3,
+
+LoadTexture,../sta\Toyocho.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,

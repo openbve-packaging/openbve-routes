@@ -1,0 +1,206 @@
+[MeshBuilder] ; Lift Doors
+Vertex -17,3.7,9
+Vertex -17,1.2,9
+Vertex -17,1.2,7
+Vertex -17,3.7,7
+Face 0,1,2,3
+[Texture] 
+load cw-lift.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; Digital no smoking sign
+Vertex -17,4,9
+Vertex -17,3.7,9
+Vertex -17,3.7,7
+Vertex -17,4,7
+Face 0,1,2,3
+[Texture]
+load nosmo.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; Lift Surround
+Vertex -16.6,4,9
+Vertex -16.6,1.2,9
+Vertex -17,1.2,9
+Vertex -17,4,9
+Vertex -17,4,7
+Vertex -17,1.2,7
+Vertex -16.6,1.2,7
+Vertex -16.6,4,7
+Vertex -16.6,4.4,9.4
+Vertex -16.6,4,9.4
+Vertex -16.6,4,6.6
+Vertex -16.6,4.4,6.6
+Vertex -16.6,1.2,9.4
+Vertex -16.6,1.2,6.6
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 7,6,13,10
+Face 9,12,1,0
+Face 0,3,4,7
+Color 130,130,130
+
+[Meshbuilder] ; Wall
+Vertex -16.6,6,16
+Vertex -16.6,1.2,16
+Vertex -16.6,1.2,9.4
+Vertex -16.6,6,9.4
+Vertex -16.6,4.4,9.4
+Vertex -16.6,4.4,6.6
+Vertex -16.6,6,6.6
+Vertex -16.6,1.2,6.6
+Vertex -16.6,1.2,0
+Vertex -16.6,6,0
+Face 0,1,2,3
+Face 3,4,5,6
+Face 6,7,8,9
+[Texture]
+Load cw-tile.bmp
+Coordinates 0,6.6,0
+Coordinates 1,6.6,4.9
+Coordinates 2,0,4.9
+Coordinates 3,0,0
+Coordinates 4,0,1.6
+Coordinates 5,-2.8,1.6
+Coordinates 6,-2.8,0
+Coordinates 7,-2.8,4.9
+Coordinates 8,-8.6,4.9
+Coordinates 9,-8.6,0
+
+[Meshbuilder] ; short wall tops
+Vertex -16.6,2.4,5.5
+Vertex -10,2.4,5.5
+Vertex -10,2.4,5
+Vertex -16.6,2.4,5
+Vertex -16.6,2.4,11
+Vertex -10,2.4,11
+Vertex -10,2.4,10.5
+Vertex -16.6,2.4,10.5
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+Load cw-tile.bmp
+Coordinates 0,0.5,0
+Coordinates 1,0.5,7
+Coordinates 2,0,7
+Coordinates 3,0,0
+Coordinates 4,6,0
+Coordinates 5,6,7
+Coordinates 6,5.5,7
+Coordinates 7,5.5,0
+
+[Meshbuilder] ; short wall sides
+Vertex -10,2.4,5
+Vertex -10,1.2,5
+Vertex -16.6,1.2,5
+Vertex -16.6,2.4,5
+Vertex -10,2.4,10.5
+Vertex -10,1.2,10.5
+Vertex -16.6,1.2,10.5
+Vertex -16.6,2.4,10.5
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+load cw-tile.bmp
+Coordinates 0,7,0
+Coordinates 1,7,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Coordinates 4,7,0
+Coordinates 5,7,1
+Coordinates 6,0,1
+Coordinates 7,0,0
+
+[Meshbuilder] ; Short wall fronts
+Vertex -10,2.4,5.5
+Vertex -10,1.2,5.5
+Vertex -10,1.2,5
+Vertex -10,2.4,5
+Vertex -10,2.4,11
+Vertex -10,1.2,11
+Vertex -10,1.2,10.5
+Vertex -10,2.4,10.5
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+load cw-tile.bmp
+Coordinates 0,0.5,0
+Coordinates 1,0.5,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Coordinates 4,6,0
+Coordinates 5,6,1
+Coordinates 6,0,1
+Coordinates 7,0,0
+
+[Meshbuilder] ; fence fronts
+Vertex -10,2.4,0.5
+Vertex -10,1.2,0.5
+Vertex -10,1.2,0
+Vertex -10,2.4,0
+Vertex -10,2.4,11.5
+Vertex -10,1.2,11.5
+Vertex -10,1.2,11
+Vertex -10,2.4,11
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+load cw-fence.bmp
+Coordinates 0,1.1,0
+Coordinates 1,1.1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Coordinates 4,-1.1,0
+Coordinates 5,-1.1,1
+Coordinates 6,0,1
+Coordinates 7,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; fence sides
+Vertex -10,2.4,0
+Vertex -10,1.2,0
+Vertex -16.6,1.2,0
+Vertex -16.6,2.4,0
+Vertex -10,2.4,16
+Vertex -10,1.2,16
+Vertex -16.6,1.2,16
+Vertex -16.6,2.4,16
+Face 0,1,2,3
+Face 4,5,6,7
+[Texture]
+load cw-fence.bmp
+Coordinates 0,4,0
+Coordinates 1,4,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Coordinates 4,4,0
+Coordinates 5,4,1
+Coordinates 6,0,1
+Coordinates 7,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; Side of main wall
+Vertex -16.6,6,0
+Vertex -16.6,1.2,0
+Vertex -24,1.2,0
+Vertex -24,2.4,0
+Vertex -22,2.4,0
+Vertex -17,6,0
+Face 0,1,5
+Face 5,1,4
+Face 4,1,2,3
+[Texture]
+load cw-tile.bmp
+Coordinates 0,0.4,0
+Coordinates 1,0.4,4.8
+Coordinates 2,-7,4.8
+Coordinates 3,-7,3.6
+Coordinates 4,-5,3.6
+Coordinates 5,0,0

@@ -1,0 +1,114 @@
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Terreno in salita - per curva a destra
+; monte a sinistra - valle a destra
+
+[MeshBuilder] ; 1o tratto - monte a sinistra
+vertex -4.8 , 4.5 ,-0.9;  alto inzio
+vertex -5.5 , 4.5 ,12.5 ; alto fine
+vertex -4.2 , 2.8 ,12.5 ; basso fine *
+vertex -3.5 , 2.8 ,-0.7;basso inizio *
+vertex -3.4 , 0.1 ,12.5 ; basso max fine
+vertex -2.7 , 0.1 ,-0.6;basso max inizio
+vertex -82,   30   ,12.5 ;alto max fine 
+vertex -80,   30   ,-12; alto max inizio
+vertex -2.5 ,-0.22 ,12.5 ; basso max fine
+vertex -1.6 ,-0.22 ,-0.5;basso max inizio
+Face 0,1,2,3
+Face 3,2,4,5
+Face 7,6,1,0
+Face 5,4,8,9
+translate 0,-0.3,0
+[texture]
+load Grass2.bmp
+coordinates 0, 0.5,   0
+coordinates 1, 1, 0
+coordinates 2, 1, 0.5
+coordinates 3, 0.5,   0.5
+coordinates 4, 1, 1
+coordinates 5, 0.5,   1
+coordinates 6, 1, 10
+coordinates 7, 0.5,   10
+coordinates 8, 1, -0.001
+coordinates 9, 0.5,-0.001
+
+[MeshBuilder] ;  ; 2o tratto - monte a sinistra
+vertex -5.5 , 4.5 ,12.3 ;  alto inzio
+vertex -4.8 , 4.8 ,26.2 ; alto fine
+vertex -3.5 , 2.8 ,25.9 ; basso fine *
+vertex -4.2 , 2.8 ,12.3  ;basso inizio *
+vertex -2.7 , 0.05 ,25.6 ; basso max fine
+vertex -3.4 , 0.1 ,12.3  ;basso max inizio
+vertex -80  ,30   ,48 ;alto max fine 
+vertex -82  ,30   ,7  ; alto max inizio
+vertex -1.6 ,-0.22 ,25.5 ; basso max fine
+vertex -2.5 ,-0.22 ,12.3  ;basso max inizio
+Face 0,1,2,3
+Face 3,2,4,5
+Face 7,6,1,0
+Face 5,4,8,9
+translate 0,-0.3,0
+[texture]
+load Grass2.bmp
+coordinates 0, 0,   0
+coordinates 1, 0.5, 0
+coordinates 2, 0.5, 0.5
+coordinates 3, 0,   0.5
+coordinates 4, 0.5, 1
+coordinates 5, 0,   1
+coordinates 6, 0.5, 10
+coordinates 7, 0,   10
+coordinates 8, 1, -0.001
+coordinates 9, 0.5,-0.001
+
+
+[MeshBuilder] ; 1o tratto - valle a destra
+vertex 5.4 , -2.5 , 0 ;  alto inzio
+vertex 4.8 , -2.5 ,12.0 ; alto fine
+vertex 1.7 , -0.1 ,12.0 ; basso fine *
+vertex 2.8 , -0.2 ,-0.4  ;basso inizio *
+vertex 0.4 ,-0.2 ,12.0 ; basso max fine
+vertex 1.6 ,-0.3 ,-0.8  ;basso max inizio
+vertex 78,   -30   ,12.0 ;alto max fine 
+vertex 80,   -30   ,0  ; alto max inizio
+Face2 0,1,2,3
+Face2 3,2,4,5
+Face2 7,6,1,0
+translate 0,-0.2,0
+[texture]
+load Grass2.bmp
+coordinates 0, 0.5,   0
+coordinates 1, 1, 0
+coordinates 2, 1, 0.5
+coordinates 3, 0.5,   0.5
+coordinates 4, 1, 1
+coordinates 5, 0.5,   1
+coordinates 6, 1, 10
+coordinates 7, 0.5,   10
+
+
+[MeshBuilder] ; 2o tratto - valle a destra
+vertex 4.8 , -2.5 , 12.0 ;  alto inzio
+vertex 5.5 , -2.5 , 24 ; alto fine
+vertex 2.5 , -0.1 , 24 ; basso fine *
+vertex 1.8 , -0.1 ,12.0  ;basso inizio *
+vertex 1.4 ,-0.2 , 24 ; basso max fine
+vertex 0.4 ,-0.2 , 12.0  ;basso max inizio
+vertex 80,   -30   ,40 ;alto max fine 
+vertex 78,   -30   ,12.0  ; alto max inizio
+Face2 0,1,2,3
+Face2 3,2,4,5
+Face2 7,6,1,0
+translate 0,-0.3,0
+[texture]
+load Grass2.bmp
+coordinates 0, 0.5,   0
+coordinates 1, 1, 0
+coordinates 2, 1, 0.5
+coordinates 3, 0.5,   0.5
+coordinates 4, 1, 1
+coordinates 5, 0.5,   1
+coordinates 6, 1, 10
+coordinates 7, 0.5,   10

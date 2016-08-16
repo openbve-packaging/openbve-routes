@@ -1,0 +1,93 @@
+﻿;(c) pre-zli
+
+[Meshbuilder]
+Cube 0.15, 0.15, 0.05
+Color 32, 32, 32
+Translate 0, 0.15, -0.2
+[Meshbuilder]
+Vertex 0.15, 0.3, -0.15
+Vertex 0.05, 0.3, -0.05
+Vertex 0.05, 0, -0.05
+Vertex 0.15, 0, -0.15
+Vertex -0.05, 0.3, -0.05
+Vertex -0.05, 0, -0.05
+Vertex -0.15, 0.3, -0.15
+Vertex -0.15, 0, -0.15
+Face 0, 1, 2, 3
+Face 1, 4, 5, 2
+Face 4, 6, 7, 5
+Face 6, 4, 1, 0
+Face 3, 2, 5, 7
+Color 32, 32, 32
+[Meshbuilder]
+Vertex -0.12, 0.12, -0.25
+Vertex -0.12, 0.18, -0.45
+Vertex -0.12, 0.28, -0.45
+Vertex -0.12, 0.28, -0.25
+Vertex 0.12, 0.28, -0.25
+Vertex 0.12, 0.28, -0.45
+Vertex 0.12, 0.18, -0.45
+Vertex 0.12, 0.12, -0.25
+Face2 0, 1, 2, 3
+Face2 2, 3, 4, 5
+Face2 4, 5, 6, 7
+Color 32, 32, 32
+
+[Meshbuilder]
+Cube 0.15, 0.15, 0.05
+Color 32, 32, 32
+Translate 0, 0.45, -0.2
+[Meshbuilder]
+Vertex 0.15, 0.6, -0.15
+Vertex 0.05, 0.6, -0.05
+Vertex 0.05, 0.3, -0.05
+Vertex 0.15, 0.3, -0.15
+Vertex -0.05, 0.6, -0.05
+Vertex -0.05, 0.3, -0.05
+Vertex -0.15, 0.6, -0.15
+Vertex -0.15, 0.3, -0.15
+Face 0, 1, 2, 3
+Face 1, 4, 5, 2
+Face 4, 6, 7, 5
+Face 6, 4, 1, 0
+Face 3, 2, 5, 7
+Color 32, 32, 32
+[Meshbuilder]
+Vertex -0.12, 0.42, -0.25
+Vertex -0.12, 0.48, -0.45
+Vertex -0.12, 0.58, -0.45
+Vertex -0.12, 0.58, -0.25
+Vertex 0.12, 0.58, -0.25
+Vertex 0.12, 0.58, -0.45
+Vertex 0.12, 0.48, -0.45
+Vertex 0.12, 0.42, -0.25
+Face2 0, 1, 2, 3
+Face2 2, 3, 4, 5
+Face2 4, 5, 6, 7
+Color 32, 32, 32
+
+[Meshbuilder]; felso
+Vertex -0.15, 0.6, -0.26
+Vertex 0.15, 0.6, -0.26
+Vertex 0.15, 0.3, -0.26
+Vertex -0.15, 0.3, -0.26
+Face 0, 1, 2, 3
+[Texture]
+Load gyalogos_piros_eg.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[Meshbuilder]; also
+Vertex -0.15, 0.3, -0.26
+Vertex 0.15, 0.3, -0.26
+Vertex 0.15, 0, -0.26
+Vertex -0.15, 0, -0.26
+Face 0, 1, 2, 3
+[Texture]
+Load gyalogos_zold_nemeg.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

@@ -1,0 +1,98 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;parte superiore
+
+CreateMeshBuilder,
+AddVertex,0, 0.0, 0,
+AddVertex,0, 1.5, 0,
+AddVertex,0.2, 1.5, 0,
+AddVertex,0.2, 0.0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,limitemanovra.bmp,
+SetTextureCoordinates,0, 0, 5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 5,
+CreateMeshBuilder,
+AddVertex,0.2, 0, 0.1,
+AddVertex,0.2, 1.5, 0.1,
+AddVertex,0, 1.5, 0.1,
+AddVertex,0, 0, 0.1,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,limitemanovra.bmp,
+SetTextureCoordinates,0, 0, 5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 5,
+CreateMeshBuilder,
+AddVertex,0.2, 0, 0,
+AddVertex,0.2,1.5, 0,
+AddVertex,0.2, 1.5, 0.1,
+AddVertex,0.2, 0, 0.1,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,limitemanovra.bmp,
+SetTextureCoordinates,0, 0, 5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 5,
+CreateMeshBuilder,
+AddVertex,0, 0, 0.1,
+AddVertex,0, 1.5, 0.1,
+AddVertex,0, 1.5, 0,
+AddVertex,0, 0, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,limitemanovra.bmp,
+SetTextureCoordinates,0, 0, 5,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 5,
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;sopra
+CreateMeshBuilder,
+AddVertex,0, 1.5, 0,
+AddVertex,0.1, 1.6, 0,
+AddVertex,0.2, 1.5, 0,
+Addface,0,1,2
+setcolor,200,200,200
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0, 1.5, 0.1,
+AddVertex,0.1, 1.6, 0.1,
+AddVertex,0.2, 1.5, 0.1,
+Addface,2,1,0
+setcolor,200,200,200
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0, 1.5, 0,
+AddVertex,0.1, 1.6, 0,
+AddVertex,0.1, 1.6, 0.1,
+AddVertex,0, 1.5, 0.1,
+Addface,3,2,1,0
+setcolor,200,200,200
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.2, 1.5, 0,
+AddVertex,0.1, 1.6, 0,
+AddVertex,0.1, 1.6, 0.1,
+AddVertex,0.2, 1.5, 0.1,
+Addface,0,1,2,3
+setcolor,200,200,200
+GenerateNormals,
+
+

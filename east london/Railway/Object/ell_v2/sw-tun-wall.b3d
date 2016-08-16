@@ -1,0 +1,128 @@
+[Meshbuilder]
+Vertex 2,5.3,0
+Vertex 2,-0.405,0
+Vertex 2,-0.405,3
+Vertex 2,3,5
+Vertex 2,-0.405,7
+Vertex 2,-0.405,8
+Vertex 2,3,10
+Vertex 2,-0.405,12
+Vertex 2,-0.405,13
+Vertex 2,3,15
+Vertex 2,-0.405,17
+Vertex 2,-0.405,18
+Vertex 2,3,20
+Vertex 2,-0.405,22
+Vertex 2,-0.405,25
+Vertex 2,5.3,25
+
+Face 0,1,2,3
+Face 0,3,12,15
+Face 3,4,5,6
+Face 6,7,8,9
+Face 9,10,11,12
+Face 12,13,14,15
+Color 160,160,160
+
+[Texture]
+load stone.bmp
+Coordinates 0,25,0
+Coordinates 1,25,5
+Coordinates 2,20.7,5
+Coordinates 3,20,2
+Coordinates 4,19.3,5
+Coordinates 5,15.7,5
+Coordinates 6,15,2
+Coordinates 7,14.3,5
+Coordinates 8,10.7,5
+Coordinates 9,10,2
+Coordinates 10,9.3,5
+Coordinates 11,5.7,5
+Coordinates 12,5,2
+Coordinates 13,4.3,5
+Coordinates 14,0,5
+Coordinates 15,0,0
+
+[Meshbuilder]
+Vertex 3,3,5
+Vertex 3,-0.405,7
+Vertex 2,-0.405,7
+Vertex 2,3,5
+
+Vertex 3,3,10
+Vertex 3,-0.405,12
+Vertex 2,-0.405,12
+Vertex 2,3,10
+
+Vertex 3,3,15
+Vertex 3,-0.405,17
+Vertex 2,-0.405,17
+Vertex 2,3,15
+
+Vertex 3,3,20
+Vertex 3,-0.405,22
+Vertex 2,-0.405,22
+Vertex 2,3,20
+
+Face 0,1,2,3
+Face 4,5,6,7
+Face 8,9,10,11
+Face 12,13,14,15
+
+[Texture]
+load stonea.bmp
+Coordinates  0,1,0
+Coordinates  1,1,2
+Coordinates  2,0,2
+Coordinates  3,0,0
+Coordinates  4,1,0
+Coordinates  5,1,2
+Coordinates  6,0,2
+Coordinates  7,0,0
+Coordinates  8,1,0
+Coordinates  9,1,2
+Coordinates 10,0,2
+Coordinates 11,0,0
+Coordinates 12,1,0
+Coordinates 13,1,2
+Coordinates 14,0,2
+Coordinates 15,0,0
+
+[Meshbuilder]
+Vertex 3,5.2,0
+Vertex 3,-0.405,0
+Vertex 2,-0.405,0
+Vertex 2,5.2,0
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,1,0
+Coordinates 1,1,5
+Coordinates 2,0,5
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 3.2,5.2,-0.1
+Vertex 3,5.1,0
+Vertex 2,5.1,0
+Vertex 1.8,5.2,-0.1
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,1,0
+Coordinates 1,1,0.2
+Coordinates 2,0,0.2
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 1.8,5.2,-0.1
+Vertex 2,5.1,0
+Vertex 2,5.1,25
+Vertex 1.8,5.2,25.1
+Face 0,1,2,3
+[Texture]
+load stonea.bmp
+Coordinates 0,25,0
+Coordinates 1,25,0.2
+Coordinates 2,0,0.2
+Coordinates 3,0,0

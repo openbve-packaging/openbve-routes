@@ -1,0 +1,9 @@
+﻿[Object]
+States = autostop_1.b3d
+Position = 1.10,0.02,0
+
+[Object]
+States = autostop_2.b3d
+Position = 0.97,-0.11,0
+RotateXFunction = if[section > 0,-1.56,0]
+RotateXDamping = 1.5, 1

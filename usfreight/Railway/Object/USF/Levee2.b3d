@@ -1,0 +1,31 @@
+
+
+[MeshBuilder]
+Vertex -120, -3.05, 0
+Vertex -120, -3.05, 25
+Vertex 120, -3.05, 25
+Vertex 120, -3.05, 0
+Face 0, 1, 2, 3
+color 200,100,30
+
+[Texture]
+Load River.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 5, 0
+Coordinates 3, 5, 1
+
+[MeshBuilder]
+Vertex -120, -3, 23
+Vertex -120, 0, 25
+Vertex 120, 0, 25
+Vertex 120, -3, 23
+Face 0, 1, 2, 3
+
+[Texture]
+Load Levee2.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 4, 0
+Coordinates 3, 4, 1
+

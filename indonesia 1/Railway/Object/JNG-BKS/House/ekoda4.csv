@@ -1,0 +1,17 @@
+CreateMeshBuilder,,,,
+AddVertex,-10.5,4,8,
+AddVertex,-5,4,8,
+AddVertex,-5,4,20,
+AddVertex,-5,-0.5,20,
+AddVertex,-5,-0.5,8,
+AddVertex,-10.5,-0.5,8,
+AddFace,5,0,1,4
+AddFace,4,1,2,3
+GenerateNormals,,,,
+LoadTexture,ekoda4.bmp,,,
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,4,0,1,
+SetTextureCoordinates,5,1,1

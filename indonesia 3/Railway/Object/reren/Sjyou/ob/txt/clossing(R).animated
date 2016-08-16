@@ -1,0 +1,11 @@
+﻿[Object]
+Position = 0, 0, 1
+States = ../Road\crossingon.csv, ../Road\crossingoff.csv
+;StateFunction = If[floor[mod[time*2,2]],0,1]
+StateFunction= floor[mod[time*2,2]]
+
+
+[Object]
+Position = 0.02, 0, 1
+States = ../Road\crossingon.csv, ../Road\crossingoff.csv
+StateFunction = floor[mod[time*2,2]]

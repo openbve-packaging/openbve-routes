@@ -1,0 +1,55 @@
+; CabinaTelef2.csv by Luigi Cartello (cartello.luigi@tiscali.it)
+
+; Oggetto BVE costituito da una cabina telefonica lungo la linea
+; alto mt.2,5 e largo mt.1 con texture applicata.
+; L'oggetto è costruito in modo da essere visualizzato sulla sinistra qundo
+; posizionato sul binario corrente. L'oggetto può anche essere posizionato
+; alla destra del binario ruotato di 180 gradi, presentando la faccia posteriore
+; senza porta.
+
+; Esempio di utilizzo in una sola CreateMeshBuilder di tutte le
+; istruzioni Addvertex per costruire tutti i vertici e tutte le
+; SetTextureCoordinates per per coprire tutte le superfici create.
+
+; Questo metodo è più compatto di quello usato nel file CabinaTelef-2.csv,
+; ma risulta meno intuitivo.
+
+; La parete laterale sinistra non viene costruita, in quanto non
+; risulterebbe visibile.
+
+; Immagine CabinaTelef.bmp by Luigi Cartello (cartello.luigi@tiscali.it)
+
+; Vertici per tutti i lati della cabina
+CreateMeshBuilder
+AddVertex,-3,2.5,0 ;Indice 0 - ant alto sin
+AddVertex,-2,2.5,0 ;Indice 1 - ant alto des
+AddVertex,-2,0  ,0 ;Indice 2 - ant basso des
+AddVertex,-3,0  ,0 ;Indice 3 - ant basso sin
+AddVertex,-2,2.5,1 ;Indice 4 - post alto des
+AddVertex,-2,0  ,1 ;Indice 5 - post basso des
+AddVertex,-3,2.5,1 ;Indice 6 - post alto sin
+AddVertex,-3,0  ,1 ;Indice 7 - post basso sin
+
+AddFace2,0,1,2,3 ;Parete anteriore con porta
+AddFace2,1,4,5,2 ;Parete laterale destra con finestrotti
+AddFace2,4,6,7,5 ;Parete posteriore senza porta
+
+GenerateNormals
+LoadTexture,CabinaTelef.bmp
+SetTextureCoordinates,0, 0    ,0 ; Vert.0 - ant alto sin
+SetTextureCoordinates,1, 0.25 ,0 ; Vert.1 - ant alto des
+SetTextureCoordinates,2, 0.25 ,1 ; Vert.2 - ant basso des
+SetTextureCoordinates,3, 0    ,1 ; Vert.3 - ant basso sin
+SetTextureCoordinates,4, 0.5  ,0 ; Vert.4 - post alto des
+SetTextureCoordinates,5, 0.5  ,1 ; Vert.5 - post basso des
+SetTextureCoordinates,6, 0.75 ,0 ; Vert.6 - post alto sin
+SetTextureCoordinates,7, 0.75 ,1 ; Vert.7 - post basso sin
+
+CreateMeshBuilder ; Tetto piano
+Cube, 0.65, 0.06
+Translate, -2.5, 2.55,0.5
+SetColor, 191, 191, 191
+CreateMeshBuilder ; Basamento
+Cube, 0.7, 0.15
+Translate, -2.5, -0.15,0.5
+SetColor, 176, 176, 176

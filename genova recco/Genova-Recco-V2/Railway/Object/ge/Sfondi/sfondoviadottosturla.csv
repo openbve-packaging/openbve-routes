@@ -1,0 +1,68 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;sx
+
+
+CreateMeshBuilder,
+AddVertex,-132, 0, -50,
+AddVertex,-132, 20, -50,
+AddVertex,-21, 20, 0,
+AddVertex,-21, 0, 0,
+AddFace,0, 1, 2, 3,
+
+GenerateNormals,
+ 
+
+LoadTexture,sfondoviadotto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, -1, 0,
+SetTextureCoordinates,3, -1, 1,
+SetDecalTransparentColor,0,0,0
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;centro
+
+
+CreateMeshBuilder,
+AddVertex,-21, 0, 0,
+AddVertex,-21, 20, 0,
+AddVertex,89, 19, 0,
+AddVertex,89, 0, 0,
+AddFace,0, 1, 2, 3,
+
+GenerateNormals,
+ 
+
+LoadTexture,sfondoviadotto.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;dx
+
+
+CreateMeshBuilder,
+AddVertex,89, -9, 0,
+AddVertex,89, 17.5, 0,
+AddVertex,191, 17.5, -50,
+AddVertex,191, -9, -50,
+AddFace,0, 1, 2, 3,
+
+GenerateNormals,
+ 
+
+LoadTexture,sfondoviadotto.bmp,
+SetTextureCoordinates,0, 0.05, 1,
+SetTextureCoordinates,1, 0.05, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0
+
+
+

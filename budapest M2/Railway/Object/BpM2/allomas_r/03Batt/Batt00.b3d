@@ -1,0 +1,91 @@
+;Batthyány tér állomás peron
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------------------
+
+;világítás
+[MeshBuilder]
+vertex -1.44,3.682,0
+vertex -1.44,3.682,25
+vertex -3.44,3.682,25
+vertex -3.44,3.682,0
+vertex -17.26,3.682,0
+vertex -17.26,3.682,25
+vertex -19.26,3.682,25
+vertex -19.26,3.682,0
+face 0,1,2,3
+face 4,5,6,7
+Load batt_vilagitas1.bmp
+coordinates 0,0,0
+coordinates 1,10,0
+coordinates 2,10,1
+coordinates 3,0,1
+coordinates 4,0,1
+coordinates 5,10,1
+coordinates 6,10,0
+coordinates 7,0,0
+
+;peron
+[MeshBuilder]
+Vertex -18.45,1.1,0
+Vertex -18.45,1.1,25
+Vertex -2.35,1.1,25
+Vertex -2.35,1.1,0
+Face 0,1,2,3
+[Texture]
+Load batt_peron.bmp
+Coordinates 0,0,40
+Coordinates 1,0,0
+Coordinates 2,30,0
+Coordinates 3,30,40
+
+[MeshBuilder]
+Vertex -1.45,1.1,0
+Vertex -1.45,1.1,25
+Vertex -2.25,1.1,25
+Vertex -2.25,1.1,0
+Face 3,2,1,0
+[Texture]
+Load batt_peron_sav.bmp
+Coordinates 0,0,600
+Coordinates 1,0,0
+Coordinates 2,24,0
+Coordinates 3,24,600
+[MeshBuilder]
+Vertex -2.245,1.1,0
+Vertex -2.245,1.1,25
+Vertex -2.355,1.1,25
+Vertex -2.355,1.1,0
+Face 3,2,1,0
+[Texture]
+Load batt_peron_sav2.bmp
+Coordinates 0,1,60
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,60
+
+[MeshBuilder]
+Vertex -1.7,-0.3,0
+Vertex -1.7,-0.3,25
+Vertex -1.7,1.09,25
+Vertex -1.7,1.09,0
+Face 3,2,1,0
+[Texture]
+Load batt_peron_oldal.bmp
+Coordinates 0,12,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,12,0
+
+;oldalszéle
+[MeshBuilder]
+Vertex -1.45,1.1,0
+Vertex -1.45,1.1,25
+Vertex -1.45,.9,25
+Vertex -1.45,.9,0
+;elejeszéle
+Vertex -7.2,.9,0
+Vertex -7.2,1.1,0
+Face 0,1,2,3
+Face 4,5,0,3
+color 96,96,96

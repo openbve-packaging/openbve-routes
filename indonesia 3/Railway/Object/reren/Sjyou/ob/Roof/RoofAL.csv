@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex,-7.2, 5.7, 0,
+AddVertex,-7.2, 5.7, 25.3,
+AddVertex,-2.7, 5.7, 25.3,
+AddVertex,-2.7, 5.7, 0,
+AddFace2,0,1,2,3
+
+GenerateNormals,
+LoadTexture,../myoroof1.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 5, 0,
+SetTextureCoordinates,2, 5, 1,
+SetTextureCoordinates,3, 0, 1,
+SetEmissiveColor,115,115,115,

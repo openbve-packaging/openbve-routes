@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+AddVertex,-9.0,4.7,-2.2
+AddVertex,-0.0,4.7,-2.2
+AddVertex,+0.0,0.0,-2.2
+AddVertex,-9.0,0.0,-2.2
+AddFace,0,1,2,3,
+LoadTexture,ship.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,0,0,255

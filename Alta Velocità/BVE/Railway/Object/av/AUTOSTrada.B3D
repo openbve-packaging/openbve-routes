@@ -1,0 +1,96 @@
+
+[MeshBuilder]
+Vertex -16, 1,  25
+Vertex -16, 1, -0.3
+Vertex  0,  1, -0.3
+Vertex  0,  1,  25
+Face 3,2,1,0
+[Texture]
+Load autostrada.bmp
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7
+
+[MeshBuilder]
+Vertex 0, 1,  25
+Vertex 0, 1, -0.3
+Vertex 2, -1, -0.3
+Vertex 2, -1,  25
+Face 3,2,1,0
+[Texture]
+Load verde.bmp
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7
+
+
+
+
+[MeshBuilder]
+Vertex -33, 1,  25
+Vertex -33, 1, -0.3
+Vertex -17, 1, -0.3
+Vertex -17, 1,  25
+Face 3,2,1,0
+[Texture]
+Load autostrada.bmp
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7
+
+[MeshBuilder]
+Vertex -35, -1,  25
+Vertex -35, -1, -0.3
+Vertex -33, 1, -0.3
+Vertex -33, 1,  25
+Face 3,2,1,0
+[Texture]
+Load verde.bmp
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7
+
+
+
+[MeshBuilder]
+Vertex -16, 2,  25
+Vertex -16, 2, -0.3
+Vertex -16, 1, -0.3
+Vertex -16, 1,  25
+Face 3,2,1,0
+[Texture]
+Load formc2.bmp
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7
+
+[MeshBuilder]
+Vertex -17, 2,  25
+Vertex -17, 2, -0.3
+Vertex -17, 1, -0.3
+Vertex -17, 1,  25
+Face 0,1,2,3
+[Texture]
+Load formc2.bmp
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7
+
+[MeshBuilder]
+Vertex -17, 2,  25
+Vertex -17, 2, -0.3
+Vertex -16, 2, -0.3
+Vertex -16, 2,  25
+Face 3,2,1,0
+[Texture]
+Load formc2.bmp
+Coordinates 0,0,7
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,7

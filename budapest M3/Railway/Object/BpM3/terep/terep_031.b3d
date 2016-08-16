@@ -1,0 +1,12 @@
+[MeshBuilder]
+Vertex -10, -2, -5.00
+Vertex  10, -2, -5.00
+Vertex  10, -2, 30.00
+Vertex -10, -2, 30.00
+Face2 0,1,2,3
+[Texture]
+Load terep_030.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0, 5
+Coordinates 2, 5, 5
+Coordinates 3, 5, 0

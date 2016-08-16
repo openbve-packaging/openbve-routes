@@ -1,0 +1,12 @@
+[Object]
+States = left_41.csv, left_40.csv
+StateFunction = value == 0
+RefreshRate = 0.5
+
+[Object]
+States = right_40.csv, right_41.csv
+StateFunction = value == 0
+RefreshRate = 0.5
+
+[Object]
+States = crossing2.csv

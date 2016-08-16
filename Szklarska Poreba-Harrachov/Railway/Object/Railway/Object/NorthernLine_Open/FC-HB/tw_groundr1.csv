@@ -1,0 +1,112 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green. 
+
+CreateMeshBuilder
+AddVertex,35, -0.3, 0
+AddVertex,35, -0.3, 26
+AddVertex,35,10.5, 26
+AddVertex,35, 10.5, 0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,tw_brick6.png,
+SetTextureCoordinates,0, 6, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 6, 0
+CreateMeshBuilder,
+AddVertex,35,10.5,0
+AddVertex,45,10.5,0
+AddVertex,45,-0.3,0
+AddVertex,35,-0.3,0
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,tw_brick5.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+CreateMeshBuilder
+AddVertex,45, -0.3, -25
+AddVertex,45, -0.3, 26
+AddVertex,45,15, 26
+AddVertex,45, 15, -25
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,../edg_stn_side.png
+SetTextureCoordinates,0, 1, 1
+SetTextureCoordinates,1, 0, 1
+SetTextureCoordinates,2, 0, 0
+SetTextureCoordinates,3, 1, 0
+CreateMeshBuilder,
+AddVertex,45,15,-25
+AddVertex,75,15,-25
+AddVertex,75,-0.3,-25
+AddVertex,45,-0.3,-25
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../edg_stn_side.png
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+CreateMeshBuilder
+AddVertex,35, -0.3, 30
+AddVertex,9, -0.6, 30
+AddVertex,9, -0.6, 0
+AddVertex,35, -0.3, 0
+AddFace,3,2,1,0
+SetColor,200,200,200
+GenerateNormals
+LoadTexture,SO_CarPark2.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 1, 0
+SetTextureCoordinates,2, 1, 1
+SetTextureCoordinates,3, 0, 1
+CreateMeshBuilder
+AddVertex,17,2,22
+AddVertex,12,2,22
+AddVertex,12,-0.3,22
+AddVertex,17,-0.3,22
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,Car2.png
+SetTextureCoordinates,0,00,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,17,2,10
+AddVertex,12,2,10
+AddVertex,12,-0.3,10
+AddVertex,17,-0.3,10
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,Car1.png
+SetTextureCoordinates,0,00,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,0
+CreateMeshBuilder
+AddVertex,8, 2.4, 0
+AddVertex,8, 2.4, 25.8
+AddVertex,8,0, 25.8
+AddVertex,8, 0 0
+AddFace,3,2,1,0
+SetColor,100,100,100,80
+GenerateNormals
+CreateMeshBuilder
+AddVertex,8, 3.1, 0
+AddVertex,8, 3.1, 25.8
+AddVertex,8,0, 25.8
+AddVertex,8, 0, 0
+AddFace,3,2,1,0
+GenerateNormals
+LoadTexture,../Fence.png
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 5, 0
+SetTextureCoordinates,2, 5, 1
+SetTextureCoordinates,3, 0, 1
+SetDecalTransparentColor,0,0,0

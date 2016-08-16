@@ -1,0 +1,28 @@
+
+CreateMeshBuilder
+AddVertex,0.2, .4,0.01 
+AddVertex,0.2, -.5,0.01
+AddVertex,0, -.5,0.01
+AddVertex,0, .4,0.01
+AddFace,1,2,3,0
+GenerateNormals
+LoadTexture, kyori.bmp
+SetTextureCoordinates, 2, -1, 1
+SetTextureCoordinates, 3, -1, 0
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 0, 1
+SetDecalTransparentColor, 0,0,255
+Translate,,
+
+
+CreateMeshBuilder,,,,
+Cube,.3,.05,.01
+Rotate,0,0,1,30
+Translate,.3,.3,,
+SetColor,232,232,232,
+
+
+CreateMeshBuilder,,,,
+Cube,.3,.05,.01
+Translate,.3,.2,.03,
+SetColor,32,32,32,

@@ -1,0 +1,114 @@
+;mélyalagút kiegészítés, M3 Deák tér
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+;alagút
+[meshbuilder]
+Vertex  0.020, 4.200,-0.3
+Vertex -0.647, 4.115,-0.3
+Vertex -1.250, 3.865,-0.3
+Vertex -1.768, 3.468,-0.3
+Vertex -2.165, 2.950,-0.3
+Vertex -2.415, 2.347,-0.3
+Vertex -2.500, 1.700,-0.3
+Vertex -2.415, 1.053,-0.3
+Vertex -2.165, 0.450,-0.3
+Vertex -1.768,-0.068,-0.3
+Vertex -1.250,-0.465,-0.3
+;
+Vertex  0.020, 4.200,12.5
+Vertex -0.647, 4.115,12.5
+Vertex -1.250, 3.865,12.5
+Vertex -1.768, 3.468,12.5
+Vertex -2.165, 2.950,12.5
+Vertex -2.415, 2.347,12.5
+Vertex -2.500, 1.700,12.5
+Vertex -2.415, 1.053,12.5
+Vertex -2.165, 0.450,12.5
+Vertex -1.768,-0.068,12.5
+Vertex -1.250,-0.465,12.5
+;
+Face 11,12,01,00
+Face 12,13,02,01
+Face 13,14,03,02
+Face 14,15,04,03
+Face 15,16,05,04
+Face 16,17,06,05
+Face 17,18,07,06
+Face 18,19,08,07
+Face 19,20,09,08
+Face 20,21,10,09
+;
+[texture]
+load fal_keret_01.bmp
+coordinates 00,0,0.000
+coordinates 01,0,0.050
+coordinates 02,0,0.100
+coordinates 03,0,0.150
+coordinates 04,0,0.257
+coordinates 05,0,0.380
+coordinates 06,0,0.514
+coordinates 07,0,0.646
+coordinates 08,0,0.770
+coordinates 09,0,0.877
+coordinates 10,0,1.000
+;
+coordinates 11,1,0.000
+coordinates 12,1,0.050
+coordinates 13,1,0.100
+coordinates 14,1,0.150
+coordinates 15,1,0.257
+coordinates 16,1,0.380
+coordinates 17,1,0.514
+coordinates 18,1,0.646
+coordinates 19,1,0.770
+coordinates 20,1,0.877
+coordinates 21,1,1.000
+
+;--------------------------------------
+
+;tetõ
+[MeshBuilder]
+vertex 8.0,4.2,-0.3
+vertex 8.0,4.2,12.5
+vertex -2.45,4.2,12.5
+vertex -2.45,4.2,-0.3
+face 0,1,2,3
+Load melyteto.bmp
+Coordinates 0,0,4
+Coordinates 1,4,4
+Coordinates 2,4,0
+Coordinates 3,0,0
+
+;--------------------------------------
+
+;Világítás
+
+[MeshBuilder]
+Vertex  0.03,-0.1, 0.5
+Vertex  0.03, 0.1, 0.5
+Vertex  0.03, 0.1,-0.5
+Vertex  0.03,-0.1,-0.5
+Vertex -0.03,-0.1, 0.5
+Vertex -0.03, 0.1, 0.5
+Vertex -0.03, 0.1,-0.5
+Vertex -0.03,-0.1,-0.5
+Face 3,2,1,0
+Face 2,6,5,1
+Face 3,7,6,2
+Face 4,7,3,0
+[Texture]
+Load alagut_lampa_01.bmp
+Coordinates 0,0.00,1.00
+Coordinates 1,0.00,0.00
+Coordinates 2,1.00,0.00
+Coordinates 3,1.00,1.00
+Coordinates 4,0.00,1.00
+Coordinates 5,0.00,0.00
+Coordinates 6,1.00,0.00
+Coordinates 7,1.00,1.00
+Rotate 0,0,1,-31
+Translate -2.110,2.984,12.5
+
+;--------------------------------------

@@ -1,0 +1,1355 @@
+;Mirrored with BVE File Converter
+;Converted from B3D by BVE FILE CONVERTER
+ 
+; FGC - Ferrovia Genova-Casella
+; by Sergio Usai - sergiousai@tin.it
+; & Luigi Cartello - cartello.luigi@tiscali.it
+
+; Stazione di campi
+
+; Terreno Tratto finale
+
+CreateMeshBuilder,
+AddVertex, 20 , 0.5 , 20 ,
+AddVertex, 5.8 ,  2 ,  25.3 ,
+AddVertex, 4 ,  1.5 ,  25.3 ,
+AddVertex, 8 ,  -0.2 , 20 ,
+AddVertex, 2.7 , 0.1 ,  25.3 ,
+AddVertex, 2.7 , -0.1 , 20 ,
+AddVertex, 80 ,  30 ,  30 ,
+AddVertex, 80 ,  30 , 15 ,
+AddVertex, 1 , -0.2 ,  25.3 ,
+AddVertex, 1 , -0.2 , 20 ,
+AddFace, 3, 2, 1, 0, 
+AddFace, 5, 4, 2, 3, 
+AddFace, 0, 1, 6, 7, 
+AddFace, 9, 8, 4, 5, 
+Translate, 0 , -0.3 ,  0 ,
+Generatenormals
+SetColor,180,180,180,240
+
+LoadTexture, ..\Grass2.bmp,
+SetTextureCoordinates, 0, 0,   0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 0.5,
+SetTextureCoordinates, 3, 0,   0.5,
+SetTextureCoordinates, 4, 1, 1,
+SetTextureCoordinates, 5, 0,   1,
+SetTextureCoordinates, 6, 1, 10,
+SetTextureCoordinates, 7, 0,   10,
+SetTextureCoordinates, 8, 1, -0.05,
+SetTextureCoordinates, 9, 0, -0.05,
+
+CreateMeshBuilder,
+AddVertex,-5.5 , -0.2 , -5 ,
+AddVertex,-5.5 , -0.5 ,  25 ,
+AddVertex,-3.5 , -0.1 ,  25 ,
+AddVertex,-3.5 , -0.1 , -0.5 ,
+AddVertex,-1.4 , -0.2 ,  25 ,
+AddVertex,-1.4 , -0.2 , -5 ,
+AddVertex,-180 , -40 ,  35 ,
+AddVertex,-180 , -10 , -10 ,
+AddFace2, 3, 2, 1, 0, 
+AddFace2, 5, 4, 2, 3, 
+AddFace2, 0, 1, 6, 7, 
+Translate, 0 , -0.3 ,  0 ,
+Generatenormals
+SetColor,180,180,180,240
+
+LoadTexture, ..\Grass2.bmp,
+SetTextureCoordinates, 0, 0,   0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 0.5,
+SetTextureCoordinates, 3, 0,   0.5,
+SetTextureCoordinates, 4, 1, 1,
+SetTextureCoordinates, 5, 0,   1,
+SetTextureCoordinates, 6, 1, 30,
+SetTextureCoordinates, 7, 0,   30,
+
+; Terreno Tratto intermedio
+CreateMeshBuilder,
+AddVertex, 20 , 0.5 , -75.5 ,
+AddVertex, 20 , 0.5 ,  45.3 ,
+AddVertex, 8 , -0.2 ,  45.3 ,
+AddVertex, 8 , -0.2 , -75.5 ,
+AddVertex, 2.7 , -0.2 ,  45.3 ,
+AddVertex, 2.7 , -0.2 , -75.5 ,
+AddVertex, 80 ,  30 ,  50 ,
+AddVertex, 80 ,  30 , -80 ,
+AddVertex, 1 , -0.2 ,  45.3 ,
+AddVertex, 1 , -0.2 , -75.5 ,
+AddFace, 3, 2, 1, 0, 
+AddFace, 5, 4, 2, 3, 
+AddFace, 0, 1, 6, 7, 
+AddFace, 9, 8, 4, 5, 
+Translate, 0 , -0.3 ,-25 ,
+Generatenormals
+SetColor,180,180,180,240
+
+LoadTexture, ..\Grass2.bmp,
+SetTextureCoordinates, 0, 0,   0,
+SetTextureCoordinates, 1, 4, 0,
+SetTextureCoordinates, 2, 4, 0.5,
+SetTextureCoordinates, 3, 0,   0.5,
+SetTextureCoordinates, 4, 4, 2,
+SetTextureCoordinates, 5, 0,   2,
+SetTextureCoordinates, 6, 4, 10,
+SetTextureCoordinates, 7, 0,   10,
+SetTextureCoordinates, 8, 4, -0.05,
+SetTextureCoordinates, 9, 0, -0.05,
+
+CreateMeshBuilder,
+AddVertex,-5.5 , 0.1 , -80 ,
+AddVertex,-5.5 , 0.1 ,  25 ,
+AddVertex,-3.5 , 0.0 ,  25 ,
+AddVertex,-3.5 , 0.0 , -75.5 ,
+AddVertex,-1.4 , 0.1 ,  25 ,
+AddVertex,-1.4 , 0.1 , -80 ,
+AddVertex,-180 , -10 ,  35 ,
+AddVertex,-180 , -10 , -80 ,
+AddFace2, 3, 2, 1, 0, 
+AddFace2, 5, 4, 2, 3, 
+AddFace2, 0, 1, 6, 7, 
+Translate, 0 , -0.3 , -25 ,
+Generatenormals
+
+SetColor,180,180,180,240
+LoadTexture, ..\Grass2.bmp,
+SetTextureCoordinates, 0, 0,   0,
+SetTextureCoordinates, 1, 4, 0,
+SetTextureCoordinates, 2, 4, 0.5,
+SetTextureCoordinates, 3, 0,   0.5,
+SetTextureCoordinates, 4, 4, 1,
+SetTextureCoordinates, 5, 0,   1,
+SetTextureCoordinates, 6, 4, 30,
+SetTextureCoordinates, 7, 0,   30,
+
+; Terreno tratto iniziale
+CreateMeshBuilder,
+AddVertex, 5.8 ,  1.5 , -0.5 ,
+AddVertex, 12 ,  1 ,  25.3 ,
+AddVertex, 8 ,  -0.2 ,  25.3 ,
+AddVertex, 4 ,  1.5 , -0.5 ,
+AddVertex, 2.7 , -0.2 ,  25.3 ,
+AddVertex, 2.7 ,  0.1 , -0.5 ,
+AddVertex, 80 ,  30 ,  30 ,
+AddVertex, 80 ,  30 , -5 ,
+AddVertex, 1 , -0.2 ,  25.3 ,
+AddVertex, 1 , -0.2 , -0.5 ,
+AddFace, 3, 2, 1, 0, 
+AddFace, 5, 4, 2, 3, 
+AddFace, 0, 1, 6, 7, 
+AddFace, 9, 8, 4, 5, 
+Translate, 0 , -0.3 ,  -125 ,
+Generatenormals
+SetColor,180,180,180,240
+
+LoadTexture, ..\Grass2.bmp,
+SetTextureCoordinates, 0, 0,0 ,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 0.5,
+SetTextureCoordinates, 3, 0,   0.5,
+SetTextureCoordinates, 4, 1, 1,
+SetTextureCoordinates, 5, 0,   1,
+SetTextureCoordinates, 6, 1, 10,
+SetTextureCoordinates, 7, 0,   10,
+SetTextureCoordinates, 8, 1, -0.05,
+SetTextureCoordinates, 9, 0, -0.05,
+
+CreateMeshBuilder,
+AddVertex,-5.5 , -0.5 , -5 ,
+AddVertex,-5.5 ,  0.1 ,  25 ,
+AddVertex,-3.5 ,  0.0 ,  25 ,
+AddVertex,-3.5 , -0.1 , -0.5 ,
+AddVertex,-1.4 ,  0.1 ,  25 ,
+AddVertex,-1.4 , -0.2 , -5 ,
+AddVertex,-180 , -10 ,  26 ,
+AddVertex,-180 , -40 , -10 ,
+AddFace2, 3, 2, 1, 0, 
+AddFace2, 5, 4, 2, 3, 
+AddFace2, 0, 1, 6, 7, 
+Translate, 0 , -0.3 , -125 ,
+Generatenormals
+SetColor,180,180,180,240
+
+LoadTexture, ..\Grass2.bmp,
+SetTextureCoordinates, 0, 0,   0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 0.5,
+SetTextureCoordinates, 3, 0,   0.5,
+SetTextureCoordinates, 4, 1, 1,
+SetTextureCoordinates, 5, 0,   1,
+SetTextureCoordinates, 6, 1, 30,
+SetTextureCoordinates, 7, 0,   30,
+
+CreateMeshBuilder, ; traversa limite iniziale
+cube,1,0.15,0.15
+SetColor,195,204,195
+rotate,0,1,0,3
+translate,2.0,-0.29,-80
+;translate,-1.9,-0.29,6
+
+CreateMeshBuilder, ; traversa limite finale
+cube,1,0.15,0.15
+SetColor,195,204,195
+rotate,0,1,0,-3
+translate,2.0,-0.29,4
+
+; ========== Cespuglio 1 =========
+CreateMeshBuilder,
+AddVertex,-4,4,0
+AddVertex,0,4,0
+AddVertex,0,0,0
+AddVertex,-4,0,0
+AddFace, 0,1,2,3
+Generatenormals
+LoadTexture, ..\Paesaggio\Cesp_Campi.bmp
+SetTextureCoordinates,0,0,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,0,1
+SetDecalTransparentColor,0,0,255
+rotate,0,1,0,-45
+translate,-3.5,-0.4,-53.5
+
+
+; Fabbricato
+CreateMeshBuilder, ; Parete frontale
+AddVertex,-4.5 , 3.5 , 0 ,
+AddVertex, 0 , 3.5 , 0 ,
+AddVertex, 0 , -0.4 , 0 ,
+AddVertex,-4.5 , -0.4 , 0 ,
+AddFace, 0, 1, 2, 3, 
+Generatenormals
+LoadTexture, Campi-f.bmp,
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+Translate,-4.5,-0.1,-72
+
+
+
+CreateMeshBuilder, ; Parete lato binari
+AddVertex, 0 , 3.5 , 0 ,
+AddVertex, 0 , 3.5 , 12 ,
+AddVertex, 0 , 0 , 12 ,
+AddVertex, 0 , 0 , 0 ,
+AddFace, 0, 1, 2, 3, 
+Generatenormals
+LoadTexture, Campi-l.bmp,
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+Translate,-4.5,-0.1,-72
+
+
+CreateMeshBuilder, ; Tetto frontale
+AddVertex,-5.2 , 5.2 , 3.0 ,
+AddVertex, 0.8 , 5.2 , 3.0 ,
+AddVertex, 0.8 , 3.5 , -0.5 ,
+AddVertex,-5.2 , 3.5 , -0.5 ,
+AddFace, 0, 1, 2, 3, 
+Generatenormals
+LoadTexture, Campi-tf1.bmp,
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+Translate,-4.5, 0.02,-72
+
+CreateMeshBuilder, ; Tetto lato binari
+AddVertex,-2.3 , 5.18 ,-0.5,
+AddVertex,-2.3 , 5.18 , 12.5 ,
+AddVertex, 0.8 , 3.5 , 12.5 ,
+AddVertex, 0.8 , 3.5 ,-0.5,
+AddFace, 0, 1, 2, 3, 
+Generatenormals
+LoadTexture, Campi-tl.bmp,
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates, 0, 0, 0,
+SetTextureCoordinates, 1, 1, 0,
+SetTextureCoordinates, 2, 1, 1,
+SetTextureCoordinates, 3, 0, 1,
+Translate,-4.5, 0.02,-72
+
+CreateMeshBuilder, ; grondaie
+cube,3.15, 0.06,6.55
+SetColor, 67,58,39
+translate, -6.75,3.45,-66
+
+
+CreateMeshBuilder, ; Marciapiedi a sinistra
+Addvertex, 0, 0 , -97
+Addvertex, 1.6, 0 , -97
+Addvertex, 0, 0.4 ,-93
+Addvertex, 1.6, 0.4 ,-93
+Addvertex, 0, 0.4 ,-60
+Addvertex, 1.6, 0.4 ,-60
+Addvertex, 0, 0.2 ,-59
+Addvertex, 1.6, 0.2 ,-59
+Addvertex, 0, 0.2 ,-57
+Addvertex, 1.6, 0.2 ,-57
+Addvertex, 0.5, 0.4 ,-56
+Addvertex, 1.6, 0.4 ,-56
+Addvertex, 0.5, 0.4 , 20
+Addvertex, 1.6, 0.4 , 20
+Addvertex, 0.5, 0.0 , 24
+Addvertex, 1.6, 0.0 , 24
+AddFace, 2,3,1,0
+AddFace, 4,5,3,2
+AddFace, 6,7,5,4
+AddFace, 8,9,7,6
+AddFace, 10,11,9,8
+AddFace, 12,13,11,10
+AddFace, 14,15,13,12
+Generatenormals
+LoadTexture, ..\Marciapiede2.bmp
+SetColor,255,255,200
+SetTextureCoordinates, 0, 0.25, 0   
+SetTextureCoordinates, 1, 1 , 0   
+SetTextureCoordinates, 2, 0.25, 4   
+SetTextureCoordinates, 3, 1 , 4   
+SetTextureCoordinates, 4, 0.25, 20 
+SetTextureCoordinates, 5, 1 , 20 
+SetTextureCoordinates, 6, 0.25, 21 
+SetTextureCoordinates, 7, 1 , 21 
+SetTextureCoordinates, 8, 0.25, 23 
+SetTextureCoordinates, 9, 1 , 23 
+SetTextureCoordinates, 10, 0.25, 24 
+SetTextureCoordinates, 11, 1 , 24 
+SetTextureCoordinates, 12, 0.25, 100 
+SetTextureCoordinates, 13, 1 , 100 
+SetTextureCoordinates, 14, 0.25, 104 
+SetTextureCoordinates, 15, 1 , 104 
+translate, -2.9,-0.2,0
+
+CreateMeshBuilder, ; Bordo centrale
+Addvertex, 1.2, 0 , -93
+Addvertex, 1.2, 0.4 ,-93
+Addvertex, 1.2, 0.4 ,-60
+Addvertex, 1.2, 0.0 ,-60
+AddFace, 0,1,2,3
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0.05
+SetTextureCoordinates, 2, 3 ,0.05
+SetTextureCoordinates, 3, 3 ,1
+translate, -2.5,-0.2,0
+
+CreateMeshBuilder, ; Bordo centrale
+Addvertex, 1.2, 0 , -56
+Addvertex, 1.2, 0.4 ,-56
+Addvertex, 1.2, 0.4 , 20
+Addvertex, 1.2, 0.0 , 20
+AddFace, 0,1,2,3
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0.05
+SetTextureCoordinates, 2, 10 ,0.05
+SetTextureCoordinates, 3, 10 ,1
+translate, -2.5,-0.2,0
+
+CreateMeshBuilder, ; Bordo iniziale
+Addvertex, 1.2, 0 , -4
+Addvertex, 1.2, 0.4 ,-4
+Addvertex, 1.2, 0.4 ,0
+Addvertex, 1.2, 0.0 ,0
+AddFace, 0,1,2,3
+Generatenormals
+SetColor,180,180,180,240
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 0.5 ,0
+SetTextureCoordinates, 3, 0.5 ,1
+Rotate,1,0,0,-4
+translate, -2.5,-0.2,-92.9
+
+CreateMeshBuilder, ; Bordo finale
+Addvertex, 1.2, 0 , -4
+Addvertex, 1.2, 0.4 ,-4
+Addvertex, 1.2, 0.4 ,0
+Addvertex, 1.2, 0.0 ,0
+AddFace, 0,1,2,3
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 0.5 ,0
+SetTextureCoordinates, 3, 0.5 ,1
+Rotate,1,0,0,4
+translate, -2.5,-0.475,23.9
+
+CreateMeshBuilder, ; Bordo inizio attraversamento
+Addvertex, 1.2, 0 , -2
+Addvertex, 1.2, 0.4 ,-2
+Addvertex, 1.2, 0.4 ,0
+Addvertex, 1.2, 0.0 ,0
+AddFace, 0,1,2,3
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 0.25 ,0
+SetTextureCoordinates, 3, 0.25 ,1
+Rotate,1,0,0,8
+translate, -2.5,-0.475,-58.1
+
+CreateMeshBuilder, ; Bordo fine attraversamento
+Addvertex, 1.2, 0 , -2
+Addvertex, 1.2, 0.4 ,-2
+Addvertex, 1.2, 0.4 ,0
+Addvertex, 1.2, 0.0 ,0
+AddFace, 0,1,2,3
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 0.25 ,0
+SetTextureCoordinates, 3, 0.25 ,1
+Rotate,1,0,0,-8
+translate, -2.5,-0.175,-55.9
+
+
+
+CreateMeshBuilder, ; Marciapiedi a destra
+Addvertex, 0, 0 , -80
+Addvertex, 1.5, 0 , -80
+Addvertex, 0, 0.4 ,-76
+Addvertex, 1.9, 0.4 ,-76
+Addvertex, 0, 0.4 ,-60
+Addvertex, 1.9, 0.4 ,-60
+Addvertex, 0, 0.2 ,-59
+Addvertex, 1.9, 0.4 ,-59
+Addvertex, 0, 0.2 ,-57
+Addvertex, 1.9, 0.4 ,-57
+Addvertex, 0, 0.4 ,-56
+Addvertex, 1.9, 0.4 ,-56
+Addvertex, 0, 0.4 , 0
+Addvertex, 1.9, 0.4 , 0
+Addvertex, 0, 0.0 , 4
+Addvertex, 1.5, 0.0 , 4
+AddFace, 2,3,1,0
+AddFace, 4,5,3,2
+AddFace, 6,7,5,4
+AddFace, 8,9,7,6
+AddFace, 10,11,9,8
+AddFace, 12,13,11,10
+AddFace, 14,15,13,12
+Generatenormals
+LoadTexture, ..\Marciapiede2.bmp
+SetColor,255,255,200
+SetTextureCoordinates, 0, 1    , 0   
+SetTextureCoordinates, 1, 0.25 , 0   
+SetTextureCoordinates, 2, 1    , 4   
+SetTextureCoordinates, 3, 0.25 , 4   
+SetTextureCoordinates, 4, 1    , 20 
+SetTextureCoordinates, 5, 0.25 , 20 
+SetTextureCoordinates, 6, 1    , 21 
+SetTextureCoordinates, 7, 0.25 , 21 
+SetTextureCoordinates, 8, 1    , 23 
+SetTextureCoordinates, 9,  0.25, 23 
+SetTextureCoordinates, 10, 1   , 24 
+SetTextureCoordinates, 11, 0.25, 24 
+SetTextureCoordinates, 12, 1   , 80 
+SetTextureCoordinates, 13, 0.25, 80 
+SetTextureCoordinates, 14, 1   , 84 
+SetTextureCoordinates, 15, 0.25, 84 
+translate, 1.3,-0.2,0
+
+
+CreateMeshBuilder, ; Bordo centrale
+Addvertex, 1.2, 0 , -56
+Addvertex, 1.2, 0.4 ,-56
+Addvertex, 1.2, 0.4 , 0
+Addvertex, 1.2, 0.0 , 0
+AddFace, 3,2,1,0
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 8 ,0
+SetTextureCoordinates, 3, 8 ,1
+translate, 0.1,-0.2,0
+
+
+CreateMeshBuilder, ; Bordo centrale
+Addvertex, 1.2, 0 , -76
+Addvertex, 1.2, 0.4 ,-76
+Addvertex, 1.2, 0.4 ,-60
+Addvertex, 1.2, 0.0 ,-60
+AddFace, 3,2,1,0
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 1 ,0
+SetTextureCoordinates, 3, 1 ,1
+translate, 0.1,-0.2,0
+
+CreateMeshBuilder, ; Bordo inizio attraversamento
+Addvertex, 1.2, 0 , -2
+Addvertex, 1.2, 0.4 ,-2
+Addvertex, 1.2, 0.4 ,0
+Addvertex, 1.2, 0.0 ,0
+AddFace, 3,2,1,0
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 0.25 ,0
+SetTextureCoordinates, 3, 0.25 ,1
+Rotate,1,0,0,8
+translate, 0.1,-0.475,-58.1
+
+CreateMeshBuilder, ; Bordo fine attraversamento
+Addvertex, 1.2, 0 , -2
+Addvertex, 1.2, 0.4 ,-2
+Addvertex, 1.2, 0.4 ,0
+Addvertex, 1.2, 0.0 ,0
+AddFace, 3,2,1,0
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 0.25 ,0
+SetTextureCoordinates, 3, 0.25 ,1
+Rotate,1,0,0,-8
+translate, 0.1,-0.175,-55.9
+
+
+CreateMeshBuilder, ; Bordo iniziale
+Addvertex, 1.2, 0 , -4
+Addvertex, 1.2, 0.4 ,-4
+Addvertex, 1.2, 0.4 ,0
+Addvertex, 1.2, 0.0 ,0
+AddFace, 3,2,1,0
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 0.5 ,0
+SetTextureCoordinates, 3, 0.5 ,1
+Rotate,1,0,0,-4
+translate, 0.1,-0.2,-75.9
+CreateMeshBuilder, ; Bordo finale
+Addvertex, 1.2, 0 , -4
+Addvertex, 1.2, 0.4 ,-4
+Addvertex, 1.2, 0.4 ,0
+Addvertex, 1.2, 0.0 ,0
+AddFace, 3,2,1,0
+Generatenormals
+LoadTexture, Campi-marc.bmp
+SetTextureCoordinates, 0, 0 , 1
+SetTextureCoordinates, 1, 0 , 0
+SetTextureCoordinates, 2, 0.5 ,0
+SetTextureCoordinates, 3, 0.5 ,1
+Rotate,1,0,0,5
+translate, 0.1,-0.545, 3.9
+
+
+CreateMeshBuilder, ; Contro-marciapiedi a sinistra
+Addvertex, 0, 0.3 ,-96
+Addvertex, 2.0, 0.3 ,-95
+Addvertex, 0, 0.3 , -55
+Addvertex, 2.0, 0.3 , -55
+AddFace, 2,3,1,0
+Generatenormals
+SetColor,160,160,160
+;LoadTexture, MarcCapp.bmp
+LoadTexture, MarcCapp.bmp
+SetTextureCoordinates, 0, 0.25, 4   
+SetTextureCoordinates, 1, 2 , 4   
+SetTextureCoordinates, 2, 0.25, 40 
+SetTextureCoordinates, 3, 2 , 40 
+translate, -4.5,-0.35,0
+
+
+CreateMeshBuilder, 
+Addvertex, 0, 0.3   ,-1.4
+Addvertex, 1.6, 0.3 ,-0.1
+Addvertex, -0.2, 0.1   ,-2.4
+Addvertex, 1.6, 0.1 ,-0.5
+AddFace2, 3,2,1,0
+Generatenormals
+;SetColor,160,160,160
+LoadTexture, MarcCapp.bmp
+SetTextureCoordinates, 0, 0.25, 0.3   
+SetTextureCoordinates, 1, 2 , 0.3   
+SetTextureCoordinates, 2, 0.25, 1 
+SetTextureCoordinates, 3, 2 , 1  
+translate, -4.5,-0.35,-94.7
+
+
+
+
+CreateMeshBuilder, ; Spalletta marciapiede
+Cube, 0.09,0.2,12.1
+SetColor, 140,140,140
+translate, -4.50,-0.24,-84
+
+CreateMeshBuilder, ; Pavimento piazzale
+Addvertex, 0, -0.1 ,-98
+Addvertex, 11, 0.3 ,-98
+Addvertex, 0, -0.1 , -55
+Addvertex, 11, 0.3 , -55
+AddFace, 2,3,1,0
+Generatenormals
+SetColor,255,255,200
+;LoadTexture, MarcCapp.bmp
+LoadTexture, MarcCapp.bmp
+SetColor,180,180,185
+SetTextureCoordinates, 0, 4 , 0.25
+SetTextureCoordinates, 1, 4 , 10     
+SetTextureCoordinates, 2, 30, 0.25 
+SetTextureCoordinates, 3, 30, 10    
+translate, -15.5,-0.45,0
+
+CreateMeshBuilder, ; Inizio marciapiedi
+Addvertex, -0.3, 0.3 ,-1
+Addvertex, 1.4, 0.3 ,-3
+Addvertex, -0.3, 0.3 , 2
+Addvertex, 1.8, 0.3 , 2
+AddFace, 2,3,1,0
+Generatenormals
+LoadTexture, ..\Marciapiede2.bmp
+SetColor,255,255,200
+SetTextureCoordinates, 0, 0.25, 4   
+SetTextureCoordinates, 1, 1 , 4   
+SetTextureCoordinates, 2, 0.25, 10 
+SetTextureCoordinates, 3, 1 , 10 
+rotate,0,1,0,45
+translate, -4,-0.40,-97
+
+CreateMeshBuilder, ; Traversine attraversamento tra rotaie
+Addvertex,-0.45,-0.01,-57.1
+Addvertex, 0.45,-0.01,-57.1
+Addvertex,-0.45,-0.01,-58.9
+Addvertex, 0.45, 0.01,-58.9
+Addvertex,-0.45,-0.2 ,-58.9 
+Addvertex, 0.45,-0.2 ,-58.9 
+AddFace, 0,1,3,2
+AddFace, 2,3,5,4
+Generatenormals
+LoadTexture, Traversine.bmp
+SetColor,255,255,200
+SetTextureCoordinates, 0, 1.33 , 0   
+SetTextureCoordinates, 1, 0 , 0   
+SetTextureCoordinates, 2, 1.33 , 0.9   
+SetTextureCoordinates, 3, 0 , 0.9  
+SetTextureCoordinates, 4, 1.33 , 1 
+SetTextureCoordinates, 5, 0 , 1 
+
+CreateMeshBuilder, ; Traversine attraversamento a sinistra
+Addvertex,-1.31,-0.01,-57.1
+Addvertex,-0.55,-0.01,-57.1
+Addvertex,-1.31,-0.01,-58.9
+Addvertex,-0.55,-0.01,-58.9
+Addvertex,-1.31,-0.2 ,-58.9
+Addvertex,-0.55,-0.2 ,-58.9
+AddFace, 0,1,3,2
+AddFace, 2,3,5,4
+Generatenormals
+LoadTexture, Traversine.bmp
+SetColor,255,255,200
+SetTextureCoordinates, 0, 0 , 0   
+SetTextureCoordinates, 1, 1 , 0   
+SetTextureCoordinates, 2, 0 , 0.9   
+SetTextureCoordinates, 3, 1 , 0.9  
+SetTextureCoordinates, 4, 0 , 1 
+SetTextureCoordinates, 5, 1 , 1 
+
+CreateMeshBuilder, ; Traversine attraversamento a destra
+Addvertex, 0.55,-0.01,-57.1
+Addvertex, 1.31,-0.01,-57.1
+Addvertex, 0.55,-0.01,-58.9
+Addvertex, 1.31,-0.01,-58.9
+Addvertex, 0.55,-0.2 ,-58.9
+Addvertex, 1.31,-0.2 ,-58.9
+AddFace, 0,1,3,2
+AddFace, 2,3,5,4
+Generatenormals
+LoadTexture, Traversine.bmp
+SetColor,255,255,200
+SetTextureCoordinates, 0, 1 , 0   
+SetTextureCoordinates, 1, 0 , 0   
+SetTextureCoordinates, 2, 1 , 0.9   
+SetTextureCoordinates, 3, 0 , 0.9  
+SetTextureCoordinates, 4, 1 , 1 
+SetTextureCoordinates, 5, 0 , 1 
+
+
+; Primo Palo 
+
+CreateMeshBuilder,  ; fianco sin e lato ant
+AddVertex,-0.15,9.2 ,  0.07
+AddVertex,-0.15,9.2 , -0.07
+AddVertex,-0.15,-0.3, -0.07
+AddVertex,-0.15,-0.3 , 0.07
+AddVertex, 0.15,9.2 , -0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddFace2,0,1,2,3
+AddFace2,1,4,5,2
+translate,-3.0,-0.8,-75
+
+LoadTexture, ..\Poles\Traliccio.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.22, 0
+SetTextureCoordinates,2, 0.22, 8
+SetTextureCoordinates,3, 0, 8
+SetTextureCoordinates,4, 1, 0
+SetTextureCoordinates,5, 1, 8
+
+CreateMeshBuilder, ; fianco ant e lato post
+AddVertex, 0.15,9.2 , -0.07
+AddVertex, 0.15,9.2 ,  0.07
+AddVertex, 0.15,-0.3,  0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddVertex,-0.15,9.2 ,  0.07
+AddVertex,-0.15,-0.3 , 0.07
+AddFace2,0,1,2,3
+AddFace2,1,4,5,2
+translate,-3,-0.8,-75
+
+LoadTexture, ..\Poles\Traliccio.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.22, 0
+SetTextureCoordinates,2, 0.22, 8
+SetTextureCoordinates,3, 0, 8
+SetTextureCoordinates,4, 1, 0
+SetTextureCoordinates,5, 1, 8
+
+CreateMeshBuilder, ; Mensola
+cylinder,3, 0.05, 0.05, 8.5
+SetColor,157,165,165
+rotate,0,0,1,90
+translate,1.415,5.2,-75
+
+CreateMeshBuilder, ; Tirante corto
+cylinder,3, 0.01, 0.01, 3
+SetColor,57,65,65
+rotate,0,0,1,65
+translate,-1.50,5.90,-75
+
+CreateMeshBuilder, ; Tirante lungo
+cylinder,3, 0.01, 0.01, 7.7
+SetColor,57,65,65
+rotate,0,0,1,65
+translate, 0.60,6.75,-75
+
+CreateMeshBuilder, ; Basamento
+cube,0.4
+SetColor,190,190,190
+translate,-3,-0.40,-75
+
+CreateMeshBuilder, ; Zampa di ragno right
+AddVertex, -0.3, 6.55, 0 ; right
+AddVertex,  1.3, 6.55, 0 ; right
+AddVertex,  1.3, 5.15, 0 ; right
+AddVertex, -0.3, 5.15, 0 ; right
+AddFace2,0,1,3,2
+LoadTexture, ..\Poles\Zampa.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0,-0.05, 0.1 ; right 
+SetTextureCoordinates,1, 1.0, 0.1  ; right 
+SetTextureCoordinates,2, 1.0, 0.89 ; right
+SetTextureCoordinates,3, 0.0, 0.89 ; right
+translate,0,-0.8,-75
+
+CreateMeshBuilder, ; Zampa di ragno right
+AddVertex, -0.3, 6.55, 0 ; right
+AddVertex,  1.3, 6.55, 0 ; right
+AddVertex,  1.3, 5.15, 0 ; right
+AddVertex, -0.3, 5.15, 0 ; right
+AddFace2,0,1,3,2
+LoadTexture, ..\Poles\Zampa.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0,-0.05, 0.1 ; right 
+SetTextureCoordinates,1, 1.0, 0.1  ; right 
+SetTextureCoordinates,2, 1.0, 0.89 ; right
+SetTextureCoordinates,3, 0.0, 0.89 ; right
+translate,4.5,-0.8,-75
+
+
+
+; Secondo Palo 
+
+CreateMeshBuilder,  ; fianco sin e lato ant
+AddVertex,-0.15,9.2 ,  0.07
+AddVertex,-0.15,9.2 , -0.07
+AddVertex,-0.15,-0.3, -0.07
+AddVertex,-0.15,-0.3 , 0.07
+AddVertex, 0.15,9.2 , -0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddFace2,0,1,2,3
+AddFace2,1,4,5,2
+translate,-3.0,-0.8,-50
+
+LoadTexture, ..\Poles\Traliccio.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.22, 0
+SetTextureCoordinates,2, 0.22, 8
+SetTextureCoordinates,3, 0, 8
+SetTextureCoordinates,4, 1, 0
+SetTextureCoordinates,5, 1, 8
+
+CreateMeshBuilder, ; fianco ant e lato post
+AddVertex, 0.15,9.2 , -0.07
+AddVertex, 0.15,9.2 ,  0.07
+AddVertex, 0.15,-0.3,  0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddVertex,-0.15,9.2 ,  0.07
+AddVertex,-0.15,-0.3 , 0.07
+AddFace2,0,1,2,3
+AddFace2,1,4,5,2
+translate,-3,-0.8,-50
+
+LoadTexture, ..\Poles\Traliccio.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.22, 0
+SetTextureCoordinates,2, 0.22, 8
+SetTextureCoordinates,3, 0, 8
+SetTextureCoordinates,4, 1, 0
+SetTextureCoordinates,5, 1, 8
+
+CreateMeshBuilder, ; Mensola
+cylinder,3, 0.05, 0.05, 8.5
+SetColor,157,165,165
+rotate,0,0,1,90
+translate,1.415,5.2,-50
+
+CreateMeshBuilder, ; Tirante corto
+cylinder,3, 0.01, 0.01, 3
+SetColor,57,65,65
+rotate,0,0,1,65
+translate,-1.50,5.90,-50
+
+CreateMeshBuilder, ; Tirante lungo
+cylinder,3, 0.01, 0.01, 7.7
+SetColor,57,65,65
+rotate,0,0,1,65
+translate, 0.60,6.75,-50
+
+CreateMeshBuilder, ; Basamento
+cube,0.4
+SetColor,190,190,190
+translate,-3,-0.60,-50
+
+CreateMeshBuilder, ; Zampa di ragno left
+AddVertex, -1.3, 6.55, 0 ; left
+AddVertex, 0.3, 6.55, 0 ; left
+AddVertex, 0.3, 5.15, 0 ; left
+AddVertex, -1.3, 5.15, 0 ; left
+AddFace2, 0,1,3,2
+LoadTexture, ..\Poles\Zampa.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 1.05, 0.1 
+SetTextureCoordinates,1, -0.05, 0.1 
+SetTextureCoordinates,2, 0.0, 0.89
+SetTextureCoordinates,3, 1.0, 0.89
+translate,0,-0.8,-50
+
+CreateMeshBuilder, ; Zampa di ragno right
+AddVertex, -0.3, 6.55, 0 ; right
+AddVertex,  1.3, 6.55, 0 ; right
+AddVertex,  1.3, 5.15, 0 ; right
+AddVertex, -0.3, 5.15, 0 ; right
+AddFace2,0,1,3,2
+LoadTexture, ..\Poles\Zampa.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0,-0.05, 0.1 ; right 
+SetTextureCoordinates,1, 1.0, 0.1  ; right 
+SetTextureCoordinates,2, 1.0, 0.89 ; right
+SetTextureCoordinates,3, 0.0, 0.89 ; right
+translate,4.5,-0.8,-50
+
+
+; Terzo Palo 
+
+CreateMeshBuilder,  ; fianco sin e lato ant
+AddVertex,-0.15,9.2 ,  0.07
+AddVertex,-0.15,9.2 , -0.07
+AddVertex,-0.15,-0.3, -0.07
+AddVertex,-0.15,-0.3 , 0.07
+AddVertex, 0.15,9.2 , -0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddFace2,0,1,2,3
+AddFace2,1,4,5,2
+translate,-3.0,-0.8,-25
+
+LoadTexture, ..\Poles\Traliccio.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.22, 0
+SetTextureCoordinates,2, 0.22, 8
+SetTextureCoordinates,3, 0, 8
+SetTextureCoordinates,4, 1, 0
+SetTextureCoordinates,5, 1, 8
+
+CreateMeshBuilder, ; fianco ant e lato post
+AddVertex, 0.15,9.2 , -0.07
+AddVertex, 0.15,9.2 ,  0.07
+AddVertex, 0.15,-0.3,  0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddVertex,-0.15,9.2 ,  0.07
+AddVertex,-0.15,-0.3 , 0.07
+AddFace2,0,1,2,3
+AddFace2,1,4,5,2
+translate,-3,-0.8,-25
+
+LoadTexture, ..\Poles\Traliccio.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.22, 0
+SetTextureCoordinates,2, 0.22, 8
+SetTextureCoordinates,3, 0, 8
+SetTextureCoordinates,4, 1, 0
+SetTextureCoordinates,5, 1, 8
+
+CreateMeshBuilder, ; Mensola
+cylinder,3, 0.05, 0.05, 8.5
+SetColor,157,165,165
+rotate,0,0,1,90
+translate,1.415,5.2,-25
+
+CreateMeshBuilder, ; Tirante corto
+cylinder,3, 0.01, 0.01, 3
+SetColor,57,65,65
+rotate,0,0,1,65
+translate,-1.50,5.90,-25
+
+CreateMeshBuilder, ; Tirante lungo
+cylinder,3, 0.01, 0.01, 7.7
+SetColor,57,65,65
+rotate,0,0,1,65
+translate, 0.60,6.75,-25
+
+CreateMeshBuilder, ; Basamento
+cube,0.4
+SetColor,190,190,190
+translate,-3,-0.60,-25
+
+CreateMeshBuilder, ; Zampa di ragno right
+AddVertex, -0.3, 6.55, 0 ; right
+AddVertex,  1.3, 6.55, 0 ; right
+AddVertex,  1.3, 5.15, 0 ; right
+AddVertex, -0.3, 5.15, 0 ; right
+AddFace2,0,1,3,2
+LoadTexture, ..\Poles\Zampa.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0,-0.05, 0.1 ; right 
+SetTextureCoordinates,1, 1.0, 0.1  ; right 
+SetTextureCoordinates,2, 1.0, 0.89 ; right
+SetTextureCoordinates,3, 0.0, 0.89 ; right
+translate,0,-0.8,-25
+
+CreateMeshBuilder, ; Zampa di ragno right
+AddVertex, -0.3, 6.55, 0 ; right
+AddVertex,  1.3, 6.55, 0 ; right
+AddVertex,  1.3, 5.15, 0 ; right
+AddVertex, -0.3, 5.15, 0 ; right
+AddFace2,0,1,3,2
+LoadTexture, ..\Poles\Zampa.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0,-0.05, 0.1 ; right 
+SetTextureCoordinates,1, 1.0, 0.1  ; right 
+SetTextureCoordinates,2, 1.0, 0.89 ; right
+SetTextureCoordinates,3, 0.0, 0.89 ; right
+translate,4.5,-0.8,-25
+
+; Quarto Palo 
+
+CreateMeshBuilder,  ; fianco sin e lato ant
+AddVertex,-0.15,9.2 ,  0.07
+AddVertex,-0.15,9.2 , -0.07
+AddVertex,-0.15,-0.3, -0.07
+AddVertex,-0.15,-0.3 , 0.07
+AddVertex, 0.15,9.2 , -0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddFace2,0,1,2,3
+AddFace2,1,4,5,2
+translate,-3.0,-0.8,0
+
+LoadTexture, ..\Poles\Traliccio.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.22, 0
+SetTextureCoordinates,2, 0.22, 8
+SetTextureCoordinates,3, 0, 8
+SetTextureCoordinates,4, 1, 0
+SetTextureCoordinates,5, 1, 8
+
+CreateMeshBuilder, ; fianco ant e lato post
+AddVertex, 0.15,9.2 , -0.07
+AddVertex, 0.15,9.2 ,  0.07
+AddVertex, 0.15,-0.3,  0.07
+AddVertex, 0.15,-0.3 ,-0.07
+AddVertex,-0.15,9.2 ,  0.07
+AddVertex,-0.15,-0.3 , 0.07
+AddFace2,0,1,2,3
+AddFace2,1,4,5,2
+translate,-3,-0.8,0
+
+LoadTexture, ..\Poles\Traliccio.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 0, 0
+SetTextureCoordinates,1, 0.22, 0
+SetTextureCoordinates,2, 0.22, 8
+SetTextureCoordinates,3, 0, 8
+SetTextureCoordinates,4, 1, 0
+SetTextureCoordinates,5, 1, 8
+
+CreateMeshBuilder, ; Mensola
+cylinder,3, 0.05, 0.05, 8.5
+SetColor,157,165,165
+rotate,0,0,1,90
+translate,1.415,5.2,0
+
+CreateMeshBuilder, ; Tirante corto
+cylinder,3, 0.01, 0.01, 3
+SetColor,57,65,65
+rotate,0,0,1,65
+translate,-1.50,5.90,0
+
+CreateMeshBuilder, ; Tirante lungo
+cylinder,3, 0.01, 0.01, 7.7
+SetColor,57,65,65
+rotate,0,0,1,65
+translate, 0.60,6.75,0
+
+CreateMeshBuilder, ; Basamento
+cube,0.4
+SetColor,190,190,190
+translate,-3,-0.60,0
+
+CreateMeshBuilder, ; Zampa di ragno left
+AddVertex, -1.3, 6.55, 0 ; left
+AddVertex, 0.3, 6.55, 0 ; left
+AddVertex, 0.3, 5.15, 0 ; left
+AddVertex, -1.3, 5.15, 0 ; left
+AddFace2, 0,1,3,2
+LoadTexture, ..\Poles\Zampa.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0, 1.05, 0.1 
+SetTextureCoordinates,1, -0.05, 0.1 
+SetTextureCoordinates,2, 0.0, 0.89
+SetTextureCoordinates,3, 1.0, 0.89
+translate,0,-0.8,0
+
+CreateMeshBuilder, ; Zampa di ragno right
+AddVertex, -0.3, 6.55, 0 ; right
+AddVertex,  1.3, 6.55, 0 ; right
+AddVertex,  1.3, 5.15, 0 ; right
+AddVertex, -0.3, 5.15, 0 ; right
+AddFace2,0,1,3,2
+LoadTexture, ..\Poles\Zampa.bmp
+SetDecalTransparentColor,0,0,255
+SetTextureCoordinates,0,-0.05, 0.1 ; right 
+SetTextureCoordinates,1, 1.0, 0.1  ; right 
+SetTextureCoordinates,2, 1.0, 0.89 ; right
+SetTextureCoordinates,3, 0.0, 0.89 ; right
+translate,4.5,-0.8,0
+
+
+
+
+; Staccionata a sinistra
+CreateMeshBuilder,
+cube,0.04,0.05,34.0
+SetColor,19,60,26
+translate,-2.6,0.2,-13
+
+CreateMeshBuilder,
+cube,0.04,0.05,34.0
+SetColor,19,60,26
+translate,-2.6,0.6,-13
+
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,20 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,17 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,14 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,11 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,8 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,5 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,2 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-1 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-4 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-7 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-10 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-13 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-16 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-19 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-22 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-25 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-28 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-31 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-34 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-37 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-40 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-43 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-45 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-2.6,-0.1,-47 
+
+CreateMeshBuilder,
+cube,0.5,0.04,0.05
+SetColor,19,60,26
+translate,-3.1,0.2,-47
+CreateMeshBuilder,
+cube,0.5,0.04,0.05
+SetColor,19,60,26
+translate,-3.1,0.6,-47
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-3.6, 0.1,-47 
+
+CreateMeshBuilder,
+cube,0.04,0.05,4.0
+SetColor,19,60,26
+translate,-3.6,0.2,-51
+
+CreateMeshBuilder,
+cube,0.04,0.05,4.0
+SetColor,19,60,26
+translate,-3.6,0.8,-51
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-3.6, 0.1,-50 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-3.6, 0.1,-52.5 
+CreateMeshBuilder, ; paletto
+cube,0.04,0.7,0.05
+SetColor,19,60,26
+translate,-3.6, 0.1,-55 
+
+; Raccordo staccionata a destra
+CreateMeshBuilder,
+cube,1.1,0.05,0.04
+SetColor,19,60,26
+rotate,0,1,0,70
+translate, 7.9,0.4,-71.2
+
+
+CreateMeshBuilder,
+cube,1.1,0.05,0.04
+SetColor,19,60,26
+rotate,0,1,0,70
+translate, 7.9,-0.1,-71.2
+
+
+;Antenna
+CreateMeshBuilder,
+cylinder,6, 0.07, 0.1, 10
+SetColor,157,165,165
+translate,8.0,4.2,-68
+
+CreateMeshBuilder,
+cylinder,3, 0.02, 0.02, 10
+SetColor,157,165,165
+translate,7.85,4.2,-67.9
+CreateMeshBuilder,
+cylinder,3, 0.02, 0.02, 10
+SetColor,157,165,165
+translate,8.15,4.2,-68.1
+
+CreateMeshBuilder,
+cube,0.5,0.25, 0.005,
+setColor,244,223,198
+rotate,1,0,0,30
+rotate,0,1,0,20
+translate,8.0,9.25,-68
+
+
+
+
+; ==================== Cartellone =========
+CreateMeshBuilder, ; Paletti
+cylinder,3,0.03,0.03,3.6
+Setcolor,41,64,38
+translate,-2.9,1.24,-83
+CreateMeshBuilder,
+cylinder,3,0.03,0.03,3.6
+Setcolor,41,64,38
+translate,-3.95,1.24,-83
+
+CreateMeshBuilder, ; Riquadro
+cylinder,3,0.02,0.02,0.5
+Setcolor,41,64,38
+translate,-3.88,2.0,-83
+CreateMeshBuilder,
+cylinder,3,0.02,0.02,0.5
+Setcolor,41,64,38
+translate,-2.97,2.0,-83
+CreateMeshBuilder,
+cylinder,3,0.02,0.02,0.94
+Setcolor,41,64,38
+rotate,0,0,1,90
+translate,-3.420,2.25,-83
+CreateMeshBuilder,
+cylinder,3,0.02,0.02,0.94
+Setcolor,41,64,38
+rotate,0,0,1,90
+translate,-3.420,1.75,-83
+
+CreateMeshBuilder, ; Nome della stazione
+Addvertex,0,0.5,0
+Addvertex,1.0,0.5,0
+Addvertex,1.0,0.0,0
+Addvertex,0,0.0,0
+AddFace,0,1,2,3
+Generatenormals
+LoadTexture, Campi-nome.bmp
+SetTextureCoordinates,0, 0 , 0
+SetTextureCoordinates,1, 1 , 0
+SetTextureCoordinates,2, 1 , 1
+SetTextureCoordinates,3, 0 , 1
+translate,-3.91,2.7,-83
+
+CreateMeshBuilder, ; Riquadro inferiore
+Addvertex,0,1.5,0
+Addvertex,1.0,1.5,0
+Addvertex,1.0,0.0,0
+Addvertex,0,0.0,0
+AddFace,0,1,2,3
+Generatenormals
+LoadTexture, Logo75-1.bmp
+SetTextureCoordinates,0, 0 , 0
+SetTextureCoordinates,1, 1 , 0
+SetTextureCoordinates,2, 1 , 1
+SetTextureCoordinates,3, 0 , 1
+translate,-3.92,0.15,-82.99
+
+
+; ====== Cartellone longitudinale =========
+CreateMeshBuilder, ; Paletti
+cylinder,3,0.03,0.03,2.8
+Setcolor,41,64,38
+translate,-4.25,0.82,-81.55
+CreateMeshBuilder,
+cylinder,3,0.03,0.03,2.8
+Setcolor,41,64,38
+translate,-4.25,0.82,-82.6
+
+CreateMeshBuilder, ; Riquadro inferiore
+Addvertex,0,1.5,0
+Addvertex,1.0,1.5,0
+Addvertex,1.0,0.0,0
+Addvertex,0,0.0,0
+AddFace,0,1,2,3
+Generatenormals
+SetColor,170,170,170
+;LoadTexture, BVE-banners.bmp
+;SetTextureCoordinates,0, 0 , 0
+;SetTextureCoordinates,1, 1 , 0
+;SetTextureCoordinates,2, 1 , 1
+;SetTextureCoordinates,3, 0 , 1
+rotate,0,1,0,-90
+translate,-4.25,0.7,-82.575
+
+
+; ====== Cartellone dopo attraversamento =========
+CreateMeshBuilder, ; Paletti
+cylinder,3,0.03,0.03,2.8
+Setcolor,41,64,38
+translate,-2.4,0.82,-54
+CreateMeshBuilder,
+cylinder,3,0.03,0.03,2.8
+Setcolor,41,64,38
+translate,-3.45,0.82,-54
+
+CreateMeshBuilder, ; Riquadro inferiore
+Addvertex,0,1.5,0
+Addvertex,1.0,1.5,0
+Addvertex,1.0,0.0,0
+Addvertex,0,0.0,0
+AddFace,0,1,2,3
+Generatenormals
+LoadTexture, BVE-banners.bmp
+SetTextureCoordinates,0, 0 , 0
+SetTextureCoordinates,1, 1 , 0
+SetTextureCoordinates,2, 1 , 1
+SetTextureCoordinates,3, 0 , 1
+translate,-3.42,0.7,-53.99

@@ -1,0 +1,237 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+;;;;;;;;;;;;
+;;;;OMBRA;;;
+;;;;;;;;;;;;
+CreateMeshBuilder
+AddVertex,-1.05,0.01,0,
+AddVertex,1.05,0.01,0,
+AddVertex,1.05,0.01,2.7,
+AddVertex,-1.05,0.01,2.7,
+AddFace,3,2,1,0,
+LoadTexture,ombraR.png
+SetTextureCoordinates,0,1,0,
+SetTextureCoordinates,1,1,1,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,0,0,
+CreateMeshBuilder,
+AddVertex,-0.82, 0.3, 0,
+AddVertex,-0.82, 1.85, 0,
+AddVertex,0.82, 1.85, 0,
+AddVertex,0.82, 0.3, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,motocarrellof.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+
+CreateMeshBuilder,
+AddVertex,-0.82, 0.3, 2.7,
+AddVertex,-0.82, 1.85, 2.7,
+AddVertex,0.82, 1.85, 2.7,
+AddVertex,0.82, 0.3, 2.7,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,motocarrellof.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 1,
+
+CreateMeshBuilder,
+AddVertex,0.82, 0.3, 2.7,
+AddVertex,0.82, 1.85, 2.7,
+AddVertex,0.82, 1.85, 0,
+AddVertex,0.82,0.3, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,motocarrellol.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, -1, 0,
+SetTextureCoordinates,3,-1, 1,
+
+
+CreateMeshBuilder,
+AddVertex,-0.82, 0.3, 2.7,
+AddVertex,-0.82, 1.85, 2.7,
+AddVertex,-0.82, 1.85, 0,
+AddVertex,-0.82,0.3, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,motocarrellol.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+
+CreateMeshBuilder,;;;tetto
+AddVertex,-0.82, 1.85, 2.7,
+AddVertex,0.82, 1.85, 2.7,
+AddVertex,0.82, 1.85, 0,
+AddVertex,-0.82,1.85, 0,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+
+setcolor,120,95,40,
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;ruote
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+CreateMeshBuilder ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ruota ant sin
+cylinder,16, 0.242, 0.248,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.245, 0.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,0,0,0,
+AddVertex,0,0.484,0,
+AddVertex,,0.484,0.484,
+AddVertex,,0,0.484,
+AddFace,3,2,1,0,
+Translate,-0.8,,0.25
+GenerateNormals,
+LoadTexture,ruota.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+setdecaltransparentcolor,0,0,0
+
+
+CreateMeshBuilder ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Ruota ant des
+cylinder,16, 0.242, 0.248,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.245, 0.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder,
+AddVertex,0,0,0,
+AddVertex,0,0.484,0,
+AddVertex,,0.484,0.484,
+AddVertex,,0,0.484,
+AddFace,0,1,2,3,
+Translate,0.8,,0.25
+GenerateNormals,
+LoadTexture,ruota.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+setdecaltransparentcolor,0,0,0
+
+
+CreateMeshBuilder ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Assale Ant
+cylinder,8, 0.08, 0.08,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.245, 0.5
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+CreateMeshBuilder ; Ruota ant sin
+cylinder,16, 0.242, 0.248,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,-0.735, 0.245, 2.2
+
+CreateMeshBuilder,
+AddVertex,0,0,0,
+AddVertex,0,0.484,0,
+AddVertex,,0.484,0.484,
+AddVertex,,0,0.484,
+AddFace,0,1,2,3,
+Translate,0.8,,1.95
+GenerateNormals,
+
+LoadTexture,ruota.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+setdecaltransparentcolor,0,0,0
+
+
+CreateMeshBuilder,
+AddVertex,0,0,0,
+AddVertex,0,0.484,0,
+AddVertex,,0.484,0.484,
+AddVertex,,0,0.484,
+AddFace,3,2,1,0,
+Translate,-0.8,,1.95
+GenerateNormals,
+
+LoadTexture,ruota.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+setdecaltransparentcolor,0,0,0
+
+
+CreateMeshBuilder ; Ruota ant des
+cylinder,16, 0.242, 0.248,0.11 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0.735, 0.245, 2.2
+
+CreateMeshBuilder,
+AddVertex,0,0,0,
+AddVertex,0,0.484,0,
+AddVertex,,0.484,0.484,
+AddVertex,,0,0.484,
+AddFace,3,2,1,0,
+Translate,0.8,,1.95
+GenerateNormals,
+
+LoadTexture,ruota.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+setdecaltransparentcolor,0,0,0
+
+CreateMeshBuilder ; Assale Ant
+cylinder,8, 0.08, 0.08,1.5 
+SetColor,24,24,24
+rotate,0,0,1,90
+translate,0, 0.245, 2.2
+
+CreateMeshBuilder ; ombra
+AddVertex, -0.8,0.3, 2.6
+AddVertex,  0.8,0.3, 2.6
+AddVertex,  0.8,0.3,0.1
+AddVertex, -0.8,0.3,0.1
+
+AddVertex, -0.9  ,-0.50, 2.6
+AddVertex,  0.9  ,-0.50, 2.6
+AddVertex,  0.9  ,-0.50,0.1
+AddVertex, -0.9  ,-0.50,0.1
+AddFace,4,5,1,0
+AddFace,2,1,5,6
+AddFace,3,2,6,7
+AddFace,0,3,7,4
+GenerateNormals
+SetColor,30,30,30,70
+

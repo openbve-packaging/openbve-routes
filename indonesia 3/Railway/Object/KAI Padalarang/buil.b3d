@@ -1,0 +1,24 @@
+
+
+[MeshBuilder]
+Vertex -18,12,0
+Vertex -5,12,0
+Vertex -5,0,0
+Vertex -18,0,0
+Vertex -5,12,20
+Vertex -5,0,20
+Vertex -18,12,20
+Vertex -18,0,20
+Face 0,1,2,3
+Face 2,1,4,5
+Face 5,4,6,7
+[Texture]
+Load a5.bmp
+Coordinates 0, 0,0
+Coordinates 1, 1, 0
+Coordinates 2, 1,1
+Coordinates 3, 0, 1
+Coordinates 4, 0, 0
+Coordinates 5, 0, 1
+Coordinates 6, 1, 0
+Coordinates 7, 1, 1

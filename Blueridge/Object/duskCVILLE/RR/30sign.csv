@@ -1,0 +1,13 @@
+CreateMeshbuilder,            ;;30sign
+AddVertex,0,0,0,
+AddVertex,0,3,0,
+AddVertex,.75,3,0,
+AddVertex,.75,0,0,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,..\RR\30sign.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,

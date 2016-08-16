@@ -1,0 +1,18 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;Textures by Oskari Saarekas with Permission
+
+CreateMeshBuilder,
+AddVertex,3.0, 2.4, 0,
+AddVertex,2.3, 2.4, 0,
+AddVertex,2.3, 0.5, 0,
+AddVertex,3.0, 0.5, 0,
+AddFace2,3,2,1,0,
+GenerateNormals,
+LoadTexture,Peopl151.png,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 1, 1,
+SetDecalTransparentColor,0,0,0,
+

@@ -1,0 +1,566 @@
+;Dózsa György út megállóhely 5
+;Készítette: http://www.bvemetro.hu/
+
+;----------------------------------
+
+[MeshBuilder]
+;peron széle szemben felül
+Vertex 04.60, 00.90, 25.00
+Vertex 01.45, 00.90, 25.00
+Vertex 01.45, 01.10, 25.00
+Vertex 04.60, 01.10, 25.00
+Vertex -08.90, 00.90, 25.00
+Vertex -05.75, 00.90, 25.00
+Vertex -05.75, 01.10, 25.00
+Vertex -08.90, 01.10, 25.00
+;peron széle szemben alul
+Vertex 04.60, -00.20, 25.00
+Vertex 01.60, -00.20, 25.00
+Vertex 01.60, 00.90, 25.00
+Vertex 04.60, 00.90, 25.00
+Vertex -08.90, -00.20, 25.00
+Vertex -05.90, -00.20, 25.00
+Vertex -05.90, 00.90, 25.00
+Vertex -08.90, 00.90, 25.00
+Face 3,2,1,0
+Face 4,5,6,7
+Face 11,10,9,8
+Face 12,13,14,15
+[Texture]
+Load ..\peron\peronszel_a2.bmp
+Coordinates 0, 00.00, 00.20
+Coordinates 1, 03.15, 00.20
+Coordinates 2, 03.15, 00.00
+Coordinates 3, 00.00, 00.00
+Coordinates 4, 00.00, 00.20
+Coordinates 5, 03.15, 00.20
+Coordinates 6, 03.15, 00.00
+Coordinates 7, 00.00, 00.00
+Coordinates 8, 00.00, 01.00
+Coordinates 9, 03.00, 01.00
+Coordinates 10, 03.00, 00.15
+Coordinates 11, 00.00, 00.15
+Coordinates 12, 00.00, 01.00
+Coordinates 13, 03.00, 01.00
+Coordinates 14, 03.00, 00.15
+Coordinates 15, 00.00, 00.15
+
+;--------------------------------------------------
+
+;Falak
+[MeshBuilder]
+;jobb oldali fal 1a
+Vertex 05.50, 01.10, 00.00
+Vertex 05.50, 03.50, 00.00
+Vertex 05.50, 03.50, 25.00
+Vertex 05.50, 01.10, 25.00
+;jobb oldali fal 1b
+Vertex 05.50, 03.50, 00.00
+Vertex 05.00, 04.00, 00.00
+Vertex 05.00, 04.00, 25.00
+Vertex 05.50, 03.50, 25.00
+;szemben lévõ fal 1a
+Vertex 02.10, 01.10, 24.50
+Vertex 02.10, 03.50, 24.50
+Vertex 02.90, 03.50, 24.50
+Vertex 02.90, 01.10, 24.50
+;szemben lévõ fal 1b
+Vertex 02.10, 03.50, 24.50
+Vertex 02.10, 04.00, 24.50
+Vertex 02.90, 04.00, 24.50
+Vertex 02.90, 03.50, 24.50
+;szemben lévõ fal 2a
+Vertex 04.70, 01.10, 24.50
+Vertex 04.70, 03.50, 24.50
+Vertex 05.50, 03.50, 24.50
+Vertex 05.50, 01.10, 24.50
+;szemben lévõ fal 2b
+Vertex 04.70, 03.50, 24.50
+Vertex 04.70, 04.00, 24.50
+Vertex 05.50, 04.00, 24.50
+Vertex 05.50, 03.50, 24.50
+Face 3,2,1,0
+Face 7,6,5,4
+Face 8,9,10,11
+Face 12,13,14,15
+Face 16,17,18,19
+Face 20,21,22,23
+[Texture]
+Load mh_15_do_oldalfal_01.bmp
+Coordinates 0, 40.00, 01.00
+Coordinates 1, 40.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 40.00, 00.60
+Coordinates 5, 40.00, 00.20
+Coordinates 6, 00.00, 00.20
+Coordinates 7, 00.00, 00.60
+Coordinates 8, 00.00, 01.00
+Coordinates 9, 00.00, 00.00
+Coordinates 10, 01.00, 00.00
+Coordinates 11, 01.00, 01.00
+Coordinates 12, 00.00, 00.60
+Coordinates 13, 00.00, 00.20
+Coordinates 14, 01.00, 00.20
+Coordinates 15, 01.00, 00.60
+Coordinates 16, 00.00, 01.00
+Coordinates 17, 00.00, 00.00
+Coordinates 18, 01.00, 00.00
+Coordinates 19, 01.00, 01.00
+Coordinates 20, 00.00, 00.60
+Coordinates 21, 00.00, 00.20
+Coordinates 22, 01.00, 00.20
+Coordinates 23, 01.00, 00.60
+
+;szemben lévõ fal 3
+[MeshBuilder]
+Vertex 02.90, 01.10, 24.50
+Vertex 02.90, 04.00, 24.50
+Vertex 04.70, 04.00, 24.50
+Vertex 04.70, 01.10, 24.50
+Face 0,1,2,3
+[Texture]
+Load mh_15_do_oldalfal_03.bmp
+Coordinates 0, 01.00, 01.00
+Coordinates 1, 01.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+
+;------------------------------
+
+;bal oldali fal 1a
+[MeshBuilder]
+Vertex -09.80, 01.10, 00.00
+Vertex -09.80, 03.50, 00.00
+Vertex -09.80, 03.50, 25.00
+Vertex -09.80, 01.10, 25.00
+;bal oldali fal 1b
+Vertex -09.80, 03.50, 00.00
+Vertex -09.30, 04.00, 00.00
+Vertex -09.30, 04.00, 25.00
+Vertex -09.80, 03.50, 25.00
+;szemben lévõ fal 1a
+Vertex -06.40, 01.10, 24.50
+Vertex -06.40, 03.50, 24.50
+Vertex -09.80, 03.50, 24.50
+Vertex -09.80, 01.10, 24.50
+;szemben lévõ fal 1b
+Vertex -06.40, 03.50, 24.50
+Vertex -06.40, 04.00, 24.50
+Vertex -09.80, 04.00, 24.50
+Vertex -09.80, 03.50, 24.50
+;behajtás jobb 1a
+Vertex 02.10, 01.10, 24.50
+Vertex 02.10, 03.50, 24.50
+Vertex 02.10, 03.50, 25.00
+Vertex 02.10, 01.10, 25.00
+;behajtás jobb 1b
+Vertex 02.10, 03.50, 24.50
+Vertex 02.10, 04.00, 24.50
+Vertex 02.10, 04.00, 25.00
+Vertex 02.10, 03.50, 25.00
+;behajtás bal 1a
+Vertex -06.40, 01.10, 24.50
+Vertex -06.40, 03.50, 24.50
+Vertex -06.40, 03.50, 25.00
+Vertex -06.40, 01.10, 25.00
+;behajtás bal 1b
+Vertex -06.40, 03.50, 24.50
+Vertex -06.40, 04.00, 24.50
+Vertex -06.40, 04.00, 25.00
+Vertex -06.40, 03.50, 25.00
+Face 0,1,2,3
+Face 4,5,6,7
+Face 11,10,9,8
+Face 15,14,13,12
+Face 19,18,17,16
+Face 23,22,21,20
+Face 24,25,26,27
+Face 28,29,30,31
+[Texture]
+Load mh_15_do_oldalfal_01.bmp
+Coordinates 0, 40.00, 01.00
+Coordinates 1, 40.00, 00.00
+Coordinates 2, 00.00, 00.00
+Coordinates 3, 00.00, 01.00
+Coordinates 4, 40.00, 00.60
+Coordinates 5, 40.00, 00.20
+Coordinates 6, 00.00, 00.20
+Coordinates 7, 00.00, 00.60
+Coordinates 8, 04.00, 01.00
+Coordinates 9, 04.00, 00.00
+Coordinates 10, 00.00, 00.00
+Coordinates 11, 00.00, 01.00
+Coordinates 12, 04.00, 00.60
+Coordinates 13, 04.00, 00.20
+Coordinates 14, 00.00, 00.20
+Coordinates 15, 00.00, 00.60
+Coordinates 16, 01.00, 01.00
+Coordinates 17, 01.00, 00.00
+Coordinates 18, 00.00, 00.00
+Coordinates 19, 00.00, 01.00
+Coordinates 20, 01.00, 00.60
+Coordinates 21, 01.00, 00.20
+Coordinates 22, 00.00, 00.20
+Coordinates 23, 00.00, 00.60
+Coordinates 24, 01.00, 01.00
+Coordinates 25, 01.00, 00.00
+Coordinates 26, 00.00, 00.00
+Coordinates 27, 00.00, 01.00
+Coordinates 28, 01.00, 00.60
+Coordinates 29, 01.00, 00.20
+Coordinates 30, 00.00, 00.20
+Coordinates 31, 00.00, 00.60
+
+[MeshBuilder]
+;jobb
+Vertex 02.10, 01.10, 25.00
+Vertex 02.10, 04.00, 25.00
+Vertex 02.20, 04.00, 25.00
+Vertex 02.20, 01.10, 25.00
+;bal
+Vertex -06.40, 01.10, 25.00
+Vertex -06.40, 04.00, 25.00
+Vertex -06.50, 04.00, 25.00
+Vertex -06.50, 01.10, 25.00
+Face 3,2,1,0
+Face 4,5,6,7
+color 80,80,80
+
+;--------------------------------------------------
+
+;táblák
+
+;táblák
+
+;állomás
+
+[MeshBuilder]
+cube 0.02, 0.05, 0.02
+color 32,32,32
+translate 5.45, 03.45, -0.5
+
+[MeshBuilder]
+cube 0.02, 0.05, 0.02
+color 32,32,32
+translate 5.45, 03.45, 0.5
+
+[MeshBuilder]
+Vertex -0.10, 0.00,-1.00
+Vertex -0.10, 0.30,-1.00
+Vertex -0.00, 0.30,-1.00
+Vertex -0.00, 0.00,-1.00
+Vertex -0.10, 0.00, 1.00
+Vertex -0.10, 0.30, 1.00
+Vertex -0.00, 0.30, 1.00
+Vertex -0.00, 0.00, 1.00
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,0,3,7
+translate 5.50,3.10,0
+color 0,0,204
+
+[MeshBuilder]
+Vertex -0.1, 0.00, -0.71
+Vertex -0.1, 0.30, -0.71
+Vertex -0.1, 0.30, 1.00
+Vertex -0.1, 0.00, 1.00
+Face 3,2,1,0
+translate 5.50,3.10,0
+[Texture]
+Load mh_tabla_dozsa.bmp
+Coordinates 0, 0.8, 1
+Coordinates 1, 0.8, 0
+Coordinates 2, 0.2, 0
+Coordinates 3, 0.2, 1
+
+[MeshBuilder]
+Vertex -0.1, 0.00, -1.00
+Vertex -0.1, 0.30, -1.00
+Vertex -0.1, 0.30, -0.70
+Vertex -0.1, 0.00, -0.70
+Face 3,2,1,0
+translate 5.50,3.10,0
+[Texture]
+Load ..\tabla\nyil13.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 0.8, 0
+Coordinates 3, 0.8, 1
+
+;állomás
+
+[MeshBuilder]
+cube 0.02, 0.05, 0.02
+color 32,32,32
+translate -9.75, 03.45, -0.5
+
+[MeshBuilder]
+cube 0.02, 0.05, 0.02
+color 32,32,32
+translate -9.75, 03.45, 0.5
+
+[MeshBuilder]
+Vertex -0.10, 0.00,-1.00
+Vertex -0.10, 0.30,-1.00
+Vertex -0.00, 0.30,-1.00
+Vertex -0.00, 0.00,-1.00
+Vertex -0.10, 0.00, 1.00
+Vertex -0.10, 0.30, 1.00
+Vertex -0.00, 0.30, 1.00
+Vertex -0.00, 0.00, 1.00
+Face 0,1,2,3
+Face 7,6,5,4
+Face 4,0,3,7
+translate -9.70,3.10,0
+color 0,0,204
+
+[MeshBuilder]
+Vertex 0, 0.00, -0.71
+Vertex 0, 0.30, -0.71
+Vertex 0, 0.30, 1.00
+Vertex 0, 0.00, 1.00
+Face 0,1,2,3
+translate -9.70,3.10,0
+[Texture]
+Load mh_tabla_dozsa.bmp
+Coordinates 0, 0.2, 1
+Coordinates 1, 0.2, 0
+Coordinates 2, 0.8, 0
+Coordinates 3, 0.8, 1
+
+[MeshBuilder]
+Vertex 0, 0.00, -1.00
+Vertex 0, 0.30, -1.00
+Vertex 0, 0.30, -0.70
+Vertex 0, 0.00, -0.70
+Face 0,1,2,3
+translate -9.70,3.10,0
+[Texture]
+Load ..\tabla\nyil13.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 0, 0
+Coordinates 2, 0.8, 0
+Coordinates 3, 0.8, 1
+
+;--------------------------------------------------
+
+;feszültség állapotjelzõ
+[MeshBuilder]
+Vertex -07.25, 03.55, 24.40
+Vertex -07.25, 03.90, 24.40
+Vertex -06.55, 03.90, 24.40
+Vertex -06.55, 03.55, 24.40
+Face 0,1,2,3
+[Texture]
+Load ..\fj_03.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 01.00, 00.00
+Coordinates 3, 01.00, 01.00
+
+[MeshBuilder]
+Vertex -07.25, 03.55, 24.50
+Vertex -07.25, 03.55, 24.40
+Vertex -06.55, 03.55, 24.40
+Vertex -06.55, 03.55, 24.50
+Vertex -06.55, 03.90, 24.40
+Vertex -06.55, 03.90, 24.50
+face 0,1,2,3
+face 2,4,5,3
+color 24,24,24
+
+;--------------------------------------------------
+
+;Korlátok
+
+;jobb oldal
+[MeshBuilder]
+cube 0.025, 0.45, 0.025
+color 64,96,128
+translate  2.200, 1.50, 23.00
+[MeshBuilder]
+cube 0.025, 0.45, 0.025
+color 64,96,128
+translate  2.200, 1.50, 24.45
+[MeshBuilder]
+cube 0.025, 0.025, 0.725
+color 64,96,128
+translate  2.200, 1.50, 23.70
+[MeshBuilder]
+cube 0.025, 0.05, 0.825
+color 128,82,23
+translate  2.200, 2.00, 23.65
+
+;bal oldal
+[MeshBuilder]
+cube 0.025, 0.45, 0.025
+color 64,96,128
+translate -6.500, 1.50, 23.00
+[MeshBuilder]
+cube 0.025, 0.45, 0.025
+color 64,96,128
+translate -6.500, 1.50, 24.45
+[MeshBuilder]
+cube 0.025, 0.025, 0.725
+color 64,96,128
+translate -6.500, 1.50, 23.70
+[MeshBuilder]
+cube 0.025, 0.05, 0.825
+color 128,82,23
+translate -6.500, 2.00, 23.65
+
+;------------------------
+
+;Tükör
+
+;1
+[meshbuilder]
+cylinder 8, 0.04, 0.04, 01.00
+color 156,141,120
+translate  00.00, 01.60, 00.00
+translate  02.55, 00.00, 24.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 156,141,120
+rotate 0,1,0,20
+translate  00.00, 02.10, 00.00
+translate  02.55, 00.00, 24.00
+
+[meshbuilder]
+cube 0.45,0.025,0.025
+color 156,141,120
+rotate 0,1,0,20
+translate  00.00, 03.30, 00.00
+translate  02.55, 00.00, 24.00
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 156,141,120
+translate -00.425, 02.70, 00.00
+rotate 0,1,0,20
+translate  02.55, 00.00, 24.00
+
+[meshbuilder]
+cube 0.025,0.625,0.025
+color 156,141,120
+translate  00.425, 02.70, 00.00
+rotate 0,1,0,20
+translate  02.55, 00.00, 24.00
+
+[meshbuilder]
+cube 0.20,0.01,0.20
+color 112,97,80
+rotate 0,1,0,000
+translate  00.00, 01.10, 00.00
+translate  02.55, 00.00, 24.00
+
+[MeshBuilder]
+vertex  0.400,2.10,00.000
+vertex  0.400,3.30,00.000
+vertex -0.400,3.30,00.000
+vertex -0.400,2.10,00.000
+face 3,2,1,0
+Load ..\tukor.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+rotate 0,1,0,20
+translate  02.55, 00.00, 24.00
+
+[MeshBuilder]
+vertex  0.400,2.10,00.000
+vertex  0.400,3.30,00.000
+vertex -0.400,3.30,00.000
+vertex -0.400,2.10,00.000
+face 0,1,2,3
+color 120,120,120
+rotate 0,1,0,20
+translate  02.55, 00.00, 24.00
+
+;--------------------------------------------------
+
+;Belépni tilos táblák
+
+;1a
+[MeshBuilder]
+Vertex -0.25,1.45 0.0
+Vertex -0.25,1.95 0.0
+Vertex  0.25,1.95 0.0
+Vertex  0.25,1.45 0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+translate  01.92, 00.00, 23.00
+;1b
+[MeshBuilder]
+Vertex -0.25,1.45 0.0
+Vertex -0.25,1.95 0.0
+Vertex  0.25,1.95 0.0
+Vertex  0.25,1.45 0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+rotate 0,1,0,180
+translate  01.92, 00.00, 23.00
+
+;2a
+[MeshBuilder]
+Vertex -0.25,1.45 0.0
+Vertex -0.25,1.95 0.0
+Vertex  0.25,1.95 0.0
+Vertex  0.25,1.45 0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+translate -06.22, 00.00, 23.00
+;2b
+[MeshBuilder]
+Vertex -0.25,1.45 0.0
+Vertex -0.25,1.95 0.0
+Vertex  0.25,1.95 0.0
+Vertex  0.25,1.45 0.0
+Face 0,1,2,3
+[Texture]
+Load ..\tabla\tilos2d.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+rotate 0,1,0,180
+translate -06.22, 00.00, 23.00
+
+;--------------------------------------------------
+
+;pályára aljzatpótlék
+[MeshBuilder]
+vertex -5.90, -00.40, 25.00
+vertex -5.90, -00.17, 25.00
+vertex  1.45, -00.17, 25.00
+vertex  1.45, -00.40, 25.00
+face 0,1,2,3
+color 216,216,216
+[texture]
+load ../../sin/aljzat_150.bmp
+coordinates 0,0.25,5
+coordinates 1,0.00,5
+coordinates 2,0.00,0
+coordinates 3,0.25,0

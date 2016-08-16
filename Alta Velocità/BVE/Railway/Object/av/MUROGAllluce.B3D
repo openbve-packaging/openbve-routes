@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+[Meshbuilder] 
+Vertex -2.49,4.45,0
+Vertex -2.49,4.45,25.5
+Vertex -2.49,-1,25.5
+Vertex -2.49,-1,0
+Face 0,1,2,3
+[Texture]
+Load murogallluce.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[Meshbuilder] 
+Vertex 6.49,4.45,0
+Vertex 6.49,4.45,26
+Vertex 6.49,-1,26
+Vertex 6.49,-1,0
+Face2 3,2,1,0
+[Texture]
+Load murogallluce.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1

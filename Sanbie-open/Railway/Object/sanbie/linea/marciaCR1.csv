@@ -1,0 +1,28 @@
+CreateMeshBuilder,
+AddVertex,3.0, 0.5, 0,
+AddVertex,3.0, 0.5, 25.3,
+AddVertex,2.5, 0.5, 25.3,
+AddVertex,2.5, 0.5, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,marcstaz2.bmp,
+SetTextureCoordinates,0, 1, 1,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,3.0, -0.3, 0,
+AddVertex,3.0, 0.5, 0,
+AddVertex,2.5, 0.5, 0,
+AddVertex,2.5, -0.3, 0,
+AddFace,3, 2, 1, 0,
+GenerateNormals,
+
+LoadTexture,altmarciap.bmp,
+SetTextureCoordinates,0, 2, 1,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+

@@ -1,0 +1,15 @@
+
+;;;;;
+[MeshBuilder]
+Vertex -20, -0.2, -0.4
+Vertex -20, 3.0, -0.4
+Vertex 20, 3.0, -0.4
+Vertex 20, -0.2, -0.4
+Face2 0,1,2,3
+[Texture]
+Load brick06.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,15,0
+Coordinates 3,15,1
+

@@ -1,0 +1,125 @@
+
+
+[MeshBuilder]
+Vertex  2.0,  0,24.7
+Vertex 20.0, 10,24.7
+Vertex 20.0, 10,-0.3
+Vertex  2.0,  0,-0.3
+Face 0,1,2,3
+translate 4,0,0,0
+[Texture]
+Load verde.bmp
+Coordinates 0,0,10
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,10
+
+[Meshbuilder] 
+Vertex 20, 10,0
+Vertex  2, 0,0
+Vertex  2, 0,0
+Vertex 20, 0,0
+Face 3,2,1,0
+translate 4,0,0,0
+[Texture]
+Load verde.bmp
+Coordinates 0,0,0
+Coordinates 1,15,0
+Coordinates 2,15,15
+Coordinates 3,0,15
+
+[Meshbuilder] 
+Vertex  11, 6,23
+Vertex  6, 6,23
+Vertex  6, 1,23
+Vertex  11, 1,23
+Face 3,2,1,0
+[Texture]
+Load cespuglio.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+[Meshbuilder] 
+Vertex 14, 8,10
+Vertex  9, 8,10
+Vertex  9, 3,10
+Vertex 14, 3,10
+Face 3,2,1,0
+[Texture]
+Load cespuglio.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+[Meshbuilder] 
+Vertex 19, 12,18
+Vertex 14, 12,18
+Vertex 14, 6,18
+Vertex 19, 6,18
+Face 3,2,1,0
+[Texture]
+Load cespuglio.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+[Meshbuilder] 
+Vertex  11, 6,19
+Vertex  6, 6,19
+Vertex  6, 1,19
+Vertex  11, 1,19
+Face 3,2,1,0
+[Texture]
+Load cespuglio.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+[Meshbuilder] 
+Vertex 14, 8,13
+Vertex  9, 8,13
+Vertex  9, 3,13
+Vertex 14, 3,13
+Face 3,2,1,0
+[Texture]
+Load cespuglio.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+[Meshbuilder] 
+Vertex 19, 12,5
+Vertex 14, 12,5
+Vertex 14, 6,5
+Vertex 19, 6,5
+Face 3,2,1,0
+[Texture]
+Load cespuglio.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0,0,255
+
+[MeshBuilder]
+Vertex  -1.8,  0.3,24.7
+Vertex  -2.2, 0.3,24.7
+Vertex  -2.2, 0.3,-0.3
+Vertex  -1.8,  0.3,-0.3
+Face 3,2,1,0
+translate 8,0,0,0
+color 192,192,192
+[MeshBuilder]
+Vertex  -2.2,  -0.3 ,24.7
+Vertex  -2.2,   0.3,24.7
+Vertex  -2.2,   0.3,-0.3
+Vertex  -2.2,  -0.3 ,-0.3
+Face 0,1,2,3
+translate 8,0,0,0
+color 192,192,192

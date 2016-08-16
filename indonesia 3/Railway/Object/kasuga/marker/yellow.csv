@@ -1,0 +1,20 @@
+CreateMeshBuilder
+AddVertex,0.35, 0.56,0.09
+AddVertex,0.35, 0,0.09
+AddVertex,0, 0,0.09
+AddVertex,0, 0.56,0.09
+AddFace,0,1,2,3
+GenerateNormals
+Setcolor,251,176,4
+Translate,-2.17,1,0
+
+
+CreateMeshBuilder
+AddVertex,0.03, 1,0.1 
+AddVertex,0.03, -1.5,0.1
+AddVertex,0, -1.5,0.1
+AddVertex,0, 1,0.1
+AddFace,1,2,3,0
+GenerateNormals
+SetColor ,20,20,20
+Translate,-2,

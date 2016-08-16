@@ -1,0 +1,13 @@
+CreateMeshBuilder,,,,
+AddVertex,-450,-0.5,25,
+AddVertex,450,-0.5,25,
+AddVertex,450,-1,-25,
+AddVertex,-450,-1,-25,
+AddFace,0,1,2,3
+GenerateNormals,,,,
+
+LoadTexture,grass1.bmp,,,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,60,0,
+SetTextureCoordinates,2,60,2,
+SetTextureCoordinates,3,0,2,

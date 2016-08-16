@@ -1,0 +1,126 @@
+;tetõ
+[MeshBuilder]
+vertex -1.5,4.5,25
+vertex 0,4.2,25
+vertex 1.1,4.0,25
+vertex 1.8,3.5,25
+vertex -1.5,4.5,0
+vertex 0,4.2,0
+vertex 1.1,4.0,0
+vertex 1.8,3.5,0
+;ideiglenes
+vertex 1.80,3.5,25
+vertex 2,3.2,25
+vertex 1.80,3.5,0
+vertex 2,3.2,0
+face 0,4,5,1
+face 1,5,6,2
+face 2,6,7,3
+face 11,9,8,10
+Load teto.bmp
+coordinates 0,0,0
+coordinates 1,0,16
+coordinates 2,0,16
+coordinates 3,0,16
+coordinates 4,16,0
+coordinates 5,16,0
+coordinates 6,16,0
+coordinates 7,16,1
+coordinates 8,0,0
+coordinates 9,0,16
+coordinates 10,16,16
+coordinates 11,16,1
+;világítás tetõn
+[MeshBuilder]
+vertex -4.2,4.8,25
+vertex -1.5,4.5,25
+vertex -4.2,4.8,0
+vertex -1.5,4.5,0
+face 0,2,3,1
+Load vilagitas.bmp
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,16,0
+coordinates 3,16,1
+
+;bal tetõ
+[MeshBuilder]
+vertex -4.65,3.5,0
+vertex -4.2,4.8,0
+vertex -4.2,4.8,25
+vertex -4.65,3.5,25
+face 0,1,2,3
+color 96,0,0
+
+;világítás oldalt
+[MeshBuilder]
+vertex -4.65,3.5,0
+vertex -4.65,3.5,25
+vertex -5.15,3.5,25
+vertex -5.15,3.5,0
+face 0,1,2,3
+Load vilagitas2.bmp
+coordinates 0,1,8
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,8
+
+;peron
+[MeshBuilder]
+Vertex -7.8,1.1,0
+Vertex -7.8,1.1,25
+Vertex -2.35,1.1,25
+Vertex -2.35,1.1,0
+Face 0,1,2,3
+[Texture]
+Load peron.bmp
+Coordinates 0,2.5,20
+Coordinates 1,2.5,0
+Coordinates 2,0,0
+Coordinates 3,0,20
+;sáv
+[MeshBuilder]
+Vertex -1.45,1.1,0
+Vertex -1.45,1.1,25
+Vertex -2.25,1.1,25
+Vertex -2.25,1.1,0
+Face 3,2,1,0
+[Texture]
+Load sav.bmp
+Coordinates 0,0,600
+Coordinates 1,0,0
+Coordinates 2,24,0
+Coordinates 3,24,600
+[MeshBuilder]
+Vertex -2.245,1.1,0
+Vertex -2.245,1.1,25
+Vertex -2.355,1.1,25
+Vertex -2.355,1.1,0
+Face 3,2,1,0
+color 192,192,192
+
+[MeshBuilder]
+Vertex -1.7,-0.3,0
+Vertex -1.7,-0.3,25
+Vertex -1.7,1.09,25
+Vertex -1.7,1.09,0
+Face 3,2,1,0
+[Texture]
+Load peronoldal.bmp
+Coordinates 0,12,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,12,0
+
+;oldalszéle
+[MeshBuilder]
+Vertex -1.45,1.1,0
+Vertex -1.45,1.1,25
+Vertex -1.45,.9,25
+Vertex -1.45,.9,0
+;elejeszéle
+Vertex -5,.9,0
+Vertex -5,1.1,0
+Face 0,1,2,3
+Face 4,5,0,3
+color 96,96,96

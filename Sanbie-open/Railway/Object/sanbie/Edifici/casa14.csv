@@ -1,0 +1,298 @@
+;; fronte
+CreateMeshBuilder,
+AddVertex,-23,5.8,-7,
+AddVertex,0,5.8,-7,
+AddVertex,0,2.5,-7,
+AddVertex,-23,2.5,-7,
+Addface, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,casa14a.bmp,
+SetTextureCoordinates,0,-1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,-1,1,
+
+;lato
+CreateMeshBuilder,
+AddVertex,0,5.8,-7,
+AddVertex,0,5.8,2,
+AddVertex,0,2.5,2,
+AddVertex,0,2.5,-7,
+Addface, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,casa14a.bmp,
+SetTextureCoordinates,0,-0.5,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,-0.5,1,
+
+CreateMeshBuilder,
+AddVertex,-23,5.8,-7,
+AddVertex,-23,5.8,2,
+AddVertex,-23,2.5,2,
+AddVertex,-23,2.5,-7,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,casa14a.bmp,
+SetTextureCoordinates,0,-0.5,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,-0.5,1,
+
+
+
+
+
+;fronte alto
+CreateMeshBuilder,
+AddVertex,-14,9.5,-4,
+AddVertex,-9,9.5,-4,
+AddVertex,-9,7,-4,
+AddVertex,-14,7,-4,
+Addface, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,casa14.bmp,
+SetTextureCoordinates,0,-1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,-1,1,
+
+;alto lato
+CreateMeshBuilder,
+AddVertex,-9,9.5,-4,
+AddVertex,-9,9.5,2,
+AddVertex,-9,7,2,
+AddVertex,-9,7,-4,
+Addface, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,casa14.bmp,
+SetTextureCoordinates,0,-1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,-1,1,
+
+CreateMeshBuilder,
+AddVertex,-14,9.5,-4,
+AddVertex,-14,9.5,2,
+AddVertex,-14,7,2,
+AddVertex,-14,7,-4,
+Addface2, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,casa14.bmp,
+SetTextureCoordinates,0,-1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,-1,1,
+
+
+
+
+;tettoa
+CreateMeshBuilder,
+AddVertex,-25,8.5,-3,
+AddVertex,-13,8.5,-3,
+AddVertex,-13,5.4,-8,
+AddVertex,-25,5.4,-8,
+Addface, 0,1,2,3
+SetColor,180,105,105,
+GenerateNormals,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,2,0,
+
+CreateMeshBuilder,
+AddVertex,-25,5.4,2.5,
+AddVertex,-13,5.4,2.5,
+AddVertex,-13,8.5,-3,
+AddVertex,-25,8.5,-3,
+Addface2, 0,1,2,3
+SetColor,180,105,105,
+GenerateNormals,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,2,0,
+
+
+
+
+
+;tettob
+CreateMeshBuilder,
+AddVertex,-10,8.5,-3,
+AddVertex,2,8.5,-3,
+AddVertex,2,5.4,-8,
+AddVertex,-10,5.4,-8,
+Addface, 0,1,2,3
+SetColor,180,105,105,
+GenerateNormals,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,2,0,
+
+CreateMeshBuilder,
+AddVertex,-10,5.4,2.5,
+AddVertex,2,5.4,2.5,
+AddVertex,2,8.5,-3,
+AddVertex,-10,8.5,-3,
+Addface2, 0,1,2,3
+SetColor,180,105,105,
+GenerateNormals,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,2,0,
+
+
+
+;tettoc
+CreateMeshBuilder,
+AddVertex,-16,7.5,-3,
+AddVertex,-9,7.5,-3,
+AddVertex,-9,5.7,-7.1,
+AddVertex,-16,5.7,-7.1,
+Addface, 0,1,2,3
+SetColor,180,105,105,
+GenerateNormals,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,2,0,
+
+
+;;tettod
+CreateMeshBuilder,
+AddVertex,-14.5,11,-1,
+AddVertex,-8.5,11,-1,
+AddVertex,-8.5,9.4,-4.2
+AddVertex,-14.5,9.4,-4.2,
+Addface, 0,1,2,3
+SetColor,180,105,105,
+GenerateNormals,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,2,0,
+
+CreateMeshBuilder,
+AddVertex,-14.5,9.4,2.2,
+AddVertex,-8.5,9.4,2.2,
+AddVertex,-8.5,11,-1
+AddVertex,-14.5,11,-1,
+Addface2, 0,1,2,3
+SetColor,180,105,105,
+GenerateNormals,
+
+LoadTexture,kawara.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,1,
+SetTextureCoordinates,2,2,1,
+SetTextureCoordinates,3,2,0,
+
+
+CreateMeshBuilder ;pilastro1
+Cylinder,6,0.15,0.15,3
+Translate,-24.8,3.95,-7.8
+SetColor,160,160,160
+
+CreateMeshBuilder ;pilastro2
+Cylinder,6,0.15,0.15,3
+Translate,-19,3.95,-7.8
+SetColor,160,160,160
+
+CreateMeshBuilder ;pilastro3
+Cylinder,6,0.15,0.15,3
+Translate,-14.5,3.95,-7.8
+SetColor,160,160,160
+
+CreateMeshBuilder ;pilastro4
+Cylinder,6,0.15,0.15,3
+Translate,-9,3.95,-7.8
+SetColor,160,160,160
+
+CreateMeshBuilder ;pilastro5
+Cylinder,6,0.15,0.15,3
+Translate,-3.5,3.95,-7.8
+SetColor,160,160,160
+
+CreateMeshBuilder ;pilastro6
+Cylinder,6,0.15,0.15,3
+Translate,1.8,3.95,-7.8
+SetColor,160,160,160
+
+
+CreateMeshBuilder ;pilastro7
+Cylinder,6,0.15,0.15,3
+Translate,1.8,3.95,2
+SetColor,160,160,160
+
+CreateMeshBuilder ;pilastro8
+Cylinder,6,0.15,0.15,3
+Translate,-24.8,3.95,2
+SetColor,160,160,160
+
+
+
+;; piano fronte
+CreateMeshBuilder,
+AddVertex,-26,2.5,-8,
+AddVertex,2,2.5,-8,
+AddVertex,2,2.5,2,
+AddVertex,-26,2.5,2,
+Addface2, 0,1,2,3
+SetColor,100,100,100
+GenerateNormals,
+
+
+;prato
+;; fronte
+CreateMeshBuilder,
+AddVertex,-26,2.5,-8,
+AddVertex,2,2.5,-8,
+AddVertex,6,-1,-15,
+AddVertex,-30,-1,-15,
+Addface, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,..\alberi\grass2.bmp,
+SetTextureCoordinates,0,3,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,3,1,
+
+;lato
+;; fronte
+CreateMeshBuilder,
+AddVertex,2,2.5,-8,
+AddVertex,2,2.5,2,
+AddVertex,6,-1,6,
+AddVertex,6,-1,-15,
+Addface, 0,1,2,3
+GenerateNormals,
+
+LoadTexture,..\alberi\grass2.bmp,
+SetTextureCoordinates,0,3,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,3,1,
+

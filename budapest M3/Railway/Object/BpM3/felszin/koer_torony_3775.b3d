@@ -1,0 +1,21 @@
+;Kõér utca torony 3775
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+[MeshBuilder]
+Vertex -5.86,-1.0,0
+Vertex  5.86,-1.0,0
+Vertex -5.86,63.5,0
+Vertex  5.86,63.5,0
+Face 0,2,3,1
+[Texture]
+Load koer_torony.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Transparent 0,0,255
+Translate -01.77,0,590
+
+;--------------------------------------

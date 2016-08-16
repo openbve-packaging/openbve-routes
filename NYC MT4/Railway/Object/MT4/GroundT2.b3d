@@ -1,0 +1,16 @@
+[MeshBuilder]
+Vertex -120, 0, 30
+Vertex 120, 0, 30
+Vertex 120, -0.01, 0
+Vertex -120, -0.01, 0
+Face 0, 1, 2, 3
+
+Color 166,166,166
+
+[Texture]
+;Load Grass.bmp
+Load Concrete.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

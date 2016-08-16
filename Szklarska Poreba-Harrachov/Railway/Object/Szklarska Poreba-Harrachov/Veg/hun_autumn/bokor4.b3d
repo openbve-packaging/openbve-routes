@@ -1,0 +1,33 @@
+;-----------------------------------
+;--------------Bokor----------------
+;-----------------------------------
+
+;bokor
+
+[Meshbuilder]
+vertex  4,0, 2.5
+vertex -4,0, 2.5
+vertex -4,14,2.5
+vertex  4,14,2.5
+face2 0,1,2,3
+
+load woody_species17_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,
+
+[Meshbuilder]
+vertex 0,0,  7
+vertex 0,0, -2
+vertex 0,14,-2
+vertex 0,14, 7
+face2 0,1,2,3
+
+load woody_species17_1.png
+Coordinates 0,1,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+transparent 0,0,0,

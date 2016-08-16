@@ -1,0 +1,98 @@
+
+
+CreateMeshBuilder
+AddVertex, 17.5, 6.3, 0.1
+AddVertex, 17.5, 7.4, 0.1
+AddVertex, 28.6, 7.4, 0.1
+AddVertex, 28.6,6.3, 0.1
+AddFace, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole3.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,8,0,
+SetTextureCoordinates,3,8,1,
+GenerateNormals,,,,
+Translate,-10.2
+
+
+
+
+
+CreateMeshBuilder
+AddVertex, 6.5, 6.3, 0.1
+AddVertex, 6.5, 7.4, 0.1
+AddVertex, 17.62, 7.4, 0.1
+AddVertex, 17.62,6.3, .1
+AddFace, 0, 1, 2, 3
+GenerateNormals
+LoadTexture,pole3.bmp
+SetDecalTransparentColor, 0,0,255
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,1,8,0,
+SetTextureCoordinates,0,8,1,
+Translate,-10.2
+
+CreateMeshBuilder
+AddVertex, -3.7, -.3, -.1
+AddVertex, -3.7, 7.4, -.1
+AddVertex, -3.3, 7.4, -.1
+AddVertex, -3.3,-.3, -.1
+
+AddVertex, -3.7, -.3, -.5
+AddVertex, -3.7, 7.4, -.5
+AddVertex, -3.3, 7.4, -.5
+AddVertex, -3.3,-.3,  -.5
+
+AddFace, 0, 1, 2, 3
+AddFace, 4,5,6,7
+AddFace2, 4,5,1,0
+AddFace2, 6,7,3,2
+GenerateNormals
+LoadTexture,pole1.bmp
+SetDecalTransparentColor, 0,0,255
+Setcolor,100,100,100
+SetTextureCoordinates,3,0,12,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,0,1,12,
+
+SetTextureCoordinates,7,1,12,
+SetTextureCoordinates,6,1,0,
+SetTextureCoordinates,5,2,0,
+SetTextureCoordinates,4,2,12,
+
+
+CreateMeshBuilder
+AddVertex, -3.7, -.3, -.1
+AddVertex, -3.7, 7.4, -.1
+AddVertex, -3.3, 7.4, -.1
+AddVertex, -3.3,-.3, -.1
+
+AddVertex, -3.7, -.3, -.5
+AddVertex, -3.7, 7.4, -.5
+AddVertex, -3.3, 7.4, -.5
+AddVertex, -3.3,-.3,  -.5
+
+AddFace, 0, 1, 2, 3
+AddFace, 4,5,6,7
+AddFace2, 4,5,1,0
+AddFace2, 6,7,3,2
+GenerateNormals
+LoadTexture,pole1.bmp
+SetDecalTransparentColor, 0,0,255
+Setcolor,100,100,100
+SetTextureCoordinates,3,0,12,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,0,1,12,
+
+SetTextureCoordinates,7,1,12,
+SetTextureCoordinates,6,1,0,
+SetTextureCoordinates,5,2,0,
+SetTextureCoordinates,4,2,12,
+Translate,21.6,0,0
+
+

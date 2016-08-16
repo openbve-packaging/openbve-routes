@@ -1,0 +1,46 @@
+;Northern Line
+;www.Trainsimcentral.co.uk
+;This Object (C) Steve Green 
+
+CreateMeshbuilder,
+AddVertex,-9.3, 3.9, 0
+AddVertex,-4.8, 3.9, 0
+AddVertex,-4.8, -0.5, 0
+AddVertex,-9.3, -0.5, 0
+AddVertex,-4.8, 3.9, 9
+AddVertex,-4.8, -0.2, 9
+AddFace,0,1,2,3
+AddFace,1,4,5,2
+GenerateNormals,
+LoadTexture,wf8.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,4,2,0,
+SetTextureCoordinates,5,2,1,
+CreateMeshBuilder,
+AddVertex,-9.3,8,6,
+AddVertex,-9.3,0,6,
+AddVertex,-17,0,3,
+AddVertex,-17,8,3,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../tree2.png,
+SetTextureCoordinates,0,00,0,
+SetTextureCoordinates,1,00,1,
+SetTextureCoordinates,2,01,1,
+SetTextureCoordinates,3,01,0,
+SetDecalTransparentColor,0,0,0,
+CreateMeshBuilder,
+Addvertex,-9.3, 0, -20,
+Addvertex,-9.3, 0, 1,
+Addvertex,-5, -0.3, 1,
+Addvertex,-5, -0.3, -20,
+AddFace,0,1,2,3,
+GenerateNormals,
+LoadTexture,../ballast.png,
+SetTextureCoordinates,0, 2, 7,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 7,

@@ -1,0 +1,121 @@
+;(c) pre-zli
+
+[Meshbuilder]
+Vertex -1.45,2.7,0
+Vertex -1.00,2.7,0
+Vertex -1.00,0.9,0
+Vertex -1.45,0.9,0
+Face2 0,1,2,3
+[Texture]
+Load utas_01.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Transparent 255,0,0
+translate 0,0.2,-24
+
+[Meshbuilder]
+Vertex -1.35,2.7,0
+Vertex -0.45,2.7,0
+Vertex -0.45,0.9,0
+Vertex -1.35,0.9,0
+Face2 0,1,2,3
+[Texture]
+Load utas_02.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Transparent 255,0,0
+translate 0,0.2,-20.5
+
+[Meshbuilder]
+Vertex -1.50,2.7,0
+Vertex -1.05,2.7,0
+Vertex -1.05,0.9,0
+Vertex -1.50,0.9,0
+Face2 0,1,2,3
+[Texture]
+Load utas_03.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Transparent 255,0,0
+translate 0,0.2,-18.25
+
+[Meshbuilder]
+Vertex -1.35,2.7,0
+Vertex -0.90,2.7,0
+Vertex -0.90,0.9,0
+Vertex -1.35,0.9,0
+Face2 0,1,2,3
+[Texture]
+Load utas_04.bmp
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,1,1
+Transparent 255,0,0
+translate 0,0.2,-14
+
+[Meshbuilder]
+Vertex -1.35,2.7,0
+Vertex -0.90,2.7,0
+Vertex -0.90,0.9,0
+Vertex -1.35,0.9,0
+Face2 0,1,2,3
+[Texture]
+Load utas_05.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 255,0,0
+translate 0,0.2,-11.20
+
+[Meshbuilder]
+Vertex -1.15,2.7,0
+Vertex -0.25,2.7,0
+Vertex -0.25,0.9,0
+Vertex -1.15,0.9,0
+Face2 0,1,2,3
+[Texture]
+Load utas_06.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 255,0,0
+translate 0,0.2,-8.00
+
+[Meshbuilder]
+Vertex -1.95,2.7,0
+Vertex -1.05,2.7,0
+Vertex -1.05,0.9,0
+Vertex -1.95,0.9,0
+Face2 0,1,2,3
+[Texture]
+Load utas_07.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 255,0,0
+translate 0,0.2,-5.30
+
+[Meshbuilder]
+Vertex -2.35,2.7,0
+Vertex -1.45,2.7,0
+Vertex -1.45,0.9,0
+Vertex -2.35,0.9,0
+Face2 0,1,2,3
+[Texture]
+Load utas_08.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 255,0,0
+translate 0,0.2,-2.50

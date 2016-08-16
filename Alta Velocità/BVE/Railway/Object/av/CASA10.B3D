@@ -1,0 +1,46 @@
+;lato sinistro
+[MeshBuilder]
+Vertex -30,0,25
+Vertex -30,61,25
+Vertex -30,61,-50
+Vertex -30,0,-50
+Face 0,1,2,3
+[Texture]
+Load casa10.bmp
+Coordinates 0,0,5
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,5
+
+
+;lato destro 
+[MeshBuilder]
+Vertex 30,0,25
+Vertex 30,61,25
+Vertex 30,61,-50
+Vertex 30,0,-50
+Face 3,2,1,0
+[Texture]
+Load casa10.bmp
+Coordinates 0,0,5
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,5
+
+
+;fronte
+[MeshBuilder]
+Vertex -30,0,-50
+Vertex -30,61,-50
+Vertex  30,61,-50
+Vertex  30,0,-50
+Face 0,1,2,3
+[Texture]
+Load casa10.bmp
+Coordinates 0,0,5
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,5
+
+
+

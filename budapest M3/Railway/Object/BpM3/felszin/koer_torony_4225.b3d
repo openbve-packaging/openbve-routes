@@ -1,0 +1,38 @@
+;Kõér utca torony 4225
+;Készítette: http://www.bvemetro.hu/
+
+;--------------------------------------
+
+[MeshBuilder]
+Vertex -7.99,-1.0,0
+Vertex  7.99,-1.0,0
+Vertex -7.99,86.9,0
+Vertex  7.99,86.9,0
+Face 0,2,3,1
+[Texture]
+Load koer_torony.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,0,0
+Coordinates 3,1,0
+Transparent 0,0,255
+Translate 287.06,0,590
+
+;--------------------------------------
+
+;kerítés szemben
+
+[MeshBuilder]
+;jobb oldal
+Vertex 06.00, -01.250, -00.15
+Vertex 06.00,  01.300, -00.15
+Vertex 26.00,  01.300, -00.15
+Vertex 26.00, -01.250, -00.15
+Face2 0,1,2,3
+[Texture]
+Load kerites_01.bmp
+Coordinates 0, 00.00, 01.00
+Coordinates 1, 00.00, 00.00
+Coordinates 2, 08.00, 00.00
+Coordinates 3, 08.00, 01.00
+color 192,192,192

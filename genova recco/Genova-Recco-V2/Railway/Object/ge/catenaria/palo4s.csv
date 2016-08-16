@@ -1,0 +1,215 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;I cassa
+;;base
+CreateMeshBuilder
+cylinder, 3, 0.0650, 0.110, 8.7,
+translate, -2.4,3.8, ,    
+GenerateNormals,
+
+LoadTexture,palo.bmp,
+SetTextureCoordinates,0, 0.5, 0,
+SetTextureCoordinates,1, 0.5, 1,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+SetTextureCoordinates,4, 1,0,
+SetTextureCoordinates,5, 1, 1,
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CreateMeshBuilder ; Mensola
+cylinder, 3, 0.05, 0.05, 18,
+rotate, 0,0,1,90
+translate, 1.6,6,
+setcolor,135,135,120
+GenerateNormals,
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CreateMeshBuilder ; Tirante sx
+cylinder, 3, 0.02, 0.02, 4.2
+rotate, 0,0,1,-73.5
+translate, -4.4,6.65,
+setcolor,135,135,120
+GenerateNormals,
+
+CreateMeshBuilder ; Tirante centro
+cylinder, 3, 0.02, 0.02, 3.8
+rotate, 0,0,1,70
+translate, -0.55,6.65,
+setcolor,135,135,120
+GenerateNormals,
+
+CreateMeshBuilder ; Tirante dx
+cylinder, 3, 0.02, 0.02, 11.8
+rotate, 0,0,1,84
+translate, 3.405,6.65,
+setcolor,135,135,120
+GenerateNormals,
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CreateMeshBuilder ; Zampa di ragno sx
+Addvertex,  -1.55, 5.99, 0
+Addvertex,   0.15, 5.99, 0
+Addvertex,   0.15, 5, 0
+Addvertex,  -1.55, 5, 0
+Addface2, 0,1,2,3
+translate,-1.58
+translate, -4.62
+GenerateNormals,
+loadtexture, mensola.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+
+
+
+CreateMeshBuilder ; sosp
+Addvertex,  -0.15, 6.7, 0
+Addvertex,   0.15, 6.7, 0
+Addvertex,   0.15, 6, 0
+Addvertex,  -0.15, 6, 0
+Addface2, 0,1,2,3
+translate,-1.6
+translate, -4.62
+GenerateNormals,
+loadtexture, sosp.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+CreateMeshBuilder ; Zampa di ragno centro
+Addvertex,  -1.55, 5.99, 0
+Addvertex,   0.15, 5.99, 0
+Addvertex,   0.15, 5, 0
+Addvertex,  -1.55, 5, 0
+Addface2, 0,1,2,3
+translate,-1.58
+translate, 3.39
+GenerateNormals,
+loadtexture, mensola.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+
+
+
+CreateMeshBuilder ; sosp
+Addvertex,  -0.15, 6.7, 0
+Addvertex,   0.15, 6.7, 0
+Addvertex,   0.15, 6, 0
+Addvertex,  -0.15, 6, 0
+Addface2, 0,1,2,3
+translate,-1.6
+translate, 3.39
+GenerateNormals,
+loadtexture, sosp.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+CreateMeshBuilder ; Zampa di ragno destra
+Addvertex,  -1.55, 5.99, 0
+Addvertex,   0.15, 5.99, 0
+Addvertex,   0.15, 5, 0
+Addvertex,  -1.55, 5, 0
+Addface2, 0,1,2,3
+translate,-1.58
+translate, 7.39
+GenerateNormals,
+loadtexture, mensola.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+
+
+
+CreateMeshBuilder ; sosp
+Addvertex,  -0.15, 6.7, 0
+Addvertex,   0.15, 6.7, 0
+Addvertex,   0.15, 6, 0
+Addvertex,  -0.15, 6, 0
+Addface2, 0,1,2,3
+translate,-1.6
+translate, 7.39
+GenerateNormals,
+loadtexture, sosp.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+CreateMeshBuilder ; Zampa di ragno destra
+Addvertex,  -1.55, 5.99, 0
+Addvertex,   0.15, 5.99, 0
+Addvertex,   0.15, 5, 0
+Addvertex,  -1.55, 5, 0
+Addface2, 0,1,2,3
+translate,-1.58
+translate, 11.39
+GenerateNormals,
+loadtexture, mensola.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+
+
+
+CreateMeshBuilder ; sosp
+Addvertex,  -0.15, 6.7, 0
+Addvertex,   0.15, 6.7, 0
+Addvertex,   0.15, 6, 0
+Addvertex,  -0.15, 6, 0
+Addface2, 0,1,2,3
+translate,-1.6
+translate, 11.39
+GenerateNormals,
+loadtexture, sosp.bmp
+SetDecaltransparentcolor,0,0,0,
+SetTextureCoordinates, 0, 0, 0
+SetTextureCoordinates, 1, 1, 0 
+SetTextureCoordinates, 2, 1, 1
+SetTextureCoordinates, 3, 0.0, 1
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;basamento
+CreateMeshBuilder,
+AddVertex, -0.615, -0.25, -0.915,
+AddVertex,  0.815, -0.25, -0.915,
+AddVertex,  0.815, -0.25,  0.615,
+AddVertex, -0.615, -0.25,  0.615,
+AddVertex, -0.025,     0, -0.325,  ;;;
+AddVertex,  0.225,     0, -0.325,
+AddVertex,  0.225,     0,  0.025, ;;;
+AddVertex, -0.025,     0,  0.025, ;;;
+translate,-2.5,-0.15,0.1
+AddFace, 3, 2, 6, 7,
+AddFace, 4, 5, 1, 0,
+AddFace, 0, 3, 7, 4,
+AddFace, 5, 6, 2, 1,
+AddFace, 7, 6, 5, 4,
+setcolor,134,132,120
+GenerateNormals,

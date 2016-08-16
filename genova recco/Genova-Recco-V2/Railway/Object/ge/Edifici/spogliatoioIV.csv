@@ -1,0 +1,54 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+;;;;localino
+
+CreateMeshBuilder,
+AddVertex,0, 0, 0,
+AddVertex,0, 3, 0,
+AddVertex,5, 3, 0,
+AddVertex,5, 0, 0,
+addface,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,spogliatoioIV.bmp,
+SetTextureCoordinates,0, 0.28, 1,
+SetTextureCoordinates,1, 0.28, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,5, 0, 20,
+AddVertex,5, 3, 20,
+AddVertex,0, 3, 20,
+AddVertex,0, 0, 20,
+addface,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,spogliatoioIV.bmp,
+SetTextureCoordinates,0, 0.28, 1,
+SetTextureCoordinates,1, 0.28, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 1,
+
+
+CreateMeshBuilder,
+AddVertex,0, 0, 20,
+AddVertex,0, 3, 20,
+AddVertex,0, 3, 0,
+AddVertex,0, 0, 0,
+addface,0, 1, 2, 3,
+GenerateNormals,
+
+LoadTexture,spogliatoioIV.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3,1, 1,
+
+CreateMeshBuilder,
+cube,2.7, 0.1, 10.2,
+translate, 2.5, 3, 10
+GenerateNormals,
+setcolor,125,125,125

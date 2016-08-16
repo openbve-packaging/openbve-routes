@@ -1,0 +1,142 @@
+; Road over Surrey Quays, and the roof created from the bottom of station
+; building
+[MeshBuilder] ; roof underside
+Vertex 27,5.3,-10
+Vertex 27,5.3,-25
+Vertex -23,5.3,25
+Vertex -23,5.3,40
+Face 1,0,3,2
+Color 0,0,0
+
+[Meshbuilder] ; LU building
+Vertex 13,11,5
+Vertex 13,5.3,5
+Vertex -7,5.3,25
+Vertex -7,11,25
+Face 0,1,2,3
+[Texture]
+load sq-brick.bmp
+Coordinates 0,16,0
+Coordinates 1,16,4
+Coordinates 2,0,4
+Coordinates 3,0,0
+
+[Meshbuilder] ; something to jam up your bottom sir?
+Vertex 12,15,7
+Vertex 12,12,7
+Vertex 9,12,9
+Vertex 9,15,9
+Face 0,1,2,3
+[Texture]
+load lu-sign.bmp
+Coordinates 0,1,0
+Coordinates 1,1,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 12,15,7
+Vertex 12,12,7
+Vertex 9,12,9
+Vertex 9,15,9
+Vertex 12,15,7.2
+Vertex 12,12,7.2
+Vertex 9,12,9.2
+Vertex 9,15,9.2
+Face 1,5,6,2
+Face 4,5,1,0
+Face 3,2,6,7
+Color 255,255,255
+
+[Meshbuilder]
+Vertex 10.7,12.5,8
+Vertex 10.7,9,8
+Vertex 10.3,9,8.2
+Vertex 10.3,12.5,8.2
+Vertex 10.7,12.5,8.2
+Vertex 10.7,9,8.2
+Vertex 10.3,9,8.4
+Vertex 10.3,12.5,8.4
+Face 0,1,2,3
+Face 3,2,6,7
+Face 4,5,1,0
+Color 255,255,255
+
+[Meshbuilder] ; Some trees sir? Very good sir..
+Vertex -7,15,25
+Vertex -7,5.3,25
+Vertex -30,5.3,48
+Vertex -30,15,48
+Face 0,1,2,3
+[Texture]
+load special\tree.bmp
+Coordinates 0,6,0
+Coordinates 1,6,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 0,0,0
+
+[Meshbuilder] ; Go awwwn... iss onlee waffer theen...
+Vertex 40,15,-22
+Vertex 40,5.3,-22
+Vertex 19,5.3,-1
+Vertex 19,15,-1
+Face 0,1,2,3
+[Texture]
+load special\tree.bmp
+Coordinates 0,6,0
+Coordinates 1,6,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 0,0,0
+
+[Meshbuilder] ; If sir were dead I would not attempt to serve sir..
+Vertex 19,15,-1
+Vertex 19,5.3,-1
+Vertex 19,5.3,40
+Vertex 19,15,40
+Face 0,1,2,3
+[Texture]
+load special\tree.bmp
+Coordinates 0,10,0
+Coordinates 1,10,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 0,0,0
+
+[Meshbuilder] ; edge of road
+Vertex 27,7.5,-25
+Vertex 27,5.3,-25
+Vertex -23,5.3,25
+Vertex -23,7.5,25
+Face 0,1,2,3
+[Texture]
+load sandstone.bmp
+Coordinates 0,25,0
+Coordinates 1,25,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder] ; edge of road
+Vertex 27,8.5,-25.1
+Vertex 27,7.1,-25.1
+Vertex -23,7.1,24.9
+Vertex -23,8.5,24.9
+Face 0,1,2,3
+[Texture]
+load fence.bmp
+Coordinates 0,50,0
+Coordinates 1,50,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder] ; station building induced roof
+Vertex 10,5.3,6
+Vertex 10,5.3,25
+Vertex -10,5.3,25
+Vertex -10,5.3,15
+Vertex -4,5.3,6
+Face 0,1,2,3,4
+Color 0,0,0
+

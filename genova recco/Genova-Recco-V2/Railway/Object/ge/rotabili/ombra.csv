@@ -1,0 +1,13 @@
+CreateMeshBuilder;;;ombra
+AddVertex,-1.6,0.25,-15.5;;;
+AddVertex,1.6,0.25,-15.5;;;
+AddVertex,1.6,0.25,-0.25;;;
+AddVertex,-1.6,0.25,-0.25;;;
+AddFace,3,2,1,0;;;
+LoadTexture,ombraR1.png;;;
+SetTextureCoordinates,0,1,0;;;
+SetTextureCoordinates,1,1,1;;;
+SetTextureCoordinates,2,0,1;;;
+SetTextureCoordinates,3,0,0;;;
+;;;
+TranslateAll,0,0,7.875;;;

@@ -1,0 +1,14 @@
+
+CreateMeshBuilder
+Addvertex,4.5,1,0
+Addvertex,4.5,2.5,0
+Addvertex,4.5,2.5,25
+Addvertex,4.5,1,25
+AddFace,0,3,2,1
+GenerateNormals
+
+LoadTexture,saku05.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,6,0
+SetTextureCoordinates,3,6,1

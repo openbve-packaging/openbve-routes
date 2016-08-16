@@ -1,0 +1,135 @@
+﻿;Datei automatisch erstellt von SWITCH - (C) 2002 Ruediger Huelsmann
+
+;Bogendaten:
+;Radius: 50.000
+;X-Abweichung: 6.384
+;Winkel: 14.324
+;Rail(x)-Objekt: j
+;Oberleitung: nein
+
+;--angepaßt an Tramgleissystem Neustadt---
+;--Viertelkreis: 78m (75m, 3x Gleisstück)-
+
+[meshbuilder];Kopf links
+vertex -0.751, 0, -0.292
+vertex -0.674, 0, -0.272
+vertex -1.752, 0, 4.715
+vertex -1.674, 0, 4.735
+vertex -2.240, 0, 9.748
+vertex -2.163, 0, 9.767
+vertex -2.234, 0, 14.905
+vertex -2.156, 0, 14.925
+vertex -1.719, 0, 20.190
+vertex -1.642, 0, 20.209
+vertex -0.703, 0, 25.204
+vertex -0.626, 0, 25.223
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+color 224,224,224
+[meshbuilder];Rille links
+vertex -0.751, -0.02, -0.292
+vertex -0.574, -0.02, -0.272
+vertex -1.752, -0.02, 4.715
+vertex -1.574, -0.02, 4.735
+vertex -2.240, -0.02, 9.748
+vertex -2.063, -0.02, 9.767
+vertex -2.234, -0.02, 14.905
+vertex -2.056, -0.02, 14.925
+vertex -1.719, -0.02, 20.190
+vertex -1.542, -0.02, 20.209
+vertex -0.703, -0.02, 25.204
+vertex -0.526, -0.02, 25.223
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+color 0,0,0
+
+[meshbuilder];Kopf rechts
+vertex  0.723, 0, 0.079
+vertex  0.800, 0, 0.098
+vertex -0.278, 0, 5.086
+vertex -0.200, 0, 5.105
+vertex -0.766, 0, 10.118
+vertex -0.689, 0, 10.138
+vertex -0.760, 0, 15.276
+vertex -0.682, 0, 15.295
+vertex -0.245, 0, 20.560
+vertex -0.168, 0, 20.580
+vertex  0.771, 0, 24.774
+vertex  0.848, 0, 24.794
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+color 224,224,224
+
+[meshbuilder];Rille rechts
+vertex  0.623, -0.02, 0.079
+vertex  0.800, -0.02, 0.098
+vertex -0.378, -0.02, 5.086
+vertex -0.200, -0.02, 5.105
+vertex -0.866, -0.02, 10.118
+vertex -0.689, -0.02, 10.138
+vertex -0.860, -0.02, 15.276
+vertex -0.682, -0.02, 15.295
+vertex -0.345, -0.02, 20.560
+vertex -0.168, -0.02, 20.580
+vertex  0.671, -0.02, 24.774
+vertex  0.848, -0.02, 24.794
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+color 0,0,0
+
+
+
+[meshbuilder];-Pflaster-
+vertex -1.685, -0.04, -0.426
+vertex  1.734, -0.04, 0.232
+vertex -2.685, -0.04, 4.581
+vertex  0.733, -0.04, 5.239
+vertex -3.174, -0.04, 9.614
+vertex  0.245, -0.04, 10.272
+vertex -3.167, -0.04, 14.771
+vertex  0.251, -0.04, 15.429
+vertex -2.653, -0.04, 20.056
+vertex  0.766, -0.04, 20.714
+vertex -1.737, -0.04, 25.070
+vertex  2.082, -0.04, 25.728
+face 2, 3, 1, 0
+face 4, 5, 3, 2
+face 6, 7, 5, 4
+face 8, 9, 7, 6
+face 10, 11, 9, 8
+[texture]
+load Kopfsteinpflaster.bmp
+coordinates 0, 1.02, 10
+coordinates 1, -0.02, 10
+coordinates 2, 1.02, 8
+coordinates 3, -0.02, 8
+coordinates 4, 1.02, 6
+coordinates 5, -0.02, 6
+coordinates 6, 1.02, 4
+coordinates 7, -0.02, 4
+coordinates 8, 1.02, 2
+coordinates 9, -0.02, 2
+coordinates 10, 1.02, 0
+coordinates 11, -0.02, 0
+
+;----------Oberleitung-----------
+
+[MeshBuilder];-Fahrleitung-
+Vertex  0.02, 5.1, 0
+Vertex  0.02, 5.1, 25.2
+Vertex -0.02, 5.1, 25.2
+Vertex -0.02, 5.1, 0
+Face2 0,1,2,3
+Color 48,40,32

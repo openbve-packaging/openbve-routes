@@ -1,0 +1,164 @@
+lato sinistro
+[MeshBuilder]
+Vertex -1.3,0,15
+Vertex -1.3,6,15
+Vertex -1.3,6,-0.3
+Vertex -1.3,0,-0.3
+Face 0,1,2,3
+[Texture]
+Load e444lato.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;lato destro 
+[MeshBuilder]
+Vertex 1.3,0,15
+Vertex 1.3,6,15
+Vertex 1.3,6,-0.3
+Vertex 1.3,0,-0.3
+Face2 3,2,1,0
+[Texture]
+Load e444lato.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;fronte1
+[Meshbuilder]
+Vertex -1.3, 2.2, -0.3 ; alto
+Vertex -1.3, 3.75, 0.8  : alto
+Vertex  1.3, 3.75, 0.8
+Vertex  1.3, 2.2, -0.3
+Face 0,1,2,3
+[Texture]
+Load e444fronte1.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;fronte2
+[Meshbuilder]
+Vertex -1.3, 1.5,-0.3
+Vertex -1.3, 2.2, -0.3 ; alto
+Vertex  1.3, 2.2, -0.3
+Vertex  1.3, 1.5,-0.3
+Face 0,1,2,3
+[Texture]
+Load e444fronte2.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+;fronte3
+[Meshbuilder]
+vertex -1.3,   0, 0.47
+Vertex -1.3, 1.5,-0.2
+Vertex  1.3, 1.5,-0.2
+vertex  1.3,   0, 0.47
+Face 0,1,2,3
+[Texture]
+Load e444fronte3.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+transparent 0,0,255
+
+[Meshbuilder]
+Vertex  -0.5, 5.8, 4.7
+Vertex  -0.5, 5.8, 0.7
+Vertex  -0.5, 3.8, 0.7
+Vertex  -0.5, 3.8, 4.7
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load pantlato.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0, 0, 0
+
+
+[Meshbuilder]
+Vertex  0.5,5.8 , 4.7
+Vertex  0.5,5.8 , 0.7
+Vertex  0.5,3.8 , 0.7
+Vertex  0.5,3.8 , 4.7
+Face 0,1,2,3
+Face 3,2,1,0
+[Texture]
+Load pantlato.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0, 0, 0
+
+
+[Meshbuilder]
+Vertex  -2.6,3.8 , 2.7
+Vertex  -2.6,4.6 , 0.7
+Vertex   0.5,4.6 , 0.7
+Vertex   0.5,3.8 , 2.7
+Face 0,1,2,3
+[Texture]
+Load pantfrontebasso.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0, 0, 0
+
+[Meshbuilder]
+Vertex  -2.6,4.6 , 0.7
+Vertex  -2.6,5.4 , 2.7
+Vertex   0.6,5.4 , 2.7
+Vertex   0.6,4.6 , 0.7
+Face 0,1,2,3
+[Texture]
+Load pantfrontealto.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0, 0, 0
+
+
+[Meshbuilder]
+Vertex  -2.6,3.8 , 2.7
+Vertex  -2.6,4.6 , 4.7
+Vertex   0.6,4.6 , 4.7
+Vertex   0.6,3.8 , 2.7
+Face 0,1,2,3
+[Texture]
+Load pantfrontebasso.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0, 0, 0
+
+[Meshbuilder]
+Vertex  -2.6,4.6 , 4.7
+Vertex  -2.6,5.4 , 2.7
+Vertex   0.6,5.4 , 2.7
+Vertex   0.6,4.6 , 4.7
+Face 0,1,2,3
+[Texture]
+Load pantfrontealto.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+transparent 0, 0, 0
+

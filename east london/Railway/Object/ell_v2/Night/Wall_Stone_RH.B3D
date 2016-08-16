@@ -1,0 +1,66 @@
+[Meshbuilder]
+Vertex 2.7,8,25.3
+Vertex 2.7,-0.405,25.3
+Vertex 2.7,-0.405,0
+Vertex 2.7,8,0
+Face 3,2,1,0
+[Texture]
+load stonea.bmp
+Coordinates 0,25,0
+Coordinates 1,25,7
+Coordinates 2,0,7
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 6,12,25.3
+Vertex 6,8,25.3
+Vertex 6,8,-0.3
+Vertex 6,12,-0.3
+Face 3,2,1,0
+[Texture]
+load factoryside.bmp
+Coordinates 0,5,0
+Coordinates 1,5,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 2.7,9.2,25.2
+Vertex 2.7,7.8,25.2
+Vertex 2.7,7.8,-0.2
+Vertex 2.7,9.2,-0.2
+Face 3,2,1,0
+load fence.bmp
+Coordinates 0,20,0
+Coordinates 1,20,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255
+
+[Meshbuilder]
+Vertex 0,-0.405,25.3
+Vertex 0,-0.405,0
+Vertex 2.7,-0.405,0
+Vertex 2.7,-0.405,25.3
+Face 3,2,1,0
+Color 64,64,64
+[Texture]
+load stonewall.bmp
+Coordinates 0,2,0
+Coordinates 1,2,25
+COordinates 2,0,25
+Coordinates 3,0,0
+
+[Meshbuilder]
+Vertex 2.6,2.8,25.3
+Vertex 2.6,1.8,25.3
+Vertex 2.6,1.8,0
+Vertex 2.6,2.8,0
+Face 3,2,1,0
+[Texture]
+load side-cables.bmp
+Coordinates 0,25,0
+Coordinates 1,25,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 255,0,255

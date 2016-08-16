@@ -1,0 +1,9 @@
+[Object]
+Position = 0, 0, 0.3
+States = tripcock_r.csv
+
+[Object]
+position = -0.236,-0.1,1.5
+States = tripcock_arm.csv
+RotatexFunction = -(section != 0) * 0.7
+RotatexDamping = 10, 1

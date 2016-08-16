@@ -1,0 +1,129 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+;;;nicchia sx
+CreateMeshBuilder,
+AddVertex,0, 5.8, 0,
+AddVertex,-2.41, 5.8, 0,
+AddVertex,-2.41, 5.16, 0,
+AddVertex,-2.51, 4.04, 0,
+AddVertex,-2.51, 1.66, 0,
+AddVertex,-2.41, -0.9, 0,
+AddVertex,, 5.8, 26,
+AddVertex,-2.4, 5.8, 26,
+AddVertex,-2.4, 5.16, 26,
+AddVertex,-2.5, 4.04, 26,
+AddVertex,-2.5, 1.66, 26,
+AddVertex,-2.4, -0.9, 26,
+
+AddFace,5, 4, 10, 11,
+GenerateNormals,
+
+LoadTexture,zigzag2.bmp,
+SetTextureCoordinates,4, 0, 0,
+SetTextureCoordinates,5, 0, 1,
+SetTextureCoordinates,10, -1, 0,
+SetTextureCoordinates,11, -1, 1,
+
+
+;;;nicchia dx
+
+CreateMeshBuilder,
+AddVertex,0, 5.8, 0,
+AddVertex,2.41, 5.8, 0,
+AddVertex,2.41, 5.16, 0,
+AddVertex,2.51, 4.04, 0,
+AddVertex,2.51, 1.66, 0,
+AddVertex,2.41, -0.9, 0,
+AddVertex,0, 5.8, 26,
+AddVertex,2.4, 5.8, 26,
+AddVertex,2.4, 5.16, 26,
+AddVertex,2.5, 4.04, 26,
+AddVertex,2.5, 1.66, 26,
+AddVertex,2.4, -0.9, 26,
+AddFace,11, 10, 4, 5,
+
+GenerateNormals,
+
+LoadTexture,zigzag2.bmp,
+SetTextureCoordinates,4, 0, 0,
+SetTextureCoordinates,5, 0, 1,
+SetTextureCoordinates,10, -1, 0,
+SetTextureCoordinates,11, -1, 1,
+
+
+
+
+
+
+
+
+
+
+CreateMeshBuilder,
+AddVertex,0, 5.8, 0,
+AddVertex,-0.641, 5.8, 0,
+AddVertex,-1.77, 5.16, 0,
+AddVertex,-2.51, 4.04, 0,
+AddVertex,-2.51, 1.66, 0,
+AddVertex,-1.64, -0.9, 0,
+AddVertex,0, 5.8, 26,
+AddVertex,-0.64, 5.8, 26,
+AddVertex,-1.76, 5.16, 26,
+AddVertex,-2.5, 4.04, 26,
+AddVertex,-2.5, 1.66, 26,
+AddVertex,-1.63, -0.9, 26,
+AddFace,1, 0, 6, 7,
+AddFace,2, 1, 7, 8,
+AddFace,3, 2, 8, 9,
+AddFace,4, 3, 9, 10,
+
+GenerateNormals,
+
+LoadTexture,interno2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 0.2,
+SetTextureCoordinates,2, 0, 0.4,
+SetTextureCoordinates,3, 0, 0.6,
+SetTextureCoordinates,4, 0, 0.8,
+SetTextureCoordinates,5, 0, 1,
+SetTextureCoordinates,6, -1, 0,
+SetTextureCoordinates,7, -1, 0.2,
+SetTextureCoordinates,8, -1, 0.4,
+SetTextureCoordinates,9, -1, 0.6,
+SetTextureCoordinates,10, -1, 0.8,
+SetTextureCoordinates,11, -1, 1,
+
+
+CreateMeshBuilder,
+AddVertex,0, 5.8, 0,
+AddVertex,0.65, 5.8, 0,
+AddVertex,1.77, 5.16, 0,
+AddVertex,2.51, 4.04, 0,
+AddVertex,2.51, 1.66, 0,
+AddVertex,1.64, -0.9, 0,
+AddVertex,0, 5.8, 26,
+AddVertex,0.64, 5.8, 26,
+AddVertex,1.76, 5.16, 26,
+AddVertex,2.5, 4.04, 26,
+AddVertex,2.5, 1.66, 26,
+AddVertex,1.63, -0.9, 26,
+AddFace,7, 6, 0, 1,
+AddFace,8, 7, 1, 2,
+AddFace,9, 8, 2, 3,
+AddFace,10, 9, 3, 4,
+GenerateNormals,
+
+LoadTexture,interno2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 0.2,
+SetTextureCoordinates,2, 0, 0.4,
+SetTextureCoordinates,3, 0, 0.6,
+SetTextureCoordinates,4, 0, 0.8,
+SetTextureCoordinates,5, 0, 1,
+SetTextureCoordinates,6, -1, 0,
+SetTextureCoordinates,7, -1, 0.2,
+SetTextureCoordinates,8, -1, 0.4,
+SetTextureCoordinates,9, -1, 0.6,
+SetTextureCoordinates,10, -1, 0.8,
+SetTextureCoordinates,11, -1, 1,

@@ -1,0 +1,181 @@
+;Mirrored with BVE File Converter
+;Scaled with BVE File Converter
+CreateMeshbuilder,
+Cube, 1.35 ,  0.072 ,  0.72 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,50,50,0,
+
+CreateMeshbuilder,  ;;wheel
+AddVertex,-0.45 ,  0 ,  0 ,
+AddVertex,-0.45 ,  0.9 ,  0 ,
+AddVertex, 0.45 ,  0.9 ,  0 ,
+AddVertex, 0.45 ,  0 ,  0 ,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture, wheel.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+Translate, 0.81 , -1.08 ,  0.684 ,
+CreateMeshbuilder,
+Cylinder, 20 , -0.425 , -0.425 ,  0.09 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,20,
+ROtate, 1 ,  0 ,  0 ,-90 
+Translate, 0.819 , -0.63 ,  0.6426 ,
+
+CreateMeshbuilder,
+AddVertex,-0.45 ,  0 ,  0 ,
+AddVertex,-0.45 ,  0.9 ,  0 ,
+AddVertex, 0.45 ,  0.9 ,  0 ,
+AddVertex, 0.45 ,  0 ,  0 ,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture, wheel.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+Translate, 0.81 , -1.08 , -0.63 ,
+CreateMeshbuilder,
+Cylinder, 20 , -0.43 , -0.43 ,  0.1 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,20,
+ROtate, 1 ,  0 ,  0 ,-90 
+Translate, 0.819 , -0.63 , -0.67 ,
+
+CreateMeshbuilder,
+AddVertex,-0.45 ,  0 ,  0 ,
+AddVertex,-0.45 ,  0.9 ,  0 ,
+AddVertex, 0.45 ,  0.9 ,  0 ,
+AddVertex, 0.45 ,  0 ,  0 ,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture, wheel.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+Translate,-0.81 , -1.08 ,  0.684 ,
+CreateMeshbuilder,
+Cylinder, 20 , -0.43 , -0.43 ,  0.09 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,20,
+ROtate, 1 ,  0 ,  0 ,-90 
+Translate,-0.801 , -0.63 ,  0.6426 ,
+
+CreateMeshbuilder,
+AddVertex,-0.45 ,  0 ,  0 ,
+AddVertex,-0.45 ,  0.9 ,  0 ,
+AddVertex, 0.45 ,  0.9 ,  0 ,
+AddVertex, 0.45 ,  0 ,  0 ,
+AddFace,3,2,1,0,
+GenerateNormals,
+LoadTexture, wheel.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+Translate,-0.81 , -1.08 , -0.63 ,
+CreateMeshbuilder,
+Cylinder, 20 , -0.43 , -0.43 ,  0.09 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,20,
+ROtate, 1 ,  0 ,  0 ,-90 
+Translate,-0.801 , -0.63 , -0.6714 ,
+
+CreateMeshbuilder,  ;;axle
+Cylinder, 8 ,  0.027 ,  0.027 ,  1.44 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,60,60,0,
+ROtate, 1 ,  0 ,  0 ,-90 
+Translate, 0.819 , -0.63 ,  0.0405 ,
+
+CreateMeshbuilder,
+Cylinder, 8 ,  0.027 ,  0.027 ,  1.44 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,60,60,0,
+ROtate, 1 ,  0 ,  0 ,-90 
+Translate,-0.801 , -0.63 ,  0.0405 ,
+
+CreateMeshbuilder,  ;;axle support
+Cube, 0.027 ,  0.36 ,  0.036 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,0,
+ROtate, 0 ,  0 ,  1 ,30 
+Translate, 0.63 , -0.36 ,  0.45 ,
+
+CreateMeshbuilder,
+Cube, 0.027 ,  0.36 ,  0.036 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,0,
+ROtate, 0 ,  0 ,  1 ,30 
+Translate, 0.63 , -0.36 , -0.45 ,
+
+CreateMeshbuilder,
+Cube, 0.027 ,  0.36 ,  0.036 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,0,
+ROtate, 0 ,  0 ,  1 ,30 
+Translate,-0.99 , -0.36 ,  0.45 ,
+
+CreateMeshbuilder,
+Cube, 0.027 ,  0.36 ,  0.036 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,0,
+ROtate, 0 ,  0 ,  1 ,30 
+Translate,-0.99 , -0.36 , -0.45 ,
+
+CreateMeshbuilder,  
+Cube, 0.027 ,  0.36 ,  0.036 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,0,
+ROtate, 0 ,  0 ,  1 ,- 30 
+Translate, 0.99 , -0.36 ,  0.45 ,
+
+CreateMeshbuilder,
+Cube, 0.027 ,  0.36 ,  0.036 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,0,
+ROtate, 0 ,  0 ,  1 , -30 
+Translate, 0.99 , -0.36 , -0.45 ,
+
+CreateMeshbuilder,
+Cube, 0.027 ,  0.36 ,  0.036 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,0,
+ROtate, 0 ,  0 ,  1 ,-30 
+Translate,-0.63 , -0.36 ,  0.45 ,
+
+CreateMeshbuilder,
+Cube, 0.027 ,  0.36 ,  0.036 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,20,20,0,
+ROtate, 0 ,  0 ,  1 , -30 
+Translate,-0.63 , -0.36 , -0.45 ,
+
+CreateMeshbuilder,  ;;handle
+Cylinder, 8 ,  0.04 ,  0.04 ,  0.99 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,100,100,100,
+Translate, 1.305 ,  0.36 ,  0.729 ,
+
+CreateMeshbuilder,
+Cylinder, 8 ,  0.04 ,  0.04 ,  0.99 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,100,100,100,
+Translate, 1.305 ,  0.36 , -0.729 ,
+
+CreateMeshbuilder,
+Cylinder, 8 ,  0.04 ,  0.04 ,  1.485 ,
+Rotate, 0, 0, 1, 180,;This line added by BVE File Converter
+SetColor,100,100,100,
+ROtate, 1 ,  0 ,  0 ,-90 
+Translate, 1.305 ,  0.855 ,  0 ,
+
+

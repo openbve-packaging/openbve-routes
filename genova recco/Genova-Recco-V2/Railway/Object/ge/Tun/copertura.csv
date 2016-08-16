@@ -1,0 +1,31 @@
+; >>>>Route Genova-Recco<<<<
+; by Iacopo Di Battista - iacopo@wilinksolutions.it
+; & Eugenio Rago - brignolino@gmail.com
+
+; Rattoppo per muro sinistro galleria San Martino
+; da posizionare alla progressiva 3525
+
+CreateMeshBuilder,
+AddVertex,-2.6,-0.5,-3,
+AddVertex,-2.6,1.66,-3,
+AddVertex,-2.6,2.11,-3,
+AddVertex,-2.6,3.21593,-3,
+AddVertex,-2.6,4.245,-3,
+AddVertex,-2.6,5.1293,-3,
+AddVertex,-1.2,5.80793,-3,
+AddVertex,-2.00,-0.5,0.1,
+AddVertex,-2.35,1.66,0.1,
+AddVertex,-2.42,2.11,0.1,
+AddVertex,-2.27482,3.21593,0.1,
+AddVertex,-1.84793,4.245,0.1,
+AddVertex,-1.1693,5.1293,0.1,
+AddVertex,-0.285,5.80793,0.1,
+
+AddFace2,1,8,7,0
+AddFace2,2,9,8,1
+AddFace2,3,10,9,2
+AddFace2,4,11,10,3
+AddFace2,5,12,11,4
+AddFace2,6,13,12,5
+
+setcolor, 1,0,0,

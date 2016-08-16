@@ -1,0 +1,310 @@
+CreateMeshBuilder,
+AddVertex,-2.6, -0.6, 0,
+AddVertex,-1.9, -0.6, 0,
+AddVertex,-1.9, -1.5, 0,
+AddVertex, 8.9, -1.5, 0,
+AddVertex,-2.6, -0.6, 26,
+AddVertex,-1.9, -0.6, 26,
+AddVertex,-1.9, -1.5, 26,
+AddVertex, 8.9, -1.5, 26,;;;;;;;7
+AddVertex,9.6, -0.6, 0,
+AddVertex,8.9, -0.6, 0,
+AddVertex,8.9, -1.5, 0,
+AddVertex,9.6, -0.6, 26,
+AddVertex,8.9, -0.6, 26,
+AddVertex,8.9, -1.5, 26,
+AddFace2,0,1,5,4,
+AddFace2,1,2,6,5,
+AddFace2,2,3,7,6,
+AddFace2,8,9,12,11,
+AddFace2,9,10,13,12
+LoadTexture,../../Con2.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0.8,
+SetTextureCoordinates,2, 0, 1,
+SetTextureCoordinates,3, 0, 0.9,
+SetTextureCoordinates,4, 0, 0,
+SetTextureCoordinates,9, 3, 0,
+SetTextureCoordinates,8, 3, 0.8,
+SetTextureCoordinates,7, 3, 1,
+SetTextureCoordinates,6, 3, 0.9,
+SetTextureCoordinates,5, 3, 1,
+SetTextureCoordinates,10, 0, 0.5,
+SetTextureCoordinates,11, 0, 0,
+SetTextureCoordinates,12, 0, 0,
+SetTextureCoordinates,13, 0, 0.5,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.6,  1.5, 25.3,
+AddVertex,-2.6,  1.5, 0,
+AddVertex,-2.6, -0.6, 0,
+AddVertex,-2.6, -0.6, 25.3,
+AddFace2,0,1,2,3,
+LoadTexture,../../Road\saku12.bmp
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,2.6,  1.5, 25.3,
+AddVertex,2.6,  1.5, 0,
+AddVertex,2.6, -0.6, 0,
+AddVertex,2.6, -0.6, 25.3,
+AddFace2,0,1,2,3,
+LoadTexture,../../Road\saku12.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 6, 0,
+SetTextureCoordinates,2, 6, 1,
+SetTextureCoordinates,3, 0, 1,
+GenerateNormals,
+Translate,7,0,0
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,2.5, -0.6, 0,
+AddVertex,2.5, 1.5, 0,
+AddVertex,2.6, 1.5, 0,
+AddVertex,2.6, -0.6, 0,
+AddFace2,0, 1, 2, 3,
+SetColor,160, 160, 160,
+GenerateNormals,
+Translate,7,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2.6, -0.6, 0,
+AddVertex,-2.6, 1.5, 0,
+AddVertex,-2.5, 1.5, 0,
+AddVertex,-2.5, -0.6, 0,
+AddFace2,0, 1, 2, 3,
+SetColor,160, 160, 160,
+GenerateNormals,
+
+
+CreateMeshBuilder,
+AddVertex,-1.9, -1.2, 0
+AddVertex,-1.9, -1.2, 26.3
+AddVertex, 8.9, -1.2, 26.3
+AddVertex, 8.9, -1.2, 0
+AddFace2,0,1,2,3
+Setcolor,200,200,200
+LoadTexture,../../Road\road(K).bmp
+SetTextureCoordinates,0,0,5,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,5,
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-3, -2, 0
+AddVertex,-3,  4.2, 0
+AddVertex,-0.7,  4.2, 0
+AddVertex,-0.7, -2, 0
+AddFace2,0,1,2,3
+LoadTexture,../../Road\right2.bmp,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetEmissiveColor,155,155,155
+SetDecalTransparentColor,0,0,0
+GenerateNormals,
+Translate,0.7,1.5,0
+
+CreateMeshBuilder
+AddVertex,3, -2, 0
+AddVertex,3,  4.2, 0
+AddVertex,0.7,  4.2, 0
+AddVertex,0.7, -2, 0
+AddFace2,3,2,1,0
+LoadTexture,../../Road\right2.bmp
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,0,0
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1
+SetEmissiveColor,155,165,155
+SetDecalTransparentColor,0,0,0
+GenerateNormals
+Translate,6.3,1.5,0
+
+CreateMeshBuilder,
+AddVertex,3.05, -1.25, 0
+AddVertex,3.05, -0.43, 0
+AddVertex,3.87, -0.43, 0
+AddVertex,3.87, -1.25, 0
+AddVertex,3.87, -1.25, 24
+AddVertex,3.87, -0.43, 24
+AddVertex,3.05, -0.43, 24
+AddVertex,3.05, -1.25, 24
+AddFace2,7,6,1,0
+AddFace2,6,5,2,1
+AddFace2,5,4,3,2
+AddFace2,0,1,2,3
+Setcolor,170,170,170
+LoadTexture,../../../bg1.bmp
+SetTextureCoordinates,0   ,0,0
+SetTextureCoordinates,1   ,0.8,0
+SetTextureCoordinates,2   ,0.5,0
+SetTextureCoordinates,3   ,0,0
+SetTextureCoordinates,4   ,0,2
+SetTextureCoordinates,5   ,0.5,2
+SetTextureCoordinates,6   ,0.8,2
+SetTextureCoordinates,7   ,0,2
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1.85, -1.55, 0
+AddVertex,8.85, -1.55, 0
+AddVertex,8.85, -15.40, 0
+AddVertex,-1.85, -15.40, 0
+AddFace2,0,1,2,3
+LoadTexture,../../bridge\BridgeA.bmp
+SetTextureCoordinates,0   ,1,0
+SetTextureCoordinates,1   ,0,0
+SetTextureCoordinates,2   ,0,1
+SetTextureCoordinates,3   ,1,1
+SetDecalTransparentColor,0,0,255
+GenerateNormals,
+
+CreateMeshBuilder
+AddVertex,-0.35,-0.7262,-0.01
+AddVertex,-0.35,-0.5562,-0.01
+AddVertex,0.02,-0.4962,-0.01
+AddVertex,0.02,-0.6862,-0.01
+AddVertex,-0.35,-0.7262,0.01
+AddVertex,-0.35,-0.5562,0.01
+AddVertex,0.02,-0.4962,0.01
+AddVertex,0.02,-0.6862,0.01
+AddFace2,0,1,2,3
+AddFace2,4,5,6,7
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+SetTextureCoordinates,4,0.0,1.0
+SetTextureCoordinates,5,0.0,0.0
+SetTextureCoordinates,6,1.0,0.0
+SetTextureCoordinates,7,1.0,1.0
+LoadTexture,../glow_white.png
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive
+Translate,-0.19,6.18,0
+CreateMeshBuilder
+AddVertex,-0.35,-0.6962,-0.01
+AddVertex,-0.35,-0.5062,-0.01
+AddVertex,0.02,-0.5262,-0.01
+AddVertex,0.02,-0.7262,-0.01
+AddVertex,-0.35,-0.6962,0.01
+AddVertex,-0.35,-0.5062,0.01
+AddVertex,0.02,-0.5262,0.01
+AddVertex,0.02,-0.7262,0.01
+AddFace2,0,1,2,3
+AddFace2,4,5,6,7
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+SetTextureCoordinates,4,0.0,1.0
+SetTextureCoordinates,5,0.0,0.0
+SetTextureCoordinates,6,1.0,0.0
+SetTextureCoordinates,7,1.0,1.0
+LoadTexture,../glow_white.png
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive
+Translate,7.49,6.18,0
+CreateMeshBuilder
+AddVertex,-0.30,-0.8162,-0.01
+AddVertex,-0.30,-0.5562,-0.01
+AddVertex,0.02,-0.4962,-0.01
+AddVertex,0.02,-0.7562,-0.01
+AddFace2,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,../glow_whiteX.png
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,130,DivideExponent4
+scale,5,5,5
+Translate,0.49,8.96,0
+CreateMeshBuilder
+AddVertex,-0.30,-0.7562,-0.01
+AddVertex,-0.30,-0.4962,-0.01
+AddVertex,0.02,-0.5562,-0.01
+AddVertex,0.02,-0.8162,-0.01
+AddFace2,0,1,2,3
+SetTextureCoordinates,0,0.0,1.0
+SetTextureCoordinates,1,0.0,0.0
+SetTextureCoordinates,2,1.0,0.0
+SetTextureCoordinates,3,1.0,1.0
+LoadTexture,../glow_whiteX.png
+SetEmissiveColor,255,255,255
+SetBlendMode,Additive,130,DivideExponent4
+scale,5,5,5
+Translate,8.19,8.90,0
+
+CreateMeshBuilder
+AddVertex,-3.53, 0.3125,-8.5
+AddVertex,-3.53,-0.0125,-8.5
+AddVertex,-2.90,-0.0125,-8.5
+AddVertex,-2.90,-0.7125,-8.5
+AddVertex, 1.47,-0.7125,-8.5
+AddVertex, 1.47,-0.7125,-0.5
+AddVertex,-2.90,-0.7125,-0.5
+AddVertex,-2.90,-0.0125,-0.5
+AddVertex,-3.53,-0.0125,-0.5
+AddVertex,-3.53, 0.3125,-0.5
+AddFace2,0,1,8,9
+AddFace2,1,2,7,8
+AddFace2,2,3,6,7
+AddFace2,3,4,5,6
+SetTextureCoordinates,0,0.0,0.0
+SetTextureCoordinates,1,0.1,0.0
+SetTextureCoordinates,2,0.2,0.0
+SetTextureCoordinates,3,0.3,0.0
+SetTextureCoordinates,4,1.0,0.0
+SetTextureCoordinates,5,1.0,1.0
+SetTextureCoordinates,6,0.3,1.0
+SetTextureCoordinates,7,0.2,1.0
+SetTextureCoordinates,8,0.1,1.0
+SetTextureCoordinates,9,0.0,1.0
+LoadTexture,../glow_white.png
+setcolor,255,255,255,120
+SetEmissiveColor,85,85,85,
+SetBlendMode,Additive,30,DivideExponent2
+Translate,1.02,-0.43,5
+
+
+CreateMeshBuilder
+AddVertex,3.53, 0.3125,-8.5
+AddVertex,3.53,-0.0125,-8.5
+AddVertex,2.9,-0.0125,-8.5
+AddVertex,2.9,-0.7125,-8.5
+AddVertex,-1.47,-0.7125,-8.5
+AddVertex,-1.47,-0.7125,-0.5
+AddVertex,2.9,-0.7125,-0.5
+AddVertex,2.9,-0.0125,-0.5
+AddVertex,3.53,-0.0125,-0.5
+AddVertex,3.53, 0.3125,-0.5
+AddFace2,9,8,1,0
+AddFace2,8,7,2,1
+AddFace2,7,6,3,2
+AddFace2,6,5,4,3
+SetTextureCoordinates,0,0.0,0.0
+SetTextureCoordinates,1,0.1,0.0
+SetTextureCoordinates,2,0.2,0.0
+SetTextureCoordinates,3,0.3,0.0
+SetTextureCoordinates,4,1.0,0.0
+SetTextureCoordinates,5,1.0,1.0
+SetTextureCoordinates,6,0.3,1.0
+SetTextureCoordinates,7,0.2,1.0
+SetTextureCoordinates,8,0.1,1.0
+SetTextureCoordinates,9,0.0,1.0
+LoadTexture,../glow_white.png
+setcolor,255,255,255,120
+SetEmissiveColor,85,85,85
+SetBlendMode,Additive,30,DivideExponent2
+Translate,5.82,-0.43,5

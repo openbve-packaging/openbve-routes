@@ -1,0 +1,81 @@
+; (c) pre-zli
+
+[Meshbuilder]
+Cube 0.76, 0.025, 0.025
+Color 85, 50, 50
+Translate 0, -0.025, 0.025
+[Meshbuilder]
+Cube 0.76, 0.025, 0.025
+Color 85, 50, 50
+Translate 0, -0.025, 0.76
+[Meshbuilder]
+Cube 0.76, 0.025, 0.025
+Color 85, 50, 50
+Translate 0, 0.735, 0.025
+[Meshbuilder]
+Cube 0.025, 0.025, 0.38
+Color 85, 50, 50
+Translate -0.735, -0.025, 0.38
+[Meshbuilder]
+Cube 0.025, 0.025, 0.38
+Color 85, 50, 50
+Translate 0.735, -0.025, 0.38
+[Meshbuilder]
+Cube 0.025, 0.38, 0.025
+Color 85, 50, 50
+Translate -0.735, 0.355, 0.025
+[Meshbuilder]
+Cube 0.025, 0.38, 0.025
+Color 85, 50, 50
+Translate 0.735, 0.355, 0.025
+[Meshbuilder]
+Cube 0.025, 0.45, 0.025
+Color 85, 50, 50
+Rotate 1, 0, 0, -45
+Translate -0.735, 0.3, 0.35
+[Meshbuilder]
+Cube 0.025, 0.45, 0.025
+Color 85, 50, 50
+Rotate 1, 0, 0, -45
+Translate 0.735, 0.3, 0.35
+[Meshbuilder]
+Cube 1.2, 0.15, 0.05
+Color 32, 32, 32
+Translate 0, 0.735, -0.05
+[Meshbuilder]
+Cylinder 12, 0.05, 0.05, 1.5
+Color 85, 50, 50
+Translate 0, 0.65, 0.125
+
+[Meshbuilder]
+Cylinder 12, 0.055, 0.055, 0.1
+Color 105, 70, 70
+Translate 0, 1.25, 0.125
+
+[Meshbuilder]
+Vertex -0.25, 1.5, 0.06
+Vertex 0.25, 1.5, 0.06
+Vertex 0.25, 1, 0.06
+Vertex -0.25, 1, 0.06
+Face 0, 1, 2, 3
+[Texture]
+Load palyavege.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255
+
+[Meshbuilder]
+Vertex 0.25, 1.5, 0.06
+Vertex -0.25, 1.5, 0.06
+Vertex -0.25, 1, 0.06
+Vertex 0.25, 1, 0.06
+Face 0, 1, 2, 3
+[Texture]
+Load limithat.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0, 0, 255

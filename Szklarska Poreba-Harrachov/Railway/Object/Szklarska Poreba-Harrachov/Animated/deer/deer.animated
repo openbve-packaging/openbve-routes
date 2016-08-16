@@ -1,0 +1,5 @@
+[Object]
+States = deer1.b3d, deer2.b3d, deer3.b3d, deer4.b3d, deer5.b3d, deer6.b3d, deer7.b3d, deer8.b3d, deer9.b3d, deer10.b3d, deer11.b3d
+StateFunction = mod[value + 1, 11]
+RefreshRate = 0.05
+TranslateXFunction = if[trackDistance<=250 & trackdistance[-1]>(-25), mod[-5 * time, 300], 2]
